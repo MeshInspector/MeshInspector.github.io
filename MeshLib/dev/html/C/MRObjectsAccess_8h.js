@@ -1,14 +1,9 @@
 var MRObjectsAccess_8h =
 [
-    [ "MR_Object", "MRObjectsAccess_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
     [ "MR_ObjectSelectivityType", "MRObjectsAccess_8h.html#a59af93879ebdd85f9465fa18f8558998", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_Object", "MRObjectsAccess_8h.html#acc2f4e4d04631180d278fad84fbbc6cf", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap", "MRObjectsAccess_8h.html#acb36d23341ea6a57f478bf8ab3cbb672", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectLines", "MRObjectsAccess_8h.html#a4d579dbc5475dc25e3943a58b1d84886", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectLinesHolder", "MRObjectsAccess_8h.html#a01bf955f40873834f02f3f2dcd641c01", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectMesh", "MRObjectsAccess_8h.html#a4a64bdc6d260f63671c4a3296cca77c8", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder", "MRObjectsAccess_8h.html#a368be4c555d5f1592256a167548cd2df", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectPoints", "MRObjectsAccess_8h.html#a9ce2a71a3bbf5ba7357042e52780851c", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder", "MRObjectsAccess_8h.html#a5bab704707f5f5ccbae7d398b4310cbc", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels", "MRObjectsAccess_8h.html#a4f75187fb5feeeffabff5d778e7aebac", null ],
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject", "MRObjectsAccess_8h.html#a9a3bde7539329e99c0ca4a5bc4291d36", null ],

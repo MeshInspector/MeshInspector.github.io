@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cone" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Cone</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -172,18 +172,6 @@
 <para><verbatim>Generated from:  MR::ObjKindTraits&lt;MR::FeaturesObjectKind::Cone&gt;
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Cone</label>
-        <link refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cone"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>name</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38611" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38611" bodyend="38641"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cone_1a7be66c609eb84cddb7b647f539368ecc" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Cone</scope><name>__init__</name></member>

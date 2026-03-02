@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTreeBase" kind="class" language="C++" prot="public">
     <compoundname>MR::AABBTreeBase</compoundname>
-    <includes refid="MRAABBTreeBase_8h" local="no">MRAABBTreeBase.h</includes>
+    <includes refid="MRAABBTreeBase_8h" local="no">MRMesh/MRAABBTreeBase.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -54,7 +54,7 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="15" bodyend="64"/>
+    <location file="MRMesh/MRAABBTreeBase.h" line="14" column="1" bodyfile="MRMesh/MRAABBTreeBase.h" bodystart="15" bodyend="64"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga380c83540a90e46211318ad9752c2fd2" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>BoxT</name></member>
       <member refid="group__GeneralGroup_1gaac02049340231922a6b175c0900d88c9" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>getBoundingBox</name></member>

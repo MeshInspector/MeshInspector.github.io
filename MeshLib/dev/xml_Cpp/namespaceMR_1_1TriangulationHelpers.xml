@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1TriangulationHelpers" kind="namespace" language="C++">
     <compoundname>MR::TriangulationHelpers</compoundname>
     <innerclass refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" prot="public">MR::TriangulationHelpers::FanOptimizerQueueElement</innerclass>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="141" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="141" declcolumn="7"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="141" column="7" declfile="MRMesh/MRPointCloudTriangulationHelpers.h" declline="141" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1TriangulationHelpers_1a7c0d563c2b38463627552396d1943390" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; std::vector&lt; <ref refid="structMR_1_1SomeLocalTriangulations" kindref="compound">SomeLocalTriangulations</ref> &gt; &gt;</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="146" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="146" declcolumn="17"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="146" column="17" declfile="MRMesh/MRPointCloudTriangulationHelpers.h" declline="146" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1TriangulationHelpers_1ab287ce821d48fe623f355150ce7ccda3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; <ref refid="structMR_1_1AllLocalTriangulations" kindref="compound">AllLocalTriangulations</ref> &gt;</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="150" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="150" declcolumn="17"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="150" column="17" declfile="MRMesh/MRPointCloudTriangulationHelpers.h" declline="150" declcolumn="17"/>
       </memberdef>
       <member refid="group__TriangulationHelpersGroup_1ga379ef6cfbe1df486c3b9baf10d186c0b" kind="function"><name>isBoundaryPoint</name></member>
       <memberdef kind="function" id="namespaceMR_1_1TriangulationHelpers_1a411db16d5e4c2dbe23cd32a475579e0a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -123,13 +123,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="166" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="166" declcolumn="17"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="166" column="17" declfile="MRMesh/MRPointCloudTriangulationHelpers.h" declline="166" declcolumn="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="21" column="1"/>
+    <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="21" column="1"/>
   </compounddef>
 </doxygen>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1DragDropListener" kind="struct" language="C++" prot="public" abstract="yes">
     <compoundname>MR::DragDropListener</compoundname>
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
-    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewer/MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gaa474fef434b1551d773987884fe59e30" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1ga73c49f92cdcdaab7c5112daea50c40e7" kind="function"><name>~DragDropListener</name></member>
@@ -52,7 +52,7 @@
         <link refid="structMR_1_1IConnectable"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="197" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="198" bodyend="204"/>
+    <location file="MRViewer/MRViewerEventsListener.h" line="197" column="1" bodyfile="MRViewer/MRViewerEventsListener.h" bodystart="198" bodyend="204"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gacac4e33b1ea5f4c41dcccf27405cc711" prot="public" virt="virtual"><scope>MR::DragDropListener</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::DragDropListener</scope><name>connection_</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSphere_8h" kind="file" language="C++">
     <compoundname>MRSphere.h</compoundname>
     <includes refid="MRVector2_8h" local="no">MRCMesh/MRVector2.h</includes>
@@ -87,20 +87,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSphere.h" line="21" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSphere.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRSphere_8h_1aab1b39c2998e4a21d6d10c8e06ff9013" prot="public" static="no">
-        <type>struct <ref refid="MRFeatures_8h_1aab1b39c2998e4a21d6d10c8e06ff9013" kindref="member">MR_Sphere3f</ref></type>
-        <definition>typedef struct MR_Sphere3f MR_Sphere3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Sphere3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::Sphere3f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSphere.h" line="25" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSphere.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSphere_8h_1acdea71651e5fc44f5d0901833dedfecd" prot="public" static="no">
         <type>struct <ref refid="MRSphere_8h_1acdea71651e5fc44f5d0901833dedfecd" kindref="member">MR_Sphere3d</ref></type>
@@ -363,7 +349,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Sphere2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSphere_8h_1a1d76b7ed64d162206dfe50b01d029168" kindref="member">MR_Sphere2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -381,7 +367,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Sphere2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSphere_8h_1a1d76b7ed64d162206dfe50b01d029168" kindref="member">MR_Sphere2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -744,7 +730,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Sphere2d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSphere_8h_1afa1c6f9ae4fdc65a1135be69bdb908b1" kindref="member">MR_Sphere2d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -762,7 +748,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Sphere2d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSphere_8h_1afa1c6f9ae4fdc65a1135be69bdb908b1" kindref="member">MR_Sphere2d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1125,7 +1111,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Sphere3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFeatures_8h_1aab1b39c2998e4a21d6d10c8e06ff9013" kindref="member">MR_Sphere3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1143,7 +1129,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Sphere3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFeatures_8h_1aab1b39c2998e4a21d6d10c8e06ff9013" kindref="member">MR_Sphere3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1506,7 +1492,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Sphere3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSphere_8h_1acdea71651e5fc44f5d0901833dedfecd" kindref="member">MR_Sphere3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1524,7 +1510,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Sphere3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSphere_8h_1acdea71651e5fc44f5d0901833dedfecd" kindref="member">MR_Sphere3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1662,13 +1648,13 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRSphere_8h_1a1d76b7ed64d162206dfe50b01d029168" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSphere_8h_1a1d76b7ed64d162206dfe50b01d029168" kindref="member">MR_Sphere2f</ref><sp/><ref refid="MRSphere_8h_1a1d76b7ed64d162206dfe50b01d029168" kindref="member">MR_Sphere2f</ref>;</highlight></codeline>
+<codeline lineno="17" refid="MRSphere_8h_1a1d76b7ed64d162206dfe50b01d029168" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSphere_8h_1a1d76b7ed64d162206dfe50b01d029168" kindref="member">MR_Sphere2f</ref><sp/><ref refid="MRSphere_8h_1a1d76b7ed64d162206dfe50b01d029168" kindref="member">MR_Sphere2f</ref>;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRSphere_8h_1afa1c6f9ae4fdc65a1135be69bdb908b1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSphere_8h_1afa1c6f9ae4fdc65a1135be69bdb908b1" kindref="member">MR_Sphere2d</ref><sp/><ref refid="MRSphere_8h_1afa1c6f9ae4fdc65a1135be69bdb908b1" kindref="member">MR_Sphere2d</ref>;</highlight></codeline>
+<codeline lineno="21" refid="MRSphere_8h_1afa1c6f9ae4fdc65a1135be69bdb908b1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSphere_8h_1afa1c6f9ae4fdc65a1135be69bdb908b1" kindref="member">MR_Sphere2d</ref><sp/><ref refid="MRSphere_8h_1afa1c6f9ae4fdc65a1135be69bdb908b1" kindref="member">MR_Sphere2d</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MRSphere_8h_1aab1b39c2998e4a21d6d10c8e06ff9013" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatures_8h_1aab1b39c2998e4a21d6d10c8e06ff9013" kindref="member">MR_Sphere3f</ref><sp/><ref refid="MRFeatures_8h_1aab1b39c2998e4a21d6d10c8e06ff9013" kindref="member">MR_Sphere3f</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatures_8h_1aab1b39c2998e4a21d6d10c8e06ff9013" kindref="member">MR_Sphere3f</ref><sp/><ref refid="MRFeatures_8h_1aab1b39c2998e4a21d6d10c8e06ff9013" kindref="member">MR_Sphere3f</ref>;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRSphere_8h_1acdea71651e5fc44f5d0901833dedfecd" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSphere_8h_1acdea71651e5fc44f5d0901833dedfecd" kindref="member">MR_Sphere3d</ref><sp/><ref refid="MRSphere_8h_1acdea71651e5fc44f5d0901833dedfecd" kindref="member">MR_Sphere3d</ref>;</highlight></codeline>
+<codeline lineno="29" refid="MRSphere_8h_1acdea71651e5fc44f5d0901833dedfecd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSphere_8h_1acdea71651e5fc44f5d0901833dedfecd" kindref="member">MR_Sphere3d</ref><sp/><ref refid="MRSphere_8h_1acdea71651e5fc44f5d0901833dedfecd" kindref="member">MR_Sphere3d</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35" refid="MRSphere_8h_1a27c3cfcd06ec3d28c35c84bcb800b66f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRSphere_8h_1a27c3cfcd06ec3d28c35c84bcb800b66f" kindref="member">MR_Sphere2f_Get_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSphere_8h_1a1d76b7ed64d162206dfe50b01d029168" kindref="member">MR_Sphere2f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>

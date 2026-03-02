@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1FillHoleParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::FillHoleParams</compoundname>
-    <includes refid="MRMeshFillHole_8h" local="no">MRMeshFillHole.h</includes>
+    <includes refid="MRMeshFillHole_8h" local="no">MRMesh/MRMeshFillHole.h</includes>
     <sectiondef kind="public-type">
       <memberdef kind="enum" id="structMR_1_1FillHoleParams_1afe7c6c69a5bf27699758e71d19c43301" prot="public" static="no" strong="yes">
         <type></type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="51" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="52" bodyend="56"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="51" column="5" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="52" bodyend="56"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -59,7 +59,7 @@ default for <ref refid="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="31" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="31" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="31" column="20" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FillHoleParams_1abf9a5efac84779d01fd72d9f3d75dbc5" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -75,7 +75,7 @@ default for <ref refid="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="38" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="38" bodyend="38"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="38" column="10" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="38" bodyend="38"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FillHoleParams_1a1789bd574d007a370fe6164d4f5ca7c4" prot="public" static="no" mutable="no">
         <type>FaceBitSet *</type>
@@ -91,7 +91,7 @@ default for <ref refid="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="41" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="41" bodyend="41"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="41" column="16" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="41" bodyend="41"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FillHoleParams_1a2908ad53506526829bedf3831a1de80a" prot="public" static="no" mutable="no">
         <type>enum <ref refid="structMR_1_1FillHoleParams_1afe7c6c69a5bf27699758e71d19c43301" kindref="member">MR::FillHoleParams::MultipleEdgesResolveMode</ref></type>
@@ -105,7 +105,7 @@ default for <ref refid="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="56" column="62"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="56" column="62"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FillHoleParams_1a48c94df0c8cc044564e0e69c8f692c5a" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -123,7 +123,7 @@ default for <ref refid="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="61" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="61" bodyend="61"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="61" column="10" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="61" bodyend="61"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FillHoleParams_1a2fd7e4eb05eb26aa28ba98a886d22ce9" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -139,7 +139,7 @@ default for <ref refid="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="66" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="66" bodyend="66"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="66" column="9" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="66" bodyend="66"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FillHoleParams_1a61b0c71def508e84cfa3359e34b6029e" prot="public" static="no" mutable="no">
         <type>bool *</type>
@@ -155,7 +155,7 @@ default for <ref refid="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="73" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="73" bodyend="73"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="73" column="10" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="73" bodyend="73"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -182,7 +182,7 @@ Structure has some options to control <ref refid="group__FillHoleGroup_1gaea1098
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="25" column="1"/>
+    <location file="MRMesh/MRMeshFillHole.h" line="25" column="1" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="26" bodyend="74"/>
     <listofallmembers>
       <member refid="structMR_1_1FillHoleParams_1a48c94df0c8cc044564e0e69c8f692c5a" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>makeDegenerateBand</name></member>
       <member refid="structMR_1_1FillHoleParams_1a2fd7e4eb05eb26aa28ba98a886d22ce9" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>maxPolygonSubdivisions</name></member>

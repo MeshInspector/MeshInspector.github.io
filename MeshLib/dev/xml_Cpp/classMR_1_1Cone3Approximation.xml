@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Cone3Approximation" kind="class" language="C++" prot="public">
     <compoundname>MR::Cone3Approximation</compoundname>
-    <includes refid="MRConeApproximator_8h" local="no">MRConeApproximator.h</includes>
+    <includes refid="MRConeApproximator_8h" local="no">MRMesh/MRConeApproximator.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -34,7 +34,7 @@
     <detaileddescription>
 <para>Class for approximation cloud point by cone. We will calculate the initial approximation of the cone and then use a minimizer to refine the parameters. minimizer is LevenbergMarquardt now. TODO: Possible we could add GaussNewton in future. </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="150" bodyend="491"/>
+    <location file="MRMesh/MRConeApproximator.h" line="149" column="1" bodyfile="MRMesh/MRConeApproximator.h" bodystart="150" bodyend="491"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga534ae47637caf18b75d741f2a9936ca1" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>calculateConeHeight_</name></member>
       <member refid="group__GeneralGroup_1gaad362142860c8f5aeeee579fdb9c6a35" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>computeCenter_</name></member>

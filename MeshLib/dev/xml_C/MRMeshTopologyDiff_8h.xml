@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshTopologyDiff_8h" kind="file" language="C++">
     <compoundname>MRMeshTopologyDiff.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -33,19 +33,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRMeshTopologyDiff_8h_1ad396cf7d4433c5ba7924776f5b379c9b" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref></type>
-        <definition>typedef struct MR_MeshTopology MR_MeshTopology</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTopology</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTopologyDiff.h" line="13" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTopologyDiff.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRMeshTopologyDiff_8h_1afb771271bd7ea4404acabe3852d2a3c4" prot="public" static="no">
         <type>struct <ref refid="MRMeshTopologyDiff_8h_1afb771271bd7ea4404acabe3852d2a3c4" kindref="member">MR_MeshTopologyDiff</ref></type>
         <definition>typedef struct MR_MeshTopologyDiff MR_MeshTopologyDiff</definition>
@@ -196,7 +183,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshTopologyDiff</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshTopologyDiff_8h_1afb771271bd7ea4404acabe3852d2a3c4" kindref="member">MR_MeshTopologyDiff</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -214,7 +201,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MeshTopologyDiff</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshTopologyDiff_8h_1afb771271bd7ea4404acabe3852d2a3c4" kindref="member">MR_MeshTopologyDiff</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -324,10 +311,10 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRMeshTopologyDiff_8h_1ad396cf7d4433c5ba7924776f5b379c9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRMeshTopologyDiff_8h_1afb771271bd7ea4404acabe3852d2a3c4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshTopologyDiff_8h_1afb771271bd7ea4404acabe3852d2a3c4" kindref="member">MR_MeshTopologyDiff</ref><sp/><ref refid="MRMeshTopologyDiff_8h_1afb771271bd7ea4404acabe3852d2a3c4" kindref="member">MR_MeshTopologyDiff</ref>;</highlight></codeline>
+<codeline lineno="20" refid="MRMeshTopologyDiff_8h_1afb771271bd7ea4404acabe3852d2a3c4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshTopologyDiff_8h_1afb771271bd7ea4404acabe3852d2a3c4" kindref="member">MR_MeshTopologyDiff</ref><sp/><ref refid="MRMeshTopologyDiff_8h_1afb771271bd7ea4404acabe3852d2a3c4" kindref="member">MR_MeshTopologyDiff</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRMeshTopologyDiff_8h_1a1c141ad2bccf2bf4489a30a2acf6a553" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTopologyDiff_8h_1afb771271bd7ea4404acabe3852d2a3c4" kindref="member">MR_MeshTopologyDiff</ref><sp/>*<ref refid="MRMeshTopologyDiff_8h_1a1c141ad2bccf2bf4489a30a2acf6a553" kindref="member">MR_MeshTopologyDiff_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>

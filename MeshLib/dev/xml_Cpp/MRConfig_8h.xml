@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRConfig_8h" kind="file" language="C++">
     <compoundname>MRConfig.h</compoundname>
     <includes refid="MRViewportId_8h" local="yes">MRMesh/MRViewportId.h</includes>
@@ -29,7 +29,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRConfig.h</label>
+        <label>MRMesh/MRConfig.h</label>
         <link refid="MRConfig_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -334,13 +334,13 @@
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gabf9e7451b5087b4485b6207161438dc3" kindref="member">FileNamesStack</ref><sp/>=<sp/>std::vector&lt;std::filesystem::path&gt;;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="classMR_1_1Config" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Config" kindref="compound">Config</ref></highlight></codeline>
+<codeline lineno="20" refid="classMR_1_1Config" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaf88a45374cdd7fba22942c053afb27e5" kindref="member">Config</ref></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="23" refid="group__GeneralGroup_1gaf88a45374cdd7fba22942c053afb27e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf88a45374cdd7fba22942c053afb27e5" kindref="member">Config</ref>(<sp/><ref refid="classMR_1_1Config" kindref="compound">Config</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="24" refid="group__GeneralGroup_1gae8bd5243efd5066d7b24657c23126e25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae8bd5243efd5066d7b24657c23126e25" kindref="member">operator=</ref>(<sp/><ref refid="classMR_1_1Config" kindref="compound">Config</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1gaf88a45374cdd7fba22942c053afb27e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf88a45374cdd7fba22942c053afb27e5" kindref="member">Config</ref>(<sp/><ref refid="group__GeneralGroup_1gaf88a45374cdd7fba22942c053afb27e5" kindref="member">Config</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1gae8bd5243efd5066d7b24657c23126e25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae8bd5243efd5066d7b24657c23126e25" kindref="member">operator=</ref>(<sp/><ref refid="group__GeneralGroup_1gaf88a45374cdd7fba22942c053afb27e5" kindref="member">Config</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="group__GeneralGroup_1ga73830abcf99b15da080a920debbdc630" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Config" kindref="compound">Config</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga73830abcf99b15da080a920debbdc630" kindref="member">instance</ref>();</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga73830abcf99b15da080a920debbdc630" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf88a45374cdd7fba22942c053afb27e5" kindref="member">Config</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga73830abcf99b15da080a920debbdc630" kindref="member">instance</ref>();</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="group__GeneralGroup_1gad657373f26b8e6cf769236dbc021d204" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad657373f26b8e6cf769236dbc021d204" kindref="member">reset</ref>(<sp/>std::string<sp/>appName<sp/>);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
@@ -349,12 +349,12 @@
 <codeline lineno="36" refid="group__GeneralGroup_1gad79f990e09eb05bc1612bbe33406809d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad79f990e09eb05bc1612bbe33406809d" kindref="member">writeToFile</ref>();</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Config" kindref="compound">Config</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf88a45374cdd7fba22942c053afb27e5" kindref="member">Config</ref>();</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad657373f26b8e6cf769236dbc021d204" kindref="member">reset</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>filePath<sp/>);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Config" kindref="compound">~Config</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf88a45374cdd7fba22942c053afb27e5" kindref="member">~Config</ref>();</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -414,8 +414,8 @@
 <codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;spdlog::logger&gt;<sp/>loggerHandle_<sp/>=<sp/><ref refid="classMR_1_1Logger_1a17cd4b1f33ef615f3f1dedeef3c963bc" kindref="member">Logger::instance</ref>().<ref refid="classMR_1_1Logger_1afc826203d2b566cca300cf6126fcab39" kindref="member">getSpdLogger</ref>();</highlight></codeline>
 <codeline lineno="127"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h"/>
+    <location file="MRMesh/MRConfig.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1AABBTreePolyline2" prot="public" virt="non-virtual">mrmeshpy.AABBTreePolyline2</derivedcompoundref>
@@ -117,8 +117,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePolyline2_1a10857eb84a495b72782e339db424e562">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePolyline2_1af7603b03026c8d85e51f1ef7ab8c0fee">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -227,8 +225,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePolyline2_1a10857eb84a495b72782e339db424e562">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePolyline2_1af7603b03026c8d85e51f1ef7ab8c0fee">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -247,8 +243,6 @@
         <argsstring>(self, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePolyline2_1a10857eb84a495b72782e339db424e562">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePolyline2_1af7603b03026c8d85e51f1ef7ab8c0fee">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCombinedHistoryAction_8h" kind="file" language="C++">
     <compoundname>MRCombinedHistoryAction.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRHistoryAction_8h" local="yes">MRHistoryAction.h</includes>
     <includes local="no">memory</includes>
-    <includedby refid="MRChangeMeshDataAction_8h" local="yes">MRChangeMeshDataAction.h</includedby>
+    <includedby refid="MRChangeMeshDataAction_8h" local="yes">MRMesh/MRChangeMeshDataAction.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -14,7 +14,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRCombinedHistoryAction.h</label>
+        <label>MRMesh/MRCombinedHistoryAction.h</label>
         <link refid="MRCombinedHistoryAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -90,11 +90,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRChangeMeshDataAction.h</label>
+        <label>MRMesh/MRChangeMeshDataAction.h</label>
         <link refid="MRChangeMeshDataAction_8h"/>
       </node>
       <node id="1">
-        <label>MRCombinedHistoryAction.h</label>
+        <label>MRMesh/MRCombinedHistoryAction.h</label>
         <link refid="MRCombinedHistoryAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -116,10 +116,10 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="classMR_1_1CombinedHistoryAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1CombinedHistoryAction" kindref="compound">CombinedHistoryAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="14" refid="classMR_1_1CombinedHistoryAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="group__GeneralGroup_1ga5fb7a5b843198f03b6ba5100833f5b9f" kindref="member">CombinedHistoryAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1ga5fb7a5b843198f03b6ba5100833f5b9f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga5fb7a5b843198f03b6ba5100833f5b9f" kindref="member">CombinedHistoryAction</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;HistoryAction&gt;&gt;&amp;<sp/>actions<sp/>);</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga5fb7a5b843198f03b6ba5100833f5b9f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga5fb7a5b843198f03b6ba5100833f5b9f" kindref="member">CombinedHistoryAction</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="group__GeneralGroup_1ga59961c77016991a1c41b6f0c34545ee6" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;HistoryAction&gt;&gt;&amp;<sp/>actions<sp/>);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1ga59961c77016991a1c41b6f0c34545ee6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga59961c77016991a1c41b6f0c34545ee6" kindref="member">name</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override</highlight></codeline>
 <codeline lineno="21"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
@@ -144,6 +144,6 @@
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCombinedHistoryAction.h"/>
+    <location file="MRMesh/MRCombinedHistoryAction.h"/>
   </compounddef>
 </doxygen>

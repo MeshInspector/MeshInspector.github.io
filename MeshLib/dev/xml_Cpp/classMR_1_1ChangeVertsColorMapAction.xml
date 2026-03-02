@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeVertsColorMapAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ChangeVertsColorMapAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRChangeVertsColorMapAction_8h" local="no">MRChangeVertsColorMapAction.h</includes>
+    <includes refid="MRChangeVertsColorMapAction_8h" local="no">MRMesh/MRChangeVertsColorMapAction.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -56,7 +56,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeVertsColorMapAction.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeVertsColorMapAction.h" bodystart="16" bodyend="68"/>
+    <location file="MRMesh/MRChangeVertsColorMapAction.h" line="15" column="1" bodyfile="MRMesh/MRChangeVertsColorMapAction.h" bodystart="16" bodyend="68"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gabf17cf1a549936cc4bf5288dbc286f43" prot="public" virt="virtual"><scope>MR::ChangeVertsColorMapAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gaf543ed6ffdbac2a85e27deadaf79f448" prot="public" virt="non-virtual"><scope>MR::ChangeVertsColorMapAction</scope><name>ChangeVertsColorMapAction</name></member>

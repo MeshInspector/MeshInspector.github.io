@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRestoringStreamsSink_8h" kind="file" language="C++">
     <compoundname>MRRestoringStreamsSink.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -41,7 +41,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRRestoringStreamsSink.h</label>
+        <label>MRMesh/MRRestoringStreamsSink.h</label>
         <link refid="MRRestoringStreamsSink_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -108,8 +108,8 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"></codeline>
-<codeline lineno="16" refid="classMR_1_1LoggingStreambuf" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1LoggingStreambuf" kindref="compound">LoggingStreambuf</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>std::streambuf</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1LoggingStreambuf" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1LoggingStreambuf_1a10af535c39ec904bc21af3515d22ca70" kindref="member">LoggingStreambuf</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>std::streambuf</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="classMR_1_1LoggingStreambuf_1a10af535c39ec904bc21af3515d22ca70" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1LoggingStreambuf_1a10af535c39ec904bc21af3515d22ca70" kindref="member">LoggingStreambuf</ref>(<sp/>spdlog::level::level_enum<sp/>level<sp/>);</highlight></codeline>
@@ -124,7 +124,7 @@
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>buf_;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="classMR_1_1RestoringStreamsSink" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RestoringStreamsSink" kindref="compound">RestoringStreamsSink</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>spdlog::sinks::base_sink&lt;spdlog::details::null_mutex&gt;</highlight></codeline>
+<codeline lineno="34" refid="classMR_1_1RestoringStreamsSink" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RestoringStreamsSink_1a7c95c0761fc85fb5eebafa030b6e796e" kindref="member">RestoringStreamsSink</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>spdlog::sinks::base_sink&lt;spdlog::details::null_mutex&gt;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="37" refid="classMR_1_1RestoringStreamsSink_1a7c95c0761fc85fb5eebafa030b6e796e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1RestoringStreamsSink_1a7c95c0761fc85fb5eebafa030b6e796e" kindref="member">RestoringStreamsSink</ref>();</highlight></codeline>
@@ -146,8 +146,8 @@
 <codeline lineno="55" refid="group__BasicGroup_1ga1e63dfb18218fef322b65d26f8c4e2c9" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga1e63dfb18218fef322b65d26f8c4e2c9" kindref="member">redirectSTDStreamsToLogger</ref>();</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h"/>
+    <location file="MRMesh/MRRestoringStreamsSink.h"/>
   </compounddef>
 </doxygen>

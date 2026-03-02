@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRDistanceToMeshOptions_8h" kind="file" language="C++">
     <compoundname>MRDistanceToMeshOptions.h</compoundname>
     <includes refid="MRSignDetectionMode_8h" local="no">MRCMesh/MRSignDetectionMode.h</includes>
@@ -533,7 +533,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_DistanceToMeshOptions</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -551,7 +551,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_DistanceToMeshOptions</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1072,7 +1072,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SignedDistanceToMeshOptions</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1090,7 +1090,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SignedDistanceToMeshOptions</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1139,9 +1139,9 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref>;</highlight></codeline>
+<codeline lineno="20" refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref>;</highlight></codeline>
+<codeline lineno="28" refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref>;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35" refid="MRDistanceToMeshOptions_8h_1a64ad53b2ea1ee83b8371c0c65156d31f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a64ad53b2ea1ee83b8371c0c65156d31f" kindref="member">MR_DistanceToMeshOptions_Get_minDistSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>

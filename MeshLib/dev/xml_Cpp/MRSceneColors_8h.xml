@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSceneColors_8h" kind="file" language="C++">
     <compoundname>MRSceneColors.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -53,7 +53,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRSceneColors.h</label>
+        <label>MRMesh/MRSceneColors.h</label>
         <link refid="MRSceneColors_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -174,7 +174,7 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="structMR_1_1SceneColors" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SceneColors" kindref="compound">SceneColors</ref></highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1SceneColors" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">SceneColors</highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1ga1cacbfc4a30c305f1acb6b5c8d6b3a3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1cacbfc4a30c305f1acb6b5c8d6b3a3a" kindref="member">Type</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -218,18 +218,18 @@
 <codeline lineno="56" refid="group__GeneralGroup_1gab707d437e87e22030a43899bb2baf017" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="group__GeneralGroup_1gab707d437e87e22030a43899bb2baf017" kindref="member">getName</ref>(<sp/><ref refid="group__GeneralGroup_1ga1cacbfc4a30c305f1acb6b5c8d6b3a3a" kindref="member">Type</ref><sp/>type<sp/>);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SceneColors" kindref="compound">SceneColors</ref>();</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SceneColors" kindref="compound">SceneColors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SceneColors" kindref="compound">SceneColors</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SceneColors" kindref="compound">SceneColors</ref>(<sp/><ref refid="structMR_1_1SceneColors" kindref="compound">SceneColors</ref>&amp;&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SceneColors" kindref="compound">~SceneColors</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>SceneColors();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>SceneColors(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SceneColors&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>SceneColors(<sp/>SceneColors&amp;&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>~SceneColors()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SceneColors" kindref="compound">SceneColors</ref>&amp;<sp/>instance_();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>SceneColors&amp;<sp/>instance_();</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;<ref refid="structMR_1_1Color" kindref="compound">Color</ref>,<sp/>size_t(<sp/><ref refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa6f08361dd2396f9410852f2b3aedb483" kindref="member">Count</ref><sp/>)&gt;<sp/>colors_;</highlight></codeline>
 <codeline lineno="67"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
 <codeline lineno="69"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneColors.h"/>
+    <location file="MRMesh/MRSceneColors.h"/>
   </compounddef>
 </doxygen>

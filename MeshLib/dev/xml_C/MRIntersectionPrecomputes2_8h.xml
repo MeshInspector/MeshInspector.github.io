@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRIntersectionPrecomputes2_8h" kind="file" language="C++">
     <compoundname>MRIntersectionPrecomputes2.h</compoundname>
     <includes refid="MRVector2_8h" local="no">MRCMesh/MRVector2.h</includes>
@@ -547,7 +547,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_IntersectionPrecomputes2_float</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -565,7 +565,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_IntersectionPrecomputes2_float</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1068,7 +1068,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_IntersectionPrecomputes2_double</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1086,7 +1086,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_IntersectionPrecomputes2_double</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1134,29 +1134,29 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref>;</highlight></codeline>
+<codeline lineno="17" refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref>;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref>;</highlight></codeline>
+<codeline lineno="23" refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="MRIntersectionPrecomputes2_8h_1a3ae739cc1c729298ed56f47da2f0f9e1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a3ae739cc1c729298ed56f47da2f0f9e1" kindref="member">MR_IntersectionPrecomputes2_float_Get_invDir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="37" refid="MRIntersectionPrecomputes2_8h_1a7ea6ba7f9933a03a3a16fc47c36fab22" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a7ea6ba7f9933a03a3a16fc47c36fab22" kindref="member">MR_IntersectionPrecomputes2_float_Set_invDir</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this,<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>value);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="44" refid="MRIntersectionPrecomputes2_8h_1abed71e5aaace7db9ae8eda86b02c36c7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1abed71e5aaace7db9ae8eda86b02c36c7" kindref="member">MR_IntersectionPrecomputes2_float_GetMutable_invDir</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0]max,<sp/>[1]next,<sp/>[2]next-next</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="52" refid="MRIntersectionPrecomputes2_8h_1a83e7786e1b54c249334d7ae37cd1f6a4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a83e7786e1b54c249334d7ae37cd1f6a4" kindref="member">MR_IntersectionPrecomputes2_float_Get_maxDimIdxY</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0]max,<sp/>[1]next,<sp/>[2]next-next</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="59" refid="MRIntersectionPrecomputes2_8h_1a349ede224802080ed05d5ef8c69f3909" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a349ede224802080ed05d5ef8c69f3909" kindref="member">MR_IntersectionPrecomputes2_float_Set_maxDimIdxY</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0]max,<sp/>[1]next,<sp/>[2]next-next</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="67" refid="MRIntersectionPrecomputes2_8h_1adef2c4190091d481240a29653eeeff8e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1adef2c4190091d481240a29653eeeff8e" kindref="member">MR_IntersectionPrecomputes2_float_GetMutable_maxDimIdxY</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
 <codeline lineno="73" refid="MRIntersectionPrecomputes2_8h_1a17d05c607b8746d5467b6b04e05e77d4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a17d05c607b8746d5467b6b04e05e77d4" kindref="member">MR_IntersectionPrecomputes2_float_Get_idxX</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
@@ -1201,25 +1201,25 @@
 <codeline lineno="181"><highlight class="normal"></highlight></codeline>
 <codeline lineno="188" refid="MRIntersectionPrecomputes2_8h_1a26cfabfed205a171796ea045b883a1c4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a26cfabfed205a171796ea045b883a1c4" kindref="member">MR_IntersectionPrecomputes2_float_AssignFromAnother</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="195" refid="MRIntersectionPrecomputes2_8h_1a22be167e507755ce045d3cbcf35e4cba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a22be167e507755ce045d3cbcf35e4cba" kindref="member">MR_IntersectionPrecomputes2_double_Get_invDir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="202" refid="MRIntersectionPrecomputes2_8h_1a14d3474295ddc95c53b8b9e18ea1bf46" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a14d3474295ddc95c53b8b9e18ea1bf46" kindref="member">MR_IntersectionPrecomputes2_double_Set_invDir</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this,<sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>value);</highlight></codeline>
 <codeline lineno="203"><highlight class="normal"></highlight></codeline>
-<codeline lineno="204"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="209" refid="MRIntersectionPrecomputes2_8h_1a429673c2eebd16b6b47cb0833aaf430d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a429673c2eebd16b6b47cb0833aaf430d" kindref="member">MR_IntersectionPrecomputes2_double_GetMutable_invDir</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="210"><highlight class="normal"></highlight></codeline>
 <codeline lineno="211"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0]max,<sp/>[1]next,<sp/>[2]next-next</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="212"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="217" refid="MRIntersectionPrecomputes2_8h_1a2644b47f6c5fbef21a9a6fbe0ca9644a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a2644b47f6c5fbef21a9a6fbe0ca9644a" kindref="member">MR_IntersectionPrecomputes2_double_Get_maxDimIdxY</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
 <codeline lineno="219"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0]max,<sp/>[1]next,<sp/>[2]next-next</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="220"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="224" refid="MRIntersectionPrecomputes2_8h_1aa9f8efd268a8688758baf5fd397c636a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1aa9f8efd268a8688758baf5fd397c636a" kindref="member">MR_IntersectionPrecomputes2_double_Set_maxDimIdxY</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="225"><highlight class="normal"></highlight></codeline>
 <codeline lineno="226"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0]max,<sp/>[1]next,<sp/>[2]next-next</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="227"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="232" refid="MRIntersectionPrecomputes2_8h_1ad06b96c111b97acd5467bc649264ae84" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1ad06b96c111b97acd5467bc649264ae84" kindref="member">MR_IntersectionPrecomputes2_double_GetMutable_maxDimIdxY</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"></highlight></codeline>
 <codeline lineno="238" refid="MRIntersectionPrecomputes2_8h_1a780762c5ce3fc9d2d70614feadb31008" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a780762c5ce3fc9d2d70614feadb31008" kindref="member">MR_IntersectionPrecomputes2_double_Get_idxX</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>

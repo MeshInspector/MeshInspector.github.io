@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ObjectSave_1_1Settings" kind="struct" language="C++" prot="public">
     <compoundname>MR::ObjectSave::Settings</compoundname>
-    <includes refid="MRObjectSaveSettings_8h" local="no">MRObjectSaveSettings.h</includes>
+    <includes refid="MRObjectSaveSettings_8h" local="no">MRMesh/MRObjectSaveSettings.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1ObjectSave_1_1Settings_1a44959435e399e88f5fec4d1177913925" prot="public" static="no" mutable="no">
         <type>std::optional&lt; <ref refid="group__GeneralGroup_1ga754d4eb0500be08374f5c611d33b5cab" kindref="member">LengthUnit</ref> &gt;</type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectSaveSettings.h" line="13" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectSaveSettings.h" bodystart="13" bodyend="-1"/>
+        <location file="MRMesh/MRObjectSaveSettings.h" line="13" column="19" bodyfile="MRMesh/MRObjectSaveSettings.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ObjectSave_1_1Settings_1abaac448dc025a46f3ebc884adacb58ab" prot="public" static="no" mutable="no">
         <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
@@ -32,14 +32,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectSaveSettings.h" line="16" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectSaveSettings.h" bodystart="16" bodyend="-1"/>
+        <location file="MRMesh/MRObjectSaveSettings.h" line="16" column="22" bodyfile="MRMesh/MRObjectSaveSettings.h" bodystart="16" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectSaveSettings.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectSaveSettings.h" bodystart="11" bodyend="17"/>
+    <location file="MRMesh/MRObjectSaveSettings.h" line="10" column="1" bodyfile="MRMesh/MRObjectSaveSettings.h" bodystart="11" bodyend="17"/>
     <listofallmembers>
       <member refid="structMR_1_1ObjectSave_1_1Settings_1a44959435e399e88f5fec4d1177913925" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>lengthUnit</name></member>
       <member refid="structMR_1_1ObjectSave_1_1Settings_1abaac448dc025a46f3ebc884adacb58ab" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>progress</name></member>

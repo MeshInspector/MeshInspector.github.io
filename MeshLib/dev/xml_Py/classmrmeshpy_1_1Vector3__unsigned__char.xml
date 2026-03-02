@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Vector3__unsigned__char" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Vector3_unsigned_char</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -815,21 +815,6 @@ Aliases:  Matrix3_unsigned_char.VectorType
 three-dimensional vector
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.Vector3_unsigned_char</label>
-        <link refid="classmrmeshpy_1_1Vector3__unsigned__char"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_x</edgelabel>
-          <edgelabel>_offsetof_y</edgelabel>
-          <edgelabel>_offsetof_z</edgelabel>
-          <edgelabel>elements</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61881" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61881" bodyend="61987"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Vector3__unsigned__char_1a057f67f9dedcc9c752aa4ff415d538a0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3_unsigned_char</scope><name>__add__</name></member>

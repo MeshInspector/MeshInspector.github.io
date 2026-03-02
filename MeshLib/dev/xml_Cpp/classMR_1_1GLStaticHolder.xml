@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1GLStaticHolder" kind="class" language="C++" prot="public">
     <compoundname>MR::GLStaticHolder</compoundname>
-    <includes refid="MRGLStaticHolder_8h" local="no">MRGLStaticHolder.h</includes>
+    <includes refid="MRGLStaticHolder_8h" local="no">MRViewer/MRGLStaticHolder.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga00a040d6d7d04967fe9f892d8cb76748" kind="enum"><name>ShaderType</name></member>
       <member refid="group__GeneralGroup_1ga51ef10d476eb1492c1b758ef79a42482" kind="typedef"><name>GLuint</name></member>
@@ -34,7 +34,7 @@
     <detaileddescription>
 <para>This class holds all shaders that are used in the program creates shader on access if it is needed holds shared memory buffer for loading to GPU </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLStaticHolder.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLStaticHolder.h" bodystart="15" bodyend="90"/>
+    <location file="MRViewer/MRGLStaticHolder.h" line="14" column="1" bodyfile="MRViewer/MRGLStaticHolder.h" bodystart="15" bodyend="90"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748aebc53627d3ae664c54b4138c2dddb33a" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>AdditionalLines</name></member>
       <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748ab6a9e51cc79b46152f149e9555907255" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>AdditionalPoints</name></member>

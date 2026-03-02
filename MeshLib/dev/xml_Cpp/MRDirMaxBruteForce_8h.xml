@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRDirMaxBruteForce_8h" kind="file" language="C++">
     <compoundname>MRDirMaxBruteForce.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -12,7 +12,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRDirMaxBruteForce.h</label>
+        <label>MRMesh/MRDirMaxBruteForce.h</label>
         <link refid="MRDirMaxBruteForce_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -128,8 +128,8 @@
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
 <codeline lineno="52" refid="group__GeneralGroup_1gafbd54bfe56267a5387c00b6465f9ac9e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MinMaxArg" kindref="compound">MinMaxArg&lt;float, VertId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga1140fc86cd23d19afcd553b36a77d196" kindref="member">findDirMinMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshVertPart<sp/>&amp;<sp/>mp<sp/>);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMaxBruteForce.h"/>
+    <location file="MRMesh/MRDirMaxBruteForce.h"/>
   </compounddef>
 </doxygen>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UniqueTemporaryFolder" kind="class" language="C++" prot="public">
     <compoundname>MR::UniqueTemporaryFolder</compoundname>
-    <includes refid="MRUniqueTemporaryFolder_8h" local="no">MRUniqueTemporaryFolder.h</includes>
+    <includes refid="MRUniqueTemporaryFolder_8h" local="no">MRMesh/MRUniqueTemporaryFolder.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gabd89fab59fca651ac998d7bac4973f72" kind="variable"><name>folder_</name></member>
       <member refid="group__GeneralGroup_1gacdbe5464e0796cb2b8b083d58804a4be" kind="variable"><name>onPreTempFolderDelete_</name></member>
@@ -18,7 +18,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueTemporaryFolder.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueTemporaryFolder.h" bodystart="18" bodyend="42"/>
+    <location file="MRMesh/MRUniqueTemporaryFolder.h" line="17" column="1" bodyfile="MRMesh/MRUniqueTemporaryFolder.h" bodystart="18" bodyend="42"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gabd89fab59fca651ac998d7bac4973f72" prot="private" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>folder_</name></member>
       <member refid="group__GeneralGroup_1gacdbe5464e0796cb2b8b083d58804a4be" prot="private" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>onPreTempFolderDelete_</name></member>

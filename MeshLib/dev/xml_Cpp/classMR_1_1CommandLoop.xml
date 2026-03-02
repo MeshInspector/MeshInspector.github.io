@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CommandLoop" kind="class" language="C++" prot="public">
     <compoundname>MR::CommandLoop</compoundname>
-    <includes refid="MRCommandLoop_8h" local="no">MRCommandLoop.h</includes>
+    <includes refid="MRCommandLoop_8h" local="no">MRViewer/MRCommandLoop.h</includes>
     <innerclass refid="structMR_1_1CommandLoop_1_1Command" prot="private">MR::CommandLoop::Command</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga2e4318196fd48b27b617c07eb35bbe39" kind="enum"><name>StartPosition</name></member>
@@ -38,7 +38,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" bodystart="17" bodyend="79"/>
+    <location file="MRViewer/MRCommandLoop.h" line="16" column="1" bodyfile="MRViewer/MRCommandLoop.h" bodystart="17" bodyend="79"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga06e8d4a28f020068f5b0520acfada256" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>addCommand_</name></member>
       <member refid="group__GeneralGroup_1gadceb2e7dc3e951be7d6c80eb72cb226c" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>appendCommand</name></member>

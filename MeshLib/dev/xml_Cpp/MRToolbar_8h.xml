@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRToolbar_8h" kind="file" language="C++">
     <compoundname>MRToolbar.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -109,7 +109,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRToolbar.h</label>
+        <label>MRViewer/MRToolbar.h</label>
         <link refid="MRToolbar_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -204,7 +204,7 @@
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="classMR_1_1Toolbar" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1Toolbar" kindref="compound">Toolbar</ref></highlight></codeline>
+<codeline lineno="23" refid="classMR_1_1Toolbar" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1Toolbar" kindref="compound">Toolbar</ref></highlight></codeline>
 <codeline lineno="24"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="27" refid="group__GeneralGroup_1gae841f5c76b2f7e7277624dc25b044146" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae841f5c76b2f7e7277624dc25b044146" kindref="member">setRibbonMenu</ref>(<sp/><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref>*<sp/>ribbonMenu<sp/>);</highlight></codeline>
@@ -229,8 +229,8 @@
 <codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawCustomizeTabsList_();</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawCustomizeItemsList_();</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dashedLine_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>org,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>dest,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>periodLength<sp/>=<sp/>10.f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fillRatio<sp/>=<sp/>0.5f,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color<sp/>=<sp/>Color::gray(),<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>periodStart<sp/>=<sp/>0.f<sp/>);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dashedRect_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>leftTop,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>rightBottom,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>periodLength<sp/>=<sp/>10.f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fillRatio<sp/>=<sp/>0.5f,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color<sp/>=<sp/>Color::gray()<sp/>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dashedLine_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>org,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>dest,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>periodLength<sp/>=<sp/>10.f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fillRatio<sp/>=<sp/>0.5f,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color<sp/>=<sp/><ref refid="group__GeneralGroup_1gab2d02b3c25652081a0b2f9c3f4de388f" kindref="member">Color::gray</ref>(),<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>periodStart<sp/>=<sp/>0.f<sp/>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dashedRect_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>leftTop,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>rightBottom,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>periodLength<sp/>=<sp/>10.f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fillRatio<sp/>=<sp/>0.5f,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color<sp/>=<sp/><ref refid="group__GeneralGroup_1gab2d02b3c25652081a0b2f9c3f4de388f" kindref="member">Color::gray</ref>()<sp/>);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref>*<sp/>ribbonMenu_;</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
@@ -251,6 +251,6 @@
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h"/>
+    <location file="MRViewer/MRToolbar.h"/>
   </compounddef>
 </doxygen>

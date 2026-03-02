@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FreeFormDeformer" kind="class" language="C++" prot="public">
     <compoundname>MR::FreeFormDeformer</compoundname>
-    <includes refid="MRFreeFormDeformer_8h" local="no">MRFreeFormDeformer.h</includes>
+    <includes refid="MRFreeFormDeformer_8h" local="no">MRMesh/MRFreeFormDeformer.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gae9e198e37ff9d6fec538e18e26a573c7" kind="variable"><name>coords_</name></member>
       <member refid="group__GeneralGroup_1gaa7f116e854ce66ac7138cdccc6749844" kind="variable"><name>validPoints_</name></member>
@@ -34,7 +34,7 @@
     <detaileddescription>
 <para><programlisting filename="cpp-examples/FreeFormDeformation.dox.cpp"></programlisting> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFreeFormDeformer.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFreeFormDeformer.h" bodystart="16" bodyend="50"/>
+    <location file="MRMesh/MRFreeFormDeformer.h" line="15" column="1" bodyfile="MRMesh/MRFreeFormDeformer.h" bodystart="16" bodyend="50"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga41c58a24021ee42049932dd07103719e" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>apply</name></member>
       <member refid="group__GeneralGroup_1ga28c81108fadb77a5b574f71ef05b693d" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>applySinglePoint</name></member>

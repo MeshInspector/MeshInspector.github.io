@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointCloudApproxRelaxParams" kind="class" language="C#" prot="public">
     <compoundname>MR::PointCloudApproxRelaxParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_PointCloudApproxRelaxParams</basecompoundref>
@@ -198,7 +198,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PointCloudApproxRelaxParams.PointCloudApproxRelaxParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointCloudApproxRelaxParams_1a339a0669c843a5366cc7a06afd55eaca" kindref="member">MR.PointCloudApproxRelaxParams.PointCloudApproxRelaxParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -217,7 +217,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PointCloudApproxRelaxParams.PointCloudApproxRelaxParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointCloudApproxRelaxParams_1a339a0669c843a5366cc7a06afd55eaca" kindref="member">MR.PointCloudApproxRelaxParams.PointCloudApproxRelaxParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -236,7 +236,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PointCloudApproxRelaxParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PointCloudApproxRelaxParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -251,45 +251,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_PointCloudApproxRelaxParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PointCloudApproxRelaxParams</label>
         <link refid="classMR_1_1PointCloudApproxRelaxParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PointCloudApproxRelaxParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_PointCloudApproxRelaxParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_PointCloudApproxRelaxParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PointCloudApproxRelaxParams</label>
         <link refid="classMR_1_1PointCloudApproxRelaxParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PointCloudApproxRelaxParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_PointCloudApproxRelaxParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="475" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="476" bodyend="574"/>

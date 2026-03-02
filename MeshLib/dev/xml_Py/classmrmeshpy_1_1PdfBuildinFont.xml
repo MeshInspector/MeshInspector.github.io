@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PdfBuildinFont" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PdfBuildinFont</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -516,28 +516,6 @@
   Count
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.PdfBuildinFont</label>
-        <link refid="classmrmeshpy_1_1PdfBuildinFont"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>Count</edgelabel>
-          <edgelabel>Courier</edgelabel>
-          <edgelabel>CourierBold</edgelabel>
-          <edgelabel>CourierBoldOblique</edgelabel>
-          <edgelabel>CourierOblique</edgelabel>
-          <edgelabel>Helvetica</edgelabel>
-          <edgelabel>HelveticaBold</edgelabel>
-          <edgelabel>HelveticaBoldOblique</edgelabel>
-          <edgelabel>HelveticaOblique</edgelabel>
-          <edgelabel>Symbol</edgelabel>
-          <edgelabel>...</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43241" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43241" bodyend="43316"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PdfBuildinFont_1a36eb7deb41641f2ee47e86af3bc5ea2a" prot="public" virt="non-virtual"><scope>mrmeshpy::PdfBuildinFont</scope><name>__eq__</name></member>

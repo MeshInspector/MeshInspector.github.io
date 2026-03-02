@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFeatureHelpers_8h" kind="file" language="C++">
     <compoundname>MRFeatureHelpers.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -99,58 +99,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRFeatureHelpers_8h_1aff93746de8efe15fd5fa764838b71e9b" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kindref="member">MR_FeatureObject</ref></type>
-        <definition>typedef struct MR_FeatureObject MR_FeatureObject</definition>
-        <argsstring></argsstring>
-        <name>MR_FeatureObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureHelpers.h" line="11" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureHelpers.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFeatureHelpers_8h_1a5c7e91d11b038315c0503df15b512997" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref></type>
-        <definition>typedef struct MR_std_optional_MR_Vector3f MR_std_optional_MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_optional_MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureHelpers.h" line="12" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureHelpers.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFeatureHelpers_8h_1aa4b9828f4113d20d85483568f977c8ff" prot="public" static="no">
-        <type>struct <ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_MR_VisualObject MR_std_shared_ptr_MR_VisualObject</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_MR_VisualObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureHelpers.h" line="13" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureHelpers.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFeatureHelpers_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref></type>
-        <definition>typedef struct MR_std_string_view MR_std_string_view</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string_view</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureHelpers.h" line="14" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureHelpers.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" prot="public" static="no">
         <type>struct <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref></type>
         <definition>typedef struct MR_std_unordered_set_std_string MR_std_unordered_set_std_string</definition>
@@ -402,7 +350,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ObjKindTraits_MR_FeaturesObjectKind_Point</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFeatureHelpers_8h_1a09787c2631c274290f1a5332058588bf" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Point</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -420,7 +368,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ObjKindTraits_MR_FeaturesObjectKind_Point</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFeatureHelpers_8h_1a09787c2631c274290f1a5332058588bf" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Point</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -574,7 +522,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ObjKindTraits_MR_FeaturesObjectKind_Line</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFeatureHelpers_8h_1ac102416a33c60ceb19f5eaa271e222cd" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Line</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -592,7 +540,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ObjKindTraits_MR_FeaturesObjectKind_Line</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFeatureHelpers_8h_1ac102416a33c60ceb19f5eaa271e222cd" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Line</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -746,7 +694,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ObjKindTraits_MR_FeaturesObjectKind_Plane</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFeatureHelpers_8h_1adbf5f420d56f78b8b59d39bf3de9cdaf" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Plane</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -764,7 +712,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ObjKindTraits_MR_FeaturesObjectKind_Plane</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFeatureHelpers_8h_1adbf5f420d56f78b8b59d39bf3de9cdaf" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Plane</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -918,7 +866,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ObjKindTraits_MR_FeaturesObjectKind_Circle</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFeatureHelpers_8h_1aaf74f8eef6a303d13d3aff8d9f27b8fc" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Circle</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -936,7 +884,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ObjKindTraits_MR_FeaturesObjectKind_Circle</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFeatureHelpers_8h_1aaf74f8eef6a303d13d3aff8d9f27b8fc" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Circle</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1090,7 +1038,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ObjKindTraits_MR_FeaturesObjectKind_Sphere</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFeatureHelpers_8h_1aaf9d1dab160c3e38eed55424ebec2578" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Sphere</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1108,7 +1056,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ObjKindTraits_MR_FeaturesObjectKind_Sphere</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFeatureHelpers_8h_1aaf9d1dab160c3e38eed55424ebec2578" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Sphere</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1262,7 +1210,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ObjKindTraits_MR_FeaturesObjectKind_Cylinder</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFeatureHelpers_8h_1a936f08e04bc514d5999314e008235755" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Cylinder</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1280,7 +1228,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ObjKindTraits_MR_FeaturesObjectKind_Cylinder</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFeatureHelpers_8h_1a936f08e04bc514d5999314e008235755" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Cylinder</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1434,7 +1382,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ObjKindTraits_MR_FeaturesObjectKind_Cone</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFeatureHelpers_8h_1afea6d10419fc916c21bc300359482759" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Cone</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1452,7 +1400,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ObjKindTraits_MR_FeaturesObjectKind_Cone</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFeatureHelpers_8h_1afea6d10419fc916c21bc300359482759" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Cone</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1608,14 +1556,14 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRFeatureHelpers_8h_1aff93746de8efe15fd5fa764838b71e9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kindref="member">MR_FeatureObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kindref="member">MR_FeatureObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRFeatureObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRFeatureHelpers_8h_1a5c7e91d11b038315c0503df15b512997" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRFeatureHelpers_8h_1aa4b9828f4113d20d85483568f977c8ff" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_VisualObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRFeatureHelpers_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string_view.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kindref="member">MR_FeatureObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kindref="member">MR_FeatureObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRFeatureObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_VisualObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string_view.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_unordered_set_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRFeatureHelpers_8h_1a27112dad4e290863cba866c44ac4c7fe" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRFeatureHelpers_8h_1a27112dad4e290863cba866c44ac4c7fe" kindref="member">MR_FeaturesObjectKind</ref></highlight></codeline>
+<codeline lineno="20" refid="MRFeatureHelpers_8h_1a27112dad4e290863cba866c44ac4c7fe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRFeatureHelpers_8h_1a27112dad4e290863cba866c44ac4c7fe" kindref="member">MR_FeaturesObjectKind</ref></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="22" refid="MRFeatureHelpers_8h_1a27112dad4e290863cba866c44ac4c7fea0db356fbdb019e20a09be9170816bf35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRFeatureHelpers_8h_1a27112dad4e290863cba866c44ac4c7fea0db356fbdb019e20a09be9170816bf35" kindref="member">MR_FeaturesObjectKind_Point</ref><sp/>=<sp/>0,</highlight></codeline>
 <codeline lineno="23" refid="MRFeatureHelpers_8h_1a27112dad4e290863cba866c44ac4c7fea0c31e63565d9b85a3bfbbde817b88376" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRFeatureHelpers_8h_1a27112dad4e290863cba866c44ac4c7fea0c31e63565d9b85a3bfbbde817b88376" kindref="member">MR_FeaturesObjectKind_Line</ref><sp/>=<sp/>1,</highlight></codeline>
@@ -1627,19 +1575,19 @@
 <codeline lineno="29" refid="MRFeatureHelpers_8h_1a27112dad4e290863cba866c44ac4c7feaf22cb6638d0caa98ec76b27fae33b493" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRFeatureHelpers_8h_1a27112dad4e290863cba866c44ac4c7feaf22cb6638d0caa98ec76b27fae33b493" kindref="member">MR_FeaturesObjectKind__count</ref><sp/>=<sp/>7,</highlight></codeline>
 <codeline lineno="30" refid="MRFeatureHelpers_8h_1a1e0d5e4897988cd7170e5e9cf9cf2926" refkind="member"><highlight class="normal">}<sp/><ref refid="MRFeatureHelpers_8h_1a27112dad4e290863cba866c44ac4c7fe" kindref="member">MR_FeaturesObjectKind</ref>;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRFeatureHelpers_8h_1a09787c2631c274290f1a5332058588bf" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureHelpers_8h_1a09787c2631c274290f1a5332058588bf" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Point</ref><sp/><ref refid="MRFeatureHelpers_8h_1a09787c2631c274290f1a5332058588bf" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Point</ref>;</highlight></codeline>
+<codeline lineno="34" refid="MRFeatureHelpers_8h_1a09787c2631c274290f1a5332058588bf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureHelpers_8h_1a09787c2631c274290f1a5332058588bf" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Point</ref><sp/><ref refid="MRFeatureHelpers_8h_1a09787c2631c274290f1a5332058588bf" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Point</ref>;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRFeatureHelpers_8h_1ac102416a33c60ceb19f5eaa271e222cd" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureHelpers_8h_1ac102416a33c60ceb19f5eaa271e222cd" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Line</ref><sp/><ref refid="MRFeatureHelpers_8h_1ac102416a33c60ceb19f5eaa271e222cd" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Line</ref>;</highlight></codeline>
+<codeline lineno="38" refid="MRFeatureHelpers_8h_1ac102416a33c60ceb19f5eaa271e222cd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureHelpers_8h_1ac102416a33c60ceb19f5eaa271e222cd" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Line</ref><sp/><ref refid="MRFeatureHelpers_8h_1ac102416a33c60ceb19f5eaa271e222cd" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Line</ref>;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRFeatureHelpers_8h_1adbf5f420d56f78b8b59d39bf3de9cdaf" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureHelpers_8h_1adbf5f420d56f78b8b59d39bf3de9cdaf" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Plane</ref><sp/><ref refid="MRFeatureHelpers_8h_1adbf5f420d56f78b8b59d39bf3de9cdaf" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Plane</ref>;</highlight></codeline>
+<codeline lineno="42" refid="MRFeatureHelpers_8h_1adbf5f420d56f78b8b59d39bf3de9cdaf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureHelpers_8h_1adbf5f420d56f78b8b59d39bf3de9cdaf" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Plane</ref><sp/><ref refid="MRFeatureHelpers_8h_1adbf5f420d56f78b8b59d39bf3de9cdaf" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Plane</ref>;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRFeatureHelpers_8h_1aaf74f8eef6a303d13d3aff8d9f27b8fc" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureHelpers_8h_1aaf74f8eef6a303d13d3aff8d9f27b8fc" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Circle</ref><sp/><ref refid="MRFeatureHelpers_8h_1aaf74f8eef6a303d13d3aff8d9f27b8fc" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Circle</ref>;</highlight></codeline>
+<codeline lineno="46" refid="MRFeatureHelpers_8h_1aaf74f8eef6a303d13d3aff8d9f27b8fc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureHelpers_8h_1aaf74f8eef6a303d13d3aff8d9f27b8fc" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Circle</ref><sp/><ref refid="MRFeatureHelpers_8h_1aaf74f8eef6a303d13d3aff8d9f27b8fc" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Circle</ref>;</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRFeatureHelpers_8h_1aaf9d1dab160c3e38eed55424ebec2578" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureHelpers_8h_1aaf9d1dab160c3e38eed55424ebec2578" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Sphere</ref><sp/><ref refid="MRFeatureHelpers_8h_1aaf9d1dab160c3e38eed55424ebec2578" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Sphere</ref>;</highlight></codeline>
+<codeline lineno="50" refid="MRFeatureHelpers_8h_1aaf9d1dab160c3e38eed55424ebec2578" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureHelpers_8h_1aaf9d1dab160c3e38eed55424ebec2578" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Sphere</ref><sp/><ref refid="MRFeatureHelpers_8h_1aaf9d1dab160c3e38eed55424ebec2578" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Sphere</ref>;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRFeatureHelpers_8h_1a936f08e04bc514d5999314e008235755" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureHelpers_8h_1a936f08e04bc514d5999314e008235755" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Cylinder</ref><sp/><ref refid="MRFeatureHelpers_8h_1a936f08e04bc514d5999314e008235755" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Cylinder</ref>;</highlight></codeline>
+<codeline lineno="54" refid="MRFeatureHelpers_8h_1a936f08e04bc514d5999314e008235755" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureHelpers_8h_1a936f08e04bc514d5999314e008235755" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Cylinder</ref><sp/><ref refid="MRFeatureHelpers_8h_1a936f08e04bc514d5999314e008235755" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Cylinder</ref>;</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="MRFeatureHelpers_8h_1afea6d10419fc916c21bc300359482759" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureHelpers_8h_1afea6d10419fc916c21bc300359482759" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Cone</ref><sp/><ref refid="MRFeatureHelpers_8h_1afea6d10419fc916c21bc300359482759" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Cone</ref>;</highlight></codeline>
+<codeline lineno="58" refid="MRFeatureHelpers_8h_1afea6d10419fc916c21bc300359482759" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureHelpers_8h_1afea6d10419fc916c21bc300359482759" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Cone</ref><sp/><ref refid="MRFeatureHelpers_8h_1afea6d10419fc916c21bc300359482759" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Cone</ref>;</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62" refid="MRFeatureHelpers_8h_1a74b6810d9024fbb03b5db31bbabf4822" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRFeatureHelpers_8h_1a74b6810d9024fbb03b5db31bbabf4822" kindref="member">MR_ObjKindTraits_MR_FeaturesObjectKind_Point_Get_name</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
@@ -1771,16 +1719,16 @@
 <codeline lineno="351"><highlight class="normal"></highlight></codeline>
 <codeline lineno="357" refid="MRFeatureHelpers_8h_1adfbeb7e074abddc3c254b04728f35fe8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/>*<ref refid="MRFeatureHelpers_8h_1adfbeb7e074abddc3c254b04728f35fe8" kindref="member">MR_makeObjectFromClassName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*className,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*className_end);</highlight></codeline>
 <codeline lineno="358"><highlight class="normal"></highlight></codeline>
-<codeline lineno="359"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Using<sp/>forEachObjectKind<sp/>the<sp/>template<sp/>collects<sp/>a<sp/>list<sp/>of<sp/>features<sp/>for<sp/>which<sp/>the<sp/>method<sp/>...-&gt;getNormal()<sp/>is<sp/>available</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Using<sp/>forEachObjectKind<sp/>the<sp/>template<sp/>collects<sp/>a<sp/>list<sp/>of<sp/>features<sp/>for<sp/>which<sp/>the<sp/>method<sp/>...-&gt;getNormal()<sp/>is<sp/>available</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="362" refid="MRFeatureHelpers_8h_1adf3f3a320db3c8369cbd55e94b8dce9c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRFeatureHelpers_8h_1adf3f3a320db3c8369cbd55e94b8dce9c" kindref="member">MR_getFeatureNormal</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kindref="member">MR_FeatureObject</ref><sp/>*feature);</highlight></codeline>
 <codeline lineno="363"><highlight class="normal"></highlight></codeline>
-<codeline lineno="364"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Using<sp/>forEachObjectKind<sp/>the<sp/>template<sp/>collects<sp/>a<sp/>list<sp/>of<sp/>features<sp/>for<sp/>which<sp/>the<sp/>method<sp/>...-&gt;getDirection()<sp/>is<sp/>available</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Using<sp/>forEachObjectKind<sp/>the<sp/>template<sp/>collects<sp/>a<sp/>list<sp/>of<sp/>features<sp/>for<sp/>which<sp/>the<sp/>method<sp/>...-&gt;getDirection()<sp/>is<sp/>available</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="367" refid="MRFeatureHelpers_8h_1a0968517790e43ae5c02e7f825022ab4a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRFeatureHelpers_8h_1a0968517790e43ae5c02e7f825022ab4a" kindref="member">MR_getFeatureDirection</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kindref="member">MR_FeatureObject</ref><sp/>*feature);</highlight></codeline>
 <codeline lineno="368"><highlight class="normal"></highlight></codeline>
-<codeline lineno="369"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Try<sp/>to<sp/>getNormal<sp/>from<sp/>specific<sp/>feature<sp/>using<sp/>forEachObjectKind<sp/>template.<sp/>Returns<sp/>nullopt<sp/>is<sp/>...-&gt;getNormal()<sp/>is<sp/>not<sp/>available<sp/>for<sp/>given<sp/>feature<sp/>type.</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Try<sp/>to<sp/>getNormal<sp/>from<sp/>specific<sp/>feature<sp/>using<sp/>forEachObjectKind<sp/>template.<sp/>Returns<sp/>nullopt<sp/>is<sp/>...-&gt;getNormal()<sp/>is<sp/>not<sp/>available<sp/>for<sp/>given<sp/>feature<sp/>type.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="372" refid="MRFeatureHelpers_8h_1a19bd5070e14ba2342941ef4bd1546416" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*<ref refid="MRFeatureHelpers_8h_1a19bd5070e14ba2342941ef4bd1546416" kindref="member">MR_getFeaturesTypeWithNormals</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="373"><highlight class="normal"></highlight></codeline>
-<codeline lineno="374"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Try<sp/>to<sp/>getDirection<sp/>from<sp/>specific<sp/>feature<sp/>using<sp/>forEachObjectKind<sp/>template.<sp/>Returns<sp/>nullopt<sp/>is<sp/>...-&gt;getDirection()<sp/>is<sp/>not<sp/>available<sp/>for<sp/>given<sp/>feature<sp/>type.</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Try<sp/>to<sp/>getDirection<sp/>from<sp/>specific<sp/>feature<sp/>using<sp/>forEachObjectKind<sp/>template.<sp/>Returns<sp/>nullopt<sp/>is<sp/>...-&gt;getDirection()<sp/>is<sp/>not<sp/>available<sp/>for<sp/>given<sp/>feature<sp/>type.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="377" refid="MRFeatureHelpers_8h_1a33b0b848585118f6bcf9a845f5382fad" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*<ref refid="MRFeatureHelpers_8h_1a33b0b848585118f6bcf9a845f5382fad" kindref="member">MR_getFeaturesTypeWithDirections</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="378"><highlight class="normal"></highlight></codeline>
 <codeline lineno="379"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>

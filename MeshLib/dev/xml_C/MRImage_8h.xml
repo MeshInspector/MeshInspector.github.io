@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRImage_8h" kind="file" language="C++">
     <compoundname>MRImage.h</compoundname>
     <includes refid="MRColor_8h" local="no">MRCMesh/MRColor.h</includes>
@@ -96,61 +96,6 @@
         <label>stddef.h</label>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRImage_8h_1ac5c5abdc9ba8adb6f8e522246978c790" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref></type>
-        <definition>typedef struct MR_MeshTexture MR_MeshTexture</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTexture</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImage.h" line="15" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImage.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRImage_8h_1a72ab0be0b71b29e9f310e7526a8cc57b" prot="public" static="no">
-        <type>struct MR_Vector2f</type>
-        <definition>typedef struct MR_Vector2f MR_Vector2f</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImage.h" line="16" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImage.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRImage_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref></type>
-        <definition>typedef struct MR_std_vector_MR_Color MR_std_vector_MR_Color</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_Color</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImage.h" line="17" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImage.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRImage_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" prot="public" static="no">
-        <type>struct <ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref></type>
-        <definition>typedef struct MR_Image MR_Image</definition>
-        <argsstring></argsstring>
-        <name>MR_Image</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>struct to hold Image data Generated from class <computeroutput>MR::Image</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::MeshTexture</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImage.h" line="26" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImage.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRImage_8h_1a2f7e3c9c8aa214084ddedcec297f44e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref> *</type>
@@ -445,7 +390,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Image</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -463,7 +408,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Image</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -649,12 +594,12 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRImage_8h_1ac5c5abdc9ba8adb6f8e522246978c790" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTexture.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRImage_8h_1a72ab0be0b71b29e9f310e7526a8cc57b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRImage_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Color.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTexture.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Color.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRImage_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="MRImage_8h_1a2f7e3c9c8aa214084ddedcec297f44e4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/>*<ref refid="MRImage_8h_1a2f7e3c9c8aa214084ddedcec297f44e4" kindref="member">MR_Image_Get_pixels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>

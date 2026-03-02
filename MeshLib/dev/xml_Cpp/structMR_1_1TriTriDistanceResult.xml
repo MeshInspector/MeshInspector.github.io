@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1TriTriDistanceResult" kind="struct" language="C++" prot="public">
     <compoundname>MR::TriTriDistanceResult</compoundname>
-    <includes refid="MRTriDist_8h" local="no">MRTriDist.h</includes>
+    <includes refid="MRTriDist_8h" local="no">MRMesh/MRTriDist.h</includes>
     <templateparamlist>
       <param>
         <type>class T</type>
@@ -18,7 +18,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriDist.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriDist.h" bodystart="14" bodyend="30"/>
+    <location file="MRMesh/MRTriDist.h" line="13" column="1" bodyfile="MRMesh/MRTriDist.h" bodystart="14" bodyend="30"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga26c9f09ce86daf06e28972f128bd268a" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult</scope><name>a</name></member>
       <member refid="group__GeneralGroup_1ga2adde456867209868cd165e976db06d2" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult</scope><name>b</name></member>

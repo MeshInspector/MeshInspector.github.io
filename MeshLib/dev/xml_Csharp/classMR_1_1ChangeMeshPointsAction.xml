@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeMeshPointsAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeMeshPointsAction</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeMeshPointsAction</basecompoundref>
@@ -99,7 +99,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeMeshPointsAction.ChangeMeshPointsAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshPointsAction_1af0e7b70fa483ffb738e67e34aa62e610" kindref="member">MR.ChangeMeshPointsAction.ChangeMeshPointsAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -118,7 +118,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeMeshPointsAction.ChangeMeshPointsAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshPointsAction_1af0e7b70fa483ffb738e67e34aa62e610" kindref="member">MR.ChangeMeshPointsAction.ChangeMeshPointsAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -137,7 +137,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeMeshPointsAction.ChangeMeshPointsAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshPointsAction_1af0e7b70fa483ffb738e67e34aa62e610" kindref="member">MR.ChangeMeshPointsAction.ChangeMeshPointsAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -160,7 +160,7 @@
           <declname>obj</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s mesh points before making any changes in it Generated from constructor <computeroutput>MR.ChangeMeshPointsAction.ChangeMeshPointsAction</computeroutput>. </para>
+<para>use this constructor to remember object&apos;s mesh points before making any changes in it Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshPointsAction_1af0e7b70fa483ffb738e67e34aa62e610" kindref="member">MR.ChangeMeshPointsAction.ChangeMeshPointsAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -187,7 +187,7 @@
           <declname>newCoords</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s mesh points and immediate set new value Generated from constructor <computeroutput>MR.ChangeMeshPointsAction.ChangeMeshPointsAction</computeroutput>. </para>
+<para>use this constructor to remember object&apos;s mesh points and immediate set new value Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshPointsAction_1af0e7b70fa483ffb738e67e34aa62e610" kindref="member">MR.ChangeMeshPointsAction.ChangeMeshPointsAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -206,7 +206,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ChangeMeshPointsAction.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ChangeMeshPointsAction::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -240,45 +240,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ChangeMeshPointsAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeMeshPointsAction</label>
         <link refid="classMR_1_1ChangeMeshPointsAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeMeshPointsAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeMeshPointsAction &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ChangeMeshPointsAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeMeshPointsAction</label>
         <link refid="classMR_1_1ChangeMeshPointsAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeMeshPointsAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeMeshPointsAction &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="1374" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="1375" bodyend="1473"/>

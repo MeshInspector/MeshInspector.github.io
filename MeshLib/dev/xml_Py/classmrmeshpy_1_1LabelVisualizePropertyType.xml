@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1LabelVisualizePropertyType" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::LabelVisualizePropertyType</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -348,22 +348,6 @@
   _count
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.LabelVisualizePropertyType</label>
-        <link refid="classmrmeshpy_1_1LabelVisualizePropertyType"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>Background</edgelabel>
-          <edgelabel>Contour</edgelabel>
-          <edgelabel>LeaderLine</edgelabel>
-          <edgelabel>SourcePoint</edgelabel>
-          <edgelabel>_count</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25285" bodyend="25330"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1aa48748295c236f7384fc3f4050f55c3b" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>__eq__</name></member>

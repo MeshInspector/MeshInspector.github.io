@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ContourToDistanceMapParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::ContourToDistanceMapParams</compoundname>
-    <includes refid="MRDistanceMapParams_8h" local="no">MRDistanceMapParams.h</includes>
+    <includes refid="MRDistanceMapParams_8h" local="no">MRMesh/MRDistanceMapParams.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1ContourToDistanceMapParams_1af6e89dcef8c3cd2419a4cd2dbb77015f" prot="public" static="no" mutable="no">
         <type>Vector2f</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="128" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="128" bodyend="128"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="128" column="14" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="128" bodyend="128"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ContourToDistanceMapParams_1a777f64d2a02e161c0c2d62ceb280a2e4" prot="public" static="no" mutable="no">
         <type>Vector2i</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="129" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="129" bodyend="129"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="129" column="14" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="129" bodyend="129"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ContourToDistanceMapParams_1a7a018eb39177bd2bf920601b6a61d8b6" prot="public" static="no" mutable="no">
         <type>Vector2f</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="130" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="130" bodyend="130"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="130" column="14" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="130" bodyend="130"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ContourToDistanceMapParams_1afe6ef70a540df80fca43fb338ca681ce" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="131" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="131" bodyend="131"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="131" column="10" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="131" bodyend="131"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="96" column="5"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="96" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1acdbc1cd1931b8df3a7afe4d8500aa9e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="99" column="6"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="99" column="6"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1a0f6930b2ce708dd9fb61eb4c42f6a07c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="103" column="6"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="103" column="6"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1a5376f8f2d57fec6349c0671dd75316c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -175,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="106" column="6"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="106" column="6"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1afe723fbe249c8d2b51f599539ba3040d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -207,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="110" column="6"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="110" column="6"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1add2590dd84c6394ddff0b70568c92767" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="113" column="15"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="113" column="15"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1aab02976e948f14539479e1305e319e3d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector2f</type>
@@ -244,7 +244,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="116" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="116" bodyend="119"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="116" column="14" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="116" bodyend="119"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1abaa30b78ecde6f6ef4bc8f92ca454a4c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -259,7 +259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="122" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="122" bodyend="125"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="122" column="5" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="122" bodyend="125"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1a3f4630f18505db408fdc2d6b9417d9e6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>AffineXf3f</type>
@@ -273,15 +273,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="126" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="126" bodyend="126"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="126" column="16" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="126" bodyend="126"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Structure with parameters to generate <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> by Contours. </para>
+<para>Structure with parameters to generate <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> by <ref refid="group__GeneralGroup_1gacc92c2d7152d14f1cb59bb4c7187fed8" kindref="member">Contours</ref>. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="93" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="94" bodyend="132"/>
+    <location file="MRMesh/MRDistanceMapParams.h" line="93" column="1" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="94" bodyend="132"/>
     <listofallmembers>
       <member refid="structMR_1_1ContourToDistanceMapParams_1a8c1e602f4300ada7c5982a184ee864b7" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>ContourToDistanceMapParams</name></member>
       <member refid="structMR_1_1ContourToDistanceMapParams_1acdbc1cd1931b8df3a7afe4d8500aa9e8" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>ContourToDistanceMapParams</name></member>

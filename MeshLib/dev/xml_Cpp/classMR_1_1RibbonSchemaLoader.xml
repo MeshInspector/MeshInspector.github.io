@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonSchemaLoader" kind="class" language="C++" prot="public">
     <compoundname>MR::RibbonSchemaLoader</compoundname>
-    <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
+    <includes refid="MRRibbonSchema_8h" local="no">MRViewer/MRRibbonSchema.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gae9f61f9ad1a6e1cfbcdb30e93799a046" kind="function"><name>RibbonSchemaLoader</name></member>
       <member refid="group__GeneralGroup_1ga0bdc0e74b5b855dc50f9d3ed83b7ecad" kind="function"><name>~RibbonSchemaLoader</name></member>
@@ -25,7 +25,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="133" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="134" bodyend="158"/>
+    <location file="MRViewer/MRRibbonSchema.h" line="133" column="1" bodyfile="MRViewer/MRRibbonSchema.h" bodystart="134" bodyend="158"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae2ca0e8edcd6c4eb680422b09f6f6f23" prot="protected" virt="virtual"><scope>MR::RibbonSchemaLoader</scope><name>getStructureFiles_</name></member>
       <member refid="group__GeneralGroup_1gaf359b2109f232bee18709542a5964825" prot="public" virt="virtual"><scope>MR::RibbonSchemaLoader</scope><name>loadSchema</name></member>

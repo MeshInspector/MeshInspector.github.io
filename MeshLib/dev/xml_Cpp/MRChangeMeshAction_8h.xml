@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangeMeshAction_8h" kind="file" language="C++">
     <compoundname>MRChangeMeshAction.h</compoundname>
     <includes refid="MRHistoryAction_8h" local="yes">MRHistoryAction.h</includes>
@@ -77,7 +77,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRChangeMeshAction.h</label>
+        <label>MRMesh/MRChangeMeshAction.h</label>
         <link refid="MRChangeMeshAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -768,11 +768,11 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"></codeline>
-<codeline lineno="15" refid="classMR_1_1ChangeMeshAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshAction" kindref="compound">ChangeMeshAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1ChangeMeshAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshAction_1aa047c1990777d68d6c09a53db29e6d61" kindref="member">ChangeMeshAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="18" refid="classMR_1_1ChangeMeshAction_1af714055379496f5d4d7cc0762f755fea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectMesh" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>;</highlight></codeline>
+<codeline lineno="18" refid="classMR_1_1ChangeMeshAction_1af714055379496f5d4d7cc0762f755fea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshAction_1af714055379496f5d4d7cc0762f755fea" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="classMR_1_1ChangeMeshAction_1aa047c1990777d68d6c09a53db29e6d61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeMeshAction_1aa047c1990777d68d6c09a53db29e6d61" kindref="member">ChangeMeshAction</ref>(<sp/>std::string<sp/><ref refid="classMR_1_1ChangeMeshAction_1a6e73aebdc0c2a7d4d2273eed02ad84ab" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectMesh&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objMesh_{<sp/>obj<sp/>},</highlight></codeline>
@@ -824,10 +824,10 @@
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;</highlight></codeline>
 <codeline lineno="70"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="classMR_1_1ChangeMeshUVCoordsAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshUVCoordsAction" kindref="compound">ChangeMeshUVCoordsAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="73" refid="classMR_1_1ChangeMeshUVCoordsAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshUVCoordsAction_1aff9496937d0c0fddbd3ed701edb82ab5" kindref="member">ChangeMeshUVCoordsAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="74"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="76" refid="classMR_1_1ChangeMeshUVCoordsAction_1a9128b930db153ecea7e8dd9bab0a8374" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref>;</highlight></codeline>
+<codeline lineno="76" refid="classMR_1_1ChangeMeshUVCoordsAction_1a9128b930db153ecea7e8dd9bab0a8374" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshUVCoordsAction_1a9128b930db153ecea7e8dd9bab0a8374" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref>;</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
 <codeline lineno="79" refid="classMR_1_1ChangeMeshUVCoordsAction_1aff9496937d0c0fddbd3ed701edb82ab5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeMeshUVCoordsAction_1aff9496937d0c0fddbd3ed701edb82ab5" kindref="member">ChangeMeshUVCoordsAction</ref>(<sp/>std::string<sp/><ref refid="classMR_1_1ChangeMeshUVCoordsAction_1aa8f2ca30bbf02500362d5bc387ecbcf8" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectMeshHolder&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objMesh_{<sp/>obj<sp/>},</highlight></codeline>
@@ -880,10 +880,10 @@
 <codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;</highlight></codeline>
 <codeline lineno="129"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="classMR_1_1ChangeTextureAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeTextureAction" kindref="compound">ChangeTextureAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="133" refid="classMR_1_1ChangeTextureAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeTextureAction_1ac85c185778438e863240862dbd46a152" kindref="member">ChangeTextureAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="134"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="136" refid="classMR_1_1ChangeTextureAction_1a1079ab459c62474b522dc9249a6d4a4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref>;</highlight></codeline>
+<codeline lineno="136" refid="classMR_1_1ChangeTextureAction_1a1079ab459c62474b522dc9249a6d4a4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeTextureAction_1a1079ab459c62474b522dc9249a6d4a4c" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref>;</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
 <codeline lineno="139" refid="classMR_1_1ChangeTextureAction_1ac85c185778438e863240862dbd46a152" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeTextureAction_1ac85c185778438e863240862dbd46a152" kindref="member">ChangeTextureAction</ref>(<sp/>std::string<sp/><ref refid="classMR_1_1ChangeTextureAction_1ad5e78402371a9402c2bc3e58851fd874" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectMeshHolder&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obj_{<sp/>obj<sp/>},</highlight></codeline>
@@ -933,10 +933,10 @@
 <codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;</highlight></codeline>
 <codeline lineno="186"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"></highlight></codeline>
-<codeline lineno="189" refid="classMR_1_1ChangeMeshPointsAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshPointsAction" kindref="compound">ChangeMeshPointsAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="189" refid="classMR_1_1ChangeMeshPointsAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshPointsAction_1a085ebc78393d430d040423cca12c98f7" kindref="member">ChangeMeshPointsAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="190"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="191"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="192" refid="classMR_1_1ChangeMeshPointsAction_1a340cefe2c61d0fb443d69100d5373a74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectMesh" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>;</highlight></codeline>
+<codeline lineno="192" refid="classMR_1_1ChangeMeshPointsAction_1a340cefe2c61d0fb443d69100d5373a74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshPointsAction_1a340cefe2c61d0fb443d69100d5373a74" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>;</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"></highlight></codeline>
 <codeline lineno="195" refid="classMR_1_1ChangeMeshPointsAction_1a085ebc78393d430d040423cca12c98f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeMeshPointsAction_1a085ebc78393d430d040423cca12c98f7" kindref="member">ChangeMeshPointsAction</ref>(<sp/>std::string<sp/><ref refid="classMR_1_1ChangeMeshPointsAction_1a5094eae088c0883a835d21da8c59f78c" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectMesh&gt;&amp;<sp/><ref refid="classMR_1_1ChangeMeshPointsAction_1a6cc086ef16a14228f6b699eebc1d100a" kindref="member">obj</ref><sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objMesh_{<sp/><ref refid="classMR_1_1ChangeMeshPointsAction_1a6cc086ef16a14228f6b699eebc1d100a" kindref="member">obj</ref><sp/>},</highlight></codeline>
@@ -994,10 +994,10 @@
 <codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;</highlight></codeline>
 <codeline lineno="250"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="253" refid="classMR_1_1ChangeMeshTopologyAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshTopologyAction" kindref="compound">ChangeMeshTopologyAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="253" refid="classMR_1_1ChangeMeshTopologyAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshTopologyAction_1aa8d94a8b87ac3a73dc720cb294e1553e" kindref="member">ChangeMeshTopologyAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="254"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="255"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="256" refid="classMR_1_1ChangeMeshTopologyAction_1ad25a52e6310d3b3cd781cf068eeea9bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectMesh" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>;</highlight></codeline>
+<codeline lineno="256" refid="classMR_1_1ChangeMeshTopologyAction_1ad25a52e6310d3b3cd781cf068eeea9bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshTopologyAction_1ad25a52e6310d3b3cd781cf068eeea9bd" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>;</highlight></codeline>
 <codeline lineno="257"><highlight class="normal"></highlight></codeline>
 <codeline lineno="259" refid="classMR_1_1ChangeMeshTopologyAction_1aa8d94a8b87ac3a73dc720cb294e1553e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeMeshTopologyAction_1aa8d94a8b87ac3a73dc720cb294e1553e" kindref="member">ChangeMeshTopologyAction</ref>(<sp/>std::string<sp/><ref refid="classMR_1_1ChangeMeshTopologyAction_1a94b059bce32bf0568d4e0b3fa861479c" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectMesh&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objMesh_{<sp/>obj<sp/>},</highlight></codeline>
@@ -1042,7 +1042,7 @@
 <codeline lineno="300"><highlight class="normal"></highlight></codeline>
 <codeline lineno="301" refid="classMR_1_1ChangeMeshTopologyAction_1ac1782bd01a600b949c2bd731b603918b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ChangeMeshTopologyAction_1ac1782bd01a600b949c2bd731b603918b" kindref="member">heapBytes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override</highlight></codeline>
 <codeline lineno="302"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>name_.capacity()<sp/>+<sp/>cloneTopology_.<ref refid="group__GeneralGroup_1ga96477aa3c048344d7275870044e47783" kindref="member">heapBytes</ref>();</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>name_.capacity()<sp/>+<sp/>cloneTopology_.heapBytes();</highlight></codeline>
 <codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="305"><highlight class="normal"></highlight></codeline>
 <codeline lineno="306"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
@@ -1052,10 +1052,10 @@
 <codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;</highlight></codeline>
 <codeline lineno="311"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="312"><highlight class="normal"></highlight></codeline>
-<codeline lineno="314" refid="classMR_1_1ChangeMeshTexturePerFaceAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshTexturePerFaceAction" kindref="compound">ChangeMeshTexturePerFaceAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="314" refid="classMR_1_1ChangeMeshTexturePerFaceAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshTexturePerFaceAction_1ab088029d6c5d868e8a5de7216aafe8ab" kindref="member">ChangeMeshTexturePerFaceAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="315"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="316"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="317" refid="classMR_1_1ChangeMeshTexturePerFaceAction_1a5ac275b9b06a01874c43ebe7baea03d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref>;</highlight></codeline>
+<codeline lineno="317" refid="classMR_1_1ChangeMeshTexturePerFaceAction_1a5ac275b9b06a01874c43ebe7baea03d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshTexturePerFaceAction_1a5ac275b9b06a01874c43ebe7baea03d8" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref>;</highlight></codeline>
 <codeline lineno="318"><highlight class="normal"></highlight></codeline>
 <codeline lineno="320" refid="classMR_1_1ChangeMeshTexturePerFaceAction_1ab088029d6c5d868e8a5de7216aafe8ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeMeshTexturePerFaceAction_1ab088029d6c5d868e8a5de7216aafe8ab" kindref="member">ChangeMeshTexturePerFaceAction</ref>(<sp/>std::string<sp/><ref refid="classMR_1_1ChangeMeshTexturePerFaceAction_1a4b2e329d2919c7bf660598c1f458ac86" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectMeshHolder&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objMesh_{<sp/>obj<sp/>},</highlight></codeline>
@@ -1099,7 +1099,7 @@
 <codeline lineno="360"><highlight class="normal"></highlight></codeline>
 <codeline lineno="361" refid="classMR_1_1ChangeMeshTexturePerFaceAction_1a26005c217798c440b5d38b82e747c9df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ChangeMeshTexturePerFaceAction_1a26005c217798c440b5d38b82e747c9df" kindref="member">heapBytes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override</highlight></codeline>
 <codeline lineno="362"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>name_.capacity()<sp/>+<sp/>texturePerFace_.<ref refid="group__GeneralGroup_1ga8adb58b328ca5465266d3859a7bc1d72" kindref="member">heapBytes</ref>();</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>name_.capacity()<sp/>+<sp/>texturePerFace_.heapBytes();</highlight></codeline>
 <codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="365"><highlight class="normal"></highlight></codeline>
 <codeline lineno="366"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
@@ -1109,8 +1109,8 @@
 <codeline lineno="370"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="371"><highlight class="normal"></highlight></codeline>
 <codeline lineno="373"><highlight class="normal"></highlight></codeline>
-<codeline lineno="374"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="374"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshAction.h"/>
+    <location file="MRMesh/MRChangeMeshAction.h"/>
   </compounddef>
 </doxygen>

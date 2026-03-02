@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1WatershedGraph_1_1BasinInfo" kind="struct" language="C++" prot="public">
     <compoundname>MR::WatershedGraph::BasinInfo</compoundname>
-    <includes refid="MRWatershedGraph_8h" local="no">MRWatershedGraph.h</includes>
+    <includes refid="MRWatershedGraph_8h" local="no">MRMesh/MRWatershedGraph.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga2e9b6e24cf6016e21030cbec21fb1240" kind="variable"><name>lowestVert</name></member>
       <member refid="group__GeneralGroup_1gab2cb4ea433e1e7448b0b1d3bafa8c2f2" kind="variable"><name>lowestLevel</name></member>
@@ -26,7 +26,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="19" bodyend="64"/>
+    <location file="MRMesh/MRWatershedGraph.h" line="18" column="5" bodyfile="MRMesh/MRWatershedGraph.h" bodystart="19" bodyend="64"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga5c26879d176c92192f673552c21b3ea9" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>accVolume</name></member>
       <member refid="group__GeneralGroup_1ga8a9b12285fe8639813ace28a93ef0f29" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>amountTillOverflow</name></member>

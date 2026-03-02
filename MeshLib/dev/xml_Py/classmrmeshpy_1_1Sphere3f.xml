@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Sphere3f" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Sphere3f</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -274,19 +274,6 @@ positive - outside, zero - on sphere, negative - inside
 Aliases:  Features.Primitives.Sphere
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.Sphere3f</label>
-        <link refid="classmrmeshpy_1_1Sphere3f"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_center</edgelabel>
-          <edgelabel>_offsetof_radius</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53288" bodyend="53334"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Sphere3f_1a6c29dd8030787f99192b60f2826cde6e" prot="public" virt="non-virtual"><scope>mrmeshpy::Sphere3f</scope><name>__eq__</name></member>

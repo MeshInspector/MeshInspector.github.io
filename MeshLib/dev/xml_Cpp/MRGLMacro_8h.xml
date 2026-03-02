@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRGLMacro_8h" kind="file" language="C++">
     <compoundname>MRGLMacro.h</compoundname>
     <includes local="yes">MRPch/MRSpdlog.h</includes>
     <includes refid="MRFinally_8h" local="yes">MRMesh/MRFinally.h</includes>
-    <includedby refid="MRRenderGLHelpers_8h" local="yes">MRRenderGLHelpers.h</includedby>
+    <includedby refid="MRRenderGLHelpers_8h" local="yes">MRViewer/MRRenderGLHelpers.h</includedby>
     <incdepgraph>
       <node id="3">
         <label>MRMesh/MRFinally.h</label>
@@ -19,7 +19,7 @@
         <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
-        <label>MRGLMacro.h</label>
+        <label>MRViewer/MRGLMacro.h</label>
         <link refid="MRGLMacro_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -35,31 +35,31 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>MRDepthPeelingGL.h</label>
+        <label>MRViewer/MRDepthPeelingGL.h</label>
         <link refid="MRDepthPeelingGL_8h"/>
       </node>
       <node id="1">
-        <label>MRGLMacro.h</label>
+        <label>MRViewer/MRGLMacro.h</label>
         <link refid="MRGLMacro_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRImGuiImage.h</label>
+        <label>MRViewer/MRImGuiImage.h</label>
         <link refid="MRImGuiImage_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRMarkedVoxelSlice.h</label>
+        <label>MRViewer/MRMarkedVoxelSlice.h</label>
         <link refid="MRMarkedVoxelSlice_8h"/>
       </node>
       <node id="8">
-        <label>MRRenderFeatureObjects.h</label>
+        <label>MRViewer/MRRenderFeatureObjects.h</label>
         <link refid="MRRenderFeatureObjects_8h"/>
       </node>
       <node id="2">
-        <label>MRRenderGLHelpers.h</label>
+        <label>MRViewer/MRRenderGLHelpers.h</label>
         <link refid="MRRenderGLHelpers_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -81,43 +81,43 @@
         </childnode>
       </node>
       <node id="6">
-        <label>MRRenderLabelObject.h</label>
+        <label>MRViewer/MRRenderLabelObject.h</label>
         <link refid="MRRenderLabelObject_8h"/>
       </node>
       <node id="7">
-        <label>MRRenderLinesObject.h</label>
+        <label>MRViewer/MRRenderLinesObject.h</label>
         <link refid="MRRenderLinesObject_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="9">
-        <label>MRRenderMeshObject.h</label>
+        <label>MRViewer/MRRenderMeshObject.h</label>
         <link refid="MRRenderMeshObject_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="10">
-        <label>MRRenderPointsObject.h</label>
+        <label>MRViewer/MRRenderPointsObject.h</label>
         <link refid="MRRenderPointsObject_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="11">
-        <label>MRRenderVolumeObject.h</label>
+        <label>MRViewer/MRRenderVolumeObject.h</label>
         <link refid="MRRenderVolumeObject_8h"/>
       </node>
       <node id="12">
-        <label>MRSceneTextureGL.h</label>
+        <label>MRViewer/MRSceneTextureGL.h</label>
         <link refid="MRSceneTextureGL_8h"/>
       </node>
       <node id="13">
-        <label>MRShadowsGL.h</label>
+        <label>MRViewer/MRShadowsGL.h</label>
         <link refid="MRShadowsGL_8h"/>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="14">
-        <label>MRViewerSettingsPlugin.h</label>
+        <label>MRViewer/MRViewerSettingsPlugin.h</label>
         <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLMacro.h" line="13" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLMacro.h" bodystart="13" bodyend="22"/>
+        <location file="MRViewer/MRGLMacro.h" line="13" column="9" bodyfile="MRViewer/MRGLMacro.h" bodystart="13" bodyend="22"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -155,7 +155,7 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRPch/MRSpdlog.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRFinally_8h" kindref="compound">MRMesh/MRFinally.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="preprocessor">#ifdef<sp/>__clang__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__clang__</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>push</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>ignored<sp/>&quot;-Wgnu-zero-variadic-macro-arguments&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
@@ -179,6 +179,6 @@
 <codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GL_EXEC(<sp/>...<sp/>)<sp/>__VA_ARGS__</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLMacro.h"/>
+    <location file="MRViewer/MRGLMacro.h"/>
   </compounddef>
 </doxygen>

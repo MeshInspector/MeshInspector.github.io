@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MarchingCubesParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MarchingCubesParams</compoundname>
     <innerclass refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode" prot="public">mrmeshpy::MarchingCubesParams::CachingMode</innerclass>
@@ -659,38 +659,15 @@ note: this function is called in parallel from different threads
         <label>mrmeshpy.MarchingCubesParams</label>
         <link refid="classmrmeshpy_1_1MarchingCubesParams"/>
         <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_cb</edgelabel>
-          <edgelabel>_offsetof_freeVolume</edgelabel>
-          <edgelabel>_offsetof_iso</edgelabel>
-          <edgelabel>_offsetof_lessInside</edgelabel>
-          <edgelabel>_offsetof_maxVertices</edgelabel>
-          <edgelabel>_offsetof_origin</edgelabel>
-          <edgelabel>_offsetof_outVoxelPerFaceMap</edgelabel>
-          <edgelabel>_offsetof_positioner</edgelabel>
-        </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>cachingMode</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>mrmeshpy.MarchingCubesParams</label>
-        <link refid="classmrmeshpy_1_1MarchingCubesParams"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_cb</edgelabel>
-          <edgelabel>_offsetof_freeVolume</edgelabel>
-          <edgelabel>_offsetof_iso</edgelabel>
-          <edgelabel>_offsetof_lessInside</edgelabel>
-          <edgelabel>_offsetof_maxVertices</edgelabel>
-          <edgelabel>_offsetof_origin</edgelabel>
-          <edgelabel>_offsetof_outVoxelPerFaceMap</edgelabel>
-          <edgelabel>_offsetof_positioner</edgelabel>
-        </childnode>
-        <childnode refid="3" relation="usage">
           <edgelabel>cachingMode</edgelabel>
         </childnode>
       </node>
       <node id="2">
-        <label>typing</label>
+        <label>mrmeshpy.MarchingCubesParams</label>
+        <link refid="classmrmeshpy_1_1MarchingCubesParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>cachingMode</edgelabel>
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27390" bodyend="27535"/>

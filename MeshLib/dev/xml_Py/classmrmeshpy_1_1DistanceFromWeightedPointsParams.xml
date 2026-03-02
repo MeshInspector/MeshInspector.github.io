@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1DistanceFromWeightedPointsParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::DistanceFromWeightedPointsParams</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams" prot="public" virt="non-virtual">mrmeshpy.DistanceFromWeightedPointsComputeParams</derivedcompoundref>
@@ -87,9 +87,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.DistanceFromWeightedPointsParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1ac508e9006f5f12136d2efcb6c52d99d6">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1aff19f85195ae8d9353e3cb358e459df5">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1aaa2feced824d25149ad7b8551aabdb2a">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -162,9 +159,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.DistanceFromWeightedPointsParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1ac508e9006f5f12136d2efcb6c52d99d6">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1aff19f85195ae8d9353e3cb358e459df5">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1aaa2feced824d25149ad7b8551aabdb2a">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -183,9 +177,6 @@
         <argsstring>(self, DistanceFromWeightedPointsParams arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.DistanceFromWeightedPointsParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1ac508e9006f5f12136d2efcb6c52d99d6">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1aff19f85195ae8d9353e3cb358e459df5">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1aaa2feced824d25149ad7b8551aabdb2a">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -210,9 +201,6 @@
         <argsstring>(self, func_float_from_Id_VertTag pointWeight, float minWeight, float maxWeight, float maxWeightGrad, bool bidirectionalMode)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.DistanceFromWeightedPointsParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1ac508e9006f5f12136d2efcb6c52d99d6">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1aff19f85195ae8d9353e3cb358e459df5">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1aaa2feced824d25149ad7b8551aabdb2a">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -482,22 +470,6 @@ if this value is imprecise, then more computations will be made by algorithm
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.DistanceFromWeightedPointsParams</label>
-        <link refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_bidirectionalMode</edgelabel>
-          <edgelabel>_offsetof_maxWeight</edgelabel>
-          <edgelabel>_offsetof_maxWeightGrad</edgelabel>
-          <edgelabel>_offsetof_minWeight</edgelabel>
-          <edgelabel>_offsetof_pointWeight</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13390" bodyend="13469"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1a6607148095004b3ec7c9f7233247c94a" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsParams</scope><name>__init__</name></member>

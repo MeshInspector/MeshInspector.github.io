@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeFacesColorMapAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeFacesColorMapAction</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeFacesColorMapAction</basecompoundref>
@@ -99,7 +99,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeFacesColorMapAction.ChangeFacesColorMapAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeFacesColorMapAction_1ac587b55f7a2b46cc8831cb47d404dde9" kindref="member">MR.ChangeFacesColorMapAction.ChangeFacesColorMapAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -118,7 +118,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeFacesColorMapAction.ChangeFacesColorMapAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeFacesColorMapAction_1ac587b55f7a2b46cc8831cb47d404dde9" kindref="member">MR.ChangeFacesColorMapAction.ChangeFacesColorMapAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -137,7 +137,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeFacesColorMapAction.ChangeFacesColorMapAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeFacesColorMapAction_1ac587b55f7a2b46cc8831cb47d404dde9" kindref="member">MR.ChangeFacesColorMapAction.ChangeFacesColorMapAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -160,7 +160,7 @@
           <declname>obj</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s face colors before making any changes in them Generated from constructor <computeroutput>MR.ChangeFacesColorMapAction.ChangeFacesColorMapAction</computeroutput>. </para>
+<para>use this constructor to remember object&apos;s face colors before making any changes in them Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeFacesColorMapAction_1ac587b55f7a2b46cc8831cb47d404dde9" kindref="member">MR.ChangeFacesColorMapAction.ChangeFacesColorMapAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -187,7 +187,7 @@
           <declname>newColorMap</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s face colors and immediate set new value Generated from constructor <computeroutput>MR.ChangeFacesColorMapAction.ChangeFacesColorMapAction</computeroutput>. </para>
+<para>use this constructor to remember object&apos;s face colors and immediate set new value Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeFacesColorMapAction_1ac587b55f7a2b46cc8831cb47d404dde9" kindref="member">MR.ChangeFacesColorMapAction.ChangeFacesColorMapAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -206,7 +206,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ChangeFacesColorMapAction.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ChangeFacesColorMapAction::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -240,45 +240,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ChangeFacesColorMapAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeFacesColorMapAction</label>
         <link refid="classMR_1_1ChangeFacesColorMapAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeFacesColorMapAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeFacesColorMapAction &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ChangeFacesColorMapAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeFacesColorMapAction</label>
         <link refid="classMR_1_1ChangeFacesColorMapAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeFacesColorMapAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeFacesColorMapAction &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="565" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="566" bodyend="664"/>

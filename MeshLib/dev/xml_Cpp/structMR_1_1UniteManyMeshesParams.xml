@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1UniteManyMeshesParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::UniteManyMeshesParams</compoundname>
-    <includes refid="MRUniteManyMeshes_8h" local="no">MRUniteManyMeshes.h</includes>
+    <includes refid="MRUniteManyMeshes_8h" local="no">MRMesh/MRUniteManyMeshes.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gad905aa665d2879e62cb41d03eb580eab" kind="variable"><name>useRandomShifts</name></member>
       <member refid="group__GeneralGroup_1ga28505f79efacbde9b70d5d98148c26e4" kind="variable"><name>fixDegenerations</name></member>
@@ -19,7 +19,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" bodystart="22" bodyend="54"/>
+    <location file="MRMesh/MRUniteManyMeshes.h" line="21" column="1" bodyfile="MRMesh/MRUniteManyMeshes.h" bodystart="22" bodyend="54"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga28505f79efacbde9b70d5d98148c26e4" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>fixDegenerations</name></member>
       <member refid="group__GeneralGroup_1gac647b8fce386278e1b3407f1b5f314e5" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>forceCut</name></member>

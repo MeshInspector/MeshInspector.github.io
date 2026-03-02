@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1FeaturePropertyKind" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FeaturePropertyKind</compoundname>
     <sectiondef kind="private-static-attrib">
@@ -346,22 +346,6 @@
   other
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.FeaturePropertyKind</label>
-        <link refid="classmrmeshpy_1_1FeaturePropertyKind"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>angle</edgelabel>
-          <edgelabel>direction</edgelabel>
-          <edgelabel>linearDimension</edgelabel>
-          <edgelabel>other</edgelabel>
-          <edgelabel>position</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18108" bodyend="18153"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FeaturePropertyKind_1ab65a2703e38e0a39893d579d678c5c2a" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturePropertyKind</scope><name>__eq__</name></member>

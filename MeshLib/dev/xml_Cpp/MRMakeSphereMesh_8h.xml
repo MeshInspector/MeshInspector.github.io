@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMakeSphereMesh_8h" kind="file" language="C++">
     <compoundname>MRMakeSphereMesh.h</compoundname>
     <includes refid="MRMesh_8h" local="yes">MRMesh.h</includes>
-    <includedby refid="MRUVSphere_8h" local="yes">MRUVSphere.h</includedby>
+    <includedby refid="MRUVSphere_8h" local="yes">MRMesh/MRUVSphere.h</includedby>
     <incdepgraph>
       <node id="23">
         <label>MRBitSet.h</label>
@@ -82,7 +82,7 @@
         <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
-        <label>MRMakeSphereMesh.h</label>
+        <label>MRMesh/MRMakeSphereMesh.h</label>
         <link refid="MRMakeSphereMesh_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -403,13 +403,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRMakeSphereMesh.h</label>
+        <label>MRMesh/MRMakeSphereMesh.h</label>
         <link refid="MRMakeSphereMesh_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRUVSphere.h</label>
+        <label>MRMesh/MRUVSphere.h</label>
         <link refid="MRUVSphere_8h"/>
       </node>
     </invincdepgraph>
@@ -438,8 +438,8 @@
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1ga29f3d30ae626be1279cda802a881e045" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga29f3d30ae626be1279cda802a881e045" kindref="member">makeUVSphere</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius<sp/>=<sp/>1.0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>horisontalResolution<sp/>=<sp/>16,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>verticalResolution<sp/>=<sp/>16<sp/>);</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMakeSphereMesh.h"/>
+    <location file="MRMesh/MRMakeSphereMesh.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ObjectComparableWithReference::ComparableProperty</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -225,19 +225,6 @@ E.g. for point coordinates, those functions act on the reference coordinates (th
 <para><verbatim>Generated from:  MR::ObjectComparableWithReference::ComparableProperty
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.ObjectComparableWithReference.ComparableProperty</label>
-        <link refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_referenceValue</edgelabel>
-          <edgelabel>_offsetof_value</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39355" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39355" bodyend="39397"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty_1a428c3037a7c1381ed48932a55091c20e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparableProperty</scope><name>__init__</name></member>

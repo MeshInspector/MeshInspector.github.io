@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRTunnelDetector_8h" kind="file" language="C++">
     <compoundname>MRTunnelDetector.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -33,136 +33,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
-        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref></type>
-        <definition>typedef struct MR_MeshPart MR_MeshPart</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshPart</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="14" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1ad396cf7d4433c5ba7924776f5b379c9b" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref></type>
-        <definition>typedef struct MR_MeshTopology MR_MeshTopology</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTopology</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="15" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1a6aeecd4fac2aea90513510421de3f37b" prot="public" static="no">
-        <type>struct <ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_FaceBitSet_std_string MR_expected_MR_FaceBitSet_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_FaceBitSet_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="16" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1a113b2c998614f463539fb118dd416dd0" prot="public" static="no">
-        <type>struct <ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref></type>
-        <definition>typedef struct MR_expected_std_vector_MR_EdgeId_std_string MR_expected_std_vector_MR_EdgeId_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_std_vector_MR_EdgeId_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="17" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1afbb58c6b3a4c5746c9ae773c02b24591" prot="public" static="no">
-        <type>struct <ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref></type>
-        <definition>typedef struct MR_expected_std_vector_std_vector_MR_EdgeId_std_string MR_expected_std_vector_std_vector_MR_EdgeId_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_std_vector_std_vector_MR_EdgeId_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="18" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="19" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" prot="public" static="no">
-        <type>struct <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref></type>
-        <definition>typedef struct MR_std_function_float_from_MR_EdgeId MR_std_function_float_from_MR_EdgeId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_float_from_MR_EdgeId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="20" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1aa2cb99914308eb7429fd11738cf79483" prot="public" static="no">
-        <type>struct <ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref></type>
-        <definition>typedef struct MR_std_vector_MR_EdgeId MR_std_vector_MR_EdgeId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_EdgeId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="21" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTunnelDetector_8h_1ab5de264b6065dbf84f6b3fa0f6530592" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref></type>
-        <definition>typedef struct MR_std_vector_std_vector_MR_EdgeId MR_std_vector_std_vector_MR_EdgeId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_vector_MR_EdgeId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" line="22" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTunnelDetector.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" prot="public" static="no">
         <type>struct <ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref></type>
         <definition>typedef struct MR_DetectTunnelSettings MR_DetectTunnelSettings</definition>
@@ -830,7 +700,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_DetectTunnelSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -848,7 +718,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_DetectTunnelSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -922,19 +792,19 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRTunnelDetector_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRTunnelDetector_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRTunnelDetector_8h_1ad396cf7d4433c5ba7924776f5b379c9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRTunnelDetector_8h_1a6aeecd4fac2aea90513510421de3f37b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_FaceBitSet_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRTunnelDetector_8h_1a113b2c998614f463539fb118dd416dd0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref><sp/><ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_MR_EdgeId_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRTunnelDetector_8h_1afbb58c6b3a4c5746c9ae773c02b24591" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref><sp/><ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_std_vector_MR_EdgeId_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRTunnelDetector_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRTunnelDetector_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_float_from_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRTunnelDetector_8h_1aa2cb99914308eb7429fd11738cf79483" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRTunnelDetector_8h_1ab5de264b6065dbf84f6b3fa0f6530592" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_FaceBitSet_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref><sp/><ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_MR_EdgeId_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref><sp/><ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_std_vector_MR_EdgeId_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_float_from_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref>;</highlight></codeline>
+<codeline lineno="27" refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref><sp/><ref refid="MRTunnelDetector_8h_1ac913b928f55547394d82cc3dfb02b594" kindref="member">MR_DetectTunnelSettings</ref>;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37" refid="MRTunnelDetector_8h_1a3b79bba0199bbbcb1eb8ac8340e40d90" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref><sp/>*<ref refid="MRTunnelDetector_8h_1a3b79bba0199bbbcb1eb8ac8340e40d90" kindref="member">MR_detectBasisTunnels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/>MR_PassBy<sp/>metric_pass_by,<sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*metric,<sp/>MR_PassBy<sp/>progressCallback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCallback);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>

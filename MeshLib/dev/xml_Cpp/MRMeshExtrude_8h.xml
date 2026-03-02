@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshExtrude_8h" kind="file" language="C++">
     <compoundname>MRMeshExtrude.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -15,7 +15,7 @@
         <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
-        <label>MRMeshExtrude.h</label>
+        <label>MRMesh/MRMeshExtrude.h</label>
         <link refid="MRMeshExtrude_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -81,8 +81,8 @@
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"></codeline>
-<codeline lineno="11" refid="structMR_1_1MakeDegenerateBandAroundRegionParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MakeDegenerateBandAroundRegionParams" kindref="compound">MakeDegenerateBandAroundRegionParams</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="structMR_1_1MakeDegenerateBandAroundRegionParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MakeDegenerateBandAroundRegionParams" kindref="compound">MakeDegenerateBandAroundRegionParams</ref></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14" refid="group__GeneralGroup_1ga7d6c4b4b9c582144c01aad1b8bf29605" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceBitSet*<sp/><ref refid="group__GeneralGroup_1ga7d6c4b4b9c582144c01aad1b8bf29605" kindref="member">outNewFaces</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1ga9a43bd53420bdfcd8981d9dc16830775" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeBitSet*<sp/><ref refid="group__GeneralGroup_1ga9a43bd53420bdfcd8981d9dc16830775" kindref="member">outExtrudedEdges</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
@@ -92,8 +92,8 @@
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31" refid="group__GeneralGroup_1gadd5038dba629ab9f09789d2855c2aa73" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadd5038dba629ab9f09789d2855c2aa73" kindref="member">makeDegenerateBandAroundRegion</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet&amp;<sp/>region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MakeDegenerateBandAroundRegionParams" kindref="compound">MakeDegenerateBandAroundRegionParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshExtrude.h"/>
+    <location file="MRMesh/MRMeshExtrude.h"/>
   </compounddef>
 </doxygen>

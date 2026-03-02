@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1AncillaryLines" kind="struct" language="C++" prot="public">
     <compoundname>MR::AncillaryLines</compoundname>
-    <includes refid="MRAncillaryLines_8h" local="no">MRAncillaryLines.h</includes>
+    <includes refid="MRAncillaryLines_8h" local="no">MRViewer/MRAncillaryLines.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga3521624c0384c6ad11a0c3bdf5f1c1ed" kind="variable"><name>obj</name></member>
     </sectiondef>
@@ -28,7 +28,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" bodystart="16" bodyend="52"/>
+    <location file="MRViewer/MRAncillaryLines.h" line="15" column="1" bodyfile="MRViewer/MRAncillaryLines.h" bodystart="16" bodyend="52"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga19beda95a4a3a81962c578366d47ea85" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>AncillaryLines</name></member>
       <member refid="group__GeneralGroup_1ga663141ea1eeeab9d4b542f46a84aa82b" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>AncillaryLines</name></member>

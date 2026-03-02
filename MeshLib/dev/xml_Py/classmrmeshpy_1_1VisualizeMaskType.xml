@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1VisualizeMaskType" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::VisualizeMaskType</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -365,23 +365,6 @@
   _count
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.VisualizeMaskType</label>
-        <link refid="classmrmeshpy_1_1VisualizeMaskType"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>ClippedByPlane</edgelabel>
-          <edgelabel>DepthTest</edgelabel>
-          <edgelabel>InvertedNormals</edgelabel>
-          <edgelabel>Name</edgelabel>
-          <edgelabel>Visibility</edgelabel>
-          <edgelabel>_count</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73064" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73064" bodyend="73112"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1VisualizeMaskType_1a64f1eaae386bc51cfadafc396b954faa" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualizeMaskType</scope><name>__eq__</name></member>

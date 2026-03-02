@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewportParametersAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ViewportParametersAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRViewportParametersAction_8h" local="no">MRViewportParametersAction.h</includes>
+    <includes refid="MRViewportParametersAction_8h" local="no">MRViewer/MRViewportParametersAction.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__HistoryGroup_1ga0cc628db3ee48e266c212223bb7e7c22" kind="variable"><name>saveParameters_</name></member>
       <member refid="group__HistoryGroup_1gac68687f06583aae672d38f0ba7b6c11a" kind="variable"><name>name_</name></member>
@@ -43,7 +43,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h" bodystart="17" bodyend="55"/>
+    <location file="MRViewer/MRViewportParametersAction.h" line="16" column="1" bodyfile="MRViewer/MRViewportParametersAction.h" bodystart="17" bodyend="55"/>
     <listofallmembers>
       <member refid="group__HistoryGroup_1gab0a69b615a514d76010260695c2116e5" prot="public" virt="virtual"><scope>MR::ViewportParametersAction</scope><name>action</name></member>
       <member refid="group__HistoryGroup_1gabe2857cfb3a48ee763a3a83857c55423" prot="public" virt="virtual"><scope>MR::ViewportParametersAction</scope><name>heapBytes</name></member>

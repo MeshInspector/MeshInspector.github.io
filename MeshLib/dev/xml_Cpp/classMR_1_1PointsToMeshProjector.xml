@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointsToMeshProjector" kind="class" language="C++" prot="public">
     <compoundname>MR::PointsToMeshProjector</compoundname>
     <basecompoundref refid="classMR_1_1IPointsToMeshProjector" prot="public" virt="non-virtual">MR::IPointsToMeshProjector</basecompoundref>
-    <includes refid="MRPointsToMeshProjector_8h" local="no">MRPointsToMeshProjector.h</includes>
+    <includes refid="MRPointsToMeshProjector_8h" local="no">MRMesh/MRPointsToMeshProjector.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gac83a7b047702654dffccadc7acdc6941" kind="variable"><name>mesh_</name></member>
     </sectiondef>
@@ -41,7 +41,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" line="66" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsToMeshProjector.h" bodystart="67" bodyend="87"/>
+    <location file="MRMesh/MRPointsToMeshProjector.h" line="66" column="1" bodyfile="MRMesh/MRPointsToMeshProjector.h" bodystart="67" bodyend="87"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae94bc431332d412f6a094093e77ed8d9" prot="public" virt="virtual"><scope>MR::PointsToMeshProjector</scope><name>findProjections</name></member>
       <member refid="group__GeneralGroup_1gac83a7b047702654dffccadc7acdc6941" prot="private" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>mesh_</name></member>

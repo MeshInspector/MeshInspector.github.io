@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMapEdge_8h" kind="file" language="C++">
     <compoundname>MRMapEdge.h</compoundname>
     <includes refid="MRMapOrHashMap_8h" local="yes">MRMapOrHashMap.h</includes>
@@ -50,7 +50,7 @@
         <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
-        <label>MRMapEdge.h</label>
+        <label>MRMesh/MRMapEdge.h</label>
         <link refid="MRMapEdge_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -216,7 +216,7 @@
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>it<sp/>!=<sp/>map.end()<sp/>?<sp/>it-&gt;second.undirected()<sp/>:<sp/>UndirectedEdgeId{};</highlight></codeline>
 <codeline lineno="47"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="group__GeneralGroup_1ga0718e473bb43501639504b5b1fef2daa" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>EdgeId<sp/><ref refid="group__GeneralGroup_1gafea1c6e74e1a6a4ed14dc7fcf09b24df" kindref="member">mapEdge</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MapOrHashMap" kindref="compound">WholeEdgeMapOrHashMap</ref><sp/>&amp;<sp/>m,<sp/>EdgeId<sp/>src<sp/>)</highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1ga0718e473bb43501639504b5b1fef2daa" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>EdgeId<sp/><ref refid="group__GeneralGroup_1gafea1c6e74e1a6a4ed14dc7fcf09b24df" kindref="member">mapEdge</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga97913e3bb3380204133f3b371cc4b6de" kindref="member">WholeEdgeMapOrHashMap</ref><sp/>&amp;<sp/>m,<sp/>EdgeId<sp/>src<sp/>)</highlight></codeline>
 <codeline lineno="51"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::visit(<sp/><ref refid="structMR_1_1overloaded" kindref="compound">overloaded</ref>{</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[src](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>WholeEdgeMap&amp;<sp/>map<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafea1c6e74e1a6a4ed14dc7fcf09b24df" kindref="member">mapEdge</ref>(<sp/>map,<sp/>src<sp/>);<sp/>},</highlight></codeline>
@@ -224,7 +224,7 @@
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/>m.<ref refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kindref="member">var</ref><sp/>);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="group__GeneralGroup_1gaada1ce79ef0fe414ee9299507e1b4e0b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>UndirectedEdgeId<sp/><ref refid="group__GeneralGroup_1gafea1c6e74e1a6a4ed14dc7fcf09b24df" kindref="member">mapEdge</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MapOrHashMap" kindref="compound">WholeEdgeMapOrHashMap</ref><sp/>&amp;<sp/>m,<sp/>UndirectedEdgeId<sp/>src<sp/>)</highlight></codeline>
+<codeline lineno="59" refid="group__GeneralGroup_1gaada1ce79ef0fe414ee9299507e1b4e0b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>UndirectedEdgeId<sp/><ref refid="group__GeneralGroup_1gafea1c6e74e1a6a4ed14dc7fcf09b24df" kindref="member">mapEdge</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga97913e3bb3380204133f3b371cc4b6de" kindref="member">WholeEdgeMapOrHashMap</ref><sp/>&amp;<sp/>m,<sp/>UndirectedEdgeId<sp/>src<sp/>)</highlight></codeline>
 <codeline lineno="60"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::visit(<sp/><ref refid="structMR_1_1overloaded" kindref="compound">overloaded</ref>{</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[src](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>WholeEdgeMap&amp;<sp/>map<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafea1c6e74e1a6a4ed14dc7fcf09b24df" kindref="member">mapEdge</ref>(<sp/>map,<sp/>src<sp/>);<sp/>},</highlight></codeline>
@@ -243,8 +243,8 @@
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80" refid="group__GeneralGroup_1ga5fa902572c40e4b500498cfe34367d6b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>UndirectedEdgeBitSet<sp/><ref refid="group__GeneralGroup_1gad8acd3dd7b2ecf6d848dcdc75ad5d8e9" kindref="member">mapEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBMap<sp/>&amp;<sp/>map,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>&amp;<sp/>src<sp/>);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapEdge.h"/>
+    <location file="MRMesh/MRMapEdge.h"/>
   </compounddef>
 </doxygen>

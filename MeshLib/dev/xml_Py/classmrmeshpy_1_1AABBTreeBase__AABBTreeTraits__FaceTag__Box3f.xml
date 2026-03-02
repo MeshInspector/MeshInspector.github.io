@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::AABBTreeBase_AABBTreeTraits_FaceTag_Box3f</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1AABBTree" prot="public" virt="non-virtual">mrmeshpy.AABBTree</derivedcompoundref>
@@ -117,8 +117,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTree_1a31df616df8ebd38c2ca94d5994b10c59">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTree_1a61d53bd98bc1f2e15dd8e60b2fbb0cbb">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -227,8 +225,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTree_1a31df616df8ebd38c2ca94d5994b10c59">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTree_1a61d53bd98bc1f2e15dd8e60b2fbb0cbb">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -247,8 +243,6 @@
         <argsstring>(self, AABBTreeBase_AABBTreeTraits_FaceTag_Box3f arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTree_1a31df616df8ebd38c2ca94d5994b10c59">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTree_1a61d53bd98bc1f2e15dd8e60b2fbb0cbb">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>

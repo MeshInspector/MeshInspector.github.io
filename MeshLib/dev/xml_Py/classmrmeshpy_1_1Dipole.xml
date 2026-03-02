@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Dipole" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Dipole</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -297,21 +297,6 @@ Single oriented point or two oppositely charged points close together, represent
 https://www.dgp.toronto.edu/projects/fast-winding-numbers/fast-winding-numbers-for-soups-and-clouds-siggraph-2018-barill-et-al.pdf
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.Dipole</label>
-        <link refid="classmrmeshpy_1_1Dipole"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_area</edgelabel>
-          <edgelabel>_offsetof_dirArea</edgelabel>
-          <edgelabel>_offsetof_pos</edgelabel>
-          <edgelabel>_offsetof_rr</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13015" bodyend="13067"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Dipole_1ae91a7ea8a3a01b611c2ea66e63460898" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipole</scope><name>__init__</name></member>

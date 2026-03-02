@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AngleMeasurementObject" kind="class" language="C++" prot="public">
     <compoundname>MR::AngleMeasurementObject</compoundname>
     <basecompoundref refid="classMR_1_1MeasurementObject" prot="public" virt="non-virtual">MR::MeasurementObject</basecompoundref>
-    <includes refid="MRAngleMeasurementObject_8h" local="no">MRAngleMeasurementObject.h</includes>
+    <includes refid="MRAngleMeasurementObject_8h" local="no">MRMesh/MRAngleMeasurementObject.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gacfc8f690c3bf3935fb4e3bc132ebd84b" kind="variable"><name>isConical_</name></member>
       <member refid="group__GeneralGroup_1ga5773b93639b8824c0c0ac660ec402ed5" kind="variable"><name>shouldVisualizeRay_</name></member>
@@ -174,7 +174,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" bodystart="13" bodyend="89"/>
+    <location file="MRMesh/MRAngleMeasurementObject.h" line="12" column="1" bodyfile="MRMesh/MRAngleMeasurementObject.h" bodystart="13" bodyend="89"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>addChildBefore</name></member>

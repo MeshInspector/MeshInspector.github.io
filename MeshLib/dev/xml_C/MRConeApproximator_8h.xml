@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRConeApproximator_8h" kind="file" language="C++">
     <compoundname>MRConeApproximator.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -456,7 +456,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Cone3ApproximationParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -474,7 +474,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Cone3ApproximationParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -529,7 +529,7 @@
 <codeline lineno="17" refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763a4932847c2508e3b00db775423eec2050" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763a4932847c2508e3b00db775423eec2050" kindref="member">MR_ConeFitterType_SpecificAxisFit</ref><sp/>=<sp/>2,</highlight></codeline>
 <codeline lineno="18" refid="MRConeApproximator_8h_1a821e66a791ff86124d452054a8b9fd36" refkind="member"><highlight class="normal">}<sp/><ref refid="MRConeApproximator_8h_1a84389e7ebe034c8e22caf5f62a212763" kindref="member">MR_ConeFitterType</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref>;</highlight></codeline>
+<codeline lineno="22" refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref>;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28" refid="MRConeApproximator_8h_1af1df3835daba1df53d51c5d9729d8c24" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRConeApproximator_8h_1af1df3835daba1df53d51c5d9729d8c24" kindref="member">MR_Cone3ApproximationParams_Get_levenbergMarquardtMaxIteration</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConeApproximator_8h_1ae55f827d4bf446beac8e7ce90fa1793e" kindref="member">MR_Cone3ApproximationParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>

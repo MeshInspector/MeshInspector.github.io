@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1NoDefInit__NodeId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::NoDefInit_NodeId</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1NodeId" prot="public" virt="non-virtual">mrmeshpy.NodeId</basecompoundref>
@@ -10,7 +10,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NoDefInit_NodeId.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1NodeId_1ae1faf495f4b33551120d6af065a13bcd">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -81,7 +80,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NoDefInit_NodeId.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1NodeId_1ae1faf495f4b33551120d6af065a13bcd">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -100,7 +98,6 @@
         <argsstring>(self, NoDefInit_NodeId arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NoDefInit_NodeId.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1NodeId_1ae1faf495f4b33551120d6af065a13bcd">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -125,7 +122,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.NoDefInit_NodeId.__repr__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1NodeId_1aa9585470adc49645a58699b706da9675">__repr__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -174,12 +170,25 @@ this class is similar to T, but does not make default initialization of the fiel
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37619" bodyend="37647"/>
     <listofallmembers>
+      <member refid="classmrmeshpy_1_1NodeId_1a627793034510464f50998f5d4902da44" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__add__</name></member>
+      <member refid="classmrmeshpy_1_1NodeId_1a627793034510464f50998f5d4902da44" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__add__</name></member>
+      <member refid="classmrmeshpy_1_1NodeId_1a627793034510464f50998f5d4902da44" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__add__</name></member>
+      <member refid="classmrmeshpy_1_1NodeId_1ada52ac2cd9cbd5189dda80df05895acf" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1NodeId_1ac30a8777902d0dbd6c77207a43c550ca" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1NodeId_1a179cc673373baf8ff35ad7ded4545226" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__iadd__</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__NodeId_1aaaa41de2ac9f5afa620167062592e070" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__NodeId_1a24759c14915d505fd75dcd27d0ffa744" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__NodeId_1a7abff691b201376de80417702e54ec1d" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NodeId_1a5ccefc1b699625d61b66f968c17c633a" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1NodeId_1a95eb159ce3545446c864090da9b1e793" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1NodeId_1a868d9b17dd22d1e0f76bd12a29b40c0c" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__ne__</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__NodeId_1ad3550d7edd7351d9549e587ddec19078" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1NodeId_1a099a77c2ffe1a2e8cb64fb003d51ab66" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>get</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__NodeId_1a0307a23c9b0dd5d6fdfe9830ace7e2d9" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__NodeId_1a0307a23c9b0dd5d6fdfe9830ace7e2d9" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1NodeId_1abdba113836a5bdcf14541bebf96af678" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>operatorminusminus</name></member>
+      <member refid="classmrmeshpy_1_1NodeId_1ab9e76c4dfebdd26a8f1494b60f7c5dec" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>operatorminusminus</name></member>
+      <member refid="classmrmeshpy_1_1NodeId_1a001daef1baf1cdeb7fed8b28b86a1b74" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_NodeId</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

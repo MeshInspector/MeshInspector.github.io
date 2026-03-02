@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointPairs" kind="class" language="C#" prot="public">
     <compoundname>MR::PointPairs</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_PointPairs</basecompoundref>
@@ -40,7 +40,7 @@
         <name>this[ulong idx]</name>
         <qualifiedname>MR.PointPairs.this[ulong idx]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PointPairs.operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PointPairs::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -139,7 +139,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PointPairs.PointPairs</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointPairs_1a6e0e850570816e81cc8a00569c2d8682" kindref="member">MR.PointPairs.PointPairs</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -158,7 +158,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PointPairs.PointPairs</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointPairs_1a6e0e850570816e81cc8a00569c2d8682" kindref="member">MR.PointPairs.PointPairs</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -177,7 +177,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PointPairs.PointPairs</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointPairs_1a6e0e850570816e81cc8a00569c2d8682" kindref="member">MR.PointPairs.PointPairs</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -196,7 +196,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PointPairs.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PointPairs::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -211,45 +211,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_PointPairs</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PointPairs</label>
         <link refid="classMR_1_1PointPairs"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PointPairs</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_PointPairs &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_PointPairs</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PointPairs</label>
         <link refid="classMR_1_1PointPairs"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PointPairs</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_PointPairs &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="961" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="962" bodyend="1079"/>

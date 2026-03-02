@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CaptureScreenshotToClipBoardMenuItem" kind="class" language="C++" prot="public">
     <compoundname>MR::CaptureScreenshotToClipBoardMenuItem</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
-    <includes refid="MRIOFilesMenuItems_8h" local="no">MRIOFilesMenuItems.h</includes>
+    <includes refid="MRIOFilesMenuItems_8h" local="no">MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga5bf6d6d25422d614449691f27a8415d0" kind="function"><name>CaptureScreenshotToClipBoardMenuItem</name></member>
       <member refid="group__GeneralGroup_1gaa9768034e77b25ffed92bf08fbe11321" kind="function"><name>action</name></member>
@@ -49,7 +49,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="117" bodyend="122"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="116" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="117" bodyend="122"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa9768034e77b25ffed92bf08fbe11321" prot="public" virt="virtual"><scope>MR::CaptureScreenshotToClipBoardMenuItem</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::CaptureScreenshotToClipBoardMenuItem</scope><name>blocking</name></member>

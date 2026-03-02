@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonButtonDrawer" kind="class" language="C++" prot="public">
     <compoundname>MR::RibbonButtonDrawer</compoundname>
-    <includes refid="MRRibbonButtonDrawer_8h" local="no">MRRibbonButtonDrawer.h</includes>
+    <includes refid="MRRibbonButtonDrawer_8h" local="no">MRViewer/MRRibbonButtonDrawer.h</includes>
     <innerclass refid="structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth" prot="public">MR::RibbonButtonDrawer::ButtonItemWidth</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga23c5f0f08b0b93d907d363936c36f368" kind="enum"><name>TextureType</name></member>
@@ -46,7 +46,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="52" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="53" bodyend="123"/>
+    <location file="MRViewer/MRRibbonButtonDrawer.h" line="52" column="1" bodyfile="MRViewer/MRRibbonButtonDrawer.h" bodystart="53" bodyend="123"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga6750d8cecd56385adb652cf0a2d1452e" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>calcItemWidth</name></member>
       <member refid="group__GeneralGroup_1ga5b4295b0fc51e4c88cd77286de65e4af" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer</scope><name>CustomCollapsingHeader</name></member>

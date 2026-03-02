@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1SearchPathSettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::SearchPathSettings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -266,19 +266,6 @@
 Geo path search settings
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.SearchPathSettings</label>
-        <link refid="classmrmeshpy_1_1SearchPathSettings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_geodesicPathApprox</edgelabel>
-          <edgelabel>_offsetof_maxReduceIters</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51636" bodyend="51684"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1SearchPathSettings_1a5d4fa23d1f4e2ee3b9407c51efe5f4f7" prot="public" virt="non-virtual"><scope>mrmeshpy::SearchPathSettings</scope><name>__init__</name></member>

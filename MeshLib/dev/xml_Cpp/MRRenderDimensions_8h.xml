@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRenderDimensions_8h" kind="file" language="C++">
     <compoundname>MRRenderDimensions.h</compoundname>
     <includes refid="MRColor_8h" local="yes">MRMesh/MRColor.h</includes>
@@ -8,8 +8,8 @@
     <includes refid="MRRenderClickableRect_8h" local="yes">MRViewer/MRRenderClickableRect.h</includes>
     <includes local="yes">MRViewer/exports.h</includes>
     <includes local="no">optional</includes>
-    <includedby refid="MRRenderFeatureObjects_8h" local="yes">MRRenderFeatureObjects.h</includedby>
-    <includedby refid="MRRenderMeasurementObjects_8h" local="yes">MRRenderMeasurementObjects.h</includedby>
+    <includedby refid="MRRenderFeatureObjects_8h" local="yes">MRViewer/MRRenderFeatureObjects.h</includedby>
+    <includedby refid="MRRenderMeasurementObjects_8h" local="yes">MRViewer/MRRenderMeasurementObjects.h</includedby>
     <incdepgraph>
       <node id="32">
         <label>MRAffineXf.h</label>
@@ -228,7 +228,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRRenderDimensions.h</label>
+        <label>MRViewer/MRRenderDimensions.h</label>
         <link refid="MRRenderDimensions_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -306,7 +306,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRRenderDimensions.h</label>
+        <label>MRViewer/MRRenderDimensions.h</label>
         <link refid="MRRenderDimensions_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -314,11 +314,11 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MRRenderFeatureObjects.h</label>
+        <label>MRViewer/MRRenderFeatureObjects.h</label>
         <link refid="MRRenderFeatureObjects_8h"/>
       </node>
       <node id="3">
-        <label>MRRenderMeasurementObjects.h</label>
+        <label>MRViewer/MRRenderMeasurementObjects.h</label>
         <link refid="MRRenderMeasurementObjects_8h"/>
       </node>
     </invincdepgraph>
@@ -352,7 +352,7 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Viewport;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref>;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="namespaceMR_1_1RenderDimensions" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1RenderDimensions" kindref="compound">MR::RenderDimensions</ref></highlight></codeline>
@@ -388,7 +388,7 @@
 <codeline lineno="61" refid="group__GeneralGroup_1ga7e497a083e2528f951bf48ea00473a3f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7e497a083e2528f951bf48ea00473a3f" kindref="member">capIsVisible</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="62"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="classMR_1_1RenderDimensions_1_1PointTask" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RenderDimensions_1_1PointTask" kindref="compound">PointTask</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1BasicClickableRectUiRenderTask" kindref="compound">BasicClickableRectUiRenderTask</ref></highlight></codeline>
+<codeline lineno="64" refid="classMR_1_1RenderDimensions_1_1PointTask" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga98d9ea7c04c135e0a689de9017d7bd33" kindref="member">PointTask</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga399c5f6acb8eeb36add889e1bd4cef99" kindref="member">BasicClickableRectUiRenderTask</ref></highlight></codeline>
 <codeline lineno="65"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref>*<sp/>viewport_<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/>color_;</highlight></codeline>
@@ -420,7 +420,7 @@
 <codeline lineno="101" refid="group__GeneralGroup_1ga209f752c72abb3b57f493fdde9dfe41e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga209f752c72abb3b57f493fdde9dfe41e" kindref="member">visualLengthMultiplier</ref><sp/>=<sp/>2<sp/>/<sp/>3.f;</highlight></codeline>
 <codeline lineno="102"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="classMR_1_1RenderDimensions_1_1RadiusTask" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RenderDimensions_1_1RadiusTask" kindref="compound">RadiusTask</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1BasicClickableRectUiRenderTask" kindref="compound">BasicClickableRectUiRenderTask</ref></highlight></codeline>
+<codeline lineno="104" refid="classMR_1_1RenderDimensions_1_1RadiusTask" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga44b4da055074668472c0c6167666a668" kindref="member">RadiusTask</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga399c5f6acb8eeb36add889e1bd4cef99" kindref="member">BasicClickableRectUiRenderTask</ref></highlight></codeline>
 <codeline lineno="105"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref>*<sp/>viewport_<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/>color_;</highlight></codeline>
@@ -448,7 +448,7 @@
 <codeline lineno="135" refid="group__GeneralGroup_1gaaace7c14d6dc2100d4e3e7555158c162" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;bool,<sp/>2&gt;<sp/><ref refid="group__GeneralGroup_1gaaace7c14d6dc2100d4e3e7555158c162" kindref="member">shouldVisualizeRay</ref>{<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="136"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="classMR_1_1RenderDimensions_1_1AngleTask" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RenderDimensions_1_1AngleTask" kindref="compound">AngleTask</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1BasicClickableRectUiRenderTask" kindref="compound">BasicClickableRectUiRenderTask</ref></highlight></codeline>
+<codeline lineno="138" refid="classMR_1_1RenderDimensions_1_1AngleTask" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga3e9fcf7dd7831ccbfdf02ee161bae0da" kindref="member">AngleTask</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga399c5f6acb8eeb36add889e1bd4cef99" kindref="member">BasicClickableRectUiRenderTask</ref></highlight></codeline>
 <codeline lineno="139"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref>*<sp/>viewport_<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/>color_;</highlight></codeline>
@@ -478,7 +478,7 @@
 <codeline lineno="171" refid="group__GeneralGroup_1gaedc03a31de4a9eba015f5f1f99f93c11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Tolerance&gt;<sp/><ref refid="group__GeneralGroup_1gaedc03a31de4a9eba015f5f1f99f93c11" kindref="member">tolerance</ref>;</highlight></codeline>
 <codeline lineno="172"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174" refid="classMR_1_1RenderDimensions_1_1LengthTask" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RenderDimensions_1_1LengthTask" kindref="compound">LengthTask</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1BasicClickableRectUiRenderTask" kindref="compound">BasicClickableRectUiRenderTask</ref></highlight></codeline>
+<codeline lineno="174" refid="classMR_1_1RenderDimensions_1_1LengthTask" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga25f03c394752ed95a6eb71db98714312" kindref="member">LengthTask</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga399c5f6acb8eeb36add889e1bd4cef99" kindref="member">BasicClickableRectUiRenderTask</ref></highlight></codeline>
 <codeline lineno="175"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref>*<sp/>viewport_<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/>color_;</highlight></codeline>
@@ -496,6 +496,6 @@
 <codeline lineno="191"><highlight class="normal"></highlight></codeline>
 <codeline lineno="192"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h"/>
+    <location file="MRViewer/MRRenderDimensions.h"/>
   </compounddef>
 </doxygen>

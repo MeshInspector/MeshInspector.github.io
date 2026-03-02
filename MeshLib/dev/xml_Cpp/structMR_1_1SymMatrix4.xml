@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SymMatrix4" kind="struct" language="C++" prot="public">
     <compoundname>MR::SymMatrix4</compoundname>
-    <includes refid="MRSymMatrix4_8h" local="no">MRSymMatrix4.h</includes>
+    <includes refid="MRSymMatrix4_8h" local="no">MRMesh/MRSymMatrix4.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -48,7 +48,7 @@
     <detaileddescription>
 <para>symmetric 4x4 matrix </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="16" bodyend="46"/>
+    <location file="MRMesh/MRSymMatrix4.h" line="15" column="1" bodyfile="MRMesh/MRSymMatrix4.h" bodystart="16" bodyend="46"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga4035197926d1c7b4e776a8384343771a" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>diagonal</name></member>
       <member refid="group__GeneralGroup_1gafbcf116c4a2ef5bb375df7b99a4f00e5" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>identity</name></member>

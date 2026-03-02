@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRClosestWeightedPoint_8h" kind="file" language="C++">
     <compoundname>MRClosestWeightedPoint.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -63,45 +63,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRClosestWeightedPoint_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref></type>
-        <definition>typedef struct MR_AABBTreePoints MR_AABBTreePoints</definition>
-        <argsstring></argsstring>
-        <name>MR_AABBTreePoints</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRClosestWeightedPoint.h" line="15" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRClosestWeightedPoint.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRClosestWeightedPoint_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRClosestWeightedPoint.h" line="16" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRClosestWeightedPoint.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRClosestWeightedPoint_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" prot="public" static="no">
-        <type>struct <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref></type>
-        <definition>typedef struct MR_MeshTriPoint MR_MeshTriPoint</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTriPoint</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRClosestWeightedPoint.h" line="17" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRClosestWeightedPoint.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" prot="public" static="no">
         <type>struct <ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref></type>
         <definition>typedef struct MR_std_function_float_from_MR_VertId MR_std_function_float_from_MR_VertId</definition>
@@ -418,7 +379,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PointAndDistance</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRClosestWeightedPoint_8h_1afffc5fa143113f743748d20f771a7f38" kindref="member">MR_PointAndDistance</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -436,7 +397,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PointAndDistance</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRClosestWeightedPoint_8h_1afffc5fa143113f743748d20f771a7f38" kindref="member">MR_PointAndDistance</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -933,7 +894,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshPointAndDistance</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRClosestWeightedPoint_8h_1a08429cd182a6764ccc44eda594f8e618" kindref="member">MR_MeshPointAndDistance</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -951,7 +912,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MeshPointAndDistance</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRClosestWeightedPoint_8h_1a08429cd182a6764ccc44eda594f8e618" kindref="member">MR_MeshPointAndDistance</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1532,7 +1493,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_DistanceFromWeightedPointsParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRClosestWeightedPoint_8h_1a342aeaf84a0230885a70e136c94b01b5" kindref="member">MR_DistanceFromWeightedPointsParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1550,7 +1511,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_DistanceFromWeightedPointsParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRClosestWeightedPoint_8h_1a342aeaf84a0230885a70e136c94b01b5" kindref="member">MR_DistanceFromWeightedPointsParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2141,7 +2102,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_DistanceFromWeightedPointsComputeParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" kindref="member">MR_DistanceFromWeightedPointsComputeParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2159,7 +2120,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_DistanceFromWeightedPointsComputeParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" kindref="member">MR_DistanceFromWeightedPointsComputeParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2265,19 +2226,19 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRClosestWeightedPoint_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAABBTreePoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRClosestWeightedPoint_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRClosestWeightedPoint_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAABBTreePoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_float_from_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRClosestWeightedPoint_8h_1afffc5fa143113f743748d20f771a7f38" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1afffc5fa143113f743748d20f771a7f38" kindref="member">MR_PointAndDistance</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1afffc5fa143113f743748d20f771a7f38" kindref="member">MR_PointAndDistance</ref>;</highlight></codeline>
+<codeline lineno="23" refid="MRClosestWeightedPoint_8h_1afffc5fa143113f743748d20f771a7f38" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1afffc5fa143113f743748d20f771a7f38" kindref="member">MR_PointAndDistance</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1afffc5fa143113f743748d20f771a7f38" kindref="member">MR_PointAndDistance</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRClosestWeightedPoint_8h_1a08429cd182a6764ccc44eda594f8e618" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1a08429cd182a6764ccc44eda594f8e618" kindref="member">MR_MeshPointAndDistance</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1a08429cd182a6764ccc44eda594f8e618" kindref="member">MR_MeshPointAndDistance</ref>;</highlight></codeline>
+<codeline lineno="27" refid="MRClosestWeightedPoint_8h_1a08429cd182a6764ccc44eda594f8e618" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1a08429cd182a6764ccc44eda594f8e618" kindref="member">MR_MeshPointAndDistance</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1a08429cd182a6764ccc44eda594f8e618" kindref="member">MR_MeshPointAndDistance</ref>;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRClosestWeightedPoint_8h_1a342aeaf84a0230885a70e136c94b01b5" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1a342aeaf84a0230885a70e136c94b01b5" kindref="member">MR_DistanceFromWeightedPointsParams</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1a342aeaf84a0230885a70e136c94b01b5" kindref="member">MR_DistanceFromWeightedPointsParams</ref>;</highlight></codeline>
+<codeline lineno="34" refid="MRClosestWeightedPoint_8h_1a342aeaf84a0230885a70e136c94b01b5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1a342aeaf84a0230885a70e136c94b01b5" kindref="member">MR_DistanceFromWeightedPointsParams</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1a342aeaf84a0230885a70e136c94b01b5" kindref="member">MR_DistanceFromWeightedPointsParams</ref>;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" kindref="member">MR_DistanceFromWeightedPointsComputeParams</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" kindref="member">MR_DistanceFromWeightedPointsComputeParams</ref>;</highlight></codeline>
+<codeline lineno="41" refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" kindref="member">MR_DistanceFromWeightedPointsComputeParams</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" kindref="member">MR_DistanceFromWeightedPointsComputeParams</ref>;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48" refid="MRClosestWeightedPoint_8h_1ab02c1f18f4204947685299ebcce5ee3f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRClosestWeightedPoint_8h_1ab02c1f18f4204947685299ebcce5ee3f" kindref="member">MR_PointAndDistance_Get_vId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestWeightedPoint_8h_1afffc5fa143113f743748d20f771a7f38" kindref="member">MR_PointAndDistance</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
@@ -2421,13 +2382,13 @@
 <codeline lineno="477"><highlight class="normal"></highlight></codeline>
 <codeline lineno="483" refid="MRClosestWeightedPoint_8h_1ad7108c8ab21c84724e85e82a0ba43b75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRClosestWeightedPoint_8h_1a342aeaf84a0230885a70e136c94b01b5" kindref="member">MR_DistanceFromWeightedPointsParams</ref><sp/>*<ref refid="MRClosestWeightedPoint_8h_1ad7108c8ab21c84724e85e82a0ba43b75" kindref="member">MR_DistanceFromWeightedPointsParams_AssignFromAnother</ref>(<ref refid="MRClosestWeightedPoint_8h_1a342aeaf84a0230885a70e136c94b01b5" kindref="member">MR_DistanceFromWeightedPointsParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRClosestWeightedPoint_8h_1a342aeaf84a0230885a70e136c94b01b5" kindref="member">MR_DistanceFromWeightedPointsParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="484"><highlight class="normal"></highlight></codeline>
-<codeline lineno="485"><highlight class="normal"></highlight><highlight class="comment">//<sp/>default<sp/>0<sp/>here<sp/>does<sp/>not<sp/>work<sp/>for<sp/>negative<sp/>distances</highlight></codeline>
+<codeline lineno="485"><highlight class="normal"></highlight><highlight class="comment">//<sp/>default<sp/>0<sp/>here<sp/>does<sp/>not<sp/>work<sp/>for<sp/>negative<sp/>distances</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="490" refid="MRClosestWeightedPoint_8h_1a0568bccb55eb0e8156979224500f3b0a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRClosestWeightedPoint_8h_1a0568bccb55eb0e8156979224500f3b0a" kindref="member">MR_DistanceFromWeightedPointsComputeParams_Get_minBidirDist</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" kindref="member">MR_DistanceFromWeightedPointsComputeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="491"><highlight class="normal"></highlight></codeline>
-<codeline lineno="492"><highlight class="normal"></highlight><highlight class="comment">//<sp/>default<sp/>0<sp/>here<sp/>does<sp/>not<sp/>work<sp/>for<sp/>negative<sp/>distances</highlight></codeline>
+<codeline lineno="492"><highlight class="normal"></highlight><highlight class="comment">//<sp/>default<sp/>0<sp/>here<sp/>does<sp/>not<sp/>work<sp/>for<sp/>negative<sp/>distances</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="496" refid="MRClosestWeightedPoint_8h_1a150c055d57048786dcdf1ce3aa846642" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRClosestWeightedPoint_8h_1a150c055d57048786dcdf1ce3aa846642" kindref="member">MR_DistanceFromWeightedPointsComputeParams_Set_minBidirDist</ref>(<ref refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" kindref="member">MR_DistanceFromWeightedPointsComputeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="497"><highlight class="normal"></highlight></codeline>
-<codeline lineno="498"><highlight class="normal"></highlight><highlight class="comment">//<sp/>default<sp/>0<sp/>here<sp/>does<sp/>not<sp/>work<sp/>for<sp/>negative<sp/>distances</highlight></codeline>
+<codeline lineno="498"><highlight class="normal"></highlight><highlight class="comment">//<sp/>default<sp/>0<sp/>here<sp/>does<sp/>not<sp/>work<sp/>for<sp/>negative<sp/>distances</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="503" refid="MRClosestWeightedPoint_8h_1af784f38b62c24da9b8741a81912a83dc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRClosestWeightedPoint_8h_1af784f38b62c24da9b8741a81912a83dc" kindref="member">MR_DistanceFromWeightedPointsComputeParams_GetMutable_minBidirDist</ref>(<ref refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" kindref="member">MR_DistanceFromWeightedPointsComputeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="504"><highlight class="normal"></highlight></codeline>
 <codeline lineno="510" refid="MRClosestWeightedPoint_8h_1a8d159deff45ad1c53565a2483b55afde" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRClosestWeightedPoint_8h_1a8d159deff45ad1c53565a2483b55afde" kindref="member">MR_DistanceFromWeightedPointsComputeParams_Get_maxBidirDist</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" kindref="member">MR_DistanceFromWeightedPointsComputeParams</ref><sp/>*_this);</highlight></codeline>

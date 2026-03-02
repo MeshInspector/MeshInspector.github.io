@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1UI_1_1TestEngine_1_1detail" kind="namespace" language="C++">
     <compoundname>MR::UI::TestEngine::detail</compoundname>
     <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue" prot="public">MR::UI::TestEngine::detail::BoundedValue</innerclass>
@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="53" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="53" bodyend="-1"/>
+        <location file="MRViewer/MRUITestEngine.h" line="53" column="5" bodyfile="MRViewer/MRUITestEngine.h" bodystart="53" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="39" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" declline="39" declcolumn="21"/>
+        <location file="MRViewer/MRUITestEngine.h" line="39" column="21" declfile="MRViewer/MRUITestEngine.h" declline="39" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1a53467f7c719a9c6fa463ff7d73fea569" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>template std::optional&lt; std::int64_t &gt;</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="41" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" declline="41" declcolumn="36"/>
+        <location file="MRViewer/MRUITestEngine.h" line="41" column="36" declfile="MRViewer/MRUITestEngine.h" declline="41" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1a2173c2b87591c610680b96badb3cd45c" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>template std::optional&lt; std::uint64_t &gt;</type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="42" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" declline="42" declcolumn="36"/>
+        <location file="MRViewer/MRUITestEngine.h" line="42" column="36" declfile="MRViewer/MRUITestEngine.h" declline="42" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1adc8ca967192d7ff4b3c6ea97187935ea" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>template std::optional&lt; double &gt;</type>
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="43" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" declline="43" declcolumn="36"/>
+        <location file="MRViewer/MRUITestEngine.h" line="43" column="36" declfile="MRViewer/MRUITestEngine.h" declline="43" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1a1c8b4ff704aee4f70419980009e66752" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>template std::optional&lt; std::string &gt;</type>
@@ -160,13 +160,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="44" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" declline="44" declcolumn="36"/>
+        <location file="MRViewer/MRUITestEngine.h" line="44" column="36" declfile="MRViewer/MRUITestEngine.h" declline="44" declcolumn="36"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="21" column="1"/>
+    <location file="MRViewer/MRUITestEngine.h" line="21" column="1"/>
   </compounddef>
 </doxygen>

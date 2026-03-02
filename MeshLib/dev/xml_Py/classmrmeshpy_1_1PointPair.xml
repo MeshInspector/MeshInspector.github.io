@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PointPair" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PointPair</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1ICPPairData" prot="public" virt="non-virtual">mrmeshpy.ICPPairData</basecompoundref>
@@ -72,7 +72,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__eq__</name>
         <qualifiedname>mrmeshpy.PointPair.__eq__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1ICPPairData_1a024a604081665729f2ae92aee9077513">__eq__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -95,7 +94,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.PointPair.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1ICPPairData_1a7bc2607b710a53fc42a83a85f0d80a59">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -166,7 +164,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.PointPair.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1ICPPairData_1a7bc2607b710a53fc42a83a85f0d80a59">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -185,7 +182,6 @@
         <argsstring>(self, PointPair arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.PointPair.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1ICPPairData_1a7bc2607b710a53fc42a83a85f0d80a59">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -400,27 +396,10 @@ Stores a pair of points: one samples on the source and the closest to it on the 
         <link refid="classmrmeshpy_1_1PointPair"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_normalsAngleCos</edgelabel>
-          <edgelabel>_offsetof_srcVertId</edgelabel>
-          <edgelabel>_offsetof_tgtCloseVert</edgelabel>
-          <edgelabel>_offsetof_tgtOnBd</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.ICPPairData</label>
         <link refid="classmrmeshpy_1_1ICPPairData"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_distSq</edgelabel>
-          <edgelabel>_offsetof_srcNorm</edgelabel>
-          <edgelabel>_offsetof_srcPoint</edgelabel>
-          <edgelabel>_offsetof_tgtNorm</edgelabel>
-          <edgelabel>_offsetof_tgtPoint</edgelabel>
-          <edgelabel>_offsetof_weight</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45043" bodyend="45108"/>
@@ -429,20 +408,38 @@ Stores a pair of points: one samples on the source and the closest to it on the 
       <member refid="classmrmeshpy_1_1PointPair_1a49a0fbd8805fd29130c6dd87d3658c34" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1PointPair_1afa320dd5611f71a18b07b52f44352bfc" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1PointPair_1aa4b263a6d942bfae24a1dd4b7ce4315f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a975ad0f4fbf56b0b696b016bb5459394" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>_offsetof_distSq</name></member>
       <member refid="classmrmeshpy_1_1PointPair_1af60b7eb40c0c0c94a6df8b00b36eb525" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>_offsetof_normalsAngleCos</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a2b21da77be31bc7aefe9d51008c2cf1c" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>_offsetof_srcNorm</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a9be727a0422ad006449afad101e0841d" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>_offsetof_srcPoint</name></member>
       <member refid="classmrmeshpy_1_1PointPair_1a6286b2913ea76e442b555d47035ae0fd" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>_offsetof_srcVertId</name></member>
       <member refid="classmrmeshpy_1_1PointPair_1aa84540ac333e6be46ab7ad5ddda32afb" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>_offsetof_tgtCloseVert</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a507276f8b26de9a904d2ec49bf33c393" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>_offsetof_tgtNorm</name></member>
       <member refid="classmrmeshpy_1_1PointPair_1a4908437da9a70c656c1dd57ee4500490" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>_offsetof_tgtOnBd</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a53baaf24a2f082c08ab6834b7a741adc" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>_offsetof_tgtPoint</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a94e12fe9d68b29a4f4ac5fca26ae40b9" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>_offsetof_weight</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a81a16851930b610d0f2da952f2e9dfb2" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>distSq</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1ad0bc3f78c9ae7c4183be09dfdde928b0" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>distSq</name></member>
       <member refid="classmrmeshpy_1_1PointPair_1a90a3adeb01b06145a790ca3e08c5d6fb" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>normalsAngleCos</name></member>
       <member refid="classmrmeshpy_1_1PointPair_1ad834e1f5c4aa8929d84d3dd68ba84ea1" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>normalsAngleCos</name></member>
       <member refid="classmrmeshpy_1_1PointPair_1a2f4f5258029727ebf7a7082d37eb65f9" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1PointPair_1a2f4f5258029727ebf7a7082d37eb65f9" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a89482cc3aa04a939129275e013cec31d" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>srcNorm</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a515d9cd8b7997e018b8a5beac3198fa0" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>srcNorm</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a30219ca3196957a77bb962d99a1fa358" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>srcPoint</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1afda2b1f35f010bc4ec2c329159ea9bb7" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>srcPoint</name></member>
       <member refid="classmrmeshpy_1_1PointPair_1a2d273f00d07badf743028ff606773bb7" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>srcVertId</name></member>
       <member refid="classmrmeshpy_1_1PointPair_1a02f6c9d246245db56a7d4b8d25625193" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>srcVertId</name></member>
       <member refid="classmrmeshpy_1_1PointPair_1a34c5b97007ea9760b9572e5570ec6a3b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>tgtCloseVert</name></member>
       <member refid="classmrmeshpy_1_1PointPair_1a35445ff36c5a24469fe5fb5ff4f67592" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>tgtCloseVert</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a962a452004d14db0007b9ce46984b430" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>tgtNorm</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a06e2f5b153ceba9f49471637a8b885f4" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>tgtNorm</name></member>
       <member refid="classmrmeshpy_1_1PointPair_1a42e142b00acc3e786a02e82de68cf9c1" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>tgtOnBd</name></member>
       <member refid="classmrmeshpy_1_1PointPair_1a5b9ca9ca28eb2eee813859849e5d9635" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>tgtOnBd</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a8fd5cbb59c667c22d5b48c5e0a3fe81e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>tgtPoint</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1ae3543d2260c7847ebf61a1b2bd780d4b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>tgtPoint</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a9a47e51ee552fd10d2b79ed1b21ef4f4" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>weight</name></member>
+      <member refid="classmrmeshpy_1_1ICPPairData_1a81e6a858233d91201b69b2364f6e675e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPair</scope><name>weight</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

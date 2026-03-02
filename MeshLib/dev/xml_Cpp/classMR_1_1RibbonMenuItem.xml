@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonMenuItem" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>MR::RibbonMenuItem</compoundname>
     <basecompoundref refid="classMR_1_1ISceneStateCheck" prot="public" virt="virtual">MR::ISceneStateCheck</basecompoundref>
@@ -32,7 +32,7 @@
     <derivedcompoundref refid="classMR_1_1SetViewportConfigPresetMenuItem" prot="public" virt="non-virtual">MR::SetViewportConfigPresetMenuItem</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1StateBasePlugin" prot="public" virt="non-virtual">MR::StateBasePlugin</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1UndoMenuItem" prot="public" virt="non-virtual">MR::UndoMenuItem</derivedcompoundref>
-    <includes refid="MRRibbonMenuItem_8h" local="no">MRRibbonMenuItem.h</includes>
+    <includes refid="MRRibbonMenuItem_8h" local="no">MRViewer/MRRibbonMenuItem.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" kind="typedef"><name>DropItemsList</name></member>
     </sectiondef>
@@ -64,28 +64,28 @@
 <para>class to hold menu items some information stored in json (icons path, tab name, subtab name) </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="37">
-        <label>MR::AddCustomThemePlugin&lt;&gt;</label>
+      <node id="34">
+        <label>MR::AddCustomThemePlugin</label>
         <link refid="classMR_1_1AddCustomThemePlugin"/>
-        <childnode refid="36" relation="public-inheritance">
+        <childnode refid="33" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="38">
-        <label>MR::BinaryOperations&lt;&gt;</label>
+      <node id="35">
+        <label>MR::BinaryOperations</label>
         <link refid="classMR_1_1BinaryOperations"/>
-        <childnode refid="36" relation="public-inheritance">
+        <childnode refid="33" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="39">
-        <label>MR::CameraOrientation&lt;&gt;</label>
+      <node id="36">
+        <label>MR::CameraOrientation</label>
         <link refid="classMR_1_1CameraOrientation"/>
-        <childnode refid="36" relation="public-inheritance">
+        <childnode refid="33" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="40">
-        <label>MR::CaptureScreenshotMenuItem&lt;&gt;</label>
+      <node id="37">
+        <label>MR::CaptureScreenshotMenuItem</label>
         <link refid="classMR_1_1CaptureScreenshotMenuItem"/>
-        <childnode refid="36" relation="public-inheritance">
+        <childnode refid="33" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">
@@ -140,10 +140,10 @@
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="33">
+      <node id="41">
         <label>MR::MoveObjectByMouse</label>
         <link refid="classMR_1_1MoveObjectByMouse"/>
-        <childnode refid="32" relation="public-inheritance">
+        <childnode refid="40" relation="public-inheritance">
         </childnode>
       </node>
       <node id="11">
@@ -164,10 +164,10 @@
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="41">
-        <label>MR::OpenRawVoxelsPlugin&lt;&gt;</label>
+      <node id="38">
+        <label>MR::OpenRawVoxelsPlugin</label>
         <link refid="classMR_1_1OpenRawVoxelsPlugin"/>
-        <childnode refid="36" relation="public-inheritance">
+        <childnode refid="33" relation="public-inheritance">
         </childnode>
       </node>
       <node id="14">
@@ -266,10 +266,10 @@
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="35">
+      <node id="43">
         <label>MR::SelectObjectByClick</label>
         <link refid="classMR_1_1SelectObjectByClick"/>
-        <childnode refid="34" relation="public-inheritance">
+        <childnode refid="42" relation="public-inheritance">
         </childnode>
       </node>
       <node id="29">
@@ -290,34 +290,46 @@
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="36">
+      <node id="44">
         <label>MR::StateListenerPlugin&lt; Connectables &gt;</label>
         <link refid="classMR_1_1StateListenerPlugin"/>
         <childnode refid="31" relation="public-inheritance">
         </childnode>
       </node>
       <node id="32">
+        <label>MR::StateListenerPlugin&lt; Connectables... &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
         <label>MR::StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;</label>
         <link refid="classMR_1_1StateListenerPlugin"/>
         <childnode refid="31" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="34">
+      <node id="42">
         <label>MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;</label>
         <link refid="classMR_1_1StateListenerPlugin"/>
         <childnode refid="31" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="43">
+      <node id="33">
+        <label>MR::StateListenerPlugin&lt;&gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
         <label>MR::UndoMenuItem</label>
         <link refid="classMR_1_1UndoMenuItem"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="42">
-        <label>MR::ViewerSettingsPlugin&lt;&gt;</label>
+      <node id="39">
+        <label>MR::ViewerSettingsPlugin</label>
         <link refid="classMR_1_1ViewerSettingsPlugin"/>
-        <childnode refid="36" relation="public-inheritance">
+        <childnode refid="33" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
@@ -333,7 +345,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" bodystart="23" bodyend="69"/>
+    <location file="MRViewer/MRRibbonMenuItem.h" line="22" column="1" bodyfile="MRViewer/MRRibbonMenuItem.h" bodystart="23" bodyend="69"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga4af847e120965263839d2628cf7dd979" prot="public" virt="pure-virtual"><scope>MR::RibbonMenuItem</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>blocking</name></member>

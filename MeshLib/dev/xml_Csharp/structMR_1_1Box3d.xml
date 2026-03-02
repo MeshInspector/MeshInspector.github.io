@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Box3d" kind="struct" language="C#" prot="public">
     <compoundname>MR::Box3d</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.Box3d &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1Box3d_1a3568374ed8527fda921f3740f55b94bf" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
@@ -41,7 +41,7 @@
         <name>this[int e]</name>
         <qualifiedname>MR.Box3d.this[int e]</qualifiedname>
         <briefdescription>
-<para>min/max access by 0/1 index Generated from method <computeroutput>MR.Box3d.operator[]</computeroutput>. </para>
+<para>min/max access by 0/1 index Generated from method <computeroutput>MR::Box3d::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -146,7 +146,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Box3d.operator==</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Box3d::operator==</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -265,7 +265,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Box3d.operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Box3d::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -660,7 +660,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>System::IEquatable&lt; MR.Box3d &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -679,7 +679,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>System::IEquatable&lt; MR.Box3d &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12271" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12272" bodyend="12742"/>

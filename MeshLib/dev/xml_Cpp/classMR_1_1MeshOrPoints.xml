@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshOrPoints" kind="class" language="C++" prot="public">
     <compoundname>MR::MeshOrPoints</compoundname>
-    <includes refid="MRMeshOrPoints_8h" local="no">MRMeshOrPoints.h</includes>
+    <includes refid="MRMeshOrPoints_8h" local="no">MRMesh/MRMeshOrPoints.h</includes>
     <innerclass refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" prot="public">MR::MeshOrPoints::ProjectionResult</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga0a57020e6aaf506fbbd6c3ce60c21412" kind="typedef"><name>LimitedProjectorFunc</name></member>
@@ -34,7 +34,7 @@
     <detaileddescription>
 <para>This class can hold either mesh part or point cloud. It is used for generic algorithms operating with either of them </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="21" bodyend="105"/>
+    <location file="MRMesh/MRMeshOrPoints.h" line="20" column="1" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="21" bodyend="105"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga16a856ae65c5d9209685c97037e9af9a" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>accumulate</name></member>
       <member refid="group__GeneralGroup_1ga058b67c8a42bd8837a6bbe4be06bd4cf" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>asMeshPart</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4" kind="struct" language="C++" prot="public">
     <compoundname>MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::Plane &gt;</compoundname>
-    <includes refid="MRFeatures_8h" local="no">MRFeatures.h</includes>
+    <includes refid="MRFeatures_8h" local="no">MRMesh/MRFeatures.h</includes>
     <templateparamlist>
     </templateparamlist>
     <sectiondef kind="public-func">
@@ -13,7 +13,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="304" bodyend="306"/>
+    <location file="MRMesh/MRFeatures.h" line="303" column="1" bodyfile="MRMesh/MRFeatures.h" bodystart="304" bodyend="306"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3c017debf3dd4d9d41f734c8aedbdfae" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::Plane &gt;</scope><name>measure</name></member>
     </listofallmembers>

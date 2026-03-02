@@ -1,7 +1,5 @@
 var MRCurve_8h =
 [
-    [ "MR_CurveFunc", "MRCurve_8h.html#ab736d01b412677bf61e955b279bb05c2", null ],
-    [ "MR_CurvePoint", "MRCurve_8h.html#a08cf07c2015dfa50b949533e499c01d6", null ],
     [ "MR_std_function_MR_CurvePoint_from_float", "MRCurve_8h.html#afe2bc6a2fcc62602733c1124e62bcd2f", null ],
     [ "MR_CurveFunc_AssignFromAnother", "MRCurve_8h.html#a5ef42ea48e34ecf0febcbc229df75ff7", null ],
     [ "MR_CurveFunc_ConstructFrom", "MRCurve_8h.html#a6e9a6f6636951c3d6dbe653f8188e14c", null ],

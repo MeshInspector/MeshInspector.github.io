@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1DenseBox" kind="struct" language="C++" prot="public">
     <compoundname>MR::DenseBox</compoundname>
-    <includes refid="MRDenseBox_8h" local="no">MRDenseBox.h</includes>
+    <includes refid="MRDenseBox_8h" local="no">MRMesh/MRDenseBox.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga6086c46946d7a35114b263a9dd4d59e2" kind="variable"><name>box_</name></member>
       <member refid="group__GeneralGroup_1ga1c3177d2c1f2acad7079fcc81e9bc6de" kind="variable"><name>basisXf_</name></member>
@@ -33,7 +33,7 @@
 <para>Structure to hold and work with dense box</para>
 <para>Scalar operations that are not provided in this struct can be called via <computeroutput><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref></computeroutput> For example <computeroutput><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref>.<ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size()</ref></computeroutput>, <computeroutput><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref>.diagonal()</computeroutput> or <computeroutput><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref>.<ref refid="group__GeneralGroup_1ga20e9ae03dbf954625936ada6b2cbcf60" kindref="member">volume()</ref></computeroutput> Non const operations are not allowed for dense box because it can spoil density </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" bodystart="18" bodyend="60"/>
+    <location file="MRMesh/MRDenseBox.h" line="17" column="1" bodyfile="MRMesh/MRDenseBox.h" bodystart="18" bodyend="60"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga941ca605a35dc828fc9b0e7c5358c7e9" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>basisXf</name></member>
       <member refid="group__GeneralGroup_1ga1c3177d2c1f2acad7079fcc81e9bc6de" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>basisXf_</name></member>

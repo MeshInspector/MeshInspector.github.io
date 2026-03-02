@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Quaternionf" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Quaternionf</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -872,21 +872,6 @@ Represents a quaternion following the notations from
 https://en.wikipedia.org/wiki/Quaternion
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.Quaternionf</label>
-        <link refid="classmrmeshpy_1_1Quaternionf"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_a</edgelabel>
-          <edgelabel>_offsetof_b</edgelabel>
-          <edgelabel>_offsetof_c</edgelabel>
-          <edgelabel>_offsetof_d</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49085" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49085" bodyend="49233"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Quaternionf_1aaf8b715bcd83eb6b018b74911d0ad317" prot="public" virt="non-virtual"><scope>mrmeshpy::Quaternionf</scope><name>__call__</name></member>

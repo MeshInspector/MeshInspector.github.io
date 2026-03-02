@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1LinesLoadSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::LinesLoadSettings</compoundname>
-    <includes refid="MRLinesLoadSettings_8h" local="no">MRLinesLoadSettings.h</includes>
+    <includes refid="MRLinesLoadSettings_8h" local="no">MRMesh/MRLinesLoadSettings.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga4fb70d302e63d42b78b3ae9b090f1118" kind="variable"><name>colors</name></member>
       <member refid="group__GeneralGroup_1ga371abd05d6978245a5059c507e1b237e" kind="variable"><name>callback</name></member>
@@ -13,7 +13,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoadSettings.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoadSettings.h" bodystart="13" bodyend="17"/>
+    <location file="MRMesh/MRLinesLoadSettings.h" line="12" column="1" bodyfile="MRMesh/MRLinesLoadSettings.h" bodystart="13" bodyend="17"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga371abd05d6978245a5059c507e1b237e" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>callback</name></member>
       <member refid="group__GeneralGroup_1ga4fb70d302e63d42b78b3ae9b090f1118" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>colors</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Line" kind="struct" language="C++" prot="public">
     <compoundname>MR::Line</compoundname>
-    <includes refid="MRLine_8h" local="no">MRLine.h</includes>
+    <includes refid="MRLine_8h" local="no">MRMesh/MRLine.h</includes>
     <templateparamlist>
       <param>
         <type>typename V</type>
@@ -38,7 +38,7 @@
     <detaileddescription>
 <para>2- or 3-dimensional line: cross( x - p, d ) = 0 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLine.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLine.h" bodystart="16" bodyend="52"/>
+    <location file="MRMesh/MRLine.h" line="15" column="1" bodyfile="MRMesh/MRLine.h" bodystart="16" bodyend="52"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8b3c7d000e9148d5f14f3c7d0325c95b" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>d</name></member>
       <member refid="group__GeneralGroup_1ga33b2b7a0c2b8520be3e29171461a15d4" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>distanceSq</name></member>

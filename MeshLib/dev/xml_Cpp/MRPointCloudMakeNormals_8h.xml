@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointCloudMakeNormals_8h" kind="file" language="C++">
     <compoundname>MRPointCloudMakeNormals.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -45,7 +45,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPointCloudMakeNormals.h</label>
+        <label>MRMesh/MRPointCloudMakeNormals.h</label>
         <link refid="MRPointCloudMakeNormals_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -125,8 +125,8 @@
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
 <codeline lineno="79" refid="group__PointCloudGroup_1ga15578cc0c068a55121b279b4d0b9e7cb" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertNormals<sp/><ref refid="group__PointCloudGroup_1ga15578cc0c068a55121b279b4d0b9e7cb" kindref="member">makeNormals</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>avgNeighborhoodSize<sp/>=<sp/>48<sp/>);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h"/>
+    <location file="MRMesh/MRPointCloudMakeNormals.h"/>
   </compounddef>
 </doxygen>

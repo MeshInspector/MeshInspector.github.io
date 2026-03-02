@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCudaFastWindingNumber_8h" kind="file" language="C++">
     <compoundname>MRCudaFastWindingNumber.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -8,7 +8,7 @@
     <includes refid="MRDistanceToMeshOptions_8h" local="yes">MRMesh/MRDistanceToMeshOptions.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRCudaFastWindingNumber.h</label>
+        <label>MRCuda/MRCudaFastWindingNumber.h</label>
         <link refid="MRCudaFastWindingNumber_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -454,12 +454,12 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Cuda</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Cuda" kindref="compound">Cuda</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">FastWindingNumberDataBuffers;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="classMR_1_1Cuda_1_1FastWindingNumber" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRCUDA_CLASS<sp/><ref refid="classMR_1_1Cuda_1_1FastWindingNumber" kindref="compound">FastWindingNumber</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IFastWindingNumberByParts" kindref="compound">IFastWindingNumberByParts</ref></highlight></codeline>
+<codeline lineno="20" refid="classMR_1_1Cuda_1_1FastWindingNumber" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRCUDA_CLASS<sp/><ref refid="group__GeneralGroup_1gafed4d0df31eef8da93ca2d843c3a8a63" kindref="member">FastWindingNumber</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IFastWindingNumberByParts" kindref="compound">IFastWindingNumberByParts</ref></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh_;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;FastWindingNumberDataBuffers&gt;<sp/>data_;</highlight></codeline>
@@ -479,9 +479,9 @@
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/>prepareData_(<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>);</highlight></codeline>
 <codeline lineno="41"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal">}<sp/></highlight></codeline>
-<codeline lineno="44"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaFastWindingNumber.h"/>
+    <location file="MRCuda/MRCudaFastWindingNumber.h"/>
   </compounddef>
 </doxygen>

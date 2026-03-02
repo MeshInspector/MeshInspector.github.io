@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeGridAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ChangeGridAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRChangeVoxelsAction_8h" local="no">MRChangeVoxelsAction.h</includes>
+    <includes refid="MRChangeVoxelsAction_8h" local="no">MRVoxels/MRChangeVoxelsAction.h</includes>
     <sectiondef kind="public-type">
       <memberdef kind="typedef" id="classMR_1_1ChangeGridAction_1ad7d5725801275be74a08469ec04b18ca" prot="public" static="no">
         <type><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" line="218" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" bodystart="218" bodyend="-1"/>
+        <location file="MRVoxels/MRChangeVoxelsAction.h" line="218" column="5" bodyfile="MRVoxels/MRChangeVoxelsAction.h" bodystart="218" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" line="261" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" bodystart="261" bodyend="-1"/>
+        <location file="MRVoxels/MRChangeVoxelsAction.h" line="261" column="21" bodyfile="MRVoxels/MRChangeVoxelsAction.h" bodystart="261" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1ChangeGridAction_1a85ceee33e5aed3e9e20d87b17ad3bd06" prot="private" static="no" mutable="no">
         <type>VdbVolume</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" line="262" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" bodystart="262" bodyend="-1"/>
+        <location file="MRVoxels/MRChangeVoxelsAction.h" line="262" column="15" bodyfile="MRVoxels/MRChangeVoxelsAction.h" bodystart="262" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1ChangeGridAction_1ad63ccbf2a8a37d823cbdea3a73d3c996" prot="private" static="no" mutable="no">
         <type><ref refid="classMR_1_1Histogram" kindref="compound">Histogram</ref></type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" line="263" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" bodystart="263" bodyend="-1"/>
+        <location file="MRVoxels/MRChangeVoxelsAction.h" line="263" column="15" bodyfile="MRVoxels/MRChangeVoxelsAction.h" bodystart="263" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1ChangeGridAction_1a39175b32712a4501d2475e752f0e2dba" prot="private" static="no" mutable="no">
         <type><ref refid="classMR_1_1ChangeIsoAction" kindref="compound">ChangeIsoAction</ref></type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" line="264" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" bodystart="264" bodyend="-1"/>
+        <location file="MRVoxels/MRChangeVoxelsAction.h" line="264" column="21" bodyfile="MRVoxels/MRChangeVoxelsAction.h" bodystart="264" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1ChangeGridAction_1ac49c8adb9705aef75bdcfcf4ec6255d6" prot="private" static="no" mutable="no">
         <type><ref refid="classMR_1_1ChangeSurfaceAction" kindref="compound">ChangeSurfaceAction</ref></type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" line="265" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" bodystart="265" bodyend="-1"/>
+        <location file="MRVoxels/MRChangeVoxelsAction.h" line="265" column="25" bodyfile="MRVoxels/MRChangeVoxelsAction.h" bodystart="265" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1ChangeGridAction_1a7148c72006855550a2929b9ddc2f4fb7" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" line="267" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" bodystart="267" bodyend="-1"/>
+        <location file="MRVoxels/MRChangeVoxelsAction.h" line="267" column="17" bodyfile="MRVoxels/MRChangeVoxelsAction.h" bodystart="267" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" line="220" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" bodystart="220" bodyend="231"/>
+        <location file="MRVoxels/MRChangeVoxelsAction.h" line="220" column="5" bodyfile="MRVoxels/MRChangeVoxelsAction.h" bodystart="220" bodyend="231"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeGridAction_1abff717b27ad5da1a8a0048172c8397ef" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" line="233" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" bodystart="233" bodyend="236"/>
+        <location file="MRVoxels/MRChangeVoxelsAction.h" line="233" column="25" bodyfile="MRVoxels/MRChangeVoxelsAction.h" bodystart="233" bodyend="236"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeGridAction_1a09423374eaa05f95dd0af7575fe17e62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" line="238" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" bodystart="238" bodyend="247"/>
+        <location file="MRVoxels/MRChangeVoxelsAction.h" line="238" column="18" bodyfile="MRVoxels/MRChangeVoxelsAction.h" bodystart="238" bodyend="247"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeGridAction_1ac2009abf4b8a560744458f59f5bc9328" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -179,7 +179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" line="255" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" bodystart="255" bodyend="258"/>
+        <location file="MRVoxels/MRChangeVoxelsAction.h" line="255" column="21" bodyfile="MRVoxels/MRChangeVoxelsAction.h" bodystart="255" bodyend="258"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -199,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" line="249" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" bodystart="249" bodyend="253"/>
+        <location file="MRVoxels/MRChangeVoxelsAction.h" line="249" column="17" bodyfile="MRVoxels/MRChangeVoxelsAction.h" bodystart="249" bodyend="253"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -231,7 +231,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" line="215" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h" bodystart="216" bodyend="268"/>
+    <location file="MRVoxels/MRChangeVoxelsAction.h" line="215" column="1" bodyfile="MRVoxels/MRChangeVoxelsAction.h" bodystart="216" bodyend="268"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeGridAction_1a09423374eaa05f95dd0af7575fe17e62" prot="public" virt="virtual"><scope>MR::ChangeGridAction</scope><name>action</name></member>
       <member refid="classMR_1_1ChangeGridAction_1a1f23e5db03c650766a3e405f207e32ba" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>ChangeGridAction</name></member>

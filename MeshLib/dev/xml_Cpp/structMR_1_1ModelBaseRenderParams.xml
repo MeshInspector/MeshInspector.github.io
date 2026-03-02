@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ModelBaseRenderParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::ModelBaseRenderParams</compoundname>
     <basecompoundref refid="structMR_1_1BaseRenderParams" prot="public" virt="non-virtual">MR::BaseRenderParams</basecompoundref>
     <derivedcompoundref refid="structMR_1_1ModelRenderParams" prot="public" virt="non-virtual">MR::ModelRenderParams</derivedcompoundref>
-    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <includes refid="MRIRenderObject_8h" local="no">MRMesh/MRIRenderObject.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga28337d3d5f8f9cc1db7812bca629ce40" kind="variable"><name>modelMatrix</name></member>
       <member refid="group__GeneralGroup_1ga62b1dc3636e8859d7b4f46b53d1e02c8" kind="variable"><name>clipPlane</name></member>
@@ -52,7 +52,7 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="45" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="46" bodyend="50"/>
+    <location file="MRMesh/MRIRenderObject.h" line="45" column="1" bodyfile="MRMesh/MRIRenderObject.h" bodystart="46" bodyend="50"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga62b1dc3636e8859d7b4f46b53d1e02c8" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>clipPlane</name></member>
       <member refid="group__GeneralGroup_1ga4c79d51067cd63730f681f5aa2c4ad67" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>depthFunction</name></member>

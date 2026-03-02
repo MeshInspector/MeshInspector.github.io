@@ -1,10 +1,7 @@
 var MRFillHoleNicely_8h =
 [
-    [ "MR_FaceBitSet", "MRFillHoleNicely_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_FaceColors", "MRFillHoleNicely_8h.html#a88c7503c40b624a577fda0eab1faa5fa", null ],
     [ "MR_FillHoleNicelySettings", "MRFillHoleNicely_8h.html#a6720c1f4bfb8b7b2de8f2278c5a22ca4", null ],
     [ "MR_FillHoleParams", "MRFillHoleNicely_8h.html#aac50ce209302ca1c9b23e6ea4dcfd3b4", null ],
-    [ "MR_Mesh", "MRFillHoleNicely_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_OutAttributesFillingSettings", "MRFillHoleNicely_8h.html#a6849588d30cdee2f65028f20e8230489", null ],
     [ "MR_SmoothFillingSettings", "MRFillHoleNicely_8h.html#aca8d38ec5d30b0afcdfb45a7b964f942", null ],
     [ "MR_std_function_bool_from_MR_EdgeId", "MRFillHoleNicely_8h.html#a5406af15a4ce0b3061cd59f056e30578", null ],
@@ -12,9 +9,6 @@ var MRFillHoleNicely_8h =
     [ "MR_StitchHolesNicelySettings", "MRFillHoleNicely_8h.html#a8a6e2bc0f6f041a09c279803bdec5861", null ],
     [ "MR_StitchHolesParams", "MRFillHoleNicely_8h.html#aa1607d8c8b544880832ed215c4cd000d", null ],
     [ "MR_SubdivideFillingSettings", "MRFillHoleNicely_8h.html#a37199f45cc5294e4f3a97c8fe6f8706f", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRFillHoleNicely_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
-    [ "MR_VertColors", "MRFillHoleNicely_8h.html#a20dc7d636220f61a60c7ae92b8caa768", null ],
-    [ "MR_VertCoords2", "MRFillHoleNicely_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a", null ],
     [ "MR_FillHoleNicelySettings_Get_smoothCurvature", "MRFillHoleNicely_8h.html#a4542b5be7b62576ce607b2a4ec67ec07", null ],
     [ "MR_FillHoleNicelySettings_Get_subdivideSettings", "MRFillHoleNicely_8h.html#adbfe2d9aefe0c7e430dcad5a2c7b79ef", null ],
     [ "MR_FillHoleNicelySettings_Get_triangulateOnly", "MRFillHoleNicely_8h.html#a47e125ad8ba1ae4b38a139794b337b8f", null ],

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Buffer__ObjId__ObjId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Buffer_ObjId_ObjId</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -429,7 +429,8 @@
   1) resized without initialization of its elements,
   2) much simplified: no push_back and many other methods
  \\tparam V type of stored elements
- \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+ \\tparam I type of index (shall be convertible to size_t)
+</verbatim> </para>
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6585" bodyend="6649"/>
     <listofallmembers>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Buffer__EdgeId__EdgeId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Buffer_EdgeId_EdgeId</compoundname>
     <sectiondef kind="public-func">
@@ -353,7 +353,8 @@ Aliases:  Buffer_Id_EdgeTag_Id_EdgeTag, Buffer_Id_EdgeTag_Id_EdgeTag, Buffer_Id_
   1) resized without initialization of its elements,
   2) much simplified: no push_back and many other methods
  \\tparam V type of stored elements
- \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+ \\tparam I type of index (shall be convertible to size_t)
+</verbatim> </para>
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6074" bodyend="6134"/>
     <listofallmembers>

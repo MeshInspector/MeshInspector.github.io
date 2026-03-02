@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OpenVdbFloatGrid" kind="class" language="C#" prot="public">
     <compoundname>MR::OpenVdbFloatGrid</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_OpenVdbFloatGrid</basecompoundref>
@@ -76,7 +76,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.OpenVdbFloatGrid.OpenVdbFloatGrid</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OpenVdbFloatGrid_1ae73a1bc0af44c763b4dbf8a0fe5101d0" kindref="member">MR.OpenVdbFloatGrid.OpenVdbFloatGrid</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -95,7 +95,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.OpenVdbFloatGrid.OpenVdbFloatGrid</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OpenVdbFloatGrid_1ae73a1bc0af44c763b4dbf8a0fe5101d0" kindref="member">MR.OpenVdbFloatGrid.OpenVdbFloatGrid</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -114,7 +114,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.OpenVdbFloatGrid.OpenVdbFloatGrid</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OpenVdbFloatGrid_1ae73a1bc0af44c763b4dbf8a0fe5101d0" kindref="member">MR.OpenVdbFloatGrid.OpenVdbFloatGrid</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -124,50 +124,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>this class just hides very complex type of typedef openvdb.FloatGrid Generated from class <computeroutput><ref refid="classMR_1_1OpenVdbFloatGrid" kindref="compound">MR.OpenVdbFloatGrid</ref></computeroutput>. This is the non-const half of the class. </para>
+<para>this class just hides very complex type of typedef openvdb::FloatGrid Generated from class <computeroutput><ref refid="classMR_1_1OpenVdbFloatGrid" kindref="compound">MR.OpenVdbFloatGrid</ref></computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_OpenVdbFloatGrid</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.OpenVdbFloatGrid</label>
         <link refid="classMR_1_1OpenVdbFloatGrid"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_OpenVdbFloatGrid</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_OpenVdbFloatGrid &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_OpenVdbFloatGrid</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.OpenVdbFloatGrid</label>
         <link refid="classMR_1_1OpenVdbFloatGrid"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_OpenVdbFloatGrid</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_OpenVdbFloatGrid &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" line="141" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" bodystart="142" bodyend="177"/>

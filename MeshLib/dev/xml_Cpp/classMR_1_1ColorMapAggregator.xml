@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ColorMapAggregator" kind="class" language="C++" prot="public">
     <compoundname>MR::ColorMapAggregator</compoundname>
-    <includes refid="MRColorMapAggregator_8h" local="no">MRColorMapAggregator.h</includes>
+    <includes refid="MRColorMapAggregator_8h" local="no">MRMesh/MRColorMapAggregator.h</includes>
     <innerclass refid="structMR_1_1ColorMapAggregator_1_1PartialColorMap" prot="public">MR::ColorMapAggregator::PartialColorMap</innerclass>
     <templateparamlist>
       <param>
@@ -43,7 +43,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColorMapAggregator.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColorMapAggregator.h" bodystart="20" bodyend="82"/>
+    <location file="MRMesh/MRColorMapAggregator.h" line="19" column="1" bodyfile="MRMesh/MRColorMapAggregator.h" bodystart="20" bodyend="82"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga266bfe77b1216a794ea433184f88e16f" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>aggregate</name></member>
       <member refid="group__GeneralGroup_1ga18c589433019c0ec280c7c759efaa21e" prot="private" virt="non-virtual"><scope>MR::ColorMapAggregator</scope><name>aggregatedColorMap_</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BitSet" kind="class" language="C#" prot="public">
     <compoundname>MR::BitSet</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_BitSet</basecompoundref>
@@ -54,7 +54,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.BitSet.BitSet</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BitSet_1a9be29d55f98f19cb86e1abb9971e06fa" kindref="member">MR.BitSet.BitSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.BitSet.BitSet</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BitSet_1a9be29d55f98f19cb86e1abb9971e06fa" kindref="member">MR.BitSet.BitSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,7 +92,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.BitSet.BitSet</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BitSet_1a9be29d55f98f19cb86e1abb9971e06fa" kindref="member">MR.BitSet.BitSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -116,7 +116,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>creates bitset of given size filled with given value Generated from constructor <computeroutput>MR.BitSet.BitSet</computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>creates bitset of given size filled with given value Generated from constructor <computeroutput><ref refid="classMR_1_1BitSet_1a9be29d55f98f19cb86e1abb9971e06fa" kindref="member">MR.BitSet.BitSet</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -135,7 +135,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.BitSet.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::BitSet::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -208,7 +208,7 @@
         <name>shrinkToFit</name>
         <qualifiedname>MR.BitSet.shrinkToFit</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.BitSet.shrink_to_fit</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::BitSet::shrink_to_fit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -256,7 +256,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.BitSet.test_set</computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::BitSet::test_set</computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -488,7 +488,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>adds one more bit with the given value in the container, increasing its size on 1 Generated from method <computeroutput>MR.BitSet.push_back</computeroutput>. </para>
+<para>adds one more bit with the given value in the container, increasing its size on 1 Generated from method <computeroutput>MR::BitSet::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -503,7 +503,7 @@
         <name>popBack</name>
         <qualifiedname>MR.BitSet.popBack</qualifiedname>
         <briefdescription>
-<para>removes last bit from the container, decreasing its size on 1 Generated from method <computeroutput>MR.BitSet.pop_back</computeroutput>. </para>
+<para>removes last bit from the container, decreasing its size on 1 Generated from method <computeroutput>MR::BitSet::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -522,7 +522,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.BitSet.operator&amp;=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::BitSet::operator&amp;=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -541,7 +541,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.BitSet.operator|=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::BitSet::operator|=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -560,7 +560,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.BitSet.operator^=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::BitSet::operator^=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -579,7 +579,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.BitSet.operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::BitSet::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -707,22 +707,11 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;bool&gt; like container (random-access, size_t - index type, bool - value type) with all bits after size() considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1EdgeBitSet" kindref="compound">MR.EdgeBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></computeroutput> <computeroutput>MR.TypedBitSet&lt;MR.Id&lt;MR.ICPElemtTag&gt;&gt;</computeroutput> <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></computeroutput> This is the non-const half of the class. </para>
+<para>std::vector&lt;bool&gt; like container (random-access, size_t - index type, bool - value type) with all bits after size() considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1EdgeBitSet" kindref="compound">MR.EdgeBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></computeroutput> <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;</computeroutput> <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_BitSet</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
-        <childnode refid="6" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="6">
         <label>IEnumerable&lt; ulong &gt;</label>
       </node>
@@ -732,28 +721,28 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_BitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_BitSet &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_BitSet &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_BitSet</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
-        <childnode refid="6" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="6">
         <label>IEnumerable&lt; ulong &gt;</label>
       </node>
@@ -763,14 +752,25 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_BitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_BitSet &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_BitSet &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14304" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14305" bodyend="14674"/>

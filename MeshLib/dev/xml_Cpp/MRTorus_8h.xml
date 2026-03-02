@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRTorus_8h" kind="file" language="C++">
     <compoundname>MRTorus.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -37,7 +37,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRTorus.h</label>
+        <label>MRMesh/MRTorus.h</label>
         <link refid="MRTorus_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -79,7 +79,7 @@
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="5"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="8"></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11" refid="group__GeneralGroup_1ga638324ed49e28189a1c35cf398dc6a73" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga638324ed49e28189a1c35cf398dc6a73" kindref="member">makeTorus</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>primaryRadius<sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>secondaryRadius<sp/>=<sp/>0.1f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>primaryResolution<sp/>=<sp/>16,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondaryResolution<sp/>=<sp/>16,</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Vector3f&gt;*<sp/>points<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
@@ -99,6 +99,6 @@
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Vector3f&gt;*<sp/>points<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTorus.h"/>
+    <location file="MRMesh/MRTorus.h"/>
   </compounddef>
 </doxygen>

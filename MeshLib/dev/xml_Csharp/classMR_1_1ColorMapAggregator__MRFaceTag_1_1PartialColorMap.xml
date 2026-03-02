@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap" kind="class" language="C#" prot="public">
     <compoundname>MR::ColorMapAggregator_MRFaceTag::PartialColorMap</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</basecompoundref>
@@ -88,7 +88,7 @@
           <declname>elements</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR.ColorMapAggregator&lt;MR.FaceTag&gt;::<ref refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap" kindref="compound">PartialColorMap</ref></computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::ColorMapAggregator&lt;MR::FaceTag&gt;::<ref refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap" kindref="compound">PartialColorMap</ref></computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -107,7 +107,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ColorMapAggregator&lt;MR.FaceTag&gt;::PartialColorMap.PartialColorMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ColorMapAggregator&lt;MR::FaceTag&gt;::<ref refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap_1aadb13cb8e2853a286f5f77173eba17fd" kindref="member">PartialColorMap.PartialColorMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -126,7 +126,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ColorMapAggregator&lt;MR.FaceTag&gt;::PartialColorMap.PartialColorMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ColorMapAggregator&lt;MR::FaceTag&gt;::<ref refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap_1aadb13cb8e2853a286f5f77173eba17fd" kindref="member">PartialColorMap.PartialColorMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -145,7 +145,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ColorMapAggregator&lt;MR.FaceTag&gt;::PartialColorMap.PartialColorMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ColorMapAggregator&lt;MR::FaceTag&gt;::<ref refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap_1aadb13cb8e2853a286f5f77173eba17fd" kindref="member">PartialColorMap.PartialColorMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -164,7 +164,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ColorMapAggregator&lt;MR.FaceTag&gt;::PartialColorMap.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ColorMapAggregator&lt;MR::FaceTag&gt;::PartialColorMap::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -174,22 +174,22 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>partial color map Generated from class <computeroutput>MR.ColorMapAggregator&lt;MR.FaceTag&gt;::<ref refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap" kindref="compound">PartialColorMap</ref></computeroutput>. This is the non-const half of the class. </para>
+<para>partial color map Generated from class <computeroutput>MR::ColorMapAggregator&lt;MR::FaceTag&gt;::<ref refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap" kindref="compound">PartialColorMap</ref></computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_PartialColorMap</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ColorMapAggregator_MRFaceTag.PartialColorMap</label>
         <link refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">
@@ -200,17 +200,17 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_PartialColorMap</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ColorMapAggregator_MRFaceTag.PartialColorMap</label>
         <link refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">

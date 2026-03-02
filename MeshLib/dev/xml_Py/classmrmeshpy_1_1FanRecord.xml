@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1FanRecord" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FanRecord</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1FanRecordWithCenter" prot="public" virt="non-virtual">mrmeshpy.FanRecordWithCenter</derivedcompoundref>
@@ -42,10 +42,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FanRecord.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1FanRecordWithCenter_1a78bc93e8e5739f94d48eaad05f786735">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FanRecordWithCenter_1a78bc93e8e5739f94d48eaad05f786735">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FanRecordWithCenter_1a190d8145c44ff43dd07c2048aebd1e3b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FanRecordWithCenter_1a9763b8976aa503132fa3ff96bc6644af">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -68,10 +64,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FanRecord.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1FanRecordWithCenter_1a78bc93e8e5739f94d48eaad05f786735">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FanRecordWithCenter_1a78bc93e8e5739f94d48eaad05f786735">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FanRecordWithCenter_1a190d8145c44ff43dd07c2048aebd1e3b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FanRecordWithCenter_1a9763b8976aa503132fa3ff96bc6644af">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -144,10 +136,6 @@
         <argsstring>(self, VertId b=..., int fn=0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FanRecord.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1FanRecordWithCenter_1a78bc93e8e5739f94d48eaad05f786735">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FanRecordWithCenter_1a78bc93e8e5739f94d48eaad05f786735">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FanRecordWithCenter_1a190d8145c44ff43dd07c2048aebd1e3b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FanRecordWithCenter_1a9763b8976aa503132fa3ff96bc6644af">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -176,10 +164,6 @@
         <argsstring>(self, FanRecord arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FanRecord.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1FanRecordWithCenter_1a78bc93e8e5739f94d48eaad05f786735">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FanRecordWithCenter_1a78bc93e8e5739f94d48eaad05f786735">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FanRecordWithCenter_1a190d8145c44ff43dd07c2048aebd1e3b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FanRecordWithCenter_1a9763b8976aa503132fa3ff96bc6644af">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -305,19 +289,6 @@ describes one fan of triangles around a point excluding the point
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.FanRecord</label>
-        <link refid="classmrmeshpy_1_1FanRecord"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_border</edgelabel>
-          <edgelabel>_offsetof_firstNei</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17793" bodyend="17842"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FanRecord_1af1a72eb8481cf1719e4b70557895d60b" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecord</scope><name>__init__</name></member>

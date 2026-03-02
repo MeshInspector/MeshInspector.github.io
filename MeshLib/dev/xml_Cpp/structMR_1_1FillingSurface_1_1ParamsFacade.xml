@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1FillingSurface_1_1ParamsFacade" kind="struct" language="C++" prot="public">
     <compoundname>MR::FillingSurface::ParamsFacade</compoundname>
-    <includes refid="MRFillingSurface_8h" local="no">MRFillingSurface.h</includes>
+    <includes refid="MRFillingSurface_8h" local="no">MRVoxels/MRFillingSurface.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="162" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" bodystart="162" bodyend="-1"/>
+        <location file="MRVoxels/MRFillingSurface.h" line="162" column="7" bodyfile="MRVoxels/MRFillingSurface.h" bodystart="162" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="164" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" bodystart="164" bodyend="170"/>
+        <location file="MRVoxels/MRFillingSurface.h" line="164" column="14" bodyfile="MRVoxels/MRFillingSurface.h" bodystart="164" bodyend="170"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -45,7 +45,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" bodystart="161" bodyend="171"/>
+    <location file="MRVoxels/MRFillingSurface.h" line="160" column="1" bodyfile="MRVoxels/MRFillingSurface.h" bodystart="161" bodyend="171"/>
     <listofallmembers>
       <member refid="structMR_1_1FillingSurface_1_1ParamsFacade_1a3f8437e613d46cad940b821aa4eedfa4" prot="public" virt="non-virtual"><scope>MR::FillingSurface::ParamsFacade</scope><name>getPeriod</name></member>
       <member refid="structMR_1_1FillingSurface_1_1ParamsFacade_1a8325b4ad0b790943397e73efcd5bf41d" prot="public" virt="non-virtual"><scope>MR::FillingSurface::ParamsFacade</scope><name>params</name></member>

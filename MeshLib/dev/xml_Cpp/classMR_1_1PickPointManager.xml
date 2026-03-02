@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PickPointManager" kind="class" language="C++" prot="public">
     <compoundname>MR::PickPointManager</compoundname>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; MouseDownListener, MouseMoveListener &gt;</basecompoundref>
-    <includes refid="MRPickPointManager_8h" local="no">MRPickPointManager.h</includes>
+    <includes refid="MRPickPointManager_8h" local="no">MRViewer/MRPickPointManager.h</includes>
     <innerclass refid="structMR_1_1PickPointManager_1_1ConnectionHolder" prot="private">MR::PickPointManager::ConnectionHolder</innerclass>
     <innerclass refid="structMR_1_1PickPointManager_1_1ObjectState" prot="public">MR::PickPointManager::ObjectState</innerclass>
     <innerclass refid="structMR_1_1PickPointManager_1_1Params" prot="public">MR::PickPointManager::Params</innerclass>
@@ -126,7 +126,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="24" bodyend="227"/>
+    <location file="MRViewer/MRPickPointManager.h" line="21" column="1" bodyfile="MRViewer/MRPickPointManager.h" bodystart="24" bodyend="227"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gadffaab931d52fa647870ad0274b3166f" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>AllowCallBack</name></member>
       <member refid="group__GeneralGroup_1ga2a3eef8619c745538f986985802843c4" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>appendHistory_</name></member>

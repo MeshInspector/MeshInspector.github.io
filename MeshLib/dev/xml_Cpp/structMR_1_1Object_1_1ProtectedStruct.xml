@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Object_1_1ProtectedStruct" kind="struct" language="C++" prot="protected">
     <compoundname>MR::Object::ProtectedStruct</compoundname>
-    <includes refid="MRObject_8h" local="no">MRObject.h</includes>
+    <includes refid="MRObject_8h" local="no">MRMesh/MRObject.h</includes>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="structMR_1_1Object_1_1ProtectedStruct_1a7e4c38fcb6a60dc4c3126d35a637080e" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
@@ -16,14 +16,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="284" column="35"/>
+        <location file="MRMesh/MRObject.h" line="284" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="284" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="284" bodyend="284"/>
+    <location file="MRMesh/MRObject.h" line="284" column="5" bodyfile="MRMesh/MRObject.h" bodystart="284" bodyend="284"/>
     <listofallmembers>
       <member refid="structMR_1_1Object_1_1ProtectedStruct_1a7e4c38fcb6a60dc4c3126d35a637080e" prot="public" virt="non-virtual"><scope>MR::Object::ProtectedStruct</scope><name>ProtectedStruct</name></member>
     </listofallmembers>

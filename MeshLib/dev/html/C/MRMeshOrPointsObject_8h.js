@@ -1,12 +1,7 @@
 var MRMeshOrPointsObject_8h =
 [
-    [ "MR_MeshOrPoints", "MRMeshOrPointsObject_8h.html#aef2e5b60c55f275988c9749f64cd52ac", null ],
     [ "MR_MeshOrPointsObject", "MRMeshOrPointsObject_8h.html#ae8694339b7677500c50d913374b15118", null ],
-    [ "MR_ObjectMesh", "MRMeshOrPointsObject_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6", null ],
     [ "MR_ObjectPoints", "MRMeshOrPointsObject_8h.html#ab1c1a63bde0febef265b95d647c94932", null ],
-    [ "MR_std_shared_ptr_MR_ObjectMesh", "MRMeshOrPointsObject_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a", null ],
-    [ "MR_std_shared_ptr_MR_ObjectPoints", "MRMeshOrPointsObject_8h.html#a435e0aa2bd12dee2d56d7a965a666e4c", null ],
-    [ "MR_std_shared_ptr_MR_VisualObject", "MRMeshOrPointsObject_8h.html#aa4b9828f4113d20d85483568f977c8ff", null ],
     [ "MR_equal_MR_MeshOrPointsObject_std_shared_ptr_MR_VisualObject", "MRMeshOrPointsObject_8h.html#af8338a04785c99c5c4cbf1483add410a", null ],
     [ "MR_MeshOrPointsObject_arrow", "MRMeshOrPointsObject_8h.html#a599667592675ea7a86e3302ce5154764", null ],
     [ "MR_MeshOrPointsObject_asObjectMesh", "MRMeshOrPointsObject_8h.html#a705bb96442f22318cda168d45c99cb55", null ],

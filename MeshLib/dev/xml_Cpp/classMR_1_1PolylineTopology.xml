@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolylineTopology" kind="class" language="C++" prot="public">
     <compoundname>MR::PolylineTopology</compoundname>
-    <includes refid="MRPolylineTopology_8h" local="no">MRPolylineTopology.h</includes>
+    <includes refid="MRPolylineTopology_8h" local="no">MRMesh/MRPolylineTopology.h</includes>
     <innerclass refid="structMR_1_1PolylineTopology_1_1HalfEdgeRecord" prot="private">MR::PolylineTopology::HalfEdgeRecord</innerclass>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga2607d8887f6044755fdbf22e2fb5e8d8" kind="variable"><name>edges_</name></member>
@@ -75,7 +75,7 @@
     <detaileddescription>
 <para>topology of one or several polylines (how line segments are connected in lines) common for 2D and 3D polylines </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="18" bodyend="234"/>
+    <location file="MRMesh/MRPolylineTopology.h" line="17" column="1" bodyfile="MRMesh/MRPolylineTopology.h" bodystart="18" bodyend="234"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga9f0861e0903043758012905dc252053b" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>addPart</name></member>
       <member refid="group__GeneralGroup_1ga373b93a65d4fe27f0c4fe672180f0b3c" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>addPartByMask</name></member>

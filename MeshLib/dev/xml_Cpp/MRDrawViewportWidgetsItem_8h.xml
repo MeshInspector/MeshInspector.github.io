@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRDrawViewportWidgetsItem_8h" kind="file" language="C++">
     <compoundname>MRDrawViewportWidgetsItem.h</compoundname>
     <includes local="yes">MRCommonPlugins/exports.h</includes>
@@ -9,7 +9,7 @@
     <includes local="no">boost/signals2/connection.hpp</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRDrawViewportWidgetsItem.h</label>
+        <label>MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h</label>
         <link refid="MRDrawViewportWidgetsItem_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -171,12 +171,12 @@
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="classMR_1_1ProvidesViewportWidget" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ProvidesViewportWidget" kindref="compound">ProvidesViewportWidget</ref></highlight></codeline>
+<codeline lineno="17" refid="classMR_1_1ProvidesViewportWidget" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaf041541f4016a8590a3c4aed86fd9fb5" kindref="member">ProvidesViewportWidget</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1gaf041541f4016a8590a3c4aed86fd9fb5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRCOMMONPLUGINS_API<sp/><ref refid="group__GeneralGroup_1gaf041541f4016a8590a3c4aed86fd9fb5" kindref="member">ProvidesViewportWidget</ref>();</highlight></codeline>
-<codeline lineno="21" refid="group__GeneralGroup_1ga109c919bd164ef9b221f3f71e6db2c41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga109c919bd164ef9b221f3f71e6db2c41" kindref="member">ProvidesViewportWidget</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ProvidesViewportWidget" kindref="compound">ProvidesViewportWidget</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="22" refid="group__GeneralGroup_1ga7f6c27b4d8d26bfca58a49fc3a614732" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ProvidesViewportWidget" kindref="compound">ProvidesViewportWidget</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga7f6c27b4d8d26bfca58a49fc3a614732" kindref="member">operator=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ProvidesViewportWidget" kindref="compound">ProvidesViewportWidget</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga109c919bd164ef9b221f3f71e6db2c41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga109c919bd164ef9b221f3f71e6db2c41" kindref="member">ProvidesViewportWidget</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf041541f4016a8590a3c4aed86fd9fb5" kindref="member">ProvidesViewportWidget</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1ga7f6c27b4d8d26bfca58a49fc3a614732" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf041541f4016a8590a3c4aed86fd9fb5" kindref="member">ProvidesViewportWidget</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga7f6c27b4d8d26bfca58a49fc3a614732" kindref="member">operator=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf041541f4016a8590a3c4aed86fd9fb5" kindref="member">ProvidesViewportWidget</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1ga3bf7f1350760c817d94d1173339aba56" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3bf7f1350760c817d94d1173339aba56" kindref="member">~ProvidesViewportWidget</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
@@ -195,7 +195,7 @@
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>boost::signals2::scoped_connection<sp/>providedWidgetsConnection_;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="classMR_1_1DrawViewportWidgetsItem" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1DrawViewportWidgetsItem" kindref="compound">DrawViewportWidgetsItem</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref></highlight></codeline>
+<codeline lineno="46" refid="classMR_1_1DrawViewportWidgetsItem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga2f05224b4fa7e838629dbb1e09ea3a22" kindref="member">DrawViewportWidgetsItem</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" kindref="member">RibbonMenuItem</ref></highlight></codeline>
 <codeline lineno="47"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="49" refid="group__GeneralGroup_1ga2f05224b4fa7e838629dbb1e09ea3a22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRCOMMONPLUGINS_API<sp/><ref refid="group__GeneralGroup_1ga2f05224b4fa7e838629dbb1e09ea3a22" kindref="member">DrawViewportWidgetsItem</ref>();</highlight></codeline>
@@ -215,6 +215,6 @@
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h"/>
+    <location file="MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h"/>
   </compounddef>
 </doxygen>

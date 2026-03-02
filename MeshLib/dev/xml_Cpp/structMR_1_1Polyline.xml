@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Polyline" kind="struct" language="C++" prot="public">
     <compoundname>MR::Polyline</compoundname>
-    <includes refid="MRPolyline_8h" local="no">MRPolyline.h</includes>
+    <includes refid="MRPolyline_8h" local="no">MRMesh/MRPolyline.h</includes>
     <templateparamlist>
       <param>
         <type>typename V</type>
@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="20" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="20" bodyend="-1"/>
+        <location file="MRMesh/MRPolyline.h" line="20" column="22" bodyfile="MRMesh/MRPolyline.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1Polyline_1a8e343d92cbb2ec14812dc38e4ba107fd" prot="public" static="no" mutable="no">
         <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; V, VertId &gt;</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="21" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="21" bodyend="-1"/>
+        <location file="MRMesh/MRPolyline.h" line="21" column="12" bodyfile="MRMesh/MRPolyline.h" bodystart="21" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="169" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="169" bodyend="-1"/>
+        <location file="MRMesh/MRPolyline.h" line="169" column="35" bodyfile="MRMesh/MRPolyline.h" bodystart="169" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="23" column="5"/>
+        <location file="MRMesh/MRPolyline.h" line="23" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a4b0c7356bf9410a07c99ee9ee80b8db5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="26" column="6"/>
+        <location file="MRMesh/MRPolyline.h" line="26" column="6"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1ab39f63a5f068099aaa0ec1c5e025103e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="29" column="6"/>
+        <location file="MRMesh/MRPolyline.h" line="29" column="6"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1ab5049b91b498ff6a3932bb2ee20cf2bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="34" column="6"/>
+        <location file="MRMesh/MRPolyline.h" line="34" column="6"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a8fa0ef3a70ada52c4bf815ff8f708ed9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -169,14 +169,13 @@
         </briefdescription>
         <detaileddescription>
 <para>adds connected line in this, passing progressively via points *[vs, vs+num)</para>
-<para>if closed argument is true then the last and the first points will be additionally connected <simplesect kind="return"><para>the edge from first new to second new vertex <linebreak/>
- </para>
+<para>if closed argument is true then the last and the first points will be additionally connected <simplesect kind="return"><para>the edge from first new to second new vertex </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="39" column="13"/>
+        <location file="MRMesh/MRPolyline.h" line="39" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a5c0695a3191577ed04a1a11224d50045" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -202,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="44" column="13"/>
+        <location file="MRMesh/MRPolyline.h" line="44" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a119663899ffa7bc20f9b3ab77cc3b6db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -241,7 +240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="48" column="11"/>
+        <location file="MRMesh/MRPolyline.h" line="48" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a02d7af7baeeefe1859077fcfaf778763" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -274,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="52" column="11"/>
+        <location file="MRMesh/MRPolyline.h" line="52" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1af24fd643f0d6cd970d26dccd51949a93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -299,7 +298,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="57" column="11"/>
+        <location file="MRMesh/MRPolyline.h" line="57" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a403ab94ad27b1766b1ef3043546ee01d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>V</type>
@@ -318,7 +317,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="60" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="60" bodyend="60"/>
+        <location file="MRMesh/MRPolyline.h" line="60" column="8" bodyfile="MRMesh/MRPolyline.h" bodystart="60" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a29635bdcaade26236bf38e9044e1605a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>V</type>
@@ -337,7 +336,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="63" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="63" bodyend="63"/>
+        <location file="MRMesh/MRPolyline.h" line="63" column="8" bodyfile="MRMesh/MRPolyline.h" bodystart="63" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a09efa3e658e95b29f1dea8f362d18289" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>V</type>
@@ -360,7 +359,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="66" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="66" bodyend="66"/>
+        <location file="MRMesh/MRPolyline.h" line="66" column="8" bodyfile="MRMesh/MRPolyline.h" bodystart="66" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a0127bea8e352025d57d7b71fccf78b15" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>V</type>
@@ -379,7 +378,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="69" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="69" bodyend="69"/>
+        <location file="MRMesh/MRPolyline.h" line="69" column="8" bodyfile="MRMesh/MRPolyline.h" bodystart="69" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1ad1f0b9ea32808bf20f7aa8c85eb62641" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>V</type>
@@ -398,7 +397,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="72" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="72" bodyend="72"/>
+        <location file="MRMesh/MRPolyline.h" line="72" column="8" bodyfile="MRMesh/MRPolyline.h" bodystart="72" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1ab9e9cb920eced56be83119d6d268691f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>V</type>
@@ -417,7 +416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="75" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="75" bodyend="75"/>
+        <location file="MRMesh/MRPolyline.h" line="75" column="8" bodyfile="MRMesh/MRPolyline.h" bodystart="75" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1ae6187af336b61283c5118d9aca6f0a12" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1LineSegm" kindref="compound">LineSegm</ref>&lt; V &gt;</type>
@@ -436,7 +435,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="78" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="78" bodyend="78"/>
+        <location file="MRMesh/MRPolyline.h" line="78" column="15" bodyfile="MRMesh/MRPolyline.h" bodystart="78" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1adcd14ead7b771006dcdc733950976288" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
@@ -455,7 +454,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="81" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="81" bodyend="81"/>
+        <location file="MRMesh/MRPolyline.h" line="81" column="16" bodyfile="MRMesh/MRPolyline.h" bodystart="81" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1acddfc9fe7193026b7c731a688f1dc478" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
@@ -478,7 +477,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="84" column="17"/>
+        <location file="MRMesh/MRPolyline.h" line="84" column="17"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a2c547895888165d873db848b161cb5c0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -497,7 +496,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="87" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="87" bodyend="87"/>
+        <location file="MRMesh/MRPolyline.h" line="87" column="12" bodyfile="MRMesh/MRPolyline.h" bodystart="87" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1ab3de745fc249ab0b56e00796cf740f97" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -516,7 +515,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="90" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="90" bodyend="90"/>
+        <location file="MRMesh/MRPolyline.h" line="90" column="12" bodyfile="MRMesh/MRPolyline.h" bodystart="90" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1ad4be3d0739eaf55a7156960a61d9b1e3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3f</type>
@@ -535,7 +534,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="94" column="16"/>
+        <location file="MRMesh/MRPolyline.h" line="94" column="16"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a8b760a1f4e7c27a21eb28891086f6dde" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -550,7 +549,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="97" column="13"/>
+        <location file="MRMesh/MRPolyline.h" line="97" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a6680e632ef5cd15c07a087a1b0f4da18" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -565,7 +564,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="100" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="100" bodyend="100"/>
+        <location file="MRMesh/MRPolyline.h" line="100" column="12" bodyfile="MRMesh/MRPolyline.h" bodystart="100" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1ae04ad0d4adb7dd9912ec74fd39fcbad8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="classMR_1_1AABBTreePolyline" kindref="compound">AABBTreePolyline</ref>&lt; V &gt; &amp;</type>
@@ -580,7 +579,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="103" column="29"/>
+        <location file="MRMesh/MRPolyline.h" line="103" column="29"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a363c6648b8fe1702f69d019676856179" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classMR_1_1AABBTreePolyline" kindref="compound">AABBTreePolyline</ref>&lt; V &gt; *</type>
@@ -595,7 +594,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="106" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="106" bodyend="106"/>
+        <location file="MRMesh/MRPolyline.h" line="106" column="30" bodyfile="MRMesh/MRPolyline.h" bodystart="106" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1abe0cb6a927b49d813ccebab2cc70d7a7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1Box" kindref="compound">Box</ref>&lt; V &gt;</type>
@@ -610,7 +609,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="109" column="11"/>
+        <location file="MRMesh/MRPolyline.h" line="109" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1ab0cfcd3178240f3bb9b8346a5d063464" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1Box" kindref="compound">Box</ref>&lt; V &gt;</type>
@@ -631,7 +630,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="113" column="11"/>
+        <location file="MRMesh/MRPolyline.h" line="113" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1ab5969e3da3e8deb772958e4855dc5b9c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>V</type>
@@ -646,7 +645,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="116" column="9"/>
+        <location file="MRMesh/MRPolyline.h" line="116" column="9"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a83ce5536fb56d4e5f1126acbc419a663" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -665,7 +664,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="119" column="11"/>
+        <location file="MRMesh/MRPolyline.h" line="119" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a32c77b23ecee22eeb23aff9b7e7e0392" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -688,7 +687,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="125" column="13"/>
+        <location file="MRMesh/MRPolyline.h" line="125" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1aee0339a19861aa52dd86eceea3e805b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>EdgeId</type>
@@ -707,7 +706,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="128" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="128" bodyend="128"/>
+        <location file="MRMesh/MRPolyline.h" line="128" column="12" bodyfile="MRMesh/MRPolyline.h" bodystart="128" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a31c2d8e3b6a9e6729084fbb4221d8d57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -722,7 +721,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="131" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="131" bodyend="131"/>
+        <location file="MRMesh/MRPolyline.h" line="131" column="10" bodyfile="MRMesh/MRPolyline.h" bodystart="131" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1abaaaf2e622a7df2fb5ef5492721109be" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1gacc92c2d7152d14f1cb59bb4c7187fed8" kindref="member">Contours</ref>&lt; V &gt;</type>
@@ -752,7 +751,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="136" column="16"/>
+        <location file="MRMesh/MRPolyline.h" line="136" column="16"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a4247ea43b01e686c29028046ad50fe6a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -772,7 +771,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="140" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="174" bodyend="184"/>
+        <location file="MRMesh/MRPolyline.h" line="140" column="15" bodyfile="MRMesh/MRPolyline.h" bodystart="174" bodyend="184"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a64df04a94a707f0ac6075f909e5e9d2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -797,7 +796,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="144" column="13"/>
+        <location file="MRMesh/MRPolyline.h" line="144" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a97fea45a4170313a719a900d98a1ee7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>EdgeId</type>
@@ -822,7 +821,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="148" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="148" bodyend="148"/>
+        <location file="MRMesh/MRPolyline.h" line="148" column="12" bodyfile="MRMesh/MRPolyline.h" bodystart="148" bodyend="148"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1aada00d7c9df4877d4326b22a4ec91d08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -855,7 +854,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="152" column="13"/>
+        <location file="MRMesh/MRPolyline.h" line="152" column="13"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1ae20e023266eab775d1ee6a336c27d7cd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -870,7 +869,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="155" column="14"/>
+        <location file="MRMesh/MRPolyline.h" line="155" column="14"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1aeaa90b34cd74ab76a35694d438baaf65" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -895,7 +894,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="158" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="158" bodyend="166"/>
+        <location file="MRMesh/MRPolyline.h" line="158" column="32" bodyfile="MRMesh/MRPolyline.h" bodystart="158" bodyend="166"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -923,7 +922,7 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="18" bodyend="170"/>
+    <location file="MRMesh/MRPolyline.h" line="17" column="1" bodyfile="MRMesh/MRPolyline.h" bodystart="18" bodyend="170"/>
     <listofallmembers>
       <member refid="structMR_1_1Polyline_1ab7beee7c65fa084515872b7626b51c7d" prot="private" virt="non-virtual"><scope>MR::Polyline</scope><name>AABBTreeOwner_</name></member>
       <member refid="structMR_1_1Polyline_1a64df04a94a707f0ac6075f909e5e9d2a" prot="public" virt="non-virtual"><scope>MR::Polyline</scope><name>addFromEdgePath</name></member>

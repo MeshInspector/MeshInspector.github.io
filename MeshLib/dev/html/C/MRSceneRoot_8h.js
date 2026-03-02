@@ -1,18 +1,7 @@
 var MRSceneRoot_8h =
 [
-    [ "MR_Object", "MRSceneRoot_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
-    [ "MR_ObjectChildrenHolder", "MRSceneRoot_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc", null ],
     [ "MR_SceneRoot", "MRSceneRoot_8h.html#ab54b7348c2e5fb01019351f23b672f22", null ],
-    [ "MR_SceneRootObject", "MRSceneRoot_8h.html#a885f919fff839030c6725c849e0db23a", null ],
-    [ "MR_std_filesystem_path", "MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526", null ],
-    [ "MR_std_set_std_string", "MRSceneRoot_8h.html#ac70a547e279521dbca88d6d95326ba2a", null ],
     [ "MR_std_shared_ptr_const_MR_SceneRootObject", "MRSceneRoot_8h.html#a331e2aeba64435c9d33bfce1ba5741de", null ],
-    [ "MR_std_shared_ptr_MR_Object", "MRSceneRoot_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4", null ],
-    [ "MR_std_shared_ptr_MR_SceneRootObject", "MRSceneRoot_8h.html#a455fb1e45d1e455a5436d36279622bb2", null ],
-    [ "MR_std_string", "MRSceneRoot_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
-    [ "MR_std_vector_std_string", "MRSceneRoot_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900", null ],
-    [ "MR_ViewportMask", "MRSceneRoot_8h.html#a85b2b5f875361920283d305645987092", null ],
-    [ "MR_ViewportProperty_MR_AffineXf3f", "MRSceneRoot_8h.html#aebba128754c26d6c67761a3a0d2e0e4f", null ],
     [ "MR_createRootFormObject", "MRSceneRoot_8h.html#a1dce2ea8a00445cedebe98f820587ce2", null ],
     [ "MR_SceneRoot_AssignFromAnother", "MRSceneRoot_8h.html#ae960e4bb9ef13a9032b94bec852deaf9", null ],
     [ "MR_SceneRoot_constGet", "MRSceneRoot_8h.html#a74b89e4f3d6105d41d525186f083dc12", null ],

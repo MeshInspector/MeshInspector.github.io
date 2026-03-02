@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.11.0" xml:lang="en-US">
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.14.0" xml:lang="en-US">
   <compound refid="classMR_1_1Matrix3__Int_1_1__InOptConst__QR" kind="class"><name>MR::Matrix3_Int::_InOptConst_QR</name>
     <member refid="classMR_1_1Matrix3__Int_1_1__InOptConst__QR_1a4df04d3d184e87a28ba61d8131ad3ea5" kind="variable"><name>Opt</name></member>
   </compound>
@@ -924,7 +924,7 @@
     <member refid="classMR_1_1BooleanPreCutResult_1aac3507e8def6bc3c0e1acf7b3dff3783" kind="function"><name>BooleanPreCutResult</name></member>
     <member refid="classMR_1_1BooleanPreCutResult_1ad95b7991fa790ca489f351c3dd21c528" kind="function"><name>assign</name></member>
   </compound>
-  <compound refid="classMR_1_1BooleanResult" kind="class"><name>MR::BooleanResult</name>
+  <compound refid="classMR_1_1BooleanResult" kind="struct"><name>MR::BooleanResult</name>
     <member refid="classMR_1_1BooleanResult_1a31ec21694667fcf4dafde5f239438515" kind="property"><name>mesh</name></member>
     <member refid="classMR_1_1BooleanResult_1a11cac39df7ddb1118bb5b19b8df941f1" kind="property"><name>meshABadContourFaces</name></member>
     <member refid="classMR_1_1BooleanResult_1a2f1240200e294a2c524ce78769a04bb2" kind="property"><name>meshBBadContourFaces</name></member>
@@ -939,7 +939,7 @@
     <member refid="classMR_1_1BooleanResult_1a412f8fe7a235d49219868927a8f9a637" kind="function"><name>deref</name></member>
     <member refid="classMR_1_1BooleanResult_1a994a08c8a4c836a85724abc06ebfe385" kind="function"><name>arrow</name></member>
   </compound>
-  <compound refid="classMR_1_1BooleanResultMapper" kind="class"><name>MR::BooleanResultMapper</name>
+  <compound refid="classMR_1_1BooleanResultMapper" kind="struct"><name>MR::BooleanResultMapper</name>
     <member refid="classMR_1_1BooleanResultMapper_1a35495ba9680edc84068f61c23fe2c38c" kind="property"><name>maps</name></member>
     <member refid="classMR_1_1BooleanResultMapper_1af6b4fd9f3bfd3e0797be45de01f3983b" kind="function"><name>BooleanResultMapper</name></member>
     <member refid="classMR_1_1BooleanResultMapper_1afade241a084e350772386120b922671d" kind="function"><name>BooleanResultMapper</name></member>
@@ -5939,7 +5939,7 @@
     <member refid="classMR_1_1CutByProjectionSettings_1a0d626dd400c35c53305223b0a56d0d30" kind="function"><name>CutByProjectionSettings</name></member>
     <member refid="classMR_1_1CutByProjectionSettings_1a3bd08216256da6a551fec6ca357b88a2" kind="function"><name>assign</name></member>
   </compound>
-  <compound refid="classMR_1_1CutMeshParameters" kind="class"><name>MR::CutMeshParameters</name>
+  <compound refid="classMR_1_1CutMeshParameters" kind="struct"><name>MR::CutMeshParameters</name>
     <member refid="classMR_1_1CutMeshParameters_1a6180e9d8a2a74ed1ffa2c9805d694ff6" kind="property"><name>sortData</name></member>
     <member refid="classMR_1_1CutMeshParameters_1a0bfacdbe87e0d7bd267d01d197bc8196" kind="property"><name>new2OldMap</name></member>
     <member refid="classMR_1_1CutMeshParameters_1a09f00bd0b51c745e195525112957c609" kind="property"><name>forceFillMode</name></member>
@@ -5951,7 +5951,7 @@
     <member refid="classMR_1_1CutMeshParameters_1a8d88ac630c5da03281753aa42a575c22" kind="function"><name>CutMeshParameters</name></member>
     <member refid="classMR_1_1CutMeshParameters_1ac1eaab21aa9131b18c467a57f7a50738" kind="function"><name>assign</name></member>
   </compound>
-  <compound refid="classMR_1_1CutMeshResult" kind="class"><name>MR::CutMeshResult</name>
+  <compound refid="classMR_1_1CutMeshResult" kind="struct"><name>MR::CutMeshResult</name>
     <member refid="classMR_1_1CutMeshResult_1a6036b98bf53e8905006d57b198d2add3" kind="property"><name>resultCut</name></member>
     <member refid="classMR_1_1CutMeshResult_1a2e672df7679e0f058dcbba30529bc43a" kind="property"><name>fbsWithContourIntersections</name></member>
     <member refid="classMR_1_1CutMeshResult_1af27e30eacad91023163db71e4f57945e" kind="function"><name>CutMeshResult</name></member>
@@ -6064,7 +6064,7 @@
     <member refid="classMR_1_1CylinderObject_1a92c13b9362f058a3a0562aa6b1bdf698" kind="function"><name>addTag</name></member>
     <member refid="classMR_1_1CylinderObject_1ae1eeee955153d33a7c00022076e16245" kind="function"><name>removeTag</name></member>
   </compound>
-  <compound refid="classMR_1_1DecimatePolylineResult" kind="class"><name>MR::DecimatePolylineResult</name>
+  <compound refid="classMR_1_1DecimatePolylineResult" kind="struct"><name>MR::DecimatePolylineResult</name>
     <member refid="classMR_1_1DecimatePolylineResult_1a47c127e3e1326913eebaa2e6618b30cb" kind="property"><name>vertsDeleted</name></member>
     <member refid="classMR_1_1DecimatePolylineResult_1a3e3c6467c81adc273ddfd6b468d4ddc6" kind="property"><name>errorIntroduced</name></member>
     <member refid="classMR_1_1DecimatePolylineResult_1aad2793be61e238231b0a5949fd8a9aca" kind="function"><name>DecimatePolylineResult</name></member>
@@ -6114,7 +6114,7 @@
     <member refid="classMR_1_1DecimatePolylineSettings__MRVector3f_1aebe591a272ea58af9c1cc63457ee6c9d" kind="function"><name>DecimatePolylineSettings_MRVector3f</name></member>
     <member refid="classMR_1_1DecimatePolylineSettings__MRVector3f_1ae75dc95a81c1876c6380f047786bd50c" kind="function"><name>assign</name></member>
   </compound>
-  <compound refid="classMR_1_1DecimateResult" kind="class"><name>MR::DecimateResult</name>
+  <compound refid="classMR_1_1DecimateResult" kind="struct"><name>MR::DecimateResult</name>
     <member refid="classMR_1_1DecimateResult_1ade919f12c7cec4bf8a5d694bb01349a4" kind="property"><name>vertsDeleted</name></member>
     <member refid="classMR_1_1DecimateResult_1aced91d188a3ac295b24ea646bc1b209c" kind="property"><name>facesDeleted</name></member>
     <member refid="classMR_1_1DecimateResult_1a9c657ab91f569e655fccca5e33e67b2e" kind="property"><name>errorIntroduced</name></member>
@@ -6126,7 +6126,7 @@
     <member refid="classMR_1_1DecimateResult_1ab39a6cda23e5c59ade07c3e4dff2ffcb" kind="function"><name>DecimateResult</name></member>
     <member refid="classMR_1_1DecimateResult_1a4907b767f454c980b94fb8385a459c6b" kind="function"><name>assign</name></member>
   </compound>
-  <compound refid="classMR_1_1DecimateSettings" kind="class"><name>MR::DecimateSettings</name>
+  <compound refid="classMR_1_1DecimateSettings" kind="struct"><name>MR::DecimateSettings</name>
     <member refid="classMR_1_1DecimateSettings_1a7d0f6cbf05458bab4e5eb3e750801de4" kind="property"><name>strategy</name></member>
     <member refid="classMR_1_1DecimateSettings_1a040958d62d8f9cf6d834297c179c458a" kind="property"><name>maxError</name></member>
     <member refid="classMR_1_1DecimateSettings_1a3aaf8b1370e2f9ecdcbaba611b7a9fb9" kind="property"><name>maxEdgeLen</name></member>
@@ -7487,7 +7487,7 @@
     <member refid="classMR_1_1FillHoleItem_1ab7fe55de7eef8566b91a73511f9b9332" kind="function"><name>FillHoleItem</name></member>
     <member refid="classMR_1_1FillHoleItem_1a525c31821bdc6f5145a8ab7f14d3ba72" kind="function"><name>assign</name></member>
   </compound>
-  <compound refid="classMR_1_1FillHoleMetric" kind="class"><name>MR::FillHoleMetric</name>
+  <compound refid="classMR_1_1FillHoleMetric" kind="struct"><name>MR::FillHoleMetric</name>
     <member refid="classMR_1_1FillHoleMetric_1acf92ecae974ecd310a9f4e7a6f396aa8" kind="property"><name>triangleMetric</name></member>
     <member refid="classMR_1_1FillHoleMetric_1ade172a7286bf9744edb23a7947471313" kind="property"><name>edgeMetric</name></member>
     <member refid="classMR_1_1FillHoleMetric_1a2c1ba55499bc9a972157bbdb33c658c7" kind="property"><name>combineMetric</name></member>
@@ -7514,7 +7514,7 @@
     <member refid="classMR_1_1FillHoleNicelySettings_1a46192820cfe311e47b1fba81343e2302" kind="function"><name>FillHoleNicelySettings</name></member>
     <member refid="classMR_1_1FillHoleNicelySettings_1a56e579c62b4d52819ad32f8f3440a9d0" kind="function"><name>assign</name></member>
   </compound>
-  <compound refid="classMR_1_1FillHoleParams" kind="class"><name>MR::FillHoleParams</name>
+  <compound refid="classMR_1_1FillHoleParams" kind="struct"><name>MR::FillHoleParams</name>
     <member refid="classMR_1_1FillHoleParams_1a238b95687d6651d2f4714aa4d7abb636" kind="property"><name>metric</name></member>
     <member refid="classMR_1_1FillHoleParams_1aa210a2ddcc147781549d86a306b6a56b" kind="property"><name>smoothBd</name></member>
     <member refid="classMR_1_1FillHoleParams_1a1772afb629afe7982250629b28329952" kind="property"><name>outNewFaces</name></member>
@@ -9809,7 +9809,7 @@
     <member refid="classMR_1_1Features_1_1MeasureResult_1a3ab4f155d2c90179cc0fd37fffcb07c3" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1Features_1_1MeasureResult_1ae92b40a434d849657013993a2519c131" kind="function"><name>swapObjects</name></member>
   </compound>
-  <compound refid="classMR_1_1MergeVolumePartSettings" kind="class"><name>MR::MergeVolumePartSettings</name>
+  <compound refid="classMR_1_1MergeVolumePartSettings" kind="struct"><name>MR::MergeVolumePartSettings</name>
     <member refid="classMR_1_1MergeVolumePartSettings_1a47af78da95e13977df497e2fc843daf9" kind="property"><name>preCut</name></member>
     <member refid="classMR_1_1MergeVolumePartSettings_1a8b38de89f0cf2c494f98fa2a8d249c4b" kind="property"><name>postCut</name></member>
     <member refid="classMR_1_1MergeVolumePartSettings_1aa82936da6272d74212a95ed94b8c274d" kind="property"><name>postMerge</name></member>
@@ -16352,7 +16352,7 @@
     <member refid="classMR_1_1StitchHolesNicelySettings_1ab415fdb1e5b25f9b399542289b1e701b" kind="function"><name>StitchHolesNicelySettings</name></member>
     <member refid="classMR_1_1StitchHolesNicelySettings_1a00264f11aea5b56e3c03ada3fb79ffcc" kind="function"><name>assign</name></member>
   </compound>
-  <compound refid="classMR_1_1StitchHolesParams" kind="class"><name>MR::StitchHolesParams</name>
+  <compound refid="classMR_1_1StitchHolesParams" kind="struct"><name>MR::StitchHolesParams</name>
     <member refid="classMR_1_1StitchHolesParams_1a97509e6b095df58502fc3e0c700cc625" kind="property"><name>metric</name></member>
     <member refid="classMR_1_1StitchHolesParams_1af1b91d94e597fe8ee14c178e094e718c" kind="property"><name>outNewFaces</name></member>
     <member refid="classMR_1_1StitchHolesParams_1ae8b6bb9a7824b496fd770e5f46691e29" kind="function"><name>StitchHolesParams</name></member>
@@ -20435,7 +20435,7 @@
     <member refid="classMR_1_1VolumeSegmenter_1a27eb2853adc27edac76053d61b96bc13" kind="function"><name>segmentVolume</name></member>
     <member refid="classMR_1_1VolumeSegmenter_1aca5e093ace0c9beeeb2ac827ed76d8df" kind="function"><name>operator VolumeSegmenter</name></member>
   </compound>
-  <compound refid="classMR_1_1VolumeToMeshByPartsSettings" kind="class"><name>MR::VolumeToMeshByPartsSettings</name>
+  <compound refid="classMR_1_1VolumeToMeshByPartsSettings" kind="struct"><name>MR::VolumeToMeshByPartsSettings</name>
     <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a163f6e7c21782c5264f775a766084997" kind="property"><name>maxVolumePartMemoryUsage</name></member>
     <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a0e0d29b2a60329aef9c36da2e271a664" kind="property"><name>stripeOverlap</name></member>
     <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a4eb195d034a1ddb64c6fca556aa74a0e" kind="function"><name>VolumeToMeshByPartsSettings</name></member>

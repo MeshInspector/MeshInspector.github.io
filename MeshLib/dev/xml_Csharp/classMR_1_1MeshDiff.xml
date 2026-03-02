@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshDiff" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshDiff</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshDiff</basecompoundref>
@@ -54,7 +54,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshDiff.MeshDiff</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshDiff_1a4f205e4e1fd57fb2dd050915d9d607da" kindref="member">MR.MeshDiff.MeshDiff</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshDiff.MeshDiff</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshDiff_1a4f205e4e1fd57fb2dd050915d9d607da" kindref="member">MR.MeshDiff.MeshDiff</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,7 +92,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshDiff.MeshDiff</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshDiff_1a4f205e4e1fd57fb2dd050915d9d607da" kindref="member">MR.MeshDiff.MeshDiff</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -115,7 +115,7 @@
           <declname>to</declname>
         </param>
         <briefdescription>
-<para>computes the difference, that can be applied to mesh-from in order to get mesh-to Generated from constructor <computeroutput>MR.MeshDiff.MeshDiff</computeroutput>. </para>
+<para>computes the difference, that can be applied to mesh-from in order to get mesh-to Generated from constructor <computeroutput><ref refid="classMR_1_1MeshDiff_1a4f205e4e1fd57fb2dd050915d9d607da" kindref="member">MR.MeshDiff.MeshDiff</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -134,7 +134,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MeshDiff.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MeshDiff::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -169,45 +169,45 @@
 <para>if the meshes are similar then this object is small, if the meshes are very distinct then this object will be even larger than one mesh itself Generated from class <computeroutput><ref refid="classMR_1_1MeshDiff" kindref="compound">MR.MeshDiff</ref></computeroutput>. This is the non-const half of the class. </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_MeshDiff</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshDiff</label>
         <link refid="classMR_1_1MeshDiff"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshDiff</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshDiff &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_MeshDiff</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshDiff</label>
         <link refid="classMR_1_1MeshDiff"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshDiff</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshDiff &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" line="104" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" bodystart="105" bodyend="175"/>

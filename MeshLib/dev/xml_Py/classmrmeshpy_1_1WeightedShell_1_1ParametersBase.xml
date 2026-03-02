@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1WeightedShell_1_1ParametersBase" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::WeightedShell::ParametersBase</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric" prot="public" virt="non-virtual">mrmeshpy.WeightedShell.ParametersMetric</derivedcompoundref>
@@ -73,12 +73,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a7dbb7d295ab70dec5cd6a46e896f3469">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a409e50b6c208423278ab6eb69161bd05">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a2b80769d17addc984d9323a18f2f3925">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1aa94ec3d44d0b197598fa9a5fb1a0ef72">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a002be70863183709145db05abcccb67a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1af137eb194384d3ae64133a5ca68df324">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -155,12 +149,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a7dbb7d295ab70dec5cd6a46e896f3469">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a409e50b6c208423278ab6eb69161bd05">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a2b80769d17addc984d9323a18f2f3925">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1aa94ec3d44d0b197598fa9a5fb1a0ef72">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a002be70863183709145db05abcccb67a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1af137eb194384d3ae64133a5ca68df324">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -179,12 +167,6 @@
         <argsstring>(self, WeightedShell.ParametersBase arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a7dbb7d295ab70dec5cd6a46e896f3469">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a409e50b6c208423278ab6eb69161bd05">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a2b80769d17addc984d9323a18f2f3925">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1aa94ec3d44d0b197598fa9a5fb1a0ef72">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a002be70863183709145db05abcccb67a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1af137eb194384d3ae64133a5ca68df324">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -209,12 +191,6 @@
         <argsstring>(self, float offset, float voxelSize, float numLayers, func_bool_from_float progress)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.WeightedShell.ParametersBase.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a7dbb7d295ab70dec5cd6a46e896f3469">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a409e50b6c208423278ab6eb69161bd05">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersMetric_1a2b80769d17addc984d9323a18f2f3925">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1aa94ec3d44d0b197598fa9a5fb1a0ef72">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1a002be70863183709145db05abcccb67a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1af137eb194384d3ae64133a5ca68df324">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -439,21 +415,6 @@ The user is responsible for setting some positive value here
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.WeightedShell.ParametersBase</label>
-        <link refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_numLayers</edgelabel>
-          <edgelabel>_offsetof_offset</edgelabel>
-          <edgelabel>_offsetof_progress</edgelabel>
-          <edgelabel>_offsetof_voxelSize</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75257" bodyend="75322"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersBase_1a273826f1b18954eb98fec4324c3317e2" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersBase</scope><name>__init__</name></member>

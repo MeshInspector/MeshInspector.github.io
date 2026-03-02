@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ObjVertId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ObjVertId</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -202,19 +202,6 @@
 <para><verbatim>Generated from:  MR::ObjVertId
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.ObjVertId</label>
-        <link refid="classmrmeshpy_1_1ObjVertId"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_objId</edgelabel>
-          <edgelabel>_offsetof_vId</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38991" bodyend="39026"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ObjVertId_1a4411c8f6797b800af7332f0871e5d41b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjVertId</scope><name>__eq__</name></member>

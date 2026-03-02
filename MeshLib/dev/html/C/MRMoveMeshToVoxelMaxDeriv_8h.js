@@ -1,8 +1,5 @@
 var MRMoveMeshToVoxelMaxDeriv_8h =
 [
-    [ "MR_expected_MR_VertBitSet_std_string", "MRMoveMeshToVoxelMaxDeriv_8h.html#ad28f0eefdef309c3ac3580e15985c342", null ],
-    [ "MR_FunctionVolume", "MRMoveMeshToVoxelMaxDeriv_8h.html#ab294732b2988d23c13fd8799dc19a43a", null ],
-    [ "MR_Mesh", "MRMoveMeshToVoxelMaxDeriv_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_MeshOnVoxelsT_const_MR_Mesh_MR_FunctionVolume", "MRMoveMeshToVoxelMaxDeriv_8h.html#a92fba002115fbb8724420a98b57a1fac", null ],
     [ "MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax", "MRMoveMeshToVoxelMaxDeriv_8h.html#a26f6effe8b18dd1f10192eae7d8de5ee", null ],
     [ "MR_MeshOnVoxelsT_const_MR_Mesh_MR_VdbVolume", "MRMoveMeshToVoxelMaxDeriv_8h.html#a48cd10ed9fd67ae55ae706d5c7d0a70f", null ],
@@ -10,12 +7,6 @@ var MRMoveMeshToVoxelMaxDeriv_8h =
     [ "MR_MeshOnVoxelsT_MR_Mesh_MR_SimpleVolumeMinMax", "MRMoveMeshToVoxelMaxDeriv_8h.html#a5c0e3a3681f92a4cb5e9b4119531f2b0", null ],
     [ "MR_MeshOnVoxelsT_MR_Mesh_MR_VdbVolume", "MRMoveMeshToVoxelMaxDeriv_8h.html#a55fcd61c4569d893d801e59a05020694", null ],
     [ "MR_MoveMeshToVoxelMaxDerivSettings", "MRMoveMeshToVoxelMaxDeriv_8h.html#ab20c5513c8d03139bd88df42d6832607", null ],
-    [ "MR_PolynomialWrapper_float", "MRMoveMeshToVoxelMaxDeriv_8h.html#ab0e7e49f1c53ebc35d3931e6577b95cb", null ],
-    [ "MR_SimpleVolumeMinMax", "MRMoveMeshToVoxelMaxDeriv_8h.html#a8926b75bb2beb7a906aef87b4867fe03", null ],
-    [ "MR_std_function_bool_from_float", "MRMoveMeshToVoxelMaxDeriv_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_vector_float", "MRMoveMeshToVoxelMaxDeriv_8h.html#aba323e6d596956f5a589a525c6f6adbc", null ],
-    [ "MR_std_vector_MR_Vector3f", "MRMoveMeshToVoxelMaxDeriv_8h.html#aefed148a09a0ae55edbd22814638b462", null ],
-    [ "MR_VdbVolume", "MRMoveMeshToVoxelMaxDeriv_8h.html#a3d8aa59058b2516d2c9b34241f2c0441", null ],
     [ "MR_MeshOnVoxelsT_const_MR_Mesh_MR_FunctionVolume_Construct", "MRMoveMeshToVoxelMaxDeriv_8h.html#afdd839cdedac81c7785610df621d0d19", null ],
     [ "MR_MeshOnVoxelsT_const_MR_Mesh_MR_FunctionVolume_ConstructFromAnother", "MRMoveMeshToVoxelMaxDeriv_8h.html#a24d136a97229e2f4215a6da5dcff771a", null ],
     [ "MR_MeshOnVoxelsT_const_MR_Mesh_MR_FunctionVolume_Destroy", "MRMoveMeshToVoxelMaxDeriv_8h.html#a44ea36fdfdfb6f48b0a458139979c1d8", null ],

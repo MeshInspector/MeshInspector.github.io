@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1VoxelsLoad_1_1GridType" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::VoxelsLoad::GridType</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -295,19 +295,6 @@
   LevelSet : consider values less than iso as inner area
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.VoxelsLoad.GridType</label>
-        <link refid="classmrmeshpy_1_1VoxelsLoad_1_1GridType"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>DenseGrid</edgelabel>
-          <edgelabel>LevelSet</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74197" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74197" bodyend="74233"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1_1GridType_1a790ba3f49b44905c53ae6640b19a4f8a" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::GridType</scope><name>__eq__</name></member>

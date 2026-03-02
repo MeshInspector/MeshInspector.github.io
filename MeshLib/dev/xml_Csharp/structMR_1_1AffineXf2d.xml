@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1AffineXf2d" kind="struct" language="C#" prot="public">
     <compoundname>MR::AffineXf2d</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.AffineXf2d &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1AffineXf2d_1a172b9a358c357e80fb5bce27cb2ae1e2" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1Matrix2d" kindref="compound">MR.Matrix2d</ref></type>
@@ -129,7 +129,7 @@
           <declname>v</declname>
         </param>
         <briefdescription>
-<para>composition of two transformations: <formula id="0"> y = (u * v) ( x ) = u( v( x ) ) = ( u.A * ( v.A * x + v.b ) + u.b ) = ( u.A * v.A ) * x + ( u.A * v.b + u.b ) </formula> Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>composition of two transformations: <formula id="0">y = (u * v) ( x ) = u( v( x ) ) = ( u.A * ( v.A * x + v.b ) + u.b ) = ( u.A * v.A ) * x + ( u.A * v.b + u.b )</formula> Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -152,7 +152,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator==</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator==</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -252,7 +252,7 @@
           <declname>x</declname>
         </param>
         <briefdescription>
-<para>application of the transformation to a point Generated from method <computeroutput>MR.AffineXf2d.operator()</computeroutput>. </para>
+<para>application of the transformation to a point Generated from method <computeroutput>MR::AffineXf2d::operator()</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

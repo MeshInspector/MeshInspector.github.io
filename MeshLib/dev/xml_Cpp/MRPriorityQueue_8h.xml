@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPriorityQueue_8h" kind="file" language="C++">
     <compoundname>MRPriorityQueue.h</compoundname>
     <includes refid="MRMacros_8h" local="yes">MRMacros.h</includes>
@@ -40,7 +40,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPriorityQueue.h</label>
+        <label>MRMesh/MRPriorityQueue.h</label>
         <link refid="MRPriorityQueue_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -113,8 +113,8 @@
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>P<sp/>=<sp/>std::less&lt;T&gt;&gt;</highlight></codeline>
-<codeline lineno="16" refid="classMR_1_1PriorityQueue" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1PriorityQueue" kindref="compound">PriorityQueue</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>P<sp/>=<sp/>std::less&lt;T&gt;&gt;</highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1PriorityQueue" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaae44e735cc86835adbb6d48ff4a446ab" kindref="member">PriorityQueue</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga3b6a5fb6f7530ae66dfec44b04efaf99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga3b6a5fb6f7530ae66dfec44b04efaf99" kindref="member">value_type</ref><sp/>=<sp/>T;</highlight></codeline>
@@ -155,8 +155,8 @@
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>std::make_heap(<sp/><ref refid="group__GeneralGroup_1ga5f49205aba3f95b0774623effbc87e49" kindref="member">c</ref>.begin(),<sp/><ref refid="group__GeneralGroup_1ga5f49205aba3f95b0774623effbc87e49" kindref="member">c</ref>.end(),<sp/>pred_<sp/>);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h"/>
+    <location file="MRMesh/MRPriorityQueue.h"/>
   </compounddef>
 </doxygen>

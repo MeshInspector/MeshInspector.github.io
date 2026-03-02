@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ParallelProgressReporter" kind="class" language="C++" prot="public">
     <compoundname>MR::ParallelProgressReporter</compoundname>
-    <includes refid="MRParallelProgressReporter_8h" local="no">MRParallelProgressReporter.h</includes>
+    <includes refid="MRParallelProgressReporter_8h" local="no">MRMesh/MRParallelProgressReporter.h</includes>
     <innerclass refid="structMR_1_1ParallelProgressReporter_1_1PerTaskReporter" prot="public">MR::ParallelProgressReporter::PerTaskReporter</innerclass>
     <innerclass refid="structMR_1_1ParallelProgressReporter_1_1TaskInfo" prot="public">MR::ParallelProgressReporter::TaskInfo</innerclass>
     <sectiondef kind="private-attrib">
@@ -27,7 +27,7 @@
     <detaileddescription>
 <para>This class allows progress to be reported from different threads. Unlike progress callback that is passed to <ref refid="group__BasicGroup_1gaf184f372f735726148d7a07cbbbb29af" kindref="member">ParallelFor</ref>, each task may report the progress separately, and the progress displayed to user is not just a number of completed tasks divided by the total number of tasks, but rather a (weighted) average of progresses reported from each task </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="21" bodyend="72"/>
+    <location file="MRMesh/MRParallelProgressReporter.h" line="20" column="1" bodyfile="MRMesh/MRParallelProgressReporter.h" bodystart="21" bodyend="72"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga86cf6968f94b8518a115c3a12af2f6cd" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>cb_</name></member>
       <member refid="group__GeneralGroup_1ga9e24875ac9a999b2110e7afd6d4d5e95" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>continue_</name></member>

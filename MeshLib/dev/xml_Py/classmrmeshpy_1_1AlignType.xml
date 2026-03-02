@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1AlignType" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::AlignType</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -312,20 +312,6 @@
   Right
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.AlignType</label>
-        <link refid="classmrmeshpy_1_1AlignType"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>Center</edgelabel>
-          <edgelabel>Left</edgelabel>
-          <edgelabel>Right</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1494" bodyend="1533"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1AlignType_1a8df5ef7654deb4c509401a81493a0d02" prot="public" virt="non-virtual"><scope>mrmeshpy::AlignType</scope><name>__eq__</name></member>

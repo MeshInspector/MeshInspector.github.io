@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMutexOwner_8h" kind="file" language="C++">
     <compoundname>MRMutexOwner.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -154,7 +154,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MutexOwner</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMutexOwner_8h_1aecae44d91a545caaa5cf2f13bf5d4f8d" kindref="member">MR_MutexOwner</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -172,7 +172,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MutexOwner</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMutexOwner_8h_1aecae44d91a545caaa5cf2f13bf5d4f8d" kindref="member">MR_MutexOwner</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -224,7 +224,7 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRMutexOwner_8h_1aecae44d91a545caaa5cf2f13bf5d4f8d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMutexOwner_8h_1aecae44d91a545caaa5cf2f13bf5d4f8d" kindref="member">MR_MutexOwner</ref><sp/><ref refid="MRMutexOwner_8h_1aecae44d91a545caaa5cf2f13bf5d4f8d" kindref="member">MR_MutexOwner</ref>;</highlight></codeline>
+<codeline lineno="17" refid="MRMutexOwner_8h_1aecae44d91a545caaa5cf2f13bf5d4f8d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMutexOwner_8h_1aecae44d91a545caaa5cf2f13bf5d4f8d" kindref="member">MR_MutexOwner</ref><sp/><ref refid="MRMutexOwner_8h_1aecae44d91a545caaa5cf2f13bf5d4f8d" kindref="member">MR_MutexOwner</ref>;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRMutexOwner_8h_1a4caa013b4ef5e2aebcd36744370a83bc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMutexOwner_8h_1aecae44d91a545caaa5cf2f13bf5d4f8d" kindref="member">MR_MutexOwner</ref><sp/>*<ref refid="MRMutexOwner_8h_1a4caa013b4ef5e2aebcd36744370a83bc" kindref="member">MR_MutexOwner_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>

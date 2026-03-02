@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSystem_8h" kind="file" language="C++">
     <compoundname>MRSystem.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -33,19 +33,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRSystem_8h_1a006d61fd2048bba5b5622d42cbe72526" prot="public" static="no">
-        <type>struct <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref></type>
-        <definition>typedef struct MR_std_filesystem_path MR_std_filesystem_path</definition>
-        <argsstring></argsstring>
-        <name>MR_std_filesystem_path</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="13" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" prot="public" static="no">
         <type>struct <ref refid="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" kindref="member">MR_std_function_void</ref></type>
         <definition>typedef struct MR_std_function_void MR_std_function_void</definition>
@@ -58,19 +45,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="14" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRSystem_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
-        <definition>typedef struct MR_std_string MR_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSystem.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" prot="public" static="no">
         <type>struct <ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref></type>
@@ -565,7 +539,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SystemMemory</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -583,7 +557,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SystemMemory</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -666,47 +640,47 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRSystem_8h_1a006d61fd2048bba5b5622d42cbe72526" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" kindref="member">MR_std_function_void</ref><sp/><ref refid="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" kindref="member">MR_std_function_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRSystem_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref>;</highlight></codeline>
+<codeline lineno="20" refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref><sp/><ref refid="MRSystem_8h_1a0abf5a90af969389df783f83762346c2" kindref="member">MR_SystemMemory</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>sets<sp/>debug<sp/>name<sp/>for<sp/>the<sp/>current<sp/>thread</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>sets<sp/>debug<sp/>name<sp/>for<sp/>the<sp/>current<sp/>thread</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRSystem_8h_1a194122b50524a35b6173d07b76c6bee2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a194122b50524a35b6173d07b76c6bee2" kindref="member">MR_SetCurrentThreadName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>path<sp/>to<sp/>the<sp/>folder<sp/>with<sp/>user<sp/>config<sp/>file(s)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>path<sp/>to<sp/>the<sp/>folder<sp/>with<sp/>user<sp/>config<sp/>file(s)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="MRSystem_8h_1a2cf96490566ebace32c25bdeaf337d57" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystem_8h_1a2cf96490566ebace32c25bdeaf337d57" kindref="member">MR_getUserConfigDir</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>path<sp/>of<sp/>config<sp/>file<sp/>in<sp/>APPDATA</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>path<sp/>of<sp/>config<sp/>file<sp/>in<sp/>APPDATA</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="34" refid="MRSystem_8h_1a3c0fa8ad45de39c222ce798912032f71" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystem_8h_1a3c0fa8ad45de39c222ce798912032f71" kindref="member">MR_getUserConfigFilePath</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>temp<sp/>directory</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>temp<sp/>directory</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="39" refid="MRSystem_8h_1a0c335e0bb34f13011ed92f045cff2b03" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystem_8h_1a0c335e0bb34f13011ed92f045cff2b03" kindref="member">MR_GetTempDirectory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>home<sp/>directory</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>home<sp/>directory</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="44" refid="MRSystem_8h_1ac25d6d94ea946d7e1df8c5e01263b651" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSystem_8h_1ac25d6d94ea946d7e1df8c5e01263b651" kindref="member">MR_GetHomeDirectory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>version<sp/>of<sp/>MR</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>version<sp/>of<sp/>MR</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="48" refid="MRSystem_8h_1a877a907ee82d0e1a8741225e178e45c7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRSystem_8h_1a877a907ee82d0e1a8741225e178e45c7" kindref="member">MR_GetMRVersionString</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Opens<sp/>given<sp/>link<sp/>in<sp/>default<sp/>browser</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Opens<sp/>given<sp/>link<sp/>in<sp/>default<sp/>browser</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="54" refid="MRSystem_8h_1a9a2c431b1f94c26e2b5dbbf80fc20980" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a9a2c431b1f94c26e2b5dbbf80fc20980" kindref="member">MR_OpenLink</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*url,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*url_end);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Opens<sp/>given<sp/>file<sp/>(or<sp/>directory)<sp/>in<sp/>associated<sp/>application</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Opens<sp/>given<sp/>file<sp/>(or<sp/>directory)<sp/>in<sp/>associated<sp/>application</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="59" refid="MRSystem_8h_1af029fd236b83fe541a46e91cd19ab95d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1af029fd236b83fe541a46e91cd19ab95d" kindref="member">MR_OpenDocument</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>string<sp/>identification<sp/>of<sp/>the<sp/>CPU</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>string<sp/>identification<sp/>of<sp/>the<sp/>CPU</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="64" refid="MRSystem_8h_1a1586290577baacf2cfea38be130eb60e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSystem_8h_1a1586290577baacf2cfea38be130eb60e" kindref="member">MR_GetCpuId</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>string<sp/>with<sp/>OS<sp/>name<sp/>with<sp/>details</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>string<sp/>with<sp/>OS<sp/>name<sp/>with<sp/>details</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="69" refid="MRSystem_8h_1a763282bac1d140525911aa5346e1fe25" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSystem_8h_1a763282bac1d140525911aa5346e1fe25" kindref="member">MR_GetDetailedOSName</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>string<sp/>identification<sp/>of<sp/>the<sp/>OS</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>string<sp/>identification<sp/>of<sp/>the<sp/>OS</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="74" refid="MRSystem_8h_1afa5ff2cec02b5e4df57d3abdbc5a01d2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSystem_8h_1afa5ff2cec02b5e4df57d3abdbc5a01d2" kindref="member">MR_getOSNoSpaces</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//<sp/>sets<sp/>new<sp/>handler<sp/>for<sp/>operator<sp/>new<sp/>if<sp/>needed<sp/>for<sp/>some<sp/>platforms</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//<sp/>sets<sp/>new<sp/>handler<sp/>for<sp/>operator<sp/>new<sp/>if<sp/>needed<sp/>for<sp/>some<sp/>platforms</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="78" refid="MRSystem_8h_1a3d8c37d97792056381beaf3626103760" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSystem_8h_1a3d8c37d97792056381beaf3626103760" kindref="member">MR_setNewHandlerIfNeeded</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="83" refid="MRSystem_8h_1adf06857533c49bb6393404d4ea300537" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSystem_8h_1adf06857533c49bb6393404d4ea300537" kindref="member">MR_getCurrentStacktrace</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>

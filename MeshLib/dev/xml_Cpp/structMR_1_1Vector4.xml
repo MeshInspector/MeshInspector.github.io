@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Vector4" kind="struct" language="C++" prot="public">
     <compoundname>MR::Vector4</compoundname>
-    <includes refid="MRVector4_8h" local="no">MRVector4.h</includes>
+    <includes refid="MRVector4_8h" local="no">MRMesh/MRVector4.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -69,7 +69,7 @@
     <detaileddescription>
 <para>four-dimensional vector </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector4.h" line="25" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector4.h" bodystart="26" bodyend="127"/>
+    <location file="MRMesh/MRVector4.h" line="25" column="1" bodyfile="MRMesh/MRVector4.h" bodystart="26" bodyend="127"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga30fe17a2e179fabfc0cb0bf87ff40620" prot="public" virt="non-virtual"><scope>MR::Vector4</scope><name>begin</name></member>
       <member refid="group__GeneralGroup_1gaae32c22644b25c26b237f41ac439da53" prot="public" virt="non-virtual"><scope>MR::Vector4</scope><name>diagonal</name></member>

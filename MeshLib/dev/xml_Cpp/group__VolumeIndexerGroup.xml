@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__VolumeIndexerGroup" kind="group">
     <compoundname>VolumeIndexerGroup</compoundname>
     <title>Volume Indexer</title>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="21" bodyend="30"/>
+        <location file="MRMesh/MRVolumeIndexer.h" line="20" column="1" bodyfile="MRMesh/MRVolumeIndexer.h" bodystart="21" bodyend="30"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="var">
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="34" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="34" bodyend="34"/>
+        <location file="MRMesh/MRVolumeIndexer.h" line="34" column="36" bodyfile="MRMesh/MRVolumeIndexer.h" bodystart="34" bodyend="34"/>
       </memberdef>
       <memberdef kind="variable" id="group__VolumeIndexerGroup_1gab35bebc2eedde9b1262043f5242f3ebf" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>int</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="42" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="42" bodyend="-1"/>
+        <location file="MRMesh/MRVolumeIndexer.h" line="42" column="22" bodyfile="MRMesh/MRVolumeIndexer.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__VolumeIndexerGroup_1ga91147207103fdc2c344ad18106a8599a" prot="public" static="no" constexpr="yes" mutable="no">
         <type>Vector3i</type>
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="44" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="44" bodyend="52"/>
+        <location file="MRMesh/MRVolumeIndexer.h" line="44" column="20" bodyfile="MRMesh/MRVolumeIndexer.h" bodystart="44" bodyend="52"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="36" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="36" bodyend="40"/>
+        <location file="MRMesh/MRVolumeIndexer.h" line="36" column="17" bodyfile="MRMesh/MRVolumeIndexer.h" bodystart="36" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="group__VolumeIndexerGroup_1gaf4165e1b4387ead4958e16c2ffebdf4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="161" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" declline="161" declcolumn="7"/>
+        <location file="MRMesh/MRVolumeIndexer.h" line="161" column="7" declfile="MRMesh/MRVolumeIndexer.h" declline="161" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__VolumeIndexerGroup_1ga051634fee494f975b01af37644de2b2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="164" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" declline="164" declcolumn="7"/>
+        <location file="MRMesh/MRVolumeIndexer.h" line="164" column="7" declfile="MRMesh/MRVolumeIndexer.h" declline="164" declcolumn="7"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

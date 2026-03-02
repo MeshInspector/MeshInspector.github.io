@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Logger" kind="class" language="C++" prot="public">
     <compoundname>MR::Logger</compoundname>
-    <includes refid="MRLog_8h" local="no">MRLog.h</includes>
+    <includes refid="MRLog_8h" local="no">MRMesh/MRLog.h</includes>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1Logger_1ab59786d1bd2934b57b227e1d9fa83bf7" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; spdlog::logger &gt;</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="41" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" bodystart="41" bodyend="-1"/>
+        <location file="MRMesh/MRLog.h" line="41" column="21" bodyfile="MRMesh/MRLog.h" bodystart="41" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="25" column="20"/>
+        <location file="MRMesh/MRLog.h" line="25" column="20"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="28" column="28"/>
+        <location file="MRMesh/MRLog.h" line="28" column="28"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Logger_1af08e378d79a4ca1b7572bd761f7f15d1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="31" column="18"/>
+        <location file="MRMesh/MRLog.h" line="31" column="18"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Logger_1a9c8d798758ac7d84eb9c0bfd015326d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="34" column="11"/>
+        <location file="MRMesh/MRLog.h" line="34" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Logger_1a42dd267d9ad357b129d3e00b6f8397df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="35" column="11"/>
+        <location file="MRMesh/MRLog.h" line="35" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Logger_1a9981418112111e8ea23d788875a239fe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::filesystem::path</type>
@@ -116,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="38" column="28"/>
+        <location file="MRMesh/MRLog.h" line="38" column="28"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="40" column="5"/>
+        <location file="MRMesh/MRLog.h" line="40" column="5"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -140,7 +140,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" bodystart="23" bodyend="42"/>
+    <location file="MRMesh/MRLog.h" line="22" column="1" bodyfile="MRMesh/MRLog.h" bodystart="23" bodyend="42"/>
     <listofallmembers>
       <member refid="classMR_1_1Logger_1a9c8d798758ac7d84eb9c0bfd015326d6" prot="public" virt="non-virtual"><scope>MR::Logger</scope><name>addSink</name></member>
       <member refid="classMR_1_1Logger_1af08e378d79a4ca1b7572bd761f7f15d1" prot="public" virt="non-virtual"><scope>MR::Logger</scope><name>getDefaultPattern</name></member>

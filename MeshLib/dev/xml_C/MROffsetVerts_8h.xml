@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MROffsetVerts_8h" kind="file" language="C++">
     <compoundname>MROffsetVerts.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -33,45 +33,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MROffsetVerts_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="13" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MROffsetVerts_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="14" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MROffsetVerts_8h_1ac83010bf4ae4af15d0e13d005e33fce1" prot="public" static="no">
-        <type>struct <ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref></type>
-        <definition>typedef struct MR_std_function_float_from_MR_VertId MR_std_function_float_from_MR_VertId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_float_from_MR_VertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="15" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" prot="public" static="no">
         <type>struct <ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref></type>
         <definition>typedef struct MR_std_optional_MR_VertCoords MR_std_optional_MR_VertCoords</definition>
@@ -84,19 +45,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="16" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MROffsetVerts_8h_1aba93fea86ae074ee1b7541e7729dca55" prot="public" static="no">
-        <type>struct <ref refid="MRMeshThickness_8h_1aba93fea86ae074ee1b7541e7729dca55" kindref="member">MR_std_optional_MR_VertScalars</ref></type>
-        <definition>typedef struct MR_std_optional_MR_VertScalars MR_std_optional_MR_VertScalars</definition>
-        <argsstring></argsstring>
-        <name>MR_std_optional_MR_VertScalars</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="17" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" prot="public" static="no">
         <type>struct <ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref></type>
@@ -463,7 +411,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ThickenParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -481,7 +429,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ThickenParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -914,7 +862,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ZCompensateParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -932,7 +880,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ZCompensateParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1052,16 +1000,16 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MROffsetVerts_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MROffsetVerts_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MROffsetVerts_8h_1ac83010bf4ae4af15d0e13d005e33fce1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_float_from_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_float_from_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref><sp/><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_VertCoords.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MROffsetVerts_8h_1aba93fea86ae074ee1b7541e7729dca55" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshThickness_8h_1aba93fea86ae074ee1b7541e7729dca55" kindref="member">MR_std_optional_MR_VertScalars</ref><sp/><ref refid="MRMeshThickness_8h_1aba93fea86ae074ee1b7541e7729dca55" kindref="member">MR_std_optional_MR_VertScalars</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_VertScalars.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshThickness_8h_1aba93fea86ae074ee1b7541e7729dca55" kindref="member">MR_std_optional_MR_VertScalars</ref><sp/><ref refid="MRMeshThickness_8h_1aba93fea86ae074ee1b7541e7729dca55" kindref="member">MR_std_optional_MR_VertScalars</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_VertScalars.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref>;</highlight></codeline>
+<codeline lineno="22" refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref>;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref>;</highlight></codeline>
+<codeline lineno="26" refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35" refid="MROffsetVerts_8h_1a131e1cc155d1cfaa54fcaf2c4f0d589b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1a131e1cc155d1cfaa54fcaf2c4f0d589b" kindref="member">MR_offsetVerts</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref><sp/>*offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>

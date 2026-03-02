@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RibbonConfig" kind="struct" language="C++" prot="public">
     <compoundname>MR::RibbonConfig</compoundname>
-    <includes refid="MRRibbonLayoutConfig_8h" local="no">MRRibbonLayoutConfig.h</includes>
+    <includes refid="MRRibbonLayoutConfig_8h" local="no">MRViewer/MRRibbonLayoutConfig.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga5002834cd308d2eeda7cc7f532840f8a" kind="variable"><name>menuUIConfig</name></member>
       <member refid="group__GeneralGroup_1ga678575ecbadf5b880fab6e6072873ee5" kind="variable"><name>monochromeRibbonIcons</name></member>
@@ -14,7 +14,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h" bodystart="16" bodyend="22"/>
+    <location file="MRViewer/MRRibbonLayoutConfig.h" line="15" column="1" bodyfile="MRViewer/MRRibbonLayoutConfig.h" bodystart="16" bodyend="22"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga64f5562c14952b7d260af9fa205a774e" prot="public" virt="non-virtual"><scope>MR::RibbonConfig</scope><name>colorTheme</name></member>
       <member refid="group__GeneralGroup_1ga5002834cd308d2eeda7cc7f532840f8a" prot="public" virt="non-virtual"><scope>MR::RibbonConfig</scope><name>menuUIConfig</name></member>

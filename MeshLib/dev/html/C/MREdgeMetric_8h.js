@@ -1,9 +1,6 @@
 var MREdgeMetric_8h =
 [
-    [ "MR_Mesh", "MREdgeMetric_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshTopology", "MREdgeMetric_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
     [ "MR_std_function_float_from_MR_EdgeId", "MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687", null ],
-    [ "MR_VertCoords", "MREdgeMetric_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_discreteAbsMeanCurvatureMetric_1", "MREdgeMetric_8h.html#a01484edb3833aa62274791bd46b8ed17", null ],
     [ "MR_discreteAbsMeanCurvatureMetric_2", "MREdgeMetric_8h.html#a5cb730a8d0c5a9bccf8a95c6eceeb00f", null ],
     [ "MR_discreteMinusAbsMeanCurvatureMetric_1", "MREdgeMetric_8h.html#a7c9f5206546af5a29ec19c92abaccd41", null ],

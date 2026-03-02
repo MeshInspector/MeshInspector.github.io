@@ -28,8 +28,6 @@ var MRBox_8h =
     [ "MR_NoInit", "MRBox_8h.html#a14f0f26a43ddb92c3fa3c2192008224c", null ],
     [ "MR_SimpleVolumeMinMax", "MRBox_8h.html#a8926b75bb2beb7a906aef87b4867fe03", null ],
     [ "MR_SimpleVolumeMinMaxU16", "MRBox_8h.html#ab1efb7cbe013a5efb4e773a0f9f524f2", null ],
-    [ "MR_std_istream", "MRBox_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
-    [ "MR_std_ostream", "MRBox_8h.html#a933fad1748853c0c595a157b9f6527c6", null ],
     [ "MR_VdbVolume", "MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441", null ],
     [ "MR_Box1d_center", "MRBox_8h.html#ae156533f0883a47496fd1e826e88b1d0", null ],
     [ "MR_Box1d_Construct_1", "MRBox_8h.html#aee6e4991cb77078ac8949ad05e6768e3", null ],

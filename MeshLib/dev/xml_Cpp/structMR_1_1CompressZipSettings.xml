@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1CompressZipSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::CompressZipSettings</compoundname>
-    <includes refid="MRZip_8h" local="no">MRZip.h</includes>
+    <includes refid="MRZip_8h" local="no">MRMesh/MRZip.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1CompressZipSettings_1a0fff83332c3dd033ccd3f5bb5dbb8a5d" prot="public" static="no" mutable="no">
         <type>std::vector&lt; std::filesystem::path &gt;</type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" line="32" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" bodystart="32" bodyend="-1"/>
+        <location file="MRMesh/MRZip.h" line="32" column="17" bodyfile="MRMesh/MRZip.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1CompressZipSettings_1a8e2307f6f06661b56c44492f4ca4a54a" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" line="36" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" bodystart="36" bodyend="-1"/>
+        <location file="MRMesh/MRZip.h" line="36" column="9" bodyfile="MRMesh/MRZip.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1CompressZipSettings_1a081a0d03fa07baae69e080a91f1aa61d" prot="public" static="no" mutable="no">
         <type>std::string</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" line="39" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" bodystart="39" bodyend="-1"/>
+        <location file="MRMesh/MRZip.h" line="39" column="17" bodyfile="MRMesh/MRZip.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1CompressZipSettings_1a9796435e6a3ca7ed636ac9c0c3121a42" prot="public" static="no" mutable="no">
         <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
@@ -63,14 +63,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" line="42" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" bodystart="42" bodyend="-1"/>
+        <location file="MRMesh/MRZip.h" line="42" column="22" bodyfile="MRMesh/MRZip.h" bodystart="42" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" line="29" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" bodystart="30" bodyend="43"/>
+    <location file="MRMesh/MRZip.h" line="29" column="1" bodyfile="MRMesh/MRZip.h" bodystart="30" bodyend="43"/>
     <listofallmembers>
       <member refid="structMR_1_1CompressZipSettings_1a9796435e6a3ca7ed636ac9c0c3121a42" prot="public" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>cb</name></member>
       <member refid="structMR_1_1CompressZipSettings_1a8e2307f6f06661b56c44492f4ca4a54a" prot="public" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>compressionLevel</name></member>

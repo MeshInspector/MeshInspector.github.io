@@ -2,11 +2,7 @@ var MRVoxelPath_8h =
 [
     [ "MR_QuarterBit", "MRVoxelPath_8h.html#a322475031d0d22958038e8ab686cc585", null ],
     [ "MR_SlicePlane", "MRVoxelPath_8h.html#af72e6401468486b594337ebb0b4c07a0", null ],
-    [ "MR_std_function_bool_from_float", "MRVoxelPath_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_function_float_from_uint64_t_uint64_t", "MRVoxelPath_8h.html#a8b06611fe7700514bec8dc23058c9583", null ],
-    [ "MR_std_vector_uint64_t", "MRVoxelPath_8h.html#a4f0d822b41437ab650418eb826969703", null ],
-    [ "MR_VdbVolume", "MRVoxelPath_8h.html#a3d8aa59058b2516d2c9b34241f2c0441", null ],
-    [ "MR_VoxelMetricParameters", "MRVoxelPath_8h.html#a1bf861487a99eefce3b177f0edded8a4", null ],
     [ "MR_SlicePlane", "MRVoxelPath_8h.html#a5fefa7874fd77b5c87ee0874702f1ac2", [
       [ "MR_SlicePlane_YZ", "MRVoxelPath_8h.html#a5fefa7874fd77b5c87ee0874702f1ac2a1960ff3e087ca5b2358047eb5ffb6afd", null ],
       [ "MR_SlicePlane_ZX", "MRVoxelPath_8h.html#a5fefa7874fd77b5c87ee0874702f1ac2a40f9ac8be3ab2492c1eab195d44ab01e", null ],

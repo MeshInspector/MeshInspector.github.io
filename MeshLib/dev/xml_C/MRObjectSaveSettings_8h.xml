@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRObjectSaveSettings_8h" kind="file" language="C++">
     <compoundname>MRObjectSaveSettings.h</compoundname>
     <includes refid="MRUnitInfo_8h" local="no">MRCMesh/MRUnitInfo.h</includes>
@@ -37,48 +37,6 @@
         <label>stddef.h</label>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRObjectSaveSettings_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSaveSettings.h" line="13" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSaveSettings.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectSaveSettings_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref></type>
-        <definition>typedef struct MR_std_optional_MR_LengthUnit MR_std_optional_MR_LengthUnit</definition>
-        <argsstring></argsstring>
-        <name>MR_std_optional_MR_LengthUnit</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSaveSettings.h" line="14" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSaveSettings.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectSaveSettings_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" prot="public" static="no">
-        <type>struct <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref></type>
-        <definition>typedef struct MR_ObjectSave_Settings MR_ObjectSave_Settings</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjectSave_Settings</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::ObjectSave::Settings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSaveSettings.h" line="19" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSaveSettings.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRObjectSaveSettings_8h_1ac4c086594e413557d043df2df2ad2261" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
@@ -337,7 +295,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ObjectSave_Settings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -355,7 +313,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ObjectSave_Settings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -407,11 +365,11 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRObjectSaveSettings_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRObjectSaveSettings_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_LengthUnit.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_LengthUnit.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRObjectSaveSettings_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="MRObjectSaveSettings_8h_1ac4c086594e413557d043df2df2ad2261" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1ac4c086594e413557d043df2df2ad2261" kindref="member">MR_ObjectSave_Settings_Get_lengthUnit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>

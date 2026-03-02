@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPolyline_8h" kind="file" language="C++">
     <compoundname>MRPolyline.h</compoundname>
     <includes refid="MRBox_8h" local="no">MRCMesh/MRBox.h</includes>
@@ -96,361 +96,6 @@
         <label>stddef.h</label>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPolyline_8h_1a5f0e38192b30270d8c975b9462a211ad" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref></type>
-        <definition>typedef struct MR_AABBTreePolyline2 MR_AABBTreePolyline2</definition>
-        <argsstring></argsstring>
-        <name>MR_AABBTreePolyline2</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="17" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1ab9fcbb5b8711152a24a59e1d55156ece" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref></type>
-        <definition>typedef struct MR_AABBTreePolyline3 MR_AABBTreePolyline3</definition>
-        <argsstring></argsstring>
-        <name>MR_AABBTreePolyline3</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="18" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1a0a0645e84146720d27b2088d9d3dc1b8" prot="public" static="no">
-        <type>struct MR_AffineXf2f</type>
-        <definition>typedef struct MR_AffineXf2f MR_AffineXf2f</definition>
-        <argsstring></argsstring>
-        <name>MR_AffineXf2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="19" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1a88a1df6fb138786a55241b1d77a4b0cc" prot="public" static="no">
-        <type>struct MR_AffineXf3f</type>
-        <definition>typedef struct MR_AffineXf3f MR_AffineXf3f</definition>
-        <argsstring></argsstring>
-        <name>MR_AffineXf3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="20" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1acf89b8158bff9cb2bf3196841138345f" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref></type>
-        <definition>typedef struct MR_EdgeMap MR_EdgeMap</definition>
-        <argsstring></argsstring>
-        <name>MR_EdgeMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="21" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1a50185006f78fd01ef7f1316a047afa45" prot="public" static="no">
-        <type>struct <ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref></type>
-        <definition>typedef struct MR_EdgePoint MR_EdgePoint</definition>
-        <argsstring></argsstring>
-        <name>MR_EdgePoint</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="22" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" prot="public" static="no">
-        <type>struct <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref></type>
-        <definition>typedef struct MR_LineSegm2f MR_LineSegm2f</definition>
-        <argsstring></argsstring>
-        <name>MR_LineSegm2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="23" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1a39540ed403db4865d7d6ce134f7654c1" prot="public" static="no">
-        <type>struct <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref></type>
-        <definition>typedef struct MR_LineSegm3f MR_LineSegm3f</definition>
-        <argsstring></argsstring>
-        <name>MR_LineSegm3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="24" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="25" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" prot="public" static="no">
-        <type>struct <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref></type>
-        <definition>typedef struct MR_MeshTriPoint MR_MeshTriPoint</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTriPoint</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="26" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1aa7548d3448b3b7da1ea96433fe902e9a" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref></type>
-        <definition>typedef struct MR_Plane3f MR_Plane3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Plane3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="27" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1a02d1fe1568aa3e29e692594602ba76bd" prot="public" static="no">
-        <type>struct <ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref></type>
-        <definition>typedef struct MR_PolylineTopology MR_PolylineTopology</definition>
-        <argsstring></argsstring>
-        <name>MR_PolylineTopology</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="28" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1ac7f59a6736b29701d7e619412b6e2890" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref></type>
-        <definition>typedef struct MR_UndirectedEdgeBitSet MR_UndirectedEdgeBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_UndirectedEdgeBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="29" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
-        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
-        <argsstring></argsstring>
-        <name>MR_VertCoords</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="30" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref></type>
-        <definition>typedef struct MR_VertCoords2 MR_VertCoords2</definition>
-        <argsstring></argsstring>
-        <name>MR_VertCoords2</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="31" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1a0c1baad62a31685b2dfb5955f3fb8230" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref></type>
-        <definition>typedef struct MR_VertMap MR_VertMap</definition>
-        <argsstring></argsstring>
-        <name>MR_VertMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="32" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1a50066b58d97b0be73d826cfdcc9eb188" prot="public" static="no">
-        <type>struct <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref></type>
-        <definition>typedef struct MR_WholeEdgeMap MR_WholeEdgeMap</definition>
-        <argsstring></argsstring>
-        <name>MR_WholeEdgeMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="33" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="33" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1aa2cb99914308eb7429fd11738cf79483" prot="public" static="no">
-        <type>struct <ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref></type>
-        <definition>typedef struct MR_std_vector_MR_EdgeId MR_std_vector_MR_EdgeId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_EdgeId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="34" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1a9138e3f58ce2b39215044d2e368587ae" prot="public" static="no">
-        <type>struct <ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref></type>
-        <definition>typedef struct MR_std_vector_MR_EdgePoint MR_std_vector_MR_EdgePoint</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_EdgePoint</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="35" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" prot="public" static="no">
-        <type>struct <ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref></type>
-        <definition>typedef struct MR_std_vector_MR_Vector2f MR_std_vector_MR_Vector2f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_Vector2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="36" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1aefed148a09a0ae55edbd22814638b462" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref></type>
-        <definition>typedef struct MR_std_vector_MR_Vector3f MR_std_vector_MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="37" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="37" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1a954949e1753f6a2063d09e91b23d252d" prot="public" static="no">
-        <type>struct <ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref></type>
-        <definition>typedef struct MR_std_vector_MR_VertId MR_std_vector_MR_VertId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_VertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="38" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1a603c36c96311a8cb693f3e5500963e17" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref></type>
-        <definition>typedef struct MR_std_vector_std_vector_MR_Vector2f MR_std_vector_std_vector_MR_Vector2f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_vector_MR_Vector2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="39" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="39" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1a79b88ecd897f6c27c8428cecc4a91f30" prot="public" static="no">
-        <type>struct <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref></type>
-        <definition>typedef struct MR_std_vector_std_vector_MR_Vector3f MR_std_vector_std_vector_MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_vector_MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="40" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="40" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref></type>
-        <definition>typedef struct MR_std_vector_std_vector_MR_VertId MR_std_vector_std_vector_MR_VertId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_vector_MR_VertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="41" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref></type>
-        <definition>typedef struct MR_Polyline2 MR_Polyline2</definition>
-        <argsstring></argsstring>
-        <name>MR_Polyline2</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>polyline that stores points of type V Generated from class <computeroutput>MR::Polyline2</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="47" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="47" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref></type>
-        <definition>typedef struct MR_Polyline3 MR_Polyline3</definition>
-        <argsstring></argsstring>
-        <name>MR_Polyline3</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>polyline that stores points of type V Generated from class <computeroutput>MR::Polyline3</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" line="52" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline.h" bodystart="52" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRPolyline_8h_1a8b14c1b0f2d4154f1db0b161f8435a3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref> *</type>
@@ -766,7 +411,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Polyline2</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -784,7 +429,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Polyline2</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1928,7 +1573,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Polyline3</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1946,7 +1591,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Polyline3</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2820,36 +2465,36 @@
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRPolyline_8h_1a5f0e38192b30270d8c975b9462a211ad" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAABBTreePolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRPolyline_8h_1ab9fcbb5b8711152a24a59e1d55156ece" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAABBTreePolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRPolyline_8h_1a0a0645e84146720d27b2088d9d3dc1b8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref><sp/><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRPolyline_8h_1a88a1df6fb138786a55241b1d77a4b0cc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRPolyline_8h_1acf89b8158bff9cb2bf3196841138345f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRPolyline_8h_1a50185006f78fd01ef7f1316a047afa45" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MREdgePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRPolyline_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLineSegm.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRPolyline_8h_1a39540ed403db4865d7d6ce134f7654c1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLineSegm.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MRPolyline_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRPolyline_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRPolyline_8h_1aa7548d3448b3b7da1ea96433fe902e9a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPlane3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRPolyline_8h_1a02d1fe1568aa3e29e692594602ba76bd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolylineTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRPolyline_8h_1ac7f59a6736b29701d7e619412b6e2890" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRPolyline_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRPolyline_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRPolyline_8h_1a0c1baad62a31685b2dfb5955f3fb8230" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRPolyline_8h_1a50066b58d97b0be73d826cfdcc9eb188" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRPolyline_8h_1aa2cb99914308eb7429fd11738cf79483" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRPolyline_8h_1a9138e3f58ce2b39215044d2e368587ae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRPolyline_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRPolyline_8h_1aefed148a09a0ae55edbd22814638b462" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRPolyline_8h_1a954949e1753f6a2063d09e91b23d252d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRPolyline_8h_1a603c36c96311a8cb693f3e5500963e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRPolyline_8h_1a79b88ecd897f6c27c8428cecc4a91f30" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAABBTreePolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAABBTreePolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref><sp/><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MREdgePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLineSegm.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLineSegm.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPlane3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolylineTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRPolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref>;</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRPolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref>;</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58" refid="MRPolyline_8h_1a8b14c1b0f2d4154f1db0b161f8435a3d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/>*<ref refid="MRPolyline_8h_1a8b14c1b0f2d4154f1db0b161f8435a3d" kindref="member">MR_Polyline2_Get_topology</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
@@ -2931,14 +2576,14 @@
 <codeline lineno="280"><highlight class="normal"></highlight></codeline>
 <codeline lineno="286" refid="MRPolyline_8h_1a0e8f98814e138906b6c13ad442fb14f9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref><sp/><ref refid="MRPolyline_8h_1a0e8f98814e138906b6c13ad442fb14f9" kindref="member">MR_Polyline2_computeBoundingBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref><sp/>*toWorld);</highlight></codeline>
 <codeline lineno="287"><highlight class="normal"></highlight></codeline>
-<codeline lineno="288"><highlight class="normal"></highlight><highlight class="comment">//<sp/>computes<sp/>average<sp/>position<sp/>of<sp/>all<sp/>valid<sp/>polyline<sp/>vertices</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight><highlight class="comment">//<sp/>computes<sp/>average<sp/>position<sp/>of<sp/>all<sp/>valid<sp/>polyline<sp/>vertices</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="291" refid="MRPolyline_8h_1ae009dd5a4ae6d2593f59e83b4e07ce54" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/><ref refid="MRPolyline_8h_1ae009dd5a4ae6d2593f59e83b4e07ce54" kindref="member">MR_Polyline2_findCenterFromPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="292"><highlight class="normal"></highlight></codeline>
 <codeline lineno="297" refid="MRPolyline_8h_1a22ab692f26f7f857c7590a6ccc9a8c69" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1a22ab692f26f7f857c7590a6ccc9a8c69" kindref="member">MR_Polyline2_transform</ref>(<ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref><sp/>*xf);</highlight></codeline>
 <codeline lineno="298"><highlight class="normal"></highlight></codeline>
 <codeline lineno="306" refid="MRPolyline_8h_1a74be87542f79e9f369f619d01ffe4f69" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/><ref refid="MRPolyline_8h_1a74be87542f79e9f369f619d01ffe4f69" kindref="member">MR_Polyline2_splitEdge_2</ref>(<ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*newVertPos);</highlight></codeline>
 <codeline lineno="307"><highlight class="normal"></highlight></codeline>
-<codeline lineno="308"><highlight class="normal"></highlight><highlight class="comment">//<sp/>same,<sp/>but<sp/>split<sp/>given<sp/>edge<sp/>on<sp/>two<sp/>equal<sp/>parts</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight><highlight class="comment">//<sp/>same,<sp/>but<sp/>split<sp/>given<sp/>edge<sp/>on<sp/>two<sp/>equal<sp/>parts</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="311" refid="MRPolyline_8h_1a0ede2ca87d28ce6ec9b605567ec357b8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/><ref refid="MRPolyline_8h_1a0ede2ca87d28ce6ec9b605567ec357b8" kindref="member">MR_Polyline2_splitEdge_1</ref>(<ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e);</highlight></codeline>
 <codeline lineno="312"><highlight class="normal"></highlight></codeline>
 <codeline lineno="316" refid="MRPolyline_8h_1aaff6f479272f4fddbfb3e4c7e304607c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1aaff6f479272f4fddbfb3e4c7e304607c" kindref="member">MR_Polyline2_invalidateCaches</ref>(<ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*_this);</highlight></codeline>
@@ -3033,14 +2678,14 @@
 <codeline lineno="584"><highlight class="normal"></highlight></codeline>
 <codeline lineno="590" refid="MRPolyline_8h_1a0ea07888b815547041892d9d5dc44e14" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="MRPolyline_8h_1a0ea07888b815547041892d9d5dc44e14" kindref="member">MR_Polyline3_computeBoundingBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*toWorld);</highlight></codeline>
 <codeline lineno="591"><highlight class="normal"></highlight></codeline>
-<codeline lineno="592"><highlight class="normal"></highlight><highlight class="comment">//<sp/>computes<sp/>average<sp/>position<sp/>of<sp/>all<sp/>valid<sp/>polyline<sp/>vertices</highlight></codeline>
+<codeline lineno="592"><highlight class="normal"></highlight><highlight class="comment">//<sp/>computes<sp/>average<sp/>position<sp/>of<sp/>all<sp/>valid<sp/>polyline<sp/>vertices</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="595" refid="MRPolyline_8h_1aa0793b83b088c65fd11dc9afe6aa43bb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRPolyline_8h_1aa0793b83b088c65fd11dc9afe6aa43bb" kindref="member">MR_Polyline3_findCenterFromPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="596"><highlight class="normal"></highlight></codeline>
 <codeline lineno="601" refid="MRPolyline_8h_1a478fb57ca7cbf29133603b967f1b4706" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1a478fb57ca7cbf29133603b967f1b4706" kindref="member">MR_Polyline3_transform</ref>(<ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
 <codeline lineno="602"><highlight class="normal"></highlight></codeline>
 <codeline lineno="610" refid="MRPolyline_8h_1aa0c4deee1818a0ff8843585a72fff5b3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/><ref refid="MRPolyline_8h_1aa0c4deee1818a0ff8843585a72fff5b3" kindref="member">MR_Polyline3_splitEdge_2</ref>(<ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*newVertPos);</highlight></codeline>
 <codeline lineno="611"><highlight class="normal"></highlight></codeline>
-<codeline lineno="612"><highlight class="normal"></highlight><highlight class="comment">//<sp/>same,<sp/>but<sp/>split<sp/>given<sp/>edge<sp/>on<sp/>two<sp/>equal<sp/>parts</highlight></codeline>
+<codeline lineno="612"><highlight class="normal"></highlight><highlight class="comment">//<sp/>same,<sp/>but<sp/>split<sp/>given<sp/>edge<sp/>on<sp/>two<sp/>equal<sp/>parts</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="615" refid="MRPolyline_8h_1a3fc3251f90f40f7663761fb2a71640e4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/><ref refid="MRPolyline_8h_1a3fc3251f90f40f7663761fb2a71640e4" kindref="member">MR_Polyline3_splitEdge_1</ref>(<ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e);</highlight></codeline>
 <codeline lineno="616"><highlight class="normal"></highlight></codeline>
 <codeline lineno="620" refid="MRPolyline_8h_1ab0185a6ece13e20239173b2b01cf10eb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1ab0185a6ece13e20239173b2b01cf10eb" kindref="member">MR_Polyline3_invalidateCaches</ref>(<ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*_this);</highlight></codeline>

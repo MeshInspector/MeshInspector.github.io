@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1SymMatrix3i64" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::SymMatrix3i64</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -691,23 +691,6 @@ Aliases:  Vector3_long_SymMatrixType
 symmetric 3x3 matrix
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.SymMatrix3i64</label>
-        <link refid="classmrmeshpy_1_1SymMatrix3i64"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_xx</edgelabel>
-          <edgelabel>_offsetof_xy</edgelabel>
-          <edgelabel>_offsetof_xz</edgelabel>
-          <edgelabel>_offsetof_yy</edgelabel>
-          <edgelabel>_offsetof_yz</edgelabel>
-          <edgelabel>_offsetof_zz</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55134" bodyend="55250"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1SymMatrix3i64_1a4d40ff845d673d996f801ed0d8e154ec" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix3i64</scope><name>__iadd__</name></member>

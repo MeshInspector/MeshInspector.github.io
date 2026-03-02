@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ComputeSweptVolumeParameters" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ComputeSweptVolumeParameters</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -429,23 +429,6 @@ TODO: replace with tolerance and make the voxel size implementation-specific
 Parameters for computeSweptVolume* functions
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.ComputeSweptVolumeParameters</label>
-        <link refid="classmrmeshpy_1_1ComputeSweptVolumeParameters"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_cb</edgelabel>
-          <edgelabel>_offsetof_memoryLimit</edgelabel>
-          <edgelabel>_offsetof_path</edgelabel>
-          <edgelabel>_offsetof_toolMesh</edgelabel>
-          <edgelabel>_offsetof_toolSpec</edgelabel>
-          <edgelabel>_offsetof_voxelSize</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10187" bodyend="10260"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ComputeSweptVolumeParameters_1a3e188a2b8b81d0288c530d240fc9e2f7" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSweptVolumeParameters</scope><name>__init__</name></member>

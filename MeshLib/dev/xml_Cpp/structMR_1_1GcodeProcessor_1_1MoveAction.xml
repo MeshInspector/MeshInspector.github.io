@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1GcodeProcessor_1_1MoveAction" kind="struct" language="C++" prot="public">
     <compoundname>MR::GcodeProcessor::MoveAction</compoundname>
-    <includes refid="MRGcodeProcessor_8h" local="no">MRGcodeProcessor.h</includes>
+    <includes refid="MRGcodeProcessor_8h" local="no">MRMesh/MRGcodeProcessor.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gafb16d620b32465be3a1f27d50c1640d3" kind="variable"><name>action</name></member>
       <member refid="group__GeneralGroup_1ga3d704b08012c57fec93ba58808ee3421" kind="variable"><name>toolDirection</name></member>
@@ -31,7 +31,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="34" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="35" bodyend="43"/>
+    <location file="MRMesh/MRGcodeProcessor.h" line="34" column="5" bodyfile="MRMesh/MRGcodeProcessor.h" bodystart="35" bodyend="43"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gafb16d620b32465be3a1f27d50c1640d3" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor::MoveAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga084a7529a3f6202733cdf15bef0d70df" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor::MoveAction</scope><name>feedrate</name></member>

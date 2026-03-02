@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1SaveSettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::SaveSettings</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions" prot="public" virt="non-virtual">mrmeshpy.MeshSave.CtmSaveOptions</derivedcompoundref>
@@ -193,12 +193,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SaveSettings.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a5ef505678bcb058a3c69c56d2bb7fbe9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6a05a60b063022eb996f7cceaceae0b2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6ea83972177ee91e99bc99f8b409fc7f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1a02afb32dcac4a6e7d256ad0879f405d9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1ada887856388e6bf689de31100257cafb">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1a4ffcd52737add347297dbea45059563a">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -275,12 +269,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SaveSettings.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a5ef505678bcb058a3c69c56d2bb7fbe9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6a05a60b063022eb996f7cceaceae0b2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6ea83972177ee91e99bc99f8b409fc7f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1a02afb32dcac4a6e7d256ad0879f405d9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1ada887856388e6bf689de31100257cafb">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1a4ffcd52737add347297dbea45059563a">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -299,12 +287,6 @@
         <argsstring>(self, SaveSettings arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SaveSettings.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a5ef505678bcb058a3c69c56d2bb7fbe9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6a05a60b063022eb996f7cceaceae0b2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6ea83972177ee91e99bc99f8b409fc7f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1a02afb32dcac4a6e7d256ad0879f405d9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1ada887856388e6bf689de31100257cafb">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1a4ffcd52737add347297dbea45059563a">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -329,12 +311,6 @@
         <argsstring>(self, bool onlyValidPoints, bool packPrimitives, VertColors colors, std_vector_Color primitiveColors, VertCoords2 uvMap, bool saveTriCornerUVCoords, MeshTexture texture, str materialName, AffineXf3d xf, std_optional_LengthUnit lengthUnit, std_optional_Color solidColor, func_bool_from_float progress)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SaveSettings.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a5ef505678bcb058a3c69c56d2bb7fbe9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6a05a60b063022eb996f7cceaceae0b2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6ea83972177ee91e99bc99f8b409fc7f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1a02afb32dcac4a6e7d256ad0879f405d9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1ada887856388e6bf689de31100257cafb">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1a4ffcd52737add347297dbea45059563a">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -934,28 +910,6 @@ determines how to save points/lines/mesh
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.SaveSettings</label>
-        <link refid="classmrmeshpy_1_1SaveSettings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_colors</edgelabel>
-          <edgelabel>_offsetof_lengthUnit</edgelabel>
-          <edgelabel>_offsetof_materialName</edgelabel>
-          <edgelabel>_offsetof_onlyValidPoints</edgelabel>
-          <edgelabel>_offsetof_packPrimitives</edgelabel>
-          <edgelabel>_offsetof_primitiveColors</edgelabel>
-          <edgelabel>_offsetof_progress</edgelabel>
-          <edgelabel>_offsetof_saveTriCornerUVCoords</edgelabel>
-          <edgelabel>_offsetof_solidColor</edgelabel>
-          <edgelabel>_offsetof_texture</edgelabel>
-          <edgelabel>...</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50866" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50866" bodyend="51010"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1SaveSettings_1a2bae2329a740850835ae124f54bb6d68" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>__init__</name></member>

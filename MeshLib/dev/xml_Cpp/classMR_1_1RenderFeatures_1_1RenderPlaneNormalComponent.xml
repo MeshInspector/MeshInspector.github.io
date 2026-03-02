@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderFeatures::RenderPlaneNormalComponent</compoundname>
     <basecompoundref refid="classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent" prot="public" virt="non-virtual">MR::RenderFeatures::RenderFeatureMeshComponent&lt; false &gt;</basecompoundref>
-    <includes refid="MRRenderFeatureObjects_8h" local="no">MRRenderFeatureObjects.h</includes>
+    <includes refid="MRRenderFeatureObjects_8h" local="no">MRViewer/MRRenderFeatureObjects.h</includes>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1a5494e8c35b32f9719cee3dfb17322ab9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -21,37 +21,32 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="218" column="6"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="218" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1adff765d25d052a22403a15ce5231a41b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1adff765d25d052a22403a15ce5231a41b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool MR::RenderFeatures::RenderPlaneNormalComponent::render</definition>
         <argsstring>(const ModelRenderParams &amp;params) override</argsstring>
         <name>render</name>
         <qualifiedname>MR::RenderFeatures::RenderPlaneNormalComponent::render</qualifiedname>
-        <reimplements refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1aac7d0eb9a73f28680925b75d122b66a4">render</reimplements>
         <param>
           <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
           <declname>params</declname>
         </param>
         <briefdescription>
-<para>Returns true if something was rendered, or false if nothing to render. </para>
         </briefdescription>
         <detaileddescription>
-<para>These functions do: 1) bind data 2) pass shaders arguments 3) draw data</para>
-<para>Those dummy definitions remove undefined references in <computeroutput><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator</ref></computeroutput> when it calls non-overridden pure virtual methods. We could check in <computeroutput><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator</ref></computeroutput> if they&apos;re overridden or not, but it&apos;s easier to just define them. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="220" column="11"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="220" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1a2d5ce382c91aad5ff7d42827e3aa8c13" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1a2d5ce382c91aad5ff7d42827e3aa8c13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::RenderFeatures::RenderPlaneNormalComponent::renderPicker</definition>
         <argsstring>(const ModelBaseRenderParams &amp;params, unsigned geomId) override</argsstring>
         <name>renderPicker</name>
         <qualifiedname>MR::RenderFeatures::RenderPlaneNormalComponent::renderPicker</qualifiedname>
-        <reimplements refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1a7223265f55a1d01543ece7518bc011ff">renderPicker</reimplements>
         <param>
           <type>const <ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref> &amp;</type>
           <declname>params</declname>
@@ -66,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="221" column="11"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="221" column="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -75,10 +70,6 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="7">
-        <label>MR::IRenderObject</label>
-        <link refid="classMR_1_1IRenderObject"/>
-      </node>
       <node id="3">
         <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectMesh, RenderMeshObject &gt;</label>
         <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
@@ -97,14 +88,8 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="6">
-        <label>MR::RenderMeshObject</label>
-        <link refid="classMR_1_1RenderMeshObject"/>
-        <childnode refid="7" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="4">
-        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt;, RenderMeshObject &gt;</label>
+        <label>MR::RenderWrapObject::Wrapper&lt; ObjectType, RenderObjectType &gt;</label>
         <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
         <childnode refid="5" relation="public-inheritance">
         </childnode>
@@ -112,123 +97,14 @@
         </childnode>
       </node>
       <node id="5">
-        <label>MR::RenderWrapObject::detail::SubobjectStorage&lt; WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt; &gt;</label>
+        <label>MR::RenderWrapObject::detail::SubobjectStorage&lt; ObjectType &gt;</label>
         <link refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage"/>
+      </node>
+      <node id="6">
+        <label>RenderObjectType</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="34">
-        <label>MR::GlBuffer</label>
-        <link refid="classMR_1_1GlBuffer"/>
-      </node>
-      <node id="36">
-        <label>MR::GlTexture</label>
-        <link refid="classMR_1_1GlTexture"/>
-      </node>
-      <node id="35">
-        <label>MR::GlTexture2</label>
-        <link refid="classMR_1_1GlTexture2"/>
-        <childnode refid="36" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="37">
-        <label>MR::GlTexture2DArray</label>
-        <link refid="classMR_1_1GlTexture2DArray"/>
-        <childnode refid="36" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="33">
-        <label>MR::IRenderObject</label>
-        <link refid="classMR_1_1IRenderObject"/>
-      </node>
-      <node id="27">
-        <label>MR::Image</label>
-        <link refid="structMR_1_1Image"/>
-      </node>
-      <node id="26">
-        <label>MR::MeshTexture</label>
-        <link refid="structMR_1_1MeshTexture"/>
-        <childnode refid="27" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MR::Object</label>
-        <link refid="classMR_1_1Object"/>
-        <childnode refid="13" relation="public-inheritance">
-        </childnode>
-        <childnode refid="14" relation="usage">
-          <edgelabel>worldXfChangedSignal</edgelabel>
-        </childnode>
-        <childnode refid="16" relation="usage">
-          <edgelabel>xf_</edgelabel>
-        </childnode>
-        <childnode refid="17" relation="usage">
-          <edgelabel>visibilityMask_</edgelabel>
-        </childnode>
-      </node>
-      <node id="13">
-        <label>MR::ObjectChildrenHolder</label>
-        <link refid="classMR_1_1ObjectChildrenHolder"/>
-        <childnode refid="13" relation="usage">
-          <edgelabel>parent_</edgelabel>
-        </childnode>
-      </node>
-      <node id="9">
-        <label>MR::ObjectMesh</label>
-        <link refid="classMR_1_1ObjectMesh"/>
-        <childnode refid="10" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="24">
-        <label>MR::ObjectMeshData</label>
-        <link refid="structMR_1_1ObjectMeshData"/>
-      </node>
-      <node id="10">
-        <label>MR::ObjectMeshHolder</label>
-        <link refid="classMR_1_1ObjectMeshHolder"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-        <childnode refid="14" relation="usage">
-          <edgelabel>creasesChangedSignal</edgelabel>
-          <edgelabel>edgeSelectionChangedSignal</edgelabel>
-          <edgelabel>faceSelectionChangedSignal</edgelabel>
-        </childnode>
-        <childnode refid="22" relation="usage">
-          <edgelabel>meshChangedSignal</edgelabel>
-        </childnode>
-        <childnode refid="24" relation="usage">
-          <edgelabel>data_</edgelabel>
-        </childnode>
-        <childnode refid="25" relation="usage">
-          <edgelabel>textures_</edgelabel>
-        </childnode>
-        <childnode refid="26" relation="usage">
-          <edgelabel>ancillaryTexture_</edgelabel>
-        </childnode>
-        <childnode refid="28" relation="usage">
-          <edgelabel>worldBox_</edgelabel>
-        </childnode>
-        <childnode refid="17" relation="usage">
-          <edgelabel>flatShading_</edgelabel>
-          <edgelabel>onlyOddFragments_</edgelabel>
-          <edgelabel>polygonOffset_</edgelabel>
-          <edgelabel>shadingEnabled_</edgelabel>
-          <edgelabel>showBordersHighlight_</edgelabel>
-          <edgelabel>showEdges_</edgelabel>
-          <edgelabel>showFaces_</edgelabel>
-          <edgelabel>showPoints_</edgelabel>
-          <edgelabel>showSelectedEdges_</edgelabel>
-          <edgelabel>showSelectedFaces_</edgelabel>
-          <edgelabel>...</edgelabel>
-        </childnode>
-        <childnode refid="20" relation="usage">
-          <edgelabel>bordersColor_</edgelabel>
-          <edgelabel>edgeSelectionColor_</edgelabel>
-          <edgelabel>edgesColor_</edgelabel>
-          <edgelabel>faceSelectionColor_</edgelabel>
-          <edgelabel>pointsColor_</edgelabel>
-        </childnode>
-      </node>
       <node id="3">
         <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectMesh, RenderMeshObject &gt;</label>
         <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
@@ -247,256 +123,39 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="6">
-        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
-        <childnode refid="7" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, ObjectMesh &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
-        <childnode refid="8" relation="public-inheritance">
-        </childnode>
-        <childnode refid="29" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="8">
-        <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectMesh &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4"/>
-        <childnode refid="9" relation="public-inheritance">
-        </childnode>
-        <childnode refid="29" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="32">
-        <label>MR::RenderMeshObject</label>
-        <link refid="classMR_1_1RenderMeshObject"/>
-        <childnode refid="33" relation="public-inheritance">
-        </childnode>
-        <childnode refid="10" relation="usage">
-          <edgelabel>objMesh_</edgelabel>
-        </childnode>
-        <childnode refid="34" relation="usage">
-          <edgelabel>borderBuffer_</edgelabel>
-          <edgelabel>facesIndicesBuffer_</edgelabel>
-          <edgelabel>pointValidBuffer_</edgelabel>
-          <edgelabel>selectedEdgesBuffer_</edgelabel>
-          <edgelabel>vertColorsBuffer_</edgelabel>
-          <edgelabel>vertNormalsBuffer_</edgelabel>
-          <edgelabel>vertPosBuffer_</edgelabel>
-          <edgelabel>vertUVBuffer_</edgelabel>
-        </childnode>
-        <childnode refid="35" relation="usage">
-          <edgelabel>borderTexture_</edgelabel>
-          <edgelabel>edgesTexture_</edgelabel>
-          <edgelabel>emptyLinesColorTexture_</edgelabel>
-          <edgelabel>emptyScnLengthColorTexture_</edgelabel>
-          <edgelabel>emptyVertsColorTexture_</edgelabel>
-          <edgelabel>faceColorsTex_</edgelabel>
-          <edgelabel>faceSelectionTex_</edgelabel>
-          <edgelabel>facesNormalsTex_</edgelabel>
-          <edgelabel>selEdgesTexture_</edgelabel>
-          <edgelabel>texturePerFace_</edgelabel>
-          <edgelabel>...</edgelabel>
-        </childnode>
-        <childnode refid="37" relation="usage">
-          <edgelabel>textureArray_</edgelabel>
-        </childnode>
-      </node>
-      <node id="29">
-        <label>MR::RenderWrapObject::BasicWrapperTarget&lt; FeatureObject &gt;</label>
-        <link refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget"/>
-        <childnode refid="30" relation="public-inheritance">
-        </childnode>
-        <childnode refid="31" relation="usage">
-          <edgelabel>target_</edgelabel>
-        </childnode>
-      </node>
       <node id="4">
-        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt;, RenderMeshObject &gt;</label>
+        <label>MR::RenderWrapObject::Wrapper&lt; ObjectType, RenderObjectType &gt;</label>
         <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
         <childnode refid="5" relation="public-inheritance">
         </childnode>
-        <childnode refid="32" relation="public-inheritance">
+        <childnode refid="7" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="30">
-        <label>MR::RenderWrapObject::detail::BasicWrapperTargetUntyped</label>
-        <link refid="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped"/>
-      </node>
       <node id="5">
-        <label>MR::RenderWrapObject::detail::SubobjectStorage&lt; WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt; &gt;</label>
+        <label>MR::RenderWrapObject::detail::SubobjectStorage&lt; ObjectType &gt;</label>
         <link refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage"/>
         <childnode refid="6" relation="usage">
           <edgelabel>subobject</edgelabel>
         </childnode>
       </node>
-      <node id="14">
-        <label>MR::Signal&lt; void()&gt;</label>
-        <link refid="structMR_1_1Signal"/>
-        <childnode refid="15" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="22">
-        <label>MR::Signal&lt; void(uint32_t mask)&gt;</label>
-        <link refid="structMR_1_1Signal"/>
-        <childnode refid="23" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="18">
-        <label>MR::UniquePtr&lt; MR::IRenderObject &gt;</label>
-        <link refid="structMR_1_1UniquePtr"/>
-        <childnode refid="19" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="25">
-        <label>MR::Vector&lt; MR::MeshTexture, TextureId &gt;</label>
-        <link refid="classMR_1_1Vector"/>
-      </node>
-      <node id="17">
-        <label>MR::ViewportMask</label>
-        <link refid="classMR_1_1ViewportMask"/>
-      </node>
-      <node id="16">
-        <label>MR::ViewportProperty&lt; AffineXf3f &gt;</label>
-        <link refid="classMR_1_1ViewportProperty"/>
-      </node>
-      <node id="20">
-        <label>MR::ViewportProperty&lt; MR::Color &gt;</label>
-        <link refid="classMR_1_1ViewportProperty"/>
-      </node>
-      <node id="28">
-        <label>MR::ViewportProperty&lt; MR::XfBasedCache&lt; Box3f &gt; &gt;</label>
-        <link refid="classMR_1_1ViewportProperty"/>
-      </node>
-      <node id="21">
-        <label>MR::ViewportProperty&lt; uint8_t &gt;</label>
-        <link refid="classMR_1_1ViewportProperty"/>
-      </node>
-      <node id="11">
-        <label>MR::VisualObject</label>
-        <link refid="classMR_1_1VisualObject"/>
-        <childnode refid="12" relation="public-inheritance">
-        </childnode>
-        <childnode refid="18" relation="usage">
-          <edgelabel>renderObj_</edgelabel>
-        </childnode>
-        <childnode refid="17" relation="usage">
-          <edgelabel>clipByPlane_</edgelabel>
-          <edgelabel>depthTest_</edgelabel>
-          <edgelabel>invertNormals_</edgelabel>
-          <edgelabel>pickable_</edgelabel>
-          <edgelabel>showName_</edgelabel>
-        </childnode>
-        <childnode refid="20" relation="usage">
-          <edgelabel>backFacesColor_</edgelabel>
-          <edgelabel>selectedColor_</edgelabel>
-          <edgelabel>unselectedColor_</edgelabel>
-        </childnode>
-        <childnode refid="21" relation="usage">
-          <edgelabel>globalAlpha_</edgelabel>
-        </childnode>
-      </node>
-      <node id="31">
+      <node id="6">
         <label>ObjectType</label>
       </node>
-      <node id="15">
-        <label>boost::signals2::signal&lt; void() &gt;</label>
-      </node>
-      <node id="23">
-        <label>boost::signals2::signal&lt; void(uint32_t mask) &gt;</label>
-      </node>
-      <node id="19">
-        <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
+      <node id="7">
+        <label>RenderObjectType</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="215" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="216" bodyend="222"/>
+    <location file="MRViewer/MRRenderFeatureObjects.h" line="215" column="1" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="216" bodyend="222"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1gac0ae47ac4e35685e9316f59f65cb2d73" prot="protected" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>bindBorders_</name></member>
-      <member refid="group__GeneralGroup_1gae9124f2674fd56f36b40374ac6047886" prot="protected" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>bindEdges_</name></member>
-      <member refid="group__GeneralGroup_1ga3443c3ce43ec684658b96168d21b95f0" prot="protected" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>bindEmptyTextures_</name></member>
-      <member refid="group__GeneralGroup_1ga1b704e9436e6f1198f255e9a44b0409c" prot="protected" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>bindMesh_</name></member>
-      <member refid="group__GeneralGroup_1ga9e690d1713ed9dd360ee364177864b1e" prot="protected" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>bindMeshPicker_</name></member>
-      <member refid="group__GeneralGroup_1ga9aef49f7afeb3778fdbf8294cc66f0f2" prot="protected" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>bindPoints_</name></member>
-      <member refid="group__GeneralGroup_1ga82a34cc5882dee9f365d2e1a189aca60" prot="protected" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>bindSelectedEdges_</name></member>
-      <member refid="group__GeneralGroup_1ga1a9f41cc9d68f81801374e9f18c6b195" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>borderArrayObjId_</name></member>
-      <member refid="group__GeneralGroup_1ga4dd4c30b4f09367586d6f0b6e520e85c" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>borderBuffer_</name></member>
-      <member refid="group__GeneralGroup_1gab85b5749a8074358f89fff480448ee5d" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>bordersSize_</name></member>
-      <member refid="group__GeneralGroup_1gac5dda63e700cfe2742a7b9b1683649e6" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>borderTexture_</name></member>
-      <member refid="group__GeneralGroup_1ga8158ae77e4c2aea465be3cd08cd64778" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>cornerMode_</name></member>
-      <member refid="group__GeneralGroup_1ga9497665a3752c1392372f7259db26d4a" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>dirty_</name></member>
-      <member refid="group__GeneralGroup_1ga59ecce80e0a471b2f17c0b6f9d9582e8" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>dirtyEdges_</name></member>
-      <member refid="group__GeneralGroup_1ga26ce599435acc57f19832bae104fde43" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>dirtyPointPos_</name></member>
-      <member refid="group__GeneralGroup_1ga2c7be6dd454457d12e71d4d07c70450d" prot="protected" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>drawMesh_</name></member>
-      <member refid="group__GeneralGroup_1ga12b1a94d2b98548e47229d4213609b1f" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>edgesArrayObjId_</name></member>
-      <member refid="group__GeneralGroup_1ga888fbd0e8bad27a4ff46ec6c1e1680e5" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>edgeSize_</name></member>
-      <member refid="group__GeneralGroup_1gadec18a7be82779db2756036737e2119e" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>edgesTexture_</name></member>
-      <member refid="group__GeneralGroup_1ga363bdae2a388d10c4408213932092acc" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>emptyLinesColorTexture_</name></member>
-      <member refid="group__GeneralGroup_1ga138e52649aef511c1435cf3ab8d36518" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>emptyScnLengthColorTexture_</name></member>
-      <member refid="group__GeneralGroup_1ga1823d62e4541feb96b41da5e82b73db4" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>emptyVertsColorTexture_</name></member>
-      <member refid="group__GeneralGroup_1gaf99f6b1103fb8791d9d8a2fbd0275213" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>faceColorsTex_</name></member>
-      <member refid="group__GeneralGroup_1ga7c197e5a47c0adda4d0e19fe67bc8ad6" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>faceIndicesSize_</name></member>
-      <member refid="group__GeneralGroup_1gaf277e985bb5c295945722ce8b6dbef7f" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>faceNormalsTextureSize_</name></member>
-      <member refid="group__GeneralGroup_1ga5c61b0a36314bb6fd4e2c60cfc2f8447" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>faceSelectionTex_</name></member>
-      <member refid="group__GeneralGroup_1gaf258359eadbf7873075ce2773a51e7aa" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>faceSelectionTextureSize_</name></member>
-      <member refid="group__GeneralGroup_1ga066918630b8d458a0fd7897e3230084e" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>facesIndicesBuffer_</name></member>
-      <member refid="group__GeneralGroup_1ga5931d691ce4183252190a5357ead412a" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>facesNormalsTex_</name></member>
-      <member refid="group__GeneralGroup_1gaacf1b8abb709084c42b851414ea1bea7" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>forceBindAll</name></member>
-      <member refid="group__GeneralGroup_1gaa61d4804ea530c171784a8820ee93de4" prot="protected" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>freeBuffers_</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent_1a8082ee9bd4f7d6aa6c8caa39ac0d2e2e" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>getMesh</name></member>
-      <member refid="group__GeneralGroup_1gaf8ad074b0a3a81ae862e36e8be5ce4c4" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>glBytes</name></member>
-      <member refid="group__GeneralGroup_1ga3228435a7c18da1a7bf0ddd0568a2102" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>GLuint</name></member>
-      <member refid="group__GeneralGroup_1gaa12bffc05afefbe768615e58b556ba07" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>heapBytes</name></member>
-      <member refid="group__GeneralGroup_1gae5f29e3a95075b4390fc5ae60fc6036a" prot="protected" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>initBuffers_</name></member>
-      <member refid="group__GeneralGroup_1gac6ecdeab348cc7425b874cffff5e354b" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>loadFaceIndicesBuffer_</name></member>
-      <member refid="group__GeneralGroup_1ga55205e837c0897b8bf7d275f36678a91" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>loadFaceNormalsTextureBuffer_</name></member>
-      <member refid="group__GeneralGroup_1ga33312103a1d59bc9b8cb9209952241e4" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>loadFaceSelectionTextureBuffer_</name></member>
-      <member refid="group__GeneralGroup_1gad6b0e58ee8ae45971bf5e9e9ae49679d" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>loadPointValidIndicesBuffer_</name></member>
-      <member refid="group__GeneralGroup_1gab324b2b495443dabe8a31cdd519184af" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>loadTexturePerFaceTextureBuffer_</name></member>
-      <member refid="group__GeneralGroup_1gaff9381c0a788f2d2f7bbc0dd802aa0f9" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>loadVertColorsBuffer_</name></member>
-      <member refid="group__GeneralGroup_1ga664669d39975772b77f960029a05fdb8" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>loadVertNormalsBuffer_</name></member>
-      <member refid="group__GeneralGroup_1ga9a53a8110b6d1f7c8bd45088d7830430" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>loadVertPosBuffer_</name></member>
-      <member refid="group__GeneralGroup_1ga13dd686d9ded860077a6bd28248ceb1c" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>loadVertUVBuffer_</name></member>
-      <member refid="group__GeneralGroup_1gaa84f76f4e99e7839a00f31fd4bae51d4" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>maxTexSize_</name></member>
-      <member refid="group__GeneralGroup_1ga3c74e85a422c5f8e54c993f9fcf43116" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>meshArrayObjId_</name></member>
-      <member refid="group__GeneralGroup_1gaee44a84c6224d63a0c86043eac07a7fd" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>meshPickerArrayObjId_</name></member>
-      <member refid="group__GeneralGroup_1ga3bbf015a92d7acdcb4f134a3af214b75" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>objMesh_</name></member>
       <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ab3a0e53c8d180bbb25650e0ac1544abf" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>operator=</name></member>
-      <member refid="group__GeneralGroup_1gae21f610e2d016727daa229121b9d6b19" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>pointsArrayObjId_</name></member>
-      <member refid="group__GeneralGroup_1gadbbb4589a356ef6e74b8ec06392ff7ca" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>pointSize_</name></member>
-      <member refid="group__GeneralGroup_1gabd4120926a03ab2bfdef3f597e01914a" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>pointValidBuffer_</name></member>
-      <member refid="group__GeneralGroup_1ga8db2965251810b5f46ee770ee8e8c895" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>pointValidSize_</name></member>
-      <member refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1adff765d25d052a22403a15ce5231a41b" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>render</name></member>
-      <member refid="group__GeneralGroup_1gafc117a9ecbdf0dd6793d43b12f1d659d" prot="protected" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>renderEdges_</name></member>
-      <member refid="group__GeneralGroup_1ga565d7aa281f3b8cf298a5b13545627a1" prot="protected" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>renderMeshEdges_</name></member>
-      <member refid="group__GeneralGroup_1ga6dd7b98f3fe72363c9090683e86c5371" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>RenderMeshObject</name></member>
-      <member refid="group__GeneralGroup_1gaf4b14f391596ddd8466f5296ec9966a5" prot="protected" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>renderMeshVerts_</name></member>
-      <member refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1a2d5ce382c91aad5ff7d42827e3aa8c13" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>renderPicker</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1adff765d25d052a22403a15ce5231a41b" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>render</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1a2d5ce382c91aad5ff7d42827e3aa8c13" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>renderPicker</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1a5494e8c35b32f9719cee3dfb17322ab9" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>RenderPlaneNormalComponent</name></member>
-      <member refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>renderUi</name></member>
-      <member refid="group__GeneralGroup_1gaaca1c8b6779387b3ba8617dec0b4c336" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>selectedEdgesArrayObjId_</name></member>
-      <member refid="group__GeneralGroup_1ga7aba022c31f49b9f2bc3a2cc1adb5247" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>selectedEdgesBuffer_</name></member>
-      <member refid="group__GeneralGroup_1gab2808bb9f682b7671b601fa9ba3348c4" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>selEdgeSize_</name></member>
-      <member refid="group__GeneralGroup_1ga0c5f65d0f55c35a44e6f210b7e3d5144" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>selEdgesTexture_</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1afbeda6ef29a8b84bed77e748228e20e7" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>shouldRender</name></member>
       <member refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage_1aefbb8b64a400a9acc5e776111c7ae297" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>subobject</name></member>
-      <member refid="group__GeneralGroup_1ga8cd847a579adbca9c44e43ea25fe0166" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>textureArray_</name></member>
-      <member refid="group__GeneralGroup_1ga7ca63f2d3385ab5f38ca500ab1d468f7" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>texturePerFace_</name></member>
-      <member refid="group__GeneralGroup_1ga6fb6b9a55fd521017c1eea063af7225a" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>texturePerFaceSize_</name></member>
-      <member refid="group__GeneralGroup_1ga0199cd46695444c0d8fb3596c82c23fb" prot="protected" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>update_</name></member>
-      <member refid="group__GeneralGroup_1ga7be65ffb643076059379c9333885a89c" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>vertColorsBuffer_</name></member>
-      <member refid="group__GeneralGroup_1ga885637207dfa4ad9a32e22b1de0fc18a" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>vertColorsSize_</name></member>
-      <member refid="group__GeneralGroup_1ga7392ba05df67ae19e9e6af50c94ebe33" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>vertNormalsBuffer_</name></member>
-      <member refid="group__GeneralGroup_1ga8e4c0f111508fd26331871247ad7e055" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>vertNormalsSize_</name></member>
-      <member refid="group__GeneralGroup_1ga8f3dc8d13b36124134b86d4e81519767" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>vertPosBuffer_</name></member>
-      <member refid="group__GeneralGroup_1gad8c179bd9f2914459146986ba590f4c2" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>vertPosSize_</name></member>
-      <member refid="group__GeneralGroup_1ga08d8c036ef75bf130d97cbcc7992b943" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>vertUVBuffer_</name></member>
-      <member refid="group__GeneralGroup_1ga36832676f48c87a67ff5782e57a7bd66" prot="protected" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>vertUVSize_</name></member>
       <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1a1513e9da308ecba00c67324e0c0cf39b" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>Wrapper</name></member>
       <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ad13b52643d115db231f4501231b97765" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>Wrapper</name></member>
-      <member refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>~IRenderObject</name></member>
-      <member refid="group__GeneralGroup_1gae5256014772a185fdf85babeba39fbda" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderPlaneNormalComponent</scope><name>~RenderMeshObject</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

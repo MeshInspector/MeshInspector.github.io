@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRUIRectAllocator_8h" kind="file" language="C++">
     <compoundname>MRUIRectAllocator.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -184,7 +184,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRUIRectAllocator.h</label>
+        <label>MRViewer/MRUIRectAllocator.h</label>
         <link refid="MRUIRectAllocator_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -283,7 +283,7 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1UI" kindref="compound">MR::UI</ref></highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="classMR_1_1UI_1_1RectAllocator" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1UI_1_1RectAllocator" kindref="compound">RectAllocator</ref></highlight></codeline>
+<codeline lineno="18" refid="classMR_1_1UI_1_1RectAllocator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1UI_1_1RectAllocator_1a14c55972c4fd972771c486cb49eab847" kindref="member">RectAllocator</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="21" refid="classMR_1_1UI_1_1RectAllocator_1a14c55972c4fd972771c486cb49eab847" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="classMR_1_1UI_1_1RectAllocator_1a14c55972c4fd972771c486cb49eab847" kindref="member">RectAllocator</ref>();</highlight></codeline>
@@ -321,7 +321,7 @@
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;CoordsToVisit&gt;<sp/>coordsToVisitHeap;</highlight></codeline>
 <codeline lineno="65"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="classMR_1_1UI_1_1WindowRectAllocator" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1UI_1_1WindowRectAllocator" kindref="compound">WindowRectAllocator</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1UI_1_1RectAllocator" kindref="compound">RectAllocator</ref></highlight></codeline>
+<codeline lineno="68" refid="classMR_1_1UI_1_1WindowRectAllocator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1UI_1_1WindowRectAllocator" kindref="compound">WindowRectAllocator</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1UI_1_1RectAllocator_1a14c55972c4fd972771c486cb49eab847" kindref="member">RectAllocator</ref></highlight></codeline>
 <codeline lineno="69"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="76" refid="classMR_1_1UI_1_1WindowRectAllocator_1a30854e8a41e196b32c663aeb21aaabeb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1UI_1_1WindowRectAllocator_1a30854e8a41e196b32c663aeb21aaabeb" kindref="member">setFreeNextWindowPos</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>expectedWindowName,<sp/>ImVec2<sp/>defaultPos,<sp/>ImGuiCond<sp/>cond<sp/>=<sp/>ImGuiCond_Appearing,<sp/>ImVec2<sp/>pivot<sp/>=<sp/>ImVec2()<sp/>);</highlight></codeline>
@@ -330,7 +330,7 @@
 <codeline lineno="80"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>AllocationState</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" kindref="member">None</ref>,<sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>None,<sp/></highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Requested,<sp/></highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WaitAppearing,<sp/></highlight></codeline>
 <codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Set<sp/></highlight></codeline>
@@ -344,7 +344,7 @@
 <codeline lineno="94"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="95" refid="namespaceMR_1_1UI_1a1b2da483d87fc6d65243ab1e365a1a89" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/><ref refid="classMR_1_1UI_1_1WindowRectAllocator" kindref="compound">WindowRectAllocator</ref>&amp;<sp/><ref refid="namespaceMR_1_1UI_1a1b2da483d87fc6d65243ab1e365a1a89" kindref="member">getDefaultWindowRectAllocator</ref>();</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="classMR_1_1UI_1_1LabelRectAllocator" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1UI_1_1LabelRectAllocator" kindref="compound">LabelRectAllocator</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1UI_1_1RectAllocator" kindref="compound">RectAllocator</ref></highlight></codeline>
+<codeline lineno="98" refid="classMR_1_1UI_1_1LabelRectAllocator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1UI_1_1LabelRectAllocator" kindref="compound">LabelRectAllocator</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1UI_1_1RectAllocator_1a14c55972c4fd972771c486cb49eab847" kindref="member">RectAllocator</ref></highlight></codeline>
 <codeline lineno="99"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="105" refid="classMR_1_1UI_1_1LabelRectAllocator_1a7d54e243affc2287072f55466195684d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>ImVec2<sp/><ref refid="classMR_1_1UI_1_1LabelRectAllocator_1a7d54e243affc2287072f55466195684d" kindref="member">createRect</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewportId,<sp/>std::string<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>ImVec2<sp/>pos,<sp/>ImVec2<sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>forceExactPosition<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
@@ -363,6 +363,6 @@
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
 <codeline lineno="120"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h"/>
+    <location file="MRViewer/MRUIRectAllocator.h"/>
   </compounddef>
 </doxygen>

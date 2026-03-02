@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPrecipitationSimulator_8h" kind="file" language="C++">
     <compoundname>MRPrecipitationSimulator.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -93,6 +93,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>graphs representing rain basins on the mesh Generated from class <computeroutput>MR::WatershedGraph</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -235,7 +236,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PrecipitationSimulator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPrecipitationSimulator_8h_1a1b92295242390c95dc53e1966dc86b29" kindref="member">MR_PrecipitationSimulator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -253,7 +254,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PrecipitationSimulator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPrecipitationSimulator_8h_1a1b92295242390c95dc53e1966dc86b29" kindref="member">MR_PrecipitationSimulator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -647,7 +648,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PrecipitationSimulator_SimulationStep</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPrecipitationSimulator_8h_1a3864fee6711538ede04b706cbefc7606" kindref="member">MR_PrecipitationSimulator_SimulationStep</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -665,7 +666,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PrecipitationSimulator_SimulationStep</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPrecipitationSimulator_8h_1a3864fee6711538ede04b706cbefc7606" kindref="member">MR_PrecipitationSimulator_SimulationStep</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -718,14 +719,14 @@
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRPrecipitationSimulator_8h_1ae6d1330898096b0a1fefe35e2564a7f2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRPrecipitationSimulator_8h_1ae6d1330898096b0a1fefe35e2564a7f2" kindref="member">MR_PrecipitationSimulator_Event</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRPrecipitationSimulator_8h_1ae6d1330898096b0a1fefe35e2564a7f2a497f7e4d059b1e50c66a4ca4b04c9961" kindref="member">MR_PrecipitationSimulator_Event_Finish</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRPrecipitationSimulator_8h_1ae6d1330898096b0a1fefe35e2564a7f2a4e4816a65976504e9e2f84900b961e3e" kindref="member">MR_PrecipitationSimulator_Event_BasinFull</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="19" refid="MRPrecipitationSimulator_8h_1ae6d1330898096b0a1fefe35e2564a7f2a497f7e4d059b1e50c66a4ca4b04c9961" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRPrecipitationSimulator_8h_1ae6d1330898096b0a1fefe35e2564a7f2a497f7e4d059b1e50c66a4ca4b04c9961" kindref="member">MR_PrecipitationSimulator_Event_Finish</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="21" refid="MRPrecipitationSimulator_8h_1ae6d1330898096b0a1fefe35e2564a7f2a4e4816a65976504e9e2f84900b961e3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRPrecipitationSimulator_8h_1ae6d1330898096b0a1fefe35e2564a7f2a4e4816a65976504e9e2f84900b961e3e" kindref="member">MR_PrecipitationSimulator_Event_BasinFull</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="23" refid="MRPrecipitationSimulator_8h_1ae6d1330898096b0a1fefe35e2564a7f2a2548769d0ab4b8eb77f9a4e8efb38240" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRPrecipitationSimulator_8h_1ae6d1330898096b0a1fefe35e2564a7f2a2548769d0ab4b8eb77f9a4e8efb38240" kindref="member">MR_PrecipitationSimulator_Event_Merge</ref><sp/>=<sp/>2,</highlight></codeline>
 <codeline lineno="24" refid="MRPrecipitationSimulator_8h_1a430e686771186947114c9de31e5ca51b" refkind="member"><highlight class="normal">}<sp/><ref refid="MRPrecipitationSimulator_8h_1ae6d1330898096b0a1fefe35e2564a7f2" kindref="member">MR_PrecipitationSimulator_Event</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRPrecipitationSimulator_8h_1a3864fee6711538ede04b706cbefc7606" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecipitationSimulator_8h_1a3864fee6711538ede04b706cbefc7606" kindref="member">MR_PrecipitationSimulator_SimulationStep</ref><sp/><ref refid="MRPrecipitationSimulator_8h_1a3864fee6711538ede04b706cbefc7606" kindref="member">MR_PrecipitationSimulator_SimulationStep</ref>;</highlight></codeline>
+<codeline lineno="28" refid="MRPrecipitationSimulator_8h_1a3864fee6711538ede04b706cbefc7606" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecipitationSimulator_8h_1a3864fee6711538ede04b706cbefc7606" kindref="member">MR_PrecipitationSimulator_SimulationStep</ref><sp/><ref refid="MRPrecipitationSimulator_8h_1a3864fee6711538ede04b706cbefc7606" kindref="member">MR_PrecipitationSimulator_SimulationStep</ref>;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRPrecipitationSimulator_8h_1a1b92295242390c95dc53e1966dc86b29" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecipitationSimulator_8h_1a1b92295242390c95dc53e1966dc86b29" kindref="member">MR_PrecipitationSimulator</ref><sp/><ref refid="MRPrecipitationSimulator_8h_1a1b92295242390c95dc53e1966dc86b29" kindref="member">MR_PrecipitationSimulator</ref>;</highlight></codeline>
+<codeline lineno="33" refid="MRPrecipitationSimulator_8h_1a1b92295242390c95dc53e1966dc86b29" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecipitationSimulator_8h_1a1b92295242390c95dc53e1966dc86b29" kindref="member">MR_PrecipitationSimulator</ref><sp/><ref refid="MRPrecipitationSimulator_8h_1a1b92295242390c95dc53e1966dc86b29" kindref="member">MR_PrecipitationSimulator</ref>;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38" refid="MRPrecipitationSimulator_8h_1aad4995001f0f419a3481face0e5e7817" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecipitationSimulator_8h_1a1b92295242390c95dc53e1966dc86b29" kindref="member">MR_PrecipitationSimulator</ref><sp/>*<ref refid="MRPrecipitationSimulator_8h_1aad4995001f0f419a3481face0e5e7817" kindref="member">MR_PrecipitationSimulator_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPrecipitationSimulator_8h_1a1b92295242390c95dc53e1966dc86b29" kindref="member">MR_PrecipitationSimulator</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>

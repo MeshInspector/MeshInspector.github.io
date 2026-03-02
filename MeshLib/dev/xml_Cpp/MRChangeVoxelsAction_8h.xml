@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangeVoxelsAction_8h" kind="file" language="C++">
     <compoundname>MRChangeVoxelsAction.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
@@ -665,7 +665,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRChangeVoxelsAction.h</label>
+        <label>MRVoxels/MRChangeVoxelsAction.h</label>
         <link refid="MRChangeVoxelsAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -875,11 +875,11 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"></codeline>
-<codeline lineno="18" refid="classMR_1_1ChangeIsoAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeIsoAction" kindref="compound">ChangeIsoAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classMR_1_1ChangeIsoAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeIsoAction_1aa092c6c8626b2f08f27c88210a2df02e" kindref="member">ChangeIsoAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="21" refid="classMR_1_1ChangeIsoAction_1a87c8f47bac3f2dd7b904a9d9497f7fb7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectVoxels" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref>;</highlight></codeline>
+<codeline lineno="21" refid="classMR_1_1ChangeIsoAction_1a87c8f47bac3f2dd7b904a9d9497f7fb7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeIsoAction_1a87c8f47bac3f2dd7b904a9d9497f7fb7" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref>;</highlight></codeline>
 <codeline lineno="23" refid="classMR_1_1ChangeIsoAction_1aa092c6c8626b2f08f27c88210a2df02e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeIsoAction_1aa092c6c8626b2f08f27c88210a2df02e" kindref="member">ChangeIsoAction</ref>(<sp/>std::string<sp/><ref refid="classMR_1_1ChangeIsoAction_1a2a614036297c1082f74843b12d425b0f" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectVoxels&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objVoxels_{<sp/>obj<sp/>},</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name_{<sp/>std::move(<sp/><ref refid="classMR_1_1ChangeIsoAction_1a2a614036297c1082f74843b12d425b0f" kindref="member">name</ref><sp/>)<sp/>}</highlight></codeline>
@@ -901,7 +901,7 @@
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>newIso<sp/>=<sp/>objVoxels_-&gt;getIsoValue();</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)objVoxels_-&gt;setIsoValue(<sp/>storedIso_,<sp/>{},<sp/>false<sp/>);<sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)objVoxels_-&gt;setIsoValue(<sp/>storedIso_,<sp/>{},<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);<sp/></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>storedIso_<sp/>=<sp/>newIso;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
@@ -921,13 +921,13 @@
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;</highlight></codeline>
 <codeline lineno="62"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="classMR_1_1ChangeDualMarchingCubesAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeDualMarchingCubesAction" kindref="compound">ChangeDualMarchingCubesAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="65" refid="classMR_1_1ChangeDualMarchingCubesAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1ab2bf3699f09016d7d91c2eb1f588f409" kindref="member">ChangeDualMarchingCubesAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="66"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="68" refid="classMR_1_1ChangeDualMarchingCubesAction_1a498f45f8ee86d18bfdbf4350070595fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectVoxels" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref>;</highlight></codeline>
-<codeline lineno="70" refid="classMR_1_1ChangeDualMarchingCubesAction_1ab2bf3699f09016d7d91c2eb1f588f409" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1ab2bf3699f09016d7d91c2eb1f588f409" kindref="member">ChangeDualMarchingCubesAction</ref>(<sp/>std::string<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectVoxels&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
+<codeline lineno="68" refid="classMR_1_1ChangeDualMarchingCubesAction_1a498f45f8ee86d18bfdbf4350070595fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1a498f45f8ee86d18bfdbf4350070595fb" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref>;</highlight></codeline>
+<codeline lineno="70" refid="classMR_1_1ChangeDualMarchingCubesAction_1ab2bf3699f09016d7d91c2eb1f588f409" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1ab2bf3699f09016d7d91c2eb1f588f409" kindref="member">ChangeDualMarchingCubesAction</ref>(<sp/>std::string<sp/><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1a1b6e4a9af29d8ba1029cf6de93728b31" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectVoxels&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objVoxels_{<sp/>obj<sp/>},</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name_{<sp/>std::move(<sp/>name<sp/>)<sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name_{<sp/>std::move(<sp/><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1a1b6e4a9af29d8ba1029cf6de93728b31" kindref="member">name</ref><sp/>)<sp/>}</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>obj<sp/>)</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -935,10 +935,10 @@
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="classMR_1_1ChangeDualMarchingCubesAction_1a7866227e57c571b51c2d58432dbe6fc8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1a7866227e57c571b51c2d58432dbe6fc8" kindref="member">ChangeDualMarchingCubesAction</ref>(<sp/>std::string<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectVoxels&gt;&amp;<sp/>obj,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>storeDual<sp/>)<sp/>:</highlight></codeline>
+<codeline lineno="81" refid="classMR_1_1ChangeDualMarchingCubesAction_1a7866227e57c571b51c2d58432dbe6fc8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1a7866227e57c571b51c2d58432dbe6fc8" kindref="member">ChangeDualMarchingCubesAction</ref>(<sp/>std::string<sp/><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1a1b6e4a9af29d8ba1029cf6de93728b31" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectVoxels&gt;&amp;<sp/>obj,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>storeDual<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objVoxels_{<sp/>obj<sp/>},</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>storedDual_(<sp/>storeDual<sp/>),</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name_{<sp/>std::move(<sp/>name<sp/>)<sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name_{<sp/>std::move(<sp/><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1a1b6e4a9af29d8ba1029cf6de93728b31" kindref="member">name</ref><sp/>)<sp/>}</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
@@ -973,13 +973,13 @@
 <codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;</highlight></codeline>
 <codeline lineno="117"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="classMR_1_1ChangeActiveBoxAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeActiveBoxAction" kindref="compound">ChangeActiveBoxAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="120" refid="classMR_1_1ChangeActiveBoxAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeActiveBoxAction_1a2caa2474b0606297a2f58c69be0994e4" kindref="member">ChangeActiveBoxAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="121"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="123" refid="classMR_1_1ChangeActiveBoxAction_1a897d1a8335367c58278f3a6da3a6c59f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectVoxels" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref>;</highlight></codeline>
-<codeline lineno="125" refid="classMR_1_1ChangeActiveBoxAction_1a2caa2474b0606297a2f58c69be0994e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeActiveBoxAction_1a2caa2474b0606297a2f58c69be0994e4" kindref="member">ChangeActiveBoxAction</ref>(<sp/>std::string<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectVoxels&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
+<codeline lineno="123" refid="classMR_1_1ChangeActiveBoxAction_1a897d1a8335367c58278f3a6da3a6c59f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeActiveBoxAction_1a897d1a8335367c58278f3a6da3a6c59f" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref>;</highlight></codeline>
+<codeline lineno="125" refid="classMR_1_1ChangeActiveBoxAction_1a2caa2474b0606297a2f58c69be0994e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeActiveBoxAction_1a2caa2474b0606297a2f58c69be0994e4" kindref="member">ChangeActiveBoxAction</ref>(<sp/>std::string<sp/><ref refid="classMR_1_1ChangeActiveBoxAction_1a25b3ab2e8226cb91171a0128777eea34" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectVoxels&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objVoxels_{<sp/>obj<sp/>},</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name_{<sp/>std::move(<sp/>name<sp/>)<sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name_{<sp/>std::move(<sp/><ref refid="classMR_1_1ChangeActiveBoxAction_1a25b3ab2e8226cb91171a0128777eea34" kindref="member">name</ref><sp/>)<sp/>}</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>obj<sp/>)</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -1018,13 +1018,13 @@
 <codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;</highlight></codeline>
 <codeline lineno="164"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167" refid="classMR_1_1ChangeSurfaceAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeSurfaceAction" kindref="compound">ChangeSurfaceAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="167" refid="classMR_1_1ChangeSurfaceAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeSurfaceAction_1a468b0ff0cd862ea414e340dc4bfbd249" kindref="member">ChangeSurfaceAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="168"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="169"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="170" refid="classMR_1_1ChangeSurfaceAction_1aea6aeaec06fc16a8b7114feb5bbe7ca0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectVoxels" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref>;</highlight></codeline>
-<codeline lineno="172" refid="classMR_1_1ChangeSurfaceAction_1a468b0ff0cd862ea414e340dc4bfbd249" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeSurfaceAction_1a468b0ff0cd862ea414e340dc4bfbd249" kindref="member">ChangeSurfaceAction</ref>(<sp/>std::string<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectVoxels&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
+<codeline lineno="170" refid="classMR_1_1ChangeSurfaceAction_1aea6aeaec06fc16a8b7114feb5bbe7ca0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeSurfaceAction_1aea6aeaec06fc16a8b7114feb5bbe7ca0" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref>;</highlight></codeline>
+<codeline lineno="172" refid="classMR_1_1ChangeSurfaceAction_1a468b0ff0cd862ea414e340dc4bfbd249" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeSurfaceAction_1a468b0ff0cd862ea414e340dc4bfbd249" kindref="member">ChangeSurfaceAction</ref>(<sp/>std::string<sp/><ref refid="classMR_1_1ChangeSurfaceAction_1a10e342f28635a448b68e1e8d60a56b54" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectVoxels&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objVoxels_{<sp/>obj<sp/>},</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name_{<sp/>std::move(<sp/>name<sp/>)<sp/>}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name_{<sp/>std::move(<sp/><ref refid="classMR_1_1ChangeSurfaceAction_1a10e342f28635a448b68e1e8d60a56b54" kindref="member">name</ref><sp/>)<sp/>}</highlight></codeline>
 <codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>obj<sp/>)</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -1064,15 +1064,15 @@
 <codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;</highlight></codeline>
 <codeline lineno="212"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="215" refid="classMR_1_1ChangeGridAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeGridAction" kindref="compound">ChangeGridAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="215" refid="classMR_1_1ChangeGridAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeGridAction_1a1f23e5db03c650766a3e405f207e32ba" kindref="member">ChangeGridAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="216"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="217"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="218" refid="classMR_1_1ChangeGridAction_1ad7d5725801275be74a08469ec04b18ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectVoxels" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref>;</highlight></codeline>
-<codeline lineno="220" refid="classMR_1_1ChangeGridAction_1a1f23e5db03c650766a3e405f207e32ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeGridAction_1a1f23e5db03c650766a3e405f207e32ba" kindref="member">ChangeGridAction</ref>(<sp/>std::string<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectVoxels&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
+<codeline lineno="218" refid="classMR_1_1ChangeGridAction_1ad7d5725801275be74a08469ec04b18ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeGridAction_1ad7d5725801275be74a08469ec04b18ca" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref>;</highlight></codeline>
+<codeline lineno="220" refid="classMR_1_1ChangeGridAction_1a1f23e5db03c650766a3e405f207e32ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeGridAction_1a1f23e5db03c650766a3e405f207e32ba" kindref="member">ChangeGridAction</ref>(<sp/>std::string<sp/><ref refid="classMR_1_1ChangeGridAction_1abff717b27ad5da1a8a0048172c8397ef" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectVoxels&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>objVoxels_{<sp/>obj<sp/>},<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>changeIsoAction_(<sp/>name,<sp/>obj<sp/>),</highlight></codeline>
-<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>changeSurfaceAction_(name,<sp/>obj),</highlight></codeline>
-<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>name_{<sp/>std::move(<sp/>name<sp/>)<sp/>}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>changeIsoAction_(<sp/><ref refid="classMR_1_1ChangeGridAction_1abff717b27ad5da1a8a0048172c8397ef" kindref="member">name</ref>,<sp/>obj<sp/>),</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>changeSurfaceAction_(<ref refid="classMR_1_1ChangeGridAction_1abff717b27ad5da1a8a0048172c8397ef" kindref="member">name</ref>,<sp/>obj),</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>name_{<sp/>std::move(<sp/><ref refid="classMR_1_1ChangeGridAction_1abff717b27ad5da1a8a0048172c8397ef" kindref="member">name</ref><sp/>)<sp/>}</highlight></codeline>
 <codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>obj<sp/>)</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -1121,6 +1121,6 @@
 <codeline lineno="271"><highlight class="normal"></highlight></codeline>
 <codeline lineno="272"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelsAction.h"/>
+    <location file="MRVoxels/MRChangeVoxelsAction.h"/>
   </compounddef>
 </doxygen>

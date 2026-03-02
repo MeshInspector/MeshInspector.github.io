@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVertCoordsDiff_8h" kind="file" language="C++">
     <compoundname>MRVertCoordsDiff.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -33,19 +33,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRVertCoordsDiff_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
-        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
-        <argsstring></argsstring>
-        <name>MR_VertCoords</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVertCoordsDiff.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" prot="public" static="no">
         <type>struct <ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref></type>
         <definition>typedef struct MR_VertCoordsDiff MR_VertCoordsDiff</definition>
@@ -196,7 +183,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_VertCoordsDiff</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -214,7 +201,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_VertCoordsDiff</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -324,10 +311,10 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRVertCoordsDiff_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref>;</highlight></codeline>
+<codeline lineno="20" refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRVertCoordsDiff_8h_1a09f9d5bd2ec060b11386975a5b79ef01" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVertCoordsDiff_8h_1a89be697806616e0103d7d8fee56d352f" kindref="member">MR_VertCoordsDiff</ref><sp/>*<ref refid="MRVertCoordsDiff_8h_1a09f9d5bd2ec060b11386975a5b79ef01" kindref="member">MR_VertCoordsDiff_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>

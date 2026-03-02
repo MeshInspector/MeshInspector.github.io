@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRObjectSave_8h" kind="file" language="C++">
     <compoundname>MRObjectSave.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -20,60 +20,6 @@
         <label>MRCMisc/exports.h</label>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRObjectSave_8h_1accce9c9179cadabc541edda0fc7a2571" prot="public" static="no">
-        <type>struct <ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref></type>
-        <definition>typedef struct MR_Object MR_Object</definition>
-        <argsstring></argsstring>
-        <name>MR_Object</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" line="10" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" bodystart="10" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" prot="public" static="no">
-        <type>struct <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref></type>
-        <definition>typedef struct MR_ObjectSave_Settings MR_ObjectSave_Settings</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjectSave_Settings</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" line="11" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectSave_8h_1a077b8debfae88f9cf2267ad2db95c006" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref></type>
-        <definition>typedef struct MR_expected_void_std_string MR_expected_void_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_void_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" line="12" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectSave_8h_1a30107ef4120845cdac99e9368f431014" prot="public" static="no">
-        <type>struct <ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref></type>
-        <definition>typedef struct MR_std_function_void_from_const_std_filesystem_path_ref MR_std_function_void_from_const_std_filesystem_path_ref</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_void_from_const_std_filesystem_path_ref</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" line="13" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectSave.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRObjectSave_8h_1a53c86ed440ceab64586b5f4dd52087a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -220,10 +166,10 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="MRObjectSave_8h_1accce9c9179cadabc541edda0fc7a2571" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectSaveSettings.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRObjectSave_8h_1a077b8debfae88f9cf2267ad2db95c006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRObjectSave_8h_1a30107ef4120845cdac99e9368f431014" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref><sp/><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_const_std_filesystem_path_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectSaveSettings.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref><sp/><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_const_std_filesystem_path_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRObjectSave_8h_1a53c86ed440ceab64586b5f4dd52087a1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRObjectSave_8h_1a53c86ed440ceab64586b5f4dd52087a1" kindref="member">MR_ObjectSave_toAnySupportedSceneFormat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*settings);</highlight></codeline>

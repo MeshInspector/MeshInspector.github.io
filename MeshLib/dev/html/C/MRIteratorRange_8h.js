@@ -1,15 +1,11 @@
 var MRIteratorRange_8h =
 [
-    [ "MR_ChunkIterator", "MRIteratorRange_8h.html#ad9382f027a2465861120f341711dbcd2", null ],
-    [ "MR_IteratorRange_MR_ChunkIterator", "MRIteratorRange_8h.html#a4a43508653b57bbdfb3730d901e037eb", null ],
     [ "MR_IteratorRange_MR_PolylineUndirectedEdgeIterator", "MRIteratorRange_8h.html#a210c323dfaa0990243a9ea8357bf584f", null ],
     [ "MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft", "MRIteratorRange_8h.html#a23d63b3e3a028bf75cabd1b15bf6ecae", null ],
     [ "MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin", "MRIteratorRange_8h.html#a134a47c65547c1f3e3189da6b185fa67", null ],
-    [ "MR_IteratorRange_MR_UndirectedEdgeIterator", "MRIteratorRange_8h.html#ab3c03ef8c769a0f3606febe178369fc6", null ],
     [ "MR_PolylineUndirectedEdgeIterator", "MRIteratorRange_8h.html#ae6e065050c61472b2891c5a5007dc426", null ],
     [ "MR_RingIterator_MR_NextEdgeSameLeft", "MRIteratorRange_8h.html#ad437e0fab3b4f064f790a59b9e914e30", null ],
     [ "MR_RingIterator_MR_NextEdgeSameOrigin", "MRIteratorRange_8h.html#a89120138410f15b591375c52d6b999b0", null ],
-    [ "MR_UndirectedEdgeIterator", "MRIteratorRange_8h.html#adc8078d2c099930a4e1cfd69ad02cad5", null ],
     [ "MR_begin_MR_IteratorRange_MR_ChunkIterator", "MRIteratorRange_8h.html#a1170f9b402989d766ce71c554409b3e8", null ],
     [ "MR_begin_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator", "MRIteratorRange_8h.html#a189b8917a536e14ed42ca6579ada500f", null ],
     [ "MR_begin_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft", "MRIteratorRange_8h.html#a216be37bbe07a5839350d6228224fef6", null ],

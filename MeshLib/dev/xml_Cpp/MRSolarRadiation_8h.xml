@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSolarRadiation_8h" kind="file" language="C++">
     <compoundname>MRSolarRadiation.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
-    <includedby refid="MRCudaSolarRadiation_8h" local="yes">MRCudaSolarRadiation.h</includedby>
+    <includedby refid="MRCudaSolarRadiation_8h" local="yes">MRCuda/MRCudaSolarRadiation.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -43,7 +43,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRSolarRadiation.h</label>
+        <label>MRMesh/MRSolarRadiation.h</label>
         <link refid="MRSolarRadiation_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -131,11 +131,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRCudaSolarRadiation.h</label>
+        <label>MRCuda/MRCudaSolarRadiation.h</label>
         <link refid="MRCudaSolarRadiation_8h"/>
       </node>
       <node id="1">
-        <label>MRSolarRadiation.h</label>
+        <label>MRMesh/MRSolarRadiation.h</label>
         <link refid="MRSolarRadiation_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -159,7 +159,7 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13" refid="group__GeneralGroup_1ga387e788e5a4960ee13fb9d57cefc5c3d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga387e788e5a4960ee13fb9d57cefc5c3d" kindref="member">sampleHalfSphere</ref>();</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="structMR_1_1SkyPatch" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SkyPatch" kindref="compound">SkyPatch</ref></highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1SkyPatch" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SkyPatch" kindref="compound">SkyPatch</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1gab2ea86c9173f3228c1adec10b4b8c48a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gab2ea86c9173f3228c1adec10b4b8c48a" kindref="member">dir</ref>;</highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1ga511b8b1d8245fb415755ea6881577867" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga511b8b1d8245fb415755ea6881577867" kindref="member">radiation</ref><sp/>=<sp/>0;</highlight></codeline>
@@ -174,8 +174,8 @@
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>samples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>validSamples,</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;SkyPatch&gt;<sp/>&amp;<sp/>skyPatches,<sp/>std::vector&lt;MeshIntersectionResult&gt;*<sp/>outIntersections<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSolarRadiation.h"/>
+    <location file="MRMesh/MRSolarRadiation.h"/>
   </compounddef>
 </doxygen>

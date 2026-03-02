@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFormat_8h" kind="file" language="C++">
     <compoundname>MRFormat.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -12,7 +12,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRFormat.h</label>
+        <label>MRMesh/MRFormat.h</label>
         <link refid="MRFormat_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -175,7 +175,7 @@
 <codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Context&gt;</highlight></codeline>
 <codeline lineno="87" refid="structfmt_1_1formatter_3_01MR_1_1Matrix3_3_01T_01_4_01_4_1a12d03bd4698bb4f90c7b62857ff9e33b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="structfmt_1_1formatter_3_01MR_1_1Matrix3_3_01T_01_4_01_4_1a12d03bd4698bb4f90c7b62857ff9e33b" kindref="member">format</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">MR::Matrix3&lt;T&gt;</ref>&amp;<sp/>mat,<sp/>Context&amp;<sp/>ctx<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="88"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>formatWith(<sp/>mat,<sp/>ctx,<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structfmt_1_1formatter_3_01MR_1_1Matrix3_3_01T_01_4_01_4_1abca7ad90075fa6869cbe8ca19b163f5a" kindref="member">formatWith</ref>(<sp/>mat,<sp/>ctx,<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="91"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
@@ -213,7 +213,7 @@
 <codeline lineno="124" refid="structfmt_1_1formatter_3_01MR_1_1AffineXf3_3_01T_01_4_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">fmt::formatter&lt;<ref refid="namespaceMR" kindref="compound">MR</ref>::AffineXf3&lt;T&gt;&gt;<sp/>:<sp/>fmt::formatter&lt;MR::Vector3&lt;T&gt;&gt;</highlight></codeline>
 <codeline lineno="125"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Context&gt;</highlight></codeline>
-<codeline lineno="127" refid="structfmt_1_1formatter_3_01MR_1_1AffineXf3_3_01T_01_4_01_4_1a9516609c5c321a3e3829b7e12b0ed9b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="structfmt_1_1formatter_3_01MR_1_1AffineXf3_3_01T_01_4_01_4_1a9516609c5c321a3e3829b7e12b0ed9b6" kindref="member">format</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AffineXf" kindref="compound">MR::AffineXf3&lt;T&gt;</ref>&amp;<sp/>xf,<sp/>Context&amp;<sp/>ctx<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="127" refid="structfmt_1_1formatter_3_01MR_1_1AffineXf3_3_01T_01_4_01_4_1a9516609c5c321a3e3829b7e12b0ed9b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="structfmt_1_1formatter_3_01MR_1_1AffineXf3_3_01T_01_4_01_4_1a9516609c5c321a3e3829b7e12b0ed9b6" kindref="member">format</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac964d34e63e2bd23c8ab1e4cea68ae71" kindref="member">MR::AffineXf3&lt;T&gt;</ref>&amp;<sp/>xf,<sp/>Context&amp;<sp/>ctx<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="128"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Mat<sp/>=<sp/>fmt::formatter&lt;MR::Matrix3&lt;T&gt;&gt;;</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Vec<sp/>=<sp/>fmt::formatter&lt;MR::Vector3&lt;T&gt;&gt;;</highlight></codeline>
@@ -264,6 +264,6 @@
 <codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::string<sp/>toString(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1BitSet" kindref="compound">MR::BitSet</ref>&amp;<sp/>bs<sp/>);</highlight></codeline>
 <codeline lineno="176"><highlight class="normal">};</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h"/>
+    <location file="MRMesh/MRFormat.h"/>
   </compounddef>
 </doxygen>

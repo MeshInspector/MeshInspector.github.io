@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__TriangulationHelpersGroup" kind="group">
     <compoundname>TriangulationHelpersGroup</compoundname>
     <title>TriangulationHelpers</title>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="29" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="29" declcolumn="8"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="29" column="8" declfile="MRMesh/MRPointCloudTriangulationHelpers.h" declline="29" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__TriangulationHelpersGroup_1gab7b3e43bb16453b2202ab3e82d052488" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="36" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="36" declcolumn="7"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="36" column="7" declfile="MRMesh/MRPointCloudTriangulationHelpers.h" declline="36" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__TriangulationHelpersGroup_1ga9f026bf1ef8ed09a14cc5012fe92d8fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -147,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="45" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="45" declcolumn="8"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="45" column="8" declfile="MRMesh/MRPointCloudTriangulationHelpers.h" declline="45" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__TriangulationHelpersGroup_1ga8a151252bffbc3c9b6cf56c1a45292f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="52" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="52" declcolumn="7"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="52" column="7" declfile="MRMesh/MRPointCloudTriangulationHelpers.h" declline="52" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__TriangulationHelpersGroup_1ga379ef6cfbe1df486c3b9baf10d186c0b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -245,11 +245,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="162" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" declline="162" declcolumn="8"/>
+        <location file="MRMesh/MRPointCloudTriangulationHelpers.h" line="162" column="8" declfile="MRMesh/MRPointCloudTriangulationHelpers.h" declline="162" declcolumn="8"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Collection of functions and structures needed for <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> triangulation   . </para>
+<para>Collection of functions and structures needed for <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> triangulation. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DirectionWidget" kind="class" language="C++" prot="public">
     <compoundname>MR::DirectionWidget</compoundname>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener &gt;</basecompoundref>
-    <includes refid="MRDirectionWidget_8h" local="no">MRDirectionWidget.h</includes>
+    <includes refid="MRDirectionWidget_8h" local="no">MRViewer/MRDirectionWidget.h</includes>
     <innerclass refid="structMR_1_1DirectionWidget_1_1Arrow" prot="public">MR::DirectionWidget::Arrow</innerclass>
     <innerclass refid="classMR_1_1DirectionWidget_1_1ChangeDirAction" prot="public">MR::DirectionWidget::ChangeDirAction</innerclass>
     <innerclass refid="classMR_1_1DirectionWidget_1_1ChangeVisibleAction" prot="public">MR::DirectionWidget::ChangeVisibleAction</innerclass>
@@ -95,7 +95,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="18" bodyend="179"/>
+    <location file="MRViewer/MRDirectionWidget.h" line="17" column="1" bodyfile="MRViewer/MRDirectionWidget.h" bodystart="18" bodyend="179"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga778ed833b12c7f939665d2427ef2b88d" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>blockedMouse_</name></member>
       <member refid="group__GeneralGroup_1ga813b4f3a2dcff8fe39f206573393d7d2" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>clear_</name></member>

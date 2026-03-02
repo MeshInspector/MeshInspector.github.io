@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRObjectDimensionsEnum_8h" kind="file" language="C++">
     <compoundname>MRObjectDimensionsEnum.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
     <includes refid="MRVisualObject_8h" local="yes">MRMesh/MRVisualObject.h</includes>
-    <includedby refid="MRCircleObject_8h" local="yes">MRCircleObject.h</includedby>
-    <includedby refid="MRConeObject_8h" local="yes">MRConeObject.h</includedby>
-    <includedby refid="MRCylinderObject_8h" local="yes">MRCylinderObject.h</includedby>
-    <includedby refid="MRSphereObject_8h" local="yes">MRSphereObject.h</includedby>
+    <includedby refid="MRCircleObject_8h" local="yes">MRMesh/MRCircleObject.h</includedby>
+    <includedby refid="MRConeObject_8h" local="yes">MRMesh/MRConeObject.h</includedby>
+    <includedby refid="MRCylinderObject_8h" local="yes">MRMesh/MRCylinderObject.h</includedby>
+    <includedby refid="MRSphereObject_8h" local="yes">MRMesh/MRSphereObject.h</includedby>
     <incdepgraph>
       <node id="27">
         <label>MRAffineXf.h</label>
@@ -264,7 +264,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRObjectDimensionsEnum.h</label>
+        <label>MRMesh/MRObjectDimensionsEnum.h</label>
         <link refid="MRObjectDimensionsEnum_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -522,29 +522,29 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRCircleObject.h</label>
+        <label>MRMesh/MRCircleObject.h</label>
         <link refid="MRCircleObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRConeObject.h</label>
+        <label>MRMesh/MRConeObject.h</label>
         <link refid="MRConeObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRCylinderObject.h</label>
+        <label>MRMesh/MRCylinderObject.h</label>
         <link refid="MRCylinderObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRFeatureObjectImpls.h</label>
+        <label>MRMesh/MRFeatureObjectImpls.h</label>
         <link refid="MRFeatureObjectImpls_8h"/>
       </node>
       <node id="1">
-        <label>MRObjectDimensionsEnum.h</label>
+        <label>MRMesh/MRObjectDimensionsEnum.h</label>
         <link refid="MRObjectDimensionsEnum_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -556,7 +556,7 @@
         </childnode>
       </node>
       <node id="6">
-        <label>MRSphereObject.h</label>
+        <label>MRMesh/MRSphereObject.h</label>
         <link refid="MRSphereObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -584,12 +584,12 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/>DimensionsVisualizePropertyType</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/>DimensionsVisualizePropertyType</highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1ga7cb80fe4cd457e0d0e931c0ade82101c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7cb80fe4cd457e0d0e931c0ade82101c" kindref="member">diameter</ref>,</highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1ga45937af38b4f2f3950e1922a75ff7ab1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03" kindref="member">angle</ref>,</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1ga45937af38b4f2f3950e1922a75ff7ab1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga45937af38b4f2f3950e1922a75ff7ab1" kindref="member">angle</ref>,</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1gaf9d495c1655d813d553030485d00fea7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf9d495c1655d813d553030485d00fea7" kindref="member">length</ref>,</highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1ga69c4cff6b9a1cd95c71fc56b8dd9a983" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0dad69186af02738a9b3ced1bc5b652ba55" kindref="member">_count</ref><sp/>[[maybe_unused]],</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga69c4cff6b9a1cd95c71fc56b8dd9a983" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga69c4cff6b9a1cd95c71fc56b8dd9a983" kindref="member">_count</ref><sp/>[[maybe_unused]],</highlight></codeline>
 <codeline lineno="19"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="20" refid="structMR_1_1IsVisualizeMaskEnum_3_01DimensionsVisualizePropertyType_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1IsVisualizeMaskEnum" kindref="compound">IsVisualizeMaskEnum</ref>&lt;DimensionsVisualizePropertyType&gt;<sp/>:<sp/>std::true_type<sp/>{};</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
@@ -597,6 +597,6 @@
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectDimensionsEnum.h"/>
+    <location file="MRMesh/MRObjectDimensionsEnum.h"/>
   </compounddef>
 </doxygen>

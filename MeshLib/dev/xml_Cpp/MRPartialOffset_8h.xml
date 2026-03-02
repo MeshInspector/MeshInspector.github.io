@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPartialOffset_8h" kind="file" language="C++">
     <compoundname>MRPartialOffset.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
@@ -110,7 +110,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPartialOffset.h</label>
+        <label>MRVoxels/MRPartialOffset.h</label>
         <link refid="MRPartialOffset_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -177,8 +177,8 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1ga791659f1e41c2486076a24ae429d5c16" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga791659f1e41c2486076a24ae429d5c16" kindref="member">partialOffsetMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1GeneralOffsetParameters" kindref="compound">GeneralOffsetParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPartialOffset.h"/>
+    <location file="MRVoxels/MRPartialOffset.h"/>
   </compounddef>
 </doxygen>

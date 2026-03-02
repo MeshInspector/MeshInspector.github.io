@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshMeshDistance_8h" kind="file" language="C++">
     <compoundname>MRMeshMeshDistance.h</compoundname>
     <includes refid="MRPointOnFace_8h" local="yes">MRPointOnFace.h</includes>
@@ -59,7 +59,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshMeshDistance.h</label>
+        <label>MRMesh/MRMeshMeshDistance.h</label>
         <link refid="MRMeshMeshDistance_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -208,8 +208,8 @@
 <codeline lineno="60" refid="group__AABBTreeGroup_1ga45e61b0f865d15d2172777953f29b4b1" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga45e61b0f865d15d2172777953f29b4b1" kindref="member">findMaxDistanceSq</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDistanceSq<sp/>=<sp/>FLT_MAX<sp/>);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h"/>
+    <location file="MRMesh/MRMeshMeshDistance.h"/>
   </compounddef>
 </doxygen>

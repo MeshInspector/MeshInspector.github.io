@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ICPPairData" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ICPPairData</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1ICPGroupPair" prot="public" virt="non-virtual">mrmeshpy.ICPGroupPair</derivedcompoundref>
@@ -103,7 +103,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__eq__</name>
         <qualifiedname>mrmeshpy.ICPPairData.__eq__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1PointPair_1a6d5a7cf7fbfbb1b9382513200289b312">__eq__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -126,12 +125,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ICPPairData.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPair_1aa3032ba6bdbbaa290c8616c9c97473a0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPair_1aac8c8cfe71c39aee9eb8487b0f10b6c0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPair_1a8cee7ed74929fd00185476667a007598">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPair_1a49a0fbd8805fd29130c6dd87d3658c34">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPair_1afa320dd5611f71a18b07b52f44352bfc">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPair_1aa4b263a6d942bfae24a1dd4b7ce4315f">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -208,12 +201,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ICPPairData.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPair_1aa3032ba6bdbbaa290c8616c9c97473a0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPair_1aac8c8cfe71c39aee9eb8487b0f10b6c0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPair_1a8cee7ed74929fd00185476667a007598">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPair_1a49a0fbd8805fd29130c6dd87d3658c34">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPair_1afa320dd5611f71a18b07b52f44352bfc">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPair_1aa4b263a6d942bfae24a1dd4b7ce4315f">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -232,12 +219,6 @@
         <argsstring>(self, ICPPairData arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ICPPairData.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPair_1aa3032ba6bdbbaa290c8616c9c97473a0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPair_1aac8c8cfe71c39aee9eb8487b0f10b6c0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPair_1a8cee7ed74929fd00185476667a007598">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPair_1a49a0fbd8805fd29130c6dd87d3658c34">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPair_1afa320dd5611f71a18b07b52f44352bfc">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPair_1aa4b263a6d942bfae24a1dd4b7ce4315f">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -262,12 +243,6 @@
         <argsstring>(self, Vector3f srcPoint, Vector3f srcNorm, Vector3f tgtPoint, Vector3f tgtNorm, float distSq, float weight)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ICPPairData.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPair_1aa3032ba6bdbbaa290c8616c9c97473a0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPair_1aac8c8cfe71c39aee9eb8487b0f10b6c0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPair_1a8cee7ed74929fd00185476667a007598">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPair_1a49a0fbd8805fd29130c6dd87d3658c34">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPair_1afa320dd5611f71a18b07b52f44352bfc">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPair_1aa4b263a6d942bfae24a1dd4b7ce4315f">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -583,23 +558,6 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.ICPPairData</label>
-        <link refid="classmrmeshpy_1_1ICPPairData"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_distSq</edgelabel>
-          <edgelabel>_offsetof_srcNorm</edgelabel>
-          <edgelabel>_offsetof_srcPoint</edgelabel>
-          <edgelabel>_offsetof_tgtNorm</edgelabel>
-          <edgelabel>_offsetof_tgtPoint</edgelabel>
-          <edgelabel>_offsetof_weight</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23336" bodyend="23421"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ICPPairData_1a024a604081665729f2ae92aee9077513" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPPairData</scope><name>__eq__</name></member>

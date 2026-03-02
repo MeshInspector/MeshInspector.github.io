@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRUnitInfo_8h" kind="file" language="C++">
     <compoundname>MRUnitInfo.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -550,19 +550,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRUnitInfo_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref></type>
-        <definition>typedef struct MR_std_string_view MR_std_string_view</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string_view</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="11" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRUnitInfo_8h_1a2ac997f72ec53f0e0ab4aec46e5b33d4" prot="public" static="no">
         <type>enum <ref refid="MRUnitInfo_8h_1a33f2ca44eae2a7feebc1dd635540e4f1" kindref="member">MR_NoUnit</ref></type>
         <definition>typedef enum MR_NoUnit MR_NoUnit</definition>
@@ -1032,7 +1019,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_UnitInfo</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1050,7 +1037,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_UnitInfo</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1096,7 +1083,7 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRUnitInfo_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string_view.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string_view.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>stub<sp/>measurement<sp/>unit<sp/>representing<sp/>no<sp/>unit.</highlight><highlight class="normal"></highlight></codeline>
@@ -1198,19 +1185,19 @@
 <codeline lineno="110" refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a01409c68015edda60d1f65d4c0490d4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a01409c68015edda60d1f65d4c0490d4c" kindref="member">MR_InvLengthUnit__count</ref><sp/>=<sp/>6,</highlight></codeline>
 <codeline lineno="111" refid="MRUnitInfo_8h_1a480e2a8da7aae16c0ea95d186ff3676d" refkind="member"><highlight class="normal">}<sp/><ref refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9" kindref="member">MR_InvLengthUnit</ref>;</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Information<sp/>about<sp/>a<sp/>single<sp/>measurement<sp/>unit.</highlight></codeline>
-<codeline lineno="116" refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref>;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Information<sp/>about<sp/>a<sp/>single<sp/>measurement<sp/>unit.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref>;</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>used<sp/>to<sp/>convert<sp/>between<sp/>units.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">//<sp/>To<sp/>convert<sp/>from<sp/>A<sp/>to<sp/>B,<sp/>multiply<sp/>by<sp/>A&apos;s<sp/>factor<sp/>and<sp/>divide<sp/>by<sp/>B&apos;s.</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">//<sp/>To<sp/>convert<sp/>from<sp/>A<sp/>to<sp/>B,<sp/>multiply<sp/>by<sp/>A&apos;s<sp/>factor<sp/>and<sp/>divide<sp/>by<sp/>B&apos;s.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="124" refid="MRUnitInfo_8h_1a4b9f96709edc6149c350a58a203eec56" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRUnitInfo_8h_1a4b9f96709edc6149c350a58a203eec56" kindref="member">MR_UnitInfo_Get_conversionFactor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
 <codeline lineno="126"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>used<sp/>to<sp/>convert<sp/>between<sp/>units.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment">//<sp/>To<sp/>convert<sp/>from<sp/>A<sp/>to<sp/>B,<sp/>multiply<sp/>by<sp/>A&apos;s<sp/>factor<sp/>and<sp/>divide<sp/>by<sp/>B&apos;s.</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment">//<sp/>To<sp/>convert<sp/>from<sp/>A<sp/>to<sp/>B,<sp/>multiply<sp/>by<sp/>A&apos;s<sp/>factor<sp/>and<sp/>divide<sp/>by<sp/>B&apos;s.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="131" refid="MRUnitInfo_8h_1a3a86cea8e056f408b842083836126646" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a3a86cea8e056f408b842083836126646" kindref="member">MR_UnitInfo_Set_conversionFactor</ref>(<ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>used<sp/>to<sp/>convert<sp/>between<sp/>units.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight><highlight class="comment">//<sp/>To<sp/>convert<sp/>from<sp/>A<sp/>to<sp/>B,<sp/>multiply<sp/>by<sp/>A&apos;s<sp/>factor<sp/>and<sp/>divide<sp/>by<sp/>B&apos;s.</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="comment">//<sp/>To<sp/>convert<sp/>from<sp/>A<sp/>to<sp/>B,<sp/>multiply<sp/>by<sp/>A&apos;s<sp/>factor<sp/>and<sp/>divide<sp/>by<sp/>B&apos;s.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="139" refid="MRUnitInfo_8h_1aa7e618eee8ad2a08658850a3fcd3c793" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRUnitInfo_8h_1aa7e618eee8ad2a08658850a3fcd3c793" kindref="member">MR_UnitInfo_GetMutable_conversionFactor</ref>(<ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
 <codeline lineno="145" refid="MRUnitInfo_8h_1aaaceefb3bb813ee3dec2e11b720a863d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRUnitInfo_8h_1aaaceefb3bb813ee3dec2e11b720a863d" kindref="member">MR_UnitInfo_Get_prettyName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this);</highlight></codeline>
@@ -1220,15 +1207,15 @@
 <codeline lineno="159" refid="MRUnitInfo_8h_1af8d7f5a51f1668408cec0ab86cef189b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRUnitInfo_8h_1af8d7f5a51f1668408cec0ab86cef189b" kindref="member">MR_UnitInfo_GetMutable_prettyName</ref>(<ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="160"><highlight class="normal"></highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>short<sp/>unit<sp/>name<sp/>that&apos;s<sp/>placed<sp/>after<sp/>values.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="162"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>may<sp/>or<sp/>may<sp/>not<sp/>start<sp/>with<sp/>a<sp/>space.</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>may<sp/>or<sp/>may<sp/>not<sp/>start<sp/>with<sp/>a<sp/>space.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="167" refid="MRUnitInfo_8h_1aad97ea3b90e09f7130a6c6830175dc86" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRUnitInfo_8h_1aad97ea3b90e09f7130a6c6830175dc86" kindref="member">MR_UnitInfo_Get_unitSuffix</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
 <codeline lineno="169"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>short<sp/>unit<sp/>name<sp/>that&apos;s<sp/>placed<sp/>after<sp/>values.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="170"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>may<sp/>or<sp/>may<sp/>not<sp/>start<sp/>with<sp/>a<sp/>space.</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>may<sp/>or<sp/>may<sp/>not<sp/>start<sp/>with<sp/>a<sp/>space.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="177" refid="MRUnitInfo_8h_1a1f59cbfb4cf1bf0a9c90332fe992a3af" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a1f59cbfb4cf1bf0a9c90332fe992a3af" kindref="member">MR_UnitInfo_Set_unitSuffix</ref>(<ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
 <codeline lineno="178"><highlight class="normal"></highlight></codeline>
 <codeline lineno="179"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>short<sp/>unit<sp/>name<sp/>that&apos;s<sp/>placed<sp/>after<sp/>values.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="180"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>may<sp/>or<sp/>may<sp/>not<sp/>start<sp/>with<sp/>a<sp/>space.</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>may<sp/>or<sp/>may<sp/>not<sp/>start<sp/>with<sp/>a<sp/>space.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="185" refid="MRUnitInfo_8h_1ae233d23e9c0d193187dcb9a1aebbffc5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRUnitInfo_8h_1ae233d23e9c0d193187dcb9a1aebbffc5" kindref="member">MR_UnitInfo_GetMutable_unitSuffix</ref>(<ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="186"><highlight class="normal"></highlight></codeline>
 <codeline lineno="189" refid="MRUnitInfo_8h_1aa19f0f32bbe660c6f7de59c24311444d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*<ref refid="MRUnitInfo_8h_1aa19f0f32bbe660c6f7de59c24311444d" kindref="member">MR_UnitInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>

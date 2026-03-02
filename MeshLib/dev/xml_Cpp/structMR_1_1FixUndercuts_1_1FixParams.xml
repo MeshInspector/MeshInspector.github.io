@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1FixUndercuts_1_1FixParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::FixUndercuts::FixParams</compoundname>
-    <includes refid="MRFixUndercuts_8h" local="no">MRFixUndercuts.h</includes>
+    <includes refid="MRFixUndercuts_8h" local="no">MRVoxels/MRFixUndercuts.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gafe6f6f22b57da33fbbf890e866b20af0" kind="variable"><name>findParameters</name></member>
       <member refid="group__GeneralGroup_1ga6d4290fa46807217ffa96e93f832b506" kind="variable"><name>voxelSize</name></member>
@@ -29,7 +29,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" line="57" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" bodystart="58" bodyend="75"/>
+    <location file="MRVoxels/MRFixUndercuts.h" line="57" column="1" bodyfile="MRVoxels/MRFixUndercuts.h" bodystart="58" bodyend="75"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0b82b3ed40ea6b099489b664630a2e27" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>bottomExtension</name></member>
       <member refid="group__GeneralGroup_1ga563ee145e303eb2d0a3cd31b71ca7344" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>cb</name></member>

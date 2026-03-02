@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsSave" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelsSave</compoundname>
     <innerclass refid="classMR_1_1VoxelsSave_1_1SavingSettings" prot="public">MR::VoxelsSave::SavingSettings</innerclass>
@@ -617,7 +617,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="1095" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="4" bodyend="622"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="1095" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="1096" bodyend="1134"/>
     <listofallmembers>
       <member refid="classMR_1_1VoxelsSave_1a61d164e695f8a35d7ef40d92b503ac2e" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>gridToAnySupportedFormat</name></member>
       <member refid="classMR_1_1VoxelsSave_1a0be9c0e9d104e38b4f8a49f2d2122d17" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>gridToRawAutoname</name></member>

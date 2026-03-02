@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneCache" kind="class" language="C++" prot="public">
     <compoundname>MR::SceneCache</compoundname>
-    <includes refid="MRSceneCache_8h" local="no">MRSceneCache.h</includes>
+    <includes refid="MRSceneCache_8h" local="no">MRViewer/MRSceneCache.h</includes>
     <innerclass refid="structMR_1_1SceneCache_1_1BasicVectorHolder" prot="private">MR::SceneCache::BasicVectorHolder</innerclass>
     <innerclass refid="structMR_1_1SceneCache_1_1VectorHolder" prot="private">MR::SceneCache::VectorHolder</innerclass>
     <sectiondef kind="public-type">
@@ -26,7 +26,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" bodystart="17" bodyend="47"/>
+    <location file="MRViewer/MRSceneCache.h" line="16" column="1" bodyfile="MRViewer/MRSceneCache.h" bodystart="17" bodyend="47"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8dc1a7e0d229b3e79f0bced413a9b2eb" prot="private" virt="non-virtual"><scope>MR::SceneCache</scope><name>cachedData_</name></member>
       <member refid="group__GeneralGroup_1gaf66e451d5cc1d0246d98bb3700a0b82c" prot="public" virt="non-virtual"><scope>MR::SceneCache</scope><name>getAllObjects</name></member>

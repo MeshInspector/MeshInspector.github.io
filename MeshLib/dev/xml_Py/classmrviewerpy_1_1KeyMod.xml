@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrviewerpy_1_1KeyMod" kind="class" language="Python" prot="public">
     <compoundname>mrviewerpy::KeyMod</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -408,22 +408,6 @@
   Alt
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrviewerpy.KeyMod</label>
-        <link refid="classmrviewerpy_1_1KeyMod"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>Alt</edgelabel>
-          <edgelabel>Ctrl</edgelabel>
-          <edgelabel>Empty</edgelabel>
-          <edgelabel>Shift</edgelabel>
-          <edgelabel>Super</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="5" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="5" bodyend="56"/>
     <listofallmembers>
       <member refid="classmrviewerpy_1_1KeyMod_1a529f88e52295ebecc8b439e4bf130f1a" prot="public" virt="non-virtual"><scope>mrviewerpy::KeyMod</scope><name>__and__</name></member>

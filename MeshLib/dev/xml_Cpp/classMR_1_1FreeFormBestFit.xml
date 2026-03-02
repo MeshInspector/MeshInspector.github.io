@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FreeFormBestFit" kind="class" language="C++" prot="public">
     <compoundname>MR::FreeFormBestFit</compoundname>
-    <includes refid="MRFreeFormDeformer_8h" local="no">MRFreeFormDeformer.h</includes>
+    <includes refid="MRFreeFormDeformer_8h" local="no">MRMesh/MRFreeFormDeformer.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga8fe1592c31aa91938b8b6d27413b9d12" kind="variable"><name>box_</name></member>
       <member refid="group__GeneralGroup_1ga30c8326a9b19da3efec6be32f4c5a5fa" kind="variable"><name>resolution_</name></member>
@@ -34,7 +34,7 @@
     <detaileddescription>
 <para>Class to accumulate source and target points for free form alignment Calculates best Free Form transform to fit given source-&gt;target deformation origin ref grid as box corners ( resolution parameter specifies how to divide box ) </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFreeFormDeformer.h" line="55" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFreeFormDeformer.h" bodystart="56" bodyend="93"/>
+    <location file="MRMesh/MRFreeFormDeformer.h" line="55" column="1" bodyfile="MRMesh/MRFreeFormDeformer.h" bodystart="56" bodyend="93"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3ad349267b23584e4ae70fef20401b78" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>accumA_</name></member>
       <member refid="group__GeneralGroup_1gaf5e802137c3b7213a907e03f4e1eafc9" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>accumB_</name></member>

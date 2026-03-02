@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AsyncTimer" kind="class" language="C++" prot="public">
     <compoundname>MR::AsyncTimer</compoundname>
-    <includes refid="MRAsyncTimer_8h" local="no">MRAsyncTimer.h</includes>
+    <includes refid="MRAsyncTimer_8h" local="no">MRViewer/MRAsyncTimer.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gad1582b16bb15b7032af648423d3dd002" kind="enum"><name>Event</name></member>
     </sectiondef>
@@ -24,7 +24,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" bodystart="24" bodyend="49"/>
+    <location file="MRViewer/MRAsyncTimer.h" line="23" column="1" bodyfile="MRViewer/MRAsyncTimer.h" bodystart="24" bodyend="49"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga394505ffc965e011ac606ca5737bd0dd" prot="private" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>cvar_</name></member>
       <member refid="group__GeneralGroup_1gad1582b16bb15b7032af648423d3dd002" prot="public" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>Event</name></member>

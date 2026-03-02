@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PixelId" kind="struct" language="C#" prot="public">
     <compoundname>MR::PixelId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.PixelId &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1PixelId_1af0aa30b9ef65c0f81f738ca982f37da2" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -50,7 +50,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from conversion operator <computeroutput>MR.PixelId.operator int</computeroutput>. </para>
+<para>Generated from conversion operator <computeroutput>MR::PixelId::operator int</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -69,7 +69,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from conversion operator <computeroutput>MR.PixelId.operator bool</computeroutput>. </para>
+<para>Generated from conversion operator <computeroutput>MR::PixelId::operator bool</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,7 +92,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PixelId.operator==</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PixelId::operator==</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -237,7 +237,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PixelId.operator&lt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PixelId::operator&lt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -252,7 +252,7 @@
         <name>decr</name>
         <qualifiedname>MR.PixelId.decr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PixelId.operator--</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PixelId::operator--</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -271,7 +271,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PixelId.operator--</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PixelId::operator--</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -286,7 +286,7 @@
         <name>incr</name>
         <qualifiedname>MR.PixelId.incr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PixelId.operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PixelId::operator++</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -305,7 +305,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PixelId.operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PixelId::operator++</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -324,7 +324,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PixelId.operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PixelId::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -343,7 +343,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PixelId.operator+=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PixelId::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -389,7 +389,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput><ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&gt;</computeroutput> This is the by-value version of the struct. </para>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::NoDefInit&lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&gt;</computeroutput> This is the by-value version of the struct. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -401,7 +401,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>System::IEquatable&lt; MR.PixelId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -412,7 +412,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>System::IEquatable&lt; MR.PixelId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2405" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2406" bodyend="2622"/>

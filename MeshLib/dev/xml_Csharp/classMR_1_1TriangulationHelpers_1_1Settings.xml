@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TriangulationHelpers_1_1Settings" kind="class" language="C#" prot="public">
     <compoundname>MR::TriangulationHelpers::Settings</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.TriangulationHelpers.Const_Settings</basecompoundref>
@@ -279,7 +279,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TriangulationHelpers.Settings.Settings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1_1Settings_1a3e31375c71dbf56971109212d58bd5dd" kindref="member">MR.TriangulationHelpers.Settings.Settings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -298,7 +298,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TriangulationHelpers.Settings.Settings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1_1Settings_1a3e31375c71dbf56971109212d58bd5dd" kindref="member">MR.TriangulationHelpers.Settings.Settings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -317,7 +317,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.TriangulationHelpers.Settings.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TriangulationHelpers::Settings::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -332,13 +332,6 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Settings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TriangulationHelpers.Settings</label>
         <link refid="classMR_1_1TriangulationHelpers_1_1Settings"/>
@@ -346,20 +339,20 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Settings &gt;</label>
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.TriangulationHelpers.Const_Settings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Settings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TriangulationHelpers.Settings</label>
         <link refid="classMR_1_1TriangulationHelpers_1_1Settings"/>
@@ -367,10 +360,17 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Settings &gt;</label>
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.TriangulationHelpers.Const_Settings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="853" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="854" bodyend="1005"/>

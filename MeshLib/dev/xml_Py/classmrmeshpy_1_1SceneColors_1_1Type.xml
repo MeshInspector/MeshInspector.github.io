@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1SceneColors_1_1Type" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::SceneColors::Type</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -805,28 +805,6 @@
   Count
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.SceneColors.Type</label>
-        <link refid="classmrmeshpy_1_1SceneColors_1_1Type"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>BackFaces</edgelabel>
-          <edgelabel>Count</edgelabel>
-          <edgelabel>Edges</edgelabel>
-          <edgelabel>FeatureBackFaces</edgelabel>
-          <edgelabel>Labels</edgelabel>
-          <edgelabel>LabelsBad</edgelabel>
-          <edgelabel>LabelsGood</edgelabel>
-          <edgelabel>Points</edgelabel>
-          <edgelabel>SelectedEdges</edgelabel>
-          <edgelabel>SelectedFaces</edgelabel>
-          <edgelabel>...</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51087" bodyend="51213"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1SceneColors_1_1Type_1a459b2c084883f07bc510ad23ff55776c" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneColors::Type</scope><name>__eq__</name></member>

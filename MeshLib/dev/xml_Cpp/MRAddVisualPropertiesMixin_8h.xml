@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRAddVisualPropertiesMixin_8h" kind="file" language="C++">
     <compoundname>MRAddVisualPropertiesMixin.h</compoundname>
     <includes refid="MRVisualObject_8h" local="yes">MRMesh/MRVisualObject.h</includes>
-    <includedby refid="MRCircleObject_8h" local="yes">MRCircleObject.h</includedby>
-    <includedby refid="MRConeObject_8h" local="yes">MRConeObject.h</includedby>
-    <includedby refid="MRCylinderObject_8h" local="yes">MRCylinderObject.h</includedby>
-    <includedby refid="MRSphereObject_8h" local="yes">MRSphereObject.h</includedby>
+    <includedby refid="MRCircleObject_8h" local="yes">MRMesh/MRCircleObject.h</includedby>
+    <includedby refid="MRConeObject_8h" local="yes">MRMesh/MRConeObject.h</includedby>
+    <includedby refid="MRCylinderObject_8h" local="yes">MRMesh/MRCylinderObject.h</includedby>
+    <includedby refid="MRSphereObject_8h" local="yes">MRMesh/MRSphereObject.h</includedby>
     <incdepgraph>
       <node id="1">
-        <label>MRAddVisualPropertiesMixin.h</label>
+        <label>MRMesh/MRAddVisualPropertiesMixin.h</label>
         <link refid="MRAddVisualPropertiesMixin_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -519,7 +519,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRAddVisualPropertiesMixin.h</label>
+        <label>MRMesh/MRAddVisualPropertiesMixin.h</label>
         <link refid="MRAddVisualPropertiesMixin_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -531,29 +531,29 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MRCircleObject.h</label>
+        <label>MRMesh/MRCircleObject.h</label>
         <link refid="MRCircleObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRConeObject.h</label>
+        <label>MRMesh/MRConeObject.h</label>
         <link refid="MRConeObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRCylinderObject.h</label>
+        <label>MRMesh/MRCylinderObject.h</label>
         <link refid="MRCylinderObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRFeatureObjectImpls.h</label>
+        <label>MRMesh/MRFeatureObjectImpls.h</label>
         <link refid="MRFeatureObjectImpls_8h"/>
       </node>
       <node id="6">
-        <label>MRSphereObject.h</label>
+        <label>MRMesh/MRSphereObject.h</label>
         <link refid="MRSphereObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -574,9 +574,9 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BaseObjectType,<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>...Properties&gt;</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">requires</highlight><highlight class="normal"><sp/>(<sp/>IsVisualizeMaskEnum&lt;</highlight><highlight class="keyword">decltype</highlight><highlight class="normal">(Properties)&gt;::value<sp/>&amp;&amp;<sp/>...<sp/>)</highlight></codeline>
-<codeline lineno="16" refid="classMR_1_1AddVisualProperties" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1AddVisualProperties" kindref="compound">AddVisualProperties</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>BaseObjectType</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BaseObjectType,<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>...Properties&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">requires</highlight><highlight class="normal"><sp/>(<sp/><ref refid="structMR_1_1IsVisualizeMaskEnum" kindref="compound">IsVisualizeMaskEnum</ref>&lt;</highlight><highlight class="keyword">decltype</highlight><highlight class="normal">(Properties)&gt;::value<sp/>&amp;&amp;<sp/>...<sp/>)</highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1AddVisualProperties" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AddVisualProperties" kindref="compound">AddVisualProperties</ref><sp/>:<sp/>public<sp/>BaseObjectType</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">BaseObjectType::BaseObjectType;</highlight></codeline>
@@ -598,7 +598,7 @@
 <codeline lineno="35"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref>*<sp/>ret<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::size_t<sp/>i<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)(<sp/>(<sp/>type.<ref refid="classMR_1_1AnyVisualizeMaskEnum_1ad6bb8706f3ee4d236f7d26ca5e4432dd" kindref="member">tryGet</ref>&lt;</highlight><highlight class="keyword">decltype</highlight><highlight class="normal">(<sp/>Properties<sp/>)&gt;()<sp/>==<sp/>Properties<sp/>?<sp/>(<sp/>ret<sp/>=<sp/>&amp;<ref refid="group__GeneralGroup_1ga534fe1b7809ccb50abd437a88b6c1412" kindref="member">propertyMasks_</ref>[i],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>)<sp/>:<sp/>(<sp/>i++,<sp/>false<sp/>)<sp/>)<sp/>||<sp/>...<sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)(<sp/>(<sp/>type.<ref refid="classMR_1_1AnyVisualizeMaskEnum_1ad6bb8706f3ee4d236f7d26ca5e4432dd" kindref="member">tryGet</ref>&lt;</highlight><highlight class="keyword">decltype</highlight><highlight class="normal">(<sp/>Properties<sp/>)&gt;()<sp/>==<sp/>Properties<sp/>?<sp/>(<sp/>ret<sp/>=<sp/>&amp;<ref refid="group__GeneralGroup_1ga534fe1b7809ccb50abd437a88b6c1412" kindref="member">propertyMasks_</ref>[i],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>)<sp/>:<sp/>(<sp/>i++,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/>)<sp/>||<sp/>...<sp/>);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>ret<sp/>)</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*ret;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
@@ -622,6 +622,6 @@
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddVisualPropertiesMixin.h"/>
+    <location file="MRMesh/MRAddVisualPropertiesMixin.h"/>
   </compounddef>
 </doxygen>

@@ -1,16 +1,6 @@
 var MRObjectComparableWithReference_8h =
 [
-    [ "MR_DistanceMeasurementObject", "MRObjectComparableWithReference_8h.html#a9185d6c78b24d67f65fff43bd4a336c3", null ],
-    [ "MR_ObjectComparableWithReference", "MRObjectComparableWithReference_8h.html#aac0f72690d55f7690795efb3b57df7cf", null ],
     [ "MR_ObjectComparableWithReference_ComparableProperty", "MRObjectComparableWithReference_8h.html#a53eac440a3dc231f96b5689e82522479", null ],
-    [ "MR_ObjectComparableWithReference_ComparisonReferenceValue", "MRObjectComparableWithReference_8h.html#ab2078183aee736bfebb1bb874807d75d", null ],
-    [ "MR_ObjectComparableWithReference_ComparisonTolerance", "MRObjectComparableWithReference_8h.html#aadd5f2632221b9bf806db1fcddbf58fa", null ],
-    [ "MR_PointMeasurementObject", "MRObjectComparableWithReference_8h.html#a749cca566de75c01b7c4210dfd5ab596", null ],
-    [ "MR_std_optional_float", "MRObjectComparableWithReference_8h.html#a55e42a260ef15081eb6a47c600bd1f4b", null ],
-    [ "MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty", "MRObjectComparableWithReference_8h.html#a80d9dd1ef50d7c3b70695bdf73404526", null ],
-    [ "MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance", "MRObjectComparableWithReference_8h.html#a8e4615b108b22d42920cafb89a85540b", null ],
-    [ "MR_std_string_view", "MRObjectComparableWithReference_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37", null ],
-    [ "MR_std_variant_float_MR_Vector3f", "MRObjectComparableWithReference_8h.html#af3d91d0213ab95de48f9478fac0d21e0", null ],
     [ "MR_ObjectComparableWithReference_ComparableProperty_AssignFromAnother", "MRObjectComparableWithReference_8h.html#a485e70fadff3ca4be185d9897a6e2b4d", null ],
     [ "MR_ObjectComparableWithReference_ComparableProperty_ConstructFrom", "MRObjectComparableWithReference_8h.html#a2d37ed2eb33380fcc29ac9ea956ad0fd", null ],
     [ "MR_ObjectComparableWithReference_ComparableProperty_ConstructFromAnother", "MRObjectComparableWithReference_8h.html#a83d716353297c37ad37fb56eac14c7f0", null ],

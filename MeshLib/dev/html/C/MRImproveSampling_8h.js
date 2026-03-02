@@ -1,12 +1,7 @@
 var MRImproveSampling_8h =
 [
     [ "MR_ImproveSamplingSettings", "MRImproveSampling_8h.html#ade64fb100891a04fc6c88eb7da26ca9e", null ],
-    [ "MR_PointCloud", "MRImproveSampling_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
-    [ "MR_std_function_bool_from_float", "MRImproveSampling_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_Vector_int_MR_VertId", "MRImproveSampling_8h.html#a38b2b530cc7e8ec49d6441a0d1d309ce", null ],
-    [ "MR_VertBitSet", "MRImproveSampling_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
-    [ "MR_VertColors", "MRImproveSampling_8h.html#a20dc7d636220f61a60c7ae92b8caa768", null ],
-    [ "MR_VertMap", "MRImproveSampling_8h.html#a0c1baad62a31685b2dfb5955f3fb8230", null ],
     [ "MR_improveSampling", "MRImproveSampling_8h.html#acfc77a8ae9440a54e0cf3ae4ee77077d", null ],
     [ "MR_ImproveSamplingSettings_AssignFromAnother", "MRImproveSampling_8h.html#a106b8e3df0f486f557e7f58f9d656715", null ],
     [ "MR_ImproveSamplingSettings_ConstructFrom", "MRImproveSampling_8h.html#a066e6f292b375452a50919869b5120ba", null ],

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1FanRecordWithCenter" kind="struct" language="C++" prot="public">
     <compoundname>MR::FanRecordWithCenter</compoundname>
     <basecompoundref refid="structMR_1_1FanRecord" prot="public" virt="non-virtual">MR::FanRecord</basecompoundref>
-    <includes refid="MRLocalTriangulations_8h" local="no">MRLocalTriangulations.h</includes>
+    <includes refid="MRLocalTriangulations_8h" local="no">MRMesh/MRLocalTriangulations.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga066cda1cd4ae46c8b3236007bf1033b1" kind="variable"><name>center</name></member>
     </sectiondef>
@@ -40,7 +40,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" line="32" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" bodystart="33" bodyend="39"/>
+    <location file="MRMesh/MRLocalTriangulations.h" line="32" column="1" bodyfile="MRMesh/MRLocalTriangulations.h" bodystart="33" bodyend="39"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab96acab7dff75b813d869d05ae408ca7" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>border</name></member>
       <member refid="group__GeneralGroup_1ga066cda1cd4ae46c8b3236007bf1033b1" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>center</name></member>

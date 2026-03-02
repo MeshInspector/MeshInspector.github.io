@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PointPairs" kind="struct" language="C++" prot="public">
     <compoundname>MR::PointPairs</compoundname>
     <basecompoundref refid="structMR_1_1IPointPairs" prot="public" virt="non-virtual">MR::IPointPairs</basecompoundref>
-    <includes refid="MRICP_8h" local="no">MRICP.h</includes>
+    <includes refid="MRICP_8h" local="no">MRMesh/MRICP.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaa5242248a93789d989a923092a5d7592" kind="variable"><name>vec</name></member>
     </sectiondef>
@@ -47,7 +47,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="78" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="79" bodyend="84"/>
+    <location file="MRMesh/MRICP.h" line="78" column="1" bodyfile="MRMesh/MRICP.h" bodystart="79" bodyend="84"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab838ce7cceeb506514a4124c9587f032" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>active</name></member>
       <member refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" prot="public" virt="non-virtual"><scope>MR::PointPairs</scope><name>IPointPairs</name></member>

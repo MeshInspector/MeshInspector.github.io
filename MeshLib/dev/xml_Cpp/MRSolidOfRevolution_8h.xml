@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSolidOfRevolution_8h" kind="file" language="C++">
     <compoundname>MRSolidOfRevolution.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -38,7 +38,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRSolidOfRevolution.h</label>
+        <label>MRMesh/MRSolidOfRevolution.h</label>
         <link refid="MRSolidOfRevolution_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -139,8 +139,8 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="group__GeneralGroup_1gabbe6d9d5f0b3716ea3a9824b82181f26" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1gabbe6d9d5f0b3716ea3a9824b82181f26" kindref="member">makeSolidOfRevolution</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga411f342f0faf2e8fd25230d9f676b5d9" kindref="member">Contour2f</ref>&amp;<sp/>profile,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>resolution<sp/>=<sp/>16<sp/>);</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSolidOfRevolution.h"/>
+    <location file="MRMesh/MRSolidOfRevolution.h"/>
   </compounddef>
 </doxygen>

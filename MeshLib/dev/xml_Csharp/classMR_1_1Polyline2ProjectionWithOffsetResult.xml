@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Polyline2ProjectionWithOffsetResult" kind="class" language="C#" prot="public">
     <compoundname>MR::Polyline2ProjectionWithOffsetResult</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Polyline2ProjectionWithOffsetResult</basecompoundref>
@@ -128,7 +128,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Polyline2ProjectionWithOffsetResult.Polyline2ProjectionWithOffsetResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2ProjectionWithOffsetResult_1abbe97c9b3007e6fcccd39724e82cb439" kindref="member">MR.Polyline2ProjectionWithOffsetResult.Polyline2ProjectionWithOffsetResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -147,7 +147,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Polyline2ProjectionWithOffsetResult.Polyline2ProjectionWithOffsetResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2ProjectionWithOffsetResult_1abbe97c9b3007e6fcccd39724e82cb439" kindref="member">MR.Polyline2ProjectionWithOffsetResult.Polyline2ProjectionWithOffsetResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -166,7 +166,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Polyline2ProjectionWithOffsetResult.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Polyline2ProjectionWithOffsetResult::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -181,45 +181,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Polyline2ProjectionWithOffsetResult</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Polyline2ProjectionWithOffsetResult</label>
         <link refid="classMR_1_1Polyline2ProjectionWithOffsetResult"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Polyline2ProjectionWithOffsetResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Polyline2ProjectionWithOffsetResult &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Polyline2ProjectionWithOffsetResult</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Polyline2ProjectionWithOffsetResult</label>
         <link refid="classMR_1_1Polyline2ProjectionWithOffsetResult"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Polyline2ProjectionWithOffsetResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Polyline2ProjectionWithOffsetResult &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="599" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="600" bodyend="669"/>

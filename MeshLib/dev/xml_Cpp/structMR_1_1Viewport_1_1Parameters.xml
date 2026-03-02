@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Viewport_1_1Parameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::Viewport::Parameters</compoundname>
-    <includes refid="MRViewport_8h" local="no">MRViewport.h</includes>
+    <includes refid="MRViewport_8h" local="no">MRViewer/MRViewport.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gab498d9b4852811b8095a89935081126f" kind="enum"><name>GlobalBasisScaleMode</name></member>
       <member refid="group__GeneralGroup_1ga021c10bdda5a71cfdc88b0e7142e780b" kind="enum"><name>RotationCenterMode</name></member>
@@ -49,7 +49,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="315" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="316" bodyend="364"/>
+    <location file="MRViewer/MRViewport.h" line="315" column="5" bodyfile="MRViewer/MRViewport.h" bodystart="316" bodyend="364"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa0449b17fbc4c4ecf681446e0fb638d6" prot="public" virt="non-virtual"><scope>MR::Viewport::Parameters</scope><name>Auto</name></member>
       <member refid="group__GeneralGroup_1ga22334f5bd9465a4b836b6ca117f39068" prot="public" virt="non-virtual"><scope>MR::Viewport::Parameters</scope><name>backgroundColor</name></member>

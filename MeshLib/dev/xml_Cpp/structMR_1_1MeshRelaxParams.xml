@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshRelaxParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshRelaxParams</compoundname>
     <basecompoundref refid="structMR_1_1RelaxParams" prot="public" virt="non-virtual">MR::RelaxParams</basecompoundref>
     <derivedcompoundref refid="structMR_1_1MeshApproxRelaxParams" prot="public" virt="non-virtual">MR::MeshApproxRelaxParams</derivedcompoundref>
     <derivedcompoundref refid="structMR_1_1MeshEqualizeTriAreasParams" prot="public" virt="non-virtual">MR::MeshEqualizeTriAreasParams</derivedcompoundref>
-    <includes refid="MRMeshRelax_8h" local="no">MRMeshRelax.h</includes>
+    <includes refid="MRMeshRelax_8h" local="no">MRMesh/MRMeshRelax.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1MeshRelaxParams_1aeb8c3fee03385430c013562e6fafb17e" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="16" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" bodystart="16" bodyend="16"/>
+        <location file="MRMesh/MRMeshRelax.h" line="16" column="10" bodyfile="MRMesh/MRMeshRelax.h" bodystart="16" bodyend="16"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshRelaxParams_1a41780c569c9092f50274655744456aea" prot="public" static="no" mutable="no">
         <type>const VertScalars *</type>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="19" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" bodystart="19" bodyend="-1"/>
+        <location file="MRMesh/MRMeshRelax.h" line="19" column="23" bodyfile="MRMesh/MRMeshRelax.h" bodystart="19" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -80,7 +80,7 @@
         <link refid="structMR_1_1RelaxParams"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" bodystart="14" bodyend="20"/>
+    <location file="MRMesh/MRMeshRelax.h" line="13" column="1" bodyfile="MRMesh/MRMeshRelax.h" bodystart="14" bodyend="20"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga47663082758ba9a1d7d9942c1d2550fc" prot="public" virt="non-virtual"><scope>MR::MeshRelaxParams</scope><name>_padding</name></member>
       <member refid="group__GeneralGroup_1ga7f58a3b0b7e5c09209f53edd90b4371a" prot="public" virt="non-virtual"><scope>MR::MeshRelaxParams</scope><name>force</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPolyline2Project_8h" kind="file" language="C++">
     <compoundname>MRPolyline2Project.h</compoundname>
     <includes refid="MRPolylineProject_8h" local="yes">MRPolylineProject.h</includes>
@@ -57,7 +57,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPolyline2Project.h</label>
+        <label>MRMesh/MRPolyline2Project.h</label>
         <link refid="MRPolyline2Project_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -163,8 +163,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRPolylineProject_8h" kindref="compound">MRPolylineProject.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRPolylineProject_8h" kindref="compound">MRPolylineProject.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Project.h"/>
+    <location file="MRMesh/MRPolyline2Project.h"/>
   </compounddef>
 </doxygen>

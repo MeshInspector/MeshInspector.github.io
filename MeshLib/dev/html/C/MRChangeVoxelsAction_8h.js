@@ -1,13 +1,5 @@
 var MRChangeVoxelsAction_8h =
 [
-    [ "MR_ChangeActiveBoxAction", "MRChangeVoxelsAction_8h.html#aeaeebecb7d5aa1257ca82ad7bfb71305", null ],
-    [ "MR_ChangeDualMarchingCubesAction", "MRChangeVoxelsAction_8h.html#a86ea6a96b491c586909a0a455015d414", null ],
-    [ "MR_ChangeGridAction", "MRChangeVoxelsAction_8h.html#a49915b5fcd60bfb177c54347b03a606f", null ],
-    [ "MR_ChangeIsoAction", "MRChangeVoxelsAction_8h.html#a79ae7cac7003bbf0ffae3a8d018821c2", null ],
-    [ "MR_ChangeSurfaceAction", "MRChangeVoxelsAction_8h.html#a3bbeed91b50ae84d8f30852df31f64a9", null ],
-    [ "MR_HistoryAction", "MRChangeVoxelsAction_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
-    [ "MR_std_shared_ptr_MR_ObjectVoxels", "MRChangeVoxelsAction_8h.html#acb93de9bf6b355b8a53086a4e6dbaa7a", null ],
-    [ "MR_std_string", "MRChangeVoxelsAction_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_ChangeActiveBoxAction_action", "MRChangeVoxelsAction_8h.html#a4f21d90b2c9b382b531ce4ec0cd1d6a3", null ],
     [ "MR_ChangeActiveBoxAction_AssignFromAnother", "MRChangeVoxelsAction_8h.html#af2897839a310571f1dc95c3ea04eab26", null ],
     [ "MR_ChangeActiveBoxAction_Construct", "MRChangeVoxelsAction_8h.html#af4c00da08e5a06b191cd497812735338", null ],

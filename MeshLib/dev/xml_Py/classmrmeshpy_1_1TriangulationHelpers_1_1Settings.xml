@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1TriangulationHelpers_1_1Settings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::TriangulationHelpers::Settings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -774,28 +774,6 @@ if radius is positive then numNeis must be zero
 <para><verbatim>Generated from:  MR::TriangulationHelpers::Settings
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.TriangulationHelpers.Settings</label>
-        <link refid="classmrmeshpy_1_1TriangulationHelpers_1_1Settings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_actualRadius</edgelabel>
-          <edgelabel>_offsetof_allNeighbors</edgelabel>
-          <edgelabel>_offsetof_automaticRadiusIncrease</edgelabel>
-          <edgelabel>_offsetof_boundaryAngle</edgelabel>
-          <edgelabel>_offsetof_critAngle</edgelabel>
-          <edgelabel>_offsetof_maxRemoves</edgelabel>
-          <edgelabel>_offsetof_numNeis</edgelabel>
-          <edgelabel>_offsetof_orientedNormals</edgelabel>
-          <edgelabel>_offsetof_radius</edgelabel>
-          <edgelabel>_offsetof_searchNeighbors</edgelabel>
-          <edgelabel>...</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58520" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58520" bodyend="58643"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1Settings_1a364c421964cf8cb443ed40768c67733b" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::Settings</scope><name>__init__</name></member>

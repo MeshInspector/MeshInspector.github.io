@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UnionFind" kind="class" language="C++" prot="public">
     <compoundname>MR::UnionFind</compoundname>
-    <includes refid="MRUnionFind_8h" local="no">MRUnionFind.h</includes>
+    <includes refid="MRUnionFind_8h" local="no">MRMesh/MRUnionFind.h</includes>
     <templateparamlist>
       <param>
         <type>typename <ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
@@ -51,7 +51,7 @@
 </parameterlist>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" line="627" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnionFind.h" bodystart="23" bodyend="157"/>
+    <location file="MRMesh/MRUnionFind.h" line="22" column="1" bodyfile="MRMesh/MRUnionFind.h" bodystart="23" bodyend="157"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga26e79fd903c0229dbd2f66a80549c75b" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>find</name></member>
       <member refid="group__GeneralGroup_1ga6999428ebe2645b250dfe6cf51038735" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>findRootNoUpdate_</name></member>

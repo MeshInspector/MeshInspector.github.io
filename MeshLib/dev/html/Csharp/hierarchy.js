@@ -368,6 +368,12 @@ var hierarchy =
       [ "MR.Const_BooleanPreCutResult", null, [
         [ "MR.BooleanPreCutResult", "classMR_1_1BooleanPreCutResult.html", null ]
       ] ],
+      [ "MR.Const_BooleanResult", null, [
+        [ "MR.BooleanResult", "classMR_1_1BooleanResult.html", null ]
+      ] ],
+      [ "MR.Const_BooleanResultMapper", null, [
+        [ "MR.BooleanResultMapper", "classMR_1_1BooleanResultMapper.html", null ]
+      ] ],
       [ "MR.Const_BooleanResultPoints", null, [
         [ "MR.BooleanResultPoints", "classMR_1_1BooleanResultPoints.html", null ]
       ] ],
@@ -641,6 +647,12 @@ var hierarchy =
       [ "MR.Const_CutByProjectionSettings", null, [
         [ "MR.CutByProjectionSettings", "classMR_1_1CutByProjectionSettings.html", null ]
       ] ],
+      [ "MR.Const_CutMeshParameters", null, [
+        [ "MR.CutMeshParameters", "classMR_1_1CutMeshParameters.html", null ]
+      ] ],
+      [ "MR.Const_CutMeshResult", null, [
+        [ "MR.CutMeshResult", "classMR_1_1CutMeshResult.html", null ]
+      ] ],
       [ "MR.Const_Cylinder3d", null, [
         [ "MR.Cylinder3d", "classMR_1_1Cylinder3d.html", null ]
       ] ],
@@ -650,11 +662,20 @@ var hierarchy =
       [ "MR.Const_CylinderObject", null, [
         [ "MR.CylinderObject", "classMR_1_1CylinderObject.html", null ]
       ] ],
+      [ "MR.Const_DecimatePolylineResult", null, [
+        [ "MR.DecimatePolylineResult", "classMR_1_1DecimatePolylineResult.html", null ]
+      ] ],
       [ "MR.Const_DecimatePolylineSettings_MRVector2f", null, [
         [ "MR.DecimatePolylineSettings_MRVector2f", "classMR_1_1DecimatePolylineSettings__MRVector2f.html", null ]
       ] ],
       [ "MR.Const_DecimatePolylineSettings_MRVector3f", null, [
         [ "MR.DecimatePolylineSettings_MRVector3f", "classMR_1_1DecimatePolylineSettings__MRVector3f.html", null ]
+      ] ],
+      [ "MR.Const_DecimateResult", null, [
+        [ "MR.DecimateResult", "classMR_1_1DecimateResult.html", null ]
+      ] ],
+      [ "MR.Const_DecimateSettings", null, [
+        [ "MR.DecimateSettings", "classMR_1_1DecimateSettings.html", null ]
       ] ],
       [ "MR.Const_DeloneSettings", null, [
         [ "MR.DeloneSettings", "classMR_1_1DeloneSettings.html", null ]
@@ -839,8 +860,14 @@ var hierarchy =
       [ "MR.Const_FillHoleItem", null, [
         [ "MR.FillHoleItem", "classMR_1_1FillHoleItem.html", null ]
       ] ],
+      [ "MR.Const_FillHoleMetric", null, [
+        [ "MR.FillHoleMetric", "classMR_1_1FillHoleMetric.html", null ]
+      ] ],
       [ "MR.Const_FillHoleNicelySettings", null, [
         [ "MR.FillHoleNicelySettings", "classMR_1_1FillHoleNicelySettings.html", null ]
+      ] ],
+      [ "MR.Const_FillHoleParams", null, [
+        [ "MR.FillHoleParams", "classMR_1_1FillHoleParams.html", null ]
       ] ],
       [ "MR.Const_FillHolesWithExtraPointsParams", null, [
         [ "MR.FillHolesWithExtraPointsParams", "classMR_1_1FillHolesWithExtraPointsParams.html", null ]
@@ -1153,6 +1180,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_MeasurementObject", null, [
         [ "MR.MeasurementObject", "classMR_1_1MeasurementObject.html", null ]
+      ] ],
+      [ "MR.Const_MergeVolumePartSettings", null, [
+        [ "MR.MergeVolumePartSettings", "classMR_1_1MergeVolumePartSettings.html", null ]
       ] ],
       [ "MR.Const_Mesh", null, [
         [ "MR.Mesh", "classMR_1_1Mesh.html", null ]
@@ -1943,6 +1973,9 @@ var hierarchy =
       [ "MR.Const_StitchHolesNicelySettings", null, [
         [ "MR.StitchHolesNicelySettings", "classMR_1_1StitchHolesNicelySettings.html", null ]
       ] ],
+      [ "MR.Const_StitchHolesParams", null, [
+        [ "MR.StitchHolesParams", "classMR_1_1StitchHolesParams.html", null ]
+      ] ],
       [ "MR.Const_SubdivideFillingSettings", null, [
         [ "MR.SubdivideFillingSettings", "classMR_1_1SubdivideFillingSettings.html", null ]
       ] ],
@@ -2401,6 +2434,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_VolumeSegmenter", null, [
         [ "MR.VolumeSegmenter", "classMR_1_1VolumeSegmenter.html", null ]
+      ] ],
+      [ "MR.Const_VolumeToMeshByPartsSettings", null, [
+        [ "MR.VolumeToMeshByPartsSettings", "classMR_1_1VolumeToMeshByPartsSettings.html", null ]
       ] ],
       [ "MR.Const_VoxelBitSet", null, [
         [ "MR.VoxelBitSet", "classMR_1_1VoxelBitSet.html", null ]
@@ -3074,6 +3110,8 @@ var hierarchy =
       [ "MR.Const_BooleanInternalParameters", null, null ],
       [ "MR.Const_BooleanParameters", null, null ],
       [ "MR.Const_BooleanPreCutResult", null, null ],
+      [ "MR.Const_BooleanResult", null, null ],
+      [ "MR.Const_BooleanResultMapper", null, null ],
       [ "MR.Const_BooleanResultPoints", null, null ],
       [ "MR.Const_Box_UnsignedShort", null, null ],
       [ "MR.Const_Buffer_Char", null, null ],
@@ -3122,10 +3160,15 @@ var hierarchy =
       [ "MR.Const_CurveFunc", null, null ],
       [ "MR.Const_CurvePoint", null, null ],
       [ "MR.Const_CutByProjectionSettings", null, null ],
+      [ "MR.Const_CutMeshParameters", null, null ],
+      [ "MR.Const_CutMeshResult", null, null ],
       [ "MR.Const_Cylinder3d", null, null ],
       [ "MR.Const_Cylinder3f", null, null ],
+      [ "MR.Const_DecimatePolylineResult", null, null ],
       [ "MR.Const_DecimatePolylineSettings_MRVector2f", null, null ],
       [ "MR.Const_DecimatePolylineSettings_MRVector3f", null, null ],
+      [ "MR.Const_DecimateResult", null, null ],
+      [ "MR.Const_DecimateSettings", null, null ],
       [ "MR.Const_DeloneSettings", null, null ],
       [ "MR.Const_DenoiseViaNormalsSettings", null, null ],
       [ "MR.Const_DenseBox", null, null ],
@@ -3183,7 +3226,9 @@ var hierarchy =
       [ "MR.Const_FeatureObjectSharedProperty", null, null ],
       [ "MR.Const_FewSmallest_MRPointsProjectionResult", null, null ],
       [ "MR.Const_FillHoleItem", null, null ],
+      [ "MR.Const_FillHoleMetric", null, null ],
       [ "MR.Const_FillHoleNicelySettings", null, null ],
+      [ "MR.Const_FillHoleParams", null, null ],
       [ "MR.Const_FillHolesWithExtraPointsParams", null, null ],
       [ "MR.Const_FindDisorientationParams", null, null ],
       [ "MR.Const_FindInnerShellSettings", null, null ],
@@ -3282,6 +3327,7 @@ var hierarchy =
       [ "MR.Const_MarkedContour3f", null, null ],
       [ "MR.Const_Matrix3_UnsignedChar", null, null ],
       [ "MR.Const_Matrix4_UnsignedChar", null, null ],
+      [ "MR.Const_MergeVolumePartSettings", null, null ],
       [ "MR.Const_MeshApproxRelaxParams", null, null ],
       [ "MR.Const_MeshAttributesToUpdate", null, null ],
       [ "MR.Const_MeshDiff", null, null ],
@@ -3522,6 +3568,7 @@ var hierarchy =
       [ "MR.Const_SplineSettings", null, null ],
       [ "MR.Const_Src2TgtMaps", null, null ],
       [ "MR.Const_StitchHolesNicelySettings", null, null ],
+      [ "MR.Const_StitchHolesParams", null, null ],
       [ "MR.Const_SubdivideFillingSettings", null, null ],
       [ "MR.Const_SubdivideSettings", null, null ],
       [ "MR.Const_SurfaceDistanceBuilder", null, null ],
@@ -3674,6 +3721,7 @@ var hierarchy =
       [ "MR.Const_VolumeIndexer", null, null ],
       [ "MR.Const_VolumeSegmentationParameters", null, null ],
       [ "MR.Const_VolumeSegmenter", null, null ],
+      [ "MR.Const_VolumeToMeshByPartsSettings", null, null ],
       [ "MR.Const_VoxelBitSet", null, null ],
       [ "MR.Const_VoxelLocation", null, null ],
       [ "MR.Const_VoxelMetricParameters", null, null ],

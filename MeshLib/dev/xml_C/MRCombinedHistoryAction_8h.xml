@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCombinedHistoryAction_8h" kind="file" language="C++">
     <compoundname>MRCombinedHistoryAction.h</compoundname>
     <includes refid="MRHistoryAction_8h" local="no">MRCMesh/MRHistoryAction.h</includes>
@@ -48,19 +48,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRCombinedHistoryAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" prot="public" static="no">
-        <type>struct <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref></type>
-        <definition>typedef struct MR_HistoryAction MR_HistoryAction</definition>
-        <argsstring></argsstring>
-        <name>MR_HistoryAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCombinedHistoryAction.h" line="14" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCombinedHistoryAction.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRCombinedHistoryAction_8h_1a3ae2a902ff1290a29d4eb83645b9ed24" prot="public" static="no">
         <type>struct <ref refid="MRCombinedHistoryAction_8h_1a3ae2a902ff1290a29d4eb83645b9ed24" kindref="member">MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</ref></type>
         <definition>typedef struct MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</definition>
@@ -73,19 +60,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCombinedHistoryAction.h" line="15" column="82" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCombinedHistoryAction.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRCombinedHistoryAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
-        <definition>typedef struct MR_std_string MR_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCombinedHistoryAction.h" line="16" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCombinedHistoryAction.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRCombinedHistoryAction_8h_1a302e96c8fc205d87b7083d246ebeb457" prot="public" static="no">
         <type>struct <ref refid="MRCombinedHistoryAction_8h_1a302e96c8fc205d87b7083d246ebeb457" kindref="member">MR_std_vector_std_shared_ptr_MR_HistoryAction</ref></type>
@@ -254,7 +228,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_CombinedHistoryAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" kindref="member">MR_CombinedHistoryAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -272,7 +246,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_CombinedHistoryAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" kindref="member">MR_CombinedHistoryAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -463,13 +437,13 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRCombinedHistoryAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRHistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRHistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="MRCombinedHistoryAction_8h_1a3ae2a902ff1290a29d4eb83645b9ed24" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCombinedHistoryAction_8h_1a3ae2a902ff1290a29d4eb83645b9ed24" kindref="member">MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</ref><sp/><ref refid="MRCombinedHistoryAction_8h_1a3ae2a902ff1290a29d4eb83645b9ed24" kindref="member">MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRCombinedHistoryAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MRCombinedHistoryAction_8h_1a302e96c8fc205d87b7083d246ebeb457" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCombinedHistoryAction_8h_1a302e96c8fc205d87b7083d246ebeb457" kindref="member">MR_std_vector_std_shared_ptr_MR_HistoryAction</ref><sp/><ref refid="MRCombinedHistoryAction_8h_1a302e96c8fc205d87b7083d246ebeb457" kindref="member">MR_std_vector_std_shared_ptr_MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_HistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" kindref="member">MR_CombinedHistoryAction</ref><sp/><ref refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" kindref="member">MR_CombinedHistoryAction</ref>;</highlight></codeline>
+<codeline lineno="26" refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" kindref="member">MR_CombinedHistoryAction</ref><sp/><ref refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" kindref="member">MR_CombinedHistoryAction</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31" refid="MRCombinedHistoryAction_8h_1acc3b26961b609b7f6a7c72efe3faa246" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" kindref="member">MR_CombinedHistoryAction</ref><sp/>*<ref refid="MRCombinedHistoryAction_8h_1acc3b26961b609b7f6a7c72efe3faa246" kindref="member">MR_CombinedHistoryAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" kindref="member">MR_CombinedHistoryAction</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>

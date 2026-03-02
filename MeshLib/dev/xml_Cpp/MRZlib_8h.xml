@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRZlib_8h" kind="file" language="C++">
     <compoundname>MRZlib.h</compoundname>
     <includes refid="MRIOExtras_2config_8h" local="yes">config.h</includes>
@@ -8,7 +8,7 @@
     <includes local="no">iostream</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRZlib.h</label>
+        <label>MRIOExtras/MRZlib.h</label>
         <link refid="MRZlib_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -126,9 +126,9 @@
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="group__GeneralGroup_1ga790822c4da5f4e95c06eca6e0dd9328e" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga790822c4da5f4e95c06eca6e0dd9328e" kindref="member">zlibDecompressStream</ref>(<sp/>std::istream&amp;<sp/>in,<sp/>std::ostream&amp;<sp/>out<sp/>);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRZlib.h"/>
+    <location file="MRIOExtras/MRZlib.h"/>
   </compounddef>
 </doxygen>

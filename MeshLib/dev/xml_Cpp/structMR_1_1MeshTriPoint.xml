@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshTriPoint" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshTriPoint</compoundname>
-    <includes refid="MRMeshTriPoint_8h" local="no">MRMeshTriPoint.h</includes>
+    <includes refid="MRMeshTriPoint_8h" local="no">MRMesh/MRMeshTriPoint.h</includes>
     <sectiondef kind="user-defined">
       <member refid="group__GeneralGroup_1ga4c5344758f4daed07c548746957f795d" kind="function"><name>same</name></member>
       <member refid="group__GeneralGroup_1ga6421ee7a169962d806d9288a85019fff" kind="function"><name>fromSameTriangle</name></member>
@@ -41,7 +41,7 @@
  v1 - the value in dest( e ) <linebreak/>
  v2 - the value in dest( next( e ) ) </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="25" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="26" bodyend="75"/>
+    <location file="MRMesh/MRMeshTriPoint.h" line="25" column="1" bodyfile="MRMesh/MRMeshTriPoint.h" bodystart="26" bodyend="75"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8a974fd4d0a547b3acff27ac8730ef92" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>bary</name></member>
       <member refid="group__GeneralGroup_1ga8bf3926a4f57460a30d2012e2bb862fc" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>canonical</name></member>

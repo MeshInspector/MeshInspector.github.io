@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RibbonMenu_1_1DrawGroupConfig" kind="struct" language="C++" prot="protected">
     <compoundname>MR::RibbonMenu::DrawGroupConfig</compoundname>
-    <includes refid="MRRibbonMenu_8h" local="no">MRRibbonMenu.h</includes>
+    <includes refid="MRRibbonMenu_8h" local="no">MRViewer/MRRibbonMenu.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gacb4f5276bb05eca21c715df15a42b6e5" kind="variable"><name>numBig</name></member>
       <member refid="group__GeneralGroup_1ga2c5115679d5b077be3479e377e7951b1" kind="variable"><name>numSmallText</name></member>
@@ -13,7 +13,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="154" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="155" bodyend="159"/>
+    <location file="MRViewer/MRRibbonMenu.h" line="154" column="5" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="155" bodyend="159"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gacb4f5276bb05eca21c715df15a42b6e5" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::DrawGroupConfig</scope><name>numBig</name></member>
       <member refid="group__GeneralGroup_1ga0b1bb44ee2f0cfdbab7b516b3ce2a6f8" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::DrawGroupConfig</scope><name>numSmall</name></member>

@@ -3,8 +3,6 @@ var MRMultiwayAligningTransform_8h =
     [ "MR_MultiwayAligningTransform", "MRMultiwayAligningTransform_8h.html#ae4788ca705054c89fcae182f4556c0ed", null ],
     [ "MR_MultiwayAligningTransform_Stabilizer", "MRMultiwayAligningTransform_8h.html#a0b07f164f45d823b1fdf19542501783e", null ],
     [ "MR_std_vector_MR_RigidXf3d", "MRMultiwayAligningTransform_8h.html#aa90e81181c24311564e915e4fadc9b8a", null ],
-    [ "MR_Vector3d", "MRMultiwayAligningTransform_8h.html#aa6b35c703a4572c3ccc120ee82723a66", null ],
-    [ "MR_Vector3f", "MRMultiwayAligningTransform_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
     [ "MR_MultiwayAligningTransform_add_1", "MRMultiwayAligningTransform_8h.html#a60825ddf39aadf7f088cf72330910ba5", null ],
     [ "MR_MultiwayAligningTransform_add_5_MR_Vector3d", "MRMultiwayAligningTransform_8h.html#ae5fd6a9339f4553db23ccd59fb1fd136", null ],
     [ "MR_MultiwayAligningTransform_add_5_MR_Vector3f", "MRMultiwayAligningTransform_8h.html#a20217acd828ca6f4f02dd921f7353f71", null ],

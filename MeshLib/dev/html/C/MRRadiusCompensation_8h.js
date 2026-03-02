@@ -1,10 +1,6 @@
 var MRRadiusCompensation_8h =
 [
     [ "MR_CompensateRadiusParams", "MRRadiusCompensation_8h.html#a9bda45c6401321692836dd31bd72f413", null ],
-    [ "MR_expected_void_std_string", "MRRadiusCompensation_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
-    [ "MR_FaceBitSet", "MRRadiusCompensation_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_Mesh", "MRRadiusCompensation_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_std_function_bool_from_float", "MRRadiusCompensation_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_compensateRadius", "MRRadiusCompensation_8h.html#a69a3555547e0b6393f243edbfe0d205e", null ],
     [ "MR_CompensateRadiusParams_AssignFromAnother", "MRRadiusCompensation_8h.html#a718575733a85c68f343c7d1f073064bd", null ],
     [ "MR_CompensateRadiusParams_ConstructFrom", "MRRadiusCompensation_8h.html#aa15869816b7e17408ed68152c5347138", null ],

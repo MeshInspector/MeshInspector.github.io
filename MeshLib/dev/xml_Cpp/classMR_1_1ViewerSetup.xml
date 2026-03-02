@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewerSetup" kind="class" language="C++" prot="public">
     <compoundname>MR::ViewerSetup</compoundname>
-    <includes refid="MRSetupViewer_8h" local="no">MRSetupViewer.h</includes>
+    <includes refid="MRSetupViewer_8h" local="no">MRViewer/MRSetupViewer.h</includes>
     <innerclass refid="structMR_1_1ViewerSetup_1_1LoadedModule" prot="private">MR::ViewerSetup::LoadedModule</innerclass>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga01b6a5ca99cb834e86dbb5494153de45" kind="variable"><name>setupCustomLogSink</name></member>
@@ -28,7 +28,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h" bodystart="16" bodyend="68"/>
+    <location file="MRViewer/MRSetupViewer.h" line="15" column="1" bodyfile="MRViewer/MRSetupViewer.h" bodystart="16" bodyend="68"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga55a87ace998e6a56bc8a6af6be6cf1a7" prot="private" virt="non-virtual"><scope>MR::ViewerSetup</scope><name>loadedModules_</name></member>
       <member refid="group__GeneralGroup_1ga2ee9a09ee077eec46a7ad935be02b503" prot="public" virt="virtual"><scope>MR::ViewerSetup</scope><name>setupBasePlugins</name></member>

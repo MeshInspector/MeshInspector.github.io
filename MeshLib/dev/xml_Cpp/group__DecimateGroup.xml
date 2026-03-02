@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__DecimateGroup" kind="group">
     <compoundname>DecimateGroup</compoundname>
     <title>Decimate overview</title>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="22" bodyend="25"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="21" column="1" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="22" bodyend="25"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="195" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="195" declcolumn="17"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="195" column="17" declfile="MRMesh/MRMeshDecimate.h" declline="195" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1ga3f57cf6a3c61be20a3b70d36877d86ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>DecimateResult</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="199" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="199" declcolumn="17"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="199" column="17" declfile="MRMesh/MRMeshDecimate.h" declline="199" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1gacc35b69a8b8bab04f5ae4a9d7b89e072" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; ObjectMeshData &gt;</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="202" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="202" declcolumn="17"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="202" column="17" declfile="MRMesh/MRMeshDecimate.h" declline="202" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1ga5d60f8aec3ed26e0949d5b97861324e0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QuadraticForm3f</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="210" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="210" declcolumn="19"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="210" column="19" declfile="MRMesh/MRMeshDecimate.h" declline="210" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1ga5064016639386ac5440322085837e9da" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector&lt; QuadraticForm3f, VertId &gt;</type>
@@ -185,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="216" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="216" declcolumn="10"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="216" column="10" declfile="MRMesh/MRMeshDecimate.h" declline="216" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1gafd27c831dac6b72e1cc177e88f8a7c4a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -212,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="223" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="223" declcolumn="14"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="223" column="14" declfile="MRMesh/MRMeshDecimate.h" declline="223" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1ga819efdab20db83df5180d339b4ed6196" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -242,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="256" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="256" declcolumn="7"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="256" column="7" declfile="MRMesh/MRMeshDecimate.h" declline="256" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1ga2f09d000493d3c9da7ce3f98f6f4ee3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -265,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="311" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" declline="311" declcolumn="7"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="311" column="7" declfile="MRMesh/MRMeshDecimate.h" declline="311" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1gaeafa3a500cea3d03dc8e011409571cac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>DecimatePolylineResult</type>
@@ -289,7 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" line="94" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" declline="94" declcolumn="25"/>
+        <location file="MRMesh/MRPolylineDecimate.h" line="94" column="25" declfile="MRMesh/MRPolylineDecimate.h" declline="94" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1ga45b98526f41bd7599cee507344ad60a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>DecimatePolylineResult</type>
@@ -313,7 +313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" line="101" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" declline="101" declcolumn="25"/>
+        <location file="MRMesh/MRPolylineDecimate.h" line="101" column="25" declfile="MRMesh/MRPolylineDecimate.h" declline="101" declcolumn="25"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

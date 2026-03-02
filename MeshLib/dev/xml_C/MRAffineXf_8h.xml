@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRAffineXf_8h" kind="file" language="C++">
     <compoundname>MRAffineXf.h</compoundname>
     <includes refid="MRMatrix2_8h" local="no">MRCMesh/MRMatrix2.h</includes>
@@ -456,32 +456,6 @@
     <innerclass refid="structMR__AffineXf3f" prot="public">MR_AffineXf3f</innerclass>
     <innerclass refid="structMR__AffineXf3d" prot="public">MR_AffineXf3d</innerclass>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRAffineXf_8h_1aef22a11476e76208a3f9a5cf2eba4c98" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref></type>
-        <definition>typedef struct MR_std_istream MR_std_istream</definition>
-        <argsstring></argsstring>
-        <name>MR_std_istream</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAffineXf.h" line="16" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAffineXf.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRAffineXf_8h_1a933fad1748853c0c595a157b9f6527c6" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref></type>
-        <definition>typedef struct MR_std_ostream MR_std_ostream</definition>
-        <argsstring></argsstring>
-        <name>MR_std_ostream</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAffineXf.h" line="17" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAffineXf.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRAffineXf_8h_1a0a0645e84146720d27b2088d9d3dc1b8" prot="public" static="no">
         <type>struct MR_AffineXf2f</type>
         <definition>typedef struct MR_AffineXf2f MR_AffineXf2f</definition>
@@ -733,7 +707,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>composition of two transformations: <formula id="0"> y = (u * v) ( x ) = u( v( x ) ) = ( u.A * ( v.A * x + v.b ) + u.b ) = ( u.A * v.A ) * x + ( u.A * v.b + u.b ) </formula> Generated from function <computeroutput>MR::operator*</computeroutput>. Parameter <computeroutput>u</computeroutput> can not be null. It is a single object. Parameter <computeroutput>v</computeroutput> can not be null. It is a single object. </para>
+<para>composition of two transformations: <formula id="0">y = (u * v) ( x ) = u( v( x ) ) = ( u.A * ( v.A * x + v.b ) + u.b ) = ( u.A * v.A ) * x + ( u.A * v.b + u.b )</formula> Generated from function <computeroutput>MR::operator*</computeroutput>. Parameter <computeroutput>u</computeroutput> can not be null. It is a single object. Parameter <computeroutput>v</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1020,7 +994,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>composition of two transformations: <formula id="0"> y = (u * v) ( x ) = u( v( x ) ) = ( u.A * ( v.A * x + v.b ) + u.b ) = ( u.A * v.A ) * x + ( u.A * v.b + u.b ) </formula> Generated from function <computeroutput>MR::operator*</computeroutput>. Parameter <computeroutput>u</computeroutput> can not be null. It is a single object. Parameter <computeroutput>v</computeroutput> can not be null. It is a single object. </para>
+<para>composition of two transformations: <formula id="0">y = (u * v) ( x ) = u( v( x ) ) = ( u.A * ( v.A * x + v.b ) + u.b ) = ( u.A * v.A ) * x + ( u.A * v.b + u.b )</formula> Generated from function <computeroutput>MR::operator*</computeroutput>. Parameter <computeroutput>u</computeroutput> can not be null. It is a single object. Parameter <computeroutput>v</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1325,7 +1299,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>composition of two transformations: <formula id="0"> y = (u * v) ( x ) = u( v( x ) ) = ( u.A * ( v.A * x + v.b ) + u.b ) = ( u.A * v.A ) * x + ( u.A * v.b + u.b ) </formula> Generated from function <computeroutput>MR::operator*</computeroutput>. Parameter <computeroutput>u</computeroutput> can not be null. It is a single object. Parameter <computeroutput>v</computeroutput> can not be null. It is a single object. </para>
+<para>composition of two transformations: <formula id="0">y = (u * v) ( x ) = u( v( x ) ) = ( u.A * ( v.A * x + v.b ) + u.b ) = ( u.A * v.A ) * x + ( u.A * v.b + u.b )</formula> Generated from function <computeroutput>MR::operator*</computeroutput>. Parameter <computeroutput>u</computeroutput> can not be null. It is a single object. Parameter <computeroutput>v</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1612,7 +1586,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>composition of two transformations: <formula id="0"> y = (u * v) ( x ) = u( v( x ) ) = ( u.A * ( v.A * x + v.b ) + u.b ) = ( u.A * v.A ) * x + ( u.A * v.b + u.b ) </formula> Generated from function <computeroutput>MR::operator*</computeroutput>. Parameter <computeroutput>u</computeroutput> can not be null. It is a single object. Parameter <computeroutput>v</computeroutput> can not be null. It is a single object. </para>
+<para>composition of two transformations: <formula id="0">y = (u * v) ( x ) = u( v( x ) ) = ( u.A * ( v.A * x + v.b ) + u.b ) = ( u.A * v.A ) * x + ( u.A * v.b + u.b )</formula> Generated from function <computeroutput>MR::operator*</computeroutput>. Parameter <computeroutput>u</computeroutput> can not be null. It is a single object. Parameter <computeroutput>v</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1727,33 +1701,33 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRAffineXf_8h_1aef22a11476e76208a3f9a5cf2eba4c98" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRAffineXf_8h_1a933fad1748853c0c595a157b9f6527c6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="structMR__AffineXf2f" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref></highlight></codeline>
+<codeline lineno="22" refid="structMR__AffineXf2f" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref></highlight></codeline>
 <codeline lineno="23"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="24" refid="structMR__AffineXf2f_1ab0c21f127fe9753e2dd5547cbe7d2fdd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Matrix2f" kindref="compound">MR_Matrix2f</ref><sp/><ref refid="structMR__AffineXf2f_1ab0c21f127fe9753e2dd5547cbe7d2fdd" kindref="member">A</ref>;</highlight></codeline>
 <codeline lineno="25" refid="structMR__AffineXf2f_1a3cfd4b41ae73512694193b79ea04cd9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/><ref refid="structMR__AffineXf2f_1a3cfd4b41ae73512694193b79ea04cd9c" kindref="member">b</ref>;</highlight></codeline>
-<codeline lineno="26" refid="MRAffineXf_8h_1a0a0645e84146720d27b2088d9d3dc1b8" refkind="member"><highlight class="normal">}<sp/><ref refid="MRAffineXf_8h_1a0a0645e84146720d27b2088d9d3dc1b8" kindref="member">MR_AffineXf2f</ref>;</highlight></codeline>
+<codeline lineno="26" refid="MRAffineXf_8h_1a0a0645e84146720d27b2088d9d3dc1b8" refkind="member"><highlight class="normal">}<sp/><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="structMR__AffineXf2d" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf2d" kindref="compound">MR_AffineXf2d</ref></highlight></codeline>
+<codeline lineno="30" refid="structMR__AffineXf2d" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf2d" kindref="compound">MR_AffineXf2d</ref></highlight></codeline>
 <codeline lineno="31"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="32" refid="structMR__AffineXf2d_1a3e061e6c1dcc9acf8f45987b46f9b6f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Matrix2d" kindref="compound">MR_Matrix2d</ref><sp/><ref refid="structMR__AffineXf2d_1a3e061e6c1dcc9acf8f45987b46f9b6f6" kindref="member">A</ref>;</highlight></codeline>
 <codeline lineno="33" refid="structMR__AffineXf2d_1a0acc68a4affe70ccd8e72d213aad30e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/><ref refid="structMR__AffineXf2d_1a0acc68a4affe70ccd8e72d213aad30e0" kindref="member">b</ref>;</highlight></codeline>
-<codeline lineno="34" refid="MRAffineXf_8h_1a61fa4f0d78b4dbdb48b390149f83592e" refkind="member"><highlight class="normal">}<sp/><ref refid="MRAffineXf_8h_1a61fa4f0d78b4dbdb48b390149f83592e" kindref="member">MR_AffineXf2d</ref>;</highlight></codeline>
+<codeline lineno="34" refid="MRAffineXf_8h_1a61fa4f0d78b4dbdb48b390149f83592e" refkind="member"><highlight class="normal">}<sp/><ref refid="structMR__AffineXf2d" kindref="compound">MR_AffineXf2d</ref>;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="structMR__AffineXf3f" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></highlight></codeline>
+<codeline lineno="38" refid="structMR__AffineXf3f" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></highlight></codeline>
 <codeline lineno="39"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="40" refid="structMR__AffineXf3f_1afcd74593efcd9f1896128240647693d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/><ref refid="structMR__AffineXf3f_1afcd74593efcd9f1896128240647693d1" kindref="member">A</ref>;</highlight></codeline>
 <codeline lineno="41" refid="structMR__AffineXf3f_1a2f521516c72b15c8483099fb5e4c4ff4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__AffineXf3f_1a2f521516c72b15c8483099fb5e4c4ff4" kindref="member">b</ref>;</highlight></codeline>
-<codeline lineno="42" refid="MRAffineXf_8h_1a88a1df6fb138786a55241b1d77a4b0cc" refkind="member"><highlight class="normal">}<sp/><ref refid="MRAffineXf_8h_1a88a1df6fb138786a55241b1d77a4b0cc" kindref="member">MR_AffineXf3f</ref>;</highlight></codeline>
+<codeline lineno="42" refid="MRAffineXf_8h_1a88a1df6fb138786a55241b1d77a4b0cc" refkind="member"><highlight class="normal">}<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="structMR__AffineXf3d" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref></highlight></codeline>
+<codeline lineno="46" refid="structMR__AffineXf3d" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref></highlight></codeline>
 <codeline lineno="47"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="48" refid="structMR__AffineXf3d_1a5e3b8ea18458278f2479dc040f6de9ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref><sp/><ref refid="structMR__AffineXf3d_1a5e3b8ea18458278f2479dc040f6de9ca" kindref="member">A</ref>;</highlight></codeline>
 <codeline lineno="49" refid="structMR__AffineXf3d_1ab0d69cf6603f7a27b2acca0c87a18e03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="structMR__AffineXf3d_1ab0d69cf6603f7a27b2acca0c87a18e03" kindref="member">b</ref>;</highlight></codeline>
-<codeline lineno="50" refid="MRAffineXf_8h_1af1806312cd8f8c6825c10fcb27b69305" refkind="member"><highlight class="normal">}<sp/><ref refid="MRAffineXf_8h_1af1806312cd8f8c6825c10fcb27b69305" kindref="member">MR_AffineXf3d</ref>;</highlight></codeline>
+<codeline lineno="50" refid="MRAffineXf_8h_1af1806312cd8f8c6825c10fcb27b69305" refkind="member"><highlight class="normal">}<sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref>;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53" refid="MRAffineXf_8h_1a6c6316c665036a1da49675d8f99f67c0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref><sp/><ref refid="MRAffineXf_8h_1a6c6316c665036a1da49675d8f99f67c0" kindref="member">MR_AffineXf2f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
@@ -1818,7 +1792,7 @@
 <codeline lineno="221" refid="MRAffineXf_8h_1a6f9e99fe2e70862fe4b97612218d8ad2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRAffineXf_8h_1a6f9e99fe2e70862fe4b97612218d8ad2" kindref="member">MR_AffineXf3f_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/>*A,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"></highlight></codeline>
 <codeline lineno="223"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Here<sp/>`U<sp/>==<sp/>V`<sp/>doesn&apos;t<sp/>seem<sp/>to<sp/>cause<sp/>any<sp/>issues<sp/>in<sp/>the<sp/>C++<sp/>code,<sp/>but<sp/>we&apos;re<sp/>still<sp/>disabling<sp/>it<sp/>because<sp/>it<sp/>somehow<sp/>gets<sp/>emitted</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="224"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>when<sp/>generating<sp/>the<sp/>bindings,<sp/>and<sp/>results<sp/>in<sp/>duplicate<sp/>functions<sp/>in<sp/>C#.</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>when<sp/>generating<sp/>the<sp/>bindings,<sp/>and<sp/>results<sp/>in<sp/>duplicate<sp/>functions<sp/>in<sp/>C#.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="228" refid="MRAffineXf_8h_1a2eef4aa4f61e5f8774421d054fdc053e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRAffineXf_8h_1a2eef4aa4f61e5f8774421d054fdc053e" kindref="member">MR_AffineXf3f_Construct_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/>*xf);</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"></highlight></codeline>
 <codeline lineno="233" refid="MRAffineXf_8h_1a681c9904308f101a25d3cea705ed2bf6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRAffineXf_8h_1a681c9904308f101a25d3cea705ed2bf6" kindref="member">MR_AffineXf3f_translation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b);</highlight></codeline>

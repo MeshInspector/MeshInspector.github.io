@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1VoxelsVolumeMinMax" kind="struct" language="C++" prot="public">
     <compoundname>MR::VoxelsVolumeMinMax</compoundname>
     <basecompoundref refid="structMR_1_1VoxelsVolume" prot="public" virt="non-virtual">MR::VoxelsVolume&lt; T &gt;</basecompoundref>
-    <basecompoundref refid="structMR_1_1Box" prot="public" virt="non-virtual">MR::Box&lt; VoxelsVolume&lt; T &gt;::ValueType &gt;</basecompoundref>
-    <includes refid="MRVoxelsVolume_8h" local="no">MRVoxelsVolume.h</includes>
+    <basecompoundref refid="structMR_1_1Box" prot="public" virt="non-virtual">MR::Box&lt; T &gt;</basecompoundref>
+    <includes refid="MRVoxelsVolume_8h" local="no">MRVoxels/MRVoxelsVolume.h</includes>
     <templateparamlist>
       <param>
         <type>typename <ref refid="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" kindref="member">T</ref></type>
@@ -13,7 +13,7 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels </para>
+<para>represents a box in 3D space subdivided on voxels stored in <ref refid="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" kindref="member">T</ref>; and stores minimum and maximum values among all valid voxels </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="2">
@@ -51,7 +51,7 @@
         <link refid="structMR_1_1Box"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolume.h" line="64" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolume.h" bodystart="65" bodyend="71"/>
+    <location file="MRVoxels/MRVoxelsVolume.h" line="64" column="1" bodyfile="MRVoxels/MRVoxelsVolume.h" bodystart="65" bodyend="71"/>
     <listofallmembers>
       <member refid="structMR_1_1Box_1ab72759c3d199697fa09474bba5c5284c" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>Box</name></member>
       <member refid="structMR_1_1Box_1a0b1e0b6b95e8b735eda8de2bb06fd987" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>Box</name></member>

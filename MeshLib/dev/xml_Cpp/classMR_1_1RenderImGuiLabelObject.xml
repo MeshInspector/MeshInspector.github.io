@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderImGuiLabelObject" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderImGuiLabelObject</compoundname>
     <basecompoundref refid="classMR_1_1RenderObjectCombinator" prot="public" virt="non-virtual">MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderResetDirtyComponent &gt;</basecompoundref>
-    <includes refid="MRRenderImGuiLabelObject_8h" local="no">MRRenderImGuiLabelObject.h</includes>
+    <includes refid="MRRenderImGuiLabelObject_8h" local="no">MRViewer/MRRenderImGuiLabelObject.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga256037192503b9d5797a92292c980035" kind="variable"><name>object_</name></member>
       <member refid="group__GeneralGroup_1ga7a36069c74dac44417a63948abcea036" kind="variable"><name>task_</name></member>
@@ -52,7 +52,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderImGuiLabelObject.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderImGuiLabelObject.h" bodystart="16" bodyend="23"/>
+    <location file="MRViewer/MRRenderImGuiLabelObject.h" line="15" column="1" bodyfile="MRViewer/MRRenderImGuiLabelObject.h" bodystart="16" bodyend="23"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>forceBindAll</name></member>
       <member refid="group__GeneralGroup_1ga119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>glBytes</name></member>

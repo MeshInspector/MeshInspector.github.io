@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRHistogram_8h" kind="file" language="C++">
     <compoundname>MRHistogram.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -27,32 +27,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRHistogram_8h_1aa12bdb75aa07ac9931f491f5e67125aa" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref></type>
-        <definition>typedef struct MR_std_pair_float_float MR_std_pair_float_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_pair_float_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="12" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistogram_8h_1a4f0d822b41437ab650418eb826969703" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref></type>
-        <definition>typedef struct MR_std_vector_uint64_t MR_std_vector_uint64_t</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_uint64_t</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" line="13" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistogram.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" prot="public" static="no">
         <type>struct <ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref></type>
         <definition>typedef struct MR_Histogram MR_Histogram</definition>
@@ -206,7 +180,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Histogram</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -224,7 +198,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Histogram</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -439,11 +413,11 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRHistogram_8h_1aa12bdb75aa07ac9931f491f5e67125aa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref><sp/><ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_float_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRHistogram_8h_1a4f0d822b41437ab650418eb826969703" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref><sp/><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref><sp/><ref refid="MRDistanceMap_8h_1aa12bdb75aa07ac9931f491f5e67125aa" kindref="member">MR_std_pair_float_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_float_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref><sp/><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref>;</highlight></codeline>
+<codeline lineno="19" refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="MRHistogram_8h_1a641f3dba4f55d6b1db077270ee80ded2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRHistogram_8h_1a0e9f273dfbb0b8a846ee013219140002" kindref="member">MR_Histogram</ref><sp/>*<ref refid="MRHistogram_8h_1a641f3dba4f55d6b1db077270ee80ded2" kindref="member">MR_Histogram_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>

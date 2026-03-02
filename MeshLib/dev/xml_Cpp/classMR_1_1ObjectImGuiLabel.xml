@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectImGuiLabel" kind="class" language="C++" prot="public">
     <compoundname>MR::ObjectImGuiLabel</compoundname>
     <basecompoundref refid="classMR_1_1VisualObject" prot="public" virt="non-virtual">MR::VisualObject</basecompoundref>
-    <includes refid="MRObjectImGuiLabel_8h" local="no">MRObjectImGuiLabel.h</includes>
+    <includes refid="MRObjectImGuiLabel_8h" local="no">MRViewer/MRObjectImGuiLabel.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga9b04860d4fe72c53939b87642ecb60db" kind="variable"><name>labelText_</name></member>
     </sectiondef>
@@ -146,7 +146,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectImGuiLabel.h" bodystart="16" bodyend="57"/>
+    <location file="MRViewer/MRObjectImGuiLabel.h" line="15" column="1" bodyfile="MRViewer/MRObjectImGuiLabel.h" bodystart="16" bodyend="57"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::ObjectImGuiLabel</scope><name>addChildBefore</name></member>

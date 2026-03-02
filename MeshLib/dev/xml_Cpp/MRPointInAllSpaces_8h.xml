@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointInAllSpaces_8h" kind="file" language="C++">
     <compoundname>MRPointInAllSpaces.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -115,7 +115,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRPointInAllSpaces.h</label>
+        <label>MRViewer/MRPointInAllSpaces.h</label>
         <link refid="MRPointInAllSpaces_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -229,8 +229,8 @@
 <codeline lineno="39" refid="group__GeneralGroup_1gad49d9386ce331c43283a72c316c3b457" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref><sp/><ref refid="group__GeneralGroup_1gad49d9386ce331c43283a72c316c3b457" kindref="member">pof</ref>;</highlight></codeline>
 <codeline lineno="40"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPointInAllSpaces.h"/>
+    <location file="MRViewer/MRPointInAllSpaces.h"/>
   </compounddef>
 </doxygen>

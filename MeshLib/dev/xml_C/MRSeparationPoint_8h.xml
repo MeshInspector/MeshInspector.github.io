@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSeparationPoint_8h" kind="file" language="C++">
     <compoundname>MRSeparationPoint.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -90,44 +90,37 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRSeparationPoint_8h_1a33f2cead15f3bf37534d3678feb4af22" prot="public" static="no">
-        <type>struct <ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref></type>
-        <definition>typedef struct MR_Triangulation MR_Triangulation</definition>
-        <argsstring></argsstring>
-        <name>MR_Triangulation</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSeparationPoint.h" line="13" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSeparationPoint.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" prot="public" static="no">
         <type>struct <ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref></type>
         <definition>typedef struct MR_Vector_MR_VoxelId_MR_FaceId MR_Vector_MR_VoxelId_MR_FaceId</definition>
         <argsstring></argsstring>
         <name>MR_Vector_MR_VoxelId_MR_FaceId</name>
         <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&lt;MR::VoxelId, MR::FaceId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSeparationPoint.h" line="14" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSeparationPoint.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRSeparationPoint_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
-        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
-        <argsstring></argsstring>
-        <name>MR_VertCoords</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSeparationPoint.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSeparationPoint.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" prot="public" static="no">
         <type>struct <ref refid="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" kindref="member">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</ref></type>
@@ -154,19 +147,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSeparationPoint.h" line="17" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSeparationPoint.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRSeparationPoint_8h_1aefed148a09a0ae55edbd22814638b462" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref></type>
-        <definition>typedef struct MR_std_vector_MR_Vector3f MR_std_vector_MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSeparationPoint.h" line="18" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSeparationPoint.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSeparationPoint_8h_1a50ba1e74dca2acd917bebcdb2820e6d9" prot="public" static="no">
         <type>enum <ref refid="MRSeparationPoint_8h_1a1701eebc218aef79b7c6bb1852a5144f" kindref="member">MR_NeighborDir</ref></type>
@@ -322,7 +302,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SeparationPointStorage</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -340,7 +320,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SeparationPointStorage</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -973,7 +953,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SeparationPointStorage_Block</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -991,7 +971,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SeparationPointStorage_Block</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1061,12 +1041,12 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRSeparationPoint_8h_1a33f2cead15f3bf37534d3678feb4af22" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref><sp/><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRSeparationPoint_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" kindref="member">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</ref><sp/><ref refid="MRSeparationPoint_8h_1a74f8c3cd688b18a927b2d464fad5f575" kindref="member">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_array_MR_VertId_3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRSeparationPoint_8h_1aefed148a09a0ae55edbd22814638b462" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRSeparationPoint_8h_1a1701eebc218aef79b7c6bb1852a5144f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a1701eebc218aef79b7c6bb1852a5144f" kindref="member">MR_NeighborDir</ref></highlight></codeline>
@@ -1077,9 +1057,9 @@
 <codeline lineno="26" refid="MRSeparationPoint_8h_1a1701eebc218aef79b7c6bb1852a5144fab7c1f4e8f8e93e271e528f8bcd4ceb6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSeparationPoint_8h_1a1701eebc218aef79b7c6bb1852a5144fab7c1f4e8f8e93e271e528f8bcd4ceb6c" kindref="member">MR_NeighborDir_Count</ref><sp/>=<sp/>3,</highlight></codeline>
 <codeline lineno="27" refid="MRSeparationPoint_8h_1a50ba1e74dca2acd917bebcdb2820e6d9" refkind="member"><highlight class="normal">}<sp/><ref refid="MRSeparationPoint_8h_1a1701eebc218aef79b7c6bb1852a5144f" kindref="member">MR_NeighborDir</ref>;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref><sp/><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref>;</highlight></codeline>
+<codeline lineno="31" refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref><sp/><ref refid="MRSeparationPoint_8h_1ac6335a684721a20e9d9b3d4afd039f60" kindref="member">MR_SeparationPointStorage_Block</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref><sp/><ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref>;</highlight></codeline>
+<codeline lineno="36" refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref><sp/><ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref>;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40" refid="MRSeparationPoint_8h_1ae27539ce63d3ee860e7959d90c2154dd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSeparationPoint_8h_1a5bcf2d9a78b61d58787442aa38075ffa" kindref="member">MR_SeparationPointStorage</ref><sp/>*<ref refid="MRSeparationPoint_8h_1ae27539ce63d3ee860e7959d90c2154dd" kindref="member">MR_SeparationPointStorage_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMinMaxArg_8h" kind="file" language="C++">
     <compoundname>MRMinMaxArg.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -54,20 +54,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMinMaxArg.h" line="12" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMinMaxArg.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMinMaxArg_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" prot="public" static="no">
-        <type>struct <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref></type>
-        <definition>typedef struct MR_MinMaxArg_float_MR_VertId MR_MinMaxArg_float_MR_VertId</definition>
-        <argsstring></argsstring>
-        <name>MR_MinMaxArg_float_MR_VertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>minimum and maximum of some elements of type T, and the indices of where minimum and maximum are reached of type I Generated from class <computeroutput>MR::MinMaxArg&lt;float, MR::VertId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMinMaxArg.h" line="19" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMinMaxArg.h" bodystart="19" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -440,7 +426,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MinMaxArg_float_MR_VertId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -458,7 +444,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MinMaxArg_float_MR_VertId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -614,7 +600,7 @@
 <codeline lineno="12" refid="MRMinMaxArg_8h_1a94e95814e5f5c93075bde4b4700b2373" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMinMaxArg_8h_1a94e95814e5f5c93075bde4b4700b2373" kindref="member">MR_std_pair_float_MR_VertId</ref><sp/><ref refid="MRMinMaxArg_8h_1a94e95814e5f5c93075bde4b4700b2373" kindref="member">MR_std_pair_float_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_float_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRMinMaxArg_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25" refid="MRMinMaxArg_8h_1acda1f768a36063005a18d206eb953020" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMinMaxArg_8h_1acda1f768a36063005a18d206eb953020" kindref="member">MR_MinMaxArg_float_MR_VertId_Get_min</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>

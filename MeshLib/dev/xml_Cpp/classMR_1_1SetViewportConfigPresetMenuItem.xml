@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SetViewportConfigPresetMenuItem" kind="class" language="C++" prot="public">
     <compoundname>MR::SetViewportConfigPresetMenuItem</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
-    <includes refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="no">MRSceneControlMenuItems.h</includes>
+    <includes refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="no">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga3d2a81d9958b76933c36a468144ccc9d" kind="enum"><name>Type</name></member>
     </sectiondef>
@@ -56,7 +56,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="71" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="72" bodyend="89"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="71" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="72" bodyend="89"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaab1e4ca9d8717e7092bf07b4ff40434a" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>blocking</name></member>

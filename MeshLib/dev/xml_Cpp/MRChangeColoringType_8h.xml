@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangeColoringType_8h" kind="file" language="C++">
     <compoundname>MRChangeColoringType.h</compoundname>
     <includes refid="MRHistoryAction_8h" local="yes">MRHistoryAction.h</includes>
@@ -75,7 +75,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRChangeColoringType.h</label>
+        <label>MRMesh/MRChangeColoringType.h</label>
         <link refid="MRChangeColoringType_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -545,10 +545,10 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="classMR_1_1ChangeColoringType" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeColoringType" kindref="compound">ChangeColoringType</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="14" refid="classMR_1_1ChangeColoringType" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga6129a4154bb8fde03e2dfc8d0e310ad2" kindref="member">ChangeColoringType</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="17" refid="group__GeneralGroup_1ga35b932ef1ea3756de261b79a1a7a7677" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1VisualObject" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>;</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga35b932ef1ea3756de261b79a1a7a7677" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga35b932ef1ea3756de261b79a1a7a7677" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1ga6129a4154bb8fde03e2dfc8d0e310ad2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga6129a4154bb8fde03e2dfc8d0e310ad2" kindref="member">ChangeColoringType</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="group__GeneralGroup_1ga531d559082c32567d685d888d4602ddf" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;VisualObject&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obj_{<sp/>obj<sp/>},</highlight></codeline>
@@ -602,6 +602,6 @@
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringType.h"/>
+    <location file="MRMesh/MRChangeColoringType.h"/>
   </compounddef>
 </doxygen>

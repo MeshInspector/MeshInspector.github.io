@@ -1,10 +1,7 @@
 var MRMeshMeshDistance_8h =
 [
-    [ "MR_AffineXf3f", "MRMeshMeshDistance_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
     [ "MR_MeshMeshDistanceResult", "MRMeshMeshDistance_8h.html#aaaef17266d43a3f23b258d9769d940f7", null ],
     [ "MR_MeshMeshSignedDistanceResult", "MRMeshMeshDistance_8h.html#a04beb5153370f051a06c0671724b799f", null ],
-    [ "MR_MeshPart", "MRMeshMeshDistance_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
-    [ "MR_PointOnFace", "MRMeshMeshDistance_8h.html#a8329bba5dc9407bd75ca1a4909c9fe9a", null ],
     [ "MR_findDistance", "MRMeshMeshDistance_8h.html#a0ddc3e091c81df61792f1be0d3efc9ac", null ],
     [ "MR_findMaxDistanceSq_MR_MeshPart", "MRMeshMeshDistance_8h.html#aca0a1e41eae8e5341359074904b1d5d8", null ],
     [ "MR_findMaxDistanceSqOneWay_MR_MeshPart", "MRMeshMeshDistance_8h.html#aa37f1c0b217c29426a2ec7de035b6d30", null ],

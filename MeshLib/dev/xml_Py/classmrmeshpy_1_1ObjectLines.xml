@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ObjectLines" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ObjectLines</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1ObjectLinesHolder" prot="public" virt="non-virtual">mrmeshpy.ObjectLinesHolder</basecompoundref>
@@ -87,7 +87,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ObjectLines.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1ObjectLinesHolder_1ae89c55eb14c80dcca14c9e11137e09fa">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -359,19 +358,147 @@ This object type has not visual representation, just holder for lines in scene
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39839" bodyend="39881"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ObjectLines_1a24f2e6fd3d90352d42be66772b68adc0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a4c9a5cdc889f952e88f15efc92859b0b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>addChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a628d57698bee030f4e37809eed20fdb6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>addChildBefore</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a14c3c142ce5c7a92531fcf914b1ffea2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>addTag</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1acb205f054024051149f4102cd445e788" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>applyScale</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae3f323064ae2cb5d831eeb6a3baaa379" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>asType_VisualObject</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae3f323064ae2cb5d831eeb6a3baaa379" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>asType_VisualObject</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a63154f43549ab27f62446810817169fa" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>avgEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a35f5a7bbb06be9169dbe752e0b8440e3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>children</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3c285511171875eaa87d26a18bd45efc" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>children</name></member>
       <member refid="classmrmeshpy_1_1ObjectLines_1a11a411ea161ed418068927262a83cf3b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>className</name></member>
       <member refid="classmrmeshpy_1_1ObjectLines_1ad52b81f2012ce9e94c78b93e31140cd2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>classNameInPlural</name></member>
       <member refid="classmrmeshpy_1_1ObjectLines_1a83edefef20d75676d641281be9ae8a81" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a115b8bd891d9bd7e08946e8f84da09f0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>cloneTree</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ae752ebe42b1366e48661b9f506530f7e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>copyAllSolidColors</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1adb4c956a11a4aa8fdb7b1445ac00f633" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>copyColors</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a567315111aee91b3dd5bfef4188b23b7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>detachFromParent</name></member>
       <member refid="classmrmeshpy_1_1ObjectLines_1afb127f2e9dcc657e20eaed0a8fa730f0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>extractLines</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae6adbbc7286265563fb4d6d162f4dc49" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ae6adbbc7286265563fb4d6d162f4dc49" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aef02c28f6dfb85ade9554043fdf249dd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>findCommonAncestor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aef02c28f6dfb85ade9554043fdf249dd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>findCommonAncestor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a994cad33d6a8028132f72cdd9b0dca98" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a82c638c112056461424bfc09c23925b7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getAmbientStrength</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ae0c6dc670480c262a52017d0b1ff5076" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getBackColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9c50e24643b786be0271ce69b3390c9c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7f787f2b93a34cfb4d2d1744e2177271" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getBoundingBox</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1af2701866ba9629c598b8d6c83056f4f3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getColoringType</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1af249e57b24df8f736013ff87ce16fc67" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getDashPattern</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a4b9ead8b38c035c872a132c5cb24bf5d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getDirtyFlags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a11379e0c744f5321294c2f28865a145c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa2808b144a06c6ceb816da6622c52c5f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a0344754bf693ea2f2aea12d9f0ec3854" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getGlobalAlpha</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa6dea7b6b8d6999a2441165e0073951e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getGlobalAlphaForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1ObjectLines_1af9f89a101bc8c2e0e2047c01b3196b16" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getInfoLines</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a933eec1123ee3897a437afcd8f694693" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getLinesColorMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1ac7b63e5eee394d637f7bce100638ac78" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3eef5ed5fd88feb0b2e586d0b1c0e254" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getModelHash</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a30a24514e82b96357d67bf065276be68" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getPointSize</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9b36e627e752037bbe0d6cfeee96dbaf" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getRedrawFlag</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1aa1020074c1326a825c86467a0580791d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getSharedPtr</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9224ef194f3580c35affb61d7a560db2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getShininess</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a8ac83a9fca121b3f5e6716ed1222a5f8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getSpecularStrength</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a863f6ff5544c790dbf9a95bca6cea4ee" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getVertsColorMap</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a487af7ed5a9684ff50ae73578c31bf4b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1ab13e38aeb0c31e09015e40caedd7df43" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a54596b7e6cf3d95356455b1646909346" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getWorldBox</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a000669ce3765e97358761b420a4b3283" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>getWorldTreeBox</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7423a165764f0bf97fbbfcb6ef6913e2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>globalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ade27c4b572461dfa2f68ed3b8ecafb70" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a78a7d136a58b2e69851ac59192bcd5b5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>globalVisibility</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a4b1a4fd5f92fc87757bc139ce2e770be" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>globalVisibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1acfea5d3c47d06fd269b4f67584db0300" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>hasModel</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1acf9de6509d7769c04d816fce4614089c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a66a9da044d1ff0dafad25ee62ec981cb" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a33d0fafc2423205d5a3ba75eae112655" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>isAncestor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a5a2cb58be1a7e062e9c502295eb6ce23" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>isAncillary</name></member>
+      <member refid="classmrmeshpy_1_1Object_1afcc5164e9ca381ad398640ab2729fa59" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>isGlobalAncillary</name></member>
+      <member refid="classmrmeshpy_1_1Object_1adb58092748e5b61228ff7ed23b9c0d6f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>isLocked</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aad4248d019ab25e15e9f40f726c1f3d3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>isParentLocked</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a90715c5c04e6a8c2a5d0998877fec7d7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>isPickable</name></member>
+      <member refid="classmrmeshpy_1_1Object_1add3395c8e6e84a9d82d622557fb6939f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>isSelected</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ad160388c69186e8a83fde5e8eb02535e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>isVisible</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1df02ba03a7110bf58c7f740696f4c35" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a2b1a6a7bd1e518c46da8429a841f873b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>numComponents</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a9c8bef0028808244b470495c2c937844" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>numUndirectedEdges</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1a9841054fc788030ad0fb8289bcf3398e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1a9841054fc788030ad0fb8289bcf3398e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a49aa72b1374065f24972ced7c2bfbe34" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>parent</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a49aa72b1374065f24972ced7c2bfbe34" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>parent</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a6ae665bceaf15ddd1db70c553f88ef8f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>polyline</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aa593f6befb32f6453133a516f1c863b8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>removeAllChildren</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a414cac53ffc4dac827d7b9ddbf126098" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>removeChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a414cac53ffc4dac827d7b9ddbf126098" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>removeChild</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a50fdb1e10c8b57d176b21fd1224c1292" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>removeTag</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acc91ecedf69cebccb4b80aec9dc0f662" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>render</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3abff6c6fabf3fe8e9aa545af55f2f9f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>renderForPicker</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5140b7d1eac8c1736d61cc0459a4a83e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>renderUi</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1abf55328c86b56d62b4b1654186f4f68f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>resetColors</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a6c9e2837535628e814ef5dda5e6f9804" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>resetDirty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7878a1ddebce740b0874891ca28193b4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a2b6ccbafe3df2faed6e745abad21486f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>resetFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a3f27a64bfcdec74242fdf571a687c94c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>resetRedrawFlag</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a9d4920ba95eb61dd557cc7b77e8b1654" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>resetXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a390de01f2ab8caa5e1d044458234a6d5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>sameModels</name></member>
+      <member refid="classmrmeshpy_1_1Object_1abaa159cd1e51142ff71a27dcab211ada" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>select</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3d1644b7ff803c36884c9296da2bd460" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a42b4f144aeb3979ad37f0fedfc15e5ef" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setAmbientStrength</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a2db756ea98710dbbc11ae7d00752b069" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setAncillary</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aaaccb31a8a316a3da6575115e7f48e2b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setBackColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ad509bb820ada532c9f7ac2957aec5726" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a45fe6a0cc0b9e898e6e027a173baae46" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setColoringType</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1abb5283114195f89d27d3aa6df20b216a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setDashPattern</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1ae2cf69c6b8bbc437fac219147a738433" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setDirtyFlags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a2035ca4e1448d569df9ed966c8e3809c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acdbcc2226221f32f64842601d9e1e4a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5323ee4dc727ada25adb2c462a136568" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setGlobalAlpha</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1afa64178b2ff0ec0f3160412286a20124" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acf83e4c9435a077550174b95dbba85a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a1f260bf94c3aaca96c76a3b2df7e4123" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setGlobalVisibility</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1acebcd884d454d5c6138f9087f1b80387" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setLinesColorMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a4654badc49423f7a1fb0854b5ae7703f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aff9e7cf21687080d8eb1322b76772577" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setLocked</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a9c9747a45a791c65be899d3376c0b6ef" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setName</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aae28ca7af2e7903818a96c60d5959e07" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setParentLocked</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a571b17c0c898d7ba22361d3acea9f511" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setPickable</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a4ec2b14d39277e0418d98923d9766295" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setPointSize</name></member>
       <member refid="classmrmeshpy_1_1ObjectLines_1a798331c127c5198f2ff81ba21a088610" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setPolyline</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a03bf218ed762761b72a397cf74ac6b25" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setShininess</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa5aaf91f77383289702c646d873af962" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setSpecularStrength</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a835cb96e26e7068936c68aba9046257e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a7c7099eb166b12f37f7ca8f6f8ef929a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setVertsColorMap</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a2a093177bee96f9715ec03afc69262aa" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setVisibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a8b7a91d7379e983adad42fd434e04381" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setVisible</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a714cc9052b7153f7263836546050015f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a48dca93e69125ceede505cae9f2e4629" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a77d09c218526c06a68035b076296bcda" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setWorldXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aa19f9528e669d68920059fa560ef527b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1aac6bdfb45902aa99fc95799b508c57f5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>setXfsForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1ObjectLines_1a8d33c4e7cb486c5b6ee8423373d416f6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ab39f51bc5e295bf79bf21e09e8a4374b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>shallowCloneTree</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a1982e8baf3d180cb968085525a988ec4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>showName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1adf37fc4271039b5e74b29185ddbd35e3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>showName</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a81fe3b89047200dec9832c065dd92ceb" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>sortChildren</name></member>
       <member refid="classmrmeshpy_1_1ObjectLines_1a7e230027333811cc1efb1de2dfb96dc9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>StaticClassName</name></member>
       <member refid="classmrmeshpy_1_1ObjectLines_1a9ad0ae2a3be633d080d7f26a7c9cb8c9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>StaticClassNameInPlural</name></member>
       <member refid="classmrmeshpy_1_1ObjectLines_1af11498db2ee39361857b833ffbca18fd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a3da9a9950b496f5f6239dddeb246887b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a6c92cdb11df4d895c639f0e26dca1c83" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a12a90ffff0f3f0d2f6054e8e82a63679" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>tags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1afccac4560acbe3eb1403c494d2d9b197" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a9e0cd657b957e0b8c333177c01ab1f04" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>totalLength</name></member>
       <member refid="classmrmeshpy_1_1ObjectLines_1a64022fd1c53b41a5116e1f9b62016c48" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>typeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a0882af5e3f185e6fe9863b2b29e59559" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>updateLinesColorMap</name></member>
       <member refid="classmrmeshpy_1_1ObjectLines_1a3dcb3d9509339db6de959ef4369c1f4c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>updatePolyline</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1af3e21cbc79b8e070d567c38eb8e25445" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>updateVertsColorMap</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5e25b63c3965dc9f65f914e80f164bbd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classmrmeshpy_1_1ObjectLines_1ac11b330f581bbbca249538ea3c7a9625" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>varPolyline</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a64e97a992a254dfa6b44c7bf1eb144e4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>visibilityMask</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a0fe057c0f6fe9f8ee98bd8210faa983c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>worldXf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a157327fa8110ea13a8b12bf04748331d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a05ee8acaa199b194040b1613d4038012" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLines</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

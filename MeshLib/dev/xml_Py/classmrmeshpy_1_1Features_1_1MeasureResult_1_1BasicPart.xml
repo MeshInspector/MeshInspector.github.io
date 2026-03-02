@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Features::MeasureResult::BasicPart</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle" prot="public" virt="non-virtual">mrmeshpy.Features.MeasureResult.Angle</derivedcompoundref>
@@ -45,12 +45,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aee3c0b13161ae5cc1e66c9d7a80e2beb">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ab419114bbda7bb5fb89bcc9b8d731240">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1af3a5fe37f8babe3c2a4074a60f7f3ceb">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a574cb4c3ba5323f0c11d1d7469f0c73e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a6d500af459cbae224203c247e38b091a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1abcf09585c82f77e506d636969a1a79a7">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -145,12 +139,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aee3c0b13161ae5cc1e66c9d7a80e2beb">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ab419114bbda7bb5fb89bcc9b8d731240">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1af3a5fe37f8babe3c2a4074a60f7f3ceb">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a574cb4c3ba5323f0c11d1d7469f0c73e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a6d500af459cbae224203c247e38b091a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1abcf09585c82f77e506d636969a1a79a7">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -169,12 +157,6 @@
         <argsstring>(self, Features.MeasureResult.BasicPart arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aee3c0b13161ae5cc1e66c9d7a80e2beb">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ab419114bbda7bb5fb89bcc9b8d731240">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1af3a5fe37f8babe3c2a4074a60f7f3ceb">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a574cb4c3ba5323f0c11d1d7469f0c73e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a6d500af459cbae224203c247e38b091a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1abcf09585c82f77e506d636969a1a79a7">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -199,12 +181,6 @@
         <argsstring>(self, Features.MeasureResult.Status status)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aee3c0b13161ae5cc1e66c9d7a80e2beb">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ab419114bbda7bb5fb89bcc9b8d731240">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1af3a5fe37f8babe3c2a4074a60f7f3ceb">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a574cb4c3ba5323f0c11d1d7469f0c73e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a6d500af459cbae224203c247e38b091a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1abcf09585c82f77e506d636969a1a79a7">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -229,8 +205,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.__repr__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ad757abd712d3b60bbadca720e25f2e71">__repr__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a21180c5aec2130a8a816275f883b7ac6">__repr__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -273,18 +247,12 @@
         <label>mrmeshpy.Features.MeasureResult.BasicPart</label>
         <link refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart"/>
         <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_status</edgelabel>
-        </childnode>
-        <childnode refid="3" relation="usage">
           <edgelabel>status</edgelabel>
         </childnode>
       </node>
-      <node id="3">
+      <node id="2">
         <label>mrmeshpy.Features</label>
         <link refid="classmrmeshpy_1_1Features"/>
-      </node>
-      <node id="2">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18271" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18271" bodyend="18305"/>

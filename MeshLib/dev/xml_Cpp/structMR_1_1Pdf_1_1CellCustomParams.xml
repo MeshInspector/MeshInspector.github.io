@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Pdf_1_1CellCustomParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::Pdf::CellCustomParams</compoundname>
-    <includes refid="MRPdf_8h" local="no">MRPdf.h</includes>
+    <includes refid="MRPdf_8h" local="no">MRIOExtras/MRPdf.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga8da0806f9e4216beecedc92f0af5e48c" kind="variable"><name>colorText</name></member>
       <member refid="group__GeneralGroup_1ga70b9acf2ccdbf5641f8e6d5d9c66c37e" kind="variable"><name>colorCellBg</name></member>
@@ -13,7 +13,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="210" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="211" bodyend="216"/>
+    <location file="MRIOExtras/MRPdf.h" line="210" column="5" bodyfile="MRIOExtras/MRPdf.h" bodystart="211" bodyend="216"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga70b9acf2ccdbf5641f8e6d5d9c66c37e" prot="public" virt="non-virtual"><scope>MR::Pdf::CellCustomParams</scope><name>colorCellBg</name></member>
       <member refid="group__GeneralGroup_1gaa0d955c51ec17d9ae66d62a4c5ae2c7b" prot="public" virt="non-virtual"><scope>MR::Pdf::CellCustomParams</scope><name>colorCellBorder</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1QuarterBit" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::QuarterBit</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -518,22 +518,6 @@
   All
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.QuarterBit</label>
-        <link refid="classmrmeshpy_1_1QuarterBit"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>All</edgelabel>
-          <edgelabel>LeftLeft</edgelabel>
-          <edgelabel>LeftRight</edgelabel>
-          <edgelabel>RightLeft</edgelabel>
-          <edgelabel>RightRight</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48874" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48874" bodyend="48935"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1QuarterBit_1aab1bc70720809764d46e05739304767c" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__and__</name></member>

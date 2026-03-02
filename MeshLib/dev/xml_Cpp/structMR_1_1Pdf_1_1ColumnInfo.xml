@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Pdf_1_1ColumnInfo" kind="struct" language="C++" prot="private">
     <compoundname>MR::Pdf::ColumnInfo</compoundname>
     <sectiondef kind="public-attrib">
@@ -10,7 +10,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="267" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="268" bodyend="271"/>
+    <location file="MRIOExtras/MRPdf.h" line="267" column="5" bodyfile="MRIOExtras/MRPdf.h" bodystart="268" bodyend="271"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2147c8a2e62a21221c6f35ede6896a59" prot="public" virt="non-virtual"><scope>MR::Pdf::ColumnInfo</scope><name>valueFormat</name></member>
       <member refid="group__GeneralGroup_1gab502e39c2c738a5be789bbf583d51789" prot="public" virt="non-virtual"><scope>MR::Pdf::ColumnInfo</scope><name>width</name></member>

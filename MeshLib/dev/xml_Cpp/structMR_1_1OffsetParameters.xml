@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1OffsetParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::OffsetParameters</compoundname>
     <basecompoundref refid="structMR_1_1BaseShellParameters" prot="public" virt="non-virtual">MR::BaseShellParameters</basecompoundref>
     <derivedcompoundref refid="structMR_1_1SharpOffsetParameters" prot="public" virt="non-virtual">MR::SharpOffsetParameters</derivedcompoundref>
-    <includes refid="MROffset_8h" local="no">MROffset.h</includes>
+    <includes refid="MROffset_8h" local="no">MRVoxels/MROffset.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaa411170d1cc5cc475f3caeab0a525e26" kind="variable"><name>signDetectionMode</name></member>
       <member refid="group__GeneralGroup_1ga17a5a45fd3d4de2eba7280f9071ac737" kind="variable"><name>closeHolesInHoleWindingNumber</name></member>
@@ -53,7 +53,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="32" bodyend="61"/>
+    <location file="MRVoxels/MROffset.h" line="31" column="1" bodyfile="MRVoxels/MROffset.h" bodystart="32" bodyend="61"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga21a919475b5c9882d80ab9a26dd60d50" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>callBack</name></member>
       <member refid="group__GeneralGroup_1ga17a5a45fd3d4de2eba7280f9071ac737" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>closeHolesInHoleWindingNumber</name></member>

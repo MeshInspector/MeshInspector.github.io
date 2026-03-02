@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshNormals_8h" kind="file" language="C++">
     <compoundname>MRMeshNormals.h</compoundname>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
@@ -61,7 +61,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshNormals.h</label>
+        <label>MRMesh/MRMeshNormals.h</label>
         <link refid="MRMeshNormals_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -215,12 +215,12 @@
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36" refid="group__MeshNormalsGroup_1gade8bb0a85e5a0e9f0038065ea5bcd9cf" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshNormals" kindref="compound">MeshNormals</ref><sp/><ref refid="group__MeshNormalsGroup_1gade8bb0a85e5a0e9f0038065ea5bcd9cf" kindref="member">computeMeshNormals</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh<sp/>);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="group__MeshNormalsGroup_1ga59217bfc441b57736e20fa4c8b136c1f" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__MeshNormalsGroup_1ga59217bfc441b57736e20fa4c8b136c1f" kindref="member">TriangleCornerNormals</ref><sp/>=<sp/>std::array&lt;Vector3f,<sp/>3&gt;;</highlight></codeline>
+<codeline lineno="39" refid="group__MeshNormalsGroup_1ga59217bfc441b57736e20fa4c8b136c1f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__MeshNormalsGroup_1ga59217bfc441b57736e20fa4c8b136c1f" kindref="member">TriangleCornerNormals</ref><sp/>=<sp/>std::array&lt;Vector3f,<sp/>3&gt;;</highlight></codeline>
 <codeline lineno="42" refid="group__MeshNormalsGroup_1gae0d9f93e52c6de06a13b82bdcd6c69b5" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;TriangleCornerNormals, FaceId&gt;</ref><sp/><ref refid="group__MeshNormalsGroup_1gae0d9f93e52c6de06a13b82bdcd6c69b5" kindref="member">computePerCornerNormals</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet*<sp/>creases<sp/>);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h"/>
+    <location file="MRMesh/MRMeshNormals.h"/>
   </compounddef>
 </doxygen>

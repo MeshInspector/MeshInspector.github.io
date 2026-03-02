@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1EmbeddedStructureParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::EmbeddedStructureParameters</compoundname>
-    <includes refid="MREmbedTerrainStructure_8h" local="no">MREmbedTerrainStructure.h</includes>
+    <includes refid="MREmbedTerrainStructure_8h" local="no">MRMesh/MREmbedTerrainStructure.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaa7558ae5f2adc54f37b0610cb406b7a3" kind="variable"><name>fillAngle</name></member>
       <member refid="group__GeneralGroup_1ga05c78c11ae3e84bc6ecb2f3ea9baf462" kind="variable"><name>cutAngle</name></member>
@@ -17,7 +17,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREmbedTerrainStructure.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREmbedTerrainStructure.h" bodystart="15" bodyend="30"/>
+    <location file="MRMesh/MREmbedTerrainStructure.h" line="14" column="1" bodyfile="MRMesh/MREmbedTerrainStructure.h" bodystart="15" bodyend="30"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga05c78c11ae3e84bc6ecb2f3ea9baf462" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>cutAngle</name></member>
       <member refid="group__GeneralGroup_1gaa7558ae5f2adc54f37b0610cb406b7a3" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>fillAngle</name></member>

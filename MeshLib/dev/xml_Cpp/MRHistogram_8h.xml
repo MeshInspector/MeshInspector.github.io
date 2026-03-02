@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRHistogram_8h" kind="file" language="C++">
     <compoundname>MRHistogram.h</compoundname>
     <includes refid="MRHeapBytes_8h" local="yes">MRHeapBytes.h</includes>
-    <includedby refid="MRObjectVoxels_8h" local="yes">MRObjectVoxels.h</includedby>
+    <includedby refid="MRObjectVoxels_8h" local="yes">MRVoxels/MRObjectVoxels.h</includedby>
     <incdepgraph>
       <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -24,7 +24,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRHistogram.h</label>
+        <label>MRMesh/MRHistogram.h</label>
         <link refid="MRHistogram_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -86,25 +86,25 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>MRBinaryOperationsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
       </node>
       <node id="1">
-        <label>MRHistogram.h</label>
+        <label>MRMesh/MRHistogram.h</label>
         <link refid="MRHistogram_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRChangeVoxelSelectionAction.h</label>
+        <label>MRVoxels/MRChangeVoxelSelectionAction.h</label>
         <link refid="MRChangeVoxelSelectionAction_8h"/>
       </node>
       <node id="5">
-        <label>MRChangeVoxelsAction.h</label>
+        <label>MRVoxels/MRChangeVoxelsAction.h</label>
         <link refid="MRChangeVoxelsAction_8h"/>
       </node>
       <node id="2">
-        <label>MRObjectVoxels.h</label>
+        <label>MRVoxels/MRObjectVoxels.h</label>
         <link refid="MRObjectVoxels_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -127,8 +127,8 @@
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"></codeline>
-<codeline lineno="12" refid="classMR_1_1Histogram" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Histogram" kindref="compound">Histogram</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classMR_1_1Histogram" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaba207b56824356ab7f80254c5fd34819" kindref="member">Histogram</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1gaba207b56824356ab7f80254c5fd34819" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaba207b56824356ab7f80254c5fd34819" kindref="member">Histogram</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -136,7 +136,7 @@
 <codeline lineno="18" refid="group__GeneralGroup_1gad5ea2693d9db6b1e3a7b67617c339db0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gad5ea2693d9db6b1e3a7b67617c339db0" kindref="member">Histogram</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>min,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>max,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1gab826dc466fb10e173c94b9cf2f5c19be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab826dc466fb10e173c94b9cf2f5c19be" kindref="member">addSample</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sample,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>count<sp/>=<sp/>1<sp/>);</highlight></codeline>
-<codeline lineno="23" refid="group__GeneralGroup_1ga7669591d105985fc045cd1de3c799be9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7669591d105985fc045cd1de3c799be9" kindref="member">addHistogram</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Histogram" kindref="compound">Histogram</ref>&amp;<sp/>hist<sp/>);</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga7669591d105985fc045cd1de3c799be9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7669591d105985fc045cd1de3c799be9" kindref="member">addHistogram</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaba207b56824356ab7f80254c5fd34819" kindref="member">Histogram</ref>&amp;<sp/>hist<sp/>);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="group__GeneralGroup_1ga7f76d8d458118ec2a7e966bc9d00e576" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;size_t&gt;&amp;<sp/><ref refid="group__GeneralGroup_1ga7f76d8d458118ec2a7e966bc9d00e576" kindref="member">getBins</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
@@ -156,6 +156,6 @@
 <codeline lineno="46"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="47"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h"/>
+    <location file="MRMesh/MRHistogram.h"/>
   </compounddef>
 </doxygen>

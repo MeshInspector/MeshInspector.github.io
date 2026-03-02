@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1QuadricApprox" kind="class" language="C++" prot="public">
     <compoundname>MR::QuadricApprox</compoundname>
-    <includes refid="MRBestFitQuadric_8h" local="no">MRBestFitQuadric.h</includes>
+    <includes refid="MRBestFitQuadric_8h" local="no">MRMesh/MRBestFitQuadric.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gac8e19cbed09e8196fce48b968dc5e48b" kind="variable"><name>accumA_</name></member>
       <member refid="group__GeneralGroup_1gac6a49098dda65bfc0257dad801d5c49e" kind="variable"><name>accumB_</name></member>
@@ -21,7 +21,7 @@
 <para>Accumulate points and make best quadric approximation</para>
 <para><formula id="1">$ a*x^2 + b*x*y + c*y^2 + d*x + e*y + f = z $</formula> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitQuadric.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitQuadric.h" bodystart="15" bodyend="32"/>
+    <location file="MRMesh/MRBestFitQuadric.h" line="14" column="1" bodyfile="MRMesh/MRBestFitQuadric.h" bodystart="15" bodyend="32"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac8e19cbed09e8196fce48b968dc5e48b" prot="private" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>accumA_</name></member>
       <member refid="group__GeneralGroup_1gac6a49098dda65bfc0257dad801d5c49e" prot="private" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>accumB_</name></member>

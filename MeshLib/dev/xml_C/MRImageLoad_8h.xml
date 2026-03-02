@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRImageLoad_8h" kind="file" language="C++">
     <compoundname>MRImageLoad.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -14,21 +14,6 @@
         <label>MRCMisc/exports.h</label>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRImageLoad_8h_1a4b3fdef77440565efc1c3cf3be1904f6" prot="public" static="no">
-        <type>struct <ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_Image_std_string MR_expected_MR_Image_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_Image_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImageLoad.h" line="9" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImageLoad.h" bodystart="9" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRImageLoad_8h_1af48f8daf11d1aac28ea705de5cfeee88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref> *</type>
@@ -66,7 +51,7 @@
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="MRImageLoad_8h_1a4b3fdef77440565efc1c3cf3be1904f6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref><sp/><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Image_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref><sp/><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Image_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRImageLoad_8h_1af48f8daf11d1aac28ea705de5cfeee88" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref><sp/>*<ref refid="MRImageLoad_8h_1af48f8daf11d1aac28ea705de5cfeee88" kindref="member">MR_ImageLoad_fromAnySupportedFormat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end);</highlight></codeline>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Heap_float_GraphVertId_std_greater_float</compoundname>
     <innerclass refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element" prot="public">mrmeshpy::Heap_float_GraphVertId_std_greater_float::Element</innerclass>
@@ -368,7 +368,8 @@
  \\brief stores map from element id in[0, size) to T;
  \\details provides two operations:
  1) change the value of any element;
- 2) find the element with the largest value</verbatim> </para>
+ 2) find the element with the largest value
+</verbatim> </para>
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22738" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22738" bodyend="22838"/>
     <listofallmembers>

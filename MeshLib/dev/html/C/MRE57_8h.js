@@ -1,16 +1,9 @@
 var MRE57_8h =
 [
     [ "MR_expected_MR_LoadedObjects_std_string", "MRE57_8h.html#afddfdf9f07abac630b268df02dbaed95", null ],
-    [ "MR_expected_MR_PointCloud_std_string", "MRE57_8h.html#a9dbbf904c32d71d8c8ec8da2165b4a12", null ],
     [ "MR_expected_std_vector_MR_PointsLoad_NamedCloud_std_string", "MRE57_8h.html#a691e12800ee03c8df9f09ac231d76c43", null ],
-    [ "MR_PointCloud", "MRE57_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
     [ "MR_PointsLoad_E57LoadSettings", "MRE57_8h.html#aaf6e01cc3e4e1f5b8329ff9deb5e5d99", null ],
     [ "MR_PointsLoad_NamedCloud", "MRE57_8h.html#a2e724107d609a8e4d4f81da6beb2eba0", null ],
-    [ "MR_PointsLoadSettings", "MRE57_8h.html#a67029d3455a5c9aa45725d3c35e1e4df", null ],
-    [ "MR_std_function_bool_from_float", "MRE57_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_istream", "MRE57_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
-    [ "MR_std_string", "MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
-    [ "MR_VertColors", "MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768", null ],
     [ "MR_PointsLoad_E57LoadSettings_AssignFromAnother", "MRE57_8h.html#a0b82792a9c508b0cd19f6881ab6eaa52", null ],
     [ "MR_PointsLoad_E57LoadSettings_ConstructFrom", "MRE57_8h.html#ac2caf238b1f13399cfa9b195fb16739e", null ],
     [ "MR_PointsLoad_E57LoadSettings_ConstructFromAnother", "MRE57_8h.html#a6cc4b5a469a0ee1fb0d29b11b3f8454c", null ],

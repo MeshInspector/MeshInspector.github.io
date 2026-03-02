@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1UiRenderParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::UiRenderParams</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1BaseRenderParams" prot="public" virt="non-virtual">mrmeshpy.BaseRenderParams</basecompoundref>
@@ -44,7 +44,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.UiRenderParams.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BaseRenderParams_1a3a9c45fbddb33998f5c5f967807197d9">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -69,7 +68,6 @@
         <argsstring>(self, UiRenderParams arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.UiRenderParams.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BaseRenderParams_1a3a9c45fbddb33998f5c5f967807197d9">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -155,32 +153,30 @@
         <link refid="classmrmeshpy_1_1UiRenderParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_tasks</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.BaseRenderParams</label>
         <link refid="classmrmeshpy_1_1BaseRenderParams"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_projMatrix</edgelabel>
-          <edgelabel>_offsetof_viewMatrix</edgelabel>
-          <edgelabel>_offsetof_viewport</edgelabel>
-          <edgelabel>_offsetof_viewportId</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59418" bodyend="59440"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1UiRenderParams_1ae533bf8ecb374ac7d9dbdfd867553db2" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UiRenderParams_1a7a4b085ddcea2ecb7630fc93037e91e6" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1af7997e808b6568af2a49c55a235c3857" prot="protected" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>_offsetof_projMatrix</name></member>
       <member refid="classmrmeshpy_1_1UiRenderParams_1a4697387b123d0ebdb714f4543081a1b4" prot="protected" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>_offsetof_tasks</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1ac31eb9426e51e8bdf9345f89b6011c35" prot="protected" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>_offsetof_viewMatrix</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a568dec1e206b4f44ccdc0aa769c26fc4" prot="protected" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>_offsetof_viewport</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a640000a5d2d184e97188790f3ec5c3d2" prot="protected" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>_offsetof_viewportId</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a66148c04dc295e2bdf7b7b622bf44ff2" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>projMatrix</name></member>
       <member refid="classmrmeshpy_1_1UiRenderParams_1ab3fce8014aa7c024a0b8c85de8b7e430" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>tasks</name></member>
       <member refid="classmrmeshpy_1_1UiRenderParams_1ab809c594264d137bcba4abd9f7bd3eb0" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>tasks</name></member>
       <member refid="classmrmeshpy_1_1UiRenderParams_1a5a51970d52b1c57e79332439e1afd676" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>UiTaskList</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a06a24f78b01ee76af109eec7fdd8a6e6" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>viewMatrix</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a3151a01c38d5c2e60e7030dc94614922" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>viewport</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a6d55411a0fd13023b9bb7f1c0af1de4d" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>viewport</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1af45fd7caab5cc62075d65f1168bd1300" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>viewportId</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a44585bc0b0c20ddbf9fb174fe454473c" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderParams</scope><name>viewportId</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1EndMillTool" kind="struct" language="C++" prot="public">
     <compoundname>MR::EndMillTool</compoundname>
-    <includes refid="MREndMill_8h" local="no">MREndMill.h</includes>
+    <includes refid="MREndMill_8h" local="no">MRMesh/MREndMill.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaa183c2d5c3810c0fe6fe877b2486af67" kind="variable"><name>length</name></member>
       <member refid="group__GeneralGroup_1gad8f4a7587862e0863fa16e3bc9763cda" kind="variable"><name>diameter</name></member>
@@ -30,7 +30,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" line="41" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" bodystart="42" bodyend="55"/>
+    <location file="MRMesh/MREndMill.h" line="41" column="1" bodyfile="MRMesh/MREndMill.h" bodystart="42" bodyend="55"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga174ff046b31f92f01628878141891300" prot="public" virt="non-virtual"><scope>MR::EndMillTool</scope><name>cutter</name></member>
       <member refid="group__GeneralGroup_1gad8f4a7587862e0863fa16e3bc9763cda" prot="public" virt="non-virtual"><scope>MR::EndMillTool</scope><name>diameter</name></member>

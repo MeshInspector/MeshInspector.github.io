@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR" kind="namespace" language="C++">
     <compoundname>MR</compoundname>
     <innerclass refid="classMR_1_1AABBTree" prot="public">MR::AABBTree</innerclass>
@@ -926,7 +926,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="229" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="229" bodyend="-1"/>
+        <location file="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="229" column="1" bodyfile="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="229" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1a94d7093d57cb27ac9abdfb241ddb6bc0" prot="public" static="no">
         <type><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT</ref>&lt; const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>, VdbVolume &gt;</type>
@@ -940,7 +940,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="230" bodyend="-1"/>
+        <location file="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="230" column="1" bodyfile="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="230" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1a93836181db6f59783ce1351a98d59cb8" prot="public" static="no">
         <type><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>, <ref refid="group__GeneralGroup_1ga267a0a12925eb023cff1bca0f9b620b4" kindref="member">SimpleVolumeMinMax</ref> &gt;</type>
@@ -954,7 +954,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="232" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="232" bodyend="-1"/>
+        <location file="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="232" column="1" bodyfile="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="232" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1a0df0f857bd84e84b19954332c9dcfae5" prot="public" static="no">
         <type><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT</ref>&lt; const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>, <ref refid="group__GeneralGroup_1ga267a0a12925eb023cff1bca0f9b620b4" kindref="member">SimpleVolumeMinMax</ref> &gt;</type>
@@ -968,7 +968,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="233" bodyend="-1"/>
+        <location file="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="233" column="1" bodyfile="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="233" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1a03d4bc2fa6d66cfcaa8ed9d0b124e863" prot="public" static="no">
         <type><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>, <ref refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" kindref="member">FunctionVolume</ref> &gt;</type>
@@ -982,7 +982,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="235" bodyend="-1"/>
+        <location file="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="235" column="1" bodyfile="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="235" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1a180687f93fbe5cc6216008e26099f5f8" prot="public" static="no">
         <type><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT</ref>&lt; const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>, <ref refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" kindref="member">FunctionVolume</ref> &gt;</type>
@@ -996,7 +996,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="236" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="236" bodyend="-1"/>
+        <location file="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="236" column="1" bodyfile="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="236" bodyend="-1"/>
       </memberdef>
       <member refid="group__SubvoxelMeshCorrection_1ga1e8644361ce63a01cc5bf2f55019c438" kind="function"><name>moveMeshToVoxelMaxDeriv</name></member>
       <memberdef kind="function" id="namespaceMR_1a4c95ee49f1806c7573241fe7617401c9" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -1035,7 +1035,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="120" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" declline="120" declcolumn="8"/>
+        <location file="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="120" column="8" declfile="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" declline="120" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1a9e77619da9231f0a8ee9ca39edfbaf11" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>template <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; VertBitSet &gt;</type>
@@ -1073,7 +1073,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="124" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" declline="124" declcolumn="8"/>
+        <location file="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="124" column="8" declfile="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" declline="124" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1af57a9e992da58c4255497330494f5790" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>template <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; VertBitSet &gt;</type>
@@ -1111,7 +1111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="128" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" declline="128" declcolumn="8"/>
+        <location file="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="128" column="8" declfile="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" declline="128" declcolumn="8"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
@@ -1260,6 +1260,329 @@
       <member refid="group__TupleBindingsGroup_1ga4bc6e978265e037bdca77110eae89d64" kind="function"><name>get</name></member>
       <member refid="group__TupleBindingsGroup_1gac87e12b44af38ae6f625b3bc7749aec7" kind="function"><name>get</name></member>
       <member refid="group__TupleBindingsGroup_1gaae733878440cead52d3fc2fd6c4429b9" kind="function"><name>get</name></member>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1gac37f58d4c89d15f57d79214d25d5bf27" kind="function"><name>transformed</name></member>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1ga3a21629633bf0e4bedadc69121c907ed" kind="function"><name>dot</name></member>
+      <member refid="group__GeneralGroup_1ga2c4549e9880ef73fc3bed4a4aaeb3cba" kind="function"><name>outer</name></member>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1gab19861b942182b9673b5ed98fdc17a6c" kind="function"><name>dot</name></member>
+      <member refid="group__GeneralGroup_1ga02a7e818581b6cd47f887b32c11edc5b" kind="function"><name>outer</name></member>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1gab8d2624777be58e7e104a7bf446aee82" kind="function"><name>dot</name></member>
+      <member refid="group__GeneralGroup_1gaff9e2bc787d384454aed9377473bfdc3" kind="function"><name>outer</name></member>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1ga4c5344758f4daed07c548746957f795d" kind="function"><name>same</name></member>
+      <member refid="group__GeneralGroup_1ga6421ee7a169962d806d9288a85019fff" kind="function"><name>fromSameTriangle</name></member>
+      <member refid="group__GeneralGroup_1ga5b4701e6cc60a8b3a60545055a0f0ad2" kind="function"><name>fromSameTriangle</name></member>
+      <member refid="group__GeneralGroup_1gaacaa9b179d37a2b7448d4174d9026d02" kind="function"><name>getVertexAsMeshTriPoint</name></member>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1gab78bbcb21e57f07de12885121b3e2177" kind="function"><name>invTransformed</name></member>
+      <member refid="group__GeneralGroup_1ga38c8491b1563ae8fbbfe5666645cecc5" kind="function"><name>transformed</name></member>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1gaa10debad27ce2b86f238db3d967a2c22" kind="function"><name>operator==</name></member>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1ga24a478c9463275d440061899c3630a32" kind="function"><name>dot</name></member>
+      <member refid="group__GeneralGroup_1ga0267d5aee3f765c24fb3f40ad811f9b4" kind="function"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga7e3a85611c622741c25fb2e88d485908" kind="function"><name>getCanonicalQuaternions</name></member>
+      <member refid="group__GeneralGroup_1gab2b1ae64873308ff0f9efd8dbcffcde6" kind="function"><name>getClosestCanonicalQuaternion</name></member>
+      <member refid="group__GeneralGroup_1ga5b71c529c0724694aa58ca8f01246b4d" kind="function"><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1gadb5df4281ceff5b0f0e031a7102a9a9e" kind="function"><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1ga30209c5b86e5874a13aef73306c7c037" kind="function"><name>orthonormalized</name></member>
+      <member refid="group__GeneralGroup_1ga425f39c2e989a446889597e5692a0416" kind="function"><name>orthonormalized</name></member>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1ga794820de02de93d89f45517747122e36" kind="function"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga7023f18d2ffbf60a3eb3b4cd2fe1ce18" kind="function"><name>outerSquare</name></member>
+      <member refid="group__GeneralGroup_1ga670c0b0b5468ad0685c66438e965bb2a" kind="function"><name>outerSquare</name></member>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1gafc689ce07450f684b99051e555894ee7" kind="function"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga607435c965ee7d4fabb2f1a0c7b779f2" kind="function"><name>outerSquare</name></member>
+      <member refid="group__GeneralGroup_1gaf018697d9a39a22f02a3c3cbdfe3ba5c" kind="function"><name>outerSquare</name></member>
+      <member refid="group__GeneralGroup_1ga58d4310ad87b99b94d1bea2f1059484b" kind="function"><name>crossSquare</name></member>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1gafc0a6af3d8944b99ae426026e296ef03" kind="function"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga27b6e7fc3e23fc7528ad7a37f8629668" kind="function"><name>outerSquare</name></member>
+      <member refid="group__GeneralGroup_1ga66114790de91e3bbd34e6ae1d04a97e5" kind="function"><name>outerSquare</name></member>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <memberdef kind="function" id="structMR_1_1Vector2_1a7be48c5d4180d89d8038acede661911e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T distanceSq</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)</argsstring>
+        <name>distanceSq</name>
+        <qualifiedname>MR::Vector2::distanceSq</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>squared distance between two points, which is faster to compute than just distance </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector2.h" line="137" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="137" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector2_1a847fe803c44c19055d0a15eca838df52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T distance</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)</argsstring>
+        <name>distance</name>
+        <qualifiedname>MR::Vector2::distance</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>distance between two points, better use distanceSq for higher performance </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector2.h" line="144" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="144" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T cross</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)</argsstring>
+        <name>cross</name>
+        <qualifiedname>MR::Vector2::cross</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>cross product </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector2.h" line="151" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="151" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector2_1aa7e0a1754fac4de39eb88fc3f1e2db46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>decltype(a.x *b.x)</type>
+        <definition>decltype(a.x *b.x) dot</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)</argsstring>
+        <name>dot</name>
+        <qualifiedname>MR::Vector2::dot</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>dot product </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector2.h" line="158" column="13" bodyfile="MRMesh/MRVector2.h" bodystart="158" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector2_1a9d7aee9b382101cb77cc426a34791517" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T sqr</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;a)</argsstring>
+        <name>sqr</name>
+        <qualifiedname>MR::Vector2::sqr</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>squared length </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector2.h" line="165" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="165" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector2_1aaf1c84a8ba1493b479c774db9477d5e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt;</type>
+        <definition>Vector2&lt; T &gt; mult</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)</argsstring>
+        <name>mult</name>
+        <qualifiedname>MR::Vector2::mult</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>per component multiplication </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector2.h" line="172" column="16" bodyfile="MRMesh/MRVector2.h" bodystart="172" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector2_1a0704f4e80fa32a97a3c269ddbf09728d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt;</type>
+        <definition>Vector2&lt; T &gt; div</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)</argsstring>
+        <name>div</name>
+        <qualifiedname>MR::Vector2::div</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>per component division </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector2.h" line="179" column="16" bodyfile="MRMesh/MRVector2.h" bodystart="179" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector2_1af97f888d41c35987fa2e24cfdf696621" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T angle</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)</argsstring>
+        <name>angle</name>
+        <qualifiedname>MR::Vector2::angle</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>angle in radians between two vectors </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>this version is slower and less precise return std::acos( std::clamp( dot( a.normalized(), b.normalized() ), T(-1), T(1) ) );</para>
+        </inbodydescription>
+        <location file="MRMesh/MRVector2.h" line="186" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="186" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector2_1a14144bf50dd7436a833a9ad74fab0fdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>MR_BIND_IGNORE_PY auto</type>
+        <definition>MR_BIND_IGNORE_PY auto begin</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;v)</argsstring>
+        <name>begin</name>
+        <qualifiedname>MR::Vector2::begin</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>We don&apos;t need to bind those functions in Python, because this doesn&apos;t prevent <computeroutput>__iter__</computeroutput> from being generated for the type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector2.h" line="208" column="31" bodyfile="MRMesh/MRVector2.h" bodystart="208" bodyend="208"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1ga1b7a343939b1a92e61700fb5bd609b56" kind="function"><name>distanceSq</name></member>
+      <member refid="group__GeneralGroup_1gaa62b4ce06d0439125af427faabb987b1" kind="function"><name>distance</name></member>
+      <member refid="group__GeneralGroup_1gaf9065ae414e0307701366e479519540d" kind="function"><name>cross</name></member>
+      <member refid="group__GeneralGroup_1ga12ace0a073b6d056e20f50fabe0b9940" kind="function"><name>dot</name></member>
+      <member refid="group__GeneralGroup_1gac519c0badafc5dd614c0c6f8b8b28994" kind="function"><name>sqr</name></member>
+      <member refid="group__GeneralGroup_1gaa80c4d71ef5b56a6aaa251f91e636873" kind="function"><name>mixed</name></member>
+      <member refid="group__GeneralGroup_1gae2acb767e75d8fddbe60a26218e7635a" kind="function"><name>mult</name></member>
+      <member refid="group__GeneralGroup_1ga3032e40b08150686195023c67dd9b749" kind="function"><name>div</name></member>
+      <member refid="group__GeneralGroup_1gac91a0462b62bab22f973bb517dc805ca" kind="function"><name>angle</name></member>
+      <member refid="group__GeneralGroup_1ga14f7f0adb55e73e84d46a542b9b91186" kind="function"><name>unitVector3</name></member>
+      <member refid="group__GeneralGroup_1ga2a77f8e96a4d822dc5af3a747356496c" kind="function"><name>begin</name></member>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1ga664e7947c3eb5d229c9ceb1c728a6f9b" kind="function"><name>distanceSq</name></member>
+      <member refid="group__GeneralGroup_1gafa16e6f10fb59a666d01d58bb1737e85" kind="function"><name>distance</name></member>
+      <member refid="group__GeneralGroup_1ga6b70b6953f8b9ea980c0d5afcdf3b335" kind="function"><name>dot</name></member>
+      <member refid="group__GeneralGroup_1ga2925cc04ba84c72a45503f35a61c90e5" kind="function"><name>sqr</name></member>
+      <member refid="group__GeneralGroup_1ga792b605255e8f3f5d4fc544964d5bfed" kind="function"><name>mult</name></member>
+      <member refid="group__GeneralGroup_1ga5bb00471e4228b49442d8c7e717e31e7" kind="function"><name>div</name></member>
+      <member refid="group__GeneralGroup_1ga30fe17a2e179fabfc0cb0bf87ff40620" kind="function"><name>begin</name></member>
     </sectiondef>
     <sectiondef kind="enum">
       <member refid="group__GeneralGroup_1ga23e900d0cb79ee7e0562507ab9e9f562" kind="enum"><name>PdfBuildinFont</name></member>
@@ -1559,7 +1882,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="47" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" declline="47" declcolumn="25"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="47" column="25" declfile="MRMesh/MRIOFormatsRegistry.h" declline="47" declcolumn="25"/>
       </memberdef>
       <member refid="group__GeneralGroup_1gac50b2a332a59b46a9f98d7dc951dd010" kind="variable"><name>cQuietNan</name></member>
       <member refid="group__GeneralGroup_1ga8f3c9f088f6a284e579d9042826fccd6" kind="variable"><name>cQuietNanBits</name></member>
@@ -3243,7 +3566,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="113" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="113" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="113" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="113" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1adc6c309b18d3d1c442591ea06f9cb26c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1LoadedObjects" kindref="compound">LoadedObjects</ref> &gt;</type>
@@ -3266,10 +3589,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="115" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="115" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="115" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="115" declcolumn="11"/>
       </memberdef>
       <member refid="group__VoxelsSaveGroup_1ga2c95017a0cb0c854829b6223518168eb" kind="function"><name>saveObjectVoxelsToFile</name></member>
       <member refid="group__GeneralGroup_1ga98e1035b952283c216159688c04819fd" kind="function"><name>functionVolumeToSimpleVolume</name></member>
+      <member refid="group__GeneralGroup_1gaa0bfe5c7c18c2a1dff71abfb4bd48404" kind="function"><name>fromSameTriangle</name></member>
+      <member refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" kind="function"><name>fromSameTriangle</name></member>
+      <member refid="group__GeneralGroup_1ga9daf64aad4fef868e611ff192efae554" kind="function"><name>sum</name></member>
+      <member refid="group__GeneralGroup_1gaa13755aec0b01f413e7b38c41ef3c838" kind="function"><name>sumAt</name></member>
     </sectiondef>
     <briefdescription>
 <para>only for bindings generation </para>
@@ -3280,7 +3607,7 @@
 <para>This is lightweight header, pleas include it instead of &quot;MRViewer.h&quot; whenever possible.</para>
 <para>Read the manual at: docs/measurement_units.md.</para>
 <para>TODO move it in MRRibbonFontManager.cpp.</para>
-<para>const Contours3f&amp; contours = {}</para>
+<para>const <ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref>&amp; contours = {}</para>
 <para>triangle-related mathematical functions are here</para>
 <para>not _WIN32</para>
 <para>To fix <computeroutput>attribute declaration must precede definition</computeroutput> on <computeroutput><ref refid="structMR_1_1Sphere" kindref="compound">Sphere</ref></computeroutput>.</para>
@@ -3293,8 +3620,7 @@
 <para><ref refid="structMR_1_1Color" kindref="compound">Color</ref> and DIRTY_VERTS_COLORMAP.</para>
 <para>This file exists for testing some cuda features.</para>
 <para>Only strictly necessary for the bindings (to make <computeroutput><ref refid="structMR_1_1MeshIntersectionResult" kindref="compound">MR::MeshIntersectionResult</ref></computeroutput> a complete type).</para>
-<para>======================================================================== /// Copyright 2009-2020 Intel Corporation /// /// Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); /// you may not use this file except in compliance with the License. /// You may obtain a copy of the License at /// /// <ulink url="http:///">http:///</ulink> www.apache.org/licenses/LICENSE-2.0 /// /// Unless required by applicable law or agreed to in writing, software /// distributed under the License is distributed on an &quot;AS IS&quot; BASIS, /// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. /// See the License for the specific language governing permissions and /// limitations under the License. /// ======================================================================== /// <linebreak/>
-</para>
+<para>======================================================================== /// Copyright 2009-2020 Intel Corporation /// /// Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); /// you may not use this file except in compliance with the License. /// You may obtain a copy of the License at /// /// <ulink url="http:///">http:///</ulink> www.apache.org/licenses/LICENSE-2.0 /// /// Unless required by applicable law or agreed to in writing, software /// distributed under the License is distributed on an &quot;AS IS&quot; BASIS, /// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. /// See the License for the specific language governing permissions and /// limitations under the License. /// ======================================================================== ///</para>
 <para>Main idea is here: <ulink url="https:///">https:///</ulink> www.geometrictools.com/Documentation/LeastSquaresFitting.pdf pages 45-51 Below we will write out the function and Jacobian for minimization by the Levenberg-Marquard method and use it to clarify the apex of the cone and the direction of its main axis.</para>
 <para>_WIN32</para>
 <para>TODO:<itemizedlist>
@@ -3305,6 +3631,6 @@
 </listitem></itemizedlist>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="7" column="1"/>
+    <location file="MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="7" column="1"/>
   </compounddef>
 </doxygen>

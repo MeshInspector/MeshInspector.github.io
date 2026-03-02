@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kind="class" language="C#" prot="public">
     <compoundname>MR::Features::Primitives::ConeSegment</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Features.Primitives.Const_ConeSegment</basecompoundref>
@@ -203,7 +203,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Features.Primitives.ConeSegment.ConeSegment</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment_1a336ffa611f8a83553510b0ade6300c9e" kindref="member">MR.Features.Primitives.ConeSegment.ConeSegment</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -222,7 +222,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Features.Primitives.ConeSegment.ConeSegment</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment_1a336ffa611f8a83553510b0ade6300c9e" kindref="member">MR.Features.Primitives.ConeSegment.ConeSegment</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -241,7 +241,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Features.Primitives.ConeSegment.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Features::Primitives::ConeSegment::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -256,8 +256,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.Features.Primitives.ConeSegment</label>
+        <link refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_ConeSegment</label>
+        <label>MR.Features.Primitives.Const_ConeSegment</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -265,25 +271,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Features.Primitives.ConeSegment</label>
-        <link refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ConeSegment &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Features.Primitives.Const_ConeSegment &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.Features.Primitives.ConeSegment</label>
+        <link refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_ConeSegment</label>
+        <label>MR.Features.Primitives.Const_ConeSegment</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -291,20 +297,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Features.Primitives.ConeSegment</label>
-        <link refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ConeSegment &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Features.Primitives.Const_ConeSegment &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="579" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="580" bodyend="661"/>

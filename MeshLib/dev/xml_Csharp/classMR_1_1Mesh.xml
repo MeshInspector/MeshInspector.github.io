@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Mesh" kind="class" language="C#" prot="public">
     <compoundname>MR::Mesh</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Mesh</basecompoundref>
@@ -106,7 +106,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Mesh.Mesh</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Mesh_1aa1db14cda63104c807171c5607fdba89" kindref="member">MR.Mesh.Mesh</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -125,7 +125,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Mesh.Mesh</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Mesh_1aa1db14cda63104c807171c5607fdba89" kindref="member">MR.Mesh.Mesh</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -144,7 +144,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Mesh.Mesh</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Mesh_1aa1db14cda63104c807171c5607fdba89" kindref="member">MR.Mesh.Mesh</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -163,7 +163,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Mesh.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Mesh::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -843,8 +843,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.Mesh</label>
+        <link refid="classMR_1_1Mesh"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_Mesh</label>
+        <label>MR.Const_Mesh</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -852,25 +858,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Mesh</label>
-        <link refid="classMR_1_1Mesh"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_Mesh &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_Mesh &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.Mesh</label>
+        <link refid="classMR_1_1Mesh"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_Mesh</label>
+        <label>MR.Const_Mesh</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -878,20 +884,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Mesh</label>
-        <link refid="classMR_1_1Mesh"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_Mesh &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_Mesh &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1394" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1395" bodyend="1805"/>

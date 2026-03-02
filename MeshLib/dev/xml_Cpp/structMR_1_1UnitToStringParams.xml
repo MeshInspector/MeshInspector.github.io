@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1UnitToStringParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::UnitToStringParams</compoundname>
-    <includes refid="MRUnits_8h" local="no">MRUnits.h</includes>
+    <includes refid="MRUnits_8h" local="no">MRViewer/MRUnits.h</includes>
     <templateparamlist>
       <param>
         <type>UnitEnum</type>
@@ -34,7 +34,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="71" bodyend="122"/>
+    <location file="MRViewer/MRUnits.h" line="70" column="1" bodyfile="MRViewer/MRUnits.h" bodystart="71" bodyend="122"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7154a0976d68f4cf955516bbd1e8c3db" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>decorationFormatString</name></member>
       <member refid="group__GeneralGroup_1ga2d95d4ba6210441527d210b9e677228f" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>degreesMode</name></member>

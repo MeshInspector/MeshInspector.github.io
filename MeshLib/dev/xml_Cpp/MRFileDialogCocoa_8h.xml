@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFileDialogCocoa_8h" kind="file" language="C++">
     <compoundname>MRFileDialogCocoa.h</compoundname>
     <includes refid="MRFileDialog_8h" local="yes">MRFileDialog.h</includes>
@@ -75,7 +75,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRFileDialogCocoa.h</label>
+        <label>MRViewer/MRFileDialogCocoa.h</label>
         <link refid="MRFileDialogCocoa_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -133,8 +133,8 @@
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9" refid="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::vector&lt;std::filesystem::path&gt;<sp/><ref refid="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" kindref="member">runCocoaFileDialog</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FileDialog_1_1Parameters" kindref="compound">MR::FileDialog::Parameters</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialogCocoa.h"/>
+    <location file="MRViewer/MRFileDialogCocoa.h"/>
   </compounddef>
 </doxygen>

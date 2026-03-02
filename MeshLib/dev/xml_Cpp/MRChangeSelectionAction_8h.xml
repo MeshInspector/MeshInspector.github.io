@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangeSelectionAction_8h" kind="file" language="C++">
     <compoundname>MRChangeSelectionAction.h</compoundname>
     <includes refid="MRHistoryAction_8h" local="yes">MRHistoryAction.h</includes>
@@ -75,7 +75,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRChangeSelectionAction.h</label>
+        <label>MRMesh/MRChangeSelectionAction.h</label>
         <link refid="MRChangeSelectionAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -622,11 +622,11 @@
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"></codeline>
-<codeline lineno="13" refid="classMR_1_1ChangeMeshFaceSelectionAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshFaceSelectionAction" kindref="compound">ChangeMeshFaceSelectionAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classMR_1_1ChangeMeshFaceSelectionAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshFaceSelectionAction_1a8f903abfb85e2e7bad897c77d021e648" kindref="member">ChangeMeshFaceSelectionAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="16" refid="classMR_1_1ChangeMeshFaceSelectionAction_1a405ed8f3e1f0ec969dffa0d31f26119b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectMesh" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>;</highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1ChangeMeshFaceSelectionAction_1a405ed8f3e1f0ec969dffa0d31f26119b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshFaceSelectionAction_1a405ed8f3e1f0ec969dffa0d31f26119b" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="classMR_1_1ChangeMeshFaceSelectionAction_1a8f903abfb85e2e7bad897c77d021e648" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeMeshFaceSelectionAction_1a8f903abfb85e2e7bad897c77d021e648" kindref="member">ChangeMeshFaceSelectionAction</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="classMR_1_1ChangeMeshFaceSelectionAction_1a628000e800befb0ec5c91ee98032c3d1" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectMesh&gt;&amp;<sp/>objMesh<sp/>):</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name_{<ref refid="classMR_1_1ChangeMeshFaceSelectionAction_1a628000e800befb0ec5c91ee98032c3d1" kindref="member">name</ref>},</highlight></codeline>
@@ -673,10 +673,10 @@
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceBitSet<sp/>selection_;</highlight></codeline>
 <codeline lineno="64"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="classMR_1_1ChangeMeshEdgeSelectionAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshEdgeSelectionAction" kindref="compound">ChangeMeshEdgeSelectionAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="67" refid="classMR_1_1ChangeMeshEdgeSelectionAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a23e0d32d940cc543ccd81a4b2d55f58a" kindref="member">ChangeMeshEdgeSelectionAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="68"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="70" refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a6abc89d21736995bdf8972c00def1b26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectMesh" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>;</highlight></codeline>
+<codeline lineno="70" refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a6abc89d21736995bdf8972c00def1b26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a6abc89d21736995bdf8972c00def1b26" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>;</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
 <codeline lineno="73" refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a23e0d32d940cc543ccd81a4b2d55f58a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a23e0d32d940cc543ccd81a4b2d55f58a" kindref="member">ChangeMeshEdgeSelectionAction</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a59d389a6910ddd51ea9d3a05db2dfcee" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectMesh&gt;&amp;<sp/>objMesh<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name_{<sp/><ref refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a59d389a6910ddd51ea9d3a05db2dfcee" kindref="member">name</ref><sp/>},</highlight></codeline>
@@ -723,10 +723,10 @@
 <codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeBitSet<sp/>selection_;</highlight></codeline>
 <codeline lineno="118"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121" refid="classMR_1_1ChangeMeshCreasesAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshCreasesAction" kindref="compound">ChangeMeshCreasesAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="121" refid="classMR_1_1ChangeMeshCreasesAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshCreasesAction_1a35abf0006f1f9dde31def6af394af1ae" kindref="member">ChangeMeshCreasesAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="122"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="124" refid="classMR_1_1ChangeMeshCreasesAction_1a222e4ff1e014646782819abea4d1a92d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectMesh" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>;</highlight></codeline>
+<codeline lineno="124" refid="classMR_1_1ChangeMeshCreasesAction_1a222e4ff1e014646782819abea4d1a92d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshCreasesAction_1a222e4ff1e014646782819abea4d1a92d" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>;</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
 <codeline lineno="127" refid="classMR_1_1ChangeMeshCreasesAction_1a35abf0006f1f9dde31def6af394af1ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeMeshCreasesAction_1a35abf0006f1f9dde31def6af394af1ae" kindref="member">ChangeMeshCreasesAction</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="classMR_1_1ChangeMeshCreasesAction_1abaa4073cae3371c003ef86720b945c86" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectMesh&gt;&amp;<sp/>objMesh<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name_{<sp/><ref refid="classMR_1_1ChangeMeshCreasesAction_1abaa4073cae3371c003ef86720b945c86" kindref="member">name</ref><sp/>},</highlight></codeline>
@@ -773,10 +773,10 @@
 <codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeBitSet<sp/>creases_;</highlight></codeline>
 <codeline lineno="172"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175" refid="classMR_1_1ChangePointPointSelectionAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangePointPointSelectionAction" kindref="compound">ChangePointPointSelectionAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="175" refid="classMR_1_1ChangePointPointSelectionAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangePointPointSelectionAction_1a455a37f2beea261ea75c996d374fc0d9" kindref="member">ChangePointPointSelectionAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="176"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="178" refid="classMR_1_1ChangePointPointSelectionAction_1adf6db1de62ed6cf97b83d0a1c00a9999" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectPoints" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref>;</highlight></codeline>
+<codeline lineno="178" refid="classMR_1_1ChangePointPointSelectionAction_1adf6db1de62ed6cf97b83d0a1c00a9999" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangePointPointSelectionAction_1adf6db1de62ed6cf97b83d0a1c00a9999" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref>;</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"></highlight></codeline>
 <codeline lineno="181" refid="classMR_1_1ChangePointPointSelectionAction_1a455a37f2beea261ea75c996d374fc0d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangePointPointSelectionAction_1a455a37f2beea261ea75c996d374fc0d9" kindref="member">ChangePointPointSelectionAction</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="classMR_1_1ChangePointPointSelectionAction_1a7ebe140792b37c16fdd8f129492ad4c8" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectPoints&gt;&amp;<sp/>objPoints<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name_{<sp/><ref refid="classMR_1_1ChangePointPointSelectionAction_1a7ebe140792b37c16fdd8f129492ad4c8" kindref="member">name</ref><sp/>},</highlight></codeline>
@@ -817,6 +817,6 @@
 <codeline lineno="219"><highlight class="normal"></highlight></codeline>
 <codeline lineno="220"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSelectionAction.h"/>
+    <location file="MRMesh/MRChangeSelectionAction.h"/>
   </compounddef>
 </doxygen>

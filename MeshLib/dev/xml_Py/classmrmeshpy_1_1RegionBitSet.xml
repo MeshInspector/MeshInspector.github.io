@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1RegionBitSet" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::RegionBitSet</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
@@ -10,7 +10,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RegionBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -98,7 +97,6 @@
         <argsstring>(self, RegionBitSet b)</argsstring>
         <name>__and__</name>
         <qualifiedname>mrmeshpy.RegionBitSet.__and__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -121,7 +119,6 @@
         <argsstring>(self, RegionBitSet b)</argsstring>
         <name>__iand__</name>
         <qualifiedname>mrmeshpy.RegionBitSet.__iand__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -144,7 +141,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RegionBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -163,7 +159,6 @@
         <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RegionBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -193,7 +188,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RegionBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -218,7 +212,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RegionBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -243,7 +236,6 @@
         <argsstring>(self, RegionBitSet arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RegionBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -268,7 +260,6 @@
         <argsstring>(self, RegionBitSet b)</argsstring>
         <name>__ior__</name>
         <qualifiedname>mrmeshpy.RegionBitSet.__ior__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -291,7 +282,6 @@
         <argsstring>(self, RegionBitSet b)</argsstring>
         <name>__isub__</name>
         <qualifiedname>mrmeshpy.RegionBitSet.__isub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -314,7 +304,6 @@
         <argsstring>(self)</argsstring>
         <name>__iter__</name>
         <qualifiedname>mrmeshpy.RegionBitSet.__iter__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -333,7 +322,6 @@
         <argsstring>(self, RegionBitSet b)</argsstring>
         <name>__ixor__</name>
         <qualifiedname>mrmeshpy.RegionBitSet.__ixor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -356,7 +344,6 @@
         <argsstring>(self, RegionBitSet b)</argsstring>
         <name>__or__</name>
         <qualifiedname>mrmeshpy.RegionBitSet.__or__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -379,7 +366,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.RegionBitSet.__repr__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -398,7 +384,6 @@
         <argsstring>(self, RegionBitSet b)</argsstring>
         <name>__sub__</name>
         <qualifiedname>mrmeshpy.RegionBitSet.__sub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -421,7 +406,6 @@
         <argsstring>(self, RegionBitSet b)</argsstring>
         <name>__xor__</name>
         <qualifiedname>mrmeshpy.RegionBitSet.__xor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -1251,18 +1235,12 @@ with all bits after size() considered off during testing
       <node id="2">
         <label>mrmeshpy.BitSet</label>
         <link refid="classmrmeshpy_1_1BitSet"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>bits_per_block</edgelabel>
-          <edgelabel>npos</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49766" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49766" bodyend="49923"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1RegionBitSet_1ac643a5826f25c6ecaa6f6be3150cbff3" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1af06e5b8bd598633ae38015e4ef438a97" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a6b7c4a98a4dc61239836f3b103d7d856" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__iand__</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a234ae192f36f5ca340d2b60cd44866b3" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a859c6a6b1edf5d2245373d455cdee147" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__init__</name></member>
@@ -1276,13 +1254,23 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1RegionBitSet_1a191ded296c733a7de15f8374f3b79ff0" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__ixor__</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1aa4dacc0f017749b4dae8db84c098c058" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__or__</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a9ae781ec49a10782dd62aa870b928e6b" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a98282e643a9a65e1c6109bb7e5d7bb0f" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a180dc7a7e3b1484cbc0655607c27948d" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__rrshift__</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a15c6df59da4e2a891fcada1a328dd0a0" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__sub__</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a9bc2f297651bf40ee89dc1bf3f0ef255" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a7791a54179bcc02c9e8d46ccd467d1df" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>all</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a72e64427ab6f98e8ffeb422c97588e62" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>any</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a7d2d593d0edbbc43971d25aa44668a90" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1ae8f7a7a686fdab752b49992691d4e770" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a7cd390901e8a567b94eafe4d3804de60" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>autoResizeTestSet</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a135e9513f357655f9c0fcc12435373e5" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>backId</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1afb3839290e4ff71541fb7b4c3f0fbe51" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab1c92776adea9f7d4a8aa71b4db8585e" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>bits</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a59b26e0abde0aeed833933ad5058adfe" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>bits_per_block</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a2335e90bc299cbaa4f87a7e2157f869a" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a640d1f443a7ea30d50a532de2cdf90b4" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a4b8a47eb3cd9dc19a7448b1a3b1765e2" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aab954a31474723788e2aeee311325c15" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>empty</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a91a2fb5d45243b095a1b3f509ba13428" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>endId</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a9f2708058301ac55a96bbbd7bff95d7e" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>find_first</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a8a3e2fe4fee615c10f045703528ffc4e" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>find_first_not_set</name></member>
@@ -1293,26 +1281,41 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1RegionBitSet_1ac464d1b34d70235453a9e49da1b162a4" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a701f2ec627025c1cbab5b4a35c9f0fbc" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a4fde3c09eee409dcd546a7873b1db8e3" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab52de9f1462e6d83e5b7191d4396df74" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>fromBlocks</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a6b6bd2f5cdc5144eabfe138253e267e7" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1abcd69690eff4ca1bac418d4b99367ccf" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a31c2a8134685f367503b47bc67c5938b" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a8055182a404c3ad1a83f003475116f82" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a3df5e67545023ea40b3761cd3e6465a0" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a07dcb7b6a37fba61f1afca6ce0d199e1" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a073e500b5dd574982e909a3cd93e0c83" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aba96890a6af8d454cea1e755d03af8db" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>none</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aa0a7d1ede8a4702ab5421d151412dfc9" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>npos</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a34ba92a868db9a7f984be8a559a9fc17" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a33fe73fcaf13f4fe52d1fe72379ba764" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>num_blocks</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1ab293ad610a97648ec71511daef7510d0" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1ab293ad610a97648ec71511daef7510d0" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a204e188214d1fd66553951c4a6c9888b" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1af016fdece4d1e0fcefadce98dff1b478" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a289c8f64f552d93f25d60aae2140354a" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>reserve</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a0fb51825e616359a74fdc569ec342fa2" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1aaf6003aa8256f941fb1b16d61abd73dc" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a1e9b2e2f1797d700874509f4ebace46e" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a9e4c33df165c88226f1105129caa15f2" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a8f011a2d79e0769e54a51148de3d2dec" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a6e10a386d264b1d2ac5153c7eda3452e" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>reverse</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a30864a371dd6aae217db248075a0edaf" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a6e5684b210c055b3be4ebc1e1a71defc" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1aaf045c3a9a248957a75ef05112f15abe" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1aa812d71c465e235e3973b907afd521a6" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a394f9a9633d44001a7cab69dbd3815e8" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>shrink_to_fit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae04e046bab014f7e687c1010d5386eb" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a42dc7ca258e5196db1626054aa36c673" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>subtract</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a9a03fe62e5050217e18ea2c29d8fe9c1" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>test</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1adb79c2f0725c29504f972177441f9da1" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>test_set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae49ff1ea465f9b7185a328d08806e08" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>uncheckedTest</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a908f2b141bba37ea2f49d8dd1938c711" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>uncheckedTestSet</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

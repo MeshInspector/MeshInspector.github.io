@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRParallel_8h" kind="file" language="C++">
     <compoundname>MRParallel.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -158,7 +158,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Parallel_CallSimply</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -176,7 +176,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Parallel_CallSimply</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -313,7 +313,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Parallel_CallSimplyMaker</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -331,7 +331,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Parallel_CallSimplyMaker</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -396,9 +396,9 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref>;</highlight></codeline>
+<codeline lineno="14" refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref>;</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref>;</highlight></codeline>
+<codeline lineno="18" refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="MRParallel_8h_1aeb28a1fa9fe44bbce06e306215fd1a02" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*<ref refid="MRParallel_8h_1aeb28a1fa9fe44bbce06e306215fd1a02" kindref="member">MR_Parallel_CallSimply_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>

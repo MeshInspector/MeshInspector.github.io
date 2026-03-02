@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TriCornerUVCoords" kind="class" language="C#" prot="public">
     <compoundname>MR::TriCornerUVCoords</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_TriCornerUVCoords</basecompoundref>
@@ -26,7 +26,7 @@
         <name>this[MR.FaceId i]</name>
         <qualifiedname>MR.TriCornerUVCoords.this[MR.FaceId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.TriCornerUVCoords.operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TriCornerUVCoords::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -86,7 +86,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TriCornerUVCoords.TriCornerUVCoords</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1ae7c6efdb7c35dd9959cb010a68d99767" kindref="member">MR.TriCornerUVCoords.TriCornerUVCoords</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -105,7 +105,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TriCornerUVCoords.TriCornerUVCoords</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1ae7c6efdb7c35dd9959cb010a68d99767" kindref="member">MR.TriCornerUVCoords.TriCornerUVCoords</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -124,7 +124,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TriCornerUVCoords.TriCornerUVCoords</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1ae7c6efdb7c35dd9959cb010a68d99767" kindref="member">MR.TriCornerUVCoords.TriCornerUVCoords</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,7 +143,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.TriCornerUVCoords.TriCornerUVCoords</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1ae7c6efdb7c35dd9959cb010a68d99767" kindref="member">MR.TriCornerUVCoords.TriCornerUVCoords</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -166,7 +166,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.TriCornerUVCoords.TriCornerUVCoords</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1ae7c6efdb7c35dd9959cb010a68d99767" kindref="member">MR.TriCornerUVCoords.TriCornerUVCoords</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -185,7 +185,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.TriCornerUVCoords.TriCornerUVCoords</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1ae7c6efdb7c35dd9959cb010a68d99767" kindref="member">MR.TriCornerUVCoords.TriCornerUVCoords</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -204,7 +204,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.TriCornerUVCoords.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TriCornerUVCoords::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -410,7 +410,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.TriCornerUVCoords.push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TriCornerUVCoords::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -433,7 +433,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.TriCornerUVCoords.push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TriCornerUVCoords::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -448,7 +448,7 @@
         <name>popBack</name>
         <qualifiedname>MR.TriCornerUVCoords.popBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.TriCornerUVCoords.pop_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TriCornerUVCoords::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -463,7 +463,7 @@
         <name>emplaceBack</name>
         <qualifiedname>MR.TriCornerUVCoords.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.TriCornerUVCoords.emplace_back&lt;&gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TriCornerUVCoords::emplace_back&lt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -548,7 +548,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.TriCornerUVCoords.TriCornerUVCoords</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1ae7c6efdb7c35dd9959cb010a68d99767" kindref="member">MR.TriCornerUVCoords.TriCornerUVCoords</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -558,7 +558,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -581,8 +581,14 @@
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.TriCornerUVCoords</label>
+        <link refid="classMR_1_1TriCornerUVCoords"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_TriCornerUVCoords</label>
+        <label>MR.Const_TriCornerUVCoords</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -590,25 +596,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.TriCornerUVCoords</label>
-        <link refid="classMR_1_1TriCornerUVCoords"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TriCornerUVCoords &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_TriCornerUVCoords &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.TriCornerUVCoords</label>
+        <link refid="classMR_1_1TriCornerUVCoords"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_TriCornerUVCoords</label>
+        <label>MR.Const_TriCornerUVCoords</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -616,20 +622,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.TriCornerUVCoords</label>
-        <link refid="classMR_1_1TriCornerUVCoords"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TriCornerUVCoords &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_TriCornerUVCoords &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1716" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1717" bodyend="2037"/>

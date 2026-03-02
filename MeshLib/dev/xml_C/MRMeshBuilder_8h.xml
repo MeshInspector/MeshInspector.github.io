@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshBuilder_8h" kind="file" language="C++">
     <compoundname>MRMeshBuilder.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -48,136 +48,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRMeshBuilder_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
-        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshBuilder_8h_1ab809347fd151b45341bc9e7828673eb5" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref></type>
-        <definition>typedef struct MR_FaceMap MR_FaceMap</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" line="15" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshBuilder_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" line="16" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshBuilder_8h_1ad64e870545f55932379857e2c2d7eafb" prot="public" static="no">
-        <type>struct <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref></type>
-        <definition>typedef struct MR_MeshBuilder_BuildSettings MR_MeshBuilder_BuildSettings</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshBuilder_BuildSettings</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" line="17" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshBuilder_8h_1ad396cf7d4433c5ba7924776f5b379c9b" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref></type>
-        <definition>typedef struct MR_MeshTopology MR_MeshTopology</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTopology</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" line="18" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshBuilder_8h_1a33f2cead15f3bf37534d3678feb4af22" prot="public" static="no">
-        <type>struct <ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref></type>
-        <definition>typedef struct MR_Triangulation MR_Triangulation</definition>
-        <argsstring></argsstring>
-        <name>MR_Triangulation</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" line="19" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshBuilder_8h_1a492785e8cc43f73ad55471496f397889" prot="public" static="no">
-        <type>struct <ref refid="MRMesh_8h_1a492785e8cc43f73ad55471496f397889" kindref="member">MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId</ref></type>
-        <definition>typedef struct MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" line="20" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshBuilder_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
-        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_VertBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" line="21" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshBuilder_8h_1a0c1baad62a31685b2dfb5955f3fb8230" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref></type>
-        <definition>typedef struct MR_VertMap MR_VertMap</definition>
-        <argsstring></argsstring>
-        <name>MR_VertMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" line="22" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshBuilder_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" line="23" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRMeshBuilder_8h_1a1b013719e43d45589198866556984be9" prot="public" static="no">
         <type>struct <ref refid="MRMeshBuilder_8h_1a1b013719e43d45589198866556984be9" kindref="member">MR_std_vector_MR_MeshBuilder_MeshPiece</ref></type>
         <definition>typedef struct MR_std_vector_MR_MeshBuilder_MeshPiece MR_std_vector_MR_MeshBuilder_MeshPiece</definition>
@@ -190,45 +60,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" line="24" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshBuilder_8h_1a5dd2fd820a754655ef67335b8cd94f73" prot="public" static="no">
-        <type>struct <ref refid="MRMesh_8h_1a5dd2fd820a754655ef67335b8cd94f73" kindref="member">MR_std_vector_MR_MeshBuilder_VertDuplication</ref></type>
-        <definition>typedef struct MR_std_vector_MR_MeshBuilder_VertDuplication MR_std_vector_MR_MeshBuilder_VertDuplication</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_MeshBuilder_VertDuplication</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" line="25" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshBuilder_8h_1a954949e1753f6a2063d09e91b23d252d" prot="public" static="no">
-        <type>struct <ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref></type>
-        <definition>typedef struct MR_std_vector_MR_VertId MR_std_vector_MR_VertId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_VertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" line="26" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshBuilder_8h_1af3681c958ee919df825e522f1899b362" prot="public" static="no">
-        <type>struct <ref refid="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" kindref="member">MR_std_vector_std_array_MR_Vector3f_3</ref></type>
-        <definition>typedef struct MR_std_vector_std_array_MR_Vector3f_3 MR_std_vector_std_array_MR_Vector3f_3</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_array_MR_Vector3f_3</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" line="27" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilder.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" prot="public" static="no">
         <type>struct <ref refid="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" kindref="member">MR_MeshBuilder_VertDuplication</ref></type>
@@ -549,7 +380,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshBuilder_VertDuplication</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" kindref="member">MR_MeshBuilder_VertDuplication</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -567,7 +398,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MeshBuilder_VertDuplication</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" kindref="member">MR_MeshBuilder_VertDuplication</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1076,7 +907,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshBuilder_MeshPiece</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1094,7 +925,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MeshBuilder_MeshPiece</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1737,7 +1568,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshBuilder_UniteCloseParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshBuilder_8h_1a94d98029ed62a076a8ca41e3fc3e575d" kindref="member">MR_MeshBuilder_UniteCloseParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1755,7 +1586,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MeshBuilder_UniteCloseParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshBuilder_8h_1a94d98029ed62a076a8ca41e3fc3e575d" kindref="member">MR_MeshBuilder_UniteCloseParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1896,47 +1727,47 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRMeshBuilder_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRMeshBuilder_8h_1ab809347fd151b45341bc9e7828673eb5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRMeshBuilder_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRMeshBuilder_8h_1ad64e870545f55932379857e2c2d7eafb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshBuilderTypes.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRMeshBuilder_8h_1ad396cf7d4433c5ba7924776f5b379c9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRMeshBuilder_8h_1a33f2cead15f3bf37534d3678feb4af22" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRMeshBuilder_8h_1a492785e8cc43f73ad55471496f397889" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1a492785e8cc43f73ad55471496f397889" kindref="member">MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId</ref><sp/><ref refid="MRMesh_8h_1a492785e8cc43f73ad55471496f397889" kindref="member">MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRMeshBuilder_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRMeshBuilder_8h_1a0c1baad62a31685b2dfb5955f3fb8230" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRMeshBuilder_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshBuilderTypes.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1a492785e8cc43f73ad55471496f397889" kindref="member">MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId</ref><sp/><ref refid="MRMesh_8h_1a492785e8cc43f73ad55471496f397889" kindref="member">MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRMeshBuilder_8h_1a1b013719e43d45589198866556984be9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBuilder_8h_1a1b013719e43d45589198866556984be9" kindref="member">MR_std_vector_MR_MeshBuilder_MeshPiece</ref><sp/><ref refid="MRMeshBuilder_8h_1a1b013719e43d45589198866556984be9" kindref="member">MR_std_vector_MR_MeshBuilder_MeshPiece</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_MeshBuilder_MeshPiece.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MRMeshBuilder_8h_1a5dd2fd820a754655ef67335b8cd94f73" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1a5dd2fd820a754655ef67335b8cd94f73" kindref="member">MR_std_vector_MR_MeshBuilder_VertDuplication</ref><sp/><ref refid="MRMesh_8h_1a5dd2fd820a754655ef67335b8cd94f73" kindref="member">MR_std_vector_MR_MeshBuilder_VertDuplication</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_MeshBuilder_VertDuplication.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRMeshBuilder_8h_1a954949e1753f6a2063d09e91b23d252d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRMeshBuilder_8h_1af3681c958ee919df825e522f1899b362" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" kindref="member">MR_std_vector_std_array_MR_Vector3f_3</ref><sp/><ref refid="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" kindref="member">MR_std_vector_std_array_MR_Vector3f_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_array_MR_Vector3f_3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1a5dd2fd820a754655ef67335b8cd94f73" kindref="member">MR_std_vector_MR_MeshBuilder_VertDuplication</ref><sp/><ref refid="MRMesh_8h_1a5dd2fd820a754655ef67335b8cd94f73" kindref="member">MR_std_vector_MR_MeshBuilder_VertDuplication</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_MeshBuilder_VertDuplication.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" kindref="member">MR_std_vector_std_array_MR_Vector3f_3</ref><sp/><ref refid="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" kindref="member">MR_std_vector_std_array_MR_Vector3f_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_array_MR_Vector3f_3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" kindref="member">MR_MeshBuilder_VertDuplication</ref><sp/><ref refid="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" kindref="member">MR_MeshBuilder_VertDuplication</ref>;</highlight></codeline>
+<codeline lineno="32" refid="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" kindref="member">MR_MeshBuilder_VertDuplication</ref><sp/><ref refid="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" kindref="member">MR_MeshBuilder_VertDuplication</ref>;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>part<sp/>of<sp/>a<sp/>whole<sp/>mesh<sp/>to<sp/>be<sp/>constructed</highlight></codeline>
-<codeline lineno="37" refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/><ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>part<sp/>of<sp/>a<sp/>whole<sp/>mesh<sp/>to<sp/>be<sp/>constructed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/><ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref>;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRMeshBuilder_8h_1a94d98029ed62a076a8ca41e3fc3e575d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBuilder_8h_1a94d98029ed62a076a8ca41e3fc3e575d" kindref="member">MR_MeshBuilder_UniteCloseParams</ref><sp/><ref refid="MRMeshBuilder_8h_1a94d98029ed62a076a8ca41e3fc3e575d" kindref="member">MR_MeshBuilder_UniteCloseParams</ref>;</highlight></codeline>
+<codeline lineno="41" refid="MRMeshBuilder_8h_1a94d98029ed62a076a8ca41e3fc3e575d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBuilder_8h_1a94d98029ed62a076a8ca41e3fc3e575d" kindref="member">MR_MeshBuilder_UniteCloseParams</ref><sp/><ref refid="MRMeshBuilder_8h_1a94d98029ed62a076a8ca41e3fc3e575d" kindref="member">MR_MeshBuilder_UniteCloseParams</ref>;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51" refid="MRMeshBuilder_8h_1a1ad32ce7ddb11e81220d43d7b61c69e6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*<ref refid="MRMeshBuilder_8h_1a1ad32ce7ddb11e81220d43d7b61c69e6" kindref="member">MR_MeshBuilder_fromTriangles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*t,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*settings,<sp/>MR_PassBy<sp/>progressCb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCb);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//<sp/>original<sp/>vertex<sp/>before<sp/>duplication</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//<sp/>original<sp/>vertex<sp/>before<sp/>duplication</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="58" refid="MRMeshBuilder_8h_1a36898ffc795e2d87b7b7b550b144b364" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRMeshBuilder_8h_1a36898ffc795e2d87b7b7b550b144b364" kindref="member">MR_MeshBuilder_VertDuplication_Get_srcVert</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" kindref="member">MR_MeshBuilder_VertDuplication</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//<sp/>original<sp/>vertex<sp/>before<sp/>duplication</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//<sp/>original<sp/>vertex<sp/>before<sp/>duplication</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="65" refid="MRMeshBuilder_8h_1af6d6ea4fcd81235abd07073dbb8655fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1af6d6ea4fcd81235abd07073dbb8655fb" kindref="member">MR_MeshBuilder_VertDuplication_Set_srcVert</ref>(<ref refid="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" kindref="member">MR_MeshBuilder_VertDuplication</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/>original<sp/>vertex<sp/>before<sp/>duplication</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/>original<sp/>vertex<sp/>before<sp/>duplication</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="72" refid="MRMeshBuilder_8h_1a7fbc5a3d70a42a97dc939867fd37e648" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRMeshBuilder_8h_1a7fbc5a3d70a42a97dc939867fd37e648" kindref="member">MR_MeshBuilder_VertDuplication_GetMutable_srcVert</ref>(<ref refid="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" kindref="member">MR_MeshBuilder_VertDuplication</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//<sp/>new<sp/>vertex<sp/>after<sp/>duplication</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//<sp/>new<sp/>vertex<sp/>after<sp/>duplication</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="79" refid="MRMeshBuilder_8h_1ae405de834843aa2047c4aec0f523afbb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRMeshBuilder_8h_1ae405de834843aa2047c4aec0f523afbb" kindref="member">MR_MeshBuilder_VertDuplication_Get_dupVert</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" kindref="member">MR_MeshBuilder_VertDuplication</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment">//<sp/>new<sp/>vertex<sp/>after<sp/>duplication</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment">//<sp/>new<sp/>vertex<sp/>after<sp/>duplication</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="86" refid="MRMeshBuilder_8h_1ad53af3dcea9b80575217973da0de9349" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1ad53af3dcea9b80575217973da0de9349" kindref="member">MR_MeshBuilder_VertDuplication_Set_dupVert</ref>(<ref refid="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" kindref="member">MR_MeshBuilder_VertDuplication</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/>new<sp/>vertex<sp/>after<sp/>duplication</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/>new<sp/>vertex<sp/>after<sp/>duplication</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="93" refid="MRMeshBuilder_8h_1a37fdf71be490b0b3f36a35c075e46d9d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRMeshBuilder_8h_1a37fdf71be490b0b3f36a35c075e46d9d" kindref="member">MR_MeshBuilder_VertDuplication_GetMutable_dupVert</ref>(<ref refid="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" kindref="member">MR_MeshBuilder_VertDuplication</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
 <codeline lineno="97" refid="MRMeshBuilder_8h_1ace4376c5afe2794bcfdbb2f088182281" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilder_8h_1adefa96bedfd70d997a908e017e491827" kindref="member">MR_MeshBuilder_VertDuplication</ref><sp/>*<ref refid="MRMeshBuilder_8h_1ace4376c5afe2794bcfdbb2f088182281" kindref="member">MR_MeshBuilder_VertDuplication_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
@@ -1959,34 +1790,34 @@
 <codeline lineno="138"><highlight class="normal"></highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight><highlight class="comment">//<sp/>resolve<sp/>non-manifold<sp/>vertices<sp/>by<sp/>creating<sp/>duplicate<sp/>vertices<sp/>in<sp/>the<sp/>triangulation<sp/>(which<sp/>is<sp/>modified)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`lastValidVert`<sp/>is<sp/>needed<sp/>if<sp/>`region`<sp/>or<sp/>`t`<sp/>does<sp/>not<sp/>contain<sp/>full<sp/>mesh,<sp/>then<sp/>first<sp/>duplicated<sp/>vertex<sp/>will<sp/>have<sp/>`lastValidVert+1`<sp/>index</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="141"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>number<sp/>of<sp/>duplicated<sp/>vertices</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>number<sp/>of<sp/>duplicated<sp/>vertices</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="147" refid="MRMeshBuilder_8h_1aa3a715cf3ccbc5215b5a7b50c92dd148" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRMeshBuilder_8h_1aa3a715cf3ccbc5215b5a7b50c92dd148" kindref="member">MR_MeshBuilder_duplicateNonManifoldVertices</ref>(<ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*t,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/><ref refid="MRMesh_8h_1a5dd2fd820a754655ef67335b8cd94f73" kindref="member">MR_std_vector_MR_MeshBuilder_VertDuplication</ref><sp/>*dups,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*lastValidVert);</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment">//<sp/>construct<sp/>mesh<sp/>topology<sp/>from<sp/>a<sp/>set<sp/>of<sp/>triangles<sp/>with<sp/>given<sp/>ids;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight><highlight class="comment">//<sp/>unlike<sp/>simple<sp/>fromTriangles()<sp/>it<sp/>tries<sp/>to<sp/>resolve<sp/>non-manifold<sp/>vertices<sp/>by<sp/>creating<sp/>duplicate<sp/>vertices;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">//<sp/>triangulation<sp/>is<sp/>modified<sp/>to<sp/>introduce<sp/>duplicates</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">//<sp/>triangulation<sp/>is<sp/>modified<sp/>to<sp/>introduce<sp/>duplicates</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="158" refid="MRMeshBuilder_8h_1ad3f4f7de2b0b09a1a79e3d8bde74b6ac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*<ref refid="MRMeshBuilder_8h_1ad3f4f7de2b0b09a1a79e3d8bde74b6ac" kindref="member">MR_MeshBuilder_fromTrianglesDuplicatingNonManifoldVertices</ref>(<ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*t,<sp/><ref refid="MRMesh_8h_1a5dd2fd820a754655ef67335b8cd94f73" kindref="member">MR_std_vector_MR_MeshBuilder_VertDuplication</ref><sp/>*dups,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"></highlight></codeline>
 <codeline lineno="160"><highlight class="normal"></highlight><highlight class="comment">//<sp/>construct<sp/>mesh<sp/>from<sp/>point<sp/>triples;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="161"><highlight class="normal"></highlight><highlight class="comment">//<sp/>all<sp/>coinciding<sp/>points<sp/>are<sp/>given<sp/>the<sp/>same<sp/>VertId<sp/>in<sp/>the<sp/>result</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="comment">//<sp/>all<sp/>coinciding<sp/>points<sp/>are<sp/>given<sp/>the<sp/>same<sp/>VertId<sp/>in<sp/>the<sp/>result</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="165" refid="MRMeshBuilder_8h_1aa0b0a0cae50734e6a2016ec928e202a9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMeshBuilder_8h_1aa0b0a0cae50734e6a2016ec928e202a9" kindref="member">MR_MeshBuilder_fromPointTriples</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" kindref="member">MR_std_vector_std_array_MR_Vector3f_3</ref><sp/>*posTriples);</highlight></codeline>
 <codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167"><highlight class="normal"></highlight><highlight class="comment">//<sp/>face<sp/>of<sp/>part<sp/>-&gt;<sp/>face<sp/>of<sp/>whole<sp/>mesh</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="comment">//<sp/>face<sp/>of<sp/>part<sp/>-&gt;<sp/>face<sp/>of<sp/>whole<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="172" refid="MRMeshBuilder_8h_1acdacdd5640c62ab86c4ff9811ed9e1aa" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>*<ref refid="MRMeshBuilder_8h_1acdacdd5640c62ab86c4ff9811ed9e1aa" kindref="member">MR_MeshBuilder_MeshPiece_Get_fmap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174"><highlight class="normal"></highlight><highlight class="comment">//<sp/>face<sp/>of<sp/>part<sp/>-&gt;<sp/>face<sp/>of<sp/>whole<sp/>mesh</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="comment">//<sp/>face<sp/>of<sp/>part<sp/>-&gt;<sp/>face<sp/>of<sp/>whole<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="179" refid="MRMeshBuilder_8h_1a492107849be3d1956ce998f928b905ee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1a492107849be3d1956ce998f928b905ee" kindref="member">MR_MeshBuilder_MeshPiece_Set_fmap</ref>(<ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181"><highlight class="normal"></highlight><highlight class="comment">//<sp/>face<sp/>of<sp/>part<sp/>-&gt;<sp/>face<sp/>of<sp/>whole<sp/>mesh</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="comment">//<sp/>face<sp/>of<sp/>part<sp/>-&gt;<sp/>face<sp/>of<sp/>whole<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="186" refid="MRMeshBuilder_8h_1a79069b2f01442c58160aaa18ba000650" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>*<ref refid="MRMeshBuilder_8h_1a79069b2f01442c58160aaa18ba000650" kindref="member">MR_MeshBuilder_MeshPiece_GetMutable_fmap</ref>(<ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188"><highlight class="normal"></highlight><highlight class="comment">//<sp/>vert<sp/>of<sp/>part<sp/>-&gt;<sp/>vert<sp/>of<sp/>whole<sp/>mesh</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="comment">//<sp/>vert<sp/>of<sp/>part<sp/>-&gt;<sp/>vert<sp/>of<sp/>whole<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="193" refid="MRMeshBuilder_8h_1a007ffad80a2d3e43202fdeffd8ada6da" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*<ref refid="MRMeshBuilder_8h_1a007ffad80a2d3e43202fdeffd8ada6da" kindref="member">MR_MeshBuilder_MeshPiece_Get_vmap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195"><highlight class="normal"></highlight><highlight class="comment">//<sp/>vert<sp/>of<sp/>part<sp/>-&gt;<sp/>vert<sp/>of<sp/>whole<sp/>mesh</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="comment">//<sp/>vert<sp/>of<sp/>part<sp/>-&gt;<sp/>vert<sp/>of<sp/>whole<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="200" refid="MRMeshBuilder_8h_1a0b5e7488be00e9ce980ad02baec69cfb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1a0b5e7488be00e9ce980ad02baec69cfb" kindref="member">MR_MeshBuilder_MeshPiece_Set_vmap</ref>(<ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="202"><highlight class="normal"></highlight><highlight class="comment">//<sp/>vert<sp/>of<sp/>part<sp/>-&gt;<sp/>vert<sp/>of<sp/>whole<sp/>mesh</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="comment">//<sp/>vert<sp/>of<sp/>part<sp/>-&gt;<sp/>vert<sp/>of<sp/>whole<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="207" refid="MRMeshBuilder_8h_1aecc6f51855ee0df47bc07b85f75faf65" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*<ref refid="MRMeshBuilder_8h_1aecc6f51855ee0df47bc07b85f75faf65" kindref="member">MR_MeshBuilder_MeshPiece_GetMutable_vmap</ref>(<ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="208"><highlight class="normal"></highlight></codeline>
 <codeline lineno="213" refid="MRMeshBuilder_8h_1a8cfc5b1b37998c87e30732ed49405a6d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*<ref refid="MRMeshBuilder_8h_1a8cfc5b1b37998c87e30732ed49405a6d" kindref="member">MR_MeshBuilder_MeshPiece_Get_topology</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/>*_this);</highlight></codeline>
@@ -1995,13 +1826,13 @@
 <codeline lineno="220"><highlight class="normal"></highlight></codeline>
 <codeline lineno="225" refid="MRMeshBuilder_8h_1a19ea8868008ffb69e6db3c835677443a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*<ref refid="MRMeshBuilder_8h_1a19ea8868008ffb69e6db3c835677443a" kindref="member">MR_MeshBuilder_MeshPiece_GetMutable_topology</ref>(<ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="227"><highlight class="normal"></highlight><highlight class="comment">//<sp/>remaining<sp/>triangles<sp/>of<sp/>part,<sp/>not<sp/>in<sp/>topology</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="comment">//<sp/>remaining<sp/>triangles<sp/>of<sp/>part,<sp/>not<sp/>in<sp/>topology</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="232" refid="MRMeshBuilder_8h_1a2c7714a91192791454c6426328ead613" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRMeshBuilder_8h_1a2c7714a91192791454c6426328ead613" kindref="member">MR_MeshBuilder_MeshPiece_Get_rem</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="234"><highlight class="normal"></highlight><highlight class="comment">//<sp/>remaining<sp/>triangles<sp/>of<sp/>part,<sp/>not<sp/>in<sp/>topology</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="comment">//<sp/>remaining<sp/>triangles<sp/>of<sp/>part,<sp/>not<sp/>in<sp/>topology</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="239" refid="MRMeshBuilder_8h_1aadd4f4d675d9c9463b5f983d9c95bec9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1aadd4f4d675d9c9463b5f983d9c95bec9" kindref="member">MR_MeshBuilder_MeshPiece_Set_rem</ref>(<ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="240"><highlight class="normal"></highlight></codeline>
-<codeline lineno="241"><highlight class="normal"></highlight><highlight class="comment">//<sp/>remaining<sp/>triangles<sp/>of<sp/>part,<sp/>not<sp/>in<sp/>topology</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="comment">//<sp/>remaining<sp/>triangles<sp/>of<sp/>part,<sp/>not<sp/>in<sp/>topology</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="246" refid="MRMeshBuilder_8h_1ac6e5821089869314a9dfae5522690418" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRMeshBuilder_8h_1ac6e5821089869314a9dfae5522690418" kindref="member">MR_MeshBuilder_MeshPiece_GetMutable_rem</ref>(<ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="247"><highlight class="normal"></highlight></codeline>
 <codeline lineno="250" refid="MRMeshBuilder_8h_1ae15ccd0ff696d0bddbbc2a9c98e496d9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/>*<ref refid="MRMeshBuilder_8h_1ae15ccd0ff696d0bddbbc2a9c98e496d9" kindref="member">MR_MeshBuilder_MeshPiece_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
@@ -2023,15 +1854,15 @@
 <codeline lineno="290" refid="MRMeshBuilder_8h_1a09417f0c1b3a90797f5800304b6ec620" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/>*<ref refid="MRMeshBuilder_8h_1a09417f0c1b3a90797f5800304b6ec620" kindref="member">MR_MeshBuilder_MeshPiece_AssignFromAnother</ref>(<ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshBuilder_8h_1a5f95f672956b8966952e1dd87ed331fb" kindref="member">MR_MeshBuilder_MeshPiece</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="291"><highlight class="normal"></highlight></codeline>
 <codeline lineno="292"><highlight class="normal"></highlight><highlight class="comment">//<sp/>construct<sp/>mesh<sp/>topology<sp/>in<sp/>parallel<sp/>from<sp/>given<sp/>disjoint<sp/>mesh<sp/>pieces<sp/>(which<sp/>do<sp/>not<sp/>have<sp/>any<sp/>shared<sp/>vertex)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="293"><highlight class="normal"></highlight><highlight class="comment">//<sp/>and<sp/>some<sp/>additional<sp/>triangles<sp/>(in<sp/>settings)<sp/>that<sp/>join<sp/>the<sp/>pieces</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight><highlight class="comment">//<sp/>and<sp/>some<sp/>additional<sp/>triangles<sp/>(in<sp/>settings)<sp/>that<sp/>join<sp/>the<sp/>pieces</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="300" refid="MRMeshBuilder_8h_1a56622157bbe5b8a5b8e7fc4b7a734460" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*<ref refid="MRMeshBuilder_8h_1a56622157bbe5b8a5b8e7fc4b7a734460" kindref="member">MR_MeshBuilder_fromDisjointMeshPieces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*t,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>maxVertId,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1a1b013719e43d45589198866556984be9" kindref="member">MR_std_vector_MR_MeshBuilder_MeshPiece</ref><sp/>*pieces,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="301"><highlight class="normal"></highlight></codeline>
 <codeline lineno="302"><highlight class="normal"></highlight><highlight class="comment">//<sp/>adds<sp/>triangles<sp/>in<sp/>the<sp/>existing<sp/>topology,<sp/>given<sp/>face<sp/>indecies<sp/>must<sp/>be<sp/>free;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="303"><highlight class="normal"></highlight><highlight class="comment">//<sp/>settings.region<sp/>on<sp/>output<sp/>contain<sp/>the<sp/>remaining<sp/>triangles<sp/>that<sp/>could<sp/>not<sp/>be<sp/>added<sp/>into<sp/>the<sp/>topology<sp/>right<sp/>now,<sp/>but<sp/>may<sp/>be<sp/>added<sp/>later<sp/>when<sp/>other<sp/>triangles<sp/>appear<sp/>in<sp/>the<sp/>mesh</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight><highlight class="comment">//<sp/>settings.region<sp/>on<sp/>output<sp/>contain<sp/>the<sp/>remaining<sp/>triangles<sp/>that<sp/>could<sp/>not<sp/>be<sp/>added<sp/>into<sp/>the<sp/>topology<sp/>right<sp/>now,<sp/>but<sp/>may<sp/>be<sp/>added<sp/>later<sp/>when<sp/>other<sp/>triangles<sp/>appear<sp/>in<sp/>the<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="309" refid="MRMeshBuilder_8h_1a6ad9096932a5bca3820c95cf24341fb4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1a6ad9096932a5bca3820c95cf24341fb4" kindref="member">MR_MeshBuilder_addTriangles_MR_Triangulation</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*res,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*t,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="310"><highlight class="normal"></highlight></codeline>
 <codeline lineno="311"><highlight class="normal"></highlight><highlight class="comment">//<sp/>adds<sp/>triangles<sp/>in<sp/>the<sp/>existing<sp/>topology,<sp/>auto<sp/>selecting<sp/>face<sp/>ids<sp/>for<sp/>them;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="312"><highlight class="normal"></highlight><highlight class="comment">//<sp/>vertTriples<sp/>on<sp/>output<sp/>contain<sp/>the<sp/>remaining<sp/>triangles<sp/>that<sp/>could<sp/>not<sp/>be<sp/>added<sp/>into<sp/>the<sp/>topology<sp/>right<sp/>now,<sp/>but<sp/>may<sp/>be<sp/>added<sp/>later<sp/>when<sp/>other<sp/>triangles<sp/>appear<sp/>in<sp/>the<sp/>mesh</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight><highlight class="comment">//<sp/>vertTriples<sp/>on<sp/>output<sp/>contain<sp/>the<sp/>remaining<sp/>triangles<sp/>that<sp/>could<sp/>not<sp/>be<sp/>added<sp/>into<sp/>the<sp/>topology<sp/>right<sp/>now,<sp/>but<sp/>may<sp/>be<sp/>added<sp/>later<sp/>when<sp/>other<sp/>triangles<sp/>appear<sp/>in<sp/>the<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="317" refid="MRMeshBuilder_8h_1ad9abd1ff57dc6e6d47c8943d6e7adc66" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1ad9abd1ff57dc6e6d47c8943d6e7adc66" kindref="member">MR_MeshBuilder_addTriangles_std_vector_MR_VertId</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*res,<sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*vertTriples,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*createdFaces);</highlight></codeline>
 <codeline lineno="318"><highlight class="normal"></highlight></codeline>
 <codeline lineno="327" refid="MRMeshBuilder_8h_1a3132a6c61070316881d0176e7091b501" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*<ref refid="MRMeshBuilder_8h_1a3132a6c61070316881d0176e7091b501" kindref="member">MR_MeshBuilder_fromFaceSoup</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*verts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1a492785e8cc43f73ad55471496f397889" kindref="member">MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId</ref><sp/>*faces,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*settings,<sp/>MR_PassBy<sp/>progressCb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCb);</highlight></codeline>

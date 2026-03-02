@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangeSelectionAction_8h" kind="file" language="C++">
     <compoundname>MRChangeSelectionAction.h</compoundname>
     <includes refid="MRHistoryAction_8h" local="no">MRCMesh/MRHistoryAction.h</includes>
@@ -45,97 +45,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRChangeSelectionAction_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
-        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSelectionAction.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSelectionAction.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRChangeSelectionAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" prot="public" static="no">
-        <type>struct <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref></type>
-        <definition>typedef struct MR_HistoryAction MR_HistoryAction</definition>
-        <argsstring></argsstring>
-        <name>MR_HistoryAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSelectionAction.h" line="14" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSelectionAction.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRChangeSelectionAction_8h_1ac7f59a6736b29701d7e619412b6e2890" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref></type>
-        <definition>typedef struct MR_UndirectedEdgeBitSet MR_UndirectedEdgeBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_UndirectedEdgeBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSelectionAction.h" line="15" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSelectionAction.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRChangeSelectionAction_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
-        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_VertBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSelectionAction.h" line="16" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSelectionAction.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRChangeSelectionAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_MR_ObjectMesh MR_std_shared_ptr_MR_ObjectMesh</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_MR_ObjectMesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSelectionAction.h" line="17" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSelectionAction.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRChangeSelectionAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" prot="public" static="no">
-        <type>struct <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_MR_ObjectPoints MR_std_shared_ptr_MR_ObjectPoints</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_MR_ObjectPoints</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSelectionAction.h" line="18" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSelectionAction.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRChangeSelectionAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
-        <definition>typedef struct MR_std_string MR_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSelectionAction.h" line="19" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSelectionAction.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" prot="public" static="no">
         <type>struct <ref refid="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" kindref="member">MR_ChangeMeshFaceSelectionAction</ref></type>
         <definition>typedef struct MR_ChangeMeshFaceSelectionAction MR_ChangeMeshFaceSelectionAction</definition>
@@ -362,7 +271,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangeMeshFaceSelectionAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" kindref="member">MR_ChangeMeshFaceSelectionAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -380,7 +289,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ChangeMeshFaceSelectionAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" kindref="member">MR_ChangeMeshFaceSelectionAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -676,7 +585,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangeMeshEdgeSelectionAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChangeSelectionAction_8h_1a7f8390cba4e0fcc5132bbd760a8b2794" kindref="member">MR_ChangeMeshEdgeSelectionAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -694,7 +603,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ChangeMeshEdgeSelectionAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChangeSelectionAction_8h_1a7f8390cba4e0fcc5132bbd760a8b2794" kindref="member">MR_ChangeMeshEdgeSelectionAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -990,7 +899,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangeMeshCreasesAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChangeSelectionAction_8h_1a46ed06941314c98e9621a63e5ae9ef79" kindref="member">MR_ChangeMeshCreasesAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1008,7 +917,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ChangeMeshCreasesAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChangeSelectionAction_8h_1a46ed06941314c98e9621a63e5ae9ef79" kindref="member">MR_ChangeMeshCreasesAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1274,7 +1183,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangePointPointSelectionAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1292,7 +1201,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ChangePointPointSelectionAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1438,22 +1347,22 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRChangeSelectionAction_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRChangeSelectionAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRHistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRChangeSelectionAction_8h_1ac7f59a6736b29701d7e619412b6e2890" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRChangeSelectionAction_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRChangeSelectionAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRChangeSelectionAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectPoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRChangeSelectionAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRHistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectPoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" kindref="member">MR_ChangeMeshFaceSelectionAction</ref><sp/><ref refid="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" kindref="member">MR_ChangeMeshFaceSelectionAction</ref>;</highlight></codeline>
+<codeline lineno="28" refid="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" kindref="member">MR_ChangeMeshFaceSelectionAction</ref><sp/><ref refid="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" kindref="member">MR_ChangeMeshFaceSelectionAction</ref>;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRChangeSelectionAction_8h_1a7f8390cba4e0fcc5132bbd760a8b2794" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSelectionAction_8h_1a7f8390cba4e0fcc5132bbd760a8b2794" kindref="member">MR_ChangeMeshEdgeSelectionAction</ref><sp/><ref refid="MRChangeSelectionAction_8h_1a7f8390cba4e0fcc5132bbd760a8b2794" kindref="member">MR_ChangeMeshEdgeSelectionAction</ref>;</highlight></codeline>
+<codeline lineno="36" refid="MRChangeSelectionAction_8h_1a7f8390cba4e0fcc5132bbd760a8b2794" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSelectionAction_8h_1a7f8390cba4e0fcc5132bbd760a8b2794" kindref="member">MR_ChangeMeshEdgeSelectionAction</ref><sp/><ref refid="MRChangeSelectionAction_8h_1a7f8390cba4e0fcc5132bbd760a8b2794" kindref="member">MR_ChangeMeshEdgeSelectionAction</ref>;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRChangeSelectionAction_8h_1a46ed06941314c98e9621a63e5ae9ef79" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSelectionAction_8h_1a46ed06941314c98e9621a63e5ae9ef79" kindref="member">MR_ChangeMeshCreasesAction</ref><sp/><ref refid="MRChangeSelectionAction_8h_1a46ed06941314c98e9621a63e5ae9ef79" kindref="member">MR_ChangeMeshCreasesAction</ref>;</highlight></codeline>
+<codeline lineno="44" refid="MRChangeSelectionAction_8h_1a46ed06941314c98e9621a63e5ae9ef79" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSelectionAction_8h_1a46ed06941314c98e9621a63e5ae9ef79" kindref="member">MR_ChangeMeshCreasesAction</ref><sp/><ref refid="MRChangeSelectionAction_8h_1a46ed06941314c98e9621a63e5ae9ef79" kindref="member">MR_ChangeMeshCreasesAction</ref>;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref>;</highlight></codeline>
+<codeline lineno="52" refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref>;</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="57" refid="MRChangeSelectionAction_8h_1a43276ee122a34d45c71e2e38ba369a08" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" kindref="member">MR_ChangeMeshFaceSelectionAction</ref><sp/>*<ref refid="MRChangeSelectionAction_8h_1a43276ee122a34d45c71e2e38ba369a08" kindref="member">MR_ChangeMeshFaceSelectionAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" kindref="member">MR_ChangeMeshFaceSelectionAction</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>

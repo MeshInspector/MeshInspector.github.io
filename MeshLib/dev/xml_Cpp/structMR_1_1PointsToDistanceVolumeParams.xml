@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PointsToDistanceVolumeParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::PointsToDistanceVolumeParams</compoundname>
     <basecompoundref refid="structMR_1_1DistanceVolumeParams" prot="public" virt="non-virtual">MR::DistanceVolumeParams</basecompoundref>
-    <includes refid="MRPointsToDistanceVolume_8h" local="no">MRPointsToDistanceVolume.h</includes>
+    <includes refid="MRPointsToDistanceVolume_8h" local="no">MRVoxels/MRPointsToDistanceVolume.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga400737e4e31275ad8d54da9d1c2fc611" kind="variable"><name>sigma</name></member>
       <member refid="group__GeneralGroup_1ga7716b4700ce22b3eedf9da8864d8480f" kind="variable"><name>minWeight</name></member>
@@ -39,7 +39,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" bodystart="16" bodyend="34"/>
+    <location file="MRVoxels/MRPointsToDistanceVolume.h" line="15" column="1" bodyfile="MRVoxels/MRPointsToDistanceVolume.h" bodystart="16" bodyend="34"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga920081c5dce988d2f087b470ea72803a" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>cb</name></member>
       <member refid="group__GeneralGroup_1gade7c79fd5b25f3a928fa747f8e6d61d2" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>dimensions</name></member>

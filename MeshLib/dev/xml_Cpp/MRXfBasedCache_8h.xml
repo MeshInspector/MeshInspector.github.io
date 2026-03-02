@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRXfBasedCache_8h" kind="file" language="C++">
     <compoundname>MRXfBasedCache.h</compoundname>
     <includes refid="MRAffineXf3_8h" local="yes">MRAffineXf3.h</includes>
     <includes local="no">optional</includes>
-    <includedby refid="MRObjectLinesHolder_8h" local="yes">MRObjectLinesHolder.h</includedby>
-    <includedby refid="MRObjectMeshHolder_8h" local="yes">MRObjectMeshHolder.h</includedby>
-    <includedby refid="MRObjectPointsHolder_8h" local="yes">MRObjectPointsHolder.h</includedby>
+    <includedby refid="MRObjectLinesHolder_8h" local="yes">MRMesh/MRObjectLinesHolder.h</includedby>
+    <includedby refid="MRObjectMeshHolder_8h" local="yes">MRMesh/MRObjectMeshHolder.h</includedby>
+    <includedby refid="MRObjectPointsHolder_8h" local="yes">MRMesh/MRObjectPointsHolder.h</includedby>
     <incdepgraph>
       <node id="25">
         <label>MRAffineXf.h</label>
@@ -109,7 +109,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRXfBasedCache.h</label>
+        <label>MRMesh/MRXfBasedCache.h</label>
         <link refid="MRXfBasedCache_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -167,48 +167,48 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="19">
-        <label>MRBinaryOperationsPlugin.h</label>
+      <node id="20">
+        <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
       </node>
       <node id="3">
-        <label>MRChangeColoringActions.h</label>
+        <label>MRMesh/MRChangeColoringActions.h</label>
         <link refid="MRChangeColoringActions_8h"/>
       </node>
-      <node id="13">
-        <label>MRChangeMeshAction.h</label>
+      <node id="12">
+        <label>MRMesh/MRChangeMeshAction.h</label>
         <link refid="MRChangeMeshAction_8h"/>
       </node>
-      <node id="14">
-        <label>MRChangeMeshDataAction.h</label>
+      <node id="13">
+        <label>MRMesh/MRChangeMeshDataAction.h</label>
         <link refid="MRChangeMeshDataAction_8h"/>
       </node>
       <node id="25">
-        <label>MRChangePointCloudAction.h</label>
+        <label>MRMesh/MRChangePointCloudAction.h</label>
         <link refid="MRChangePointCloudAction_8h"/>
       </node>
       <node id="26">
-        <label>MRChangePointCloudNormalsAction.h</label>
+        <label>MRMesh/MRChangePointCloudNormalsAction.h</label>
         <link refid="MRChangePointCloudNormalsAction_8h"/>
       </node>
       <node id="6">
-        <label>MRChangePolylineAction.h</label>
+        <label>MRMesh/MRChangePolylineAction.h</label>
         <link refid="MRChangePolylineAction_8h"/>
       </node>
-      <node id="15">
-        <label>MRChangeSelectionAction.h</label>
+      <node id="14">
+        <label>MRMesh/MRChangeSelectionAction.h</label>
         <link refid="MRChangeSelectionAction_8h"/>
       </node>
-      <node id="11">
-        <label>MRObjectDistanceMap.h</label>
+      <node id="10">
+        <label>MRMesh/MRObjectDistanceMap.h</label>
         <link refid="MRObjectDistanceMap_8h"/>
       </node>
       <node id="4">
-        <label>MRObjectGcode.h</label>
+        <label>MRMesh/MRObjectGcode.h</label>
         <link refid="MRObjectGcode_8h"/>
       </node>
       <node id="5">
-        <label>MRObjectLines.h</label>
+        <label>MRMesh/MRObjectLines.h</label>
         <link refid="MRObjectLines_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
@@ -218,7 +218,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MRObjectLinesHolder.h</label>
+        <label>MRMesh/MRObjectLinesHolder.h</label>
         <link refid="MRObjectLinesHolder_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -227,9 +227,11 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="12">
-        <label>MRObjectMesh.h</label>
+      <node id="11">
+        <label>MRMesh/MRObjectMesh.h</label>
         <link refid="MRObjectMesh_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
@@ -238,13 +240,11 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="9">
-        <label>MRObjectMeshHolder.h</label>
+        <label>MRMesh/MRObjectMeshHolder.h</label>
         <link refid="MRObjectMeshHolder_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -252,37 +252,37 @@
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="24">
-        <label>MRObjectPoints.h</label>
+        <label>MRMesh/MRObjectPoints.h</label>
         <link refid="MRObjectPoints_8h"/>
         <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="23">
-        <label>MRObjectPointsHolder.h</label>
+        <label>MRMesh/MRObjectPointsHolder.h</label>
         <link refid="MRObjectPointsHolder_8h"/>
         <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="17">
-        <label>MRPartialChangeMeshAction.h</label>
+      <node id="15">
+        <label>MRMesh/MRPartialChangeMeshAction.h</label>
         <link refid="MRPartialChangeMeshAction_8h"/>
       </node>
       <node id="1">
-        <label>MRXfBasedCache.h</label>
+        <label>MRMesh/MRXfBasedCache.h</label>
         <link refid="MRXfBasedCache_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -292,41 +292,41 @@
         </childnode>
       </node>
       <node id="16">
-        <label>MRDirectionWidget.h</label>
+        <label>MRViewer/MRDirectionWidget.h</label>
         <link refid="MRDirectionWidget_8h"/>
       </node>
-      <node id="10">
-        <label>MRMeshBoundarySelectionWidget.h</label>
+      <node id="17">
+        <label>MRViewer/MRMeshBoundarySelectionWidget.h</label>
         <link refid="MRMeshBoundarySelectionWidget_8h"/>
       </node>
-      <node id="22">
-        <label>MRPickPointManager.h</label>
+      <node id="18">
+        <label>MRViewer/MRPickPointManager.h</label>
         <link refid="MRPickPointManager_8h"/>
       </node>
       <node id="7">
-        <label>MRRenderFeatureObjects.h</label>
+        <label>MRViewer/MRRenderFeatureObjects.h</label>
         <link refid="MRRenderFeatureObjects_8h"/>
       </node>
       <node id="8">
-        <label>MRViewportGlobalBasis.h</label>
+        <label>MRViewer/MRViewportGlobalBasis.h</label>
         <link refid="MRViewportGlobalBasis_8h"/>
       </node>
-      <node id="20">
-        <label>MRChangeVoxelSelectionAction.h</label>
+      <node id="21">
+        <label>MRVoxels/MRChangeVoxelSelectionAction.h</label>
         <link refid="MRChangeVoxelSelectionAction_8h"/>
       </node>
-      <node id="21">
-        <label>MRChangeVoxelsAction.h</label>
+      <node id="22">
+        <label>MRVoxels/MRChangeVoxelsAction.h</label>
         <link refid="MRChangeVoxelsAction_8h"/>
       </node>
-      <node id="18">
-        <label>MRObjectVoxels.h</label>
+      <node id="19">
+        <label>MRVoxels/MRObjectVoxels.h</label>
         <link refid="MRObjectVoxels_8h"/>
-        <childnode refid="19" relation="include">
-        </childnode>
         <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -346,7 +346,7 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
 <codeline lineno="15" refid="classMR_1_1XfBasedCache" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1XfBasedCache" kindref="compound">XfBasedCache</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
@@ -372,8 +372,8 @@
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;T&gt;<sp/>cache_;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRXfBasedCache.h"/>
+    <location file="MRMesh/MRXfBasedCache.h"/>
   </compounddef>
 </doxygen>

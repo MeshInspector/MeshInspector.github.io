@@ -1,10 +1,6 @@
 var MRPointsToMeshFusion_8h =
 [
-    [ "MR_expected_MR_Mesh_std_string", "MRPointsToMeshFusion_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
-    [ "MR_PointCloud", "MRPointsToMeshFusion_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
     [ "MR_PointsToMeshParameters", "MRPointsToMeshFusion_8h.html#ad87c5191463fedf3c7383ddbcb57f085", null ],
-    [ "MR_std_function_bool_from_float", "MRPointsToMeshFusion_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_VertColors", "MRPointsToMeshFusion_8h.html#a20dc7d636220f61a60c7ae92b8caa768", null ],
     [ "MR_pointsToMeshFusion", "MRPointsToMeshFusion_8h.html#abd4eb307824b69a55471aee7577fee54", null ],
     [ "MR_PointsToMeshParameters_AssignFromAnother", "MRPointsToMeshFusion_8h.html#add793906d9d533ce958c7abde23211a8", null ],
     [ "MR_PointsToMeshParameters_ConstructFromAnother", "MRPointsToMeshFusion_8h.html#a4830fa967ef96feb25e71be0148e7cdf", null ],

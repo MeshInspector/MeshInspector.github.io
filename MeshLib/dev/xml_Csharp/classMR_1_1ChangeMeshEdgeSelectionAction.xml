@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeMeshEdgeSelectionAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeMeshEdgeSelectionAction</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeMeshEdgeSelectionAction</basecompoundref>
@@ -99,7 +99,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a31d359806339041f958510a09537a8da" kindref="member">MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -118,7 +118,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a31d359806339041f958510a09537a8da" kindref="member">MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -137,7 +137,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a31d359806339041f958510a09537a8da" kindref="member">MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -160,7 +160,7 @@
           <declname>objMesh</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s edge selection before making any changes in it Generated from constructor <computeroutput>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</computeroutput>. </para>
+<para>use this constructor to remember object&apos;s edge selection before making any changes in it Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a31d359806339041f958510a09537a8da" kindref="member">MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -187,7 +187,7 @@
           <declname>newSelection</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s edge selection and immediate set new selection Generated from constructor <computeroutput>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</computeroutput>. </para>
+<para>use this constructor to remember object&apos;s edge selection and immediate set new selection Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a31d359806339041f958510a09537a8da" kindref="member">MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -206,7 +206,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ChangeMeshEdgeSelectionAction.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ChangeMeshEdgeSelectionAction::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -240,45 +240,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ChangeMeshEdgeSelectionAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeMeshEdgeSelectionAction</label>
         <link refid="classMR_1_1ChangeMeshEdgeSelectionAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeMeshEdgeSelectionAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeMeshEdgeSelectionAction &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ChangeMeshEdgeSelectionAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeMeshEdgeSelectionAction</label>
         <link refid="classMR_1_1ChangeMeshEdgeSelectionAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeMeshEdgeSelectionAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeMeshEdgeSelectionAction &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="612" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="613" bodyend="711"/>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Dirty" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Dirty</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -217,18 +217,6 @@ Dirty flags must be moved together with renderObj_,
 but not copied since renderObj_ is not copied as well
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.Dirty</label>
-        <link refid="classmrmeshpy_1_1Dirty"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_f</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13221" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13221" bodyend="13259"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Dirty_1a7e7236a2b979f0fc8a7ae363756ae8e7" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>__init__</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Viewport" kind="class" language="C++" prot="public">
     <compoundname>MR::Viewport</compoundname>
-    <includes refid="MRViewport_8h" local="no">MRViewport.h</includes>
+    <includes refid="MRViewport_8h" local="no">MRViewer/MRViewport.h</includes>
     <innerclass refid="structMR_1_1Viewport_1_1LinePointImmediateRenderParams" prot="public">MR::Viewport::LinePointImmediateRenderParams</innerclass>
     <innerclass refid="structMR_1_1Viewport_1_1Parameters" prot="public">MR::Viewport::Parameters</innerclass>
     <innerclass refid="structMR_1_1Viewport_1_1PickRenderObjectParams" prot="public">MR::Viewport::PickRenderObjectParams</innerclass>
@@ -196,7 +196,7 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="48" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="49" bodyend="626"/>
+    <location file="MRViewer/MRViewport.h" line="48" column="1" bodyfile="MRViewer/MRViewport.h" bodystart="49" bodyend="626"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7de1b213b70aabd1ed6f41b3abf5c002" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>allModelsInsideViewportRectangle</name></member>
       <member refid="group__GeneralGroup_1gad87004247f170d39fcc2b545bc31e9e4" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>axesProjMat_</name></member>

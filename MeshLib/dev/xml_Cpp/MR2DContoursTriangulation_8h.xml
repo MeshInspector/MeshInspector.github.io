@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MR2DContoursTriangulation_8h" kind="file" language="C++">
     <compoundname>MR2DContoursTriangulation.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -7,7 +7,7 @@
     <includes local="no">optional</includes>
     <incdepgraph>
       <node id="1">
-        <label>MR2DContoursTriangulation.h</label>
+        <label>MRMesh/MR2DContoursTriangulation.h</label>
         <link refid="MR2DContoursTriangulation_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -122,14 +122,14 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="namespaceMR_1_1PlanarTriangulation" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">PlanarTriangulation</highlight></codeline>
+<codeline lineno="12" refid="namespaceMR_1_1PlanarTriangulation" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PlanarTriangulation" kindref="compound">PlanarTriangulation</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1ga41b088a697624ae295c7b3a7b137bca9" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga41b088a697624ae295c7b3a7b137bca9" kindref="member">WindingMode</ref></highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1ga41b088a697624ae295c7b3a7b137bca9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga41b088a697624ae295c7b3a7b137bca9" kindref="member">WindingMode</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga41b088a697624ae295c7b3a7b137bca9a3d0365a27a39c0af183445fc4d932a8a" kindref="member">NonZero</ref>,</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga41b088a697624ae295c7b3a7b137bca9a3289297424e01eda5b788c083bbf3147" kindref="member">Positive</ref>,</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga41b088a697624ae295c7b3a7b137bca9affb9356ff2b7da85c75c92fa7ea03b8b" kindref="member">Negative</ref></highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1gga41b088a697624ae295c7b3a7b137bca9a3d0365a27a39c0af183445fc4d932a8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga41b088a697624ae295c7b3a7b137bca9a3d0365a27a39c0af183445fc4d932a8a" kindref="member">NonZero</ref>,</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gga41b088a697624ae295c7b3a7b137bca9a3289297424e01eda5b788c083bbf3147" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga41b088a697624ae295c7b3a7b137bca9a3289297424e01eda5b788c083bbf3147" kindref="member">Positive</ref>,</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gga41b088a697624ae295c7b3a7b137bca9affb9356ff2b7da85c75c92fa7ea03b8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga41b088a697624ae295c7b3a7b137bca9affb9356ff2b7da85c75c92fa7ea03b8b" kindref="member">Negative</ref></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1ga4ea76a89e8c8fb95eb68d7497122271b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga4ea76a89e8c8fb95eb68d7497122271b" kindref="member">HoleVertIds</ref><sp/>=<sp/>std::vector&lt;VertId&gt;;</highlight></codeline>
@@ -137,7 +137,7 @@
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27" refid="group__GeneralGroup_1gab8aeb3b0d7bff8697dd824538020153b" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga0515df1bf2b2920651b9617e6b1493f9" kindref="member">HolesVertIds</ref><sp/><ref refid="group__GeneralGroup_1gab8aeb3b0d7bff8697dd824538020153b" kindref="member">findHoleVertIdsByHoleEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>tp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgePath&gt;&amp;<sp/>holePaths<sp/>);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo" kindref="compound">IntersectionInfo</ref></highlight></codeline>
+<codeline lineno="30" refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo" kindref="compound">IntersectionInfo</ref></highlight></codeline>
 <codeline lineno="31"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="34" refid="group__GeneralGroup_1ga1ba150196ca38c47b298c26615eab80e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga2fa82e2dbbf17f35ba932bcd731f08c6" kindref="member">lOrg</ref>,<sp/><ref refid="group__GeneralGroup_1ga1ba150196ca38c47b298c26615eab80e" kindref="member">lDest</ref>;</highlight></codeline>
 <codeline lineno="36" refid="group__GeneralGroup_1ga317063d55c098c2ef928c24f84e7d072" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga8b5c188731f0cecbac0ccc0fd4a6bfb7" kindref="member">uOrg</ref>,<sp/><ref refid="group__GeneralGroup_1ga317063d55c098c2ef928c24f84e7d072" kindref="member">uDest</ref>;</highlight></codeline>
@@ -150,7 +150,7 @@
 <codeline lineno="48" refid="group__GeneralGroup_1ga15dafb65753964c596e32bd173142aba" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga15dafb65753964c596e32bd173142aba" kindref="member">ContourIdMap</ref><sp/>=<sp/>std::vector&lt;IntersectionInfo&gt;;</highlight></codeline>
 <codeline lineno="49" refid="group__GeneralGroup_1ga2861b59a4ea1236fc77b874053b4245a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga2861b59a4ea1236fc77b874053b4245a" kindref="member">ContoursIdMap</ref><sp/>=<sp/>std::vector&lt;ContourIdMap&gt;;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" kindref="compound">IntersectionsMap</ref></highlight></codeline>
+<codeline lineno="52" refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" kindref="compound">IntersectionsMap</ref></highlight></codeline>
 <codeline lineno="53"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="55" refid="group__GeneralGroup_1ga9e57510cc8b745dcfbbf6e04c6fba846" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9e57510cc8b745dcfbbf6e04c6fba846" kindref="member">shift</ref>{<sp/>0<sp/>};</highlight></codeline>
 <codeline lineno="57" refid="group__GeneralGroup_1ga2c09afe7b89e565c7c7549b9cbabf2f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga15dafb65753964c596e32bd173142aba" kindref="member">ContourIdMap</ref><sp/><ref refid="group__GeneralGroup_1ga2c09afe7b89e565c7c7549b9cbabf2f0" kindref="member">map</ref>;</highlight></codeline>
@@ -183,6 +183,6 @@
 <codeline lineno="100"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="101"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h"/>
+    <location file="MRMesh/MR2DContoursTriangulation.h"/>
   </compounddef>
 </doxygen>

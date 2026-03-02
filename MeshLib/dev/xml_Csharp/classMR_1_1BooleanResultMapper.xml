@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
-  <compounddef id="classMR_1_1BooleanResultMapper" kind="class" language="C#" prot="private">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BooleanResultMapper" kind="struct" language="C#" prot="public">
     <compoundname>MR::BooleanResultMapper</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_BooleanResultMapper</basecompoundref>
     <sectiondef kind="property">
@@ -70,7 +70,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.BooleanResultMapper.BooleanResultMapper</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BooleanResultMapper_1afade241a084e350772386120b922671d" kindref="member">MR.BooleanResultMapper.BooleanResultMapper</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -89,7 +89,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.BooleanResultMapper.BooleanResultMapper</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BooleanResultMapper_1afade241a084e350772386120b922671d" kindref="member">MR.BooleanResultMapper.BooleanResultMapper</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -104,11 +104,11 @@
         <name>BooleanResultMapper</name>
         <qualifiedname>MR.BooleanResultMapper.BooleanResultMapper</qualifiedname>
         <param>
-          <type>BooleanResultMapper</type>
+          <type><ref refid="classMR_1_1BooleanResultMapper" kindref="compound">BooleanResultMapper</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.BooleanResultMapper.BooleanResultMapper</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BooleanResultMapper_1afade241a084e350772386120b922671d" kindref="member">MR.BooleanResultMapper.BooleanResultMapper</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -117,7 +117,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="589" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="589" bodyend="589"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BooleanResultMapper_1aebd4a1f3b3d21e9af6e679e715a25578" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.BooleanResultMapper</type>
+        <type>unsafe <ref refid="classMR_1_1BooleanResultMapper" kindref="compound">MR.BooleanResultMapper</ref></type>
         <definition>unsafe MR.BooleanResultMapper MR.BooleanResultMapper.assign</definition>
         <argsstring>(MR._ByValue_BooleanResultMapper _other)</argsstring>
         <name>assign</name>
@@ -127,7 +127,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.BooleanResultMapper.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::BooleanResultMapper::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -150,7 +150,7 @@
           <declname>obj</declname>
         </param>
         <briefdescription>
-<para>returns updated oldBS leaving only faces that has corresponding ones in result mesh Generated from method <computeroutput>MR.BooleanResultMapper.filteredOldFaceBitSet</computeroutput>. </para>
+<para>returns updated oldBS leaving only faces that has corresponding ones in result mesh Generated from method <computeroutput><ref refid="classMR_1_1BooleanResultMapper_1af3d501c3baebed936959758dff09f8fe" kindref="member">MR.BooleanResultMapper.filteredOldFaceBitSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -163,53 +163,55 @@
 <para>Structure to map old mesh BitSets to new. </para>
     </briefdescription>
     <detaileddescription>
-<para>Structure to easily map topology of <ref refid="classMR_1a3230c728518f7979a23f855d6e35ba2b" kindref="member">MR.boolean</ref> input meshes to result mesh This structure allows to map faces, vertices and edges of mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> input of <ref refid="classMR_1a3230c728518f7979a23f855d6e35ba2b" kindref="member">MR.boolean</ref> to result mesh topology primitives <simplesect kind="see"><para><ref refid="classMR_1a3230c728518f7979a23f855d6e35ba2b" kindref="member">MR.boolean</ref> Generated from class <computeroutput>MR.BooleanResultMapper</computeroutput>. This is the const half of the class.</para>
+<para>Structure to easily map topology of <ref refid="classMR_1a3230c728518f7979a23f855d6e35ba2b" kindref="member">MR.boolean</ref> input meshes to result mesh This structure allows to map faces, vertices and edges of mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> input of <ref refid="classMR_1a3230c728518f7979a23f855d6e35ba2b" kindref="member">MR.boolean</ref> to result mesh topology primitives <simplesect kind="see"><para><ref refid="classMR_1a3230c728518f7979a23f855d6e35ba2b" kindref="member">MR.boolean</ref> Generated from class <computeroutput><ref refid="classMR_1_1BooleanResultMapper" kindref="compound">MR.BooleanResultMapper</ref></computeroutput>. This is the const half of the class.</para>
 </simplesect>
-Structure to easily map topology of <ref refid="classMR_1a3230c728518f7979a23f855d6e35ba2b" kindref="member">MR.boolean</ref> input meshes to result mesh This structure allows to map faces, vertices and edges of mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> input of <ref refid="classMR_1a3230c728518f7979a23f855d6e35ba2b" kindref="member">MR.boolean</ref> to result mesh topology primitives <simplesect kind="see"><para><ref refid="classMR_1a3230c728518f7979a23f855d6e35ba2b" kindref="member">MR.boolean</ref> Generated from class <computeroutput>MR.BooleanResultMapper</computeroutput>. This is the non-const half of the class. </para>
+Structure to easily map topology of <ref refid="classMR_1a3230c728518f7979a23f855d6e35ba2b" kindref="member">MR.boolean</ref> input meshes to result mesh This structure allows to map faces, vertices and edges of mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> input of <ref refid="classMR_1a3230c728518f7979a23f855d6e35ba2b" kindref="member">MR.boolean</ref> to result mesh topology primitives <simplesect kind="see"><para><ref refid="classMR_1a3230c728518f7979a23f855d6e35ba2b" kindref="member">MR.boolean</ref> Generated from class <computeroutput><ref refid="classMR_1_1BooleanResultMapper" kindref="compound">MR.BooleanResultMapper</ref></computeroutput>. This is the non-const half of the class. </para>
 </simplesect>
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.BooleanResultMapper</label>
+        <link refid="classMR_1_1BooleanResultMapper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_BooleanResultMapper</label>
+        <label>MR.Const_BooleanResultMapper</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.BooleanResultMapper</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_BooleanResultMapper &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.BooleanResultMapper</label>
+        <link refid="classMR_1_1BooleanResultMapper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_BooleanResultMapper</label>
+        <label>MR.Const_BooleanResultMapper</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.BooleanResultMapper</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_BooleanResultMapper &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="530" column="11"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="530" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="531" bodyend="613"/>
     <listofallmembers>
       <member refid="classMR_1_1BooleanResultMapper_1aebd4a1f3b3d21e9af6e679e715a25578" prot="public" virt="non-virtual"><scope>MR::BooleanResultMapper</scope><name>assign</name></member>
       <member refid="classMR_1_1BooleanResultMapper_1af6b4fd9f3bfd3e0797be45de01f3983b" prot="package" virt="non-virtual"><scope>MR::BooleanResultMapper</scope><name>BooleanResultMapper</name></member>

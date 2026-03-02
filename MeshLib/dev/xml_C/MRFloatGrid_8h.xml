@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFloatGrid_8h" kind="file" language="C++">
     <compoundname>MRFloatGrid.h</compoundname>
     <includes refid="MRBox_8h" local="no">MRCMesh/MRBox.h</includes>
@@ -84,62 +84,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>this class just hides very complex type of typedef openvdb::FloatGrid Generated from class <computeroutput>MR::OpenVdbFloatGrid</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="14" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFloatGrid_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
-        <type>struct MR_Vector3f</type>
-        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="15" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFloatGrid_8h_1ad55ca9af0874ffb89877bad65ae2859d" prot="public" static="no">
-        <type>struct MR_Vector3i</type>
-        <definition>typedef struct MR_Vector3i MR_Vector3i</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3i</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="16" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFloatGrid_8h_1a94b5f700f4835481dce132716ff73b05" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref></type>
-        <definition>typedef struct MR_VoxelBitSet MR_VoxelBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_VoxelBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="17" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFloatGrid_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="18" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" prot="public" static="no">
         <type>struct <ref refid="MRFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref></type>
@@ -153,33 +102,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="19" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFloatGrid_8h_1aba323e6d596956f5a589a525c6f6adbc" prot="public" static="no">
-        <type>struct <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref></type>
-        <definition>typedef struct MR_std_vector_float MR_std_vector_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="20" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRFloatGrid_8h_1abc899d5a6475d6b9c15b9ccd231431b3" prot="public" static="no">
-        <type>struct <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref></type>
-        <definition>typedef struct MR_FloatGrid MR_FloatGrid</definition>
-        <argsstring></argsstring>
-        <name>MR_FloatGrid</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>wrapper class that helps mrbind to avoid excess <ref refid="MRVDBFloatGrid_8h" kindref="compound">MRVDBFloatGrid.h</ref> includes Generated from class <computeroutput>MR::FloatGrid</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="26" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" bodystart="26" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -316,7 +238,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_FloatGrid</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -334,7 +256,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_FloatGrid</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1064,15 +986,15 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/><ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVDBFloatGrid.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRFloatGrid_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRFloatGrid_8h_1ad55ca9af0874ffb89877bad65ae2859d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRFloatGrid_8h_1a94b5f700f4835481dce132716ff73b05" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRFloatGrid_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="MRFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/><ref refid="MRFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRFloatGrid_8h_1aba323e6d596956f5a589a525c6f6adbc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRFloatGrid_8h_1abc899d5a6475d6b9c15b9ccd231431b3" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="MRFloatGrid_8h_1abaf1f5e856e90dacfff795119904bde2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1abaf1f5e856e90dacfff795119904bde2" kindref="member">MR_FloatGrid_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>

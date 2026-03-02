@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRenderMeasurementObjects_8h" kind="file" language="C++">
     <compoundname>MRRenderMeasurementObjects.h</compoundname>
     <includes refid="MRAngleMeasurementObject_8h" local="yes">MRMesh/MRAngleMeasurementObject.h</includes>
@@ -554,7 +554,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRRenderMeasurementObjects.h</label>
+        <label>MRViewer/MRRenderMeasurementObjects.h</label>
         <link refid="MRRenderMeasurementObjects_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -733,9 +733,9 @@
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="group__GeneralGroup_1gaf7bd0e42ef0d3a181e0af57d15d8bf0a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderDimensionObject</ref><sp/>=<sp/><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator&lt;RenderDefaultUiObject, RenderResetDirtyComponent&gt;</ref>;</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gaf7bd0e42ef0d3a181e0af57d15d8bf0a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaf7bd0e42ef0d3a181e0af57d15d8bf0a" kindref="member">RenderDimensionObject</ref><sp/>=<sp/><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator&lt;RenderDefaultUiObject, RenderResetDirtyComponent&gt;</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="classMR_1_1RenderPointObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RenderPointObject" kindref="compound">RenderPointObject</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderDimensionObject</ref></highlight></codeline>
+<codeline lineno="21" refid="classMR_1_1RenderPointObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga2ec380d1dce4645357f0bb2ef0ec14bc" kindref="member">RenderPointObject</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf7bd0e42ef0d3a181e0af57d15d8bf0a" kindref="member">RenderDimensionObject</ref></highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PointMeasurementObject" kindref="compound">PointMeasurementObject</ref>*<sp/>object_<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RenderDimensions_1_1PointTask" kindref="compound">RenderDimensions::PointTask</ref><sp/>task_;</highlight></codeline>
@@ -744,7 +744,7 @@
 <codeline lineno="27" refid="group__GeneralGroup_1ga70846fad90e533b27b7b9beba1b91a71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga70846fad90e533b27b7b9beba1b91a71" kindref="member">renderUi</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UiRenderParams" kindref="compound">UiRenderParams</ref>&amp;<sp/>params<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="classMR_1_1RenderDistanceObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RenderDistanceObject" kindref="compound">RenderDistanceObject</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderDimensionObject</ref></highlight></codeline>
+<codeline lineno="30" refid="classMR_1_1RenderDistanceObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga6070d047f88d9b0c043777aa9e7b436c" kindref="member">RenderDistanceObject</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf7bd0e42ef0d3a181e0af57d15d8bf0a" kindref="member">RenderDimensionObject</ref></highlight></codeline>
 <codeline lineno="31"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">DistanceMeasurementObject</ref>*<sp/>object_<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RenderDimensions_1_1LengthTask" kindref="compound">RenderDimensions::LengthTask</ref><sp/>task_;</highlight></codeline>
@@ -753,7 +753,7 @@
 <codeline lineno="36" refid="group__GeneralGroup_1ga8761f109ea6c853dbc796ddb02567d89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8761f109ea6c853dbc796ddb02567d89" kindref="member">renderUi</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UiRenderParams" kindref="compound">UiRenderParams</ref>&amp;<sp/>params<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="classMR_1_1RenderRadiusObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RenderRadiusObject" kindref="compound">RenderRadiusObject</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderDimensionObject</ref></highlight></codeline>
+<codeline lineno="39" refid="classMR_1_1RenderRadiusObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaf30ded5252225214a1fb6f192895aae2" kindref="member">RenderRadiusObject</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf7bd0e42ef0d3a181e0af57d15d8bf0a" kindref="member">RenderDimensionObject</ref></highlight></codeline>
 <codeline lineno="40"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RadiusMeasurementObject" kindref="compound">RadiusMeasurementObject</ref>*<sp/>object_<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RenderDimensions_1_1RadiusTask" kindref="compound">RenderDimensions::RadiusTask</ref><sp/>task_;</highlight></codeline>
@@ -762,7 +762,7 @@
 <codeline lineno="45" refid="group__GeneralGroup_1ga02dc075d3cc7c0997d72b38ae0ddae67" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga02dc075d3cc7c0997d72b38ae0ddae67" kindref="member">renderUi</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UiRenderParams" kindref="compound">UiRenderParams</ref>&amp;<sp/>params<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="classMR_1_1RenderAngleObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RenderAngleObject" kindref="compound">RenderAngleObject</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderDimensionObject</ref></highlight></codeline>
+<codeline lineno="48" refid="classMR_1_1RenderAngleObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga2668069fbbb824a6d3a527b90ce0c3a6" kindref="member">RenderAngleObject</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf7bd0e42ef0d3a181e0af57d15d8bf0a" kindref="member">RenderDimensionObject</ref></highlight></codeline>
 <codeline lineno="49"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AngleMeasurementObject" kindref="compound">AngleMeasurementObject</ref>*<sp/>object_<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RenderDimensions_1_1AngleTask" kindref="compound">RenderDimensions::AngleTask</ref><sp/>task_;</highlight></codeline>
@@ -773,6 +773,6 @@
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h"/>
+    <location file="MRViewer/MRRenderMeasurementObjects.h"/>
   </compounddef>
 </doxygen>

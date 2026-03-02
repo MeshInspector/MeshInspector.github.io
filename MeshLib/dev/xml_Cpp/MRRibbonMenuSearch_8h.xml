@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRibbonMenuSearch_8h" kind="file" language="C++">
     <compoundname>MRRibbonMenuSearch.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -8,7 +8,7 @@
     <includes refid="MRSignal_8h" local="yes">MRMesh/MRSignal.h</includes>
     <includes local="no">string</includes>
     <includes local="no">functional</includes>
-    <includedby refid="MRRibbonMenu_8h" local="yes">MRRibbonMenu.h</includedby>
+    <includedby refid="MRRibbonMenu_8h" local="yes">MRViewer/MRRibbonMenu.h</includedby>
     <incdepgraph>
       <node id="7">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -119,7 +119,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRRibbonMenuSearch.h</label>
+        <label>MRViewer/MRRibbonMenuSearch.h</label>
         <link refid="MRRibbonMenuSearch_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -248,11 +248,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRRibbonMenu.h</label>
+        <label>MRViewer/MRRibbonMenu.h</label>
         <link refid="MRRibbonMenu_8h"/>
       </node>
       <node id="1">
-        <label>MRRibbonMenuSearch.h</label>
+        <label>MRViewer/MRRibbonMenuSearch.h</label>
         <link refid="MRRibbonMenuSearch_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -278,10 +278,10 @@
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">RibbonButtonDrawer;</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">RibbonFontManager;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RibbonButtonDrawer" kindref="compound">RibbonButtonDrawer</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RibbonFontManager" kindref="compound">RibbonFontManager</ref>;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="classMR_1_1RibbonMenuSearch" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1RibbonMenuSearch" kindref="compound">RibbonMenuSearch</ref></highlight></codeline>
+<codeline lineno="19" refid="classMR_1_1RibbonMenuSearch" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1RibbonMenuSearch" kindref="compound">RibbonMenuSearch</ref></highlight></codeline>
 <codeline lineno="20"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1ga9e21069323068b3d3e37691e3e2bdb09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="group__GeneralGroup_1ga9e21069323068b3d3e37691e3e2bdb09" kindref="member">windowName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;##RibbonGlobalSearchPopup[rect_allocator_ignore]&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
@@ -342,6 +342,6 @@
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
 <codeline lineno="89"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h"/>
+    <location file="MRViewer/MRRibbonMenuSearch.h"/>
   </compounddef>
 </doxygen>

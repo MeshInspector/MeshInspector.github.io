@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectTransformWidget" kind="class" language="C++" prot="public">
     <compoundname>MR::ObjectTransformWidget</compoundname>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener, PreDrawListener, PostDrawListener &gt;</basecompoundref>
-    <includes refid="MRObjectTransformWidget_8h" local="no">MRObjectTransformWidget.h</includes>
+    <includes refid="MRObjectTransformWidget_8h" local="no">MRViewer/MRObjectTransformWidget.h</includes>
     <innerclass refid="classMR_1_1ObjectTransformWidget_1_1ChangeXfAction" prot="public">MR::ObjectTransformWidget::ChangeXfAction</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gae637cb1b88edaa19f6495ccbb94d8ca8" kind="enum"><name>AxisTransformMode</name></member>
@@ -112,7 +112,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="224" bodyend="397"/>
+    <location file="MRViewer/MRObjectTransformWidget.h" line="223" column="1" bodyfile="MRViewer/MRObjectTransformWidget.h" bodystart="224" bodyend="397"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gabfce02c63c40c156d75f3cfdb295cd35" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>accumAngle_</name></member>
       <member refid="group__GeneralGroup_1gadf7dda2a6ad3aec260c818b17abb25ec" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>accumShift_</name></member>

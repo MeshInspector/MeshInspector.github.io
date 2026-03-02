@@ -1,15 +1,17 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1StateBasePlugin" kind="class" language="C++" prot="public">
     <compoundname>MR::StateBasePlugin</compoundname>
     <basecompoundref refid="classMR_1_1ViewerPlugin" prot="public" virt="non-virtual">MR::ViewerPlugin</basecompoundref>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
     <basecompoundref refid="classMR_1_1IPluginUpdate" prot="public" virt="virtual">MR::IPluginUpdate</basecompoundref>
     <basecompoundref refid="classMR_1_1ISceneSelectionChange" prot="public" virt="virtual">MR::ISceneSelectionChange</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt; Connectables... &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt;&gt;</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt; Connectables &gt;</derivedcompoundref>
-    <includes refid="MRStatePlugin_8h" local="no">MRStatePlugin.h</includes>
+    <includes refid="MRStatePlugin_8h" local="no">MRViewer/MRStatePlugin.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga3e0c7bd65afe7b25c1f4be31e13ea0c5" kind="variable"><name>plugin_name</name></member>
     </sectiondef>
@@ -51,28 +53,28 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="12">
-        <label>MR::AddCustomThemePlugin&lt;&gt;</label>
+      <node id="9">
+        <label>MR::AddCustomThemePlugin</label>
         <link refid="classMR_1_1AddCustomThemePlugin"/>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="8" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="13">
-        <label>MR::BinaryOperations&lt;&gt;</label>
+      <node id="10">
+        <label>MR::BinaryOperations</label>
         <link refid="classMR_1_1BinaryOperations"/>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="8" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="14">
-        <label>MR::CameraOrientation&lt;&gt;</label>
+      <node id="11">
+        <label>MR::CameraOrientation</label>
         <link refid="classMR_1_1CameraOrientation"/>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="8" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="15">
-        <label>MR::CaptureScreenshotMenuItem&lt;&gt;</label>
+      <node id="12">
+        <label>MR::CaptureScreenshotMenuItem</label>
         <link refid="classMR_1_1CaptureScreenshotMenuItem"/>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="8" relation="public-inheritance">
         </childnode>
       </node>
       <node id="5">
@@ -87,16 +89,16 @@
         <label>MR::ISceneStateCheck</label>
         <link refid="classMR_1_1ISceneStateCheck"/>
       </node>
-      <node id="8">
+      <node id="16">
         <label>MR::MoveObjectByMouse</label>
         <link refid="classMR_1_1MoveObjectByMouse"/>
-        <childnode refid="7" relation="public-inheritance">
+        <childnode refid="15" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="16">
-        <label>MR::OpenRawVoxelsPlugin&lt;&gt;</label>
+      <node id="13">
+        <label>MR::OpenRawVoxelsPlugin</label>
         <link refid="classMR_1_1OpenRawVoxelsPlugin"/>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="8" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">
@@ -105,10 +107,10 @@
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="10">
+      <node id="18">
         <label>MR::SelectObjectByClick</label>
         <link refid="classMR_1_1SelectObjectByClick"/>
-        <childnode refid="9" relation="public-inheritance">
+        <childnode refid="17" relation="public-inheritance">
         </childnode>
       </node>
       <node id="1">
@@ -123,20 +125,32 @@
         <childnode refid="6" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="11">
+      <node id="19">
         <label>MR::StateListenerPlugin&lt; Connectables &gt;</label>
         <link refid="classMR_1_1StateListenerPlugin"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
       <node id="7">
+        <label>MR::StateListenerPlugin&lt; Connectables... &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
         <label>MR::StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;</label>
         <link refid="classMR_1_1StateListenerPlugin"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="9">
+      <node id="17">
         <label>MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::StateListenerPlugin&lt;&gt;</label>
         <link refid="classMR_1_1StateListenerPlugin"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
@@ -145,10 +159,10 @@
         <label>MR::ViewerPlugin</label>
         <link refid="classMR_1_1ViewerPlugin"/>
       </node>
-      <node id="17">
-        <label>MR::ViewerSettingsPlugin&lt;&gt;</label>
+      <node id="14">
+        <label>MR::ViewerSettingsPlugin</label>
         <link refid="classMR_1_1ViewerSettingsPlugin"/>
-        <childnode refid="11" relation="public-inheritance">
+        <childnode refid="8" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
@@ -195,7 +209,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="76" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" bodystart="81" bodyend="135"/>
+    <location file="MRViewer/MRStatePlugin.h" line="76" column="1" bodyfile="MRViewer/MRStatePlugin.h" bodystart="81" bodyend="135"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gae7a96edadae63c78192e0f1f6b1f9db9" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>blocking</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1EmbeddedStructureParameters" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::EmbeddedStructureParameters</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -571,24 +571,6 @@
 Parameters of structure embedding in terrain
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.EmbeddedStructureParameters</label>
-        <link refid="classmrmeshpy_1_1EmbeddedStructureParameters"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_cutAngle</edgelabel>
-          <edgelabel>_offsetof_fillAngle</edgelabel>
-          <edgelabel>_offsetof_minAnglePrecision</edgelabel>
-          <edgelabel>_offsetof_new2oldFaces</edgelabel>
-          <edgelabel>_offsetof_outCutFaces</edgelabel>
-          <edgelabel>_offsetof_outFillFaces</edgelabel>
-          <edgelabel>_offsetof_outStructFaces</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16095" bodyend="16188"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1EmbeddedStructureParameters_1add01c18fc53331f773e515c92d59ea83" prot="public" virt="non-virtual"><scope>mrmeshpy::EmbeddedStructureParameters</scope><name>__init__</name></member>

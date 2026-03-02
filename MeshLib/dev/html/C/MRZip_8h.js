@@ -1,11 +1,6 @@
 var MRZip_8h =
 [
     [ "MR_CompressZipSettings", "MRZip_8h.html#a4e379930f9afb434d2504341fdfcd26b", null ],
-    [ "MR_expected_void_std_string", "MRZip_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
-    [ "MR_std_function_bool_from_float", "MRZip_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_istream", "MRZip_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
-    [ "MR_std_string", "MRZip_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
-    [ "MR_std_vector_std_filesystem_path", "MRZip_8h.html#a4d75e004d098bc7d987ebfcf304f5454", null ],
     [ "MR_compressZip_3", "MRZip_8h.html#a5045633b82f41332aed7d40016937a43", null ],
     [ "MR_compressZip_5", "MRZip_8h.html#a5688a8cc397c9c76e182888070bef1b5", null ],
     [ "MR_CompressZipSettings_AssignFromAnother", "MRZip_8h.html#a3b8eb81adaddd9afde120990c5754279", null ],

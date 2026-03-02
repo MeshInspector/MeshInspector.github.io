@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::FixUndercuts::DistMapImproveDirectionParameters</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.FixUndercuts.Const_DistMapImproveDirectionParameters</basecompoundref>
@@ -146,7 +146,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FixUndercuts.DistMapImproveDirectionParameters.DistMapImproveDirectionParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a90968b6cce2787deb262c275b0863674" kindref="member">MR.FixUndercuts.DistMapImproveDirectionParameters.DistMapImproveDirectionParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -165,7 +165,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FixUndercuts.DistMapImproveDirectionParameters.DistMapImproveDirectionParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a90968b6cce2787deb262c275b0863674" kindref="member">MR.FixUndercuts.DistMapImproveDirectionParameters.DistMapImproveDirectionParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -184,7 +184,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FixUndercuts.DistMapImproveDirectionParameters.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FixUndercuts::DistMapImproveDirectionParameters::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -199,45 +199,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_DistMapImproveDirectionParameters</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.FixUndercuts.DistMapImproveDirectionParameters</label>
         <link refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.FixUndercuts.Const_DistMapImproveDirectionParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DistMapImproveDirectionParameters &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_DistMapImproveDirectionParameters</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.FixUndercuts.DistMapImproveDirectionParameters</label>
         <link refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.FixUndercuts.Const_DistMapImproveDirectionParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DistMapImproveDirectionParameters &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="931" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="932" bodyend="1006"/>

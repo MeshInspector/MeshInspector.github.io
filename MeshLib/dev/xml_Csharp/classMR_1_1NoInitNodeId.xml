@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoInitNodeId" kind="class" language="C#" prot="public">
     <compoundname>MR::NoInitNodeId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_NoInitNodeId</basecompoundref>
@@ -49,7 +49,7 @@
           <declname>id</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.NoInitNodeId.NoInitNodeId</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1NoInitNodeId_1a89a93309bf5c9523e01825f29c49c742" kindref="member">MR.NoInitNodeId.NoInitNodeId</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -109,7 +109,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.NoInitNodeId.NoInitNodeId</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1NoInitNodeId_1a89a93309bf5c9523e01825f29c49c742" kindref="member">MR.NoInitNodeId.NoInitNodeId</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -128,7 +128,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.NoInitNodeId.NoInitNodeId</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1NoInitNodeId_1a89a93309bf5c9523e01825f29c49c742" kindref="member">MR.NoInitNodeId.NoInitNodeId</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -147,7 +147,7 @@
           <declname>id</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.NoInitNodeId.NoInitNodeId</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1NoInitNodeId_1a89a93309bf5c9523e01825f29c49c742" kindref="member">MR.NoInitNodeId.NoInitNodeId</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -166,7 +166,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.NoInitNodeId.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoInitNodeId::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -200,7 +200,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.NoInitNodeId.operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoInitNodeId::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -219,7 +219,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.NoInitNodeId.operator+=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoInitNodeId::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -234,8 +234,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.NoInitNodeId</label>
+        <link refid="classMR_1_1NoInitNodeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_NoInitNodeId</label>
+        <label>MR.Const_NoInitNodeId</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -243,25 +249,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.NoInitNodeId</label>
-        <link refid="classMR_1_1NoInitNodeId"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_NoInitNodeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.NodeId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.NoInitNodeId</label>
+        <link refid="classMR_1_1NoInitNodeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_NoInitNodeId</label>
+        <label>MR.Const_NoInitNodeId</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -269,20 +275,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.NoInitNodeId</label>
-        <link refid="classMR_1_1NoInitNodeId"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_NoInitNodeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.NodeId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7062" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7063" bodyend="7170"/>

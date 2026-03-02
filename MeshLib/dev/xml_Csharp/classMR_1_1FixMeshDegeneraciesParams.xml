@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FixMeshDegeneraciesParams" kind="class" language="C#" prot="public">
     <compoundname>MR::FixMeshDegeneraciesParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_FixMeshDegeneraciesParams</basecompoundref>
@@ -221,7 +221,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FixMeshDegeneraciesParams_1a3c9b5a14a7d0e81bed4a289ee27d1b76" kindref="member">MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -240,7 +240,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FixMeshDegeneraciesParams_1a3c9b5a14a7d0e81bed4a289ee27d1b76" kindref="member">MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -259,7 +259,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FixMeshDegeneraciesParams_1a3c9b5a14a7d0e81bed4a289ee27d1b76" kindref="member">MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -278,7 +278,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FixMeshDegeneraciesParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FixMeshDegeneraciesParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -293,45 +293,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_FixMeshDegeneraciesParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.FixMeshDegeneraciesParams</label>
         <link refid="classMR_1_1FixMeshDegeneraciesParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_FixMeshDegeneraciesParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FixMeshDegeneraciesParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_FixMeshDegeneraciesParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.FixMeshDegeneraciesParams</label>
         <link refid="classMR_1_1FixMeshDegeneraciesParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_FixMeshDegeneraciesParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FixMeshDegeneraciesParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="194" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="195" bodyend="311"/>

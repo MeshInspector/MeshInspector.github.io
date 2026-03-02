@@ -1,17 +1,10 @@
 var MRGridSampling_8h =
 [
     [ "MR_ObjVertId", "structMR__ObjVertId.html", "structMR__ObjVertId" ],
-    [ "MR_AffineXf3f", "MRGridSampling_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
-    [ "MR_MeshPart", "MRGridSampling_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
     [ "MR_ModelPointsData", "MRGridSampling_8h.html#ae8ceab23dca7dddaf285e74ae09d207c", null ],
     [ "MR_ObjVertId", "MRGridSampling_8h.html#a88b00e6d4801cafab9a50d688eeb649d", null ],
-    [ "MR_PointCloudPart", "MRGridSampling_8h.html#ac5ebecc1cdf4196d4d2ddaeeb82a0771", null ],
-    [ "MR_std_function_bool_from_float", "MRGridSampling_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_optional_MR_VertBitSet", "MRGridSampling_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc", null ],
     [ "MR_std_optional_std_vector_MR_ObjVertId", "MRGridSampling_8h.html#ae1286432b335d8b4c779dca862ef8e52", null ],
     [ "MR_Vector_MR_ModelPointsData_MR_ObjId", "MRGridSampling_8h.html#ac02da2bc53860b2b70f391049eac5e2a", null ],
-    [ "MR_VertBitSet", "MRGridSampling_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
-    [ "MR_VertCoords", "MRGridSampling_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_equal_MR_ObjVertId", "MRGridSampling_8h.html#a75e38fb96745ddd8b4d0decb15cb8ebc", null ],
     [ "MR_ModelPointsData_AssignFromAnother", "MRGridSampling_8h.html#a0e8d765baec698879692d306507b03a1", null ],
     [ "MR_ModelPointsData_ConstructFrom", "MRGridSampling_8h.html#aa242dffb5720c5a918baed3b8b9a5164", null ],

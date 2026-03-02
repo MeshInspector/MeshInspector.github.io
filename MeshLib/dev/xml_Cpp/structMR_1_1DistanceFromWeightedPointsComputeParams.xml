@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1DistanceFromWeightedPointsComputeParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::DistanceFromWeightedPointsComputeParams</compoundname>
     <basecompoundref refid="structMR_1_1DistanceFromWeightedPointsParams" prot="public" virt="non-virtual">MR::DistanceFromWeightedPointsParams</basecompoundref>
-    <includes refid="MRClosestWeightedPoint_8h" local="no">MRClosestWeightedPoint.h</includes>
+    <includes refid="MRClosestWeightedPoint_8h" local="no">MRMesh/MRClosestWeightedPoint.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gadddd26b61e807f48c6420f32cb322d21" kind="variable"><name>minBidirDist</name></member>
       <member refid="group__GeneralGroup_1ga1f9b9b98c5a65f0baaaa7de96b1c030c" kind="variable"><name>maxBidirDist</name></member>
@@ -36,7 +36,7 @@
         <link refid="structMR_1_1DistanceFromWeightedPointsParams"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" line="104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h" bodystart="105" bodyend="112"/>
+    <location file="MRMesh/MRClosestWeightedPoint.h" line="104" column="1" bodyfile="MRMesh/MRClosestWeightedPoint.h" bodystart="105" bodyend="112"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga443641ce50f2d662bdd033199017d2c2" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsComputeParams</scope><name>bidirectionalMode</name></member>
       <member refid="group__GeneralGroup_1ga1f9b9b98c5a65f0baaaa7de96b1c030c" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsComputeParams</scope><name>maxBidirDist</name></member>

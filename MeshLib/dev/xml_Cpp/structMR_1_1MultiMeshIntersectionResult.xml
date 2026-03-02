@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MultiMeshIntersectionResult" kind="struct" language="C++" prot="public">
     <compoundname>MR::MultiMeshIntersectionResult</compoundname>
     <basecompoundref refid="structMR_1_1MeshIntersectionResult" prot="public" virt="non-virtual">MR::MeshIntersectionResult</basecompoundref>
-    <includes refid="MRMeshIntersect_8h" local="no">MRMeshIntersect.h</includes>
+    <includes refid="MRMeshIntersect_8h" local="no">MRMesh/MRMeshIntersect.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1MultiMeshIntersectionResult_1af09308818e602f745c2bfb1144b73980" prot="public" static="no" mutable="no">
         <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> *</type>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="80" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="80" bodyend="-1"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="80" column="17" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="80" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -78,7 +78,7 @@
         <link refid="structMR_1_1PointOnFace"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="77" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="78" bodyend="81"/>
+    <location file="MRMesh/MRMeshIntersect.h" line="77" column="1" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="78" bodyend="81"/>
     <listofallmembers>
       <member refid="structMR_1_1MeshIntersectionResult_1a701e1414a45534a29d2ad1f7074c3c61" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>distanceAlongLine</name></member>
       <member refid="structMR_1_1MultiMeshIntersectionResult_1af09308818e602f745c2bfb1144b73980" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>mesh</name></member>

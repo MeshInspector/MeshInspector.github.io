@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IntersectionPrecomputes__Float" kind="class" language="C#" prot="public">
     <compoundname>MR::IntersectionPrecomputes_Float</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_IntersectionPrecomputes_Float</basecompoundref>
@@ -172,7 +172,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.IntersectionPrecomputes&lt;float&gt;::IntersectionPrecomputes</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IntersectionPrecomputes&lt;float&gt;::IntersectionPrecomputes</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -191,7 +191,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.IntersectionPrecomputes&lt;float&gt;::IntersectionPrecomputes</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IntersectionPrecomputes&lt;float&gt;::IntersectionPrecomputes</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -210,7 +210,7 @@
           <declname>dir</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.IntersectionPrecomputes&lt;float&gt;::IntersectionPrecomputes</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IntersectionPrecomputes&lt;float&gt;::IntersectionPrecomputes</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -229,7 +229,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.IntersectionPrecomputes&lt;float&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::IntersectionPrecomputes&lt;float&gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -250,7 +250,7 @@
           <declname>dir</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.IntersectionPrecomputes&lt;float&gt;::IntersectionPrecomputes</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IntersectionPrecomputes&lt;float&gt;::IntersectionPrecomputes</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -263,48 +263,48 @@
 <para>stores useful precomputed values for presented direction vector </para>
     </briefdescription>
     <detaileddescription>
-<para>allows to avoid repeatable computations during intersection finding Generated from class <computeroutput>MR.IntersectionPrecomputes&lt;float&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>allows to avoid repeatable computations during intersection finding Generated from class <computeroutput>MR::IntersectionPrecomputes&lt;float&gt;</computeroutput>. This is the non-const half of the class. </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_IntersectionPrecomputes_Float</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.IntersectionPrecomputes_Float</label>
         <link refid="classMR_1_1IntersectionPrecomputes__Float"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_IntersectionPrecomputes_Float</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_IntersectionPrecomputes_Float &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_IntersectionPrecomputes_Float</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.IntersectionPrecomputes_Float</label>
         <link refid="classMR_1_1IntersectionPrecomputes__Float"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_IntersectionPrecomputes_Float</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_IntersectionPrecomputes_Float &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="176" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="177" bodyend="268"/>

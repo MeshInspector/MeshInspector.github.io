@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRDirectionWidget_8h" kind="file" language="C++">
     <compoundname>MRDirectionWidget.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -505,7 +505,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRDirectionWidget.h</label>
+        <label>MRViewer/MRDirectionWidget.h</label>
         <link refid="MRDirectionWidget_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -659,21 +659,21 @@
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15"></codeline>
-<codeline lineno="17" refid="classMR_1_1DirectionWidget" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1DirectionWidget" kindref="compound">DirectionWidget</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MultiListener" kindref="compound">MultiListener</ref>&lt;MouseDownListener,<sp/>MouseMoveListener,<sp/>MouseUpListener&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classMR_1_1DirectionWidget" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1DirectionWidget" kindref="compound">DirectionWidget</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MultiListener" kindref="compound">MultiListener</ref>&lt;MouseDownListener,<sp/>MouseMoveListener,<sp/>MouseUpListener&gt;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1gaa01b946f8079c3f2095a1fb5b019e275" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaa01b946f8079c3f2095a1fb5b019e275" kindref="member">OnDirectionChangedCallback</ref><sp/>=<sp/>std::function&lt;void(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>)&gt;;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="classMR_1_1DirectionWidget_1_1ChangeDirAction" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1DirectionWidget_1_1ChangeDirAction" kindref="compound">ChangeDirAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ChangeXfAction" kindref="compound">ChangeXfAction</ref></highlight></codeline>
+<codeline lineno="24" refid="classMR_1_1DirectionWidget_1_1ChangeDirAction" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga1287bb21d1cdb76fe59fd4dcbf6a6ffd" kindref="member">ChangeDirAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadc90b8207a85c52060b965692645d95b" kindref="member">ChangeXfAction</ref></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="27" refid="group__GeneralGroup_1ga1287bb21d1cdb76fe59fd4dcbf6a6ffd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga1287bb21d1cdb76fe59fd4dcbf6a6ffd" kindref="member">ChangeDirAction</ref>(<sp/><ref refid="classMR_1_1DirectionWidget" kindref="compound">DirectionWidget</ref>&amp;<sp/>widget,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Change<sp/>Direction&quot;</highlight><highlight class="normal"><sp/>)<sp/>:</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeXfAction" kindref="compound">ChangeXfAction</ref>(<sp/>name,<sp/>static_pointer_cast&lt;<ref refid="classMR_1_1Object" kindref="compound">Object</ref>&gt;(<sp/>widget.directionObj_<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1ga1287bb21d1cdb76fe59fd4dcbf6a6ffd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga1287bb21d1cdb76fe59fd4dcbf6a6ffd" kindref="member">ChangeDirAction</ref>(<sp/><ref refid="classMR_1_1DirectionWidget" kindref="compound">DirectionWidget</ref>&amp;<sp/>widget,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="group__GeneralGroup_1ga677bcbff928530a06249b4aa004556bc" kindref="member">name</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Change<sp/>Direction&quot;</highlight><highlight class="normal"><sp/>)<sp/>:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gadc90b8207a85c52060b965692645d95b" kindref="member">ChangeXfAction</ref>(<sp/><ref refid="group__GeneralGroup_1ga677bcbff928530a06249b4aa004556bc" kindref="member">name</ref>,<sp/>static_pointer_cast&lt;<ref refid="classMR_1_1Object" kindref="compound">Object</ref>&gt;(<sp/>widget.directionObj_<sp/>)<sp/>)</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="classMR_1_1DirectionWidget_1_1ChangeVisibleAction" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1DirectionWidget_1_1ChangeVisibleAction" kindref="compound">ChangeVisibleAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="33" refid="classMR_1_1DirectionWidget_1_1ChangeVisibleAction" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gad8f6ba3f974fae829f4eae6ddb94761a" kindref="member">ChangeVisibleAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="36" refid="group__GeneralGroup_1gad8f6ba3f974fae829f4eae6ddb94761a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gad8f6ba3f974fae829f4eae6ddb94761a" kindref="member">ChangeVisibleAction</ref>(<sp/><ref refid="classMR_1_1DirectionWidget" kindref="compound">DirectionWidget</ref>&amp;<sp/>widget<sp/>)<sp/>:</highlight></codeline>
@@ -718,7 +718,7 @@
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="79" refid="group__GeneralGroup_1ga0ecb81851105a8eb427a1f270b7659a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga0ecb81851105a8eb427a1f270b7659a2" kindref="member">dir</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="80" refid="group__GeneralGroup_1ga2f55bff335dea2ab2a6b581fe070bef4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga2f55bff335dea2ab2a6b581fe070bef4" kindref="member">base</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="81" refid="group__GeneralGroup_1gad87c52072ac6532b21210fb8f8f48921" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf9d495c1655d813d553030485d00fea7" kindref="member">length</ref><sp/>=<sp/>1;<sp/></highlight></codeline>
+<codeline lineno="81" refid="group__GeneralGroup_1gad87c52072ac6532b21210fb8f8f48921" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad87c52072ac6532b21210fb8f8f48921" kindref="member">length</ref><sp/>=<sp/>1;<sp/></highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
 <codeline lineno="87" refid="group__GeneralGroup_1gaab144ff315072ef79d65eda712f51df3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaab144ff315072ef79d65eda712f51df3" kindref="member">create</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>parent<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
@@ -783,8 +783,8 @@
 <codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>onMouseMove_(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mouse_x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mouse_y<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="179"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="181"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h"/>
+    <location file="MRViewer/MRDirectionWidget.h"/>
   </compounddef>
 </doxygen>

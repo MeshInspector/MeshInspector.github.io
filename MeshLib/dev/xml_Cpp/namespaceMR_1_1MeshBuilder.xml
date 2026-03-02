@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1MeshBuilder" kind="namespace" language="C++">
     <compoundname>MR::MeshBuilder</compoundname>
     <innerclass refid="structMR_1_1MeshBuilder_1_1BuildSettings" prot="public">MR::MeshBuilder::BuildSettings</innerclass>
@@ -30,7 +30,7 @@
 <para>Simple example with key steps <programlisting><codeline><highlight class="normal">MR::Triangulation<sp/>t;</highlight></codeline>
 <codeline><highlight class="normal">t.push_back({0_v,1_v,2_v});<sp/></highlight></codeline>
 <codeline><highlight class="normal">t.push_back({2_v,1_v,3_v});<sp/></highlight></codeline>
-<codeline><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>topology<sp/>=<sp/><ref refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kindref="member">MR::MeshBuilder::fromTriangles</ref>(t);</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>topology<sp/>=<sp/><ref refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kindref="member">MR::MeshBuilder::fromTriangles</ref>(t);</highlight></codeline>
 </programlisting></para>
 <para><simplesect kind="warning"><para>Vertices of triangles should have consistent bypass direction</para>
 </simplesect>
@@ -40,6 +40,6 @@
 </simplesect>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="15" column="1"/>
+    <location file="MRMesh/MRIdentifyVertices.h" line="15" column="1"/>
   </compounddef>
 </doxygen>

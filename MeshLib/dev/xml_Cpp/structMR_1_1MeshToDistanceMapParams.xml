@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshToDistanceMapParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshToDistanceMapParams</compoundname>
-    <includes refid="MRDistanceMapParams_8h" local="no">MRDistanceMapParams.h</includes>
+    <includes refid="MRDistanceMapParams_8h" local="no">MRMesh/MRDistanceMapParams.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1MeshToDistanceMapParams_1acbd0c885022ae4d52662d581094cee10" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="65" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="65" bodyend="-1"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="65" column="14" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshToDistanceMapParams_1a3273bae2c4c112688b441a6aa4d0e811" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="66" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="66" bodyend="-1"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="66" column="14" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshToDistanceMapParams_1a251bc8c963a3d914635b6ed3ab80a527" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="67" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="67" bodyend="-1"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="67" column="14" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshToDistanceMapParams_1aac1ab78936263c419b3c72a94c08ea99" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="68" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="68" bodyend="-1"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="68" column="14" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshToDistanceMapParams_1ace32ee073907bc00f51a76ba214f6d3c" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="78" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="78" bodyend="-1"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="78" column="10" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="78" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshToDistanceMapParams_1aa581e3154ca47d52f8cc418e27121f0f" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="79" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="79" bodyend="-1"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="79" column="10" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshToDistanceMapParams_1a0a6eecb875a2ecf0083eb4d21451bbad" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="80" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="80" bodyend="-1"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="80" column="11" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="80" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshToDistanceMapParams_1a21d0cfe784245102024dfe44da9bf9de" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="81" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="81" bodyend="-1"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="81" column="11" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="81" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshToDistanceMapParams_1a7f9d8b8e94b257b2bf65aa10104459c9" prot="public" static="no" mutable="no">
         <type>Vector2i</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="83" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="83" bodyend="-1"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="83" column="14" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="83" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -162,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="19" column="5"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="19" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1a564c1336e2a73c39aed0b35f500f1ff6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -194,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="27" column="6"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="27" column="6"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1a1414dd7af830df04857f0d5f2549af24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="28" column="6"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="28" column="6"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1aca3b29afef50e241d1f0cb88665f5f9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -256,7 +256,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="35" column="6"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="35" column="6"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1aee9b39f6d40e82b31a7ac6661925c1f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -286,7 +286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="36" column="6"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="36" column="6"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1af2eb0fe8049e968df27f68d2950bff6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -318,7 +318,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="45" column="6"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="45" column="6"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1a54fc8759794af2258b2386c8bcdbe84b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -345,7 +345,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="55" column="6"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="55" column="6"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1a2e2a5518e499f07ee236d0357ab3d1a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -371,7 +371,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="56" column="6"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="56" column="6"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1a482fe4d7560bd0ee7537f958da60f404" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -386,7 +386,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="59" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="59" bodyend="62"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="59" column="5" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="59" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1ad5c988e350636c3a7804f51132290869" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>AffineXf3f</type>
@@ -400,7 +400,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="63" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="63" bodyend="63"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="63" column="16" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="63" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1a75bd2c39b7abd536c01547fccc4a18b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -423,7 +423,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="72" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="72" bodyend="77"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="72" column="10" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="72" bodyend="77"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -451,7 +451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="86" column="15"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="86" column="15"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MeshToDistanceMapParams_1ae10bd48929c73f94d1960224dd507ca0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -477,14 +477,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="87" column="10"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="87" column="10"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="17" bodyend="88"/>
+    <location file="MRMesh/MRDistanceMapParams.h" line="16" column="1" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="17" bodyend="88"/>
     <listofallmembers>
       <member refid="structMR_1_1MeshToDistanceMapParams_1aa581e3154ca47d52f8cc418e27121f0f" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>allowNegativeValues</name></member>
       <member refid="structMR_1_1MeshToDistanceMapParams_1a251bc8c963a3d914635b6ed3ab80a527" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>direction</name></member>

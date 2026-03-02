@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshDistance_8h" kind="file" language="C++">
     <compoundname>MRMeshDistance.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -21,10 +21,10 @@
       </node>
     </incdepgraph>
     <sectiondef kind="enum">
-      <memberdef kind="enum" id="MRMeshDistance_8h_1a0411cd49bb5b71852cecd93bcbf0ca2d" prot="public" static="no" strong="no">
+      <memberdef kind="enum" id="MRMeshDistance_8h_1a83cefdbbb0742271ced08b418fc9fd95" prot="public" static="no" strong="no">
         <type></type>
         <name></name>
-        <enumvalue id="MRMeshDistance_8h_1a0411cd49bb5b71852cecd93bcbf0ca2da10f6aa6aa43093281512efa1ac3f6a9b" prot="public">
+        <enumvalue id="MRMeshDistance_8h_1a83cefdbbb0742271ced08b418fc9fd95a10f6aa6aa43093281512efa1ac3f6a9b" prot="public">
           <name>MR_ProcessOneResult_StopProcessing</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -32,7 +32,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MRMeshDistance_8h_1a0411cd49bb5b71852cecd93bcbf0ca2da4088ad1c7b5b84845843b2913fd6295e" prot="public">
+        <enumvalue id="MRMeshDistance_8h_1a83cefdbbb0742271ced08b418fc9fd95a4088ad1c7b5b84845843b2913fd6295e" prot="public">
           <name>MR_ProcessOneResult_ContinueProcessing</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -50,45 +50,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRMeshDistance_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref></type>
-        <definition>typedef struct MR_MeshPart MR_MeshPart</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshPart</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDistance.h" line="11" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDistance.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshDistance_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref></type>
-        <definition>typedef struct MR_SignedDistanceToMeshOptions MR_SignedDistanceToMeshOptions</definition>
-        <argsstring></argsstring>
-        <name>MR_SignedDistanceToMeshOptions</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDistance.h" line="12" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDistance.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshDistance_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
-        <type>struct MR_Vector3f</type>
-        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDistance.h" line="13" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDistance.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" prot="public" static="no">
         <type>struct <ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref></type>
         <definition>typedef struct MR_std_array_MR_Vector3f_3 MR_std_array_MR_Vector3f_3</definition>
@@ -114,19 +75,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDistance.h" line="15" column="115" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDistance.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshDistance_8h_1a55e42a260ef15081eb6a47c600bd1f4b" prot="public" static="no">
-        <type>struct <ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref></type>
-        <definition>typedef struct MR_std_optional_float MR_std_optional_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_optional_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDistance.h" line="16" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDistance.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshDistance_8h_1a9a9e76348b3ba37e03d825a75c07e976" prot="public" static="no">
         <type>bool</type>
@@ -215,19 +163,19 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRMeshDistance_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRMeshDistance_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceToMeshOptions.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRMeshDistance_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceToMeshOptions.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref><sp/><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_array_MR_Vector3f_3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRMeshDistance_8h_1a55e42a260ef15081eb6a47c600bd1f4b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="MRMeshDistance_8h_1a9a9e76348b3ba37e03d825a75c07e976" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshDistance_8h_1a9a9e76348b3ba37e03d825a75c07e976" kindref="member">MR_ProcessOneResult</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>MR_ProcessOneResult</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="22" refid="MRMeshDistance_8h_1a0411cd49bb5b71852cecd93bcbf0ca2da10f6aa6aa43093281512efa1ac3f6a9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshDistance_8h_1a0411cd49bb5b71852cecd93bcbf0ca2da10f6aa6aa43093281512efa1ac3f6a9b" kindref="member">MR_ProcessOneResult_StopProcessing</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="23" refid="MRMeshDistance_8h_1a0411cd49bb5b71852cecd93bcbf0ca2da4088ad1c7b5b84845843b2913fd6295e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshDistance_8h_1a0411cd49bb5b71852cecd93bcbf0ca2da4088ad1c7b5b84845843b2913fd6295e" kindref="member">MR_ProcessOneResult_ContinueProcessing</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="22" refid="MRMeshDistance_8h_1a83cefdbbb0742271ced08b418fc9fd95a10f6aa6aa43093281512efa1ac3f6a9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshDistance_8h_1a83cefdbbb0742271ced08b418fc9fd95a10f6aa6aa43093281512efa1ac3f6a9b" kindref="member">MR_ProcessOneResult_StopProcessing</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="23" refid="MRMeshDistance_8h_1a83cefdbbb0742271ced08b418fc9fd95a4088ad1c7b5b84845843b2913fd6295e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshDistance_8h_1a83cefdbbb0742271ced08b418fc9fd95a4088ad1c7b5b84845843b2913fd6295e" kindref="member">MR_ProcessOneResult_ContinueProcessing</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="24"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="MRMeshDistance_8h_1a0a0e88626e0157752af20facd0a1dd0b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDistance_8h_1a0a0e88626e0157752af20facd0a1dd0b" kindref="member">MR_processCloseTriangles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref><sp/>*t,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rangeSq,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*call);</highlight></codeline>

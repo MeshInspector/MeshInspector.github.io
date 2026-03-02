@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRAddNoise_8h" kind="file" language="C++">
     <compoundname>MRAddNoise.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -7,7 +7,7 @@
     <includes refid="MRMesh_8h" local="yes">MRMesh.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRAddNoise.h</label>
+        <label>MRMesh/MRAddNoise.h</label>
         <link refid="MRAddNoise_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -437,6 +437,6 @@
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddNoise.h"/>
+    <location file="MRMesh/MRAddNoise.h"/>
   </compounddef>
 </doxygen>

@@ -1,9 +1,5 @@
 var MRVolumeInterpolation_8h =
 [
-    [ "MR_FunctionVolume", "MRVolumeInterpolation_8h.html#ab294732b2988d23c13fd8799dc19a43a", null ],
-    [ "MR_SimpleVolumeMinMax", "MRVolumeInterpolation_8h.html#a8926b75bb2beb7a906aef87b4867fe03", null ],
-    [ "MR_VdbVolume", "MRVolumeInterpolation_8h.html#a3d8aa59058b2516d2c9b34241f2c0441", null ],
-    [ "MR_Vector3f", "MRVolumeInterpolation_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
     [ "MR_VoxelsVolumeAccessor_MR_FunctionVolume", "MRVolumeInterpolation_8h.html#acecc5a4d19191cbc59aa3d377b7bfad4", null ],
     [ "MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax", "MRVolumeInterpolation_8h.html#a3f8035b38a4a70d9e6ae339346c7e3db", null ],
     [ "MR_VoxelsVolumeAccessor_MR_VdbVolume", "MRVolumeInterpolation_8h.html#a3c75ce800b8e618cd4d8b9421a153688", null ],

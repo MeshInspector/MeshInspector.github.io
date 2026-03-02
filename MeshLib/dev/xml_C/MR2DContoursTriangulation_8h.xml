@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MR2DContoursTriangulation_8h" kind="file" language="C++">
     <compoundname>MR2DContoursTriangulation.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -86,19 +86,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MR2DContoursTriangulation_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MR2DContoursTriangulation.h" line="14" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MR2DContoursTriangulation.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" prot="public" static="no">
         <type>struct <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref></type>
         <definition>typedef struct MR_MeshTopology MR_MeshTopology</definition>
@@ -107,6 +94,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Mesh Topology Generated from class <computeroutput>MR::MeshTopology</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -790,7 +778,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PlanarTriangulation_IntersectionInfo</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MR2DContoursTriangulation_8h_1a7904b8cd14ce798ae758acaa3e3818e3" kindref="member">MR_PlanarTriangulation_IntersectionInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -808,7 +796,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PlanarTriangulation_IntersectionInfo</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MR2DContoursTriangulation_8h_1a7904b8cd14ce798ae758acaa3e3818e3" kindref="member">MR_PlanarTriangulation_IntersectionInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1113,7 +1101,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PlanarTriangulation_IntersectionsMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MR2DContoursTriangulation_8h_1ae9baf3ae71c8b6e3897162161cea892f" kindref="member">MR_PlanarTriangulation_IntersectionsMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1131,7 +1119,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PlanarTriangulation_IntersectionsMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MR2DContoursTriangulation_8h_1ae9baf3ae71c8b6e3897162161cea892f" kindref="member">MR_PlanarTriangulation_IntersectionsMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1409,7 +1397,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PlanarTriangulation_BaseOutlineParameters</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MR2DContoursTriangulation_8h_1a7cc04c912771d8ecdeac92a3fd49e1be" kindref="member">MR_PlanarTriangulation_BaseOutlineParameters</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1427,7 +1415,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PlanarTriangulation_BaseOutlineParameters</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MR2DContoursTriangulation_8h_1a7cc04c912771d8ecdeac92a3fd49e1be" kindref="member">MR_PlanarTriangulation_BaseOutlineParameters</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1753,7 +1741,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PlanarTriangulation_OutlineParameters</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MR2DContoursTriangulation_8h_1a28d6175ed8fd5f5c9198db6604483f5a" kindref="member">MR_PlanarTriangulation_OutlineParameters</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1771,7 +1759,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PlanarTriangulation_OutlineParameters</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MR2DContoursTriangulation_8h_1a28d6175ed8fd5f5c9198db6604483f5a" kindref="member">MR_PlanarTriangulation_OutlineParameters</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1992,7 +1980,7 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MR2DContoursTriangulation_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Mesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MR2DContoursTriangulation_8h_1af3d746e536136af3a4a530351f5d15e8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1af3d746e536136af3a4a530351f5d15e8" kindref="member">MR_std_vector_MR_PlanarTriangulation_IntersectionInfo</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1af3d746e536136af3a4a530351f5d15e8" kindref="member">MR_std_vector_MR_PlanarTriangulation_IntersectionInfo</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_PlanarTriangulation_IntersectionInfo.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
@@ -2003,20 +1991,20 @@
 <codeline lineno="22" refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MR2DContoursTriangulation_8h_1a4804b01a720e7d9caac26d9ba0ddd66e" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a4804b01a720e7d9caac26d9ba0ddd66e" kindref="member">MR_PlanarTriangulation_WindingMode</ref></highlight></codeline>
+<codeline lineno="26" refid="MR2DContoursTriangulation_8h_1a4804b01a720e7d9caac26d9ba0ddd66e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a4804b01a720e7d9caac26d9ba0ddd66e" kindref="member">MR_PlanarTriangulation_WindingMode</ref></highlight></codeline>
 <codeline lineno="27"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="28" refid="MR2DContoursTriangulation_8h_1a4804b01a720e7d9caac26d9ba0ddd66ea6295a3a744ce1b064617ed194dedee3b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MR2DContoursTriangulation_8h_1a4804b01a720e7d9caac26d9ba0ddd66ea6295a3a744ce1b064617ed194dedee3b" kindref="member">MR_PlanarTriangulation_WindingMode_NonZero</ref><sp/>=<sp/>0,</highlight></codeline>
 <codeline lineno="29" refid="MR2DContoursTriangulation_8h_1a4804b01a720e7d9caac26d9ba0ddd66ea62cae5941c67cf355977ebe02be3534c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MR2DContoursTriangulation_8h_1a4804b01a720e7d9caac26d9ba0ddd66ea62cae5941c67cf355977ebe02be3534c" kindref="member">MR_PlanarTriangulation_WindingMode_Positive</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="30" refid="MR2DContoursTriangulation_8h_1a4804b01a720e7d9caac26d9ba0ddd66ea760d85d44259a37968a85a852de948a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MR2DContoursTriangulation_8h_1a4804b01a720e7d9caac26d9ba0ddd66ea760d85d44259a37968a85a852de948a6" kindref="member">MR_PlanarTriangulation_WindingMode_Negative</ref><sp/>=<sp/>2,</highlight></codeline>
 <codeline lineno="31" refid="MR2DContoursTriangulation_8h_1a2322c246c75b00c3a239e335f94ebc2e" refkind="member"><highlight class="normal">}<sp/><ref refid="MR2DContoursTriangulation_8h_1a4804b01a720e7d9caac26d9ba0ddd66e" kindref="member">MR_PlanarTriangulation_WindingMode</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MR2DContoursTriangulation_8h_1a7904b8cd14ce798ae758acaa3e3818e3" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a7904b8cd14ce798ae758acaa3e3818e3" kindref="member">MR_PlanarTriangulation_IntersectionInfo</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a7904b8cd14ce798ae758acaa3e3818e3" kindref="member">MR_PlanarTriangulation_IntersectionInfo</ref>;</highlight></codeline>
+<codeline lineno="36" refid="MR2DContoursTriangulation_8h_1a7904b8cd14ce798ae758acaa3e3818e3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a7904b8cd14ce798ae758acaa3e3818e3" kindref="member">MR_PlanarTriangulation_IntersectionInfo</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a7904b8cd14ce798ae758acaa3e3818e3" kindref="member">MR_PlanarTriangulation_IntersectionInfo</ref>;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MR2DContoursTriangulation_8h_1ae9baf3ae71c8b6e3897162161cea892f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ae9baf3ae71c8b6e3897162161cea892f" kindref="member">MR_PlanarTriangulation_IntersectionsMap</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ae9baf3ae71c8b6e3897162161cea892f" kindref="member">MR_PlanarTriangulation_IntersectionsMap</ref>;</highlight></codeline>
+<codeline lineno="41" refid="MR2DContoursTriangulation_8h_1ae9baf3ae71c8b6e3897162161cea892f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ae9baf3ae71c8b6e3897162161cea892f" kindref="member">MR_PlanarTriangulation_IntersectionsMap</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ae9baf3ae71c8b6e3897162161cea892f" kindref="member">MR_PlanarTriangulation_IntersectionsMap</ref>;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MR2DContoursTriangulation_8h_1a7cc04c912771d8ecdeac92a3fd49e1be" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a7cc04c912771d8ecdeac92a3fd49e1be" kindref="member">MR_PlanarTriangulation_BaseOutlineParameters</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a7cc04c912771d8ecdeac92a3fd49e1be" kindref="member">MR_PlanarTriangulation_BaseOutlineParameters</ref>;</highlight></codeline>
+<codeline lineno="45" refid="MR2DContoursTriangulation_8h_1a7cc04c912771d8ecdeac92a3fd49e1be" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a7cc04c912771d8ecdeac92a3fd49e1be" kindref="member">MR_PlanarTriangulation_BaseOutlineParameters</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a7cc04c912771d8ecdeac92a3fd49e1be" kindref="member">MR_PlanarTriangulation_BaseOutlineParameters</ref>;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="MR2DContoursTriangulation_8h_1a28d6175ed8fd5f5c9198db6604483f5a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a28d6175ed8fd5f5c9198db6604483f5a" kindref="member">MR_PlanarTriangulation_OutlineParameters</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a28d6175ed8fd5f5c9198db6604483f5a" kindref="member">MR_PlanarTriangulation_OutlineParameters</ref>;</highlight></codeline>
+<codeline lineno="49" refid="MR2DContoursTriangulation_8h_1a28d6175ed8fd5f5c9198db6604483f5a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a28d6175ed8fd5f5c9198db6604483f5a" kindref="member">MR_PlanarTriangulation_OutlineParameters</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a28d6175ed8fd5f5c9198db6604483f5a" kindref="member">MR_PlanarTriangulation_OutlineParameters</ref>;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56" refid="MR2DContoursTriangulation_8h_1ad2980863f3bbb86198206ac45f63cb6a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*<ref refid="MR2DContoursTriangulation_8h_1ad2980863f3bbb86198206ac45f63cb6a" kindref="member">MR_PlanarTriangulation_findHoleVertIdsByHoleEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*tp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*holePaths);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
@@ -2046,29 +2034,29 @@
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ratio<sp/>of<sp/>intersection</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment">//<sp/>0.0<sp/>-&gt;<sp/>point<sp/>is<sp/>lOrg</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="150"><highlight class="normal"></highlight><highlight class="comment">//<sp/>1.0<sp/>-&gt;<sp/>point<sp/>is<sp/>lDest</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="comment">//<sp/>1.0<sp/>-&gt;<sp/>point<sp/>is<sp/>lDest</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="155" refid="MR2DContoursTriangulation_8h_1acf6b0599494dba8ba62b52796052ea0b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MR2DContoursTriangulation_8h_1acf6b0599494dba8ba62b52796052ea0b" kindref="member">MR_PlanarTriangulation_IntersectionInfo_Get_lRatio</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a7904b8cd14ce798ae758acaa3e3818e3" kindref="member">MR_PlanarTriangulation_IntersectionInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight></codeline>
 <codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ratio<sp/>of<sp/>intersection</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight><highlight class="comment">//<sp/>0.0<sp/>-&gt;<sp/>point<sp/>is<sp/>lOrg</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="159"><highlight class="normal"></highlight><highlight class="comment">//<sp/>1.0<sp/>-&gt;<sp/>point<sp/>is<sp/>lDest</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="comment">//<sp/>1.0<sp/>-&gt;<sp/>point<sp/>is<sp/>lDest</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="163" refid="MR2DContoursTriangulation_8h_1aacc32040cec342feff5b0383260902fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1aacc32040cec342feff5b0383260902fb" kindref="member">MR_PlanarTriangulation_IntersectionInfo_Set_lRatio</ref>(<ref refid="MR2DContoursTriangulation_8h_1a7904b8cd14ce798ae758acaa3e3818e3" kindref="member">MR_PlanarTriangulation_IntersectionInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="164"><highlight class="normal"></highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ratio<sp/>of<sp/>intersection</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="166"><highlight class="normal"></highlight><highlight class="comment">//<sp/>0.0<sp/>-&gt;<sp/>point<sp/>is<sp/>lOrg</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="167"><highlight class="normal"></highlight><highlight class="comment">//<sp/>1.0<sp/>-&gt;<sp/>point<sp/>is<sp/>lDest</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="comment">//<sp/>1.0<sp/>-&gt;<sp/>point<sp/>is<sp/>lDest</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="172" refid="MR2DContoursTriangulation_8h_1a3f7cd6df307e28942028355a5ba18693" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MR2DContoursTriangulation_8h_1a3f7cd6df307e28942028355a5ba18693" kindref="member">MR_PlanarTriangulation_IntersectionInfo_GetMutable_lRatio</ref>(<ref refid="MR2DContoursTriangulation_8h_1a7904b8cd14ce798ae758acaa3e3818e3" kindref="member">MR_PlanarTriangulation_IntersectionInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight></codeline>
 <codeline lineno="174"><highlight class="normal"></highlight><highlight class="comment">//<sp/>0.0<sp/>-&gt;<sp/>point<sp/>is<sp/>uOrg</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight><highlight class="comment">//<sp/>1.0<sp/>-&gt;<sp/>point<sp/>is<sp/>uDest</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="comment">//<sp/>1.0<sp/>-&gt;<sp/>point<sp/>is<sp/>uDest</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="180" refid="MR2DContoursTriangulation_8h_1a8963f816708ef82ecd03a0bdb05ae542" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MR2DContoursTriangulation_8h_1a8963f816708ef82ecd03a0bdb05ae542" kindref="member">MR_PlanarTriangulation_IntersectionInfo_Get_uRatio</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a7904b8cd14ce798ae758acaa3e3818e3" kindref="member">MR_PlanarTriangulation_IntersectionInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"></highlight></codeline>
 <codeline lineno="182"><highlight class="normal"></highlight><highlight class="comment">//<sp/>0.0<sp/>-&gt;<sp/>point<sp/>is<sp/>uOrg</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="183"><highlight class="normal"></highlight><highlight class="comment">//<sp/>1.0<sp/>-&gt;<sp/>point<sp/>is<sp/>uDest</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="comment">//<sp/>1.0<sp/>-&gt;<sp/>point<sp/>is<sp/>uDest</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="187" refid="MR2DContoursTriangulation_8h_1aee6117a2761c11d17b8d2d8e5828ecd1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1aee6117a2761c11d17b8d2d8e5828ecd1" kindref="member">MR_PlanarTriangulation_IntersectionInfo_Set_uRatio</ref>(<ref refid="MR2DContoursTriangulation_8h_1a7904b8cd14ce798ae758acaa3e3818e3" kindref="member">MR_PlanarTriangulation_IntersectionInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight><highlight class="comment">//<sp/>0.0<sp/>-&gt;<sp/>point<sp/>is<sp/>uOrg</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="190"><highlight class="normal"></highlight><highlight class="comment">//<sp/>1.0<sp/>-&gt;<sp/>point<sp/>is<sp/>uDest</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="comment">//<sp/>1.0<sp/>-&gt;<sp/>point<sp/>is<sp/>uDest</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="195" refid="MR2DContoursTriangulation_8h_1a535231afb5e72f23b7ab8b0547beabff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MR2DContoursTriangulation_8h_1a535231afb5e72f23b7ab8b0547beabff" kindref="member">MR_PlanarTriangulation_IntersectionInfo_GetMutable_uRatio</ref>(<ref refid="MR2DContoursTriangulation_8h_1a7904b8cd14ce798ae758acaa3e3818e3" kindref="member">MR_PlanarTriangulation_IntersectionInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"></highlight></codeline>
 <codeline lineno="199" refid="MR2DContoursTriangulation_8h_1a4f57701b397b459951ed8467b700674d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1a7904b8cd14ce798ae758acaa3e3818e3" kindref="member">MR_PlanarTriangulation_IntersectionInfo</ref><sp/>*<ref refid="MR2DContoursTriangulation_8h_1a4f57701b397b459951ed8467b700674d" kindref="member">MR_PlanarTriangulation_IntersectionInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>

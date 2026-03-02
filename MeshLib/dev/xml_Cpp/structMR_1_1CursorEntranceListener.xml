@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1CursorEntranceListener" kind="struct" language="C++" prot="public" abstract="yes">
     <compoundname>MR::CursorEntranceListener</compoundname>
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
-    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewer/MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga2e6ad6df00a5718db8e060aec257534b" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1gabd94cdf4627914e91f8f24f1aef2cb54" kind="function"><name>~CursorEntranceListener</name></member>
@@ -53,7 +53,7 @@
         <link refid="structMR_1_1IConnectable"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="410" bodyend="416"/>
+    <location file="MRViewer/MRViewerEventsListener.h" line="409" column="1" bodyfile="MRViewer/MRViewerEventsListener.h" bodystart="410" bodyend="416"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab16f3059c06b78bdc487efa6c5aafabb" prot="public" virt="virtual"><scope>MR::CursorEntranceListener</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::CursorEntranceListener</scope><name>connection_</name></member>

@@ -2,10 +2,6 @@ var MRLine_8h =
 [
     [ "MR_Line2d", "MRLine_8h.html#a6992d64f6703ac6d7687c699042105a2", null ],
     [ "MR_Line2f", "MRLine_8h.html#a42f4324f3958a2b1ca19cd1728c5db67", null ],
-    [ "MR_Line3d", "MRLine_8h.html#ac137600e53e2a5c6efea3c61034a1a95", null ],
-    [ "MR_Line3f", "MRLine_8h.html#aca1d803422d4caa25c56d04a67efbc52", null ],
-    [ "MR_std_istream", "MRLine_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
-    [ "MR_std_ostream", "MRLine_8h.html#a933fad1748853c0c595a157b9f6527c6", null ],
     [ "MR_input_MR_Line2d", "MRLine_8h.html#ad05cd88d5b28243c8997604029e9aebe", null ],
     [ "MR_input_MR_Line2f", "MRLine_8h.html#a68df80f8b687a3bb70f9bdbd8427ed79", null ],
     [ "MR_input_MR_Line3d", "MRLine_8h.html#a082ee46035c110a61615f12037ea2a43", null ],

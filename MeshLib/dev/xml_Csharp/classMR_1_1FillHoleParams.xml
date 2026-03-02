@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
-  <compounddef id="classMR_1_1FillHoleParams" kind="class" language="C#" prot="private">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FillHoleParams" kind="struct" language="C#" prot="public">
     <compoundname>MR::FillHoleParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_FillHoleParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FillHoleParams_1a238b95687d6651d2f4714aa4d7abb636" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.FillHoleMetric</type>
+        <type>new unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
         <definition>new unsafe MR.FillHoleMetric MR.FillHoleParams.metric</definition>
         <argsstring></argsstring>
         <name>metric</name>
@@ -15,7 +15,7 @@
         <detaileddescription>
 <para>Specifies triangulation metric<linebreak/>
 default for <ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="member">MR.fillHole</ref>: getCircumscribedFillMetric<linebreak/>
-<simplesect kind="see"><para>FillHoleMetric </para>
+<simplesect kind="see"><para><ref refid="classMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref> </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -190,7 +190,7 @@ default for <ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="mem
           <declname>stopBeforeBadTriangulation</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR.FillHoleParams</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FillHoleParams" kindref="compound">MR.FillHoleParams</ref></computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -209,7 +209,7 @@ default for <ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="mem
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FillHoleParams.FillHoleParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FillHoleParams_1a46a1af49fc62424e921655fdf575c3cf" kindref="member">MR.FillHoleParams.FillHoleParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -228,7 +228,7 @@ default for <ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="mem
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FillHoleParams.FillHoleParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FillHoleParams_1a46a1af49fc62424e921655fdf575c3cf" kindref="member">MR.FillHoleParams.FillHoleParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -243,11 +243,11 @@ default for <ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="mem
         <name>FillHoleParams</name>
         <qualifiedname>MR.FillHoleParams.FillHoleParams</qualifiedname>
         <param>
-          <type>FillHoleParams</type>
+          <type><ref refid="classMR_1_1FillHoleParams" kindref="compound">FillHoleParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FillHoleParams.FillHoleParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FillHoleParams_1a46a1af49fc62424e921655fdf575c3cf" kindref="member">MR.FillHoleParams.FillHoleParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -256,7 +256,7 @@ default for <ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="mem
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="353" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="353" bodyend="353"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FillHoleParams_1a4710791165568eff0693dfbd561f9dde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.FillHoleParams</type>
+        <type>unsafe <ref refid="classMR_1_1FillHoleParams" kindref="compound">MR.FillHoleParams</ref></type>
         <definition>unsafe MR.FillHoleParams MR.FillHoleParams.assign</definition>
         <argsstring>(MR._ByValue_FillHoleParams _other)</argsstring>
         <name>assign</name>
@@ -266,7 +266,7 @@ default for <ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="mem
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FillHoleParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FillHoleParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -282,55 +282,57 @@ Structure has some options to control <ref refid="classMR_1a62bc429ce182f953c2f0
     <detaileddescription>
 <para><simplesect kind="see"><para><ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="member">fillHole</ref> </para>
 </simplesect>
-<simplesect kind="see"><para>FillHoleMetric Generated from class <computeroutput>MR.FillHoleParams</computeroutput>. This is the const half of the class.</para>
+<simplesect kind="see"><para><ref refid="classMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref> Generated from class <computeroutput><ref refid="classMR_1_1FillHoleParams" kindref="compound">MR.FillHoleParams</ref></computeroutput>. This is the const half of the class.</para>
 </simplesect>
 <simplesect kind="see"><para><ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="member">fillHole</ref> </para>
 </simplesect>
-<simplesect kind="see"><para>FillHoleMetric Generated from class <computeroutput>MR.FillHoleParams</computeroutput>. This is the non-const half of the class. </para>
+<simplesect kind="see"><para><ref refid="classMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref> Generated from class <computeroutput><ref refid="classMR_1_1FillHoleParams" kindref="compound">MR.FillHoleParams</ref></computeroutput>. This is the non-const half of the class. </para>
 </simplesect>
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.FillHoleParams</label>
+        <link refid="classMR_1_1FillHoleParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_FillHoleParams</label>
+        <label>MR.Const_FillHoleParams</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.FillHoleParams</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FillHoleParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.FillHoleParams</label>
+        <link refid="classMR_1_1FillHoleParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_FillHoleParams</label>
+        <label>MR.Const_FillHoleParams</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.FillHoleParams</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FillHoleParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="226" column="11"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="226" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="227" bodyend="366"/>
     <listofallmembers>
       <member refid="classMR_1_1FillHoleParams_1a4710791165568eff0693dfbd561f9dde" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>assign</name></member>
       <member refid="classMR_1_1FillHoleParams_1a2d1c0445bee676d959e83bb1ca013ecf" prot="package" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>FillHoleParams</name></member>

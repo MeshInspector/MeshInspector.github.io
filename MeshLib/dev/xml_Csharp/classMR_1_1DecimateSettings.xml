@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
-  <compounddef id="classMR_1_1DecimateSettings" kind="class" language="C#" prot="private">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1DecimateSettings" kind="struct" language="C#" prot="public">
     <compoundname>MR::DecimateSettings</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_DecimateSettings</basecompoundref>
     <sectiondef kind="property">
@@ -642,7 +642,7 @@
           <declname>minFacesInPart</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR.DecimateSettings</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput><ref refid="classMR_1_1DecimateSettings" kindref="compound">MR.DecimateSettings</ref></computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -661,7 +661,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DecimateSettings.DecimateSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DecimateSettings_1ab67032cee10cf045f9a4cee048756b24" kindref="member">MR.DecimateSettings.DecimateSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -680,7 +680,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DecimateSettings.DecimateSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DecimateSettings_1ab67032cee10cf045f9a4cee048756b24" kindref="member">MR.DecimateSettings.DecimateSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -695,11 +695,11 @@
         <name>DecimateSettings</name>
         <qualifiedname>MR.DecimateSettings.DecimateSettings</qualifiedname>
         <param>
-          <type>DecimateSettings</type>
+          <type><ref refid="classMR_1_1DecimateSettings" kindref="compound">DecimateSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DecimateSettings.DecimateSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DecimateSettings_1ab67032cee10cf045f9a4cee048756b24" kindref="member">MR.DecimateSettings.DecimateSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -708,7 +708,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="845" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="845" bodyend="845"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DecimateSettings_1a41a5f86701c05809d1d01a45254b2185" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.DecimateSettings</type>
+        <type>unsafe <ref refid="classMR_1_1DecimateSettings" kindref="compound">MR.DecimateSettings</ref></type>
         <definition>unsafe MR.DecimateSettings MR.DecimateSettings.assign</definition>
         <argsstring>(MR._ByValue_DecimateSettings _other)</argsstring>
         <name>assign</name>
@@ -718,7 +718,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.DecimateSettings.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::DecimateSettings::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -731,53 +731,55 @@
 <para>Parameters structure for <ref refid="classMR_1a5acec4e437ef0a28be3ff53f86661858" kindref="member">MR.decimateMesh</ref>. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="see"><para><ref refid="classMR_1a5acec4e437ef0a28be3ff53f86661858" kindref="member">decimateMesh</ref> Generated from class <computeroutput>MR.DecimateSettings</computeroutput>. This is the const half of the class.</para>
+<para><simplesect kind="see"><para><ref refid="classMR_1a5acec4e437ef0a28be3ff53f86661858" kindref="member">decimateMesh</ref> Generated from class <computeroutput><ref refid="classMR_1_1DecimateSettings" kindref="compound">MR.DecimateSettings</ref></computeroutput>. This is the const half of the class.</para>
 </simplesect>
-<simplesect kind="see"><para><ref refid="classMR_1a5acec4e437ef0a28be3ff53f86661858" kindref="member">decimateMesh</ref> Generated from class <computeroutput>MR.DecimateSettings</computeroutput>. This is the non-const half of the class. </para>
+<simplesect kind="see"><para><ref refid="classMR_1a5acec4e437ef0a28be3ff53f86661858" kindref="member">decimateMesh</ref> Generated from class <computeroutput><ref refid="classMR_1_1DecimateSettings" kindref="compound">MR.DecimateSettings</ref></computeroutput>. This is the non-const half of the class. </para>
 </simplesect>
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.DecimateSettings</label>
+        <link refid="classMR_1_1DecimateSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_DecimateSettings</label>
+        <label>MR.Const_DecimateSettings</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.DecimateSettings</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DecimateSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.DecimateSettings</label>
+        <link refid="classMR_1_1DecimateSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_DecimateSettings</label>
+        <label>MR.Const_DecimateSettings</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.DecimateSettings</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DecimateSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="547" column="11"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="547" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="548" bodyend="858"/>
     <listofallmembers>
       <member refid="classMR_1_1DecimateSettings_1a300c3b2ad9203e21162b89faf44bb048" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>adjustCollapse</name></member>
       <member refid="classMR_1_1DecimateSettings_1a1f59a8f451281096bee895e0f09f083d" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>angleWeightedDistToPlane</name></member>

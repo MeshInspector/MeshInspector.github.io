@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRUnorientedTriangle_8h" kind="file" language="C++">
     <compoundname>MRUnorientedTriangle.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -39,19 +39,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRUnorientedTriangle_8h_1afbb808142b78943a45d860ed6aba54e5" prot="public" static="no">
-        <type>struct MR_VertId</type>
-        <definition>typedef struct MR_VertId MR_VertId</definition>
-        <argsstring></argsstring>
-        <name>MR_VertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="14" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" prot="public" static="no">
         <type>struct <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref></type>
         <definition>typedef struct MR_UnorientedTriangle MR_UnorientedTriangle</definition>
@@ -220,7 +207,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_UnorientedTriangle</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -238,7 +225,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_UnorientedTriangle</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -407,10 +394,10 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRUnorientedTriangle_8h_1afbb808142b78943a45d860ed6aba54e5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref>;</highlight></codeline>
+<codeline lineno="21" refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27" refid="MRUnorientedTriangle_8h_1a70959cf48fd72ee34af799fe34ca3765" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1a70959cf48fd72ee34af799fe34ca3765" kindref="member">MR_UnorientedTriangle_Get_verts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ComputeSteepestDescentPathSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::ComputeSteepestDescentPathSettings</compoundname>
-    <includes refid="MRSurfacePath_8h" local="no">MRSurfacePath.h</includes>
+    <includes refid="MRSurfacePath_8h" local="no">MRMesh/MRSurfacePath.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1ComputeSteepestDescentPathSettings_1a9c5b63e96c36543a3af9203630d6325c" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="72" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" bodystart="72" bodyend="-1"/>
+        <location file="MRMesh/MRSurfacePath.h" line="72" column="18" bodyfile="MRMesh/MRSurfacePath.h" bodystart="72" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ComputeSteepestDescentPathSettings_1adb7629a9e4ce0c21efc00fd5f1b3932f" prot="public" static="no" mutable="no">
         <type>VertId *</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="74" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" bodystart="74" bodyend="-1"/>
+        <location file="MRMesh/MRSurfacePath.h" line="74" column="13" bodyfile="MRMesh/MRSurfacePath.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ComputeSteepestDescentPathSettings_1a133dd657607eb8f8e2745935031c0ed0" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref> *</type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="76" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" bodystart="76" bodyend="-1"/>
+        <location file="MRMesh/MRSurfacePath.h" line="76" column="16" bodyfile="MRMesh/MRSurfacePath.h" bodystart="76" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -76,7 +76,7 @@
         <link refid="structMR_1_1MeshTriPoint"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="69" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" bodystart="70" bodyend="77"/>
+    <location file="MRMesh/MRSurfacePath.h" line="69" column="1" bodyfile="MRMesh/MRSurfacePath.h" bodystart="70" bodyend="77"/>
     <listofallmembers>
       <member refid="structMR_1_1ComputeSteepestDescentPathSettings_1a9c5b63e96c36543a3af9203630d6325c" prot="public" virt="non-virtual"><scope>MR::ComputeSteepestDescentPathSettings</scope><name>end</name></member>
       <member refid="structMR_1_1ComputeSteepestDescentPathSettings_1a133dd657607eb8f8e2745935031c0ed0" prot="public" virt="non-virtual"><scope>MR::ComputeSteepestDescentPathSettings</scope><name>outBdReached</name></member>

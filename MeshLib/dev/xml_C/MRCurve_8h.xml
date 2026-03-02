@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCurve_8h" kind="file" language="C++">
     <compoundname>MRCurve.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
@@ -57,34 +57,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCurve.h" line="13" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCurve.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRCurve_8h_1a08cf07c2015dfa50b949533e499c01d6" prot="public" static="no">
-        <type>struct <ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref></type>
-        <definition>typedef struct MR_CurvePoint MR_CurvePoint</definition>
-        <argsstring></argsstring>
-        <name>MR_CurvePoint</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::CurvePoint</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCurve.h" line="18" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCurve.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRCurve_8h_1ab736d01b412677bf61e955b279bb05c2" prot="public" static="no">
-        <type>struct <ref refid="MRAlignContoursToMesh_8h_1ab736d01b412677bf61e955b279bb05c2" kindref="member">MR_CurveFunc</ref></type>
-        <definition>typedef struct MR_CurveFunc MR_CurveFunc</definition>
-        <argsstring></argsstring>
-        <name>MR_CurveFunc</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::CurveFunc</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). position on the curve Returns a pointer to a member variable of class <computeroutput>MR::CurvePoint</computeroutput> named <computeroutput>pos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCurve.h" line="22" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCurve.h" bodystart="22" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -394,7 +366,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_CurvePoint</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -412,7 +384,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_CurvePoint</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -699,7 +671,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_CurveFunc</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAlignContoursToMesh_8h_1ab736d01b412677bf61e955b279bb05c2" kindref="member">MR_CurveFunc</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -717,7 +689,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_CurveFunc</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAlignContoursToMesh_8h_1ab736d01b412677bf61e955b279bb05c2" kindref="member">MR_CurveFunc</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -772,9 +744,9 @@
 <codeline lineno="13" refid="MRCurve_8h_1afe2bc6a2fcc62602733c1124e62bcd2f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCurve_8h_1afe2bc6a2fcc62602733c1124e62bcd2f" kindref="member">MR_std_function_MR_CurvePoint_from_float</ref><sp/><ref refid="MRCurve_8h_1afe2bc6a2fcc62602733c1124e62bcd2f" kindref="member">MR_std_function_MR_CurvePoint_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_MR_CurvePoint_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRCurve_8h_1a08cf07c2015dfa50b949533e499c01d6" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRCurve_8h_1ab736d01b412677bf61e955b279bb05c2" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1ab736d01b412677bf61e955b279bb05c2" kindref="member">MR_CurveFunc</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1ab736d01b412677bf61e955b279bb05c2" kindref="member">MR_CurveFunc</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1ab736d01b412677bf61e955b279bb05c2" kindref="member">MR_CurveFunc</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1ab736d01b412677bf61e955b279bb05c2" kindref="member">MR_CurveFunc</ref>;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="MRCurve_8h_1a3c991d0b4b167128353db0789ba3a91c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRCurve_8h_1a3c991d0b4b167128353db0789ba3a91c" kindref="member">MR_CurvePoint_Get_pos</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a08cf07c2015dfa50b949533e499c01d6" kindref="member">MR_CurvePoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>

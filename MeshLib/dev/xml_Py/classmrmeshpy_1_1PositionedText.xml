@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PositionedText" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PositionedText</compoundname>
     <sectiondef kind="private-static-attrib">
@@ -217,19 +217,6 @@
 <para><verbatim>Generated from:  MR::PositionedText
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.PositionedText</label>
-        <link refid="classmrmeshpy_1_1PositionedText"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_position</edgelabel>
-          <edgelabel>_offsetof_text</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48196" bodyend="48230"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PositionedText_1a9df83dcb65a637bae9d367b90216a624" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionedText</scope><name>__eq__</name></member>

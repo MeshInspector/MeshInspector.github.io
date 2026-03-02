@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VisualObject" kind="class" language="C#" prot="public">
     <compoundname>MR::VisualObject</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_VisualObject</basecompoundref>
@@ -132,7 +132,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.VisualObject.VisualObject</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VisualObject_1a1a2947d0fc7d25c529942b8219766825" kindref="member">MR.VisualObject.VisualObject</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -151,7 +151,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.VisualObject.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::VisualObject::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -475,7 +475,7 @@
 <parametername>mask</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>is a union of DirtyFlags flags </para>
+<para>is a union of <ref refid="classMR_1afdc8eb214c61d43e8ef39575a19d0e29" kindref="member">DirtyFlags</ref> flags </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1042,7 +1042,7 @@
           <declname>tag</declname>
         </param>
         <briefdescription>
-<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager.tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1VisualObject_1a632589d5adf08d0bc341b2fe0d310330" kindref="member">MR.VisualObject.addTag</ref></computeroutput>. </para>
+<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager::tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1VisualObject_1a632589d5adf08d0bc341b2fe0d310330" kindref="member">MR.VisualObject.addTag</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1061,7 +1061,7 @@
           <declname>tag</declname>
         </param>
         <briefdescription>
-<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager.tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1VisualObject_1a24ed203a65fbfee211ca694da5347e2d" kindref="member">MR.VisualObject.removeTag</ref></computeroutput>. </para>
+<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager::tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1VisualObject_1a24ed203a65fbfee211ca694da5347e2d" kindref="member">MR.VisualObject.removeTag</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1071,50 +1071,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Visual <ref refid="classMR_1_1Object" kindref="compound">Object</ref> Generated from class <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1MeasurementObject" kindref="compound">MR.MeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectLabel" kindref="compound">MR.ObjectLabel</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref></computeroutput> Indirect: (non-virtual) <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.angle, MR.DimensionsVisualizePropertyType.length&gt;</computeroutput> <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.length&gt;</computeroutput> <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter&gt;</computeroutput> <computeroutput><ref refid="classMR_1_1AngleMeasurementObject" kindref="compound">MR.AngleMeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1CircleObject" kindref="compound">MR.CircleObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ConeObject" kindref="compound">MR.ConeObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1CylinderObject" kindref="compound">MR.CylinderObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">MR.DistanceMeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1LineObject" kindref="compound">MR.LineObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectGcode" kindref="compound">MR.ObjectGcode</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PlaneObject" kindref="compound">MR.PlaneObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PointMeasurementObject" kindref="compound">MR.PointMeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PointObject" kindref="compound">MR.PointObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject" kindref="compound">MR.RadiusMeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1SphereObject" kindref="compound">MR.SphereObject</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Visual <ref refid="classMR_1_1Object" kindref="compound">Object</ref> Generated from class <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1MeasurementObject" kindref="compound">MR.MeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectLabel" kindref="compound">MR.ObjectLabel</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref></computeroutput> Indirect: (non-virtual) <computeroutput>MR::AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;</computeroutput> <computeroutput>MR::AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;</computeroutput> <computeroutput>MR::AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter&gt;</computeroutput> <computeroutput><ref refid="classMR_1_1AngleMeasurementObject" kindref="compound">MR.AngleMeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1CircleObject" kindref="compound">MR.CircleObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ConeObject" kindref="compound">MR.ConeObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1CylinderObject" kindref="compound">MR.CylinderObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">MR.DistanceMeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1LineObject" kindref="compound">MR.LineObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectGcode" kindref="compound">MR.ObjectGcode</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PlaneObject" kindref="compound">MR.PlaneObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PointMeasurementObject" kindref="compound">MR.PointMeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PointObject" kindref="compound">MR.PointObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject" kindref="compound">MR.RadiusMeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1SphereObject" kindref="compound">MR.SphereObject</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_VisualObject</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.VisualObject</label>
         <link refid="classMR_1_1VisualObject"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_VisualObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_VisualObject &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_VisualObject</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.VisualObject</label>
         <link refid="classMR_1_1VisualObject"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_VisualObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_VisualObject &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1687" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1688" bodyend="2275"/>

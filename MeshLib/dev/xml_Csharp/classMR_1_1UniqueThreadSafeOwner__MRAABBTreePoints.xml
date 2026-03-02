@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints" kind="class" language="C#" prot="public">
     <compoundname>MR::UniqueThreadSafeOwner_MRAABBTreePoints</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_UniqueThreadSafeOwner_MRAABBTreePoints</basecompoundref>
@@ -54,7 +54,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::UniqueThreadSafeOwner</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::UniqueThreadSafeOwner</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::UniqueThreadSafeOwner</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::UniqueThreadSafeOwner</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,7 +92,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::UniqueThreadSafeOwner</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::UniqueThreadSafeOwner</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -111,7 +111,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -126,7 +126,7 @@
         <name>reset</name>
         <qualifiedname>MR.UniqueThreadSafeOwner_MRAABBTreePoints.reset</qualifiedname>
         <briefdescription>
-<para>deletes owned object Generated from method <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::reset</computeroutput>. </para>
+<para>deletes owned object Generated from method <computeroutput>MR::UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::reset</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -141,7 +141,7 @@
         <name>get</name>
         <qualifiedname>MR.UniqueThreadSafeOwner_MRAABBTreePoints.get</qualifiedname>
         <briefdescription>
-<para>returns existing owned object and does not create new one Generated from method <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::get</computeroutput>. </para>
+<para>returns existing owned object and does not create new one Generated from method <computeroutput>MR::UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::get</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -160,7 +160,7 @@
           <declname>creator</declname>
         </param>
         <briefdescription>
-<para>returns existing owned object or creates new one using creator function Generated from method <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::getOrCreate</computeroutput>. </para>
+<para>returns existing owned object or creates new one using creator function Generated from method <computeroutput>MR::UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::getOrCreate</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -179,7 +179,7 @@
           <declname>updater</declname>
         </param>
         <briefdescription>
-<para>calls given updater for the owned object (if any) Generated from method <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::update</computeroutput>. </para>
+<para>calls given updater for the owned object (if any) Generated from method <computeroutput>MR::UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;::update</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -189,50 +189,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>This class is base class for unique thread safe owning of some objects, for example <ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref> classes derived from this one should have function like getOrCreate Generated from class <computeroutput>MR.UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>This class is base class for unique thread safe owning of some objects, for example <ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref> classes derived from this one should have function like getOrCreate Generated from class <computeroutput>MR::UniqueThreadSafeOwner&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">MR.AABBTreePoints</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_UniqueThreadSafeOwner_MRAABBTreePoints</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.UniqueThreadSafeOwner_MRAABBTreePoints</label>
         <link refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_UniqueThreadSafeOwner_MRAABBTreePoints</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_UniqueThreadSafeOwner_MRAABBTreePoints &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_UniqueThreadSafeOwner_MRAABBTreePoints</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.UniqueThreadSafeOwner_MRAABBTreePoints</label>
         <link refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_UniqueThreadSafeOwner_MRAABBTreePoints</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_UniqueThreadSafeOwner_MRAABBTreePoints &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" line="305" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" bodystart="306" bodyend="399"/>

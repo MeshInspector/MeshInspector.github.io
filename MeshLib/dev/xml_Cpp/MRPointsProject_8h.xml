@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointsProject_8h" kind="file" language="C++">
     <compoundname>MRPointsProject.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -7,9 +7,9 @@
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes refid="MRPointCloudPart_8h" local="yes">MRPointCloudPart.h</includes>
     <includes local="no">cfloat</includes>
-    <includedby refid="MRCudaPointsProject_8h" local="yes">MRCudaPointsProject.h</includedby>
-    <includedby refid="MRPointCloudTriangulationHelpers_8h" local="yes">MRPointCloudTriangulationHelpers.h</includedby>
-    <includedby refid="MRPointsInBall_8h" local="yes">MRPointsInBall.h</includedby>
+    <includedby refid="MRCudaPointsProject_8h" local="yes">MRCuda/MRCudaPointsProject.h</includedby>
+    <includedby refid="MRPointCloudTriangulationHelpers_8h" local="yes">MRMesh/MRPointCloudTriangulationHelpers.h</includedby>
+    <includedby refid="MRPointsInBall_8h" local="yes">MRMesh/MRPointsInBall.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -78,7 +78,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPointsProject.h</label>
+        <label>MRMesh/MRPointsProject.h</label>
         <link refid="MRPointsProject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -134,19 +134,19 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRCudaPointsProject.h</label>
+        <label>MRCuda/MRCudaPointsProject.h</label>
         <link refid="MRCudaPointsProject_8h"/>
       </node>
       <node id="3">
-        <label>MRPointCloudTriangulationHelpers.h</label>
+        <label>MRMesh/MRPointCloudTriangulationHelpers.h</label>
         <link refid="MRPointCloudTriangulationHelpers_8h"/>
       </node>
       <node id="4">
-        <label>MRPointsInBall.h</label>
+        <label>MRMesh/MRPointsInBall.h</label>
         <link refid="MRPointsInBall_8h"/>
       </node>
       <node id="1">
-        <label>MRPointsProject.h</label>
+        <label>MRMesh/MRPointsProject.h</label>
         <link refid="MRPointsProject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -208,7 +208,7 @@
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
 <codeline lineno="72" refid="group__AABBTreeGroup_1ga32485df4ed1f18a0b4315756a69ff792" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gad75ce80ca78d38bd524b9c4ccd7a520d" kindref="member">VertPair</ref><sp/><ref refid="group__AABBTreeGroup_1ga32485df4ed1f18a0b4315756a69ff792" kindref="member">findTwoClosestPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="structMR_1_1FindProjectionOnPointsSettings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FindProjectionOnPointsSettings" kindref="compound">FindProjectionOnPointsSettings</ref></highlight></codeline>
+<codeline lineno="75" refid="structMR_1_1FindProjectionOnPointsSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FindProjectionOnPointsSettings" kindref="compound">FindProjectionOnPointsSettings</ref></highlight></codeline>
 <codeline lineno="76"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="78" refid="structMR_1_1FindProjectionOnPointsSettings_1a3f9c60f79369db701c3869e757686217" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref>*<sp/><ref refid="structMR_1_1FindProjectionOnPointsSettings_1a3f9c60f79369db701c3869e757686217" kindref="member">valid</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="80" refid="structMR_1_1FindProjectionOnPointsSettings_1ad8f6c40c1465fcd41082510e2022e694" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/><ref refid="structMR_1_1FindProjectionOnPointsSettings_1ad8f6c40c1465fcd41082510e2022e694" kindref="member">xf</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
@@ -218,7 +218,7 @@
 <codeline lineno="88" refid="structMR_1_1FindProjectionOnPointsSettings_1aa4d8d3a3b0dac4b24f0e182945040220" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="structMR_1_1FindProjectionOnPointsSettings_1aa4d8d3a3b0dac4b24f0e182945040220" kindref="member">cb</ref>;</highlight></codeline>
 <codeline lineno="89"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="classMR_1_1IPointsProjector" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref></highlight></codeline>
+<codeline lineno="92" refid="classMR_1_1IPointsProjector" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref></highlight></codeline>
 <codeline lineno="93"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="95" refid="classMR_1_1IPointsProjector_1a2c0b970d9a78fe1a93045c851874c718" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPointsProjector_1a2c0b970d9a78fe1a93045c851874c718" kindref="member">~IPointsProjector</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -231,7 +231,7 @@
 <codeline lineno="105" refid="classMR_1_1IPointsProjector_1a4125cb715c028facd258f35767e5c66c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPointsProjector_1a4125cb715c028facd258f35767e5c66c" kindref="member">projectionsHeapBytes</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>numProjections<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="106"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="classMR_1_1PointsProjector" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1PointsProjector" kindref="compound">PointsProjector</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref></highlight></codeline>
+<codeline lineno="109" refid="classMR_1_1PointsProjector" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1PointsProjector" kindref="compound">PointsProjector</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref></highlight></codeline>
 <codeline lineno="110"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="113" refid="classMR_1_1PointsProjector_1a6e8b40dd14c3c9f33f62f7e0f8e2cadd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="classMR_1_1PointsProjector_1a6e8b40dd14c3c9f33f62f7e0f8e2cadd" kindref="member">setPointCloud</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
@@ -246,6 +246,6 @@
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
 <codeline lineno="126"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h"/>
+    <location file="MRMesh/MRPointsProject.h"/>
   </compounddef>
 </doxygen>

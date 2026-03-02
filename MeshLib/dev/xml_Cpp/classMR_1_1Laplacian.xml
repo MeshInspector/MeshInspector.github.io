@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Laplacian" kind="class" language="C++" prot="public">
     <compoundname>MR::Laplacian</compoundname>
-    <includes refid="MRLaplacian_8h" local="no">MRLaplacian.h</includes>
+    <includes refid="MRLaplacian_8h" local="no">MRMesh/MRLaplacian.h</includes>
     <innerclass refid="structMR_1_1Laplacian_1_1Element" prot="private">MR::Laplacian::Element</innerclass>
     <innerclass refid="structMR_1_1Laplacian_1_1Equation" prot="private">MR::Laplacian::Equation</innerclass>
     <innerclass refid="classMR_1_1Laplacian_1_1Solver" prot="private">MR::Laplacian::Solver</innerclass>
@@ -61,7 +61,7 @@
 </listitem></orderedlist>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="24" bodyend="137"/>
+    <location file="MRMesh/MRLaplacian.h" line="23" column="1" bodyfile="MRMesh/MRLaplacian.h" bodystart="24" bodyend="137"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga13fee62f9942597d173e9f43fe75c60e" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>apply</name></member>
       <member refid="group__GeneralGroup_1ga175ea45bb3617c292306378d0ae533a0" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>applyToScalar</name></member>

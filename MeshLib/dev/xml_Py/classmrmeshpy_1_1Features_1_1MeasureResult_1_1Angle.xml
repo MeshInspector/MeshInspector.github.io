@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Features::MeasureResult::Angle</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart" prot="public" virt="non-virtual">mrmeshpy.Features.MeasureResult.BasicPart</basecompoundref>
@@ -102,7 +102,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a8ea5580560746c5935e3d719f737e753">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -173,7 +172,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a8ea5580560746c5935e3d719f737e753">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -192,7 +190,6 @@
         <argsstring>(self, Features.MeasureResult.Angle arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a8ea5580560746c5935e3d719f737e753">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -217,7 +214,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.Features.MeasureResult.Angle.__repr__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1ac3ee1998322bd737c04046d286ba1120">__repr__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -465,16 +461,8 @@
         <link refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_dirA</edgelabel>
-          <edgelabel>_offsetof_dirB</edgelabel>
-          <edgelabel>_offsetof_isSurfaceNormalA</edgelabel>
-          <edgelabel>_offsetof_isSurfaceNormalB</edgelabel>
-          <edgelabel>_offsetof_pointA</edgelabel>
-          <edgelabel>_offsetof_pointB</edgelabel>
-        </childnode>
       </node>
-      <node id="4">
+      <node id="3">
         <label>mrmeshpy.Features</label>
         <link refid="classmrmeshpy_1_1Features"/>
       </node>
@@ -482,18 +470,13 @@
         <label>mrmeshpy.Features.MeasureResult.BasicPart</label>
         <link refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart"/>
         <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_status</edgelabel>
-        </childnode>
-        <childnode refid="4" relation="usage">
           <edgelabel>status</edgelabel>
         </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18204" bodyend="18270"/>
     <listofallmembers>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a4ca12ccf28289ce7db9a791101cf196b" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>__bool__</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aee3c0b13161ae5cc1e66c9d7a80e2beb" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ab419114bbda7bb5fb89bcc9b8d731240" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1af3a5fe37f8babe3c2a4074a60f7f3ceb" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>__init__</name></member>
@@ -504,6 +487,7 @@
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a10c0b34a31282087cd75b81f36668837" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>_offsetof_isSurfaceNormalB</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a60bbdc40717162a24a7317b038561213" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>_offsetof_pointA</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a69c7ce423412a616048d978430d3c0be" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>_offsetof_pointB</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a48e12ebf97595ff5ba74000dc081b0d8" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>_offsetof_status</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1ad1d5a91a137e8e4b46918df9847381cb" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>computeAngleInRadians</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a5c4fbdc45f55588080323a6180240ab2" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>dirA</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1a7ca194ed4ad30325ed6a07dc268e35f8" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>dirA</name></member>
@@ -516,6 +500,7 @@
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aa03b1c7af9431f9a6249e6a886db6f49" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aa03b1c7af9431f9a6249e6a886db6f49" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1abec47ca8c5a89739cdea17058a2792a9" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>pointFor</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a9f67a08a87117463302cf714d9ff0981" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Angle</scope><name>status</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

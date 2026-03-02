@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SaveSelectedMenuItem" kind="class" language="C++" prot="public">
     <compoundname>MR::SaveSelectedMenuItem</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
     <basecompoundref refid="classMR_1_1SceneStateAtLeastCheck" prot="public" virt="non-virtual">MR::SceneStateAtLeastCheck&lt; 1, Object &gt;</basecompoundref>
-    <includes refid="MRIOFilesMenuItems_8h" local="no">MRIOFilesMenuItems.h</includes>
+    <includes refid="MRIOFilesMenuItems_8h" local="no">MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga6d15c06c36d6e528959fddab3548be2c" kind="function"><name>SaveSelectedMenuItem</name></member>
       <member refid="group__GeneralGroup_1gad064ea5ca7d0f438dae71e8a7ec7446c" kind="function"><name>action</name></member>
@@ -65,7 +65,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="72" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="73" bodyend="77"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="72" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="73" bodyend="77"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad064ea5ca7d0f438dae71e8a7ec7446c" prot="public" virt="virtual"><scope>MR::SaveSelectedMenuItem</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::SaveSelectedMenuItem</scope><name>blocking</name></member>

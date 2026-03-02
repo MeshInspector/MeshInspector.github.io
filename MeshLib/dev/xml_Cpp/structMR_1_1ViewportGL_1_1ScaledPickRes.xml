@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ViewportGL_1_1ScaledPickRes" kind="struct" language="C++" prot="public">
     <compoundname>MR::ViewportGL::ScaledPickRes</compoundname>
-    <includes refid="MRViewportGL_8h" local="no">MRViewportGL.h</includes>
+    <includes refid="MRViewportGL_8h" local="no">MRViewer/MRViewportGL.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga0b94f9fe3c3d5cc43e530789bbc8a327" kind="variable"><name>pickRes</name></member>
       <member refid="group__GeneralGroup_1ga224b86e0fc476df4cd60410f71f7d516" kind="variable"><name>updatedBox</name></member>
@@ -11,7 +11,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="98" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="99" bodyend="102"/>
+    <location file="MRViewer/MRViewportGL.h" line="98" column="5" bodyfile="MRViewer/MRViewportGL.h" bodystart="99" bodyend="102"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0b94f9fe3c3d5cc43e530789bbc8a327" prot="public" virt="non-virtual"><scope>MR::ViewportGL::ScaledPickRes</scope><name>pickRes</name></member>
       <member refid="group__GeneralGroup_1ga224b86e0fc476df4cd60410f71f7d516" prot="public" virt="non-virtual"><scope>MR::ViewportGL::ScaledPickRes</scope><name>updatedBox</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRViewerEventsListener_8h" kind="file" language="C++">
     <compoundname>MRViewerEventsListener.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -7,25 +7,25 @@
     <includes refid="MRSignal_8h" local="yes">MRMesh/MRSignal.h</includes>
     <includes local="no">filesystem</includes>
     <includes local="no">vector</includes>
-    <includedby refid="ImGuiMenu_8h" local="yes">ImGuiMenu.h</includedby>
-    <includedby refid="MRAncillaryLabels_8h" local="yes">MRAncillaryLabels.h</includedby>
-    <includedby refid="MRDemoPlugin_8h" local="yes">MRDemoPlugin.h</includedby>
-    <includedby refid="MRDirectionWidget_8h" local="yes">MRDirectionWidget.h</includedby>
-    <includedby refid="MRImGuiMenuListeners_8h" local="yes">MRImGuiMenuListeners.h</includedby>
-    <includedby refid="MRMeshBoundarySelectionWidget_8h" local="yes">MRMeshBoundarySelectionWidget.h</includedby>
-    <includedby refid="MRMouseController_8h" local="yes">MRMouseController.h</includedby>
-    <includedby refid="MRObjectTransformWidget_8h" local="yes">MRObjectTransformWidget.h</includedby>
-    <includedby refid="MRPickPointManager_8h" local="yes">MRPickPointManager.h</includedby>
-    <includedby refid="MRPlaneWidget_8h" local="yes">MRPlaneWidget.h</includedby>
-    <includedby refid="MRSaveOnClose_8h" local="yes">MRSaveOnClose.h</includedby>
-    <includedby refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="yes">MRSceneControlMenuItems.h</includedby>
-    <includedby refid="MRShortcutManager_8h" local="yes">MRShortcutManager.h</includedby>
-    <includedby refid="MRSpaceMouseHandlerHidapi_8h" local="yes">MRSpaceMouseHandlerHidapi.h</includedby>
-    <includedby refid="MRStatePlugin_8h" local="yes">MRStatePlugin.h</includedby>
-    <includedby refid="MRSurfaceManipulationWidget_8h" local="yes">MRSurfaceManipulationWidget.h</includedby>
-    <includedby refid="MRSurfacePointPicker_8h" local="yes">MRSurfacePointPicker.h</includedby>
-    <includedby refid="MRTouchesController_8h" local="yes">MRTouchesController.h</includedby>
-    <includedby refid="MRTouchpadController_8h" local="yes">MRTouchpadController.h</includedby>
+    <includedby refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="yes">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includedby>
+    <includedby refid="ImGuiMenu_8h" local="yes">MRViewer/ImGuiMenu.h</includedby>
+    <includedby refid="MRAncillaryLabels_8h" local="yes">MRViewer/MRAncillaryLabels.h</includedby>
+    <includedby refid="MRDemoPlugin_8h" local="yes">MRViewer/MRDemoPlugin.h</includedby>
+    <includedby refid="MRDirectionWidget_8h" local="yes">MRViewer/MRDirectionWidget.h</includedby>
+    <includedby refid="MRImGuiMenuListeners_8h" local="yes">MRViewer/MRImGuiMenuListeners.h</includedby>
+    <includedby refid="MRMeshBoundarySelectionWidget_8h" local="yes">MRViewer/MRMeshBoundarySelectionWidget.h</includedby>
+    <includedby refid="MRMouseController_8h" local="yes">MRViewer/MRMouseController.h</includedby>
+    <includedby refid="MRObjectTransformWidget_8h" local="yes">MRViewer/MRObjectTransformWidget.h</includedby>
+    <includedby refid="MRPickPointManager_8h" local="yes">MRViewer/MRPickPointManager.h</includedby>
+    <includedby refid="MRPlaneWidget_8h" local="yes">MRViewer/MRPlaneWidget.h</includedby>
+    <includedby refid="MRSaveOnClose_8h" local="yes">MRViewer/MRSaveOnClose.h</includedby>
+    <includedby refid="MRShortcutManager_8h" local="yes">MRViewer/MRShortcutManager.h</includedby>
+    <includedby refid="MRSpaceMouseHandlerHidapi_8h" local="yes">MRViewer/MRSpaceMouseHandlerHidapi.h</includedby>
+    <includedby refid="MRStatePlugin_8h" local="yes">MRViewer/MRStatePlugin.h</includedby>
+    <includedby refid="MRSurfaceManipulationWidget_8h" local="yes">MRViewer/MRSurfaceManipulationWidget.h</includedby>
+    <includedby refid="MRSurfacePointPicker_8h" local="yes">MRViewer/MRSurfacePointPicker.h</includedby>
+    <includedby refid="MRTouchesController_8h" local="yes">MRViewer/MRTouchesController.h</includedby>
+    <includedby refid="MRTouchpadController_8h" local="yes">MRViewer/MRTouchpadController.h</includedby>
     <incdepgraph>
       <node id="7">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -106,7 +106,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRViewerEventsListener.h</label>
+        <label>MRViewer/MRViewerEventsListener.h</label>
         <link refid="MRViewerEventsListener_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -188,106 +188,106 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="20">
-        <label>MRCameraOrientationPlugin.h</label>
+      <node id="18">
+        <label>MRCommonPlugins/Basic/MRCameraOrientationPlugin.h</label>
         <link refid="MRCameraOrientationPlugin_8h"/>
       </node>
-      <node id="23">
-        <label>MRMoveObjectByMouse.h</label>
+      <node id="19">
+        <label>MRCommonPlugins/Basic/MRMoveObjectByMouse.h</label>
         <link refid="MRMoveObjectByMouse_8h"/>
       </node>
-      <node id="25">
-        <label>MRSelectObjectByClick.h</label>
+      <node id="20">
+        <label>MRCommonPlugins/Selectors/MRSelectObjectByClick.h</label>
         <link refid="MRSelectObjectByClick_8h"/>
       </node>
-      <node id="18">
-        <label>MRAddCustomTheme.h</label>
+      <node id="21">
+        <label>MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h</label>
         <link refid="MRAddCustomTheme_8h"/>
       </node>
-      <node id="21">
-        <label>MRIOFilesMenuItems.h</label>
+      <node id="22">
+        <label>MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</label>
         <link refid="MRIOFilesMenuItems_8h"/>
       </node>
-      <node id="14">
-        <label>MRSceneControlMenuItems.h</label>
+      <node id="2">
+        <label>MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</label>
         <link refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h"/>
       </node>
-      <node id="19">
-        <label>MRBinaryOperationsPlugin.h</label>
+      <node id="23">
+        <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
       </node>
       <node id="24">
-        <label>MROpenRawVoxelsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
-      <node id="2">
-        <label>ImGuiMenu.h</label>
+      <node id="3">
+        <label>MRViewer/ImGuiMenu.h</label>
         <link refid="ImGuiMenu_8h"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRViewer/MRAncillaryLabels.h</label>
+        <link refid="MRAncillaryLabels_8h"/>
+      </node>
+      <node id="8">
+        <label>MRViewer/MRDemoPlugin.h</label>
+        <link refid="MRDemoPlugin_8h"/>
+      </node>
+      <node id="9">
+        <label>MRViewer/MRDirectionWidget.h</label>
+        <link refid="MRDirectionWidget_8h"/>
+      </node>
+      <node id="4">
+        <label>MRViewer/MRImGuiMenuListeners.h</label>
+        <link refid="MRImGuiMenuListeners_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>MRAncillaryLabels.h</label>
-        <link refid="MRAncillaryLabels_8h"/>
-      </node>
-      <node id="7">
-        <label>MRDemoPlugin.h</label>
-        <link refid="MRDemoPlugin_8h"/>
-      </node>
-      <node id="8">
-        <label>MRDirectionWidget.h</label>
-        <link refid="MRDirectionWidget_8h"/>
-      </node>
-      <node id="3">
-        <label>MRImGuiMenuListeners.h</label>
-        <link refid="MRImGuiMenuListeners_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="9">
-        <label>MRMeshBoundarySelectionWidget.h</label>
+      <node id="10">
+        <label>MRViewer/MRMeshBoundarySelectionWidget.h</label>
         <link refid="MRMeshBoundarySelectionWidget_8h"/>
       </node>
-      <node id="22">
-        <label>MRMeshModifier.h</label>
+      <node id="25">
+        <label>MRViewer/MRMeshModifier.h</label>
         <link refid="MRMeshModifier_8h"/>
       </node>
-      <node id="10">
-        <label>MRMouseController.h</label>
+      <node id="11">
+        <label>MRViewer/MRMouseController.h</label>
         <link refid="MRMouseController_8h"/>
       </node>
-      <node id="11">
-        <label>MRObjectTransformWidget.h</label>
+      <node id="12">
+        <label>MRViewer/MRObjectTransformWidget.h</label>
         <link refid="MRObjectTransformWidget_8h"/>
       </node>
-      <node id="12">
-        <label>MRPickPointManager.h</label>
+      <node id="13">
+        <label>MRViewer/MRPickPointManager.h</label>
         <link refid="MRPickPointManager_8h"/>
       </node>
-      <node id="4">
-        <label>MRPlaneWidget.h</label>
+      <node id="5">
+        <label>MRViewer/MRPlaneWidget.h</label>
         <link refid="MRPlaneWidget_8h"/>
       </node>
-      <node id="5">
-        <label>MRRibbonMenu.h</label>
+      <node id="6">
+        <label>MRViewer/MRRibbonMenu.h</label>
         <link refid="MRRibbonMenu_8h"/>
       </node>
-      <node id="13">
-        <label>MRSaveOnClose.h</label>
+      <node id="14">
+        <label>MRViewer/MRSaveOnClose.h</label>
         <link refid="MRSaveOnClose_8h"/>
       </node>
       <node id="15">
-        <label>MRShortcutManager.h</label>
+        <label>MRViewer/MRShortcutManager.h</label>
         <link refid="MRShortcutManager_8h"/>
       </node>
       <node id="16">
-        <label>MRSpaceMouseHandlerHidapi.h</label>
+        <label>MRViewer/MRSpaceMouseHandlerHidapi.h</label>
         <link refid="MRSpaceMouseHandlerHidapi_8h"/>
       </node>
       <node id="17">
-        <label>MRStatePlugin.h</label>
+        <label>MRViewer/MRStatePlugin.h</label>
         <link refid="MRStatePlugin_8h"/>
         <childnode refid="18" relation="include">
         </childnode>
@@ -309,37 +309,37 @@
         </childnode>
       </node>
       <node id="27">
-        <label>MRSurfaceManipulationWidget.h</label>
+        <label>MRViewer/MRSurfaceManipulationWidget.h</label>
         <link refid="MRSurfaceManipulationWidget_8h"/>
       </node>
       <node id="28">
-        <label>MRSurfacePointPicker.h</label>
+        <label>MRViewer/MRSurfacePointPicker.h</label>
         <link refid="MRSurfacePointPicker_8h"/>
-        <childnode refid="12" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
       </node>
       <node id="29">
-        <label>MRTouchesController.h</label>
+        <label>MRViewer/MRTouchesController.h</label>
         <link refid="MRTouchesController_8h"/>
       </node>
       <node id="30">
-        <label>MRTouchpadController.h</label>
+        <label>MRViewer/MRTouchpadController.h</label>
         <link refid="MRTouchpadController_8h"/>
       </node>
       <node id="1">
-        <label>MRViewerEventsListener.h</label>
+        <label>MRViewer/MRViewerEventsListener.h</label>
         <link refid="MRViewerEventsListener_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
         <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -347,9 +347,9 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
         <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
@@ -369,7 +369,7 @@
         </childnode>
       </node>
       <node id="26">
-        <label>MRViewerSettingsPlugin.h</label>
+        <label>MRViewer/MRViewerSettingsPlugin.h</label>
         <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
@@ -695,7 +695,7 @@
 <codeline lineno="275" refid="group__GeneralGroup_1ga33e255754fd26beb29b6401dbe1867e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga33e255754fd26beb29b6401dbe1867e2" kindref="member">onTouchEnd_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y<sp/>)<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="276"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="277"><highlight class="normal"></highlight></codeline>
-<codeline lineno="279" refid="structMR_1_1SpaceMouseMoveListener" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1SpaceMouseMoveListener" kindref="compound">SpaceMouseMoveListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
+<codeline lineno="279" refid="structMR_1_1SpaceMouseMoveListener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1SpaceMouseMoveListener" kindref="compound">SpaceMouseMoveListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
 <codeline lineno="280"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="281" refid="group__GeneralGroup_1ga2cfdabbd1ab58db19f09528e678f3729" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga2cfdabbd1ab58db19f09528e678f3729" kindref="member">MR_ADD_CTOR_DELETE_MOVE</ref>(<sp/><ref refid="structMR_1_1SpaceMouseMoveListener" kindref="compound">SpaceMouseMoveListener</ref><sp/>);</highlight></codeline>
 <codeline lineno="282" refid="group__GeneralGroup_1gad6cac85205366b4d1518a8cda5ae50d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad6cac85205366b4d1518a8cda5ae50d9" kindref="member">~SpaceMouseMoveListener</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -704,7 +704,7 @@
 <codeline lineno="285" refid="group__GeneralGroup_1ga78bde81a3a5d0d78e4ec948565694f96" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga78bde81a3a5d0d78e4ec948565694f96" kindref="member">spaceMouseMove_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>translate,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>rotate<sp/>)<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="286"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="287"><highlight class="normal"></highlight></codeline>
-<codeline lineno="289" refid="structMR_1_1SpaceMouseDownListener" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1SpaceMouseDownListener" kindref="compound">SpaceMouseDownListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
+<codeline lineno="289" refid="structMR_1_1SpaceMouseDownListener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1SpaceMouseDownListener" kindref="compound">SpaceMouseDownListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
 <codeline lineno="290"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="291" refid="group__GeneralGroup_1ga62ddb5d37af81e7ed90affcdddcbe0e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga62ddb5d37af81e7ed90affcdddcbe0e8" kindref="member">MR_ADD_CTOR_DELETE_MOVE</ref>(<sp/><ref refid="structMR_1_1SpaceMouseDownListener" kindref="compound">SpaceMouseDownListener</ref><sp/>);</highlight></codeline>
 <codeline lineno="292" refid="group__GeneralGroup_1ga05b541f48e7534ed7df5e11043b82bca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga05b541f48e7534ed7df5e11043b82bca" kindref="member">~SpaceMouseDownListener</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -713,7 +713,7 @@
 <codeline lineno="295" refid="group__GeneralGroup_1ga395df26bbdf613370b0ad0b4af252f1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga395df26bbdf613370b0ad0b4af252f1f" kindref="member">spaceMouseDown_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key<sp/>)<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="296"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="297"><highlight class="normal"></highlight></codeline>
-<codeline lineno="299" refid="structMR_1_1SpaceMouseUpListener" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1SpaceMouseUpListener" kindref="compound">SpaceMouseUpListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
+<codeline lineno="299" refid="structMR_1_1SpaceMouseUpListener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1SpaceMouseUpListener" kindref="compound">SpaceMouseUpListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
 <codeline lineno="300"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="301" refid="group__GeneralGroup_1gaeb1221c28639fac7d66504b83874d0bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaeb1221c28639fac7d66504b83874d0bc" kindref="member">MR_ADD_CTOR_DELETE_MOVE</ref>(<sp/><ref refid="structMR_1_1SpaceMouseUpListener" kindref="compound">SpaceMouseUpListener</ref><sp/>);</highlight></codeline>
 <codeline lineno="302" refid="group__GeneralGroup_1ga0a5bf1247e3588e2db497d9836f77454" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0a5bf1247e3588e2db497d9836f77454" kindref="member">~SpaceMouseUpListener</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -722,7 +722,7 @@
 <codeline lineno="305" refid="group__GeneralGroup_1gaf12bd4234d35e30789cd4a96b88bf497" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf12bd4234d35e30789cd4a96b88bf497" kindref="member">spaceMouseUp_</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key<sp/>)<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="306"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="307"><highlight class="normal"></highlight></codeline>
-<codeline lineno="309" refid="structMR_1_1TouchpadRotateGestureBeginListener" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadRotateGestureBeginListener" kindref="compound">TouchpadRotateGestureBeginListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
+<codeline lineno="309" refid="structMR_1_1TouchpadRotateGestureBeginListener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadRotateGestureBeginListener" kindref="compound">TouchpadRotateGestureBeginListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
 <codeline lineno="310"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="311" refid="group__GeneralGroup_1gafd44bf8a4a3285c86160d334fa0002a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gafd44bf8a4a3285c86160d334fa0002a8" kindref="member">MR_ADD_CTOR_DELETE_MOVE</ref>(<sp/><ref refid="structMR_1_1TouchpadRotateGestureBeginListener" kindref="compound">TouchpadRotateGestureBeginListener</ref><sp/>);</highlight></codeline>
 <codeline lineno="312" refid="group__GeneralGroup_1gaaf0291465f3dd335c6a3293fa68edbba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaf0291465f3dd335c6a3293fa68edbba" kindref="member">~TouchpadRotateGestureBeginListener</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -731,16 +731,16 @@
 <codeline lineno="315" refid="group__GeneralGroup_1ga60ca4d5085ca1ee78b9390b9f7826bac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga60ca4d5085ca1ee78b9390b9f7826bac" kindref="member">touchpadRotateGestureBegin_</ref>()<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="316"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="317"><highlight class="normal"></highlight></codeline>
-<codeline lineno="319" refid="structMR_1_1TouchpadRotateGestureUpdateListener" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadRotateGestureUpdateListener" kindref="compound">TouchpadRotateGestureUpdateListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
+<codeline lineno="319" refid="structMR_1_1TouchpadRotateGestureUpdateListener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadRotateGestureUpdateListener" kindref="compound">TouchpadRotateGestureUpdateListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
 <codeline lineno="320"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="321" refid="group__GeneralGroup_1ga4a6459f8e52042e121c679fb50fe589b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga4a6459f8e52042e121c679fb50fe589b" kindref="member">MR_ADD_CTOR_DELETE_MOVE</ref>(<sp/><ref refid="structMR_1_1TouchpadRotateGestureUpdateListener" kindref="compound">TouchpadRotateGestureUpdateListener</ref><sp/>);</highlight></codeline>
 <codeline lineno="322" refid="group__GeneralGroup_1ga5cc8ba8e6f14534373f4af57eb899efb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5cc8ba8e6f14534373f4af57eb899efb" kindref="member">~TouchpadRotateGestureUpdateListener</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="323" refid="group__GeneralGroup_1gaf267b3d116d685a485ca8996b4f7bc5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf267b3d116d685a485ca8996b4f7bc5b" kindref="member">connect</ref>(<sp/><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>*<sp/>viewer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>group,<sp/>boost::signals2::connect_position<sp/>pos<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="324"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="325" refid="group__GeneralGroup_1ga24ed3f7e2ae56c6df5adc3606fb0ec7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga24ed3f7e2ae56c6df5adc3606fb0ec7e" kindref="member">touchpadRotateGestureUpdate_</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga45937af38b4f2f3950e1922a75ff7ab1" kindref="member">angle</ref><sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="325" refid="group__GeneralGroup_1ga24ed3f7e2ae56c6df5adc3606fb0ec7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga24ed3f7e2ae56c6df5adc3606fb0ec7e" kindref="member">touchpadRotateGestureUpdate_</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03" kindref="member">angle</ref><sp/>)<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="326"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="327"><highlight class="normal"></highlight></codeline>
-<codeline lineno="329" refid="structMR_1_1TouchpadRotateGestureEndListener" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadRotateGestureEndListener" kindref="compound">TouchpadRotateGestureEndListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
+<codeline lineno="329" refid="structMR_1_1TouchpadRotateGestureEndListener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadRotateGestureEndListener" kindref="compound">TouchpadRotateGestureEndListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
 <codeline lineno="330"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="331" refid="group__GeneralGroup_1ga52f630644781016b0f248164721be298" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga52f630644781016b0f248164721be298" kindref="member">MR_ADD_CTOR_DELETE_MOVE</ref>(<sp/><ref refid="structMR_1_1TouchpadRotateGestureEndListener" kindref="compound">TouchpadRotateGestureEndListener</ref><sp/>);</highlight></codeline>
 <codeline lineno="332" refid="group__GeneralGroup_1ga406202fc3e70d82ed4e3f7912881b613" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga406202fc3e70d82ed4e3f7912881b613" kindref="member">~TouchpadRotateGestureEndListener</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -749,7 +749,7 @@
 <codeline lineno="335" refid="group__GeneralGroup_1ga720801497b669feae4030ebce11fa3ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga720801497b669feae4030ebce11fa3ef" kindref="member">touchpadRotateGestureEnd_</ref>()<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="336"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="337"><highlight class="normal"></highlight></codeline>
-<codeline lineno="339" refid="structMR_1_1TouchpadSwipeGestureBeginListener" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadSwipeGestureBeginListener" kindref="compound">TouchpadSwipeGestureBeginListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
+<codeline lineno="339" refid="structMR_1_1TouchpadSwipeGestureBeginListener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadSwipeGestureBeginListener" kindref="compound">TouchpadSwipeGestureBeginListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
 <codeline lineno="340"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="341" refid="group__GeneralGroup_1ga39c615cf78a87988966beff6e188e6fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga39c615cf78a87988966beff6e188e6fe" kindref="member">MR_ADD_CTOR_DELETE_MOVE</ref>(<sp/><ref refid="structMR_1_1TouchpadSwipeGestureBeginListener" kindref="compound">TouchpadSwipeGestureBeginListener</ref><sp/>);</highlight></codeline>
 <codeline lineno="342" refid="group__GeneralGroup_1ga138a7f5c34d9eab74870b2dd04a528a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga138a7f5c34d9eab74870b2dd04a528a3" kindref="member">~TouchpadSwipeGestureBeginListener</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -758,7 +758,7 @@
 <codeline lineno="345" refid="group__GeneralGroup_1gacf7c6b3a2731668f250b72f7c7b3e25c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacf7c6b3a2731668f250b72f7c7b3e25c" kindref="member">touchpadSwipeGestureBegin_</ref>()<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="346"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="347"><highlight class="normal"></highlight></codeline>
-<codeline lineno="349" refid="structMR_1_1TouchpadSwipeGestureUpdateListener" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadSwipeGestureUpdateListener" kindref="compound">TouchpadSwipeGestureUpdateListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
+<codeline lineno="349" refid="structMR_1_1TouchpadSwipeGestureUpdateListener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadSwipeGestureUpdateListener" kindref="compound">TouchpadSwipeGestureUpdateListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
 <codeline lineno="350"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="351" refid="group__GeneralGroup_1ga56753f530eab33ccb8f1c7c34ec618fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga56753f530eab33ccb8f1c7c34ec618fa" kindref="member">MR_ADD_CTOR_DELETE_MOVE</ref>(<sp/><ref refid="structMR_1_1TouchpadSwipeGestureUpdateListener" kindref="compound">TouchpadSwipeGestureUpdateListener</ref><sp/>);</highlight></codeline>
 <codeline lineno="352" refid="group__GeneralGroup_1ga22afe5fdd5b2015b479bc26a6e200972" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga22afe5fdd5b2015b479bc26a6e200972" kindref="member">~TouchpadSwipeGestureUpdateListener</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -767,7 +767,7 @@
 <codeline lineno="355" refid="group__GeneralGroup_1gaef526e0582b51edc407c765caedd0b9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaef526e0582b51edc407c765caedd0b9b" kindref="member">touchpadSwipeGestureUpdate_</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>dx,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>dy,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>kinetic<sp/>)<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="356"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="357"><highlight class="normal"></highlight></codeline>
-<codeline lineno="359" refid="structMR_1_1TouchpadSwipeGestureEndListener" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadSwipeGestureEndListener" kindref="compound">TouchpadSwipeGestureEndListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
+<codeline lineno="359" refid="structMR_1_1TouchpadSwipeGestureEndListener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadSwipeGestureEndListener" kindref="compound">TouchpadSwipeGestureEndListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
 <codeline lineno="360"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="361" refid="group__GeneralGroup_1gab4dd4cb2861d87a165c29539ada3aeda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab4dd4cb2861d87a165c29539ada3aeda" kindref="member">MR_ADD_CTOR_DELETE_MOVE</ref>(<sp/><ref refid="structMR_1_1TouchpadSwipeGestureEndListener" kindref="compound">TouchpadSwipeGestureEndListener</ref><sp/>);</highlight></codeline>
 <codeline lineno="362" refid="group__GeneralGroup_1gab51fd57e66a91ac6f90d166e8da77c1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab51fd57e66a91ac6f90d166e8da77c1c" kindref="member">~TouchpadSwipeGestureEndListener</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -776,7 +776,7 @@
 <codeline lineno="365" refid="group__GeneralGroup_1ga4119298e5a70c93a5b96b388ef0bda83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4119298e5a70c93a5b96b388ef0bda83" kindref="member">touchpadSwipeGestureEnd_</ref>()<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="366"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="367"><highlight class="normal"></highlight></codeline>
-<codeline lineno="369" refid="structMR_1_1TouchpadZoomGestureBeginListener" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadZoomGestureBeginListener" kindref="compound">TouchpadZoomGestureBeginListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
+<codeline lineno="369" refid="structMR_1_1TouchpadZoomGestureBeginListener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadZoomGestureBeginListener" kindref="compound">TouchpadZoomGestureBeginListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
 <codeline lineno="370"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="371" refid="group__GeneralGroup_1gae78265b3b8f64da2ffc4c9dcdc7292ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gae78265b3b8f64da2ffc4c9dcdc7292ff" kindref="member">MR_ADD_CTOR_DELETE_MOVE</ref>(<sp/><ref refid="structMR_1_1TouchpadZoomGestureBeginListener" kindref="compound">TouchpadZoomGestureBeginListener</ref><sp/>);</highlight></codeline>
 <codeline lineno="372" refid="group__GeneralGroup_1ga2ba6b0096c5e4c6d7e2474ea754cf3b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2ba6b0096c5e4c6d7e2474ea754cf3b1" kindref="member">~TouchpadZoomGestureBeginListener</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -785,7 +785,7 @@
 <codeline lineno="375" refid="group__GeneralGroup_1gaa1466bd78b47344b1f14b7f80586b10c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa1466bd78b47344b1f14b7f80586b10c" kindref="member">touchpadZoomGestureBegin_</ref>()<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="376"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="377"><highlight class="normal"></highlight></codeline>
-<codeline lineno="379" refid="structMR_1_1TouchpadZoomGestureUpdateListener" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadZoomGestureUpdateListener" kindref="compound">TouchpadZoomGestureUpdateListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
+<codeline lineno="379" refid="structMR_1_1TouchpadZoomGestureUpdateListener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadZoomGestureUpdateListener" kindref="compound">TouchpadZoomGestureUpdateListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
 <codeline lineno="380"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="381" refid="group__GeneralGroup_1gab217e54fd04b93bb68db492b58504e33" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab217e54fd04b93bb68db492b58504e33" kindref="member">MR_ADD_CTOR_DELETE_MOVE</ref>(<sp/><ref refid="structMR_1_1TouchpadZoomGestureUpdateListener" kindref="compound">TouchpadZoomGestureUpdateListener</ref><sp/>);</highlight></codeline>
 <codeline lineno="382" refid="group__GeneralGroup_1gab16d2a45a42547cacb952e49d9018c4d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab16d2a45a42547cacb952e49d9018c4d" kindref="member">~TouchpadZoomGestureUpdateListener</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -794,7 +794,7 @@
 <codeline lineno="385" refid="group__GeneralGroup_1gae08054a4d6183bf4e0352e5ecdfcb450" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae08054a4d6183bf4e0352e5ecdfcb450" kindref="member">touchpadZoomGestureUpdate_</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scale,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>kinetic<sp/>)<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="386"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="387"><highlight class="normal"></highlight></codeline>
-<codeline lineno="389" refid="structMR_1_1TouchpadZoomGestureEndListener" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadZoomGestureEndListener" kindref="compound">TouchpadZoomGestureEndListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
+<codeline lineno="389" refid="structMR_1_1TouchpadZoomGestureEndListener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1TouchpadZoomGestureEndListener" kindref="compound">TouchpadZoomGestureEndListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
 <codeline lineno="390"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="391" refid="group__GeneralGroup_1gad1668e1d1874a834c7c6875f53d9f728" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gad1668e1d1874a834c7c6875f53d9f728" kindref="member">MR_ADD_CTOR_DELETE_MOVE</ref>(<sp/><ref refid="structMR_1_1TouchpadZoomGestureEndListener" kindref="compound">TouchpadZoomGestureEndListener</ref><sp/>);</highlight></codeline>
 <codeline lineno="392" refid="group__GeneralGroup_1gadd56d98f370e0b09bbe4eb85331b6cad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadd56d98f370e0b09bbe4eb85331b6cad" kindref="member">~TouchpadZoomGestureEndListener</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -803,7 +803,7 @@
 <codeline lineno="395" refid="group__GeneralGroup_1gadd9106c04de1117bd9eba7d3cd191637" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadd9106c04de1117bd9eba7d3cd191637" kindref="member">touchpadZoomGestureEnd_</ref>()<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="396"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="397"><highlight class="normal"></highlight></codeline>
-<codeline lineno="399" refid="structMR_1_1PostFocusListener" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1PostFocusListener" kindref="compound">PostFocusListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
+<codeline lineno="399" refid="structMR_1_1PostFocusListener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1PostFocusListener" kindref="compound">PostFocusListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
 <codeline lineno="400"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="401" refid="group__GeneralGroup_1gac6da51dc62db3e216930fa626bd53dd3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac6da51dc62db3e216930fa626bd53dd3" kindref="member">MR_ADD_CTOR_DELETE_MOVE</ref>(<sp/><ref refid="structMR_1_1PostFocusListener" kindref="compound">PostFocusListener</ref><sp/>);</highlight></codeline>
 <codeline lineno="402" refid="group__GeneralGroup_1gac88ae46c3a44734665f38071133b6260" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac88ae46c3a44734665f38071133b6260" kindref="member">~PostFocusListener</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -812,7 +812,7 @@
 <codeline lineno="405" refid="group__GeneralGroup_1ga38251f795111e912a45ad68a7c13ca21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga38251f795111e912a45ad68a7c13ca21" kindref="member">postFocus_</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>focused<sp/>)<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="406"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="407"><highlight class="normal"></highlight></codeline>
-<codeline lineno="409" refid="structMR_1_1CursorEntranceListener" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1CursorEntranceListener" kindref="compound">CursorEntranceListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
+<codeline lineno="409" refid="structMR_1_1CursorEntranceListener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1CursorEntranceListener" kindref="compound">CursorEntranceListener</ref><sp/>:<sp/><ref refid="structMR_1_1ConnectionHolder" kindref="compound">ConnectionHolder</ref></highlight></codeline>
 <codeline lineno="410"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="411" refid="group__GeneralGroup_1ga2e6ad6df00a5718db8e060aec257534b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga2e6ad6df00a5718db8e060aec257534b" kindref="member">MR_ADD_CTOR_DELETE_MOVE</ref>(<sp/><ref refid="structMR_1_1CursorEntranceListener" kindref="compound">CursorEntranceListener</ref><sp/>);</highlight></codeline>
 <codeline lineno="412" refid="group__GeneralGroup_1gabd94cdf4627914e91f8f24f1aef2cb54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabd94cdf4627914e91f8f24f1aef2cb54" kindref="member">~CursorEntranceListener</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -823,6 +823,6 @@
 <codeline lineno="417"><highlight class="normal"></highlight></codeline>
 <codeline lineno="418"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h"/>
+    <location file="MRViewer/MRViewerEventsListener.h"/>
   </compounddef>
 </doxygen>

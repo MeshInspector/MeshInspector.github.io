@@ -1,11 +1,8 @@
 var MRChangeMeshDataAction_8h =
 [
     [ "MR_ChangeMeshDataAction", "MRChangeMeshDataAction_8h.html#a0708d452c5be91c86b2f58af98d730f9", null ],
-    [ "MR_HistoryAction", "MRChangeMeshDataAction_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
     [ "MR_ObjectMeshData", "MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e", null ],
     [ "MR_PartialChangeMeshDataAction", "MRChangeMeshDataAction_8h.html#a136a2aaa9e9d665a7cfe4d01f89c09dd", null ],
-    [ "MR_std_shared_ptr_MR_ObjectMesh", "MRChangeMeshDataAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a", null ],
-    [ "MR_std_string", "MRChangeMeshDataAction_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_ChangeMeshDataAction_action", "MRChangeMeshDataAction_8h.html#a9898dd007693f5f23aa2e423b7819827", null ],
     [ "MR_ChangeMeshDataAction_AssignFromAnother", "MRChangeMeshDataAction_8h.html#acf1effeb8cc211a37658cbedaae52ff0", null ],
     [ "MR_ChangeMeshDataAction_Construct_bool", "MRChangeMeshDataAction_8h.html#a8c15335817c18a3f229226ce7e0ab49d", null ],

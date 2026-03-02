@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__IOFormatsRegistryGroup" kind="group">
     <compoundname>IOFormatsRegistryGroup</compoundname>
     <title>IO Formats Registry</title>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="138" bodyend="-1"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="138" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="138" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__IOFormatsRegistryGroup_1ga485ea6956850ab0f801b945739a8a9d3" prot="public" static="no">
         <type>Expected&lt; <ref refid="structMR_1_1Mesh" kindref="compound">MR::Mesh</ref> &gt;(*)(std::istream &amp;, const MeshLoadSettings &amp;)</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="139" bodyend="-1"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="139" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="139" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="define">
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="155" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="155" bodyend="156"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="155" column="9" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="155" bodyend="156"/>
       </memberdef>
       <memberdef kind="define" id="group__IOFormatsRegistryGroup_1gaacf2f9b26a2c29111f029dfed6320630" prot="public" static="no">
         <name>MR_ADD_MESH_LOADER_WITH_PRIORITY</name>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="158" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="158" bodyend="159"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="158" column="9" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="158" bodyend="159"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

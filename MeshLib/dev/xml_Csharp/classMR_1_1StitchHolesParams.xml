@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
-  <compounddef id="classMR_1_1StitchHolesParams" kind="class" language="C#" prot="private">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1StitchHolesParams" kind="struct" language="C#" prot="public">
     <compoundname>MR::StitchHolesParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_StitchHolesParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1StitchHolesParams_1a97509e6b095df58502fc3e0c700cc625" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.FillHoleMetric</type>
+        <type>new unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
         <definition>new unsafe MR.FillHoleMetric MR.StitchHolesParams.metric</definition>
         <argsstring></argsstring>
         <name>metric</name>
@@ -14,7 +14,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Specifies triangulation metric<linebreak/>
-default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="member">MR.stitchHoles</ref>: getComplexStitchMetric <simplesect kind="see"><para>FillHoleMetric </para>
+default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="member">MR.stitchHoles</ref>: getComplexStitchMetric <simplesect kind="see"><para><ref refid="classMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref> </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -93,7 +93,7 @@ default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="mem
           <declname>outNewFaces</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR.StitchHolesParams</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput><ref refid="classMR_1_1StitchHolesParams" kindref="compound">MR.StitchHolesParams</ref></computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -112,7 +112,7 @@ default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="mem
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.StitchHolesParams.StitchHolesParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1StitchHolesParams_1a36ad238a8454e764bbf01e954eb5e176" kindref="member">MR.StitchHolesParams.StitchHolesParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -131,7 +131,7 @@ default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="mem
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.StitchHolesParams.StitchHolesParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1StitchHolesParams_1a36ad238a8454e764bbf01e954eb5e176" kindref="member">MR.StitchHolesParams.StitchHolesParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -146,11 +146,11 @@ default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="mem
         <name>StitchHolesParams</name>
         <qualifiedname>MR.StitchHolesParams.StitchHolesParams</qualifiedname>
         <param>
-          <type>StitchHolesParams</type>
+          <type><ref refid="classMR_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.StitchHolesParams.StitchHolesParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1StitchHolesParams_1a36ad238a8454e764bbf01e954eb5e176" kindref="member">MR.StitchHolesParams.StitchHolesParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -159,7 +159,7 @@ default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="mem
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="647" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="647" bodyend="647"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1StitchHolesParams_1af856cd6e44234f201f8737a7090fc796" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.StitchHolesParams</type>
+        <type>unsafe <ref refid="classMR_1_1StitchHolesParams" kindref="compound">MR.StitchHolesParams</ref></type>
         <definition>unsafe MR.StitchHolesParams MR.StitchHolesParams.assign</definition>
         <argsstring>(MR._ByValue_StitchHolesParams _other)</argsstring>
         <name>assign</name>
@@ -169,7 +169,7 @@ default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="mem
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.StitchHolesParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::StitchHolesParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -185,55 +185,57 @@ Structure has some options to control <ref refid="classMR_1a4d6b7ee98d4541f1ce78
     <detaileddescription>
 <para><simplesect kind="see"><para><ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="member">stitchHoles</ref> </para>
 </simplesect>
-<simplesect kind="see"><para>FillHoleMetric Generated from class <computeroutput>MR.StitchHolesParams</computeroutput>. This is the const half of the class.</para>
+<simplesect kind="see"><para><ref refid="classMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref> Generated from class <computeroutput><ref refid="classMR_1_1StitchHolesParams" kindref="compound">MR.StitchHolesParams</ref></computeroutput>. This is the const half of the class.</para>
 </simplesect>
 <simplesect kind="see"><para><ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="member">stitchHoles</ref> </para>
 </simplesect>
-<simplesect kind="see"><para>FillHoleMetric Generated from class <computeroutput>MR.StitchHolesParams</computeroutput>. This is the non-const half of the class. </para>
+<simplesect kind="see"><para><ref refid="classMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref> Generated from class <computeroutput><ref refid="classMR_1_1StitchHolesParams" kindref="compound">MR.StitchHolesParams</ref></computeroutput>. This is the non-const half of the class. </para>
 </simplesect>
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.StitchHolesParams</label>
+        <link refid="classMR_1_1StitchHolesParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_StitchHolesParams</label>
+        <label>MR.Const_StitchHolesParams</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.StitchHolesParams</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_StitchHolesParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.StitchHolesParams</label>
+        <link refid="classMR_1_1StitchHolesParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_StitchHolesParams</label>
+        <label>MR.Const_StitchHolesParams</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.StitchHolesParams</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_StitchHolesParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="558" column="11"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="558" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="559" bodyend="660"/>
     <listofallmembers>
       <member refid="classMR_1_1StitchHolesParams_1af856cd6e44234f201f8737a7090fc796" prot="public" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>assign</name></member>
       <member refid="classMR_1_1StitchHolesParams_1a97509e6b095df58502fc3e0c700cc625" prot="public" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>metric</name></member>

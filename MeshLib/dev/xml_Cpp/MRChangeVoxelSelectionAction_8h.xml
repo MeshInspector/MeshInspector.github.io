@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangeVoxelSelectionAction_8h" kind="file" language="C++">
     <compoundname>MRChangeVoxelSelectionAction.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
@@ -507,7 +507,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRChangeVoxelSelectionAction.h</label>
+        <label>MRVoxels/MRChangeVoxelSelectionAction.h</label>
         <link refid="MRChangeVoxelSelectionAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -694,11 +694,11 @@
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11"></codeline>
-<codeline lineno="13" refid="classMR_1_1ChangVoxelSelectionAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangVoxelSelectionAction" kindref="compound">ChangVoxelSelectionAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classMR_1_1ChangVoxelSelectionAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__HistoryGroup_1gacd0912663f58360180bc863ab572daf4" kindref="member">ChangVoxelSelectionAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="16" refid="group__HistoryGroup_1ga2bc62e359f5e804a60171abdd7939bd7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectVoxels" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref>;</highlight></codeline>
+<codeline lineno="16" refid="group__HistoryGroup_1ga2bc62e359f5e804a60171abdd7939bd7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__HistoryGroup_1ga2bc62e359f5e804a60171abdd7939bd7" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref>;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="group__HistoryGroup_1gacd0912663f58360180bc863ab572daf4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__HistoryGroup_1gacd0912663f58360180bc863ab572daf4" kindref="member">ChangVoxelSelectionAction</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="group__HistoryGroup_1ga4613d2480c87b60c6d32385f80849bbe" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Obj&gt;&amp;<sp/>objVoxels<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name_{<sp/><ref refid="group__HistoryGroup_1ga4613d2480c87b60c6d32385f80849bbe" kindref="member">name</ref><sp/>},</highlight></codeline>
@@ -744,6 +744,6 @@
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h"/>
+    <location file="MRVoxels/MRChangeVoxelSelectionAction.h"/>
   </compounddef>
 </doxygen>

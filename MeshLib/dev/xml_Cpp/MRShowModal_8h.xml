@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRShowModal_8h" kind="file" language="C++">
     <compoundname>MRShowModal.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes refid="MRNotificationType_8h" local="yes">MRNotificationType.h</includes>
-    <includedby refid="ImGuiMenu_8h" local="yes">ImGuiMenu.h</includedby>
+    <includedby refid="ImGuiMenu_8h" local="yes">MRViewer/ImGuiMenu.h</includedby>
     <incdepgraph>
       <node id="7">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -47,7 +47,7 @@
         <link refid="MRNotificationType_8h"/>
       </node>
       <node id="1">
-        <label>MRShowModal.h</label>
+        <label>MRViewer/MRShowModal.h</label>
         <link refid="MRShowModal_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -97,7 +97,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>ImGuiMenu.h</label>
+        <label>MRViewer/ImGuiMenu.h</label>
         <link refid="ImGuiMenu_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -105,21 +105,21 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MRImGuiMenuListeners.h</label>
+        <label>MRViewer/MRImGuiMenuListeners.h</label>
         <link refid="MRImGuiMenuListeners_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRPlaneWidget.h</label>
+        <label>MRViewer/MRPlaneWidget.h</label>
         <link refid="MRPlaneWidget_8h"/>
       </node>
       <node id="5">
-        <label>MRRibbonMenu.h</label>
+        <label>MRViewer/MRRibbonMenu.h</label>
         <link refid="MRRibbonMenu_8h"/>
       </node>
       <node id="1">
-        <label>MRShowModal.h</label>
+        <label>MRViewer/MRShowModal.h</label>
         <link refid="MRShowModal_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -146,8 +146,8 @@
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga04d5a9c5ea64015a7ac8eccdf71e108e" kindref="member">showModal</ref>(<sp/>error,<sp/><ref refid="group__GeneralGroup_1gga3ccf27858d11d72a88bdbaf6e9d2b05da902b0d55fddef6f8d651fe1035b7d4bd" kindref="member">NotificationType::Error</ref><sp/>);</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShowModal.h"/>
+    <location file="MRViewer/MRShowModal.h"/>
   </compounddef>
 </doxygen>

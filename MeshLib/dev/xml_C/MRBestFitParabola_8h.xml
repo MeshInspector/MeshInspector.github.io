@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRBestFitParabola_8h" kind="file" language="C++">
     <compoundname>MRBestFitParabola.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -29,6 +29,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Represents quadratic function f(x) = a*x*x + b*x + c Generated from class <computeroutput>MR::Parabolad</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -42,6 +43,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Represents quadratic function f(x) = a*x*x + b*x + c Generated from class <computeroutput>MR::Parabolaf</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -184,7 +186,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_BestFitParabolaf</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitParabola_8h_1a6d813c362855312a7c644f3a1a62f4f1" kindref="member">MR_BestFitParabolaf</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -202,7 +204,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_BestFitParabolaf</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitParabola_8h_1a6d813c362855312a7c644f3a1a62f4f1" kindref="member">MR_BestFitParabolaf</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -417,7 +419,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_BestFitParabolad</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitParabola_8h_1a24bfb5a732bbe38d042560e2bbf1c4c2" kindref="member">MR_BestFitParabolad</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -435,7 +437,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_BestFitParabolad</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitParabola_8h_1a24bfb5a732bbe38d042560e2bbf1c4c2" kindref="member">MR_BestFitParabolad</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -563,9 +565,9 @@
 <codeline lineno="12" refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRParabola.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRBestFitParabola_8h_1a6d813c362855312a7c644f3a1a62f4f1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitParabola_8h_1a6d813c362855312a7c644f3a1a62f4f1" kindref="member">MR_BestFitParabolaf</ref><sp/><ref refid="MRBestFitParabola_8h_1a6d813c362855312a7c644f3a1a62f4f1" kindref="member">MR_BestFitParabolaf</ref>;</highlight></codeline>
+<codeline lineno="18" refid="MRBestFitParabola_8h_1a6d813c362855312a7c644f3a1a62f4f1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitParabola_8h_1a6d813c362855312a7c644f3a1a62f4f1" kindref="member">MR_BestFitParabolaf</ref><sp/><ref refid="MRBestFitParabola_8h_1a6d813c362855312a7c644f3a1a62f4f1" kindref="member">MR_BestFitParabolaf</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRBestFitParabola_8h_1a24bfb5a732bbe38d042560e2bbf1c4c2" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitParabola_8h_1a24bfb5a732bbe38d042560e2bbf1c4c2" kindref="member">MR_BestFitParabolad</ref><sp/><ref refid="MRBestFitParabola_8h_1a24bfb5a732bbe38d042560e2bbf1c4c2" kindref="member">MR_BestFitParabolad</ref>;</highlight></codeline>
+<codeline lineno="23" refid="MRBestFitParabola_8h_1a24bfb5a732bbe38d042560e2bbf1c4c2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitParabola_8h_1a24bfb5a732bbe38d042560e2bbf1c4c2" kindref="member">MR_BestFitParabolad</ref><sp/><ref refid="MRBestFitParabola_8h_1a24bfb5a732bbe38d042560e2bbf1c4c2" kindref="member">MR_BestFitParabolad</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27" refid="MRBestFitParabola_8h_1a93e31ebad266c4df7196bfd9b45fb875" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a6d813c362855312a7c644f3a1a62f4f1" kindref="member">MR_BestFitParabolaf</ref><sp/>*<ref refid="MRBestFitParabola_8h_1a93e31ebad266c4df7196bfd9b45fb875" kindref="member">MR_BestFitParabolaf_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>

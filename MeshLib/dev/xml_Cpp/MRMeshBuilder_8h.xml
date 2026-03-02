@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshBuilder_8h" kind="file" language="C++">
     <compoundname>MRMeshBuilder.h</compoundname>
     <includes refid="MRMeshBuilderTypes_8h" local="yes">MRMeshBuilderTypes.h</includes>
@@ -107,7 +107,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshBuilder.h</label>
+        <label>MRMesh/MRMeshBuilder.h</label>
         <link refid="MRMeshBuilder_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -426,7 +426,7 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">MeshBuilder</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1MeshBuilder" kindref="compound">MeshBuilder</ref></highlight></codeline>
 <codeline lineno="36"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40" refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/><ref refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kindref="member">fromTriangles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Triangulation<sp/>&amp;<sp/>t,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshBuilder_1_1BuildSettings" kindref="compound">BuildSettings</ref><sp/>&amp;<sp/>settings<sp/>=<sp/>{},<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>progressCb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
@@ -447,7 +447,7 @@
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64" refid="group__GeneralGroup_1ga1d81a265f58e40e49884915932ef03cc" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga1d81a265f58e40e49884915932ef03cc" kindref="member">fromPointTriples</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Triangle3f&gt;<sp/>&amp;<sp/>posTriples<sp/>);</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="structMR_1_1MeshBuilder_1_1MeshPiece" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshBuilder_1_1MeshPiece" kindref="compound">MeshPiece</ref></highlight></codeline>
+<codeline lineno="67" refid="structMR_1_1MeshBuilder_1_1MeshPiece" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshBuilder_1_1MeshPiece" kindref="compound">MeshPiece</ref></highlight></codeline>
 <codeline lineno="68"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="69" refid="group__GeneralGroup_1ga9d2f3c57986b646bdf6618a914511a38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceMap<sp/><ref refid="group__GeneralGroup_1ga9d2f3c57986b646bdf6618a914511a38" kindref="member">fmap</ref>;<sp/></highlight></codeline>
 <codeline lineno="70" refid="group__GeneralGroup_1ga0e2772f29127c4ade3e9c174019fa545" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertMap<sp/><ref refid="group__GeneralGroup_1ga0e2772f29127c4ade3e9c174019fa545" kindref="member">vmap</ref>;<sp/></highlight></codeline>
@@ -488,10 +488,10 @@
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
 <codeline lineno="127" refid="group__GeneralGroup_1ga735c792eb0d3d6adc4c77f067f973d46" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafd13ce716b18402ee77952081cf52e40" kindref="member">uniteCloseVertices</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshBuilder_1_1UniteCloseParams" kindref="compound">UniteCloseParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h"/>
+    <location file="MRMesh/MRMeshBuilder.h"/>
   </compounddef>
 </doxygen>

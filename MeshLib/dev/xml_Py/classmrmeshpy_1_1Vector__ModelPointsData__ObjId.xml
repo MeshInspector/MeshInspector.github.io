@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Vector__ModelPointsData__ObjId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Vector_ModelPointsData_ObjId</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -963,20 +963,9 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
 
  \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
  \\tparam T type of stored elements
- \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+ \\tparam I type of index (shall be convertible to size_t)
+</verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.Vector_ModelPointsData_ObjId</label>
-        <link refid="classmrmeshpy_1_1Vector__ModelPointsData__ObjId"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_vec_</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66031" bodyend="66186"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Vector__ModelPointsData__ObjId_1a868ab42fa1951b5684a9a42438ce8abd" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ModelPointsData_ObjId</scope><name>__getitem__</name></member>

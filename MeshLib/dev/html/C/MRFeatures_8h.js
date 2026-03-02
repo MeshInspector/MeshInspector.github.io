@@ -1,8 +1,5 @@
 var MRFeatures_8h =
 [
-    [ "MR_AffineXf3f", "MRFeatures_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
-    [ "MR_Cone3f", "MRFeatures_8h.html#a91301ca230f5bfbd7247bd9438081b90", null ],
-    [ "MR_Cylinder3f", "MRFeatures_8h.html#a0c5f105c6381a1539730147b6aba3709", null ],
     [ "MR_Features_MeasureResult", "MRFeatures_8h.html#a3447b0e9a1f13a98f1ee73073ce4f29a", null ],
     [ "MR_Features_MeasureResult_Angle", "MRFeatures_8h.html#ad66d30b0f5fc1048949a7a5dfadb69ca", null ],
     [ "MR_Features_MeasureResult_BasicPart", "MRFeatures_8h.html#a8eb06d4b6cb7617bbe5b9543b753a1a9", null ],
@@ -19,14 +16,10 @@ var MRFeatures_8h =
     [ "MR_Features_Traits_Unary_MR_Features_Primitives_ConeSegment", "MRFeatures_8h.html#a39c1f851b397bad6d82fc3abead9bea6", null ],
     [ "MR_Features_Traits_Unary_MR_Features_Primitives_Plane", "MRFeatures_8h.html#af4ee787165add04b041bb4e2b6cd38aa", null ],
     [ "MR_Features_Traits_Unary_MR_Sphere3f", "MRFeatures_8h.html#a61a148423f83f3019e73e12d5cb993c4", null ],
-    [ "MR_Line3f", "MRFeatures_8h.html#aca1d803422d4caa25c56d04a67efbc52", null ],
     [ "MR_LineSegm3f", "MRFeatures_8h.html#a39540ed403db4865d7d6ce134f7654c1", null ],
-    [ "MR_Object", "MRFeatures_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
     [ "MR_Sphere3f", "MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013", null ],
     [ "MR_std_optional_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane", "MRFeatures_8h.html#a6a2b1c748eb4026bc0d873d865a2567b", null ],
     [ "MR_std_shared_ptr_MR_FeatureObject", "MRFeatures_8h.html#abd4e858d64c4a423e9b07e74b6d58f0d", null ],
-    [ "MR_std_string", "MRFeatures_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
-    [ "MR_std_string_view", "MRFeatures_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37", null ],
     [ "MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane", "MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d", null ],
     [ "MR_std_vector_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane", "MRFeatures_8h.html#a3596af60684297f79f34fc51c99fb225", null ],
     [ "MR_Features_MeasureResult_Status", "MRFeatures_8h.html#a67c95ec0c15eaa868b73681ab0fc7c53", [

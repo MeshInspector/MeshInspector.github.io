@@ -1,12 +1,7 @@
 var MRRingIterator_8h =
 [
-    [ "MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft", "MRRingIterator_8h.html#a23d63b3e3a028bf75cabd1b15bf6ecae", null ],
-    [ "MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin", "MRRingIterator_8h.html#a134a47c65547c1f3e3189da6b185fa67", null ],
-    [ "MR_MeshTopology", "MRRingIterator_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
     [ "MR_NextEdgeSameLeft", "MRRingIterator_8h.html#a2af0f32d2a47d854bf6398dfdce195e6", null ],
     [ "MR_NextEdgeSameOrigin", "MRRingIterator_8h.html#a59e1d582a0016f4fda5ffe0c11c56717", null ],
-    [ "MR_RingIterator_MR_NextEdgeSameLeft", "MRRingIterator_8h.html#ad437e0fab3b4f064f790a59b9e914e30", null ],
-    [ "MR_RingIterator_MR_NextEdgeSameOrigin", "MRRingIterator_8h.html#a89120138410f15b591375c52d6b999b0", null ],
     [ "MR_deref_MR_RingIterator_MR_NextEdgeSameLeft", "MRRingIterator_8h.html#ac4a068829a21d55b0f2e355c71adb36a", null ],
     [ "MR_deref_MR_RingIterator_MR_NextEdgeSameOrigin", "MRRingIterator_8h.html#a22e23ed456ae7b6f6f1c59ead7b22651", null ],
     [ "MR_equal_MR_RingIterator_MR_NextEdgeSameLeft", "MRRingIterator_8h.html#a253cccd605fd8b647aede597a9110841", null ],

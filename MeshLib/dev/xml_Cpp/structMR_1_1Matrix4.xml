@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Matrix4" kind="struct" language="C++" prot="public">
     <compoundname>MR::Matrix4</compoundname>
-    <includes refid="MRMatrix4_8h" local="no">MRMatrix4.h</includes>
+    <includes refid="MRMatrix4_8h" local="no">MRMesh/MRMatrix4.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -74,7 +74,7 @@
     <detaileddescription>
 <para>arbitrary 4x4 matrix </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="25" bodyend="176"/>
+    <location file="MRMesh/MRMatrix4.h" line="24" column="1" bodyfile="MRMesh/MRMatrix4.h" bodystart="25" bodyend="176"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad44d7c3967100d5828818e59d4b57563" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>col</name></member>
       <member refid="group__GeneralGroup_1ga2968fcaeb275c69d69adefdaec46f32c" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>data</name></member>

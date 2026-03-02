@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRTimer_8h" kind="file" language="C++">
     <compoundname>MRTimer.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
     <includes local="no">chrono</includes>
     <includes local="no">string</includes>
-    <includedby refid="MRHeap_8h" local="yes">MRHeap.h</includedby>
-    <includedby refid="MRPriorityQueue_8h" local="yes">MRPriorityQueue.h</includedby>
-    <includedby refid="MRRibbonRegisterItem_8h" local="no">MRRibbonRegisterItem.h</includedby>
-    <includedby refid="MRUnionFind_8h" local="yes">MRUnionFind.h</includedby>
-    <includedby refid="MRUnionFindParallel_8h" local="yes">MRUnionFindParallel.h</includedby>
-    <includedby refid="MRVoxelsVolumeCachingAccessor_8h" local="yes">MRVoxelsVolumeCachingAccessor.h</includedby>
+    <includedby refid="MRHeap_8h" local="yes">MRMesh/MRHeap.h</includedby>
+    <includedby refid="MRPriorityQueue_8h" local="yes">MRMesh/MRPriorityQueue.h</includedby>
+    <includedby refid="MRUnionFind_8h" local="yes">MRMesh/MRUnionFind.h</includedby>
+    <includedby refid="MRUnionFindParallel_8h" local="yes">MRMesh/MRUnionFindParallel.h</includedby>
+    <includedby refid="MRRibbonRegisterItem_8h" local="no">MRViewer/MRRibbonRegisterItem.h</includedby>
+    <includedby refid="MRVoxelsVolumeCachingAccessor_8h" local="yes">MRVoxels/MRVoxelsVolumeCachingAccessor.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -46,7 +46,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRTimer.h</label>
+        <label>MRMesh/MRTimer.h</label>
         <link refid="MRTimer_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -88,37 +88,37 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRHeap.h</label>
+        <label>MRMesh/MRHeap.h</label>
         <link refid="MRHeap_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="10">
-        <label>MRMeshComponents.h</label>
+      <node id="6">
+        <label>MRMesh/MRMeshComponents.h</label>
         <link refid="MRMeshComponents_8h"/>
       </node>
-      <node id="11">
-        <label>MROutlierPoints.h</label>
+      <node id="7">
+        <label>MRMesh/MROutlierPoints.h</label>
         <link refid="MROutlierPoints_8h"/>
       </node>
-      <node id="12">
-        <label>MRPointsComponents.h</label>
+      <node id="8">
+        <label>MRMesh/MRPointsComponents.h</label>
         <link refid="MRPointsComponents_8h"/>
       </node>
-      <node id="13">
-        <label>MRPolylineComponents.h</label>
+      <node id="9">
+        <label>MRMesh/MRPolylineComponents.h</label>
         <link refid="MRPolylineComponents_8h"/>
       </node>
       <node id="3">
-        <label>MRPrecipitationSimulator.h</label>
+        <label>MRMesh/MRPrecipitationSimulator.h</label>
         <link refid="MRPrecipitationSimulator_8h"/>
       </node>
       <node id="4">
-        <label>MRPriorityQueue.h</label>
+        <label>MRMesh/MRPriorityQueue.h</label>
         <link refid="MRPriorityQueue_8h"/>
       </node>
       <node id="1">
-        <label>MRTimer.h</label>
+        <label>MRMesh/MRTimer.h</label>
         <link refid="MRTimer_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -126,57 +126,57 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-      </node>
-      <node id="9">
-        <label>MRUnionFind.h</label>
-        <link refid="MRUnionFind_8h"/>
         <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRUnionFind.h</label>
+        <link refid="MRUnionFind_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRMesh/MRUnionFindParallel.h</label>
+        <link refid="MRUnionFindParallel_8h"/>
+      </node>
+      <node id="13">
+        <label>MRViewer/MRRibbonMenu.h</label>
+        <link refid="MRRibbonMenu_8h"/>
+      </node>
+      <node id="14">
+        <label>MRViewer/MRRibbonMenuSearch.h</label>
+        <link refid="MRRibbonMenuSearch_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MRViewer/MRRibbonRegisterItem.h</label>
+        <link refid="MRRibbonRegisterItem_8h"/>
         <childnode refid="12" relation="include">
         </childnode>
+      </node>
+      <node id="12">
+        <label>MRViewer/MRRibbonSchema.h</label>
+        <link refid="MRRibbonSchema_8h"/>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="14">
-        <label>MRUnionFindParallel.h</label>
-        <link refid="MRUnionFindParallel_8h"/>
-      </node>
-      <node id="7">
-        <label>MRRibbonMenu.h</label>
-        <link refid="MRRibbonMenu_8h"/>
-      </node>
-      <node id="8">
-        <label>MRRibbonMenuSearch.h</label>
-        <link refid="MRRibbonMenuSearch_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRRibbonRegisterItem.h</label>
-        <link refid="MRRibbonRegisterItem_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MRRibbonSchema.h</label>
-        <link refid="MRRibbonSchema_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
       <node id="15">
-        <label>MRVoxelsVolumeCachingAccessor.h</label>
+        <label>MRVoxels/MRVoxelsVolumeCachingAccessor.h</label>
         <link refid="MRVoxelsVolumeCachingAccessor_8h"/>
       </node>
     </invincdepgraph>
@@ -187,14 +187,13 @@
         <name>MR_TIMER</name>
         <initializer><ref refid="classMR_1_1Timer" kindref="compound">MR::Timer</ref> _timer( __FUNCTION__ )</initializer>
         <briefdescription>
-<para>namespace <ref refid="namespaceMR" kindref="compound">MR</ref> </para>
+<para><bold>FUNCTION</bold> in GCC/Clang returns only short function name without class name and template parameters </para>
         </briefdescription>
         <detaileddescription>
-<para><bold>FUNCTION</bold> in GCC/Clang returns only short function name without class name and template parameters </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" line="56" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" bodystart="56" bodyend="-1"/>
+        <location file="MRMesh/MRTimer.h" line="56" column="10" bodyfile="MRMesh/MRTimer.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRTimer_8h_1a46095ee84a5ee67f76a16abd1fe242fa" prot="public" static="no">
         <name>MR_NAMED_TIMER</name>
@@ -206,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" line="58" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" bodystart="58" bodyend="-1"/>
+        <location file="MRMesh/MRTimer.h" line="58" column="10" bodyfile="MRMesh/MRTimer.h" bodystart="58" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -225,22 +224,22 @@
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">TimeRecord;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TimeRecord" kindref="compound">TimeRecord</ref>;</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="classMR_1_1Timer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="classMR_1_1Timer" kindref="compound">Timer</ref></highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1Timer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="classMR_1_1Timer_1ae80a6af65498d28b69104f6cba5dae47" kindref="member">Timer</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="19" refid="classMR_1_1Timer_1ae80a6af65498d28b69104f6cba5dae47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Timer_1ae80a6af65498d28b69104f6cba5dae47" kindref="member">Timer</ref>(<sp/>std::string<sp/>name<sp/>)<sp/>{<sp/>start(<sp/>std::move(<sp/>name<sp/>)<sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="20" refid="classMR_1_1Timer_1a566c11ef9ebd550e2fa3cc5d71166218" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Timer_1a566c11ef9ebd550e2fa3cc5d71166218" kindref="member">~Timer</ref>()<sp/>{<sp/>finish();<sp/>}</highlight></codeline>
+<codeline lineno="19" refid="classMR_1_1Timer_1ae80a6af65498d28b69104f6cba5dae47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Timer_1ae80a6af65498d28b69104f6cba5dae47" kindref="member">Timer</ref>(<sp/>std::string<sp/>name<sp/>)<sp/>{<sp/><ref refid="classMR_1_1Timer_1a99cd37e3d1b7371e80e114ffd3493a43" kindref="member">start</ref>(<sp/>std::move(<sp/>name<sp/>)<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="20" refid="classMR_1_1Timer_1a566c11ef9ebd550e2fa3cc5d71166218" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Timer_1a566c11ef9ebd550e2fa3cc5d71166218" kindref="member">~Timer</ref>()<sp/>{<sp/><ref refid="classMR_1_1Timer_1ad2ecc757ea96fd7e35208506a9a73880" kindref="member">finish</ref>();<sp/>}</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="classMR_1_1Timer_1a2db88e174e3796c728ed6585e2ade84d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Timer_1a2db88e174e3796c728ed6585e2ade84d" kindref="member">restart</ref>(<sp/>std::string<sp/>name<sp/>);</highlight></codeline>
 <codeline lineno="23" refid="classMR_1_1Timer_1a99cd37e3d1b7371e80e114ffd3493a43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Timer_1a99cd37e3d1b7371e80e114ffd3493a43" kindref="member">start</ref>(<sp/>std::string<sp/>name<sp/>);</highlight></codeline>
 <codeline lineno="24" refid="classMR_1_1Timer_1ad2ecc757ea96fd7e35208506a9a73880" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Timer_1ad2ecc757ea96fd7e35208506a9a73880" kindref="member">finish</ref>();</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="classMR_1_1Timer_1a553683f7d466d5b7fb678541b729b8d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Timer_1a553683f7d466d5b7fb678541b729b8d7" kindref="member">Timer</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Timer" kindref="compound">Timer</ref><sp/>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="27" refid="classMR_1_1Timer_1aee5682697e88241b45ccc873426df465" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Timer" kindref="compound">Timer</ref><sp/>&amp;<sp/>operator<sp/>=(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Timer" kindref="compound">Timer</ref><sp/>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="28" refid="classMR_1_1Timer_1ac663a305ea77099e4a39bed149100061" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Timer_1ac663a305ea77099e4a39bed149100061" kindref="member">Timer</ref>(<sp/><ref refid="classMR_1_1Timer" kindref="compound">Timer</ref><sp/>&amp;&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="29" refid="classMR_1_1Timer_1abf15faf22086bb240a8b83b365a55a87" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Timer" kindref="compound">Timer</ref><sp/>&amp;<sp/>operator<sp/>=(<sp/><ref refid="classMR_1_1Timer" kindref="compound">Timer</ref><sp/>&amp;&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26" refid="classMR_1_1Timer_1a553683f7d466d5b7fb678541b729b8d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Timer_1a553683f7d466d5b7fb678541b729b8d7" kindref="member">Timer</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Timer_1ae80a6af65498d28b69104f6cba5dae47" kindref="member">Timer</ref><sp/>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27" refid="classMR_1_1Timer_1aee5682697e88241b45ccc873426df465" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Timer_1ae80a6af65498d28b69104f6cba5dae47" kindref="member">Timer</ref><sp/>&amp;<sp/>operator<sp/>=(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Timer_1ae80a6af65498d28b69104f6cba5dae47" kindref="member">Timer</ref><sp/>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28" refid="classMR_1_1Timer_1ac663a305ea77099e4a39bed149100061" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Timer_1ac663a305ea77099e4a39bed149100061" kindref="member">Timer</ref>(<sp/><ref refid="classMR_1_1Timer_1ae80a6af65498d28b69104f6cba5dae47" kindref="member">Timer</ref><sp/>&amp;&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29" refid="classMR_1_1Timer_1abf15faf22086bb240a8b83b365a55a87" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Timer_1ae80a6af65498d28b69104f6cba5dae47" kindref="member">Timer</ref><sp/>&amp;<sp/>operator<sp/>=(<sp/><ref refid="classMR_1_1Timer_1ae80a6af65498d28b69104f6cba5dae47" kindref="member">Timer</ref><sp/>&amp;&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31" refid="classMR_1_1Timer_1a732ca995a77c5930f0a5abe57ab4bc43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::chrono::duration&lt;double&gt;<sp/><ref refid="classMR_1_1Timer_1a732ca995a77c5930f0a5abe57ab4bc43" kindref="member">secondsPassed</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::chrono::high_resolution_clock::now()<sp/>-<sp/>start_;<sp/>}</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
@@ -256,7 +255,7 @@
 <codeline lineno="47" refid="group__BasicGroup_1gaa062fb28e95de030cde47eb792db4270" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1gaa062fb28e95de030cde47eb792db4270" kindref="member">printTimingTree</ref>(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>minTimeSec<sp/>=<sp/>0.1<sp/>);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__GNUC__<sp/></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_TIMER<sp/>MR::Timer<sp/>_timer(<sp/>__PRETTY_FUNCTION__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
@@ -265,6 +264,6 @@
 <codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="58" refid="MRTimer_8h_1a46095ee84a5ee67f76a16abd1fe242fa" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_NAMED_TIMER(name)<sp/>MR::Timer<sp/>_named_timer(<sp/>name<sp/>)</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h"/>
+    <location file="MRMesh/MRTimer.h"/>
   </compounddef>
 </doxygen>

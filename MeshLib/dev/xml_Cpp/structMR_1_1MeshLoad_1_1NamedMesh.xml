@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshLoad_1_1NamedMesh" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshLoad::NamedMesh</compoundname>
-    <includes refid="MRMeshLoadObj_8h" local="no">MRMeshLoadObj.h</includes>
+    <includes refid="MRMeshLoadObj_8h" local="no">MRMesh/MRMeshLoadObj.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__MeshLoadObjGroup_1ga05826b92a46319385603f88ae180c23a" kind="variable"><name>name</name></member>
       <member refid="group__MeshLoadObjGroup_1gab4ded5f4899c9c9bd466b211bd8e2bf1" kind="variable"><name>mesh</name></member>
@@ -52,7 +52,7 @@
         <label>MR::Vector&lt; std::filesystem::path, TextureId &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="39" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" bodystart="40" bodyend="57"/>
+    <location file="MRMesh/MRMeshLoadObj.h" line="39" column="1" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="40" bodyend="57"/>
     <listofallmembers>
       <member refid="group__MeshLoadObjGroup_1gacad26bb0f966762a6201f66dbe3e0f03" prot="public" virt="non-virtual"><scope>MR::MeshLoad::NamedMesh</scope><name>colors</name></member>
       <member refid="group__MeshLoadObjGroup_1ga24c0d1fb11f0d559f180bff7fc3fc188" prot="public" virt="non-virtual"><scope>MR::MeshLoad::NamedMesh</scope><name>diffuseColor</name></member>

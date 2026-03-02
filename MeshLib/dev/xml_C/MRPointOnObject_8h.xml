@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointOnObject_8h" kind="file" language="C++">
     <compoundname>MRPointOnObject.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
@@ -45,45 +45,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPointOnObject_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" prot="public" static="no">
-        <type>struct <ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref></type>
-        <definition>typedef struct MR_PointOnFace MR_PointOnFace</definition>
-        <argsstring></argsstring>
-        <name>MR_PointOnFace</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointOnObject.h" line="13" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointOnObject.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointOnObject_8h_1a36f3696eda81d7005927ebc5fdf17e14" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref></type>
-        <definition>typedef struct MR_VisualObject MR_VisualObject</definition>
-        <argsstring></argsstring>
-        <name>MR_VisualObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointOnObject.h" line="14" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointOnObject.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointOnObject_8h_1a5c7e91d11b038315c0503df15b512997" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref></type>
-        <definition>typedef struct MR_std_optional_MR_Vector3f MR_std_optional_MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_optional_MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointOnObject.h" line="15" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointOnObject.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" prot="public" static="no">
         <type>struct <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref></type>
         <definition>typedef struct MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</definition>
@@ -336,7 +297,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PointOnObject</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPointOnObject_8h_1a6e440f317d204eb51394a0dcbb51f1dc" kindref="member">MR_PointOnObject</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -354,7 +315,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PointOnObject</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPointOnObject_8h_1a6e440f317d204eb51394a0dcbb51f1dc" kindref="member">MR_PointOnObject</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -499,17 +460,17 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRPointOnObject_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref><sp/><ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointOnFace.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRPointOnObject_8h_1a36f3696eda81d7005927ebc5fdf17e14" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVisualObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRPointOnObject_8h_1a5c7e91d11b038315c0503df15b512997" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref><sp/><ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointOnFace.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVisualObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>point<sp/>located<sp/>on<sp/>either</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>1.<sp/>face<sp/>of<sp/>ObjectMesh</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2.<sp/>line<sp/>of<sp/>ObjectLines</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>3.<sp/>point<sp/>of<sp/>ObjectPoints</highlight></codeline>
-<codeline lineno="25" refid="MRPointOnObject_8h_1a6e440f317d204eb51394a0dcbb51f1dc" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointOnObject_8h_1a6e440f317d204eb51394a0dcbb51f1dc" kindref="member">MR_PointOnObject</ref><sp/><ref refid="MRPointOnObject_8h_1a6e440f317d204eb51394a0dcbb51f1dc" kindref="member">MR_PointOnObject</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>3.<sp/>point<sp/>of<sp/>ObjectPoints</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="MRPointOnObject_8h_1a6e440f317d204eb51394a0dcbb51f1dc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointOnObject_8h_1a6e440f317d204eb51394a0dcbb51f1dc" kindref="member">MR_PointOnObject</ref><sp/><ref refid="MRPointOnObject_8h_1a6e440f317d204eb51394a0dcbb51f1dc" kindref="member">MR_PointOnObject</ref>;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="MRPointOnObject_8h_1a67fb46d71f9cf9ff0d475d2ac75ac6c7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPointOnObject_8h_1a67fb46d71f9cf9ff0d475d2ac75ac6c7" kindref="member">MR_PointOnObject_Get_point</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointOnObject_8h_1a6e440f317d204eb51394a0dcbb51f1dc" kindref="member">MR_PointOnObject</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>

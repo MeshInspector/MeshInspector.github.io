@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MarchingCubesParams::CachingMode</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -313,20 +313,6 @@
   Normal : allocates 2 full slices per parallel thread
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.MarchingCubesParams.CachingMode</label>
-        <link refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>Automatic</edgelabel>
-          <edgelabel>None</edgelabel>
-          <edgelabel>Normal</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27394" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27394" bodyend="27434"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode_1a50d686db10a70c577bfd7487f0eec852" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesParams::CachingMode</scope><name>__eq__</name></member>

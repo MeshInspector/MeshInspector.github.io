@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1FillHoleParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FillHoleParams</compoundname>
     <innerclass refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode" prot="public">mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</innerclass>
@@ -552,34 +552,15 @@ Structure has some options to control MR::fillHole
         <label>mrmeshpy.FillHoleParams</label>
         <link refid="classmrmeshpy_1_1FillHoleParams"/>
         <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_maxPolygonSubdivisions</edgelabel>
-          <edgelabel>_offsetof_metric</edgelabel>
-          <edgelabel>_offsetof_multipleEdgesResolveMode</edgelabel>
-          <edgelabel>_offsetof_outNewFaces</edgelabel>
-          <edgelabel>_offsetof_smoothBd</edgelabel>
-          <edgelabel>_offsetof_stopBeforeBadTriangulation</edgelabel>
-        </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>multipleEdgesResolveMode</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>mrmeshpy.FillHoleParams</label>
-        <link refid="classmrmeshpy_1_1FillHoleParams"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_maxPolygonSubdivisions</edgelabel>
-          <edgelabel>_offsetof_metric</edgelabel>
-          <edgelabel>_offsetof_multipleEdgesResolveMode</edgelabel>
-          <edgelabel>_offsetof_outNewFaces</edgelabel>
-          <edgelabel>_offsetof_smoothBd</edgelabel>
-          <edgelabel>_offsetof_stopBeforeBadTriangulation</edgelabel>
-        </childnode>
-        <childnode refid="3" relation="usage">
           <edgelabel>multipleEdgesResolveMode</edgelabel>
         </childnode>
       </node>
       <node id="2">
-        <label>typing</label>
+        <label>mrmeshpy.FillHoleParams</label>
+        <link refid="classmrmeshpy_1_1FillHoleParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>multipleEdgesResolveMode</edgelabel>
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19432" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19432" bodyend="19573"/>

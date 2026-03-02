@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFaceFace_8h" kind="file" language="C++">
     <compoundname>MRFaceFace.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -317,7 +317,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_FaceFace</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -335,7 +335,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_FaceFace</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -610,7 +610,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_UndirectedEdgeUndirectedEdge</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -628,7 +628,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_UndirectedEdgeUndirectedEdge</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -676,9 +676,9 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref>;</highlight></codeline>
+<codeline lineno="16" refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref>;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref>;</highlight></codeline>
+<codeline lineno="21" refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27" refid="MRFaceFace_8h_1a974f01b9647664814573a9c0f47443e6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRFaceFace_8h_1a974f01b9647664814573a9c0f47443e6" kindref="member">MR_FaceFace_Get_aFace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>

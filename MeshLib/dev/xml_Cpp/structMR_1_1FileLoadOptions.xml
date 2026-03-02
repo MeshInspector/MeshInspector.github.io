@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1FileLoadOptions" kind="struct" language="C++" prot="public">
     <compoundname>MR::FileLoadOptions</compoundname>
-    <includes refid="MRFileLoadOptions_8h" local="no">MRFileLoadOptions.h</includes>
+    <includes refid="MRFileLoadOptions_8h" local="no">MRViewer/MRFileLoadOptions.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga4febf8fb2b21426b895c77148a5ed6f4" kind="enum"><name>ReplaceMode</name></member>
     </sectiondef>
@@ -15,7 +15,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileLoadOptions.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileLoadOptions.h" bodystart="14" bodyend="31"/>
+    <location file="MRViewer/MRFileLoadOptions.h" line="13" column="1" bodyfile="MRViewer/MRFileLoadOptions.h" bodystart="14" bodyend="31"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga4f4d8061842e6e46c5aab4e281bf1ad4" prot="public" virt="non-virtual"><scope>MR::FileLoadOptions</scope><name>loadedCallback</name></member>
       <member refid="group__GeneralGroup_1ga4febf8fb2b21426b895c77148a5ed6f4" prot="public" virt="non-virtual"><scope>MR::FileLoadOptions</scope><name>ReplaceMode</name></member>

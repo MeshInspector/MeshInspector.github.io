@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRContour_8h" kind="file" language="C++">
     <compoundname>MRContour.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
@@ -77,45 +77,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="12" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRContour_8h_1aefed148a09a0ae55edbd22814638b462" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref></type>
-        <definition>typedef struct MR_std_vector_MR_Vector3f MR_std_vector_MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="13" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRContour_8h_1a8e55692f157422c7881b4d55c583d9df" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref></type>
-        <definition>typedef struct MR_std_vector_std_vector_MR_Vector2d MR_std_vector_std_vector_MR_Vector2d</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_vector_MR_Vector2d</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="14" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRContour_8h_1a603c36c96311a8cb693f3e5500963e17" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref></type>
-        <definition>typedef struct MR_std_vector_std_vector_MR_Vector2f MR_std_vector_std_vector_MR_Vector2f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_vector_MR_Vector2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="15" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" prot="public" static="no">
         <type>struct <ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref></type>
@@ -955,9 +916,9 @@
 <codeline lineno="10" refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector2d.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11" refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12" refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3d.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRContour_8h_1aefed148a09a0ae55edbd22814638b462" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRContour_8h_1a8e55692f157422c7881b4d55c583d9df" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector2d.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRContour_8h_1a603c36c96311a8cb693f3e5500963e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector2d.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector3d.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>

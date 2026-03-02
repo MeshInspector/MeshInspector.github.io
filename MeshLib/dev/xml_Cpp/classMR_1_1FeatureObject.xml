@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FeatureObject" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>MR::FeatureObject</compoundname>
     <basecompoundref refid="classMR_1_1VisualObject" prot="public" virt="non-virtual">MR::VisualObject</basecompoundref>
@@ -9,7 +9,7 @@
     <derivedcompoundref refid="classMR_1_1LineObject" prot="public" virt="non-virtual">MR::LineObject</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1PlaneObject" prot="public" virt="non-virtual">MR::PlaneObject</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1PointObject" prot="public" virt="non-virtual">MR::PointObject</derivedcompoundref>
-    <includes refid="MRFeatureObject_8h" local="no">MRFeatureObject.h</includes>
+    <includes refid="MRFeatureObject_8h" local="no">MRMesh/MRFeatureObject.h</includes>
     <sectiondef kind="protected-attrib">
       <member refid="group__GeneralGroup_1gabd213076dcde954e6f1f26d06fa6d2fa" kind="variable"><name>subfeatureVisibility_</name></member>
       <member refid="group__GeneralGroup_1gac252edfceb31c314bc08c0ba5fac11b3" kind="variable"><name>detailsOnNameTag_</name></member>
@@ -261,7 +261,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" line="95" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h" bodystart="96" bodyend="197"/>
+    <location file="MRMesh/MRFeatureObject.h" line="95" column="1" bodyfile="MRMesh/MRFeatureObject.h" bodystart="96" bodyend="197"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>addChildBefore</name></member>

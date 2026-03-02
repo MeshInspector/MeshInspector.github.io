@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRQuaternion_8h" kind="file" language="C++">
     <compoundname>MRQuaternion.h</compoundname>
     <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
@@ -566,7 +566,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Quaternionf</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRQuaternion_8h_1a7d61257588f96f298110e27049265256" kindref="member">MR_Quaternionf</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -584,7 +584,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Quaternionf</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRQuaternion_8h_1a7d61257588f96f298110e27049265256" kindref="member">MR_Quaternionf</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1416,7 +1416,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Quaterniond</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRQuaternion_8h_1a46224412b1d436a24cc62290192d2f64" kindref="member">MR_Quaterniond</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1434,7 +1434,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Quaterniond</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRQuaternion_8h_1a46224412b1d436a24cc62290192d2f64" kindref="member">MR_Quaterniond</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1856,9 +1856,9 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRQuaternion_8h_1a7d61257588f96f298110e27049265256" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuaternion_8h_1a7d61257588f96f298110e27049265256" kindref="member">MR_Quaternionf</ref><sp/><ref refid="MRQuaternion_8h_1a7d61257588f96f298110e27049265256" kindref="member">MR_Quaternionf</ref>;</highlight></codeline>
+<codeline lineno="19" refid="MRQuaternion_8h_1a7d61257588f96f298110e27049265256" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuaternion_8h_1a7d61257588f96f298110e27049265256" kindref="member">MR_Quaternionf</ref><sp/><ref refid="MRQuaternion_8h_1a7d61257588f96f298110e27049265256" kindref="member">MR_Quaternionf</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MRQuaternion_8h_1a46224412b1d436a24cc62290192d2f64" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuaternion_8h_1a46224412b1d436a24cc62290192d2f64" kindref="member">MR_Quaterniond</ref><sp/><ref refid="MRQuaternion_8h_1a46224412b1d436a24cc62290192d2f64" kindref="member">MR_Quaterniond</ref>;</highlight></codeline>
+<codeline lineno="25" refid="MRQuaternion_8h_1a46224412b1d436a24cc62290192d2f64" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuaternion_8h_1a46224412b1d436a24cc62290192d2f64" kindref="member">MR_Quaterniond</ref><sp/><ref refid="MRQuaternion_8h_1a46224412b1d436a24cc62290192d2f64" kindref="member">MR_Quaterniond</ref>;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="MRQuaternion_8h_1a43b0d75e498646f5fc6327312498ced4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRQuaternion_8h_1a43b0d75e498646f5fc6327312498ced4" kindref="member">MR_Quaternionf_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRQuaternion_8h_1a7d61257588f96f298110e27049265256" kindref="member">MR_Quaternionf</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>

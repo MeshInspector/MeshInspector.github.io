@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVolumeSegment_8h" kind="file" language="C++">
     <compoundname>MRVolumeSegment.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
@@ -249,7 +249,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRVolumeSegment.h</label>
+        <label>MRVoxels/MRVolumeSegment.h</label>
         <link refid="MRVolumeSegment_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -382,6 +382,7 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="group__VolumeSegmentationGroup_1ga66a8de1137e7c508ae9c12d886306f4e" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;MR::Mesh&gt;</ref><sp/><ref refid="group__VolumeSegmentationGroup_1ga66a8de1137e7c508ae9c12d886306f4e" kindref="member">meshFromVoxelsMask</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/><ref refid="group__GeneralGroup_1ga20e9ae03dbf954625936ada6b2cbcf60" kindref="member">volume</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VoxelBitSet&amp;<sp/>mask<sp/>);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33" refid="structMR_1_1VolumeSegmentationParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VolumeSegmentationParameters" kindref="compound">VolumeSegmentationParameters</ref></highlight></codeline>
@@ -396,7 +397,7 @@
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VoxelMetricParameters" kindref="compound">VoxelMetricParameters</ref>;</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="classMR_1_1VolumeSegmenter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1VolumeSegmenter" kindref="compound">VolumeSegmenter</ref></highlight></codeline>
+<codeline lineno="65" refid="classMR_1_1VolumeSegmenter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1VolumeSegmenter_1ade8004df614ab047c4f52cee50426a7d" kindref="member">VolumeSegmenter</ref></highlight></codeline>
 <codeline lineno="66"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="68" refid="classMR_1_1VolumeSegmenter_1ade8004df614ab047c4f52cee50426a7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="classMR_1_1VolumeSegmenter_1ade8004df614ab047c4f52cee50426a7d" kindref="member">VolumeSegmenter</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/><ref refid="group__GeneralGroup_1ga20e9ae03dbf954625936ada6b2cbcf60" kindref="member">volume</ref><sp/>);</highlight></codeline>
@@ -405,8 +406,8 @@
 <codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="72" refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5a21796cca7989a91c8335cd29c782f5be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5a21796cca7989a91c8335cd29c782f5be" kindref="member">Inside</ref>,</highlight></codeline>
 <codeline lineno="73" refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5ac24c0463f4a46b890b5cac084adf0d2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5ac24c0463f4a46b890b5cac084adf0d2f" kindref="member">Outside</ref>,</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5a28f16f91e9d9bf0f446669e4cdd98750" kindref="member">Count</ref></highlight></codeline>
-<codeline lineno="75" refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5a28f16f91e9d9bf0f446669e4cdd98750" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="74" refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5a28f16f91e9d9bf0f446669e4cdd98750" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5a28f16f91e9d9bf0f446669e4cdd98750" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
 <codeline lineno="78" refid="classMR_1_1VolumeSegmenter_1a3be25177765403d79c7a64588b217f26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VolumeSegmenter_1a3be25177765403d79c7a64588b217f26" kindref="member">addPathSeeds</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VoxelMetricParameters" kindref="compound">VoxelMetricParameters</ref>&amp;<sp/>metricParameters,<sp/><ref refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5" kindref="member">SeedType</ref><sp/>seedType,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>exponentModifier<sp/>=<sp/>-1.0f<sp/>);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -444,6 +445,6 @@
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
 <codeline lineno="122"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h"/>
+    <location file="MRVoxels/MRVolumeSegment.h"/>
   </compounddef>
 </doxygen>

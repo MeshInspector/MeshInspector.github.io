@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRUnorientedTriangle_8h" kind="file" language="C++">
     <compoundname>MRUnorientedTriangle.h</compoundname>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
@@ -55,7 +55,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRUnorientedTriangle.h</label>
+        <label>MRMesh/MRUnorientedTriangle.h</label>
         <link refid="MRUnorientedTriangle_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -116,7 +116,7 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="structMR_1_1UnorientedTriangle" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UnorientedTriangle" kindref="compound">UnorientedTriangle</ref></highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1UnorientedTriangle" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaa917f541ba687e11cb12638018c11f49" kindref="member">UnorientedTriangle</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga9fa45e8860a645c31bc2c7f1a2abf56b" kindref="member">ThreeVertIds</ref><sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>{};</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
@@ -150,10 +150,10 @@
 <codeline lineno="47" refid="group__GeneralGroup_1ga3def19a0ec6d9b753da75d05825e1d0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/>&amp;<ref refid="group__GeneralGroup_1ga3def19a0ec6d9b753da75d05825e1d0b" kindref="member">operator[]</ref>(<sp/>std::size_t<sp/>i<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>[i];<sp/>}</highlight></codeline>
 <codeline lineno="48" refid="group__GeneralGroup_1ga1559dd0f63575b110b6d67c47cd8ca61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertId<sp/>&amp;<ref refid="group__GeneralGroup_1ga1559dd0f63575b110b6d67c47cd8ca61" kindref="member">operator[]</ref>(<sp/>std::size_t<sp/>i<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kindref="member">verts</ref>[i];<sp/>}</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="group__GeneralGroup_1ga612a5709db207a238542c54810f6af4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga612a5709db207a238542c54810f6af4c" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UnorientedTriangle" kindref="compound">UnorientedTriangle</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UnorientedTriangle" kindref="compound">UnorientedTriangle</ref>&amp;<sp/>b<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1ga612a5709db207a238542c54810f6af4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga612a5709db207a238542c54810f6af4c" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa917f541ba687e11cb12638018c11f49" kindref="member">UnorientedTriangle</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa917f541ba687e11cb12638018c11f49" kindref="member">UnorientedTriangle</ref>&amp;<sp/>b<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">std</highlight></codeline>
 <codeline lineno="56"><highlight class="normal">{</highlight></codeline>
@@ -170,8 +170,8 @@
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="68"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnorientedTriangle.h"/>
+    <location file="MRMesh/MRUnorientedTriangle.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRAABBTreeNode_8h" kind="file" language="C++">
     <compoundname>MRAABBTreeNode.h</compoundname>
     <includes refid="MRBox_8h" local="no">MRCMesh/MRBox.h</includes>
@@ -130,62 +130,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreeNode.h" line="25" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreeNode.h" bodystart="25" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRAABBTreeNode_8h_1a1393a5d741da9c6edd04b0105efe0727" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1a1393a5d741da9c6edd04b0105efe0727" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref></type>
-        <definition>typedef struct MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</definition>
-        <argsstring></argsstring>
-        <name>MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreeNode.h" line="29" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreeNode.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRAABBTreeNode_8h_1a60f3dc601d20fc9c5ecd6edf41cc86bc" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1a60f3dc601d20fc9c5ecd6edf41cc86bc" kindref="member">MR_AABBTreeNode_MR_ObjTreeTraits</ref></type>
-        <definition>typedef struct MR_AABBTreeNode_MR_ObjTreeTraits MR_AABBTreeNode_MR_ObjTreeTraits</definition>
-        <argsstring></argsstring>
-        <name>MR_AABBTreeNode_MR_ObjTreeTraits</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::AABBTreeNode&lt;MR::ObjTreeTraits&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreeNode.h" line="33" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreeNode.h" bodystart="33" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRAABBTreeNode_8h_1a0e5a9ac5fb6e86041914df4b0ececb57" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1a0e5a9ac5fb6e86041914df4b0ececb57" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref></type>
-        <definition>typedef struct MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</definition>
-        <argsstring></argsstring>
-        <name>MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreeNode.h" line="37" column="78" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreeNode.h" bodystart="37" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRAABBTreeNode_8h_1a1cb8cc2435ecbe49df7ed9dace5761db" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1a1cb8cc2435ecbe49df7ed9dace5761db" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref></type>
-        <definition>typedef struct MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</definition>
-        <argsstring></argsstring>
-        <name>MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreeNode.h" line="41" column="78" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreeNode.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRAABBTreeNode_8h_1a2523d2e75da5546aa3efda1815ddaf08" prot="public" static="no">
         <type>struct <ref refid="MRAABBTreeNode_8h_1a2523d2e75da5546aa3efda1815ddaf08" kindref="member">MR_NodeNode</ref></type>
         <definition>typedef struct MR_NodeNode MR_NodeNode</definition>
@@ -309,7 +253,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAABBTreeNode_8h_1ae3833b7fe24352a124d28b5821442a9f" kindref="member">MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -327,7 +271,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAABBTreeNode_8h_1ae3833b7fe24352a124d28b5821442a9f" kindref="member">MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -464,7 +408,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAABBTreeNode_8h_1aa1d97775f82e6c737fb1050d3e7c9b74" kindref="member">MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -482,7 +426,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAABBTreeNode_8h_1aa1d97775f82e6c737fb1050d3e7c9b74" kindref="member">MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -619,7 +563,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAABBTreeNode_8h_1accec7e90aed21d0b7057c821b322e2f8" kindref="member">MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -637,7 +581,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAABBTreeNode_8h_1accec7e90aed21d0b7057c821b322e2f8" kindref="member">MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -973,7 +917,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAABBTree_8h_1a1393a5d741da9c6edd04b0105efe0727" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -991,7 +935,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAABBTree_8h_1a1393a5d741da9c6edd04b0105efe0727" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1385,7 +1329,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_AABBTreeNode_MR_ObjTreeTraits</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAABBTreeBase_8h_1a60f3dc601d20fc9c5ecd6edf41cc86bc" kindref="member">MR_AABBTreeNode_MR_ObjTreeTraits</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1403,7 +1347,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_AABBTreeNode_MR_ObjTreeTraits</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAABBTreeBase_8h_1a60f3dc601d20fc9c5ecd6edf41cc86bc" kindref="member">MR_AABBTreeNode_MR_ObjTreeTraits</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1797,7 +1741,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAABBTreeBase_8h_1a0e5a9ac5fb6e86041914df4b0ececb57" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1815,7 +1759,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAABBTreeBase_8h_1a0e5a9ac5fb6e86041914df4b0ececb57" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2209,7 +2153,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAABBTreeBase_8h_1a1cb8cc2435ecbe49df7ed9dace5761db" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2227,7 +2171,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAABBTreeBase_8h_1a1cb8cc2435ecbe49df7ed9dace5761db" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2560,7 +2504,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NodeNode</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAABBTreeNode_8h_1a2523d2e75da5546aa3efda1815ddaf08" kindref="member">MR_NodeNode</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2578,7 +2522,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NodeNode</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAABBTreeNode_8h_1a2523d2e75da5546aa3efda1815ddaf08" kindref="member">MR_NodeNode</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2628,21 +2572,21 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRAABBTreeNode_8h_1ae3833b7fe24352a124d28b5821442a9f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeNode_8h_1ae3833b7fe24352a124d28b5821442a9f" kindref="member">MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref><sp/><ref refid="MRAABBTreeNode_8h_1ae3833b7fe24352a124d28b5821442a9f" kindref="member">MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref>;</highlight></codeline>
+<codeline lineno="17" refid="MRAABBTreeNode_8h_1ae3833b7fe24352a124d28b5821442a9f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeNode_8h_1ae3833b7fe24352a124d28b5821442a9f" kindref="member">MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref><sp/><ref refid="MRAABBTreeNode_8h_1ae3833b7fe24352a124d28b5821442a9f" kindref="member">MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref>;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRAABBTreeNode_8h_1aa1d97775f82e6c737fb1050d3e7c9b74" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeNode_8h_1aa1d97775f82e6c737fb1050d3e7c9b74" kindref="member">MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref><sp/><ref refid="MRAABBTreeNode_8h_1aa1d97775f82e6c737fb1050d3e7c9b74" kindref="member">MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref>;</highlight></codeline>
+<codeline lineno="21" refid="MRAABBTreeNode_8h_1aa1d97775f82e6c737fb1050d3e7c9b74" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeNode_8h_1aa1d97775f82e6c737fb1050d3e7c9b74" kindref="member">MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref><sp/><ref refid="MRAABBTreeNode_8h_1aa1d97775f82e6c737fb1050d3e7c9b74" kindref="member">MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MRAABBTreeNode_8h_1accec7e90aed21d0b7057c821b322e2f8" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeNode_8h_1accec7e90aed21d0b7057c821b322e2f8" kindref="member">MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref><sp/><ref refid="MRAABBTreeNode_8h_1accec7e90aed21d0b7057c821b322e2f8" kindref="member">MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref>;</highlight></codeline>
+<codeline lineno="25" refid="MRAABBTreeNode_8h_1accec7e90aed21d0b7057c821b322e2f8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeNode_8h_1accec7e90aed21d0b7057c821b322e2f8" kindref="member">MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref><sp/><ref refid="MRAABBTreeNode_8h_1accec7e90aed21d0b7057c821b322e2f8" kindref="member">MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref>;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRAABBTreeNode_8h_1a1393a5d741da9c6edd04b0105efe0727" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a1393a5d741da9c6edd04b0105efe0727" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref><sp/><ref refid="MRAABBTree_8h_1a1393a5d741da9c6edd04b0105efe0727" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a1393a5d741da9c6edd04b0105efe0727" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref><sp/><ref refid="MRAABBTree_8h_1a1393a5d741da9c6edd04b0105efe0727" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRAABBTreeNode_8h_1a60f3dc601d20fc9c5ecd6edf41cc86bc" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1a60f3dc601d20fc9c5ecd6edf41cc86bc" kindref="member">MR_AABBTreeNode_MR_ObjTreeTraits</ref><sp/><ref refid="MRAABBTreeBase_8h_1a60f3dc601d20fc9c5ecd6edf41cc86bc" kindref="member">MR_AABBTreeNode_MR_ObjTreeTraits</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1a60f3dc601d20fc9c5ecd6edf41cc86bc" kindref="member">MR_AABBTreeNode_MR_ObjTreeTraits</ref><sp/><ref refid="MRAABBTreeBase_8h_1a60f3dc601d20fc9c5ecd6edf41cc86bc" kindref="member">MR_AABBTreeNode_MR_ObjTreeTraits</ref>;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRAABBTreeNode_8h_1a0e5a9ac5fb6e86041914df4b0ececb57" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1a0e5a9ac5fb6e86041914df4b0ececb57" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref><sp/><ref refid="MRAABBTreeBase_8h_1a0e5a9ac5fb6e86041914df4b0ececb57" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1a0e5a9ac5fb6e86041914df4b0ececb57" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref><sp/><ref refid="MRAABBTreeBase_8h_1a0e5a9ac5fb6e86041914df4b0ececb57" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref>;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRAABBTreeNode_8h_1a1cb8cc2435ecbe49df7ed9dace5761db" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1a1cb8cc2435ecbe49df7ed9dace5761db" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref><sp/><ref refid="MRAABBTreeBase_8h_1a1cb8cc2435ecbe49df7ed9dace5761db" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1a1cb8cc2435ecbe49df7ed9dace5761db" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref><sp/><ref refid="MRAABBTreeBase_8h_1a1cb8cc2435ecbe49df7ed9dace5761db" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref>;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRAABBTreeNode_8h_1a2523d2e75da5546aa3efda1815ddaf08" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeNode_8h_1a2523d2e75da5546aa3efda1815ddaf08" kindref="member">MR_NodeNode</ref><sp/><ref refid="MRAABBTreeNode_8h_1a2523d2e75da5546aa3efda1815ddaf08" kindref="member">MR_NodeNode</ref>;</highlight></codeline>
+<codeline lineno="45" refid="MRAABBTreeNode_8h_1a2523d2e75da5546aa3efda1815ddaf08" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeNode_8h_1a2523d2e75da5546aa3efda1815ddaf08" kindref="member">MR_NodeNode</ref><sp/><ref refid="MRAABBTreeNode_8h_1a2523d2e75da5546aa3efda1815ddaf08" kindref="member">MR_NodeNode</ref>;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="49" refid="MRAABBTreeNode_8h_1aac99477b52bb1d3b6abdba776970755d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeNode_8h_1ae3833b7fe24352a124d28b5821442a9f" kindref="member">MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</ref><sp/>*<ref refid="MRAABBTreeNode_8h_1aac99477b52bb1d3b6abdba776970755d" kindref="member">MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>

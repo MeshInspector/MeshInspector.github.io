@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1VoxelsVolume" kind="struct" language="C++" prot="public">
     <compoundname>MR::VoxelsVolume</compoundname>
+    <derivedcompoundref refid="structMR_1_1VoxelsVolumeMinMax" prot="public" virt="non-virtual">MR::VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt;</derivedcompoundref>
     <derivedcompoundref refid="structMR_1_1VoxelsVolumeMinMax" prot="public" virt="non-virtual">MR::VoxelsVolumeMinMax&lt; T &gt;</derivedcompoundref>
-    <includes refid="MRVoxelsVolume_8h" local="no">MRVoxelsVolume.h</includes>
+    <includes refid="MRVoxelsVolume_8h" local="no">MRVoxels/MRVoxelsVolume.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -30,14 +31,20 @@
         <label>MR::VoxelsVolume&lt; T &gt;</label>
         <link refid="structMR_1_1VoxelsVolume"/>
       </node>
-      <node id="2">
+      <node id="3">
         <label>MR::VoxelsVolumeMinMax&lt; T &gt;</label>
         <link refid="structMR_1_1VoxelsVolumeMinMax"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR::VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt;</label>
+        <link refid="structMR_1_1VoxelsVolumeMinMax"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolume.h" line="50" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolume.h" bodystart="51" bodyend="59"/>
+    <location file="MRVoxels/MRVoxelsVolume.h" line="50" column="1" bodyfile="MRVoxels/MRVoxelsVolume.h" bodystart="51" bodyend="59"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga6ea81e0ad21fc888dfa262fb957f3c2e" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume</scope><name>data</name></member>
       <member refid="group__GeneralGroup_1gaec69290a92637368e463e39fadfea701" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume</scope><name>dims</name></member>

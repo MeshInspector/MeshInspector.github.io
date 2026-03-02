@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TriangleSegmentIntersectResult" kind="class" language="C#" prot="public">
     <compoundname>MR::TriangleSegmentIntersectResult</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_TriangleSegmentIntersectResult</basecompoundref>
@@ -109,7 +109,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TriangleSegmentIntersectResult.TriangleSegmentIntersectResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriangleSegmentIntersectResult_1a0c96d53bbe456c72fa0469b3e923f7a7" kindref="member">MR.TriangleSegmentIntersectResult.TriangleSegmentIntersectResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -128,7 +128,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TriangleSegmentIntersectResult.TriangleSegmentIntersectResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriangleSegmentIntersectResult_1a0c96d53bbe456c72fa0469b3e923f7a7" kindref="member">MR.TriangleSegmentIntersectResult.TriangleSegmentIntersectResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -147,7 +147,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.TriangleSegmentIntersectResult.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TriangleSegmentIntersectResult::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -162,45 +162,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_TriangleSegmentIntersectResult</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TriangleSegmentIntersectResult</label>
         <link refid="classMR_1_1TriangleSegmentIntersectResult"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_TriangleSegmentIntersectResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TriangleSegmentIntersectResult &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_TriangleSegmentIntersectResult</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TriangleSegmentIntersectResult</label>
         <link refid="classMR_1_1TriangleSegmentIntersectResult"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_TriangleSegmentIntersectResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TriangleSegmentIntersectResult &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="320" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="321" bodyend="387"/>

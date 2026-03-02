@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectGcode" kind="class" language="C++" prot="public">
     <compoundname>MR::ObjectGcode</compoundname>
     <basecompoundref refid="classMR_1_1ObjectLinesHolder" prot="public" virt="non-virtual">MR::ObjectLinesHolder</basecompoundref>
-    <includes refid="MRObjectGcode_8h" local="no">MRObjectGcode.h</includes>
+    <includes refid="MRObjectGcode_8h" local="no">MRMesh/MRObjectGcode.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gae2ed923e558fd3193c040fc672e7e537" kind="typedef"><name>GcodeChangedSignal</name></member>
     </sectiondef>
@@ -181,7 +181,7 @@
         <link refid="classMR_1_1ViewportProperty"/>
       </node>
       <node id="17">
-        <label>MR::ViewportProperty&lt; MR::Vector4 &gt;</label>
+        <label>MR::ViewportProperty&lt; MR::Vector4&lt; uint8_t &gt; &gt;</label>
         <link refid="classMR_1_1ViewportProperty"/>
       </node>
       <node id="16">
@@ -226,7 +226,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="17" bodyend="97"/>
+    <location file="MRMesh/MRObjectGcode.h" line="16" column="1" bodyfile="MRMesh/MRObjectGcode.h" bodystart="17" bodyend="97"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga27af6f39daa073a68e8dd772a3a8554a" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>actionList</name></member>
       <member refid="group__GeneralGroup_1gac85e46986af75a0766ace7e5da28c84b" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>actionList_</name></member>

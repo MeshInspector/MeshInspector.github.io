@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTree" kind="class" language="C++" prot="public">
     <compoundname>MR::AABBTree</compoundname>
     <basecompoundref refid="classMR_1_1AABBTreeBase" prot="public" virt="non-virtual">MR::AABBTreeBase&lt; FaceTreeTraits3 &gt;</basecompoundref>
-    <includes refid="MRAABBTree_8h" local="no">MRAABBTree.h</includes>
+    <includes refid="MRAABBTree_8h" local="no">MRMesh/MRAABBTree.h</includes>
     <sectiondef kind="friend">
       <memberdef kind="friend" id="classMR_1_1AABBTree_1aed6e78485032d75bf97587de91224aaf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class</type>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTree.h" line="33" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTree.h" bodystart="34" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTree.h" line="33" column="15" bodyfile="MRMesh/MRAABBTree.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="friend" id="classMR_1_1AABBTree_1a1c7a27ff83b86c0c4b27ab51c59cdedb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class</type>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTree.h" line="33" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTree.h" bodystart="35" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTree.h" line="33" column="15" bodyfile="MRMesh/MRAABBTree.h" bodystart="35" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTree.h" line="19" column="16"/>
+        <location file="MRMesh/MRAABBTree.h" line="19" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTree_1a23b6f58682ec54006a8fb8d00ca4a191" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTree.h" line="21" column="5"/>
+        <location file="MRMesh/MRAABBTree.h" line="21" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTree_1a299be175c35406bc5c624c524a3221e7" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTree.h" line="22" column="5"/>
+        <location file="MRMesh/MRAABBTree.h" line="22" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTree_1a3d03064881df6e739bd9f815c909abe5" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref> &amp;</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTree.h" line="23" column="15"/>
+        <location file="MRMesh/MRAABBTree.h" line="23" column="15"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTree_1ae34906bea801ab798c256ac017ef0a70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTree.h" line="29" column="11"/>
+        <location file="MRMesh/MRAABBTree.h" line="29" column="11"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTree.h" line="32" column="5"/>
+        <location file="MRMesh/MRAABBTree.h" line="32" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTree_1a4ab5667b36f37c71f2c5ead4d889d288" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref> &amp;</type>
@@ -182,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTree.h" line="33" column="15"/>
+        <location file="MRMesh/MRAABBTree.h" line="33" column="15"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -221,7 +221,7 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTree.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTree.h" bodystart="16" bodyend="36"/>
+    <location file="MRMesh/MRAABBTree.h" line="15" column="1" bodyfile="MRMesh/MRAABBTree.h" bodystart="16" bodyend="36"/>
     <listofallmembers>
       <member refid="classMR_1_1AABBTree_1abea29a2d21e3807703a04574779d3d71" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>AABBTree</name></member>
       <member refid="classMR_1_1AABBTree_1a23b6f58682ec54006a8fb8d00ca4a191" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>AABBTree</name></member>

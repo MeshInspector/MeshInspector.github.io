@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MovementBuildBodyParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MovementBuildBodyParams</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -575,24 +575,6 @@ bodyUpDir corresponds to it if both are present and `allowRotation` is set
 <para><verbatim>Generated from:  MR::MovementBuildBodyParams
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.MovementBuildBodyParams</label>
-        <link refid="classmrmeshpy_1_1MovementBuildBodyParams"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_allowRotation</edgelabel>
-          <edgelabel>_offsetof_b2tXf</edgelabel>
-          <edgelabel>_offsetof_bodyNormal</edgelabel>
-          <edgelabel>_offsetof_bodyUpDir</edgelabel>
-          <edgelabel>_offsetof_center</edgelabel>
-          <edgelabel>_offsetof_startMeshFromBody</edgelabel>
-          <edgelabel>_offsetof_trajectoryNormals</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36233" bodyend="36330"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MovementBuildBodyParams_1a2b071f34cc6695b13d54513ed693c29e" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementBuildBodyParams</scope><name>__init__</name></member>

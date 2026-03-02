@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PickPointManager_1_1WidgetHistoryAction" kind="struct" language="C++" prot="public">
     <compoundname>MR::PickPointManager::WidgetHistoryAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRPickPointManager_8h" local="no">MRPickPointManager.h</includes>
+    <includes refid="MRPickPointManager_8h" local="no">MRViewer/MRPickPointManager.h</includes>
     <briefdescription>
 <para>A common base class for all history actions of this widget. </para>
     </briefdescription>
@@ -33,7 +33,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="98" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="98" bodyend="98"/>
+    <location file="MRViewer/MRPickPointManager.h" line="98" column="5" bodyfile="MRViewer/MRPickPointManager.h" bodystart="98" bodyend="98"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaecfce349736beaf17a23a6817c86f3bb" prot="public" virt="pure-virtual"><scope>MR::PickPointManager::WidgetHistoryAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gad6df54da6a63ed83f15053507e8569de" prot="public" virt="pure-virtual"><scope>MR::PickPointManager::WidgetHistoryAction</scope><name>heapBytes</name></member>

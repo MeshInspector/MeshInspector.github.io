@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRWatershedGraph_8h" kind="file" language="C++">
     <compoundname>MRWatershedGraph.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -48,97 +48,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRWatershedGraph_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
-        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWatershedGraph_8h_1a5e638837d22d1028b724cc8f267c2762" prot="public" static="no">
-        <type>struct <ref refid="MRGraph_8h_1a5e638837d22d1028b724cc8f267c2762" kindref="member">MR_Graph</ref></type>
-        <definition>typedef struct MR_Graph MR_Graph</definition>
-        <argsstring></argsstring>
-        <name>MR_Graph</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="15" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWatershedGraph_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="16" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWatershedGraph_8h_1ac7f59a6736b29701d7e619412b6e2890" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref></type>
-        <definition>typedef struct MR_UndirectedEdgeBitSet MR_UndirectedEdgeBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_UndirectedEdgeBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="17" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWatershedGraph_8h_1a4e5a7cc8670588a2b2921a48cd85beee" prot="public" static="no">
-        <type>struct <ref refid="MRVector_8h_1a4e5a7cc8670588a2b2921a48cd85beee" kindref="member">MR_Vector_MR_FaceBitSet_MR_GraphVertId</ref></type>
-        <definition>typedef struct MR_Vector_MR_FaceBitSet_MR_GraphVertId MR_Vector_MR_FaceBitSet_MR_GraphVertId</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector_MR_FaceBitSet_MR_GraphVertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="18" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWatershedGraph_8h_1aadf36a7d4ab7b262835d20da5403b847" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1aadf36a7d4ab7b262835d20da5403b847" kindref="member">MR_Vector_MR_GraphVertId_MR_GraphVertId</ref></type>
-        <definition>typedef struct MR_Vector_MR_GraphVertId_MR_GraphVertId MR_Vector_MR_GraphVertId_MR_GraphVertId</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector_MR_GraphVertId_MR_GraphVertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="19" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWatershedGraph_8h_1a4cecbe6d6abe0a304f00ea1990538db2" prot="public" static="no">
-        <type>struct <ref refid="MRVector_8h_1a4cecbe6d6abe0a304f00ea1990538db2" kindref="member">MR_Vector_int_MR_FaceId</ref></type>
-        <definition>typedef struct MR_Vector_int_MR_FaceId MR_Vector_int_MR_FaceId</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector_int_MR_FaceId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="20" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRWatershedGraph_8h_1ab889caeae0badb9df54c8b243b1f9597" prot="public" static="no">
         <type>struct <ref refid="MRWatershedGraph_8h_1ab889caeae0badb9df54c8b243b1f9597" kindref="member">MR_std_pair_MR_GraphEdgeId_float</ref></type>
         <definition>typedef struct MR_std_pair_MR_GraphEdgeId_float MR_std_pair_MR_GraphEdgeId_float</definition>
@@ -165,34 +74,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="22" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" bodystart="22" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRWatershedGraph_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" prot="public" static="no">
-        <type>struct <ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref></type>
-        <definition>typedef struct MR_WatershedGraph_BasinInfo MR_WatershedGraph_BasinInfo</definition>
-        <argsstring></argsstring>
-        <name>MR_WatershedGraph_BasinInfo</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>associated with each vertex in graph Generated from class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="28" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWatershedGraph_8h_1a569667c95a4e9d4d3a69fbf443462ec5" prot="public" static="no">
-        <type>struct <ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref></type>
-        <definition>typedef struct MR_WatershedGraph_BdInfo MR_WatershedGraph_BdInfo</definition>
-        <argsstring></argsstring>
-        <name>MR_WatershedGraph_BdInfo</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>associated with each edge in graph Generated from class <computeroutput>MR::WatershedGraph::BdInfo</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="33" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" bodystart="33" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" prot="public" static="no">
         <type>struct <ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref></type>
         <definition>typedef struct MR_WatershedGraph_OverflowPoint MR_WatershedGraph_OverflowPoint</definition>
@@ -206,20 +87,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="38" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWatershedGraph_8h_1a0691b4cabfa34960d5cd00f39ec4c7a9" prot="public" static="no">
-        <type>struct <ref refid="MRPrecipitationSimulator_8h_1a0691b4cabfa34960d5cd00f39ec4c7a9" kindref="member">MR_WatershedGraph</ref></type>
-        <definition>typedef struct MR_WatershedGraph MR_WatershedGraph</definition>
-        <argsstring></argsstring>
-        <name>MR_WatershedGraph</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>graphs representing rain basins on the mesh Generated from class <computeroutput>MR::WatershedGraph</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="43" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" bodystart="43" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -325,7 +192,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_WatershedGraph</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPrecipitationSimulator_8h_1a0691b4cabfa34960d5cd00f39ec4c7a9" kindref="member">MR_WatershedGraph</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -343,7 +210,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_WatershedGraph</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPrecipitationSimulator_8h_1a0691b4cabfa34960d5cd00f39ec4c7a9" kindref="member">MR_WatershedGraph</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1567,7 +1434,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_WatershedGraph_BasinInfo</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1585,7 +1452,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_WatershedGraph_BasinInfo</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1855,7 +1722,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_WatershedGraph_BdInfo</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1873,7 +1740,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_WatershedGraph_BdInfo</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2210,7 +2077,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_WatershedGraph_OverflowPoint</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2228,7 +2095,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_WatershedGraph_OverflowPoint</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2277,24 +2144,24 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRWatershedGraph_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRWatershedGraph_8h_1a5e638837d22d1028b724cc8f267c2762" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGraph_8h_1a5e638837d22d1028b724cc8f267c2762" kindref="member">MR_Graph</ref><sp/><ref refid="MRGraph_8h_1a5e638837d22d1028b724cc8f267c2762" kindref="member">MR_Graph</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRGraph.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRWatershedGraph_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRWatershedGraph_8h_1ac7f59a6736b29701d7e619412b6e2890" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRWatershedGraph_8h_1a4e5a7cc8670588a2b2921a48cd85beee" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a4e5a7cc8670588a2b2921a48cd85beee" kindref="member">MR_Vector_MR_FaceBitSet_MR_GraphVertId</ref><sp/><ref refid="MRVector_8h_1a4e5a7cc8670588a2b2921a48cd85beee" kindref="member">MR_Vector_MR_FaceBitSet_MR_GraphVertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRWatershedGraph_8h_1aadf36a7d4ab7b262835d20da5403b847" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1aadf36a7d4ab7b262835d20da5403b847" kindref="member">MR_Vector_MR_GraphVertId_MR_GraphVertId</ref><sp/><ref refid="MRBitSet_8h_1aadf36a7d4ab7b262835d20da5403b847" kindref="member">MR_Vector_MR_GraphVertId_MR_GraphVertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRWatershedGraph_8h_1a4cecbe6d6abe0a304f00ea1990538db2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a4cecbe6d6abe0a304f00ea1990538db2" kindref="member">MR_Vector_int_MR_FaceId</ref><sp/><ref refid="MRVector_8h_1a4cecbe6d6abe0a304f00ea1990538db2" kindref="member">MR_Vector_int_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGraph_8h_1a5e638837d22d1028b724cc8f267c2762" kindref="member">MR_Graph</ref><sp/><ref refid="MRGraph_8h_1a5e638837d22d1028b724cc8f267c2762" kindref="member">MR_Graph</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRGraph.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a4e5a7cc8670588a2b2921a48cd85beee" kindref="member">MR_Vector_MR_FaceBitSet_MR_GraphVertId</ref><sp/><ref refid="MRVector_8h_1a4e5a7cc8670588a2b2921a48cd85beee" kindref="member">MR_Vector_MR_FaceBitSet_MR_GraphVertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1aadf36a7d4ab7b262835d20da5403b847" kindref="member">MR_Vector_MR_GraphVertId_MR_GraphVertId</ref><sp/><ref refid="MRBitSet_8h_1aadf36a7d4ab7b262835d20da5403b847" kindref="member">MR_Vector_MR_GraphVertId_MR_GraphVertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a4cecbe6d6abe0a304f00ea1990538db2" kindref="member">MR_Vector_int_MR_FaceId</ref><sp/><ref refid="MRVector_8h_1a4cecbe6d6abe0a304f00ea1990538db2" kindref="member">MR_Vector_int_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRWatershedGraph_8h_1ab889caeae0badb9df54c8b243b1f9597" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRWatershedGraph_8h_1ab889caeae0badb9df54c8b243b1f9597" kindref="member">MR_std_pair_MR_GraphEdgeId_float</ref><sp/><ref refid="MRWatershedGraph_8h_1ab889caeae0badb9df54c8b243b1f9597" kindref="member">MR_std_pair_MR_GraphEdgeId_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_MR_GraphEdgeId_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="MRWatershedGraph_8h_1ab0e1be5d2b2761870a9995877c9657d8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRWatershedGraph_8h_1ab0e1be5d2b2761870a9995877c9657d8" kindref="member">MR_std_vector_MR_WatershedGraph_OverflowPoint</ref><sp/><ref refid="MRWatershedGraph_8h_1ab0e1be5d2b2761870a9995877c9657d8" kindref="member">MR_std_vector_MR_WatershedGraph_OverflowPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_WatershedGraph_OverflowPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRWatershedGraph_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref>;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRWatershedGraph_8h_1a569667c95a4e9d4d3a69fbf443462ec5" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref>;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref>;</highlight></codeline>
+<codeline lineno="38" refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref>;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRWatershedGraph_8h_1a0691b4cabfa34960d5cd00f39ec4c7a9" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecipitationSimulator_8h_1a0691b4cabfa34960d5cd00f39ec4c7a9" kindref="member">MR_WatershedGraph</ref><sp/><ref refid="MRPrecipitationSimulator_8h_1a0691b4cabfa34960d5cd00f39ec4c7a9" kindref="member">MR_WatershedGraph</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecipitationSimulator_8h_1a0691b4cabfa34960d5cd00f39ec4c7a9" kindref="member">MR_WatershedGraph</ref><sp/><ref refid="MRPrecipitationSimulator_8h_1a0691b4cabfa34960d5cd00f39ec4c7a9" kindref="member">MR_WatershedGraph</ref>;</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48" refid="MRWatershedGraph_8h_1a7c9136958f873d97b8514128f1188d4d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecipitationSimulator_8h_1a0691b4cabfa34960d5cd00f39ec4c7a9" kindref="member">MR_WatershedGraph</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a7c9136958f873d97b8514128f1188d4d" kindref="member">MR_WatershedGraph_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPrecipitationSimulator_8h_1a0691b4cabfa34960d5cd00f39ec4c7a9" kindref="member">MR_WatershedGraph</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
@@ -2460,13 +2327,13 @@
 <codeline lineno="519"><highlight class="normal"></highlight></codeline>
 <codeline lineno="526" refid="MRWatershedGraph_8h_1ad35ccc3502f261e422a4b15302e1068e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1ad35ccc3502f261e422a4b15302e1068e" kindref="member">MR_WatershedGraph_BdInfo_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="527"><highlight class="normal"></highlight></codeline>
-<codeline lineno="528"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mesh<sp/>vertex<sp/>on<sp/>the<sp/>boundary<sp/>of<sp/>full<sp/>basin<sp/>and<sp/>the<sp/>other<sp/>where<sp/>it<sp/>overflows</highlight></codeline>
+<codeline lineno="528"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mesh<sp/>vertex<sp/>on<sp/>the<sp/>boundary<sp/>of<sp/>full<sp/>basin<sp/>and<sp/>the<sp/>other<sp/>where<sp/>it<sp/>overflows</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="533" refid="MRWatershedGraph_8h_1aa416bfe284d51b58759e5d6cd8df4def" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1aa416bfe284d51b58759e5d6cd8df4def" kindref="member">MR_WatershedGraph_OverflowPoint_Get_v</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="534"><highlight class="normal"></highlight></codeline>
-<codeline lineno="535"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mesh<sp/>vertex<sp/>on<sp/>the<sp/>boundary<sp/>of<sp/>full<sp/>basin<sp/>and<sp/>the<sp/>other<sp/>where<sp/>it<sp/>overflows</highlight></codeline>
+<codeline lineno="535"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mesh<sp/>vertex<sp/>on<sp/>the<sp/>boundary<sp/>of<sp/>full<sp/>basin<sp/>and<sp/>the<sp/>other<sp/>where<sp/>it<sp/>overflows</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="540" refid="MRWatershedGraph_8h_1ab732fbc341c0c04cb7222399be078399" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1ab732fbc341c0c04cb7222399be078399" kindref="member">MR_WatershedGraph_OverflowPoint_Set_v</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="541"><highlight class="normal"></highlight></codeline>
-<codeline lineno="542"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mesh<sp/>vertex<sp/>on<sp/>the<sp/>boundary<sp/>of<sp/>full<sp/>basin<sp/>and<sp/>the<sp/>other<sp/>where<sp/>it<sp/>overflows</highlight></codeline>
+<codeline lineno="542"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mesh<sp/>vertex<sp/>on<sp/>the<sp/>boundary<sp/>of<sp/>full<sp/>basin<sp/>and<sp/>the<sp/>other<sp/>where<sp/>it<sp/>overflows</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="547" refid="MRWatershedGraph_8h_1ac4cea57c6ee77bf9a135e43b97c6da3a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1ac4cea57c6ee77bf9a135e43b97c6da3a" kindref="member">MR_WatershedGraph_OverflowPoint_GetMutable_v</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="548"><highlight class="normal"></highlight></codeline>
 <codeline lineno="553" refid="MRWatershedGraph_8h_1a6699cce68c37bcc2400f1422f01eb19a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a6699cce68c37bcc2400f1422f01eb19a" kindref="member">MR_WatershedGraph_OverflowPoint_Get_fullBasin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
@@ -2475,13 +2342,13 @@
 <codeline lineno="560"><highlight class="normal"></highlight></codeline>
 <codeline lineno="565" refid="MRWatershedGraph_8h_1abbe908d4fafacc136d6f7a453904ce2a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1abbe908d4fafacc136d6f7a453904ce2a" kindref="member">MR_WatershedGraph_OverflowPoint_GetMutable_fullBasin</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="566"><highlight class="normal"></highlight></codeline>
-<codeline lineno="567"><highlight class="normal"></highlight><highlight class="comment">//<sp/>basin<sp/>where<sp/>the<sp/>flow<sp/>from<sp/>v<sp/>goes</highlight></codeline>
+<codeline lineno="567"><highlight class="normal"></highlight><highlight class="comment">//<sp/>basin<sp/>where<sp/>the<sp/>flow<sp/>from<sp/>v<sp/>goes</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="572" refid="MRWatershedGraph_8h_1a1ac4e2751b4bb2d9871494cf8814f16d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a1ac4e2751b4bb2d9871494cf8814f16d" kindref="member">MR_WatershedGraph_OverflowPoint_Get_overflowTo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="573"><highlight class="normal"></highlight></codeline>
-<codeline lineno="574"><highlight class="normal"></highlight><highlight class="comment">//<sp/>basin<sp/>where<sp/>the<sp/>flow<sp/>from<sp/>v<sp/>goes</highlight></codeline>
+<codeline lineno="574"><highlight class="normal"></highlight><highlight class="comment">//<sp/>basin<sp/>where<sp/>the<sp/>flow<sp/>from<sp/>v<sp/>goes</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="579" refid="MRWatershedGraph_8h_1aa2d783c0c132037d39b75ded7cf008d8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1aa2d783c0c132037d39b75ded7cf008d8" kindref="member">MR_WatershedGraph_OverflowPoint_Set_overflowTo</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="580"><highlight class="normal"></highlight></codeline>
-<codeline lineno="581"><highlight class="normal"></highlight><highlight class="comment">//<sp/>basin<sp/>where<sp/>the<sp/>flow<sp/>from<sp/>v<sp/>goes</highlight></codeline>
+<codeline lineno="581"><highlight class="normal"></highlight><highlight class="comment">//<sp/>basin<sp/>where<sp/>the<sp/>flow<sp/>from<sp/>v<sp/>goes</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="586" refid="MRWatershedGraph_8h_1a7297fce92db76856e1acb9007ec3022e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a7297fce92db76856e1acb9007ec3022e" kindref="member">MR_WatershedGraph_OverflowPoint_GetMutable_overflowTo</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="587"><highlight class="normal"></highlight></codeline>
 <codeline lineno="590" refid="MRWatershedGraph_8h_1a5d635e58399e1e572587ed08bf1bf43a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a5d635e58399e1e572587ed08bf1bf43a" kindref="member">MR_WatershedGraph_OverflowPoint_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>

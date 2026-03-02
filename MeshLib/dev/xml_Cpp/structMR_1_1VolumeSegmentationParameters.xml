@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1VolumeSegmentationParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::VolumeSegmentationParameters</compoundname>
-    <includes refid="MRVolumeSegment_8h" local="no">MRVolumeSegment.h</includes>
+    <includes refid="MRVolumeSegment_8h" local="no">MRVoxels/MRVolumeSegment.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1VolumeSegmentationParameters_1af000ea80a099a9de6d4f4f4475580b6c" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="36" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="36" bodyend="36"/>
+        <location file="MRVoxels/MRVolumeSegment.h" line="36" column="11" bodyfile="MRVoxels/MRVolumeSegment.h" bodystart="36" bodyend="36"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1VolumeSegmentationParameters_1ab07494ac7f1627ecc2dfce39e9502118" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="38" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="38" bodyend="38"/>
+        <location file="MRVoxels/MRVolumeSegment.h" line="38" column="11" bodyfile="MRVoxels/MRVolumeSegment.h" bodystart="38" bodyend="38"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1VolumeSegmentationParameters_1aa059718068f7c4b81e33e2a1a3e7460c" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="40" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="40" bodyend="40"/>
+        <location file="MRVoxels/MRVolumeSegment.h" line="40" column="9" bodyfile="MRVoxels/MRVolumeSegment.h" bodystart="40" bodyend="40"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -61,7 +61,7 @@
 </simplesect>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="34" bodyend="41"/>
+    <location file="MRVoxels/MRVolumeSegment.h" line="33" column="1" bodyfile="MRVoxels/MRVolumeSegment.h" bodystart="34" bodyend="41"/>
     <listofallmembers>
       <member refid="structMR_1_1VolumeSegmentationParameters_1af000ea80a099a9de6d4f4f4475580b6c" prot="public" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>buildPathExponentModifier</name></member>
       <member refid="structMR_1_1VolumeSegmentationParameters_1ab07494ac7f1627ecc2dfce39e9502118" prot="public" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>segmentationExponentModifier</name></member>

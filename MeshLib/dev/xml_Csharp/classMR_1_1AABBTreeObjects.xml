@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTreeObjects" kind="class" language="C#" prot="public">
     <compoundname>MR::AABBTreeObjects</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_AABBTreeObjects</basecompoundref>
@@ -74,7 +74,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.AABBTreeObjects.AABBTreeObjects</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1AABBTreeObjects_1a07e600be0e012c3f5fe385bd8f0a7177" kindref="member">MR.AABBTreeObjects.AABBTreeObjects</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -93,7 +93,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.AABBTreeObjects.AABBTreeObjects</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1AABBTreeObjects_1a07e600be0e012c3f5fe385bd8f0a7177" kindref="member">MR.AABBTreeObjects.AABBTreeObjects</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -112,7 +112,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.AABBTreeObjects.AABBTreeObjects</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1AABBTreeObjects_1a07e600be0e012c3f5fe385bd8f0a7177" kindref="member">MR.AABBTreeObjects.AABBTreeObjects</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -131,7 +131,7 @@
           <declname>objs</declname>
         </param>
         <briefdescription>
-<para>creates tree for given set of objects each with its own transformation Generated from constructor <computeroutput>MR.AABBTreeObjects.AABBTreeObjects</computeroutput>. </para>
+<para>creates tree for given set of objects each with its own transformation Generated from constructor <computeroutput><ref refid="classMR_1_1AABBTreeObjects_1a07e600be0e012c3f5fe385bd8f0a7177" kindref="member">MR.AABBTreeObjects.AABBTreeObjects</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -150,7 +150,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.AABBTreeObjects.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::AABBTreeObjects::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -179,50 +179,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>tree containing world bounding boxes of individual objects having individual local-to-world transformations Generated from class <computeroutput><ref refid="classMR_1_1AABBTreeObjects" kindref="compound">MR.AABBTreeObjects</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR.AABBTreeBase&lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&gt;</computeroutput> This is the non-const half of the class. </para>
+<para>tree containing world bounding boxes of individual objects having individual local-to-world transformations Generated from class <computeroutput><ref refid="classMR_1_1AABBTreeObjects" kindref="compound">MR.AABBTreeObjects</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::AABBTreeBase&lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&gt;</computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_AABBTreeObjects</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.AABBTreeObjects</label>
         <link refid="classMR_1_1AABBTreeObjects"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_AABBTreeObjects</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_AABBTreeObjects &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_AABBTreeObjects</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.AABBTreeObjects</label>
         <link refid="classMR_1_1AABBTreeObjects"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_AABBTreeObjects</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_AABBTreeObjects &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="383" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="384" bodyend="463"/>

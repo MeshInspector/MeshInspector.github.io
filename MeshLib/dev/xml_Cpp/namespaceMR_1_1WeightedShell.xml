@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1WeightedShell" kind="namespace" language="C++">
     <compoundname>MR::WeightedShell</compoundname>
     <innerclass refid="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" prot="public">MR::WeightedShell::DistanceVolumeCreationParams</innerclass>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="28" bodyend="-1"/>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="28" column="1" bodyfile="MRVoxels/MRWeightedPointsShell.h" bodystart="28" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="24" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="24" declcolumn="18"/>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="24" column="18" declfile="MRVoxels/MRWeightedPointsShell.h" declline="24" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a1828e77e08ab2c06e1b4bffe5866270f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" kindref="member">FunctionVolume</ref></type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="27" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="27" declcolumn="18"/>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="27" column="18" declfile="MRVoxels/MRWeightedPointsShell.h" declline="27" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a2d9e4d1c9f007cc1087818a3740c5653" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -86,11 +86,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>consider a point cloud where each point has additive weight, and the distance to a point is considered equal to (euclidean distance - weight), constructs iso-surface of such distance field corresponding to params.offset value using marching cubes MR_BIND_IGNORE to hide this function in Python API because calling Python&apos;s Lambda will be extremely slow anyway </para>
+<para>consider a point cloud where each point has additive weight, and the distance to a point is considered equal to (euclidean distance - weight), constructs iso-surface of such distance field corresponding to params.offset value using marching cubes <ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> to hide this function in Python API because calling Python&apos;s Lambda will be extremely slow anyway </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="81" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="81" declcolumn="27"/>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="81" column="27" declfile="MRVoxels/MRWeightedPointsShell.h" declline="81" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a27dc07084bd9d7ba531af503ee26ecaa" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="86" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="86" declcolumn="12"/>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="86" column="12" declfile="MRVoxels/MRWeightedPointsShell.h" declline="86" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a6c11500f809bc486096500b727e6cbbe" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -136,11 +136,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>consider a mesh where each vertex has additive weight, and this weight is linearly interpolated in mesh triangles, and the distance to a point is considered equal to (euclidean distance - weight), constructs iso-surface of such distance field corresponding to params.offset value using marching cubes MR_BIND_IGNORE to hide this function in Python API because calling Python&apos;s Lambda will be extremely slow anyway </para>
+<para>consider a mesh where each vertex has additive weight, and this weight is linearly interpolated in mesh triangles, and the distance to a point is considered equal to (euclidean distance - weight), constructs iso-surface of such distance field corresponding to params.offset value using marching cubes <ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> to hide this function in Python API because calling Python&apos;s Lambda will be extremely slow anyway </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="92" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="92" declcolumn="27"/>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="92" column="27" declfile="MRVoxels/MRWeightedPointsShell.h" declline="92" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1aa73cc71df322e6863d94e7f237875475" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -167,7 +167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="97" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="97" declcolumn="12"/>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="97" column="12" declfile="MRVoxels/MRWeightedPointsShell.h" declline="97" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a521af3e40765a04b00069fa14da9a3fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertScalars</type>
@@ -194,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="100" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="100" declcolumn="14"/>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="100" column="14" declfile="MRVoxels/MRWeightedPointsShell.h" declline="100" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a31f9c85adfd5e2b5553fb5dcb97384f0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -217,7 +217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="104" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="104" declcolumn="12"/>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="104" column="12" declfile="MRVoxels/MRWeightedPointsShell.h" declline="104" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a8154f94a6793c43fd049a5bf549bf75f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -244,13 +244,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="107" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="107" declcolumn="12"/>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="107" column="12" declfile="MRVoxels/MRWeightedPointsShell.h" declline="107" declcolumn="12"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="13" column="1"/>
+    <location file="MRVoxels/MRWeightedPointsShell.h" line="13" column="1"/>
   </compounddef>
 </doxygen>

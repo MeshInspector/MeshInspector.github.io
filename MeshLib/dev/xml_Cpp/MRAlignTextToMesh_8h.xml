@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRAlignTextToMesh_8h" kind="file" language="C++">
     <compoundname>MRAlignTextToMesh.h</compoundname>
     <includes refid="MRSymbolMeshFwd_8h" local="yes">MRSymbolMeshFwd.h</includes>
@@ -219,7 +219,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRAlignTextToMesh.h</label>
+        <label>MRSymbolMesh/MRAlignTextToMesh.h</label>
         <link refid="MRAlignTextToMesh_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -383,8 +383,8 @@
 <codeline lineno="89" refid="group__GeneralGroup_1gac1d9d4418f32d043c0f153ffde0d9b95" refkind="member"><highlight class="normal"><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga9d1a70edca366bee2d315a6d49235a74" kindref="member">bendTextAlongSurfacePath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7798ef4dfda44362083b0aa66a45d6a3" kindref="member">SurfacePath</ref>&amp;<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BendTextAlongCurveParams" kindref="compound">BendTextAlongCurveParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h"/>
+    <location file="MRSymbolMesh/MRAlignTextToMesh.h"/>
   </compounddef>
 </doxygen>

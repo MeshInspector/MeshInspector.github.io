@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRLocalTriangulations_8h" kind="file" language="C++">
     <compoundname>MRLocalTriangulations.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -69,96 +69,37 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRLocalTriangulations_8h_1ab9532c7498f492993c731c877ba0332b" prot="public" static="no">
-        <type>struct <ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref></type>
-        <definition>typedef struct MR_Buffer_MR_VertId MR_Buffer_MR_VertId</definition>
-        <argsstring></argsstring>
-        <name>MR_Buffer_MR_VertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="16" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRLocalTriangulations_8h_1a14f0f26a43ddb92c3fa3c2192008224c" prot="public" static="no">
-        <type>struct <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref></type>
-        <definition>typedef struct MR_NoInit MR_NoInit</definition>
-        <argsstring></argsstring>
-        <name>MR_NoInit</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="17" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRLocalTriangulations_8h_1aa319738c95f0bbde075b7ef777cf2665" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref></type>
-        <definition>typedef struct MR_PointCloud MR_PointCloud</definition>
-        <argsstring></argsstring>
-        <name>MR_PointCloud</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="18" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRLocalTriangulations_8h_1a33f2cead15f3bf37534d3678feb4af22" prot="public" static="no">
-        <type>struct <ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref></type>
-        <definition>typedef struct MR_Triangulation MR_Triangulation</definition>
-        <argsstring></argsstring>
-        <name>MR_Triangulation</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="19" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRLocalTriangulations_8h_1a90582ed1afa2a5795f1fa31bb2ea5a48" prot="public" static="no">
         <type>struct <ref refid="MRLocalTriangulations_8h_1a90582ed1afa2a5795f1fa31bb2ea5a48" kindref="member">MR_Vector_MR_FanRecord_MR_VertId</ref></type>
         <definition>typedef struct MR_Vector_MR_FanRecord_MR_VertId MR_Vector_MR_FanRecord_MR_VertId</definition>
         <argsstring></argsstring>
         <name>MR_Vector_MR_FanRecord_MR_VertId</name>
         <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&lt;MR::FanRecord, MR::VertId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="20" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRLocalTriangulations_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
-        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_VertBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="21" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRLocalTriangulations_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
-        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
-        <argsstring></argsstring>
-        <name>MR_VertCoords</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="22" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRLocalTriangulations_8h_1ab54fbd82d863150a94f8351d44c81335" prot="public" static="no">
         <type>struct <ref refid="MRLocalTriangulations_8h_1ab54fbd82d863150a94f8351d44c81335" kindref="member">MR_std_function_MR_Vector3f_from_MR_VertId</ref></type>
@@ -172,19 +113,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="23" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRLocalTriangulations_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="24" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRLocalTriangulations_8h_1a07206f863a7930f17413a0d2e2ad518a" prot="public" static="no">
         <type>struct <ref refid="MRLocalTriangulations_8h_1a07206f863a7930f17413a0d2e2ad518a" kindref="member">MR_std_optional_MR_AllLocalTriangulations</ref></type>
@@ -237,19 +165,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="28" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRLocalTriangulations_8h_1a954949e1753f6a2063d09e91b23d252d" prot="public" static="no">
-        <type>struct <ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref></type>
-        <definition>typedef struct MR_std_vector_MR_VertId MR_std_vector_MR_VertId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_VertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="29" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" prot="public" static="no">
         <type>struct <ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref></type>
@@ -591,7 +506,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_FanRecord</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -609,7 +524,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_FanRecord</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -983,7 +898,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_FanRecordWithCenter</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1001,7 +916,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_FanRecordWithCenter</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1358,7 +1273,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SomeLocalTriangulations</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRLocalTriangulations_8h_1af924f45d3602419626e62bc51be3808a" kindref="member">MR_SomeLocalTriangulations</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1376,7 +1291,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SomeLocalTriangulations</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRLocalTriangulations_8h_1af924f45d3602419626e62bc51be3808a" kindref="member">MR_SomeLocalTriangulations</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1675,7 +1590,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_AllLocalTriangulations</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1693,7 +1608,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_AllLocalTriangulations</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2004,29 +1919,29 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRLocalTriangulations_8h_1ab9532c7498f492993c731c877ba0332b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref><sp/><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBuffer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRLocalTriangulations_8h_1a14f0f26a43ddb92c3fa3c2192008224c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshFwd.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRLocalTriangulations_8h_1aa319738c95f0bbde075b7ef777cf2665" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRLocalTriangulations_8h_1a33f2cead15f3bf37534d3678feb4af22" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref><sp/><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBuffer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshFwd.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="MRLocalTriangulations_8h_1a90582ed1afa2a5795f1fa31bb2ea5a48" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1a90582ed1afa2a5795f1fa31bb2ea5a48" kindref="member">MR_Vector_MR_FanRecord_MR_VertId</ref><sp/><ref refid="MRLocalTriangulations_8h_1a90582ed1afa2a5795f1fa31bb2ea5a48" kindref="member">MR_Vector_MR_FanRecord_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRLocalTriangulations_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRLocalTriangulations_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="MRLocalTriangulations_8h_1ab54fbd82d863150a94f8351d44c81335" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1ab54fbd82d863150a94f8351d44c81335" kindref="member">MR_std_function_MR_Vector3f_from_MR_VertId</ref><sp/><ref refid="MRLocalTriangulations_8h_1ab54fbd82d863150a94f8351d44c81335" kindref="member">MR_std_function_MR_Vector3f_from_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_MR_Vector3f_from_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRLocalTriangulations_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25" refid="MRLocalTriangulations_8h_1a07206f863a7930f17413a0d2e2ad518a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1a07206f863a7930f17413a0d2e2ad518a" kindref="member">MR_std_optional_MR_AllLocalTriangulations</ref><sp/><ref refid="MRLocalTriangulations_8h_1a07206f863a7930f17413a0d2e2ad518a" kindref="member">MR_std_optional_MR_AllLocalTriangulations</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_AllLocalTriangulations.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="MRLocalTriangulations_8h_1a00316c8d37416e8f17ee112e9f77391d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1a00316c8d37416e8f17ee112e9f77391d" kindref="member">MR_std_vector_MR_FanRecordWithCenter</ref><sp/><ref refid="MRLocalTriangulations_8h_1a00316c8d37416e8f17ee112e9f77391d" kindref="member">MR_std_vector_MR_FanRecordWithCenter</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_FanRecordWithCenter.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27" refid="MRLocalTriangulations_8h_1a489561b95f6667ee8ca345740e307a4f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1a489561b95f6667ee8ca345740e307a4f" kindref="member">MR_std_vector_MR_SomeLocalTriangulations</ref><sp/><ref refid="MRLocalTriangulations_8h_1a489561b95f6667ee8ca345740e307a4f" kindref="member">MR_std_vector_MR_SomeLocalTriangulations</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_SomeLocalTriangulations.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28" refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_UnorientedTriangle.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRLocalTriangulations_8h_1a954949e1753f6a2063d09e91b23d252d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref>;</highlight></codeline>
+<codeline lineno="38" refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref>;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref>;</highlight></codeline>
+<codeline lineno="46" refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref>;</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRLocalTriangulations_8h_1af924f45d3602419626e62bc51be3808a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1af924f45d3602419626e62bc51be3808a" kindref="member">MR_SomeLocalTriangulations</ref><sp/><ref refid="MRLocalTriangulations_8h_1af924f45d3602419626e62bc51be3808a" kindref="member">MR_SomeLocalTriangulations</ref>;</highlight></codeline>
+<codeline lineno="51" refid="MRLocalTriangulations_8h_1af924f45d3602419626e62bc51be3808a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1af924f45d3602419626e62bc51be3808a" kindref="member">MR_SomeLocalTriangulations</ref><sp/><ref refid="MRLocalTriangulations_8h_1af924f45d3602419626e62bc51be3808a" kindref="member">MR_SomeLocalTriangulations</ref>;</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref><sp/><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref>;</highlight></codeline>
+<codeline lineno="56" refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref><sp/><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref>;</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64" refid="MRLocalTriangulations_8h_1adc4bf5907f73efcd91cc3a8ec6676d99" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1adc4bf5907f73efcd91cc3a8ec6676d99" kindref="member">MR_FanRecord_Get_border</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
@@ -2114,13 +2029,13 @@
 <codeline lineno="314"><highlight class="normal"></highlight></codeline>
 <codeline lineno="319" refid="MRLocalTriangulations_8h_1a0d4df3e3a9e07fc5e75e45f7395cbf15" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1a00316c8d37416e8f17ee112e9f77391d" kindref="member">MR_std_vector_MR_FanRecordWithCenter</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a0d4df3e3a9e07fc5e75e45f7395cbf15" kindref="member">MR_SomeLocalTriangulations_GetMutable_fanRecords</ref>(<ref refid="MRLocalTriangulations_8h_1af924f45d3602419626e62bc51be3808a" kindref="member">MR_SomeLocalTriangulations</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="320"><highlight class="normal"></highlight></codeline>
-<codeline lineno="321"><highlight class="normal"></highlight><highlight class="comment">//in<sp/>fanRecords</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight><highlight class="comment">//in<sp/>fanRecords</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="326" refid="MRLocalTriangulations_8h_1a214eb451210e85a7d6328bef08b9b65e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a214eb451210e85a7d6328bef08b9b65e" kindref="member">MR_SomeLocalTriangulations_Get_maxCenterId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1af924f45d3602419626e62bc51be3808a" kindref="member">MR_SomeLocalTriangulations</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="327"><highlight class="normal"></highlight></codeline>
-<codeline lineno="328"><highlight class="normal"></highlight><highlight class="comment">//in<sp/>fanRecords</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight><highlight class="comment">//in<sp/>fanRecords</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="333" refid="MRLocalTriangulations_8h_1abb0aee4c13778767a68eae70543af97d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1abb0aee4c13778767a68eae70543af97d" kindref="member">MR_SomeLocalTriangulations_Set_maxCenterId</ref>(<ref refid="MRLocalTriangulations_8h_1af924f45d3602419626e62bc51be3808a" kindref="member">MR_SomeLocalTriangulations</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="334"><highlight class="normal"></highlight></codeline>
-<codeline lineno="335"><highlight class="normal"></highlight><highlight class="comment">//in<sp/>fanRecords</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight><highlight class="comment">//in<sp/>fanRecords</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="340" refid="MRLocalTriangulations_8h_1a8c6d255c90a716619e82d08d7b41dd98" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a8c6d255c90a716619e82d08d7b41dd98" kindref="member">MR_SomeLocalTriangulations_GetMutable_maxCenterId</ref>(<ref refid="MRLocalTriangulations_8h_1af924f45d3602419626e62bc51be3808a" kindref="member">MR_SomeLocalTriangulations</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="341"><highlight class="normal"></highlight></codeline>
 <codeline lineno="344" refid="MRLocalTriangulations_8h_1a7459afd42a1de149072396ac5e997941" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1af924f45d3602419626e62bc51be3808a" kindref="member">MR_SomeLocalTriangulations</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a7459afd42a1de149072396ac5e997941" kindref="member">MR_SomeLocalTriangulations_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>

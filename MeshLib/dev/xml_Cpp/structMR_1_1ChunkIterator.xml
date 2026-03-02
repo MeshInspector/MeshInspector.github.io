@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ChunkIterator" kind="struct" language="C++" prot="public">
     <compoundname>MR::ChunkIterator</compoundname>
-    <includes refid="MRChunkIterator_8h" local="no">MRChunkIterator.h</includes>
+    <includes refid="MRChunkIterator_8h" local="no">MRMesh/MRChunkIterator.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga97b66824787d4e3a2921761974cca10d" kind="typedef"><name>iterator_category</name></member>
       <member refid="group__GeneralGroup_1gad816264908bdaf06f5629a4d163c16f6" kind="typedef"><name>value_type</name></member>
@@ -28,7 +28,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChunkIterator.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChunkIterator.h" bodystart="25" bodyend="44"/>
+    <location file="MRMesh/MRChunkIterator.h" line="24" column="1" bodyfile="MRMesh/MRChunkIterator.h" bodystart="25" bodyend="44"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaf4366e6dfa9d07ea87cbe5b372afe36e" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>chunkSize</name></member>
       <member refid="group__GeneralGroup_1gad58d2cd0f8108c9f1c0e00cc2d750508" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>difference_type</name></member>

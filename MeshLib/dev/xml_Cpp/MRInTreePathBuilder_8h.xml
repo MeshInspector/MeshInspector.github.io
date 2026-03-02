@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRInTreePathBuilder_8h" kind="file" language="C++">
     <compoundname>MRInTreePathBuilder.h</compoundname>
     <includes refid="MRVector_8h" local="yes">MRVector.h</includes>
@@ -11,7 +11,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRInTreePathBuilder.h</label>
+        <label>MRMesh/MRInTreePathBuilder.h</label>
         <link refid="MRInTreePathBuilder_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -110,7 +110,7 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="classMR_1_1InTreePathBuilder" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1InTreePathBuilder" kindref="compound">InTreePathBuilder</ref></highlight></codeline>
+<codeline lineno="13" refid="classMR_1_1InTreePathBuilder" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac58a900748c7113700c6e1aa36ecde61" kindref="member">InTreePathBuilder</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1gac58a900748c7113700c6e1aa36ecde61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac58a900748c7113700c6e1aa36ecde61" kindref="member">InTreePathBuilder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>&amp;<sp/>treeEdges<sp/>);</highlight></codeline>
@@ -125,8 +125,8 @@
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;int, VertId&gt;</ref><sp/>vertDistance_;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h"/>
+    <location file="MRMesh/MRInTreePathBuilder.h"/>
   </compounddef>
 </doxygen>

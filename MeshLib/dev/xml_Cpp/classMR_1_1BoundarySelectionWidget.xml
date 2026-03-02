@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BoundarySelectionWidget" kind="class" language="C++" prot="public">
     <compoundname>MR::BoundarySelectionWidget</compoundname>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; MouseDownListener, MouseMoveListener &gt;</basecompoundref>
-    <includes refid="MRMeshBoundarySelectionWidget_8h" local="no">MRMeshBoundarySelectionWidget.h</includes>
+    <includes refid="MRMeshBoundarySelectionWidget_8h" local="no">MRViewer/MRMeshBoundarySelectionWidget.h</includes>
     <innerclass refid="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams" prot="public">MR::BoundarySelectionWidget::BoundarySelectionWidgetParams</innerclass>
     <sectiondef kind="private-type">
       <member refid="group__GeneralGroup_1ga51f3c6ef514f91229ea9dfdb03f66246" kind="enum"><name>ActionType</name></member>
@@ -113,7 +113,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="25" bodyend="143"/>
+    <location file="MRViewer/MRMeshBoundarySelectionWidget.h" line="22" column="1" bodyfile="MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="25" bodyend="143"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga37e9fc40938d73126d24a1fa77f3fd55" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>actionByPick_</name></member>
       <member refid="group__GeneralGroup_1ga51f3c6ef514f91229ea9dfdb03f66246" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>ActionType</name></member>

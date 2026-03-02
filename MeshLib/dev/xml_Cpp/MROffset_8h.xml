@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MROffset_8h" kind="file" language="C++">
     <compoundname>MROffset.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
@@ -11,7 +11,7 @@
     <includes refid="MREnums_8h" local="yes">MRMesh/MREnums.h</includes>
     <includes local="no">optional</includes>
     <includes local="no">string</includes>
-    <includedby refid="MRPartialOffset_8h" local="yes">MRPartialOffset.h</includedby>
+    <includedby refid="MRPartialOffset_8h" local="yes">MRVoxels/MRPartialOffset.h</includedby>
     <incdepgraph>
       <node id="6">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -96,7 +96,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MROffset.h</label>
+        <label>MRVoxels/MROffset.h</label>
         <link refid="MROffset_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -162,13 +162,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MROffset.h</label>
+        <label>MRVoxels/MROffset.h</label>
         <link refid="MROffset_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRPartialOffset.h</label>
+        <label>MRVoxels/MRPartialOffset.h</label>
         <link refid="MRPartialOffset_8h"/>
       </node>
     </invincdepgraph>
@@ -235,17 +235,17 @@
 <codeline lineno="87" refid="group__GeneralGroup_1ga6acf9887747227cdd2fed4f4c202638f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga6acf9887747227cdd2fed4f4c202638f" kindref="member">doubleOffsetMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offsetA,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offsetB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetParameters" kindref="compound">OffsetParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
 <codeline lineno="91" refid="group__GeneralGroup_1gaeb9d1a8e4c95107a2e39717b1cf2efbf" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaeb9d1a8e4c95107a2e39717b1cf2efbf" kindref="member">mcOffsetMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetParameters" kindref="compound">OffsetParameters</ref>&amp;<sp/>params<sp/>=<sp/>{},<sp/>Vector&lt;VoxelId,<sp/>FaceId&gt;*<sp/>outMap<sp/>=<sp/>nullptr<sp/>);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OffsetParameters" kindref="compound">OffsetParameters</ref>&amp;<sp/>params<sp/>=<sp/>{},<sp/>Vector&lt;VoxelId,<sp/>FaceId&gt;*<sp/>outMap<sp/>=<sp/><ref refid="module__nullptr" kindref="compound">nullptr</ref><sp/>);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
 <codeline lineno="97" refid="group__GeneralGroup_1gae4beec7cad6b11ac51fda4b561931df2" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1gae4beec7cad6b11ac51fda4b561931df2" kindref="member">mcShellMeshRegion</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet&amp;<sp/>region,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BaseShellParameters" kindref="compound">BaseShellParameters</ref>&amp;<sp/>params,<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;VoxelId, FaceId&gt;</ref><sp/>*<sp/>outMap<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
 <codeline lineno="102" refid="group__GeneralGroup_1gacda5330d3946fce8cbf441e6f2d257b8" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1gacda5330d3946fce8cbf441e6f2d257b8" kindref="member">sharpOffsetMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SharpOffsetParameters" kindref="compound">SharpOffsetParameters</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="structMR_1_1GeneralOffsetParameters" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1GeneralOffsetParameters" kindref="compound">GeneralOffsetParameters</ref><sp/>:<sp/><ref refid="structMR_1_1SharpOffsetParameters" kindref="compound">SharpOffsetParameters</ref></highlight></codeline>
+<codeline lineno="105" refid="structMR_1_1GeneralOffsetParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1GeneralOffsetParameters" kindref="compound">GeneralOffsetParameters</ref><sp/>:<sp/><ref refid="structMR_1_1SharpOffsetParameters" kindref="compound">SharpOffsetParameters</ref></highlight></codeline>
 <codeline lineno="106"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="107" refid="group__GeneralGroup_1gabc2615fd96d188bbdb1407d0cc0e5c84" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaaa631c02105f2a8fa6fe24c7873e8d98" kindref="member">Mode</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gaaa631c02105f2a8fa6fe24c7873e8d98" kindref="member">MR::OffsetMode</ref>;</highlight></codeline>
-<codeline lineno="108" refid="group__GeneralGroup_1ga32b4506f0ab7b7a76f0e3b1ce34a94d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaaa631c02105f2a8fa6fe24c7873e8d98" kindref="member">Mode</ref><sp/><ref refid="group__GeneralGroup_1ga32b4506f0ab7b7a76f0e3b1ce34a94d1" kindref="member">mode</ref><sp/>=<sp/>Mode::Standard;</highlight></codeline>
+<codeline lineno="107" refid="group__GeneralGroup_1gabc2615fd96d188bbdb1407d0cc0e5c84" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gabc2615fd96d188bbdb1407d0cc0e5c84" kindref="member">Mode</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gaaa631c02105f2a8fa6fe24c7873e8d98" kindref="member">MR::OffsetMode</ref>;</highlight></codeline>
+<codeline lineno="108" refid="group__GeneralGroup_1ga32b4506f0ab7b7a76f0e3b1ce34a94d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gabc2615fd96d188bbdb1407d0cc0e5c84" kindref="member">Mode</ref><sp/><ref refid="group__GeneralGroup_1ga32b4506f0ab7b7a76f0e3b1ce34a94d1" kindref="member">mode</ref><sp/>=<sp/>Mode::Standard;</highlight></codeline>
 <codeline lineno="109"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
 <codeline lineno="113" refid="group__GeneralGroup_1ga5294ca3a11f20ed63340b77a7eb9b18c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga5294ca3a11f20ed63340b77a7eb9b18c" kindref="member">generalOffsetMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1GeneralOffsetParameters" kindref="compound">GeneralOffsetParameters</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
@@ -259,6 +259,6 @@
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
 <codeline lineno="134"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h"/>
+    <location file="MRVoxels/MROffset.h"/>
   </compounddef>
 </doxygen>

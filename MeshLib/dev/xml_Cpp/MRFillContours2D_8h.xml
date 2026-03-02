@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFillContours2D_8h" kind="file" language="C++">
     <compoundname>MRFillContours2D.h</compoundname>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
@@ -23,7 +23,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRFillContours2D.h</label>
+        <label>MRMesh/MRFillContours2D.h</label>
         <link refid="MRFillContours2D_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -104,8 +104,8 @@
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="group__GeneralGroup_1gaf6bdf308d7a325fb349bc72dc306b788" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaf6bdf308d7a325fb349bc72dc306b788" kindref="member">fillPlanarHole</ref>(<sp/><ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref>&amp;<sp/>data,<sp/>std::vector&lt;EdgeLoop&gt;&amp;<sp/>holeContours<sp/>);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContours2D.h"/>
+    <location file="MRMesh/MRFillContours2D.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRTerrainTriangulation_8h" kind="file" language="C++">
     <compoundname>MRTerrainTriangulation.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -262,7 +262,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRTerrainTriangulation.h</label>
+        <label>MRMesh/MRTerrainTriangulation.h</label>
         <link refid="MRTerrainTriangulation_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -429,6 +429,6 @@
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTerrainTriangulation.h"/>
+    <location file="MRMesh/MRTerrainTriangulation.h"/>
   </compounddef>
 </doxygen>

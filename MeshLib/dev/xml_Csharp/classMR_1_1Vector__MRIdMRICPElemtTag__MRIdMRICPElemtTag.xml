@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag</basecompoundref>
@@ -71,7 +71,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -90,7 +90,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -109,7 +109,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -128,7 +128,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -151,7 +151,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -170,7 +170,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -189,7 +189,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -204,7 +204,7 @@
         <name>clear</name>
         <qualifiedname>MR.Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::clear</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::clear</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -223,7 +223,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::resize</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::resize</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -246,7 +246,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::resize</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::resize</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -265,7 +265,7 @@
           <declname>targetSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::resizeNoInit</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::resizeNoInit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -284,7 +284,7 @@
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::reserve</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::reserve</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -303,7 +303,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::resizeWithReserve</computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::resizeWithReserve</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -326,7 +326,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::resizeWithReserve</computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::resizeWithReserve</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -353,7 +353,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::autoResizeSet</computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::autoResizeSet</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -376,7 +376,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::autoResizeSet</computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::autoResizeSet</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -395,7 +395,7 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::autoResizeAt</computeroutput>. </para>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::autoResizeAt</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -414,7 +414,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -433,7 +433,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -448,7 +448,7 @@
         <name>popBack</name>
         <qualifiedname>MR.Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag.popBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::pop_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -463,7 +463,7 @@
         <name>emplaceBack</name>
         <qualifiedname>MR.Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::emplace_back&lt;&gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::emplace_back&lt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -478,7 +478,7 @@
         <name>front</name>
         <qualifiedname>MR.Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag.front</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::front</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::front</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -493,7 +493,7 @@
         <name>back</name>
         <qualifiedname>MR.Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag.back</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -508,7 +508,7 @@
         <name>data</name>
         <qualifiedname>MR.Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::data</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::data</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -527,7 +527,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::swap</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::swap</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -548,7 +548,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -558,7 +558,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -574,15 +574,21 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR.Vector&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
+        <label>MR.Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -590,25 +596,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
-        <link refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
+        <label>MR.Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -616,20 +622,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
-        <link refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="46699" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="46700" bodyend="47031"/>

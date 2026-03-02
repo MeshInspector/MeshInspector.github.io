@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1DecimatePolylineSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::DecimatePolylineSettings</compoundname>
-    <includes refid="MRPolylineDecimate_8h" local="no">MRPolylineDecimate.h</includes>
+    <includes refid="MRPolylineDecimate_8h" local="no">MRMesh/MRPolylineDecimate.h</includes>
     <templateparamlist>
       <param>
         <type>typename V</type>
@@ -41,7 +41,7 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" line="22" column="1"/>
+    <location file="MRMesh/MRPolylineDecimate.h" line="22" column="1" bodyfile="MRMesh/MRPolylineDecimate.h" bodystart="23" bodyend="75"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad58496f8458d8d5a517ba34926cb0c61" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings</scope><name>adjustCollapse</name></member>
       <member refid="group__GeneralGroup_1ga58d4128740b065b31e9b4d1b637bc0c7" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings</scope><name>maxDeletedVertices</name></member>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1NameTagClickListener" kind="struct" language="C++" prot="public" abstract="yes">
     <compoundname>MR::NameTagClickListener</compoundname>
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
-    <includes refid="MRImGuiMenuListeners_8h" local="no">MRImGuiMenuListeners.h</includes>
+    <includes refid="MRImGuiMenuListeners_8h" local="no">MRViewer/MRImGuiMenuListeners.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gaa3cab6f28416e27d7628154e93009e31" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1ga4a8c57e5f08a369097b9f8d66a0cb097" kind="function"><name>~NameTagClickListener</name></member>
@@ -53,7 +53,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMenuListeners.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMenuListeners.h" bodystart="15" bodyend="21"/>
+    <location file="MRViewer/MRImGuiMenuListeners.h" line="14" column="1" bodyfile="MRViewer/MRImGuiMenuListeners.h" bodystart="15" bodyend="21"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga4b0aa87058e8c0aa11ea16c7cea26e0f" prot="public" virt="virtual"><scope>MR::NameTagClickListener</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::NameTagClickListener</scope><name>connection_</name></member>

@@ -2,13 +2,7 @@ var MRMeshThickness_8h =
 [
     [ "MR_InSphere", "MRMeshThickness_8h.html#a60fe47d47390ca23e8eb9de38160da31", null ],
     [ "MR_InSphereSearchSettings", "MRMeshThickness_8h.html#ae13c4b6aa6fb6ac34ea25071268a339a", null ],
-    [ "MR_Mesh", "MRMeshThickness_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshIntersectionResult", "MRMeshThickness_8h.html#ac8e02ba4ec98b4ca68dfb88ed4fb6564", null ],
     [ "MR_MeshPoint", "MRMeshThickness_8h.html#a96993a9b1e805a05df6587a97f4eb328", null ],
-    [ "MR_MeshProjectionResult", "MRMeshThickness_8h.html#a3fb763c49c691080a2aac500c768c001", null ],
-    [ "MR_MeshTriPoint", "MRMeshThickness_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc", null ],
-    [ "MR_std_function_bool_from_float", "MRMeshThickness_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_function_bool_from_MR_FaceId", "MRMeshThickness_8h.html#a63aa216938f28c268d3a921062bf6621", null ],
     [ "MR_std_optional_MR_VertScalars", "MRMeshThickness_8h.html#aba93fea86ae074ee1b7541e7729dca55", null ],
     [ "MR_computeInSphereThicknessAtVertices", "MRMeshThickness_8h.html#af89f59f39bfe4168e61a26832e0db034", null ],
     [ "MR_computeRayThicknessAtVertices", "MRMeshThickness_8h.html#a82c96bf67634cb3d357bff140211b1a0", null ],

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshToDistanceMapParams" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshToDistanceMapParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshToDistanceMapParams</basecompoundref>
@@ -191,7 +191,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams_1af0aaf53cecbd8b3866f1cfbafd27e379" kindref="member">MR.MeshToDistanceMapParams.MeshToDistanceMapParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -210,7 +210,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams_1af0aaf53cecbd8b3866f1cfbafd27e379" kindref="member">MR.MeshToDistanceMapParams.MeshToDistanceMapParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -242,7 +242,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>direction vector shows the projections vector to the distance map for points on model yRange and xRange directions make orthonormal basis with direction see Vector3&lt;T&gt;.perpendicular() for more details All Output Distance map values will be positive usePreciseBoundingBox false (fast): use general (cached) bounding box with applied rotation usePreciseBoundingBox true (slow): compute bounding box from points with respect to rotation Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. Parameter <computeroutput>usePreciseBoundingBox</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>direction vector shows the projections vector to the distance map for points on model yRange and xRange directions make orthonormal basis with direction see Vector3&lt;T&gt;::perpendicular() for more details All Output Distance map values will be positive usePreciseBoundingBox false (fast): use general (cached) bounding box with applied rotation usePreciseBoundingBox true (slow): compute bounding box from points with respect to rotation Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams_1af0aaf53cecbd8b3866f1cfbafd27e379" kindref="member">MR.MeshToDistanceMapParams.MeshToDistanceMapParams</ref></computeroutput>. Parameter <computeroutput>usePreciseBoundingBox</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -274,7 +274,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. Parameter <computeroutput>usePreciseBoundingBox</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams_1af0aaf53cecbd8b3866f1cfbafd27e379" kindref="member">MR.MeshToDistanceMapParams.MeshToDistanceMapParams</ref></computeroutput>. Parameter <computeroutput>usePreciseBoundingBox</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -305,7 +305,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>input matrix should be orthonormal! rotation.z - direction rotation.x * (box X length) - xRange rotation.y * (box Y length) - yRange All Output Distance map values will be positive Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. </para>
+<para>input matrix should be orthonormal! rotation.z - direction rotation.x * (box X length) - xRange rotation.y * (box Y length) - yRange All Output Distance map values will be positive Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams_1af0aaf53cecbd8b3866f1cfbafd27e379" kindref="member">MR.MeshToDistanceMapParams.MeshToDistanceMapParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -336,7 +336,7 @@
           <declname>resolution</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams_1af0aaf53cecbd8b3866f1cfbafd27e379" kindref="member">MR.MeshToDistanceMapParams.MeshToDistanceMapParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -368,7 +368,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>input matrix should be orthonormal! rotation.z - direction rotation.x * (box X length) - xRange rotation.y * (box Y length) - yRange All Output Distance map values will be positive usePreciseBoundingBox false (fast): use general (cached) bounding box with applied rotation usePreciseBoundingBox true (slow): compute bounding box from points with respect to rotation Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. Parameter <computeroutput>usePreciseBoundingBox</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>input matrix should be orthonormal! rotation.z - direction rotation.x * (box X length) - xRange rotation.y * (box Y length) - yRange All Output Distance map values will be positive usePreciseBoundingBox false (fast): use general (cached) bounding box with applied rotation usePreciseBoundingBox true (slow): compute bounding box from points with respect to rotation Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams_1af0aaf53cecbd8b3866f1cfbafd27e379" kindref="member">MR.MeshToDistanceMapParams.MeshToDistanceMapParams</ref></computeroutput>. Parameter <computeroutput>usePreciseBoundingBox</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -395,7 +395,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>The most general constructor. Use it if you have to find special view, resolution, distance map with visual the part of the model etc. All params match is in the user responsibility xf.b - origin point: pixel(0,0) with value 0. xf.A.z - direction xf.A.x - xRange xf.A.y - yRange All Output Distance map values could be positive and negative by default. Set allowNegativeValues to false if negative values are not required Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. </para>
+<para>The most general constructor. Use it if you have to find special view, resolution, distance map with visual the part of the model etc. All params match is in the user responsibility xf.b - origin point: pixel(0,0) with value 0. xf.A.z - direction xf.A.x - xRange xf.A.y - yRange All Output Distance map values could be positive and negative by default. Set allowNegativeValues to false if negative values are not required Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams_1af0aaf53cecbd8b3866f1cfbafd27e379" kindref="member">MR.MeshToDistanceMapParams.MeshToDistanceMapParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -422,7 +422,7 @@
           <declname>resolution</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams_1af0aaf53cecbd8b3866f1cfbafd27e379" kindref="member">MR.MeshToDistanceMapParams.MeshToDistanceMapParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -441,7 +441,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MeshToDistanceMapParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MeshToDistanceMapParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -479,45 +479,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_MeshToDistanceMapParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshToDistanceMapParams</label>
         <link refid="classMR_1_1MeshToDistanceMapParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshToDistanceMapParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshToDistanceMapParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_MeshToDistanceMapParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshToDistanceMapParams</label>
         <link refid="classMR_1_1MeshToDistanceMapParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MeshToDistanceMapParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MeshToDistanceMapParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="357" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="358" bodyend="618"/>

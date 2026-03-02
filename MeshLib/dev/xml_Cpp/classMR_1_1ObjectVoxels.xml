@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectVoxels" kind="class" language="C++" prot="public">
     <compoundname>MR::ObjectVoxels</compoundname>
     <basecompoundref refid="classMR_1_1ObjectMeshHolder" prot="public" virt="non-virtual">MR::ObjectMeshHolder</basecompoundref>
-    <includes refid="MRObjectVoxels_8h" local="no">MRObjectVoxels.h</includes>
+    <includes refid="MRObjectVoxels_8h" local="no">MRVoxels/MRObjectVoxels.h</includes>
     <innerclass refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams" prot="public">MR::ObjectVoxels::VolumeRenderingParams</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga3ace9713c9d0e39585ccb708a7cadf94" kind="typedef"><name>IsoSurfaceChangedSignal</name></member>
@@ -224,7 +224,7 @@
           <edgelabel>showPoints_</edgelabel>
           <edgelabel>showSelectedEdges_</edgelabel>
           <edgelabel>showSelectedFaces_</edgelabel>
-          <edgelabel>...</edgelabel>
+          <edgelabel>  ...</edgelabel>
         </childnode>
         <childnode refid="12" relation="usage">
           <edgelabel>bordersColor_</edgelabel>
@@ -320,7 +320,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" bodystart="20" bodyend="284"/>
+    <location file="MRVoxels/MRObjectVoxels.h" line="19" column="1" bodyfile="MRVoxels/MRObjectVoxels.h" bodystart="20" bodyend="284"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2a862db8c0bbaab02dd925ce69fe27f5" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>activeBounds_</name></member>
       <member refid="group__GeneralGroup_1gadedff1739acd543aa2f8914dcc8ca1e4" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>activeVoxels</name></member>

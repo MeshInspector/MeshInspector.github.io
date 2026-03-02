@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCudaPointsToMeshProjector_8h" kind="file" language="C++">
     <compoundname>MRCudaPointsToMeshProjector.h</compoundname>
     <includes local="yes">exports.h</includes>
     <includes refid="MRPointsToMeshProjector_8h" local="yes">MRMesh/MRPointsToMeshProjector.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRCudaPointsToMeshProjector.h</label>
+        <label>MRCuda/MRCudaPointsToMeshProjector.h</label>
         <link refid="MRCudaPointsToMeshProjector_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -190,10 +190,10 @@
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRPointsToMeshProjector_8h" kindref="compound">MRMesh/MRPointsToMeshProjector.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref><sp/>{<sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Cuda<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref><sp/>{<sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Cuda" kindref="compound">Cuda</ref><sp/>{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MeshProjectorData;</highlight></codeline>
-<codeline lineno="9" refid="classMR_1_1Cuda_1_1PointsToMeshProjector" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRCUDA_CLASS<sp/><ref refid="classMR_1_1Cuda_1_1PointsToMeshProjector" kindref="compound">PointsToMeshProjector</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPointsToMeshProjector" kindref="compound">IPointsToMeshProjector</ref></highlight></codeline>
+<codeline lineno="9" refid="classMR_1_1Cuda_1_1PointsToMeshProjector" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRCUDA_CLASS<sp/><ref refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1ac217c2f9f716d994aa1c0ab98369dc95" kindref="member">PointsToMeshProjector</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPointsToMeshProjector" kindref="compound">IPointsToMeshProjector</ref></highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;MeshProjectorData&gt;<sp/>meshData_;</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>*<sp/>mesh_{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
@@ -209,6 +209,6 @@
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal">}}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToMeshProjector.h"/>
+    <location file="MRCuda/MRCudaPointsToMeshProjector.h"/>
   </compounddef>
 </doxygen>

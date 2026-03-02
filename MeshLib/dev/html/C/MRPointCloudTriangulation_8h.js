@@ -1,12 +1,7 @@
 var MRPointCloudTriangulation_8h =
 [
     [ "MR_FillHolesWithExtraPointsParams", "MRPointCloudTriangulation_8h.html#af27b22b1d76c7e77d8af842d82b704a3", null ],
-    [ "MR_Mesh", "MRPointCloudTriangulation_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_PointCloud", "MRPointCloudTriangulation_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
-    [ "MR_std_function_bool_from_float", "MRPointCloudTriangulation_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_optional_MR_Mesh", "MRPointCloudTriangulation_8h.html#a3bbe7529fd9a3b454d1fe7040289bf3c", null ],
     [ "MR_TriangulationParameters", "MRPointCloudTriangulation_8h.html#a032845a1d3f3181b204e6dcfa00d27fd", null ],
-    [ "MR_VertBitSet", "MRPointCloudTriangulation_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_fillHolesWithExtraPoints", "MRPointCloudTriangulation_8h.html#a80214de970434da9dce4312fdef71033", null ],
     [ "MR_FillHolesWithExtraPointsParams_AssignFromAnother", "MRPointCloudTriangulation_8h.html#aa3792233b0771d02bcd0adb482b47b8c", null ],
     [ "MR_FillHolesWithExtraPointsParams_ConstructFrom", "MRPointCloudTriangulation_8h.html#a943fcb04d73a3e0a8d11b4514e66507f", null ],

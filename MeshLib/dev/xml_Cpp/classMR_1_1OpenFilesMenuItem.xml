@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OpenFilesMenuItem" kind="class" language="C++" prot="public">
     <compoundname>MR::OpenFilesMenuItem</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; DragEntranceListener, DragOverListener, DragDropListener, PreDrawListener &gt;</basecompoundref>
-    <includes refid="MRIOFilesMenuItems_8h" local="no">MRIOFilesMenuItems.h</includes>
+    <includes refid="MRIOFilesMenuItems_8h" local="no">MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaf821b1fe157f80dabaf66a23133f2f78" kind="variable"><name>dragging_</name></member>
       <member refid="group__GeneralGroup_1gab855a6330dd6acc52da926d44ff7fd76" kind="variable"><name>dragPos_</name></member>
@@ -89,7 +89,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="29" bodyend="53"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="28" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="29" bodyend="53"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gacd1d0b203f477e1a2f307be78c9c6eb8" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>blocking</name></member>

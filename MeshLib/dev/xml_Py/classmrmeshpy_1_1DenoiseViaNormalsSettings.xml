@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1DenoiseViaNormalsSettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::DenoiseViaNormalsSettings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -752,28 +752,6 @@
 <para><verbatim>Generated from:  MR::DenoiseViaNormalsSettings
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.DenoiseViaNormalsSettings</label>
-        <link refid="classmrmeshpy_1_1DenoiseViaNormalsSettings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_beta</edgelabel>
-          <edgelabel>_offsetof_cb</edgelabel>
-          <edgelabel>_offsetof_fastIndicatorComputation</edgelabel>
-          <edgelabel>_offsetof_gamma</edgelabel>
-          <edgelabel>_offsetof_guideWeight</edgelabel>
-          <edgelabel>_offsetof_limitNearInitial</edgelabel>
-          <edgelabel>_offsetof_maxInitialDist</edgelabel>
-          <edgelabel>_offsetof_normalIters</edgelabel>
-          <edgelabel>_offsetof_outCreases</edgelabel>
-          <edgelabel>_offsetof_pointIters</edgelabel>
-          <edgelabel>...</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12582" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12582" bodyend="12700"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aa18caeb330ec2e711eed59c8f25797d5" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>__init__</name></member>

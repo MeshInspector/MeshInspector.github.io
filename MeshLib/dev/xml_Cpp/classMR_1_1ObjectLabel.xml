@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectLabel" kind="class" language="C++" prot="public">
     <compoundname>MR::ObjectLabel</compoundname>
     <basecompoundref refid="classMR_1_1VisualObject" prot="public" virt="non-virtual">MR::VisualObject</basecompoundref>
-    <includes refid="MRObjectLabel_8h" local="no">MRObjectLabel.h</includes>
+    <includes refid="MRObjectLabel_8h" local="no">MRSymbolMesh/MRObjectLabel.h</includes>
     <sectiondef kind="protected-attrib">
       <member refid="group__GeneralGroup_1gae0172aed4b4967b65006a635afff2d6b" kind="variable"><name>label_</name></member>
       <member refid="group__GeneralGroup_1gad15dc682a4c68f588608e3690da71f81" kind="variable"><name>pathToFont_</name></member>
@@ -223,7 +223,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRObjectLabel.h" bodystart="29" bodyend="198"/>
+    <location file="MRSymbolMesh/MRObjectLabel.h" line="28" column="1" bodyfile="MRSymbolMesh/MRObjectLabel.h" bodystart="29" bodyend="198"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>addChildBefore</name></member>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1BaseRenderParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::BaseRenderParams</compoundname>
     <derivedcompoundref refid="structMR_1_1ModelBaseRenderParams" prot="public" virt="non-virtual">MR::ModelBaseRenderParams</derivedcompoundref>
     <derivedcompoundref refid="structMR_1_1UiRenderParams" prot="public" virt="non-virtual">MR::UiRenderParams</derivedcompoundref>
     <derivedcompoundref refid="structMR_1_1Viewport_1_1LinePointImmediateRenderParams" prot="public" virt="non-virtual">MR::Viewport::LinePointImmediateRenderParams</derivedcompoundref>
-    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <includes refid="MRIRenderObject_8h" local="no">MRMesh/MRIRenderObject.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga564bcf6e1925912d15fa1cb20a3b0a3c" kind="variable"><name>viewMatrix</name></member>
       <member refid="group__GeneralGroup_1gab108063540156c1b73540c07c48e6d01" kind="variable"><name>projMatrix</name></member>
@@ -60,7 +60,7 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="35" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="36" bodyend="41"/>
+    <location file="MRMesh/MRIRenderObject.h" line="35" column="1" bodyfile="MRMesh/MRIRenderObject.h" bodystart="36" bodyend="41"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab108063540156c1b73540c07c48e6d01" prot="public" virt="non-virtual"><scope>MR::BaseRenderParams</scope><name>projMatrix</name></member>
       <member refid="group__GeneralGroup_1ga564bcf6e1925912d15fa1cb20a3b0a3c" prot="public" virt="non-virtual"><scope>MR::BaseRenderParams</scope><name>viewMatrix</name></member>

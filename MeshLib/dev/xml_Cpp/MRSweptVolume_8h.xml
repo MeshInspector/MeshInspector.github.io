@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSweptVolume_8h" kind="file" language="C++">
     <compoundname>MRSweptVolume.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
@@ -7,8 +7,8 @@
     <includes refid="MRMeshPart_8h" local="yes">MRMesh/MRMeshPart.h</includes>
     <includes refid="MRPolyline_8h" local="yes">MRMesh/MRPolyline.h</includes>
     <includes local="no">vector</includes>
-    <includedby refid="MRCudaAccessor_8h" local="yes">MRCudaAccessor.h</includedby>
-    <includedby refid="MRCudaSweptVolume_8h" local="yes">MRCudaSweptVolume.h</includedby>
+    <includedby refid="MRCudaSweptVolume_8h" local="yes">MRCuda/MRCudaSweptVolume.h</includedby>
+    <includedby refid="MRCudaAccessor_8h" local="yes">MRViewer/MRCudaAccessor.h</includedby>
     <incdepgraph>
       <node id="27">
         <label>MRBitSet.h</label>
@@ -253,7 +253,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRSweptVolume.h</label>
+        <label>MRVoxels/MRSweptVolume.h</label>
         <link refid="MRSweptVolume_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -340,16 +340,16 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3">
-        <label>MRCudaSweptVolume.h</label>
+      <node id="2">
+        <label>MRCuda/MRCudaSweptVolume.h</label>
         <link refid="MRCudaSweptVolume_8h"/>
       </node>
-      <node id="2">
-        <label>MRCudaAccessor.h</label>
+      <node id="3">
+        <label>MRViewer/MRCudaAccessor.h</label>
         <link refid="MRCudaAccessor_8h"/>
       </node>
       <node id="1">
-        <label>MRSweptVolume.h</label>
+        <label>MRVoxels/MRSweptVolume.h</label>
         <link refid="MRSweptVolume_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -379,13 +379,13 @@
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">EndMillTool;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1EndMillTool" kindref="compound">EndMillTool</ref>;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1ga1df5256f57ba20b4fa8abc68edfd2021" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/>Box3f<sp/><ref refid="group__GeneralGroup_1ga1df5256f57ba20b4fa8abc68edfd2021" kindref="member">computeWorkArea</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;<sp/>toolpath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>tool<sp/>);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1gad430aa6bda176d93601f5ae0e30b39a2" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/>Box3i<sp/><ref refid="group__GeneralGroup_1gad430aa6bda176d93601f5ae0e30b39a2" kindref="member">computeGridBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3f&amp;<sp/>workArea,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize<sp/>);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="structMR_1_1ComputeSweptVolumeParameters" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ComputeSweptVolumeParameters" kindref="compound">ComputeSweptVolumeParameters</ref></highlight></codeline>
+<codeline lineno="26" refid="structMR_1_1ComputeSweptVolumeParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ComputeSweptVolumeParameters" kindref="compound">ComputeSweptVolumeParameters</ref></highlight></codeline>
 <codeline lineno="27"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="29" refid="group__GeneralGroup_1ga30734a48ed1db5decfd6bc50b5e5a9c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;<sp/><ref refid="group__GeneralGroup_1ga30734a48ed1db5decfd6bc50b5e5a9c6" kindref="member">path</ref>;</highlight></codeline>
 <codeline lineno="31" refid="group__GeneralGroup_1gaa31ab5fc3b9d49a142a4879771d70f71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MeshPart<sp/><ref refid="group__GeneralGroup_1gaa31ab5fc3b9d49a142a4879771d70f71" kindref="member">toolMesh</ref>;</highlight></codeline>
@@ -399,13 +399,13 @@
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51" refid="group__GeneralGroup_1ga2f14cbbe32f9cd74502e01f1f2e40173" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga2f14cbbe32f9cd74502e01f1f2e40173" kindref="member">computeSweptVolumeWithDistanceVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ComputeSweptVolumeParameters" kindref="compound">ComputeSweptVolumeParameters</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="classMR_1_1IComputeToolDistance" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a9f036b05518b862a538b52711d41d242" kindref="member">MRVOXELS_CLASS</ref><sp/><ref refid="classMR_1_1IComputeToolDistance" kindref="compound">IComputeToolDistance</ref></highlight></codeline>
+<codeline lineno="54" refid="classMR_1_1IComputeToolDistance" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a9f036b05518b862a538b52711d41d242" kindref="member">MRVOXELS_CLASS</ref><sp/><ref refid="classMR_1_1IComputeToolDistance" kindref="compound">IComputeToolDistance</ref></highlight></codeline>
 <codeline lineno="55"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="57" refid="group__GeneralGroup_1ga2bb611f9d72c80f0aa38d68e6a008ad0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2bb611f9d72c80f0aa38d68e6a008ad0" kindref="member">~IComputeToolDistance</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61" refid="group__GeneralGroup_1ga8ea4d968e93876e24b36709e9324f596" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Vector3i&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8ea4d968e93876e24b36709e9324f596" kindref="member">prepare</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;<sp/>toolpath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EndMillTool" kindref="compound">EndMillTool</ref>&amp;<sp/>toolSpec<sp/>)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="64" refid="group__GeneralGroup_1gaf4e1c6d89878989a6012b5d845adcd1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Vector3i&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaf4e1c6d89878989a6012b5d845adcd1a" kindref="member">prepare</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;<sp/>toolpath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>toolProfile<sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="64" refid="group__GeneralGroup_1gaf4e1c6d89878989a6012b5d845adcd1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Vector3i&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaf4e1c6d89878989a6012b5d845adcd1a" kindref="member">prepare</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;<sp/>toolpath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga98da94791426a3dbbdeb1a6b25801df6" kindref="member">Polyline2</ref>&amp;<sp/>toolProfile<sp/>)<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
 <codeline lineno="67" refid="group__GeneralGroup_1ga0053dac6d78b84037562e955eb49f7bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga0053dac6d78b84037562e955eb49f7bd" kindref="member">computeToolDistance</ref>(</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;float&gt;&amp;<sp/>output,</highlight></codeline>
@@ -416,8 +416,8 @@
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
 <codeline lineno="78" refid="group__GeneralGroup_1gaa1659b82dc99e8c5f412e35c7a94b4d7" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaa1659b82dc99e8c5f412e35c7a94b4d7" kindref="member">computeSweptVolumeWithCustomToolDistance</ref>(<sp/><ref refid="classMR_1_1IComputeToolDistance" kindref="compound">IComputeToolDistance</ref>&amp;<sp/>comp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ComputeSweptVolumeParameters" kindref="compound">ComputeSweptVolumeParameters</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h"/>
+    <location file="MRVoxels/MRSweptVolume.h"/>
   </compounddef>
 </doxygen>

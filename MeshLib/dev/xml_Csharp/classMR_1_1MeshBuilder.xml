@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshBuilder" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshBuilder</compoundname>
     <innerclass refid="classMR_1_1MeshBuilder_1_1BuildSettings" prot="public">MR::MeshBuilder::BuildSettings</innerclass>
@@ -347,7 +347,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIdentifyVertices.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="4" bodyend="724"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIdentifyVertices.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIdentifyVertices.cs" bodystart="4" bodyend="381"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshBuilder_1a3df6156c3f0891edd28bd041f94d692e" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>addTriangles</name></member>
       <member refid="classMR_1_1MeshBuilder_1a8f56c81fc69887e45243cc752e0707e3" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>addTriangles</name></member>

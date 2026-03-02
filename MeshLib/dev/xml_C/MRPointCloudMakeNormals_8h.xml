@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointCloudMakeNormals_8h" kind="file" language="C++">
     <compoundname>MRPointCloudMakeNormals.h</compoundname>
     <includes refid="MREnums_8h" local="no">MRCMesh/MREnums.h</includes>
@@ -31,86 +31,6 @@
         <label>stdbool.h</label>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPointCloudMakeNormals_8h_1af3305840a3b0b98761ca0684499fe801" prot="public" static="no">
-        <type>struct <ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref></type>
-        <definition>typedef struct MR_AllLocalTriangulations MR_AllLocalTriangulations</definition>
-        <argsstring></argsstring>
-        <name>MR_AllLocalTriangulations</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="12" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudMakeNormals_8h_1ab9532c7498f492993c731c877ba0332b" prot="public" static="no">
-        <type>struct <ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref></type>
-        <definition>typedef struct MR_Buffer_MR_VertId MR_Buffer_MR_VertId</definition>
-        <argsstring></argsstring>
-        <name>MR_Buffer_MR_VertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="13" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudMakeNormals_8h_1aa319738c95f0bbde075b7ef777cf2665" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref></type>
-        <definition>typedef struct MR_PointCloud MR_PointCloud</definition>
-        <argsstring></argsstring>
-        <name>MR_PointCloud</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudMakeNormals_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
-        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
-        <argsstring></argsstring>
-        <name>MR_VertCoords</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudMakeNormals_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="16" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudMakeNormals_8h_1aa15c8fc617d3f9c35203c043e5c8a078" prot="public" static="no">
-        <type>struct <ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref></type>
-        <definition>typedef struct MR_std_optional_MR_VertCoords MR_std_optional_MR_VertCoords</definition>
-        <argsstring></argsstring>
-        <name>MR_std_optional_MR_VertCoords</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" line="17" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudMakeNormals.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRPointCloudMakeNormals_8h_1a27f61d56563234036fdbc292028e5ded" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref> *</type>
@@ -504,12 +424,12 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRPointCloudMakeNormals_8h_1af3305840a3b0b98761ca0684499fe801" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref><sp/><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLocalTriangulations.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRPointCloudMakeNormals_8h_1ab9532c7498f492993c731c877ba0332b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref><sp/><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBuffer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRPointCloudMakeNormals_8h_1aa319738c95f0bbde075b7ef777cf2665" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRPointCloudMakeNormals_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRPointCloudMakeNormals_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRPointCloudMakeNormals_8h_1aa15c8fc617d3f9c35203c043e5c8a078" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref><sp/><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_VertCoords.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref><sp/><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLocalTriangulations.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref><sp/><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBuffer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref><sp/><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_VertCoords.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="MRPointCloudMakeNormals_8h_1a27f61d56563234036fdbc292028e5ded" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref><sp/>*<ref refid="MRPointCloudMakeNormals_8h_1a27f61d56563234036fdbc292028e5ded" kindref="member">MR_makeUnorientedNormals_4_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1a7e870a89eaf0714e711833b123b397b3" kindref="member">MR_OrientNormals</ref><sp/>*orient);</highlight></codeline>
@@ -528,7 +448,7 @@
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
 <codeline lineno="112" refid="MRPointCloudMakeNormals_8h_1ae777ba80ae7a9c1bb2b72387ffcfa13a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref><sp/>*<ref refid="MRPointCloudMakeNormals_8h_1ae777ba80ae7a9c1bb2b72387ffcfa13a" kindref="member">MR_makeOrientedNormals_MR_AllLocalTriangulations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/><ref refid="MRLocalTriangulations_8h_1af3305840a3b0b98761ca0684499fe801" kindref="member">MR_AllLocalTriangulations</ref><sp/>*triangs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="comment">//[[deprecated(<sp/>&quot;use<sp/>makeOrientedNormals(...)<sp/>instead&quot;<sp/>)]]</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">//[[deprecated(<sp/>&quot;use<sp/>makeOrientedNormals(...)<sp/>instead&quot;<sp/>)]]</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="121" refid="MRPointCloudMakeNormals_8h_1a701075ee7e53714f6743d79fa938a9d3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRPointCloudMakeNormals_8h_1a701075ee7e53714f6743d79fa938a9d3" kindref="member">MR_makeNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*avgNeighborhoodSize);</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>

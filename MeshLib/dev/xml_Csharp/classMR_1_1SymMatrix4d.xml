@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SymMatrix4d" kind="class" language="C#" prot="public">
     <compoundname>MR::SymMatrix4d</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_SymMatrix4d</basecompoundref>
@@ -206,7 +206,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SymMatrix4d.SymMatrix4d</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SymMatrix4d_1afe6aa3951758636272088852cd4e45f3" kindref="member">MR.SymMatrix4d.SymMatrix4d</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -225,7 +225,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SymMatrix4d.SymMatrix4d</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SymMatrix4d_1afe6aa3951758636272088852cd4e45f3" kindref="member">MR.SymMatrix4d.SymMatrix4d</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -244,7 +244,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.SymMatrix4d.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SymMatrix4d::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -263,7 +263,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.SymMatrix4d.operator+=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SymMatrix4d::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -282,7 +282,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.SymMatrix4d.operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SymMatrix4d::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -301,7 +301,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.SymMatrix4d.operator*=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SymMatrix4d::operator*=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -320,7 +320,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.SymMatrix4d.operator/=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SymMatrix4d::operator/=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -335,8 +335,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.SymMatrix4d</label>
+        <link refid="classMR_1_1SymMatrix4d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_SymMatrix4d</label>
+        <label>MR.Const_SymMatrix4d</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -344,25 +350,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.SymMatrix4d</label>
-        <link refid="classMR_1_1SymMatrix4d"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SymMatrix4d &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_SymMatrix4d &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.SymMatrix4d</label>
+        <link refid="classMR_1_1SymMatrix4d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_SymMatrix4d</label>
+        <label>MR.Const_SymMatrix4d</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -370,20 +376,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.SymMatrix4d</label>
-        <link refid="classMR_1_1SymMatrix4d"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SymMatrix4d &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_SymMatrix4d &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="1915" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="1916" bodyend="2047"/>

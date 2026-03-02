@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRWatershedGraph_8h" kind="file" language="C++">
     <compoundname>MRWatershedGraph.h</compoundname>
     <includes refid="MRGraph_8h" local="yes">MRGraph.h</includes>
@@ -113,7 +113,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRWatershedGraph.h</label>
+        <label>MRMesh/MRWatershedGraph.h</label>
         <link refid="MRWatershedGraph_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -192,10 +192,10 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="classMR_1_1WatershedGraph" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1WatershedGraph" kindref="compound">WatershedGraph</ref></highlight></codeline>
+<codeline lineno="14" refid="classMR_1_1WatershedGraph" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga50705670ff6a5cb245a04bce034f12ec" kindref="member">WatershedGraph</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="18" refid="structMR_1_1WatershedGraph_1_1BasinInfo" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1WatershedGraph_1_1BasinInfo" kindref="compound">BasinInfo</ref></highlight></codeline>
+<codeline lineno="18" refid="structMR_1_1WatershedGraph_1_1BasinInfo" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga6505f36f6b37f2d51d0564a3de4b98e0" kindref="member">BasinInfo</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1ga2e9b6e24cf6016e21030cbec21fb1240" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga2e9b6e24cf6016e21030cbec21fb1240" kindref="member">lowestVert</ref>;<sp/></highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1gab2cb4ea433e1e7448b0b1d3bafa8c2f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab2cb4ea433e1e7448b0b1d3bafa8c2f2" kindref="member">lowestLevel</ref><sp/>=<sp/>FLT_MAX;<sp/></highlight></codeline>
@@ -253,7 +253,7 @@
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
 <codeline lineno="83" refid="group__GeneralGroup_1gaa866c31119fcc9efe5cde7a9f93ee2c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa866c31119fcc9efe5cde7a9f93ee2c4" kindref="member">totalArea</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>totalArea_;<sp/>}</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="group__GeneralGroup_1ga75dfd7892ea152c119be891a63d24d0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga75dfd7892ea152c119be891a63d24d0e" kindref="member">numBasins</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)graph_.<ref refid="group__GeneralGroup_1ga60bd1c95b46edb238590e59ba2066233" kindref="member">validVerts</ref>().count()<sp/>-<sp/>1;<sp/>}</highlight></codeline>
+<codeline lineno="86" refid="group__GeneralGroup_1ga75dfd7892ea152c119be891a63d24d0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga75dfd7892ea152c119be891a63d24d0e" kindref="member">numBasins</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)graph_.validVerts().count()<sp/>-<sp/>1;<sp/>}</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
 <codeline lineno="89" refid="group__GeneralGroup_1gaaded095af3e5c37cf3299086f255480d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WatershedGraph_1_1BasinInfo" kindref="compound">BasinInfo</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gaaded095af3e5c37cf3299086f255480d" kindref="member">basinInfo</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>basins_[v];<sp/>}</highlight></codeline>
 <codeline lineno="90" refid="group__GeneralGroup_1ga9af63cdf457000d537668057705b684c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="structMR_1_1WatershedGraph_1_1BasinInfo" kindref="compound">BasinInfo</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga9af63cdf457000d537668057705b684c" kindref="member">basinInfo</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>basins_[v];<sp/>}</highlight></codeline>
@@ -312,8 +312,8 @@
 <codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;Graph::VertId, Graph::VertId&gt;</ref><sp/>parentBasin_;</highlight></codeline>
 <codeline lineno="170"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="172"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h"/>
+    <location file="MRMesh/MRWatershedGraph.h"/>
   </compounddef>
 </doxygen>

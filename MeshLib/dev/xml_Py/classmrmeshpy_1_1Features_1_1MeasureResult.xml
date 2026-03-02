@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Features_1_1MeasureResult" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Features::MeasureResult</compoundname>
     <innerclass refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle" prot="public">mrmeshpy::Features::MeasureResult::Angle</innerclass>
@@ -378,20 +378,12 @@ Stores the results of measuring two objects relative to one another.
         <label>mrmeshpy.Features.MeasureResult</label>
         <link refid="classmrmeshpy_1_1Features_1_1MeasureResult"/>
         <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_centerDistance</edgelabel>
-          <edgelabel>_offsetof_distance</edgelabel>
-          <edgelabel>_offsetof_intersections</edgelabel>
-        </childnode>
-        <childnode refid="3" relation="usage">
           <edgelabel>angle</edgelabel>
         </childnode>
       </node>
-      <node id="3">
+      <node id="2">
         <label>mrmeshpy.Features</label>
         <link refid="classmrmeshpy_1_1Features"/>
-      </node>
-      <node id="2">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18198" bodyend="18456"/>

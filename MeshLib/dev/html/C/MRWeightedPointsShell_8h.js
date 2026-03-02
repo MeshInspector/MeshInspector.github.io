@@ -1,17 +1,7 @@
 var MRWeightedPointsShell_8h =
 [
-    [ "MR_DistanceFromWeightedPointsComputeParams", "MRWeightedPointsShell_8h.html#aa20cbf3be7c00dc9e7b303754305b272", null ],
-    [ "MR_DistanceFromWeightedPointsParams", "MRWeightedPointsShell_8h.html#a342aeaf84a0230885a70e136c94b01b5", null ],
-    [ "MR_DistanceVolumeParams", "MRWeightedPointsShell_8h.html#af9c1f01ab3534b48d6b02a0b6c78143e", null ],
-    [ "MR_expected_MR_Mesh_std_string", "MRWeightedPointsShell_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
-    [ "MR_FunctionVolume", "MRWeightedPointsShell_8h.html#ab294732b2988d23c13fd8799dc19a43a", null ],
-    [ "MR_Mesh", "MRWeightedPointsShell_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_PointCloud", "MRWeightedPointsShell_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
-    [ "MR_std_function_bool_from_float", "MRWeightedPointsShell_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref", "MRWeightedPointsShell_8h.html#a41cfc684740dccc7dea95f25c807b6ce", null ],
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region", "MRWeightedPointsShell_8h.html#abf73071fe06d383693ea376448200cf3", null ],
-    [ "MR_VertBitSet", "MRWeightedPointsShell_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
-    [ "MR_VertScalars", "MRWeightedPointsShell_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4", null ],
     [ "MR_WeightedShell_DistanceVolumeCreationParams", "MRWeightedPointsShell_8h.html#a5f1122828e3202acc9af2a2202dd11af", null ],
     [ "MR_WeightedShell_ParametersBase", "MRWeightedPointsShell_8h.html#a8f659b402e47ecefb533ee63744559cb", null ],
     [ "MR_WeightedShell_ParametersMetric", "MRWeightedPointsShell_8h.html#a71beb2b6696f0402ac0c9f1bbf95a461", null ],

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TriPointf" kind="class" language="C#" prot="public">
     <compoundname>MR::TriPointf</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_TriPointf</basecompoundref>
@@ -86,7 +86,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TriPointf.TriPointf</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriPointf_1a9803168c047e00a439381462e7c088c3" kindref="member">MR.TriPointf.TriPointf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -105,7 +105,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TriPointf.TriPointf</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriPointf_1a9803168c047e00a439381462e7c088c3" kindref="member">MR.TriPointf.TriPointf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -124,7 +124,7 @@
           <declname>_1</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TriPointf.TriPointf</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriPointf_1a9803168c047e00a439381462e7c088c3" kindref="member">MR.TriPointf.TriPointf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -147,7 +147,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TriPointf.TriPointf</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriPointf_1a9803168c047e00a439381462e7c088c3" kindref="member">MR.TriPointf.TriPointf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -178,7 +178,7 @@
           <declname>v2</declname>
         </param>
         <briefdescription>
-<para>given a point coordinates and triangle (v0,v1,v2) computes barycentric coordinates of the point Generated from constructor <computeroutput>MR.TriPointf.TriPointf</computeroutput>. </para>
+<para>given a point coordinates and triangle (v0,v1,v2) computes barycentric coordinates of the point Generated from constructor <computeroutput><ref refid="classMR_1_1TriPointf_1a9803168c047e00a439381462e7c088c3" kindref="member">MR.TriPointf.TriPointf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -205,7 +205,7 @@
           <declname>v2</declname>
         </param>
         <briefdescription>
-<para>given a point coordinates and triangle (0,v1,v2) computes barycentric coordinates of the point Generated from constructor <computeroutput>MR.TriPointf.TriPointf</computeroutput>. </para>
+<para>given a point coordinates and triangle (0,v1,v2) computes barycentric coordinates of the point Generated from constructor <computeroutput><ref refid="classMR_1_1TriPointf_1a9803168c047e00a439381462e7c088c3" kindref="member">MR.TriPointf.TriPointf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -224,7 +224,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.TriPointf.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TriPointf::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -240,8 +240,14 @@
 <para>Notations used below: v0, v1, v2 - points of the triangle Generated from class <computeroutput><ref refid="classMR_1_1TriPointf" kindref="compound">MR.TriPointf</ref></computeroutput>. This is the non-const half of the class. </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.TriPointf</label>
+        <link refid="classMR_1_1TriPointf"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_TriPointf</label>
+        <label>MR.Const_TriPointf</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -249,25 +255,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.TriPointf</label>
-        <link refid="classMR_1_1TriPointf"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TriPointf &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_TriPointf &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.TriPointf</label>
+        <link refid="classMR_1_1TriPointf"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_TriPointf</label>
+        <label>MR.Const_TriPointf</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -275,20 +281,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.TriPointf</label>
-        <link refid="classMR_1_1TriPointf"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TriPointf &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_TriPointf &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="246" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="247" bodyend="370"/>

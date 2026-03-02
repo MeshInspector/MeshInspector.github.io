@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRAABBTreeObjects_8h" kind="file" language="C++">
     <compoundname>MRAABBTreeObjects.h</compoundname>
     <includes refid="MRAABBTreeBase_8h" local="yes">MRAABBTreeBase.h</includes>
@@ -26,7 +26,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRAABBTreeObjects.h</label>
+        <label>MRMesh/MRAABBTreeObjects.h</label>
         <link refid="MRAABBTreeObjects_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -345,7 +345,7 @@
 <codeline lineno="16" refid="group__GeneralGroup_1gae8c8c6d7c93de2cba91378f547c50a8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gae8c8c6d7c93de2cba91378f547c50a8e" kindref="member">BoxT</ref><sp/>=<sp/>Box3f;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="classMR_1_1AABBTreeObjects" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1AABBTreeObjects" kindref="compound">AABBTreeObjects</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreeBase" kindref="compound">AABBTreeBase</ref>&lt;ObjTreeTraits&gt;</highlight></codeline>
+<codeline lineno="21" refid="classMR_1_1AABBTreeObjects" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaa38c8faf49a02e3d7be46e67ca93605c" kindref="member">AABBTreeObjects</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreeBase" kindref="compound">AABBTreeBase</ref>&lt;ObjTreeTraits&gt;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="24" refid="group__GeneralGroup_1gaa38c8faf49a02e3d7be46e67ca93605c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaa38c8faf49a02e3d7be46e67ca93605c" kindref="member">AABBTreeObjects</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -365,8 +365,8 @@
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;AffineXf3f, ObjId&gt;</ref><sp/>toLocal_;</highlight></codeline>
 <codeline lineno="44"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h"/>
+    <location file="MRMesh/MRAABBTreeObjects.h"/>
   </compounddef>
 </doxygen>

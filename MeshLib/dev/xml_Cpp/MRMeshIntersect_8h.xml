@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshIntersect_8h" kind="file" language="C++">
     <compoundname>MRMeshIntersect.h</compoundname>
     <includes refid="MRPointOnFace_8h" local="yes">MRPointOnFace.h</includes>
@@ -9,7 +9,7 @@
     <includes refid="MRMeshTriPoint_8h" local="yes">MRMeshTriPoint.h</includes>
     <includes local="no">cfloat</includes>
     <includes local="no">functional</includes>
-    <includedby refid="MRCudaSolarRadiation_8h" local="yes">MRCudaSolarRadiation.h</includedby>
+    <includedby refid="MRCudaSolarRadiation_8h" local="yes">MRCuda/MRCudaSolarRadiation.h</includedby>
     <incdepgraph>
       <node id="30">
         <label>MRAffineXf.h</label>
@@ -100,7 +100,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshIntersect.h</label>
+        <label>MRMesh/MRMeshIntersect.h</label>
         <link refid="MRMeshIntersect_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -250,11 +250,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRCudaSolarRadiation.h</label>
+        <label>MRCuda/MRCudaSolarRadiation.h</label>
         <link refid="MRCudaSolarRadiation_8h"/>
       </node>
       <node id="1">
-        <label>MRMeshIntersect.h</label>
+        <label>MRMesh/MRMeshIntersect.h</label>
         <link refid="MRMeshIntersect_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -292,7 +292,7 @@
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="structMR_1_1MeshIntersectionResult_1a701e1414a45534a29d2ad1f7074c3c61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshIntersectionResult_1a701e1414a45534a29d2ad1f7074c3c61" kindref="member">distanceAlongLine</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="structMR_1_1MeshIntersectionResult_1a35b9064f7ab7e270307559622c3ec903" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshIntersectionResult_1a59e06434bac0180ffaac80a2fb3041d1" kindref="member">proj</ref>.<ref refid="group__GeneralGroup_1ga2ec934aa6c7847dbfbc812bcea286b53" kindref="member">face</ref>.valid();<sp/>}</highlight></codeline>
+<codeline lineno="29" refid="structMR_1_1MeshIntersectionResult_1a35b9064f7ab7e270307559622c3ec903" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshIntersectionResult_1a59e06434bac0180ffaac80a2fb3041d1" kindref="member">proj</ref>.face.valid();<sp/>}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38" refid="group__AABBTreeGroup_1ga5d17b235f3f132749a8d474be90b43b5" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref><sp/><ref refid="group__AABBTreeGroup_1ga5d17b235f3f132749a8d474be90b43b5" kindref="member">rayMeshIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Line3f&amp;<sp/>line,</highlight></codeline>
@@ -330,21 +330,21 @@
 <codeline lineno="83"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
 <codeline lineno="84" refid="structMR_1_1Line3Mesh" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Line3Mesh" kindref="compound">Line3Mesh</ref></highlight></codeline>
 <codeline lineno="85"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="86" refid="structMR_1_1Line3Mesh_1a0de1e3305b0aa64219ac2de3c2abb2f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Line" kindref="compound">Line3&lt;T&gt;</ref><sp/><ref refid="structMR_1_1Line3Mesh_1a0de1e3305b0aa64219ac2de3c2abb2f3" kindref="member">line</ref>;<sp/></highlight></codeline>
+<codeline lineno="86" refid="structMR_1_1Line3Mesh_1a0de1e3305b0aa64219ac2de3c2abb2f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7eef389e2e2dd24fc59576c7ad184eb5" kindref="member">Line3&lt;T&gt;</ref><sp/><ref refid="structMR_1_1Line3Mesh_1a0de1e3305b0aa64219ac2de3c2abb2f3" kindref="member">line</ref>;<sp/></highlight></codeline>
 <codeline lineno="87" refid="structMR_1_1Line3Mesh_1aa5ec1978556ce126db464bc744212937" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1IntersectionPrecomputes" kindref="compound">IntersectionPrecomputes&lt;T&gt;</ref><sp/>*<sp/><ref refid="structMR_1_1Line3Mesh_1aa5ec1978556ce126db464bc744212937" kindref="member">prec</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="88" refid="structMR_1_1Line3Mesh_1a13bcc7a7757286de5b44e0d5157828d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>*<sp/><ref refid="structMR_1_1Line3Mesh_1a13bcc7a7757286de5b44e0d5157828d2" kindref="member">mesh</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="89" refid="structMR_1_1Line3Mesh_1a993c546c36a0d4723de3bdaffd1d769e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref><sp/>*<sp/><ref refid="structMR_1_1Line3Mesh_1a993c546c36a0d4723de3bdaffd1d769e" kindref="member">tree</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="90" refid="structMR_1_1Line3Mesh_1a2324f26e0f3e5d41d2b5c9ab95f50fca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet<sp/>*<sp/><ref refid="structMR_1_1Line3Mesh_1a2324f26e0f3e5d41d2b5c9ab95f50fca" kindref="member">region</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="91"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="92" refid="group__AABBTreeGroup_1ga9222ec2d954badb7ee5874321a084eb6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Line3Mesh" kindref="compound">Line3fMesh</ref><sp/>=<sp/><ref refid="structMR_1_1Line3Mesh" kindref="compound">Line3Mesh&lt;float&gt;</ref>;</highlight></codeline>
-<codeline lineno="93" refid="group__AABBTreeGroup_1ga8ba650839d7806773bb542b986ac4283" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Line3Mesh" kindref="compound">Line3dMesh</ref><sp/>=<sp/><ref refid="structMR_1_1Line3Mesh" kindref="compound">Line3Mesh&lt;double&gt;</ref>;</highlight></codeline>
+<codeline lineno="92" refid="group__AABBTreeGroup_1ga9222ec2d954badb7ee5874321a084eb6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__AABBTreeGroup_1ga9222ec2d954badb7ee5874321a084eb6" kindref="member">Line3fMesh</ref><sp/>=<sp/><ref refid="structMR_1_1Line3Mesh" kindref="compound">Line3Mesh&lt;float&gt;</ref>;</highlight></codeline>
+<codeline lineno="93" refid="group__AABBTreeGroup_1ga8ba650839d7806773bb542b986ac4283" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__AABBTreeGroup_1ga8ba650839d7806773bb542b986ac4283" kindref="member">Line3dMesh</ref><sp/>=<sp/><ref refid="structMR_1_1Line3Mesh" kindref="compound">Line3Mesh&lt;double&gt;</ref>;</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
 <codeline lineno="97" refid="group__AABBTreeGroup_1gae5f7b660ced5a6518f007aa99a455bc7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MultiMeshIntersectionResult" kindref="compound">MultiMeshIntersectionResult</ref><sp/><ref refid="group__AABBTreeGroup_1gae5f7b660ced5a6518f007aa99a455bc7" kindref="member">rayMultiMeshAnyIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Line3fMesh&gt;<sp/>&amp;<sp/>lineMeshes,</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rayStart<sp/>=<sp/>0.0f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rayEnd<sp/>=<sp/>FLT_MAX<sp/>);</highlight></codeline>
 <codeline lineno="100" refid="group__AABBTreeGroup_1gaeacd596a535ae8aa6fe31809d838622e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MultiMeshIntersectionResult" kindref="compound">MultiMeshIntersectionResult</ref><sp/><ref refid="group__AABBTreeGroup_1gae5f7b660ced5a6518f007aa99a455bc7" kindref="member">rayMultiMeshAnyIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Line3dMesh&gt;<sp/>&amp;<sp/>lineMeshes,</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rayStart<sp/>=<sp/>0.0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rayEnd<sp/>=<sp/>DBL_MAX<sp/>);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="group__AABBTreeGroup_1gac20cf6ba073a7db1e2df313fb87d9517" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__AABBTreeGroup_1gac20cf6ba073a7db1e2df313fb87d9517" kindref="member">MeshIntersectionCallback</ref><sp/>=<sp/>std::function&lt;bool(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref><sp/>&amp;)&gt;;</highlight></codeline>
+<codeline lineno="105" refid="group__AABBTreeGroup_1gac20cf6ba073a7db1e2df313fb87d9517" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__AABBTreeGroup_1gac20cf6ba073a7db1e2df313fb87d9517" kindref="member">MeshIntersectionCallback</ref><sp/>=<sp/>std::function&lt;bool(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref><sp/>&amp;)&gt;;</highlight></codeline>
 <codeline lineno="108" refid="group__AABBTreeGroup_1ga04cf3416b5e94ef81eefafbad1a4a814" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga04cf3416b5e94ef81eefafbad1a4a814" kindref="member">rayMeshIntersectAll</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Line3f&amp;<sp/>line,<sp/><ref refid="group__AABBTreeGroup_1gac20cf6ba073a7db1e2df313fb87d9517" kindref="member">MeshIntersectionCallback</ref><sp/>callback,</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rayStart<sp/>=<sp/>0.0f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rayEnd<sp/>=<sp/>FLT_MAX,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IntersectionPrecomputes" kindref="compound">IntersectionPrecomputes&lt;float&gt;</ref>*<sp/>prec<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="111" refid="group__AABBTreeGroup_1ga0748a541fe122677a587562720e71f2e" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga04cf3416b5e94ef81eefafbad1a4a814" kindref="member">rayMeshIntersectAll</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Line3d&amp;<sp/>line,<sp/><ref refid="group__AABBTreeGroup_1gac20cf6ba073a7db1e2df313fb87d9517" kindref="member">MeshIntersectionCallback</ref><sp/>callback,</highlight></codeline>
@@ -359,8 +359,8 @@
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;FaceId&gt;<sp/>*<sp/>fsVec<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="134"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h"/>
+    <location file="MRMesh/MRMeshIntersect.h"/>
   </compounddef>
 </doxygen>

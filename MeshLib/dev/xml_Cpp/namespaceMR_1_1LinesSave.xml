@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1LinesSave" kind="namespace" language="C++">
     <compoundname>MR::LinesSave</compoundname>
     <innerclass refid="structMR_1_1LinesSave_1_1LinesSaver" prot="public">MR::LinesSave::LinesSaver</innerclass>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="224" bodyend="-1"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="224" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="224" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1_1LinesSave_1a268aa90e5a330542295cca4a34787a08" prot="public" static="no">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const Polyline3 &amp;, std::ostream &amp;, const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;)</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="225" bodyend="-1"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="225" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="225" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -46,10 +46,9 @@
       <member refid="group__LinesSaveGroup_1ga898bea8515e1d001f42894ee4fb6c304" kind="function"><name>toAnySupportedFormat</name></member>
     </sectiondef>
     <briefdescription>
-<para>namespace <ref refid="namespaceMR_1_1LinesLoad" kindref="compound">LinesLoad</ref> </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="221" column="1"/>
+    <location file="MRMesh/MRIOFormatsRegistry.h" line="221" column="1"/>
   </compounddef>
 </doxygen>

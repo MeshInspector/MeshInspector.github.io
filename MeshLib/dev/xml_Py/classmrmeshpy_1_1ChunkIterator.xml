@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ChunkIterator" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ChunkIterator</compoundname>
     <sectiondef kind="private-static-attrib">
@@ -382,21 +382,6 @@
 iterator class for array chunks
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.ChunkIterator</label>
-        <link refid="classmrmeshpy_1_1ChunkIterator"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_chunkSize</edgelabel>
-          <edgelabel>_offsetof_index</edgelabel>
-          <edgelabel>_offsetof_overlap</edgelabel>
-          <edgelabel>_offsetof_totalSize</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9233" bodyend="9288"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ChunkIterator_1ac5a3cfcd2f8f3b091de99bf5cea9aafe" prot="public" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>__eq__</name></member>

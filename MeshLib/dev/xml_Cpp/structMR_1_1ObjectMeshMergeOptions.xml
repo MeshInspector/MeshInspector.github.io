@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ObjectMeshMergeOptions" kind="struct" language="C++" prot="public">
     <compoundname>MR::ObjectMeshMergeOptions</compoundname>
-    <includes refid="MRObjectMesh_8h" local="no">MRObjectMesh.h</includes>
+    <includes refid="MRObjectMesh_8h" local="no">MRMesh/MRObjectMesh.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga768ff92a1b363f68475e9d27cfc1688a" kind="variable"><name>overrideXfs</name></member>
     </sectiondef>
@@ -11,7 +11,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMesh.h" line="62" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMesh.h" bodystart="63" bodyend="66"/>
+    <location file="MRMesh/MRObjectMesh.h" line="62" column="1" bodyfile="MRMesh/MRObjectMesh.h" bodystart="63" bodyend="66"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga768ff92a1b363f68475e9d27cfc1688a" prot="public" virt="non-virtual"><scope>MR::ObjectMeshMergeOptions</scope><name>overrideXfs</name></member>
     </listofallmembers>

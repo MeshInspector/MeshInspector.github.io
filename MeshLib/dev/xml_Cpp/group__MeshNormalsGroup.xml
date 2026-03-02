@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__MeshNormalsGroup" kind="group">
     <compoundname>MeshNormalsGroup</compoundname>
     <title>Mesh Normals</title>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="39" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" bodystart="39" bodyend="-1"/>
+        <location file="MRMesh/MRMeshNormals.h" line="39" column="1" bodyfile="MRMesh/MRMeshNormals.h" bodystart="39" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="23" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="23" declcolumn="15"/>
+        <location file="MRMesh/MRMeshNormals.h" line="23" column="15" declfile="MRMesh/MRMeshNormals.h" declline="23" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshNormalsGroup_1gaa5b7b1b62db0c38010925f94be955036" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="26" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="26" declcolumn="7"/>
+        <location file="MRMesh/MRMeshNormals.h" line="26" column="7" declfile="MRMesh/MRMeshNormals.h" declline="26" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshNormalsGroup_1ga7b42ab138289c2be7e30986671f2a773" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertNormals</type>
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="29" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="29" declcolumn="15"/>
+        <location file="MRMesh/MRMeshNormals.h" line="29" column="15" declfile="MRMesh/MRMeshNormals.h" declline="29" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshNormalsGroup_1ga5ae37093c97fac3f5b66734fa5b1a13f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertNormals</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="33" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="33" declcolumn="15"/>
+        <location file="MRMesh/MRMeshNormals.h" line="33" column="15" declfile="MRMesh/MRMeshNormals.h" declline="33" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshNormalsGroup_1gade8bb0a85e5a0e9f0038065ea5bcd9cf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MeshNormals</type>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="36" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="36" declcolumn="15"/>
+        <location file="MRMesh/MRMeshNormals.h" line="36" column="15" declfile="MRMesh/MRMeshNormals.h" declline="36" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshNormalsGroup_1gae0d9f93e52c6de06a13b82bdcd6c69b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector&lt; TriangleCornerNormals, FaceId &gt;</type>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="42" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="42" declcolumn="10"/>
+        <location file="MRMesh/MRMeshNormals.h" line="42" column="10" declfile="MRMesh/MRMeshNormals.h" declline="42" declcolumn="10"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

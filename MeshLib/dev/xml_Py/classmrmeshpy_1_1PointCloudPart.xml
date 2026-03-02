@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PointCloudPart" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PointCloudPart</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -201,19 +201,6 @@
 represents full point cloud (if region is nullptr) or some portion of point cloud (if region pointer is valid)
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.PointCloudPart</label>
-        <link refid="classmrmeshpy_1_1PointCloudPart"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_cloud</edgelabel>
-          <edgelabel>_offsetof_region</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44710" bodyend="44743"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PointCloudPart_1a674d6f554c9cbbac015e984767a30619" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloudPart</scope><name>__init__</name></member>

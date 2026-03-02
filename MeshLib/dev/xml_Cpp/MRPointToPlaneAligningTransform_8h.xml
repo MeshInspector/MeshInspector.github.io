@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointToPlaneAligningTransform_8h" kind="file" language="C++">
     <compoundname>MRPointToPlaneAligningTransform.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRRigidScaleXf3_8h" local="yes">MRRigidScaleXf3.h</includes>
     <includes local="no">MRPch/MREigenCore.h</includes>
-    <includedby refid="MRAligningTransform_8h" local="yes">MRAligningTransform.h</includedby>
+    <includedby refid="MRAligningTransform_8h" local="yes">MRMesh/MRAligningTransform.h</includedby>
     <incdepgraph>
       <node id="27">
         <label>MRAffineXf.h</label>
@@ -76,7 +76,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPointToPlaneAligningTransform.h</label>
+        <label>MRMesh/MRPointToPlaneAligningTransform.h</label>
         <link refid="MRPointToPlaneAligningTransform_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -189,11 +189,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRAligningTransform.h</label>
+        <label>MRMesh/MRAligningTransform.h</label>
         <link refid="MRAligningTransform_8h"/>
       </node>
       <node id="1">
-        <label>MRPointToPlaneAligningTransform.h</label>
+        <label>MRMesh/MRPointToPlaneAligningTransform.h</label>
         <link refid="MRPointToPlaneAligningTransform_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -215,8 +215,8 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"></codeline>
-<codeline lineno="19" refid="classMR_1_1PointToPlaneAligningTransform" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1PointToPlaneAligningTransform" kindref="compound">PointToPlaneAligningTransform</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classMR_1_1PointToPlaneAligningTransform" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1PointToPlaneAligningTransform" kindref="compound">PointToPlaneAligningTransform</ref></highlight></codeline>
 <codeline lineno="20"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="23" refid="classMR_1_1PointToPlaneAligningTransform_1aa73beee9c704c6383e28a4f2ef68f1f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PointToPlaneAligningTransform_1aa73beee9c704c6383e28a4f2ef68f1f9" kindref="member">add</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>p1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>p2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>normal2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>1<sp/>);</highlight></codeline>
@@ -252,8 +252,8 @@
 <codeline lineno="67"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPlaneAligningTransform.h"/>
+    <location file="MRMesh/MRPointToPlaneAligningTransform.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMarkedContour_8h" kind="file" language="C++">
     <compoundname>MRMarkedContour.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -33,32 +33,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRMarkedContour_8h_1a36d7d5a26d258211a2da5d9311a0798c" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref></type>
-        <definition>typedef struct MR_BitSet MR_BitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_BitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="13" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMarkedContour_8h_1aefed148a09a0ae55edbd22814638b462" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref></type>
-        <definition>typedef struct MR_std_vector_MR_Vector3f MR_std_vector_MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" line="14" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMarkedContour.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" prot="public" static="no">
         <type>struct <ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref></type>
         <definition>typedef struct MR_MarkedContour3f MR_MarkedContour3f</definition>
@@ -353,7 +327,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MarkedContour3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -371,7 +345,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MarkedContour3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1051,7 +1025,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SplineSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1069,7 +1043,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SplineSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1150,13 +1124,13 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRMarkedContour_8h_1a36d7d5a26d258211a2da5d9311a0798c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRMarkedContour_8h_1aefed148a09a0ae55edbd22814638b462" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref>;</highlight></codeline>
+<codeline lineno="19" refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref>;</highlight></codeline>
+<codeline lineno="23" refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref><sp/><ref refid="MRMarkedContour_8h_1afd60dec28908f124f45baa30a626fdd7" kindref="member">MR_SplineSettings</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="MRMarkedContour_8h_1a092b81eb16d314d31851ccd061115877" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRMarkedContour_8h_1a092b81eb16d314d31851ccd061115877" kindref="member">MR_MarkedContour3f_Get_contour</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarkedContour_8h_1a74fc20442502926fe31a680e95626571" kindref="member">MR_MarkedContour3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>

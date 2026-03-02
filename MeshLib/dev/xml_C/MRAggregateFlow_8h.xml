@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRAggregateFlow_8h" kind="file" language="C++">
     <compoundname>MRAggregateFlow.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -27,19 +27,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRAggregateFlow_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAggregateFlow.h" line="12" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAggregateFlow.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" prot="public" static="no">
         <type>struct <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref></type>
         <definition>typedef struct MR_MeshTriPoint MR_MeshTriPoint</definition>
@@ -48,36 +35,15 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>encodes a point inside a triangular mesh face using barycentric coordinates</para>
+<para>Notations used below: <linebreak/>
+ v0 - the value in org( e ) <linebreak/>
+ v1 - the value in dest( e ) <linebreak/>
+ v2 - the value in dest( next( e ) ) Generated from class <computeroutput>MR::MeshTriPoint</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAggregateFlow.h" line="13" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAggregateFlow.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRAggregateFlow_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref></type>
-        <definition>typedef struct MR_Polyline3 MR_Polyline3</definition>
-        <argsstring></argsstring>
-        <name>MR_Polyline3</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAggregateFlow.h" line="14" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAggregateFlow.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRAggregateFlow_8h_1ac7f59a6736b29701d7e619412b6e2890" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref></type>
-        <definition>typedef struct MR_UndirectedEdgeBitSet MR_UndirectedEdgeBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_UndirectedEdgeBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAggregateFlow.h" line="15" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAggregateFlow.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" prot="public" static="no">
         <type>struct <ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref></type>
@@ -85,8 +51,27 @@
         <argsstring></argsstring>
         <name>MR_UndirectedEdgeScalars</name>
         <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::UndirectedEdgeScalars</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -98,8 +83,27 @@
         <argsstring></argsstring>
         <name>MR_VertScalars</name>
         <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::VertScalars</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -486,7 +490,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_FlowOrigin</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAggregateFlow_8h_1a1bf1235f26ddbc6b2d06f54f5f5de6fa" kindref="member">MR_FlowOrigin</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -504,7 +508,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_FlowOrigin</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAggregateFlow_8h_1a1bf1235f26ddbc6b2d06f54f5f5de6fa" kindref="member">MR_FlowOrigin</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -841,7 +845,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_OutputFlows</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAggregateFlow_8h_1abccbba874809303d0b245d556e1b0e6a" kindref="member">MR_OutputFlows</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -859,7 +863,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_OutputFlows</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAggregateFlow_8h_1abccbba874809303d0b245d556e1b0e6a" kindref="member">MR_OutputFlows</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -987,7 +991,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_FlowAggregator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAggregateFlow_8h_1a70fffe2004b363c6827df6bc4247511a" kindref="member">MR_FlowAggregator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1005,7 +1009,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_FlowAggregator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAggregateFlow_8h_1a70fffe2004b363c6827df6bc4247511a" kindref="member">MR_FlowAggregator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1482,7 +1486,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_FlowAggregator_Flows</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAggregateFlow_8h_1a93ad6e7d3ace9eb6ab43fcba633a63ab" kindref="member">MR_FlowAggregator_Flows</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1500,7 +1504,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_FlowAggregator_Flows</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAggregateFlow_8h_1a93ad6e7d3ace9eb6ab43fcba633a63ab" kindref="member">MR_FlowAggregator_Flows</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1551,10 +1555,10 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRAggregateFlow_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13" refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRAggregateFlow_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRAggregateFlow_8h_1ac7f59a6736b29701d7e619412b6e2890" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref><sp/><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="MRAggregateFlow_8h_1ad152d6dd5d452873485ef0deae37d521" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1ad152d6dd5d452873485ef0deae37d521" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows</ref><sp/><ref refid="MRAggregateFlow_8h_1ad152d6dd5d452873485ef0deae37d521" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
@@ -1565,13 +1569,13 @@
 <codeline lineno="23" refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_MeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRAggregateFlow_8h_1a1bf1235f26ddbc6b2d06f54f5f5de6fa" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a1bf1235f26ddbc6b2d06f54f5f5de6fa" kindref="member">MR_FlowOrigin</ref><sp/><ref refid="MRAggregateFlow_8h_1a1bf1235f26ddbc6b2d06f54f5f5de6fa" kindref="member">MR_FlowOrigin</ref>;</highlight></codeline>
+<codeline lineno="28" refid="MRAggregateFlow_8h_1a1bf1235f26ddbc6b2d06f54f5f5de6fa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a1bf1235f26ddbc6b2d06f54f5f5de6fa" kindref="member">MR_FlowOrigin</ref><sp/><ref refid="MRAggregateFlow_8h_1a1bf1235f26ddbc6b2d06f54f5f5de6fa" kindref="member">MR_FlowOrigin</ref>;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRAggregateFlow_8h_1abccbba874809303d0b245d556e1b0e6a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1abccbba874809303d0b245d556e1b0e6a" kindref="member">MR_OutputFlows</ref><sp/><ref refid="MRAggregateFlow_8h_1abccbba874809303d0b245d556e1b0e6a" kindref="member">MR_OutputFlows</ref>;</highlight></codeline>
+<codeline lineno="32" refid="MRAggregateFlow_8h_1abccbba874809303d0b245d556e1b0e6a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1abccbba874809303d0b245d556e1b0e6a" kindref="member">MR_OutputFlows</ref><sp/><ref refid="MRAggregateFlow_8h_1abccbba874809303d0b245d556e1b0e6a" kindref="member">MR_OutputFlows</ref>;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRAggregateFlow_8h_1a93ad6e7d3ace9eb6ab43fcba633a63ab" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a93ad6e7d3ace9eb6ab43fcba633a63ab" kindref="member">MR_FlowAggregator_Flows</ref><sp/><ref refid="MRAggregateFlow_8h_1a93ad6e7d3ace9eb6ab43fcba633a63ab" kindref="member">MR_FlowAggregator_Flows</ref>;</highlight></codeline>
+<codeline lineno="36" refid="MRAggregateFlow_8h_1a93ad6e7d3ace9eb6ab43fcba633a63ab" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a93ad6e7d3ace9eb6ab43fcba633a63ab" kindref="member">MR_FlowAggregator_Flows</ref><sp/><ref refid="MRAggregateFlow_8h_1a93ad6e7d3ace9eb6ab43fcba633a63ab" kindref="member">MR_FlowAggregator_Flows</ref>;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRAggregateFlow_8h_1a70fffe2004b363c6827df6bc4247511a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a70fffe2004b363c6827df6bc4247511a" kindref="member">MR_FlowAggregator</ref><sp/><ref refid="MRAggregateFlow_8h_1a70fffe2004b363c6827df6bc4247511a" kindref="member">MR_FlowAggregator</ref>;</highlight></codeline>
+<codeline lineno="41" refid="MRAggregateFlow_8h_1a70fffe2004b363c6827df6bc4247511a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a70fffe2004b363c6827df6bc4247511a" kindref="member">MR_FlowAggregator</ref><sp/><ref refid="MRAggregateFlow_8h_1a70fffe2004b363c6827df6bc4247511a" kindref="member">MR_FlowAggregator</ref>;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48" refid="MRAggregateFlow_8h_1aa7f1ee2a48ed9c28e109b4978c8bef29" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRAggregateFlow_8h_1aa7f1ee2a48ed9c28e109b4978c8bef29" kindref="member">MR_FlowOrigin_Get_point</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a1bf1235f26ddbc6b2d06f54f5f5de6fa" kindref="member">MR_FlowOrigin</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
@@ -1653,18 +1657,18 @@
 <codeline lineno="262"><highlight class="normal"></highlight></codeline>
 <codeline lineno="272" refid="MRAggregateFlow_8h_1a9ed07875b6e0934c812aaf5c76264973" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*<ref refid="MRAggregateFlow_8h_1a9ed07875b6e0934c812aaf5c76264973" kindref="member">MR_FlowAggregator_computeFlow_2_std_vector_MR_FlowOrigin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a70fffe2004b363c6827df6bc4247511a" kindref="member">MR_FlowAggregator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a469ad03b384318d856e596e3ab8fc31a" kindref="member">MR_std_vector_MR_FlowOrigin</ref><sp/>*starts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1abccbba874809303d0b245d556e1b0e6a" kindref="member">MR_OutputFlows</ref><sp/>*out);</highlight></codeline>
 <codeline lineno="273"><highlight class="normal"></highlight></codeline>
-<codeline lineno="274"><highlight class="normal"></highlight><highlight class="comment">//<sp/>same<sp/>with<sp/>all<sp/>amounts<sp/>equal<sp/>to<sp/>1</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight><highlight class="comment">//<sp/>same<sp/>with<sp/>all<sp/>amounts<sp/>equal<sp/>to<sp/>1</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="281" refid="MRAggregateFlow_8h_1a650a40da9dd3165d356a9fc0081519fd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*<ref refid="MRAggregateFlow_8h_1a650a40da9dd3165d356a9fc0081519fd" kindref="member">MR_FlowAggregator_computeFlow_2_std_vector_MR_MeshTriPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a70fffe2004b363c6827df6bc4247511a" kindref="member">MR_FlowAggregator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*starts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1abccbba874809303d0b245d556e1b0e6a" kindref="member">MR_OutputFlows</ref><sp/>*out);</highlight></codeline>
 <codeline lineno="282"><highlight class="normal"></highlight></codeline>
-<codeline lineno="283"><highlight class="normal"></highlight><highlight class="comment">//<sp/>general<sp/>version<sp/>that<sp/>supplies<sp/>starts<sp/>in<sp/>a<sp/>functional<sp/>way</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight><highlight class="comment">//<sp/>general<sp/>version<sp/>that<sp/>supplies<sp/>starts<sp/>in<sp/>a<sp/>functional<sp/>way</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="292" refid="MRAggregateFlow_8h_1aba12ed87c00eff77d15ce26d32998361" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*<ref refid="MRAggregateFlow_8h_1aba12ed87c00eff77d15ce26d32998361" kindref="member">MR_FlowAggregator_computeFlow_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a70fffe2004b363c6827df6bc4247511a" kindref="member">MR_FlowAggregator</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>numStarts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a20cc56d5b9a3068314282c4ac52a2d8b" kindref="member">MR_std_function_MR_MeshTriPoint_from_uint64_t</ref><sp/>*startById,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a34270b5c9aacc40a7b8fad6ba68790b3" kindref="member">MR_std_function_float_from_uint64_t</ref><sp/>*amountById,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a6467615609523b9aa10e5ae8114665d1" kindref="member">MR_std_function_const_MR_FaceBitSet_ptr_from_uint64_t</ref><sp/>*regionById,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1abccbba874809303d0b245d556e1b0e6a" kindref="member">MR_OutputFlows</ref><sp/>*out);</highlight></codeline>
 <codeline lineno="293"><highlight class="normal"></highlight></codeline>
 <codeline lineno="301" refid="MRAggregateFlow_8h_1a0917e47bdc1b230cb6fd8da1ff4ea770" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1ad152d6dd5d452873485ef0deae37d521" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*<ref refid="MRAggregateFlow_8h_1a0917e47bdc1b230cb6fd8da1ff4ea770" kindref="member">MR_FlowAggregator_computeFlowsPerBasin_1_std_vector_MR_FlowOrigin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a70fffe2004b363c6827df6bc4247511a" kindref="member">MR_FlowAggregator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a469ad03b384318d856e596e3ab8fc31a" kindref="member">MR_std_vector_MR_FlowOrigin</ref><sp/>*starts);</highlight></codeline>
 <codeline lineno="302"><highlight class="normal"></highlight></codeline>
-<codeline lineno="303"><highlight class="normal"></highlight><highlight class="comment">//<sp/>same<sp/>with<sp/>all<sp/>amounts<sp/>equal<sp/>to<sp/>1</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight><highlight class="comment">//<sp/>same<sp/>with<sp/>all<sp/>amounts<sp/>equal<sp/>to<sp/>1</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="308" refid="MRAggregateFlow_8h_1a9ecc048f0ba395840e67b95e83a69d70" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1ad152d6dd5d452873485ef0deae37d521" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*<ref refid="MRAggregateFlow_8h_1a9ecc048f0ba395840e67b95e83a69d70" kindref="member">MR_FlowAggregator_computeFlowsPerBasin_1_std_vector_MR_MeshTriPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a70fffe2004b363c6827df6bc4247511a" kindref="member">MR_FlowAggregator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*starts);</highlight></codeline>
 <codeline lineno="309"><highlight class="normal"></highlight></codeline>
-<codeline lineno="310"><highlight class="normal"></highlight><highlight class="comment">//<sp/>general<sp/>version<sp/>that<sp/>supplies<sp/>starts<sp/>in<sp/>a<sp/>functional<sp/>way</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight><highlight class="comment">//<sp/>general<sp/>version<sp/>that<sp/>supplies<sp/>starts<sp/>in<sp/>a<sp/>functional<sp/>way</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="316" refid="MRAggregateFlow_8h_1aa5dde190719249bbe5d77380b7f6a41c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1ad152d6dd5d452873485ef0deae37d521" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows</ref><sp/>*<ref refid="MRAggregateFlow_8h_1aa5dde190719249bbe5d77380b7f6a41c" kindref="member">MR_FlowAggregator_computeFlowsPerBasin_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a70fffe2004b363c6827df6bc4247511a" kindref="member">MR_FlowAggregator</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>numStarts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a20cc56d5b9a3068314282c4ac52a2d8b" kindref="member">MR_std_function_MR_MeshTriPoint_from_uint64_t</ref><sp/>*startById,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a34270b5c9aacc40a7b8fad6ba68790b3" kindref="member">MR_std_function_float_from_uint64_t</ref><sp/>*amountById);</highlight></codeline>
 <codeline lineno="317"><highlight class="normal"></highlight></codeline>
 <codeline lineno="323" refid="MRAggregateFlow_8h_1aeb6d44566a3900f93a90426b1a965aeb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRAggregateFlow_8h_1aeb6d44566a3900f93a90426b1a965aeb" kindref="member">MR_FlowAggregator_computeCatchmentDelineation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a70fffe2004b363c6827df6bc4247511a" kindref="member">MR_FlowAggregator</ref><sp/>*_this);</highlight></codeline>

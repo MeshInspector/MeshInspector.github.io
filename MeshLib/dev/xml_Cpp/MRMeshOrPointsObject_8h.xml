@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshOrPointsObject_8h" kind="file" language="C++">
     <compoundname>MRMeshOrPointsObject.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -38,7 +38,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshOrPointsObject.h</label>
+        <label>MRMesh/MRMeshOrPointsObject.h</label>
         <link refid="MRMeshOrPointsObject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -89,7 +89,7 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="classMR_1_1MeshOrPointsObject" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MeshOrPointsObject" kindref="compound">MeshOrPointsObject</ref></highlight></codeline>
+<codeline lineno="13" refid="classMR_1_1MeshOrPointsObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8508f73963cbf0f41996e64e54b0024" kindref="member">MeshOrPointsObject</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1gac8508f73963cbf0f41996e64e54b0024" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac8508f73963cbf0f41996e64e54b0024" kindref="member">MeshOrPointsObject</ref>()<sp/>{<sp/><ref refid="group__GeneralGroup_1gabcbc6506c74c783ee36216d1ce536bed" kindref="member">reset</ref>();<sp/>}</highlight></codeline>
@@ -116,6 +116,6 @@
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPointsObject.h"/>
+    <location file="MRMesh/MRMeshOrPointsObject.h"/>
   </compounddef>
 </doxygen>

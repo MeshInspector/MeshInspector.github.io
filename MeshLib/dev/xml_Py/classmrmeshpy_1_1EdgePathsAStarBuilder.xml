@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1EdgePathsAStarBuilder" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::EdgePathsAStarBuilder</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty" prot="public" virt="non-virtual">mrmeshpy.EdgePathsBuilderT_MetricToAStarPenalty</basecompoundref>
@@ -10,7 +10,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgePathsAStarBuilder.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1abcb5845f1133a2471bb9e863352e4fd7">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -35,7 +34,6 @@
         <argsstring>(self, Mesh mesh, VertId target, VertId start)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgePathsAStarBuilder.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1abcb5845f1133a2471bb9e863352e4fd7">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -66,7 +64,6 @@
         <argsstring>(self, Mesh mesh, MeshTriPoint target, MeshTriPoint start)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgePathsAStarBuilder.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1abcb5845f1133a2471bb9e863352e4fd7">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -97,7 +94,6 @@
         <argsstring>(self, EdgePathsAStarBuilder arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgePathsAStarBuilder.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1abcb5845f1133a2471bb9e863352e4fd7">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -156,6 +152,17 @@ using A* heuristics
       <member refid="classmrmeshpy_1_1EdgePathsAStarBuilder_1abc66149b3356cc5985bc981077f66742" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1EdgePathsAStarBuilder_1a9d1028e0e041097e13f18d108d6089b4" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1EdgePathsAStarBuilder_1a68438cc7012b1c89ba3857306c4d0941" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1adbabf07f473d945ab10e69f1c10e0769" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>addOrgRingSteps</name></member>
+      <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1aa0cf6fedf311764be141be0b7b69e9c3" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>addStart</name></member>
+      <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a49c3a3acee2b66bceca63e6d2738d4e6" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>done</name></member>
+      <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a598fe7b72e973724960202cb90d0b9aa" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>doneDistance</name></member>
+      <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a7443336979d1371c20b3fa6d50bb8781" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>getPathBack</name></member>
+      <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a476bbb4ec6b298d434f7af0ad50ec583" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>getVertInfo</name></member>
+      <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1abed6904ca5288887ae179610944a100d" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>growOneEdge</name></member>
+      <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a773bd57d763d0fa5dca8b1c8f54b3c62" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>reachNext</name></member>
+      <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a3b670650a5cf7b6f27a81b0482f47e6b" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a3f91f8742501b045c0b06e8c80a4142c" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>trackPathBack</name></member>
+      <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a1a8dda29273c4a6a22c9d454a6783247" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>vertPathInfoMap</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

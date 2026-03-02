@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshDoubleLayer_8h" kind="file" language="C++">
     <compoundname>MRMeshDoubleLayer.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -15,7 +15,7 @@
         <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
-        <label>MRMeshDoubleLayer.h</label>
+        <label>MRMesh/MRMeshDoubleLayer.h</label>
         <link refid="MRMeshDoubleLayer_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -84,8 +84,8 @@
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1gac69f2cbf1961ebd6741f9b67431794df" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1gac69f2cbf1961ebd6741f9b67431794df" kindref="member">findOuterLayer</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh<sp/>);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDoubleLayer.h"/>
+    <location file="MRMesh/MRMeshDoubleLayer.h"/>
   </compounddef>
 </doxygen>

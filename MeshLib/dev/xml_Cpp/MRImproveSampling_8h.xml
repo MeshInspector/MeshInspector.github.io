@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRImproveSampling_8h" kind="file" language="C++">
     <compoundname>MRImproveSampling.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -12,7 +12,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRImproveSampling.h</label>
+        <label>MRMesh/MRImproveSampling.h</label>
         <link refid="MRImproveSampling_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -121,8 +121,8 @@
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44" refid="group__PointCloudGroup_1gaac1c0003890912dca03aafa624951ad4" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__PointCloudGroup_1gaac1c0003890912dca03aafa624951ad4" kindref="member">improveSampling</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/>VertBitSet<sp/>&amp;<sp/>samples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImproveSamplingSettings" kindref="compound">ImproveSamplingSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImproveSampling.h"/>
+    <location file="MRMesh/MRImproveSampling.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MeshRelaxParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MeshRelaxParams</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1RelaxParams" prot="public" virt="non-virtual">mrmeshpy.RelaxParams</basecompoundref>
@@ -44,13 +44,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MeshRelaxParams.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RelaxParams_1a95c7f1ebbf249c1fedb064f519fa4ea8">__init__</reimplements>
-        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a74288e8a6a0e4e3a93e81862174e5d49">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a77d98d4d670d0d2195dfcd014c96321d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a0386732f5ecb2e2c8340446cf7ff5ece">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1af6ba7060a295ccde3d0290f10c8c718b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1acc711fca02b9ab75b26f6b792a5729ce">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a274fad15fa184de954d84f4930933bb3">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -129,13 +122,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MeshRelaxParams.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RelaxParams_1a95c7f1ebbf249c1fedb064f519fa4ea8">__init__</reimplements>
-        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a74288e8a6a0e4e3a93e81862174e5d49">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a77d98d4d670d0d2195dfcd014c96321d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a0386732f5ecb2e2c8340446cf7ff5ece">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1af6ba7060a295ccde3d0290f10c8c718b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1acc711fca02b9ab75b26f6b792a5729ce">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a274fad15fa184de954d84f4930933bb3">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -154,13 +140,6 @@
         <argsstring>(self, MeshRelaxParams arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MeshRelaxParams.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RelaxParams_1a95c7f1ebbf249c1fedb064f519fa4ea8">__init__</reimplements>
-        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a74288e8a6a0e4e3a93e81862174e5d49">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a77d98d4d670d0d2195dfcd014c96321d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a0386732f5ecb2e2c8340446cf7ff5ece">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1af6ba7060a295ccde3d0290f10c8c718b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1acc711fca02b9ab75b26f6b792a5729ce">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a274fad15fa184de954d84f4930933bb3">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -300,24 +279,10 @@
         <link refid="classmrmeshpy_1_1MeshRelaxParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_hardSmoothTetrahedrons</edgelabel>
-          <edgelabel>_offsetof_weights</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.RelaxParams</label>
         <link refid="classmrmeshpy_1_1RelaxParams"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_force</edgelabel>
-          <edgelabel>_offsetof_iterations</edgelabel>
-          <edgelabel>_offsetof_limitNearInitial</edgelabel>
-          <edgelabel>_offsetof_maxInitialDist</edgelabel>
-          <edgelabel>_offsetof_region</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34205" bodyend="34246"/>
@@ -325,12 +290,27 @@
       <member refid="classmrmeshpy_1_1MeshRelaxParams_1aea05903fe87f8c86fe3684dbdd89e842" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshRelaxParams_1ae8a71231f773b03dfafc220e96a3ceed" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshRelaxParams_1affa29ba69fd1bf324019147f24aec9b9" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a0abc4540e7a1dceca05532f83805798d" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>_offsetof_force</name></member>
       <member refid="classmrmeshpy_1_1MeshRelaxParams_1acf4bbafd2292b4b1f9cbcfd4165afde3" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>_offsetof_hardSmoothTetrahedrons</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a4dbf7abbad7ece06d51acae2564f3f4d" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>_offsetof_iterations</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1af24b5738eccaa7ecbc122678716b8851" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>_offsetof_limitNearInitial</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a0b92ca2a90aaf638d65383b75a82661f" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>_offsetof_maxInitialDist</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a880bc11dc81254d52fa31ad35b44fa7e" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>_offsetof_region</name></member>
       <member refid="classmrmeshpy_1_1MeshRelaxParams_1ae26f379815abc4182311a829d5475ab1" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>_offsetof_weights</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a50cf8dcf97e972a6edc0d47c1ee1dd3e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>force</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a13bf0dd030baeca317670c6d33c74fe4" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>force</name></member>
       <member refid="classmrmeshpy_1_1MeshRelaxParams_1a983affa5cbe5ee3c52b8a29bea7e076b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>hardSmoothTetrahedrons</name></member>
       <member refid="classmrmeshpy_1_1MeshRelaxParams_1a23eb82779d0d3407ad5688db3e277e9f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>hardSmoothTetrahedrons</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a68f885712a7a1f4522fddc1eaa0d163c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>iterations</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a35e06939d6f9c2868a2009ba180cdf83" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>iterations</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1ab6ff32ad8ff49d4f9e37b09d63a4bbee" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>limitNearInitial</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a78d217d8e068c4182eaf9a88db99d486" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>limitNearInitial</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a9a5588d458a45c4730429d7fa4e1d45e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>maxInitialDist</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1abbbd4e47677582624306fbf6d815071e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>maxInitialDist</name></member>
       <member refid="classmrmeshpy_1_1MeshRelaxParams_1ab906c1b41ca2777c6e23f9ce74118fc5" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1MeshRelaxParams_1ab906c1b41ca2777c6e23f9ce74118fc5" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a3c50015019e887ebe84ccf46a5eb5526" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1ada1587f87d7047c2c5ef3bdf29526932" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>region</name></member>
       <member refid="classmrmeshpy_1_1MeshRelaxParams_1a0239cf6d7feec0e0325551a68f421b2b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>weights</name></member>
       <member refid="classmrmeshpy_1_1MeshRelaxParams_1a305b7d103879184cfc7d5654f6d82a40" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>weights</name></member>
     </listofallmembers>

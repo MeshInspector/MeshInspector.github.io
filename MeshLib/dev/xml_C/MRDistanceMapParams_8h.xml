@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRDistanceMapParams_8h" kind="file" language="C++">
     <compoundname>MRDistanceMapParams.h</compoundname>
     <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
@@ -112,99 +112,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRDistanceMapParams_8h_1a05745414240b5f207ca38fdc6d06f099" prot="public" static="no">
-        <type>struct MR_Box2f</type>
-        <definition>typedef struct MR_Box2f MR_Box2f</definition>
-        <argsstring></argsstring>
-        <name>MR_Box2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" line="16" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRDistanceMapParams_8h_1a864a32707cffe3bd344334f0e4b292cf" prot="public" static="no">
-        <type>struct MR_Matrix3f</type>
-        <definition>typedef struct MR_Matrix3f MR_Matrix3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Matrix3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" line="17" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRDistanceMapParams_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref></type>
-        <definition>typedef struct MR_MeshPart MR_MeshPart</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshPart</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" line="18" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRDistanceMapParams_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" line="19" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRDistanceMapParams_8h_1a603c36c96311a8cb693f3e5500963e17" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref></type>
-        <definition>typedef struct MR_std_vector_std_vector_MR_Vector2f MR_std_vector_std_vector_MR_Vector2f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_vector_MR_Vector2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" line="20" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRDistanceMapParams_8h_1a23925ade3ecef5dcb8ca148e5af923f1" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMap_8h_1a23925ade3ecef5dcb8ca148e5af923f1" kindref="member">MR_MeshToDistanceMapParams</ref></type>
-        <definition>typedef struct MR_MeshToDistanceMapParams MR_MeshToDistanceMapParams</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshToDistanceMapParams</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::MeshToDistanceMapParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" line="25" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRDistanceMapParams_8h_1ad61286dbd4af331e293fe93f97dbf8c4" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMap_8h_1ad61286dbd4af331e293fe93f97dbf8c4" kindref="member">MR_ContourToDistanceMapParams</ref></type>
-        <definition>typedef struct MR_ContourToDistanceMapParams MR_ContourToDistanceMapParams</definition>
-        <argsstring></argsstring>
-        <name>MR_ContourToDistanceMapParams</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Structure with parameters to generate DistanceMap by Contours Generated from class <computeroutput>MR::ContourToDistanceMapParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" line="30" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" prot="public" static="no">
         <type>struct <ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref></type>
         <definition>typedef struct MR_DistanceMapToWorld MR_DistanceMapToWorld</definition>
@@ -218,34 +125,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" line="35" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRDistanceMapParams_8h_1acb7982850a6576e45e73598937682264" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref></type>
-        <definition>typedef struct MR_DistanceMapLoadSettings MR_DistanceMapLoadSettings</definition>
-        <argsstring></argsstring>
-        <name>MR_DistanceMapLoadSettings</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>settings for loading distance maps from external formats Generated from class <computeroutput>MR::DistanceMapLoadSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" line="40" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" bodystart="40" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRDistanceMapParams_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" prot="public" static="no">
-        <type>struct <ref refid="MRTiff_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" kindref="member">MR_DistanceMapSaveSettings</ref></type>
-        <definition>typedef struct MR_DistanceMapSaveSettings MR_DistanceMapSaveSettings</definition>
-        <argsstring></argsstring>
-        <name>MR_DistanceMapSaveSettings</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>determines how to save distance maps Generated from class <computeroutput>MR::DistanceMapSaveSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). Cartesian range vector between distance map borders in X direction Returns a pointer to a member variable of class <computeroutput>MR::MeshToDistanceMapParams</computeroutput> named <computeroutput>xRange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" line="45" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapParams.h" bodystart="45" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -1079,7 +958,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshToDistanceMapParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRDistanceMap_8h_1a23925ade3ecef5dcb8ca148e5af923f1" kindref="member">MR_MeshToDistanceMapParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1097,7 +976,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MeshToDistanceMapParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRDistanceMap_8h_1a23925ade3ecef5dcb8ca148e5af923f1" kindref="member">MR_MeshToDistanceMapParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1661,7 +1540,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ContourToDistanceMapParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRDistanceMap_8h_1ad61286dbd4af331e293fe93f97dbf8c4" kindref="member">MR_ContourToDistanceMapParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1679,7 +1558,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ContourToDistanceMapParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRDistanceMap_8h_1ad61286dbd4af331e293fe93f97dbf8c4" kindref="member">MR_ContourToDistanceMapParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2178,7 +2057,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_DistanceMapToWorld</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2196,7 +2075,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_DistanceMapToWorld</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2549,7 +2428,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_DistanceMapLoadSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2567,7 +2446,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_DistanceMapLoadSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2858,7 +2737,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_DistanceMapSaveSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRTiff_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" kindref="member">MR_DistanceMapSaveSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2876,7 +2755,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_DistanceMapSaveSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRTiff_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" kindref="member">MR_DistanceMapSaveSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2931,22 +2810,22 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRDistanceMapParams_8h_1a05745414240b5f207ca38fdc6d06f099" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref><sp/><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRDistanceMapParams_8h_1a864a32707cffe3bd344334f0e4b292cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMatrix3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRDistanceMapParams_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRDistanceMapParams_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRDistanceMapParams_8h_1a603c36c96311a8cb693f3e5500963e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref><sp/><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMatrix3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MRDistanceMapParams_8h_1a23925ade3ecef5dcb8ca148e5af923f1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a23925ade3ecef5dcb8ca148e5af923f1" kindref="member">MR_MeshToDistanceMapParams</ref><sp/><ref refid="MRDistanceMap_8h_1a23925ade3ecef5dcb8ca148e5af923f1" kindref="member">MR_MeshToDistanceMapParams</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a23925ade3ecef5dcb8ca148e5af923f1" kindref="member">MR_MeshToDistanceMapParams</ref><sp/><ref refid="MRDistanceMap_8h_1a23925ade3ecef5dcb8ca148e5af923f1" kindref="member">MR_MeshToDistanceMapParams</ref>;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRDistanceMapParams_8h_1ad61286dbd4af331e293fe93f97dbf8c4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1ad61286dbd4af331e293fe93f97dbf8c4" kindref="member">MR_ContourToDistanceMapParams</ref><sp/><ref refid="MRDistanceMap_8h_1ad61286dbd4af331e293fe93f97dbf8c4" kindref="member">MR_ContourToDistanceMapParams</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1ad61286dbd4af331e293fe93f97dbf8c4" kindref="member">MR_ContourToDistanceMapParams</ref><sp/><ref refid="MRDistanceMap_8h_1ad61286dbd4af331e293fe93f97dbf8c4" kindref="member">MR_ContourToDistanceMapParams</ref>;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref><sp/><ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref>;</highlight></codeline>
+<codeline lineno="35" refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref><sp/><ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref>;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRDistanceMapParams_8h_1acb7982850a6576e45e73598937682264" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref>;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRDistanceMapParams_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" kindref="member">MR_DistanceMapSaveSettings</ref><sp/><ref refid="MRTiff_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" kindref="member">MR_DistanceMapSaveSettings</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" kindref="member">MR_DistanceMapSaveSettings</ref><sp/><ref refid="MRTiff_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" kindref="member">MR_DistanceMapSaveSettings</ref>;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="52" refid="MRDistanceMapParams_8h_1a0f166ea4ff680f2eac16cb44e6ccbde5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1a0f166ea4ff680f2eac16cb44e6ccbde5" kindref="member">MR_MeshToDistanceMapParams_Get_xRange</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a23925ade3ecef5dcb8ca148e5af923f1" kindref="member">MR_MeshToDistanceMapParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>

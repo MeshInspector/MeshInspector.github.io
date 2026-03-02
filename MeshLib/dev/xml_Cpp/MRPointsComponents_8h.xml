@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointsComponents_8h" kind="file" language="C++">
     <compoundname>MRPointsComponents.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -52,7 +52,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPointsComponents.h</label>
+        <label>MRMesh/MRPointsComponents.h</label>
         <link refid="MRPointsComponents_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -166,10 +166,10 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="namespaceMR_1_1PointCloudComponents" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">PointCloudComponents</highlight></codeline>
+<codeline lineno="10" refid="namespaceMR_1_1PointCloudComponents" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PointCloudComponents" kindref="compound">PointCloudComponents</ref></highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="group__PointCloudComponentsGroup_1ga162ae0e5c789b236060b9b335feb625c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertBitSet&gt;</ref><sp/><ref refid="group__PointCloudComponentsGroup_1ga162ae0e5c789b236060b9b335feb625c" kindref="member">getLargeComponentsUnion</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDist,</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minSize,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>pc<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="24" refid="group__PointCloudComponentsGroup_1gaa6878f82b77658a2135dbb389319639c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertBitSet&gt;</ref><sp/><ref refid="group__PointCloudComponentsGroup_1ga162ae0e5c789b236060b9b335feb625c" kindref="member">getLargeComponentsUnion</ref>(<sp/><ref refid="classMR_1_1UnionFind" kindref="compound">UnionFind&lt;VertId&gt;</ref>&amp;<sp/>unionStructs,</highlight></codeline>
@@ -183,10 +183,10 @@
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41" refid="group__PointCloudComponentsGroup_1ga2fd74d609a838e30b78f03e49da4737e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;UnionFind&lt;VertId&gt;</ref>&gt;<sp/><ref refid="group__PointCloudComponentsGroup_1ga2fd74d609a838e30b78f03e49da4737e" kindref="member">getUnionFindStructureVerts</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>pc<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h"/>
+    <location file="MRMesh/MRPointsComponents.h"/>
   </compounddef>
 </doxygen>

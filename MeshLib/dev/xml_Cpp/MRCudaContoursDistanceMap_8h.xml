@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCudaContoursDistanceMap_8h" kind="file" language="C++">
     <compoundname>MRCudaContoursDistanceMap.h</compoundname>
     <includes local="yes">exports.h</includes>
     <includes refid="MRDistanceMap_8h" local="yes">MRMesh/MRDistanceMap.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRCudaContoursDistanceMap.h</label>
+        <label>MRCuda/MRCudaContoursDistanceMap.h</label>
         <link refid="MRCudaContoursDistanceMap_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -531,8 +531,8 @@
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="namespaceMR_1_1Cuda_1a57e91a18687a893997356f499e9a7e94" refkind="member"><highlight class="normal">MRCUDA_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Cuda_1a57e91a18687a893997356f499e9a7e94" kindref="member">distanceMapFromContoursHeapBytes</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga98da94791426a3dbbdeb1a6b25801df6" kindref="member">Polyline2</ref>&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaContoursDistanceMap.h"/>
+    <location file="MRCuda/MRCudaContoursDistanceMap.h"/>
   </compounddef>
 </doxygen>

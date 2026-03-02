@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewerSettingsManager" kind="class" language="C++" prot="public">
     <compoundname>MR::ViewerSettingsManager</compoundname>
     <basecompoundref refid="classMR_1_1IViewerSettingsManager" prot="public" virt="non-virtual">MR::IViewerSettingsManager</basecompoundref>
-    <includes refid="MRViewerSettingsManager_8h" local="no">MRViewerSettingsManager.h</includes>
+    <includes refid="MRViewerSettingsManager_8h" local="no">MRViewer/MRViewerSettingsManager.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga0467e77cf6f92e5f94c8d1d75eef8a76" kind="enum"><name>ObjType</name></member>
     </sectiondef>
@@ -52,7 +52,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" bodystart="35" bodyend="63"/>
+    <location file="MRViewer/MRViewerSettingsManager.h" line="34" column="1" bodyfile="MRViewer/MRViewerSettingsManager.h" bodystart="35" bodyend="63"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0f8fa1a40f357a19b3c9b3ddaeb151e1" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>getLastExtention</name></member>
       <member refid="group__GeneralGroup_1ga90a7d78d290a3fb47d55b7241f88e075" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>lastExtentions_</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSpaceMouseHandlerHidapi_8h" kind="file" language="C++">
     <compoundname>MRSpaceMouseHandlerHidapi.h</compoundname>
     <includes refid="MRSpaceMouseHandler_8h" local="yes">MRSpaceMouseHandler.h</includes>
@@ -143,7 +143,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRSpaceMouseHandlerHidapi.h</label>
+        <label>MRViewer/MRSpaceMouseHandlerHidapi.h</label>
         <link refid="MRSpaceMouseHandlerHidapi_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -310,7 +310,7 @@
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1SpaceMouse" kindref="compound">MR::SpaceMouse</ref></highlight></codeline>
 <codeline lineno="26"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="classMR_1_1SpaceMouse_1_1HandlerHidapi" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1SpaceMouse_1_1HandlerHidapi" kindref="compound">HandlerHidapi</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SpaceMouse_1_1Handler" kindref="compound">Handler</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PostFocusListener" kindref="compound">PostFocusListener</ref></highlight></codeline>
+<codeline lineno="28" refid="classMR_1_1SpaceMouse_1_1HandlerHidapi" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1ae504a5e70f7acf22ea7a2989e0069f35" kindref="member">HandlerHidapi</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SpaceMouse_1_1Handler" kindref="compound">Handler</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PostFocusListener" kindref="compound">PostFocusListener</ref></highlight></codeline>
 <codeline lineno="29"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="31" refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1ae504a5e70f7acf22ea7a2989e0069f35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1ae504a5e70f7acf22ea7a2989e0069f35" kindref="member">HandlerHidapi</ref>();</highlight></codeline>
@@ -359,6 +359,6 @@
 <codeline lineno="76"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseHandlerHidapi.h"/>
+    <location file="MRViewer/MRSpaceMouseHandlerHidapi.h"/>
   </compounddef>
 </doxygen>

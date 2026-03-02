@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CornerControllerObject" kind="class" language="C++" prot="public">
     <compoundname>MR::CornerControllerObject</compoundname>
-    <includes refid="MRViewportCornerController_8h" local="no">MRViewportCornerController.h</includes>
+    <includes refid="MRViewportCornerController_8h" local="no">MRViewer/MRViewportCornerController.h</includes>
     <innerclass refid="structMR_1_1CornerControllerObject_1_1PickedIds" prot="public">MR::CornerControllerObject::PickedIds</innerclass>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga5fbb06d04684a2ff1114174c66e0a230" kind="variable"><name>rootObj_</name></member>
@@ -27,7 +27,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" bodystart="21" bodyend="54"/>
+    <location file="MRViewer/MRViewportCornerController.h" line="20" column="1" bodyfile="MRViewer/MRViewportCornerController.h" bodystart="21" bodyend="54"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0b73d53fce94f039a4e0f80bac750519" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>connections_</name></member>
       <member refid="group__GeneralGroup_1gacab9beedac78c53c7193591ae8cfa96a" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>CornerControllerObject</name></member>

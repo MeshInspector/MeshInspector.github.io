@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1FlowAggregator_1_1Flows" kind="struct" language="C++" prot="public">
     <compoundname>MR::FlowAggregator::Flows</compoundname>
-    <includes refid="MRAggregateFlow_8h" local="no">MRAggregateFlow.h</includes>
+    <includes refid="MRAggregateFlow_8h" local="no">MRMesh/MRAggregateFlow.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gace1c7b358cce696bd6d7409cc71984d1" kind="variable"><name>polyline</name></member>
       <member refid="group__GeneralGroup_1ga1b00cb5cc3b4966d2b6b9b009a6ed153" kind="variable"><name>flowPerEdge</name></member>
@@ -11,7 +11,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="52" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="53" bodyend="56"/>
+    <location file="MRMesh/MRAggregateFlow.h" line="52" column="5" bodyfile="MRMesh/MRAggregateFlow.h" bodystart="53" bodyend="56"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1b00cb5cc3b4966d2b6b9b009a6ed153" prot="public" virt="non-virtual"><scope>MR::FlowAggregator::Flows</scope><name>flowPerEdge</name></member>
       <member refid="group__GeneralGroup_1gace1c7b358cce696bd6d7409cc71984d1" prot="public" virt="non-virtual"><scope>MR::FlowAggregator::Flows</scope><name>polyline</name></member>

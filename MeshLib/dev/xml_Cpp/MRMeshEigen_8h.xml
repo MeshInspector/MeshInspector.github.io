@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshEigen_8h" kind="file" language="C++">
     <compoundname>MRMeshEigen.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
     <includes local="no">MRPch/MREigenCore.h</includes>
-    <includedby refid="MRBestFitQuadric_8h" local="yes">MRBestFitQuadric.h</includedby>
-    <includedby refid="MRFreeFormDeformer_8h" local="yes">MRFreeFormDeformer.h</includedby>
+    <includedby refid="MRBestFitQuadric_8h" local="yes">MRMesh/MRBestFitQuadric.h</includedby>
+    <includedby refid="MRFreeFormDeformer_8h" local="yes">MRMesh/MRFreeFormDeformer.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -19,7 +19,7 @@
         <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
-        <label>MRMeshEigen.h</label>
+        <label>MRMesh/MRMeshEigen.h</label>
         <link refid="MRMeshEigen_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -81,15 +81,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRBestFitQuadric.h</label>
+        <label>MRMesh/MRBestFitQuadric.h</label>
         <link refid="MRBestFitQuadric_8h"/>
       </node>
       <node id="3">
-        <label>MRFreeFormDeformer.h</label>
+        <label>MRMesh/MRFreeFormDeformer.h</label>
         <link refid="MRFreeFormDeformer_8h"/>
       </node>
       <node id="1">
-        <label>MRMeshEigen.h</label>
+        <label>MRMesh/MRMeshEigen.h</label>
         <link refid="MRMeshEigen_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -112,7 +112,7 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="group__MeshEigenGroup_1ga0267bb7a55efaf30da7c464d5610ee99" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/><ref refid="group__MeshEigenGroup_1ga0267bb7a55efaf30da7c464d5610ee99" kindref="member">topologyFromEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Eigen::MatrixXi<sp/>&amp;<sp/>F<sp/>);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="group__MeshEigenGroup_1gac8c5bb3011d7c265fbfe5bfc5f03406b" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__MeshEigenGroup_1gac8c5bb3011d7c265fbfe5bfc5f03406b" kindref="member">meshFromEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Eigen::MatrixXd<sp/>&amp;<sp/>V,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Eigen::MatrixXi<sp/>&amp;<sp/>F<sp/>);</highlight></codeline>
@@ -124,8 +124,8 @@
 <codeline lineno="27" refid="group__MeshEigenGroup_1ga24bf8eab6bf0c1eed0bb93ca8668237d" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__MeshEigenGroup_1ga24bf8eab6bf0c1eed0bb93ca8668237d" kindref="member">meshToEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/>Eigen::MatrixXd<sp/>&amp;<sp/>V,<sp/>Eigen::MatrixXi<sp/>&amp;<sp/>F<sp/>);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshEigen.h"/>
+    <location file="MRMesh/MRMeshEigen.h"/>
   </compounddef>
 </doxygen>

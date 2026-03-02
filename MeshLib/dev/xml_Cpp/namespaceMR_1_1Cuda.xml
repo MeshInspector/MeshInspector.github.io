@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1Cuda" kind="namespace" language="C++">
     <compoundname>MR::Cuda</compoundname>
     <innerclass refid="classMR_1_1Cuda_1_1ComputeToolDistance" prot="public">MR::Cuda::ComputeToolDistance</innerclass>
@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h" line="12" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h" bodystart="12" bodyend="-1"/>
+        <location file="MRCuda/MRCudaPointsProject.h" line="12" column="21" bodyfile="MRCuda/MRCudaPointsProject.h" bodystart="12" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaContoursDistanceMap.h" line="11" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaContoursDistanceMap.h" declline="11" declcolumn="21"/>
+        <location file="MRCuda/MRCudaContoursDistanceMap.h" line="11" column="21" declfile="MRCuda/MRCudaContoursDistanceMap.h" declline="11" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Cuda_1a57e91a18687a893997356f499e9a7e94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API size_t</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaContoursDistanceMap.h" line="14" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaContoursDistanceMap.h" declline="14" declcolumn="19"/>
+        <location file="MRCuda/MRCudaContoursDistanceMap.h" line="14" column="19" declfile="MRCuda/MRCudaContoursDistanceMap.h" declline="14" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Cuda_1abe48634df88da1f3afd905bbea765155" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API float3</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaMath.h" line="26" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaMath.h" declline="26" declcolumn="19"/>
+        <location file="MRCuda/MRCudaMath.h" line="26" column="19" declfile="MRCuda/MRCudaMath.h" declline="26" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Cuda_1a3847533ea91606e4e7a4068edd599d86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API int3</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaMath.h" line="27" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaMath.h" declline="27" declcolumn="17"/>
+        <location file="MRCuda/MRCudaMath.h" line="27" column="17" declfile="MRCuda/MRCudaMath.h" declline="27" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Cuda_1a0383a2435c0b02c9305d443c8e9f5579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API <ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref></type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaMath.h" line="28" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaMath.h" declline="28" declcolumn="20"/>
+        <location file="MRCuda/MRCudaMath.h" line="28" column="20" declfile="MRCuda/MRCudaMath.h" declline="28" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Cuda_1ae00800a975100101a6b94ad8c6c4c817" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &gt;</type>
@@ -164,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaMeshDistanceMap.h" line="13" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaMeshDistanceMap.h" declline="13" declcolumn="21"/>
+        <location file="MRCuda/MRCudaMeshDistanceMap.h" line="13" column="21" declfile="MRCuda/MRCudaMeshDistanceMap.h" declline="13" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Cuda_1ad3376b68fd0e9661c0072bf92dd704a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API size_t</type>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaMeshDistanceMap.h" line="17" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaMeshDistanceMap.h" declline="17" declcolumn="19"/>
+        <location file="MRCuda/MRCudaMeshDistanceMap.h" line="17" column="19" declfile="MRCuda/MRCudaMeshDistanceMap.h" declline="17" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Cuda_1ab0b0e3af6fadf0842bbaef360071ea8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -241,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPipeline.h" line="12" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPipeline.h" declline="12" declcolumn="10"/>
+        <location file="MRCuda/MRCudaPipeline.h" line="12" column="10" declfile="MRCuda/MRCudaPipeline.h" declline="12" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Cuda_1ae65f347287f9c0ba39f2cc533c51582e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::unique_ptr&lt; <ref refid="namespaceMR_1_1Cuda_1a770259831b49f60068c30df5121056c9" kindref="member">PointCloudDataHolder</ref> &gt; &gt;</type>
@@ -270,7 +270,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointCloud.h" line="15" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointCloud.h" declline="15" declcolumn="21"/>
+        <location file="MRCuda/MRCudaPointCloud.h" line="15" column="21" declfile="MRCuda/MRCudaPointCloud.h" declline="15" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Cuda_1aaa9aa568ce6f99642f04342760455a3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API size_t</type>
@@ -299,7 +299,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointCloud.h" line="19" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointCloud.h" declline="19" declcolumn="19"/>
+        <location file="MRCuda/MRCudaPointCloud.h" line="19" column="19" declfile="MRCuda/MRCudaPointCloud.h" declline="19" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Cuda_1acdd0eaf7b314f1758bf6e417ad1f3795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; <ref refid="structMR_1_1PointsProjectionResult" kindref="compound">MR::PointsProjectionResult</ref> &gt; &gt;</type>
@@ -327,7 +327,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h" line="33" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h" declline="33" declcolumn="21"/>
+        <location file="MRCuda/MRCudaPointsProject.h" line="33" column="21" declfile="MRCuda/MRCudaPointsProject.h" declline="33" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Cuda_1ab6752d5a8d11db60ba3b3c7cd333658d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API size_t</type>
@@ -350,7 +350,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h" line="37" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h" declline="37" declcolumn="19"/>
+        <location file="MRCuda/MRCudaPointsProject.h" line="37" column="19" declfile="MRCuda/MRCudaPointsProject.h" declline="37" declcolumn="19"/>
       </memberdef>
       <member refid="group__GeneralGroup_1ga76d46e2388018a2bca5a72dfaefd30e9" kind="function"><name>pointsToDistanceVolume</name></member>
       <member refid="group__GeneralGroup_1ga2ca6e42153313ca635d7ea3e12d19bf0" kind="function"><name>pointsToDistanceVolumeByParts</name></member>
@@ -363,6 +363,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaBasic.h" line="13" column="1"/>
+    <location file="MRCuda/MRCudaBasic.h" line="13" column="1"/>
   </compounddef>
 </doxygen>

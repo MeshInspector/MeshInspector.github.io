@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay" kind="concept">
     <compoundname>MR::Features::Traits::MeasureSupportedOneWay</compoundname>
-    <includes refid="MRFeatures_8h" local="no">MRFeatures.h</includes>
+    <includes refid="MRFeatures_8h" local="no">MRMesh/MRFeatures.h</includes>
     <templateparamlist>
       <param>
         <type>typename A</type>
@@ -21,6 +21,6 @@ concept <ref refid="conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay" k
     <detaileddescription>
 <para>Whether we have traits to get distance from A to B. This is for internal use because it&apos;s asymmetrical, we a have a symmetrical version below. </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="267" column="1"/>
+    <location file="MRMesh/MRFeatures.h" line="267" column="1"/>
   </compounddef>
 </doxygen>

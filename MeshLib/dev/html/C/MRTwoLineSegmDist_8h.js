@@ -1,7 +1,5 @@
 var MRTwoLineSegmDist_8h =
 [
-    [ "MR_LineSegm3d", "MRTwoLineSegmDist_8h.html#a438f2f50208ff37150a7ac5a2725ac05", null ],
-    [ "MR_LineSegm3f", "MRTwoLineSegmDist_8h.html#a39540ed403db4865d7d6ce134f7654c1", null ],
     [ "MR_TwoLineSegmClosestPoints_double", "MRTwoLineSegmDist_8h.html#ae4fdd6d3e98f13d0ad9bfdda791811e4", null ],
     [ "MR_TwoLineSegmClosestPoints_float", "MRTwoLineSegmDist_8h.html#aaf5e73314bc6e11e389029131788e76f", null ],
     [ "MR_findTwoLineSegmClosestPoints_MR_LineSegm3d", "MRTwoLineSegmDist_8h.html#a3f1f058f2030daf8616f9ff93f0061e0", null ],

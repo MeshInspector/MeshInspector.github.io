@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCudaAccessor_8h" kind="file" language="C++">
     <compoundname>MRCudaAccessor.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -252,7 +252,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRCudaAccessor.h</label>
+        <label>MRViewer/MRCudaAccessor.h</label>
         <link refid="MRCudaAccessor_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -397,8 +397,8 @@
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">PointsToDistanceVolumeParams;</highlight></codeline>
-<codeline lineno="22" refid="classMR_1_1CudaAccessor" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1CudaAccessor" kindref="compound">CudaAccessor</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref>;</highlight></codeline>
+<codeline lineno="22" refid="classMR_1_1CudaAccessor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/>CudaAccessor</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="26" refid="group__GeneralGroup_1gaa67f49b71c900e67a603dc5a6960d567" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaa67f49b71c900e67a603dc5a6960d567" kindref="member">CudaFreeMemoryFunc</ref><sp/>=<sp/>std::function&lt;size_t()&gt;;</highlight></codeline>
@@ -408,7 +408,7 @@
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MRVIEWER_NO_VOXELS</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="35" refid="group__GeneralGroup_1ga7acccf65074e9ea99f88143c0ba0816a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga7acccf65074e9ea99f88143c0ba0816a" kindref="member">CudaPointsToDistanceVolumeCallback</ref><sp/>=<sp/>std::function&lt;Expected&lt;SimpleVolumeMinMax&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref>&amp;<sp/>params<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1gab4da14893aa8c8e22579f15c1bb64991" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gab4da14893aa8c8e22579f15c1bb64991" kindref="member">CudaPointsToDistanceVolumeByPartsCallback</ref><sp/>=<sp/>std::function&lt;Expected&lt;void&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref>&amp;<sp/>params,<sp/>std::function&lt;<ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SimpleVolumeMinMax&amp;<sp/>volume,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>zOffset<sp/>)&gt;<sp/>addPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerOverlap<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1gab4da14893aa8c8e22579f15c1bb64991" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gab4da14893aa8c8e22579f15c1bb64991" kindref="member">CudaPointsToDistanceVolumeByPartsCallback</ref><sp/>=<sp/>std::function&lt;Expected&lt;void&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref>&amp;<sp/>params,<sp/>std::function&lt;<ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga267a0a12925eb023cff1bca0f9b620b4" kindref="member">SimpleVolumeMinMax</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga20e9ae03dbf954625936ada6b2cbcf60" kindref="member">volume</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>zOffset<sp/>)&gt;<sp/>addPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerOverlap<sp/>)&gt;;</highlight></codeline>
 <codeline lineno="38" refid="group__GeneralGroup_1ga20534546f2d694b2e2c2687832828ae2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga20534546f2d694b2e2c2687832828ae2" kindref="member">CudaComputeToolDistanceConstructor</ref><sp/>=<sp/>std::function&lt;std::unique_ptr&lt;IComputeToolDistance&gt;()&gt;;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
@@ -444,7 +444,7 @@
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
 <codeline lineno="83" refid="group__GeneralGroup_1ga4451b1fc3c59b88da807d0aec38e1c18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::unique_ptr&lt;IPointsProjector&gt;<sp/><ref refid="group__GeneralGroup_1ga4451b1fc3c59b88da807d0aec38e1c18" kindref="member">getCudaPointsProjector</ref>();</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MRVIEWER_NO_VOXELS</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MRVIEWER_NO_VOXELS</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="87" refid="group__GeneralGroup_1gac1939931888d9ee533e9e5817c8c7f6e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7acccf65074e9ea99f88143c0ba0816a" kindref="member">CudaPointsToDistanceVolumeCallback</ref><sp/><ref refid="group__GeneralGroup_1gac1939931888d9ee533e9e5817c8c7f6e" kindref="member">getCudaPointsToDistanceVolumeCallback</ref>();</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
 <codeline lineno="90" refid="group__GeneralGroup_1ga2f2555ad8d3608347d33805c76bad5db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab4da14893aa8c8e22579f15c1bb64991" kindref="member">CudaPointsToDistanceVolumeByPartsCallback</ref><sp/><ref refid="group__GeneralGroup_1ga2f2555ad8d3608347d33805c76bad5db" kindref="member">getCudaPointsToDistanceVolumeByPartsCallback</ref>();</highlight></codeline>
@@ -463,10 +463,10 @@
 <codeline lineno="120" refid="group__GeneralGroup_1gaf256c0dc65f9c1c49975ec3166fa6554" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf256c0dc65f9c1c49975ec3166fa6554" kindref="member">pointsToDistanceVolumeMemory</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertNormals*<sp/>ptNormals<sp/>);</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1CudaAccessor" kindref="compound">CudaAccessor</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1CudaAccessor" kindref="compound">~CudaAccessor</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>CudaAccessor()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>~CudaAccessor()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1CudaAccessor" kindref="compound">CudaAccessor</ref>&amp;<sp/>instance_();</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>CudaAccessor&amp;<sp/>instance_();</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
 <codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isCudaAvailable_<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxDriverVersion_<sp/>=<sp/>0;</highlight></codeline>
@@ -484,8 +484,8 @@
 <codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="142"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="144"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCudaAccessor.h"/>
+    <location file="MRViewer/MRCudaAccessor.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRGcodeProcessor_8h" kind="file" language="C++">
     <compoundname>MRGcodeProcessor.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -10,7 +10,7 @@
     <includes local="no">string</includes>
     <includes local="no">optional</includes>
     <includes local="no">functional</includes>
-    <includedby refid="MRObjectGcode_8h" local="yes">MRObjectGcode.h</includedby>
+    <includedby refid="MRObjectGcode_8h" local="yes">MRMesh/MRObjectGcode.h</includedby>
     <incdepgraph>
       <node id="24">
         <label>MRCNCMachineSettings.h</label>
@@ -37,7 +37,7 @@
         <link refid="MRConstants_8h"/>
       </node>
       <node id="1">
-        <label>MRGcodeProcessor.h</label>
+        <label>MRMesh/MRGcodeProcessor.h</label>
         <link refid="MRGcodeProcessor_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -200,13 +200,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRGcodeProcessor.h</label>
+        <label>MRMesh/MRGcodeProcessor.h</label>
         <link refid="MRGcodeProcessor_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRObjectGcode.h</label>
+        <label>MRMesh/MRObjectGcode.h</label>
         <link refid="MRObjectGcode_8h"/>
       </node>
     </invincdepgraph>
@@ -235,7 +235,7 @@
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="classMR_1_1GcodeProcessor" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1GcodeProcessor" kindref="compound">GcodeProcessor</ref></highlight></codeline>
+<codeline lineno="19" refid="classMR_1_1GcodeProcessor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1GcodeProcessor" kindref="compound">GcodeProcessor</ref></highlight></codeline>
 <codeline lineno="20"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
@@ -245,16 +245,16 @@
 <codeline lineno="27" refid="group__GeneralGroup_1ga3c7b474aeb8051a9fb1afb927f011f45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Vec&gt;<sp/><ref refid="group__GeneralGroup_1ga3c7b474aeb8051a9fb1afb927f011f45" kindref="member">path</ref>;</highlight></codeline>
 <codeline lineno="29" refid="group__GeneralGroup_1ga9270868b501d221ffbe92fc1d7c8916e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga9270868b501d221ffbe92fc1d7c8916e" kindref="member">warning</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="31" refid="group__GeneralGroup_1ga02000ae4305a16e7aca1e6e09bb7e25a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1GcodeProcessor_1_1BaseAction" kindref="compound">BaseAction2f</ref><sp/>=<sp/><ref refid="structMR_1_1GcodeProcessor_1_1BaseAction" kindref="compound">BaseAction&lt;Vector2f&gt;</ref>;</highlight></codeline>
-<codeline lineno="32" refid="group__GeneralGroup_1ga88ffeb0a2dcab67b585df870268d537d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1GcodeProcessor_1_1BaseAction" kindref="compound">BaseAction3f</ref><sp/>=<sp/><ref refid="structMR_1_1GcodeProcessor_1_1BaseAction" kindref="compound">BaseAction&lt;Vector3f&gt;</ref>;</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1ga02000ae4305a16e7aca1e6e09bb7e25a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga02000ae4305a16e7aca1e6e09bb7e25a" kindref="member">BaseAction2f</ref><sp/>=<sp/><ref refid="structMR_1_1GcodeProcessor_1_1BaseAction" kindref="compound">BaseAction&lt;Vector2f&gt;</ref>;</highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1ga88ffeb0a2dcab67b585df870268d537d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga88ffeb0a2dcab67b585df870268d537d" kindref="member">BaseAction3f</ref><sp/>=<sp/><ref refid="structMR_1_1GcodeProcessor_1_1BaseAction" kindref="compound">BaseAction&lt;Vector3f&gt;</ref>;</highlight></codeline>
 <codeline lineno="34" refid="structMR_1_1GcodeProcessor_1_1MoveAction" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1GcodeProcessor_1_1MoveAction" kindref="compound">MoveAction</ref></highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1gafb16d620b32465be3a1f27d50c1640d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1GcodeProcessor_1_1BaseAction" kindref="compound">BaseAction3f</ref><sp/><ref refid="group__GeneralGroup_1gafb16d620b32465be3a1f27d50c1640d3" kindref="member">action</ref>;</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1gafb16d620b32465be3a1f27d50c1640d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga88ffeb0a2dcab67b585df870268d537d" kindref="member">BaseAction3f</ref><sp/><ref refid="group__GeneralGroup_1gafb16d620b32465be3a1f27d50c1640d3" kindref="member">action</ref>;</highlight></codeline>
 <codeline lineno="37" refid="group__GeneralGroup_1ga3d704b08012c57fec93ba58808ee3421" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga3d704b08012c57fec93ba58808ee3421" kindref="member">toolDirection</ref>;<sp/></highlight></codeline>
-<codeline lineno="38" refid="group__GeneralGroup_1ga31e8f3ca925b988d46df24c5b5bf8ddd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>idle<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="39" refid="group__GeneralGroup_1ga084a7529a3f6202733cdf15bef0d70df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>feedrate<sp/>=<sp/>100.f;</highlight></codeline>
-<codeline lineno="41" refid="group__GeneralGroup_1ga9c37820f22dbbb3c0a9fc9b01369abbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9c37820f22dbbb3c0a9fc9b01369abbc" kindref="member">valid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>action.<ref refid="group__GeneralGroup_1ga9270868b501d221ffbe92fc1d7c8916e" kindref="member">warning</ref>.empty();<sp/>}</highlight></codeline>
-<codeline lineno="42" refid="group__GeneralGroup_1ga85b84c7e86dfe85baf10dcab2f46c9d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>valid();<sp/>}</highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1ga31e8f3ca925b988d46df24c5b5bf8ddd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga31e8f3ca925b988d46df24c5b5bf8ddd" kindref="member">idle</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1ga084a7529a3f6202733cdf15bef0d70df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga084a7529a3f6202733cdf15bef0d70df" kindref="member">feedrate</ref><sp/>=<sp/>100.f;</highlight></codeline>
+<codeline lineno="41" refid="group__GeneralGroup_1ga9c37820f22dbbb3c0a9fc9b01369abbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9c37820f22dbbb3c0a9fc9b01369abbc" kindref="member">valid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafb16d620b32465be3a1f27d50c1640d3" kindref="member">action</ref>.warning.empty();<sp/>}</highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1ga85b84c7e86dfe85baf10dcab2f46c9d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9c37820f22dbbb3c0a9fc9b01369abbc" kindref="member">valid</ref>();<sp/>}</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46" refid="group__GeneralGroup_1gaac3c3659ce152745f2daae131d72fa66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaac3c3659ce152745f2daae131d72fa66" kindref="member">reset</ref>();</highlight></codeline>
@@ -289,7 +289,7 @@
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>MoveAction<sp/>generateReturnToHomeAction_();</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>resetTemporaryStates_();</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>MoveAction<sp/>moveLine_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>newPoint,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>newAngles<sp/>);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>MoveAction<sp/>moveArc_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>newPoint,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>newAngles,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>clockwise<sp/>);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
@@ -297,7 +297,7 @@
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
 <codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateScaling_();</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
 <codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>BaseAction2f<sp/>getArcPoints2_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>beginPoint,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>endPoint,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>clockwise<sp/>);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>BaseAction3f<sp/>getArcPoints3_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>center,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>beginPoint,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>endPoint,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>clockwise<sp/>);</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>BaseAction3f<sp/>getArcPoints3_(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>beginPoint,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>endPoint,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>clockwise<sp/>);</highlight></codeline>
@@ -356,6 +356,6 @@
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
 <codeline lineno="169"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h"/>
+    <location file="MRMesh/MRGcodeProcessor.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RadiusMeasurementObject" kind="class" language="C#" prot="public">
     <compoundname>MR::RadiusMeasurementObject</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_RadiusMeasurementObject</basecompoundref>
@@ -204,7 +204,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.RadiusMeasurementObject.RadiusMeasurementObject</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1a887d94d14dc2586d0673052d3560776b" kindref="member">MR.RadiusMeasurementObject.RadiusMeasurementObject</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -223,7 +223,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.RadiusMeasurementObject.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::RadiusMeasurementObject::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -646,7 +646,7 @@
 <parametername>mask</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>is a union of DirtyFlags flags </para>
+<para>is a union of <ref refid="classMR_1afdc8eb214c61d43e8ef39575a19d0e29" kindref="member">DirtyFlags</ref> flags </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1213,7 +1213,7 @@
           <declname>tag</declname>
         </param>
         <briefdescription>
-<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager.tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1a75c2da9e05795083ae90e4fde0f023b0" kindref="member">MR.RadiusMeasurementObject.addTag</ref></computeroutput>. </para>
+<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager::tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1a75c2da9e05795083ae90e4fde0f023b0" kindref="member">MR.RadiusMeasurementObject.addTag</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1232,7 +1232,7 @@
           <declname>tag</declname>
         </param>
         <briefdescription>
-<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager.tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1ab35d664e55c32757cb7754ba468da17c" kindref="member">MR.RadiusMeasurementObject.removeTag</ref></computeroutput>. </para>
+<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager::tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1ab35d664e55c32757cb7754ba468da17c" kindref="member">MR.RadiusMeasurementObject.removeTag</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1247,45 +1247,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_RadiusMeasurementObject</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.RadiusMeasurementObject</label>
         <link refid="classMR_1_1RadiusMeasurementObject"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_RadiusMeasurementObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_RadiusMeasurementObject &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_RadiusMeasurementObject</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.RadiusMeasurementObject</label>
         <link refid="classMR_1_1RadiusMeasurementObject"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_RadiusMeasurementObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_RadiusMeasurementObject &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="990" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="991" bodyend="1671"/>

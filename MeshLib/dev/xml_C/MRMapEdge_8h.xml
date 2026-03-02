@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMapEdge_8h" kind="file" language="C++">
     <compoundname>MRMapEdge.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -47,49 +47,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>stores a mapping from keys K to values V in one of two forms: 1) as dense map (vector) preferable when there are few missing keys in a range [0, endKey) 2) as hash map preferable when valid keys are a small subset of the range Generated from class <computeroutput>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMapEdge.h" line="10" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMapEdge.h" bodystart="10" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMapEdge_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref></type>
-        <definition>typedef struct MR_UndirectedEdgeBMap MR_UndirectedEdgeBMap</definition>
-        <argsstring></argsstring>
-        <name>MR_UndirectedEdgeBMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMapEdge.h" line="11" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMapEdge.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMapEdge_8h_1ac7f59a6736b29701d7e619412b6e2890" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref></type>
-        <definition>typedef struct MR_UndirectedEdgeBitSet MR_UndirectedEdgeBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_UndirectedEdgeBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMapEdge.h" line="12" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMapEdge.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMapEdge_8h_1a50066b58d97b0be73d826cfdcc9eb188" prot="public" static="no">
-        <type>struct <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref></type>
-        <definition>typedef struct MR_WholeEdgeMap MR_WholeEdgeMap</definition>
-        <argsstring></argsstring>
-        <name>MR_WholeEdgeMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMapEdge.h" line="13" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMapEdge.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMapEdge_8h_1a05c8a0b2a783d50abb1f88499090a1c5" prot="public" static="no">
         <type>struct <ref refid="MRMapEdge_8h_1a05c8a0b2a783d50abb1f88499090a1c5" kindref="member">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</ref></type>
@@ -342,9 +304,9 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10" refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref><sp/><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMapOrHashMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRMapEdge_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref><sp/><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBuffer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRMapEdge_8h_1ac7f59a6736b29701d7e619412b6e2890" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRMapEdge_8h_1a50066b58d97b0be73d826cfdcc9eb188" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref><sp/><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBuffer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="MRMapEdge_8h_1a05c8a0b2a783d50abb1f88499090a1c5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMapEdge_8h_1a05c8a0b2a783d50abb1f88499090a1c5" kindref="member">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</ref><sp/><ref refid="MRMapEdge_8h_1a05c8a0b2a783d50abb1f88499090a1c5" kindref="member">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>

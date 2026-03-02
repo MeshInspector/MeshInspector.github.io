@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SpaceMouse_1_1Parameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::SpaceMouse::Parameters</compoundname>
-    <includes refid="MRSpaceMouseParameters_8h" local="no">MRSpaceMouseParameters.h</includes>
+    <includes refid="MRSpaceMouseParameters_8h" local="no">MRViewer/MRSpaceMouseParameters.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1SpaceMouse_1_1Parameters_1ac7bdc22af660d0605494adeb7ff2e218" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseParameters.h" line="11" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseParameters.h" bodystart="11" bodyend="11"/>
+        <location file="MRViewer/MRSpaceMouseParameters.h" line="11" column="14" bodyfile="MRViewer/MRSpaceMouseParameters.h" bodystart="11" bodyend="11"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SpaceMouse_1_1Parameters_1ac7d13b2637965b5ce8cb40ecb2a78294" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseParameters.h" line="12" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseParameters.h" bodystart="12" bodyend="12"/>
+        <location file="MRViewer/MRSpaceMouseParameters.h" line="12" column="14" bodyfile="MRViewer/MRSpaceMouseParameters.h" bodystart="12" bodyend="12"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SpaceMouse_1_1Parameters_1a95334988bb6abd60db066c5e281a594f" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -50,14 +50,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseParameters.h" line="16" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseParameters.h" bodystart="16" bodyend="16"/>
+        <location file="MRViewer/MRSpaceMouseParameters.h" line="16" column="10" bodyfile="MRViewer/MRSpaceMouseParameters.h" bodystart="16" bodyend="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseParameters.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseParameters.h" bodystart="10" bodyend="17"/>
+    <location file="MRViewer/MRSpaceMouseParameters.h" line="9" column="1" bodyfile="MRViewer/MRSpaceMouseParameters.h" bodystart="10" bodyend="17"/>
     <listofallmembers>
       <member refid="structMR_1_1SpaceMouse_1_1Parameters_1ac7d13b2637965b5ce8cb40ecb2a78294" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::Parameters</scope><name>rotateScale</name></member>
       <member refid="structMR_1_1SpaceMouse_1_1Parameters_1a95334988bb6abd60db066c5e281a594f" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::Parameters</scope><name>suppressMouseScrollZoom</name></member>

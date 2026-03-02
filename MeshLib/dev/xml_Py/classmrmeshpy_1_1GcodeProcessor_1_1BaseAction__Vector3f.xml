@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1GcodeProcessor_1_1BaseAction__Vector3f" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::GcodeProcessor::BaseAction_Vector3f</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -265,19 +265,6 @@
 Aliases:  GcodeProcessor.BaseAction3f
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.GcodeProcessor.BaseAction_Vector3f</label>
-        <link refid="classmrmeshpy_1_1GcodeProcessor_1_1BaseAction__Vector3f"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_path</edgelabel>
-          <edgelabel>_offsetof_warning</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21605" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21605" bodyend="21652"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1GcodeProcessor_1_1BaseAction__Vector3f_1af753b7aef6aaee4672f0103e9cef3bef" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::BaseAction_Vector3f</scope><name>__init__</name></member>

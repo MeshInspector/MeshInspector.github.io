@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRToolsLibrary_8h" kind="file" language="C++">
     <compoundname>MRToolsLibrary.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
@@ -45,7 +45,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRToolsLibrary.h</label>
+        <label>MRViewer/MRToolsLibrary.h</label>
         <link refid="MRToolsLibrary_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -104,9 +104,9 @@
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">EndMillTool;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1EndMillTool" kindref="compound">EndMillTool</ref>;</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="classMR_1_1GcodeToolsLibrary" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1GcodeToolsLibrary" kindref="compound">GcodeToolsLibrary</ref></highlight></codeline>
+<codeline lineno="17" refid="classMR_1_1GcodeToolsLibrary" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="group__GeneralGroup_1ga5317acdbff866aec9e102a8924741d60" kindref="member">GcodeToolsLibrary</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1ga5317acdbff866aec9e102a8924741d60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga5317acdbff866aec9e102a8924741d60" kindref="member">GcodeToolsLibrary</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>libraryName<sp/>);</highlight></codeline>
@@ -119,7 +119,7 @@
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33" refid="group__GeneralGroup_1gae33089c9019e6ce8f918a7291f9e4d89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;EndMillTool&gt;&amp;<sp/><ref refid="group__GeneralGroup_1gae33089c9019e6ce8f918a7291f9e4d89" kindref="member">getEndMillTool</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>endMillTool_;<sp/>}</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1ga6cbe9c335bb4b0794a34c8510408b830" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6cbe9c335bb4b0794a34c8510408b830" kindref="member">setAutoSize</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>size<sp/>);</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1ga6cbe9c335bb4b0794a34c8510408b830" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6cbe9c335bb4b0794a34c8510408b830" kindref="member">setAutoSize</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>std::filesystem::path<sp/>getFolder_();</highlight></codeline>
@@ -151,6 +151,6 @@
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
 <codeline lineno="75"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h"/>
+    <location file="MRViewer/MRToolsLibrary.h"/>
   </compounddef>
 </doxygen>

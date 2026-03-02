@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCudaPointsProject_8h" kind="file" language="C++">
     <compoundname>MRCudaPointsProject.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -7,7 +7,7 @@
     <includes refid="MRPointsProject_8h" local="yes">MRMesh/MRPointsProject.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRCudaPointsProject.h</label>
+        <label>MRCuda/MRCudaPointsProject.h</label>
         <link refid="MRCudaPointsProject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -158,9 +158,9 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Cuda" kindref="compound">MR::Cuda</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="namespaceMR_1_1Cuda_1a770259831b49f60068c30df5121056c9" refkind="member"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="namespaceMR_1_1Cuda_1a770259831b49f60068c30df5121056c9" kindref="member">PointCloudDataHolder</ref>;</highlight></codeline>
+<codeline lineno="12" refid="namespaceMR_1_1Cuda_1a770259831b49f60068c30df5121056c9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="namespaceMR_1_1Cuda_1a770259831b49f60068c30df5121056c9" kindref="member">PointCloudDataHolder</ref>;</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="classMR_1_1Cuda_1_1PointsProjector" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRCUDA_CLASS<sp/><ref refid="classMR_1_1Cuda_1_1PointsProjector" kindref="compound">PointsProjector</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref></highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1Cuda_1_1PointsProjector" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRCUDA_CLASS<sp/><ref refid="classMR_1_1Cuda_1_1PointsProjector" kindref="compound">PointsProjector</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="classMR_1_1Cuda_1_1PointsProjector_1ae5f97af32e2a2a8898a3063117312160" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRCUDA_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="classMR_1_1Cuda_1_1PointsProjector_1ae5f97af32e2a2a8898a3063117312160" kindref="member">setPointCloud</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
@@ -179,8 +179,8 @@
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37" refid="namespaceMR_1_1Cuda_1ab6752d5a8d11db60ba3b3c7cd333658d" refkind="member"><highlight class="normal">MRCUDA_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Cuda_1ab6752d5a8d11db60ba3b3c7cd333658d" kindref="member">findProjectionOnPointsHeapBytes</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>pointsCount<sp/>);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h"/>
+    <location file="MRCuda/MRCudaPointsProject.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ToolPathResult" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ToolPathResult</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -325,20 +325,6 @@
 <para><verbatim>Generated from:  MR::ToolPathResult
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.ToolPathResult</label>
-        <link refid="classmrmeshpy_1_1ToolPathResult"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_commands</edgelabel>
-          <edgelabel>_offsetof_modifiedMesh</edgelabel>
-          <edgelabel>_offsetof_modifiedRegion</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57381" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57381" bodyend="57436"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ToolPathResult_1ab69e22ea4b8f727ebb892c1305cc8df7" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathResult</scope><name>__init__</name></member>

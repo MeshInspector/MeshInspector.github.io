@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Box3f" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Box3f</compoundname>
     <sectiondef kind="private-static-attrib">
@@ -919,20 +919,6 @@ Aliases:  AABBTreeBase_ObjTreeTraits.BoxT, AABBTreeBase_AABBTreeTraits_Undirecte
 Box given by its min- and max- corners
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.Box3f</label>
-        <link refid="classmrmeshpy_1_1Box3f"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_max</edgelabel>
-          <edgelabel>_offsetof_min</edgelabel>
-          <edgelabel>elements</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5419" bodyend="5583"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Box3f_1a936d6b885e66416899d0c2b33c25855e" prot="public" virt="non-virtual"><scope>mrmeshpy::Box3f</scope><name>__eq__</name></member>

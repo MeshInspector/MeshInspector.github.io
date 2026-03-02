@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRLineSegm_8h" kind="file" language="C++">
     <compoundname>MRLineSegm.h</compoundname>
     <includes refid="MRVector2_8h" local="no">MRCMesh/MRVector2.h</includes>
@@ -60,46 +60,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRLineSegm_8h_1a6992d64f6703ac6d7687c699042105a2" prot="public" static="no">
-        <type>struct <ref refid="MRLine_8h_1a6992d64f6703ac6d7687c699042105a2" kindref="member">MR_Line2d</ref></type>
-        <definition>typedef struct MR_Line2d MR_Line2d</definition>
-        <argsstring></argsstring>
-        <name>MR_Line2d</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="14" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRLineSegm_8h_1a42f4324f3958a2b1ca19cd1728c5db67" prot="public" static="no">
-        <type>struct <ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref></type>
-        <definition>typedef struct MR_Line2f MR_Line2f</definition>
-        <argsstring></argsstring>
-        <name>MR_Line2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="15" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRLineSegm_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" prot="public" static="no">
-        <type>struct <ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref></type>
-        <definition>typedef struct MR_LineSegm2f MR_LineSegm2f</definition>
-        <argsstring></argsstring>
-        <name>MR_LineSegm2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::LineSegm2f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="21" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" prot="public" static="no">
         <type>struct <ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref></type>
         <definition>typedef struct MR_LineSegm2d MR_LineSegm2d</definition>
@@ -113,20 +73,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="26" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRLineSegm_8h_1a39540ed403db4865d7d6ce134f7654c1" prot="public" static="no">
-        <type>struct <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref></type>
-        <definition>typedef struct MR_LineSegm3f MR_LineSegm3f</definition>
-        <argsstring></argsstring>
-        <name>MR_LineSegm3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::LineSegm3f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" line="31" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLineSegm.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" prot="public" static="no">
         <type>struct <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref></type>
@@ -389,7 +335,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_LineSegm2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -407,7 +353,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_LineSegm2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -758,7 +704,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_LineSegm2d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -776,7 +722,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_LineSegm2d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1127,7 +1073,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_LineSegm3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1145,7 +1091,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_LineSegm3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1496,7 +1442,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_LineSegm3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1514,7 +1460,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_LineSegm3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1759,21 +1705,21 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRLineSegm_8h_1a6992d64f6703ac6d7687c699042105a2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLine_8h_1a6992d64f6703ac6d7687c699042105a2" kindref="member">MR_Line2d</ref><sp/><ref refid="MRLine_8h_1a6992d64f6703ac6d7687c699042105a2" kindref="member">MR_Line2d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRLineSegm_8h_1a42f4324f3958a2b1ca19cd1728c5db67" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref><sp/><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLine_8h_1a6992d64f6703ac6d7687c699042105a2" kindref="member">MR_Line2d</ref><sp/><ref refid="MRLine_8h_1a6992d64f6703ac6d7687c699042105a2" kindref="member">MR_Line2d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref><sp/><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>segment<sp/>of<sp/>straight<sp/>dimensional<sp/>line</highlight></codeline>
-<codeline lineno="21" refid="MRLineSegm_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>segment<sp/>of<sp/>straight<sp/>dimensional<sp/>line</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>segment<sp/>of<sp/>straight<sp/>dimensional<sp/>line</highlight></codeline>
-<codeline lineno="26" refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>segment<sp/>of<sp/>straight<sp/>dimensional<sp/>line</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref><sp/><ref refid="MRLineSegm_8h_1ae64025fe6a8da3033f534a4728469bcb" kindref="member">MR_LineSegm2d</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>segment<sp/>of<sp/>straight<sp/>dimensional<sp/>line</highlight></codeline>
-<codeline lineno="31" refid="MRLineSegm_8h_1a39540ed403db4865d7d6ce134f7654c1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>segment<sp/>of<sp/>straight<sp/>dimensional<sp/>line</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>segment<sp/>of<sp/>straight<sp/>dimensional<sp/>line</highlight></codeline>
-<codeline lineno="36" refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>segment<sp/>of<sp/>straight<sp/>dimensional<sp/>line</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref>;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="42" refid="MRLineSegm_8h_1a0320ac0fb39e1f357583e692bfc25014" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRLineSegm_8h_1a0320ac0fb39e1f357583e692bfc25014" kindref="member">MR_LineSegm2f_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>

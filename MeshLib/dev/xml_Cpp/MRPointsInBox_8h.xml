@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointsInBox_8h" kind="file" language="C++">
     <compoundname>MRPointsInBox.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -97,7 +97,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPointsInBox.h</label>
+        <label>MRMesh/MRPointsInBox.h</label>
         <link refid="MRPointsInBox_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -225,8 +225,8 @@
 <codeline lineno="30" refid="group__AABBTreeGroup_1gaa96619ba551ab32e6ead614ba614c2ba" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1gab32c13d31593c4f1ca10935b021714dc" kindref="member">findPointsInBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref>&amp;<sp/>tree,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3f&amp;<sp/>box,</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga30cd2d38272cf5fb35c10a421b4d2045" kindref="member">FoundPointCallback</ref>&amp;<sp/>foundCallback,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h"/>
+    <location file="MRMesh/MRPointsInBox.h"/>
   </compounddef>
 </doxygen>

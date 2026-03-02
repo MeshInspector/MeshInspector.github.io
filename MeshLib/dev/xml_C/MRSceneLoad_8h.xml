@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSceneLoad_8h" kind="file" language="C++">
     <compoundname>MRSceneLoad.h</compoundname>
     <includes refid="MRUnitInfo_8h" local="no">MRCMesh/MRUnitInfo.h</includes>
@@ -44,19 +44,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRSceneLoad_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="14" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" prot="public" static="no">
         <type>struct <ref refid="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" kindref="member">MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</ref></type>
         <definition>typedef struct MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</definition>
@@ -83,19 +70,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="16" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" bodystart="16" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRSceneLoad_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref></type>
-        <definition>typedef struct MR_std_optional_MR_LengthUnit MR_std_optional_MR_LengthUnit</definition>
-        <argsstring></argsstring>
-        <name>MR_std_optional_MR_LengthUnit</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="17" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" prot="public" static="no">
         <type>struct <ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref></type>
         <definition>typedef struct MR_std_shared_ptr_MR_SceneRootObject MR_std_shared_ptr_MR_SceneRootObject</definition>
@@ -108,19 +82,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="18" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRSceneLoad_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
-        <definition>typedef struct MR_std_string MR_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" line="19" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneLoad.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" prot="public" static="no">
         <type>struct <ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref></type>
@@ -492,7 +453,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SceneLoad_Settings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -510,7 +471,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SceneLoad_Settings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1017,7 +978,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SceneLoad_Result</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1035,7 +996,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SceneLoad_Result</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1136,18 +1097,18 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRSceneLoad_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" kindref="member">MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</ref><sp/><ref refid="MRSceneLoad_8h_1ae05b92327ebef6e2adc7c5fec441d62b" kindref="member">MR_std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_std_function_bool_func_from_float_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_s__c201.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRSceneLoad_8h_1a074bbbf3c4014236aec15e19ecc44531" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1a074bbbf3c4014236aec15e19ecc44531" kindref="member">MR_std_function_void_from_MR_SceneLoad_Result</ref><sp/><ref refid="MRSceneLoad_8h_1a074bbbf3c4014236aec15e19ecc44531" kindref="member">MR_std_function_void_from_MR_SceneLoad_Result</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_MR_SceneLoad_Result.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRSceneLoad_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_LengthUnit.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_LengthUnit.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref><sp/><ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_SceneRootObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRSceneLoad_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref>;</highlight></codeline>
+<codeline lineno="25" refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref>;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref>;</highlight></codeline>
+<codeline lineno="30" refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref>;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38" refid="MRSceneLoad_8h_1a32709ea3248de9c17aef21ca3b925fde" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="MRSceneLoad_8h_1a32709ea3248de9c17aef21ca3b925fde" kindref="member">MR_SceneLoad_Settings_Get_targetUnit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a07fc08c9a273afe8b79994ebec42a3cf" kindref="member">MR_SceneLoad_Settings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
@@ -1203,22 +1164,22 @@
 <codeline lineno="194"><highlight class="normal"></highlight></codeline>
 <codeline lineno="200" refid="MRSceneLoad_8h_1a2676fb7af70c15442200f34a671e39a6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/>*<ref refid="MRSceneLoad_8h_1a2676fb7af70c15442200f34a671e39a6" kindref="member">MR_SceneLoad_Result_GetMutable_loadedFiles</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203"><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>error<sp/>format</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>error<sp/>format</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="208" refid="MRSceneLoad_8h_1a540126241b571440c9be9c5580b9b487" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSceneLoad_8h_1a540126241b571440c9be9c5580b9b487" kindref="member">MR_SceneLoad_Result_Get_errorSummary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211"><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>error<sp/>format</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>error<sp/>format</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="218" refid="MRSceneLoad_8h_1a4dcdcd979d2e10ea2fb70649bbc28241" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a4dcdcd979d2e10ea2fb70649bbc28241" kindref="member">MR_SceneLoad_Result_Set_errorSummary</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
 <codeline lineno="219"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221"><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>error<sp/>format</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>error<sp/>format</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="226" refid="MRSceneLoad_8h_1a69e290b0218a5d3ec717a35f61171269" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSceneLoad_8h_1a69e290b0218a5d3ec717a35f61171269" kindref="member">MR_SceneLoad_Result_GetMutable_errorSummary</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="229"><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>warning<sp/>format</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>warning<sp/>format</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="234" refid="MRSceneLoad_8h_1a9337c4b3a78f9c0bd995357cb778d2aa" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSceneLoad_8h_1a9337c4b3a78f9c0bd995357cb778d2aa" kindref="member">MR_SceneLoad_Result_Get_warningSummary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="235"><highlight class="normal"></highlight></codeline>
-<codeline lineno="237"><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>warning<sp/>format</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>warning<sp/>format</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="244" refid="MRSceneLoad_8h_1a10660c1c89da8ffe7f6fad0141d31c99" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a10660c1c89da8ffe7f6fad0141d31c99" kindref="member">MR_SceneLoad_Result_Set_warningSummary</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="247"><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>warning<sp/>format</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>user-defined<sp/>warning<sp/>format</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="252" refid="MRSceneLoad_8h_1ad3c7fe9fec4227a6eca42ca651d1f9d0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSceneLoad_8h_1ad3c7fe9fec4227a6eca42ca651d1f9d0" kindref="member">MR_SceneLoad_Result_GetMutable_warningSummary</ref>(<ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="253"><highlight class="normal"></highlight></codeline>
 <codeline lineno="256" refid="MRSceneLoad_8h_1a89c48169d0ef98a409430a3a4c77e0f3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneLoad_8h_1aab1ebac5dd3413e876e62058be50fe65" kindref="member">MR_SceneLoad_Result</ref><sp/>*<ref refid="MRSceneLoad_8h_1a89c48169d0ef98a409430a3a4c77e0f3" kindref="member">MR_SceneLoad_Result_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>

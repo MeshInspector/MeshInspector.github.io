@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoDefInit__MRUndirectedEdgeId" kind="class" language="C#" prot="public">
     <compoundname>MR::NoDefInit_MRUndirectedEdgeId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_NoDefInit_MRUndirectedEdgeId</basecompoundref>
@@ -90,7 +90,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::NoDefInit</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoDefInit&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::NoDefInit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -109,7 +109,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::NoDefInit</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoDefInit&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::NoDefInit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -128,7 +128,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,7 +143,7 @@
         <name>get</name>
         <qualifiedname>MR.NoDefInit_MRUndirectedEdgeId.get</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::get</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::get</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -162,7 +162,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -181,7 +181,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::operator+=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -191,13 +191,19 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::NoDefInit&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.NoDefInit_MRUndirectedEdgeId</label>
+        <link refid="classMR_1_1NoDefInit__MRUndirectedEdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_NoDefInit_MRUndirectedEdgeId</label>
+        <label>MR.Const_NoDefInit_MRUndirectedEdgeId</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -205,25 +211,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.NoDefInit_MRUndirectedEdgeId</label>
-        <link refid="classMR_1_1NoDefInit__MRUndirectedEdgeId"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_NoDefInit_MRUndirectedEdgeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.UndirectedEdgeId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.NoDefInit_MRUndirectedEdgeId</label>
+        <link refid="classMR_1_1NoDefInit__MRUndirectedEdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_NoDefInit_MRUndirectedEdgeId</label>
+        <label>MR.Const_NoDefInit_MRUndirectedEdgeId</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -231,20 +237,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.NoDefInit_MRUndirectedEdgeId</label>
-        <link refid="classMR_1_1NoDefInit__MRUndirectedEdgeId"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_NoDefInit_MRUndirectedEdgeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.UndirectedEdgeId &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="172" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="173" bodyend="264"/>

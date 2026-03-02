@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1DeloneSettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::DeloneSettings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -509,23 +509,6 @@ ignore dihedral angle check if one of triangles has aspect ratio more than this 
 <para><verbatim>Generated from:  MR::DeloneSettings
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.DeloneSettings</label>
-        <link refid="classmrmeshpy_1_1DeloneSettings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_criticalTriAspectRatio</edgelabel>
-          <edgelabel>_offsetof_maxAngleChange</edgelabel>
-          <edgelabel>_offsetof_maxDeviationAfterFlip</edgelabel>
-          <edgelabel>_offsetof_notFlippable</edgelabel>
-          <edgelabel>_offsetof_region</edgelabel>
-          <edgelabel>_offsetof_vertRegion</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12498" bodyend="12581"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1DeloneSettings_1a58b6348ea3f7fe9508caacaae568aa3b" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>__init__</name></member>

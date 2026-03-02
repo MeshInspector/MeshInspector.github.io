@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRayBoxIntersection_8h" kind="file" language="C++">
     <compoundname>MRRayBoxIntersection.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -27,58 +27,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRRayBoxIntersection_8h_1a387c2b6c194640a4dfac77733cbe3880" prot="public" static="no">
-        <type>struct MR_Box3f</type>
-        <definition>typedef struct MR_Box3f MR_Box3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Box3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRayBoxIntersection.h" line="12" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRayBoxIntersection.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRayBoxIntersection_8h_1a87d83329d62d5328563c6e5b3bac7144" prot="public" static="no">
-        <type>struct <ref refid="MRIntersectionPrecomputes_8h_1a87d83329d62d5328563c6e5b3bac7144" kindref="member">MR_IntersectionPrecomputes_float</ref></type>
-        <definition>typedef struct MR_IntersectionPrecomputes_float MR_IntersectionPrecomputes_float</definition>
-        <argsstring></argsstring>
-        <name>MR_IntersectionPrecomputes_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRayBoxIntersection.h" line="13" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRayBoxIntersection.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRayBoxIntersection_8h_1aca1d803422d4caa25c56d04a67efbc52" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref></type>
-        <definition>typedef struct MR_Line3f MR_Line3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Line3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRayBoxIntersection.h" line="14" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRayBoxIntersection.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRayBoxIntersection_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
-        <type>struct MR_Vector3f</type>
-        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRayBoxIntersection.h" line="15" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRayBoxIntersection.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRRayBoxIntersection_8h_1aeea809d1ec90ea1c9da1c0e1fb31a43a" prot="public" static="no">
         <type>struct <ref refid="MRRayBoxIntersection_8h_1aeea809d1ec90ea1c9da1c0e1fb31a43a" kindref="member">MR_RayOrigin_float</ref></type>
         <definition>typedef struct MR_RayOrigin_float MR_RayOrigin_float</definition>
@@ -185,7 +133,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_RayOrigin_float</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRRayBoxIntersection_8h_1aeea809d1ec90ea1c9da1c0e1fb31a43a" kindref="member">MR_RayOrigin_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -203,7 +151,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_RayOrigin_float</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRRayBoxIntersection_8h_1aeea809d1ec90ea1c9da1c0e1fb31a43a" kindref="member">MR_RayOrigin_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -314,13 +262,13 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRRayBoxIntersection_8h_1a387c2b6c194640a4dfac77733cbe3880" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRRayBoxIntersection_8h_1a87d83329d62d5328563c6e5b3bac7144" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionPrecomputes_8h_1a87d83329d62d5328563c6e5b3bac7144" kindref="member">MR_IntersectionPrecomputes_float</ref><sp/><ref refid="MRIntersectionPrecomputes_8h_1a87d83329d62d5328563c6e5b3bac7144" kindref="member">MR_IntersectionPrecomputes_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIntersectionPrecomputes.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRRayBoxIntersection_8h_1aca1d803422d4caa25c56d04a67efbc52" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRRayBoxIntersection_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionPrecomputes_8h_1a87d83329d62d5328563c6e5b3bac7144" kindref="member">MR_IntersectionPrecomputes_float</ref><sp/><ref refid="MRIntersectionPrecomputes_8h_1a87d83329d62d5328563c6e5b3bac7144" kindref="member">MR_IntersectionPrecomputes_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIntersectionPrecomputes.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRRayBoxIntersection_8h_1aeea809d1ec90ea1c9da1c0e1fb31a43a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRayBoxIntersection_8h_1aeea809d1ec90ea1c9da1c0e1fb31a43a" kindref="member">MR_RayOrigin_float</ref><sp/><ref refid="MRRayBoxIntersection_8h_1aeea809d1ec90ea1c9da1c0e1fb31a43a" kindref="member">MR_RayOrigin_float</ref>;</highlight></codeline>
+<codeline lineno="20" refid="MRRayBoxIntersection_8h_1aeea809d1ec90ea1c9da1c0e1fb31a43a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRayBoxIntersection_8h_1aeea809d1ec90ea1c9da1c0e1fb31a43a" kindref="member">MR_RayOrigin_float</ref><sp/><ref refid="MRRayBoxIntersection_8h_1aeea809d1ec90ea1c9da1c0e1fb31a43a" kindref="member">MR_RayOrigin_float</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="MRRayBoxIntersection_8h_1a3f3f44107e27b816da5045f84e53dc00" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRayBoxIntersection_8h_1aeea809d1ec90ea1c9da1c0e1fb31a43a" kindref="member">MR_RayOrigin_float</ref><sp/>*<ref refid="MRRayBoxIntersection_8h_1a3f3f44107e27b816da5045f84e53dc00" kindref="member">MR_RayOrigin_float_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRayBoxIntersection_8h_1aeea809d1ec90ea1c9da1c0e1fb31a43a" kindref="member">MR_RayOrigin_float</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>

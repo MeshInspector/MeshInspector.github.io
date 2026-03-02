@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVoxelsLoad_8h" kind="file" language="C++">
     <compoundname>MRVoxelsLoad.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
@@ -9,7 +9,7 @@
     <includes refid="MRObject_8h" local="yes">MRMesh/MRObject.h</includes>
     <includes refid="MRLoadedObjects_8h" local="no">MRMesh/MRLoadedObjects.h</includes>
     <includes local="no">filesystem</includes>
-    <includedby refid="MROpenRawVoxelsPlugin_8h" local="yes">MROpenRawVoxelsPlugin.h</includedby>
+    <includedby refid="MROpenRawVoxelsPlugin_8h" local="yes">MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</includedby>
     <incdepgraph>
       <node id="32">
         <label>MRAffineXf.h</label>
@@ -652,7 +652,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRVoxelsLoad.h</label>
+        <label>MRVoxels/MRVoxelsLoad.h</label>
         <link refid="MRVoxelsLoad_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -782,11 +782,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MROpenRawVoxelsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
       <node id="1">
-        <label>MRVoxelsLoad.h</label>
+        <label>MRVoxels/MRVoxelsLoad.h</label>
         <link refid="MRVoxelsLoad_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -815,7 +815,7 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">VoxelsLoad</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1VoxelsLoad" kindref="compound">VoxelsLoad</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
@@ -864,10 +864,10 @@
 <codeline lineno="80" refid="group__VoxelsLoadGroup_1ga1679273711f98deaa8bb82cf59834512" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;std::vector&lt;VdbVolume&gt;</ref>&gt;<sp/><ref refid="group__VoxelsLoadGroup_1ga1679273711f98deaa8bb82cf59834512" kindref="member">fromAnySupportedFormat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="group__VoxelsLoadGroup_1ga5a3e4b96e9ddb9678f554fe8a8d56a19" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__VoxelsLoadGroup_1ga5a3e4b96e9ddb9678f554fe8a8d56a19" kindref="member">GridType</ref></highlight></codeline>
+<codeline lineno="84" refid="group__VoxelsLoadGroup_1ga5a3e4b96e9ddb9678f554fe8a8d56a19" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__VoxelsLoadGroup_1ga5a3e4b96e9ddb9678f554fe8a8d56a19" kindref="member">GridType</ref></highlight></codeline>
 <codeline lineno="85"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelsLoadGroup_1gga5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7" kindref="member">DenseGrid</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelsLoadGroup_1gga5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e" kindref="member">LevelSet</ref><sp/>=<sp/>1</highlight></codeline>
+<codeline lineno="87" refid="group__VoxelsLoadGroup_1gga5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelsLoadGroup_1gga5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7" kindref="member">DenseGrid</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="89" refid="group__VoxelsLoadGroup_1gga5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelsLoadGroup_1gga5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e" kindref="member">LevelSet</ref><sp/>=<sp/>1</highlight></codeline>
 <codeline lineno="90"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MRVOXELS_NO_TIFF</highlight><highlight class="normal"></highlight></codeline>
@@ -896,6 +896,6 @@
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
 <codeline lineno="119"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h"/>
+    <location file="MRVoxels/MRVoxelsLoad.h"/>
   </compounddef>
 </doxygen>

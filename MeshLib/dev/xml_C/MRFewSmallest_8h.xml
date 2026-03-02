@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFewSmallest_8h" kind="file" language="C++">
     <compoundname>MRFewSmallest.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -41,6 +41,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::PointsProjectionResult</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -204,7 +205,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_FewSmallest_MR_PointsProjectionResult</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -222,7 +223,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_FewSmallest_MR_PointsProjectionResult</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -470,7 +471,7 @@
 <codeline lineno="14" refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" kindref="member">MR_std_vector_MR_PointsProjectionResult</ref><sp/><ref refid="MRFewSmallest_8h_1abdb99b8e5529c75d63ba234eae469f9a" kindref="member">MR_std_vector_MR_PointsProjectionResult</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_PointsProjectionResult.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref>;</highlight></codeline>
+<codeline lineno="20" refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRFewSmallest_8h_1ae036cd2df3872cadcc2e43c4b85cd0be" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/>*<ref refid="MRFewSmallest_8h_1ae036cd2df3872cadcc2e43c4b85cd0be" kindref="member">MR_FewSmallest_MR_PointsProjectionResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>

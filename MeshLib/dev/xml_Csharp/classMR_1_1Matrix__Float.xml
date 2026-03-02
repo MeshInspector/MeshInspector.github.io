@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Matrix__Float" kind="class" language="C#" prot="public">
     <compoundname>MR::Matrix_Float</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Matrix_Float</basecompoundref>
@@ -96,7 +96,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Matrix&lt;float&gt;::Matrix</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix&lt;float&gt;::Matrix</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -115,7 +115,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Matrix&lt;float&gt;::Matrix</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix&lt;float&gt;::Matrix</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -134,7 +134,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Matrix&lt;float&gt;::Matrix</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix&lt;float&gt;::Matrix</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -157,7 +157,7 @@
           <declname>numCols</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Matrix&lt;float&gt;::Matrix</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix&lt;float&gt;::Matrix</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -176,7 +176,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Matrix&lt;float&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -199,7 +199,7 @@
           <declname>col</declname>
         </param>
         <briefdescription>
-<para>main access method Generated from method <computeroutput>MR.Matrix&lt;float&gt;::operator()</computeroutput>. </para>
+<para>main access method Generated from method <computeroutput>MR::Matrix&lt;float&gt;::operator()</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -218,7 +218,7 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Matrix&lt;float&gt;::operator()</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::operator()</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -249,7 +249,7 @@
           <declname>nCol</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Matrix&lt;float&gt;::getSubMatrix</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::getSubMatrix</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -268,7 +268,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Matrix&lt;float&gt;::fill</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::fill</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -283,7 +283,7 @@
         <name>clear</name>
         <qualifiedname>MR.Matrix_Float.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Matrix&lt;float&gt;::clear</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::clear</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -302,7 +302,7 @@
           <declname>dims</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Matrix&lt;float&gt;::resize</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::resize</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -312,50 +312,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Row-major matrix with T values Generated from class <computeroutput>MR.Matrix&lt;float&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1RectIndexer" kindref="compound">MR.RectIndexer</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Row-major matrix with T values Generated from class <computeroutput>MR::Matrix&lt;float&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1RectIndexer" kindref="compound">MR.RectIndexer</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Matrix_Float</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Matrix_Float</label>
         <link refid="classMR_1_1Matrix__Float"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Matrix_Float</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_Matrix_Float &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Matrix_Float</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Matrix_Float</label>
         <link refid="classMR_1_1Matrix__Float"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Matrix_Float</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_Matrix_Float &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="262" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="263" bodyend="392"/>

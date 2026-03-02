@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSpaceMouseParameters_8h" kind="file" language="C++">
     <compoundname>MRSpaceMouseParameters.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes refid="MRVector3_8h" local="no">MRMesh/MRVector3.h</includes>
-    <includedby refid="MRSpaceMouseController_8h" local="yes">MRSpaceMouseController.h</includedby>
-    <includedby refid="MRViewerSettingsPlugin_8h" local="yes">MRViewerSettingsPlugin.h</includedby>
+    <includedby refid="MRSpaceMouseController_8h" local="yes">MRViewer/MRSpaceMouseController.h</includedby>
+    <includedby refid="MRViewerSettingsPlugin_8h" local="yes">MRViewer/MRViewerSettingsPlugin.h</includedby>
     <incdepgraph>
       <node id="7">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -80,7 +80,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRSpaceMouseParameters.h</label>
+        <label>MRViewer/MRSpaceMouseParameters.h</label>
         <link refid="MRSpaceMouseParameters_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -151,11 +151,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRSpaceMouseController.h</label>
+        <label>MRViewer/MRSpaceMouseController.h</label>
         <link refid="MRSpaceMouseController_8h"/>
       </node>
       <node id="1">
-        <label>MRSpaceMouseParameters.h</label>
+        <label>MRViewer/MRSpaceMouseParameters.h</label>
         <link refid="MRSpaceMouseParameters_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -163,7 +163,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MRViewerSettingsPlugin.h</label>
+        <label>MRViewer/MRViewerSettingsPlugin.h</label>
         <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
@@ -191,8 +191,8 @@
 <codeline lineno="16" refid="structMR_1_1SpaceMouse_1_1Parameters_1a95334988bb6abd60db066c5e281a594f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SpaceMouse_1_1Parameters_1a95334988bb6abd60db066c5e281a594f" kindref="member">suppressMouseScrollZoom</ref>{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseParameters.h"/>
+    <location file="MRViewer/MRSpaceMouseParameters.h"/>
   </compounddef>
 </doxygen>

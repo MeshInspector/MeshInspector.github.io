@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRegularGridMesh_8h" kind="file" language="C++">
     <compoundname>MRRegularGridMesh.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -67,7 +67,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRRegularGridMesh.h</label>
+        <label>MRMesh/MRRegularGridMesh.h</label>
         <link refid="MRRegularGridMesh_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -180,9 +180,9 @@
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1ga1c3671ae104a3e05c4c521d25a4bab13" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga1c3671ae104a3e05c4c521d25a4bab13" kindref="member">RegularGridLatticeValidator</ref><sp/>=<sp/>std::function&lt;bool(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1ga4d79ee45f0088d8ef788b1d7dabc72a6" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga4d79ee45f0088d8ef788b1d7dabc72a6" kindref="member">RegularGridLatticePositioner</ref><sp/>=<sp/>std::function&lt;Vector3f(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1ga972aa33f2723ecfd1a0f7b41ff77a113" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga972aa33f2723ecfd1a0f7b41ff77a113" kindref="member">RegularGridMeshFaceValidator</ref><sp/>=</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1ga1c3671ae104a3e05c4c521d25a4bab13" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga1c3671ae104a3e05c4c521d25a4bab13" kindref="member">RegularGridLatticeValidator</ref><sp/>=<sp/>std::function&lt;bool(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga4d79ee45f0088d8ef788b1d7dabc72a6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga4d79ee45f0088d8ef788b1d7dabc72a6" kindref="member">RegularGridLatticePositioner</ref><sp/>=<sp/>std::function&lt;Vector3f(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga972aa33f2723ecfd1a0f7b41ff77a113" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga972aa33f2723ecfd1a0f7b41ff77a113" kindref="member">RegularGridMeshFaceValidator</ref><sp/>=</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::function&lt;bool(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x0,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y0,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y1,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x2,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y2<sp/>)&gt;;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="group__GeneralGroup_1ga336c89bb41942449b73eb9fdc6482579" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga336c89bb41942449b73eb9fdc6482579" kindref="member">makeRegularGridMesh</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref>,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga61ed695588449d6c852c0bbe38b273ae" kindref="member">height</ref>,</highlight></codeline>
@@ -194,6 +194,6 @@
 <codeline lineno="31" refid="group__GeneralGroup_1gaae27e6fa67b4e0d5a59574d504d53a61" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga336c89bb41942449b73eb9fdc6482579" kindref="member">makeRegularGridMesh</ref>(<sp/>VertCoords<sp/>pc,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegularGridMesh.h"/>
+    <location file="MRMesh/MRRegularGridMesh.h"/>
   </compounddef>
 </doxygen>

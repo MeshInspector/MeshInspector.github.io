@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TbbThreadMutex" kind="class" language="C++" prot="public">
     <compoundname>MR::TbbThreadMutex</compoundname>
-    <includes refid="MRTbbThreadMutex_8h" local="no">MRTbbThreadMutex.h</includes>
+    <includes refid="MRTbbThreadMutex_8h" local="no">MRMesh/MRTbbThreadMutex.h</includes>
     <innerclass refid="classMR_1_1TbbThreadMutex_1_1LockGuard" prot="public">MR::TbbThreadMutex::LockGuard</innerclass>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gac2142db03ef7499985da45422ed8023c" kind="variable"><name>id_</name></member>
@@ -28,7 +28,7 @@
 <codeline><highlight class="normal">}<sp/>);</highlight></codeline>
 </programlisting> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h" bodystart="35" bodyend="63"/>
+    <location file="MRMesh/MRTbbThreadMutex.h" line="34" column="1" bodyfile="MRMesh/MRTbbThreadMutex.h" bodystart="35" bodyend="63"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac2142db03ef7499985da45422ed8023c" prot="private" virt="non-virtual"><scope>MR::TbbThreadMutex</scope><name>id_</name></member>
       <member refid="group__GeneralGroup_1ga5ab0ebf352e994936c07826cea204d81" prot="private" virt="non-virtual"><scope>MR::TbbThreadMutex</scope><name>lockFlag_</name></member>

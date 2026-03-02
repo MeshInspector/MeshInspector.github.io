@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshMetrics_8h" kind="file" language="C++">
     <compoundname>MRMeshMetrics.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
     <includes local="no">functional</includes>
-    <includedby refid="MRMeshFillHole_8h" local="yes">MRMeshFillHole.h</includedby>
+    <includedby refid="MRMeshFillHole_8h" local="yes">MRMesh/MRMeshFillHole.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -44,7 +44,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshMetrics.h</label>
+        <label>MRMesh/MRMeshMetrics.h</label>
         <link refid="MRMeshMetrics_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -134,25 +134,25 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>MRFillHoleNicely.h</label>
+        <label>MRMesh/MRFillHoleNicely.h</label>
         <link refid="MRFillHoleNicely_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRMeshFillHole.h</label>
+        <label>MRMesh/MRMeshFillHole.h</label>
         <link refid="MRMeshFillHole_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshMetrics.h</label>
+        <label>MRMesh/MRMeshMetrics.h</label>
         <link refid="MRMeshMetrics_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRMeshPatch.h</label>
+        <label>MRMesh/MRMeshPatch.h</label>
         <link refid="MRMeshPatch_8h"/>
       </node>
     </invincdepgraph>
@@ -171,14 +171,14 @@
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11"></codeline>
-<codeline lineno="13" refid="group__FillHoleGroup_1ga9a2b22c68476e1176c0f8a8f43542611" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__FillHoleGroup_1ga9a2b22c68476e1176c0f8a8f43542611" kindref="member">FillTriangleMetric</ref><sp/>=<sp/>std::function&lt;double(<sp/>VertId<sp/>a,<sp/>VertId<sp/>b,<sp/>VertId<sp/>c<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="18" refid="group__FillHoleGroup_1ga7f292aee02fc8ca7504a114461b74cd5" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__FillHoleGroup_1ga7f292aee02fc8ca7504a114461b74cd5" kindref="member">FillEdgeMetric</ref><sp/>=<sp/>std::function&lt;double(<sp/>VertId<sp/>a,<sp/>VertId<sp/>b,<sp/>VertId<sp/>l,<sp/>VertId<sp/>r<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="20" refid="group__FillHoleGroup_1gaf0a9f8a0620df3a7af664ad4c6aab213" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__FillHoleGroup_1gaf0a9f8a0620df3a7af664ad4c6aab213" kindref="member">FillCombineMetric</ref><sp/>=<sp/>std::function&lt;double(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>)&gt;;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="group__FillHoleGroup_1ga9a2b22c68476e1176c0f8a8f43542611" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__FillHoleGroup_1ga9a2b22c68476e1176c0f8a8f43542611" kindref="member">FillTriangleMetric</ref><sp/>=<sp/>std::function&lt;double(<sp/>VertId<sp/>a,<sp/>VertId<sp/>b,<sp/>VertId<sp/>c<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="18" refid="group__FillHoleGroup_1ga7f292aee02fc8ca7504a114461b74cd5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__FillHoleGroup_1ga7f292aee02fc8ca7504a114461b74cd5" kindref="member">FillEdgeMetric</ref><sp/>=<sp/>std::function&lt;double(<sp/>VertId<sp/>a,<sp/>VertId<sp/>b,<sp/>VertId<sp/>l,<sp/>VertId<sp/>r<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="20" refid="group__FillHoleGroup_1gaf0a9f8a0620df3a7af664ad4c6aab213" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__FillHoleGroup_1gaf0a9f8a0620df3a7af664ad4c6aab213" kindref="member">FillCombineMetric</ref><sp/>=<sp/>std::function&lt;double(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>)&gt;;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1gad6e60cb1116257e53229b6ee7ee22351" kindref="member">BadTriangulationMetric</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref></highlight></codeline>
+<codeline lineno="39" refid="structMR_1_1FillHoleMetric" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref></highlight></codeline>
 <codeline lineno="40"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="42" refid="structMR_1_1FillHoleMetric_1acc8ef5c37515d91d9c3cb3fbcaa1fd22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__FillHoleGroup_1ga9a2b22c68476e1176c0f8a8f43542611" kindref="member">FillTriangleMetric</ref><sp/><ref refid="structMR_1_1FillHoleMetric_1acc8ef5c37515d91d9c3cb3fbcaa1fd22" kindref="member">triangleMetric</ref>;</highlight></codeline>
 <codeline lineno="44" refid="structMR_1_1FillHoleMetric_1a3048bcf785194be02ce20b5d6e6bfd61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__FillHoleGroup_1ga7f292aee02fc8ca7504a114461b74cd5" kindref="member">FillEdgeMetric</ref><sp/><ref refid="structMR_1_1FillHoleMetric_1a3048bcf785194be02ce20b5d6e6bfd61" kindref="member">edgeMetric</ref>;</highlight></codeline>
@@ -218,6 +218,6 @@
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
 <codeline lineno="121"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h"/>
+    <location file="MRMesh/MRMeshMetrics.h"/>
   </compounddef>
 </doxygen>

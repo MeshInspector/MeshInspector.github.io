@@ -1,13 +1,10 @@
 var MRTiffIO_8h =
 [
-    [ "MR_AffineXf3f", "MRTiffIO_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
     [ "MR_BaseTiffParameters", "MRTiffIO_8h.html#a8fc98d739c9851d16f268884a3dc9816", null ],
     [ "MR_BaseTiffParameters_SampleType", "MRTiffIO_8h.html#a4345e4a158bdc76355eba3a1d2be15ee", null ],
     [ "MR_BaseTiffParameters_ValueType", "MRTiffIO_8h.html#a05ce1c79cd57427917bd749d0eeb5aff", null ],
     [ "MR_expected_MR_TiffParameters_std_string", "MRTiffIO_8h.html#afa38952c2821dd9313d3930fac48da71", null ],
-    [ "MR_expected_void_std_string", "MRTiffIO_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
     [ "MR_RawTiffOutput", "MRTiffIO_8h.html#a7b08535d382e7abf8cffb2e80807fcdc", null ],
-    [ "MR_std_string", "MRTiffIO_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_TiffParameters", "MRTiffIO_8h.html#a6cbbab1639b23d07edd9ed114d018b8f", null ],
     [ "MR_WriteRawTiffParams", "MRTiffIO_8h.html#a2d9fdce87ded5a46b7ede2711796b4a1", null ],
     [ "MR_BaseTiffParameters_SampleType", "MRTiffIO_8h.html#af308da9e08f734f6cdaf7ab0a4211594", [

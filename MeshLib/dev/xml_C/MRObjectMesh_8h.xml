@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRObjectMesh_8h" kind="file" language="C++">
     <compoundname>MRObjectMesh.h</compoundname>
     <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
@@ -149,435 +149,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a47309f5020d832f0d5effdd481071a1e" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a47309f5020d832f0d5effdd481071a1e" kindref="member">MR_AnyVisualizeMaskEnum</ref></type>
-        <definition>typedef struct MR_AnyVisualizeMaskEnum MR_AnyVisualizeMaskEnum</definition>
-        <argsstring></argsstring>
-        <name>MR_AnyVisualizeMaskEnum</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="17" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1ab04f90c0c45a09f664d0bd8e652bc339" prot="public" static="no">
-        <type>struct MR_Color</type>
-        <definition>typedef struct MR_Color MR_Color</definition>
-        <argsstring></argsstring>
-        <name>MR_Color</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="18" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
-        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="19" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a88c7503c40b624a577fda0eab1faa5fa" prot="public" static="no">
-        <type>struct <ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref></type>
-        <definition>typedef struct MR_FaceColors MR_FaceColors</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceColors</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="20" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1ab809347fd151b45341bc9e7828673eb5" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref></type>
-        <definition>typedef struct MR_FaceMap MR_FaceMap</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="21" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1aca1d803422d4caa25c56d04a67efbc52" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref></type>
-        <definition>typedef struct MR_Line3f MR_Line3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Line3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="22" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" prot="public" static="no">
-        <type>struct <ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref></type>
-        <definition>typedef struct MR_MeshIntersectionResult MR_MeshIntersectionResult</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshIntersectionResult</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="23" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref></type>
-        <definition>typedef struct MR_MeshPart MR_MeshPart</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshPart</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="24" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1ac5c5abdc9ba8adb6f8e522246978c790" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref></type>
-        <definition>typedef struct MR_MeshTexture MR_MeshTexture</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTexture</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="25" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a05411842860db9b06c2e1dd0a3b5cb32" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a05411842860db9b06c2e1dd0a3b5cb32" kindref="member">MR_ModelBaseRenderParams</ref></type>
-        <definition>typedef struct MR_ModelBaseRenderParams MR_ModelBaseRenderParams</definition>
-        <argsstring></argsstring>
-        <name>MR_ModelBaseRenderParams</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="26" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1ac57a9c205ddddd492539ac185431ba9e" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1ac57a9c205ddddd492539ac185431ba9e" kindref="member">MR_ModelRenderParams</ref></type>
-        <definition>typedef struct MR_ModelRenderParams MR_ModelRenderParams</definition>
-        <argsstring></argsstring>
-        <name>MR_ModelRenderParams</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="27" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1accce9c9179cadabc541edda0fc7a2571" prot="public" static="no">
-        <type>struct <ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref></type>
-        <definition>typedef struct MR_Object MR_Object</definition>
-        <argsstring></argsstring>
-        <name>MR_Object</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="28" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref></type>
-        <definition>typedef struct MR_ObjectChildrenHolder MR_ObjectChildrenHolder</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjectChildrenHolder</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="29" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref></type>
-        <definition>typedef struct MR_ObjectMeshData MR_ObjectMeshData</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjectMeshData</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="30" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a1c5e41e50d86c1613114a6f1296f0934" prot="public" static="no">
-        <type>struct <ref refid="MRObject_8h_1a1c5e41e50d86c1613114a6f1296f0934" kindref="member">MR_ObjectMeshHolder</ref></type>
-        <definition>typedef struct MR_ObjectMeshHolder MR_ObjectMeshHolder</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjectMeshHolder</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="31" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a248aef9b7513a21932ba1dfcfbd3410d" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref></type>
-        <definition>typedef struct MR_TexturePerFace MR_TexturePerFace</definition>
-        <argsstring></argsstring>
-        <name>MR_TexturePerFace</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="32" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1aca24c4fb6effc06349275fb8f7e111c0" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1aca24c4fb6effc06349275fb8f7e111c0" kindref="member">MR_UiRenderParams</ref></type>
-        <definition>typedef struct MR_UiRenderParams MR_UiRenderParams</definition>
-        <argsstring></argsstring>
-        <name>MR_UiRenderParams</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="33" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="33" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1ac7f59a6736b29701d7e619412b6e2890" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref></type>
-        <definition>typedef struct MR_UndirectedEdgeBitSet MR_UndirectedEdgeBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_UndirectedEdgeBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="34" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a9b857b6bfc1402811fa58f9b79be0ae1" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshAction_8h_1a9b857b6bfc1402811fa58f9b79be0ae1" kindref="member">MR_Vector_MR_MeshTexture_MR_TextureId</ref></type>
-        <definition>typedef struct MR_Vector_MR_MeshTexture_MR_TextureId MR_Vector_MR_MeshTexture_MR_TextureId</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector_MR_MeshTexture_MR_TextureId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="35" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a20dc7d636220f61a60c7ae92b8caa768" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref></type>
-        <definition>typedef struct MR_VertColors MR_VertColors</definition>
-        <argsstring></argsstring>
-        <name>MR_VertColors</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="36" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref></type>
-        <definition>typedef struct MR_VertCoords2 MR_VertCoords2</definition>
-        <argsstring></argsstring>
-        <name>MR_VertCoords2</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="37" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="37" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a0c1baad62a31685b2dfb5955f3fb8230" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref></type>
-        <definition>typedef struct MR_VertMap MR_VertMap</definition>
-        <argsstring></argsstring>
-        <name>MR_VertMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="38" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a85b2b5f875361920283d305645987092" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref></type>
-        <definition>typedef struct MR_ViewportMask MR_ViewportMask</definition>
-        <argsstring></argsstring>
-        <name>MR_ViewportMask</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="39" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="39" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1aebba128754c26d6c67761a3a0d2e0e4f" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1aebba128754c26d6c67761a3a0d2e0e4f" kindref="member">MR_ViewportProperty_MR_AffineXf3f</ref></type>
-        <definition>typedef struct MR_ViewportProperty_MR_AffineXf3f MR_ViewportProperty_MR_AffineXf3f</definition>
-        <argsstring></argsstring>
-        <name>MR_ViewportProperty_MR_AffineXf3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="40" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="40" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1aacabcfa2021a7c9f2d2f8862cd9c75c6" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1aacabcfa2021a7c9f2d2f8862cd9c75c6" kindref="member">MR_ViewportProperty_MR_Color</ref></type>
-        <definition>typedef struct MR_ViewportProperty_MR_Color MR_ViewportProperty_MR_Color</definition>
-        <argsstring></argsstring>
-        <name>MR_ViewportProperty_MR_Color</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="41" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a2d0680ad0c312805e86e003e2d1205aa" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a2d0680ad0c312805e86e003e2d1205aa" kindref="member">MR_ViewportProperty_unsigned_char</ref></type>
-        <definition>typedef struct MR_ViewportProperty_unsigned_char MR_ViewportProperty_unsigned_char</definition>
-        <argsstring></argsstring>
-        <name>MR_ViewportProperty_unsigned_char</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="42" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="42" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a36f3696eda81d7005927ebc5fdf17e14" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref></type>
-        <definition>typedef struct MR_VisualObject MR_VisualObject</definition>
-        <argsstring></argsstring>
-        <name>MR_VisualObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="43" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="43" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1ac70a547e279521dbca88d6d95326ba2a" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref></type>
-        <definition>typedef struct MR_std_set_std_string MR_std_set_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_set_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="44" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="44" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a078d52fb855baae04a6dcdd71e46fbed" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshAction_8h_1a078d52fb855baae04a6dcdd71e46fbed" kindref="member">MR_std_shared_ptr_MR_Mesh</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_MR_Mesh MR_std_shared_ptr_MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="45" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="45" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_MR_Object MR_std_shared_ptr_MR_Object</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_MR_Object</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="46" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="46" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_MR_ObjectMesh MR_std_shared_ptr_MR_ObjectMesh</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_MR_ObjectMesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="47" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="47" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a94b819eab550077a4081785d3b3b4dc6" prot="public" static="no">
-        <type>struct <ref refid="MRMeshSaveObj_8h_1a94b819eab550077a4081785d3b3b4dc6" kindref="member">MR_std_shared_ptr_const_MR_Mesh</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_const_MR_Mesh MR_std_shared_ptr_const_MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_const_MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="48" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="48" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
-        <definition>typedef struct MR_std_string MR_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="49" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="49" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" prot="public" static="no">
         <type>struct <ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref></type>
         <definition>typedef struct MR_std_vector_MR_AffineXf3f MR_std_vector_MR_AffineXf3f</definition>
@@ -591,19 +162,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="50" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="50" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1aa6b334578883a55d60d5ef67962505ba" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref></type>
-        <definition>typedef struct MR_std_vector_MR_ViewportMask MR_std_vector_MR_ViewportMask</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_ViewportMask</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="51" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="51" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRObjectMesh_8h_1a4a64bdc6d260f63671c4a3296cca77c8" prot="public" static="no">
         <type>struct <ref refid="MRObjectMesh_8h_1a4a64bdc6d260f63671c4a3296cca77c8" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMesh</ref></type>
         <definition>typedef struct MR_std_vector_std_shared_ptr_MR_ObjectMesh MR_std_vector_std_shared_ptr_MR_ObjectMesh</definition>
@@ -616,33 +174,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="52" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="52" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" prot="public" static="no">
-        <type>struct <ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref></type>
-        <definition>typedef struct MR_std_vector_std_string MR_std_vector_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="53" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="53" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectMesh_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" prot="public" static="no">
-        <type>struct <ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref></type>
-        <definition>typedef struct MR_ObjectMesh MR_ObjectMesh</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjectMesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>an object that stores a mesh Generated from class <computeroutput>MR::ObjectMesh</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::ObjectMeshHolder</computeroutput> Indirect: (non-virtual) <computeroutput>MR::ObjectChildrenHolder</computeroutput> <computeroutput>MR::Object</computeroutput> <computeroutput>MR::VisualObject</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" line="66" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectMesh.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRObjectMesh_8h_1a893cd68fc177faa1dd81dd8f230a5fbf" prot="public" static="no">
         <type>struct <ref refid="MRObjectMesh_8h_1a893cd68fc177faa1dd81dd8f230a5fbf" kindref="member">MR_ObjectMeshMergeOptions</ref></type>
@@ -915,7 +446,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ObjectMesh</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -933,7 +464,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ObjectMesh</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5232,7 +4763,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ObjectMeshMergeOptions</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRObjectMesh_8h_1a893cd68fc177faa1dd81dd8f230a5fbf" kindref="member">MR_ObjectMeshMergeOptions</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5250,7 +4781,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ObjectMeshMergeOptions</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRObjectMesh_8h_1a893cd68fc177faa1dd81dd8f230a5fbf" kindref="member">MR_ObjectMeshMergeOptions</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5350,48 +4881,48 @@
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRObjectMesh_8h_1a47309f5020d832f0d5effdd481071a1e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a47309f5020d832f0d5effdd481071a1e" kindref="member">MR_AnyVisualizeMaskEnum</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a47309f5020d832f0d5effdd481071a1e" kindref="member">MR_AnyVisualizeMaskEnum</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVisualObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRObjectMesh_8h_1ab04f90c0c45a09f664d0bd8e652bc339" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRColor.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRObjectMesh_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRObjectMesh_8h_1a88c7503c40b624a577fda0eab1faa5fa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRObjectMesh_8h_1ab809347fd151b45341bc9e7828673eb5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRObjectMesh_8h_1aca1d803422d4caa25c56d04a67efbc52" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRObjectMesh_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshIntersect.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRObjectMesh_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MRObjectMesh_8h_1ac5c5abdc9ba8adb6f8e522246978c790" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTexture.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRObjectMesh_8h_1a05411842860db9b06c2e1dd0a3b5cb32" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a05411842860db9b06c2e1dd0a3b5cb32" kindref="member">MR_ModelBaseRenderParams</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a05411842860db9b06c2e1dd0a3b5cb32" kindref="member">MR_ModelBaseRenderParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIRenderObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRObjectMesh_8h_1ac57a9c205ddddd492539ac185431ba9e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1ac57a9c205ddddd492539ac185431ba9e" kindref="member">MR_ModelRenderParams</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac57a9c205ddddd492539ac185431ba9e" kindref="member">MR_ModelRenderParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIRenderObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRObjectMesh_8h_1accce9c9179cadabc541edda0fc7a2571" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRObjectMesh_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRObjectMesh_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectMeshData.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRObjectMesh_8h_1a1c5e41e50d86c1613114a6f1296f0934" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObject_8h_1a1c5e41e50d86c1613114a6f1296f0934" kindref="member">MR_ObjectMeshHolder</ref><sp/><ref refid="MRObject_8h_1a1c5e41e50d86c1613114a6f1296f0934" kindref="member">MR_ObjectMeshHolder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectMeshHolder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRObjectMesh_8h_1a248aef9b7513a21932ba1dfcfbd3410d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref><sp/><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRObjectMesh_8h_1aca24c4fb6effc06349275fb8f7e111c0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aca24c4fb6effc06349275fb8f7e111c0" kindref="member">MR_UiRenderParams</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aca24c4fb6effc06349275fb8f7e111c0" kindref="member">MR_UiRenderParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIRenderObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRObjectMesh_8h_1ac7f59a6736b29701d7e619412b6e2890" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRObjectMesh_8h_1a9b857b6bfc1402811fa58f9b79be0ae1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a9b857b6bfc1402811fa58f9b79be0ae1" kindref="member">MR_Vector_MR_MeshTexture_MR_TextureId</ref><sp/><ref refid="MRChangeMeshAction_8h_1a9b857b6bfc1402811fa58f9b79be0ae1" kindref="member">MR_Vector_MR_MeshTexture_MR_TextureId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRObjectMesh_8h_1a20dc7d636220f61a60c7ae92b8caa768" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRObjectMesh_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRObjectMesh_8h_1a0c1baad62a31685b2dfb5955f3fb8230" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRObjectMesh_8h_1a85b2b5f875361920283d305645987092" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRViewportId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRObjectMesh_8h_1aebba128754c26d6c67761a3a0d2e0e4f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aebba128754c26d6c67761a3a0d2e0e4f" kindref="member">MR_ViewportProperty_MR_AffineXf3f</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aebba128754c26d6c67761a3a0d2e0e4f" kindref="member">MR_ViewportProperty_MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRViewportProperty.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRObjectMesh_8h_1aacabcfa2021a7c9f2d2f8862cd9c75c6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aacabcfa2021a7c9f2d2f8862cd9c75c6" kindref="member">MR_ViewportProperty_MR_Color</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aacabcfa2021a7c9f2d2f8862cd9c75c6" kindref="member">MR_ViewportProperty_MR_Color</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRViewportProperty.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRObjectMesh_8h_1a2d0680ad0c312805e86e003e2d1205aa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a2d0680ad0c312805e86e003e2d1205aa" kindref="member">MR_ViewportProperty_unsigned_char</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a2d0680ad0c312805e86e003e2d1205aa" kindref="member">MR_ViewportProperty_unsigned_char</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRViewportProperty.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRObjectMesh_8h_1a36f3696eda81d7005927ebc5fdf17e14" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVisualObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRObjectMesh_8h_1ac70a547e279521dbca88d6d95326ba2a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_set_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRObjectMesh_8h_1a078d52fb855baae04a6dcdd71e46fbed" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a078d52fb855baae04a6dcdd71e46fbed" kindref="member">MR_std_shared_ptr_MR_Mesh</ref><sp/><ref refid="MRChangeMeshAction_8h_1a078d52fb855baae04a6dcdd71e46fbed" kindref="member">MR_std_shared_ptr_MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_Mesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRObjectMesh_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRObjectMesh_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRObjectMesh_8h_1a94b819eab550077a4081785d3b3b4dc6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshSaveObj_8h_1a94b819eab550077a4081785d3b3b4dc6" kindref="member">MR_std_shared_ptr_const_MR_Mesh</ref><sp/><ref refid="MRMeshSaveObj_8h_1a94b819eab550077a4081785d3b3b4dc6" kindref="member">MR_std_shared_ptr_const_MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_const_MR_Mesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="MRObjectMesh_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a47309f5020d832f0d5effdd481071a1e" kindref="member">MR_AnyVisualizeMaskEnum</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a47309f5020d832f0d5effdd481071a1e" kindref="member">MR_AnyVisualizeMaskEnum</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVisualObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRColor.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshIntersect.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTexture.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a05411842860db9b06c2e1dd0a3b5cb32" kindref="member">MR_ModelBaseRenderParams</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a05411842860db9b06c2e1dd0a3b5cb32" kindref="member">MR_ModelBaseRenderParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIRenderObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1ac57a9c205ddddd492539ac185431ba9e" kindref="member">MR_ModelRenderParams</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac57a9c205ddddd492539ac185431ba9e" kindref="member">MR_ModelRenderParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIRenderObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectMeshData.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObject_8h_1a1c5e41e50d86c1613114a6f1296f0934" kindref="member">MR_ObjectMeshHolder</ref><sp/><ref refid="MRObject_8h_1a1c5e41e50d86c1613114a6f1296f0934" kindref="member">MR_ObjectMeshHolder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectMeshHolder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref><sp/><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aca24c4fb6effc06349275fb8f7e111c0" kindref="member">MR_UiRenderParams</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aca24c4fb6effc06349275fb8f7e111c0" kindref="member">MR_UiRenderParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIRenderObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a9b857b6bfc1402811fa58f9b79be0ae1" kindref="member">MR_Vector_MR_MeshTexture_MR_TextureId</ref><sp/><ref refid="MRChangeMeshAction_8h_1a9b857b6bfc1402811fa58f9b79be0ae1" kindref="member">MR_Vector_MR_MeshTexture_MR_TextureId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRViewportId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aebba128754c26d6c67761a3a0d2e0e4f" kindref="member">MR_ViewportProperty_MR_AffineXf3f</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aebba128754c26d6c67761a3a0d2e0e4f" kindref="member">MR_ViewportProperty_MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRViewportProperty.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aacabcfa2021a7c9f2d2f8862cd9c75c6" kindref="member">MR_ViewportProperty_MR_Color</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aacabcfa2021a7c9f2d2f8862cd9c75c6" kindref="member">MR_ViewportProperty_MR_Color</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRViewportProperty.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a2d0680ad0c312805e86e003e2d1205aa" kindref="member">MR_ViewportProperty_unsigned_char</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a2d0680ad0c312805e86e003e2d1205aa" kindref="member">MR_ViewportProperty_unsigned_char</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRViewportProperty.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVisualObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_set_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a078d52fb855baae04a6dcdd71e46fbed" kindref="member">MR_std_shared_ptr_MR_Mesh</ref><sp/><ref refid="MRChangeMeshAction_8h_1a078d52fb855baae04a6dcdd71e46fbed" kindref="member">MR_std_shared_ptr_MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_Mesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshSaveObj_8h_1a94b819eab550077a4081785d3b3b4dc6" kindref="member">MR_std_shared_ptr_const_MR_Mesh</ref><sp/><ref refid="MRMeshSaveObj_8h_1a94b819eab550077a4081785d3b3b4dc6" kindref="member">MR_std_shared_ptr_const_MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_const_MR_Mesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="50" refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_AffineXf3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRObjectMesh_8h_1aa6b334578883a55d60d5ef67962505ba" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_ViewportMask.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aa6b334578883a55d60d5ef67962505ba" kindref="member">MR_std_vector_MR_ViewportMask</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_ViewportMask.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="52" refid="MRObjectMesh_8h_1a4a64bdc6d260f63671c4a3296cca77c8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectMesh_8h_1a4a64bdc6d260f63671c4a3296cca77c8" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMesh</ref><sp/><ref refid="MRObjectMesh_8h_1a4a64bdc6d260f63671c4a3296cca77c8" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MRObjectMesh_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRObjectMesh_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref>;</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRObjectMesh_8h_1a893cd68fc177faa1dd81dd8f230a5fbf" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectMesh_8h_1a893cd68fc177faa1dd81dd8f230a5fbf" kindref="member">MR_ObjectMeshMergeOptions</ref><sp/><ref refid="MRObjectMesh_8h_1a893cd68fc177faa1dd81dd8f230a5fbf" kindref="member">MR_ObjectMeshMergeOptions</ref>;</highlight></codeline>
+<codeline lineno="71" refid="MRObjectMesh_8h_1a893cd68fc177faa1dd81dd8f230a5fbf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectMesh_8h_1a893cd68fc177faa1dd81dd8f230a5fbf" kindref="member">MR_ObjectMeshMergeOptions</ref><sp/><ref refid="MRObjectMesh_8h_1a893cd68fc177faa1dd81dd8f230a5fbf" kindref="member">MR_ObjectMeshMergeOptions</ref>;</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
 <codeline lineno="75" refid="MRObjectMesh_8h_1a6407cd8254877124d1be4928e710ca41" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/>*<ref refid="MRObjectMesh_8h_1a6407cd8254877124d1be4928e710ca41" kindref="member">MR_ObjectMesh_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
@@ -5583,7 +5114,7 @@
 <codeline lineno="551"><highlight class="normal"></highlight></codeline>
 <codeline lineno="559" refid="MRObjectMesh_8h_1a7faf0c7d48a68640364d87aedd162219" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a7faf0c7d48a68640364d87aedd162219" kindref="member">MR_ObjectMesh_copyColors</ref>(<ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObject_8h_1a1c5e41e50d86c1613114a6f1296f0934" kindref="member">MR_ObjectMeshHolder</ref><sp/>*src,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*thisToSrc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>*thisToSrcFaces);</highlight></codeline>
 <codeline lineno="560"><highlight class="normal"></highlight></codeline>
-<codeline lineno="561"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ancillary<sp/>texture<sp/>can<sp/>be<sp/>used<sp/>to<sp/>have<sp/>custom<sp/>features<sp/>visualization<sp/>without<sp/>affecting<sp/>real<sp/>one</highlight></codeline>
+<codeline lineno="561"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ancillary<sp/>texture<sp/>can<sp/>be<sp/>used<sp/>to<sp/>have<sp/>custom<sp/>features<sp/>visualization<sp/>without<sp/>affecting<sp/>real<sp/>one</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="565" refid="MRObjectMesh_8h_1a7d5b88196cbc9bb6f23ba35fbb4fd56d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*<ref refid="MRObjectMesh_8h_1a7d5b88196cbc9bb6f23ba35fbb4fd56d" kindref="member">MR_ObjectMesh_getAncillaryTexture</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="566"><highlight class="normal"></highlight></codeline>
 <codeline lineno="569" refid="MRObjectMesh_8h_1ac1c0335260b7a45f37b5dcb010945b64" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1ac1c0335260b7a45f37b5dcb010945b64" kindref="member">MR_ObjectMesh_setAncillaryTexture</ref>(<ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/>*_this,<sp/>MR_PassBy<sp/>texture_pass_by,<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*texture);</highlight></codeline>
@@ -5799,7 +5330,7 @@
 <codeline lineno="1179" refid="MRObjectMesh_8h_1a35badd972f7f4586e6ddd4be830ad6d1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a35badd972f7f4586e6ddd4be830ad6d1" kindref="member">MR_ObjectMesh_removeTag</ref>(<ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*tag,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*tag_end);</highlight></codeline>
 <codeline lineno="1180"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1181"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>this<sp/>Object<sp/>as<sp/>shared_ptr</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1182"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight></codeline>
+<codeline lineno="1182"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1186" refid="MRObjectMesh_8h_1aea420c2fb39dd0d217068ea7193c1971" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*<ref refid="MRObjectMesh_8h_1aea420c2fb39dd0d217068ea7193c1971" kindref="member">MR_ObjectMesh_getSharedPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1187"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1193" refid="MRObjectMesh_8h_1a0f21ca4896418620634f342516109ec4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a17b7fd72b23ae607c54222f2b1113ac7" kindref="member">MR_std_vector_MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRObjectMesh_8h_1a0f21ca4896418620634f342516109ec4" kindref="member">MR_ObjectMeshMergeOptions_Get_overrideXfs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectMesh_8h_1a893cd68fc177faa1dd81dd8f230a5fbf" kindref="member">MR_ObjectMeshMergeOptions</ref><sp/>*_this);</highlight></codeline>

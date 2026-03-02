@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPolylineComponents_8h" kind="file" language="C++">
     <compoundname>MRPolylineComponents.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -45,71 +45,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPolylineComponents_8h_1ac19d267fe4a2399b21a578c74213dfd2" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref></type>
-        <definition>typedef struct MR_Polyline2 MR_Polyline2</definition>
-        <argsstring></argsstring>
-        <name>MR_Polyline2</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="13" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolylineComponents_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref></type>
-        <definition>typedef struct MR_Polyline3 MR_Polyline3</definition>
-        <argsstring></argsstring>
-        <name>MR_Polyline3</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="14" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolylineComponents_8h_1a02d1fe1568aa3e29e692594602ba76bd" prot="public" static="no">
-        <type>struct <ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref></type>
-        <definition>typedef struct MR_PolylineTopology MR_PolylineTopology</definition>
-        <argsstring></argsstring>
-        <name>MR_PolylineTopology</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="15" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolylineComponents_8h_1ac7f59a6736b29701d7e619412b6e2890" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref></type>
-        <definition>typedef struct MR_UndirectedEdgeBitSet MR_UndirectedEdgeBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_UndirectedEdgeBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="16" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolylineComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" prot="public" static="no">
-        <type>struct <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref></type>
-        <definition>typedef struct MR_UnionFind_MR_UndirectedEdgeId MR_UnionFind_MR_UndirectedEdgeId</definition>
-        <argsstring></argsstring>
-        <name>MR_UnionFind_MR_UndirectedEdgeId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="17" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" prot="public" static="no">
         <type>struct <ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref></type>
         <definition>typedef struct MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</definition>
@@ -122,19 +57,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="18" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolylineComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" prot="public" static="no">
-        <type>struct <ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref></type>
-        <definition>typedef struct MR_std_vector_MR_UndirectedEdgeBitSet MR_std_vector_MR_UndirectedEdgeBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_UndirectedEdgeBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" line="19" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineComponents.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" prot="public" static="no">
         <type>struct <ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref></type>
@@ -552,7 +474,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PolylineComponents_LargeByLengthComponentsSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -570,7 +492,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PolylineComponents_LargeByLengthComponentsSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -732,16 +654,16 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRPolylineComponents_8h_1ac19d267fe4a2399b21a578c74213dfd2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRPolylineComponents_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRPolylineComponents_8h_1a02d1fe1568aa3e29e692594602ba76bd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolylineTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRPolylineComponents_8h_1ac7f59a6736b29701d7e619412b6e2890" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRPolylineComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRUnionFind.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolylineTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRUnionFind.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRPolylineComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_UndirectedEdgeBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_UndirectedEdgeBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref>;</highlight></codeline>
+<codeline lineno="24" refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref><sp/><ref refid="MRPolylineComponents_8h_1a7c59f260ca6dedef065bad88209f364b" kindref="member">MR_PolylineComponents_LargeByLengthComponentsSettings</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="MRPolylineComponents_8h_1ab7aebc5565c5c5651f359d4f88353d32" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRPolylineComponents_8h_1ab7aebc5565c5c5651f359d4f88353d32" kindref="member">MR_PolylineComponents_getNumComponents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/>*topology);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>

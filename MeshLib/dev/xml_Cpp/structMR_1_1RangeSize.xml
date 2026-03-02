@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RangeSize" kind="struct" language="C++" prot="public">
     <compoundname>MR::RangeSize</compoundname>
-    <includes refid="MROpenVDBHelper_8h" local="no">MROpenVDBHelper.h</includes>
+    <includes refid="MROpenVDBHelper_8h" local="no">MRVoxels/MROpenVDBHelper.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga5dde8b6f1f684eac4b8bf2c2bc72386e" kind="variable"><name>leaf</name></member>
       <member refid="group__GeneralGroup_1ga8d9671c602785383a783dc97504805ec" kind="variable"><name>tile</name></member>
@@ -11,7 +11,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="358" bodyend="361"/>
+    <location file="MRVoxels/MROpenVDBHelper.h" line="357" column="1" bodyfile="MRVoxels/MROpenVDBHelper.h" bodystart="358" bodyend="361"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga5dde8b6f1f684eac4b8bf2c2bc72386e" prot="public" virt="non-virtual"><scope>MR::RangeSize</scope><name>leaf</name></member>
       <member refid="group__GeneralGroup_1ga8d9671c602785383a783dc97504805ec" prot="public" virt="non-virtual"><scope>MR::RangeSize</scope><name>tile</name></member>

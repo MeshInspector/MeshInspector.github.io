@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRBezier_8h" kind="file" language="C++">
     <compoundname>MRBezier.h</compoundname>
     <includes refid="MRVector2_8h" local="no">MRCMesh/MRVector2.h</includes>
@@ -304,7 +304,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_CubicBezierCurve2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -322,7 +322,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_CubicBezierCurve2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -569,7 +569,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_CubicBezierCurve2d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -587,7 +587,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_CubicBezierCurve2d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -834,7 +834,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_CubicBezierCurve3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -852,7 +852,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_CubicBezierCurve3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1099,7 +1099,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_CubicBezierCurve3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1117,7 +1117,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_CubicBezierCurve3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1208,13 +1208,13 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref>;</highlight></codeline>
+<codeline lineno="19" refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref><sp/><ref refid="MRBezier_8h_1a748c94b3b56fa47109e29eb582aeedf9" kindref="member">MR_CubicBezierCurve2f</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref>;</highlight></codeline>
+<codeline lineno="24" refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref><sp/><ref refid="MRBezier_8h_1ac3c2ec3e923df312a3b4e23142bd10a4" kindref="member">MR_CubicBezierCurve2d</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref>;</highlight></codeline>
+<codeline lineno="29" refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref><sp/><ref refid="MRBezier_8h_1a46982165a17fc380e86ae49bf5cd5e2b" kindref="member">MR_CubicBezierCurve3f</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref>;</highlight></codeline>
+<codeline lineno="34" refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref><sp/><ref refid="MRBezier_8h_1a76ff148784ee6506f11815bd0141b9bb" kindref="member">MR_CubicBezierCurve3d</ref>;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38" refid="MRBezier_8h_1abf193efa250873bc046967a70f0042e7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRBezier_8h_1abf193efa250873bc046967a70f0042e7" kindref="member">MR_CubicBezierCurve2f_Get_elements</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>

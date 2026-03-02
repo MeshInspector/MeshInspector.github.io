@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PartialChangeMeshTopologyAction" kind="class" language="C#" prot="public">
     <compoundname>MR::PartialChangeMeshTopologyAction</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_PartialChangeMeshTopologyAction</basecompoundref>
@@ -99,7 +99,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshTopologyAction_1a998cb12314dc78b7e25aeffb28fc3580" kindref="member">MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -118,7 +118,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshTopologyAction_1a998cb12314dc78b7e25aeffb28fc3580" kindref="member">MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -137,7 +137,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshTopologyAction_1a998cb12314dc78b7e25aeffb28fc3580" kindref="member">MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -168,7 +168,7 @@
           <declname>oldTopology</declname>
         </param>
         <briefdescription>
-<para>use this constructor after the object already contains new topology, and old topology is passed to remember the difference for future undoing Generated from constructor <computeroutput>MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</computeroutput>. </para>
+<para>use this constructor after the object already contains new topology, and old topology is passed to remember the difference for future undoing Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshTopologyAction_1a998cb12314dc78b7e25aeffb28fc3580" kindref="member">MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -199,7 +199,7 @@
           <declname>newTopology</declname>
         </param>
         <briefdescription>
-<para>use this constructor to set new object&apos;s topology and remember its difference from existed topology for future undoing Generated from constructor <computeroutput>MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</computeroutput>. </para>
+<para>use this constructor to set new object&apos;s topology and remember its difference from existed topology for future undoing Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshTopologyAction_1a998cb12314dc78b7e25aeffb28fc3580" kindref="member">MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -218,7 +218,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PartialChangeMeshTopologyAction.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PartialChangeMeshTopologyAction::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -252,45 +252,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_PartialChangeMeshTopologyAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PartialChangeMeshTopologyAction</label>
         <link refid="classMR_1_1PartialChangeMeshTopologyAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PartialChangeMeshTopologyAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_PartialChangeMeshTopologyAction &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_PartialChangeMeshTopologyAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PartialChangeMeshTopologyAction</label>
         <link refid="classMR_1_1PartialChangeMeshTopologyAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PartialChangeMeshTopologyAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_PartialChangeMeshTopologyAction &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="1230" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="1231" bodyend="1333"/>

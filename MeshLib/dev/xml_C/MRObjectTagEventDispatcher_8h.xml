@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRObjectTagEventDispatcher_8h" kind="file" language="C++">
     <compoundname>MRObjectTagEventDispatcher.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -119,7 +119,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ObjectTagEventDispatcher</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRObjectTagEventDispatcher_8h_1a03b925ff8ce89b7db845c1eb173e2ad6" kindref="member">MR_ObjectTagEventDispatcher</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -137,7 +137,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ObjectTagEventDispatcher</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRObjectTagEventDispatcher_8h_1a03b925ff8ce89b7db845c1eb173e2ad6" kindref="member">MR_ObjectTagEventDispatcher</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -206,7 +206,7 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRObjectTagEventDispatcher_8h_1a03b925ff8ce89b7db845c1eb173e2ad6" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectTagEventDispatcher_8h_1a03b925ff8ce89b7db845c1eb173e2ad6" kindref="member">MR_ObjectTagEventDispatcher</ref><sp/><ref refid="MRObjectTagEventDispatcher_8h_1a03b925ff8ce89b7db845c1eb173e2ad6" kindref="member">MR_ObjectTagEventDispatcher</ref>;</highlight></codeline>
+<codeline lineno="16" refid="MRObjectTagEventDispatcher_8h_1a03b925ff8ce89b7db845c1eb173e2ad6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectTagEventDispatcher_8h_1a03b925ff8ce89b7db845c1eb173e2ad6" kindref="member">MR_ObjectTagEventDispatcher</ref><sp/><ref refid="MRObjectTagEventDispatcher_8h_1a03b925ff8ce89b7db845c1eb173e2ad6" kindref="member">MR_ObjectTagEventDispatcher</ref>;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRObjectTagEventDispatcher_8h_1ad7786b1901cce3c50176640ca27409ea" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectTagEventDispatcher_8h_1a03b925ff8ce89b7db845c1eb173e2ad6" kindref="member">MR_ObjectTagEventDispatcher</ref><sp/>*<ref refid="MRObjectTagEventDispatcher_8h_1ad7786b1901cce3c50176640ca27409ea" kindref="member">MR_ObjectTagEventDispatcher_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRObjectTagEventDispatcher_8h_1a03b925ff8ce89b7db845c1eb173e2ad6" kindref="member">MR_ObjectTagEventDispatcher</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>

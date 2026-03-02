@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1VoxelsLoad_1_1RawParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::VoxelsLoad::RawParameters</compoundname>
-    <includes refid="MRVoxelsLoad_8h" local="no">MRVoxelsLoad.h</includes>
+    <includes refid="MRVoxelsLoad_8h" local="no">MRVoxels/MRVoxelsLoad.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__VoxelsLoadGroup_1gab1db96ec60477ec788bfe5aeb3596da2" kind="variable"><name>dimensions</name></member>
       <member refid="group__VoxelsLoadGroup_1gafd3e66a2e50b601320d9254e884691dd" kind="variable"><name>voxelSize</name></member>
@@ -13,7 +13,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="23" bodyend="28"/>
+    <location file="MRVoxels/MRVoxelsLoad.h" line="22" column="1" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="23" bodyend="28"/>
     <listofallmembers>
       <member refid="group__VoxelsLoadGroup_1gab1db96ec60477ec788bfe5aeb3596da2" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>dimensions</name></member>
       <member refid="group__VoxelsLoadGroup_1ga5d28afdbdf8874a171bdaa3da9a77db7" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>gridLevelSet</name></member>

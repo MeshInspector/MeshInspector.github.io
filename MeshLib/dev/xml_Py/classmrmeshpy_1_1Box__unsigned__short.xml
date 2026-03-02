@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Box__unsigned__short" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Box_unsigned_short</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16" prot="public" virt="non-virtual">mrmeshpy.SimpleVolumeMinMaxU16</derivedcompoundref>
@@ -76,9 +76,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Box_unsigned_short.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a14186ac1b02edf4b6d0b198770a82591">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a59d79b6b79229dcc1b9832ef5e13012c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1aae1ceaf26cd3d0fa7d8f55c247e78ba7">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -101,9 +98,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Box_unsigned_short.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a14186ac1b02edf4b6d0b198770a82591">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a59d79b6b79229dcc1b9832ef5e13012c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1aae1ceaf26cd3d0fa7d8f55c247e78ba7">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -308,9 +302,6 @@ finds the box&apos;s corner for which d is minimal
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Box_unsigned_short.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a14186ac1b02edf4b6d0b198770a82591">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a59d79b6b79229dcc1b9832ef5e13012c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1aae1ceaf26cd3d0fa7d8f55c247e78ba7">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -331,9 +322,6 @@ finds the box&apos;s corner for which d is minimal
         <argsstring>(self, int min, int max)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Box_unsigned_short.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a14186ac1b02edf4b6d0b198770a82591">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a59d79b6b79229dcc1b9832ef5e13012c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1aae1ceaf26cd3d0fa7d8f55c247e78ba7">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -360,9 +348,6 @@ finds the box&apos;s corner for which d is minimal
         <argsstring>(self, Box_unsigned_short arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Box_unsigned_short.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a14186ac1b02edf4b6d0b198770a82591">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a59d79b6b79229dcc1b9832ef5e13012c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1aae1ceaf26cd3d0fa7d8f55c247e78ba7">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -409,7 +394,6 @@ finds the box&apos;s corner for which d is minimal
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.Box_unsigned_short.__repr__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a045b1823b099da3a5206a5b07c443b38">__repr__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -949,20 +933,6 @@ Box given by its min- and max- corners
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.Box_unsigned_short</label>
-        <link refid="classmrmeshpy_1_1Box__unsigned__short"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_max</edgelabel>
-          <edgelabel>_offsetof_min</edgelabel>
-          <edgelabel>elements</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5912" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5912" bodyend="6073"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Box__unsigned__short_1a8cd6552aa211eb5406e964f094fe9c7f" prot="public" virt="non-virtual"><scope>mrmeshpy::Box_unsigned_short</scope><name>__eq__</name></member>

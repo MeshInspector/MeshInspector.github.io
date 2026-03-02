@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1detail_1_1ScopeGuard" kind="class" language="C++" prot="public">
     <compoundname>MR::detail::ScopeGuard</compoundname>
-    <includes refid="MRFinally_8h" local="no">MRFinally.h</includes>
+    <includes refid="MRFinally_8h" local="no">MRMesh/MRFinally.h</includes>
     <templateparamlist>
       <param>
         <type>typename F</type>
@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="39" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" bodystart="39" bodyend="-1"/>
+        <location file="MRMesh/MRFinally.h" line="39" column="7" bodyfile="MRMesh/MRFinally.h" bodystart="39" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="42" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" bodystart="42" bodyend="42"/>
+        <location file="MRMesh/MRFinally.h" line="42" column="5" bodyfile="MRMesh/MRFinally.h" bodystart="42" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1detail_1_1ScopeGuard_1ab72f5f420a40ffb2fdeba77f9cfc3c6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="43" column="5"/>
+        <location file="MRMesh/MRFinally.h" line="43" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1detail_1_1ScopeGuard_1a80a080271e0af15a7e4244bcc72d35a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMR_1_1detail_1_1ScopeGuard" kindref="compound">ScopeGuard</ref> &amp;</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="44" column="16"/>
+        <location file="MRMesh/MRFinally.h" line="44" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1detail_1_1ScopeGuard_1a2c51cf739e0e06d29590ee4e3d5729b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -89,14 +89,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="45" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" bodystart="45" bodyend="45"/>
+        <location file="MRMesh/MRFinally.h" line="45" column="5" bodyfile="MRMesh/MRFinally.h" bodystart="45" bodyend="45"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" bodystart="38" bodyend="46"/>
+    <location file="MRMesh/MRFinally.h" line="37" column="1" bodyfile="MRMesh/MRFinally.h" bodystart="38" bodyend="46"/>
     <listofallmembers>
       <member refid="classMR_1_1detail_1_1ScopeGuard_1aa58fea0279c83f39c45527a712b94b22" prot="private" virt="non-virtual"><scope>MR::detail::ScopeGuard</scope><name>func</name></member>
       <member refid="classMR_1_1detail_1_1ScopeGuard_1a80a080271e0af15a7e4244bcc72d35a4" prot="public" virt="non-virtual"><scope>MR::detail::ScopeGuard</scope><name>operator=</name></member>

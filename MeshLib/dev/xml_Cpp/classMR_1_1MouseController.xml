@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MouseController" kind="class" language="C++" prot="public">
     <compoundname>MR::MouseController</compoundname>
-    <includes refid="MRMouseController_8h" local="no">MRMouseController.h</includes>
+    <includes refid="MRMouseController_8h" local="no">MRViewer/MRMouseController.h</includes>
     <innerclass refid="structMR_1_1MouseController_1_1MouseControlKey" prot="public">MR::MouseController::MouseControlKey</innerclass>
     <sectiondef kind="private-type">
       <member refid="group__GeneralGroup_1gaa74ac024d9ebcf8b9b970eab67a5a767" kind="typedef"><name>MouseModeMap</name></member>
@@ -64,7 +64,7 @@
     <detaileddescription>
 <para>this class stores two maps: 1) mouse control to mouse mode 2) mouse mode to mouse control it is present as field in <ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>, and used to control scene note: default state is usually set from <ref refid="classMR_1_1ViewerSetup" kindref="compound">ViewerSetup</ref> class note: user config saves its state </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="24" bodyend="115"/>
+    <location file="MRViewer/MRMouseController.h" line="23" column="1" bodyfile="MRViewer/MRMouseController.h" bodystart="24" bodyend="115"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga466cd2d69aa16b0e62170a0967243e43" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>backMap_</name></member>
       <member refid="group__GeneralGroup_1ga277e6e071b88904a856769149ff3b56a" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>clickButton_</name></member>

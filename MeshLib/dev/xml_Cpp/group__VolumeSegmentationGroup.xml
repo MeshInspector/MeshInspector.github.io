@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__VolumeSegmentationGroup" kind="group">
     <compoundname>VolumeSegmentationGroup</compoundname>
     <title>Volume (Voxel) Segmentation</title>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="26" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" declline="26" declcolumn="11"/>
+        <location file="MRVoxels/MRVolumeSegment.h" line="26" column="11" declfile="MRVoxels/MRVolumeSegment.h" declline="26" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__VolumeSegmentationGroup_1ga485d85b6eaca610e17853e44f73c6176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; <ref refid="structMR_1_1Mesh" kindref="compound">MR::Mesh</ref> &gt;</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="51" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" declline="51" declcolumn="11"/>
+        <location file="MRVoxels/MRVolumeSegment.h" line="51" column="11" declfile="MRVoxels/MRVolumeSegment.h" declline="51" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__VolumeSegmentationGroup_1ga6595550746d1b29a414b80b5bb1c3e27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::vector&lt; Mesh &gt; &gt;</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="118" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" declline="118" declcolumn="11"/>
+        <location file="MRVoxels/MRVolumeSegment.h" line="118" column="11" declfile="MRVoxels/MRVolumeSegment.h" declline="118" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

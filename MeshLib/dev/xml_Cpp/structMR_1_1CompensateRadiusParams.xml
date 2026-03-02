@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1CompensateRadiusParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::CompensateRadiusParams</compoundname>
-    <includes refid="MRRadiusCompensation_8h" local="no">MRRadiusCompensation.h</includes>
+    <includes refid="MRRadiusCompensation_8h" local="no">MRMesh/MRRadiusCompensation.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga78eaf043f024883ea5ff487bc2d7ec50" kind="variable"><name>direction</name></member>
       <member refid="group__GeneralGroup_1gae42deb31a3f4aa352b4df19396131a28" kind="variable"><name>toolRadius</name></member>
@@ -18,7 +18,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" bodystart="15" bodyend="40"/>
+    <location file="MRMesh/MRRadiusCompensation.h" line="14" column="1" bodyfile="MRMesh/MRRadiusCompensation.h" bodystart="15" bodyend="40"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gadb2072e359a12815d6285187b399591d" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>callback</name></member>
       <member refid="group__GeneralGroup_1ga78eaf043f024883ea5ff487bc2d7ec50" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>direction</name></member>

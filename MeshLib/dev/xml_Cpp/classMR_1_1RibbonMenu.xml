@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonMenu" kind="class" language="C++" prot="public">
     <compoundname>MR::RibbonMenu</compoundname>
     <basecompoundref refid="classMR_1_1ImGuiMenu" prot="public" virt="non-virtual">MR::ImGuiMenu</basecompoundref>
-    <includes refid="MRRibbonMenu_8h" local="no">MRRibbonMenu.h</includes>
+    <includes refid="MRRibbonMenu_8h" local="no">MRViewer/MRRibbonMenu.h</includes>
     <innerclass refid="structMR_1_1RibbonMenu_1_1CustomContextMenuCheckbox" prot="private">MR::RibbonMenu::CustomContextMenuCheckbox</innerclass>
     <innerclass refid="structMR_1_1RibbonMenu_1_1DialogItemPtr" prot="protected">MR::RibbonMenu::DialogItemPtr</innerclass>
     <innerclass refid="structMR_1_1RibbonMenu_1_1DrawGroupConfig" prot="protected">MR::RibbonMenu::DrawGroupConfig</innerclass>
@@ -189,23 +189,20 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
         <childnode refid="7" relation="usage">
-          <edgelabel>frameTimeMillisecThreshold_</edgelabel>
-        </childnode>
-        <childnode refid="8" relation="usage">
           <edgelabel>oldLabelParams_</edgelabel>
         </childnode>
-        <childnode refid="9" relation="usage">
+        <childnode refid="8" relation="usage">
           <edgelabel>selectedViewport_</edgelabel>
         </childnode>
-        <childnode refid="10" relation="usage">
+        <childnode refid="9" relation="usage">
           <edgelabel>tagEditorState_</edgelabel>
         </childnode>
       </node>
-      <node id="8">
+      <node id="7">
         <label>MR::ImGuiMenu::LabelParams</label>
         <link refid="structMR_1_1ImGuiMenu_1_1LabelParams"/>
       </node>
-      <node id="10">
+      <node id="9">
         <label>MR::ImGuiMenu::TagEditorState</label>
         <link refid="structMR_1_1ImGuiMenu_1_1TagEditorState"/>
       </node>
@@ -220,36 +217,36 @@
         <link refid="classMR_1_1RibbonMenu"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="11" relation="usage">
+        <childnode refid="10" relation="usage">
           <edgelabel>activeBlockingItem_</edgelabel>
         </childnode>
-        <childnode refid="12" relation="usage">
+        <childnode refid="11" relation="usage">
           <edgelabel>searcher_</edgelabel>
         </childnode>
       </node>
-      <node id="11">
+      <node id="10">
         <label>MR::RibbonMenu::DialogItemPtr</label>
         <link refid="structMR_1_1RibbonMenu_1_1DialogItemPtr"/>
       </node>
-      <node id="12">
+      <node id="11">
         <label>MR::RibbonMenuSearch</label>
         <link refid="classMR_1_1RibbonMenuSearch"/>
-        <childnode refid="13" relation="usage">
+        <childnode refid="12" relation="usage">
           <edgelabel>onFocusSignal</edgelabel>
         </childnode>
-        <childnode refid="15" relation="usage">
+        <childnode refid="14" relation="usage">
           <edgelabel>onToolActivateSignal</edgelabel>
         </childnode>
       </node>
-      <node id="13">
+      <node id="12">
         <label>MR::Signal&lt; void()&gt;</label>
         <link refid="structMR_1_1Signal"/>
-        <childnode refid="14" relation="public-inheritance">
+        <childnode refid="13" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="15">
+      <node id="14">
         <label>MR::Signal&lt; void(std::shared_ptr&lt; MR::RibbonMenuItem &gt;)&gt;</label>
-        <childnode refid="16" relation="public-inheritance">
+        <childnode refid="15" relation="public-inheritance">
         </childnode>
       </node>
       <node id="4">
@@ -263,21 +260,18 @@
           <edgelabel>viewer</edgelabel>
         </childnode>
       </node>
-      <node id="9">
+      <node id="8">
         <label>MR::ViewportId</label>
         <link refid="classMR_1_1ViewportId"/>
       </node>
-      <node id="14">
+      <node id="13">
         <label>boost::signals2::signal&lt; void() &gt;</label>
       </node>
-      <node id="16">
+      <node id="15">
         <label>boost::signals2::signal&lt; void(std::shared_ptr&lt; MR::RibbonMenuItem &gt;) &gt;</label>
       </node>
-      <node id="7">
-        <label>long</label>
-      </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="27" bodyend="312"/>
+    <location file="MRViewer/MRRibbonMenu.h" line="26" column="1" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="27" bodyend="312"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2f639a83635dfb22ba89545a6dc9d85e" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeBlockingItem_</name></member>
       <member refid="group__GeneralGroup_1ga9de4fc9facc10e4a60cdd6140d8128b6" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeListPos_</name></member>

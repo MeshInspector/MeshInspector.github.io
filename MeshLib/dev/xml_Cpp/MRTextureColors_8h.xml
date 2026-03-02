@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRTextureColors_8h" kind="file" language="C++">
     <compoundname>MRTextureColors.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -38,7 +38,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRTextureColors.h</label>
+        <label>MRMesh/MRTextureColors.h</label>
         <link refid="MRTextureColors_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -97,8 +97,8 @@
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="group__GeneralGroup_1gad43e808664575f49147711c1ad69534d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertColors<sp/><ref refid="group__GeneralGroup_1gad43e808664575f49147711c1ad69534d" kindref="member">sampleVertexColors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTexture" kindref="compound">MeshTexture</ref>&amp;<sp/>tex,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TriCornerUVCoords&amp;<sp/>triCornerUvCoords<sp/>);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTextureColors.h"/>
+    <location file="MRMesh/MRTextureColors.h"/>
   </compounddef>
 </doxygen>

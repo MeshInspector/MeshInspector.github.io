@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ColorTheme" kind="class" language="C++" prot="public">
     <compoundname>MR::ColorTheme</compoundname>
-    <includes refid="MRColorTheme_8h" local="no">MRColorTheme.h</includes>
+    <includes refid="MRColorTheme_8h" local="no">MRViewer/MRColorTheme.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gabbecc6afa53db91ada45757b845b5514" kind="enum"><name>Preset</name></member>
       <member refid="group__GeneralGroup_1gad14d75ef685e439c80487ba1d4c41eca" kind="enum"><name>Type</name></member>
@@ -61,7 +61,7 @@
     <detaileddescription>
 <para>This singleton is born to manage color-themes loading and saving, and apply it to app It can handle scene colors (default mesh colors, etc.) and Dear <ref refid="namespaceImGui" kindref="compound">ImGui</ref> colors </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" bodystart="19" bodyend="200"/>
+    <location file="MRViewer/MRColorTheme.h" line="18" column="1" bodyfile="MRViewer/MRColorTheme.h" bodystart="19" bodyend="200"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga347216be239867c25863de38d87f663e" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>apply_</name></member>
       <member refid="group__GeneralGroup_1gaebb0e1b2863220ca5271077fca2d07dc" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>ChangedSignal</name></member>

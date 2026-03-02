@@ -3,7 +3,6 @@ var MRScanHelpers_8h =
     [ "MR_SliceInfo", "MRScanHelpers_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942", null ],
     [ "MR_SliceInfoBase", "MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996", null ],
     [ "MR_std_vector_MR_SliceInfo", "MRScanHelpers_8h.html#a771ba5022befbb504ac90050d525a465", null ],
-    [ "MR_std_vector_std_filesystem_path", "MRScanHelpers_8h.html#a4d75e004d098bc7d987ebfcf304f5454", null ],
     [ "MR_putScanFileNameInZ", "MRScanHelpers_8h.html#abb537722b31d589081be6fa2a6198f33", null ],
     [ "MR_SliceInfo_AssignFromAnother", "MRScanHelpers_8h.html#a4d4f812d4295badc4e4e36f754b7ecba", null ],
     [ "MR_SliceInfo_ConstructFromAnother", "MRScanHelpers_8h.html#a0193193aadc828e5020f4b779b27f670", null ],

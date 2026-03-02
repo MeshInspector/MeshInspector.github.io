@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1InTreePathBuilder" kind="class" language="C++" prot="public">
     <compoundname>MR::InTreePathBuilder</compoundname>
-    <includes refid="MRInTreePathBuilder_8h" local="no">MRInTreePathBuilder.h</includes>
+    <includes refid="MRInTreePathBuilder_8h" local="no">MRMesh/MRInTreePathBuilder.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaf0d8c93adfdca3a7b53b48884d7a6f3e" kind="variable"><name>topology_</name></member>
       <member refid="group__GeneralGroup_1gacd9355de874443aa0132991638f1fe2e" kind="variable"><name>treeEdges_</name></member>
@@ -20,7 +20,7 @@
     <detaileddescription>
 <para>given a spanning tree of edges in the mesh (or forest in case of several connected components), prepares to build quickly a path along tree edges between any two vertices </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" bodystart="14" bodyend="30"/>
+    <location file="MRMesh/MRInTreePathBuilder.h" line="13" column="1" bodyfile="MRMesh/MRInTreePathBuilder.h" bodystart="14" bodyend="30"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad261927227d814e06646f6daba7b3fa0" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>build</name></member>
       <member refid="group__GeneralGroup_1gaa9116724a3edb217b9ddb61735ecbb7f" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>getEdgeBack_</name></member>

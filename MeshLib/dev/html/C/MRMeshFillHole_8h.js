@@ -1,20 +1,13 @@
 var MRMeshFillHole_8h =
 [
-    [ "MR_FaceBitSet", "MRMeshFillHole_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
     [ "MR_FillHoleItem", "MRMeshFillHole_8h.html#a039a949821c4ea7cec351f4c38109fdf", null ],
     [ "MR_FillHoleMetric", "MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa", null ],
-    [ "MR_FillHoleParams", "MRMeshFillHole_8h.html#aac50ce209302ca1c9b23e6ea4dcfd3b4", null ],
     [ "MR_FillHoleParams_MultipleEdgesResolveMode", "MRMeshFillHole_8h.html#ac8d61bc3a1cf828a222dc0f9fc6c3d95", null ],
     [ "MR_HoleFillPlan", "MRMeshFillHole_8h.html#a5a00aab77738cff176a767642f45dc93", null ],
     [ "MR_MakeBridgeResult", "MRMeshFillHole_8h.html#a70792c051467ac13a2576c49016eaed9", null ],
-    [ "MR_Mesh", "MRMeshFillHole_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshTopology", "MRMeshFillHole_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
-    [ "MR_Plane3f", "MRMeshFillHole_8h.html#aa7548d3448b3b7da1ea96433fe902e9a", null ],
     [ "MR_std_function_MR_Vector3f_from_const_MR_Vector3f_ref", "MRMeshFillHole_8h.html#a559bc522bf2ef8eca29bda495e2b0c24", null ],
-    [ "MR_std_vector_MR_EdgeId", "MRMeshFillHole_8h.html#aa2cb99914308eb7429fd11738cf79483", null ],
     [ "MR_std_vector_MR_FillHoleItem", "MRMeshFillHole_8h.html#a785aae8725e582179852d911f99b48f7", null ],
     [ "MR_std_vector_MR_HoleFillPlan", "MRMeshFillHole_8h.html#a71420d58f7bb7fb91fd83ff02a1848b1", null ],
-    [ "MR_StitchHolesParams", "MRMeshFillHole_8h.html#aa1607d8c8b544880832ed215c4cd000d", null ],
     [ "MR_FillHoleParams_MultipleEdgesResolveMode", "MRMeshFillHole_8h.html#ad5ff595b64cd4a8ccfe5988d90b4df81", [
       [ "MR_FillHoleParams_MultipleEdgesResolveMode_None", "MRMeshFillHole_8h.html#ad5ff595b64cd4a8ccfe5988d90b4df81a2ff945745c5ecce6c5d7af94af3a8acf", null ],
       [ "MR_FillHoleParams_MultipleEdgesResolveMode_Simple", "MRMeshFillHole_8h.html#ad5ff595b64cd4a8ccfe5988d90b4df81af6d6c71b19a22ab07182be268c3aaf07", null ],

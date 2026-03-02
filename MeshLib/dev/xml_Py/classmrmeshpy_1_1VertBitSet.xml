@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1VertBitSet" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::VertBitSet</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
@@ -10,7 +10,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -98,7 +97,6 @@
         <argsstring>(self, VertBitSet b)</argsstring>
         <name>__and__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__and__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -121,7 +119,6 @@
         <argsstring>(self, VertBitSet b)</argsstring>
         <name>__eq__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__eq__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1af06e5b8bd598633ae38015e4ef438a97">__eq__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -133,8 +130,6 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but last bits are off)
-</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -146,7 +141,6 @@
         <argsstring>(self, VertBitSet b)</argsstring>
         <name>__iand__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__iand__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -169,7 +163,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -188,7 +181,6 @@
         <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -218,7 +210,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -243,7 +234,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -268,7 +258,6 @@
         <argsstring>(self, VertBitSet arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -293,7 +282,6 @@
         <argsstring>(self, VertBitSet b)</argsstring>
         <name>__ior__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__ior__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -316,7 +304,6 @@
         <argsstring>(self, VertBitSet b)</argsstring>
         <name>__isub__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__isub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -339,7 +326,6 @@
         <argsstring>(self)</argsstring>
         <name>__iter__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__iter__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -358,7 +344,6 @@
         <argsstring>(self, VertBitSet b)</argsstring>
         <name>__ixor__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__ixor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -381,7 +366,6 @@
         <argsstring>(self, VertBitSet b)</argsstring>
         <name>__or__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__or__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -404,7 +388,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__repr__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -423,7 +406,6 @@
         <argsstring>(self, VertBitSet b)</argsstring>
         <name>__sub__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__sub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -446,7 +428,6 @@
         <argsstring>(self, VertBitSet b)</argsstring>
         <name>__xor__</name>
         <qualifiedname>mrmeshpy.VertBitSet.__xor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -1277,13 +1258,6 @@ with all bits after size() considered off during testing
       <node id="2">
         <label>mrmeshpy.BitSet</label>
         <link refid="classmrmeshpy_1_1BitSet"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>bits_per_block</edgelabel>
-          <edgelabel>npos</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70847" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70847" bodyend="71007"/>
@@ -1303,13 +1277,23 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1VertBitSet_1a9a8634a40088c704704ad95aad3d30cb" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__ixor__</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a9efeed7746912f8eefde3651b2b84ced" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__or__</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1aa258db5bc3b9034510a9ec6078c3f579" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a98282e643a9a65e1c6109bb7e5d7bb0f" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a180dc7a7e3b1484cbc0655607c27948d" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__rrshift__</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a1f0f881ea4e3f3b24bf41c8f332821b6" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__sub__</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1ae8b54bdad9527607a3c845367a841f82" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a7791a54179bcc02c9e8d46ccd467d1df" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>all</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a72e64427ab6f98e8ffeb422c97588e62" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>any</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a9573ba046dc518f718dc54cdfe3a7ddb" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1abdb9b4c9bf9d6feab7218dbd6c90cca2" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a895c899ff819d3345c29c696ffe7f0f6" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>autoResizeTestSet</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a51196eeaa539cf37011f5a70f5cb705c" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>backId</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1aaaa9e8063bf445273af1e2dbe276c701" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab1c92776adea9f7d4a8aa71b4db8585e" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>bits</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a59b26e0abde0aeed833933ad5058adfe" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>bits_per_block</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a2335e90bc299cbaa4f87a7e2157f869a" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a640d1f443a7ea30d50a532de2cdf90b4" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a4b8a47eb3cd9dc19a7448b1a3b1765e2" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aab954a31474723788e2aeee311325c15" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>empty</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a65e01f79d16a5b3a2d0a430bfffc4c26" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>endId</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1ae218e1d2f65809cf30f2c5e4e82c974f" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>find_first</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1ac916f7c5d428b672a2882e348ab0104e" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>find_first_not_set</name></member>
@@ -1320,26 +1304,41 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1VertBitSet_1a4bb0eab5cb1e5e2a32a9369f785269a1" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a923b94b589af8fed85512bd7f69d30f2" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a1451203822d962e43430fcb158262ffc" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab52de9f1462e6d83e5b7191d4396df74" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>fromBlocks</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a37f41cbcfb20d51c5e7d62fc48863620" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a928e80730c3c91bfc5fa63d712b00067" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a6fbf25408f9a3ab6d9ace0759d5d8c46" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a0dd6727dddb55c9c3e0ff75e94165d55" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1ab72b94e7c26240ed7ed6036513b35a2e" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a72aaf506df1eb81e3ed3d5d901ee5735" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a38bc9eaf27d3493ec525b62f183f85a3" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aba96890a6af8d454cea1e755d03af8db" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>none</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aa0a7d1ede8a4702ab5421d151412dfc9" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>npos</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1adbc7b69bb5c18786e77b0b9af8458292" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a33fe73fcaf13f4fe52d1fe72379ba764" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>num_blocks</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a533bb6c6331dfa6f7d16a75612ce2ef4" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a533bb6c6331dfa6f7d16a75612ce2ef4" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a204e188214d1fd66553951c4a6c9888b" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1af016fdece4d1e0fcefadce98dff1b478" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a289c8f64f552d93f25d60aae2140354a" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>reserve</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1adfe3e9304b4feef7ae6f93b2e1ab939f" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a5b0f3a3ab5bdc55b7a90ee733759d738" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1afbd9917feba520645d641149b016dd4b" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a9e4c33df165c88226f1105129caa15f2" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a8f011a2d79e0769e54a51148de3d2dec" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a6e10a386d264b1d2ac5153c7eda3452e" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>reverse</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1ab7a546fa721a02a5f681cb423c6dce46" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1acace22a4d842126f30b3ca89aac21f33" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a51615def0c1275a0b4d21c07814da964" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a60571d01e01503f5174f0db9169a6e31" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a394f9a9633d44001a7cab69dbd3815e8" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>shrink_to_fit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae04e046bab014f7e687c1010d5386eb" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a3652e64411b74768b888e13563fff46c" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>subtract</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1ae8808edaa025987527112d525ce4857c" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>test</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a3d0f63e972577eb1589e92bc88bc42b8" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>test_set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae49ff1ea465f9b7185a328d08806e08" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>uncheckedTest</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a908f2b141bba37ea2f49d8dd1938c711" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>uncheckedTestSet</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

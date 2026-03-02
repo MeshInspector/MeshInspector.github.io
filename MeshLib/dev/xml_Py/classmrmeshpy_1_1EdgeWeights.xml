@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1EdgeWeights" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::EdgeWeights</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -295,19 +295,6 @@
   Cotan : edge weight depends on local geometry and uses cotangent values
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.EdgeWeights</label>
-        <link refid="classmrmeshpy_1_1EdgeWeights"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>Cotan</edgelabel>
-          <edgelabel>Unit</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15900" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15900" bodyend="15936"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1EdgeWeights_1a9c649e84f7652f7947fd8560eb4d6d5b" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeWeights</scope><name>__eq__</name></member>

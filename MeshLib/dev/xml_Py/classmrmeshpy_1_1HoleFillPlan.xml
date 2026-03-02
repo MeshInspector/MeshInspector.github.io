@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1HoleFillPlan" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::HoleFillPlan</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -224,19 +224,6 @@
 concise representation of proposed hole triangulation
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.HoleFillPlan</label>
-        <link refid="classmrmeshpy_1_1HoleFillPlan"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_items</edgelabel>
-          <edgelabel>_offsetof_numTris</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22958" bodyend="22999"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1HoleFillPlan_1ab3905b0d413bb0cf8a2e61418ea6da7a" prot="public" virt="non-virtual"><scope>mrmeshpy::HoleFillPlan</scope><name>__init__</name></member>

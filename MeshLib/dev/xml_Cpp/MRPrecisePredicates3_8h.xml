@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPrecisePredicates3_8h" kind="file" language="C++">
     <compoundname>MRPrecisePredicates3.h</compoundname>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes local="no">array</includes>
     <includes local="no">optional</includes>
-    <includedby refid="MRMeshCollidePrecise_8h" local="yes">MRMeshCollidePrecise.h</includedby>
-    <includedby refid="MROneMeshContours_8h" local="yes">MROneMeshContours.h</includedby>
+    <includedby refid="MRMeshCollidePrecise_8h" local="yes">MRMesh/MRMeshCollidePrecise.h</includedby>
+    <includedby refid="MROneMeshContours_8h" local="yes">MRMesh/MROneMeshContours.h</includedby>
     <incdepgraph>
       <node id="9">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -62,7 +62,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPrecisePredicates3.h</label>
+        <label>MRMesh/MRPrecisePredicates3.h</label>
         <link refid="MRPrecisePredicates3_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -157,13 +157,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="5">
-        <label>MRContoursCut.h</label>
+        <label>MRMesh/MRContoursCut.h</label>
         <link refid="MRContoursCut_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRIntersectionContour.h</label>
+        <label>MRMesh/MRIntersectionContour.h</label>
         <link refid="MRIntersectionContour_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -171,23 +171,23 @@
         </childnode>
       </node>
       <node id="6">
-        <label>MRMeshBoolean.h</label>
+        <label>MRMesh/MRMeshBoolean.h</label>
         <link refid="MRMeshBoolean_8h"/>
       </node>
       <node id="2">
-        <label>MRMeshCollidePrecise.h</label>
+        <label>MRMesh/MRMeshCollidePrecise.h</label>
         <link refid="MRMeshCollidePrecise_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MROneMeshContours.h</label>
+        <label>MRMesh/MROneMeshContours.h</label>
         <link refid="MROneMeshContours_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>MRPrecisePredicates3.h</label>
+        <label>MRMesh/MRPrecisePredicates3.h</label>
         <link refid="MRPrecisePredicates3_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -195,7 +195,7 @@
         </childnode>
       </node>
       <node id="7">
-        <label>MRTripleFaceIntersections.h</label>
+        <label>MRMesh/MRTripleFaceIntersections.h</label>
         <link refid="MRTripleFaceIntersections_8h"/>
       </node>
     </invincdepgraph>
@@ -219,10 +219,10 @@
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga343b0de4b65432a92901c76af4024b57" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga343b0de4b65432a92901c76af4024b57" kindref="member">orient3d</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>c<sp/>);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="group__GeneralGroup_1ga24ef393e1380f77979d9cfa6f7e0e88e" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga343b0de4b65432a92901c76af4024b57" kindref="member">orient3d</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>d<sp/>)</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga24ef393e1380f77979d9cfa6f7e0e88e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga343b0de4b65432a92901c76af4024b57" kindref="member">orient3d</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>d<sp/>)</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga343b0de4b65432a92901c76af4024b57" kindref="member">orient3d</ref>(<sp/>a<sp/>-<sp/>d,<sp/>b<sp/>-<sp/>d,<sp/>c<sp/>-<sp/>d<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="structMR_1_1PreciseVertCoords" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref></highlight></codeline>
@@ -247,9 +247,9 @@
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53" refid="group__GeneralGroup_1ga4407955477825bbff775800e3841da28" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacbfda6745992ad158fa79952f3f9ba55" kindref="member">segmentIntersectionOrder</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::array&lt;PreciseVertCoords,<sp/>8&gt;<sp/>&amp;<sp/>vs<sp/>);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="group__GeneralGroup_1gab81d3ad87ff9cd57deee77336ddf83e1" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gab81d3ad87ff9cd57deee77336ddf83e1" kindref="member">ConvertToIntVector</ref><sp/>=<sp/>std::function&lt;Vector3i(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="58" refid="group__GeneralGroup_1ga55867f88ac3e3a329e67a208b4634d96" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga55867f88ac3e3a329e67a208b4634d96" kindref="member">ConvertToFloatVector</ref><sp/>=<sp/>std::function&lt;Vector3f(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="60" refid="structMR_1_1CoordinateConverters" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CoordinateConverters" kindref="compound">CoordinateConverters</ref></highlight></codeline>
+<codeline lineno="56" refid="group__GeneralGroup_1gab81d3ad87ff9cd57deee77336ddf83e1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gab81d3ad87ff9cd57deee77336ddf83e1" kindref="member">ConvertToIntVector</ref><sp/>=<sp/>std::function&lt;Vector3i(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="58" refid="group__GeneralGroup_1ga55867f88ac3e3a329e67a208b4634d96" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga55867f88ac3e3a329e67a208b4634d96" kindref="member">ConvertToFloatVector</ref><sp/>=<sp/>std::function&lt;Vector3f(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="60" refid="structMR_1_1CoordinateConverters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CoordinateConverters" kindref="compound">CoordinateConverters</ref></highlight></codeline>
 <codeline lineno="61"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="62" refid="group__GeneralGroup_1gaf1cc39b13f2960b4d6386e81c3e57c74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab81d3ad87ff9cd57deee77336ddf83e1" kindref="member">ConvertToIntVector</ref><sp/><ref refid="group__GeneralGroup_1gaf1cc39b13f2960b4d6386e81c3e57c74" kindref="member">toInt</ref>{};</highlight></codeline>
 <codeline lineno="63" refid="group__GeneralGroup_1ga9c7a896a6e208bd631d8a24dc4dbe5e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga55867f88ac3e3a329e67a208b4634d96" kindref="member">ConvertToFloatVector</ref><sp/><ref refid="group__GeneralGroup_1ga9c7a896a6e208bd631d8a24dc4dbe5e9" kindref="member">toFloat</ref>{};</highlight></codeline>
@@ -268,6 +268,6 @@
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
 <codeline lineno="84"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h"/>
+    <location file="MRMesh/MRPrecisePredicates3.h"/>
   </compounddef>
 </doxygen>

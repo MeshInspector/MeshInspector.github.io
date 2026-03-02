@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1TrivialMetricToPenalty" kind="struct" language="C++" prot="public">
     <compoundname>MR::TrivialMetricToPenalty</compoundname>
-    <includes refid="MREdgePathsBuilder_8h" local="no">MREdgePathsBuilder.h</includes>
+    <includes refid="MREdgePathsBuilder_8h" local="no">MRMesh/MREdgePathsBuilder.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gac520c15e54c74fc25c2c0d3a0bdd18a6" kind="function"><name>operator()</name></member>
     </sectiondef>
@@ -11,7 +11,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="127" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="128" bodyend="130"/>
+    <location file="MRMesh/MREdgePathsBuilder.h" line="127" column="1" bodyfile="MRMesh/MREdgePathsBuilder.h" bodystart="128" bodyend="130"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac520c15e54c74fc25c2c0d3a0bdd18a6" prot="public" virt="non-virtual"><scope>MR::TrivialMetricToPenalty</scope><name>operator()</name></member>
     </listofallmembers>

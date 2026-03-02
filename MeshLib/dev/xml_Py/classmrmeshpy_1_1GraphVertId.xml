@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1GraphVertId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::GraphVertId</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1NoDefInit__GraphVertId" prot="public" virt="non-virtual">mrmeshpy.NoDefInit_GraphVertId</derivedcompoundref>
@@ -27,9 +27,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphVertId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aed024d79a8bc9bdc081c15c661acafa0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aa59a826f93de029d186b70783544df67">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1a97f0c24fce263915696d139d6d6dd871">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -52,9 +49,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphVertId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aed024d79a8bc9bdc081c15c661acafa0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aa59a826f93de029d186b70783544df67">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1a97f0c24fce263915696d139d6d6dd871">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -235,9 +229,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphVertId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aed024d79a8bc9bdc081c15c661acafa0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aa59a826f93de029d186b70783544df67">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1a97f0c24fce263915696d139d6d6dd871">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -256,9 +247,6 @@
         <argsstring>(self, int i)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphVertId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aed024d79a8bc9bdc081c15c661acafa0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aa59a826f93de029d186b70783544df67">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1a97f0c24fce263915696d139d6d6dd871">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -289,9 +277,6 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         <argsstring>(self, GraphVertId arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphVertId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aed024d79a8bc9bdc081c15c661acafa0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aa59a826f93de029d186b70783544df67">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1a97f0c24fce263915696d139d6d6dd871">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -378,7 +363,6 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.GraphVertId.__repr__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1a1108e3ec531b7d90d82f03b9ffd2b78b">__repr__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>

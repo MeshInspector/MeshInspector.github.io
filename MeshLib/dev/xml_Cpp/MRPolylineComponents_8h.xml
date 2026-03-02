@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPolylineComponents_8h" kind="file" language="C++">
     <compoundname>MRPolylineComponents.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -38,7 +38,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPolylineComponents.h</label>
+        <label>MRMesh/MRPolylineComponents.h</label>
         <link refid="MRPolylineComponents_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -142,7 +142,7 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="namespaceMR_1_1PolylineComponents" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">PolylineComponents</highlight></codeline>
+<codeline lineno="11" refid="namespaceMR_1_1PolylineComponents" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PolylineComponents" kindref="compound">PolylineComponents</ref></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1gabec2d7d813f0159e3532c158410ca712" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabec2d7d813f0159e3532c158410ca712" kindref="member">getNumComponents</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PolylineTopology" kindref="compound">PolylineTopology</ref>&amp;<sp/>topology);</highlight></codeline>
@@ -163,7 +163,7 @@
 <codeline lineno="44" refid="group__GeneralGroup_1gabc19be05235214b2db88c9ce8fa747b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabc19be05235214b2db88c9ce8fa747b0" kindref="member">minLength</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
 <codeline lineno="50" refid="group__ComponentsGroup_1gaff8ff9103faf452503ccfda3a3a8def2" refkind="member"><highlight class="normal">std::vector&lt;UndirectedEdgeBitSet&gt;<sp/><ref refid="group__ComponentsGroup_1gaff8ff9103faf452503ccfda3a3a8def2" kindref="member">getNLargeByLengthComponents</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Polyline" kindref="compound">Polyline&lt;V&gt;</ref>&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" kindref="compound">LargeByLengthComponentsSettings</ref>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
 <codeline lineno="52"><highlight class="normal">MR_BIND_TEMPLATE(<sp/>std::vector&lt;UndirectedEdgeBitSet&gt;<sp/><ref refid="group__ComponentsGroup_1gaff8ff9103faf452503ccfda3a3a8def2" kindref="member">getNLargeByLengthComponents</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga98da94791426a3dbbdeb1a6b25801df6" kindref="member">Polyline2</ref>&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" kindref="compound">LargeByLengthComponentsSettings</ref>&amp;<sp/>settings<sp/>)<sp/>)</highlight></codeline>
@@ -182,6 +182,6 @@
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
 <codeline lineno="69"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h"/>
+    <location file="MRMesh/MRPolylineComponents.h"/>
   </compounddef>
 </doxygen>

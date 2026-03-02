@@ -1,14 +1,7 @@
 var MRTriangleIntersection_8h =
 [
-    [ "MR_IntersectionPrecomputes_double", "MRTriangleIntersection_8h.html#aa232376b9781642f1a6041ef413a6347", null ],
-    [ "MR_IntersectionPrecomputes_float", "MRTriangleIntersection_8h.html#a87d83329d62d5328563c6e5b3bac7144", null ],
     [ "MR_std_optional_MR_TriIntersectResult", "MRTriangleIntersection_8h.html#a8fb787cfb02cc4a3553f511f4b3b4cd5", null ],
     [ "MR_TriIntersectResult", "MRTriangleIntersection_8h.html#a3155a1e631288d05270693a674f62207", null ],
-    [ "MR_TriPointf", "MRTriangleIntersection_8h.html#a9b2681646fc37c10c6deec7f555be88c", null ],
-    [ "MR_Vector2d", "MRTriangleIntersection_8h.html#a8fbfe75b70658eb6e5580c06bfa2176e", null ],
-    [ "MR_Vector2f", "MRTriangleIntersection_8h.html#a72ab0be0b71b29e9f310e7526a8cc57b", null ],
-    [ "MR_Vector3d", "MRTriangleIntersection_8h.html#aa6b35c703a4572c3ccc120ee82723a66", null ],
-    [ "MR_Vector3f", "MRTriangleIntersection_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
     [ "MR_doTrianglesOverlap_double", "MRTriangleIntersection_8h.html#abba177a2e17ae9b99a994beb86beff67", null ],
     [ "MR_doTrianglesOverlap_float", "MRTriangleIntersection_8h.html#a1733f11135be41138d943fc8ce726bd8", null ],
     [ "MR_isPointInLine_double", "MRTriangleIntersection_8h.html#a52acc2e43ccfbe95e1480127cb21525b", null ],

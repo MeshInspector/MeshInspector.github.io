@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderResetDirtyComponent" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderResetDirtyComponent</compoundname>
     <basecompoundref refid="classMR_1_1IRenderObject" prot="public" virt="virtual">MR::IRenderObject</basecompoundref>
-    <includes refid="MRRenderDefaultObjects_8h" local="no">MRRenderDefaultObjects.h</includes>
+    <includes refid="MRRenderDefaultObjects_8h" local="no">MRViewer/MRRenderDefaultObjects.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga7f26a1b5a28bad425bae26031106581a" kind="variable"><name>objPtr_</name></member>
     </sectiondef>
@@ -43,7 +43,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDefaultObjects.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDefaultObjects.h" bodystart="17" bodyend="28"/>
+    <location file="MRViewer/MRRenderDefaultObjects.h" line="16" column="1" bodyfile="MRViewer/MRRenderDefaultObjects.h" bodystart="17" bodyend="28"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga6cc3204a31145ab371e129da393b7215" prot="public" virt="virtual"><scope>MR::RenderResetDirtyComponent</scope><name>forceBindAll</name></member>
       <member refid="group__GeneralGroup_1gad432bca8e634d4215c150fa02a1c9a5d" prot="public" virt="virtual"><scope>MR::RenderResetDirtyComponent</scope><name>glBytes</name></member>

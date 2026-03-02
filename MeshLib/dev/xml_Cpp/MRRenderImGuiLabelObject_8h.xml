@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRenderImGuiLabelObject_8h" kind="file" language="C++">
     <compoundname>MRRenderImGuiLabelObject.h</compoundname>
     <includes refid="MRRenderDefaultObjects_8h" local="yes">MRViewer/MRRenderDefaultObjects.h</includes>
@@ -250,7 +250,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRRenderImGuiLabelObject.h</label>
+        <label>MRViewer/MRRenderImGuiLabelObject.h</label>
         <link refid="MRRenderImGuiLabelObject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -394,9 +394,9 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ObjectImGuiLabel;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectImGuiLabel" kindref="compound">ObjectImGuiLabel</ref>;</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="classMR_1_1RenderImGuiLabelObject" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RenderImGuiLabelObject" kindref="compound">RenderImGuiLabelObject</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator</ref>&lt;RenderDefaultUiObject,<sp/>RenderResetDirtyComponent&gt;</highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1RenderImGuiLabelObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaed99e4c0eca4b3a977f748eaca3561bf" kindref="member">RenderImGuiLabelObject</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" kindref="member">RenderObjectCombinator</ref>&lt;RenderDefaultUiObject,<sp/>RenderResetDirtyComponent&gt;</highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectImGuiLabel" kindref="compound">ObjectImGuiLabel</ref>*<sp/>object_<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1UI_1_1NonOverlappingLabelTask" kindref="compound">UI::NonOverlappingLabelTask</ref><sp/>task_;</highlight></codeline>
@@ -408,6 +408,6 @@
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderImGuiLabelObject.h"/>
+    <location file="MRViewer/MRRenderImGuiLabelObject.h"/>
   </compounddef>
 </doxygen>

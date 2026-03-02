@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1UI_1_1ButtonIconCustomizationParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::UI::ButtonIconCustomizationParams</compoundname>
-    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <includes refid="MRUIStyle_8h" local="no">MRViewer/MRUIStyle.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gae70b40fe67c4360ea6328d4d514217ea" kind="variable"><name>baseParams</name></member>
       <member refid="group__GeneralGroup_1gaa7755d0cc192563e2f8641d447160b10" kind="variable"><name>textUnderImage</name></member>
@@ -31,7 +31,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="96" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="97" bodyend="103"/>
+    <location file="MRViewer/MRUIStyle.h" line="96" column="1" bodyfile="MRViewer/MRUIStyle.h" bodystart="97" bodyend="103"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae70b40fe67c4360ea6328d4d514217ea" prot="public" virt="non-virtual"><scope>MR::UI::ButtonIconCustomizationParams</scope><name>baseParams</name></member>
       <member refid="group__GeneralGroup_1gaa7755d0cc192563e2f8641d447160b10" prot="public" virt="non-virtual"><scope>MR::UI::ButtonIconCustomizationParams</scope><name>textUnderImage</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1DividePolylineParameters" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::DividePolylineParameters</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -570,24 +570,6 @@ if close, only cut edges (no new edges will be created)
 <para><verbatim>Generated from:  MR::DividePolylineParameters
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.DividePolylineParameters</label>
-        <link refid="classmrmeshpy_1_1DividePolylineParameters"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_closeLineAfterCut</edgelabel>
-          <edgelabel>_offsetof_onEdgeSplitCallback</edgelabel>
-          <edgelabel>_offsetof_otherOutEmap</edgelabel>
-          <edgelabel>_offsetof_otherOutVmap</edgelabel>
-          <edgelabel>_offsetof_otherPart</edgelabel>
-          <edgelabel>_offsetof_outEmap</edgelabel>
-          <edgelabel>_offsetof_outVmap</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14344" bodyend="14436"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1DividePolylineParameters_1a59bd4f9c70ef2b4c25ad20d1b6c6df43" prot="public" virt="non-virtual"><scope>mrmeshpy::DividePolylineParameters</scope><name>__init__</name></member>

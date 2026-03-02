@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1UseAABBTree" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::UseAABBTree</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -312,20 +312,6 @@
   YesIfAlreadyConstructed : AABB-tree of the mesh will be used if it was previously constructed and available, and will not be used otherwise
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.UseAABBTree</label>
-        <link refid="classmrmeshpy_1_1UseAABBTree"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>No</edgelabel>
-          <edgelabel>Yes</edgelabel>
-          <edgelabel>YesIfAlreadyConstructed</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61195" bodyend="61234"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1UseAABBTree_1ae0367d0cffd81ce8e0ce407f9c290fbe" prot="public" virt="non-virtual"><scope>mrmeshpy::UseAABBTree</scope><name>__eq__</name></member>

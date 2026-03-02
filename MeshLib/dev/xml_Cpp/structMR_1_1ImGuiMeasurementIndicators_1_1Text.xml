@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ImGuiMeasurementIndicators_1_1Text" kind="struct" language="C++" prot="public">
     <compoundname>MR::ImGuiMeasurementIndicators::Text</compoundname>
-    <includes refid="MRImGuiMeasurementIndicators_8h" local="no">MRImGuiMeasurementIndicators.h</includes>
+    <includes refid="MRImGuiMeasurementIndicators_8h" local="no">MRViewer/MRImGuiMeasurementIndicators.h</includes>
     <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult" prot="public">MR::ImGuiMeasurementIndicators::Text::DrawResult</innerclass>
     <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem" prot="public">MR::ImGuiMeasurementIndicators::Text::Elem</innerclass>
     <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line" prot="public">MR::ImGuiMeasurementIndicators::Text::Line</innerclass>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="134" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="134" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="134" column="5" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="134" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a65617319e0c1b767525aede65d4607b5" prot="public" static="no">
         <type>std::function&lt; <ref refid="group__GeneralGroup_1ga21a70f8b86cebf1f5e5b5f65c4baa936" kindref="member">FontAndSize</ref>()&gt;</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="192" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="192" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="192" column="5" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="192" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="183" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="183" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="183" column="17" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="183" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1aa7fcd623acda48ca1c6a59341f2fdaae" prot="public" static="no" mutable="no">
         <type>ImVec2</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="187" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="187" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="187" column="12" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="187" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1af8b5e638410d87130b72445eb3a009cd" prot="public" static="no" mutable="no">
         <type>ImVec2</type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="190" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="190" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="190" column="12" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="190" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a6147eeaff8e86f187d95660dc8cdc339" prot="public" static="no" mutable="no">
         <type><ref refid="group__GeneralGroup_1ga21a70f8b86cebf1f5e5b5f65c4baa936" kindref="member">FontAndSize</ref></type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="199" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="199" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="199" column="17" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="199" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ada8abd512f2564b6e933ba4332bdce0c" prot="public" static="no" mutable="yes">
         <type>ImVec2</type>
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="202" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="202" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="202" column="20" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="202" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ad91ba5b259552f2af641bf94826eeea1" prot="public" static="no" mutable="yes">
         <type>bool</type>
@@ -126,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="206" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="206" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="206" column="18" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="206" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="194" column="29"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="194" column="29"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1afa9ea23598ebcbb952cfdfa9eb2fa862" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="195" column="18"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="195" column="18"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="208" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="208" bodyend="208"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="208" column="5" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="208" bodyend="208"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1abe015e8f2eefbaf7c0afec0d91912ec8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="209" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="209" bodyend="209"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="209" column="5" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="209" bodyend="209"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a629379b7e42a90a23d538c774cd11c2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -213,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="210" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="210" bodyend="210"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="210" column="5" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="210" bodyend="210"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ab1361eb667fc891d6ee87e93a3ff37e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -231,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="211" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="211" bodyend="211"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="211" column="5" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="211" bodyend="211"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1acc827ec3aa0ec6711b73aaca7693bc19" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -245,7 +245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="213" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="213" bodyend="213"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="213" column="11" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="213" bodyend="213"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a9f1e9dff1758efb4b2feb981f5c49862" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -260,7 +260,7 @@
         <inbodydescription>
 <para>Add an empty string to force some vertical size on empty lines.</para>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="215" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="215" bodyend="220"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="215" column="10" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="215" bodyend="220"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a0467e33917e5704b03812a76329a57f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -279,7 +279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="223" column="11"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="223" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a2336292a36c4f80334c9d987104aa00a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -298,7 +298,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="227" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="227" bodyend="233"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="227" column="10" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="227" bodyend="233"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1abe8531c1f5fdb8d1d8d3a8d69a64d2b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -311,13 +311,13 @@
           <declname>elem</declname>
         </param>
         <briefdescription>
-<para>Adds any element type of <computeroutput>ElemVar</computeroutput>. </para>
+<para>Adds any element type of <computeroutput><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae831e755d5fa4e114cf8d2eaef532bdc" kindref="member">ElemVar</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="236" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="236" bodyend="239"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="236" column="10" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="236" bodyend="239"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a6b5c4e498863bfe625111f92bb9b193c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -337,7 +337,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="243" column="11"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="243" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a786095a8e2e597d7ebe8929936008171" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult" kindref="compound">DrawResult</ref></type>
@@ -365,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="253" column="17"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="253" column="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -373,7 +373,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="133" bodyend="254"/>
+    <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="132" column="1" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="133" bodyend="254"/>
     <listofallmembers>
       <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1abe8531c1f5fdb8d1d8d3a8d69a64d2b5" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>add</name></member>
       <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a2336292a36c4f80334c9d987104aa00a" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>addElem</name></member>

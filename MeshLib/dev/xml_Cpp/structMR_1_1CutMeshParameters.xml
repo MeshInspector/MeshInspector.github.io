@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1CutMeshParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::CutMeshParameters</compoundname>
-    <includes refid="MRContoursCut_8h" local="no">MRContoursCut.h</includes>
+    <includes refid="MRContoursCut_8h" local="no">MRMesh/MRContoursCut.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gae51d141aa40e0f91506f4921b6797a33" kind="enum"><name>ForceFill</name></member>
     </sectiondef>
@@ -54,7 +54,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="34" column="1"/>
+    <location file="MRMesh/MRContoursCut.h" line="34" column="1" bodyfile="MRMesh/MRContoursCut.h" bodystart="35" bodyend="55"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae51d141aa40e0f91506f4921b6797a33" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>ForceFill</name></member>
       <member refid="group__GeneralGroup_1gae4b1e4cc599311ec4eaa5e0d7f90518b" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>new2oldEdgesMap</name></member>

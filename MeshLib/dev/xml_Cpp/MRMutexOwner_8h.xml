@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMutexOwner_8h" kind="file" language="C++">
     <compoundname>MRMutexOwner.h</compoundname>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
     <includes local="no">mutex</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRMutexOwner.h</label>
+        <label>MRMesh/MRMutexOwner.h</label>
         <link refid="MRMutexOwner_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -36,19 +36,19 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="structMR_1_1MutexOwner" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MutexOwner" kindref="compound">MutexOwner</ref></highlight></codeline>
+<codeline lineno="14" refid="structMR_1_1MutexOwner" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga0b8916c659034ad127ac287bac8112e9" kindref="member">MutexOwner</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1ga0b8916c659034ad127ac287bac8112e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga0b8916c659034ad127ac287bac8112e9" kindref="member">MutexOwner</ref>()<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
-<codeline lineno="17" refid="group__GeneralGroup_1ga5ba8e76fada103c9e3350748ec9f46d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MutexOwner" kindref="compound">MutexOwner</ref>(<sp/>const<sp/><ref refid="structMR_1_1MutexOwner" kindref="compound">MutexOwner</ref>&amp;<sp/>)<sp/>noexcept<sp/>{}</highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1ga8e3788887677b1c7381950a3aa7dcaac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8e3788887677b1c7381950a3aa7dcaac" kindref="member">MutexOwner</ref>(<sp/><ref refid="structMR_1_1MutexOwner" kindref="compound">MutexOwner</ref>&amp;&amp;<sp/>)<sp/>noexcept<sp/>{}</highlight></codeline>
-<codeline lineno="19" refid="group__GeneralGroup_1gabb7351b3a06553b474e90d20d68efc30" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MutexOwner" kindref="compound">MutexOwner</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gabb7351b3a06553b474e90d20d68efc30" kindref="member">operator =</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MutexOwner" kindref="compound">MutexOwner</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1gaccbf59471a9ce12f038a0358ae18405b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MutexOwner" kindref="compound">MutexOwner</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gabb7351b3a06553b474e90d20d68efc30" kindref="member">operator =</ref>(<sp/><ref refid="structMR_1_1MutexOwner" kindref="compound">MutexOwner</ref>&amp;&amp;<sp/>)<sp/>noexcept<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga5ba8e76fada103c9e3350748ec9f46d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga0b8916c659034ad127ac287bac8112e9" kindref="member">MutexOwner</ref>(<sp/>const<sp/><ref refid="group__GeneralGroup_1ga0b8916c659034ad127ac287bac8112e9" kindref="member">MutexOwner</ref>&amp;<sp/>)<sp/>noexcept<sp/>{}</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga8e3788887677b1c7381950a3aa7dcaac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8e3788887677b1c7381950a3aa7dcaac" kindref="member">MutexOwner</ref>(<sp/><ref refid="group__GeneralGroup_1ga0b8916c659034ad127ac287bac8112e9" kindref="member">MutexOwner</ref>&amp;&amp;<sp/>)<sp/>noexcept<sp/>{}</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gabb7351b3a06553b474e90d20d68efc30" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga0b8916c659034ad127ac287bac8112e9" kindref="member">MutexOwner</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gabb7351b3a06553b474e90d20d68efc30" kindref="member">operator =</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0b8916c659034ad127ac287bac8112e9" kindref="member">MutexOwner</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gaccbf59471a9ce12f038a0358ae18405b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga0b8916c659034ad127ac287bac8112e9" kindref="member">MutexOwner</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gabb7351b3a06553b474e90d20d68efc30" kindref="member">operator =</ref>(<sp/><ref refid="group__GeneralGroup_1ga0b8916c659034ad127ac287bac8112e9" kindref="member">MutexOwner</ref>&amp;&amp;<sp/>)<sp/>noexcept<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="group__GeneralGroup_1ga14db8ca7d0c17638612e3c103c8418a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::mutex<sp/><ref refid="group__GeneralGroup_1ga14db8ca7d0c17638612e3c103c8418a9" kindref="member">m</ref>;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h"/>
+    <location file="MRMesh/MRMutexOwner.h"/>
   </compounddef>
 </doxygen>

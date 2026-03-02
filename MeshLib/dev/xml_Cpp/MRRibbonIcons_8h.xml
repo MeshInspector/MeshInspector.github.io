@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRibbonIcons_8h" kind="file" language="C++">
     <compoundname>MRRibbonIcons.h</compoundname>
     <includes refid="MRFlagOperators_8h" local="yes">MRMesh/MRFlagOperators.h</includes>
@@ -7,7 +7,7 @@
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes local="no">array</includes>
     <includes local="no">filesystem</includes>
-    <includedby refid="MRRibbonButtonDrawer_8h" local="yes">MRRibbonButtonDrawer.h</includedby>
+    <includedby refid="MRRibbonButtonDrawer_8h" local="yes">MRViewer/MRRibbonButtonDrawer.h</includedby>
     <incdepgraph>
       <node id="10">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -52,7 +52,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRRibbonIcons.h</label>
+        <label>MRViewer/MRRibbonIcons.h</label>
         <link refid="MRRibbonIcons_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -117,19 +117,19 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRRibbonButtonDrawer.h</label>
+        <label>MRViewer/MRRibbonButtonDrawer.h</label>
         <link refid="MRRibbonButtonDrawer_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>MRRibbonIcons.h</label>
+        <label>MRViewer/MRRibbonIcons.h</label>
         <link refid="MRRibbonIcons_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRRibbonMenu.h</label>
+        <label>MRViewer/MRRibbonMenu.h</label>
         <link refid="MRRibbonMenu_8h"/>
       </node>
     </invincdepgraph>
@@ -153,31 +153,31 @@
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="classMR_1_1RibbonIcons" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1RibbonIcons" kindref="compound">RibbonIcons</ref></highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1RibbonIcons" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/>RibbonIcons</highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1gacd06ecfde8f0637bb01c0d36d8605bef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacd06ecfde8f0637bb01c0d36d8605bef" kindref="member">ColorType</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Colored,</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>White,</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ggacd06ecfde8f0637bb01c0d36d8605befa23aad110ee43b97ef120fbbeb743d81c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggacd06ecfde8f0637bb01c0d36d8605befa23aad110ee43b97ef120fbbeb743d81c" kindref="member">Colored</ref>,</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ggacd06ecfde8f0637bb01c0d36d8605befa25a81701fbfa4a1efdf660a950c1d006" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggacd06ecfde8f0637bb01c0d36d8605befa25a81701fbfa4a1efdf660a950c1d006" kindref="member">White</ref>,</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1ga2d10e82f8fd5c6cc53279374e9bd3931" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2d10e82f8fd5c6cc53279374e9bd3931" kindref="member">IconType</ref></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RibbonItemIcon,<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ObjectTypeIcon,<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IndependentIcons,<sp/></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Logos,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref>,</highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1gga2d10e82f8fd5c6cc53279374e9bd3931a35e029f5ff6bcc67b6ecc2e445c498f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga2d10e82f8fd5c6cc53279374e9bd3931a35e029f5ff6bcc67b6ecc2e445c498f2" kindref="member">RibbonItemIcon</ref>,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1gga2d10e82f8fd5c6cc53279374e9bd3931af039b462df0cff215dbf650d8b6e3ce9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga2d10e82f8fd5c6cc53279374e9bd3931af039b462df0cff215dbf650d8b6e3ce9" kindref="member">ObjectTypeIcon</ref>,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1gga2d10e82f8fd5c6cc53279374e9bd3931a9343317ce8e6d82b76c743f07e14ed1d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga2d10e82f8fd5c6cc53279374e9bd3931a9343317ce8e6d82b76c743f07e14ed1d" kindref="member">IndependentIcons</ref>,<sp/></highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1gga2d10e82f8fd5c6cc53279374e9bd3931a2ada7b483f52be3afc92b8d3b07896d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga2d10e82f8fd5c6cc53279374e9bd3931a2ada7b483f52be3afc92b8d3b07896d9" kindref="member">Logos</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1gga2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref>,</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="32" refid="group__GeneralGroup_1ga51b8d6a536627bc2449b71fd53d55165" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga51b8d6a536627bc2449b71fd53d55165" kindref="member">load</ref>();</highlight></codeline>
 <codeline lineno="34" refid="group__GeneralGroup_1ga7200bd05b72f77ec5cb880c7a0f95ccb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7200bd05b72f77ec5cb880c7a0f95ccb" kindref="member">free</ref>();</highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1ga4b5c283c5be7cbd06e3dace86569fbe5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ImGuiImage" kindref="compound">ImGuiImage</ref>*<sp/><ref refid="group__GeneralGroup_1ga4b5c283c5be7cbd06e3dace86569fbe5" kindref="member">findByName</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width,<sp/></highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1ga4b5c283c5be7cbd06e3dace86569fbe5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ImGuiImage" kindref="compound">ImGuiImage</ref>*<sp/><ref refid="group__GeneralGroup_1ga4b5c283c5be7cbd06e3dace86569fbe5" kindref="member">findByName</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref>,<sp/></highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gacd06ecfde8f0637bb01c0d36d8605bef" kindref="member">ColorType</ref><sp/>colorType,<sp/><ref refid="group__GeneralGroup_1ga2d10e82f8fd5c6cc53279374e9bd3931" kindref="member">IconType</ref><sp/>iconType<sp/>);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RibbonIcons" kindref="compound">RibbonIcons</ref>();</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RibbonIcons" kindref="compound">~RibbonIcons</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>RibbonIcons();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>~RibbonIcons()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RibbonIcons" kindref="compound">RibbonIcons</ref>&amp;<sp/>instance_();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>RibbonIcons&amp;<sp/>instance_();</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Icons</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -191,14 +191,14 @@
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>X0_75,</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>X1,</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>X3,</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref>,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref>,</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">SizedIcons<sp/>=<sp/>std::array&lt;Icons,<sp/>size_t(<sp/>Sizes::Count<sp/>)&gt;;</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>sizeSubFolder_(<sp/>Sizes<sp/>sz<sp/>);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ImGuiImage" kindref="compound">ImGuiImage</ref>*<sp/>findRequiredSize_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SizedIcons&amp;<sp/>icons,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width,<sp/>ColorType<sp/>colorType,<sp/>IconType<sp/>iconType<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ImGuiImage" kindref="compound">ImGuiImage</ref>*<sp/>findRequiredSize_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SizedIcons&amp;<sp/>icons,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref>,<sp/>ColorType<sp/>colorType,<sp/>IconType<sp/>iconType<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>load_(<sp/>IconType<sp/>type<sp/>);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
@@ -206,22 +206,22 @@
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="69" refid="group__GeneralGroup_1ga89fce585b7e09d0b6603c162d80d5991" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga89fce585b7e09d0b6603c162d80d5991" kindref="member">AvailableColor</ref></highlight></codeline>
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>White<sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Colored<sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,</highlight></codeline>
+<codeline lineno="71" refid="group__GeneralGroup_1gga89fce585b7e09d0b6603c162d80d5991a25a81701fbfa4a1efdf660a950c1d006" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga89fce585b7e09d0b6603c162d80d5991a25a81701fbfa4a1efdf660a950c1d006" kindref="member">White</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,</highlight></codeline>
+<codeline lineno="72" refid="group__GeneralGroup_1gga89fce585b7e09d0b6603c162d80d5991a23aad110ee43b97ef120fbbeb743d81c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga89fce585b7e09d0b6603c162d80d5991a23aad110ee43b97ef120fbbeb743d81c" kindref="member">Colored</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="MRFlagOperators_8h_1a9f6a28b80b13e71ba9ae42246c99ba1e" kindref="member">MR_MAKE_FLAG_OPERATORS_IN_CLASS</ref>(<sp/>AvailableColor<sp/>)</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="group__GeneralGroup_1ga8e7be73585be2d1e172f4043af2dd7da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::filesystem::path<sp/>pathDirectory;</highlight></codeline>
-<codeline lineno="78" refid="group__GeneralGroup_1ga4731ad96d4ed20fddf9a1f57bdf7a532" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::pair&lt;Sizes,<sp/>Sizes&gt;<sp/>minMaxSizes;</highlight></codeline>
-<codeline lineno="79" refid="group__GeneralGroup_1ga0773e7767a6caea3e52277c10bab8610" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga89fce585b7e09d0b6603c162d80d5991" kindref="member">AvailableColor</ref><sp/>availableColor<sp/>=<sp/><ref refid="group__GeneralGroup_1ga89fce585b7e09d0b6603c162d80d5991" kindref="member">AvailableColor</ref>::White;</highlight></codeline>
-<codeline lineno="80" refid="group__GeneralGroup_1ga05fb9b2891ce6c47d3792e32d2f762ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt;std::</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/>SizedIcons&gt;<sp/>map;</highlight></codeline>
+<codeline lineno="76" refid="group__GeneralGroup_1ga8e7be73585be2d1e172f4043af2dd7da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga8e7be73585be2d1e172f4043af2dd7da" kindref="member">pathDirectory</ref>;</highlight></codeline>
+<codeline lineno="78" refid="group__GeneralGroup_1ga4731ad96d4ed20fddf9a1f57bdf7a532" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::pair&lt;Sizes,<sp/>Sizes&gt;<sp/><ref refid="group__GeneralGroup_1ga4731ad96d4ed20fddf9a1f57bdf7a532" kindref="member">minMaxSizes</ref>;</highlight></codeline>
+<codeline lineno="79" refid="group__GeneralGroup_1ga0773e7767a6caea3e52277c10bab8610" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga89fce585b7e09d0b6603c162d80d5991" kindref="member">AvailableColor</ref><sp/><ref refid="group__GeneralGroup_1ga0773e7767a6caea3e52277c10bab8610" kindref="member">availableColor</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga89fce585b7e09d0b6603c162d80d5991" kindref="member">AvailableColor</ref>::<ref refid="group__GeneralGroup_1gga89fce585b7e09d0b6603c162d80d5991a25a81701fbfa4a1efdf660a950c1d006" kindref="member">White</ref>;</highlight></codeline>
+<codeline lineno="80" refid="group__GeneralGroup_1ga05fb9b2891ce6c47d3792e32d2f762ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt;std::</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/>SizedIcons&gt;<sp/><ref refid="group__GeneralGroup_1ga05fb9b2891ce6c47d3792e32d2f762ea" kindref="member">map</ref>;</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;IconTypeData,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">(<sp/><ref refid="group__GeneralGroup_1ga2d10e82f8fd5c6cc53279374e9bd3931" kindref="member">IconType</ref>::Count<sp/>)&gt;<sp/>data_;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;IconTypeData,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">(<sp/><ref refid="group__GeneralGroup_1ga2d10e82f8fd5c6cc53279374e9bd3931" kindref="member">IconType</ref>::<ref refid="group__GeneralGroup_1gga2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref><sp/>)&gt;<sp/>data_;</highlight></codeline>
 <codeline lineno="84"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h"/>
+    <location file="MRViewer/MRRibbonIcons.h"/>
   </compounddef>
 </doxygen>

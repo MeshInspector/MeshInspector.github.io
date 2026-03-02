@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ShortcutManager" kind="class" language="C++" prot="public">
     <compoundname>MR::ShortcutManager</compoundname>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; KeyDownListener, KeyRepeatListener &gt;</basecompoundref>
-    <includes refid="MRShortcutManager_8h" local="no">MRShortcutManager.h</includes>
+    <includes refid="MRShortcutManager_8h" local="no">MRViewer/MRShortcutManager.h</includes>
     <innerclass refid="structMR_1_1ShortcutManager_1_1ShortcutCommand" prot="public">MR::ShortcutManager::ShortcutCommand</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga1a85baae28af51cf7825c2099b693c1b" kind="enum"><name>Reason</name></member>
@@ -84,7 +84,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="46" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="47" bodyend="119"/>
+    <location file="MRViewer/MRShortcutManager.h" line="46" column="1" bodyfile="MRViewer/MRShortcutManager.h" bodystart="47" bodyend="119"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa81ce4c0f43334be0c680e28346fce2e" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>backMap_</name></member>
       <member refid="group__GeneralGroup_1gacac503f87e678e4a4e1c3541d5915098" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>Category</name></member>

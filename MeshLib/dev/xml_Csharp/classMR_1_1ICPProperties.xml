@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ICPProperties" kind="class" language="C#" prot="public">
     <compoundname>MR::ICPProperties</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ICPProperties</basecompoundref>
@@ -11,7 +11,7 @@
         <name>method</name>
         <qualifiedname>MR.ICPProperties.method</qualifiedname>
         <briefdescription>
-<para>The method how to update transformation from point pairs, see description of each option in ICPMethod. </para>
+<para>The method how to update transformation from point pairs, see description of each option in <ref refid="classMR_1a90fcd9e2a74e2161a52251e979ed957d" kindref="member">ICPMethod</ref>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -99,7 +99,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Selects the group of transformations, where to find a solution (e.g. with scaling or without, with rotation or without, ...). See the description of each option in ICPMode. </para>
+<para>Selects the group of transformations, where to find a solution (e.g. with scaling or without, with rotation or without, ...). See the description of each option in <ref refid="classMR_1a8d81aa456e2777ec7823ebb5a61662d5" kindref="member">ICPMode</ref>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -294,7 +294,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ICPProperties.ICPProperties</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ICPProperties_1ad127c9892319a4baef52d06272019218" kindref="member">MR.ICPProperties.ICPProperties</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -313,7 +313,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ICPProperties.ICPProperties</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ICPProperties_1ad127c9892319a4baef52d06272019218" kindref="member">MR.ICPProperties.ICPProperties</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -332,7 +332,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ICPProperties.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ICPProperties::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -347,45 +347,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ICPProperties</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ICPProperties</label>
         <link refid="classMR_1_1ICPProperties"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ICPProperties</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ICPProperties &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ICPProperties</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ICPProperties</label>
         <link refid="classMR_1_1ICPProperties"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ICPProperties</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_ICPProperties &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1567" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1568" bodyend="1669"/>

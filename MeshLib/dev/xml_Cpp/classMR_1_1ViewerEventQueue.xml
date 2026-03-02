@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewerEventQueue" kind="class" language="C++" prot="public">
     <compoundname>MR::ViewerEventQueue</compoundname>
-    <includes refid="MRViewerEventQueue_8h" local="no">MRViewerEventQueue.h</includes>
+    <includes refid="MRViewerEventQueue_8h" local="no">MRViewer/MRViewerEventQueue.h</includes>
     <innerclass refid="structMR_1_1ViewerEventQueue_1_1NamedEvent" prot="private">MR::ViewerEventQueue::NamedEvent</innerclass>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga4b350e43d76bbddf25701779743f4f3c" kind="variable"><name>mutex_</name></member>
@@ -20,7 +20,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" bodystart="17" bodyend="38"/>
+    <location file="MRViewer/MRViewerEventQueue.h" line="16" column="1" bodyfile="MRViewer/MRViewerEventQueue.h" bodystart="17" bodyend="38"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7aa91f7b5cc7541ac0f982fce5660507" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>emplace</name></member>
       <member refid="group__GeneralGroup_1ga4dc042cec8aab4b4b067733ed3a819b3" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>empty</name></member>

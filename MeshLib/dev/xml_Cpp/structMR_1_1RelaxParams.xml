@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RelaxParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::RelaxParams</compoundname>
     <derivedcompoundref refid="structMR_1_1MeshRelaxParams" prot="public" virt="non-virtual">MR::MeshRelaxParams</derivedcompoundref>
     <derivedcompoundref refid="structMR_1_1PointCloudRelaxParams" prot="public" virt="non-virtual">MR::PointCloudRelaxParams</derivedcompoundref>
-    <includes refid="MRRelaxParams_8h" local="no">MRRelaxParams.h</includes>
+    <includes refid="MRRelaxParams_8h" local="no">MRMesh/MRRelaxParams.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaf6f0f001e98c26c2b38d1d51b3f3ef1f" kind="variable"><name>iterations</name></member>
       <member refid="group__GeneralGroup_1gabeb08d7e70411cf9ef2826c0f058b909" kind="variable"><name>region</name></member>
@@ -53,7 +53,7 @@
         <link refid="structMR_1_1RelaxParams"/>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRelaxParams.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRelaxParams.h" bodystart="15" bodyend="36"/>
+    <location file="MRMesh/MRRelaxParams.h" line="14" column="1" bodyfile="MRMesh/MRRelaxParams.h" bodystart="15" bodyend="36"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga47663082758ba9a1d7d9942c1d2550fc" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>_padding</name></member>
       <member refid="group__GeneralGroup_1ga7f58a3b0b7e5c09209f53edd90b4371a" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>force</name></member>

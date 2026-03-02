@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="conceptMR_1_1detail_1_1Units_1_1Scalar" kind="concept">
     <compoundname>MR::detail::Units::Scalar</compoundname>
-    <includes refid="MRUnitInfo_8h" local="no">MRUnitInfo.h</includes>
+    <includes refid="MRUnitInfo_8h" local="no">MRMesh/MRUnitInfo.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -14,6 +14,6 @@ concept <ref refid="conceptMR_1_1detail_1_1Units_1_1Scalar" kindref="compound">M
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnitInfo.h" line="173" column="5"/>
+    <location file="MRMesh/MRUnitInfo.h" line="173" column="5"/>
   </compounddef>
 </doxygen>

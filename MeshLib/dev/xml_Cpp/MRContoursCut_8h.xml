@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRContoursCut_8h" kind="file" language="C++">
     <compoundname>MRContoursCut.h</compoundname>
     <includes refid="MRBitSet_8h" local="yes">MRBitSet.h</includes>
     <includes refid="MRAffineXf3_8h" local="yes">MRAffineXf3.h</includes>
     <includes refid="MROneMeshContours_8h" local="yes">MROneMeshContours.h</includes>
-    <includedby refid="MRMeshBoolean_8h" local="yes">MRMeshBoolean.h</includedby>
+    <includedby refid="MRMeshBoolean_8h" local="yes">MRMesh/MRMeshBoolean.h</includedby>
     <incdepgraph>
       <node id="32">
         <label>MRAffineXf.h</label>
@@ -58,7 +58,7 @@
         <link refid="MRConstants_8h"/>
       </node>
       <node id="1">
-        <label>MRContoursCut.h</label>
+        <label>MRMesh/MRContoursCut.h</label>
         <link refid="MRContoursCut_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -314,13 +314,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRContoursCut.h</label>
+        <label>MRMesh/MRContoursCut.h</label>
         <link refid="MRContoursCut_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRMeshBoolean.h</label>
+        <label>MRMesh/MRMeshBoolean.h</label>
         <link refid="MRMeshBoolean_8h"/>
       </node>
     </invincdepgraph>
@@ -344,28 +344,28 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="structMR_1_1NewEdgesMap" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1NewEdgesMap" kindref="compound">NewEdgesMap</ref></highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1NewEdgesMap" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1NewEdgesMap" kindref="compound">NewEdgesMap</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga3af4a8bfbe6579dc273d0b9f368f77aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeBitSet<sp/><ref refid="group__GeneralGroup_1ga3af4a8bfbe6579dc273d0b9f368f77aa" kindref="member">splitEdges</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="group__GeneralGroup_1ga1d44ed6247b64a9007baa4bbbf2903aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;UndirectedEdgeId, int&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga1d44ed6247b64a9007baa4bbbf2903aa" kindref="member">map</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CutMeshParameters" kindref="compound">CutMeshParameters</ref></highlight></codeline>
+<codeline lineno="34" refid="structMR_1_1CutMeshParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CutMeshParameters" kindref="compound">CutMeshParameters</ref></highlight></codeline>
 <codeline lineno="35"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="39" refid="group__GeneralGroup_1ga3aaef62dde9c7e4727195071089e409f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SortIntersectionsData" kindref="compound">SortIntersectionsData</ref>*<sp/><ref refid="group__GeneralGroup_1ga3aaef62dde9c7e4727195071089e409f" kindref="member">sortData</ref>{</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">};</highlight></codeline>
 <codeline lineno="41" refid="group__GeneralGroup_1ga75222f670fe00aaef7a945b8ccbb3ea9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceMap*<sp/><ref refid="group__GeneralGroup_1ga75222f670fe00aaef7a945b8ccbb3ea9" kindref="member">new2OldMap</ref>{</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">};</highlight></codeline>
 <codeline lineno="46" refid="group__GeneralGroup_1gae51d141aa40e0f91506f4921b6797a33" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae51d141aa40e0f91506f4921b6797a33" kindref="member">ForceFill</ref></highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga4c3c99dc26d25d555e9ebf6c6dfc5cbf" kindref="member">None</ref>,<sp/></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc" kindref="member">Good</ref>,<sp/></highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">All</ref><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48" refid="group__GeneralGroup_1ggae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga4c3c99dc26d25d555e9ebf6c6dfc5cbf" kindref="member">None</ref>,<sp/></highlight></codeline>
+<codeline lineno="49" refid="group__GeneralGroup_1ggae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc" kindref="member">Good</ref>,<sp/></highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1ggae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">All</ref><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="51" refid="group__GeneralGroup_1ga4c3c99dc26d25d555e9ebf6c6dfc5cbf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>forceFillMode{<sp/><ref refid="group__GeneralGroup_1ggae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">ForceFill::None</ref><sp/>};</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54" refid="group__GeneralGroup_1gae4b1e4cc599311ec4eaa5e0d7f90518b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1NewEdgesMap" kindref="compound">NewEdgesMap</ref>*<sp/><ref refid="group__GeneralGroup_1gae4b1e4cc599311ec4eaa5e0d7f90518b" kindref="member">new2oldEdgesMap</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="55"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">CutMeshResult</highlight></codeline>
+<codeline lineno="61" refid="structMR_1_1CutMeshResult" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CutMeshResult" kindref="compound">CutMeshResult</ref></highlight></codeline>
 <codeline lineno="62"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="64" refid="group__GeneralGroup_1ga5fd92baa79aac5e503e3310ab91fb400" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;EdgePath&gt;<sp/><ref refid="group__GeneralGroup_1ga5fd92baa79aac5e503e3310ab91fb400" kindref="member">resultCut</ref>;</highlight></codeline>
 <codeline lineno="67" refid="group__GeneralGroup_1gaca01891e95be4a6f3cb7168e88a33aac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1gaca01891e95be4a6f3cb7168e88a33aac" kindref="member">fbsWithContourIntersections</ref>;</highlight></codeline>
@@ -379,7 +379,7 @@
 <codeline lineno="101" refid="group__GeneralGroup_1ga8471f2a87338254b2c1d8a0790776f0e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;FaceBitSet&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8471f2a87338254b2c1d8a0790776f0e" kindref="member">cutMeshByContours</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="structMR_1_1CutByProjectionSettings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CutByProjectionSettings" kindref="compound">CutByProjectionSettings</ref></highlight></codeline>
+<codeline lineno="105" refid="structMR_1_1CutByProjectionSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CutByProjectionSettings" kindref="compound">CutByProjectionSettings</ref></highlight></codeline>
 <codeline lineno="106"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="108" refid="group__GeneralGroup_1ga789a41f7dc3d705c8ee83ea3c207ef9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga789a41f7dc3d705c8ee83ea3c207ef9e" kindref="member">direction</ref>;</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
@@ -396,8 +396,8 @@
 <codeline lineno="144" refid="group__BooleanGroup_1ga8f2f47f6c859930c9c0252e4bc28944e" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;OneMeshContours&gt;</ref><sp/><ref refid="group__BooleanGroup_1gaccf79b17bf64faa5454a116f768def33" kindref="member">convertMeshTriPointsSurfaceOffsetToMeshContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;&amp;<sp/>surfaceLine,</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)&gt;&amp;<sp/>offsetAtPoint,<sp/><ref refid="structMR_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref><sp/>searchSettings<sp/>=<sp/>{});</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="147"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h"/>
+    <location file="MRMesh/MRContoursCut.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRWeightedPointsShell_8h" kind="file" language="C++">
     <compoundname>MRWeightedPointsShell.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
@@ -363,7 +363,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRWeightedPointsShell.h</label>
+        <label>MRVoxels/MRWeightedPointsShell.h</label>
         <link refid="MRWeightedPointsShell_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -543,8 +543,8 @@
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
 <codeline lineno="107" refid="namespaceMR_1_1WeightedShell_1a8154f94a6793c43fd049a5bf549bf75f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1a6c11500f809bc486096500b727e6cbbe" kindref="member">meshShell</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1ParametersRegions" kindref="compound">ParametersRegions</ref>&amp;<sp/>params,<sp/><ref refid="namespaceMR_1_1WeightedShell_1ad2ba4e4f0e0175fc0608e172a0619984" kindref="member">meshToDistanceVolumeT</ref><sp/>volumeBuilder<sp/>);</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h"/>
+    <location file="MRVoxels/MRWeightedPointsShell.h"/>
   </compounddef>
 </doxygen>

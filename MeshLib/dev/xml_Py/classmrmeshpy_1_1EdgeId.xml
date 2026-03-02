@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1EdgeId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::EdgeId</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1NoDefInit__EdgeId" prot="public" virt="non-virtual">mrmeshpy.NoDefInit_EdgeId</derivedcompoundref>
@@ -27,9 +27,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -52,9 +49,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -301,9 +295,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -322,9 +313,6 @@
         <argsstring>(self, UndirectedEdgeId u)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -347,9 +335,6 @@
         <argsstring>(self, int i)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -372,9 +357,6 @@
         <argsstring>(self, int i)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -397,9 +379,6 @@
         <argsstring>(self, int i)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -422,9 +401,6 @@
         <argsstring>(self, EdgeId arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -511,7 +487,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.EdgeId.__repr__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a86f2b2dd93062a20d160ad32be317f64">__repr__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>

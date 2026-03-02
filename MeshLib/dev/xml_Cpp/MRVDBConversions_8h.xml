@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVDBConversions_8h" kind="file" language="C++">
     <compoundname>MRVDBConversions.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
@@ -11,8 +11,8 @@
     <includes local="no">climits</includes>
     <includes local="no">string</includes>
     <includes local="no">optional</includes>
-    <includedby refid="MRBoolean_8h" local="yes">MRBoolean.h</includedby>
-    <includedby refid="MRPolylineToVoxels_8h" local="yes">MRPolylineToVoxels.h</includedby>
+    <includedby refid="MRBoolean_8h" local="yes">MRVoxels/MRBoolean.h</includedby>
+    <includedby refid="MRPolylineToVoxels_8h" local="yes">MRVoxels/MRPolylineToVoxels.h</includedby>
     <incdepgraph>
       <node id="29">
         <label>MRAffineXf.h</label>
@@ -179,7 +179,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRVDBConversions.h</label>
+        <label>MRVoxels/MRVDBConversions.h</label>
         <link refid="MRVDBConversions_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -269,15 +269,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRBoolean.h</label>
+        <label>MRVoxels/MRBoolean.h</label>
         <link refid="MRBoolean_8h"/>
       </node>
       <node id="3">
-        <label>MRPolylineToVoxels.h</label>
+        <label>MRVoxels/MRPolylineToVoxels.h</label>
         <link refid="MRPolylineToVoxels_8h"/>
       </node>
       <node id="1">
-        <label>MRVDBConversions.h</label>
+        <label>MRVoxels/MRVDBConversions.h</label>
         <link refid="MRVDBConversions_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -320,12 +320,12 @@
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>voxelSize,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>surfaceOffset<sp/>=<sp/>3,</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="structMR_1_1MeshToVolumeParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshToVolumeParams" kindref="compound">MeshToVolumeParams</ref></highlight></codeline>
+<codeline lineno="35" refid="structMR_1_1MeshToVolumeParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshToVolumeParams" kindref="compound">MeshToVolumeParams</ref></highlight></codeline>
 <codeline lineno="36"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="38" refid="group__GeneralGroup_1ga47dacbc5ca80bd9591ffea69c43b022e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga47dacbc5ca80bd9591ffea69c43b022e" kindref="member">Type</ref></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga47dacbc5ca80bd9591ffea69c43b022ea71fed0c3428bf1a2e19af257c4bac379" kindref="member">Signed</ref>,<sp/></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7eb94a27012d5cf106c21b228b6c8c2a" kindref="member">Unsigned</ref><sp/></highlight></codeline>
+<codeline lineno="40" refid="group__GeneralGroup_1gga47dacbc5ca80bd9591ffea69c43b022ea71fed0c3428bf1a2e19af257c4bac379" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga47dacbc5ca80bd9591ffea69c43b022ea71fed0c3428bf1a2e19af257c4bac379" kindref="member">Signed</ref>,<sp/></highlight></codeline>
+<codeline lineno="41" refid="group__GeneralGroup_1gga47dacbc5ca80bd9591ffea69c43b022eaa1a914735b205424ba6c40b85528d78a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7eb94a27012d5cf106c21b228b6c8c2a" kindref="member">Unsigned</ref><sp/></highlight></codeline>
 <codeline lineno="42" refid="group__GeneralGroup_1ga7eb94a27012d5cf106c21b228b6c8c2a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>type{<sp/><ref refid="group__GeneralGroup_1gga47dacbc5ca80bd9591ffea69c43b022eaa1a914735b205424ba6c40b85528d78a" kindref="member">Type::Unsigned</ref><sp/>};</highlight></codeline>
 <codeline lineno="43" refid="group__GeneralGroup_1ga9453e71b6c68cba5c643d8c233b4e12e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9453e71b6c68cba5c643d8c233b4e12e" kindref="member">surfaceOffset</ref>{<sp/>3.0<sp/>};<sp/></highlight></codeline>
 <codeline lineno="44" refid="group__GeneralGroup_1ga51905e2ab88ac1c4d53c11ed65896ce9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga51905e2ab88ac1c4d53c11ed65896ce9" kindref="member">voxelSize</ref><sp/>=<sp/>Vector3f::diagonal(<sp/>1.0f<sp/>);</highlight></codeline>
@@ -347,7 +347,7 @@
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
 <codeline lineno="78" refid="group__GeneralGroup_1ga429c9f6983e751443e9721e975118b55" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/>VdbVolume<sp/><ref refid="group__GeneralGroup_1ga429c9f6983e751443e9721e975118b55" kindref="member">functionVolumeToVdbVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" kindref="member">FunctionVolume</ref>&amp;<sp/>functoinVolume,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>AccessorOrGr</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>AccessorOrGr</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">&gt;</highlight></codeline>
 <codeline lineno="86" refid="group__GeneralGroup_1ga7c3b58d5eb16e77c1a7bf7bb0898489f" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7c3b58d5eb16e77c1a7bf7bb0898489f" kindref="member">putSimpleVolumeInDenseGrid</ref>(</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AccessorOrGrid&amp;<sp/>gridAccessor,</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>minCoord,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SimpleVolume&amp;<sp/>simpleVolume,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}</highlight></codeline>
@@ -360,7 +360,7 @@
 <codeline lineno="107" refid="group__GeneralGroup_1ga1a5076b4e1308bf13953c1fa817154fe" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SimpleVolumeMinMaxU16&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga1a5076b4e1308bf13953c1fa817154fe" kindref="member">vdbVolumeToSimpleVolumeU16</ref>(</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/>vdbVolume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3i&amp;<sp/>activeBox<sp/>=<sp/>Box3i(),<sp/>std::optional&lt;MinMaxf&gt;<sp/>sourceScale<sp/>=<sp/>{},<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="structMR_1_1GridToMeshSettings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1GridToMeshSettings" kindref="compound">GridToMeshSettings</ref></highlight></codeline>
+<codeline lineno="111" refid="structMR_1_1GridToMeshSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1GridToMeshSettings" kindref="compound">GridToMeshSettings</ref></highlight></codeline>
 <codeline lineno="112"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="114" refid="group__GeneralGroup_1gacee0af0c67fecb819dabf8238de050fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gacee0af0c67fecb819dabf8238de050fc" kindref="member">voxelSize</ref>;</highlight></codeline>
 <codeline lineno="116" refid="group__GeneralGroup_1gad826bf2632bc0f30ff1144fb199ad870" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad826bf2632bc0f30ff1144fb199ad870" kindref="member">isoValue</ref><sp/>=<sp/>0;</highlight></codeline>
@@ -412,8 +412,8 @@
 <codeline lineno="185"><highlight class="normal"></highlight></codeline>
 <codeline lineno="188" refid="group__GeneralGroup_1gada6e456e0254afe0a4e3b27340ea954e" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1gada6e456e0254afe0a4e3b27340ea954e" kindref="member">doubleOffsetVdb</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DoubleOffsetSettings" kindref="compound">DoubleOffsetSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="190"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h"/>
+    <location file="MRVoxels/MRVDBConversions.h"/>
   </compounddef>
 </doxygen>

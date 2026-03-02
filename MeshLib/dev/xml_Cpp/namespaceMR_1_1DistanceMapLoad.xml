@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1DistanceMapLoad" kind="namespace" language="C++">
     <compoundname>MR::DistanceMapLoad</compoundname>
     <sectiondef kind="typedef">
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="378" bodyend="-1"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="378" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="378" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -29,10 +29,9 @@
       <member refid="group__DistanceMapLoadGroup_1ga50b271c979604f387a76f2ca17ca92cb" kind="function"><name>fromAnySupportedFormat</name></member>
     </sectiondef>
     <briefdescription>
-<para>namespace <ref refid="namespaceMR_1_1SceneSave" kindref="compound">SceneSave</ref> </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" line="15" column="1"/>
+    <location file="MRMesh/MRDistanceMapLoad.h" line="15" column="1"/>
   </compounddef>
 </doxygen>

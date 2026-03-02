@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SpaceMouseUpListener" kind="struct" language="C++" prot="public" abstract="yes">
     <compoundname>MR::SpaceMouseUpListener</compoundname>
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
-    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewer/MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gaeb1221c28639fac7d66504b83874d0bc" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1ga0a5bf1247e3588e2db497d9836f77454" kind="function"><name>~SpaceMouseUpListener</name></member>
@@ -53,7 +53,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="299" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="300" bodyend="306"/>
+    <location file="MRViewer/MRViewerEventsListener.h" line="299" column="1" bodyfile="MRViewer/MRViewerEventsListener.h" bodystart="300" bodyend="306"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga9b26396149781071fd6dc99824c57440" prot="public" virt="virtual"><scope>MR::SpaceMouseUpListener</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::SpaceMouseUpListener</scope><name>connection_</name></member>

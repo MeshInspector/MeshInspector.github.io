@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1TriMesh" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::TriMesh</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -183,19 +183,6 @@ very simple structure for storing mesh of triangles only,
 without easy navigation between neighbor elements as in Mesh
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.TriMesh</label>
-        <link refid="classmrmeshpy_1_1TriMesh"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_points</edgelabel>
-          <edgelabel>_offsetof_tris</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57757" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57757" bodyend="57792"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1TriMesh_1a42283d72650049135c67fef7dcc4f831" prot="public" virt="non-virtual"><scope>mrmeshpy::TriMesh</scope><name>__init__</name></member>

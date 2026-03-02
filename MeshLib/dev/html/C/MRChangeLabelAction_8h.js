@@ -1,9 +1,6 @@
 var MRChangeLabelAction_8h =
 [
-    [ "MR_ChangeLabelAction", "MRChangeLabelAction_8h.html#ab259828ed76e1f7397ce95b14ddd7aa8", null ],
-    [ "MR_HistoryAction", "MRChangeLabelAction_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
     [ "MR_std_shared_ptr_MR_ObjectLabel", "MRChangeLabelAction_8h.html#ad1f067f53336cb27d2f73aa6923d6081", null ],
-    [ "MR_std_string", "MRChangeLabelAction_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_ChangeLabelAction_action", "MRChangeLabelAction_8h.html#a23f8bb69ac0b85fb7640228051f712e1", null ],
     [ "MR_ChangeLabelAction_AssignFromAnother", "MRChangeLabelAction_8h.html#a01ea3c030786973362c52b5b85b97ca5", null ],
     [ "MR_ChangeLabelAction_Construct", "MRChangeLabelAction_8h.html#afb2c914d69815e9b1bf1797d1ae3e24d", null ],

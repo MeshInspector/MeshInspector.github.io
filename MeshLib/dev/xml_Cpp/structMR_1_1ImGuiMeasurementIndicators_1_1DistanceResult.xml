@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult" kind="struct" language="C++" prot="public">
     <compoundname>MR::ImGuiMeasurementIndicators::DistanceResult</compoundname>
-    <includes refid="MRImGuiMeasurementIndicators_8h" local="no">MRImGuiMeasurementIndicators.h</includes>
+    <includes refid="MRImGuiMeasurementIndicators_8h" local="no">MRViewer/MRImGuiMeasurementIndicators.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult_1a1e95c8b54a2ebd5b21a285d50c85255c" prot="public" static="no" mutable="no">
         <type>std::optional&lt; <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineResult" kindref="compound">LineResult</ref> &gt;</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="364" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="364" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="364" column="19" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="364" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult_1a1c78e55a9990e6cbd07c33abe73a74ea" prot="public" static="no" mutable="no">
         <type>std::optional&lt; <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult" kindref="compound">TextResult</ref> &gt;</type>
@@ -30,14 +30,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="365" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="365" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="365" column="19" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="365" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="363" bodyend="366"/>
+    <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="362" column="1" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="363" bodyend="366"/>
     <listofallmembers>
       <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult_1a1e95c8b54a2ebd5b21a285d50c85255c" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::DistanceResult</scope><name>line</name></member>
       <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult_1a1c78e55a9990e6cbd07c33abe73a74ea" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::DistanceResult</scope><name>text</name></member>

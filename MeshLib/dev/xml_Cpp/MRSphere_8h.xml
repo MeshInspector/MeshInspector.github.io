@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSphere_8h" kind="file" language="C++">
     <compoundname>MRSphere.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
-    <includedby refid="MRFeatures_8h" local="yes">MRFeatures.h</includedby>
-    <includedby refid="MRIntersection_8h" local="yes">MRIntersection.h</includedby>
+    <includedby refid="MRFeatures_8h" local="yes">MRMesh/MRFeatures.h</includedby>
+    <includedby refid="MRIntersection_8h" local="yes">MRMesh/MRIntersection.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -39,7 +39,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRSphere.h</label>
+        <label>MRMesh/MRSphere.h</label>
         <link refid="MRSphere_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -72,17 +72,17 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRFeatures.h</label>
+        <label>MRMesh/MRFeatures.h</label>
         <link refid="MRFeatures_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRIntersection.h</label>
+        <label>MRMesh/MRIntersection.h</label>
         <link refid="MRIntersection_8h"/>
       </node>
       <node id="1">
-        <label>MRSphere.h</label>
+        <label>MRMesh/MRSphere.h</label>
         <link refid="MRSphere_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -90,13 +90,13 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MRSubfeatures.h</label>
+        <label>MRMesh/MRSubfeatures.h</label>
         <link refid="MRSubfeatures_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRVisualSubfeatures.h</label>
+        <label>MRViewer/MRVisualSubfeatures.h</label>
         <link refid="MRVisualSubfeatures_8h"/>
       </node>
     </invincdepgraph>
@@ -115,8 +115,8 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
-<codeline lineno="13" refid="structMR_1_1Sphere" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Sphere" kindref="compound">Sphere</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1Sphere" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga0146c86fafdf02efca98966d2ff841ef" kindref="member">Sphere</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1gab3dcbfdadbd1e9018e22a979ea25c6f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gab3dcbfdadbd1e9018e22a979ea25c6f9" kindref="member">T</ref><sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V::ValueType;</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
@@ -124,10 +124,10 @@
 <codeline lineno="18" refid="group__GeneralGroup_1gac91793706fe6273028dbecc98e540b1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab3dcbfdadbd1e9018e22a979ea25c6f9" kindref="member">T</ref><sp/><ref refid="group__GeneralGroup_1gac91793706fe6273028dbecc98e540b1b" kindref="member">radius</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1ga0146c86fafdf02efca98966d2ff841ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0146c86fafdf02efca98966d2ff841ef" kindref="member">Sphere</ref>()<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
-<codeline lineno="21" refid="group__GeneralGroup_1gadd65b61b54645bbb73e26a98f44d9c12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>constexpr<sp/><ref refid="structMR_1_1Sphere" kindref="compound">Sphere</ref>(<sp/>const<sp/>V<sp/>&amp;<sp/>c,<sp/><ref refid="group__GeneralGroup_1gab3dcbfdadbd1e9018e22a979ea25c6f9" kindref="member">T</ref><sp/>r<sp/>)<sp/>noexcept<sp/>:<sp/><ref refid="group__GeneralGroup_1gac761a3c59ab76b111bb301d71558d5a7" kindref="member">center</ref>(<sp/>c<sp/>),<sp/><ref refid="group__GeneralGroup_1gac91793706fe6273028dbecc98e540b1b" kindref="member">radius</ref>(<sp/>r<sp/>)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1gadd65b61b54645bbb73e26a98f44d9c12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>constexpr<sp/><ref refid="group__GeneralGroup_1ga0146c86fafdf02efca98966d2ff841ef" kindref="member">Sphere</ref>(<sp/>const<sp/>V<sp/>&amp;<sp/>c,<sp/><ref refid="group__GeneralGroup_1gab3dcbfdadbd1e9018e22a979ea25c6f9" kindref="member">T</ref><sp/>r<sp/>)<sp/>noexcept<sp/>:<sp/><ref refid="group__GeneralGroup_1gac761a3c59ab76b111bb301d71558d5a7" kindref="member">center</ref>(<sp/>c<sp/>),<sp/><ref refid="group__GeneralGroup_1gac91793706fe6273028dbecc98e540b1b" kindref="member">radius</ref>(<sp/>r<sp/>)<sp/>{<sp/>}</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25" refid="group__GeneralGroup_1gac468ec719d271b81a0272c541f98c940" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>U&gt;<sp/><ref refid="group__GeneralGroup_1gac468ec719d271b81a0272c541f98c940" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_same_v&lt;V,<sp/>U&gt;<sp/>)</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0146c86fafdf02efca98966d2ff841ef" kindref="member">Sphere</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Sphere" kindref="compound">Sphere&lt;U&gt;</ref><sp/>&amp;<sp/>l<sp/>)<sp/>noexcept<sp/>:<sp/><ref refid="group__GeneralGroup_1gac761a3c59ab76b111bb301d71558d5a7" kindref="member">center</ref>(<sp/>l.center<sp/>),<sp/><ref refid="group__GeneralGroup_1gac91793706fe6273028dbecc98e540b1b" kindref="member">radius</ref>(<sp/><ref refid="group__GeneralGroup_1gab3dcbfdadbd1e9018e22a979ea25c6f9" kindref="member">T</ref>(<sp/>l.radius<sp/>)<sp/>)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0146c86fafdf02efca98966d2ff841ef" kindref="member">Sphere</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0146c86fafdf02efca98966d2ff841ef" kindref="member">Sphere&lt;U&gt;</ref><sp/>&amp;<sp/>l<sp/>)<sp/>noexcept<sp/>:<sp/><ref refid="group__GeneralGroup_1gac761a3c59ab76b111bb301d71558d5a7" kindref="member">center</ref>(<sp/>l.center<sp/>),<sp/><ref refid="group__GeneralGroup_1gac91793706fe6273028dbecc98e540b1b" kindref="member">radius</ref>(<sp/><ref refid="group__GeneralGroup_1gab3dcbfdadbd1e9018e22a979ea25c6f9" kindref="member">T</ref>(<sp/>l.radius<sp/>)<sp/>)<sp/>{<sp/>}</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="group__GeneralGroup_1ga7be349cb025864bef77e267cefdccd28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>V<sp/><ref refid="group__GeneralGroup_1ga7be349cb025864bef77e267cefdccd28" kindref="member">project</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>x<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac761a3c59ab76b111bb301d71558d5a7" kindref="member">center</ref><sp/>+<sp/><ref refid="group__GeneralGroup_1gac91793706fe6273028dbecc98e540b1b" kindref="member">radius</ref><sp/>*<sp/>(<sp/>x<sp/>-<sp/><ref refid="group__GeneralGroup_1gac761a3c59ab76b111bb301d71558d5a7" kindref="member">center</ref><sp/>).normalized();<sp/>}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
@@ -135,11 +135,11 @@
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36" refid="group__GeneralGroup_1gac6fe7dcb9fbe192141cde72e7f9a3551" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1gab3dcbfdadbd1e9018e22a979ea25c6f9" kindref="member">T</ref><sp/><ref refid="group__GeneralGroup_1gac6fe7dcb9fbe192141cde72e7f9a3551" kindref="member">distanceSq</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>x<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1bdf9f3c718616502649bc34a80ac976" kindref="member">sqr</ref>(<sp/><ref refid="group__GeneralGroup_1ga3bcdf3d7bbfda09b3708d12b755ac6f0" kindref="member">distance</ref>(<sp/>x<sp/>)<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="group__GeneralGroup_1ga0254f6c6d3b7fbc30e5cb028767d85cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0254f6c6d3b7fbc30e5cb028767d85cf" kindref="member">operator == </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Sphere" kindref="compound">Sphere</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Sphere" kindref="compound">Sphere</ref><sp/>&amp;<sp/>b<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1ga0254f6c6d3b7fbc30e5cb028767d85cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0254f6c6d3b7fbc30e5cb028767d85cf" kindref="member">operator == </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0146c86fafdf02efca98966d2ff841ef" kindref="member">Sphere</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0146c86fafdf02efca98966d2ff841ef" kindref="member">Sphere</ref><sp/>&amp;<sp/>b<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSphere.h"/>
+    <location file="MRMesh/MRSphere.h"/>
   </compounddef>
 </doxygen>

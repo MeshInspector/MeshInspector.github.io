@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
-  <compounddef id="classMR_1_1VolumeToMeshByPartsSettings" kind="class" language="C#" prot="private">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VolumeToMeshByPartsSettings" kind="struct" language="C#" prot="public">
     <compoundname>MR::VolumeToMeshByPartsSettings</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_VolumeToMeshByPartsSettings</basecompoundref>
     <sectiondef kind="property">
@@ -89,7 +89,7 @@
           <declname>stripeOverlap</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR.VolumeToMeshByPartsSettings</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput><ref refid="classMR_1_1VolumeToMeshByPartsSettings" kindref="compound">MR.VolumeToMeshByPartsSettings</ref></computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -108,7 +108,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VolumeToMeshByPartsSettings_1a929e3c17d8d3b7483359cf9259c83631" kindref="member">MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -123,11 +123,11 @@
         <name>VolumeToMeshByPartsSettings</name>
         <qualifiedname>MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</qualifiedname>
         <param>
-          <type>VolumeToMeshByPartsSettings</type>
+          <type><ref refid="classMR_1_1VolumeToMeshByPartsSettings" kindref="compound">VolumeToMeshByPartsSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VolumeToMeshByPartsSettings_1a929e3c17d8d3b7483359cf9259c83631" kindref="member">MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -136,7 +136,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="485" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="485" bodyend="485"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VolumeToMeshByPartsSettings_1a6454695412cd97936453f13bac1be30d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.VolumeToMeshByPartsSettings</type>
+        <type>unsafe <ref refid="classMR_1_1VolumeToMeshByPartsSettings" kindref="compound">MR.VolumeToMeshByPartsSettings</ref></type>
         <definition>unsafe MR.VolumeToMeshByPartsSettings MR.VolumeToMeshByPartsSettings.assign</definition>
         <argsstring>(MR.Const_VolumeToMeshByPartsSettings _other)</argsstring>
         <name>assign</name>
@@ -146,7 +146,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.VolumeToMeshByPartsSettings.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::VolumeToMeshByPartsSettings::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -156,56 +156,58 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Parameters&apos; structure for MR.volumeToMeshByParts. </para>
+<para>Parameters&apos; structure for MR::volumeToMeshByParts. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="see"><para>volumeToMeshByParts Generated from class <computeroutput>MR.VolumeToMeshByPartsSettings</computeroutput>. This is the const half of the class.</para>
+<para><simplesect kind="see"><para>volumeToMeshByParts Generated from class <computeroutput><ref refid="classMR_1_1VolumeToMeshByPartsSettings" kindref="compound">MR.VolumeToMeshByPartsSettings</ref></computeroutput>. This is the const half of the class.</para>
 </simplesect>
-<simplesect kind="see"><para>volumeToMeshByParts Generated from class <computeroutput>MR.VolumeToMeshByPartsSettings</computeroutput>. This is the non-const half of the class. </para>
+<simplesect kind="see"><para>volumeToMeshByParts Generated from class <computeroutput><ref refid="classMR_1_1VolumeToMeshByPartsSettings" kindref="compound">MR.VolumeToMeshByPartsSettings</ref></computeroutput>. This is the non-const half of the class. </para>
 </simplesect>
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.VolumeToMeshByPartsSettings</label>
+        <link refid="classMR_1_1VolumeToMeshByPartsSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_VolumeToMeshByPartsSettings</label>
+        <label>MR.Const_VolumeToMeshByPartsSettings</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.VolumeToMeshByPartsSettings</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_VolumeToMeshByPartsSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.VolumeToMeshByPartsSettings</label>
+        <link refid="classMR_1_1VolumeToMeshByPartsSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_VolumeToMeshByPartsSettings</label>
+        <label>MR.Const_VolumeToMeshByPartsSettings</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.VolumeToMeshByPartsSettings</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_VolumeToMeshByPartsSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="431" column="11"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="431" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="432" bodyend="498"/>
     <listofallmembers>
       <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a6454695412cd97936453f13bac1be30d" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a163f6e7c21782c5264f775a766084997" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>maxVolumePartMemoryUsage</name></member>

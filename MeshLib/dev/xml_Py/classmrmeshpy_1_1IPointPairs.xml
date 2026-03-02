@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1IPointPairs" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::IPointPairs</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1ICPGroupPairs" prot="public" virt="non-virtual">mrmeshpy.ICPGroupPairs</derivedcompoundref>
@@ -28,10 +28,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__getitem__</name>
         <qualifiedname>mrmeshpy.IPointPairs.__getitem__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPairs_1a0f29935692738a7dbefc84421aa864b1">__getitem__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPairs_1a0f29935692738a7dbefc84421aa864b1">__getitem__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPairs_1a17297d08012326188d9a93386cfe82a7">__getitem__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPairs_1a17297d08012326188d9a93386cfe82a7">__getitem__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -54,10 +50,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__getitem__</name>
         <qualifiedname>mrmeshpy.IPointPairs.__getitem__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPairs_1a0f29935692738a7dbefc84421aa864b1">__getitem__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPairs_1a0f29935692738a7dbefc84421aa864b1">__getitem__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPairs_1a17297d08012326188d9a93386cfe82a7">__getitem__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPairs_1a17297d08012326188d9a93386cfe82a7">__getitem__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -108,8 +100,6 @@
         <argsstring>(self, int arg0, ICPPairData arg1)</argsstring>
         <name>__setitem__</name>
         <qualifiedname>mrmeshpy.IPointPairs.__setitem__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ICPGroupPairs_1aa29e0f4706a0f8316b8af00b3b94627f">__setitem__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointPairs_1a34f15f93aec5e051ab01c2eadc353c27">__setitem__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -219,18 +209,6 @@ Simple interface for pairs holder
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.IPointPairs</label>
-        <link refid="classmrmeshpy_1_1IPointPairs"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_active</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23740" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23740" bodyend="23769"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1IPointPairs_1a254724433e170b395a2c3d3ec4a459cf" prot="public" virt="non-virtual"><scope>mrmeshpy::IPointPairs</scope><name>__getitem__</name></member>

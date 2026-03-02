@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRObjectsAccess_8h" kind="file" language="C++">
     <compoundname>MRObjectsAccess.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -79,32 +79,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRObjectsAccess_8h_1accce9c9179cadabc541edda0fc7a2571" prot="public" static="no">
-        <type>struct <ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref></type>
-        <definition>typedef struct MR_Object MR_Object</definition>
-        <argsstring></argsstring>
-        <name>MR_Object</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="11" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectsAccess_8h_1acc2f4e4d04631180d278fad84fbbc6cf" prot="public" static="no">
-        <type>struct <ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref></type>
-        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_Object MR_std_vector_std_shared_ptr_MR_Object</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_shared_ptr_MR_Object</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="12" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRObjectsAccess_8h_1acb36d23341ea6a57f478bf8ab3cbb672" prot="public" static="no">
         <type>struct <ref refid="MRObjectsAccess_8h_1acb36d23341ea6a57f478bf8ab3cbb672" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap</ref></type>
         <definition>typedef struct MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap</definition>
@@ -117,19 +91,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="13" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectsAccess_8h_1a4d579dbc5475dc25e3943a58b1d84886" prot="public" static="no">
-        <type>struct <ref refid="MRObjectLines_8h_1a4d579dbc5475dc25e3943a58b1d84886" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLines</ref></type>
-        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_ObjectLines MR_std_vector_std_shared_ptr_MR_ObjectLines</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_shared_ptr_MR_ObjectLines</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="14" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRObjectsAccess_8h_1a01bf955f40873834f02f3f2dcd641c01" prot="public" static="no">
         <type>struct <ref refid="MRObjectsAccess_8h_1a01bf955f40873834f02f3f2dcd641c01" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLinesHolder</ref></type>
@@ -144,19 +105,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="15" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="15" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRObjectsAccess_8h_1a4a64bdc6d260f63671c4a3296cca77c8" prot="public" static="no">
-        <type>struct <ref refid="MRObjectMesh_8h_1a4a64bdc6d260f63671c4a3296cca77c8" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMesh</ref></type>
-        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_ObjectMesh MR_std_vector_std_shared_ptr_MR_ObjectMesh</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_shared_ptr_MR_ObjectMesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="16" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRObjectsAccess_8h_1a368be4c555d5f1592256a167548cd2df" prot="public" static="no">
         <type>struct <ref refid="MRObjectsAccess_8h_1a368be4c555d5f1592256a167548cd2df" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder</ref></type>
         <definition>typedef struct MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder</definition>
@@ -169,19 +117,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="17" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectsAccess_8h_1a9ce2a71a3bbf5ba7357042e52780851c" prot="public" static="no">
-        <type>struct <ref refid="MRObjectPoints_8h_1a9ce2a71a3bbf5ba7357042e52780851c" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPoints</ref></type>
-        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_ObjectPoints MR_std_vector_std_shared_ptr_MR_ObjectPoints</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_shared_ptr_MR_ObjectPoints</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" line="18" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectsAccess.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRObjectsAccess_8h_1a5bab704707f5f5ccbae7d398b4310cbc" prot="public" static="no">
         <type>struct <ref refid="MRObjectsAccess_8h_1a5bab704707f5f5ccbae7d398b4310cbc" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder</ref></type>
@@ -504,14 +439,14 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRObjectsAccess_8h_1accce9c9179cadabc541edda0fc7a2571" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRObjectsAccess_8h_1acc2f4e4d04631180d278fad84fbbc6cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref><sp/><ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref><sp/><ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13" refid="MRObjectsAccess_8h_1acb36d23341ea6a57f478bf8ab3cbb672" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectsAccess_8h_1acb36d23341ea6a57f478bf8ab3cbb672" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap</ref><sp/><ref refid="MRObjectsAccess_8h_1acb36d23341ea6a57f478bf8ab3cbb672" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectDistanceMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRObjectsAccess_8h_1a4d579dbc5475dc25e3943a58b1d84886" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLines_8h_1a4d579dbc5475dc25e3943a58b1d84886" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLines</ref><sp/><ref refid="MRObjectLines_8h_1a4d579dbc5475dc25e3943a58b1d84886" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLines</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectLines.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLines_8h_1a4d579dbc5475dc25e3943a58b1d84886" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLines</ref><sp/><ref refid="MRObjectLines_8h_1a4d579dbc5475dc25e3943a58b1d84886" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLines</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectLines.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="MRObjectsAccess_8h_1a01bf955f40873834f02f3f2dcd641c01" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectsAccess_8h_1a01bf955f40873834f02f3f2dcd641c01" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/><ref refid="MRObjectsAccess_8h_1a01bf955f40873834f02f3f2dcd641c01" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectLinesHolder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectLinesHolder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRObjectsAccess_8h_1a4a64bdc6d260f63671c4a3296cca77c8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectMesh_8h_1a4a64bdc6d260f63671c4a3296cca77c8" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMesh</ref><sp/><ref refid="MRObjectMesh_8h_1a4a64bdc6d260f63671c4a3296cca77c8" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectMesh_8h_1a4a64bdc6d260f63671c4a3296cca77c8" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMesh</ref><sp/><ref refid="MRObjectMesh_8h_1a4a64bdc6d260f63671c4a3296cca77c8" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MRObjectsAccess_8h_1a368be4c555d5f1592256a167548cd2df" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectsAccess_8h_1a368be4c555d5f1592256a167548cd2df" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder</ref><sp/><ref refid="MRObjectsAccess_8h_1a368be4c555d5f1592256a167548cd2df" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectMeshHolder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRObjectsAccess_8h_1a9ce2a71a3bbf5ba7357042e52780851c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectPoints_8h_1a9ce2a71a3bbf5ba7357042e52780851c" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPoints</ref><sp/><ref refid="MRObjectPoints_8h_1a9ce2a71a3bbf5ba7357042e52780851c" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPoints</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectPoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectPoints_8h_1a9ce2a71a3bbf5ba7357042e52780851c" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPoints</ref><sp/><ref refid="MRObjectPoints_8h_1a9ce2a71a3bbf5ba7357042e52780851c" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPoints</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectPoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="MRObjectsAccess_8h_1a5bab704707f5f5ccbae7d398b4310cbc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectsAccess_8h_1a5bab704707f5f5ccbae7d398b4310cbc" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder</ref><sp/><ref refid="MRObjectsAccess_8h_1a5bab704707f5f5ccbae7d398b4310cbc" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectPointsHolder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="MRObjectsAccess_8h_1a4f75187fb5feeeffabff5d778e7aebac" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectsAccess_8h_1a4f75187fb5feeeffabff5d778e7aebac" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectVoxels</ref><sp/><ref refid="MRObjectsAccess_8h_1a4f75187fb5feeeffabff5d778e7aebac" kindref="member">MR_std_vector_std_shared_ptr_MR_ObjectVoxels</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_ObjectVoxels.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRObjectsAccess_8h_1a9a3bde7539329e99c0ca4a5bc4291d36" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectsAccess_8h_1a9a3bde7539329e99c0ca4a5bc4291d36" kindref="member">MR_std_vector_std_shared_ptr_MR_VisualObject</ref><sp/><ref refid="MRObjectsAccess_8h_1a9a3bde7539329e99c0ca4a5bc4291d36" kindref="member">MR_std_vector_std_shared_ptr_MR_VisualObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_VisualObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>

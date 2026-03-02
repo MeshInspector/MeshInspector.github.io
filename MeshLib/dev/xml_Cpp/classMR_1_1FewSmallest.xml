@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FewSmallest" kind="class" language="C++" prot="public">
     <compoundname>MR::FewSmallest</compoundname>
-    <includes refid="MRFewSmallest_8h" local="no">MRFewSmallest.h</includes>
+    <includes refid="MRFewSmallest_8h" local="no">MRMesh/MRFewSmallest.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -31,7 +31,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="17" bodyend="57"/>
+    <location file="MRMesh/MRFewSmallest.h" line="16" column="1" bodyfile="MRMesh/MRFewSmallest.h" bodystart="17" bodyend="57"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaf536aae957f76a53b47070d11d2a4181" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>clear</name></member>
       <member refid="group__GeneralGroup_1ga5c8ddf759620fd8b0d272d4695422839" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>empty</name></member>

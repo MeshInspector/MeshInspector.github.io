@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneStateAndCheck" kind="class" language="C++" prot="public">
     <compoundname>MR::SceneStateAndCheck</compoundname>
     <basecompoundref prot="public" virt="non-virtual">Checks...</basecompoundref>
-    <includes refid="MRSceneStateCheck_8h" local="no">MRSceneStateCheck.h</includes>
+    <includes refid="MRSceneStateCheck_8h" local="no">MRViewer/MRSceneStateCheck.h</includes>
     <templateparamlist>
       <param>
         <type>typename ...</type>
@@ -42,7 +42,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="187" bodyend="210"/>
+    <location file="MRViewer/MRSceneStateCheck.h" line="186" column="1" bodyfile="MRViewer/MRSceneStateCheck.h" bodystart="187" bodyend="210"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga24f4c50b741150585aac2dfc9451c763" prot="public" virt="virtual"><scope>MR::SceneStateAndCheck</scope><name>isAvailable</name></member>
       <member refid="group__GeneralGroup_1gaeeef0efbedfc98eea8fe606f14398bc2" prot="public" virt="virtual"><scope>MR::SceneStateAndCheck</scope><name>~SceneStateAndCheck</name></member>

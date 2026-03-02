@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSymMatrix3_8h" kind="file" language="C++">
     <compoundname>MRSymMatrix3.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
@@ -48,32 +48,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRSymMatrix3_8h_1af75d5aee2f1ffaf5e022bf46adacedaa" prot="public" static="no">
-        <type>struct MR_Matrix3d</type>
-        <definition>typedef struct MR_Matrix3d MR_Matrix3d</definition>
-        <argsstring></argsstring>
-        <name>MR_Matrix3d</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix3.h" line="14" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix3.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRSymMatrix3_8h_1a864a32707cffe3bd344334f0e4b292cf" prot="public" static="no">
-        <type>struct MR_Matrix3f</type>
-        <definition>typedef struct MR_Matrix3f MR_Matrix3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Matrix3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix3.h" line="15" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix3.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRSymMatrix3_8h_1ac3b6b6ac7be71e1e810afca196101d1b" prot="public" static="no">
         <type>struct <ref refid="MRSymMatrix3_8h_1ac3b6b6ac7be71e1e810afca196101d1b" kindref="member">MR_SymMatrix3b</ref></type>
         <definition>typedef struct MR_SymMatrix3b MR_SymMatrix3b</definition>
@@ -115,34 +89,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix3.h" line="31" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix3.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRSymMatrix3_8h_1acc98317fa841947f4df16cb8b58b046a" prot="public" static="no">
-        <type>struct <ref refid="MRQuadraticForm_8h_1acc98317fa841947f4df16cb8b58b046a" kindref="member">MR_SymMatrix3f</ref></type>
-        <definition>typedef struct MR_SymMatrix3f MR_SymMatrix3f</definition>
-        <argsstring></argsstring>
-        <name>MR_SymMatrix3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>symmetric 3x3 matrix Generated from class <computeroutput>MR::SymMatrix3f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix3.h" line="36" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix3.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRSymMatrix3_8h_1a1c368f42c21a18903319f8bf1c63ef01" prot="public" static="no">
-        <type>struct <ref refid="MRQuadraticForm_8h_1a1c368f42c21a18903319f8bf1c63ef01" kindref="member">MR_SymMatrix3d</ref></type>
-        <definition>typedef struct MR_SymMatrix3d MR_SymMatrix3d</definition>
-        <argsstring></argsstring>
-        <name>MR_SymMatrix3d</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>symmetric 3x3 matrix Generated from class <computeroutput>MR::SymMatrix3d</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix3.h" line="41" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix3.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSymMatrix3_8h_1a21ae2c31d5c83192bbf6248b5ba7cd59" prot="public" static="no">
         <type>struct <ref refid="MRSymMatrix3_8h_1a21ae2c31d5c83192bbf6248b5ba7cd59" kindref="member">MR_SymMatrix3_unsigned_char</ref></type>
@@ -615,7 +561,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix3b</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSymMatrix3_8h_1ac3b6b6ac7be71e1e810afca196101d1b" kindref="member">MR_SymMatrix3b</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -633,7 +579,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix3b</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSymMatrix3_8h_1ac3b6b6ac7be71e1e810afca196101d1b" kindref="member">MR_SymMatrix3b</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1335,7 +1281,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix3i</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSymMatrix3_8h_1aaa844153eb64dccf23991db529da5b98" kindref="member">MR_SymMatrix3i</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1353,7 +1299,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix3i</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSymMatrix3_8h_1aaa844153eb64dccf23991db529da5b98" kindref="member">MR_SymMatrix3i</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2055,7 +2001,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix3i64</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSymMatrix3_8h_1ad72033c07f412fefab4686b235444af9" kindref="member">MR_SymMatrix3i64</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2073,7 +2019,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix3i64</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSymMatrix3_8h_1ad72033c07f412fefab4686b235444af9" kindref="member">MR_SymMatrix3i64</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2775,7 +2721,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRQuadraticForm_8h_1acc98317fa841947f4df16cb8b58b046a" kindref="member">MR_SymMatrix3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2793,7 +2739,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRQuadraticForm_8h_1acc98317fa841947f4df16cb8b58b046a" kindref="member">MR_SymMatrix3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3594,7 +3540,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRQuadraticForm_8h_1a1c368f42c21a18903319f8bf1c63ef01" kindref="member">MR_SymMatrix3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3612,7 +3558,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRQuadraticForm_8h_1a1c368f42c21a18903319f8bf1c63ef01" kindref="member">MR_SymMatrix3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4413,7 +4359,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix3_unsigned_char</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSymMatrix3_8h_1a21ae2c31d5c83192bbf6248b5ba7cd59" kindref="member">MR_SymMatrix3_unsigned_char</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4431,7 +4377,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix3_unsigned_char</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSymMatrix3_8h_1a21ae2c31d5c83192bbf6248b5ba7cd59" kindref="member">MR_SymMatrix3_unsigned_char</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4697,21 +4643,21 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRSymMatrix3_8h_1af75d5aee2f1ffaf5e022bf46adacedaa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref><sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMatrix3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRSymMatrix3_8h_1a864a32707cffe3bd344334f0e4b292cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMatrix3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref><sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMatrix3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMatrix3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRSymMatrix3_8h_1ac3b6b6ac7be71e1e810afca196101d1b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix3_8h_1ac3b6b6ac7be71e1e810afca196101d1b" kindref="member">MR_SymMatrix3b</ref><sp/><ref refid="MRSymMatrix3_8h_1ac3b6b6ac7be71e1e810afca196101d1b" kindref="member">MR_SymMatrix3b</ref>;</highlight></codeline>
+<codeline lineno="21" refid="MRSymMatrix3_8h_1ac3b6b6ac7be71e1e810afca196101d1b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix3_8h_1ac3b6b6ac7be71e1e810afca196101d1b" kindref="member">MR_SymMatrix3b</ref><sp/><ref refid="MRSymMatrix3_8h_1ac3b6b6ac7be71e1e810afca196101d1b" kindref="member">MR_SymMatrix3b</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRSymMatrix3_8h_1aaa844153eb64dccf23991db529da5b98" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix3_8h_1aaa844153eb64dccf23991db529da5b98" kindref="member">MR_SymMatrix3i</ref><sp/><ref refid="MRSymMatrix3_8h_1aaa844153eb64dccf23991db529da5b98" kindref="member">MR_SymMatrix3i</ref>;</highlight></codeline>
+<codeline lineno="26" refid="MRSymMatrix3_8h_1aaa844153eb64dccf23991db529da5b98" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix3_8h_1aaa844153eb64dccf23991db529da5b98" kindref="member">MR_SymMatrix3i</ref><sp/><ref refid="MRSymMatrix3_8h_1aaa844153eb64dccf23991db529da5b98" kindref="member">MR_SymMatrix3i</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRSymMatrix3_8h_1ad72033c07f412fefab4686b235444af9" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix3_8h_1ad72033c07f412fefab4686b235444af9" kindref="member">MR_SymMatrix3i64</ref><sp/><ref refid="MRSymMatrix3_8h_1ad72033c07f412fefab4686b235444af9" kindref="member">MR_SymMatrix3i64</ref>;</highlight></codeline>
+<codeline lineno="31" refid="MRSymMatrix3_8h_1ad72033c07f412fefab4686b235444af9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix3_8h_1ad72033c07f412fefab4686b235444af9" kindref="member">MR_SymMatrix3i64</ref><sp/><ref refid="MRSymMatrix3_8h_1ad72033c07f412fefab4686b235444af9" kindref="member">MR_SymMatrix3i64</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRSymMatrix3_8h_1acc98317fa841947f4df16cb8b58b046a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1acc98317fa841947f4df16cb8b58b046a" kindref="member">MR_SymMatrix3f</ref><sp/><ref refid="MRQuadraticForm_8h_1acc98317fa841947f4df16cb8b58b046a" kindref="member">MR_SymMatrix3f</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1acc98317fa841947f4df16cb8b58b046a" kindref="member">MR_SymMatrix3f</ref><sp/><ref refid="MRQuadraticForm_8h_1acc98317fa841947f4df16cb8b58b046a" kindref="member">MR_SymMatrix3f</ref>;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRSymMatrix3_8h_1a1c368f42c21a18903319f8bf1c63ef01" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1a1c368f42c21a18903319f8bf1c63ef01" kindref="member">MR_SymMatrix3d</ref><sp/><ref refid="MRQuadraticForm_8h_1a1c368f42c21a18903319f8bf1c63ef01" kindref="member">MR_SymMatrix3d</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1a1c368f42c21a18903319f8bf1c63ef01" kindref="member">MR_SymMatrix3d</ref><sp/><ref refid="MRQuadraticForm_8h_1a1c368f42c21a18903319f8bf1c63ef01" kindref="member">MR_SymMatrix3d</ref>;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRSymMatrix3_8h_1a21ae2c31d5c83192bbf6248b5ba7cd59" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix3_8h_1a21ae2c31d5c83192bbf6248b5ba7cd59" kindref="member">MR_SymMatrix3_unsigned_char</ref><sp/><ref refid="MRSymMatrix3_8h_1a21ae2c31d5c83192bbf6248b5ba7cd59" kindref="member">MR_SymMatrix3_unsigned_char</ref>;</highlight></codeline>
+<codeline lineno="46" refid="MRSymMatrix3_8h_1a21ae2c31d5c83192bbf6248b5ba7cd59" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix3_8h_1a21ae2c31d5c83192bbf6248b5ba7cd59" kindref="member">MR_SymMatrix3_unsigned_char</ref><sp/><ref refid="MRSymMatrix3_8h_1a21ae2c31d5c83192bbf6248b5ba7cd59" kindref="member">MR_SymMatrix3_unsigned_char</ref>;</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53" refid="MRSymMatrix3_8h_1a9e142b84299ff8129dc51a967a85b146" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRSymMatrix3_8h_1a9e142b84299ff8129dc51a967a85b146" kindref="member">MR_SymMatrix3b_Get_xx</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix3_8h_1ac3b6b6ac7be71e1e810afca196101d1b" kindref="member">MR_SymMatrix3b</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>

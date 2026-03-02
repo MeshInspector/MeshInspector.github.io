@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PointOnFace" kind="struct" language="C++" prot="public">
     <compoundname>MR::PointOnFace</compoundname>
-    <includes refid="MRPointOnFace_8h" local="no">MRPointOnFace.h</includes>
+    <includes refid="MRPointOnFace_8h" local="no">MRMesh/MRPointOnFace.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga2ec934aa6c7847dbfbc812bcea286b53" kind="variable"><name>face</name></member>
       <member refid="group__GeneralGroup_1ga8ee455f370bca112fa98cf9f81a2e3ad" kind="variable"><name>point</name></member>
@@ -20,7 +20,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" bodystart="16" bodyend="29"/>
+    <location file="MRMesh/MRPointOnFace.h" line="15" column="1" bodyfile="MRMesh/MRPointOnFace.h" bodystart="16" bodyend="29"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2ec934aa6c7847dbfbc812bcea286b53" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>face</name></member>
       <member refid="group__GeneralGroup_1gacabf2c49796ac6c253d2d2031fb688c7" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>operator bool</name></member>

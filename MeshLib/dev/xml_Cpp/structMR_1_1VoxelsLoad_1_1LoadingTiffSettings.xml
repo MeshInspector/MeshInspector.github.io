@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::VoxelsLoad::LoadingTiffSettings</compoundname>
-    <includes refid="MRVoxelsLoad_8h" local="no">MRVoxelsLoad.h</includes>
+    <includes refid="MRVoxelsLoad_8h" local="no">MRVoxels/MRVoxelsLoad.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__VoxelsLoadGroup_1gaafca990d1d688a3f2f9ce8ba0a67a3c5" kind="variable"><name>dir</name></member>
       <member refid="group__VoxelsLoadGroup_1ga39c8477a2a590bcaef5179d861b7f1de" kind="variable"><name>voxelSize</name></member>
@@ -13,7 +13,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="93" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="94" bodyend="99"/>
+    <location file="MRVoxels/MRVoxelsLoad.h" line="93" column="1" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="94" bodyend="99"/>
     <listofallmembers>
       <member refid="group__VoxelsLoadGroup_1gad7f6150701181ada771a2322643a89dd" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::LoadingTiffSettings</scope><name>cb</name></member>
       <member refid="group__VoxelsLoadGroup_1gaafca990d1d688a3f2f9ce8ba0a67a3c5" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::LoadingTiffSettings</scope><name>dir</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__AABBTreeGroup" kind="group">
     <compoundname>AABBTreeGroup</compoundname>
     <title>AABB Tree overview</title>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDistance.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDistance.h" bodystart="17" bodyend="20"/>
+        <location file="MRMesh/MRMeshDistance.h" line="16" column="1" bodyfile="MRMesh/MRMeshDistance.h" bodystart="17" bodyend="20"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="22" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreeNode.h" line="22" column="1" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1ga876e325460f0c5460c1e453324ca329c" prot="public" static="no">
         <templateparamlist>
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="25" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="25" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreeNode.h" line="25" column="1" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1ga346d2e7774495e3e4ca05a2325f11aaf" prot="public" static="no">
         <type>LineTreeTraits&lt; Vector2f &gt;</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="26" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreeNode.h" line="26" column="1" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1gacf6e57b5e87718397acc1762969ad77a" prot="public" static="no">
         <type>LineTreeTraits&lt; Vector3f &gt;</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="27" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="27" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreeNode.h" line="27" column="1" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1ga01c75e3c26967a90edbe075a77cb2ca9" prot="public" static="no">
         <templateparamlist>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="45" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="45" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreeNode.h" line="45" column="1" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1ga457b7bb3a129cf50a82586b670a93148" prot="public" static="no">
         <type>std::vector&lt; VarEdgeTri &gt;</type>
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="64" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="64" bodyend="-1"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="64" column="1" bodyfile="MRMesh/MRMeshCollidePrecise.h" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1ga285ea5cd9fb638c90fec0099f526c057" prot="public" static="no">
         <type>std::function&lt; ProcessOneResult(const Vector3f &amp;p, FaceId f, const Vector3f &amp;q, float distSq)&gt;</type>
@@ -215,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDistance.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDistance.h" bodystart="28" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDistance.h" line="28" column="1" bodyfile="MRMesh/MRMeshDistance.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1ga9222ec2d954badb7ee5874321a084eb6" prot="public" static="no">
         <type>Line3Mesh&lt; float &gt;</type>
@@ -229,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="92" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="92" bodyend="-1"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="92" column="1" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1ga8ba650839d7806773bb542b986ac4283" prot="public" static="no">
         <type>Line3Mesh&lt; double &gt;</type>
@@ -243,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="93" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="93" bodyend="-1"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="93" column="1" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1gac20cf6ba073a7db1e2df313fb87d9517" prot="public" static="no">
         <type>std::function&lt; bool(const MeshIntersectionResult &amp;)&gt;</type>
@@ -258,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="105" bodyend="-1"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="105" column="1" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="105" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1ga4349e23b1c03bbeb120c81f3cbb8b615" prot="public" static="no">
         <type>std::function&lt; Processing(FaceId found, Ball3f &amp;ball)&gt;</type>
@@ -273,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="82" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" bodystart="82" bodyend="-1"/>
+        <location file="MRMesh/MRMeshProject.h" line="82" column="1" bodyfile="MRMesh/MRMeshProject.h" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1ga3fa10deed3f5f765a28d62f2a9667c0f" prot="public" static="no">
         <type>std::function&lt; Processing(const MeshProjectionResult &amp;found, Ball3f &amp;ball)&gt;</type>
@@ -288,7 +288,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="90" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" bodystart="90" bodyend="-1"/>
+        <location file="MRMesh/MRMeshProject.h" line="90" column="1" bodyfile="MRMesh/MRMeshProject.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1ga80d1c820a9a9983c511c6785b2c8ed94" prot="public" static="no">
         <templateparamlist>
@@ -308,7 +308,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="49" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" bodystart="49" bodyend="-1"/>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="49" column="1" bodyfile="MRMesh/MRPolyline2Intersect.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1gae0b1767f78412a4100c7baa4ae2cb2de" prot="public" static="no">
         <type>PolylineIntersectionCallback2&lt; float &gt;</type>
@@ -322,7 +322,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="50" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" bodystart="50" bodyend="-1"/>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="50" column="1" bodyfile="MRMesh/MRPolyline2Intersect.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1gaba7cace2c59d8ea1874ea0223d3c3d42" prot="public" static="no">
         <type>PolylineIntersectionCallback2&lt; double &gt;</type>
@@ -336,7 +336,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="51" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" bodystart="51" bodyend="-1"/>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="51" column="1" bodyfile="MRMesh/MRPolyline2Intersect.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1gac2b944209dd41b786a30b1d537639470" prot="public" static="no">
         <templateparamlist>
@@ -355,7 +355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" bodystart="103" bodyend="-1"/>
+        <location file="MRMesh/MRPolylineProject.h" line="103" column="1" bodyfile="MRMesh/MRPolylineProject.h" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1ga5e0d9af4be57927671a26f2c4588a515" prot="public" static="no">
         <type>FoundEdgeCallback&lt; Vector2f &gt;</type>
@@ -369,7 +369,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" bodystart="104" bodyend="-1"/>
+        <location file="MRMesh/MRPolylineProject.h" line="104" column="1" bodyfile="MRMesh/MRPolylineProject.h" bodystart="104" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1ga865abfe228b7d60d582d2c6ce24ffb19" prot="public" static="no">
         <type>FoundEdgeCallback&lt; Vector3f &gt;</type>
@@ -383,7 +383,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" bodystart="105" bodyend="-1"/>
+        <location file="MRMesh/MRPolylineProject.h" line="105" column="1" bodyfile="MRMesh/MRPolylineProject.h" bodystart="105" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="var">
@@ -400,7 +400,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" line="119" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" bodystart="119" bodyend="-1"/>
+        <location file="MRMesh/MRIntersectionPrecomputes.h" line="119" column="13" bodyfile="MRMesh/MRIntersectionPrecomputes.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__AABBTreeGroup_1gaffa5bcb7a516c4dda421ace86e2597c2" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -416,7 +416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" line="122" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" bodystart="122" bodyend="-1"/>
+        <location file="MRMesh/MRIntersectionPrecomputes.h" line="122" column="9" bodyfile="MRMesh/MRIntersectionPrecomputes.h" bodystart="122" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__AABBTreeGroup_1ga59240ce19dcf5b27221a347b22086fcb" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -431,7 +431,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" line="123" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" bodystart="123" bodyend="-1"/>
+        <location file="MRMesh/MRIntersectionPrecomputes.h" line="123" column="9" bodyfile="MRMesh/MRIntersectionPrecomputes.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__AABBTreeGroup_1ga1e89bb11cf7c4693e1c8839963994a08" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -446,7 +446,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" line="124" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" bodystart="124" bodyend="-1"/>
+        <location file="MRMesh/MRIntersectionPrecomputes.h" line="124" column="9" bodyfile="MRMesh/MRIntersectionPrecomputes.h" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__AABBTreeGroup_1ga28372a635ba67b43220bc9067be6560d" prot="public" static="no" mutable="no">
         <type>Vector3i</type>
@@ -461,7 +461,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" line="127" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" bodystart="127" bodyend="-1"/>
+        <location file="MRMesh/MRIntersectionPrecomputes.h" line="127" column="14" bodyfile="MRMesh/MRIntersectionPrecomputes.h" bodystart="127" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__AABBTreeGroup_1ga21465bc7d67177777744f39ac171940c" prot="public" static="no" mutable="no">
         <type>T</type>
@@ -476,7 +476,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" line="130" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" bodystart="130" bodyend="-1"/>
+        <location file="MRMesh/MRIntersectionPrecomputes.h" line="130" column="7" bodyfile="MRMesh/MRIntersectionPrecomputes.h" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__AABBTreeGroup_1gaf95502c89221bba3187782d4ed18199b" prot="public" static="no" mutable="no">
         <type>T</type>
@@ -490,7 +490,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" line="130" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" bodystart="130" bodyend="-1"/>
+        <location file="MRMesh/MRIntersectionPrecomputes.h" line="130" column="10" bodyfile="MRMesh/MRIntersectionPrecomputes.h" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__AABBTreeGroup_1ga6159c869b0afc38ccf26091c1681194a" prot="public" static="no" mutable="no">
         <type>T</type>
@@ -504,7 +504,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" line="130" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" bodystart="130" bodyend="-1"/>
+        <location file="MRMesh/MRIntersectionPrecomputes.h" line="130" column="13" bodyfile="MRMesh/MRIntersectionPrecomputes.h" bodystart="130" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -525,7 +525,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeMaker.h" line="23" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeMaker.h" bodystart="23" bodyend="27"/>
+        <location file="MRMesh/MRAABBTreeMaker.h" line="23" column="12" bodyfile="MRMesh/MRAABBTreeMaker.h" bodystart="23" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga364302ddaf673e7f00c6745f4172d6c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -548,7 +548,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeMaker.h" line="30" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeMaker.h" declline="30" declcolumn="17"/>
+        <location file="MRMesh/MRAABBTreeMaker.h" line="30" column="17" declfile="MRMesh/MRAABBTreeMaker.h" declline="30" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga47032a5f420080191bd8d3600c3c24ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -567,7 +567,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="90" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="90" bodyend="94"/>
+        <location file="MRMesh/MRAABBTreePoints.h" line="90" column="12" bodyfile="MRMesh/MRAABBTreePoints.h" bodystart="90" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga27f3ab649f42f8c32266636ea1e4a672" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
@@ -595,7 +595,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="15" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="15" declcolumn="10"/>
+        <location file="MRMesh/MRDirMax.h" line="15" column="10" declfile="MRMesh/MRDirMax.h" declline="15" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga349eb7a8c883560631fb216578fa032e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
@@ -623,7 +623,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="20" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="20" declcolumn="10"/>
+        <location file="MRMesh/MRDirMax.h" line="20" column="10" declfile="MRMesh/MRDirMax.h" declline="20" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga55d85d5bef96fb008fa97c964a107106" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
@@ -651,7 +651,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="25" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="25" declcolumn="10"/>
+        <location file="MRMesh/MRDirMax.h" line="25" column="10" declfile="MRMesh/MRDirMax.h" declline="25" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga239eecd05ac9c728a9cdb53a9ac23fa4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
@@ -679,7 +679,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="30" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="30" declcolumn="10"/>
+        <location file="MRMesh/MRDirMax.h" line="30" column="10" declfile="MRMesh/MRDirMax.h" declline="30" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga52a64810b7f16779f6057c6ea4dbea38" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
@@ -707,7 +707,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="35" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="35" declcolumn="10"/>
+        <location file="MRMesh/MRDirMax.h" line="35" column="10" declfile="MRMesh/MRDirMax.h" declline="35" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gaf9301e60577be3efc4d4574adf1f0bdc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
@@ -740,7 +740,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="40" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="40" declcolumn="10"/>
+        <location file="MRMesh/MRDirMax.h" line="40" column="10" declfile="MRMesh/MRDirMax.h" declline="40" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga732261d700b4c525fd647dd0ce9d0cb7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
@@ -768,7 +768,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" line="44" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMax.h" declline="44" declcolumn="10"/>
+        <location file="MRMesh/MRDirMax.h" line="44" column="10" declfile="MRMesh/MRDirMax.h" declline="44" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga7fcb33a674ea8b57ac858e40d42e26e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -836,7 +836,7 @@
 <para>y&gt;x&gt;z</para>
 <para>z&gt;y&gt;x</para>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" line="25" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" bodystart="25" bodyend="111"/>
+        <location file="MRMesh/MRIntersectionPrecomputes.h" line="25" column="6" bodyfile="MRMesh/MRIntersectionPrecomputes.h" bodystart="25" bodyend="111"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga9984ed4cff38cd012243e835f02e0e92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -850,7 +850,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" line="131" column="5"/>
+        <location file="MRMesh/MRIntersectionPrecomputes.h" line="131" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gac2a5a2178c875139ca3e402c1a46324c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -868,7 +868,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" line="132" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" bodystart="132" bodyend="147"/>
+        <location file="MRMesh/MRIntersectionPrecomputes.h" line="132" column="5" bodyfile="MRMesh/MRIntersectionPrecomputes.h" bodystart="132" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga562052fddd56327be07ffe8c0cc7f7af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -918,7 +918,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" line="19" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes2.h" bodystart="19" bodyend="29"/>
+        <location file="MRMesh/MRIntersectionPrecomputes2.h" line="19" column="6" bodyfile="MRMesh/MRIntersectionPrecomputes2.h" bodystart="19" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga6e40cae7759017db4116172d739d174d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; FaceFace &gt;</type>
@@ -969,7 +969,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="19" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="19" declcolumn="15"/>
+        <location file="MRMesh/MRMeshCollide.h" line="19" column="15" declfile="MRMesh/MRMeshCollide.h" declline="19" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga8defd1b47b126123f3cf99c68e771ea0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::pair&lt; FaceBitSet, FaceBitSet &gt;</type>
@@ -997,7 +997,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="23" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="23" declcolumn="13"/>
+        <location file="MRMesh/MRMeshCollide.h" line="23" column="13" declfile="MRMesh/MRMeshCollide.h" declline="23" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga8311349cbf854a8a56407def83e4342d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; bool &gt;</type>
@@ -1040,7 +1040,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="27" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="27" declcolumn="12"/>
+        <location file="MRMesh/MRMeshCollide.h" line="27" column="12" declfile="MRMesh/MRMeshCollide.h" declline="27" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga8fb534af9cf7d272a2addab053665534" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::vector&lt; FaceFace &gt; &gt;</type>
@@ -1077,7 +1077,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="34" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="34" declcolumn="12"/>
+        <location file="MRMesh/MRMeshCollide.h" line="34" column="12" declfile="MRMesh/MRMeshCollide.h" declline="34" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gaa34db2c0df1550c7f166893dbf581953" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; FaceBitSet &gt;</type>
@@ -1114,7 +1114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="39" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="39" declcolumn="12"/>
+        <location file="MRMesh/MRMeshCollide.h" line="39" column="12" declfile="MRMesh/MRMeshCollide.h" declline="39" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga7892dab0d0fdaed07c3c16c0b4ccc6e9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1152,7 +1152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="47" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="47" declcolumn="8"/>
+        <location file="MRMesh/MRMeshCollide.h" line="47" column="8" declfile="MRMesh/MRMeshCollide.h" declline="47" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga20e0c10db7c46b127cf4b5446101f894" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1190,7 +1190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="54" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="54" declcolumn="8"/>
+        <location file="MRMesh/MRMeshCollide.h" line="54" column="8" declfile="MRMesh/MRMeshCollide.h" declline="54" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gac22748b9e5c563d95321d66315116084" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1232,7 +1232,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" line="61" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollide.h" declline="61" declcolumn="8"/>
+        <location file="MRMesh/MRMeshCollide.h" line="61" column="8" declfile="MRMesh/MRMeshCollide.h" declline="61" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga8f7cfd40975f9648e9785f72d75ff92d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -1254,7 +1254,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="24" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="24" bodyend="27"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="24" column="13" bodyfile="MRMesh/MRMeshCollidePrecise.h" bodystart="24" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga7b104a00c60718368c988029510bf8ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>PreciseCollisionResult</type>
@@ -1309,7 +1309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="71" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="71" declcolumn="25"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="71" column="25" declfile="MRMesh/MRMeshCollidePrecise.h" declline="71" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gaa06a012aef3a0273d36e471fda3beb02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeTri &gt;</type>
@@ -1373,7 +1373,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="80" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="80" declcolumn="14"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="80" column="14" declfile="MRMesh/MRMeshCollidePrecise.h" declline="80" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga2194d3a8c576623325dfcb218caed7e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeTri &gt;</type>
@@ -1413,7 +1413,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="84" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="84" declcolumn="14"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="84" column="14" declfile="MRMesh/MRMeshCollidePrecise.h" declline="84" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga8e605b47552994f921a55bf1c5eed7e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeTri &gt;</type>
@@ -1453,7 +1453,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="90" declcolumn="14"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="90" column="14" declfile="MRMesh/MRMeshCollidePrecise.h" declline="90" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga057f5379e01790297fec3ffe2573986e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>CoordinateConverters</type>
@@ -1472,7 +1472,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="98" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="98" declcolumn="23"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="98" column="23" declfile="MRMesh/MRMeshCollidePrecise.h" declline="98" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga55c0d6a31ffafbd8b8283f2a5aa70fb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>CoordinateConverters</type>
@@ -1510,7 +1510,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="104" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" declline="104" declcolumn="23"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="104" column="23" declfile="MRMesh/MRMeshCollidePrecise.h" declline="104" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga751dcb67fc6f5cf0f46116fcf9cefd9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1541,7 +1541,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDistance.h" line="32" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDistance.h" declline="32" declcolumn="7"/>
+        <location file="MRMesh/MRMeshDistance.h" line="32" column="7" declfile="MRMesh/MRMeshDistance.h" declline="32" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga50fea0557381236d780b7ea113906a0f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; float &gt;</type>
@@ -1568,7 +1568,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDistance.h" line="36" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDistance.h" declline="36" declcolumn="17"/>
+        <location file="MRMesh/MRMeshDistance.h" line="36" column="17" declfile="MRMesh/MRMeshDistance.h" declline="36" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga5d17b235f3f132749a8d474be90b43b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MeshIntersectionResult</type>
@@ -1616,7 +1616,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="38" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="38" declcolumn="26"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="38" column="26" declfile="MRMesh/MRMeshIntersect.h" declline="38" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gac496cb12e8c787a2c31ed1a53cd7c6a5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MeshIntersectionResult</type>
@@ -1664,7 +1664,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="48" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="48" declcolumn="26"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="48" column="26" declfile="MRMesh/MRMeshIntersect.h" declline="48" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gac55c3d3c33053f0cfe8a2d4a19666c72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1729,7 +1729,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="65" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="65" declcolumn="7"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="65" column="7" declfile="MRMesh/MRMeshIntersect.h" declline="65" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gae5f7b660ced5a6518f007aa99a455bc7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MultiMeshIntersectionResult</type>
@@ -1758,7 +1758,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="97" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="97" declcolumn="31"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="97" column="31" declfile="MRMesh/MRMeshIntersect.h" declline="97" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gaeacd596a535ae8aa6fe31809d838622e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MultiMeshIntersectionResult</type>
@@ -1787,7 +1787,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="100" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="100" declcolumn="31"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="100" column="31" declfile="MRMesh/MRMeshIntersect.h" declline="100" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga04cf3416b5e94ef81eefafbad1a4a814" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1829,7 +1829,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="108" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="108" declcolumn="7"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="108" column="7" declfile="MRMesh/MRMeshIntersect.h" declline="108" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga0748a541fe122677a587562720e71f2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1871,7 +1871,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="111" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="111" declcolumn="7"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="111" column="7" declfile="MRMesh/MRMeshIntersect.h" declline="111" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga832764c6cc9e48dbef001e22786ddc99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1944,7 +1944,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="119" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="119" declcolumn="7"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="119" column="7" declfile="MRMesh/MRMeshIntersect.h" declline="119" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gaaca7d2972259949e2583eb7ddb97d335" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2017,7 +2017,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="128" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" declline="128" declcolumn="7"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="128" column="7" declfile="MRMesh/MRMeshIntersect.h" declline="128" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga34f61c1aafa08f324c2dee292bf3f326" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MeshMeshDistanceResult</type>
@@ -2068,7 +2068,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="36" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" declline="36" declcolumn="25"/>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="36" column="25" declfile="MRMesh/MRMeshMeshDistance.h" declline="36" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gab642f8e551c4fcc0af6b2301e55e3a85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MeshMeshSignedDistanceResult</type>
@@ -2119,7 +2119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="44" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" declline="44" declcolumn="31"/>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="44" column="31" declfile="MRMesh/MRMeshMeshDistance.h" declline="44" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga27ff8608a418f39b18f07f8db69d07d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -2170,7 +2170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="52" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" declline="52" declcolumn="8"/>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="52" column="8" declfile="MRMesh/MRMeshMeshDistance.h" declline="52" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga45e61b0f865d15d2172777953f29b4b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -2221,7 +2221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" line="60" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMeshDistance.h" declline="60" declcolumn="8"/>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="60" column="8" declfile="MRMesh/MRMeshMeshDistance.h" declline="60" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gaae6b5143199ddd407f3703c52fb0d1a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MeshProjectionTransforms</type>
@@ -2276,7 +2276,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="46" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="46" declcolumn="27"/>
+        <location file="MRMesh/MRMeshProject.h" line="46" column="27" declfile="MRMesh/MRMeshProject.h" declline="46" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gadd58047c34992dde1fd3d7f854ca6d97" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MeshProjectionResult</type>
@@ -2366,7 +2366,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="56" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="56" declcolumn="24"/>
+        <location file="MRMesh/MRMeshProject.h" line="56" column="24" declfile="MRMesh/MRMeshProject.h" declline="56" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gafbb2d7a2190e5d13b47162ac1bc2df96" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MeshProjectionResult</type>
@@ -2468,7 +2468,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="72" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="72" declcolumn="24"/>
+        <location file="MRMesh/MRMeshProject.h" line="72" column="24" declfile="MRMesh/MRMeshProject.h" declline="72" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga90634a0c0496ed8f339298a566260e68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2495,7 +2495,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="87" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="87" declcolumn="7"/>
+        <location file="MRMesh/MRMeshProject.h" line="87" column="7" declfile="MRMesh/MRMeshProject.h" declline="87" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga1d649a36ab13b6d880081a27f17b87dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2527,7 +2527,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="94" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="94" declcolumn="7"/>
+        <location file="MRMesh/MRMeshProject.h" line="94" column="7" declfile="MRMesh/MRMeshProject.h" declline="94" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gaa589ad702e6b1f7b5abcdba92a673997" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; SignedDistanceToMeshResult &gt;</type>
@@ -2578,7 +2578,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" line="112" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshProject.h" declline="112" declcolumn="17"/>
+        <location file="MRMesh/MRMeshProject.h" line="112" column="17" declfile="MRMesh/MRMeshProject.h" declline="112" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gac87637032fa2f500e6eb4f64bd08ce77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2620,7 +2620,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="25" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="25" declcolumn="7"/>
+        <location file="MRMesh/MRPointsInBall.h" line="25" column="7" declfile="MRMesh/MRPointsInBall.h" declline="25" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gaa8ca1746fb8260dd095e22333110b010" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE void</type>
@@ -2662,7 +2662,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="31" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="31" declcolumn="23"/>
+        <location file="MRMesh/MRPointsInBall.h" line="31" column="23" declfile="MRMesh/MRPointsInBall.h" declline="31" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga0f18f1e1141d9a2fe88bd4434417c046" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2704,7 +2704,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="38" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="38" declcolumn="7"/>
+        <location file="MRMesh/MRPointsInBall.h" line="38" column="7" declfile="MRMesh/MRPointsInBall.h" declline="38" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gacc909bcd5d7fe92e054ab2abb3d8975e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE void</type>
@@ -2746,7 +2746,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="44" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="44" declcolumn="23"/>
+        <location file="MRMesh/MRPointsInBall.h" line="44" column="23" declfile="MRMesh/MRPointsInBall.h" declline="44" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga14a7a9877009b22b322668d4afa1d55b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2788,7 +2788,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="51" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="51" declcolumn="7"/>
+        <location file="MRMesh/MRPointsInBall.h" line="51" column="7" declfile="MRMesh/MRPointsInBall.h" declline="51" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gab7f2d64a3a73b473757e9505a0905a38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE void</type>
@@ -2830,7 +2830,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" line="57" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBall.h" declline="57" declcolumn="23"/>
+        <location file="MRMesh/MRPointsInBall.h" line="57" column="23" declfile="MRMesh/MRPointsInBall.h" declline="57" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gab32c13d31593c4f1ca10935b021714dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2872,7 +2872,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" line="18" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" declline="18" declcolumn="7"/>
+        <location file="MRMesh/MRPointsInBox.h" line="18" column="7" declfile="MRMesh/MRPointsInBox.h" declline="18" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga72179dbd00c267bc382ace2fcd0782f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2914,7 +2914,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" line="24" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" declline="24" declcolumn="7"/>
+        <location file="MRMesh/MRPointsInBox.h" line="24" column="7" declfile="MRMesh/MRPointsInBox.h" declline="24" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gaa96619ba551ab32e6ead614ba614c2ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2956,7 +2956,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" line="30" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsInBox.h" declline="30" declcolumn="7"/>
+        <location file="MRMesh/MRPointsInBox.h" line="30" column="7" declfile="MRMesh/MRPointsInBox.h" declline="30" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gab4c475c489f1543782e15d9b4bbe14cf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>PointsProjectionResult</type>
@@ -3033,7 +3033,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="32" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" declline="32" declcolumn="26"/>
+        <location file="MRMesh/MRPointsProject.h" line="32" column="26" declfile="MRMesh/MRPointsProject.h" declline="32" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga41532fd138cf2bb72805d8af6a1522b4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>PointsProjectionResult</type>
@@ -3123,7 +3123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="46" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" declline="46" declcolumn="26"/>
+        <location file="MRMesh/MRPointsProject.h" line="46" column="26" declfile="MRMesh/MRPointsProject.h" declline="46" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga435f633cd74c790a6f22a06436182137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3199,7 +3199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="59" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" declline="59" declcolumn="7"/>
+        <location file="MRMesh/MRPointsProject.h" line="59" column="7" declfile="MRMesh/MRPointsProject.h" declline="59" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga62582619bf0581f79f510b9d98928762" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Buffer&lt; VertId &gt;</type>
@@ -3239,7 +3239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="69" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" declline="69" declcolumn="10"/>
+        <location file="MRMesh/MRPointsProject.h" line="69" column="10" declfile="MRMesh/MRPointsProject.h" declline="69" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga32485df4ed1f18a0b4315756a69ff792" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertPair</type>
@@ -3263,7 +3263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="72" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" declline="72" declcolumn="12"/>
+        <location file="MRMesh/MRPointsProject.h" line="72" column="12" declfile="MRMesh/MRPointsProject.h" declline="72" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga557c3d2fa026be12ba0a5f6c8813da41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgePointPair &gt;</type>
@@ -3314,7 +3314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="16" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="16" declcolumn="14"/>
+        <location file="MRMesh/MRPolyline2Collide.h" line="16" column="14" declfile="MRMesh/MRPolyline2Collide.h" declline="16" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga24ed7e965fcb7ada110eb1d9919999f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; UndirectedEdgeUndirectedEdge &gt;</type>
@@ -3365,7 +3365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="24" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="24" declcolumn="14"/>
+        <location file="MRMesh/MRPolyline2Collide.h" line="24" column="14" declfile="MRMesh/MRPolyline2Collide.h" declline="24" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gac15d4a03ef6c224fff28d48fc239c17c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::pair&lt; UndirectedEdgeBitSet, UndirectedEdgeBitSet &gt;</type>
@@ -3403,7 +3403,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="31" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="31" declcolumn="12"/>
+        <location file="MRMesh/MRPolyline2Collide.h" line="31" column="12" declfile="MRMesh/MRPolyline2Collide.h" declline="31" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga3ffb21230e0818e71cb8d4f2cebce0e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgePointPair &gt;</type>
@@ -3422,7 +3422,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="35" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="35" declcolumn="14"/>
+        <location file="MRMesh/MRPolyline2Collide.h" line="35" column="14" declfile="MRMesh/MRPolyline2Collide.h" declline="35" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga40dff3803e8a5f4043f7a24ccbe46347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; UndirectedEdgeUndirectedEdge &gt;</type>
@@ -3441,7 +3441,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="38" declcolumn="14"/>
+        <location file="MRMesh/MRPolyline2Collide.h" line="38" column="14" declfile="MRMesh/MRPolyline2Collide.h" declline="38" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga44e5371600a6e5f45273476367a698c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UndirectedEdgeBitSet</type>
@@ -3460,7 +3460,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="41" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="41" declcolumn="23"/>
+        <location file="MRMesh/MRPolyline2Collide.h" line="41" column="23" declfile="MRMesh/MRPolyline2Collide.h" declline="41" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gaf5614c6f47e495a7aa4513078b1b2ecb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3498,7 +3498,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" line="47" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Collide.h" declline="47" declcolumn="7"/>
+        <location file="MRMesh/MRPolyline2Collide.h" line="47" column="7" declfile="MRMesh/MRPolyline2Collide.h" declline="47" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga8cdd94e81e6095b86dbd245ec23e9657" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3539,7 +3539,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="19" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" declline="19" declcolumn="8"/>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="19" column="8" declfile="MRMesh/MRPolyline2Intersect.h" declline="19" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga33dfe4d49b343eca892fe35c75826f0b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; PolylineIntersectionResult2 &gt;</type>
@@ -3582,7 +3582,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="34" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" declline="34" declcolumn="17"/>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="34" column="17" declfile="MRMesh/MRPolyline2Intersect.h" declline="34" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga40c1b0b4821dfe2acb66ec335a638cdc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; PolylineIntersectionResult2 &gt;</type>
@@ -3625,7 +3625,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="42" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" declline="42" declcolumn="17"/>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="42" column="17" declfile="MRMesh/MRPolyline2Intersect.h" declline="42" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga6334c9f41d88763fea47f1a1af491d7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3667,7 +3667,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="55" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" declline="55" declcolumn="7"/>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="55" column="7" declfile="MRMesh/MRPolyline2Intersect.h" declline="55" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga9a7462ec4027240eb0a1161b6f626cb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3709,7 +3709,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" line="60" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h" declline="60" declcolumn="7"/>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="60" column="7" declfile="MRMesh/MRPolyline2Intersect.h" declline="60" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga0995927769e13d426cdc839b9333a348" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>PolylineProjectionResult2</type>
@@ -3773,7 +3773,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="36" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="36" declcolumn="28"/>
+        <location file="MRMesh/MRPolylineProject.h" line="36" column="28" declfile="MRMesh/MRPolylineProject.h" declline="36" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gad42cb6f30357f5db855c37c42aa1c2e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>PolylineProjectionResult3</type>
@@ -3837,7 +3837,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="45" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="45" declcolumn="28"/>
+        <location file="MRMesh/MRPolylineProject.h" line="45" column="28" declfile="MRMesh/MRPolylineProject.h" declline="45" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga58d35b756f586caa1fd15e099ab23327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>PolylineProjectionResult3Arg</type>
@@ -3893,7 +3893,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="58" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="58" declcolumn="31"/>
+        <location file="MRMesh/MRPolylineProject.h" line="58" column="31" declfile="MRMesh/MRPolylineProject.h" declline="58" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gaad1ea3c4b0b1e1d4489d7d978a3845a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>PolylineProjectionResult3</type>
@@ -3957,7 +3957,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="68" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="68" declcolumn="28"/>
+        <location file="MRMesh/MRPolylineProject.h" line="68" column="28" declfile="MRMesh/MRPolylineProject.h" declline="68" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga41ef8f174984a0c0419f64ef57fcc591" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Polyline2ProjectionWithOffsetResult</type>
@@ -4033,7 +4033,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="89" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="89" declcolumn="38"/>
+        <location file="MRMesh/MRPolylineProject.h" line="89" column="38" declfile="MRMesh/MRPolylineProject.h" declline="89" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga268bf7fb66d170d64002a9b38623237a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>PolylineProjectionWithOffsetResult3</type>
@@ -4109,7 +4109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="99" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="99" declcolumn="38"/>
+        <location file="MRMesh/MRPolylineProject.h" line="99" column="38" declfile="MRMesh/MRPolylineProject.h" declline="99" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gab36006e6e34e3bfb5c1eae34c7ca7a8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4145,7 +4145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="108" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="108" declcolumn="7"/>
+        <location file="MRMesh/MRPolylineProject.h" line="108" column="7" declfile="MRMesh/MRPolylineProject.h" declline="108" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga85e20053ebbe6ca6df0716626e180145" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4181,7 +4181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="111" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="111" declcolumn="7"/>
+        <location file="MRMesh/MRPolylineProject.h" line="111" column="7" declfile="MRMesh/MRPolylineProject.h" declline="111" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga9b1841d067ce666f118cf38820ca25d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4221,7 +4221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="114" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="114" declcolumn="7"/>
+        <location file="MRMesh/MRPolylineProject.h" line="114" column="7" declfile="MRMesh/MRPolylineProject.h" declline="114" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga1b96837dfe7b08b0a261c94d6814b536" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>PolylineProjectionResult3</type>
@@ -4289,7 +4289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="122" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="122" declcolumn="28"/>
+        <location file="MRMesh/MRPolylineProject.h" line="122" column="28" declfile="MRMesh/MRPolylineProject.h" declline="122" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga03e6a1eb9021cda27a103e38c550532c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>PolylineProjectionResult3</type>
@@ -4357,7 +4357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="131" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" declline="131" declcolumn="28"/>
+        <location file="MRMesh/MRPolylineProject.h" line="131" column="28" declfile="MRMesh/MRPolylineProject.h" declline="131" declcolumn="28"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

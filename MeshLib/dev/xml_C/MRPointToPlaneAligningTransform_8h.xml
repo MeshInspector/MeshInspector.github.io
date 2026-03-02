@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointToPlaneAligningTransform_8h" kind="file" language="C++">
     <compoundname>MRPointToPlaneAligningTransform.h</compoundname>
     <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
@@ -114,37 +114,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>rigid (with scale) transformation that multiplies all distances on same scale: y = s*A*x + b, where s is a scalar, A is rotation matrix 3x3 stored as 3 angles, and b is shift vector Generated from class <computeroutput>MR::RigidScaleXf3d</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). rotation angles relative to x,y,z axes Returns a pointer to a member variable of class <computeroutput>MR::RigidScaleXf3f</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointToPlaneAligningTransform.h" line="14" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointToPlaneAligningTransform.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointToPlaneAligningTransform_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
-        <type>struct MR_Vector3f</type>
-        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointToPlaneAligningTransform.h" line="15" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointToPlaneAligningTransform.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointToPlaneAligningTransform_8h_1a688de095aadd73180efe43123477f63f" prot="public" static="no">
-        <type>struct <ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref></type>
-        <definition>typedef struct MR_PointToPlaneAligningTransform MR_PointToPlaneAligningTransform</definition>
-        <argsstring></argsstring>
-        <name>MR_PointToPlaneAligningTransform</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>This class and its main method can be used to solve the problem of 3D shape alignment. This algorithm uses a point-to-plane error metric in which the object of minimization is the sum of the squared distance between a point and the tangent plane at its correspondence point. To use this technique it&apos;s need to have small rotation angles. So there is an approximate solution. The result of this algorithm is the transformation of first points (p1) which aligns it to the second ones (p2). Generated from class <computeroutput>MR::PointToPlaneAligningTransform</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointToPlaneAligningTransform.h" line="25" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointToPlaneAligningTransform.h" bodystart="25" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -259,7 +233,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PointToPlaneAligningTransform</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -277,7 +251,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PointToPlaneAligningTransform</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -621,10 +595,10 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRRigidScaleXf3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRPointToPlaneAligningTransform_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MRPointToPlaneAligningTransform_8h_1a688de095aadd73180efe43123477f63f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref>;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="MRPointToPlaneAligningTransform_8h_1a20cf98b1fa1038c2f48e0551ee0d3f31" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*<ref refid="MRPointToPlaneAligningTransform_8h_1a20cf98b1fa1038c2f48e0551ee0d3f31" kindref="member">MR_PointToPlaneAligningTransform_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>

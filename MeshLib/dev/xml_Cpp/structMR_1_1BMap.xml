@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1BMap" kind="struct" language="C++" prot="public">
     <compoundname>MR::BMap</compoundname>
-    <includes refid="MRBuffer_8h" local="no">MRBuffer.h</includes>
+    <includes refid="MRBuffer_8h" local="no">MRMesh/MRBuffer.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -33,7 +33,7 @@
         <link refid="classMR_1_1Buffer"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="147" bodyend="150"/>
+    <location file="MRMesh/MRBuffer.h" line="146" column="1" bodyfile="MRMesh/MRBuffer.h" bodystart="147" bodyend="150"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga092cf8a0fd74634e6e4d50b8cfc9956d" prot="public" virt="non-virtual"><scope>MR::BMap</scope><name>b</name></member>
       <member refid="group__GeneralGroup_1ga82445cec627eb947404a79b0b670c515" prot="public" virt="non-virtual"><scope>MR::BMap</scope><name>tsize</name></member>

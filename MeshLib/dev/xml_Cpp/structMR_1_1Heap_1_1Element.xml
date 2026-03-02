@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Heap_1_1Element" kind="struct" language="C++" prot="public">
     <compoundname>MR::Heap::Element</compoundname>
-    <includes refid="MRHeap_8h" local="no">MRHeap.h</includes>
+    <includes refid="MRHeap_8h" local="no">MRMesh/MRHeap.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1Heap_1_1Element_1af5f2ab7653bc95405d4e20891982a46b" prot="public" static="no" mutable="no">
         <type><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="27" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="27" bodyend="-1"/>
+        <location file="MRMesh/MRHeap.h" line="27" column="11" bodyfile="MRMesh/MRHeap.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1Heap_1_1Element_1a7bd4aa28de0c5142c7149308ec9da563" prot="public" static="no" mutable="no">
         <type>T</type>
@@ -30,14 +30,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="28" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="28" bodyend="-1"/>
+        <location file="MRMesh/MRHeap.h" line="28" column="11" bodyfile="MRMesh/MRHeap.h" bodystart="28" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="26" bodyend="29"/>
+    <location file="MRMesh/MRHeap.h" line="25" column="5" bodyfile="MRMesh/MRHeap.h" bodystart="26" bodyend="29"/>
     <listofallmembers>
       <member refid="structMR_1_1Heap_1_1Element_1af5f2ab7653bc95405d4e20891982a46b" prot="public" virt="non-virtual"><scope>MR::Heap::Element</scope><name>id</name></member>
       <member refid="structMR_1_1Heap_1_1Element_1a7bd4aa28de0c5142c7149308ec9da563" prot="public" virt="non-virtual"><scope>MR::Heap::Element</scope><name>val</name></member>

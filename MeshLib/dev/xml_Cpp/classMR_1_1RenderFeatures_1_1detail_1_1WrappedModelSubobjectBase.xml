@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderFeatures::detail::WrappedModelSubobjectBase</compoundname>
     <basecompoundref refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart" prot="public" virt="non-virtual">MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, BaseObjectType &gt;</basecompoundref>
     <basecompoundref refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget" prot="public" virt="virtual">MR::RenderWrapObject::BasicWrapperTarget&lt; FeatureObject &gt;</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4" prot="public" virt="non-virtual">MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject" prot="public" virt="non-virtual">MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, BaseObjectType &gt;</derivedcompoundref>
-    <includes refid="MRRenderFeatureObjects_8h" local="no">MRRenderFeatureObjects.h</includes>
+    <includes refid="MRRenderFeatureObjects_8h" local="no">MRViewer/MRRenderFeatureObjects.h</includes>
     <templateparamlist>
       <param>
         <type>bool</type>
@@ -29,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="75" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="75" bodyend="78"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="75" column="14" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="75" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase_1afcc0243fff2f044976ef6dfd9ef220b0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref> &amp;</type>
@@ -47,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="80" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="80" bodyend="85"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="80" column="28" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="80" bodyend="85"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -58,9 +59,15 @@
       <node id="3">
         <label>BaseObjectType</label>
       </node>
-      <node id="6">
+      <node id="7">
         <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, BaseObjectType &gt;</label>
         <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
@@ -124,7 +131,7 @@
         <label>ObjectType</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="72" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="73" bodyend="89"/>
+    <location file="MRViewer/MRRenderFeatureObjects.h" line="72" column="5" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="73" bodyend="89"/>
     <listofallmembers>
       <member refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase_1afcc0243fff2f044976ef6dfd9ef220b0" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::detail::WrappedModelSubobjectBase</scope><name>getVisualizePropertyMask</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase_1a149210ca6db44ac261556f0531230df6" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::detail::WrappedModelSubobjectBase</scope><name>isSelected</name></member>

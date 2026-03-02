@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1NodeId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::NodeId</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1NoDefInit__NodeId" prot="public" virt="non-virtual">mrmeshpy.NoDefInit_NodeId</derivedcompoundref>
@@ -28,13 +28,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NodeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__NodeId_1aaaa41de2ac9f5afa620167062592e070">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__NodeId_1a24759c14915d505fd75dcd27d0ffa744">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__NodeId_1a7abff691b201376de80417702e54ec1d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a9de0b3b380d0a8ccf6dc74d55f59674f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a9cb89b3815f0beaf65e7950418803efe">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a4f1b1623b1228f3fd363334ce221b31b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a8c8a61deb9802c6c6acf4907a07cd259">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -57,13 +50,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NodeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__NodeId_1aaaa41de2ac9f5afa620167062592e070">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__NodeId_1a24759c14915d505fd75dcd27d0ffa744">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__NodeId_1a7abff691b201376de80417702e54ec1d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a9de0b3b380d0a8ccf6dc74d55f59674f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a9cb89b3815f0beaf65e7950418803efe">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a4f1b1623b1228f3fd363334ce221b31b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a8c8a61deb9802c6c6acf4907a07cd259">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -316,13 +302,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NodeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__NodeId_1aaaa41de2ac9f5afa620167062592e070">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__NodeId_1a24759c14915d505fd75dcd27d0ffa744">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__NodeId_1a7abff691b201376de80417702e54ec1d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a9de0b3b380d0a8ccf6dc74d55f59674f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a9cb89b3815f0beaf65e7950418803efe">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a4f1b1623b1228f3fd363334ce221b31b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a8c8a61deb9802c6c6acf4907a07cd259">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -341,13 +320,6 @@
         <argsstring>(self, int i)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NodeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__NodeId_1aaaa41de2ac9f5afa620167062592e070">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__NodeId_1a24759c14915d505fd75dcd27d0ffa744">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__NodeId_1a7abff691b201376de80417702e54ec1d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a9de0b3b380d0a8ccf6dc74d55f59674f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a9cb89b3815f0beaf65e7950418803efe">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a4f1b1623b1228f3fd363334ce221b31b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a8c8a61deb9802c6c6acf4907a07cd259">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -378,13 +350,6 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         <argsstring>(self, NodeId arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NodeId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__NodeId_1aaaa41de2ac9f5afa620167062592e070">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__NodeId_1a24759c14915d505fd75dcd27d0ffa744">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__NodeId_1a7abff691b201376de80417702e54ec1d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a9de0b3b380d0a8ccf6dc74d55f59674f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a9cb89b3815f0beaf65e7950418803efe">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a4f1b1623b1228f3fd363334ce221b31b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a8c8a61deb9802c6c6acf4907a07cd259">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -471,8 +436,6 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.NodeId.__repr__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__NodeId_1ad3550d7edd7351d9549e587ddec19078">__repr__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoInitNodeId_1a95ad47e38e67a4530e9b3b1a749998a8">__repr__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>

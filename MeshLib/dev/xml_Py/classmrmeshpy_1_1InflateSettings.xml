@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1InflateSettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::InflateSettings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -390,21 +390,6 @@ please specify a value by magnitude about the region diagonal
 <para><verbatim>Generated from:  MR::InflateSettings
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.InflateSettings</label>
-        <link refid="classmrmeshpy_1_1InflateSettings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_gradualPressureGrowth</edgelabel>
-          <edgelabel>_offsetof_iterations</edgelabel>
-          <edgelabel>_offsetof_preSmooth</edgelabel>
-          <edgelabel>_offsetof_pressure</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24320" bodyend="24388"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1InflateSettings_1a00b63318bf8be4902bcd1481f81ee02c" prot="public" virt="non-virtual"><scope>mrmeshpy::InflateSettings</scope><name>__init__</name></member>

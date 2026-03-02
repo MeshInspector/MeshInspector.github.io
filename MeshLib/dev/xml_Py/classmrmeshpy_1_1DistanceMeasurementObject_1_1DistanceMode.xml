@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::DistanceMeasurementObject::DistanceMode</compoundname>
     <sectiondef kind="private-static-attrib">
@@ -366,23 +366,6 @@ This can still be made negative by `setIsNegative(true)`. The point is that the 
 This can still be made negative by `setIsNegative(true)`. The point is that the real sign is ignored.
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.DistanceMeasurementObject.DistanceMode</label>
-        <link refid="classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>euclidean</edgelabel>
-          <edgelabel>euclideanWithAbsoluteDeltasPerAxis</edgelabel>
-          <edgelabel>euclideanWithSignedDeltasPerAxis</edgelabel>
-          <edgelabel>xAbsolute</edgelabel>
-          <edgelabel>yAbsolute</edgelabel>
-          <edgelabel>zAbsolute</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13932" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13932" bodyend="13983"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode_1ab9a6813278ee4d56534ff51946d73f7d" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMeasurementObject::DistanceMode</scope><name>__eq__</name></member>

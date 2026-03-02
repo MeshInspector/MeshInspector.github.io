@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFillContour_8h" kind="file" language="C++">
     <compoundname>MRFillContour.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -11,7 +11,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRFillContour.h</label>
+        <label>MRMesh/MRFillContour.h</label>
         <link refid="MRFillContour_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -85,8 +85,8 @@
 <codeline lineno="12" refid="group__GeneralGroup_1ga6c8e79658ff0e0bfd4896980aaca5880" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga6c8e79658ff0e0bfd4896980aaca5880" kindref="member">fillContourLeft</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref><sp/>&amp;<sp/>contour<sp/>);</highlight></codeline>
 <codeline lineno="13" refid="group__GeneralGroup_1ga38f79649d26337fa1b8345a42f09bc6a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga6c8e79658ff0e0bfd4896980aaca5880" kindref="member">fillContourLeft</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgePath&gt;<sp/>&amp;<sp/>contours<sp/>);</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContour.h"/>
+    <location file="MRMesh/MRFillContour.h"/>
   </compounddef>
 </doxygen>

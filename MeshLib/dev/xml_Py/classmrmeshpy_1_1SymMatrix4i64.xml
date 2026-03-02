@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1SymMatrix4i64" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::SymMatrix4i64</compoundname>
     <sectiondef kind="private-static-attrib">
@@ -894,28 +894,6 @@ Aliases:  Vector4_long_SymMatrixType
 symmetric 4x4 matrix
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.SymMatrix4i64</label>
-        <link refid="classmrmeshpy_1_1SymMatrix4i64"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_ww</edgelabel>
-          <edgelabel>_offsetof_xw</edgelabel>
-          <edgelabel>_offsetof_xx</edgelabel>
-          <edgelabel>_offsetof_xy</edgelabel>
-          <edgelabel>_offsetof_xz</edgelabel>
-          <edgelabel>_offsetof_yw</edgelabel>
-          <edgelabel>_offsetof_yy</edgelabel>
-          <edgelabel>_offsetof_yz</edgelabel>
-          <edgelabel>_offsetof_zw</edgelabel>
-          <edgelabel>_offsetof_zz</edgelabel>
-          <edgelabel>...</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55966" bodyend="56108"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1SymMatrix4i64_1a8730abd0b3a84e7339d7f3d64b9ad65e" prot="public" virt="non-virtual"><scope>mrmeshpy::SymMatrix4i64</scope><name>__eq__</name></member>

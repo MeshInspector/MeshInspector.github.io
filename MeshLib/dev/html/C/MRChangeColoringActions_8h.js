@@ -9,7 +9,6 @@ var MRChangeColoringActions_8h =
     [ "MR_std_shared_ptr_MR_ObjectLinesHolder", "MRChangeColoringActions_8h.html#ad458eacc045c043795ff381c6b6455a7", null ],
     [ "MR_std_shared_ptr_MR_ObjectMeshHolder", "MRChangeColoringActions_8h.html#abd3bb0462953cf0fbf4ae07efee66edb", null ],
     [ "MR_std_shared_ptr_MR_VisualObject", "MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff", null ],
-    [ "MR_std_string", "MRChangeColoringActions_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_UndirectedEdgeColors", "MRChangeColoringActions_8h.html#a63019091c05b8b468f7f88db47cfb0ef", null ],
     [ "MR_ChangeObjectColorAction_Type", "MRChangeColoringActions_8h.html#a9789518b7ebd15e444aa399fec82113b", [
       [ "MR_ChangeObjectColorAction_Type_Unselected", "MRChangeColoringActions_8h.html#a9789518b7ebd15e444aa399fec82113bab7a5afbdff1adbd80b5608ae7243da51", null ],

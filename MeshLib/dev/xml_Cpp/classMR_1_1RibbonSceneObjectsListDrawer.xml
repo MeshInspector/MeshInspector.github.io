@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonSceneObjectsListDrawer" kind="class" language="C++" prot="public">
     <compoundname>MR::RibbonSceneObjectsListDrawer</compoundname>
     <basecompoundref refid="classMR_1_1SceneObjectsListDrawer" prot="public" virt="non-virtual">MR::SceneObjectsListDrawer</basecompoundref>
-    <includes refid="MRRibbonSceneObjectsListDrawer_8h" local="no">MRRibbonSceneObjectsListDrawer.h</includes>
+    <includes refid="MRRibbonSceneObjectsListDrawer_8h" local="no">MRViewer/MRRibbonSceneObjectsListDrawer.h</includes>
     <innerclass refid="structMR_1_1RibbonSceneObjectsListDrawer_1_1LastDepthInfo" prot="private">MR::RibbonSceneObjectsListDrawer::LastDepthInfo</innerclass>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaa3fac069d87e7b77317f8987e5a591f0" kind="variable"><name>onDrawContextSignal</name></member>
@@ -76,7 +76,7 @@
         <label>boost::signals2::signal&lt; void() &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" bodystart="16" bodyend="58"/>
+    <location file="MRViewer/MRRibbonSceneObjectsListDrawer.h" line="15" column="1" bodyfile="MRViewer/MRRibbonSceneObjectsListDrawer.h" bodystart="16" bodyend="58"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8084682665d391053cd04055e7c0ca4c" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>allowSceneReorder</name></member>
       <member refid="group__GeneralGroup_1ga2811dc65af1b9861a17e94ccb17ab9ff" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>changeSelection</name></member>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SaveOnClosePlugin" kind="class" language="C++" prot="public">
     <compoundname>MR::SaveOnClosePlugin</compoundname>
     <basecompoundref refid="classMR_1_1ViewerPlugin" prot="public" virt="non-virtual">MR::ViewerPlugin</basecompoundref>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; PreDrawListener, InterruptCloseListener &gt;</basecompoundref>
-    <includes refid="MRSaveOnClose_8h" local="no">MRSaveOnClose.h</includes>
+    <includes refid="MRSaveOnClose_8h" local="no">MRViewer/MRSaveOnClose.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaa9c50e906abc81d5db0abb34a9ce6e4c" kind="variable"><name>initialized_</name></member>
       <member refid="group__GeneralGroup_1ga469d16f1bff9fc97421f85fcde8f737d" kind="variable"><name>shouldClose_</name></member>
@@ -77,7 +77,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveOnClose.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSaveOnClose.h" bodystart="14" bodyend="28"/>
+    <location file="MRViewer/MRSaveOnClose.h" line="13" column="1" bodyfile="MRViewer/MRSaveOnClose.h" bodystart="14" bodyend="28"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3b7539c88a24677b7bad805b0965fd03" prot="private" virt="non-virtual"><scope>MR::SaveOnClosePlugin</scope><name>activeModalHighlightTimer_</name></member>
       <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::SaveOnClosePlugin</scope><name>connect</name></member>

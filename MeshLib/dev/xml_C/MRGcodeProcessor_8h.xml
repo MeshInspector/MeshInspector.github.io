@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRGcodeProcessor_8h" kind="file" language="C++">
     <compoundname>MRGcodeProcessor.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -33,32 +33,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRGcodeProcessor_8h_1a325911971cee7957b63b98e5d38aedc4" prot="public" static="no">
-        <type>struct <ref refid="MRCNCMachineSettings_8h_1a325911971cee7957b63b98e5d38aedc4" kindref="member">MR_CNCMachineSettings</ref></type>
-        <definition>typedef struct MR_CNCMachineSettings MR_CNCMachineSettings</definition>
-        <argsstring></argsstring>
-        <name>MR_CNCMachineSettings</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGcodeProcessor.h" line="13" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGcodeProcessor.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRGcodeProcessor_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
-        <definition>typedef struct MR_std_string MR_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGcodeProcessor.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGcodeProcessor.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRGcodeProcessor_8h_1a5bba1b4d4d65cea43177e79dcd45f502" prot="public" static="no">
         <type>struct <ref refid="MRGcodeProcessor_8h_1a5bba1b4d4d65cea43177e79dcd45f502" kindref="member">MR_std_vector_MR_GcodeProcessor_Command</ref></type>
         <definition>typedef struct MR_std_vector_MR_GcodeProcessor_Command MR_std_vector_MR_GcodeProcessor_Command</definition>
@@ -84,45 +58,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGcodeProcessor.h" line="16" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGcodeProcessor.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRGcodeProcessor_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" prot="public" static="no">
-        <type>struct <ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref></type>
-        <definition>typedef struct MR_std_vector_MR_Vector2f MR_std_vector_MR_Vector2f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_Vector2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGcodeProcessor.h" line="17" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGcodeProcessor.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRGcodeProcessor_8h_1aefed148a09a0ae55edbd22814638b462" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref></type>
-        <definition>typedef struct MR_std_vector_MR_Vector3f MR_std_vector_MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGcodeProcessor.h" line="18" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGcodeProcessor.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRGcodeProcessor_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" prot="public" static="no">
-        <type>struct <ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref></type>
-        <definition>typedef struct MR_std_vector_std_string MR_std_vector_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGcodeProcessor.h" line="19" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGcodeProcessor.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" prot="public" static="no">
         <type>struct <ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref></type>
@@ -307,7 +242,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_GcodeProcessor</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" kindref="member">MR_GcodeProcessor</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -325,7 +260,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_GcodeProcessor</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" kindref="member">MR_GcodeProcessor</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -752,7 +687,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_GcodeProcessor_BaseAction_MR_Vector2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -770,7 +705,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_GcodeProcessor_BaseAction_MR_Vector2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1069,7 +1004,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_GcodeProcessor_BaseAction_MR_Vector3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRGcodeProcessor_8h_1a0f3a04a880d4501d50aa6ffcf780d707" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1087,7 +1022,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_GcodeProcessor_BaseAction_MR_Vector3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRGcodeProcessor_8h_1a0f3a04a880d4501d50aa6ffcf780d707" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1510,7 +1445,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_GcodeProcessor_MoveAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" kindref="member">MR_GcodeProcessor_MoveAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1528,7 +1463,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_GcodeProcessor_MoveAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" kindref="member">MR_GcodeProcessor_MoveAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1843,7 +1778,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_GcodeProcessor_Command</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRGcodeProcessor_8h_1a2dfa7f50d06ba9cf366accd703febb8c" kindref="member">MR_GcodeProcessor_Command</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1861,7 +1796,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_GcodeProcessor_Command</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRGcodeProcessor_8h_1a2dfa7f50d06ba9cf366accd703febb8c" kindref="member">MR_GcodeProcessor_Command</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1909,26 +1844,26 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRGcodeProcessor_8h_1a325911971cee7957b63b98e5d38aedc4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCNCMachineSettings_8h_1a325911971cee7957b63b98e5d38aedc4" kindref="member">MR_CNCMachineSettings</ref><sp/><ref refid="MRCNCMachineSettings_8h_1a325911971cee7957b63b98e5d38aedc4" kindref="member">MR_CNCMachineSettings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRCNCMachineSettings.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRGcodeProcessor_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCNCMachineSettings_8h_1a325911971cee7957b63b98e5d38aedc4" kindref="member">MR_CNCMachineSettings</ref><sp/><ref refid="MRCNCMachineSettings_8h_1a325911971cee7957b63b98e5d38aedc4" kindref="member">MR_CNCMachineSettings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRCNCMachineSettings.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="MRGcodeProcessor_8h_1a5bba1b4d4d65cea43177e79dcd45f502" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGcodeProcessor_8h_1a5bba1b4d4d65cea43177e79dcd45f502" kindref="member">MR_std_vector_MR_GcodeProcessor_Command</ref><sp/><ref refid="MRGcodeProcessor_8h_1a5bba1b4d4d65cea43177e79dcd45f502" kindref="member">MR_std_vector_MR_GcodeProcessor_Command</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_GcodeProcessor_Command.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRGcodeProcessor_8h_1ac9be9ae97af22d55be76e6cf4df34f8a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGcodeProcessor_8h_1ac9be9ae97af22d55be76e6cf4df34f8a" kindref="member">MR_std_vector_MR_GcodeProcessor_MoveAction</ref><sp/><ref refid="MRGcodeProcessor_8h_1ac9be9ae97af22d55be76e6cf4df34f8a" kindref="member">MR_std_vector_MR_GcodeProcessor_MoveAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_GcodeProcessor_MoveAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRGcodeProcessor_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRGcodeProcessor_8h_1aefed148a09a0ae55edbd22814638b462" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRGcodeProcessor_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref><sp/><ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref>;</highlight></codeline>
+<codeline lineno="24" refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref><sp/><ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRGcodeProcessor_8h_1a0f3a04a880d4501d50aa6ffcf780d707" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGcodeProcessor_8h_1a0f3a04a880d4501d50aa6ffcf780d707" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f</ref><sp/><ref refid="MRGcodeProcessor_8h_1a0f3a04a880d4501d50aa6ffcf780d707" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f</ref>;</highlight></codeline>
+<codeline lineno="28" refid="MRGcodeProcessor_8h_1a0f3a04a880d4501d50aa6ffcf780d707" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGcodeProcessor_8h_1a0f3a04a880d4501d50aa6ffcf780d707" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f</ref><sp/><ref refid="MRGcodeProcessor_8h_1a0f3a04a880d4501d50aa6ffcf780d707" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f</ref>;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>structure<sp/>that<sp/>stores<sp/>information<sp/>about<sp/>the<sp/>movement<sp/>of<sp/>the<sp/>tool,<sp/>specified<sp/>by<sp/>some<sp/>string<sp/>of<sp/>commands</highlight></codeline>
-<codeline lineno="33" refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" kindref="member">MR_GcodeProcessor_MoveAction</ref><sp/><ref refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" kindref="member">MR_GcodeProcessor_MoveAction</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>structure<sp/>that<sp/>stores<sp/>information<sp/>about<sp/>the<sp/>movement<sp/>of<sp/>the<sp/>tool,<sp/>specified<sp/>by<sp/>some<sp/>string<sp/>of<sp/>commands</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" kindref="member">MR_GcodeProcessor_MoveAction</ref><sp/><ref refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" kindref="member">MR_GcodeProcessor_MoveAction</ref>;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRGcodeProcessor_8h_1a2dfa7f50d06ba9cf366accd703febb8c" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGcodeProcessor_8h_1a2dfa7f50d06ba9cf366accd703febb8c" kindref="member">MR_GcodeProcessor_Command</ref><sp/><ref refid="MRGcodeProcessor_8h_1a2dfa7f50d06ba9cf366accd703febb8c" kindref="member">MR_GcodeProcessor_Command</ref>;</highlight></codeline>
+<codeline lineno="37" refid="MRGcodeProcessor_8h_1a2dfa7f50d06ba9cf366accd703febb8c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGcodeProcessor_8h_1a2dfa7f50d06ba9cf366accd703febb8c" kindref="member">MR_GcodeProcessor_Command</ref><sp/><ref refid="MRGcodeProcessor_8h_1a2dfa7f50d06ba9cf366accd703febb8c" kindref="member">MR_GcodeProcessor_Command</ref>;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>class<sp/>to<sp/>process<sp/>g-code<sp/>source<sp/>and<sp/>generate<sp/>toolpath</highlight></codeline>
-<codeline lineno="42" refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" kindref="member">MR_GcodeProcessor</ref><sp/><ref refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" kindref="member">MR_GcodeProcessor</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>class<sp/>to<sp/>process<sp/>g-code<sp/>source<sp/>and<sp/>generate<sp/>toolpath</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" kindref="member">MR_GcodeProcessor</ref><sp/><ref refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" kindref="member">MR_GcodeProcessor</ref>;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46" refid="MRGcodeProcessor_8h_1a5866c590fe10ee196582601211ab47f7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" kindref="member">MR_GcodeProcessor</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1a5866c590fe10ee196582601211ab47f7" kindref="member">MR_GcodeProcessor_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
@@ -1946,40 +1881,40 @@
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
 <codeline lineno="77" refid="MRGcodeProcessor_8h_1a8a42719ffb7857e490d0f217a5eef6bb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" kindref="member">MR_GcodeProcessor</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1a8a42719ffb7857e490d0f217a5eef6bb" kindref="member">MR_GcodeProcessor_AssignFromAnother</ref>(<ref refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" kindref="member">MR_GcodeProcessor</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" kindref="member">MR_GcodeProcessor</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//<sp/>reset<sp/>internal<sp/>states</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//<sp/>reset<sp/>internal<sp/>states</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="82" refid="MRGcodeProcessor_8h_1ac566fdeb3a6cc051ef035a26ab7f7037" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1ac566fdeb3a6cc051ef035a26ab7f7037" kindref="member">MR_GcodeProcessor_reset</ref>(<ref refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" kindref="member">MR_GcodeProcessor</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//<sp/>set<sp/>g-code<sp/>source</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//<sp/>set<sp/>g-code<sp/>source</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="88" refid="MRGcodeProcessor_8h_1af10f3887b1d812306d3229481d2a862a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1af10f3887b1d812306d3229481d2a862a" kindref="member">MR_GcodeProcessor_setGcodeSource</ref>(<ref refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" kindref="member">MR_GcodeProcessor</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*gcodeSource);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">//<sp/>process<sp/>all<sp/>lines<sp/>g-code<sp/>source<sp/>and<sp/>generate<sp/>corresponding<sp/>move<sp/>actions</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">//<sp/>process<sp/>all<sp/>lines<sp/>g-code<sp/>source<sp/>and<sp/>generate<sp/>corresponding<sp/>move<sp/>actions</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="94" refid="MRGcodeProcessor_8h_1a2df4de6272f064e30be7602f421524d4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGcodeProcessor_8h_1ac9be9ae97af22d55be76e6cf4df34f8a" kindref="member">MR_std_vector_MR_GcodeProcessor_MoveAction</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1a2df4de6272f064e30be7602f421524d4" kindref="member">MR_GcodeProcessor_processSource</ref>(<ref refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" kindref="member">MR_GcodeProcessor</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//<sp/>process<sp/>all<sp/>commands<sp/>from<sp/>one<sp/>line<sp/>g-code<sp/>source<sp/>and<sp/>generate<sp/>corresponding<sp/>move<sp/>action;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>\param<sp/>externalStorage<sp/>to<sp/>avoid<sp/>memory<sp/>allocation<sp/>on<sp/>each<sp/>line</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>\param<sp/>externalStorage<sp/>to<sp/>avoid<sp/>memory<sp/>allocation<sp/>on<sp/>each<sp/>line</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="104" refid="MRGcodeProcessor_8h_1ae552738a6afe9e8d74702f3ab39bfb5a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" kindref="member">MR_GcodeProcessor_MoveAction</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1ae552738a6afe9e8d74702f3ab39bfb5a" kindref="member">MR_GcodeProcessor_processLine</ref>(<ref refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" kindref="member">MR_GcodeProcessor</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*line,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*line_end,<sp/><ref refid="MRGcodeProcessor_8h_1a5bba1b4d4d65cea43177e79dcd45f502" kindref="member">MR_std_vector_MR_GcodeProcessor_Command</ref><sp/>*externalStorage);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment">//<sp/>settings</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment">//<sp/>settings</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="110" refid="MRGcodeProcessor_8h_1a8657b028cb5285bc9998833d4f4e7592" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1a8657b028cb5285bc9998833d4f4e7592" kindref="member">MR_GcodeProcessor_setCNCMachineSettings</ref>(<ref refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" kindref="member">MR_GcodeProcessor</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCNCMachineSettings_8h_1a325911971cee7957b63b98e5d38aedc4" kindref="member">MR_CNCMachineSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
 <codeline lineno="115" refid="MRGcodeProcessor_8h_1ae4fe0b445d71cd97762ec01f2ffcba39" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCNCMachineSettings_8h_1a325911971cee7957b63b98e5d38aedc4" kindref="member">MR_CNCMachineSettings</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1ae4fe0b445d71cd97762ec01f2ffcba39" kindref="member">MR_GcodeProcessor_getCNCMachineSettings</ref>(<ref refid="MRGcodeProcessor_8h_1a9ac6289dc28b26197d3bce9b7a888ca2" kindref="member">MR_GcodeProcessor</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>movement<sp/>parsed<sp/>from<sp/>gcode</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>movement<sp/>parsed<sp/>from<sp/>gcode</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="122" refid="MRGcodeProcessor_8h_1a66590c58c7d0466765bd523ff1740344" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1a66590c58c7d0466765bd523ff1740344" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f_Get_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>movement<sp/>parsed<sp/>from<sp/>gcode</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>movement<sp/>parsed<sp/>from<sp/>gcode</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="129" refid="MRGcodeProcessor_8h_1aac3b40cd0c3708ab445b326685287c38" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1aac3b40cd0c3708ab445b326685287c38" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f_Set_path</ref>(<ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>movement<sp/>parsed<sp/>from<sp/>gcode</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>movement<sp/>parsed<sp/>from<sp/>gcode</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="136" refid="MRGcodeProcessor_8h_1a720e413c915185e517125cae179a77cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1a720e413c915185e517125cae179a77cc" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f_GetMutable_path</ref>(<ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138"><highlight class="normal"></highlight><highlight class="comment">//<sp/>parser<sp/>warning</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="comment">//<sp/>parser<sp/>warning</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="143" refid="MRGcodeProcessor_8h_1a597f1f7b10413f5866258a48478eb5db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1a597f1f7b10413f5866258a48478eb5db" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f_Get_warning</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145"><highlight class="normal"></highlight><highlight class="comment">//<sp/>parser<sp/>warning</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="comment">//<sp/>parser<sp/>warning</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="152" refid="MRGcodeProcessor_8h_1aceccac6418cffdc17dd08279acc8dbb2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1aceccac6418cffdc17dd08279acc8dbb2" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f_Set_warning</ref>(<ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154"><highlight class="normal"></highlight><highlight class="comment">//<sp/>parser<sp/>warning</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="comment">//<sp/>parser<sp/>warning</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="159" refid="MRGcodeProcessor_8h_1ab0662870c3647193d5a9c232c961fa71" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1ab0662870c3647193d5a9c232c961fa71" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f_GetMutable_warning</ref>(<ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="160"><highlight class="normal"></highlight></codeline>
 <codeline lineno="163" refid="MRGcodeProcessor_8h_1a3c509f9b1f85bb0589010992a111c640" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1a3c509f9b1f85bb0589010992a111c640" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
@@ -2000,22 +1935,22 @@
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
 <codeline lineno="203" refid="MRGcodeProcessor_8h_1ab77364382fa2d9a29426509879259e99" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1ab77364382fa2d9a29426509879259e99" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f_AssignFromAnother</ref>(<ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRGcodeProcessor_8h_1a102198471a3767d59fe6d6a0c104da93" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector2f</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="205"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>movement<sp/>parsed<sp/>from<sp/>gcode</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>movement<sp/>parsed<sp/>from<sp/>gcode</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="210" refid="MRGcodeProcessor_8h_1a83fb44a857bd843a1c51ea1f8a518a92" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1a83fb44a857bd843a1c51ea1f8a518a92" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f_Get_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1a0f3a04a880d4501d50aa6ffcf780d707" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>movement<sp/>parsed<sp/>from<sp/>gcode</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>movement<sp/>parsed<sp/>from<sp/>gcode</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="217" refid="MRGcodeProcessor_8h_1a10194d8f29a00e7af929deb6e3bf73e2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1a10194d8f29a00e7af929deb6e3bf73e2" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f_Set_path</ref>(<ref refid="MRGcodeProcessor_8h_1a0f3a04a880d4501d50aa6ffcf780d707" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="219"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>movement<sp/>parsed<sp/>from<sp/>gcode</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>movement<sp/>parsed<sp/>from<sp/>gcode</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="224" refid="MRGcodeProcessor_8h_1aef45cd7b403a89538e1a13525877d053" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1aef45cd7b403a89538e1a13525877d053" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f_GetMutable_path</ref>(<ref refid="MRGcodeProcessor_8h_1a0f3a04a880d4501d50aa6ffcf780d707" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="225"><highlight class="normal"></highlight></codeline>
-<codeline lineno="226"><highlight class="normal"></highlight><highlight class="comment">//<sp/>parser<sp/>warning</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="comment">//<sp/>parser<sp/>warning</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="231" refid="MRGcodeProcessor_8h_1af0fd8981233e36b028a9bd36f26fcb77" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1af0fd8981233e36b028a9bd36f26fcb77" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f_Get_warning</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1a0f3a04a880d4501d50aa6ffcf780d707" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="232"><highlight class="normal"></highlight></codeline>
-<codeline lineno="233"><highlight class="normal"></highlight><highlight class="comment">//<sp/>parser<sp/>warning</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="comment">//<sp/>parser<sp/>warning</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="240" refid="MRGcodeProcessor_8h_1abd23c7e5a4f8244bd5cebc06f9ccc938" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1abd23c7e5a4f8244bd5cebc06f9ccc938" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f_Set_warning</ref>(<ref refid="MRGcodeProcessor_8h_1a0f3a04a880d4501d50aa6ffcf780d707" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
 <codeline lineno="241"><highlight class="normal"></highlight></codeline>
-<codeline lineno="242"><highlight class="normal"></highlight><highlight class="comment">//<sp/>parser<sp/>warning</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="comment">//<sp/>parser<sp/>warning</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="247" refid="MRGcodeProcessor_8h_1aa1da8b8ffd3543fb44dcc7ba09e7b96d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1aa1da8b8ffd3543fb44dcc7ba09e7b96d" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f_GetMutable_warning</ref>(<ref refid="MRGcodeProcessor_8h_1a0f3a04a880d4501d50aa6ffcf780d707" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"></highlight></codeline>
 <codeline lineno="251" refid="MRGcodeProcessor_8h_1aca990630df4ed169ca2c0ccb4aa3efa7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGcodeProcessor_8h_1a0f3a04a880d4501d50aa6ffcf780d707" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1aca990630df4ed169ca2c0ccb4aa3efa7" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
@@ -2042,13 +1977,13 @@
 <codeline lineno="304"><highlight class="normal"></highlight></codeline>
 <codeline lineno="309" refid="MRGcodeProcessor_8h_1a27f04be8f96613aaa06944f0dc28fc8b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGcodeProcessor_8h_1a0f3a04a880d4501d50aa6ffcf780d707" kindref="member">MR_GcodeProcessor_BaseAction_MR_Vector3f</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1a27f04be8f96613aaa06944f0dc28fc8b" kindref="member">MR_GcodeProcessor_MoveAction_GetMutable_action</ref>(<ref refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" kindref="member">MR_GcodeProcessor_MoveAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="310"><highlight class="normal"></highlight></codeline>
-<codeline lineno="311"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>direction<sp/>for<sp/>each<sp/>point<sp/>from<sp/>action.path</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>direction<sp/>for<sp/>each<sp/>point<sp/>from<sp/>action.path</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="316" refid="MRGcodeProcessor_8h_1a18ef39cf3f35278cdb7e83edd4535221" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1a18ef39cf3f35278cdb7e83edd4535221" kindref="member">MR_GcodeProcessor_MoveAction_Get_toolDirection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" kindref="member">MR_GcodeProcessor_MoveAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="317"><highlight class="normal"></highlight></codeline>
-<codeline lineno="318"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>direction<sp/>for<sp/>each<sp/>point<sp/>from<sp/>action.path</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>direction<sp/>for<sp/>each<sp/>point<sp/>from<sp/>action.path</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="323" refid="MRGcodeProcessor_8h_1a7cf1e209a9e33804cce66f49cf6e2af5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1a7cf1e209a9e33804cce66f49cf6e2af5" kindref="member">MR_GcodeProcessor_MoveAction_Set_toolDirection</ref>(<ref refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" kindref="member">MR_GcodeProcessor_MoveAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="324"><highlight class="normal"></highlight></codeline>
-<codeline lineno="325"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>direction<sp/>for<sp/>each<sp/>point<sp/>from<sp/>action.path</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tool<sp/>direction<sp/>for<sp/>each<sp/>point<sp/>from<sp/>action.path</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="330" refid="MRGcodeProcessor_8h_1adb428d2824f235d153313118bc3ba9ed" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1adb428d2824f235d153313118bc3ba9ed" kindref="member">MR_GcodeProcessor_MoveAction_GetMutable_toolDirection</ref>(<ref refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" kindref="member">MR_GcodeProcessor_MoveAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="331"><highlight class="normal"></highlight></codeline>
 <codeline lineno="336" refid="MRGcodeProcessor_8h_1a377051cbe91210066827efc51991048d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRGcodeProcessor_8h_1a377051cbe91210066827efc51991048d" kindref="member">MR_GcodeProcessor_MoveAction_Get_idle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" kindref="member">MR_GcodeProcessor_MoveAction</ref><sp/>*_this);</highlight></codeline>
@@ -2083,16 +2018,16 @@
 <codeline lineno="404"><highlight class="normal"></highlight></codeline>
 <codeline lineno="410" refid="MRGcodeProcessor_8h_1a2de5320a5531ee05b909d21e33e2642f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" kindref="member">MR_GcodeProcessor_MoveAction</ref><sp/>*<ref refid="MRGcodeProcessor_8h_1a2de5320a5531ee05b909d21e33e2642f" kindref="member">MR_GcodeProcessor_MoveAction_AssignFromAnother</ref>(<ref refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" kindref="member">MR_GcodeProcessor_MoveAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" kindref="member">MR_GcodeProcessor_MoveAction</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="411"><highlight class="normal"></highlight></codeline>
-<codeline lineno="412"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>true<sp/>if<sp/>operation<sp/>was<sp/>parsed<sp/>without<sp/>warnings</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>true<sp/>if<sp/>operation<sp/>was<sp/>parsed<sp/>without<sp/>warnings</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="415" refid="MRGcodeProcessor_8h_1af288337f2c8991f8b671d16102d74d2c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1af288337f2c8991f8b671d16102d74d2c" kindref="member">MR_GcodeProcessor_MoveAction_valid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1a18a0e6711c9d545039e776ae8e7685b4" kindref="member">MR_GcodeProcessor_MoveAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="416"><highlight class="normal"></highlight></codeline>
-<codeline lineno="417"><highlight class="normal"></highlight><highlight class="comment">//<sp/>in<sp/>lowercase</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight><highlight class="comment">//<sp/>in<sp/>lowercase</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="422" refid="MRGcodeProcessor_8h_1aa7e4b10a419595c67c416d3b12b9c4b1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRGcodeProcessor_8h_1aa7e4b10a419595c67c416d3b12b9c4b1" kindref="member">MR_GcodeProcessor_Command_Get_key</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1a2dfa7f50d06ba9cf366accd703febb8c" kindref="member">MR_GcodeProcessor_Command</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="423"><highlight class="normal"></highlight></codeline>
-<codeline lineno="424"><highlight class="normal"></highlight><highlight class="comment">//<sp/>in<sp/>lowercase</highlight></codeline>
+<codeline lineno="424"><highlight class="normal"></highlight><highlight class="comment">//<sp/>in<sp/>lowercase</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="428" refid="MRGcodeProcessor_8h_1ab56caf99642daf1591e29bbff2dbd9d9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1ab56caf99642daf1591e29bbff2dbd9d9" kindref="member">MR_GcodeProcessor_Command_Set_key</ref>(<ref refid="MRGcodeProcessor_8h_1a2dfa7f50d06ba9cf366accd703febb8c" kindref="member">MR_GcodeProcessor_Command</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="429"><highlight class="normal"></highlight></codeline>
-<codeline lineno="430"><highlight class="normal"></highlight><highlight class="comment">//<sp/>in<sp/>lowercase</highlight></codeline>
+<codeline lineno="430"><highlight class="normal"></highlight><highlight class="comment">//<sp/>in<sp/>lowercase</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="435" refid="MRGcodeProcessor_8h_1aace988ef0a926c3031fa20604231d3ee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRGcodeProcessor_8h_1aace988ef0a926c3031fa20604231d3ee" kindref="member">MR_GcodeProcessor_Command_GetMutable_key</ref>(<ref refid="MRGcodeProcessor_8h_1a2dfa7f50d06ba9cf366accd703febb8c" kindref="member">MR_GcodeProcessor_Command</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="436"><highlight class="normal"></highlight></codeline>
 <codeline lineno="441" refid="MRGcodeProcessor_8h_1a2ba54ca4bcdf5c8d648133fa4891bceb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRGcodeProcessor_8h_1a2ba54ca4bcdf5c8d648133fa4891bceb" kindref="member">MR_GcodeProcessor_Command_Get_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGcodeProcessor_8h_1a2dfa7f50d06ba9cf366accd703febb8c" kindref="member">MR_GcodeProcessor_Command</ref><sp/>*_this);</highlight></codeline>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1OffsetContoursParams_1_1EndType" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::OffsetContoursParams::EndType</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -295,19 +295,6 @@
   Cut : creates sharp end (same as Round with `minAnglePrecision` &lt; 180 deg)
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.OffsetContoursParams.EndType</label>
-        <link refid="classmrmeshpy_1_1OffsetContoursParams_1_1EndType"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>Cut</edgelabel>
-          <edgelabel>Round</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41435" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41435" bodyend="41471"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1EndType_1a2d75c1ab36879ac04f9a5d7191c719d8" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursParams::EndType</scope><name>__eq__</name></member>

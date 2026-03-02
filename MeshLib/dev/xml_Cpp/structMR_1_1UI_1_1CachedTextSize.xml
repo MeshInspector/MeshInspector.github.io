@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1UI_1_1CachedTextSize" kind="struct" language="C++" prot="public">
     <compoundname>MR::UI::CachedTextSize</compoundname>
-    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <includes refid="MRUIStyle_8h" local="no">MRViewer/MRUIStyle.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gad31fcee8885480c212111d933cfa10d6" kind="variable"><name>cachedSize</name></member>
     </sectiondef>
@@ -10,7 +10,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="332" bodyend="334"/>
+    <location file="MRViewer/MRUIStyle.h" line="331" column="1" bodyfile="MRViewer/MRUIStyle.h" bodystart="332" bodyend="334"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad31fcee8885480c212111d933cfa10d6" prot="public" virt="non-virtual"><scope>MR::UI::CachedTextSize</scope><name>cachedSize</name></member>
     </listofallmembers>

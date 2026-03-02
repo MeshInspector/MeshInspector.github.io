@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NextEdgeSameOrigin" kind="class" language="C++" prot="public">
     <compoundname>MR::NextEdgeSameOrigin</compoundname>
-    <includes refid="MRRingIterator_8h" local="no">MRRingIterator.h</includes>
+    <derivedcompoundref refid="classMR_1_1RingIterator" prot="public" virt="non-virtual">MR::RingIterator&lt; NextEdgeSameOrigin &gt;</derivedcompoundref>
+    <includes refid="MRRingIterator_8h" local="no">MRMesh/MRRingIterator.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga8070f5936409b360ddf3e16183706321" kind="variable"><name>topology_</name></member>
     </sectiondef>
@@ -14,7 +15,19 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="43" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="44" bodyend="50"/>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::NextEdgeSameOrigin</label>
+        <link refid="classMR_1_1NextEdgeSameOrigin"/>
+      </node>
+      <node id="2">
+        <label>MR::RingIterator&lt; NextEdgeSameOrigin &gt;</label>
+        <link refid="classMR_1_1RingIterator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="MRMesh/MRRingIterator.h" line="43" column="1" bodyfile="MRMesh/MRRingIterator.h" bodystart="44" bodyend="50"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1e86c0b25fbb38bc73f3e5edcda87a35" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>next</name></member>
       <member refid="group__GeneralGroup_1ga473b57e8323241ba360af0221af56cff" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>NextEdgeSameOrigin</name></member>

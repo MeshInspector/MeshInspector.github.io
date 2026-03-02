@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1VoxelId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::VoxelId</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1NoDefInit__VoxelId" prot="public" virt="non-virtual">mrmeshpy.NoDefInit_VoxelId</derivedcompoundref>
@@ -27,9 +27,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.VoxelId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VoxelId_1a14df9bb986e1cea78a018f187a596a57">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VoxelId_1a684485149fceed0a81d89f53653a6f49">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VoxelId_1ae6d99b7a4df7667afed25d0ac11ee7d2">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -52,9 +49,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.VoxelId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VoxelId_1a14df9bb986e1cea78a018f187a596a57">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VoxelId_1a684485149fceed0a81d89f53653a6f49">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VoxelId_1ae6d99b7a4df7667afed25d0ac11ee7d2">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -301,9 +295,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.VoxelId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VoxelId_1a14df9bb986e1cea78a018f187a596a57">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VoxelId_1a684485149fceed0a81d89f53653a6f49">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VoxelId_1ae6d99b7a4df7667afed25d0ac11ee7d2">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -322,9 +313,6 @@
         <argsstring>(self, int i)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.VoxelId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VoxelId_1a14df9bb986e1cea78a018f187a596a57">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VoxelId_1a684485149fceed0a81d89f53653a6f49">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VoxelId_1ae6d99b7a4df7667afed25d0ac11ee7d2">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -347,9 +335,6 @@
         <argsstring>(self, VoxelId arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.VoxelId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VoxelId_1a14df9bb986e1cea78a018f187a596a57">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VoxelId_1a684485149fceed0a81d89f53653a6f49">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VoxelId_1ae6d99b7a4df7667afed25d0ac11ee7d2">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -436,7 +421,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.VoxelId.__repr__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VoxelId_1a0436dd5d7fe35867e38b4078b464e6c4">__repr__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>

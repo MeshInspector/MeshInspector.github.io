@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MoveMeshToVoxelMaxDerivSettings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -511,23 +511,6 @@ estimate the derivative based on it
 <para><verbatim>Generated from:  MR::MoveMeshToVoxelMaxDerivSettings
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.MoveMeshToVoxelMaxDerivSettings</label>
-        <link refid="classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_degree</edgelabel>
-          <edgelabel>_offsetof_intermediateSmoothForce</edgelabel>
-          <edgelabel>_offsetof_iters</edgelabel>
-          <edgelabel>_offsetof_outlierThreshold</edgelabel>
-          <edgelabel>_offsetof_preparationSmoothForce</edgelabel>
-          <edgelabel>_offsetof_samplePoints</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36101" bodyend="36186"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings_1a7c4d891031ec12f220cce806d49d7985" prot="public" virt="non-virtual"><scope>mrmeshpy::MoveMeshToVoxelMaxDerivSettings</scope><name>__init__</name></member>

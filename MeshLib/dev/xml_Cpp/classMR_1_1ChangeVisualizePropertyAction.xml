@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeVisualizePropertyAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ChangeVisualizePropertyAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRChangeObjectFields_8h" local="no">MRChangeObjectFields.h</includes>
+    <includes refid="MRChangeObjectFields_8h" local="no">MRMesh/MRChangeObjectFields.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gaddf5e30e5eb678a766bb9b02bbfd996b" kind="typedef"><name>Obj</name></member>
     </sectiondef>
@@ -52,7 +52,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" bodystart="15" bodyend="68"/>
+    <location file="MRMesh/MRChangeObjectFields.h" line="14" column="1" bodyfile="MRMesh/MRChangeObjectFields.h" bodystart="15" bodyend="68"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga6aed09dd3eb8747f16d7d1b3f4c016ec" prot="public" virt="virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga577d817010b8c025c743ede618924232" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>ChangeVisualizePropertyAction</name></member>

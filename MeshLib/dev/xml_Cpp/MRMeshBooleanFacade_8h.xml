@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshBooleanFacade_8h" kind="file" language="C++">
     <compoundname>MRMeshBooleanFacade.h</compoundname>
     <includes refid="MRMesh_8h" local="yes">MRMesh.h</includes>
@@ -138,7 +138,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshBooleanFacade.h</label>
+        <label>MRMesh/MRMeshBooleanFacade.h</label>
         <link refid="MRMeshBooleanFacade_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -452,7 +452,7 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="structMR_1_1TransformedMesh" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TransformedMesh" kindref="compound">TransformedMesh</ref></highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1TransformedMesh" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gad7e32b37b30b047ad8af5555d3fe6b36" kindref="member">TransformedMesh</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1ga335c5766297cd37d2bc6d54e7f0867da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga335c5766297cd37d2bc6d54e7f0867da" kindref="member">mesh</ref>;</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1ga643b404d35e9496c6ee8d3382c80ee18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>AffineXf3f<sp/><ref refid="group__GeneralGroup_1ga643b404d35e9496c6ee8d3382c80ee18" kindref="member">xf</ref>;</highlight></codeline>
@@ -460,7 +460,7 @@
 <codeline lineno="18" refid="group__GeneralGroup_1ga4f79ea52914dc78ad341dade85cee49b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga4f79ea52914dc78ad341dade85cee49b" kindref="member">TransformedMesh</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga335c5766297cd37d2bc6d54e7f0867da" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/><ref refid="group__GeneralGroup_1ga643b404d35e9496c6ee8d3382c80ee18" kindref="member">xf</ref><sp/>=<sp/>{}<sp/>)<sp/>:<sp/><ref refid="group__GeneralGroup_1ga335c5766297cd37d2bc6d54e7f0867da" kindref="member">mesh</ref>(<sp/>std::move(<sp/><ref refid="group__GeneralGroup_1ga335c5766297cd37d2bc6d54e7f0867da" kindref="member">mesh</ref><sp/>)<sp/>),<sp/><ref refid="group__GeneralGroup_1ga643b404d35e9496c6ee8d3382c80ee18" kindref="member">xf</ref>(<sp/><ref refid="group__GeneralGroup_1ga643b404d35e9496c6ee8d3382c80ee18" kindref="member">xf</ref><sp/>)<sp/>{}</highlight></codeline>
 <codeline lineno="19"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="structMR_1_1MeshMeshConverter" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshMeshConverter" kindref="compound">MeshMeshConverter</ref></highlight></codeline>
+<codeline lineno="23" refid="structMR_1_1MeshMeshConverter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshMeshConverter" kindref="compound">MeshMeshConverter</ref></highlight></codeline>
 <codeline lineno="24"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="25" refid="group__GeneralGroup_1ga9bd956d7adf45e7f09fe6105d37a84cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1TransformedMesh" kindref="compound">TransformedMesh</ref><sp/><ref refid="group__GeneralGroup_1ga9bd956d7adf45e7f09fe6105d37a84cb" kindref="member">operator() </ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TransformedMesh" kindref="compound">TransformedMesh</ref>(<sp/>std::move(<sp/>mesh<sp/>),<sp/>xf<sp/>);<sp/>}</highlight></codeline>
@@ -478,10 +478,10 @@
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="42" refid="group__GeneralGroup_1ga16a57fadb9a701167773311b93082e44" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1TransformedMesh" kindref="compound">TransformedMesh</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga16a57fadb9a701167773311b93082e44" kindref="member">operator *= </ref>(<sp/><ref refid="structMR_1_1TransformedMesh" kindref="compound">TransformedMesh</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TransformedMesh" kindref="compound">TransformedMesh</ref>&amp;<sp/>b<sp/>);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h"/>
+    <location file="MRMesh/MRMeshBooleanFacade.h"/>
   </compounddef>
 </doxygen>

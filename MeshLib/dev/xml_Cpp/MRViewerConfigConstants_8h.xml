@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRViewerConfigConstants_8h" kind="file" language="C++">
     <compoundname>MRViewerConfigConstants.h</compoundname>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -14,10 +14,10 @@
 <codeline lineno="4"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="group__GeneralGroup_1gae11fb18e48834d5bb7d3bca60862f695" refkind="member"><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1gae11fb18e48834d5bb7d3bca60862f695" kindref="member">cDefaultMultiViewportKey</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;defaultMultiViewport&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10" refid="group__GeneralGroup_1gae11fb18e48834d5bb7d3bca60862f695" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1gae11fb18e48834d5bb7d3bca60862f695" kindref="member">cDefaultMultiViewportKey</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;defaultMultiViewport&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerConfigConstants.h"/>
+    <location file="MRViewer/MRViewerConfigConstants.h"/>
   </compounddef>
 </doxygen>

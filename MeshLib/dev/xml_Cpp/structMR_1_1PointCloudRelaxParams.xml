@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PointCloudRelaxParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::PointCloudRelaxParams</compoundname>
     <basecompoundref refid="structMR_1_1RelaxParams" prot="public" virt="non-virtual">MR::RelaxParams</basecompoundref>
     <derivedcompoundref refid="structMR_1_1PointCloudApproxRelaxParams" prot="public" virt="non-virtual">MR::PointCloudApproxRelaxParams</derivedcompoundref>
-    <includes refid="MRPointCloudRelax_8h" local="no">MRPointCloudRelax.h</includes>
+    <includes refid="MRPointCloudRelax_8h" local="no">MRMesh/MRPointCloudRelax.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1PointCloudRelaxParams_1ab8de6ecb0effc2fb5ae7f053955d6caf" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" bodystart="16" bodyend="16"/>
+        <location file="MRMesh/MRPointCloudRelax.h" line="16" column="11" bodyfile="MRMesh/MRPointCloudRelax.h" bodystart="16" bodyend="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -57,7 +57,7 @@
         <link refid="structMR_1_1RelaxParams"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" bodystart="13" bodyend="17"/>
+    <location file="MRMesh/MRPointCloudRelax.h" line="12" column="1" bodyfile="MRMesh/MRPointCloudRelax.h" bodystart="13" bodyend="17"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga47663082758ba9a1d7d9942c1d2550fc" prot="public" virt="non-virtual"><scope>MR::PointCloudRelaxParams</scope><name>_padding</name></member>
       <member refid="group__GeneralGroup_1ga7f58a3b0b7e5c09209f53edd90b4371a" prot="public" virt="non-virtual"><scope>MR::PointCloudRelaxParams</scope><name>force</name></member>

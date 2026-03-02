@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ResetSceneMenuItem" kind="class" language="C++" prot="public">
     <compoundname>MR::ResetSceneMenuItem</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; PreDrawListener &gt;</basecompoundref>
-    <includes refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="no">MRSceneControlMenuItems.h</includes>
+    <includes refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="no">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaa2577785c51fca6cf9c5605dc5ef02f1" kind="variable"><name>openPopup_</name></member>
       <member refid="group__GeneralGroup_1gacc5976a9de72b471c2df00b11a52cacb" kind="variable"><name>popupId_</name></member>
@@ -80,7 +80,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="14" bodyend="24"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="13" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="14" bodyend="24"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga4d10d54c7e98ad78d11b2b056231d6d8" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gaf16f8c683f827d933c164d15c68c3ecb" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>blocking</name></member>

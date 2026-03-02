@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshOrPointsObject_8h" kind="file" language="C++">
     <compoundname>MRMeshOrPointsObject.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -33,32 +33,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRMeshOrPointsObject_8h_1aef2e5b60c55f275988c9749f64cd52ac" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeObjects_8h_1aef2e5b60c55f275988c9749f64cd52ac" kindref="member">MR_MeshOrPoints</ref></type>
-        <definition>typedef struct MR_MeshOrPoints MR_MeshOrPoints</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshOrPoints</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshOrPointsObject.h" line="13" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshOrPointsObject.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshOrPointsObject_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" prot="public" static="no">
-        <type>struct <ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref></type>
-        <definition>typedef struct MR_ObjectMesh MR_ObjectMesh</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjectMesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshOrPointsObject.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshOrPointsObject.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" prot="public" static="no">
         <type>struct <ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref></type>
         <definition>typedef struct MR_ObjectPoints MR_ObjectPoints</definition>
@@ -67,49 +41,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>an object that stores a points Generated from class <computeroutput>MR::ObjectPoints</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::ObjectPointsHolder</computeroutput> Indirect: (non-virtual) <computeroutput>MR::ObjectChildrenHolder</computeroutput> <computeroutput>MR::Object</computeroutput> <computeroutput>MR::VisualObject</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshOrPointsObject.h" line="15" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshOrPointsObject.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshOrPointsObject_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_MR_ObjectMesh MR_std_shared_ptr_MR_ObjectMesh</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_MR_ObjectMesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshOrPointsObject.h" line="16" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshOrPointsObject.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshOrPointsObject_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" prot="public" static="no">
-        <type>struct <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_MR_ObjectPoints MR_std_shared_ptr_MR_ObjectPoints</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_MR_ObjectPoints</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshOrPointsObject.h" line="17" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshOrPointsObject.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshOrPointsObject_8h_1aa4b9828f4113d20d85483568f977c8ff" prot="public" static="no">
-        <type>struct <ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_MR_VisualObject MR_std_shared_ptr_MR_VisualObject</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_MR_VisualObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshOrPointsObject.h" line="18" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshOrPointsObject.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshOrPointsObject_8h_1ae8694339b7677500c50d913374b15118" prot="public" static="no">
         <type>struct <ref refid="MRMeshOrPointsObject_8h_1ae8694339b7677500c50d913374b15118" kindref="member">MR_MeshOrPointsObject</ref></type>
@@ -304,7 +240,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshOrPointsObject</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshOrPointsObject_8h_1ae8694339b7677500c50d913374b15118" kindref="member">MR_MeshOrPointsObject</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -322,7 +258,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MeshOrPointsObject</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshOrPointsObject_8h_1ae8694339b7677500c50d913374b15118" kindref="member">MR_MeshOrPointsObject</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -560,15 +496,15 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRMeshOrPointsObject_8h_1aef2e5b60c55f275988c9749f64cd52ac" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeObjects_8h_1aef2e5b60c55f275988c9749f64cd52ac" kindref="member">MR_MeshOrPoints</ref><sp/><ref refid="MRAABBTreeObjects_8h_1aef2e5b60c55f275988c9749f64cd52ac" kindref="member">MR_MeshOrPoints</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshOrPoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRMeshOrPointsObject_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeObjects_8h_1aef2e5b60c55f275988c9749f64cd52ac" kindref="member">MR_MeshOrPoints</ref><sp/><ref refid="MRAABBTreeObjects_8h_1aef2e5b60c55f275988c9749f64cd52ac" kindref="member">MR_MeshOrPoints</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshOrPoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref><sp/><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectPoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRMeshOrPointsObject_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRMeshOrPointsObject_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectPoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRMeshOrPointsObject_8h_1aa4b9828f4113d20d85483568f977c8ff" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_VisualObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref><sp/><ref refid="MRChangeMeshAction_8h_1aa8d717efd3391dbe4d5fb0f04a689c1a" kindref="member">MR_std_shared_ptr_MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectPoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_VisualObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MRMeshOrPointsObject_8h_1ae8694339b7677500c50d913374b15118" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshOrPointsObject_8h_1ae8694339b7677500c50d913374b15118" kindref="member">MR_MeshOrPointsObject</ref><sp/><ref refid="MRMeshOrPointsObject_8h_1ae8694339b7677500c50d913374b15118" kindref="member">MR_MeshOrPointsObject</ref>;</highlight></codeline>
+<codeline lineno="25" refid="MRMeshOrPointsObject_8h_1ae8694339b7677500c50d913374b15118" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshOrPointsObject_8h_1ae8694339b7677500c50d913374b15118" kindref="member">MR_MeshOrPointsObject</ref><sp/><ref refid="MRMeshOrPointsObject_8h_1ae8694339b7677500c50d913374b15118" kindref="member">MR_MeshOrPointsObject</ref>;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="MRMeshOrPointsObject_8h_1a994c47a92c912c8b2b840efda9264170" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshOrPointsObject_8h_1ae8694339b7677500c50d913374b15118" kindref="member">MR_MeshOrPointsObject</ref><sp/>*<ref refid="MRMeshOrPointsObject_8h_1a994c47a92c912c8b2b840efda9264170" kindref="member">MR_MeshOrPointsObject_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>

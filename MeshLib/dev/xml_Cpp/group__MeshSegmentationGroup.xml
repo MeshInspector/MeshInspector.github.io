@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__MeshSegmentationGroup" kind="group">
     <compoundname>MeshSegmentationGroup</compoundname>
     <title>Mesh Segmentation overwiev</title>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" line="30" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" declline="30" declcolumn="13"/>
+        <location file="MRMesh/MRFillContourByGraphCut.h" line="30" column="13" declfile="MRMesh/MRFillContourByGraphCut.h" declline="30" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshSegmentationGroup_1ga60ce8ecdf324e3ba1847b97a26909194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" line="38" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" declline="38" declcolumn="13"/>
+        <location file="MRMesh/MRFillContourByGraphCut.h" line="38" column="13" declfile="MRMesh/MRFillContourByGraphCut.h" declline="38" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshSegmentationGroup_1ga83df6392f2ec180519c0977c7c2a0db7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" line="46" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" declline="46" declcolumn="13"/>
+        <location file="MRMesh/MRFillContourByGraphCut.h" line="46" column="13" declfile="MRMesh/MRFillContourByGraphCut.h" declline="46" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshSegmentationGroup_1ga523c39ef67221263d3946ae1621fa9e4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; EdgeLoop &gt;</type>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h" line="25" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h" declline="25" declcolumn="12"/>
+        <location file="MRMesh/MRSurroundingContour.h" line="25" column="12" declfile="MRMesh/MRSurroundingContour.h" declline="25" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshSegmentationGroup_1ga46d905801bbc9f1713086eceb50f7799" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; EdgeLoop &gt;</type>
@@ -216,7 +216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h" line="43" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h" declline="43" declcolumn="12"/>
+        <location file="MRMesh/MRSurroundingContour.h" line="43" column="12" declfile="MRMesh/MRSurroundingContour.h" declline="43" declcolumn="12"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -235,9 +235,9 @@ For getting segment of mesh by contour(-s) use <ref refid="group__MeshSegmentati
 <para><table rows="1" cols="2"><caption id="group__MeshSegmentationGroup_1fillContourLeftByGraphCut_examples"></caption>
 <row>
 <entry thead="no"><para><image type="html" name="mesh_segmentation_0.png" width="350cm">Before</image>
- </para>
+</para>
 </entry><entry thead="no"><para><image type="html" name="mesh_segmentation_1.png" width="350cm">After</image>
-  </para>
+</para>
 </entry></row>
 </table>
 </para>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MeshBuilder::UniteCloseParams</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -256,23 +256,6 @@
 <para><verbatim>Generated from:  MR::MeshBuilder::UniteCloseParams
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.MeshBuilder.UniteCloseParams</label>
-        <link refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_closeDist</edgelabel>
-          <edgelabel>_offsetof_duplicateNonManifold</edgelabel>
-          <edgelabel>_offsetof_optionalDuplications</edgelabel>
-          <edgelabel>_offsetof_optionalVertOldToNew</edgelabel>
-          <edgelabel>_offsetof_region</edgelabel>
-          <edgelabel>_offsetof_uniteOnlyBd</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31561" bodyend="31601"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a13730bd5cb5b7b97834b535c07f873eb" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::UniteCloseParams</scope><name>__init__</name></member>

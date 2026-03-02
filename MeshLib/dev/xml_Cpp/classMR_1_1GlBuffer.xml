@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1GlBuffer" kind="class" language="C++" prot="public">
     <compoundname>MR::GlBuffer</compoundname>
-    <includes refid="MRRenderGLHelpers_8h" local="no">MRRenderGLHelpers.h</includes>
+    <includes refid="MRRenderGLHelpers_8h" local="no">MRViewer/MRRenderGLHelpers.h</includes>
     <sectiondef kind="private-static-attrib">
       <member refid="group__GeneralGroup_1gaec7a97ee60f73b84689a8f803d37539d" kind="variable"><name>NO_BUF</name></member>
     </sectiondef>
@@ -38,7 +38,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="19" bodyend="64"/>
+    <location file="MRViewer/MRRenderGLHelpers.h" line="18" column="1" bodyfile="MRViewer/MRRenderGLHelpers.h" bodystart="19" bodyend="64"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga07c0c3190a22372bf22f217c21cd6d93" prot="public" virt="non-virtual"><scope>MR::GlBuffer</scope><name>bind</name></member>
       <member refid="group__GeneralGroup_1ga6afc3f9c8a192b8cda0e7e71a9b75e10" prot="private" virt="non-virtual"><scope>MR::GlBuffer</scope><name>bufferID_</name></member>

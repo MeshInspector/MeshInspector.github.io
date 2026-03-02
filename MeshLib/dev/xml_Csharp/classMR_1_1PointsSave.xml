@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointsSave" kind="class" language="C#" prot="public">
     <compoundname>MR::PointsSave</compoundname>
     <innerclass refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions" prot="public">MR::PointsSave::CtmSavePointsOptions</innerclass>
@@ -403,7 +403,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="617" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" bodystart="4" bodyend="166"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="617" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="618" bodyend="1195"/>
     <listofallmembers>
       <member refid="classMR_1_1PointsSave_1acf3808f220288d8e2eb322198d04f881" prot="public" virt="non-virtual"><scope>MR::PointsSave</scope><name>toAnySupportedFormat</name></member>
       <member refid="classMR_1_1PointsSave_1a7e482985a7a82dc630a58ba71b686485" prot="public" virt="non-virtual"><scope>MR::PointsSave</scope><name>toAnySupportedFormat</name></member>

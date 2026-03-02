@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1TriPointf" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::TriPointf</compoundname>
     <sectiondef kind="private-static-attrib">
@@ -536,20 +536,6 @@
 \\details Notations used below: v0, v1, v2 - points of the triangle
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.TriPointf</label>
-        <link refid="classmrmeshpy_1_1TriPointf"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_a</edgelabel>
-          <edgelabel>_offsetof_b</edgelabel>
-          <edgelabel>eps</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57880" bodyend="57966"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1TriPointf_1a25f432710cd0ab77d959a4be6cbe8b42" prot="public" virt="non-virtual"><scope>mrmeshpy::TriPointf</scope><name>__eq__</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSceneLoad_8h" kind="file" language="C++">
     <compoundname>MRSceneLoad.h</compoundname>
     <includes refid="MRObject_8h" local="yes">MRObject.h</includes>
@@ -195,7 +195,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRSceneLoad.h</label>
+        <label>MRMesh/MRSceneLoad.h</label>
         <link refid="MRSceneLoad_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -405,7 +405,7 @@
 <codeline lineno="22" refid="structMR_1_1SceneLoad_1_1Settings_1aeefaeaf2dac0299fbdece77fe19bd751" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SceneLoad_1_1Settings_1a01397df55967ecaab97eaba28056aaf9" kindref="member">OpenFolder</ref><sp/><ref refid="structMR_1_1SceneLoad_1_1Settings_1aeefaeaf2dac0299fbdece77fe19bd751" kindref="member">openFolder</ref>;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="structMR_1_1SceneLoad_1_1Result" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SceneLoad_1_1Result" kindref="compound">Result</ref></highlight></codeline>
+<codeline lineno="26" refid="structMR_1_1SceneLoad_1_1Result" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SceneLoad_1_1Result" kindref="compound">Result</ref></highlight></codeline>
 <codeline lineno="27"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="29" refid="structMR_1_1SceneLoad_1_1Result_1aae5ebe12ef215f5866a7b1e6e8d59818" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;SceneRootObject&gt;<sp/><ref refid="structMR_1_1SceneLoad_1_1Result_1aae5ebe12ef215f5866a7b1e6e8d59818" kindref="member">scene</ref>;</highlight></codeline>
 <codeline lineno="31" refid="structMR_1_1SceneLoad_1_1Result_1a0dcfb794202c73cf1889f44eaed89d0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SceneLoad_1_1Result_1a0dcfb794202c73cf1889f44eaed89d0d" kindref="member">isSceneConstructed</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
@@ -416,11 +416,11 @@
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44" refid="namespaceMR_1_1SceneLoad_1ace59001f56846dcae763df3dd8b2df6c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1SceneLoad_1_1Result" kindref="compound">Result</ref><sp/><ref refid="namespaceMR_1_1SceneLoad_1ace59001f56846dcae763df3dd8b2df6c" kindref="member">fromAnySupportedFormat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::filesystem::path&gt;&amp;<sp/>files,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SceneLoad_1_1Settings" kindref="compound">Settings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="namespaceMR_1_1SceneLoad_1ad9301168bfb0258833ac6729cfb138a9" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1SceneLoad_1ad9301168bfb0258833ac6729cfb138a9" kindref="member">PostLoadCallback</ref><sp/>=<sp/>std::function&lt;void<sp/>(<sp/><ref refid="structMR_1_1SceneLoad_1_1Result" kindref="compound">Result</ref><sp/>)&gt;;</highlight></codeline>
+<codeline lineno="48" refid="namespaceMR_1_1SceneLoad_1ad9301168bfb0258833ac6729cfb138a9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1SceneLoad_1ad9301168bfb0258833ac6729cfb138a9" kindref="member">PostLoadCallback</ref><sp/>=<sp/>std::function&lt;void<sp/>(<sp/><ref refid="structMR_1_1SceneLoad_1_1Result" kindref="compound">Result</ref><sp/>)&gt;;</highlight></codeline>
 <codeline lineno="49" refid="namespaceMR_1_1SceneLoad_1a2a4af1d8739f0881fc254c4f1aa18df0" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1SceneLoad_1a2a4af1d8739f0881fc254c4f1aa18df0" kindref="member">asyncFromAnySupportedFormat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::filesystem::path&gt;&amp;<sp/>files,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1SceneLoad_1ad9301168bfb0258833ac6729cfb138a9" kindref="member">PostLoadCallback</ref>&amp;<sp/>postLoadCallback,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SceneLoad_1_1Settings" kindref="compound">Settings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h"/>
+    <location file="MRMesh/MRSceneLoad.h"/>
   </compounddef>
 </doxygen>

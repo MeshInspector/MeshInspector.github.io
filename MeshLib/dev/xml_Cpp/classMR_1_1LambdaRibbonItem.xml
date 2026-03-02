@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1LambdaRibbonItem" kind="class" language="C++" prot="public">
     <compoundname>MR::LambdaRibbonItem</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
-    <includes refid="MRLambdaRibbonItem_8h" local="no">MRLambdaRibbonItem.h</includes>
+    <includes refid="MRLambdaRibbonItem_8h" local="no">MRViewer/MRLambdaRibbonItem.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gadf0efc0eaab84312e1058ba6f3d8cb95" kind="typedef"><name>SimpleLambda</name></member>
     </sectiondef>
@@ -55,7 +55,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRLambdaRibbonItem.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRLambdaRibbonItem.h" bodystart="13" bodyend="28"/>
+    <location file="MRViewer/MRLambdaRibbonItem.h" line="12" column="1" bodyfile="MRViewer/MRLambdaRibbonItem.h" bodystart="13" bodyend="28"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga596df9f6e3335a7b93dbefdeffcf7b72" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>blocking</name></member>

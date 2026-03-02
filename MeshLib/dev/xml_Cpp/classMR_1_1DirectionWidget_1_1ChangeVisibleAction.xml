@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DirectionWidget_1_1ChangeVisibleAction" kind="class" language="C++" prot="public">
     <compoundname>MR::DirectionWidget::ChangeVisibleAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRDirectionWidget_8h" local="no">MRDirectionWidget.h</includes>
+    <includes refid="MRDirectionWidget_8h" local="no">MRViewer/MRDirectionWidget.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaa1fdf1ee77b060ce77087cf389a25f2c" kind="variable"><name>widget_</name></member>
       <member refid="group__GeneralGroup_1gab7571e0650d8e6b9adaca1992cc8d3ce" kind="variable"><name>visible_</name></member>
@@ -44,7 +44,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="33" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="34" bodyend="58"/>
+    <location file="MRViewer/MRDirectionWidget.h" line="33" column="5" bodyfile="MRViewer/MRDirectionWidget.h" bodystart="34" bodyend="58"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad330db9f1a8d058d8e6ccf93621ac572" prot="public" virt="virtual"><scope>MR::DirectionWidget::ChangeVisibleAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gad8f6ba3f974fae829f4eae6ddb94761a" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::ChangeVisibleAction</scope><name>ChangeVisibleAction</name></member>

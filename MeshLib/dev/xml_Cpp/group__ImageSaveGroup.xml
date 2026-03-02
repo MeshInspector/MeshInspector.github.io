@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__ImageSaveGroup" kind="group">
     <compoundname>ImageSaveGroup</compoundname>
     <title>Image Save</title>
@@ -25,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageSave.h" line="22" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageSave.h" declline="22" declcolumn="11"/>
+        <location file="MRMesh/MRImageSave.h" line="22" column="11" declfile="MRMesh/MRImageSave.h" declline="22" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__ImageSaveGroup_1gacad461f67f85ef03af309127aaff7c2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -42,14 +42,13 @@
           <declname>path</declname>
         </param>
         <briefdescription>
-<para>detects the format from file extension and save image to it <linebreak/>
- </para>
+<para>detects the format from file extension and save image to it </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageSave.h" line="25" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageSave.h" declline="25" declcolumn="11"/>
+        <location file="MRMesh/MRImageSave.h" line="25" column="11" declfile="MRMesh/MRImageSave.h" declline="25" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

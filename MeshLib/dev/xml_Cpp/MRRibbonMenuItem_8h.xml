@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRibbonMenuItem_8h" kind="file" language="C++">
     <compoundname>MRRibbonMenuItem.h</compoundname>
     <includes refid="MRISceneStateCheck_8h" local="yes">MRISceneStateCheck.h</includes>
     <includes local="no">string</includes>
     <includes local="no">memory</includes>
-    <includedby refid="MRDrawViewportWidgetsItem_8h" local="yes">MRDrawViewportWidgetsItem.h</includedby>
-    <includedby refid="MRIOFilesMenuItems_8h" local="yes">MRIOFilesMenuItems.h</includedby>
-    <includedby refid="MRLambdaRibbonItem_8h" local="yes">MRLambdaRibbonItem.h</includedby>
-    <includedby refid="MRRibbonButtonDrawer_8h" local="yes">MRRibbonButtonDrawer.h</includedby>
-    <includedby refid="MRRibbonMenu_8h" local="yes">MRRibbonMenu.h</includedby>
-    <includedby refid="MRRibbonRegisterItem_8h" local="yes">MRRibbonRegisterItem.h</includedby>
-    <includedby refid="MRRibbonSceneButtons_8h" local="yes">MRRibbonSceneButtons.h</includedby>
-    <includedby refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="yes">MRSceneControlMenuItems.h</includedby>
-    <includedby refid="MRViewer_2MRSceneControlMenuItems_8h" local="yes">MRSceneControlMenuItems.h</includedby>
-    <includedby refid="MRStatePlugin_8h" local="yes">MRStatePlugin.h</includedby>
+    <includedby refid="MRDrawViewportWidgetsItem_8h" local="yes">MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h</includedby>
+    <includedby refid="MRIOFilesMenuItems_8h" local="yes">MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</includedby>
+    <includedby refid="MRRibbonSceneButtons_8h" local="yes">MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h</includedby>
+    <includedby refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="yes">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includedby>
+    <includedby refid="MRLambdaRibbonItem_8h" local="yes">MRViewer/MRLambdaRibbonItem.h</includedby>
+    <includedby refid="MRRibbonButtonDrawer_8h" local="yes">MRViewer/MRRibbonButtonDrawer.h</includedby>
+    <includedby refid="MRRibbonMenu_8h" local="yes">MRViewer/MRRibbonMenu.h</includedby>
+    <includedby refid="MRRibbonRegisterItem_8h" local="yes">MRViewer/MRRibbonRegisterItem.h</includedby>
+    <includedby refid="MRViewer_2MRSceneControlMenuItems_8h" local="yes">MRViewer/MRSceneControlMenuItems.h</includedby>
+    <includedby refid="MRStatePlugin_8h" local="yes">MRViewer/MRStatePlugin.h</includedby>
     <incdepgraph>
       <node id="8">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -67,7 +67,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRRibbonMenuItem.h</label>
+        <label>MRViewer/MRRibbonMenuItem.h</label>
         <link refid="MRRibbonMenuItem_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -121,66 +121,66 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="16">
-        <label>MRCameraOrientationPlugin.h</label>
+      <node id="14">
+        <label>MRCommonPlugins/Basic/MRCameraOrientationPlugin.h</label>
         <link refid="MRCameraOrientationPlugin_8h"/>
       </node>
       <node id="2">
-        <label>MRDrawViewportWidgetsItem.h</label>
+        <label>MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h</label>
         <link refid="MRDrawViewportWidgetsItem_8h"/>
       </node>
-      <node id="18">
-        <label>MRMoveObjectByMouse.h</label>
+      <node id="15">
+        <label>MRCommonPlugins/Basic/MRMoveObjectByMouse.h</label>
         <link refid="MRMoveObjectByMouse_8h"/>
       </node>
-      <node id="20">
-        <label>MRSelectObjectByClick.h</label>
+      <node id="16">
+        <label>MRCommonPlugins/Selectors/MRSelectObjectByClick.h</label>
         <link refid="MRSelectObjectByClick_8h"/>
       </node>
-      <node id="14">
-        <label>MRAddCustomTheme.h</label>
+      <node id="17">
+        <label>MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h</label>
         <link refid="MRAddCustomTheme_8h"/>
       </node>
       <node id="3">
-        <label>MRIOFilesMenuItems.h</label>
+        <label>MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</label>
         <link refid="MRIOFilesMenuItems_8h"/>
       </node>
-      <node id="10">
-        <label>MRRibbonSceneButtons.h</label>
+      <node id="4">
+        <label>MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h</label>
         <link refid="MRRibbonSceneButtons_8h"/>
       </node>
-      <node id="11">
-        <label>MRSceneControlMenuItems.h</label>
+      <node id="5">
+        <label>MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</label>
         <link refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h"/>
       </node>
-      <node id="15">
-        <label>MRBinaryOperationsPlugin.h</label>
+      <node id="18">
+        <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
       </node>
       <node id="19">
-        <label>MROpenRawVoxelsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
-      <node id="4">
-        <label>MRLambdaRibbonItem.h</label>
+      <node id="6">
+        <label>MRViewer/MRLambdaRibbonItem.h</label>
         <link refid="MRLambdaRibbonItem_8h"/>
       </node>
-      <node id="17">
-        <label>MRMeshModifier.h</label>
+      <node id="20">
+        <label>MRViewer/MRMeshModifier.h</label>
         <link refid="MRMeshModifier_8h"/>
       </node>
-      <node id="5">
-        <label>MRRibbonButtonDrawer.h</label>
+      <node id="7">
+        <label>MRViewer/MRRibbonButtonDrawer.h</label>
         <link refid="MRRibbonButtonDrawer_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>MRRibbonMenu.h</label>
+      <node id="8">
+        <label>MRViewer/MRRibbonMenu.h</label>
         <link refid="MRRibbonMenu_8h"/>
       </node>
       <node id="1">
-        <label>MRRibbonMenuItem.h</label>
+        <label>MRViewer/MRRibbonMenuItem.h</label>
         <link refid="MRRibbonMenuItem_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -194,41 +194,41 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="9">
-        <label>MRRibbonMenuSearch.h</label>
+      <node id="11">
+        <label>MRViewer/MRRibbonMenuSearch.h</label>
         <link refid="MRRibbonMenuSearch_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>MRRibbonRegisterItem.h</label>
-        <link refid="MRRibbonRegisterItem_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="8">
-        <label>MRRibbonSchema.h</label>
-        <link refid="MRRibbonSchema_8h"/>
-        <childnode refid="6" relation="include">
+      <node id="9">
+        <label>MRViewer/MRRibbonRegisterItem.h</label>
+        <link refid="MRRibbonRegisterItem_8h"/>
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+      </node>
+      <node id="10">
+        <label>MRViewer/MRRibbonSchema.h</label>
+        <link refid="MRRibbonSchema_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
       <node id="12">
-        <label>MRSceneControlMenuItems.h</label>
+        <label>MRViewer/MRSceneControlMenuItems.h</label>
         <link refid="MRViewer_2MRSceneControlMenuItems_8h"/>
       </node>
       <node id="13">
-        <label>MRStatePlugin.h</label>
+        <label>MRViewer/MRStatePlugin.h</label>
         <link refid="MRStatePlugin_8h"/>
         <childnode refid="14" relation="include">
         </childnode>
@@ -236,9 +236,9 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
         <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
@@ -250,7 +250,7 @@
         </childnode>
       </node>
       <node id="21">
-        <label>MRViewerSettingsPlugin.h</label>
+        <label>MRViewer/MRViewerSettingsPlugin.h</label>
         <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
@@ -274,16 +274,16 @@
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="group__GeneralGroup_1ga1478e43a90bad95d9ef709807606688a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1478e43a90bad95d9ef709807606688a" kindref="member">RibbonItemType</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga1478e43a90bad95d9ef709807606688aa87b7760f14fbff78d8819291f36ab9a0" kindref="member">Button</ref>,</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga1478e43a90bad95d9ef709807606688aa07135ce637b7ec7f4963b6d3ae3977f4" kindref="member">ButtonWithDrop</ref></highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1gga1478e43a90bad95d9ef709807606688aa87b7760f14fbff78d8819291f36ab9a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga1478e43a90bad95d9ef709807606688aa87b7760f14fbff78d8819291f36ab9a0" kindref="member">Button</ref>,</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1gga1478e43a90bad95d9ef709807606688aa07135ce637b7ec7f4963b6d3ae3977f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga1478e43a90bad95d9ef709807606688aa07135ce637b7ec7f4963b6d3ae3977f4" kindref="member">ButtonWithDrop</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="classMR_1_1RibbonMenuItem" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref><sp/>:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ISceneStateCheck" kindref="compound">ISceneStateCheck</ref></highlight></codeline>
+<codeline lineno="22" refid="classMR_1_1RibbonMenuItem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" kindref="member">RibbonMenuItem</ref><sp/>:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ISceneStateCheck" kindref="compound">ISceneStateCheck</ref></highlight></codeline>
 <codeline lineno="23"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="25" refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" kindref="member">MR_DELETE_MOVE</ref>(<sp/><ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref><sp/>);</highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" kindref="member">MR_DELETE_MOVE</ref>(<sp/><ref refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" kindref="member">RibbonMenuItem</ref><sp/>);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" kindref="member">RibbonMenuItem</ref>(<sp/>std::string<sp/>name<sp/>);</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" kindref="member">RibbonMenuItem</ref>(<sp/>std::string<sp/><ref refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" kindref="member">name</ref><sp/>);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" kindref="member">~RibbonMenuItem</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -295,28 +295,28 @@
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="43" refid="group__GeneralGroup_1ga327958b76ec3d044202620beafe67c93" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="group__GeneralGroup_1ga327958b76ec3d044202620beafe67c93" kindref="member">uiName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>name_;<sp/>}</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" kindref="member">setRibbonItemType</ref>(<sp/><ref refid="group__GeneralGroup_1ga1478e43a90bad95d9ef709807606688a" kindref="member">RibbonItemType</ref><sp/>type<sp/>)<sp/>{<sp/>type_<sp/>=<sp/>type;<sp/>}</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" kindref="member">setRibbonItemType</ref>(<sp/><ref refid="group__GeneralGroup_1ga1478e43a90bad95d9ef709807606688a" kindref="member">RibbonItemType</ref><sp/><ref refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" kindref="member">type</ref><sp/>)<sp/>{<sp/><ref refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" kindref="member">type_</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" kindref="member">type</ref>;<sp/>}</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1478e43a90bad95d9ef709807606688a" kindref="member">RibbonItemType</ref><sp/><ref refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" kindref="member">type</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>type_;<sp/>}</highlight></codeline>
+<codeline lineno="48" refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1478e43a90bad95d9ef709807606688a" kindref="member">RibbonItemType</ref><sp/><ref refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" kindref="member">type</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" kindref="member">type_</ref>;<sp/>}</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50" refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" kindref="member">DropItemsList</ref><sp/>=<sp/>std::vector&lt;std::shared_ptr&lt;RibbonMenuItem&gt;&gt;;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54" refid="group__GeneralGroup_1ga8e7e2dc213b0d280a1c4c3dcde52aa9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8e7e2dc213b0d280a1c4c3dcde52aa9e" kindref="member">setDropItemsFromItemList</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref>&amp;<sp/>itemsList<sp/>);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" kindref="member">DropItemsList</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" kindref="member">dropItems</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dropList_;<sp/>}</highlight></codeline>
+<codeline lineno="58" refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" kindref="member">DropItemsList</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" kindref="member">dropItems</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" kindref="member">dropList_</ref>;<sp/>}</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61" refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" kindref="member">getDynamicTooltip</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{};<sp/>}</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="64" refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga1478e43a90bad95d9ef709807606688a" kindref="member">RibbonItemType</ref><sp/>type_{<sp/>RibbonItemType::Button<sp/>};</highlight></codeline>
+<codeline lineno="64" refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga1478e43a90bad95d9ef709807606688a" kindref="member">RibbonItemType</ref><sp/><ref refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" kindref="member">type_</ref>{<sp/><ref refid="group__GeneralGroup_1gga1478e43a90bad95d9ef709807606688aa87b7760f14fbff78d8819291f36ab9a0" kindref="member">RibbonItemType::Button</ref><sp/>};</highlight></codeline>
 <codeline lineno="65" refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" kindref="member">DropItemsList</ref><sp/><ref refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" kindref="member">dropList_</ref>;</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;<sp/></highlight></codeline>
 <codeline lineno="69"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h"/>
+    <location file="MRViewer/MRRibbonMenuItem.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRViewerSettingsManager_8h" kind="file" language="C++">
     <compoundname>MRViewerSettingsManager.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -55,7 +55,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRViewerSettingsManager.h</label>
+        <label>MRViewer/MRViewerSettingsManager.h</label>
         <link refid="MRViewerSettingsManager_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -111,7 +111,7 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="classMR_1_1IViewerSettingsManager" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1IViewerSettingsManager" kindref="compound">IViewerSettingsManager</ref></highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1IViewerSettingsManager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1IViewerSettingsManager" kindref="compound">IViewerSettingsManager</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1ga5fa6959a71ea16d2cd2ca4e276a04665" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5fa6959a71ea16d2cd2ca4e276a04665" kindref="member">~IViewerSettingsManager</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -130,7 +130,7 @@
 <codeline lineno="31" refid="group__GeneralGroup_1gae67af1a0e658385f3cdc6e77271e8a4d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae67af1a0e658385f3cdc6e77271e8a4d" kindref="member">saveSettings</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>&amp;<sp/>)<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="classMR_1_1ViewerSettingsManager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1ViewerSettingsManager" kindref="compound">ViewerSettingsManager</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IViewerSettingsManager" kindref="compound">IViewerSettingsManager</ref></highlight></codeline>
+<codeline lineno="34" refid="classMR_1_1ViewerSettingsManager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="group__GeneralGroup_1ga849eb149986cc55b2cd516550c5bd23b" kindref="member">ViewerSettingsManager</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IViewerSettingsManager" kindref="compound">IViewerSettingsManager</ref></highlight></codeline>
 <codeline lineno="35"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="37" refid="group__GeneralGroup_1ga849eb149986cc55b2cd516550c5bd23b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga849eb149986cc55b2cd516550c5bd23b" kindref="member">ViewerSettingsManager</ref>();</highlight></codeline>
@@ -148,12 +148,12 @@
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50" refid="group__GeneralGroup_1ga0467e77cf6f92e5f94c8d1d75eef8a76" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0467e77cf6f92e5f94c8d1d75eef8a76" kindref="member">ObjType</ref></highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Lines,</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga50ba2acfd483f395e71abb80f687463e" kindref="member">Points</ref>,</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga9228096dfb940b935e8dada25c4b0c37a59637ce14182065617d85623a588b6f0" kindref="member">Voxels</ref>,</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>,</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1gga0467e77cf6f92e5f94c8d1d75eef8a76a710fdb6adb881b408116ef95335e1961" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0467e77cf6f92e5f94c8d1d75eef8a76a710fdb6adb881b408116ef95335e1961" kindref="member">Mesh</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="53" refid="group__GeneralGroup_1gga0467e77cf6f92e5f94c8d1d75eef8a76aa0b0293a2db49f5f93c15a62e095c819" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0467e77cf6f92e5f94c8d1d75eef8a76aa0b0293a2db49f5f93c15a62e095c819" kindref="member">Lines</ref>,</highlight></codeline>
+<codeline lineno="54" refid="group__GeneralGroup_1gga0467e77cf6f92e5f94c8d1d75eef8a76a75dd5f1160a3f02b6fae89c54361a1b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0467e77cf6f92e5f94c8d1d75eef8a76a75dd5f1160a3f02b6fae89c54361a1b3" kindref="member">Points</ref>,</highlight></codeline>
+<codeline lineno="55" refid="group__GeneralGroup_1gga0467e77cf6f92e5f94c8d1d75eef8a76a59637ce14182065617d85623a588b6f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0467e77cf6f92e5f94c8d1d75eef8a76a59637ce14182065617d85623a588b6f0" kindref="member">Voxels</ref>,</highlight></codeline>
+<codeline lineno="56" refid="group__GeneralGroup_1gga0467e77cf6f92e5f94c8d1d75eef8a76ae76139f4dbe2f91f14577bcccc1baf77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0467e77cf6f92e5f94c8d1d75eef8a76ae76139f4dbe2f91f14577bcccc1baf77" kindref="member">DistanceMap</ref>,</highlight></codeline>
+<codeline lineno="57" refid="group__GeneralGroup_1gga0467e77cf6f92e5f94c8d1d75eef8a76ae93f994f01c537c4e2f7d8528c3eb5e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0467e77cf6f92e5f94c8d1d75eef8a76ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="59" refid="group__GeneralGroup_1ga0f8fa1a40f357a19b3c9b3ddaeb151e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga0f8fa1a40f357a19b3c9b3ddaeb151e1" kindref="member">getLastExtention</ref>(<sp/><ref refid="group__GeneralGroup_1ga0467e77cf6f92e5f94c8d1d75eef8a76" kindref="member">ObjType</ref><sp/>objType<sp/>);</highlight></codeline>
 <codeline lineno="60" refid="group__GeneralGroup_1gaf07ee03c5a1cde31ba1630a663fe83f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf07ee03c5a1cde31ba1630a663fe83f6" kindref="member">setLastExtention</ref>(<sp/><ref refid="group__GeneralGroup_1ga0467e77cf6f92e5f94c8d1d75eef8a76" kindref="member">ObjType</ref><sp/>objType,<sp/>std::string<sp/>ext<sp/>);</highlight></codeline>
@@ -162,6 +162,6 @@
 <codeline lineno="63"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="64"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h"/>
+    <location file="MRViewer/MRViewerSettingsManager.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRegularGridMesh_8h" kind="file" language="C++">
     <compoundname>MRRegularGridMesh.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -21,32 +21,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRRegularGridMesh_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
-        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
-        <argsstring></argsstring>
-        <name>MR_VertCoords</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRegularGridMesh.h" line="10" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRegularGridMesh.h" bodystart="10" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRegularGridMesh_8h_1a0d97154d4aed695055160a4688c04a3d" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_Mesh_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRegularGridMesh.h" line="11" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRegularGridMesh.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRRegularGridMesh_8h_1a05bd427a08c4a647dca159661ee10338" prot="public" static="no">
         <type>struct <ref refid="MRRegularGridMesh_8h_1a05bd427a08c4a647dca159661ee10338" kindref="member">MR_std_function_MR_Vector3f_from_uint64_t_uint64_t</ref></type>
         <definition>typedef struct MR_std_function_MR_Vector3f_from_uint64_t_uint64_t MR_std_function_MR_Vector3f_from_uint64_t_uint64_t</definition>
@@ -59,19 +33,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRegularGridMesh.h" line="12" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRegularGridMesh.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRegularGridMesh_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRegularGridMesh.h" line="13" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRegularGridMesh.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRRegularGridMesh_8h_1ad02250e56289041f5c5b145c1076976e" prot="public" static="no">
         <type>struct <ref refid="MRRegularGridMesh_8h_1ad02250e56289041f5c5b145c1076976e" kindref="member">MR_std_function_bool_from_uint64_t_uint64_t</ref></type>
@@ -188,18 +149,18 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="MRRegularGridMesh_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRRegularGridMesh_8h_1a0d97154d4aed695055160a4688c04a3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12" refid="MRRegularGridMesh_8h_1a05bd427a08c4a647dca159661ee10338" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRegularGridMesh_8h_1a05bd427a08c4a647dca159661ee10338" kindref="member">MR_std_function_MR_Vector3f_from_uint64_t_uint64_t</ref><sp/><ref refid="MRRegularGridMesh_8h_1a05bd427a08c4a647dca159661ee10338" kindref="member">MR_std_function_MR_Vector3f_from_uint64_t_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_MR_Vector3f_from_uint64_t_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRRegularGridMesh_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="MRRegularGridMesh_8h_1ad02250e56289041f5c5b145c1076976e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRegularGridMesh_8h_1ad02250e56289041f5c5b145c1076976e" kindref="member">MR_std_function_bool_from_uint64_t_uint64_t</ref><sp/><ref refid="MRRegularGridMesh_8h_1ad02250e56289041f5c5b145c1076976e" kindref="member">MR_std_function_bool_from_uint64_t_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_uint64_t_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="MRRegularGridMesh_8h_1a6bd62dcdfe70dbcd2171565f1e0f4c3e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRegularGridMesh_8h_1a6bd62dcdfe70dbcd2171565f1e0f4c3e" kindref="member">MR_std_function_bool_from_uint64_t_uint64_t_uint64_t_uint64_t_uint64_t_uint64_t</ref><sp/><ref refid="MRRegularGridMesh_8h_1a6bd62dcdfe70dbcd2171565f1e0f4c3e" kindref="member">MR_std_function_bool_from_uint64_t_uint64_t_uint64_t_uint64_t_uint64_t_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_uint64_t_uint64_t_uint64_t_uint64_t_uint64_t_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Creates<sp/>regular<sp/>mesh<sp/>with<sp/>points<sp/>in<sp/>valid<sp/>grid<sp/>lattice</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Creates<sp/>regular<sp/>mesh<sp/>with<sp/>points<sp/>in<sp/>valid<sp/>grid<sp/>lattice</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="MRRegularGridMesh_8h_1a1c9449f88a8ad664ff3ccd04d5dea334" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRRegularGridMesh_8h_1a1c9449f88a8ad664ff3ccd04d5dea334" kindref="member">MR_makeRegularGridMesh_6</ref>(MR_uint64_t<sp/>width,<sp/>MR_uint64_t<sp/>height,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRegularGridMesh_8h_1ad02250e56289041f5c5b145c1076976e" kindref="member">MR_std_function_bool_from_uint64_t_uint64_t</ref><sp/>*validator,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRegularGridMesh_8h_1a05bd427a08c4a647dca159661ee10338" kindref="member">MR_std_function_MR_Vector3f_from_uint64_t_uint64_t</ref><sp/>*positioner,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRegularGridMesh_8h_1a6bd62dcdfe70dbcd2171565f1e0f4c3e" kindref="member">MR_std_function_bool_from_uint64_t_uint64_t_uint64_t_uint64_t_uint64_t_uint64_t</ref><sp/>*faceValidator,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Creates<sp/>regular<sp/>mesh<sp/>from<sp/>monotone<sp/>(connects<sp/>point<sp/>with<sp/>closed<sp/>x,<sp/>y<sp/>neighbors)<sp/>points</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Creates<sp/>regular<sp/>mesh<sp/>from<sp/>monotone<sp/>(connects<sp/>point<sp/>with<sp/>closed<sp/>x,<sp/>y<sp/>neighbors)<sp/>points</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="MRRegularGridMesh_8h_1ac40ea3709e908e687f88f86fd15da470" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRRegularGridMesh_8h_1ac40ea3709e908e687f88f86fd15da470" kindref="member">MR_makeRegularGridMesh_2</ref>(MR_PassBy<sp/>pc_pass_by,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*pc,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>

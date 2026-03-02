@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1UI_1_1PlotAxis" kind="struct" language="C++" prot="public">
     <compoundname>MR::UI::PlotAxis</compoundname>
-    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <includes refid="MRUIStyle_8h" local="no">MRViewer/MRUIStyle.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gabb279d966586784fbc7e5ce1e6cc8fd5" kind="variable"><name>startAxisPoint</name></member>
       <member refid="group__GeneralGroup_1ga07e8a2e4ecc0a1ae78ccb53e9b785255" kind="variable"><name>size</name></member>
@@ -19,7 +19,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="106" bodyend="129"/>
+    <location file="MRViewer/MRUIStyle.h" line="105" column="1" bodyfile="MRViewer/MRUIStyle.h" bodystart="106" bodyend="129"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0e51c5bc9d4ef7d750e29a744e69b2aa" prot="public" virt="non-virtual"><scope>MR::UI::PlotAxis</scope><name>labelFormatParams</name></member>
       <member refid="group__GeneralGroup_1ga4f5a326eb4b1bad75896698c5db7bca8" prot="public" virt="non-virtual"><scope>MR::UI::PlotAxis</scope><name>lenDash</name></member>

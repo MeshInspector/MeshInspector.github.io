@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1OffsetParameters" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::OffsetParameters</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1BaseShellParameters" prot="public" virt="non-virtual">mrmeshpy.BaseShellParameters</basecompoundref>
@@ -103,13 +103,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.OffsetParameters.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BaseShellParameters_1ae0dcbca1ee041375228735631415006d">__init__</reimplements>
-        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1ab704a8e73b2c564a8052694edb25c462">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1aeb960d9ec3724e149eef0f5a00cb31c3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1abad6ad78011331bab5660df7e5b1a4f2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a758bdabd705528061999ce5d52ca83b0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1ae1d1f9f7f3f45ffe4e9ec6f2e82ab5cf">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a6ff456cc409af7ba7d0dc20512e5e756">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -188,13 +181,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.OffsetParameters.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BaseShellParameters_1ae0dcbca1ee041375228735631415006d">__init__</reimplements>
-        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1ab704a8e73b2c564a8052694edb25c462">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1aeb960d9ec3724e149eef0f5a00cb31c3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1abad6ad78011331bab5660df7e5b1a4f2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a758bdabd705528061999ce5d52ca83b0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1ae1d1f9f7f3f45ffe4e9ec6f2e82ab5cf">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a6ff456cc409af7ba7d0dc20512e5e756">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -213,13 +199,6 @@
         <argsstring>(self, OffsetParameters arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.OffsetParameters.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BaseShellParameters_1ae0dcbca1ee041375228735631415006d">__init__</reimplements>
-        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1ab704a8e73b2c564a8052694edb25c462">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1aeb960d9ec3724e149eef0f5a00cb31c3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1abad6ad78011331bab5660df7e5b1a4f2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a758bdabd705528061999ce5d52ca83b0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1ae1d1f9f7f3f45ffe4e9ec6f2e82ab5cf">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a6ff456cc409af7ba7d0dc20512e5e756">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -538,25 +517,10 @@ ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes
         <link refid="classmrmeshpy_1_1OffsetParameters"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_closeHolesInHoleWindingNumber</edgelabel>
-          <edgelabel>_offsetof_fwn</edgelabel>
-          <edgelabel>_offsetof_memoryEfficient</edgelabel>
-          <edgelabel>_offsetof_signDetectionMode</edgelabel>
-          <edgelabel>_offsetof_windingNumberBeta</edgelabel>
-          <edgelabel>_offsetof_windingNumberThreshold</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.BaseShellParameters</label>
         <link refid="classmrmeshpy_1_1BaseShellParameters"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_callBack</edgelabel>
-          <edgelabel>_offsetof_voxelSize</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41649" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41649" bodyend="41737"/>
@@ -564,12 +528,16 @@ ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes
       <member refid="classmrmeshpy_1_1OffsetParameters_1a372748bb57a6c6be37485a781b2271b4" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a1509a118ec67b80ca282a42454b5f889" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1acf815a59c9178133fcc0c7ce1c59a8bf" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1a76b8978fab3bc13f7203fa9af1586316" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>_offsetof_callBack</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a16a8f0bda2833d0748aa3d078b0ddf5f" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>_offsetof_closeHolesInHoleWindingNumber</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a5b84841ec78b8d0fab200a0c32ef228b" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>_offsetof_fwn</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a964970a9f42d107d6566346542bb4005" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>_offsetof_memoryEfficient</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a315041d63d63643efc30a81e38346553" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>_offsetof_signDetectionMode</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1a89640fcd0e48fe01a81050a8cc0d721b" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>_offsetof_voxelSize</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a96ff0a6f7f366e60cc51ef9695ab53ca" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>_offsetof_windingNumberBeta</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a7f3ac1c712e4e92992eb91187fd2f283" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>_offsetof_windingNumberThreshold</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1a0b638bc3153aba65d5ec3e8927e70a76" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>callBack</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1a37737e0dd982b59929fcd7d4fcea63c6" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>callBack</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a0af3482b1171b23d0a442dbd2720e13c" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>closeHolesInHoleWindingNumber</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a84fb46e9ea985e6f2658c8e46c26ba83" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>closeHolesInHoleWindingNumber</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1af9b220b13bd395d90e61a7326a3088af" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>fwn</name></member>
@@ -580,6 +548,8 @@ ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes
       <member refid="classmrmeshpy_1_1OffsetParameters_1a44bab9a67051feecb6720888853bc081" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a911783ddffca04d7ced26aa1716b08e0" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>signDetectionMode</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1ab8152d8b71d09dade831c583d39c747b" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>signDetectionMode</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1a67be211158058a002b8e263fd53038d7" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1a6c2e21914be98804f037991d69241e80" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>voxelSize</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a9c41647009efce39a0e69b876ec1eed1" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>windingNumberBeta</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1a506a08a44bae21e3b14365a388a3326c" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>windingNumberBeta</name></member>
       <member refid="classmrmeshpy_1_1OffsetParameters_1adf42e43cb5992da77dfa01b9484de302" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetParameters</scope><name>windingNumberThreshold</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRString_8h" kind="file" language="C++">
     <compoundname>MRString.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -39,7 +39,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRString.h</label>
+        <label>MRMesh/MRString.h</label>
         <link refid="MRString_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -99,7 +99,7 @@
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="group__BasicGroup_1gabb251db9705506c0578f5d14e6f4b3a7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="group__BasicGroup_1gabb251db9705506c0578f5d14e6f4b3a7" kindref="member">split</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>delimiter<sp/>);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
 <codeline lineno="37" refid="group__GeneralGroup_1gaad02dff14ccec10b269b5073bb74ca63" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1gabb251db9705506c0578f5d14e6f4b3a7" kindref="member">split</ref>(<sp/>std::string_view<sp/>str,<sp/>std::string_view<sp/>sep,<sp/>F&amp;&amp;<sp/>func<sp/>)</highlight></codeline>
 <codeline lineno="38"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/>index<sp/>=<sp/>0;</highlight></codeline>
@@ -129,8 +129,8 @@
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70" refid="group__GeneralGroup_1ga1bc87a88d5e7e781420c1fecc8da8478" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1bc87a88d5e7e781420c1fecc8da8478" kindref="member">hasFormatPlaceholders</ref>(<sp/>std::string_view<sp/>str<sp/>);</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h"/>
+    <location file="MRMesh/MRString.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1TimeUnit" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::TimeUnit</compoundname>
     <sectiondef kind="private-static-attrib">
@@ -314,20 +314,6 @@
   _count
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.TimeUnit</label>
-        <link refid="classmrmeshpy_1_1TimeUnit"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_count</edgelabel>
-          <edgelabel>milliseconds</edgelabel>
-          <edgelabel>seconds</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57144" bodyend="57183"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1TimeUnit_1ab17e74d61e101b1588682bbb0aa74220" prot="public" virt="non-virtual"><scope>mrmeshpy::TimeUnit</scope><name>__eq__</name></member>

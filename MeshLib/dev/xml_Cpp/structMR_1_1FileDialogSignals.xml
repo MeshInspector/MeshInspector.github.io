@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1FileDialogSignals" kind="struct" language="C++" prot="public">
     <compoundname>MR::FileDialogSignals</compoundname>
-    <includes refid="MRFileDialog_8h" local="no">MRFileDialog.h</includes>
+    <includes refid="MRFileDialog_8h" local="no">MRViewer/MRFileDialog.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gaf2edd6d3969959890c9d36abe0e8cfdf" kind="typedef"><name>SelectFileSignal</name></member>
       <member refid="group__GeneralGroup_1gae5d54be77bfb8a87ce567e148a75c449" kind="typedef"><name>SelectFilesSignal</name></member>
@@ -59,7 +59,7 @@
         <label>boost::signals2::signal&lt; void(const std::vector&lt; std::filesystem::path &gt; &amp;) &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialog.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialog.h" bodystart="16" bodyend="37"/>
+    <location file="MRViewer/MRFileDialog.h" line="15" column="1" bodyfile="MRViewer/MRFileDialog.h" bodystart="16" bodyend="37"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae31b41b314c4a34e109285a2a42f0a76" prot="private" virt="non-virtual"><scope>MR::FileDialogSignals</scope><name>FileDialogSignals</name></member>
       <member refid="group__GeneralGroup_1ga81565f110ac210bed8f1049f46c8e482" prot="public" virt="non-virtual"><scope>MR::FileDialogSignals</scope><name>instance</name></member>

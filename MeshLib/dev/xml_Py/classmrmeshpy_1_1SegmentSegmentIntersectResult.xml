@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1SegmentSegmentIntersectResult" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::SegmentSegmentIntersectResult</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -282,19 +282,6 @@
 <para><verbatim>Generated from:  MR::SegmentSegmentIntersectResult
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.SegmentSegmentIntersectResult</label>
-        <link refid="classmrmeshpy_1_1SegmentSegmentIntersectResult"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_cIsLeftFromAB</edgelabel>
-          <edgelabel>_offsetof_doIntersect</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51809" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51809" bodyend="51857"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1SegmentSegmentIntersectResult_1afd57256db0a41e9bcf19c77eae89289c" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmentSegmentIntersectResult</scope><name>__bool__</name></member>

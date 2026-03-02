@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MapOrHashMap__VertId__VertId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MapOrHashMap_VertId_VertId</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -470,18 +470,6 @@ stores a mapping from keys K to values V in one of two forms:
 2) as hash map preferable when valid keys are a small subset of the range
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.MapOrHashMap_VertId_VertId</label>
-        <link refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_var</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27277" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27277" bodyend="27355"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a64c8054d8f06d67d19b0d45a20469365" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>__init__</name></member>

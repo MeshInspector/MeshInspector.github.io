@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ModelPointsData" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ModelPointsData</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -389,21 +389,6 @@ Aliases:  Vector_ModelPointsData_ObjId.reference, std_vector_ModelPointsData_val
 structure to contain pointers to model data
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.ModelPointsData</label>
-        <link refid="classmrmeshpy_1_1ModelPointsData"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_fakeObjId</edgelabel>
-          <edgelabel>_offsetof_points</edgelabel>
-          <edgelabel>_offsetof_validPoints</edgelabel>
-          <edgelabel>_offsetof_xf</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35982" bodyend="36049"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ModelPointsData_1aeb921c0225a4604b566969e5163e522d" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelPointsData</scope><name>__init__</name></member>

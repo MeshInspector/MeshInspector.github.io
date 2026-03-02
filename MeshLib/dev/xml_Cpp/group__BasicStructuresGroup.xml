@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__BasicStructuresGroup" kind="group">
     <compoundname>BasicStructuresGroup</compoundname>
     <title>Basic Structures</title>
@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" line="746" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" bodystart="746" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="746" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="746" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="var">
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="17" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" bodystart="17" bodyend="-1"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="17" column="21" bodyfile="MRVoxels/MRFloatGrid.h" bodystart="17" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="43" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="43" declcolumn="10"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="43" column="10" declfile="MRVoxels/MRFloatGrid.h" declline="43" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga1bfdecc867ada4fd3525c717441a44ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FloatGrid</type>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="46" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="46" declcolumn="12"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="46" column="12" declfile="MRVoxels/MRFloatGrid.h" declline="46" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1gaf17bb94ba9fe8bf6f01de2334d8be119" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FloatGrid</type>
@@ -116,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="49" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="49" declcolumn="12"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="49" column="12" declfile="MRVoxels/MRFloatGrid.h" declline="49" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1gafe5c0e6c9a49fbd709c7243c3892e270" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FloatGrid</type>
@@ -144,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="52" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="52" declcolumn="12"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="52" column="12" declfile="MRVoxels/MRFloatGrid.h" declline="52" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga5ccf9f11a87d554ea33bc5ee074032f2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -167,7 +167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="55" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="55" declcolumn="10"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="55" column="10" declfile="MRVoxels/MRFloatGrid.h" declline="55" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga1322ac706e673ed930bc4c32c05fa2d3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="58" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="58" declcolumn="10"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="58" column="10" declfile="MRVoxels/MRFloatGrid.h" declline="58" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga31ae4b6e3ced3e32c00e186c5888dbd6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -213,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="61" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="61" declcolumn="10"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="61" column="10" declfile="MRVoxels/MRFloatGrid.h" declline="61" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga5c9d5ece99325ae854e7ea6641867e05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -245,7 +245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="64" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="64" declcolumn="7"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="64" column="7" declfile="MRVoxels/MRFloatGrid.h" declline="64" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga228e41b0a57baa8fb525f4aeec502554" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FloatGrid</type>
@@ -276,7 +276,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="65" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="65" declcolumn="12"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="65" column="12" declfile="MRVoxels/MRFloatGrid.h" declline="65" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1gab91d72c223381e73edff31cc3b8405e4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -299,7 +299,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="68" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="68" declcolumn="9"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="68" column="9" declfile="MRVoxels/MRFloatGrid.h" declline="68" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga24e9cfbbad1dbef4e985c5351f7863fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -328,7 +328,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="72" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="72" declcolumn="7"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="72" column="7" declfile="MRVoxels/MRFloatGrid.h" declline="72" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga4b8a485f1c34582e929fb3123f84de8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -357,7 +357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="76" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="76" declcolumn="7"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="76" column="7" declfile="MRVoxels/MRFloatGrid.h" declline="76" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1gae4a0d8b7bd4d17ddbbfe338314714867" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Box3i</type>
@@ -376,7 +376,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="81" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="81" declcolumn="9"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="81" column="9" declfile="MRVoxels/MRFloatGrid.h" declline="81" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga1d3651fa5e9662f55a9a4512df2f3faf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -405,7 +405,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="85" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="85" declcolumn="7"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="85" column="7" declfile="MRVoxels/MRFloatGrid.h" declline="85" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga9a2627798d685fc7e535ab8f8d9daced" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -424,7 +424,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="88" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="88" declcolumn="7"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="88" column="7" declfile="MRVoxels/MRFloatGrid.h" declline="88" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1gaffeefc19c16dfc736abf14edb6cee834" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FloatGrid</type>
@@ -449,7 +449,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="92" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="92" declcolumn="12"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="92" column="12" declfile="MRVoxels/MRFloatGrid.h" declline="92" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga2c64eb34f40157199ec9339b67a68c25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FloatGrid</type>
@@ -474,7 +474,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="96" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="96" declcolumn="12"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="96" column="12" declfile="MRVoxels/MRFloatGrid.h" declline="96" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga5f56c86c89163056f639520e5586c53b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FloatGrid</type>
@@ -499,7 +499,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="100" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="100" declcolumn="12"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="100" column="12" declfile="MRVoxels/MRFloatGrid.h" declline="100" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga77f85359ff4407f9d67e76e38dd20bd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FloatGrid</type>
@@ -524,7 +524,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="104" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="104" declcolumn="12"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="104" column="12" declfile="MRVoxels/MRFloatGrid.h" declline="104" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga7e5914a3cd2ce8b03c5af9f9a7a389d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FloatGrid</type>
@@ -549,7 +549,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="108" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="108" declcolumn="12"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="108" column="12" declfile="MRVoxels/MRFloatGrid.h" declline="108" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1gaf5da868ff81726bd747e54deb6b87009" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FloatGrid</type>
@@ -574,7 +574,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" line="112" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h" declline="112" declcolumn="12"/>
+        <location file="MRVoxels/MRFloatGrid.h" line="112" column="12" declfile="MRVoxels/MRFloatGrid.h" declline="112" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga12f92e71b639968eb7a4ffb4cbe51291" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE openvdb::FloatGrid &amp;</type>
@@ -592,7 +592,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" line="28" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" bodystart="28" bodyend="28"/>
+        <location file="MRVoxels/MRVDBFloatGrid.h" line="28" column="43" bodyfile="MRVoxels/MRVDBFloatGrid.h" bodystart="28" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga7c6031335bfc2515993437f951485ad1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE const openvdb::FloatGrid &amp;</type>
@@ -610,7 +610,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" line="29" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" bodystart="29" bodyend="29"/>
+        <location file="MRVoxels/MRVDBFloatGrid.h" line="29" column="49" bodyfile="MRVoxels/MRVDBFloatGrid.h" bodystart="29" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga008386feb5f7364043e76dc51b8a0a9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE FloatGrid</type>
@@ -628,7 +628,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" line="32" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" declline="32" declcolumn="33"/>
+        <location file="MRVoxels/MRVDBFloatGrid.h" line="32" column="33" declfile="MRVoxels/MRVDBFloatGrid.h" declline="32" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga00a487924b8ec452f4a8b75891d68fc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE FloatGrid</type>
@@ -647,7 +647,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" line="35" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" bodystart="35" bodyend="40"/>
+        <location file="MRVoxels/MRVDBFloatGrid.h" line="35" column="33" bodyfile="MRVoxels/MRVDBFloatGrid.h" bodystart="35" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga218b14201bd57ed729188c171faf44b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE Vector3i</type>
@@ -665,7 +665,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" line="42" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" bodystart="42" bodyend="45"/>
+        <location file="MRVoxels/MRVDBFloatGrid.h" line="42" column="32" bodyfile="MRVoxels/MRVDBFloatGrid.h" bodystart="42" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1gab75a6a1d7c95c635ac4101c7a3d25eab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE openvdb::Coord</type>
@@ -683,7 +683,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" line="47" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" bodystart="47" bodyend="50"/>
+        <location file="MRVoxels/MRVDBFloatGrid.h" line="47" column="38" bodyfile="MRVoxels/MRVDBFloatGrid.h" bodystart="47" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga99ce50f6a936498fa39156fff3bd3397" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE Box3i</type>
@@ -701,7 +701,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" line="52" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" bodystart="52" bodyend="55"/>
+        <location file="MRVoxels/MRVDBFloatGrid.h" line="52" column="29" bodyfile="MRVoxels/MRVDBFloatGrid.h" bodystart="52" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1gafaceca609bb25c112d03e61621d7df0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE openvdb::CoordBBox</type>
@@ -719,7 +719,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" line="57" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" bodystart="57" bodyend="60"/>
+        <location file="MRVoxels/MRVDBFloatGrid.h" line="57" column="42" bodyfile="MRVoxels/MRVDBFloatGrid.h" bodystart="57" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicStructuresGroup_1ga4638fcf62c2a9d1394b8d69425b9f993" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE openvdb::CoordBBox</type>
@@ -737,7 +737,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" line="62" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" bodystart="62" bodyend="66"/>
+        <location file="MRVoxels/MRVDBFloatGrid.h" line="62" column="42" bodyfile="MRVoxels/MRVDBFloatGrid.h" bodystart="62" bodyend="66"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

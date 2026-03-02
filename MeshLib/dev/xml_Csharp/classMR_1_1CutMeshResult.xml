@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
-  <compounddef id="classMR_1_1CutMeshResult" kind="class" language="C#" prot="private">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1CutMeshResult" kind="struct" language="C#" prot="public">
     <compoundname>MR::CutMeshResult</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_CutMeshResult</basecompoundref>
     <sectiondef kind="property">
@@ -28,7 +28,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way <simplesect kind="see"><para>MR.CutMeshParameters </para>
+<para>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way <simplesect kind="see"><para><ref refid="classMR_1_1CutMeshParameters" kindref="compound">MR.CutMeshParameters</ref> </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -92,7 +92,7 @@
           <declname>fbsWithContourIntersections</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR.CutMeshResult</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput><ref refid="classMR_1_1CutMeshResult" kindref="compound">MR.CutMeshResult</ref></computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -111,7 +111,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.CutMeshResult.CutMeshResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CutMeshResult_1acae9c44ec086cbebbcaa452218a97fac" kindref="member">MR.CutMeshResult.CutMeshResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -130,7 +130,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.CutMeshResult.CutMeshResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CutMeshResult_1acae9c44ec086cbebbcaa452218a97fac" kindref="member">MR.CutMeshResult.CutMeshResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -145,11 +145,11 @@
         <name>CutMeshResult</name>
         <qualifiedname>MR.CutMeshResult.CutMeshResult</qualifiedname>
         <param>
-          <type>CutMeshResult</type>
+          <type><ref refid="classMR_1_1CutMeshResult" kindref="compound">CutMeshResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.CutMeshResult.CutMeshResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CutMeshResult_1acae9c44ec086cbebbcaa452218a97fac" kindref="member">MR.CutMeshResult.CutMeshResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -158,7 +158,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="800" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="800" bodyend="800"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutMeshResult_1a90cc0cb80a5cb26c2da018eb623d8d82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.CutMeshResult</type>
+        <type>unsafe <ref refid="classMR_1_1CutMeshResult" kindref="compound">MR.CutMeshResult</ref></type>
         <definition>unsafe MR.CutMeshResult MR.CutMeshResult.assign</definition>
         <argsstring>(MR._ByValue_CutMeshResult _other)</argsstring>
         <name>assign</name>
@@ -168,7 +168,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.CutMeshResult.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::CutMeshResult::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -178,52 +178,54 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>This structure contains result of <ref refid="classMR_1a69c80bb31266546933db0c88875afc59" kindref="member">MR.cutMesh</ref> function Generated from class <computeroutput>MR.CutMeshResult</computeroutput>. This is the const half of the class. </para>
+<para>This structure contains result of <ref refid="classMR_1a69c80bb31266546933db0c88875afc59" kindref="member">MR.cutMesh</ref> function Generated from class <computeroutput><ref refid="classMR_1_1CutMeshResult" kindref="compound">MR.CutMeshResult</ref></computeroutput>. This is the const half of the class. </para>
     </briefdescription>
     <detaileddescription>
-<para>This structure contains result of <ref refid="classMR_1a69c80bb31266546933db0c88875afc59" kindref="member">MR.cutMesh</ref> function Generated from class <computeroutput>MR.CutMeshResult</computeroutput>. This is the non-const half of the class. </para>
+<para>This structure contains result of <ref refid="classMR_1a69c80bb31266546933db0c88875afc59" kindref="member">MR.cutMesh</ref> function Generated from class <computeroutput><ref refid="classMR_1_1CutMeshResult" kindref="compound">MR.CutMeshResult</ref></computeroutput>. This is the non-const half of the class. </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.CutMeshResult</label>
+        <link refid="classMR_1_1CutMeshResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_CutMeshResult</label>
+        <label>MR.Const_CutMeshResult</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.CutMeshResult</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_CutMeshResult &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.CutMeshResult</label>
+        <link refid="classMR_1_1CutMeshResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_CutMeshResult</label>
+        <label>MR.Const_CutMeshResult</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.CutMeshResult</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_CutMeshResult &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="716" column="11"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="716" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="717" bodyend="813"/>
     <listofallmembers>
       <member refid="classMR_1_1CutMeshResult_1a90cc0cb80a5cb26c2da018eb623d8d82" prot="public" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>assign</name></member>
       <member refid="classMR_1_1CutMeshResult_1af27e30eacad91023163db71e4f57945e" prot="package" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>CutMeshResult</name></member>

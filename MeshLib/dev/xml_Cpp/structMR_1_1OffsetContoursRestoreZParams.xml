@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1OffsetContoursRestoreZParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::OffsetContoursRestoreZParams</compoundname>
-    <includes refid="MROffsetContours_8h" local="no">MROffsetContours.h</includes>
+    <includes refid="MROffsetContours_8h" local="no">MRMesh/MROffsetContours.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga1b3a2ad8c458d6b108bfb101240d3d2c" kind="typedef"><name>OriginZCallback</name></member>
     </sectiondef>
@@ -15,7 +15,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="93" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="94" bodyend="101"/>
+    <location file="MRMesh/MROffsetContours.h" line="93" column="1" bodyfile="MRMesh/MROffsetContours.h" bodystart="94" bodyend="101"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1b3a2ad8c458d6b108bfb101240d3d2c" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>OriginZCallback</name></member>
       <member refid="group__GeneralGroup_1gad56a82055a6779969941251b8ad56f97" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>relaxIterations</name></member>

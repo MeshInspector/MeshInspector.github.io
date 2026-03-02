@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewerTitle" kind="class" language="C++" prot="public">
     <compoundname>MR::ViewerTitle</compoundname>
-    <includes refid="MRViewerTitle_8h" local="no">MRViewerTitle.h</includes>
+    <includes refid="MRViewerTitle_8h" local="no">MRViewer/MRViewerTitle.h</includes>
     <sectiondef kind="protected-attrib">
       <member refid="group__GeneralGroup_1gafbaa3821e3b91c3e3250736005a7e6d4" kind="variable"><name>appName_</name></member>
       <member refid="group__GeneralGroup_1ga3f2e4aee7140f209be94eceacd3a0ea0" kind="variable"><name>version_</name></member>
@@ -27,7 +27,7 @@
     <detaileddescription>
 <para>class to compose viewer title from several parts appName (version) sceneName </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerTitle.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerTitle.h" bodystart="14" bodyend="40"/>
+    <location file="MRViewer/MRViewerTitle.h" line="13" column="1" bodyfile="MRViewer/MRViewerTitle.h" bodystart="14" bodyend="40"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gafbaa3821e3b91c3e3250736005a7e6d4" prot="protected" virt="non-virtual"><scope>MR::ViewerTitle</scope><name>appName_</name></member>
       <member refid="group__GeneralGroup_1ga627b3e701af4cc458b7f616988f7d429" prot="public" virt="virtual"><scope>MR::ViewerTitle</scope><name>compose</name></member>

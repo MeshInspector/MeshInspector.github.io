@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Matrix__float" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Matrix_float</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1RectIndexer" prot="public" virt="non-virtual">mrmeshpy.RectIndexer</basecompoundref>
@@ -10,7 +10,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Matrix_float.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RectIndexer_1ab1edef7af78a60f135dfd592f4db3b74">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -179,7 +178,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Matrix_float.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RectIndexer_1ab1edef7af78a60f135dfd592f4db3b74">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -198,7 +196,6 @@
         <argsstring>(self, int numRows, int numCols)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Matrix_float.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RectIndexer_1ab1edef7af78a60f135dfd592f4db3b74">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -225,7 +222,6 @@
         <argsstring>(self, Matrix_float arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Matrix_float.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RectIndexer_1ab1edef7af78a60f135dfd592f4db3b74">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -435,14 +431,25 @@ Row-major matrix with T values
       <member refid="classmrmeshpy_1_1Matrix__float_1a90f34c4b121bef4c251aba5a7340b1f5" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Matrix__float_1a38b008933dcd2fd7c9c67790498b8fd8" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Matrix__float_1ae5f9715f3d02f9ba464b83b52925d7ca" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a27e451d40797215779c9255b084d99f7" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>areNeigbors</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a6c23c4d90dc1fef793b740fc91956626" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>areNeigbors</name></member>
       <member refid="classmrmeshpy_1_1Matrix__float_1ab68f518661702422249be6f5391d7ca9" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>clear</name></member>
       <member refid="classmrmeshpy_1_1Matrix__float_1a2271d584b188492ba1fd8b784c3a75e2" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a9ba99f18552f382c8e2f10540e3c9630" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>dims</name></member>
       <member refid="classmrmeshpy_1_1Matrix__float_1aca08939f63c131bd26fdb9538a05e201" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>fill</name></member>
       <member refid="classmrmeshpy_1_1Matrix__float_1a6ea1ae6e15c571f430706876ef4fd903" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>getColsNum</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a87ec23ff9e60e4e9efcd49d86c652153" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>getNeighbor</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1aa645b2294161a3337fa6eb76b0ef7875" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>getNeighbor</name></member>
       <member refid="classmrmeshpy_1_1Matrix__float_1ab40409255045e0069b350f838f212b4c" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>getRowsNum</name></member>
       <member refid="classmrmeshpy_1_1Matrix__float_1aa49c474945068e1824ef3372fc9f16df" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>getSubMatrix</name></member>
       <member refid="classmrmeshpy_1_1Matrix__float_1a5e98bf91e992fbfbdc001ce7360cf714" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Matrix__float_1a5e98bf91e992fbfbdc001ce7360cf714" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a5a057c9ea99fecc08350ec8e9ee84e67" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1abae9d444cfed27fc50696762e20f3d2d" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1ab4448d6b90f03e77c082264013981c0c" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>toIndex</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a8749d8e7e091021bec46a95a5b21779a" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>toPixelId</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1aa9005b3f3d99b3470b8a767a2ccc5020" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>toPos</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1af8a6233b03fc2a53e2ac399d228a6b6e" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>toPos</name></member>
       <member refid="classmrmeshpy_1_1Matrix__float_1a2b0dec6b20ffa7030981cb922b173d29" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>transposed</name></member>
     </listofallmembers>
   </compounddef>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1GlTexture" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>MR::GlTexture</compoundname>
     <derivedcompoundref refid="classMR_1_1GlTexture2" prot="public" virt="non-virtual">MR::GlTexture2</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1GlTexture2DArray" prot="public" virt="non-virtual">MR::GlTexture2DArray</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1GlTexture3" prot="public" virt="non-virtual">MR::GlTexture3</derivedcompoundref>
-    <includes refid="MRGLTexture_8h" local="no">MRGLTexture.h</includes>
+    <includes refid="MRGLTexture_8h" local="no">MRViewer/MRGLTexture.h</includes>
     <innerclass refid="structMR_1_1GlTexture_1_1Settings" prot="public">MR::GlTexture::Settings</innerclass>
     <sectiondef kind="public-static-attrib">
       <member refid="group__GeneralGroup_1ga41901568843aff73ce764e7d07c0a81f" kind="variable"><name>NO_TEX</name></member>
@@ -68,7 +68,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="21" bodyend="97"/>
+    <location file="MRViewer/MRGLTexture.h" line="20" column="1" bodyfile="MRViewer/MRGLTexture.h" bodystart="21" bodyend="97"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0ba534a61df38338314d15ac8316c4a6" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>bind</name></member>
       <member refid="group__GeneralGroup_1gae18f7ab8405f1a72d24b278cbf722894" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>del</name></member>

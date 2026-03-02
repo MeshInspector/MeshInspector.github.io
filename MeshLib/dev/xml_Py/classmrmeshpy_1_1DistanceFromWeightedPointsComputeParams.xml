@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::DistanceFromWeightedPointsComputeParams</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams" prot="public" virt="non-virtual">mrmeshpy.DistanceFromWeightedPointsParams</basecompoundref>
@@ -42,7 +42,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.DistanceFromWeightedPointsComputeParams.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1a6607148095004b3ec7c9f7233247c94a">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -113,7 +112,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.DistanceFromWeightedPointsComputeParams.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1a6607148095004b3ec7c9f7233247c94a">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -132,7 +130,6 @@
         <argsstring>(self, DistanceFromWeightedPointsComputeParams arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.DistanceFromWeightedPointsComputeParams.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1a6607148095004b3ec7c9f7233247c94a">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -260,24 +257,10 @@
         <link refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_maxBidirDist</edgelabel>
-          <edgelabel>_offsetof_minBidirDist</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.DistanceFromWeightedPointsParams</label>
         <link refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_bidirectionalMode</edgelabel>
-          <edgelabel>_offsetof_maxWeight</edgelabel>
-          <edgelabel>_offsetof_maxWeightGrad</edgelabel>
-          <edgelabel>_offsetof_minWeight</edgelabel>
-          <edgelabel>_offsetof_pointWeight</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13348" bodyend="13389"/>
@@ -285,14 +268,29 @@
       <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1ac508e9006f5f12136d2efcb6c52d99d6" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1aff19f85195ae8d9353e3cb358e459df5" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1aaa2feced824d25149ad7b8551aabdb2a" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1a0b7ca967b63a8a41354030d9ea0b3e52" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>_offsetof_bidirectionalMode</name></member>
       <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1ad66cee50c873b9c05853022517da9f93" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>_offsetof_maxBidirDist</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1aa62b10547e0bc98a45bfe475f796d076" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>_offsetof_maxWeight</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1a8569bc01d1af3b1512ef6bfde7bb8e57" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>_offsetof_maxWeightGrad</name></member>
       <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a68f3d61facb4f619ffb599143da48f90" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>_offsetof_minBidirDist</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1abaf59ca8b5493aaa8587c28d85a115fc" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>_offsetof_minWeight</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1a612bb2a797aacdbab7fe45c66639a911" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>_offsetof_pointWeight</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1a9610d76812b720cef09ac8c763ce0f76" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>bidirectionalMode</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1ab0bc383b2248ab02b44d177eb0d7b95b" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>bidirectionalMode</name></member>
       <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a4f48943fca1f949303742a2d0940224b" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>maxBidirDist</name></member>
       <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a471afe60108bd380ce0a777ed09c1e10" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>maxBidirDist</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1a4e6474e3c1c9ebbcccbc5685399f3918" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>maxWeight</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1ada21a1617423cd83284fe696290509f9" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>maxWeight</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1a1010ce447c69992a84c0ee6b628363b8" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>maxWeightGrad</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1a05ed105abc4fe886ca5140c83bb682af" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>maxWeightGrad</name></member>
       <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a7c3ac99a5600eed2276cb1b290e6e5fd" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>minBidirDist</name></member>
       <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1ac84b9cff09e33c3b602c90e6a23a1722" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>minBidirDist</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1aeab96b75f8f798f379599b98cefbb8c0" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>minWeight</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1ae54b3244e79b03312e1ad53027edf850" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>minWeight</name></member>
       <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a901c9e8e8819fd18c6d679b10fb2f317" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a901c9e8e8819fd18c6d679b10fb2f317" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1ade67d7bf2d6593ec7f90b7d0ad690777" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>pointWeight</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1a9bb485f7c22748c0b80b7609224df2c9" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>pointWeight</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRBestFitPolynomial_8h" kind="file" language="C++">
     <compoundname>MRBestFitPolynomial.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -97,19 +97,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="17" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBestFitPolynomial_8h_1aba323e6d596956f5a589a525c6f6adbc" prot="public" static="no">
-        <type>struct <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref></type>
-        <definition>typedef struct MR_std_vector_float MR_std_vector_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="18" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRBestFitPolynomial_8h_1afccaaee85e87e8e99ac37e2f2c97bb6c" prot="public" static="no">
         <type>struct <ref refid="MRBestFitPolynomial_8h_1afccaaee85e87e8e99ac37e2f2c97bb6c" kindref="member">MR_Polynomial_float_0</ref></type>
@@ -501,7 +488,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Polynomial_float_0</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1afccaaee85e87e8e99ac37e2f2c97bb6c" kindref="member">MR_Polynomial_float_0</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -519,7 +506,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Polynomial_float_0</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1afccaaee85e87e8e99ac37e2f2c97bb6c" kindref="member">MR_Polynomial_float_0</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -747,7 +734,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Polynomial_float_1</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1a5104f73a9dc2601112bcdc1ce364977b" kindref="member">MR_Polynomial_float_1</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -765,7 +752,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Polynomial_float_1</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1a5104f73a9dc2601112bcdc1ce364977b" kindref="member">MR_Polynomial_float_1</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1015,7 +1002,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Polynomial_float_2</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1affbf9b4662a3d25adac14d13b52e3a5c" kindref="member">MR_Polynomial_float_2</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1033,7 +1020,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Polynomial_float_2</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1affbf9b4662a3d25adac14d13b52e3a5c" kindref="member">MR_Polynomial_float_2</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1283,7 +1270,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Polynomial_float_3</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1ab8e2cd0a6fc85aec8b6d51975cd169bf" kindref="member">MR_Polynomial_float_3</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1301,7 +1288,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Polynomial_float_3</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1ab8e2cd0a6fc85aec8b6d51975cd169bf" kindref="member">MR_Polynomial_float_3</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1551,7 +1538,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Polynomial_float_4</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1a6930c08fb38235d9ddaa92b0b26f8eb0" kindref="member">MR_Polynomial_float_4</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1569,7 +1556,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Polynomial_float_4</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1a6930c08fb38235d9ddaa92b0b26f8eb0" kindref="member">MR_Polynomial_float_4</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1819,7 +1806,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Polynomial_float_5</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1ab1a33715f68af0d7114b777ffc401b7d" kindref="member">MR_Polynomial_float_5</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1837,7 +1824,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Polynomial_float_5</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1ab1a33715f68af0d7114b777ffc401b7d" kindref="member">MR_Polynomial_float_5</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2065,7 +2052,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Polynomial_float_6</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1aadada3d9f38e3e169f929403bfdfa233" kindref="member">MR_Polynomial_float_6</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2083,7 +2070,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Polynomial_float_6</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1aadada3d9f38e3e169f929403bfdfa233" kindref="member">MR_Polynomial_float_6</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2285,7 +2272,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Polynomial_double_0</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" kindref="member">MR_Polynomial_double_0</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2303,7 +2290,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Polynomial_double_0</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" kindref="member">MR_Polynomial_double_0</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2531,7 +2518,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Polynomial_double_1</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" kindref="member">MR_Polynomial_double_1</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2549,7 +2536,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Polynomial_double_1</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" kindref="member">MR_Polynomial_double_1</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2799,7 +2786,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Polynomial_double_2</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" kindref="member">MR_Polynomial_double_2</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2817,7 +2804,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Polynomial_double_2</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" kindref="member">MR_Polynomial_double_2</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3067,7 +3054,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Polynomial_double_3</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" kindref="member">MR_Polynomial_double_3</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3085,7 +3072,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Polynomial_double_3</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" kindref="member">MR_Polynomial_double_3</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3335,7 +3322,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Polynomial_double_4</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" kindref="member">MR_Polynomial_double_4</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3353,7 +3340,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Polynomial_double_4</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" kindref="member">MR_Polynomial_double_4</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3603,7 +3590,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Polynomial_double_5</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3621,7 +3608,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Polynomial_double_5</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3849,7 +3836,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Polynomial_double_6</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3867,7 +3854,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Polynomial_double_6</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4079,7 +4066,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PolynomialWrapper_float</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4097,7 +4084,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PolynomialWrapper_float</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4335,7 +4322,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PolynomialWrapper_double</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4353,7 +4340,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PolynomialWrapper_double</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4476,68 +4463,68 @@
 <codeline lineno="15" refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRBestFitPolynomial_8h_1a27bc416448c93f18df2f616b9809c7fc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a27bc416448c93f18df2f616b9809c7fc" kindref="member">MR_std_variant_MR_Polynomial_float_0_MR_Polynomial_float_1_MR_Polynomial_float_2_MR_Polynomial_float_3_MR_Polynomial_float_4_MR_Polynomial_float_5_MR_Polynomial_float_6</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a27bc416448c93f18df2f616b9809c7fc" kindref="member">MR_std_variant_MR_Polynomial_float_0_MR_Polynomial_float_1_MR_Polynomial_float_2_MR_Polynomial_float_3_MR_Polynomial_float_4_MR_Polynomial_float_5_MR_Polynomial_float_6</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_variant_MR_Polynomial_float_0_MR_Polynomial_float_1_MR_Polynomial_float_2_MR_Polynomial___4993.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_double.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRBestFitPolynomial_8h_1aba323e6d596956f5a589a525c6f6adbc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Please<sp/>note<sp/>that<sp/>these<sp/>template<sp/>classes<sp/>are<sp/>explicitly<sp/>instantiated<sp/>in<sp/>the<sp/>corresponding<sp/>.cpp<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight></codeline>
-<codeline lineno="25" refid="MRBestFitPolynomial_8h_1afccaaee85e87e8e99ac37e2f2c97bb6c" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1afccaaee85e87e8e99ac37e2f2c97bb6c" kindref="member">MR_Polynomial_float_0</ref><sp/><ref refid="MRBestFitPolynomial_8h_1afccaaee85e87e8e99ac37e2f2c97bb6c" kindref="member">MR_Polynomial_float_0</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="MRBestFitPolynomial_8h_1afccaaee85e87e8e99ac37e2f2c97bb6c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1afccaaee85e87e8e99ac37e2f2c97bb6c" kindref="member">MR_Polynomial_float_0</ref><sp/><ref refid="MRBestFitPolynomial_8h_1afccaaee85e87e8e99ac37e2f2c97bb6c" kindref="member">MR_Polynomial_float_0</ref>;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Please<sp/>note<sp/>that<sp/>these<sp/>template<sp/>classes<sp/>are<sp/>explicitly<sp/>instantiated<sp/>in<sp/>the<sp/>corresponding<sp/>.cpp<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight></codeline>
-<codeline lineno="31" refid="MRBestFitPolynomial_8h_1a5104f73a9dc2601112bcdc1ce364977b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a5104f73a9dc2601112bcdc1ce364977b" kindref="member">MR_Polynomial_float_1</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a5104f73a9dc2601112bcdc1ce364977b" kindref="member">MR_Polynomial_float_1</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="MRBestFitPolynomial_8h_1a5104f73a9dc2601112bcdc1ce364977b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a5104f73a9dc2601112bcdc1ce364977b" kindref="member">MR_Polynomial_float_1</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a5104f73a9dc2601112bcdc1ce364977b" kindref="member">MR_Polynomial_float_1</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Please<sp/>note<sp/>that<sp/>these<sp/>template<sp/>classes<sp/>are<sp/>explicitly<sp/>instantiated<sp/>in<sp/>the<sp/>corresponding<sp/>.cpp<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight></codeline>
-<codeline lineno="37" refid="MRBestFitPolynomial_8h_1affbf9b4662a3d25adac14d13b52e3a5c" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1affbf9b4662a3d25adac14d13b52e3a5c" kindref="member">MR_Polynomial_float_2</ref><sp/><ref refid="MRBestFitPolynomial_8h_1affbf9b4662a3d25adac14d13b52e3a5c" kindref="member">MR_Polynomial_float_2</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRBestFitPolynomial_8h_1affbf9b4662a3d25adac14d13b52e3a5c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1affbf9b4662a3d25adac14d13b52e3a5c" kindref="member">MR_Polynomial_float_2</ref><sp/><ref refid="MRBestFitPolynomial_8h_1affbf9b4662a3d25adac14d13b52e3a5c" kindref="member">MR_Polynomial_float_2</ref>;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Please<sp/>note<sp/>that<sp/>these<sp/>template<sp/>classes<sp/>are<sp/>explicitly<sp/>instantiated<sp/>in<sp/>the<sp/>corresponding<sp/>.cpp<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight></codeline>
-<codeline lineno="43" refid="MRBestFitPolynomial_8h_1ab8e2cd0a6fc85aec8b6d51975cd169bf" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1ab8e2cd0a6fc85aec8b6d51975cd169bf" kindref="member">MR_Polynomial_float_3</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab8e2cd0a6fc85aec8b6d51975cd169bf" kindref="member">MR_Polynomial_float_3</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRBestFitPolynomial_8h_1ab8e2cd0a6fc85aec8b6d51975cd169bf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1ab8e2cd0a6fc85aec8b6d51975cd169bf" kindref="member">MR_Polynomial_float_3</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab8e2cd0a6fc85aec8b6d51975cd169bf" kindref="member">MR_Polynomial_float_3</ref>;</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Please<sp/>note<sp/>that<sp/>these<sp/>template<sp/>classes<sp/>are<sp/>explicitly<sp/>instantiated<sp/>in<sp/>the<sp/>corresponding<sp/>.cpp<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight></codeline>
-<codeline lineno="49" refid="MRBestFitPolynomial_8h_1a6930c08fb38235d9ddaa92b0b26f8eb0" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a6930c08fb38235d9ddaa92b0b26f8eb0" kindref="member">MR_Polynomial_float_4</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a6930c08fb38235d9ddaa92b0b26f8eb0" kindref="member">MR_Polynomial_float_4</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="MRBestFitPolynomial_8h_1a6930c08fb38235d9ddaa92b0b26f8eb0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a6930c08fb38235d9ddaa92b0b26f8eb0" kindref="member">MR_Polynomial_float_4</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a6930c08fb38235d9ddaa92b0b26f8eb0" kindref="member">MR_Polynomial_float_4</ref>;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Please<sp/>note<sp/>that<sp/>these<sp/>template<sp/>classes<sp/>are<sp/>explicitly<sp/>instantiated<sp/>in<sp/>the<sp/>corresponding<sp/>.cpp<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight></codeline>
-<codeline lineno="55" refid="MRBestFitPolynomial_8h_1ab1a33715f68af0d7114b777ffc401b7d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1ab1a33715f68af0d7114b777ffc401b7d" kindref="member">MR_Polynomial_float_5</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab1a33715f68af0d7114b777ffc401b7d" kindref="member">MR_Polynomial_float_5</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRBestFitPolynomial_8h_1ab1a33715f68af0d7114b777ffc401b7d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1ab1a33715f68af0d7114b777ffc401b7d" kindref="member">MR_Polynomial_float_5</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab1a33715f68af0d7114b777ffc401b7d" kindref="member">MR_Polynomial_float_5</ref>;</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Please<sp/>note<sp/>that<sp/>these<sp/>template<sp/>classes<sp/>are<sp/>explicitly<sp/>instantiated<sp/>in<sp/>the<sp/>corresponding<sp/>.cpp<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight></codeline>
-<codeline lineno="61" refid="MRBestFitPolynomial_8h_1aadada3d9f38e3e169f929403bfdfa233" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1aadada3d9f38e3e169f929403bfdfa233" kindref="member">MR_Polynomial_float_6</ref><sp/><ref refid="MRBestFitPolynomial_8h_1aadada3d9f38e3e169f929403bfdfa233" kindref="member">MR_Polynomial_float_6</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="MRBestFitPolynomial_8h_1aadada3d9f38e3e169f929403bfdfa233" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1aadada3d9f38e3e169f929403bfdfa233" kindref="member">MR_Polynomial_float_6</ref><sp/><ref refid="MRBestFitPolynomial_8h_1aadada3d9f38e3e169f929403bfdfa233" kindref="member">MR_Polynomial_float_6</ref>;</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Please<sp/>note<sp/>that<sp/>these<sp/>template<sp/>classes<sp/>are<sp/>explicitly<sp/>instantiated<sp/>in<sp/>the<sp/>corresponding<sp/>.cpp<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight></codeline>
-<codeline lineno="67" refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" kindref="member">MR_Polynomial_double_0</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" kindref="member">MR_Polynomial_double_0</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" kindref="member">MR_Polynomial_double_0</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a0698a1dab93036f1ce759195ffa47702" kindref="member">MR_Polynomial_double_0</ref>;</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Please<sp/>note<sp/>that<sp/>these<sp/>template<sp/>classes<sp/>are<sp/>explicitly<sp/>instantiated<sp/>in<sp/>the<sp/>corresponding<sp/>.cpp<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight></codeline>
-<codeline lineno="73" refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" kindref="member">MR_Polynomial_double_1</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" kindref="member">MR_Polynomial_double_1</ref>;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" kindref="member">MR_Polynomial_double_1</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a1933e2f3936d7d6422d40b98e38cdd52" kindref="member">MR_Polynomial_double_1</ref>;</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Please<sp/>note<sp/>that<sp/>these<sp/>template<sp/>classes<sp/>are<sp/>explicitly<sp/>instantiated<sp/>in<sp/>the<sp/>corresponding<sp/>.cpp<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight></codeline>
-<codeline lineno="79" refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" kindref="member">MR_Polynomial_double_2</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" kindref="member">MR_Polynomial_double_2</ref>;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" kindref="member">MR_Polynomial_double_2</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a28b4d22a35874ccc24d8eebd84ad0e94" kindref="member">MR_Polynomial_double_2</ref>;</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Please<sp/>note<sp/>that<sp/>these<sp/>template<sp/>classes<sp/>are<sp/>explicitly<sp/>instantiated<sp/>in<sp/>the<sp/>corresponding<sp/>.cpp<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight></codeline>
-<codeline lineno="85" refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" kindref="member">MR_Polynomial_double_3</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" kindref="member">MR_Polynomial_double_3</ref>;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" kindref="member">MR_Polynomial_double_3</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a3c0b730b3da840c403fb5641ab33f439" kindref="member">MR_Polynomial_double_3</ref>;</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Please<sp/>note<sp/>that<sp/>these<sp/>template<sp/>classes<sp/>are<sp/>explicitly<sp/>instantiated<sp/>in<sp/>the<sp/>corresponding<sp/>.cpp<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight></codeline>
-<codeline lineno="91" refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" kindref="member">MR_Polynomial_double_4</ref><sp/><ref refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" kindref="member">MR_Polynomial_double_4</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" kindref="member">MR_Polynomial_double_4</ref><sp/><ref refid="MRBestFitPolynomial_8h_1af1ba0fb4f730b9c77c06c8127ce26659" kindref="member">MR_Polynomial_double_4</ref>;</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Please<sp/>note<sp/>that<sp/>these<sp/>template<sp/>classes<sp/>are<sp/>explicitly<sp/>instantiated<sp/>in<sp/>the<sp/>corresponding<sp/>.cpp<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight></codeline>
-<codeline lineno="97" refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref>;</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Please<sp/>note<sp/>that<sp/>these<sp/>template<sp/>classes<sp/>are<sp/>explicitly<sp/>instantiated<sp/>in<sp/>the<sp/>corresponding<sp/>.cpp<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight></codeline>
-<codeline lineno="103" refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref>;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>degrees<sp/>are<sp/>instantiated:<sp/>[2;<sp/>6].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref>;</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref>;</highlight></codeline>
+<codeline lineno="108" refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref>;</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref>;</highlight></codeline>
+<codeline lineno="113" refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref>;</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
 <codeline lineno="116" refid="MRBestFitPolynomial_8h_1a2775b8a7647baa9a47dcea048e818e60" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a2775b8a7647baa9a47dcea048e818e60" kindref="member">MR_canSolvePolynomial</ref>(MR_uint64_t<sp/>degree);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>

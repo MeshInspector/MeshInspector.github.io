@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1NoDefInit__EdgeId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::NoDefInit_EdgeId</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1EdgeId" prot="public" virt="non-virtual">mrmeshpy.EdgeId</basecompoundref>
@@ -10,7 +10,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NoDefInit_EdgeId.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1EdgeId_1a1d8eb82d0526d8bf9f6056db33b34efe">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -81,7 +80,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NoDefInit_EdgeId.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1EdgeId_1a1d8eb82d0526d8bf9f6056db33b34efe">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -100,7 +98,6 @@
         <argsstring>(self, NoDefInit_EdgeId arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NoDefInit_EdgeId.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1EdgeId_1a1d8eb82d0526d8bf9f6056db33b34efe">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -125,7 +122,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.NoDefInit_EdgeId.__repr__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1EdgeId_1aab59afad0d09e4a5738863555c3f2f93">__repr__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -174,12 +170,29 @@ this class is similar to T, but does not make default initialization of the fiel
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37474" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37474" bodyend="37502"/>
     <listofallmembers>
+      <member refid="classmrmeshpy_1_1EdgeId_1a3c97305dd757c69ea42c32fa1bf479b6" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__add__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeId_1a3c97305dd757c69ea42c32fa1bf479b6" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__add__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeId_1a3c97305dd757c69ea42c32fa1bf479b6" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__add__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeId_1aa2dd012420403e1c93adbdddc99c6918" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeId_1a4f64d9d74a3fa06604f2e06930e650c2" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeId_1ad5a60ffdc6b52544e1d3cd4583844670" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__iadd__</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a7e269e3bdff0429bab738aa3fc030964" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae4f3e463bba4a2c0e17357ee2197153a" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__EdgeId_1ae91a478a0e000b3e73e13e8e2322ca6d" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeId_1a3e11ad12cc822cc236ce11bec24942d1" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeId_1a9616ba66c28c039e77729cdcc9895f2f" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeId_1a0ae53d1201935a5791b17cf33d085993" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__ne__</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__EdgeId_1a86f2b2dd93062a20d160ad32be317f64" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeId_1aa094077356b9def818f721e4e404f05e" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>even</name></member>
+      <member refid="classmrmeshpy_1_1EdgeId_1a957e8280804b9f6067d4fedadf3410ba" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1EdgeId_1a25bb177117db4cedf6398f7d41285f18" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>odd</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__EdgeId_1abf63209c7124b1bfb43f479b7cc57668" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__EdgeId_1abf63209c7124b1bfb43f479b7cc57668" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EdgeId_1a5d1523298932c1ff93c021186784ca1a" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>operatorminusminus</name></member>
+      <member refid="classmrmeshpy_1_1EdgeId_1a88b42ecb87f2c21fd58f5c8f37d853ad" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>operatorminusminus</name></member>
+      <member refid="classmrmeshpy_1_1EdgeId_1a67f5c85aa2f37509925ded5c3da9cd80" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>sym</name></member>
+      <member refid="classmrmeshpy_1_1EdgeId_1a0899c9904176510da75f07c984762cc2" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>undirected</name></member>
+      <member refid="classmrmeshpy_1_1EdgeId_1aa56d8f72d2e1ba3cf7d7b6542e0c3e1d" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_EdgeId</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

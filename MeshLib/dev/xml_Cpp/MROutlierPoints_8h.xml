@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MROutlierPoints_8h" kind="file" language="C++">
     <compoundname>MROutlierPoints.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -100,7 +100,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MROutlierPoints.h</label>
+        <label>MRMesh/MROutlierPoints.h</label>
         <link refid="MROutlierPoints_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -235,7 +235,7 @@
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="structMR_1_1OutlierParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1OutlierParams" kindref="compound">OutlierParams</ref></highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1OutlierParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1OutlierParams" kindref="compound">OutlierParams</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1gae7fcf0f64db2a7e109689f6722285abd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae7fcf0f64db2a7e109689f6722285abd" kindref="member">maxClusterSize</ref><sp/>=<sp/>20;</highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1ga9561ff72aba23dad165d0922967bf343" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9561ff72aba23dad165d0922967bf343" kindref="member">maxNeighbors</ref><sp/>=<sp/>7;</highlight></codeline>
@@ -243,18 +243,18 @@
 <codeline lineno="26" refid="group__GeneralGroup_1ga77f329cbd855532e38b3482d07260251" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga77f329cbd855532e38b3482d07260251" kindref="member">minAngle</ref><sp/>=<sp/>PI_F<sp/>/<sp/>3.f;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="group__GeneralGroup_1gab8659c12eb8fa6618f154566efce6146" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab8659c12eb8fa6618f154566efce6146" kindref="member">OutlierTypeMask</ref></highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1gab8659c12eb8fa6618f154566efce6146" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab8659c12eb8fa6618f154566efce6146" kindref="member">OutlierTypeMask</ref></highlight></codeline>
 <codeline lineno="31"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a614153ed3ac75b632ddf7270a6a87f1f" kindref="member">SmallComponents</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,<sp/></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a4d9d1029f8af05810e4083fd45317066" kindref="member">WeaklyConnected</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,<sp/></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a6bf77282d5694b0cd278e5e3753e4d40" kindref="member">FarSurface</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>2,<sp/></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a477bfe07550f78a628456c08c5871584" kindref="member">AwayNormal</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>3,<sp/></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">All</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a614153ed3ac75b632ddf7270a6a87f1f" kindref="member">SmallComponents</ref><sp/>|<sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a4d9d1029f8af05810e4083fd45317066" kindref="member">WeaklyConnected</ref><sp/>|<sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a6bf77282d5694b0cd278e5e3753e4d40" kindref="member">FarSurface</ref><sp/>|<sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a477bfe07550f78a628456c08c5871584" kindref="member">AwayNormal</ref></highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a614153ed3ac75b632ddf7270a6a87f1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a614153ed3ac75b632ddf7270a6a87f1f" kindref="member">SmallComponents</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="33" refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a4d9d1029f8af05810e4083fd45317066" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a4d9d1029f8af05810e4083fd45317066" kindref="member">WeaklyConnected</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a6bf77282d5694b0cd278e5e3753e4d40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a6bf77282d5694b0cd278e5e3753e4d40" kindref="member">FarSurface</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>2,<sp/></highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a477bfe07550f78a628456c08c5871584" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a477bfe07550f78a628456c08c5871584" kindref="member">AwayNormal</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>3,<sp/></highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">All</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a614153ed3ac75b632ddf7270a6a87f1f" kindref="member">SmallComponents</ref><sp/>|<sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a4d9d1029f8af05810e4083fd45317066" kindref="member">WeaklyConnected</ref><sp/>|<sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a6bf77282d5694b0cd278e5e3753e4d40" kindref="member">FarSurface</ref><sp/>|<sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a477bfe07550f78a628456c08c5871584" kindref="member">AwayNormal</ref></highlight></codeline>
 <codeline lineno="37"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><ref refid="MRFlagOperators_8h_1afbd9348d27fb58bbb0befb3db34fab6a" kindref="member">MR_MAKE_FLAG_OPERATORS</ref>(<sp/><ref refid="group__GeneralGroup_1gab8659c12eb8fa6618f154566efce6146" kindref="member">OutlierTypeMask</ref><sp/>)</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="classMR_1_1OutliersDetector" refkind="compound"><highlight class="normal">class<sp/><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1OutliersDetector" kindref="compound">OutliersDetector</ref></highlight></codeline>
+<codeline lineno="42" refid="classMR_1_1OutliersDetector" refkind="compound"><highlight class="normal">class<sp/><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="group__GeneralGroup_1ga6becc4c4034355314a33f130bcba2799" kindref="member">OutliersDetector</ref></highlight></codeline>
 <codeline lineno="43"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="45" refid="group__GeneralGroup_1ga6becc4c4034355314a33f130bcba2799" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga6becc4c4034355314a33f130bcba2799" kindref="member">OutliersDetector</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -275,9 +275,9 @@
 <codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertBitSet&gt;</ref><sp/>findAwayNormal(<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius_<sp/>=<sp/>1.f;</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>OutlierParams<sp/>params_;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1OutlierParams" kindref="compound">OutlierParams</ref><sp/>params_;</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>UnionFind&lt;VertId&gt;<sp/>unionFindStructure_;<sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1UnionFind" kindref="compound">UnionFind&lt;VertId&gt;</ref><sp/>unionFindStructure_;<sp/></highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;uint8_t&gt;<sp/>weaklyConnectedStat_;<sp/></highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;float&gt;<sp/>farSurfaceStat_;<sp/></highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;float&gt;<sp/>badNormalStat_;<sp/></highlight></codeline>
@@ -287,7 +287,7 @@
 <codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>VertBitSet<sp/>validPoints_;</highlight></codeline>
 <codeline lineno="86"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="structMR_1_1FindOutliersParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FindOutliersParams" kindref="compound">FindOutliersParams</ref></highlight></codeline>
+<codeline lineno="89" refid="structMR_1_1FindOutliersParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FindOutliersParams" kindref="compound">FindOutliersParams</ref></highlight></codeline>
 <codeline lineno="90"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="91" refid="group__GeneralGroup_1ga946930107905c1323ecdbcab72a87914" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1OutlierParams" kindref="compound">OutlierParams</ref><sp/><ref refid="group__GeneralGroup_1ga946930107905c1323ecdbcab72a87914" kindref="member">finderParams</ref>;<sp/></highlight></codeline>
 <codeline lineno="92" refid="group__GeneralGroup_1ga41cffc0d0bf42f1a2f3131c84385aac0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga41cffc0d0bf42f1a2f3131c84385aac0" kindref="member">radius</ref><sp/>=<sp/>1.f;<sp/></highlight></codeline>
@@ -301,6 +301,6 @@
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
 <codeline lineno="102"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h"/>
+    <location file="MRMesh/MROutlierPoints.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshBuilder_1_1Triangle" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshBuilder::Triangle</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.MeshBuilder.Const_Triangle</basecompoundref>
@@ -84,7 +84,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshBuilder.Triangle.Triangle</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1Triangle_1a504123c86663628d55f0a704dbf7b05e" kindref="member">MR.MeshBuilder.Triangle.Triangle</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -103,7 +103,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshBuilder.Triangle.Triangle</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1Triangle_1a504123c86663628d55f0a704dbf7b05e" kindref="member">MR.MeshBuilder.Triangle.Triangle</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -134,7 +134,7 @@
           <declname>f</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshBuilder.Triangle.Triangle</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1Triangle_1a504123c86663628d55f0a704dbf7b05e" kindref="member">MR.MeshBuilder.Triangle.Triangle</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -153,7 +153,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MeshBuilder.Triangle.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MeshBuilder::Triangle::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -168,8 +168,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.MeshBuilder.Triangle</label>
+        <link refid="classMR_1_1MeshBuilder_1_1Triangle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_Triangle</label>
+        <label>MR.MeshBuilder.Const_Triangle</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -177,25 +183,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.MeshBuilder.Triangle</label>
-        <link refid="classMR_1_1MeshBuilder_1_1Triangle"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Triangle &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.MeshBuilder.Const_Triangle &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.MeshBuilder.Triangle</label>
+        <link refid="classMR_1_1MeshBuilder_1_1Triangle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_Triangle</label>
+        <label>MR.MeshBuilder.Const_Triangle</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -203,20 +209,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.MeshBuilder.Triangle</label>
-        <link refid="classMR_1_1MeshBuilder_1_1Triangle"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Triangle &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.MeshBuilder.Const_Triangle &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="140" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="141" bodyend="205"/>

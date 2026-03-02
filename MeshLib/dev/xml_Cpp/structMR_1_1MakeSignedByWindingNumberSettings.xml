@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MakeSignedByWindingNumberSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::MakeSignedByWindingNumberSettings</compoundname>
-    <includes refid="MRVDBConversions_8h" local="no">MRVDBConversions.h</includes>
+    <includes refid="MRVDBConversions_8h" local="no">MRVoxels/MRVDBConversions.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gab01c8a645415c29410190fe405773c8a" kind="variable"><name>meshToGridXf</name></member>
       <member refid="group__GeneralGroup_1ga94b1baa91b7a7f5cc08e84e5505680c2" kind="variable"><name>fwn</name></member>
@@ -14,7 +14,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="136" bodyend="152"/>
+    <location file="MRVoxels/MRVDBConversions.h" line="135" column="1" bodyfile="MRVoxels/MRVDBConversions.h" bodystart="136" bodyend="152"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga94b1baa91b7a7f5cc08e84e5505680c2" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>fwn</name></member>
       <member refid="group__GeneralGroup_1gab01c8a645415c29410190fe405773c8a" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>meshToGridXf</name></member>

@@ -1,18 +1,10 @@
 var MRPly_8h =
 [
     [ "MR_expected_MR_VertCoords_std_string", "MRPly_8h.html#a01fbdc6d61c17f3f493a586e37bbde94", null ],
-    [ "MR_FaceColors", "MRPly_8h.html#a88c7503c40b624a577fda0eab1faa5fa", null ],
-    [ "MR_MeshTexture", "MRPly_8h.html#ac5c5abdc9ba8adb6f8e522246978c790", null ],
     [ "MR_PlyLoadParams", "MRPly_8h.html#a89173f5688a52125c060d3ed007a31d6", null ],
     [ "MR_std_filesystem_path", "MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526", null ],
-    [ "MR_std_function_bool_from_float", "MRPly_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_istream", "MRPly_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
-    [ "MR_std_optional_MR_Edges", "MRPly_8h.html#a13a39913eea8101afdb2e6ed71bedc67", null ],
     [ "MR_std_optional_MR_Triangulation", "MRPly_8h.html#aa870bea258c3c0ee572af5757ab79e2d", null ],
     [ "MR_TriCornerUVCoords", "MRPly_8h.html#abf80e9d0fcc3f2903bddf1072257b6d4", null ],
-    [ "MR_VertColors", "MRPly_8h.html#a20dc7d636220f61a60c7ae92b8caa768", null ],
-    [ "MR_VertCoords", "MRPly_8h.html#a249fd9254c0c3395567807936ad32641", null ],
-    [ "MR_VertCoords2", "MRPly_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a", null ],
     [ "MR_loadPly_std_istream_ref_MR_PlyLoadParams", "MRPly_8h.html#a777a590aa5f4a710289521723803cec1", null ],
     [ "MR_PlyLoadParams_AssignFromAnother", "MRPly_8h.html#a4e7bbb09741029f2ee2c0487aec86e0a", null ],
     [ "MR_PlyLoadParams_ConstructFrom", "MRPly_8h.html#a555dcf9a192575c9063028046a9f5ffb", null ],

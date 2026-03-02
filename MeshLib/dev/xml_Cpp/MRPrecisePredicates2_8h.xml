@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPrecisePredicates2_8h" kind="file" language="C++">
     <compoundname>MRPrecisePredicates2.h</compoundname>
     <includes refid="MRVector2_8h" local="yes">MRVector2.h</includes>
@@ -56,7 +56,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPrecisePredicates2.h</label>
+        <label>MRMesh/MRPrecisePredicates2.h</label>
         <link refid="MRPrecisePredicates2_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -209,9 +209,9 @@
 <codeline lineno="75" refid="group__GeneralGroup_1ga602409f55231f953fa2202ec4e12d91b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1SegmentSegmentIntersectResult" kindref="compound">SegmentSegmentIntersectResult</ref><sp/><ref refid="group__GeneralGroup_1ga602409f55231f953fa2202ec4e12d91b" kindref="member">doSegmentSegmentIntersect</ref>(</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::array&lt;PreciseVertCoords2,<sp/>4&gt;<sp/>&amp;<sp/>vs<sp/>);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="group__GeneralGroup_1ga9966302a175074e0eccc6f6af09819e3" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga9966302a175074e0eccc6f6af09819e3" kindref="member">ConvertToIntVector2</ref><sp/>=<sp/>std::function&lt;Vector2i(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="81" refid="group__GeneralGroup_1ga99bc296c2e6fee9ad9798298d3e942ab" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga99bc296c2e6fee9ad9798298d3e942ab" kindref="member">ConvertToFloatVector2</ref><sp/>=<sp/>std::function&lt;Vector2f(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="83" refid="structMR_1_1CoordinateConverters2" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CoordinateConverters2" kindref="compound">CoordinateConverters2</ref></highlight></codeline>
+<codeline lineno="79" refid="group__GeneralGroup_1ga9966302a175074e0eccc6f6af09819e3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga9966302a175074e0eccc6f6af09819e3" kindref="member">ConvertToIntVector2</ref><sp/>=<sp/>std::function&lt;Vector2i(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="81" refid="group__GeneralGroup_1ga99bc296c2e6fee9ad9798298d3e942ab" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga99bc296c2e6fee9ad9798298d3e942ab" kindref="member">ConvertToFloatVector2</ref><sp/>=<sp/>std::function&lt;Vector2f(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="83" refid="structMR_1_1CoordinateConverters2" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CoordinateConverters2" kindref="compound">CoordinateConverters2</ref></highlight></codeline>
 <codeline lineno="84"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="85" refid="group__GeneralGroup_1gaec74867bf6fa21b7d48dfabf36194f8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga9966302a175074e0eccc6f6af09819e3" kindref="member">ConvertToIntVector2</ref><sp/><ref refid="group__GeneralGroup_1gaec74867bf6fa21b7d48dfabf36194f8c" kindref="member">toInt</ref>{};</highlight></codeline>
 <codeline lineno="86" refid="group__GeneralGroup_1ga7914d773b759411e23efd36b3c2fcc46" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga99bc296c2e6fee9ad9798298d3e942ab" kindref="member">ConvertToFloatVector2</ref><sp/><ref refid="group__GeneralGroup_1ga7914d773b759411e23efd36b3c2fcc46" kindref="member">toFloat</ref>{};</highlight></codeline>
@@ -227,8 +227,8 @@
 <codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1CoordinateConverters2" kindref="compound">CoordinateConverters2</ref><sp/>converters<sp/>);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates2.h"/>
+    <location file="MRMesh/MRPrecisePredicates2.h"/>
   </compounddef>
 </doxygen>

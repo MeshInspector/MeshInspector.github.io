@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectLines" kind="class" language="C++" prot="public">
     <compoundname>MR::ObjectLines</compoundname>
     <basecompoundref refid="classMR_1_1ObjectLinesHolder" prot="public" virt="non-virtual">MR::ObjectLinesHolder</basecompoundref>
     <derivedcompoundref refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4" prot="public" virt="non-virtual">MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectLines &gt;</derivedcompoundref>
-    <includes refid="MRObjectLines_8h" local="no">MRObjectLines.h</includes>
+    <derivedcompoundref refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4" prot="public" virt="non-virtual">MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectLines &gt;</derivedcompoundref>
+    <includes refid="MRObjectLines_8h" local="no">MRMesh/MRObjectLines.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga47a26f174a8e83d1f431c49792932ec9" kind="function"><name>ObjectLines</name></member>
       <member refid="group__GeneralGroup_1gad89a3b7043e91bfde384c2544ada18d4" kind="function"><name>ObjectLines</name></member>
@@ -58,21 +59,11 @@
         <childnode refid="3" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="8">
-        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
-        <childnode refid="7" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, ObjectLines &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
-        <childnode refid="6" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="6">
         <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectLines &gt;</label>
         <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
@@ -163,7 +154,7 @@
         <link refid="classMR_1_1ViewportProperty"/>
       </node>
       <node id="17">
-        <label>MR::ViewportProperty&lt; MR::Vector4 &gt;</label>
+        <label>MR::ViewportProperty&lt; MR::Vector4&lt; uint8_t &gt; &gt;</label>
         <link refid="classMR_1_1ViewportProperty"/>
       </node>
       <node id="16">
@@ -208,7 +199,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLines.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLines.h" bodystart="14" bodyend="50"/>
+    <location file="MRMesh/MRObjectLines.h" line="13" column="1" bodyfile="MRMesh/MRObjectLines.h" bodystart="14" bodyend="50"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::ObjectLines</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::ObjectLines</scope><name>addChildBefore</name></member>

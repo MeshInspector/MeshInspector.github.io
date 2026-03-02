@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFaceFace_8h" kind="file" language="C++">
     <compoundname>MRFaceFace.h</compoundname>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes local="no">compare</includes>
-    <includedby refid="MRMeshCollide_8h" local="yes">MRMeshCollide.h</includedby>
-    <includedby refid="MRPolyline2Collide_8h" local="yes">MRPolyline2Collide.h</includedby>
+    <includedby refid="MRMeshCollide_8h" local="yes">MRMesh/MRMeshCollide.h</includedby>
+    <includedby refid="MRPolyline2Collide_8h" local="yes">MRMesh/MRPolyline2Collide.h</includedby>
     <incdepgraph>
       <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -14,7 +14,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRFaceFace.h</label>
+        <label>MRMesh/MRFaceFace.h</label>
         <link refid="MRFaceFace_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -103,7 +103,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRFaceFace.h</label>
+        <label>MRMesh/MRFaceFace.h</label>
         <link refid="MRFaceFace_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -111,11 +111,11 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MRMeshCollide.h</label>
+        <label>MRMesh/MRMeshCollide.h</label>
         <link refid="MRMeshCollide_8h"/>
       </node>
       <node id="3">
-        <label>MRPolyline2Collide.h</label>
+        <label>MRMesh/MRPolyline2Collide.h</label>
         <link refid="MRPolyline2Collide_8h"/>
       </node>
     </invincdepgraph>
@@ -135,28 +135,28 @@
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"></codeline>
-<codeline lineno="13" refid="structMR_1_1FaceFace" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FaceFace" kindref="compound">FaceFace</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1FaceFace" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FaceFace_1ac3a31b47e7baa47611ea150254a49fe3" kindref="member">FaceFace</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15" refid="structMR_1_1FaceFace_1aec8e3edd8159870a77814db603ba8c5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceId<sp/><ref refid="structMR_1_1FaceFace_1aec8e3edd8159870a77814db603ba8c5d" kindref="member">aFace</ref>;</highlight></codeline>
 <codeline lineno="16" refid="structMR_1_1FaceFace_1aee3dbbcbddd14dd0707a78411581d0fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceId<sp/><ref refid="structMR_1_1FaceFace_1aee3dbbcbddd14dd0707a78411581d0fc" kindref="member">bFace</ref>;</highlight></codeline>
 <codeline lineno="17" refid="structMR_1_1FaceFace_1ac3a31b47e7baa47611ea150254a49fe3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1FaceFace_1ac3a31b47e7baa47611ea150254a49fe3" kindref="member">FaceFace</ref>(<sp/>FaceId<sp/>a,<sp/>FaceId<sp/>b<sp/>)<sp/>:<sp/><ref refid="structMR_1_1FaceFace_1aec8e3edd8159870a77814db603ba8c5d" kindref="member">aFace</ref>(<sp/>a<sp/>),<sp/><ref refid="structMR_1_1FaceFace_1aee3dbbcbddd14dd0707a78411581d0fc" kindref="member">bFace</ref>(<sp/>b<sp/>)<sp/>{}</highlight></codeline>
 <codeline lineno="18" refid="structMR_1_1FaceFace_1a8e856ba4f380bb43a7a4efe0f1dc02bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1FaceFace_1a8e856ba4f380bb43a7a4efe0f1dc02bc" kindref="member">FaceFace</ref>()<sp/>{};</highlight></codeline>
-<codeline lineno="19" refid="structMR_1_1FaceFace_1a8c0ae6c21ae275e2d6d66235d4aa4a3f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FaceFace_1a8c0ae6c21ae275e2d6d66235d4aa4a3f" kindref="member">operator&lt;=&gt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FaceFace" kindref="compound">FaceFace</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19" refid="structMR_1_1FaceFace_1a8c0ae6c21ae275e2d6d66235d4aa4a3f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FaceFace_1a8c0ae6c21ae275e2d6d66235d4aa4a3f" kindref="member">operator&lt;=&gt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FaceFace_1ac3a31b47e7baa47611ea150254a49fe3" kindref="member">FaceFace</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="structMR_1_1UndirectedEdgeUndirectedEdge" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UndirectedEdgeUndirectedEdge" kindref="compound">UndirectedEdgeUndirectedEdge</ref></highlight></codeline>
+<codeline lineno="23" refid="structMR_1_1UndirectedEdgeUndirectedEdge" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UndirectedEdgeUndirectedEdge_1a76340cad705f0262c4adba8d2e051524" kindref="member">UndirectedEdgeUndirectedEdge</ref></highlight></codeline>
 <codeline lineno="24"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="25" refid="structMR_1_1UndirectedEdgeUndirectedEdge_1aaf55dde37dfa59f981e1bc41ee3ac74a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeId<sp/><ref refid="structMR_1_1UndirectedEdgeUndirectedEdge_1aaf55dde37dfa59f981e1bc41ee3ac74a" kindref="member">aUndirEdge</ref>;</highlight></codeline>
 <codeline lineno="26" refid="structMR_1_1UndirectedEdgeUndirectedEdge_1a535f1290920a2d84945d8cc8989397c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeId<sp/><ref refid="structMR_1_1UndirectedEdgeUndirectedEdge_1a535f1290920a2d84945d8cc8989397c6" kindref="member">bUndirEdge</ref>;</highlight></codeline>
 <codeline lineno="27" refid="structMR_1_1UndirectedEdgeUndirectedEdge_1a76340cad705f0262c4adba8d2e051524" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1UndirectedEdgeUndirectedEdge_1a76340cad705f0262c4adba8d2e051524" kindref="member">UndirectedEdgeUndirectedEdge</ref>(<sp/>UndirectedEdgeId<sp/>a,<sp/>UndirectedEdgeId<sp/>b<sp/>)<sp/>:<sp/><ref refid="structMR_1_1UndirectedEdgeUndirectedEdge_1aaf55dde37dfa59f981e1bc41ee3ac74a" kindref="member">aUndirEdge</ref>(<sp/>a<sp/>),<sp/><ref refid="structMR_1_1UndirectedEdgeUndirectedEdge_1a535f1290920a2d84945d8cc8989397c6" kindref="member">bUndirEdge</ref>(<sp/>b<sp/>)<sp/>{}</highlight></codeline>
 <codeline lineno="28" refid="structMR_1_1UndirectedEdgeUndirectedEdge_1afc38d24da2e811fd6d7ae9a05045b2d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1UndirectedEdgeUndirectedEdge_1afc38d24da2e811fd6d7ae9a05045b2d0" kindref="member">UndirectedEdgeUndirectedEdge</ref>()<sp/>{};</highlight></codeline>
-<codeline lineno="29" refid="structMR_1_1UndirectedEdgeUndirectedEdge_1a86370e0ca44ce18760320f63faac8aa1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UndirectedEdgeUndirectedEdge_1a86370e0ca44ce18760320f63faac8aa1" kindref="member">operator&lt;=&gt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UndirectedEdgeUndirectedEdge" kindref="compound">UndirectedEdgeUndirectedEdge</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29" refid="structMR_1_1UndirectedEdgeUndirectedEdge_1a86370e0ca44ce18760320f63faac8aa1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UndirectedEdgeUndirectedEdge_1a86370e0ca44ce18760320f63faac8aa1" kindref="member">operator&lt;=&gt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UndirectedEdgeUndirectedEdge_1a76340cad705f0262c4adba8d2e051524" kindref="member">UndirectedEdgeUndirectedEdge</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFaceFace.h"/>
+    <location file="MRMesh/MRFaceFace.h"/>
   </compounddef>
 </doxygen>

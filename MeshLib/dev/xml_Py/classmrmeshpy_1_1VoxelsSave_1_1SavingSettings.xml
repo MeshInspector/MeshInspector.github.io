@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1VoxelsSave_1_1SavingSettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::VoxelsSave::SavingSettings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -388,21 +388,6 @@
 stores together all data for save voxel object as a group of images
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.VoxelsSave.SavingSettings</label>
-        <link refid="classmrmeshpy_1_1VoxelsSave_1_1SavingSettings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_cb</edgelabel>
-          <edgelabel>_offsetof_format</edgelabel>
-          <edgelabel>_offsetof_path</edgelabel>
-          <edgelabel>_offsetof_slicePlane</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74471" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74471" bodyend="74537"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1VoxelsSave_1_1SavingSettings_1ac9d86fb97e0c00adf315cf65c23af875" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave::SavingSettings</scope><name>__init__</name></member>

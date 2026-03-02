@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMultiwayICP_8h" kind="file" language="C++">
     <compoundname>MRMultiwayICP.h</compoundname>
     <includes refid="MRGridSampling_8h" local="no">MRCMesh/MRGridSampling.h</includes>
@@ -105,148 +105,37 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRMultiwayICP_8h_1a36d7d5a26d258211a2da5d9311a0798c" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref></type>
-        <definition>typedef struct MR_BitSet MR_BitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_BitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" line="15" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMultiwayICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" prot="public" static="no">
-        <type>struct <ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref></type>
-        <definition>typedef struct MR_ICPPairData MR_ICPPairData</definition>
-        <argsstring></argsstring>
-        <name>MR_ICPPairData</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" line="16" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMultiwayICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" prot="public" static="no">
-        <type>struct <ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref></type>
-        <definition>typedef struct MR_ICPProperties MR_ICPProperties</definition>
-        <argsstring></argsstring>
-        <name>MR_ICPProperties</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" line="17" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMultiwayICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" prot="public" static="no">
-        <type>struct <ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref></type>
-        <definition>typedef struct MR_IPointPairs MR_IPointPairs</definition>
-        <argsstring></argsstring>
-        <name>MR_IPointPairs</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" line="18" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMultiwayICP_8h_1af8cfbacc0df87971b8455177e0d07815" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1af8cfbacc0df87971b8455177e0d07815" kindref="member">MR_Id_MR_ICPElemtTag</ref></type>
-        <definition>typedef struct MR_Id_MR_ICPElemtTag MR_Id_MR_ICPElemtTag</definition>
-        <argsstring></argsstring>
-        <name>MR_Id_MR_ICPElemtTag</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" line="19" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMultiwayICP_8h_1a84793cffea74fad9c4f1a67149be6eb6" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1a84793cffea74fad9c4f1a67149be6eb6" kindref="member">MR_ObjBitSet</ref></type>
-        <definition>typedef struct MR_ObjBitSet MR_ObjBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" line="20" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMultiwayICP_8h_1abc053eb6daf89a64cca51ef43e73ac54" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1abc053eb6daf89a64cca51ef43e73ac54" kindref="member">MR_TypedBitSet_MR_Id_MR_ICPElemtTag</ref></type>
-        <definition>typedef struct MR_TypedBitSet_MR_Id_MR_ICPElemtTag MR_TypedBitSet_MR_Id_MR_ICPElemtTag</definition>
-        <argsstring></argsstring>
-        <name>MR_TypedBitSet_MR_Id_MR_ICPElemtTag</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" line="21" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMultiwayICP_8h_1aacc07e59e1aff05da5bd1c15a106851c" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeObjects_8h_1aacc07e59e1aff05da5bd1c15a106851c" kindref="member">MR_Vector_MR_AffineXf3f_MR_ObjId</ref></type>
-        <definition>typedef struct MR_Vector_MR_AffineXf3f_MR_ObjId MR_Vector_MR_AffineXf3f_MR_ObjId</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector_MR_AffineXf3f_MR_ObjId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" line="22" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMultiwayICP_8h_1ab1b29b4cbc55e158ecc6bb26e9c1f747" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeObjects_8h_1ab1b29b4cbc55e158ecc6bb26e9c1f747" kindref="member">MR_Vector_MR_MeshOrPointsXf_MR_ObjId</ref></type>
-        <definition>typedef struct MR_Vector_MR_MeshOrPointsXf_MR_ObjId MR_Vector_MR_MeshOrPointsXf_MR_ObjId</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector_MR_MeshOrPointsXf_MR_ObjId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" line="23" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRMultiwayICP_8h_1ae214badd5776f4cfbbae86f0e5f30b10" prot="public" static="no">
         <type>struct <ref refid="MRMultiwayICP_8h_1ae214badd5776f4cfbbae86f0e5f30b10" kindref="member">MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int</ref></type>
         <definition>typedef struct MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int</definition>
         <argsstring></argsstring>
         <name>MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int</name>
         <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&lt;MR::Vector&lt;MR::Vector&lt;MR::ICPGroupPairs, MR::Id&lt;MR::ICPElemtTag&gt;&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;, int&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" line="24" column="107" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMultiwayICP_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" line="25" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMultiwayICP_8h_1af34e902c79e5e3662b6066a428220257" prot="public" static="no">
         <type>struct <ref refid="MRMultiwayICP_8h_1af34e902c79e5e3662b6066a428220257" kindref="member">MR_std_function_void_from_const_MR_Vector3f_ref_MR_MeshOrPoints_ProjectionResult_ref_MR_ObjId_ref</ref></type>
@@ -274,19 +163,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" line="27" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" bodystart="27" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRMultiwayICP_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
-        <definition>typedef struct MR_std_string MR_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" line="28" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" prot="public" static="no">
         <type>struct <ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref></type>
         <definition>typedef struct MR_std_vector_MR_ICPGroupPair MR_std_vector_MR_ICPGroupPair</definition>
@@ -299,34 +175,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" line="29" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" prot="public" static="no">
-        <type>struct <ref refid="MRICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref></type>
-        <definition>typedef struct MR_ICPGroupPair MR_ICPGroupPair</definition>
-        <argsstring></argsstring>
-        <name>MR_ICPGroupPair</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::ICPGroupPair</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::ICPPairData</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" line="37" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" bodystart="37" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMultiwayICP_8h_1a14018441923c91ddf9083a14ec99ae83" prot="public" static="no">
-        <type>struct <ref refid="MRICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref></type>
-        <definition>typedef struct MR_ICPGroupPairs MR_ICPGroupPairs</definition>
-        <argsstring></argsstring>
-        <name>MR_ICPGroupPairs</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::ICPGroupPairs</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::IPointPairs</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" line="44" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMultiwayICP.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" prot="public" static="no">
         <type>struct <ref refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" kindref="member">MR_IICPTreeIndexer</ref></type>
@@ -992,7 +840,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ICPGroupPair</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1010,7 +858,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ICPGroupPair</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1310,7 +1158,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ICPGroupPairs</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1328,7 +1176,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ICPGroupPairs</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1484,7 +1332,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_IICPTreeIndexer</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" kindref="member">MR_IICPTreeIndexer</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1502,7 +1350,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_IICPTreeIndexer</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" kindref="member">MR_IICPTreeIndexer</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2057,7 +1905,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MultiwayICPSamplingParameters</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMultiwayICP_8h_1a1edcd46b4c48f95325870e7bae5ae63a" kindref="member">MR_MultiwayICPSamplingParameters</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2075,7 +1923,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MultiwayICPSamplingParameters</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMultiwayICP_8h_1a1edcd46b4c48f95325870e7bae5ae63a" kindref="member">MR_MultiwayICPSamplingParameters</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2207,7 +2055,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MultiwayICP</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMultiwayICP_8h_1a623caeab9197ef277069b3f9f9a608ee" kindref="member">MR_MultiwayICP</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2225,7 +2073,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MultiwayICP</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMultiwayICP_8h_1a623caeab9197ef277069b3f9f9a608ee" kindref="member">MR_MultiwayICP</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2611,28 +2459,28 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRMultiwayICP_8h_1a36d7d5a26d258211a2da5d9311a0798c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRMultiwayICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref><sp/><ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRICP.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRMultiwayICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRICP.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRMultiwayICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/><ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRICP.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRMultiwayICP_8h_1af8cfbacc0df87971b8455177e0d07815" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1af8cfbacc0df87971b8455177e0d07815" kindref="member">MR_Id_MR_ICPElemtTag</ref><sp/><ref refid="MRBitSet_8h_1af8cfbacc0df87971b8455177e0d07815" kindref="member">MR_Id_MR_ICPElemtTag</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRMultiwayICP_8h_1a84793cffea74fad9c4f1a67149be6eb6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1a84793cffea74fad9c4f1a67149be6eb6" kindref="member">MR_ObjBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1a84793cffea74fad9c4f1a67149be6eb6" kindref="member">MR_ObjBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRMultiwayICP_8h_1abc053eb6daf89a64cca51ef43e73ac54" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1abc053eb6daf89a64cca51ef43e73ac54" kindref="member">MR_TypedBitSet_MR_Id_MR_ICPElemtTag</ref><sp/><ref refid="MRBitSet_8h_1abc053eb6daf89a64cca51ef43e73ac54" kindref="member">MR_TypedBitSet_MR_Id_MR_ICPElemtTag</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRMultiwayICP_8h_1aacc07e59e1aff05da5bd1c15a106851c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeObjects_8h_1aacc07e59e1aff05da5bd1c15a106851c" kindref="member">MR_Vector_MR_AffineXf3f_MR_ObjId</ref><sp/><ref refid="MRAABBTreeObjects_8h_1aacc07e59e1aff05da5bd1c15a106851c" kindref="member">MR_Vector_MR_AffineXf3f_MR_ObjId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRMultiwayICP_8h_1ab1b29b4cbc55e158ecc6bb26e9c1f747" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeObjects_8h_1ab1b29b4cbc55e158ecc6bb26e9c1f747" kindref="member">MR_Vector_MR_MeshOrPointsXf_MR_ObjId</ref><sp/><ref refid="MRAABBTreeObjects_8h_1ab1b29b4cbc55e158ecc6bb26e9c1f747" kindref="member">MR_Vector_MR_MeshOrPointsXf_MR_ObjId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref><sp/><ref refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kindref="member">MR_ICPPairData</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRICP.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRICP.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/><ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRICP.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1af8cfbacc0df87971b8455177e0d07815" kindref="member">MR_Id_MR_ICPElemtTag</ref><sp/><ref refid="MRBitSet_8h_1af8cfbacc0df87971b8455177e0d07815" kindref="member">MR_Id_MR_ICPElemtTag</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1a84793cffea74fad9c4f1a67149be6eb6" kindref="member">MR_ObjBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1a84793cffea74fad9c4f1a67149be6eb6" kindref="member">MR_ObjBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1abc053eb6daf89a64cca51ef43e73ac54" kindref="member">MR_TypedBitSet_MR_Id_MR_ICPElemtTag</ref><sp/><ref refid="MRBitSet_8h_1abc053eb6daf89a64cca51ef43e73ac54" kindref="member">MR_TypedBitSet_MR_Id_MR_ICPElemtTag</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeObjects_8h_1aacc07e59e1aff05da5bd1c15a106851c" kindref="member">MR_Vector_MR_AffineXf3f_MR_ObjId</ref><sp/><ref refid="MRAABBTreeObjects_8h_1aacc07e59e1aff05da5bd1c15a106851c" kindref="member">MR_Vector_MR_AffineXf3f_MR_ObjId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeObjects_8h_1ab1b29b4cbc55e158ecc6bb26e9c1f747" kindref="member">MR_Vector_MR_MeshOrPointsXf_MR_ObjId</ref><sp/><ref refid="MRAABBTreeObjects_8h_1ab1b29b4cbc55e158ecc6bb26e9c1f747" kindref="member">MR_Vector_MR_MeshOrPointsXf_MR_ObjId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRMultiwayICP_8h_1ae214badd5776f4cfbbae86f0e5f30b10" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayICP_8h_1ae214badd5776f4cfbbae86f0e5f30b10" kindref="member">MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int</ref><sp/><ref refid="MRMultiwayICP_8h_1ae214badd5776f4cfbbae86f0e5f30b10" kindref="member">MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MRMultiwayICP_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="MRMultiwayICP_8h_1af34e902c79e5e3662b6066a428220257" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayICP_8h_1af34e902c79e5e3662b6066a428220257" kindref="member">MR_std_function_void_from_const_MR_Vector3f_ref_MR_MeshOrPoints_ProjectionResult_ref_MR_ObjId_ref</ref><sp/><ref refid="MRMultiwayICP_8h_1af34e902c79e5e3662b6066a428220257" kindref="member">MR_std_function_void_from_const_MR_Vector3f_ref_MR_MeshOrPoints_ProjectionResult_ref_MR_ObjId_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_const_MR_Vector3f_ref_MR_MeshOrPoints_ProjectionResult_ref_MR_ObjId_r__f9dd.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27" refid="MRMultiwayICP_8h_1a2e5ed336e49452ef2b16fa348af64c40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayICP_8h_1a2e5ed336e49452ef2b16fa348af64c40" kindref="member">MR_std_function_void_from_int</ref><sp/><ref refid="MRMultiwayICP_8h_1a2e5ed336e49452ef2b16fa348af64c40" kindref="member">MR_std_function_void_from_int</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_int.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRMultiwayICP_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref><sp/><ref refid="MRMultiwayICP_8h_1afd9e77c40d885d981579a58ba30a7903" kindref="member">MR_std_vector_MR_ICPGroupPair</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_ICPGroupPair.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRMultiwayICP_8h_1aa86d0a68f94b902662dac996342124c4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/><ref refid="MRICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/><ref refid="MRICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref>;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRMultiwayICP_8h_1a14018441923c91ddf9083a14ec99ae83" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref><sp/><ref refid="MRICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref><sp/><ref refid="MRICP_8h_1a14018441923c91ddf9083a14ec99ae83" kindref="member">MR_ICPGroupPairs</ref>;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" kindref="member">MR_IICPTreeIndexer</ref><sp/><ref refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" kindref="member">MR_IICPTreeIndexer</ref>;</highlight></codeline>
+<codeline lineno="48" refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" kindref="member">MR_IICPTreeIndexer</ref><sp/><ref refid="MRMultiwayICP_8h_1a2c07ebd0a5cd8b94f1071d7bb91e6aae" kindref="member">MR_IICPTreeIndexer</ref>;</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50" refid="MRMultiwayICP_8h_1a0d687a157edd1d1ef995c4aa3380d5a4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayICP_8h_1a0d687a157edd1d1ef995c4aa3380d5a4" kindref="member">MR_MultiwayICPSamplingParameters_CascadeMode</ref></highlight></codeline>
 <codeline lineno="51"><highlight class="normal">{</highlight></codeline>
@@ -2640,9 +2488,9 @@
 <codeline lineno="54" refid="MRMultiwayICP_8h_1a0d687a157edd1d1ef995c4aa3380d5a4a33978974d9ddfdd5549fd6f52529efe2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMultiwayICP_8h_1a0d687a157edd1d1ef995c4aa3380d5a4a33978974d9ddfdd5549fd6f52529efe2" kindref="member">MR_MultiwayICPSamplingParameters_CascadeMode_AABBTreeBased</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="55" refid="MRMultiwayICP_8h_1a8f96d7127f2223cd639dd230aac34b96" refkind="member"><highlight class="normal">}<sp/><ref refid="MRMultiwayICP_8h_1a0d687a157edd1d1ef995c4aa3380d5a4" kindref="member">MR_MultiwayICPSamplingParameters_CascadeMode</ref>;</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRMultiwayICP_8h_1a1edcd46b4c48f95325870e7bae5ae63a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayICP_8h_1a1edcd46b4c48f95325870e7bae5ae63a" kindref="member">MR_MultiwayICPSamplingParameters</ref><sp/><ref refid="MRMultiwayICP_8h_1a1edcd46b4c48f95325870e7bae5ae63a" kindref="member">MR_MultiwayICPSamplingParameters</ref>;</highlight></codeline>
+<codeline lineno="60" refid="MRMultiwayICP_8h_1a1edcd46b4c48f95325870e7bae5ae63a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayICP_8h_1a1edcd46b4c48f95325870e7bae5ae63a" kindref="member">MR_MultiwayICPSamplingParameters</ref><sp/><ref refid="MRMultiwayICP_8h_1a1edcd46b4c48f95325870e7bae5ae63a" kindref="member">MR_MultiwayICPSamplingParameters</ref>;</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRMultiwayICP_8h_1a623caeab9197ef277069b3f9f9a608ee" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayICP_8h_1a623caeab9197ef277069b3f9f9a608ee" kindref="member">MR_MultiwayICP</ref><sp/><ref refid="MRMultiwayICP_8h_1a623caeab9197ef277069b3f9f9a608ee" kindref="member">MR_MultiwayICP</ref>;</highlight></codeline>
+<codeline lineno="68" refid="MRMultiwayICP_8h_1a623caeab9197ef277069b3f9f9a608ee" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayICP_8h_1a623caeab9197ef277069b3f9f9a608ee" kindref="member">MR_MultiwayICP</ref><sp/><ref refid="MRMultiwayICP_8h_1a623caeab9197ef277069b3f9f9a608ee" kindref="member">MR_MultiwayICP</ref>;</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="74" refid="MRMultiwayICP_8h_1a473a195327fa77535348cf1ddec4825d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ObjVertId" kindref="compound">MR_ObjVertId</ref><sp/>*<ref refid="MRMultiwayICP_8h_1a473a195327fa77535348cf1ddec4825d" kindref="member">MR_ICPGroupPair_Get_srcId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1aa86d0a68f94b902662dac996342124c4" kindref="member">MR_ICPGroupPair</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>

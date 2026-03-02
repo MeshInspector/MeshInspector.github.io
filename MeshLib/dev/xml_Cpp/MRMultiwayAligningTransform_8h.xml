@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMultiwayAligningTransform_8h" kind="file" language="C++">
     <compoundname>MRMultiwayAligningTransform.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -75,7 +75,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMultiwayAligningTransform.h</label>
+        <label>MRMesh/MRMultiwayAligningTransform.h</label>
         <link refid="MRMultiwayAligningTransform_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -197,18 +197,18 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"></codeline>
-<codeline lineno="17" refid="classMR_1_1MultiwayAligningTransform" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MultiwayAligningTransform" kindref="compound">MultiwayAligningTransform</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classMR_1_1MultiwayAligningTransform" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" kindref="member">MultiwayAligningTransform</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="20" refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" kindref="member">MultiwayAligningTransform</ref>();</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="classMR_1_1MultiwayAligningTransform_1a639a8d4c70b27727f8b93431f5771fed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a639a8d4c70b27727f8b93431f5771fed" kindref="member">MultiwayAligningTransform</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numObjs<sp/>);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="classMR_1_1MultiwayAligningTransform_1ac0bd869e5468592f333c6a85d89812a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1ac0bd869e5468592f333c6a85d89812a4" kindref="member">MultiwayAligningTransform</ref>(<sp/><ref refid="classMR_1_1MultiwayAligningTransform" kindref="compound">MultiwayAligningTransform</ref>&amp;&amp;<sp/>)<sp/>noexcept;</highlight></codeline>
-<codeline lineno="26" refid="classMR_1_1MultiwayAligningTransform_1aad5b08e7a74ec3006eaaeb2e888e26da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1MultiwayAligningTransform" kindref="compound">MultiwayAligningTransform</ref>&amp;<sp/>operator=(<sp/><ref refid="classMR_1_1MultiwayAligningTransform" kindref="compound">MultiwayAligningTransform</ref>&amp;&amp;<sp/>)<sp/>noexcept;</highlight></codeline>
+<codeline lineno="25" refid="classMR_1_1MultiwayAligningTransform_1ac0bd869e5468592f333c6a85d89812a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1ac0bd869e5468592f333c6a85d89812a4" kindref="member">MultiwayAligningTransform</ref>(<sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" kindref="member">MultiwayAligningTransform</ref>&amp;&amp;<sp/>)<sp/>noexcept;</highlight></codeline>
+<codeline lineno="26" refid="classMR_1_1MultiwayAligningTransform_1aad5b08e7a74ec3006eaaeb2e888e26da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" kindref="member">MultiwayAligningTransform</ref>&amp;<sp/>operator=(<sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" kindref="member">MultiwayAligningTransform</ref>&amp;&amp;<sp/>)<sp/>noexcept;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="classMR_1_1MultiwayAligningTransform_1ad283e68f235e10c8e9c4343311b7acdf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>~<ref refid="classMR_1_1MultiwayAligningTransform" kindref="compound">MultiwayAligningTransform</ref>();</highlight></codeline>
+<codeline lineno="28" refid="classMR_1_1MultiwayAligningTransform_1ad283e68f235e10c8e9c4343311b7acdf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>~<ref refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" kindref="member">MultiwayAligningTransform</ref>();</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31" refid="classMR_1_1MultiwayAligningTransform_1a26f658626fe3c1d58d5b4bbbc294cca8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a26f658626fe3c1d58d5b4bbbc294cca8" kindref="member">reset</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numObjs<sp/>);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
@@ -220,7 +220,7 @@
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="49" refid="classMR_1_1MultiwayAligningTransform_1a1efd4fe910e9f4f9f64b14d2fd1929d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a1efd4fe910e9f4f9f64b14d2fd1929d4" kindref="member">add</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pA,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>n,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>1<sp/>)<sp/>{<sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a1efd4fe910e9f4f9f64b14d2fd1929d4" kindref="member">add</ref>(<sp/>objA,<sp/>Vector3d(<sp/>pA<sp/>),<sp/>objB,<sp/>Vector3d(<sp/>pB<sp/>),<sp/>Vector3d(<sp/>n<sp/>),<sp/>w<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="classMR_1_1MultiwayAligningTransform_1af0e61313e6d6ed7885bc216dbafbb659" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1af0e61313e6d6ed7885bc216dbafbb659" kindref="member">add</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform" kindref="compound">MultiwayAligningTransform</ref><sp/>&amp;<sp/>r<sp/>);</highlight></codeline>
+<codeline lineno="52" refid="classMR_1_1MultiwayAligningTransform_1af0e61313e6d6ed7885bc216dbafbb659" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1af0e61313e6d6ed7885bc216dbafbb659" kindref="member">add</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MultiwayAligningTransform_1a18d82c619c188edfbe08da3191876261" kindref="member">MultiwayAligningTransform</ref><sp/>&amp;<sp/>r<sp/>);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56" refid="structMR_1_1MultiwayAligningTransform_1_1Stabilizer" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MultiwayAligningTransform_1_1Stabilizer" kindref="compound">Stabilizer</ref></highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -238,8 +238,8 @@
 <codeline lineno="74"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayAligningTransform.h"/>
+    <location file="MRMesh/MRMultiwayAligningTransform.h"/>
   </compounddef>
 </doxygen>

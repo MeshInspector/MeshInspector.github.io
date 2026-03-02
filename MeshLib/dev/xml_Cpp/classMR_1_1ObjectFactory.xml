@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectFactory" kind="class" language="C++" prot="public">
     <compoundname>MR::ObjectFactory</compoundname>
     <basecompoundref refid="classMR_1_1ObjectFactoryBase" prot="public" virt="non-virtual">MR::ObjectFactoryBase</basecompoundref>
-    <includes refid="MRObjectFactory_8h" local="no">MRObjectFactory.h</includes>
+    <includes refid="MRObjectFactory_8h" local="no">MRMesh/MRObjectFactory.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -40,7 +40,7 @@
         <link refid="classMR_1_1ObjectFactoryBase"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h" bodystart="38" bodyend="46"/>
+    <location file="MRMesh/MRObjectFactory.h" line="37" column="1" bodyfile="MRMesh/MRObjectFactory.h" bodystart="38" bodyend="46"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga196468998cd1d0aedd44db61031634d6" prot="public" virt="non-virtual"><scope>MR::ObjectFactory</scope><name>ObjectFactory</name></member>
       <member refid="group__GeneralGroup_1ga975afaa4c56e742d9272695983c53793" prot="public" virt="non-virtual"><scope>MR::ObjectFactory</scope><name>ObjectFactoryBase</name></member>

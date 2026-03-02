@@ -1,10 +1,7 @@
 var MRNormalsToPoints_8h =
 [
-    [ "MR_FaceNormals", "MRNormalsToPoints_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5", null ],
-    [ "MR_MeshTopology", "MRNormalsToPoints_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
     [ "MR_NormalsToPoints", "MRNormalsToPoints_8h.html#a53869102683f44bd04b4e40a3b2533d8", null ],
     [ "MR_NormalsToPoints_ISolver", "MRNormalsToPoints_8h.html#ae838106f22f6770b9c57252f4fc629d3", null ],
-    [ "MR_VertCoords", "MRNormalsToPoints_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_NormalsToPoints_AssignFromAnother", "MRNormalsToPoints_8h.html#ac72f0f0d21910240e2e22d1683761ca0", null ],
     [ "MR_NormalsToPoints_ConstructFromAnother", "MRNormalsToPoints_8h.html#a18537c6ef0a934141053885702fbc405", null ],
     [ "MR_NormalsToPoints_DefaultConstruct", "MRNormalsToPoints_8h.html#a96115eabd5d0ebfe77816e145688c53d", null ],

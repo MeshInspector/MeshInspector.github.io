@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangeMeshDataAction_8h" kind="file" language="C++">
     <compoundname>MRChangeMeshDataAction.h</compoundname>
     <includes refid="MRCombinedHistoryAction_8h" local="yes">MRCombinedHistoryAction.h</includes>
@@ -74,7 +74,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRChangeMeshDataAction.h</label>
+        <label>MRMesh/MRChangeMeshDataAction.h</label>
         <link refid="MRChangeMeshDataAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -603,11 +603,11 @@
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"></codeline>
-<codeline lineno="13" refid="classMR_1_1ChangeMeshDataAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshDataAction" kindref="compound">ChangeMeshDataAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classMR_1_1ChangeMeshDataAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshDataAction_1a802c34ae621a5ebc85ae77caef5d7112" kindref="member">ChangeMeshDataAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="16" refid="classMR_1_1ChangeMeshDataAction_1a5490c7ecfcf05757e523c10772447c18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectMesh" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>;</highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1ChangeMeshDataAction_1a5490c7ecfcf05757e523c10772447c18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeMeshDataAction_1a5490c7ecfcf05757e523c10772447c18" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="classMR_1_1ChangeMeshDataAction_1a802c34ae621a5ebc85ae77caef5d7112" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ChangeMeshDataAction_1a802c34ae621a5ebc85ae77caef5d7112" kindref="member">ChangeMeshDataAction</ref>(<sp/>std::string<sp/><ref refid="classMR_1_1ChangeMeshDataAction_1a17a6297c30967ea93e6bfc131ae8911c" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectMesh&gt;&amp;<sp/><ref refid="classMR_1_1ChangeMeshDataAction_1a302de90b9b9c06b36225e604a21caee4" kindref="member">obj</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>cloneMesh<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objMesh_{<sp/><ref refid="classMR_1_1ChangeMeshDataAction_1a302de90b9b9c06b36225e604a21caee4" kindref="member">obj</ref><sp/>},</highlight></codeline>
@@ -616,8 +616,8 @@
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>objMesh_<sp/>)</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data_<sp/>=<sp/>objMesh_-&gt;data();</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>cloneMesh<sp/>&amp;&amp;<sp/>data_.<ref refid="group__GeneralGroup_1gab37aa2308b1d163cba441684f134762a" kindref="member">mesh</ref><sp/>)</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data_.<ref refid="group__GeneralGroup_1gab37aa2308b1d163cba441684f134762a" kindref="member">mesh</ref><sp/>=<sp/>std::make_shared&lt;Mesh&gt;(<sp/>*data_.<ref refid="group__GeneralGroup_1gab37aa2308b1d163cba441684f134762a" kindref="member">mesh</ref><sp/>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>cloneMesh<sp/>&amp;&amp;<sp/>data_.mesh<sp/>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data_.mesh<sp/>=<sp/>std::make_shared&lt;Mesh&gt;(<sp/>*data_.mesh<sp/>);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
@@ -653,7 +653,7 @@
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62" refid="classMR_1_1ChangeMeshDataAction_1a6fa4f260bd2f49a20d68064d7238e9d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ChangeMeshDataAction_1a6fa4f260bd2f49a20d68064d7238e9d9" kindref="member">heapBytes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override</highlight></codeline>
 <codeline lineno="63"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>name_.capacity()<sp/>+<sp/>data_.<ref refid="group__GeneralGroup_1ga5f3fabf962173f318cdc109b9768b8a2" kindref="member">heapBytes</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>name_.capacity()<sp/>+<sp/>data_.heapBytes();</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
 <codeline lineno="67" refid="classMR_1_1ChangeMeshDataAction_1a302de90b9b9c06b36225e604a21caee4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectMesh&gt;&amp;<sp/><ref refid="classMR_1_1ChangeMeshDataAction_1a302de90b9b9c06b36225e604a21caee4" kindref="member">obj</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>objMesh_;<sp/>}</highlight></codeline>
@@ -667,10 +667,10 @@
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;</highlight></codeline>
 <codeline lineno="76"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="classMR_1_1PartialChangeMeshDataAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1PartialChangeMeshDataAction" kindref="compound">PartialChangeMeshDataAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="79" refid="classMR_1_1PartialChangeMeshDataAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1PartialChangeMeshDataAction_1a7f842135d75af79f1af51fe884284b07" kindref="member">PartialChangeMeshDataAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="80"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="83" refid="classMR_1_1PartialChangeMeshDataAction_1a7f842135d75af79f1af51fe884284b07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1PartialChangeMeshDataAction_1a7f842135d75af79f1af51fe884284b07" kindref="member">PartialChangeMeshDataAction</ref>(<sp/>std::string<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectMesh&gt;&amp;<sp/>obj,<sp/><ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref>&amp;&amp;<sp/>newData<sp/>);</highlight></codeline>
+<codeline lineno="83" refid="classMR_1_1PartialChangeMeshDataAction_1a7f842135d75af79f1af51fe884284b07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1PartialChangeMeshDataAction_1a7f842135d75af79f1af51fe884284b07" kindref="member">PartialChangeMeshDataAction</ref>(<sp/>std::string<sp/><ref refid="classMR_1_1PartialChangeMeshDataAction_1a86738a241e4ba1a61752fd26623c61e3" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectMesh&gt;&amp;<sp/>obj,<sp/><ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref>&amp;&amp;<sp/>newData<sp/>);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
 <codeline lineno="85" refid="classMR_1_1PartialChangeMeshDataAction_1a86738a241e4ba1a61752fd26623c61e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="classMR_1_1PartialChangeMeshDataAction_1a86738a241e4ba1a61752fd26623c61e3" kindref="member">name</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override</highlight></codeline>
 <codeline lineno="86"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
@@ -699,8 +699,8 @@
 <codeline lineno="109"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h"/>
+    <location file="MRMesh/MRChangeMeshDataAction.h"/>
   </compounddef>
 </doxygen>

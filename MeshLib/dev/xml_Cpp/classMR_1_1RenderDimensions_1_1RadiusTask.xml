@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderDimensions_1_1RadiusTask" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderDimensions::RadiusTask</compoundname>
     <basecompoundref refid="classMR_1_1BasicClickableRectUiRenderTask" prot="public" virt="non-virtual">MR::BasicClickableRectUiRenderTask</basecompoundref>
-    <includes refid="MRRenderDimensions_8h" local="no">MRRenderDimensions.h</includes>
+    <includes refid="MRRenderDimensions_8h" local="no">MRViewer/MRRenderDimensions.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gac56785bf8f23f397f8ea18f078c71291" kind="variable"><name>viewport_</name></member>
       <member refid="group__GeneralGroup_1ga97e0d58aed41180535441978005193bf" kind="variable"><name>color_</name></member>
@@ -55,7 +55,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="105" bodyend="118"/>
+    <location file="MRViewer/MRRenderDimensions.h" line="104" column="1" bodyfile="MRViewer/MRRenderDimensions.h" bodystart="105" bodyend="118"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga399c5f6acb8eeb36add889e1bd4cef99" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>BasicClickableRectUiRenderTask</name></member>
       <member refid="group__GeneralGroup_1ga7d2604474a74167ceaa7eb132072b9c4" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>BasicClickableRectUiRenderTask</name></member>

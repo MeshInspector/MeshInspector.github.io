@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Histogram" kind="class" language="C++" prot="public">
     <compoundname>MR::Histogram</compoundname>
-    <includes refid="MRHistogram_8h" local="no">MRHistogram.h</includes>
+    <includes refid="MRHistogram_8h" local="no">MRMesh/MRHistogram.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga15f621762bad334bfe43bfaf4b5b7d83" kind="variable"><name>bins_</name></member>
       <member refid="group__GeneralGroup_1ga9751323300b9e28451f7f9fa6adf098d" kind="variable"><name>min_</name></member>
@@ -26,7 +26,7 @@
     <detaileddescription>
 <para>Simple class for calculating histogram </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" bodystart="13" bodyend="46"/>
+    <location file="MRMesh/MRHistogram.h" line="12" column="1" bodyfile="MRMesh/MRHistogram.h" bodystart="13" bodyend="46"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7669591d105985fc045cd1de3c799be9" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>addHistogram</name></member>
       <member refid="group__GeneralGroup_1gab826dc466fb10e173c94b9cf2f5c19be" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>addSample</name></member>

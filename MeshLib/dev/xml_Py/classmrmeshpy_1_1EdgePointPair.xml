@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1EdgePointPair" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::EdgePointPair</compoundname>
     <sectiondef kind="private-static-attrib">
@@ -221,19 +221,6 @@
 two edge-points (e.g. representing collision point of two edges)
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.EdgePointPair</label>
-        <link refid="classmrmeshpy_1_1EdgePointPair"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_a</edgelabel>
-          <edgelabel>_offsetof_b</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15594" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15594" bodyend="15631"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1EdgePointPair_1a517971c035e0dbd90b285b06c6eac6c7" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePointPair</scope><name>__eq__</name></member>

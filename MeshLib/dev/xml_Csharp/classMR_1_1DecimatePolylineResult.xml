@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
-  <compounddef id="classMR_1_1DecimatePolylineResult" kind="class" language="C#" prot="private">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1DecimatePolylineResult" kind="struct" language="C#" prot="public">
     <compoundname>MR::DecimatePolylineResult</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_DecimatePolylineResult</basecompoundref>
     <sectiondef kind="property">
@@ -90,7 +90,7 @@
           <declname>errorIntroduced</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR.DecimatePolylineResult</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput><ref refid="classMR_1_1DecimatePolylineResult" kindref="compound">MR.DecimatePolylineResult</ref></computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -109,7 +109,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DecimatePolylineResult.DecimatePolylineResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DecimatePolylineResult_1a7b610e6ff6bb17c3fe5917060054e0c9" kindref="member">MR.DecimatePolylineResult.DecimatePolylineResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -124,11 +124,11 @@
         <name>DecimatePolylineResult</name>
         <qualifiedname>MR.DecimatePolylineResult.DecimatePolylineResult</qualifiedname>
         <param>
-          <type>DecimatePolylineResult</type>
+          <type><ref refid="classMR_1_1DecimatePolylineResult" kindref="compound">DecimatePolylineResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DecimatePolylineResult.DecimatePolylineResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DecimatePolylineResult_1a7b610e6ff6bb17c3fe5917060054e0c9" kindref="member">MR.DecimatePolylineResult.DecimatePolylineResult</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -137,7 +137,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1093" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1093" bodyend="1093"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DecimatePolylineResult_1a50e67e81fbb504005bd3f9785748835d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.DecimatePolylineResult</type>
+        <type>unsafe <ref refid="classMR_1_1DecimatePolylineResult" kindref="compound">MR.DecimatePolylineResult</ref></type>
         <definition>unsafe MR.DecimatePolylineResult MR.DecimatePolylineResult.assign</definition>
         <argsstring>(MR.Const_DecimatePolylineResult _other)</argsstring>
         <name>assign</name>
@@ -147,7 +147,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.DecimatePolylineResult.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::DecimatePolylineResult::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -157,52 +157,54 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Results of <ref refid="classMR_1ae1d08fcfaafea04fc9e6b51e7b9c187b" kindref="member">MR.decimateContour</ref> Generated from class <computeroutput>MR.DecimatePolylineResult</computeroutput>. This is the const half of the class. </para>
+<para>Results of <ref refid="classMR_1ae1d08fcfaafea04fc9e6b51e7b9c187b" kindref="member">MR.decimateContour</ref> Generated from class <computeroutput><ref refid="classMR_1_1DecimatePolylineResult" kindref="compound">MR.DecimatePolylineResult</ref></computeroutput>. This is the const half of the class. </para>
     </briefdescription>
     <detaileddescription>
-<para>Results of <ref refid="classMR_1ae1d08fcfaafea04fc9e6b51e7b9c187b" kindref="member">MR.decimateContour</ref> Generated from class <computeroutput>MR.DecimatePolylineResult</computeroutput>. This is the non-const half of the class. </para>
+<para>Results of <ref refid="classMR_1ae1d08fcfaafea04fc9e6b51e7b9c187b" kindref="member">MR.decimateContour</ref> Generated from class <computeroutput><ref refid="classMR_1_1DecimatePolylineResult" kindref="compound">MR.DecimatePolylineResult</ref></computeroutput>. This is the non-const half of the class. </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.DecimatePolylineResult</label>
+        <link refid="classMR_1_1DecimatePolylineResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_DecimatePolylineResult</label>
+        <label>MR.Const_DecimatePolylineResult</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.DecimatePolylineResult</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DecimatePolylineResult &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.DecimatePolylineResult</label>
+        <link refid="classMR_1_1DecimatePolylineResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_DecimatePolylineResult</label>
+        <label>MR.Const_DecimatePolylineResult</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.DecimatePolylineResult</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DecimatePolylineResult &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1039" column="11"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1039" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1040" bodyend="1106"/>
     <listofallmembers>
       <member refid="classMR_1_1DecimatePolylineResult_1a50e67e81fbb504005bd3f9785748835d" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineResult</scope><name>assign</name></member>
       <member refid="classMR_1_1DecimatePolylineResult_1aad2793be61e238231b0a5949fd8a9aca" prot="package" virt="non-virtual"><scope>MR::DecimatePolylineResult</scope><name>DecimatePolylineResult</name></member>

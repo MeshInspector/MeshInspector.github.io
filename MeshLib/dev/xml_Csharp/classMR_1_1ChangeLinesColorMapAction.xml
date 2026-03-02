@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeLinesColorMapAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeLinesColorMapAction</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeLinesColorMapAction</basecompoundref>
@@ -99,7 +99,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeLinesColorMapAction_1ac47e3ea8a49270750ce237aab9b48a77" kindref="member">MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -118,7 +118,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeLinesColorMapAction_1ac47e3ea8a49270750ce237aab9b48a77" kindref="member">MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -137,7 +137,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeLinesColorMapAction_1ac47e3ea8a49270750ce237aab9b48a77" kindref="member">MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -160,7 +160,7 @@
           <declname>obj</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s line colors before making any changes in them Generated from constructor <computeroutput>MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</computeroutput>. </para>
+<para>use this constructor to remember object&apos;s line colors before making any changes in them Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeLinesColorMapAction_1ac47e3ea8a49270750ce237aab9b48a77" kindref="member">MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -187,7 +187,7 @@
           <declname>newColorMap</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s lines colors and immediate set new value Generated from constructor <computeroutput>MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</computeroutput>. </para>
+<para>use this constructor to remember object&apos;s lines colors and immediate set new value Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeLinesColorMapAction_1ac47e3ea8a49270750ce237aab9b48a77" kindref="member">MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -206,7 +206,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ChangeLinesColorMapAction.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ChangeLinesColorMapAction::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -240,45 +240,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ChangeLinesColorMapAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeLinesColorMapAction</label>
         <link refid="classMR_1_1ChangeLinesColorMapAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeLinesColorMapAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeLinesColorMapAction &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ChangeLinesColorMapAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeLinesColorMapAction</label>
         <link refid="classMR_1_1ChangeLinesColorMapAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeLinesColorMapAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeLinesColorMapAction &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="947" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="948" bodyend="1046"/>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshSubdivideCallbacks_8h" kind="file" language="C++">
     <compoundname>MRMeshSubdivideCallbacks.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -14,47 +14,6 @@
         <label>MRCMisc/exports.h</label>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRMeshSubdivideCallbacks_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSubdivideCallbacks.h" line="9" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSubdivideCallbacks.h" bodystart="9" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshSubdivideCallbacks_8h_1a3234fa00173b082d381b15e1ded995e0" prot="public" static="no">
-        <type>struct <ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref></type>
-        <definition>typedef struct MR_MeshAttributesToUpdate MR_MeshAttributesToUpdate</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshAttributesToUpdate</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSubdivideCallbacks.h" line="10" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSubdivideCallbacks.h" bodystart="10" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshSubdivideCallbacks_8h_1ad023ae65e5f5b35808a42976d62d515e" prot="public" static="no">
-        <type>struct <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref></type>
-        <definition>typedef struct MR_std_function_void_from_MR_EdgeId_MR_EdgeId MR_std_function_void_from_MR_EdgeId_MR_EdgeId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_void_from_MR_EdgeId_MR_EdgeId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSubdivideCallbacks.h" line="11" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSubdivideCallbacks.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRMeshSubdivideCallbacks_8h_1ad960f41d3cac86ef8cee8da5877768bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
@@ -136,9 +95,9 @@
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="MRMeshSubdivideCallbacks_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="MRMeshSubdivideCallbacks_8h_1a3234fa00173b082d381b15e1ded995e0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshAttributesToUpdate.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRMeshSubdivideCallbacks_8h_1ad023ae65e5f5b35808a42976d62d515e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_MR_EdgeId_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshAttributesToUpdate.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_MR_EdgeId_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="MRMeshSubdivideCallbacks_8h_1ad960f41d3cac86ef8cee8da5877768bb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRMeshSubdivideCallbacks_8h_1ad960f41d3cac86ef8cee8da5877768bb" kindref="member">MR_meshOnEdgeSplitAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*params);</highlight></codeline>

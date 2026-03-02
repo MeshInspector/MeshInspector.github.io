@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1SpaceMouse" kind="namespace" language="C++">
     <compoundname>MR::SpaceMouse</compoundname>
     <innerclass refid="structMR_1_1SpaceMouse_1_1Action" prot="public">MR::SpaceMouse::Action</innerclass>
@@ -253,7 +253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="18" bodyend="57"/>
+        <location file="MRViewer/MRSpaceMouseDevice.h" line="17" column="1" bodyfile="MRViewer/MRSpaceMouseDevice.h" bodystart="18" bodyend="57"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
@@ -269,7 +269,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="12" bodyend="-1"/>
+        <location file="MRViewer/MRSpaceMouseDevice.h" line="12" column="1" bodyfile="MRViewer/MRSpaceMouseDevice.h" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1_1SpaceMouse_1a0125a493583e2d875e2b9cb7607f9ef0" prot="public" static="no">
         <type>short unsigned int</type>
@@ -283,7 +283,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="13" bodyend="-1"/>
+        <location file="MRViewer/MRSpaceMouseDevice.h" line="13" column="1" bodyfile="MRViewer/MRSpaceMouseDevice.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1_1SpaceMouse_1afea9877496a4f6098c6687dbbae1ac62" prot="public" static="no">
         <type>std::array&lt; unsigned char, 13 &gt;</type>
@@ -297,7 +297,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="14" bodyend="-1"/>
+        <location file="MRViewer/MRSpaceMouseDevice.h" line="14" column="1" bodyfile="MRViewer/MRSpaceMouseDevice.h" bodystart="14" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="var">
@@ -342,13 +342,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="61" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="61" bodyend="88"/>
+        <location file="MRViewer/MRSpaceMouseDevice.h" line="61" column="26" bodyfile="MRViewer/MRSpaceMouseDevice.h" bodystart="61" bodyend="88"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" line="6" column="1"/>
+    <location file="MRViewer/MRSpaceMouseController.h" line="6" column="1"/>
   </compounddef>
 </doxygen>

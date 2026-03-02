@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPartMappingAdapters_8h" kind="file" language="C++">
     <compoundname>MRPartMappingAdapters.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -27,58 +27,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPartMappingAdapters_8h_1ab809347fd151b45341bc9e7828673eb5" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref></type>
-        <definition>typedef struct MR_FaceMap MR_FaceMap</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMappingAdapters.h" line="12" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMappingAdapters.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPartMappingAdapters_8h_1ac262f87c0239d73aafc464289f6eb02e" prot="public" static="no">
-        <type>struct <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref></type>
-        <definition>typedef struct MR_PartMapping MR_PartMapping</definition>
-        <argsstring></argsstring>
-        <name>MR_PartMapping</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMappingAdapters.h" line="13" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMappingAdapters.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPartMappingAdapters_8h_1a0c1baad62a31685b2dfb5955f3fb8230" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref></type>
-        <definition>typedef struct MR_VertMap MR_VertMap</definition>
-        <argsstring></argsstring>
-        <name>MR_VertMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMappingAdapters.h" line="14" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMappingAdapters.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPartMappingAdapters_8h_1a50066b58d97b0be73d826cfdcc9eb188" prot="public" static="no">
-        <type>struct <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref></type>
-        <definition>typedef struct MR_WholeEdgeMap MR_WholeEdgeMap</definition>
-        <argsstring></argsstring>
-        <name>MR_WholeEdgeMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMappingAdapters.h" line="15" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMappingAdapters.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRPartMappingAdapters_8h_1add4f0a47fb9bf74fe147f20415780b8a" prot="public" static="no">
         <type>struct <ref refid="MRPartMappingAdapters_8h_1add4f0a47fb9bf74fe147f20415780b8a" kindref="member">MR_Src2TgtMaps</ref></type>
         <definition>typedef struct MR_Src2TgtMaps MR_Src2TgtMaps</definition>
@@ -211,7 +159,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Src2TgtMaps</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPartMappingAdapters_8h_1add4f0a47fb9bf74fe147f20415780b8a" kindref="member">MR_Src2TgtMaps</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -229,7 +177,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Src2TgtMaps</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPartMappingAdapters_8h_1add4f0a47fb9bf74fe147f20415780b8a" kindref="member">MR_Src2TgtMaps</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -401,7 +349,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Tgt2SrcMaps</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPartMappingAdapters_8h_1a690f55ab8a605fe16184798dd8eb848b" kindref="member">MR_Tgt2SrcMaps</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -419,7 +367,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Tgt2SrcMaps</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPartMappingAdapters_8h_1a690f55ab8a605fe16184798dd8eb848b" kindref="member">MR_Tgt2SrcMaps</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -506,15 +454,15 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRPartMappingAdapters_8h_1ab809347fd151b45341bc9e7828673eb5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRPartMappingAdapters_8h_1ac262f87c0239d73aafc464289f6eb02e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPartMapping.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRPartMappingAdapters_8h_1a0c1baad62a31685b2dfb5955f3fb8230" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRPartMappingAdapters_8h_1a50066b58d97b0be73d826cfdcc9eb188" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPartMapping.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRPartMappingAdapters_8h_1add4f0a47fb9bf74fe147f20415780b8a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPartMappingAdapters_8h_1add4f0a47fb9bf74fe147f20415780b8a" kindref="member">MR_Src2TgtMaps</ref><sp/><ref refid="MRPartMappingAdapters_8h_1add4f0a47fb9bf74fe147f20415780b8a" kindref="member">MR_Src2TgtMaps</ref>;</highlight></codeline>
+<codeline lineno="21" refid="MRPartMappingAdapters_8h_1add4f0a47fb9bf74fe147f20415780b8a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPartMappingAdapters_8h_1add4f0a47fb9bf74fe147f20415780b8a" kindref="member">MR_Src2TgtMaps</ref><sp/><ref refid="MRPartMappingAdapters_8h_1add4f0a47fb9bf74fe147f20415780b8a" kindref="member">MR_Src2TgtMaps</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRPartMappingAdapters_8h_1a690f55ab8a605fe16184798dd8eb848b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPartMappingAdapters_8h_1a690f55ab8a605fe16184798dd8eb848b" kindref="member">MR_Tgt2SrcMaps</ref><sp/><ref refid="MRPartMappingAdapters_8h_1a690f55ab8a605fe16184798dd8eb848b" kindref="member">MR_Tgt2SrcMaps</ref>;</highlight></codeline>
+<codeline lineno="26" refid="MRPartMappingAdapters_8h_1a690f55ab8a605fe16184798dd8eb848b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPartMappingAdapters_8h_1a690f55ab8a605fe16184798dd8eb848b" kindref="member">MR_Tgt2SrcMaps</ref><sp/><ref refid="MRPartMappingAdapters_8h_1a690f55ab8a605fe16184798dd8eb848b" kindref="member">MR_Tgt2SrcMaps</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31" refid="MRPartMappingAdapters_8h_1a482bf902237f94f0fd28d49408abda6b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPartMappingAdapters_8h_1add4f0a47fb9bf74fe147f20415780b8a" kindref="member">MR_Src2TgtMaps</ref><sp/>*<ref refid="MRPartMappingAdapters_8h_1a482bf902237f94f0fd28d49408abda6b" kindref="member">MR_Src2TgtMaps_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPartMappingAdapters_8h_1add4f0a47fb9bf74fe147f20415780b8a" kindref="member">MR_Src2TgtMaps</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>

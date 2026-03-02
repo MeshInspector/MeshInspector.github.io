@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRClosestWeightedPoint_8h" kind="file" language="C++">
     <compoundname>MRClosestWeightedPoint.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRMeshTriPoint_8h" local="yes">MRMeshTriPoint.h</includes>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
     <includes local="no">cfloat</includes>
-    <includedby refid="MRWeightedPointsShell_8h" local="yes">MRWeightedPointsShell.h</includedby>
+    <includedby refid="MRWeightedPointsShell_8h" local="yes">MRVoxels/MRWeightedPointsShell.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -15,7 +15,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRClosestWeightedPoint.h</label>
+        <label>MRMesh/MRClosestWeightedPoint.h</label>
         <link refid="MRClosestWeightedPoint_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -197,13 +197,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRClosestWeightedPoint.h</label>
+        <label>MRMesh/MRClosestWeightedPoint.h</label>
         <link refid="MRClosestWeightedPoint_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRWeightedPointsShell.h</label>
+        <label>MRVoxels/MRWeightedPointsShell.h</label>
         <link refid="MRWeightedPointsShell_8h"/>
       </node>
     </invincdepgraph>
@@ -270,8 +270,8 @@
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>.eucledeanDist<sp/>+<sp/>(<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>.bidirectionalOrOutside<sp/>?<sp/>-<ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>.w<sp/>:<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>.w<sp/>);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="group__GeneralGroup_1gadf36a93304ddd8624d26589cec96401f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadf36a93304ddd8624d26589cec96401f" kindref="member">valid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1a758547372340f32380f76222e7c0b0" kindref="member">mtp</ref>.<ref refid="group__GeneralGroup_1ga448317ec66d714fc3faa1d0bd3b64867" kindref="member">valid</ref>();<sp/>}</highlight></codeline>
-<codeline lineno="74" refid="group__GeneralGroup_1ga656e490b9dc2a583eca217f757e6a1db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1a758547372340f32380f76222e7c0b0" kindref="member">mtp</ref>.<ref refid="group__GeneralGroup_1ga448317ec66d714fc3faa1d0bd3b64867" kindref="member">valid</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="73" refid="group__GeneralGroup_1gadf36a93304ddd8624d26589cec96401f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadf36a93304ddd8624d26589cec96401f" kindref="member">valid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1a758547372340f32380f76222e7c0b0" kindref="member">mtp</ref>.valid();<sp/>}</highlight></codeline>
+<codeline lineno="74" refid="group__GeneralGroup_1ga656e490b9dc2a583eca217f757e6a1db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1a758547372340f32380f76222e7c0b0" kindref="member">mtp</ref>.valid();<sp/>}</highlight></codeline>
 <codeline lineno="75"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
 <codeline lineno="77" refid="structMR_1_1DistanceFromWeightedPointsParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DistanceFromWeightedPointsParams" kindref="compound">DistanceFromWeightedPointsParams</ref></highlight></codeline>
@@ -302,8 +302,8 @@
 <codeline lineno="123" refid="group__GeneralGroup_1gad6d30799c3e2a261eed4d4fc7bb4524d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshPointAndDistance" kindref="compound">MeshPointAndDistance</ref><sp/><ref refid="group__GeneralGroup_1gad6d30799c3e2a261eed4d4fc7bb4524d" kindref="member">findClosestWeightedMeshPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>loc,</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DistanceFromWeightedPointsComputeParams" kindref="compound">DistanceFromWeightedPointsComputeParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRClosestWeightedPoint.h"/>
+    <location file="MRMesh/MRClosestWeightedPoint.h"/>
   </compounddef>
 </doxygen>

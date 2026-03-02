@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChunkIterator_8h" kind="file" language="C++">
     <compoundname>MRChunkIterator.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -13,7 +13,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRChunkIterator.h</label>
+        <label>MRMesh/MRChunkIterator.h</label>
         <link refid="MRChunkIterator_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -100,13 +100,13 @@
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="structMR_1_1Chunk" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref></highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1Chunk" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1ga67302698c90451ac1dbc264851582a22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga67302698c90451ac1dbc264851582a22" kindref="member">offset</ref>;</highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1gadb4508fa30f32657421915e81df16da7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadb4508fa30f32657421915e81df16da7" kindref="member">size</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="structMR_1_1ChunkIterator" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ChunkIterator" kindref="compound">ChunkIterator</ref></highlight></codeline>
+<codeline lineno="24" refid="structMR_1_1ChunkIterator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ChunkIterator" kindref="compound">ChunkIterator</ref></highlight></codeline>
 <codeline lineno="25"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="26" refid="group__GeneralGroup_1gad9459060feb2b5f7111c02781e75879c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad9459060feb2b5f7111c02781e75879c" kindref="member">totalSize</ref>{<sp/>0<sp/>};</highlight></codeline>
 <codeline lineno="27" refid="group__GeneralGroup_1gaf4366e6dfa9d07ea87cbe5b372afe36e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf4366e6dfa9d07ea87cbe5b372afe36e" kindref="member">chunkSize</ref>{<sp/>0<sp/>};</highlight></codeline>
@@ -116,10 +116,10 @@
 <codeline lineno="31" refid="group__GeneralGroup_1ga90a63604beb7920d77fa819e7e2ea521" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga90a63604beb7920d77fa819e7e2ea521" kindref="member">operator ==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ChunkIterator" kindref="compound">ChunkIterator</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33" refid="group__GeneralGroup_1ga97b66824787d4e3a2921761974cca10d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga97b66824787d4e3a2921761974cca10d" kindref="member">iterator_category</ref><sp/>=<sp/>std::input_iterator_tag;</highlight></codeline>
-<codeline lineno="34" refid="group__GeneralGroup_1gad816264908bdaf06f5629a4d163c16f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Chunk" kindref="compound">value_type</ref><sp/>=<sp/><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref>;</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1gad816264908bdaf06f5629a4d163c16f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gad816264908bdaf06f5629a4d163c16f6" kindref="member">value_type</ref><sp/>=<sp/><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref>;</highlight></codeline>
 <codeline lineno="35" refid="group__GeneralGroup_1gad58d2cd0f8108c9f1c0e00cc2d750508" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gad58d2cd0f8108c9f1c0e00cc2d750508" kindref="member">difference_type</ref><sp/>=<sp/>std::ptrdiff_t;</highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1ga71077fda29daec0ad1dfb91af33ab1d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Chunk" kindref="compound">pointer</ref><sp/>=<sp/><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref>*;</highlight></codeline>
-<codeline lineno="37" refid="group__GeneralGroup_1gaf99ba138aa910783abd6301c80706164" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Chunk" kindref="compound">reference</ref><sp/>=<sp/><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref>&amp;;</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1ga71077fda29daec0ad1dfb91af33ab1d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga71077fda29daec0ad1dfb91af33ab1d9" kindref="member">pointer</ref><sp/>=<sp/><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref>*;</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1gaf99ba138aa910783abd6301c80706164" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaf99ba138aa910783abd6301c80706164" kindref="member">reference</ref><sp/>=<sp/><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref>&amp;;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="39" refid="group__GeneralGroup_1ga5473458b678950c6619e626094a5dcef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1ChunkIterator" kindref="compound">ChunkIterator</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga5473458b678950c6619e626094a5dcef" kindref="member">operator ++</ref>();</highlight></codeline>
 <codeline lineno="40" refid="group__GeneralGroup_1ga666de2260dc875f0ae45010555f0a53f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1ChunkIterator" kindref="compound">ChunkIterator</ref><sp/><ref refid="group__GeneralGroup_1ga5473458b678950c6619e626094a5dcef" kindref="member">operator ++</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>);</highlight></codeline>
@@ -132,8 +132,8 @@
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50" refid="group__GeneralGroup_1ga3d81205af33e9e335194c853e32478a1" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1IteratorRange" kindref="compound">IteratorRange&lt;ChunkIterator&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga3d81205af33e9e335194c853e32478a1" kindref="member">splitByChunks</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>totalSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>chunkSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>overlap<sp/>=<sp/>0<sp/>);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChunkIterator.h"/>
+    <location file="MRMesh/MRChunkIterator.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MoveType" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MoveType</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -346,22 +346,6 @@
   ArcCCW
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.MoveType</label>
-        <link refid="classmrmeshpy_1_1MoveType"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>ArcCCW</edgelabel>
-          <edgelabel>ArcCW</edgelabel>
-          <edgelabel>FastLinear</edgelabel>
-          <edgelabel>Linear</edgelabel>
-          <edgelabel>None</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36187" bodyend="36232"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MoveType_1af8b5f4970d4e5db4ddb9879022dda5a4" prot="public" virt="non-virtual"><scope>mrmeshpy::MoveType</scope><name>__eq__</name></member>

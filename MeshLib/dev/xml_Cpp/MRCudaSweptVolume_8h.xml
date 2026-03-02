@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCudaSweptVolume_8h" kind="file" language="C++">
     <compoundname>MRCudaSweptVolume.h</compoundname>
     <includes refid="MRCuda_2config_8h" local="yes">config.h</includes>
@@ -9,7 +9,7 @@
     <includes local="no">vector</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRCudaSweptVolume.h</label>
+        <label>MRCuda/MRCudaSweptVolume.h</label>
         <link refid="MRCudaSweptVolume_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -388,7 +388,7 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Cuda" kindref="compound">MR::Cuda</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="classMR_1_1Cuda_1_1ComputeToolDistance" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRCUDA_CLASS<sp/><ref refid="classMR_1_1Cuda_1_1ComputeToolDistance" kindref="compound">ComputeToolDistance</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IComputeToolDistance" kindref="compound">IComputeToolDistance</ref></highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1Cuda_1_1ComputeToolDistance" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRCUDA_CLASS<sp/><ref refid="classMR_1_1Cuda_1_1ComputeToolDistance_1af6ff220d789ac2f9c41960ab99a6517f" kindref="member">ComputeToolDistance</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IComputeToolDistance" kindref="compound">IComputeToolDistance</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="classMR_1_1Cuda_1_1ComputeToolDistance_1af6ff220d789ac2f9c41960ab99a6517f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRCUDA_API<sp/><ref refid="classMR_1_1Cuda_1_1ComputeToolDistance_1af6ff220d789ac2f9c41960ab99a6517f" kindref="member">ComputeToolDistance</ref>();</highlight></codeline>
@@ -397,7 +397,7 @@
 <codeline lineno="22" refid="classMR_1_1Cuda_1_1ComputeToolDistance_1afcc3f132d5643509fe55e57845968424" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRCUDA_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Vector3i&gt;</ref><sp/><ref refid="classMR_1_1Cuda_1_1ComputeToolDistance_1afcc3f132d5643509fe55e57845968424" kindref="member">prepare</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;<sp/>toolpath,</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EndMillTool" kindref="compound">EndMillTool</ref>&amp;<sp/>toolSpec<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="24" refid="classMR_1_1Cuda_1_1ComputeToolDistance_1a09b54489f5a1017c30273a0bede20f08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRCUDA_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Vector3i&gt;</ref><sp/><ref refid="classMR_1_1Cuda_1_1ComputeToolDistance_1a09b54489f5a1017c30273a0bede20f08" kindref="member">prepare</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;<sp/>toolpath,</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>toolProfile<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga98da94791426a3dbbdeb1a6b25801df6" kindref="member">Polyline2</ref>&amp;<sp/>toolProfile<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27" refid="classMR_1_1Cuda_1_1ComputeToolDistance_1a3d1d6250e0a612ff2a778c0b7b00dead" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRCUDA_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="classMR_1_1Cuda_1_1ComputeToolDistance_1a3d1d6250e0a612ff2a778c0b7b00dead" kindref="member">computeToolDistance</ref>(<sp/>std::vector&lt;float&gt;&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>dims,</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>origin,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>padding<sp/>)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
@@ -407,10 +407,10 @@
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;Impl&gt;<sp/>impl_;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h"/>
+    <location file="MRCuda/MRCudaSweptVolume.h"/>
   </compounddef>
 </doxygen>

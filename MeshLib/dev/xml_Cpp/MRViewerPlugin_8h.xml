@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRViewerPlugin_8h" kind="file" language="C++">
     <compoundname>MRViewerPlugin.h</compoundname>
     <includes refid="MRViewerInstance_8h" local="yes">MRViewerInstance.h</includes>
     <includes local="no">filesystem</includes>
     <includes local="no">vector</includes>
-    <includedby refid="ImGuiMenu_8h" local="yes">ImGuiMenu.h</includedby>
-    <includedby refid="MRDemoPlugin_8h" local="yes">MRDemoPlugin.h</includedby>
-    <includedby refid="MRSaveOnClose_8h" local="yes">MRSaveOnClose.h</includedby>
-    <includedby refid="MRStatePlugin_8h" local="yes">MRStatePlugin.h</includedby>
+    <includedby refid="ImGuiMenu_8h" local="yes">MRViewer/ImGuiMenu.h</includedby>
+    <includedby refid="MRDemoPlugin_8h" local="yes">MRViewer/MRDemoPlugin.h</includedby>
+    <includedby refid="MRSaveOnClose_8h" local="yes">MRViewer/MRSaveOnClose.h</includedby>
+    <includedby refid="MRStatePlugin_8h" local="yes">MRViewer/MRStatePlugin.h</includedby>
     <incdepgraph>
       <node id="8">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -75,7 +75,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRViewerPlugin.h</label>
+        <label>MRViewer/MRViewerPlugin.h</label>
         <link refid="MRViewerPlugin_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -117,36 +117,36 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="11">
-        <label>MRCameraOrientationPlugin.h</label>
+      <node id="9">
+        <label>MRCommonPlugins/Basic/MRCameraOrientationPlugin.h</label>
         <link refid="MRCameraOrientationPlugin_8h"/>
       </node>
-      <node id="14">
-        <label>MRMoveObjectByMouse.h</label>
+      <node id="10">
+        <label>MRCommonPlugins/Basic/MRMoveObjectByMouse.h</label>
         <link refid="MRMoveObjectByMouse_8h"/>
       </node>
-      <node id="16">
-        <label>MRSelectObjectByClick.h</label>
+      <node id="11">
+        <label>MRCommonPlugins/Selectors/MRSelectObjectByClick.h</label>
         <link refid="MRSelectObjectByClick_8h"/>
       </node>
-      <node id="9">
-        <label>MRAddCustomTheme.h</label>
+      <node id="12">
+        <label>MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h</label>
         <link refid="MRAddCustomTheme_8h"/>
       </node>
-      <node id="12">
-        <label>MRIOFilesMenuItems.h</label>
+      <node id="13">
+        <label>MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</label>
         <link refid="MRIOFilesMenuItems_8h"/>
       </node>
-      <node id="10">
-        <label>MRBinaryOperationsPlugin.h</label>
+      <node id="14">
+        <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
       </node>
       <node id="15">
-        <label>MROpenRawVoxelsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
       <node id="2">
-        <label>ImGuiMenu.h</label>
+        <label>MRViewer/ImGuiMenu.h</label>
         <link refid="ImGuiMenu_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -154,33 +154,33 @@
         </childnode>
       </node>
       <node id="6">
-        <label>MRDemoPlugin.h</label>
+        <label>MRViewer/MRDemoPlugin.h</label>
         <link refid="MRDemoPlugin_8h"/>
       </node>
       <node id="3">
-        <label>MRImGuiMenuListeners.h</label>
+        <label>MRViewer/MRImGuiMenuListeners.h</label>
         <link refid="MRImGuiMenuListeners_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="13">
-        <label>MRMeshModifier.h</label>
+      <node id="16">
+        <label>MRViewer/MRMeshModifier.h</label>
         <link refid="MRMeshModifier_8h"/>
       </node>
       <node id="4">
-        <label>MRPlaneWidget.h</label>
+        <label>MRViewer/MRPlaneWidget.h</label>
         <link refid="MRPlaneWidget_8h"/>
       </node>
       <node id="5">
-        <label>MRRibbonMenu.h</label>
+        <label>MRViewer/MRRibbonMenu.h</label>
         <link refid="MRRibbonMenu_8h"/>
       </node>
       <node id="7">
-        <label>MRSaveOnClose.h</label>
+        <label>MRViewer/MRSaveOnClose.h</label>
         <link refid="MRSaveOnClose_8h"/>
       </node>
       <node id="8">
-        <label>MRStatePlugin.h</label>
+        <label>MRViewer/MRStatePlugin.h</label>
         <link refid="MRStatePlugin_8h"/>
         <childnode refid="9" relation="include">
         </childnode>
@@ -202,7 +202,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRViewerPlugin.h</label>
+        <label>MRViewer/MRViewerPlugin.h</label>
         <link refid="MRViewerPlugin_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -214,7 +214,7 @@
         </childnode>
       </node>
       <node id="17">
-        <label>MRViewerSettingsPlugin.h</label>
+        <label>MRViewer/MRViewerSettingsPlugin.h</label>
         <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
@@ -259,6 +259,6 @@
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
 <codeline lineno="52"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerPlugin.h"/>
+    <location file="MRViewer/MRViewerPlugin.h"/>
   </compounddef>
 </doxygen>

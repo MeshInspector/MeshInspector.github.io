@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointCloudTriangulation_8h" kind="file" language="C++">
     <compoundname>MRPointCloudTriangulation.h</compoundname>
     <includes refid="MRConstants_8h" local="yes">MRConstants.h</includes>
@@ -212,7 +212,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPointCloudTriangulation.h</label>
+        <label>MRMesh/MRPointCloudTriangulation.h</label>
         <link refid="MRPointCloudTriangulation_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -426,6 +426,7 @@
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="structMR_1_1TriangulationParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TriangulationParameters" kindref="compound">TriangulationParameters</ref></highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="36" refid="structMR_1_1TriangulationParameters_1af9e046f71d9cf4b908279bd24f0a1707" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationParameters_1af9e046f71d9cf4b908279bd24f0a1707" kindref="member">numNeighbours</ref><sp/>=<sp/>16;</highlight></codeline>
@@ -446,7 +447,7 @@
 <codeline lineno="86" refid="group__PointCloudTriangulationGroup_1gad8757f0b892706f56491e2b0a5a016d8" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Mesh&gt;<sp/><ref refid="group__PointCloudTriangulationGroup_1gad8757f0b892706f56491e2b0a5a016d8" kindref="member">triangulatePointCloud</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationParameters" kindref="compound">TriangulationParameters</ref>&amp;<sp/>params<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>progressCb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="structMR_1_1FillHolesWithExtraPointsParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillHolesWithExtraPointsParams" kindref="compound">FillHolesWithExtraPointsParams</ref></highlight></codeline>
+<codeline lineno="90" refid="structMR_1_1FillHolesWithExtraPointsParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillHolesWithExtraPointsParams" kindref="compound">FillHolesWithExtraPointsParams</ref></highlight></codeline>
 <codeline lineno="91"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="92" refid="structMR_1_1FillHolesWithExtraPointsParams_1aa8330987a459a0771c00087a750123cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1TriangulationParameters" kindref="compound">TriangulationParameters</ref><sp/><ref refid="structMR_1_1FillHolesWithExtraPointsParams_1aa8330987a459a0771c00087a750123cd" kindref="member">triangulation</ref>;</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
@@ -458,6 +459,6 @@
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
 <codeline lineno="106"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h"/>
+    <location file="MRMesh/MRPointCloudTriangulation.h"/>
   </compounddef>
 </doxygen>

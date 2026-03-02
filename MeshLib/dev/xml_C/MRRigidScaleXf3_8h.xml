@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRigidScaleXf3_8h" kind="file" language="C++">
     <compoundname>MRRigidScaleXf3.h</compoundname>
     <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
@@ -116,20 +116,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="18" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRigidScaleXf3_8h_1ad1591488603e4a7f9f1931786ba322b8" prot="public" static="no">
-        <type>struct <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref></type>
-        <definition>typedef struct MR_RigidScaleXf3d MR_RigidScaleXf3d</definition>
-        <argsstring></argsstring>
-        <name>MR_RigidScaleXf3d</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>rigid (with scale) transformation that multiplies all distances on same scale: y = s*A*x + b, where s is a scalar, A is rotation matrix 3x3 stored as 3 angles, and b is shift vector Generated from class <computeroutput>MR::RigidScaleXf3d</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). rotation angles relative to x,y,z axes Returns a pointer to a member variable of class <computeroutput>MR::RigidScaleXf3f</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="24" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" bodystart="24" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -439,7 +425,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_RigidScaleXf3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -457,7 +443,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_RigidScaleXf3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -829,7 +815,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_RigidScaleXf3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -847,7 +833,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_RigidScaleXf3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -932,9 +918,9 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref>;</highlight></codeline>
+<codeline lineno="18" refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRRigidScaleXf3_8h_1ad1591488603e4a7f9f1931786ba322b8" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31" refid="MRRigidScaleXf3_8h_1a7052f80fd5896ad74977631ebed58ee4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a7052f80fd5896ad74977631ebed58ee4" kindref="member">MR_RigidScaleXf3f_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>

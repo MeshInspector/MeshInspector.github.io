@@ -20,9 +20,9 @@ var MRPython_8h =
       [ "Stdout", "MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101", null ],
       [ "Stderr", "MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af", null ]
     ] ],
-    [ "decorateExpected", "MRPython_8h.html#ga5fcb58debd182644f22e1ea6eac867b6", null ],
-    [ "decorateExpected", "MRPython_8h.html#gabf106ad4f6e3e81079b7698a30f31e20", null ],
-    [ "decorateExpected", "MRPython_8h.html#gaa60c1177452c69cf5b8cdab61296d1ce", null ],
-    [ "expectedValueOrThrow", "MRPython_8h.html#gac95039057559bedc6c5786b29e42d974", null ],
-    [ "throwExceptionFromExpected", "MRPython_8h.html#ga396596cb5cea6d2f8fec7b7838ae2bc5", null ]
+    [ "MR::decorateExpected", "group__GeneralGroup.html#ga5fcb58debd182644f22e1ea6eac867b6", null ],
+    [ "MR::decorateExpected", "group__GeneralGroup.html#gabf106ad4f6e3e81079b7698a30f31e20", null ],
+    [ "MR::decorateExpected", "group__GeneralGroup.html#gaa60c1177452c69cf5b8cdab61296d1ce", null ],
+    [ "MR::expectedValueOrThrow", "group__GeneralGroup.html#gac95039057559bedc6c5786b29e42d974", null ],
+    [ "MR::throwExceptionFromExpected", "group__GeneralGroup.html#ga396596cb5cea6d2f8fec7b7838ae2bc5", null ]
 ];

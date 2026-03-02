@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PartMapping" kind="struct" language="C++" prot="public">
     <compoundname>MR::PartMapping</compoundname>
-    <includes refid="MRPartMapping_8h" local="no">MRPartMapping.h</includes>
+    <includes refid="MRPartMapping_8h" local="no">MRMesh/MRPartMapping.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga73600646d6908faffc3c59ca5ad651ea" kind="variable"><name>src2tgtFaces</name></member>
       <member refid="group__GeneralGroup_1gaf1b1858f450332378241a632d9186e89" kind="variable"><name>src2tgtVerts</name></member>
@@ -21,23 +21,35 @@
     </detaileddescription>
     <collaborationgraph>
       <node id="2">
-        <label>MR::MapOrHashMap&lt; K, V &gt;</label>
+        <label>MR::MapOrHashMap&lt; FaceId, FaceId &gt;</label>
+        <link refid="structMR_1_1MapOrHashMap"/>
+      </node>
+      <node id="4">
+        <label>MR::MapOrHashMap&lt; UndirectedEdgeId, EdgeId &gt;</label>
+        <link refid="structMR_1_1MapOrHashMap"/>
+      </node>
+      <node id="3">
+        <label>MR::MapOrHashMap&lt; VertId, VertId &gt;</label>
         <link refid="structMR_1_1MapOrHashMap"/>
       </node>
       <node id="1">
         <label>MR::PartMapping</label>
         <link refid="structMR_1_1PartMapping"/>
         <childnode refid="2" relation="usage">
-          <edgelabel>src2tgtEdges</edgelabel>
           <edgelabel>src2tgtFaces</edgelabel>
-          <edgelabel>src2tgtVerts</edgelabel>
-          <edgelabel>tgt2srcEdges</edgelabel>
           <edgelabel>tgt2srcFaces</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>src2tgtVerts</edgelabel>
           <edgelabel>tgt2srcVerts</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>src2tgtEdges</edgelabel>
+          <edgelabel>tgt2srcEdges</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" bodystart="13" bodyend="30"/>
+    <location file="MRMesh/MRPartMapping.h" line="12" column="1" bodyfile="MRMesh/MRPartMapping.h" bodystart="13" bodyend="30"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga400bfa8033764f32d164e4a87ecefc41" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>clear</name></member>
       <member refid="group__GeneralGroup_1ga6c8e68b66d8c5359cbbd8724f09c6340" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>src2tgtEdges</name></member>

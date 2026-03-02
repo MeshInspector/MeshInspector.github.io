@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kind="struct" language="C++" prot="public">
     <compoundname>MR::Features::Primitives::ConeSegment</compoundname>
-    <includes refid="MRFeatures_8h" local="no">MRFeatures.h</includes>
+    <includes refid="MRFeatures_8h" local="no">MRMesh/MRFeatures.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga40eff23fbea04d4a72390fda48c04bfd" kind="variable"><name>referencePoint</name></member>
       <member refid="group__GeneralGroup_1ga9f603438a2e12d81289b9696c05cdcd4" kind="variable"><name>dir</name></member>
@@ -33,7 +33,7 @@
     <detaileddescription>
 <para>Can have infinite length in one or two directions. The top and/or bottom can be flat or pointy. Doubles as a cylinder, line (finite or infinite), and a circle. </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="56" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="57" bodyend="112"/>
+    <location file="MRMesh/MRFeatures.h" line="56" column="5" bodyfile="MRMesh/MRFeatures.h" bodystart="57" bodyend="112"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8a42078ef10591681da03dca8d0c2abd" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>axis</name></member>
       <member refid="group__GeneralGroup_1ga43792d2039e9e2ce13fc3c5e5435d9b4" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>baseCircle</name></member>

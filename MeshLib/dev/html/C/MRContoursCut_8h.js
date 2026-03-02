@@ -1,6 +1,5 @@
 var MRContoursCut_8h =
 [
-    [ "MR_AffineXf3f", "MRContoursCut_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
     [ "MR_CutByProjectionSettings", "MRContoursCut_8h.html#a4b06ea63ec08a6f2c1a5cf99b29cc3ff", null ],
     [ "MR_CutMeshParameters", "MRContoursCut_8h.html#a646e06afd435d75b5a8c8d01602aa5eb", null ],
     [ "MR_CutMeshParameters_ForceFill", "MRContoursCut_8h.html#a01cedbb1ea06f084ed786c8fea1df019", null ],
@@ -8,20 +7,12 @@ var MRContoursCut_8h =
     [ "MR_expected_MR_FaceBitSet_std_string", "MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b", null ],
     [ "MR_expected_std_vector_MR_OneMeshContour_std_string", "MRContoursCut_8h.html#a4be6517a31b66da090092aa8bb37c304", null ],
     [ "MR_expected_std_vector_std_vector_MR_EdgeId_std_string", "MRContoursCut_8h.html#afbb58c6b3a4c5746c9ae773c02b24591", null ],
-    [ "MR_FaceBitSet", "MRContoursCut_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_FaceMap", "MRContoursCut_8h.html#ab809347fd151b45341bc9e7828673eb5", null ],
-    [ "MR_Mesh", "MRContoursCut_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_NewEdgesMap", "MRContoursCut_8h.html#a69fca42fce5993f181e99f89af5fa322", null ],
     [ "MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int", "MRContoursCut_8h.html#aa889e7636f03136c655bc3165386ea9e", null ],
     [ "MR_SearchPathSettings", "MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8", null ],
     [ "MR_SortIntersectionsData", "MRContoursCut_8h.html#abf340aafe859554b2c4dd858ad318988", null ],
     [ "MR_std_function_float_from_int", "MRContoursCut_8h.html#a984bdb18a92ceb4f93e877ad306ad832", null ],
-    [ "MR_std_vector_MR_MeshTriPoint", "MRContoursCut_8h.html#a087d1afcc55aadc6e828d844329c9727", null ],
     [ "MR_std_vector_MR_OneMeshContour", "MRContoursCut_8h.html#a071da9f0f67109f51758510529ba0b5b", null ],
-    [ "MR_std_vector_MR_Vector3f", "MRContoursCut_8h.html#aefed148a09a0ae55edbd22814638b462", null ],
-    [ "MR_std_vector_std_vector_MR_EdgeId", "MRContoursCut_8h.html#ab5de264b6065dbf84f6b3fa0f6530592", null ],
-    [ "MR_std_vector_std_vector_MR_Vector3f", "MRContoursCut_8h.html#a79b88ecd897f6c27c8428cecc4a91f30", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRContoursCut_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
     [ "MR_CutMeshParameters_ForceFill", "MRContoursCut_8h.html#ad88711e195698407258d2d46c2a03394", [
       [ "MR_CutMeshParameters_ForceFill_None", "MRContoursCut_8h.html#ad88711e195698407258d2d46c2a03394afa6fde0595c530e4d65c99b2297f1de9", null ],
       [ "MR_CutMeshParameters_ForceFill_Good", "MRContoursCut_8h.html#ad88711e195698407258d2d46c2a03394ab034421e29b0df398b20c55cf22e0a2b", null ],

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshBoolean_8h" kind="file" language="C++">
     <compoundname>MRMeshBoolean.h</compoundname>
     <includes refid="MRBooleanOperation_8h" local="yes">MRBooleanOperation.h</includes>
@@ -172,7 +172,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshBoolean.h</label>
+        <label>MRMesh/MRMeshBoolean.h</label>
         <link refid="MRMeshBoolean_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -540,8 +540,9 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">BooleanResult</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="structMR_1_1BooleanResult" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1BooleanResult" kindref="compound">BooleanResult</ref></highlight></codeline>
 <codeline lineno="29"><highlight class="normal">{<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="31" refid="structMR_1_1BooleanResult_1a2d3a10c35e289abf78a95bd3005b9486" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="structMR_1_1BooleanResult_1a2d3a10c35e289abf78a95bd3005b9486" kindref="member">mesh</ref>;</highlight></codeline>
 <codeline lineno="33" refid="structMR_1_1BooleanResult_1a9e97978ae79fbc9acc8c2bdb8ef40c12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceBitSet<sp/><ref refid="structMR_1_1BooleanResult_1a9e97978ae79fbc9acc8c2bdb8ef40c12" kindref="member">meshABadContourFaces</ref>;</highlight></codeline>
@@ -595,7 +596,7 @@
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
 <codeline lineno="117" refid="group__BooleanGroup_1ga0b6ca259502ac9cd412a6d3b42249201" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref><sp/><ref refid="group__BooleanGroup_1ga0b6ca259502ac9cd412a6d3b42249201" kindref="member">findIntersectionContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>meshA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>meshB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="structMR_1_1BooleanResultPoints" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1BooleanResultPoints" kindref="compound">BooleanResultPoints</ref></highlight></codeline>
+<codeline lineno="120" refid="structMR_1_1BooleanResultPoints" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1BooleanResultPoints" kindref="compound">BooleanResultPoints</ref></highlight></codeline>
 <codeline lineno="121"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="122" refid="structMR_1_1BooleanResultPoints_1a758818e3193d5a31f2ce34e7fef01456" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertBitSet<sp/><ref refid="structMR_1_1BooleanResultPoints_1a758818e3193d5a31f2ce34e7fef01456" kindref="member">meshAVerts</ref>;</highlight></codeline>
 <codeline lineno="123" refid="structMR_1_1BooleanResultPoints_1a73c3b72527fa64512c86e99d2c0ce6c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertBitSet<sp/><ref refid="structMR_1_1BooleanResultPoints_1a73c3b72527fa64512c86e99d2c0ce6c4" kindref="member">meshBVerts</ref>;</highlight></codeline>
@@ -611,6 +612,6 @@
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
 <codeline lineno="149"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h"/>
+    <location file="MRMesh/MRMeshBoolean.h"/>
   </compounddef>
 </doxygen>

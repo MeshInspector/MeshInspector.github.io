@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EdgePathsAStarBuilder" kind="class" language="C++" prot="public">
     <compoundname>MR::EdgePathsAStarBuilder</compoundname>
     <basecompoundref refid="classMR_1_1EdgePathsBuilderT" prot="public" virt="non-virtual">MR::EdgePathsBuilderT&lt; MetricToAStarPenalty &gt;</basecompoundref>
-    <includes refid="MREdgePathsBuilder_8h" local="no">MREdgePathsBuilder.h</includes>
+    <includes refid="MREdgePathsBuilder_8h" local="no">MRMesh/MREdgePathsBuilder.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga4e018ac01b06bc74b3f4de5e064041a0" kind="function"><name>EdgePathsAStarBuilder</name></member>
       <member refid="group__GeneralGroup_1gae2771303c291202904b3ec855b364487" kind="function"><name>EdgePathsAStarBuilder</name></member>
@@ -44,7 +44,7 @@
         <link refid="structMR_1_1MetricToAStarPenalty"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="284" bodyend="304"/>
+    <location file="MRMesh/MREdgePathsBuilder.h" line="283" column="1" bodyfile="MRMesh/MREdgePathsBuilder.h" bodystart="284" bodyend="304"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7567736873ea92c6a2359d13bdf9ff52" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>addOrgRingSteps</name></member>
       <member refid="group__GeneralGroup_1ga424ce31cf3ac73240ffd491872efa6fb" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>addStart</name></member>
@@ -53,7 +53,6 @@
       <member refid="group__GeneralGroup_1ga4e018ac01b06bc74b3f4de5e064041a0" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>EdgePathsAStarBuilder</name></member>
       <member refid="group__GeneralGroup_1gae2771303c291202904b3ec855b364487" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>EdgePathsAStarBuilder</name></member>
       <member refid="group__GeneralGroup_1gaa58748ee3e1ceb34e2ff8b8d2ab58d6b" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>EdgePathsBuilderT</name></member>
-      <member refid="group__GeneralGroup_1ga5d9175cad8bf58c494f9f65aafff8cde" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>EdgePathsBuilderT</name></member>
       <member refid="group__GeneralGroup_1gaa5a3f3206ed7ec78c89eef5860137181" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>getPathBack</name></member>
       <member refid="group__GeneralGroup_1gae50a59bc1425eff2906ad0c18accbabc" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>getVertInfo</name></member>
       <member refid="group__GeneralGroup_1ga245a1aca92a23d5b494706916ea2554e" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>growOneEdge</name></member>

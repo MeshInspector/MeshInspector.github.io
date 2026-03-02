@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ItemEnabledPerViewport" kind="class" language="C++" prot="public">
     <compoundname>MR::ItemEnabledPerViewport</compoundname>
-    <includes refid="MRItemEnabledPerViewport_8h" local="no">MRItemEnabledPerViewport.h</includes>
+    <includes refid="MRItemEnabledPerViewport_8h" local="no">MRViewer/MRItemEnabledPerViewport.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga40762ec90c11a9a4c41e2d161a68e435" kind="variable"><name>enabledViewports_</name></member>
     </sectiondef>
@@ -18,7 +18,7 @@
     <detaileddescription>
 <para>A base class for <computeroutput><ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref></computeroutput>s that can be toggled per viewport. The intent is that the derived classes should also be derived from <computeroutput><ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref></computeroutput> and be registered in the ribbon schema. Doing this ensures that you can loop over all items in the schema to get a list of all items toggleable in this way. </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRItemEnabledPerViewport.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRItemEnabledPerViewport.h" bodystart="16" bodyend="26"/>
+    <location file="MRViewer/MRItemEnabledPerViewport.h" line="15" column="1" bodyfile="MRViewer/MRItemEnabledPerViewport.h" bodystart="16" bodyend="26"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga40762ec90c11a9a4c41e2d161a68e435" prot="private" virt="non-virtual"><scope>MR::ItemEnabledPerViewport</scope><name>enabledViewports_</name></member>
       <member refid="group__GeneralGroup_1gabcacdc178a41c53b15348fa7318ef556" prot="public" virt="non-virtual"><scope>MR::ItemEnabledPerViewport</scope><name>getEnabledViewports</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PolylineProjectionResult3Arg" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PolylineProjectionResult3Arg</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1PolylineProjectionResult3" prot="public" virt="non-virtual">mrmeshpy.PolylineProjectionResult3</basecompoundref>
@@ -27,7 +27,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.PolylineProjectionResult3Arg.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1PolylineProjectionResult3_1a32f61052ab24ac4070b897a53604acc8">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -98,7 +97,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.PolylineProjectionResult3Arg.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1PolylineProjectionResult3_1a32f61052ab24ac4070b897a53604acc8">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -117,7 +115,6 @@
         <argsstring>(self, PolylineProjectionResult3Arg arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.PolylineProjectionResult3Arg.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1PolylineProjectionResult3_1a32f61052ab24ac4070b897a53604acc8">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -203,33 +200,33 @@
         <link refid="classmrmeshpy_1_1PolylineProjectionResult3Arg"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_pointId</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.PolylineProjectionResult3</label>
         <link refid="classmrmeshpy_1_1PolylineProjectionResult3"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_distSq</edgelabel>
-          <edgelabel>_offsetof_line</edgelabel>
-          <edgelabel>_offsetof_point</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46836" bodyend="46868"/>
     <listofallmembers>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult3_1ac4af4117384f7cbf8bb0e31359eabfbb" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>__bool__</name></member>
       <member refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1a1ddd76eca1c8942c4d646125bb6e8d8b" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1a22055a955a5dc0d96e6a2b80fb88f070" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1abb0769147b3aceab4084948807e9f1a6" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult3_1a4f1f8292f24f400a932ab4a28e7dbd3f" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>_offsetof_distSq</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult3_1ae95980d7e37f9ec0290300580e6859b0" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>_offsetof_line</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult3_1adf93b990a5d7c3166ccfa3699e810556" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>_offsetof_point</name></member>
       <member refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1a0a8b85825424bda8ca43f0e3052e1523" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>_offsetof_pointId</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult3_1a7427fa67049d5434674c53951bb3e373" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>distSq</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult3_1a6a665778be8f20f253cb0dbf352a602c" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>distSq</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult3_1aa9bc252bdf5d0559444240dbab29e356" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>line</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult3_1a5382f9fc669312be73198e36f26d0913" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>line</name></member>
       <member refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1a8e4b949a6f53ab8dd3f3bb76d7d16ebd" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1a8e4b949a6f53ab8dd3f3bb76d7d16ebd" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult3_1a0dc486948b8acd0868831a03f5a438f0" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>point</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult3_1a7f15c12f75cc176f7171a3f3b13c85c5" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>point</name></member>
       <member refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1a65c49528bda2430c74c7e786447cd358" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>pointId</name></member>
       <member refid="classmrmeshpy_1_1PolylineProjectionResult3Arg_1acfa5c36504816667393b72344c04236a" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>pointId</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult3_1a646b3921652a8d06111a9994a072eac1" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult3Arg</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

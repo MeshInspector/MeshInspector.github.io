@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ToolPathResult" kind="struct" language="C++" prot="public">
     <compoundname>MR::ToolPathResult</compoundname>
-    <includes refid="MRToolPath_8h" local="no">MRToolPath.h</includes>
+    <includes refid="MRToolPath_8h" local="no">MRVoxels/MRToolPath.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gae495a5fc24540b7eaf1210872ac5fb3e" kind="variable"><name>modifiedMesh</name></member>
       <member refid="group__GeneralGroup_1ga98b818ec1b422fbe35f5efd57ff37a44" kind="variable"><name>modifiedRegion</name></member>
@@ -32,7 +32,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="129" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="130" bodyend="137"/>
+    <location file="MRVoxels/MRToolPath.h" line="129" column="1" bodyfile="MRVoxels/MRToolPath.h" bodystart="130" bodyend="137"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga327bcaceb046cef6859ddc1293a47e35" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>commands</name></member>
       <member refid="group__GeneralGroup_1gae495a5fc24540b7eaf1210872ac5fb3e" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>modifiedMesh</name></member>

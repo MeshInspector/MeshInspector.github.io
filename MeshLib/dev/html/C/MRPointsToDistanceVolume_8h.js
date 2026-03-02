@@ -1,15 +1,7 @@
 var MRPointsToDistanceVolume_8h =
 [
-    [ "MR_DistanceVolumeParams", "MRPointsToDistanceVolume_8h.html#af9c1f01ab3534b48d6b02a0b6c78143e", null ],
     [ "MR_expected_MR_SimpleVolume_std_string", "MRPointsToDistanceVolume_8h.html#a1fc8e13b15f164149cdebe00fc8c33b8", null ],
     [ "MR_expected_MR_VertColors_std_string", "MRPointsToDistanceVolume_8h.html#a401c27a5a8649aadc2ab876a153c54d6", null ],
-    [ "MR_FunctionVolume", "MRPointsToDistanceVolume_8h.html#ab294732b2988d23c13fd8799dc19a43a", null ],
-    [ "MR_PointCloud", "MRPointsToDistanceVolume_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
-    [ "MR_PointsToDistanceVolumeParams", "MRPointsToDistanceVolume_8h.html#a62f44af92ecc2488d2abf67bc90c6804", null ],
-    [ "MR_std_function_bool_from_float", "MRPointsToDistanceVolume_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_VertBitSet", "MRPointsToDistanceVolume_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
-    [ "MR_VertColors", "MRPointsToDistanceVolume_8h.html#a20dc7d636220f61a60c7ae92b8caa768", null ],
-    [ "MR_VertCoords", "MRPointsToDistanceVolume_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_calcAvgColors", "MRPointsToDistanceVolume_8h.html#a88ee201c428c624e871945c67afb2f43", null ],
     [ "MR_pointsToDistanceFunctionVolume", "MRPointsToDistanceVolume_8h.html#a756f633a49755a8bd4b1a79f7a80b896", null ],
     [ "MR_pointsToDistanceVolume", "MRPointsToDistanceVolume_8h.html#a0362d48493d5a4f5eeb5cfe725f9a090", null ],

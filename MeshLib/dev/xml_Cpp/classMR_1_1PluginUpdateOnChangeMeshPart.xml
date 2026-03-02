@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PluginUpdateOnChangeMeshPart" kind="class" language="C++" prot="public">
     <compoundname>MR::PluginUpdateOnChangeMeshPart</compoundname>
     <basecompoundref refid="classMR_1_1IPluginUpdate" prot="public" virt="virtual">MR::IPluginUpdate</basecompoundref>
-    <includes refid="MRStatePluginUpdate_8h" local="no">MRStatePluginUpdate.h</includes>
+    <includes refid="MRStatePluginUpdate_8h" local="no">MRViewer/MRStatePluginUpdate.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga8966c139b8539e3583cf02308b060484" kind="typedef"><name>UpdateFunc</name></member>
     </sectiondef>
@@ -49,7 +49,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="62" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="63" bodyend="78"/>
+    <location file="MRViewer/MRStatePluginUpdate.h" line="62" column="1" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="63" bodyend="78"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2fd3a2923aaecd02cf580577dc7b634f" prot="private" virt="non-virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>connections_</name></member>
       <member refid="group__GeneralGroup_1gac672aeb6f42f88a437ce92709a6aba0b" prot="private" virt="non-virtual"><scope>MR::PluginUpdateOnChangeMeshPart</scope><name>dirty_</name></member>

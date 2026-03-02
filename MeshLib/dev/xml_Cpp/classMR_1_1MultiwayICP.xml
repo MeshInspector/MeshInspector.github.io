@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MultiwayICP" kind="class" language="C++" prot="public">
     <compoundname>MR::MultiwayICP</compoundname>
-    <includes refid="MRMultiwayICP_8h" local="no">MRMultiwayICP.h</includes>
+    <includes refid="MRMultiwayICP_8h" local="no">MRMesh/MRMultiwayICP.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga37a8e0d52c2729455ea42255f7d90942" kind="typedef"><name>PairsPerLayer</name></member>
     </sectiondef>
@@ -61,7 +61,7 @@
     <detaileddescription>
 <para>This class allows you to register many objects having similar parts and known initial approximations of orientations/locations using Iterative Closest Points (<ref refid="classMR_1_1ICP" kindref="compound">ICP</ref>) point-to-point or point-to-plane algorithms <programlisting filename="cpp-samples/GlobalRegistration.cpp"></programlisting> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="88" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="89" bodyend="195"/>
+    <location file="MRMesh/MRMultiwayICP.h" line="88" column="1" bodyfile="MRMesh/MRMultiwayICP.h" bodystart="89" bodyend="195"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga394e89415d977414c72bd9f6d8bec1a4" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calcCombined_</name></member>
       <member refid="group__GeneralGroup_1ga282279a00c7e92bd0b8b7fb4db086da3" prot="private" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>calcGen_</name></member>

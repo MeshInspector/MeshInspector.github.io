@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MergeVolumePartSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::MergeVolumePartSettings</compoundname>
-    <includes refid="MRVoxelsConversionsByParts_8h" local="no">MRVoxelsConversionsByParts.h</includes>
+    <includes refid="MRVoxelsConversionsByParts_8h" local="no">MRVoxels/MRVoxelsConversionsByParts.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga577e60ec177ee1ce4be553f79fc09a89" kind="typedef"><name>PreCutCallback</name></member>
       <member refid="group__GeneralGroup_1ga58b526091c2efa7486833edd93420975" kind="typedef"><name>PostCutCallback</name></member>
@@ -25,7 +25,15 @@
     </detaileddescription>
     <collaborationgraph>
       <node id="3">
-        <label>MR::MapOrHashMap&lt; K, V &gt;</label>
+        <label>MR::MapOrHashMap&lt; FaceId, FaceId &gt;</label>
+        <link refid="structMR_1_1MapOrHashMap"/>
+      </node>
+      <node id="5">
+        <label>MR::MapOrHashMap&lt; UndirectedEdgeId, EdgeId &gt;</label>
+        <link refid="structMR_1_1MapOrHashMap"/>
+      </node>
+      <node id="4">
+        <label>MR::MapOrHashMap&lt; VertId, VertId &gt;</label>
         <link refid="structMR_1_1MapOrHashMap"/>
       </node>
       <node id="1">
@@ -39,16 +47,20 @@
         <label>MR::PartMapping</label>
         <link refid="structMR_1_1PartMapping"/>
         <childnode refid="3" relation="usage">
-          <edgelabel>src2tgtEdges</edgelabel>
           <edgelabel>src2tgtFaces</edgelabel>
-          <edgelabel>src2tgtVerts</edgelabel>
-          <edgelabel>tgt2srcEdges</edgelabel>
           <edgelabel>tgt2srcFaces</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>src2tgtVerts</edgelabel>
           <edgelabel>tgt2srcVerts</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>src2tgtEdges</edgelabel>
+          <edgelabel>tgt2srcEdges</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="22" column="1"/>
+    <location file="MRVoxels/MRVoxelsConversionsByParts.h" line="22" column="1" bodyfile="MRVoxels/MRVoxelsConversionsByParts.h" bodystart="23" bodyend="39"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga196c2f60b539ef9d242a51bcd49833d3" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>mapping</name></member>
       <member refid="group__GeneralGroup_1ga46d9c425aefa56ee9d112c6cb81a1415" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>origin</name></member>

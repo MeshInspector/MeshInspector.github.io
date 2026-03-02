@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SpaceMouseMoveListener" kind="struct" language="C++" prot="public" abstract="yes">
     <compoundname>MR::SpaceMouseMoveListener</compoundname>
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
-    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewer/MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga2cfdabbd1ab58db19f09528e678f3729" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1gad6cac85205366b4d1518a8cda5ae50d9" kind="function"><name>~SpaceMouseMoveListener</name></member>
@@ -53,7 +53,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="280" bodyend="286"/>
+    <location file="MRViewer/MRViewerEventsListener.h" line="279" column="1" bodyfile="MRViewer/MRViewerEventsListener.h" bodystart="280" bodyend="286"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga9b008d80b108bccbd19105a34579b753" prot="public" virt="virtual"><scope>MR::SpaceMouseMoveListener</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::SpaceMouseMoveListener</scope><name>connection_</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCtm_8h" kind="file" language="C++">
     <compoundname>MRCtm.h</compoundname>
     <includes refid="MRIOExtras_2config_8h" local="yes">config.h</includes>
@@ -11,7 +11,7 @@
     <includes local="no">filesystem</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRCtm.h</label>
+        <label>MRIOExtras/MRCtm.h</label>
         <link refid="MRCtm_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -369,24 +369,24 @@
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="namespaceMR_1_1MeshLoad" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">MeshLoad</highlight></codeline>
+<codeline lineno="20" refid="namespaceMR_1_1MeshLoad" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1MeshLoad" kindref="compound">MeshLoad</ref></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="group__GeneralGroup_1ga5e70a0f21347569fd4dd9ebb7554f8fd" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga5e70a0f21347569fd4dd9ebb7554f8fd" kindref="member">fromCtm</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="25" refid="group__GeneralGroup_1gaab397c33ed047fb5ccbb545c3940957d" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga5e70a0f21347569fd4dd9ebb7554f8fd" kindref="member">fromCtm</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="namespaceMR_1_1MeshSave" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">MeshSave</highlight></codeline>
+<codeline lineno="29" refid="namespaceMR_1_1MeshSave" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1MeshSave" kindref="compound">MeshSave</ref></highlight></codeline>
 <codeline lineno="30"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="structMR_1_1MeshSave_1_1CtmSaveOptions" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshSave_1_1CtmSaveOptions" kindref="compound">CtmSaveOptions</ref><sp/>:<sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref></highlight></codeline>
 <codeline lineno="33"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="34" refid="group__GeneralGroup_1gae11e0573781455904bb818493c2ad69d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae11e0573781455904bb818493c2ad69d" kindref="member">MeshCompression</ref></highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggae11e0573781455904bb818493c2ad69da6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref>,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713" kindref="member">Lossless</ref>,<sp/></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc" kindref="member">Lossy</ref><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1ggae11e0573781455904bb818493c2ad69da6adf97f83acf6453d4a6a4b1070f3754" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggae11e0573781455904bb818493c2ad69da6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref>,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1ggae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713" kindref="member">Lossless</ref>,<sp/></highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1ggae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc" kindref="member">Lossy</ref><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="40" refid="group__GeneralGroup_1ga54ba9db1afce57658d702848df79ec47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gae11e0573781455904bb818493c2ad69d" kindref="member">MeshCompression</ref><sp/><ref refid="group__GeneralGroup_1ga54ba9db1afce57658d702848df79ec47" kindref="member">meshCompression</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ggae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713" kindref="member">MeshCompression::Lossless</ref>;</highlight></codeline>
 <codeline lineno="43" refid="group__GeneralGroup_1ga391e0a1e39f79dd41b9a003e251360c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga391e0a1e39f79dd41b9a003e251360c4" kindref="member">vertexPrecision</ref><sp/>=<sp/>1.0f<sp/>/<sp/>1024.0f;<sp/></highlight></codeline>
@@ -399,17 +399,17 @@
 <codeline lineno="53" refid="group__GeneralGroup_1ga0ac906684f9be8595fe62ce6ced0e1c8" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga6482d0b63851221c94c50665e4bbb4b9" kindref="member">toCtm</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path<sp/>&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref><sp/>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="54" refid="group__GeneralGroup_1ga98779f78c4bba8956c622a7d76eee8b3" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga6482d0b63851221c94c50665e4bbb4b9" kindref="member">toCtm</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/>std::ostream<sp/>&amp;<sp/>out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref><sp/>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="namespaceMR_1_1PointsLoad" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">PointsLoad</highlight></codeline>
+<codeline lineno="58" refid="namespaceMR_1_1PointsLoad" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PointsLoad" kindref="compound">PointsLoad</ref></highlight></codeline>
 <codeline lineno="59"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62" refid="group__GeneralGroup_1ga8a580b810c0308121d566693f5e196a2" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8a580b810c0308121d566693f5e196a2" kindref="member">fromCtm</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="63" refid="group__GeneralGroup_1ga1afe750e0a8c61a6730d43d9b071987f" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8a580b810c0308121d566693f5e196a2" kindref="member">fromCtm</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="namespaceMR_1_1PointsSave" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">PointsSave</highlight></codeline>
+<codeline lineno="67" refid="namespaceMR_1_1PointsSave" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PointsSave" kindref="compound">PointsSave</ref></highlight></codeline>
 <codeline lineno="68"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70" refid="structMR_1_1PointsSave_1_1CtmSavePointsOptions" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PointsSave_1_1CtmSavePointsOptions" kindref="compound">CtmSavePointsOptions</ref><sp/>:<sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref></highlight></codeline>
@@ -423,11 +423,11 @@
 <codeline lineno="81" refid="group__GeneralGroup_1ga898d2d11a740e4045732fea8bcaf73cd" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga24d5809ee70d11aeeb25a036234a5e2c" kindref="member">toCtm</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="82" refid="group__GeneralGroup_1gaf1f0368ea29bcc428bd7a55601155bd2" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga24d5809ee70d11aeeb25a036234a5e2c" kindref="member">toCtm</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>points,<sp/>std::ostream&amp;<sp/>out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h"/>
+    <location file="MRIOExtras/MRCtm.h"/>
   </compounddef>
 </doxygen>

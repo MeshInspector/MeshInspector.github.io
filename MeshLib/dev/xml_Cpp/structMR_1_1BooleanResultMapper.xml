@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1BooleanResultMapper" kind="struct" language="C++" prot="public">
     <compoundname>MR::BooleanResultMapper</compoundname>
-    <includes refid="MRBooleanOperation_8h" local="no">MRBooleanOperation.h</includes>
+    <includes refid="MRBooleanOperation_8h" local="no">MRMesh/MRBooleanOperation.h</includes>
     <innerclass refid="structMR_1_1BooleanResultMapper_1_1Maps" prot="public">MR::BooleanResultMapper::Maps</innerclass>
     <sectiondef kind="public-type">
       <memberdef kind="enum" id="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587" prot="public" static="no" strong="yes">
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="59" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" bodystart="59" bodyend="59"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="59" column="5" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="59" bodyend="59"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="95" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" bodystart="95" bodyend="-1"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="95" column="16" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="95" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="61" column="5"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="61" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1af6e316b7b21f94033491018406e4e3a6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="64" column="17"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="64" column="17"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1a8f369cfaf8161eeacbd279d20b92aadb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>VertBitSet</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="67" column="17"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="67" column="17"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1a3c9521a76c9f0ff1327150e75980e48f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeBitSet</type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="70" column="17"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="70" column="17"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1a4025520e93584d2b0b95e661d513df2b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>UndirectedEdgeBitSet</type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="73" column="27"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="73" column="27"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1a49d9476b91391ce052bbd2b26db33be5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="76" column="17"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="76" column="17"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1a654dd05e055cf50b5ed29987e8838ac1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -199,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="79" column="17"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="79" column="17"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1a90a7bf08cca602701e835565e3d516e7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="structMR_1_1BooleanResultMapper_1_1Maps" kindref="compound">Maps</ref> &amp;</type>
@@ -217,7 +217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="97" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" bodystart="97" bodyend="97"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="97" column="17" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="97" bodyend="97"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -229,7 +229,7 @@
 </simplesect>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="56" column="1"/>
+    <location file="MRMesh/MRBooleanOperation.h" line="56" column="1" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="57" bodyend="98"/>
     <listofallmembers>
       <member refid="structMR_1_1BooleanResultMapper_1a00bac3eecd35b44f05f28f7cb1f3c0d9" prot="public" virt="non-virtual"><scope>MR::BooleanResultMapper</scope><name>BooleanResultMapper</name></member>
       <member refid="structMR_1_1BooleanResultMapper_1a654dd05e055cf50b5ed29987e8838ac1" prot="public" virt="non-virtual"><scope>MR::BooleanResultMapper</scope><name>filteredOldFaceBitSet</name></member>

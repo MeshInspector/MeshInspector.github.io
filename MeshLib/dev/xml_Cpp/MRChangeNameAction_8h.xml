@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangeNameAction_8h" kind="file" language="C++">
     <compoundname>MRChangeNameAction.h</compoundname>
     <includes refid="MRHistoryAction_8h" local="yes">MRHistoryAction.h</includes>
@@ -76,7 +76,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRChangeNameAction.h</label>
+        <label>MRMesh/MRChangeNameAction.h</label>
         <link refid="MRChangeNameAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -393,7 +393,7 @@
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="classMR_1_1ChangeNameAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeNameAction" kindref="compound">ChangeNameAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1ChangeNameAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga8461f96378d4084fbd74bbdbf8d70ed3" kindref="member">ChangeNameAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1ga8461f96378d4084fbd74bbdbf8d70ed3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8461f96378d4084fbd74bbdbf8d70ed3" kindref="member">ChangeNameAction</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>actionName,<sp/>std::shared_ptr&lt;Object&gt;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
@@ -430,8 +430,8 @@
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>actionName_;</highlight></codeline>
 <codeline lineno="52"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeNameAction.h"/>
+    <location file="MRMesh/MRChangeNameAction.h"/>
   </compounddef>
 </doxygen>

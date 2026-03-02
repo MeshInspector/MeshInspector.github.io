@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRIntersection_8h" kind="file" language="C++">
     <compoundname>MRIntersection.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -23,23 +23,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::LineSegm2f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersection.h" line="9" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersection.h" bodystart="9" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRIntersection_8h_1af7ea855ac419f239c2499023478617a4" prot="public" static="no">
-        <type>struct <ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref></type>
-        <definition>typedef struct MR_std_optional_MR_Vector2f MR_std_optional_MR_Vector2f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_optional_MR_Vector2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersection.h" line="10" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersection.h" bodystart="10" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -82,7 +70,7 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9" refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLineSegm.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="MRIntersection_8h_1af7ea855ac419f239c2499023478617a4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref><sp/><ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref><sp/><ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="MRIntersection_8h_1a9a690189883feb4eb4d2e7c1e145ef0e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref><sp/>*<ref refid="MRIntersection_8h_1a9a690189883feb4eb4d2e7c1e145ef0e" kindref="member">MR_intersection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*segm1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*segm2);</highlight></codeline>

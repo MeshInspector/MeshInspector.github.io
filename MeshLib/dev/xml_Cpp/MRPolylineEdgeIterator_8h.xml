@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPolylineEdgeIterator_8h" kind="file" language="C++">
     <compoundname>MRPolylineEdgeIterator.h</compoundname>
     <includes refid="MRPolylineTopology_8h" local="yes">MRPolylineTopology.h</includes>
@@ -79,7 +79,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPolylineEdgeIterator.h</label>
+        <label>MRMesh/MRPolylineEdgeIterator.h</label>
         <link refid="MRPolylineEdgeIterator_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -188,7 +188,7 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/></highlight></codeline>
-<codeline lineno="15" refid="classMR_1_1PolylineUndirectedEdgeIterator" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">PolylineUndirectedEdgeIterator</ref></highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1PolylineUndirectedEdgeIterator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga96c120505ea08821c57b4ed64dee6cda" kindref="member">PolylineUndirectedEdgeIterator</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1gab5a25215895e3294bb18f87556136edc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gab5a25215895e3294bb18f87556136edc" kindref="member">iterator_category</ref><sp/>=<sp/>std::forward_iterator_tag;</highlight></codeline>
@@ -196,26 +196,26 @@
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="group__GeneralGroup_1ga96c120505ea08821c57b4ed64dee6cda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga96c120505ea08821c57b4ed64dee6cda" kindref="member">PolylineUndirectedEdgeIterator</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PolylineTopology" kindref="compound">PolylineTopology</ref><sp/>&amp;<sp/>topology<sp/>)<sp/>:<sp/>topology_(<sp/>&amp;topology<sp/>)</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>topology_-&gt;<ref refid="group__GeneralGroup_1ga061dd907ada10af2d8ed533c49f4b0ab" kindref="member">undirectedEdgeSize</ref>()<sp/>==<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>topology_-&gt;undirectedEdgeSize()<sp/>==<sp/>0<sp/>)</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>edge_<sp/>=<sp/>UndirectedEdgeId{0};</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>topology_-&gt;<ref refid="group__GeneralGroup_1ga340d1c3c2700cc5e1f3e470e2b04e0ca" kindref="member">isLoneEdge</ref>(<sp/>edge_<sp/>)<sp/>)</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga00b9bc17163f0618fd55aa774580ed91" kindref="member">operator ++</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(<sp/>topology_-&gt;isLoneEdge(<sp/>edge_<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>++();</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="31" refid="group__GeneralGroup_1gaceb9e42371e4e109bae6cfd91baa5ec1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaceb9e42371e4e109bae6cfd91baa5ec1" kindref="member">PolylineUndirectedEdgeIterator</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="group__GeneralGroup_1ga00b9bc17163f0618fd55aa774580ed91" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">PolylineUndirectedEdgeIterator</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga00b9bc17163f0618fd55aa774580ed91" kindref="member">operator++</ref>(<sp/>)</highlight></codeline>
+<codeline lineno="33" refid="group__GeneralGroup_1ga00b9bc17163f0618fd55aa774580ed91" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga96c120505ea08821c57b4ed64dee6cda" kindref="member">PolylineUndirectedEdgeIterator</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga00b9bc17163f0618fd55aa774580ed91" kindref="member">operator++</ref>(<sp/>)</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>edge_.valid()<sp/>);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(;;)</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++edge_;</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>edge_<sp/>&gt;=<sp/>topology_-&gt;<ref refid="group__GeneralGroup_1ga061dd907ada10af2d8ed533c49f4b0ab" kindref="member">undirectedEdgeSize</ref>()<sp/>)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>edge_<sp/>&gt;=<sp/>topology_-&gt;undirectedEdgeSize()<sp/>)</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>edge_<sp/>=<sp/>UndirectedEdgeId{};</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!topology_-&gt;<ref refid="group__GeneralGroup_1ga340d1c3c2700cc5e1f3e470e2b04e0ca" kindref="member">isLoneEdge</ref>(<sp/>edge_<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!topology_-&gt;isLoneEdge(<sp/>edge_<sp/>)<sp/>)</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
@@ -228,7 +228,7 @@
 <codeline lineno="54"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="group__GeneralGroup_1gaa10debad27ce2b86f238db3d967a2c22" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga477d12e4df21747098c68393607fe634" kindref="member">operator ==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">PolylineUndirectedEdgeIterator</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">PolylineUndirectedEdgeIterator</ref><sp/>&amp;<sp/>b<sp/>)</highlight></codeline>
+<codeline lineno="59" refid="group__GeneralGroup_1gaa10debad27ce2b86f238db3d967a2c22" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga477d12e4df21747098c68393607fe634" kindref="member">operator ==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga96c120505ea08821c57b4ed64dee6cda" kindref="member">PolylineUndirectedEdgeIterator</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga96c120505ea08821c57b4ed64dee6cda" kindref="member">PolylineUndirectedEdgeIterator</ref><sp/>&amp;<sp/>b<sp/>)</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*a<sp/>==<sp/>*b;<sp/>}</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5534d2437ed57cabae82ae75a441b224" kindref="member">operator !=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">PolylineUndirectedEdgeIterator</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">PolylineUndirectedEdgeIterator</ref><sp/>&amp;<sp/>b<sp/>)</highlight></codeline>
@@ -238,8 +238,8 @@
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>PolylineUndirectedEdgeIterator(<sp/>topology<sp/>),<sp/>PolylineUndirectedEdgeIterator()<sp/>};<sp/>}</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineEdgeIterator.h"/>
+    <location file="MRMesh/MRPolylineEdgeIterator.h"/>
   </compounddef>
 </doxygen>

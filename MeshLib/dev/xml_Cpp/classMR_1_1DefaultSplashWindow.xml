@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DefaultSplashWindow" kind="class" language="C++" prot="public" final="yes">
     <compoundname>MR::DefaultSplashWindow</compoundname>
     <basecompoundref refid="classMR_1_1SplashWindow" prot="public" virt="non-virtual">MR::SplashWindow</basecompoundref>
-    <includes refid="MRSplashWindow_8h" local="no">MRSplashWindow.h</includes>
+    <includes refid="MRSplashWindow_8h" local="no">MRViewer/MRSplashWindow.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga482ffe5896336284305c020e08aaad7b" kind="variable"><name>splashImage_</name></member>
       <member refid="group__GeneralGroup_1ga12c2f6b183c98063e35f956bd0c7dc2e" kind="variable"><name>versionStr_</name></member>
@@ -47,7 +47,7 @@
         <link refid="classMR_1_1SplashWindow"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="71" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" bodystart="72" bodyend="85"/>
+    <location file="MRViewer/MRSplashWindow.h" line="71" column="1" bodyfile="MRViewer/MRSplashWindow.h" bodystart="72" bodyend="85"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga47971ab928e999aec01b1d27348ff43c" prot="public" virt="non-virtual"><scope>MR::DefaultSplashWindow</scope><name>DefaultSplashWindow</name></member>
       <member refid="group__GeneralGroup_1ga953ff1190ff60fc2904411b3edd7c189" prot="private" virt="virtual"><scope>MR::DefaultSplashWindow</scope><name>frame_</name></member>

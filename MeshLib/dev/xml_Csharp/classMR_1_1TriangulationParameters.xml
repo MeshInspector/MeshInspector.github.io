@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TriangulationParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::TriangulationParameters</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_TriangulationParameters</basecompoundref>
@@ -20,9 +20,9 @@
 <table rows="1" cols="2"><caption id="classMR_1_1TriangulationParameters_1TriangulationParameters::numNeighbours_examples"></caption>
 <row>
 <entry thead="no"><para><image type="html" name="triangulate_3.png" width="350cm">Good</image>
- </para>
+</para>
 </entry><entry thead="no"><para><image type="html" name="triangulate_2.png" width="350cm">Too small value</image>
-  </para>
+</para>
 </entry></row>
 </table>
 </para>
@@ -59,9 +59,9 @@
 <para><table rows="1" cols="2"><caption id="classMR_1_1TriangulationParameters_1TriangulationParameters::critAngle_examples"></caption>
 <row>
 <entry thead="no"><para><image type="html" name="triangulate_3.png" width="350cm">Good</image>
- </para>
+</para>
 </entry><entry thead="no"><para><image type="html" name="triangulate_4.png" width="350cm">Too small value</image>
-  </para>
+</para>
 </entry></row>
 </table>
 </para>
@@ -226,7 +226,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TriangulationParameters.TriangulationParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriangulationParameters_1a4e466bd05f8b5a99f0e77d18562392a6" kindref="member">MR.TriangulationParameters.TriangulationParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -245,7 +245,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TriangulationParameters.TriangulationParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriangulationParameters_1a4e466bd05f8b5a99f0e77d18562392a6" kindref="member">MR.TriangulationParameters.TriangulationParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -264,7 +264,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.TriangulationParameters.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TriangulationParameters::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -282,45 +282,45 @@
 </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_TriangulationParameters</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TriangulationParameters</label>
         <link refid="classMR_1_1TriangulationParameters"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_TriangulationParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TriangulationParameters &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_TriangulationParameters</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TriangulationParameters</label>
         <link refid="classMR_1_1TriangulationParameters"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_TriangulationParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TriangulationParameters &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="201" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="202" bodyend="323"/>

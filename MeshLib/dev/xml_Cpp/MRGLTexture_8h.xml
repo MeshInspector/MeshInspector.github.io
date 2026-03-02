@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRGLTexture_8h" kind="file" language="C++">
     <compoundname>MRGLTexture.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -7,7 +7,7 @@
     <includes local="yes">MRGladGlfw.h</includes>
     <includes refid="MRVector3_8h" local="yes">MRMesh/MRVector3.h</includes>
     <includes refid="MREnums_8h" local="yes">MRMesh/MREnums.h</includes>
-    <includedby refid="MRRenderGLHelpers_8h" local="yes">MRRenderGLHelpers.h</includedby>
+    <includedby refid="MRRenderGLHelpers_8h" local="yes">MRViewer/MRRenderGLHelpers.h</includedby>
     <incdepgraph>
       <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -88,7 +88,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRGLTexture.h</label>
+        <label>MRViewer/MRGLTexture.h</label>
         <link refid="MRGLTexture_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -152,31 +152,31 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>MRDepthPeelingGL.h</label>
+        <label>MRViewer/MRDepthPeelingGL.h</label>
         <link refid="MRDepthPeelingGL_8h"/>
       </node>
       <node id="1">
-        <label>MRGLTexture.h</label>
+        <label>MRViewer/MRGLTexture.h</label>
         <link refid="MRGLTexture_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRImGuiImage.h</label>
+        <label>MRViewer/MRImGuiImage.h</label>
         <link refid="MRImGuiImage_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRMarkedVoxelSlice.h</label>
+        <label>MRViewer/MRMarkedVoxelSlice.h</label>
         <link refid="MRMarkedVoxelSlice_8h"/>
       </node>
       <node id="8">
-        <label>MRRenderFeatureObjects.h</label>
+        <label>MRViewer/MRRenderFeatureObjects.h</label>
         <link refid="MRRenderFeatureObjects_8h"/>
       </node>
       <node id="2">
-        <label>MRRenderGLHelpers.h</label>
+        <label>MRViewer/MRRenderGLHelpers.h</label>
         <link refid="MRRenderGLHelpers_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -198,43 +198,43 @@
         </childnode>
       </node>
       <node id="6">
-        <label>MRRenderLabelObject.h</label>
+        <label>MRViewer/MRRenderLabelObject.h</label>
         <link refid="MRRenderLabelObject_8h"/>
       </node>
       <node id="7">
-        <label>MRRenderLinesObject.h</label>
+        <label>MRViewer/MRRenderLinesObject.h</label>
         <link refid="MRRenderLinesObject_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="9">
-        <label>MRRenderMeshObject.h</label>
+        <label>MRViewer/MRRenderMeshObject.h</label>
         <link refid="MRRenderMeshObject_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="10">
-        <label>MRRenderPointsObject.h</label>
+        <label>MRViewer/MRRenderPointsObject.h</label>
         <link refid="MRRenderPointsObject_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="11">
-        <label>MRRenderVolumeObject.h</label>
+        <label>MRViewer/MRRenderVolumeObject.h</label>
         <link refid="MRRenderVolumeObject_8h"/>
       </node>
       <node id="12">
-        <label>MRSceneTextureGL.h</label>
+        <label>MRViewer/MRSceneTextureGL.h</label>
         <link refid="MRSceneTextureGL_8h"/>
       </node>
       <node id="13">
-        <label>MRShadowsGL.h</label>
+        <label>MRViewer/MRShadowsGL.h</label>
         <link refid="MRShadowsGL_8h"/>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="14">
-        <label>MRViewerSettingsPlugin.h</label>
+        <label>MRViewer/MRViewerSettingsPlugin.h</label>
         <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
@@ -262,19 +262,19 @@
 <codeline lineno="16" refid="group__GeneralGroup_1gaed8079191a6bbed1f89a66fb15944c37" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaed8079191a6bbed1f89a66fb15944c37" kindref="member">setTextureWrapType</ref>(<sp/><ref refid="group__GeneralGroup_1ga0e519d6a7c053c5d86dac33ecd0fa00c" kindref="member">WrapType</ref><sp/>wrapType,<sp/>GLenum<sp/>type<sp/>=<sp/>GL_TEXTURE_2D<sp/>);</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1ga8dcd56fe27c91c37ab9c4426ba6e8bf9" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8dcd56fe27c91c37ab9c4426ba6e8bf9" kindref="member">setTextureFilterType</ref>(<sp/><ref refid="group__GeneralGroup_1ga6b6dd7eadc1056fc5ffd8af1810d925a" kindref="member">FilterType</ref><sp/>filterType,<sp/>GLenum<sp/>type<sp/>=<sp/>GL_TEXTURE_2D<sp/>);</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="classMR_1_1GlTexture" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1GlTexture" kindref="compound">GlTexture</ref></highlight></codeline>
+<codeline lineno="20" refid="classMR_1_1GlTexture" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gacbc8fdf580fc9a31ef6c3677c1b51a39" kindref="member">GlTexture</ref></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1ga41901568843aff73ce764e7d07c0a81f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>GLuint<sp/><ref refid="group__GeneralGroup_1ga41901568843aff73ce764e7d07c0a81f" kindref="member">NO_TEX</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25" refid="group__GeneralGroup_1gacbc8fdf580fc9a31ef6c3677c1b51a39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gacbc8fdf580fc9a31ef6c3677c1b51a39" kindref="member">GlTexture</ref>(<sp/>GLenum<sp/><sp/>val<sp/>);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="group__GeneralGroup_1ga628b06fbd65ce8a5e40f9f3f62e15d5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga628b06fbd65ce8a5e40f9f3f62e15d5e" kindref="member">GlTexture</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1GlTexture" kindref="compound">GlTexture</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="28" refid="group__GeneralGroup_1ga757d55ad33e354dc9d9167fcde9dede2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga757d55ad33e354dc9d9167fcde9dede2" kindref="member">GlTexture</ref>(<sp/><ref refid="classMR_1_1GlTexture" kindref="compound">GlTexture</ref>&amp;&amp;<sp/>r<sp/>);</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1ga628b06fbd65ce8a5e40f9f3f62e15d5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga628b06fbd65ce8a5e40f9f3f62e15d5e" kindref="member">GlTexture</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacbc8fdf580fc9a31ef6c3677c1b51a39" kindref="member">GlTexture</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ga757d55ad33e354dc9d9167fcde9dede2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga757d55ad33e354dc9d9167fcde9dede2" kindref="member">GlTexture</ref>(<sp/><ref refid="group__GeneralGroup_1gacbc8fdf580fc9a31ef6c3677c1b51a39" kindref="member">GlTexture</ref>&amp;&amp;<sp/>r<sp/>);</highlight></codeline>
 <codeline lineno="29" refid="group__GeneralGroup_1gaa6b65ac74ebbe2a0e82eabfd7473b048" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa6b65ac74ebbe2a0e82eabfd7473b048" kindref="member">~GlTexture</ref>();</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="group__GeneralGroup_1gac05f999428948991b9e2451bf4d1cf19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GlTexture" kindref="compound">GlTexture</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gac05f999428948991b9e2451bf4d1cf19" kindref="member">operator =</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1GlTexture" kindref="compound">GlTexture</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="32" refid="group__GeneralGroup_1ga04a1b44a9277a7f2dad9ca4c4ea14815" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1GlTexture" kindref="compound">GlTexture</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gac05f999428948991b9e2451bf4d1cf19" kindref="member">operator =</ref>(<sp/><ref refid="classMR_1_1GlTexture" kindref="compound">GlTexture</ref>&amp;&amp;<sp/>r<sp/>)</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1gac05f999428948991b9e2451bf4d1cf19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gacbc8fdf580fc9a31ef6c3677c1b51a39" kindref="member">GlTexture</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gac05f999428948991b9e2451bf4d1cf19" kindref="member">operator =</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacbc8fdf580fc9a31ef6c3677c1b51a39" kindref="member">GlTexture</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1ga04a1b44a9277a7f2dad9ca4c4ea14815" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gacbc8fdf580fc9a31ef6c3677c1b51a39" kindref="member">GlTexture</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gac05f999428948991b9e2451bf4d1cf19" kindref="member">operator =</ref>(<sp/><ref refid="group__GeneralGroup_1gacbc8fdf580fc9a31ef6c3677c1b51a39" kindref="member">GlTexture</ref>&amp;&amp;<sp/>r<sp/>)</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gae18f7ab8405f1a72d24b278cbf722894" kindref="member">del</ref>();<sp/><ref refid="group__GeneralGroup_1ga9bb5bb53fefb3f277a36f6fabfe202cf" kindref="member">textureID_</ref><sp/>=<sp/>r.textureID_;<sp/><ref refid="group__GeneralGroup_1ga24981e85fee9e75367aa3d9d3293f542" kindref="member">size_</ref><sp/>=<sp/>r.size_;<sp/>r.detach_();<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
@@ -331,8 +331,8 @@
 <codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>detach_();</highlight></codeline>
 <codeline lineno="97"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h"/>
+    <location file="MRViewer/MRGLTexture.h"/>
   </compounddef>
 </doxygen>

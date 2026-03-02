@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRViewportProperty_8h" kind="file" language="C++">
     <compoundname>MRViewportProperty.h</compoundname>
     <includes refid="MRViewportId_8h" local="yes">MRViewportId.h</includes>
     <includes local="no">map</includes>
-    <includedby refid="MRObject_8h" local="yes">MRObject.h</includedby>
-    <includedby refid="MRObjectTransformWidget_8h" local="yes">MRObjectTransformWidget.h</includedby>
+    <includedby refid="MRObject_8h" local="yes">MRMesh/MRObject.h</includedby>
+    <includedby refid="MRObjectTransformWidget_8h" local="yes">MRViewer/MRObjectTransformWidget.h</includedby>
     <incdepgraph>
       <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -48,7 +48,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRViewportProperty.h</label>
+        <label>MRMesh/MRViewportProperty.h</label>
         <link refid="MRViewportProperty_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -85,208 +85,208 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="23">
-        <label>MRCameraOrientationPlugin.h</label>
+      <node id="73">
+        <label>MRCommonPlugins/Basic/MRCameraOrientationPlugin.h</label>
         <link refid="MRCameraOrientationPlugin_8h"/>
       </node>
-      <node id="26">
-        <label>MRMoveObjectByMouse.h</label>
+      <node id="74">
+        <label>MRCommonPlugins/Basic/MRMoveObjectByMouse.h</label>
         <link refid="MRMoveObjectByMouse_8h"/>
       </node>
-      <node id="28">
-        <label>MRSelectObjectByClick.h</label>
+      <node id="75">
+        <label>MRCommonPlugins/Selectors/MRSelectObjectByClick.h</label>
         <link refid="MRSelectObjectByClick_8h"/>
       </node>
-      <node id="22">
-        <label>MRAddCustomTheme.h</label>
+      <node id="76">
+        <label>MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h</label>
         <link refid="MRAddCustomTheme_8h"/>
       </node>
-      <node id="24">
-        <label>MRIOFilesMenuItems.h</label>
+      <node id="77">
+        <label>MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</label>
         <link refid="MRIOFilesMenuItems_8h"/>
       </node>
-      <node id="15">
-        <label>MRRibbonSceneButtons.h</label>
+      <node id="3">
+        <label>MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h</label>
         <link refid="MRRibbonSceneButtons_8h"/>
       </node>
-      <node id="20">
-        <label>MRBinaryOperationsPlugin.h</label>
+      <node id="58">
+        <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
       </node>
-      <node id="27">
-        <label>MROpenRawVoxelsPlugin.h</label>
+      <node id="78">
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
-      <node id="3">
-        <label>MR3mf.h</label>
+      <node id="4">
+        <label>MRIOExtras/MR3mf.h</label>
         <link refid="MR3mf_8h"/>
       </node>
-      <node id="31">
-        <label>MRAddVisualPropertiesMixin.h</label>
+      <node id="19">
+        <label>MRMesh/MRAddVisualPropertiesMixin.h</label>
         <link refid="MRAddVisualPropertiesMixin_8h"/>
-        <childnode refid="32" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-      </node>
-      <node id="49">
-        <label>MRAngleMeasurementObject.h</label>
-        <link refid="MRAngleMeasurementObject_8h"/>
-        <childnode refid="50" relation="include">
-        </childnode>
-      </node>
-      <node id="40">
-        <label>MRChangeColoringActions.h</label>
-        <link refid="MRChangeColoringActions_8h"/>
       </node>
       <node id="37">
-        <label>MRChangeColoringType.h</label>
+        <label>MRMesh/MRAngleMeasurementObject.h</label>
+        <link refid="MRAngleMeasurementObject_8h"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MRMesh/MRChangeColoringActions.h</label>
+        <link refid="MRChangeColoringActions_8h"/>
+      </node>
+      <node id="25">
+        <label>MRMesh/MRChangeColoringType.h</label>
         <link refid="MRChangeColoringType_8h"/>
       </node>
-      <node id="67">
-        <label>MRChangeMeshAction.h</label>
+      <node id="51">
+        <label>MRMesh/MRChangeMeshAction.h</label>
         <link refid="MRChangeMeshAction_8h"/>
       </node>
-      <node id="68">
-        <label>MRChangeMeshDataAction.h</label>
+      <node id="52">
+        <label>MRMesh/MRChangeMeshDataAction.h</label>
         <link refid="MRChangeMeshDataAction_8h"/>
       </node>
-      <node id="4">
-        <label>MRChangeNameAction.h</label>
+      <node id="5">
+        <label>MRMesh/MRChangeNameAction.h</label>
         <link refid="MRChangeNameAction_8h"/>
       </node>
-      <node id="5">
-        <label>MRChangeObjectAction.h</label>
+      <node id="6">
+        <label>MRMesh/MRChangeObjectAction.h</label>
         <link refid="MRChangeObjectAction_8h"/>
       </node>
-      <node id="38">
-        <label>MRChangeObjectFields.h</label>
+      <node id="26">
+        <label>MRMesh/MRChangeObjectFields.h</label>
         <link refid="MRChangeObjectFields_8h"/>
       </node>
-      <node id="77">
-        <label>MRChangePointCloudAction.h</label>
+      <node id="63">
+        <label>MRMesh/MRChangePointCloudAction.h</label>
         <link refid="MRChangePointCloudAction_8h"/>
       </node>
-      <node id="78">
-        <label>MRChangePointCloudNormalsAction.h</label>
+      <node id="64">
+        <label>MRMesh/MRChangePointCloudNormalsAction.h</label>
         <link refid="MRChangePointCloudNormalsAction_8h"/>
       </node>
-      <node id="61">
-        <label>MRChangePolylineAction.h</label>
+      <node id="46">
+        <label>MRMesh/MRChangePolylineAction.h</label>
         <link refid="MRChangePolylineAction_8h"/>
       </node>
-      <node id="6">
-        <label>MRChangeScaleAction.h</label>
+      <node id="7">
+        <label>MRMesh/MRChangeScaleAction.h</label>
         <link refid="MRChangeScaleAction_8h"/>
       </node>
-      <node id="7">
-        <label>MRChangeSceneAction.h</label>
+      <node id="8">
+        <label>MRMesh/MRChangeSceneAction.h</label>
         <link refid="MRChangeSceneAction_8h"/>
       </node>
-      <node id="8">
-        <label>MRChangeSceneObjectsOrder.h</label>
+      <node id="9">
+        <label>MRMesh/MRChangeSceneObjectsOrder.h</label>
         <link refid="MRChangeSceneObjectsOrder_8h"/>
       </node>
-      <node id="69">
-        <label>MRChangeSelectionAction.h</label>
+      <node id="53">
+        <label>MRMesh/MRChangeSelectionAction.h</label>
         <link refid="MRChangeSelectionAction_8h"/>
       </node>
-      <node id="39">
-        <label>MRChangeVertsColorMapAction.h</label>
+      <node id="27">
+        <label>MRMesh/MRChangeVertsColorMapAction.h</label>
         <link refid="MRChangeVertsColorMapAction_8h"/>
-        <childnode refid="40" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
       </node>
-      <node id="9">
-        <label>MRChangeXfAction.h</label>
+      <node id="10">
+        <label>MRMesh/MRChangeXfAction.h</label>
         <link refid="MRChangeXfAction_8h"/>
-        <childnode refid="10" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="32">
-        <label>MRCircleObject.h</label>
+      <node id="20">
+        <label>MRMesh/MRCircleObject.h</label>
         <link refid="MRCircleObject_8h"/>
-        <childnode refid="33" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="34">
-        <label>MRConeObject.h</label>
+      <node id="22">
+        <label>MRMesh/MRConeObject.h</label>
         <link refid="MRConeObject_8h"/>
-        <childnode refid="33" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="35">
-        <label>MRCylinderObject.h</label>
+      <node id="23">
+        <label>MRMesh/MRCylinderObject.h</label>
         <link refid="MRCylinderObject_8h"/>
-        <childnode refid="33" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="51">
-        <label>MRDistanceMeasurementObject.h</label>
+      <node id="39">
+        <label>MRMesh/MRDistanceMeasurementObject.h</label>
         <link refid="MRDistanceMeasurementObject_8h"/>
-        <childnode refid="50" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
       </node>
-      <node id="42">
-        <label>MRFeatureHelpers.h</label>
+      <node id="30">
+        <label>MRMesh/MRFeatureHelpers.h</label>
         <link refid="MRFeatureHelpers_8h"/>
       </node>
-      <node id="41">
-        <label>MRFeatureObject.h</label>
+      <node id="29">
+        <label>MRMesh/MRFeatureObject.h</label>
         <link refid="MRFeatureObject_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
         <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
         </childnode>
         <childnode refid="34" relation="include">
         </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
         <childnode refid="35" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
-        </childnode>
-        <childnode refid="43" relation="include">
-        </childnode>
-        <childnode refid="44" relation="include">
-        </childnode>
-        <childnode refid="45" relation="include">
-        </childnode>
-        <childnode refid="46" relation="include">
-        </childnode>
-        <childnode refid="47" relation="include">
-        </childnode>
-        <childnode refid="36" relation="include">
-        </childnode>
       </node>
-      <node id="33">
-        <label>MRFeatureObjectImpls.h</label>
+      <node id="21">
+        <label>MRMesh/MRFeatureObjectImpls.h</label>
         <link refid="MRFeatureObjectImpls_8h"/>
       </node>
-      <node id="43">
-        <label>MRFeatureRefine.h</label>
+      <node id="31">
+        <label>MRMesh/MRFeatureRefine.h</label>
         <link refid="MRFeatureRefine_8h"/>
       </node>
-      <node id="44">
-        <label>MRLineObject.h</label>
+      <node id="32">
+        <label>MRMesh/MRLineObject.h</label>
         <link refid="MRLineObject_8h"/>
-        <childnode refid="33" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="48">
-        <label>MRMeasurementObject.h</label>
+      <node id="36">
+        <label>MRMesh/MRMeasurementObject.h</label>
         <link refid="MRMeasurementObject_8h"/>
-        <childnode refid="49" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRObject.h</label>
+        <label>MRMesh/MRObject.h</label>
         <link refid="MRObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -302,7 +302,7 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
@@ -310,339 +310,339 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
         <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="80" relation="include">
         </childnode>
       </node>
-      <node id="54">
-        <label>MRObjectDimensionsEnum.h</label>
+      <node id="42">
+        <label>MRMesh/MRObjectDimensionsEnum.h</label>
         <link refid="MRObjectDimensionsEnum_8h"/>
-        <childnode refid="32" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>MRMesh/MRObjectDistanceMap.h</label>
+        <link refid="MRObjectDistanceMap_8h"/>
+      </node>
+      <node id="44">
+        <label>MRMesh/MRObjectGcode.h</label>
+        <link refid="MRObjectGcode_8h"/>
+      </node>
+      <node id="45">
+        <label>MRMesh/MRObjectLines.h</label>
+        <link refid="MRObjectLines_8h"/>
+        <childnode refid="46" relation="include">
         </childnode>
         <childnode refid="35" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
-        </childnode>
-      </node>
-      <node id="65">
-        <label>MRObjectDistanceMap.h</label>
-        <link refid="MRObjectDistanceMap_8h"/>
-      </node>
-      <node id="59">
-        <label>MRObjectGcode.h</label>
-        <link refid="MRObjectGcode_8h"/>
-      </node>
-      <node id="60">
-        <label>MRObjectLines.h</label>
-        <link refid="MRObjectLines_8h"/>
-        <childnode refid="61" relation="include">
-        </childnode>
         <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="62" relation="include">
-        </childnode>
       </node>
-      <node id="58">
-        <label>MRObjectLinesHolder.h</label>
+      <node id="43">
+        <label>MRMesh/MRObjectLinesHolder.h</label>
         <link refid="MRObjectLinesHolder_8h"/>
-        <childnode refid="40" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="59" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
-        <childnode refid="60" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
       </node>
-      <node id="66">
-        <label>MRObjectMesh.h</label>
+      <node id="50">
+        <label>MRMesh/MRObjectMesh.h</label>
         <link refid="MRObjectMesh_8h"/>
-        <childnode refid="67" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
-        <childnode refid="68" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
-        <childnode refid="69" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
-        <childnode refid="70" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
       </node>
-      <node id="63">
-        <label>MRObjectMeshHolder.h</label>
+      <node id="48">
+        <label>MRMesh/MRObjectMeshHolder.h</label>
         <link refid="MRObjectMeshHolder_8h"/>
-        <childnode refid="40" relation="include">
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>MRMesh/MRObjectPoints.h</label>
+        <link refid="MRObjectPoints_8h"/>
+        <childnode refid="63" relation="include">
         </childnode>
         <childnode refid="64" relation="include">
         </childnode>
-        <childnode refid="65" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
-        <childnode refid="66" relation="include">
-        </childnode>
-        <childnode refid="71" relation="include">
-        </childnode>
-        <childnode refid="74" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
       </node>
-      <node id="76">
-        <label>MRObjectPoints.h</label>
-        <link refid="MRObjectPoints_8h"/>
-        <childnode refid="77" relation="include">
-        </childnode>
-        <childnode refid="78" relation="include">
-        </childnode>
-        <childnode refid="69" relation="include">
-        </childnode>
-        <childnode refid="47" relation="include">
-        </childnode>
-      </node>
-      <node id="75">
-        <label>MRObjectPointsHolder.h</label>
+      <node id="61">
+        <label>MRMesh/MRObjectPointsHolder.h</label>
         <link refid="MRObjectPointsHolder_8h"/>
-        <childnode refid="76" relation="include">
+        <childnode refid="62" relation="include">
         </childnode>
       </node>
       <node id="12">
-        <label>MRObjectsAccess.h</label>
+        <label>MRMesh/MRObjectsAccess.h</label>
         <link refid="MRObjectsAccess_8h"/>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="70">
-        <label>MRPartialChangeMeshAction.h</label>
+      <node id="54">
+        <label>MRMesh/MRPartialChangeMeshAction.h</label>
         <link refid="MRPartialChangeMeshAction_8h"/>
       </node>
-      <node id="45">
-        <label>MRPlaneObject.h</label>
+      <node id="33">
+        <label>MRMesh/MRPlaneObject.h</label>
         <link refid="MRPlaneObject_8h"/>
-        <childnode refid="33" relation="include">
-        </childnode>
-      </node>
-      <node id="52">
-        <label>MRPointMeasurementObject.h</label>
-        <link refid="MRPointMeasurementObject_8h"/>
-        <childnode refid="50" relation="include">
-        </childnode>
-      </node>
-      <node id="46">
-        <label>MRPointObject.h</label>
-        <link refid="MRPointObject_8h"/>
-        <childnode refid="33" relation="include">
-        </childnode>
-      </node>
-      <node id="53">
-        <label>MRRadiusMeasurementObject.h</label>
-        <link refid="MRRadiusMeasurementObject_8h"/>
-        <childnode refid="50" relation="include">
-        </childnode>
-      </node>
-      <node id="16">
-        <label>MRSceneLoad.h</label>
-        <link refid="MRSceneLoad_8h"/>
-      </node>
-      <node id="17">
-        <label>MRSceneRoot.h</label>
-        <link refid="MRSceneRoot_8h"/>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="36">
-        <label>MRSphereObject.h</label>
-        <link refid="MRSphereObject_8h"/>
-        <childnode refid="33" relation="include">
-        </childnode>
-      </node>
-      <node id="1">
-        <label>MRViewportProperty.h</label>
-        <link refid="MRViewportProperty_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-      </node>
-      <node id="30">
-        <label>MRVisualObject.h</label>
-        <link refid="MRVisualObject_8h"/>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="38" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="35" relation="include">
-        </childnode>
-        <childnode refid="41" relation="include">
-        </childnode>
-        <childnode refid="44" relation="include">
-        </childnode>
-        <childnode refid="48" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-        <childnode refid="54" relation="include">
-        </childnode>
-        <childnode refid="55" relation="include">
-        </childnode>
-        <childnode refid="56" relation="include">
-        </childnode>
-        <childnode refid="58" relation="include">
-        </childnode>
-        <childnode refid="63" relation="include">
-        </childnode>
-        <childnode refid="75" relation="include">
-        </childnode>
-        <childnode refid="46" relation="include">
-        </childnode>
-        <childnode refid="79" relation="include">
-        </childnode>
-        <childnode refid="36" relation="include">
-        </childnode>
-      </node>
-      <node id="57">
-        <label>MRChangeLabelAction.h</label>
-        <link refid="MRChangeLabelAction_8h"/>
-      </node>
-      <node id="56">
-        <label>MRObjectLabel.h</label>
-        <link refid="MRObjectLabel_8h"/>
-        <childnode refid="57" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>MRDirectionWidget.h</label>
-        <link refid="MRDirectionWidget_8h"/>
-      </node>
-      <node id="64">
-        <label>MRMeshBoundarySelectionWidget.h</label>
-        <link refid="MRMeshBoundarySelectionWidget_8h"/>
-      </node>
-      <node id="25">
-        <label>MRMeshModifier.h</label>
-        <link refid="MRMeshModifier_8h"/>
-      </node>
-      <node id="55">
-        <label>MRObjectImGuiLabel.h</label>
-        <link refid="MRObjectImGuiLabel_8h"/>
-      </node>
-      <node id="11">
-        <label>MRObjectTransformWidget.h</label>
-        <link refid="MRObjectTransformWidget_8h"/>
-      </node>
-      <node id="74">
-        <label>MRPickPointManager.h</label>
-        <link refid="MRPickPointManager_8h"/>
-      </node>
-      <node id="47">
-        <label>MRRenderFeatureObjects.h</label>
-        <link refid="MRRenderFeatureObjects_8h"/>
-      </node>
-      <node id="50">
-        <label>MRRenderMeasurementObjects.h</label>
-        <link refid="MRRenderMeasurementObjects_8h"/>
-      </node>
-      <node id="79">
-        <label>MRRenderWrapObject.h</label>
-        <link refid="MRRenderWrapObject_8h"/>
-        <childnode refid="47" relation="include">
-        </childnode>
-      </node>
-      <node id="13">
-        <label>MRSceneCache.h</label>
-        <link refid="MRSceneCache_8h"/>
-      </node>
-      <node id="19">
-        <label>MRSceneStateCheck.h</label>
-        <link refid="MRSceneStateCheck_8h"/>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
         <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="21">
-        <label>MRStatePlugin.h</label>
-        <link refid="MRStatePlugin_8h"/>
-        <childnode refid="22" relation="include">
+      <node id="40">
+        <label>MRMesh/MRPointMeasurementObject.h</label>
+        <link refid="MRPointMeasurementObject_8h"/>
+        <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+      </node>
+      <node id="34">
+        <label>MRMesh/MRPointObject.h</label>
+        <link refid="MRPointObject_8h"/>
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+      </node>
+      <node id="41">
+        <label>MRMesh/MRRadiusMeasurementObject.h</label>
+        <link refid="MRRadiusMeasurementObject_8h"/>
+        <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+      </node>
+      <node id="15">
+        <label>MRMesh/MRSceneLoad.h</label>
+        <link refid="MRSceneLoad_8h"/>
+      </node>
+      <node id="16">
+        <label>MRMesh/MRSceneRoot.h</label>
+        <link refid="MRSceneRoot_8h"/>
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+      </node>
+      <node id="24">
+        <label>MRMesh/MRSphereObject.h</label>
+        <link refid="MRSphereObject_8h"/>
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+      </node>
+      <node id="1">
+        <label>MRMesh/MRViewportProperty.h</label>
+        <link refid="MRViewportProperty_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="70" relation="include">
         </childnode>
       </node>
       <node id="18">
-        <label>MRSwapRootAction.h</label>
-        <link refid="MRSwapRootAction_8h"/>
+        <label>MRMesh/MRVisualObject.h</label>
+        <link refid="MRVisualObject_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
       </node>
-      <node id="29">
-        <label>MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
+      <node id="66">
+        <label>MRSymbolMesh/MRChangeLabelAction.h</label>
+        <link refid="MRChangeLabelAction_8h"/>
       </node>
-      <node id="62">
-        <label>MRViewportGlobalBasis.h</label>
-        <link refid="MRViewportGlobalBasis_8h"/>
+      <node id="65">
+        <label>MRSymbolMesh/MRObjectLabel.h</label>
+        <link refid="MRObjectLabel_8h"/>
+        <childnode refid="66" relation="include">
+        </childnode>
       </node>
-      <node id="14">
-        <label>MRVisualObjectTag.h</label>
-        <link refid="MRVisualObjectTag_8h"/>
+      <node id="11">
+        <label>MRViewer/MRDirectionWidget.h</label>
+        <link refid="MRDirectionWidget_8h"/>
       </node>
-      <node id="72">
-        <label>MRChangeVoxelSelectionAction.h</label>
-        <link refid="MRChangeVoxelSelectionAction_8h"/>
+      <node id="55">
+        <label>MRViewer/MRMeshBoundarySelectionWidget.h</label>
+        <link refid="MRMeshBoundarySelectionWidget_8h"/>
       </node>
-      <node id="73">
-        <label>MRChangeVoxelsAction.h</label>
-        <link refid="MRChangeVoxelsAction_8h"/>
+      <node id="67">
+        <label>MRViewer/MRMeshModifier.h</label>
+        <link refid="MRMeshModifier_8h"/>
+      </node>
+      <node id="68">
+        <label>MRViewer/MRObjectImGuiLabel.h</label>
+        <link refid="MRObjectImGuiLabel_8h"/>
+      </node>
+      <node id="70">
+        <label>MRViewer/MRObjectTransformWidget.h</label>
+        <link refid="MRObjectTransformWidget_8h"/>
+      </node>
+      <node id="56">
+        <label>MRViewer/MRPickPointManager.h</label>
+        <link refid="MRPickPointManager_8h"/>
+      </node>
+      <node id="35">
+        <label>MRViewer/MRRenderFeatureObjects.h</label>
+        <link refid="MRRenderFeatureObjects_8h"/>
+      </node>
+      <node id="38">
+        <label>MRViewer/MRRenderMeasurementObjects.h</label>
+        <link refid="MRRenderMeasurementObjects_8h"/>
+      </node>
+      <node id="69">
+        <label>MRViewer/MRRenderWrapObject.h</label>
+        <link refid="MRRenderWrapObject_8h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRViewer/MRSceneCache.h</label>
+        <link refid="MRSceneCache_8h"/>
       </node>
       <node id="71">
-        <label>MRObjectVoxels.h</label>
-        <link refid="MRObjectVoxels_8h"/>
-        <childnode refid="20" relation="include">
+        <label>MRViewer/MRSceneStateCheck.h</label>
+        <link refid="MRSceneStateCheck_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
         </childnode>
         <childnode refid="72" relation="include">
         </childnode>
+      </node>
+      <node id="72">
+        <label>MRViewer/MRStatePlugin.h</label>
+        <link refid="MRStatePlugin_8h"/>
         <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRViewer/MRSwapRootAction.h</label>
+        <link refid="MRSwapRootAction_8h"/>
+      </node>
+      <node id="79">
+        <label>MRViewer/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
+      <node id="47">
+        <label>MRViewer/MRViewportGlobalBasis.h</label>
+        <link refid="MRViewportGlobalBasis_8h"/>
+      </node>
+      <node id="14">
+        <label>MRViewer/MRVisualObjectTag.h</label>
+        <link refid="MRVisualObjectTag_8h"/>
+      </node>
+      <node id="59">
+        <label>MRVoxels/MRChangeVoxelSelectionAction.h</label>
+        <link refid="MRChangeVoxelSelectionAction_8h"/>
+      </node>
+      <node id="60">
+        <label>MRVoxels/MRChangeVoxelsAction.h</label>
+        <link refid="MRChangeVoxelsAction_8h"/>
+      </node>
+      <node id="57">
+        <label>MRVoxels/MRObjectVoxels.h</label>
+        <link refid="MRObjectVoxels_8h"/>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
         </childnode>
       </node>
       <node id="80">
-        <label>MRVoxelsLoad.h</label>
+        <label>MRVoxels/MRVoxelsLoad.h</label>
         <link refid="MRVoxelsLoad_8h"/>
-        <childnode refid="27" relation="include">
+        <childnode refid="78" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -661,9 +661,9 @@
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"></codeline>
-<codeline lineno="15"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="16" refid="classMR_1_1ViewportProperty" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1ViewportProperty" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ViewportProperty_1a08a3a7775fba5eb3fce855a27cf8d586" kindref="member">ViewportProperty</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="classMR_1_1ViewportProperty_1a08a3a7775fba5eb3fce855a27cf8d586" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ViewportProperty_1a08a3a7775fba5eb3fce855a27cf8d586" kindref="member">ViewportProperty</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -719,8 +719,8 @@
 <codeline lineno="79"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h"/>
+    <location file="MRMesh/MRViewportProperty.h"/>
   </compounddef>
 </doxygen>

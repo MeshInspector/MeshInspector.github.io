@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PointPair" kind="struct" language="C++" prot="public">
     <compoundname>MR::PointPair</compoundname>
     <basecompoundref refid="structMR_1_1ICPPairData" prot="public" virt="non-virtual">MR::ICPPairData</basecompoundref>
-    <includes refid="MRICP_8h" local="no">MRICP.h</includes>
+    <includes refid="MRICP_8h" local="no">MRMesh/MRICP.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga0be978719b10258123e31ffe3413c532" kind="variable"><name>srcVertId</name></member>
       <member refid="group__GeneralGroup_1ga6e96779ac71de15fae84c9c1dee17cb7" kind="variable"><name>tgtCloseVert</name></member>
@@ -42,7 +42,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="43" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="44" bodyend="59"/>
+    <location file="MRMesh/MRICP.h" line="43" column="1" bodyfile="MRMesh/MRICP.h" bodystart="44" bodyend="59"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gafe05b997a712f074a3053f11dab0a7eb" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>distSq</name></member>
       <member refid="group__GeneralGroup_1ga087147661647b219169ee6e63da113fd" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>normalsAngleCos</name></member>

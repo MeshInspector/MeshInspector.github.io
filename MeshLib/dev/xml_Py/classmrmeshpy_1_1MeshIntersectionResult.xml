@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MeshIntersectionResult" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MeshIntersectionResult</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1MultiMeshIntersectionResult" prot="public" virt="non-virtual">mrmeshpy.MultiMeshIntersectionResult</derivedcompoundref>
@@ -57,9 +57,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MeshIntersectionResult.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1a0247a54301edb3e141ea382dd9dd6c2b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1a89c6f76f313c119720c13712d2cf7e45">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1a28e675643e761f771e20f47a6754f99f">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -152,9 +149,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MeshIntersectionResult.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1a0247a54301edb3e141ea382dd9dd6c2b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1a89c6f76f313c119720c13712d2cf7e45">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1a28e675643e761f771e20f47a6754f99f">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -173,9 +167,6 @@
         <argsstring>(self, MeshIntersectionResult arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MeshIntersectionResult.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1a0247a54301edb3e141ea382dd9dd6c2b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1a89c6f76f313c119720c13712d2cf7e45">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1a28e675643e761f771e20f47a6754f99f">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -200,9 +191,6 @@
         <argsstring>(self, PointOnFace proj, MeshTriPoint mtp, float distanceAlongLine)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MeshIntersectionResult.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1a0247a54301edb3e141ea382dd9dd6c2b">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1a89c6f76f313c119720c13712d2cf7e45">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MultiMeshIntersectionResult_1a28e675643e761f771e20f47a6754f99f">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -374,20 +362,6 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.MeshIntersectionResult</label>
-        <link refid="classmrmeshpy_1_1MeshIntersectionResult"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_distanceAlongLine</edgelabel>
-          <edgelabel>_offsetof_mtp</edgelabel>
-          <edgelabel>_offsetof_proj</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32314" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32314" bodyend="32373"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshIntersectionResult_1af3936e4194aae65935397c3a618edf70" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshIntersectionResult</scope><name>__bool__</name></member>

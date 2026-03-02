@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMouseController_8h" kind="file" language="C++">
     <compoundname>MRMouseController.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -199,7 +199,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMouseController.h</label>
+        <label>MRViewer/MRMouseController.h</label>
         <link refid="MRMouseController_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -353,15 +353,15 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="16"></codeline>
-<codeline lineno="23" refid="classMR_1_1MouseController" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1MouseController" kindref="compound">MouseController</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classMR_1_1MouseController" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1MouseController" kindref="compound">MouseController</ref></highlight></codeline>
 <codeline lineno="24"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="26" refid="group__GeneralGroup_1gaf91ecfb07e0863d000af4ebedc49c763" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf91ecfb07e0863d000af4ebedc49c763" kindref="member">MR_ADD_CTOR_DELETE_MOVE</ref>(<sp/><ref refid="classMR_1_1MouseController" kindref="compound">MouseController</ref><sp/>);</highlight></codeline>
 <codeline lineno="27" refid="structMR_1_1MouseController_1_1MouseControlKey" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MouseController_1_1MouseControlKey" kindref="compound">MouseControlKey</ref></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="29" refid="group__GeneralGroup_1ga13a368ef25048dff50e694ce949484e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref><sp/>btn{<sp/>MouseButton::Left<sp/>};</highlight></codeline>
-<codeline lineno="30" refid="group__GeneralGroup_1ga647bc43b34bf75a34af675e69cd0f10b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mod{<sp/>0<sp/>};<sp/></highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1ga13a368ef25048dff50e694ce949484e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref><sp/><ref refid="group__GeneralGroup_1ga13a368ef25048dff50e694ce949484e6" kindref="member">btn</ref>{<sp/><ref refid="group__GeneralGroup_1gga13f98b7840e7298925ef1770b7cdb62da945d5e233cf7d6240f6b783b36a374ff" kindref="member">MouseButton::Left</ref><sp/>};</highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1ga647bc43b34bf75a34af675e69cd0f10b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga647bc43b34bf75a34af675e69cd0f10b" kindref="member">mod</ref>{<sp/>0<sp/>};<sp/></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34" refid="group__GeneralGroup_1ga049c09f52a5b753a6935356ccfd39cde" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga049c09f52a5b753a6935356ccfd39cde" kindref="member">connect</ref>();</highlight></codeline>
@@ -431,6 +431,6 @@
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
 <codeline lineno="117"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h"/>
+    <location file="MRViewer/MRMouseController.h"/>
   </compounddef>
 </doxygen>

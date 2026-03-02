@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4" kind="struct" language="C++" prot="public">
     <compoundname>MR::ImGuiMath::detail::VecSize&lt; ImVec4 &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::integral_constant&lt; int, 1 &gt;</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">std::integral_constant&lt; int, 4 &gt;</basecompoundref>
-    <includes refid="MRImGuiVectorOperators_8h" local="no">MRImGuiVectorOperators.h</includes>
+    <includes refid="MRImGuiVectorOperators_8h" local="no">MRViewer/MRImGuiVectorOperators.h</includes>
     <templateparamlist>
     </templateparamlist>
     <briefdescription>
@@ -16,8 +17,13 @@
         <link refid="structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="2">
+        <label>std::integral_constant&lt; int, 1 &gt;</label>
+      </node>
+      <node id="3">
         <label>std::integral_constant&lt; int, 4 &gt;</label>
       </node>
     </inheritancegraph>
@@ -27,12 +33,17 @@
         <link refid="structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
       </node>
       <node id="2">
+        <label>std::integral_constant&lt; int, 1 &gt;</label>
+      </node>
+      <node id="3">
         <label>std::integral_constant&lt; int, 4 &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="27" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="27" bodyend="27"/>
+    <location file="MRViewer/MRImGuiVectorOperators.h" line="27" column="19" bodyfile="MRViewer/MRImGuiVectorOperators.h" bodystart="27" bodyend="27"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

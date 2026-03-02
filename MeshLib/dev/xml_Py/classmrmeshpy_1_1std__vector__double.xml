@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1std__vector__double" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::std_vector_double</compoundname>
     <sectiondef kind="private-static-attrib">
@@ -712,18 +712,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.std_vector_double</label>
-        <link refid="classmrmeshpy_1_1std__vector__double"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>element_type_byte_size</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90850" bodyend="90961"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1std__vector__double_1af335511df8dff2805d762264dca74a5d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_double</scope><name>__bool__</name></member>

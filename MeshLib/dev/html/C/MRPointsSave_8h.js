@@ -1,9 +1,5 @@
 var MRPointsSave_8h =
 [
-    [ "MR_expected_void_std_string", "MRPointsSave_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
-    [ "MR_PointCloud", "MRPointsSave_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
-    [ "MR_SaveSettings", "MRPointsSave_8h.html#a66434f88501a5c24a45cf39f9dbcadbb", null ],
-    [ "MR_std_ostream", "MRPointsSave_8h.html#a933fad1748853c0c595a157b9f6527c6", null ],
     [ "MR_PointsSave_toAnySupportedFormat_3", "MRPointsSave_8h.html#ad02ea69d62be4612110cdc9191874717", null ],
     [ "MR_PointsSave_toAnySupportedFormat_4", "MRPointsSave_8h.html#a5c5e4a1264c1eeb909b478b485ca58d6", null ],
     [ "MR_PointsSave_toAsc_std_filesystem_path", "MRPointsSave_8h.html#a2833c489d035275a0a39a4eddc6ee107", null ],

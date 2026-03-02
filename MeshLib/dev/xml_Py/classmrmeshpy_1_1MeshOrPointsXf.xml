@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MeshOrPointsXf" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MeshOrPointsXf</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -206,19 +206,6 @@ Aliases:  std_vector_MeshOrPointsXf_const_reference, Vector_MeshOrPointsXf_ObjId
 an object and its transformation to global space with other objects
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.MeshOrPointsXf</label>
-        <link refid="classmrmeshpy_1_1MeshOrPointsXf"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_obj</edgelabel>
-          <edgelabel>_offsetof_xf</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33791" bodyend="33832"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshOrPointsXf_1a06f393082e6b1bb972f0174c4cea0563" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPointsXf</scope><name>__init__</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1OneMeshContour" kind="struct" language="C++" prot="public">
     <compoundname>MR::OneMeshContour</compoundname>
-    <includes refid="MROneMeshContours_8h" local="no">MROneMeshContours.h</includes>
+    <includes refid="MROneMeshContours_8h" local="no">MRMesh/MROneMeshContours.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga6e1a28642564323f19cdf9f04319d5ef" kind="variable"><name>intersections</name></member>
       <member refid="group__GeneralGroup_1gae2a61041d982700ef3d887aedc03a320" kind="variable"><name>closed</name></member>
@@ -12,7 +12,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="35" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="36" bodyend="39"/>
+    <location file="MRMesh/MROneMeshContours.h" line="35" column="1" bodyfile="MRMesh/MROneMeshContours.h" bodystart="36" bodyend="39"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae2a61041d982700ef3d887aedc03a320" prot="public" virt="non-virtual"><scope>MR::OneMeshContour</scope><name>closed</name></member>
       <member refid="group__GeneralGroup_1ga6e1a28642564323f19cdf9f04319d5ef" prot="public" virt="non-virtual"><scope>MR::OneMeshContour</scope><name>intersections</name></member>

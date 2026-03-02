@@ -1,8 +1,5 @@
 var MRPointOnFace_8h =
 [
-    [ "MR_PointOnFace", "MRPointOnFace_8h.html#a8329bba5dc9407bd75ca1a4909c9fe9a", null ],
-    [ "MR_std_istream", "MRPointOnFace_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
-    [ "MR_std_ostream", "MRPointOnFace_8h.html#a933fad1748853c0c595a157b9f6527c6", null ],
     [ "MR_input_MR_PointOnFace", "MRPointOnFace_8h.html#ad5a8bb25ba524f55e0023c2884f61ac8", null ],
     [ "MR_PointOnFace_AssignFromAnother", "MRPointOnFace_8h.html#af5bbf3da2b30700a0d1f4fa7d56aa773", null ],
     [ "MR_PointOnFace_ConstructFrom", "MRPointOnFace_8h.html#abddaadfdfe7b09f7b72551df254897bd", null ],

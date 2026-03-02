@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MouseUpListener" kind="struct" language="C++" prot="public" abstract="yes">
     <compoundname>MR::MouseUpListener</compoundname>
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
-    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewer/MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga898ad2a77c0378293713eff6653eed12" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
       <member refid="group__GeneralGroup_1gad96923cab3fbc7dc4521f3755625925e" kind="function"><name>~MouseUpListener</name></member>
@@ -52,7 +52,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="62" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="63" bodyend="69"/>
+    <location file="MRViewer/MRViewerEventsListener.h" line="62" column="1" bodyfile="MRViewer/MRViewerEventsListener.h" bodystart="63" bodyend="69"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga9b5d532b0bf1d4935e73122b34e75770" prot="public" virt="virtual"><scope>MR::MouseUpListener</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::MouseUpListener</scope><name>connection_</name></member>

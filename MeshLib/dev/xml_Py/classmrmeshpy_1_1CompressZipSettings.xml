@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1CompressZipSettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::CompressZipSettings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -387,21 +387,6 @@
 <para><verbatim>Generated from:  MR::CompressZipSettings
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.CompressZipSettings</label>
-        <link refid="classmrmeshpy_1_1CompressZipSettings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_cb</edgelabel>
-          <edgelabel>_offsetof_compressionLevel</edgelabel>
-          <edgelabel>_offsetof_excludeFiles</edgelabel>
-          <edgelabel>_offsetof_password</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10065" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10065" bodyend="10130"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1CompressZipSettings_1a7e1c35c6864e6effb0b23082c0cf3e6e" prot="public" virt="non-virtual"><scope>mrmeshpy::CompressZipSettings</scope><name>__init__</name></member>

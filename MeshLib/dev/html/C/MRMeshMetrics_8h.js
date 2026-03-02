@@ -1,13 +1,8 @@
 var MRMeshMetrics_8h =
 [
-    [ "MR_FaceBitSet", "MRMeshMetrics_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_FillHoleMetric", "MRMeshMetrics_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa", null ],
-    [ "MR_Mesh", "MRMeshMetrics_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_Plane3f", "MRMeshMetrics_8h.html#aa7548d3448b3b7da1ea96433fe902e9a", null ],
     [ "MR_std_function_double_from_double_double", "MRMeshMetrics_8h.html#a141615b33916c2ac26def367006324c9", null ],
     [ "MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId", "MRMeshMetrics_8h.html#a87eeba6b560f3de5ecc94f45d2a1c544", null ],
     [ "MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId", "MRMeshMetrics_8h.html#a2a7e17005e1f25c015aa2982a2d269fd", null ],
-    [ "MR_Vector3f", "MRMeshMetrics_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
     [ "MR_calcCombinedFillMetric", "MRMeshMetrics_8h.html#a7b71317d0a1586b2e8f003adb2e7f078", null ],
     [ "MR_FillHoleMetric_AssignFromAnother", "MRMeshMetrics_8h.html#a6b3959d486119a751602be97fee149df", null ],
     [ "MR_FillHoleMetric_ConstructFrom", "MRMeshMetrics_8h.html#a7186a6c24450edafe0858f814e2cac54", null ],

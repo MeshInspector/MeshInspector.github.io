@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ITransformControls" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>MR::ITransformControls</compoundname>
     <derivedcompoundref refid="classMR_1_1TransformControls" prot="public" virt="non-virtual">MR::TransformControls</derivedcompoundref>
-    <includes refid="MRObjectTransformWidget_8h" local="no">MRObjectTransformWidget.h</includes>
+    <includes refid="MRObjectTransformWidget_8h" local="no">MRViewer/MRObjectTransformWidget.h</includes>
     <innerclass refid="classMR_1_1ITransformControls_1_1ChangeCenterAction" prot="public">MR::ITransformControls::ChangeCenterAction</innerclass>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gac8df70c3288ca286a73d2343210e32be" kind="variable"><name>center_</name></member>
@@ -51,7 +51,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="44" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="45" bodyend="129"/>
+    <location file="MRViewer/MRObjectTransformWidget.h" line="44" column="1" bodyfile="MRViewer/MRObjectTransformWidget.h" bodystart="45" bodyend="129"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac8df70c3288ca286a73d2343210e32be" prot="private" virt="non-virtual"><scope>MR::ITransformControls</scope><name>center_</name></member>
       <member refid="group__GeneralGroup_1ga053e821953dbcafc94e913961cdbc94a" prot="public" virt="non-virtual"><scope>MR::ITransformControls</scope><name>getCenter</name></member>

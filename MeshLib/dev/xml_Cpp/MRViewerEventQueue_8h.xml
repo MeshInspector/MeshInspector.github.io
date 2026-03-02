@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRViewerEventQueue_8h" kind="file" language="C++">
     <compoundname>MRViewerEventQueue.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -45,7 +45,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRViewerEventQueue.h</label>
+        <label>MRViewer/MRViewerEventQueue.h</label>
         <link refid="MRViewerEventQueue_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -125,7 +125,7 @@
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="classMR_1_1ViewerEventQueue" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1ViewerEventQueue" kindref="compound">ViewerEventQueue</ref></highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1ViewerEventQueue" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1ViewerEventQueue" kindref="compound">ViewerEventQueue</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1ga7aa91f7b5cc7541ac0f982fce5660507" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7aa91f7b5cc7541ac0f982fce5660507" kindref="member">emplace</ref>(<sp/>std::string<sp/>name,<sp/><ref refid="group__GeneralGroup_1gaf677bfbbed9f6c283d0a3101b5e91aea" kindref="member">ViewerEventCallback</ref><sp/>cb,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>skipable<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
@@ -144,8 +144,8 @@
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>lastSkipable_{</highlight><highlight class="keyword">false</highlight><highlight class="normal">};</highlight></codeline>
 <codeline lineno="38"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h"/>
+    <location file="MRViewer/MRViewerEventQueue.h"/>
   </compounddef>
 </doxygen>

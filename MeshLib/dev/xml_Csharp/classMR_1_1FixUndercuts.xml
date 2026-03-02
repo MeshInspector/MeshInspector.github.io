@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FixUndercuts" kind="class" language="C#" prot="public">
     <compoundname>MR::FixUndercuts</compoundname>
     <innerclass refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" prot="public">MR::FixUndercuts::DistMapImproveDirectionParameters</innerclass>
@@ -199,7 +199,7 @@
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="note"><para>does not support wallAngle yet <hruler/>
- Top view: / __/ -----&gt; maximum radial line Side view: | / _/ / / \/ \ \ | / _/ - maxBaseAngle |<ndash/>|---<mdash/>|<ndash/>| | / _/ difference between two angles is baseAngleStep \ _/_/ / | / _/ __/____/ |/_/ This picture shows polarAngle = 60 deg Generated from function <computeroutput><ref refid="classMR_1_1FixUndercuts_1abd8b1721231cb7ebaff5ab21d435a40c" kindref="member">MR.FixUndercuts.improveDirection</ref></computeroutput>. </para>
+ Top view: / __/ -----&gt; maximum radial line <ref refid="classMR_1a29dcb3e30c1418225ff5c8f1bdc4193b" kindref="member">Side</ref> view: | / _/ / / \/ \ \ | / _/ - maxBaseAngle |<ndash/>|---<mdash/>|<ndash/>| | / _/ difference between two angles is baseAngleStep \ _/_/ / | / _/ __/____/ |/_/ This picture shows polarAngle = 60 deg Generated from function <computeroutput><ref refid="classMR_1_1FixUndercuts_1abd8b1721231cb7ebaff5ab21d435a40c" kindref="member">MR.FixUndercuts.improveDirection</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>

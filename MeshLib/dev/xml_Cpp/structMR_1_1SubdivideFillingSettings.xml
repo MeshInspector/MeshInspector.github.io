@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SubdivideFillingSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::SubdivideFillingSettings</compoundname>
-    <includes refid="MRFillHoleNicely_8h" local="no">MRFillHoleNicely.h</includes>
+    <includes refid="MRFillHoleNicely_8h" local="no">MRMesh/MRFillHoleNicely.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga873defafe8bd5f0ef51bd6d0c3f92f2d" kind="variable"><name>notFlippable</name></member>
       <member refid="group__GeneralGroup_1ga82b0b627885b0136d5cbb0bd093cf88b" kind="variable"><name>maxEdgeLen</name></member>
@@ -15,7 +15,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="14" bodyend="32"/>
+    <location file="MRMesh/MRFillHoleNicely.h" line="13" column="1" bodyfile="MRMesh/MRFillHoleNicely.h" bodystart="14" bodyend="32"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga72c374e0d427e8beca46de3aa27d29f8" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>beforeEdgeSplit</name></member>
       <member refid="group__GeneralGroup_1gadf8a3a24d258da848836a556b3b42e34" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>maxAngleChangeAfterFlip</name></member>

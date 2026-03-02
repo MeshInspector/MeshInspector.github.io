@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SurfaceDistanceBuilder" kind="class" language="C++" prot="public">
     <compoundname>MR::SurfaceDistanceBuilder</compoundname>
-    <includes refid="MRSurfaceDistanceBuilder_8h" local="no">MRSurfaceDistanceBuilder.h</includes>
+    <includes refid="MRSurfaceDistanceBuilder_8h" local="no">MRMesh/MRSurfaceDistanceBuilder.h</includes>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1SurfaceDistanceBuilder_1aa111cd653ee9cf1fa7b3be5c8bc5a39f" prot="private" static="no" mutable="no">
         <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="64" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="64" bodyend="-1"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="64" column="17" bodyfile="MRMesh/MRSurfaceDistanceBuilder.h" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1SurfaceDistanceBuilder_1a6007868d5ad49a79e6f07bdafa976231" prot="private" static="no" mutable="no">
         <type>const VertBitSet *</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="65" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="65" bodyend="65"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="65" column="22" bodyfile="MRMesh/MRSurfaceDistanceBuilder.h" bodystart="65" bodyend="65"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1SurfaceDistanceBuilder_1a08ca58756e2fafeddad3be497592e1ee" prot="private" static="no" mutable="no">
         <type>VertScalars</type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="66" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="66" bodyend="-1"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="66" column="17" bodyfile="MRMesh/MRSurfaceDistanceBuilder.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1SurfaceDistanceBuilder_1aab43aa2aa94dd12648eb505372d3fe4d" prot="private" static="no" mutable="no">
         <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; char, VertId &gt;</type>
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="67" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="67" bodyend="-1"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="67" column="12" bodyfile="MRMesh/MRSurfaceDistanceBuilder.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1SurfaceDistanceBuilder_1a4694ac1c1c7306b77175d4f75f1c9dd0" prot="private" static="no" mutable="no">
         <type>std::priority_queue&lt; <ref refid="structMR_1_1VertDistance" kindref="compound">VertDistance</ref> &gt;</type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="68" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="68" bodyend="-1"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="68" column="25" bodyfile="MRMesh/MRSurfaceDistanceBuilder.h" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1SurfaceDistanceBuilder_1a577fd7e8a0f77545c4e4cbc80886ada1" prot="private" static="no" mutable="no">
         <type>std::optional&lt; Vector3f &gt;</type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="69" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="69" bodyend="-1"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="69" column="19" bodyfile="MRMesh/MRSurfaceDistanceBuilder.h" bodystart="69" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1SurfaceDistanceBuilder_1a1f44aba58ae6259cdea786b128d8d5b9" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="70" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="70" bodyend="-1"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="70" column="9" bodyfile="MRMesh/MRSurfaceDistanceBuilder.h" bodystart="70" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -126,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="38" column="6"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="38" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1ae5aba85dbb1efdefdea87c31c4c4a624" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="39" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="39" bodyend="40"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="39" column="5" bodyfile="MRMesh/MRSurfaceDistanceBuilder.h" bodystart="39" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a2d6c34cebbd8117d07b73bd3a514627d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -175,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="42" column="11"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="42" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1ac6c258764fe276b1cf23bbba8bffe0a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -194,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="44" column="11"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="44" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a5189e1622e0103bd98faa67445fbbf74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -213,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="46" column="11"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="46" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1ab233bff0428403e114f95605d8e1004b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -232,7 +232,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="50" column="11"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="50" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a43aa321544fea1e2253d32f3f10b6a39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
@@ -247,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="53" column="13"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="53" column="13"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1aa5c104e6de91cb67a4df448454913a0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>VertScalars</type>
@@ -262,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="55" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="55" bodyend="55"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="55" column="17" bodyfile="MRMesh/MRSurfaceDistanceBuilder.h" bodystart="55" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1ac10dab2b68dd9de618eeb1ce16471e23" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -277,7 +277,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="59" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="59" bodyend="59"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="59" column="10" bodyfile="MRMesh/MRSurfaceDistanceBuilder.h" bodystart="59" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a66781dd9ecf7009c090fffa4c7d0e6f7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -292,7 +292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="61" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="61" bodyend="61"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="61" column="11" bodyfile="MRMesh/MRSurfaceDistanceBuilder.h" bodystart="61" bodyend="61"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -315,7 +315,7 @@ otherwise if the known distance to c.vert is already not greater than returns fa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="75" column="10"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="75" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1ab02bbcf361491a9616d55a5fc2151696" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -334,7 +334,7 @@ otherwise if the known distance to c.vert is already not greater than returns fa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="77" column="10"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="77" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a306ccd4e1e28b035365c75ee18fe2dc7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -353,7 +353,7 @@ otherwise if the known distance to c.vert is already not greater than returns fa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="79" column="10"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="79" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1ab713041962ffdc81f9774b78518f4003" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -376,7 +376,7 @@ otherwise if the known distance to c.vert is already not greater than returns fa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="81" column="11"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="81" column="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -384,7 +384,7 @@ otherwise if the known distance to c.vert is already not greater than returns fa
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="35" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="36" bodyend="82"/>
+    <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="35" column="1" bodyfile="MRMesh/MRSurfaceDistanceBuilder.h" bodystart="36" bodyend="82"/>
     <listofallmembers>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1a5189e1622e0103bd98faa67445fbbf74" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStart</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1a2d6c34cebbd8117d07b73bd3a514627d" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStartRegion</name></member>

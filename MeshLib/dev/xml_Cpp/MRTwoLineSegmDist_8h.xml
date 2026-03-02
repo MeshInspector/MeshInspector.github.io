@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRTwoLineSegmDist_8h" kind="file" language="C++">
     <compoundname>MRTwoLineSegmDist.h</compoundname>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
@@ -50,7 +50,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRTwoLineSegmDist.h</label>
+        <label>MRMesh/MRTwoLineSegmDist.h</label>
         <link refid="MRTwoLineSegmDist_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -181,14 +181,14 @@
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1gaddc230cf7b6ca522ae070d068c79091b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaddc230cf7b6ca522ae070d068c79091b" kindref="member">dir</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="23" refid="group__GeneralGroup_1ga9453ee50cc6e6c976f8db90c84096ff8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TwoLineSegmClosestPoints" kindref="compound">TwoLineSegmClosestPointsf</ref><sp/>=<sp/><ref refid="structMR_1_1TwoLineSegmClosestPoints" kindref="compound">TwoLineSegmClosestPoints&lt;float&gt;</ref>;</highlight></codeline>
-<codeline lineno="24" refid="group__GeneralGroup_1ga37603199e9b0e5eb2e0cdbe36a2b315d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TwoLineSegmClosestPoints" kindref="compound">TwoLineSegmClosestPointsd</ref><sp/>=<sp/><ref refid="structMR_1_1TwoLineSegmClosestPoints" kindref="compound">TwoLineSegmClosestPoints&lt;double&gt;</ref>;</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga9453ee50cc6e6c976f8db90c84096ff8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga9453ee50cc6e6c976f8db90c84096ff8" kindref="member">TwoLineSegmClosestPointsf</ref><sp/>=<sp/><ref refid="structMR_1_1TwoLineSegmClosestPoints" kindref="compound">TwoLineSegmClosestPoints&lt;float&gt;</ref>;</highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1ga37603199e9b0e5eb2e0cdbe36a2b315d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga37603199e9b0e5eb2e0cdbe36a2b315d" kindref="member">TwoLineSegmClosestPointsd</ref><sp/>=<sp/><ref refid="structMR_1_1TwoLineSegmClosestPoints" kindref="compound">TwoLineSegmClosestPoints&lt;double&gt;</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="group__GeneralGroup_1ga555aff6ecaadce652e996b4de62a0d8c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1TwoLineSegmClosestPoints" kindref="compound">TwoLineSegmClosestPointsf</ref><sp/><ref refid="group__GeneralGroup_1ga555aff6ecaadce652e996b4de62a0d8c" kindref="member">findTwoLineSegmClosestPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LineSegm3f&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LineSegm3f&amp;<sp/>b<sp/>);</highlight></codeline>
-<codeline lineno="28" refid="group__GeneralGroup_1ga27edd44c5ee52110bd1f260a4abde138" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1TwoLineSegmClosestPoints" kindref="compound">TwoLineSegmClosestPointsd</ref><sp/><ref refid="group__GeneralGroup_1ga555aff6ecaadce652e996b4de62a0d8c" kindref="member">findTwoLineSegmClosestPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LineSegm3d&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LineSegm3d&amp;<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1ga555aff6ecaadce652e996b4de62a0d8c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga9453ee50cc6e6c976f8db90c84096ff8" kindref="member">TwoLineSegmClosestPointsf</ref><sp/><ref refid="group__GeneralGroup_1ga555aff6ecaadce652e996b4de62a0d8c" kindref="member">findTwoLineSegmClosestPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LineSegm3f&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LineSegm3f&amp;<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ga27edd44c5ee52110bd1f260a4abde138" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga37603199e9b0e5eb2e0cdbe36a2b315d" kindref="member">TwoLineSegmClosestPointsd</ref><sp/><ref refid="group__GeneralGroup_1ga555aff6ecaadce652e996b4de62a0d8c" kindref="member">findTwoLineSegmClosestPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LineSegm3d&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LineSegm3d&amp;<sp/>b<sp/>);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTwoLineSegmDist.h"/>
+    <location file="MRMesh/MRTwoLineSegmDist.h"/>
   </compounddef>
 </doxygen>

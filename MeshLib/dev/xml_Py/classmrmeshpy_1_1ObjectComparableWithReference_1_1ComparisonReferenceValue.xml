@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ObjectComparableWithReference::ComparisonReferenceValue</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -241,19 +241,6 @@
 This can&apos;t be `std::optional&lt;Var&gt;`, because we still need the variant to know the correct type.
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue</label>
-        <link refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_isSet</edgelabel>
-          <edgelabel>_offsetof_var</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39398" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39398" bodyend="39440"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1aa04a32741b0a62c8a8ffbc5bcea1cf2c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectComparableWithReference::ComparisonReferenceValue</scope><name>__init__</name></member>

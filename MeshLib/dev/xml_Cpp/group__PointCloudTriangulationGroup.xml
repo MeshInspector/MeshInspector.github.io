@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__PointCloudTriangulationGroup" kind="group">
     <compoundname>PointCloudTriangulationGroup</compoundname>
     <title>PointCloud triangulation overview</title>
@@ -34,16 +34,16 @@
 <para><table rows="1" cols="2"><caption id="group__PointCloudTriangulationGroup_1triangulatePointCloud_examples"></caption>
 <row>
 <entry thead="no"><para><image type="html" name="triangulate_0.png" width="350cm">Before</image>
- </para>
+</para>
 </entry><entry thead="no"><para><image type="html" name="triangulate_3.png" width="350cm">After</image>
-  </para>
+</para>
 </entry></row>
 </table>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="86" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" declline="86" declcolumn="17"/>
+        <location file="MRMesh/MRPointCloudTriangulation.h" line="86" column="17" declfile="MRMesh/MRPointCloudTriangulation.h" declline="86" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudTriangulationGroup_1ga667297e36f7837828ecea717d5be86ce" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="103" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" declline="103" declcolumn="8"/>
+        <location file="MRMesh/MRPointCloudTriangulation.h" line="103" column="8" declfile="MRMesh/MRPointCloudTriangulation.h" declline="103" declcolumn="8"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

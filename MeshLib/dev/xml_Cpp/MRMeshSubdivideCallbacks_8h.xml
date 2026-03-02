@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshSubdivideCallbacks_8h" kind="file" language="C++">
     <compoundname>MRMeshSubdivideCallbacks.h</compoundname>
     <includes refid="MRMesh_8h" local="yes">MRMesh.h</includes>
@@ -178,7 +178,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshSubdivideCallbacks.h</label>
+        <label>MRMesh/MRMeshSubdivideCallbacks.h</label>
         <link refid="MRMeshSubdivideCallbacks_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -422,12 +422,12 @@
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="10"></codeline>
-<codeline lineno="14"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga834d4370af921a7bc3c36d95b47f25d5" kindref="member">onEdgeSplitVertAttribute</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga49165bcb87a59752b8f02f19ea7f2424" kindref="member">Mesh</ref>&amp;<sp/>mesh,<sp/><ref refid="group__GeneralGroup_1gacac5737ffa7f53925156e25e8825e2e6" kindref="member">Vector&lt;T, VertId&gt;</ref>&amp;<sp/>data<sp/>);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga834d4370af921a7bc3c36d95b47f25d5" kindref="member">onEdgeSplitVertAttribute</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;T, VertId&gt;</ref>&amp;<sp/>data<sp/>);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga858bd56c47ccd2af4b01a5bfa189ff64" kindref="member">onEdgeSplitFaceAttribute</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga49165bcb87a59752b8f02f19ea7f2424" kindref="member">Mesh</ref>&amp;<sp/>mesh,<sp/><ref refid="group__GeneralGroup_1gacac5737ffa7f53925156e25e8825e2e6" kindref="member">Vector&lt;T, FaceId&gt;</ref>&amp;<sp/>data<sp/>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga858bd56c47ccd2af4b01a5bfa189ff64" kindref="member">onEdgeSplitFaceAttribute</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;T, FaceId&gt;</ref>&amp;<sp/>data<sp/>);</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34" refid="group__GeneralGroup_1gab430877fb7ef3cfb347a264b5fd553df" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gab50339e87a21861f4405943730720850" kindref="member">OnEdgeSplit</ref><sp/><ref refid="group__GeneralGroup_1gab430877fb7ef3cfb347a264b5fd553df" kindref="member">meshOnEdgeSplitAttribute</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshAttributesToUpdate" kindref="compound">MeshAttributesToUpdate</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
@@ -472,6 +472,6 @@
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
 <codeline lineno="79"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivideCallbacks.h"/>
+    <location file="MRMesh/MRMeshSubdivideCallbacks.h"/>
   </compounddef>
 </doxygen>

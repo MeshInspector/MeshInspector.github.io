@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::VoxelsLoad::DicomStatusEnum</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -312,20 +312,6 @@
   Unsupported : a valid DICOM, but we do not support it (e.g. some MediaStorages)
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.VoxelsLoad.DicomStatusEnum</label>
-        <link refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>Invalid</edgelabel>
-          <edgelabel>Ok</edgelabel>
-          <edgelabel>Unsupported</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74087" bodyend="74126"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum_1ac8f493c4a10b243fbd5ba54fff96c81d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomStatusEnum</scope><name>__eq__</name></member>

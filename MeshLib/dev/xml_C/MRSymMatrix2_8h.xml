@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSymMatrix2_8h" kind="file" language="C++">
     <compoundname>MRSymMatrix2.h</compoundname>
     <includes refid="MRVector2_8h" local="no">MRCMesh/MRVector2.h</includes>
@@ -48,32 +48,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRSymMatrix2_8h_1a7ed42d4b8ab750aa5502f0b3aae480bb" prot="public" static="no">
-        <type>struct MR_Matrix2d</type>
-        <definition>typedef struct MR_Matrix2d MR_Matrix2d</definition>
-        <argsstring></argsstring>
-        <name>MR_Matrix2d</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix2.h" line="14" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix2.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRSymMatrix2_8h_1aa7e2870abc827564c54900098cd448e2" prot="public" static="no">
-        <type>struct MR_Matrix2f</type>
-        <definition>typedef struct MR_Matrix2f MR_Matrix2f</definition>
-        <argsstring></argsstring>
-        <name>MR_Matrix2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix2.h" line="15" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix2.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRSymMatrix2_8h_1afb4b4cb17091b711ee0b480c62f9f5b9" prot="public" static="no">
         <type>struct <ref refid="MRSymMatrix2_8h_1afb4b4cb17091b711ee0b480c62f9f5b9" kindref="member">MR_SymMatrix2b</ref></type>
         <definition>typedef struct MR_SymMatrix2b MR_SymMatrix2b</definition>
@@ -115,34 +89,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix2.h" line="31" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix2.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRSymMatrix2_8h_1a13cd8cbd4d45e7cccbccacbb1336a621" prot="public" static="no">
-        <type>struct <ref refid="MRQuadraticForm_8h_1a13cd8cbd4d45e7cccbccacbb1336a621" kindref="member">MR_SymMatrix2f</ref></type>
-        <definition>typedef struct MR_SymMatrix2f MR_SymMatrix2f</definition>
-        <argsstring></argsstring>
-        <name>MR_SymMatrix2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>symmetric 2x2 matrix Generated from class <computeroutput>MR::SymMatrix2f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix2.h" line="36" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix2.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRSymMatrix2_8h_1af7475838db501ea587b208dcea0499cc" prot="public" static="no">
-        <type>struct <ref refid="MRQuadraticForm_8h_1af7475838db501ea587b208dcea0499cc" kindref="member">MR_SymMatrix2d</ref></type>
-        <definition>typedef struct MR_SymMatrix2d MR_SymMatrix2d</definition>
-        <argsstring></argsstring>
-        <name>MR_SymMatrix2d</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>symmetric 2x2 matrix Generated from class <computeroutput>MR::SymMatrix2d</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix2.h" line="41" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSymMatrix2.h" bodystart="41" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -427,7 +373,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix2b</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSymMatrix2_8h_1afb4b4cb17091b711ee0b480c62f9f5b9" kindref="member">MR_SymMatrix2b</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -445,7 +391,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix2b</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSymMatrix2_8h_1afb4b4cb17091b711ee0b480c62f9f5b9" kindref="member">MR_SymMatrix2b</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -973,7 +919,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix2i</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSymMatrix2_8h_1a6ed1918d5a6fd6b7421a1d2a4118d042" kindref="member">MR_SymMatrix2i</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -991,7 +937,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix2i</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSymMatrix2_8h_1a6ed1918d5a6fd6b7421a1d2a4118d042" kindref="member">MR_SymMatrix2i</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1519,7 +1465,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix2i64</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1537,7 +1483,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix2i64</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2065,7 +2011,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRQuadraticForm_8h_1a13cd8cbd4d45e7cccbccacbb1336a621" kindref="member">MR_SymMatrix2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2083,7 +2029,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRQuadraticForm_8h_1a13cd8cbd4d45e7cccbccacbb1336a621" kindref="member">MR_SymMatrix2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2728,7 +2674,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix2d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRQuadraticForm_8h_1af7475838db501ea587b208dcea0499cc" kindref="member">MR_SymMatrix2d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2746,7 +2692,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix2d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRQuadraticForm_8h_1af7475838db501ea587b208dcea0499cc" kindref="member">MR_SymMatrix2d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3129,19 +3075,19 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRSymMatrix2_8h_1a7ed42d4b8ab750aa5502f0b3aae480bb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix2d" kindref="compound">MR_Matrix2d</ref><sp/><ref refid="structMR__Matrix2d" kindref="compound">MR_Matrix2d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMatrix2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRSymMatrix2_8h_1aa7e2870abc827564c54900098cd448e2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix2f" kindref="compound">MR_Matrix2f</ref><sp/><ref refid="structMR__Matrix2f" kindref="compound">MR_Matrix2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMatrix2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix2d" kindref="compound">MR_Matrix2d</ref><sp/><ref refid="structMR__Matrix2d" kindref="compound">MR_Matrix2d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMatrix2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix2f" kindref="compound">MR_Matrix2f</ref><sp/><ref refid="structMR__Matrix2f" kindref="compound">MR_Matrix2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMatrix2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRSymMatrix2_8h_1afb4b4cb17091b711ee0b480c62f9f5b9" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix2_8h_1afb4b4cb17091b711ee0b480c62f9f5b9" kindref="member">MR_SymMatrix2b</ref><sp/><ref refid="MRSymMatrix2_8h_1afb4b4cb17091b711ee0b480c62f9f5b9" kindref="member">MR_SymMatrix2b</ref>;</highlight></codeline>
+<codeline lineno="21" refid="MRSymMatrix2_8h_1afb4b4cb17091b711ee0b480c62f9f5b9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix2_8h_1afb4b4cb17091b711ee0b480c62f9f5b9" kindref="member">MR_SymMatrix2b</ref><sp/><ref refid="MRSymMatrix2_8h_1afb4b4cb17091b711ee0b480c62f9f5b9" kindref="member">MR_SymMatrix2b</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRSymMatrix2_8h_1a6ed1918d5a6fd6b7421a1d2a4118d042" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix2_8h_1a6ed1918d5a6fd6b7421a1d2a4118d042" kindref="member">MR_SymMatrix2i</ref><sp/><ref refid="MRSymMatrix2_8h_1a6ed1918d5a6fd6b7421a1d2a4118d042" kindref="member">MR_SymMatrix2i</ref>;</highlight></codeline>
+<codeline lineno="26" refid="MRSymMatrix2_8h_1a6ed1918d5a6fd6b7421a1d2a4118d042" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix2_8h_1a6ed1918d5a6fd6b7421a1d2a4118d042" kindref="member">MR_SymMatrix2i</ref><sp/><ref refid="MRSymMatrix2_8h_1a6ed1918d5a6fd6b7421a1d2a4118d042" kindref="member">MR_SymMatrix2i</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref>;</highlight></codeline>
+<codeline lineno="31" refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref><sp/><ref refid="MRSymMatrix2_8h_1a7d74d4f27319b4cc833ef76140d8f452" kindref="member">MR_SymMatrix2i64</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRSymMatrix2_8h_1a13cd8cbd4d45e7cccbccacbb1336a621" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1a13cd8cbd4d45e7cccbccacbb1336a621" kindref="member">MR_SymMatrix2f</ref><sp/><ref refid="MRQuadraticForm_8h_1a13cd8cbd4d45e7cccbccacbb1336a621" kindref="member">MR_SymMatrix2f</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1a13cd8cbd4d45e7cccbccacbb1336a621" kindref="member">MR_SymMatrix2f</ref><sp/><ref refid="MRQuadraticForm_8h_1a13cd8cbd4d45e7cccbccacbb1336a621" kindref="member">MR_SymMatrix2f</ref>;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRSymMatrix2_8h_1af7475838db501ea587b208dcea0499cc" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1af7475838db501ea587b208dcea0499cc" kindref="member">MR_SymMatrix2d</ref><sp/><ref refid="MRQuadraticForm_8h_1af7475838db501ea587b208dcea0499cc" kindref="member">MR_SymMatrix2d</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1af7475838db501ea587b208dcea0499cc" kindref="member">MR_SymMatrix2d</ref><sp/><ref refid="MRQuadraticForm_8h_1af7475838db501ea587b208dcea0499cc" kindref="member">MR_SymMatrix2d</ref>;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48" refid="MRSymMatrix2_8h_1ae9887e4770a754e5b72965efc3469dd6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRSymMatrix2_8h_1ae9887e4770a754e5b72965efc3469dd6" kindref="member">MR_SymMatrix2b_Get_xx</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix2_8h_1afb4b4cb17091b711ee0b480c62f9f5b9" kindref="member">MR_SymMatrix2b</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVoxelsSave_8h" kind="file" language="C++">
     <compoundname>MRVoxelsSave.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
@@ -609,7 +609,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRVoxelsSave.h</label>
+        <label>MRVoxels/MRVoxelsSave.h</label>
         <link refid="MRVoxelsSave_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -745,7 +745,7 @@
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">VoxelsSave</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1VoxelsSave" kindref="compound">VoxelsSave</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="namespaceMR_1_1VoxelsSave_1a2e179fbde55c39476bb8befcc2377073" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="namespaceMR_1_1VoxelsSave_1a2e179fbde55c39476bb8befcc2377073" kindref="member">toRawAutoname</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/>vdbVolume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,</highlight></codeline>
@@ -780,7 +780,7 @@
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56" refid="namespaceMR_1_1VoxelsSave_1ae97a9649f728491374a52c4f5822d109" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="namespaceMR_1_1VoxelsSave_1ae97a9649f728491374a52c4f5822d109" kindref="member">saveSliceToImage</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/>vdbVolume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__VoxelPathGroup_1ga4412ea17fd4bcca4ad23e987f61c20ab" kindref="member">SlicePlane</ref>&amp;<sp/>slicePlain,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sliceNumber,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>callback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="structMR_1_1VoxelsSave_1_1SavingSettings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VoxelsSave_1_1SavingSettings" kindref="compound">SavingSettings</ref></highlight></codeline>
+<codeline lineno="59" refid="structMR_1_1VoxelsSave_1_1SavingSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VoxelsSave_1_1SavingSettings" kindref="compound">SavingSettings</ref></highlight></codeline>
 <codeline lineno="60"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="62" refid="structMR_1_1VoxelsSave_1_1SavingSettings_1a8415f6dc84ccf8061fd256e2420cd4fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::filesystem::path<sp/><ref refid="structMR_1_1VoxelsSave_1_1SavingSettings_1a8415f6dc84ccf8061fd256e2420cd4fd" kindref="member">path</ref>;</highlight></codeline>
 <codeline lineno="64" refid="structMR_1_1VoxelsSave_1_1SavingSettings_1abc7da521abdd392c79be9602cde3dc64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structMR_1_1VoxelsSave_1_1SavingSettings_1abc7da521abdd392c79be9602cde3dc64" kindref="member">format</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;slice_{0:0{1}}.tif&quot;</highlight><highlight class="normal">;</highlight></codeline>
@@ -797,7 +797,7 @@
 <codeline lineno="79"><highlight class="normal"><ref refid="MRIOFormatsRegistry_8h_1a5523f4a0eb6dd34454d8708545fa1463" kindref="member">MR_FORMAT_REGISTRY_EXTERNAL_DECL</ref>(<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref>,<sp/><ref refid="namespaceMR_1_1VoxelsSave_1a5289196c605171ac3410bbe845a26176" kindref="member">VoxelsSaver</ref><sp/>)</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
 <codeline lineno="84" refid="group__VoxelsSaveGroup_1ga2c95017a0cb0c854829b6223518168eb" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__VoxelsSaveGroup_1ga2c95017a0cb0c854829b6223518168eb" kindref="member">saveObjectVoxelsToFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ObjectSave_1_1Settings" kindref="compound">ObjectSave::Settings</ref>&amp;<sp/>settings<sp/>);</highlight></codeline>
@@ -805,6 +805,6 @@
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
 <codeline lineno="89"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h"/>
+    <location file="MRVoxels/MRVoxelsSave.h"/>
   </compounddef>
 </doxygen>

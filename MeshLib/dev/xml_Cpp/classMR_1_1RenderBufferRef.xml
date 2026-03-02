@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderBufferRef" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderBufferRef</compoundname>
-    <includes refid="MRRenderHelpers_8h" local="no">MRRenderHelpers.h</includes>
+    <includes refid="MRRenderHelpers_8h" local="no">MRViewer/MRRenderHelpers.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -27,7 +27,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="19" bodyend="63"/>
+    <location file="MRViewer/MRRenderHelpers.h" line="18" column="1" bodyfile="MRViewer/MRRenderHelpers.h" bodystart="19" bodyend="63"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga83514f8c96c2dd11af082fa0aac85927" prot="public" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>data</name></member>
       <member refid="group__GeneralGroup_1gacb3fe9475e447c6066baf1d90e3e65f0" prot="private" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>data_</name></member>

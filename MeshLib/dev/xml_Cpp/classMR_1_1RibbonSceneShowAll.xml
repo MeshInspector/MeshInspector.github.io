@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonSceneShowAll" kind="class" language="C++" prot="public">
     <compoundname>MR::RibbonSceneShowAll</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
-    <includes refid="MRRibbonSceneButtons_8h" local="no">MRRibbonSceneButtons.h</includes>
+    <includes refid="MRRibbonSceneButtons_8h" local="no">MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga5bbe6e3d6918da5119446fbafff778a9" kind="function"><name>RibbonSceneShowAll</name></member>
       <member refid="group__GeneralGroup_1ga948b94f7dba6645b0f30644a1bfd835d" kind="function"><name>isAvailable</name></member>
@@ -49,7 +49,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" line="46" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" bodystart="47" bodyend="55"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" line="46" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" bodystart="47" bodyend="55"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga74a74bc34eb2d8efaf8a23d0ef2b1c4a" prot="public" virt="virtual"><scope>MR::RibbonSceneShowAll</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::RibbonSceneShowAll</scope><name>blocking</name></member>

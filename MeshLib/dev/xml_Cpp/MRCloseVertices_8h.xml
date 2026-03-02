@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCloseVertices_8h" kind="file" language="C++">
     <compoundname>MRCloseVertices.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -13,7 +13,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRCloseVertices.h</label>
+        <label>MRMesh/MRCloseVertices.h</label>
         <link refid="MRCloseVertices_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -122,7 +122,7 @@
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="39" refid="group__GeneralGroup_1ga74ace7e6efa72b185564d653e800cfad" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertBitSet<sp/><ref refid="group__GeneralGroup_1ga1762c793c3fc20c5621e471fbc321ec1" kindref="member">findCloseVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertMap<sp/>&amp;<sp/>smallestMap<sp/>);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44" refid="group__GeneralGroup_1gad6fbfaa55add0cfefe87b27dfd6c9427" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;EdgePair&gt;<sp/><ref refid="group__GeneralGroup_1gad6fbfaa55add0cfefe87b27dfd6c9427" kindref="member">findTwinEdgePairs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist<sp/>);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47" refid="group__GeneralGroup_1gaa3c6e2ebbe054249a9169f7c85a99528" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>EdgeBitSet<sp/><ref refid="group__GeneralGroup_1gaa3c6e2ebbe054249a9169f7c85a99528" kindref="member">findTwinEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist<sp/>);</highlight></codeline>
@@ -134,8 +134,8 @@
 <codeline lineno="55" refid="group__GeneralGroup_1ga2edc903da41e3d5e30b6c021b8b13a08" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gae4c04995449710309dc72ed533991d7f" kindref="member">UndirectedEdgeHashMap</ref><sp/><ref refid="group__GeneralGroup_1ga2edc903da41e3d5e30b6c021b8b13a08" kindref="member">findTwinUndirectedEdgeHashMap</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist<sp/>);</highlight></codeline>
 <codeline lineno="56" refid="group__GeneralGroup_1ga68c8c9caa070992eb8b7ac550d12cae9" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gae4c04995449710309dc72ed533991d7f" kindref="member">UndirectedEdgeHashMap</ref><sp/><ref refid="group__GeneralGroup_1ga2edc903da41e3d5e30b6c021b8b13a08" kindref="member">findTwinUndirectedEdgeHashMap</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgePair&gt;<sp/>&amp;<sp/>pairs<sp/>);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCloseVertices.h"/>
+    <location file="MRMesh/MRCloseVertices.h"/>
   </compounddef>
 </doxygen>

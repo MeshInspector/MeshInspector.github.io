@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshThickness_8h" kind="file" language="C++">
     <compoundname>MRMeshThickness.h</compoundname>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
@@ -99,7 +99,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshThickness.h</label>
+        <label>MRMesh/MRMeshThickness.h</label>
         <link refid="MRMeshThickness_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -264,7 +264,7 @@
 <codeline lineno="16" refid="group__GeneralGroup_1gaf6d3efe947b644fef660853b7e04af48" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertScalars&gt;<sp/><ref refid="group__GeneralGroup_1gaf6d3efe947b644fef660853b7e04af48" kindref="member">computeRayThicknessAtVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1gaf7ec2d97bf7b58faf0c849207487aad4" refkind="member"><highlight class="normal">[[deprecated]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>VertScalars<sp/><ref refid="group__GeneralGroup_1gaf7ec2d97bf7b58faf0c849207487aad4" kindref="member">computeThicknessAtVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh<sp/>);</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="structMR_1_1MeshPoint" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshPoint" kindref="compound">MeshPoint</ref></highlight></codeline>
+<codeline lineno="20" refid="structMR_1_1MeshPoint" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshPoint" kindref="compound">MeshPoint</ref></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="22" refid="group__GeneralGroup_1gaada8def241781f58cfc3cfe595c86622" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/><ref refid="group__GeneralGroup_1gaada8def241781f58cfc3cfe595c86622" kindref="member">triPoint</ref>;<sp/></highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1ga3a24b45014eebfd444ca4f0e15a72c3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga3a24b45014eebfd444ca4f0e15a72c3d" kindref="member">pt</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -277,8 +277,8 @@
 <codeline lineno="31" refid="group__GeneralGroup_1gaa9c5c0b26cba97383d5a1063ca76ba5c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref><sp/><ref refid="group__GeneralGroup_1gaa9c5c0b26cba97383d5a1063ca76ba5c" kindref="member">rayInsideIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshPoint" kindref="compound">MeshPoint</ref><sp/>&amp;<sp/>m,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rayEnd<sp/>=<sp/>FLT_MAX<sp/>);</highlight></codeline>
 <codeline lineno="32" refid="group__GeneralGroup_1ga4414d873b4a14b339aa9f7ab170b740d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref><sp/><ref refid="group__GeneralGroup_1gaa9c5c0b26cba97383d5a1063ca76ba5c" kindref="member">rayInsideIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>VertId<sp/>v,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rayEnd<sp/>=<sp/>FLT_MAX<sp/>);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"></codeline>
-<codeline lineno="38" refid="structMR_1_1InSphereSearchSettings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1InSphereSearchSettings" kindref="compound">InSphereSearchSettings</ref></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="structMR_1_1InSphereSearchSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1InSphereSearchSettings" kindref="compound">InSphereSearchSettings</ref></highlight></codeline>
 <codeline lineno="39"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="43" refid="group__GeneralGroup_1ga11df62ec99464c382a22fd4b2be79d72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga11df62ec99464c382a22fd4b2be79d72" kindref="member">insideAndOutside</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
@@ -291,7 +291,7 @@
 <codeline lineno="60" refid="group__GeneralGroup_1gac17cedea371781d54bc00fa84b7b0125" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac17cedea371781d54bc00fa84b7b0125" kindref="member">minAngleCos</ref><sp/>=<sp/>-1;</highlight></codeline>
 <codeline lineno="61"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="structMR_1_1InSphere" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1InSphere" kindref="compound">InSphere</ref></highlight></codeline>
+<codeline lineno="64" refid="structMR_1_1InSphere" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1InSphere" kindref="compound">InSphere</ref></highlight></codeline>
 <codeline lineno="65"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="66" refid="group__GeneralGroup_1gad8f2efb34f2d4b1e4b866ad31694dd50" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gad8f2efb34f2d4b1e4b866ad31694dd50" kindref="member">center</ref>;</highlight></codeline>
 <codeline lineno="67" refid="group__GeneralGroup_1ga55fffe1bc5347e4a6ea79bc6e3479c1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga55fffe1bc5347e4a6ea79bc6e3479c1f" kindref="member">radius</ref><sp/>=<sp/>0;</highlight></codeline>
@@ -304,8 +304,8 @@
 <codeline lineno="76" refid="group__GeneralGroup_1ga239cbc262f9cc0bda4d8b5bf928ee0d2" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertScalars&gt;<sp/><ref refid="group__GeneralGroup_1ga239cbc262f9cc0bda4d8b5bf928ee0d2" kindref="member">computeInSphereThicknessAtVertices</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1InSphereSearchSettings" kindref="compound">InSphereSearchSettings</ref><sp/>&amp;<sp/>settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h"/>
+    <location file="MRMesh/MRMeshThickness.h"/>
   </compounddef>
 </doxygen>

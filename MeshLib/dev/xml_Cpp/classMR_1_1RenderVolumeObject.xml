@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderVolumeObject" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderVolumeObject</compoundname>
     <basecompoundref refid="classMR_1_1IRenderObject" prot="public" virt="virtual">MR::IRenderObject</basecompoundref>
-    <includes refid="MRRenderVolumeObject_8h" local="no">MRRenderVolumeObject.h</includes>
+    <includes refid="MRRenderVolumeObject_8h" local="no">MRViewer/MRRenderVolumeObject.h</includes>
     <sectiondef kind="private-type">
       <member refid="group__GeneralGroup_1ga5c2f92f904828afa7e31f3c3af25dae3" kind="typedef"><name>GLuint</name></member>
     </sectiondef>
@@ -64,7 +64,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" bodystart="18" bodyend="60"/>
+    <location file="MRViewer/MRRenderVolumeObject.h" line="17" column="1" bodyfile="MRViewer/MRRenderVolumeObject.h" bodystart="18" bodyend="60"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0040705a3c685bbc981f4600081823bf" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>activeVoxelsTex_</name></member>
       <member refid="group__GeneralGroup_1ga0ba74ada110e80b54d6a048431c119ee" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>activeVoxelsTextureSize_</name></member>

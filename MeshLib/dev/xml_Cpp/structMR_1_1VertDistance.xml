@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1VertDistance" kind="struct" language="C++" prot="public">
     <compoundname>MR::VertDistance</compoundname>
-    <includes refid="MRSurfaceDistanceBuilder_8h" local="no">MRSurfaceDistanceBuilder.h</includes>
+    <includes refid="MRSurfaceDistanceBuilder_8h" local="no">MRMesh/MRSurfaceDistanceBuilder.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1VertDistance_1ab32da452523a0d3cd61407d73b038145" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="20" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="20" bodyend="-1"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="20" column="12" bodyfile="MRMesh/MRSurfaceDistanceBuilder.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1VertDistance_1a6a8273bff57db797404893811ae3f24a" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="22" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="22" bodyend="-1"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="22" column="11" bodyfile="MRMesh/MRSurfaceDistanceBuilder.h" bodystart="22" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="24" column="5"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="24" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1VertDistance_1a7e288480095c91d543447305bb312076" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -71,14 +71,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="25" bodyend="25"/>
+        <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="25" column="5" bodyfile="MRMesh/MRSurfaceDistanceBuilder.h" bodystart="25" bodyend="25"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="18" bodyend="26"/>
+    <location file="MRMesh/MRSurfaceDistanceBuilder.h" line="17" column="1" bodyfile="MRMesh/MRSurfaceDistanceBuilder.h" bodystart="18" bodyend="26"/>
     <listofallmembers>
       <member refid="structMR_1_1VertDistance_1a6a8273bff57db797404893811ae3f24a" prot="public" virt="non-virtual"><scope>MR::VertDistance</scope><name>distance</name></member>
       <member refid="structMR_1_1VertDistance_1ab32da452523a0d3cd61407d73b038145" prot="public" virt="non-virtual"><scope>MR::VertDistance</scope><name>vert</name></member>

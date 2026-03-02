@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshSave_1_1BinaryStlSaver" kind="class" language="C++" prot="public">
     <compoundname>MR::MeshSave::BinaryStlSaver</compoundname>
-    <includes refid="MRMeshSave_8h" local="no">MRMeshSave.h</includes>
+    <includes refid="MRMeshSave_8h" local="no">MRMesh/MRMeshSave.h</includes>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a78950026b7307ddd088d899c4324914e" prot="private" static="no" mutable="no">
         <type>std::ostream &amp;</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="65" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" bodystart="65" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSave.h" line="65" column="19" bodyfile="MRMesh/MRMeshSave.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1ac43c0b33f1ec3a94b70d313764abc208" prot="private" static="no" mutable="no">
         <type><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="66" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" bodystart="66" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSave.h" line="66" column="18" bodyfile="MRMesh/MRMeshSave.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a5ed9b4cc5f18796174ed915bdc8d4328" prot="private" static="no" mutable="no">
         <type>std::ostream::pos_type</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="67" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" bodystart="67" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSave.h" line="67" column="28" bodyfile="MRMesh/MRMeshSave.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a688eb121e7934afbcbcce98366452868" prot="private" static="no" mutable="no">
         <type>std::uint32_t</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="68" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" bodystart="68" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSave.h" line="68" column="19" bodyfile="MRMesh/MRMeshSave.h" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a5a85c100f4154a34e57bb0d6c0a37fa0" prot="private" static="no" mutable="no">
         <type>std::uint32_t</type>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="69" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" bodystart="69" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSave.h" line="69" column="19" bodyfile="MRMesh/MRMeshSave.h" bodystart="69" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -109,7 +109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="52" column="15"/>
+        <location file="MRMesh/MRMeshSave.h" line="52" column="15"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a2422df321dd6121589093b939d92a1ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="55" column="11"/>
+        <location file="MRMesh/MRMeshSave.h" line="55" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1acd906c16c2c822c77b7415473be8e7c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="59" column="11"/>
+        <location file="MRMesh/MRMeshSave.h" line="59" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a20ed9bc2a6d528a67539a8c8e6b539cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="62" column="6"/>
+        <location file="MRMesh/MRMeshSave.h" line="62" column="6"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -166,7 +166,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="48" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" bodystart="49" bodyend="70"/>
+    <location file="MRMesh/MRMeshSave.h" line="48" column="1" bodyfile="MRMesh/MRMeshSave.h" bodystart="49" bodyend="70"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a859f9b2c3532df188432fec61a6a2b99" prot="public" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>BinaryStlSaver</name></member>
       <member refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a688eb121e7934afbcbcce98366452868" prot="private" virt="non-virtual"><scope>MR::MeshSave::BinaryStlSaver</scope><name>headNumTris_</name></member>

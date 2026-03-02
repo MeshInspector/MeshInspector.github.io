@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR" kind="class" language="C#" prot="public">
     <compoundname>MR</compoundname>
     <innerclass refid="classMR_1_1AABBTree" prot="public">MR::AABBTree</innerclass>
@@ -60,8 +60,8 @@
     <innerclass refid="classMR_1_1BooleanInternalParameters" prot="public">MR::BooleanInternalParameters</innerclass>
     <innerclass refid="classMR_1_1BooleanParameters" prot="public">MR::BooleanParameters</innerclass>
     <innerclass refid="classMR_1_1BooleanPreCutResult" prot="public">MR::BooleanPreCutResult</innerclass>
-    <innerclass refid="classMR_1_1BooleanResult" prot="private">MR::BooleanResult</innerclass>
-    <innerclass refid="classMR_1_1BooleanResultMapper" prot="private">MR::BooleanResultMapper</innerclass>
+    <innerclass refid="classMR_1_1BooleanResult" prot="public">MR::BooleanResult</innerclass>
+    <innerclass refid="classMR_1_1BooleanResultMapper" prot="public">MR::BooleanResultMapper</innerclass>
     <innerclass refid="classMR_1_1BooleanResultPoints" prot="public">MR::BooleanResultPoints</innerclass>
     <innerclass refid="structMR_1_1Box1d" prot="public">MR::Box1d</innerclass>
     <innerclass refid="structMR_1_1Box1f" prot="public">MR::Box1f</innerclass>
@@ -291,16 +291,16 @@
     <innerclass refid="classMR_1_1CurveFunc" prot="public">MR::CurveFunc</innerclass>
     <innerclass refid="classMR_1_1CurvePoint" prot="public">MR::CurvePoint</innerclass>
     <innerclass refid="classMR_1_1CutByProjectionSettings" prot="public">MR::CutByProjectionSettings</innerclass>
-    <innerclass refid="classMR_1_1CutMeshParameters" prot="private">MR::CutMeshParameters</innerclass>
-    <innerclass refid="classMR_1_1CutMeshResult" prot="private">MR::CutMeshResult</innerclass>
+    <innerclass refid="classMR_1_1CutMeshParameters" prot="public">MR::CutMeshParameters</innerclass>
+    <innerclass refid="classMR_1_1CutMeshResult" prot="public">MR::CutMeshResult</innerclass>
     <innerclass refid="classMR_1_1Cylinder3d" prot="public">MR::Cylinder3d</innerclass>
     <innerclass refid="classMR_1_1Cylinder3f" prot="public">MR::Cylinder3f</innerclass>
     <innerclass refid="classMR_1_1CylinderObject" prot="public">MR::CylinderObject</innerclass>
-    <innerclass refid="classMR_1_1DecimatePolylineResult" prot="private">MR::DecimatePolylineResult</innerclass>
+    <innerclass refid="classMR_1_1DecimatePolylineResult" prot="public">MR::DecimatePolylineResult</innerclass>
     <innerclass refid="classMR_1_1DecimatePolylineSettings__MRVector2f" prot="public">MR::DecimatePolylineSettings_MRVector2f</innerclass>
     <innerclass refid="classMR_1_1DecimatePolylineSettings__MRVector3f" prot="public">MR::DecimatePolylineSettings_MRVector3f</innerclass>
-    <innerclass refid="classMR_1_1DecimateResult" prot="private">MR::DecimateResult</innerclass>
-    <innerclass refid="classMR_1_1DecimateSettings" prot="private">MR::DecimateSettings</innerclass>
+    <innerclass refid="classMR_1_1DecimateResult" prot="public">MR::DecimateResult</innerclass>
+    <innerclass refid="classMR_1_1DecimateSettings" prot="public">MR::DecimateSettings</innerclass>
     <innerclass refid="classMR_1_1DeloneSettings" prot="public">MR::DeloneSettings</innerclass>
     <innerclass refid="classMR_1_1DenoiseViaNormalsSettings" prot="public">MR::DenoiseViaNormalsSettings</innerclass>
     <innerclass refid="classMR_1_1DenseBox" prot="public">MR::DenseBox</innerclass>
@@ -367,9 +367,9 @@
     <innerclass refid="classMR_1_1Features" prot="public">MR::Features</innerclass>
     <innerclass refid="classMR_1_1FewSmallest__MRPointsProjectionResult" prot="public">MR::FewSmallest_MRPointsProjectionResult</innerclass>
     <innerclass refid="classMR_1_1FillHoleItem" prot="public">MR::FillHoleItem</innerclass>
-    <innerclass refid="classMR_1_1FillHoleMetric" prot="private">MR::FillHoleMetric</innerclass>
+    <innerclass refid="classMR_1_1FillHoleMetric" prot="public">MR::FillHoleMetric</innerclass>
     <innerclass refid="classMR_1_1FillHoleNicelySettings" prot="public">MR::FillHoleNicelySettings</innerclass>
-    <innerclass refid="classMR_1_1FillHoleParams" prot="private">MR::FillHoleParams</innerclass>
+    <innerclass refid="classMR_1_1FillHoleParams" prot="public">MR::FillHoleParams</innerclass>
     <innerclass refid="classMR_1_1FillHolesWithExtraPointsParams" prot="public">MR::FillHolesWithExtraPointsParams</innerclass>
     <innerclass refid="classMR_1_1FillingSurface" prot="public">MR::FillingSurface</innerclass>
     <innerclass refid="classMR_1_1FindDisorientationParams" prot="public">MR::FindDisorientationParams</innerclass>
@@ -505,7 +505,7 @@
     <innerclass refid="structMR_1_1Matrix4i64" prot="public">MR::Matrix4i64</innerclass>
     <innerclass refid="classMR_1_1Matrix__Float" prot="public">MR::Matrix_Float</innerclass>
     <innerclass refid="classMR_1_1MeasurementObject" prot="public">MR::MeasurementObject</innerclass>
-    <innerclass refid="classMR_1_1MergeVolumePartSettings" prot="private">MR::MergeVolumePartSettings</innerclass>
+    <innerclass refid="classMR_1_1MergeVolumePartSettings" prot="public">MR::MergeVolumePartSettings</innerclass>
     <innerclass refid="classMR_1_1Mesh" prot="public">MR::Mesh</innerclass>
     <innerclass refid="classMR_1_1MeshApproxRelaxParams" prot="public">MR::MeshApproxRelaxParams</innerclass>
     <innerclass refid="classMR_1_1MeshAttributesToUpdate" prot="public">MR::MeshAttributesToUpdate</innerclass>
@@ -789,7 +789,7 @@
     <innerclass refid="classMR_1_1SplineSettings" prot="public">MR::SplineSettings</innerclass>
     <innerclass refid="classMR_1_1Src2TgtMaps" prot="public">MR::Src2TgtMaps</innerclass>
     <innerclass refid="classMR_1_1StitchHolesNicelySettings" prot="public">MR::StitchHolesNicelySettings</innerclass>
-    <innerclass refid="classMR_1_1StitchHolesParams" prot="private">MR::StitchHolesParams</innerclass>
+    <innerclass refid="classMR_1_1StitchHolesParams" prot="public">MR::StitchHolesParams</innerclass>
     <innerclass refid="classMR_1_1SubdivideFillingSettings" prot="public">MR::SubdivideFillingSettings</innerclass>
     <innerclass refid="classMR_1_1SubdivideSettings" prot="public">MR::SubdivideSettings</innerclass>
     <innerclass refid="classMR_1_1SurfaceDistanceBuilder" prot="public">MR::SurfaceDistanceBuilder</innerclass>
@@ -963,7 +963,7 @@
     <innerclass refid="classMR_1_1VolumeIndexer" prot="public">MR::VolumeIndexer</innerclass>
     <innerclass refid="classMR_1_1VolumeSegmentationParameters" prot="public">MR::VolumeSegmentationParameters</innerclass>
     <innerclass refid="classMR_1_1VolumeSegmenter" prot="public">MR::VolumeSegmenter</innerclass>
-    <innerclass refid="classMR_1_1VolumeToMeshByPartsSettings" prot="private">MR::VolumeToMeshByPartsSettings</innerclass>
+    <innerclass refid="classMR_1_1VolumeToMeshByPartsSettings" prot="public">MR::VolumeToMeshByPartsSettings</innerclass>
     <innerclass refid="classMR_1_1VoxelBitSet" prot="public">MR::VoxelBitSet</innerclass>
     <innerclass refid="structMR_1_1VoxelId" prot="public">MR::VoxelId</innerclass>
     <innerclass refid="classMR_1_1VoxelLocation" prot="public">MR::VoxelLocation</innerclass>
@@ -5425,7 +5425,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.BooleanResultMapper?</type>
+          <type><ref refid="classMR_1_1BooleanResultMapper" kindref="compound">MR.BooleanResultMapper</ref>?</type>
           <declname>mapper</declname>
           <defval>null</defval>
         </param>
@@ -6242,7 +6242,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1ac38e9eff52c44b9612ca5232c5bc82a2" kindref="member">MR.convertContourTo2f</ref>&lt;std.vector&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1ac38e9eff52c44b9612ca5232c5bc82a2" kindref="member">MR.convertContourTo2f</ref>&lt;std::vector&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6261,7 +6261,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1ac38e9eff52c44b9612ca5232c5bc82a2" kindref="member">MR.convertContourTo2f</ref>&lt;std.vector&lt;<ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref>&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1ac38e9eff52c44b9612ca5232c5bc82a2" kindref="member">MR.convertContourTo2f</ref>&lt;std::vector&lt;<ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6280,7 +6280,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1ac38e9eff52c44b9612ca5232c5bc82a2" kindref="member">MR.convertContourTo2f</ref>&lt;std.vector&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1ac38e9eff52c44b9612ca5232c5bc82a2" kindref="member">MR.convertContourTo2f</ref>&lt;std::vector&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6299,7 +6299,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1ac38e9eff52c44b9612ca5232c5bc82a2" kindref="member">MR.convertContourTo2f</ref>&lt;std.vector&lt;<ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref>&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1ac38e9eff52c44b9612ca5232c5bc82a2" kindref="member">MR.convertContourTo2f</ref>&lt;std::vector&lt;<ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6318,7 +6318,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a03cdc31af6e9b8d84d1c9d01815d90b7" kindref="member">MR.convertContourTo3f</ref>&lt;std.vector&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a03cdc31af6e9b8d84d1c9d01815d90b7" kindref="member">MR.convertContourTo3f</ref>&lt;std::vector&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6337,7 +6337,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a03cdc31af6e9b8d84d1c9d01815d90b7" kindref="member">MR.convertContourTo3f</ref>&lt;std.vector&lt;<ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref>&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a03cdc31af6e9b8d84d1c9d01815d90b7" kindref="member">MR.convertContourTo3f</ref>&lt;std::vector&lt;<ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6356,7 +6356,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a03cdc31af6e9b8d84d1c9d01815d90b7" kindref="member">MR.convertContourTo3f</ref>&lt;std.vector&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a03cdc31af6e9b8d84d1c9d01815d90b7" kindref="member">MR.convertContourTo3f</ref>&lt;std::vector&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6375,7 +6375,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a03cdc31af6e9b8d84d1c9d01815d90b7" kindref="member">MR.convertContourTo3f</ref>&lt;std.vector&lt;<ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref>&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a03cdc31af6e9b8d84d1c9d01815d90b7" kindref="member">MR.convertContourTo3f</ref>&lt;std::vector&lt;<ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6394,7 +6394,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1ab1ed6d8492d1981803fa64b91d0cefe4" kindref="member">MR.convertContourTo2d</ref>&lt;std.vector&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1ab1ed6d8492d1981803fa64b91d0cefe4" kindref="member">MR.convertContourTo2d</ref>&lt;std::vector&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6413,7 +6413,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1ab1ed6d8492d1981803fa64b91d0cefe4" kindref="member">MR.convertContourTo2d</ref>&lt;std.vector&lt;<ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref>&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1ab1ed6d8492d1981803fa64b91d0cefe4" kindref="member">MR.convertContourTo2d</ref>&lt;std::vector&lt;<ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6432,7 +6432,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1ab1ed6d8492d1981803fa64b91d0cefe4" kindref="member">MR.convertContourTo2d</ref>&lt;std.vector&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1ab1ed6d8492d1981803fa64b91d0cefe4" kindref="member">MR.convertContourTo2d</ref>&lt;std::vector&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6451,7 +6451,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1ab1ed6d8492d1981803fa64b91d0cefe4" kindref="member">MR.convertContourTo2d</ref>&lt;std.vector&lt;<ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref>&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1ab1ed6d8492d1981803fa64b91d0cefe4" kindref="member">MR.convertContourTo2d</ref>&lt;std::vector&lt;<ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6470,7 +6470,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a9f36eef9b293e6a66e7dcbd4395a5a5b" kindref="member">MR.convertContourTo3d</ref>&lt;std.vector&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a9f36eef9b293e6a66e7dcbd4395a5a5b" kindref="member">MR.convertContourTo3d</ref>&lt;std::vector&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6489,7 +6489,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a9f36eef9b293e6a66e7dcbd4395a5a5b" kindref="member">MR.convertContourTo3d</ref>&lt;std.vector&lt;<ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref>&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a9f36eef9b293e6a66e7dcbd4395a5a5b" kindref="member">MR.convertContourTo3d</ref>&lt;std::vector&lt;<ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6508,7 +6508,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a9f36eef9b293e6a66e7dcbd4395a5a5b" kindref="member">MR.convertContourTo3d</ref>&lt;std.vector&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a9f36eef9b293e6a66e7dcbd4395a5a5b" kindref="member">MR.convertContourTo3d</ref>&lt;std::vector&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6527,7 +6527,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a9f36eef9b293e6a66e7dcbd4395a5a5b" kindref="member">MR.convertContourTo3d</ref>&lt;std.vector&lt;<ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref>&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a9f36eef9b293e6a66e7dcbd4395a5a5b" kindref="member">MR.convertContourTo3d</ref>&lt;std::vector&lt;<ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6546,7 +6546,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a12c36d4060cbdfae83f42f1ed4f78ad5" kindref="member">MR.convertContoursTo2f</ref>&lt;std.vector&lt;std.vector&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a12c36d4060cbdfae83f42f1ed4f78ad5" kindref="member">MR.convertContoursTo2f</ref>&lt;std::vector&lt;std::vector&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6565,7 +6565,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a12c36d4060cbdfae83f42f1ed4f78ad5" kindref="member">MR.convertContoursTo2f</ref>&lt;std.vector&lt;std.vector&lt;<ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref>&gt;&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a12c36d4060cbdfae83f42f1ed4f78ad5" kindref="member">MR.convertContoursTo2f</ref>&lt;std::vector&lt;std::vector&lt;<ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref>&gt;&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6584,7 +6584,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a12c36d4060cbdfae83f42f1ed4f78ad5" kindref="member">MR.convertContoursTo2f</ref>&lt;std.vector&lt;std.vector&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a12c36d4060cbdfae83f42f1ed4f78ad5" kindref="member">MR.convertContoursTo2f</ref>&lt;std::vector&lt;std::vector&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6603,7 +6603,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a12c36d4060cbdfae83f42f1ed4f78ad5" kindref="member">MR.convertContoursTo2f</ref>&lt;std.vector&lt;std.vector&lt;<ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref>&gt;&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a12c36d4060cbdfae83f42f1ed4f78ad5" kindref="member">MR.convertContoursTo2f</ref>&lt;std::vector&lt;std::vector&lt;<ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref>&gt;&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6622,7 +6622,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a22910aeab046586d25ca0c53bca16f89" kindref="member">MR.convertContoursTo3f</ref>&lt;std.vector&lt;std.vector&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a22910aeab046586d25ca0c53bca16f89" kindref="member">MR.convertContoursTo3f</ref>&lt;std::vector&lt;std::vector&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6641,7 +6641,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a22910aeab046586d25ca0c53bca16f89" kindref="member">MR.convertContoursTo3f</ref>&lt;std.vector&lt;std.vector&lt;<ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref>&gt;&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a22910aeab046586d25ca0c53bca16f89" kindref="member">MR.convertContoursTo3f</ref>&lt;std::vector&lt;std::vector&lt;<ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref>&gt;&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6660,7 +6660,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a22910aeab046586d25ca0c53bca16f89" kindref="member">MR.convertContoursTo3f</ref>&lt;std.vector&lt;std.vector&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a22910aeab046586d25ca0c53bca16f89" kindref="member">MR.convertContoursTo3f</ref>&lt;std::vector&lt;std::vector&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6679,7 +6679,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a22910aeab046586d25ca0c53bca16f89" kindref="member">MR.convertContoursTo3f</ref>&lt;std.vector&lt;std.vector&lt;<ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref>&gt;&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a22910aeab046586d25ca0c53bca16f89" kindref="member">MR.convertContoursTo3f</ref>&lt;std::vector&lt;std::vector&lt;<ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref>&gt;&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6698,7 +6698,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a46d67039c5bd98c2359400b71209f23b" kindref="member">MR.convertContoursTo2d</ref>&lt;std.vector&lt;std.vector&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a46d67039c5bd98c2359400b71209f23b" kindref="member">MR.convertContoursTo2d</ref>&lt;std::vector&lt;std::vector&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6717,7 +6717,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a46d67039c5bd98c2359400b71209f23b" kindref="member">MR.convertContoursTo2d</ref>&lt;std.vector&lt;std.vector&lt;<ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref>&gt;&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a46d67039c5bd98c2359400b71209f23b" kindref="member">MR.convertContoursTo2d</ref>&lt;std::vector&lt;std::vector&lt;<ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref>&gt;&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6736,7 +6736,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a46d67039c5bd98c2359400b71209f23b" kindref="member">MR.convertContoursTo2d</ref>&lt;std.vector&lt;std.vector&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a46d67039c5bd98c2359400b71209f23b" kindref="member">MR.convertContoursTo2d</ref>&lt;std::vector&lt;std::vector&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6755,7 +6755,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a46d67039c5bd98c2359400b71209f23b" kindref="member">MR.convertContoursTo2d</ref>&lt;std.vector&lt;std.vector&lt;<ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref>&gt;&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a46d67039c5bd98c2359400b71209f23b" kindref="member">MR.convertContoursTo2d</ref>&lt;std::vector&lt;std::vector&lt;<ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref>&gt;&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6774,7 +6774,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a9c36992bbb76e7bbec8600638e7dbff9" kindref="member">MR.convertContoursTo3d</ref>&lt;std.vector&lt;std.vector&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a9c36992bbb76e7bbec8600638e7dbff9" kindref="member">MR.convertContoursTo3d</ref>&lt;std::vector&lt;std::vector&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6793,7 +6793,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a9c36992bbb76e7bbec8600638e7dbff9" kindref="member">MR.convertContoursTo3d</ref>&lt;std.vector&lt;std.vector&lt;<ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref>&gt;&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a9c36992bbb76e7bbec8600638e7dbff9" kindref="member">MR.convertContoursTo3d</ref>&lt;std::vector&lt;std::vector&lt;<ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref>&gt;&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6812,7 +6812,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a9c36992bbb76e7bbec8600638e7dbff9" kindref="member">MR.convertContoursTo3d</ref>&lt;std.vector&lt;std.vector&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a9c36992bbb76e7bbec8600638e7dbff9" kindref="member">MR.convertContoursTo3d</ref>&lt;std::vector&lt;std::vector&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6831,7 +6831,7 @@
           <declname>from</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a9c36992bbb76e7bbec8600638e7dbff9" kindref="member">MR.convertContoursTo3d</ref>&lt;std.vector&lt;std.vector&lt;<ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref>&gt;&gt;&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a9c36992bbb76e7bbec8600638e7dbff9" kindref="member">MR.convertContoursTo3d</ref>&lt;std::vector&lt;std::vector&lt;<ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref>&gt;&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6840,7 +6840,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" line="414" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContour.cs" bodystart="414" bodyend="419"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a69c80bb31266546933db0c88875afc59" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.CutMeshResult</type>
+        <type>unsafe <ref refid="classMR_1_1CutMeshResult" kindref="compound">MR.CutMeshResult</ref></type>
         <definition>static unsafe MR.CutMeshResult MR.cutMesh</definition>
         <argsstring>(MR.Mesh mesh, MR.Std.Const_Vector_MROneMeshContour contours, MR.Const_CutMeshParameters? params_=null)</argsstring>
         <name>cutMesh</name>
@@ -6875,7 +6875,7 @@
 <parametername>contours</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Input contours to cut mesh with, find more MR.OneMeshContours </para>
+<para>Input contours to cut mesh with, find more MR::OneMeshContours </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -6883,11 +6883,11 @@
 <parametername>params</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Parameters describing some cut options, find more MR.CutMeshParameters </para>
+<para>Parameters describing some cut options, find more <ref refid="classMR_1_1CutMeshParameters" kindref="compound">MR.CutMeshParameters</ref> </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>New edges that correspond to given contours, find more MR.CutMeshResult <parblock><para></para>
+<simplesect kind="return"><para>New edges that correspond to given contours, find more <ref refid="classMR_1_1CutMeshResult" kindref="compound">MR.CutMeshResult</ref> <parblock><para></para>
 </parblock></para>
 </simplesect>
 <simplesect kind="warning"><para>Input contours should have no intersections, faces where contours intersects (<computeroutput>bad faces</computeroutput>) will not be allowed for fill </para>
@@ -12146,7 +12146,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a349c695b6ff571802027d1671ce96c54" kindref="member">MR.findBestFreeformDeformation</ref></computeroutput>. Parameter <computeroutput>resolution</computeroutput> defaults to <computeroutput>Vector3i.diagonal(2)</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a349c695b6ff571802027d1671ce96c54" kindref="member">MR.findBestFreeformDeformation</ref></computeroutput>. Parameter <computeroutput>resolution</computeroutput> defaults to <computeroutput>Vector3i::diagonal(2)</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -12174,7 +12174,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>performs sampling of mesh vertices; subdivides mesh bounding box on voxels of approximately given size and returns at most one vertex per voxel; if voxelSize&lt;=0 then returns all region vertices as samples; returns std.nullopt if it was terminated by the callback Generated from function <computeroutput><ref refid="classMR_1a3a05fc3fdc22093975e8f613041012c9" kindref="member">MR.verticesGridSampling</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>performs sampling of mesh vertices; subdivides mesh bounding box on voxels of approximately given size and returns at most one vertex per voxel; if voxelSize&lt;=0 then returns all region vertices as samples; returns std::nullopt if it was terminated by the callback Generated from function <computeroutput><ref refid="classMR_1a3a05fc3fdc22093975e8f613041012c9" kindref="member">MR.verticesGridSampling</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -12202,7 +12202,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>performs sampling of cloud points; subdivides point cloud bounding box on voxels of approximately given size and returns at most one point per voxel; if voxelSize&lt;=0 then returns all valid points as samples; returns std.nullopt if it was terminated by the callback Generated from function <computeroutput><ref refid="classMR_1a637555709fd1bc455566b864351bfef8" kindref="member">MR.pointGridSampling</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>performs sampling of cloud points; subdivides point cloud bounding box on voxels of approximately given size and returns at most one point per voxel; if voxelSize&lt;=0 then returns all valid points as samples; returns std::nullopt if it was terminated by the callback Generated from function <computeroutput><ref refid="classMR_1a637555709fd1bc455566b864351bfef8" kindref="member">MR.pointGridSampling</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -12230,7 +12230,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>performs sampling of several models respecting their world transformations subdivides models bounding box on voxels of approximately given size and returns at most one point per voxel; if voxelSize&lt;=0 then returns all points from all models as samples; returns std.nullopt if it was terminated by the callback Generated from function <computeroutput><ref refid="classMR_1a3944750c36c8b167c2c8ad565ab7b214" kindref="member">MR.multiModelGridSampling</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>performs sampling of several models respecting their world transformations subdivides models bounding box on voxels of approximately given size and returns at most one point per voxel; if voxelSize&lt;=0 then returns all points from all models as samples; returns std::nullopt if it was terminated by the callback Generated from function <computeroutput><ref refid="classMR_1a3944750c36c8b167c2c8ad565ab7b214" kindref="member">MR.multiModelGridSampling</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -12268,7 +12268,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>returns the amount of memory given vector occupies on heap Generated from function <computeroutput><ref refid="classMR_1a13350f0fbcfbe4074e5157c1808ba7db" kindref="member">MR.heapBytes</ref>&lt;std.shared_ptr&lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&gt;&gt;</computeroutput>. </para>
+<para>returns the amount of memory given vector occupies on heap Generated from function <computeroutput><ref refid="classMR_1a13350f0fbcfbe4074e5157c1808ba7db" kindref="member">MR.heapBytes</ref>&lt;std::shared_ptr&lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13208,7 +13208,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator&amp;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator&amp;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13231,7 +13231,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator|</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator|</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13250,7 +13250,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator~</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator~</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13273,7 +13273,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator&amp;=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator&amp;=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13296,7 +13296,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator|=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator|=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13319,7 +13319,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13342,7 +13342,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13365,7 +13365,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13388,7 +13388,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator&amp;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator&amp;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13411,7 +13411,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator|</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator|</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13430,7 +13430,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator~</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator~</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13453,7 +13453,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator&amp;=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator&amp;=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13476,7 +13476,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator|=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator|=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13499,7 +13499,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13522,7 +13522,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13545,7 +13545,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13592,7 +13592,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>performs sampling of cloud points by iteratively removing one point with minimal metric (describing distance to the closest point and previous nearby removals), thus allowing stopping at any given number of samples; returns std.nullopt if it was terminated by the callback Generated from function <computeroutput><ref refid="classMR_1a470be54b1e06b8a4ed632c7c7e59ecd7" kindref="member">MR.pointIterativeSampling</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>performs sampling of cloud points by iteratively removing one point with minimal metric (describing distance to the closest point and previous nearby removals), thus allowing stopping at any given number of samples; returns std::nullopt if it was terminated by the callback Generated from function <computeroutput><ref refid="classMR_1a470be54b1e06b8a4ed632c7c7e59ecd7" kindref="member">MR.pointIterativeSampling</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -14797,7 +14797,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="620" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="620" bodyend="625"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3230c728518f7979a23f855d6e35ba2b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.BooleanResult</type>
+        <type>unsafe <ref refid="classMR_1_1BooleanResult" kindref="compound">MR.BooleanResult</ref></type>
         <definition>static unsafe MR.BooleanResult MR.boolean</definition>
         <argsstring>(MR.Const_Mesh meshA, MR.Const_Mesh meshB, MR.BooleanOperation operation, MR.AffineXf3f? rigidB2A, MR.BooleanResultMapper? mapper=null, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
         <name>boolean</name>
@@ -14819,7 +14819,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>rigidB2A</declname>
         </param>
         <param>
-          <type>MR.BooleanResultMapper?</type>
+          <type><ref refid="classMR_1_1BooleanResultMapper" kindref="compound">MR.BooleanResultMapper</ref>?</type>
           <declname>mapper</declname>
           <defval>null</defval>
         </param>
@@ -14884,7 +14884,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1405" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1405" bodyend="1411"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a2e87a878618ea632ebb791f5250d39d4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.BooleanResult</type>
+        <type>unsafe <ref refid="classMR_1_1BooleanResult" kindref="compound">MR.BooleanResult</ref></type>
         <definition>static unsafe MR.BooleanResult MR.boolean</definition>
         <argsstring>(MR.Misc._Moved&lt; MR.Mesh &gt; meshA, MR.Misc._Moved&lt; MR.Mesh &gt; meshB, MR.BooleanOperation operation, MR.AffineXf3f? rigidB2A, MR.BooleanResultMapper? mapper=null, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
         <name>boolean</name>
@@ -14906,7 +14906,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>rigidB2A</declname>
         </param>
         <param>
-          <type>MR.BooleanResultMapper?</type>
+          <type><ref refid="classMR_1_1BooleanResultMapper" kindref="compound">MR.BooleanResultMapper</ref>?</type>
           <declname>mapper</declname>
           <defval>null</defval>
         </param>
@@ -14925,7 +14925,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1417" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1417" bodyend="1423"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af57997e97fb2201478c93d6b6592b772" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.BooleanResult</type>
+        <type>unsafe <ref refid="classMR_1_1BooleanResult" kindref="compound">MR.BooleanResult</ref></type>
         <definition>static unsafe MR.BooleanResult MR.boolean</definition>
         <argsstring>(MR.Const_Mesh meshA, MR.Const_Mesh meshB, MR.BooleanOperation operation, MR.Const_BooleanParameters? params_=null)</argsstring>
         <name>boolean</name>
@@ -14957,7 +14957,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1429" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1429" bodyend="1434"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a631bac54cdc6217f4e5aaa1f65a92a52" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.BooleanResult</type>
+        <type>unsafe <ref refid="classMR_1_1BooleanResult" kindref="compound">MR.BooleanResult</ref></type>
         <definition>static unsafe MR.BooleanResult MR.boolean</definition>
         <argsstring>(MR.Misc._Moved&lt; MR.Mesh &gt; meshA, MR.Misc._Moved&lt; MR.Mesh &gt; meshB, MR.BooleanOperation operation, MR.Const_BooleanParameters? params_=null)</argsstring>
         <name>boolean</name>
@@ -15721,7 +15721,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="806" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="806" bodyend="812"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a5acec4e437ef0a28be3ff53f86661858" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.DecimateResult</type>
+        <type>unsafe <ref refid="classMR_1_1DecimateResult" kindref="compound">MR.DecimateResult</ref></type>
         <definition>static unsafe MR.DecimateResult MR.decimateMesh</definition>
         <argsstring>(MR.Mesh mesh, MR.Const_DecimateSettings? settings=null)</argsstring>
         <name>decimateMesh</name>
@@ -15748,7 +15748,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2008" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2008" bodyend="2013"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7b23bf5afee443084bf2d9b73f988b7d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.DecimateResult</type>
+        <type>unsafe <ref refid="classMR_1_1DecimateResult" kindref="compound">MR.DecimateResult</ref></type>
         <definition>static unsafe MR.DecimateResult MR.decimateObjectMeshData</definition>
         <argsstring>(MR.ObjectMeshData data, MR.Const_DecimateSettings settings)</argsstring>
         <name>decimateObjectMeshData</name>
@@ -15785,7 +15785,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>settings</declname>
         </param>
         <param>
-          <type>MR.DecimateResult?</type>
+          <type><ref refid="classMR_1_1DecimateResult" kindref="compound">MR.DecimateResult</ref>?</type>
           <declname>outRes</declname>
           <defval>null</defval>
         </param>
@@ -15960,7 +15960,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>params_</declname>
         </param>
         <briefdescription>
-<para>Please use this callback when you decimate a mesh with associated data with each vertex recalculate texture coordinates and mesh vertex colors for vertices moved during decimation usage example <ref refid="classMR_1_1MeshAttributesToUpdate" kindref="compound">MeshAttributesToUpdate</ref> meshParams; auto uvCoords = obj-&gt;getUVCoords(); auto colorMap = obj-&gt;getVertsColorMap(); if ( needUpdateUV ) meshParams.uvCoords = &amp;uvCoords; if ( needUpdateColorMap ) meshParams.colorMap = &amp;colorMap; auto preCollapse = meshPreCollapseVertAttribute( mesh, meshParams ); decimateMesh( mesh, DecimateSettings{ .preCollapse = preCollapse } ); Generated from function <computeroutput><ref refid="classMR_1a50c216fceb589c982d43e7396bea561b" kindref="member">MR.meshPreCollapseVertAttribute</ref></computeroutput>. </para>
+<para>Please use this callback when you decimate a mesh with associated data with each vertex recalculate texture coordinates and mesh vertex colors for vertices moved during decimation usage example <ref refid="classMR_1_1MeshAttributesToUpdate" kindref="compound">MeshAttributesToUpdate</ref> meshParams; auto uvCoords = obj-&gt;getUVCoords(); auto colorMap = obj-&gt;getVertsColorMap(); if ( needUpdateUV ) meshParams.uvCoords = &amp;uvCoords; if ( needUpdateColorMap ) meshParams.colorMap = &amp;colorMap; auto preCollapse = meshPreCollapseVertAttribute( mesh, meshParams ); decimateMesh( mesh, <ref refid="classMR_1_1DecimateSettings" kindref="compound">DecimateSettings</ref>{ .preCollapse = preCollapse } ); Generated from function <computeroutput><ref refid="classMR_1a50c216fceb589c982d43e7396bea561b" kindref="member">MR.meshPreCollapseVertAttribute</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -16484,7 +16484,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>op</declname>
         </param>
         <briefdescription>
-<para>computes signed distance from point (p) to mesh part (mp) following options (op); returns std.nullopt if distance is smaller than op.minDist or larger than op.maxDist (except for op.signMode == HoleWindingRule) Generated from function <computeroutput><ref refid="classMR_1addf12d4a5d4d667a74f60a25e4078157" kindref="member">MR.signedDistanceToMesh</ref></computeroutput>. </para>
+<para>computes signed distance from point (p) to mesh part (mp) following options (op); returns std::nullopt if distance is smaller than op.minDist or larger than op.maxDist (except for op.signMode == HoleWindingRule) Generated from function <computeroutput><ref refid="classMR_1addf12d4a5d4d667a74f60a25e4078157" kindref="member">MR.signedDistanceToMesh</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -16678,7 +16678,7 @@ default metric: ComplexStitchMetric. </para>
 </parameterlist>
 <simplesect kind="see"><para><ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="member">fillHole</ref> </para>
 </simplesect>
-<simplesect kind="see"><para>StitchHolesParams Generated from function <computeroutput><ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="member">MR.stitchHoles</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<simplesect kind="see"><para><ref refid="classMR_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref> Generated from function <computeroutput><ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="member">MR.stitchHoles</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -16824,7 +16824,7 @@ default metric: CircumscribedFillMetric. </para>
 </simplesect>
 <simplesect kind="see"><para><ref refid="classMR_1a7fb32b0d4b27bbd85dba9a26067c3199" kindref="member">fillHoleTrivially</ref> </para>
 </simplesect>
-<simplesect kind="see"><para>FillHoleParams Generated from function <computeroutput><ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="member">MR.fillHole</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<simplesect kind="see"><para><ref refid="classMR_1_1FillHoleParams" kindref="compound">FillHoleParams</ref> Generated from function <computeroutput><ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="member">MR.fillHole</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -20938,7 +20938,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="312" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="312" bodyend="317"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8fbee874f996a1a36ee398f58a90bb42" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.FillHoleMetric</type>
+        <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
         <definition>static unsafe MR.FillHoleMetric MR.getCircumscribedMetric</definition>
         <argsstring>(MR.Const_Mesh mesh)</argsstring>
         <name>getCircumscribedMetric</name>
@@ -20957,7 +20957,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="324" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="324" bodyend="329"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af74ffc70a5f961941d7c8abcc87cc003" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.FillHoleMetric</type>
+        <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
         <definition>static unsafe MR.FillHoleMetric MR.getPlaneFillMetric</definition>
         <argsstring>(MR.Const_Mesh mesh, MR.EdgeId e)</argsstring>
         <name>getPlaneFillMetric</name>
@@ -20980,7 +20980,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="336" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="336" bodyend="341"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aa700c2a0ab5340fa456d054a40f02809" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.FillHoleMetric</type>
+        <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
         <definition>static unsafe MR.FillHoleMetric MR.getPlaneNormalizedFillMetric</definition>
         <argsstring>(MR.Const_Mesh mesh, MR.EdgeId e)</argsstring>
         <name>getPlaneNormalizedFillMetric</name>
@@ -21003,7 +21003,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="349" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="349" bodyend="354"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a220fd4f2abab2b937a04306cddfacac5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.FillHoleMetric</type>
+        <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
         <definition>static unsafe MR.FillHoleMetric MR.getComplexStitchMetric</definition>
         <argsstring>(MR.Const_Mesh mesh)</argsstring>
         <name>getComplexStitchMetric</name>
@@ -21025,7 +21025,7 @@ edgeMetric is proportional to ( 1 - dihedralAngleCos ) Generated from function <
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="364" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="364" bodyend="369"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1adf8de1271aad691eac3b73dad5c7e86b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.FillHoleMetric</type>
+        <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
         <definition>static unsafe MR.FillHoleMetric MR.getEdgeLengthFillMetric</definition>
         <argsstring>(MR.Const_Mesh mesh)</argsstring>
         <name>getEdgeLengthFillMetric</name>
@@ -21044,7 +21044,7 @@ edgeMetric is proportional to ( 1 - dihedralAngleCos ) Generated from function <
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="375" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="375" bodyend="380"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8a84e07ec60470849a66ab8d748b5fac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.FillHoleMetric</type>
+        <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
         <definition>static unsafe MR.FillHoleMetric MR.getEdgeLengthStitchMetric</definition>
         <argsstring>(MR.Const_Mesh mesh)</argsstring>
         <name>getEdgeLengthStitchMetric</name>
@@ -21064,7 +21064,7 @@ Simple metric minimizing edge length Generated from function <computeroutput><re
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="387" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="387" bodyend="392"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad337fcaa983d4cb4913ab63886f49242" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.FillHoleMetric</type>
+        <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
         <definition>static unsafe MR.FillHoleMetric MR.getVerticalStitchMetric</definition>
         <argsstring>(MR.Const_Mesh mesh, in MR.Vector3f upDir)</argsstring>
         <name>getVerticalStitchMetric</name>
@@ -21089,7 +21089,7 @@ All new faces should be parallel to given direction Generated from function <com
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="400" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="400" bodyend="408"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aa683ca1ca7dd0862bdf9e3f286e7c4a9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.FillHoleMetric</type>
+        <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
         <definition>static unsafe MR.FillHoleMetric MR.getVerticalStitchMetricEdgeBased</definition>
         <argsstring>(MR.Const_Mesh mesh, in MR.Vector3f upDir)</argsstring>
         <name>getVerticalStitchMetricEdgeBased</name>
@@ -21114,7 +21114,7 @@ All new faces should be parallel to given direction Generated from function <com
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="416" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="416" bodyend="424"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af900067d68be41208a35ea3452bf356d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.FillHoleMetric</type>
+        <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
         <definition>static unsafe MR.FillHoleMetric MR.getComplexFillMetric</definition>
         <argsstring>(MR.Const_Mesh mesh, MR.EdgeId e)</argsstring>
         <name>getComplexFillMetric</name>
@@ -21140,7 +21140,7 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="434" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="434" bodyend="439"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9b4011e9f88aa129c8062ffeaa7f2b2c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.FillHoleMetric</type>
+        <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
         <definition>static unsafe MR.FillHoleMetric MR.getParallelPlaneFillMetric</definition>
         <argsstring>(MR.Const_Mesh mesh, MR.EdgeId e, MR.Const_Plane3f? plane=null)</argsstring>
         <name>getParallelPlaneFillMetric</name>
@@ -21168,7 +21168,7 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="445" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="445" bodyend="450"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1de6e106ee6ac51fda400b64db85971c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.FillHoleMetric</type>
+        <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
         <definition>static unsafe MR.FillHoleMetric MR.getMaxDihedralAngleMetric</definition>
         <argsstring>(MR.Const_Mesh mesh)</argsstring>
         <name>getMaxDihedralAngleMetric</name>
@@ -21187,7 +21187,7 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="457" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="457" bodyend="462"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3479dc8ba670cd660f8b297c1c36a9bb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.FillHoleMetric</type>
+        <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
         <definition>static unsafe MR.FillHoleMetric MR.getUniversalMetric</definition>
         <argsstring>(MR.Const_Mesh mesh)</argsstring>
         <name>getUniversalMetric</name>
@@ -21206,7 +21206,7 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="474" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="474" bodyend="479"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a03d1d7e6fcc023f661495831c0d2a489" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.FillHoleMetric</type>
+        <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
         <definition>static unsafe MR.FillHoleMetric MR.getMinTriAngleMetric</definition>
         <argsstring>(MR.Const_Mesh mesh)</argsstring>
         <name>getMinTriAngleMetric</name>
@@ -21225,7 +21225,7 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="485" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="485" bodyend="490"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3576233ca1bf6287e2c6e8fddd4f70be" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.FillHoleMetric</type>
+        <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
         <definition>static unsafe MR.FillHoleMetric MR.getMinAreaMetric</definition>
         <argsstring>(MR.Const_Mesh mesh)</argsstring>
         <name>getMinAreaMetric</name>
@@ -23710,7 +23710,7 @@ element fields:<linebreak/>
 <para>loads objects tree from given scene file (zip/mru) </para>
         </briefdescription>
         <detaileddescription>
-<para>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder if postDecompress is set, it is called after decompression loading is controlled with Object.deserializeModel_ and Object.deserializeFields_ Generated from function <computeroutput><ref refid="classMR_1a0d7334e49cc90f74224b2926fdc61658" kindref="member">MR.deserializeObjectTree</ref></computeroutput>. Parameter <computeroutput>postDecompress</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>progressCb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder if postDecompress is set, it is called after decompression loading is controlled with Object::deserializeModel_ and Object::deserializeFields_ Generated from function <computeroutput><ref refid="classMR_1a0d7334e49cc90f74224b2926fdc61658" kindref="member">MR.deserializeObjectTree</ref></computeroutput>. Parameter <computeroutput>postDecompress</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>progressCb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -23735,7 +23735,7 @@ element fields:<linebreak/>
 <para>loads objects tree from given scene folder </para>
         </briefdescription>
         <detaileddescription>
-<para>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder loading is controlled with Object.deserializeModel_ and Object.deserializeFields_ Generated from function <computeroutput><ref refid="classMR_1a259601b21de07161f4346d7505590b79" kindref="member">MR.deserializeObjectTreeFromFolder</ref></computeroutput>. Parameter <computeroutput>progressCb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder loading is controlled with Object::deserializeModel_ and Object::deserializeFields_ Generated from function <computeroutput><ref refid="classMR_1a259601b21de07161f4346d7505590b79" kindref="member">MR.deserializeObjectTreeFromFolder</ref></computeroutput>. Parameter <computeroutput>progressCb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -24001,7 +24001,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR.asSelectivityType&lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&gt;</computeroutput>. </para>
+<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR::asSelectivityType&lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24024,7 +24024,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR.asSelectivityType&lt;<ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref>&gt;</computeroutput>. </para>
+<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR::asSelectivityType&lt;<ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24047,7 +24047,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR.asSelectivityType&lt;<ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref>&gt;</computeroutput>. </para>
+<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR::asSelectivityType&lt;<ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24070,7 +24070,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR.asSelectivityType&lt;<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref>&gt;</computeroutput>. </para>
+<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR::asSelectivityType&lt;<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24093,7 +24093,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR.asSelectivityType&lt;<ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref>&gt;</computeroutput>. </para>
+<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR::asSelectivityType&lt;<ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24116,7 +24116,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR.asSelectivityType&lt;<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref>&gt;</computeroutput>. </para>
+<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR::asSelectivityType&lt;<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24139,7 +24139,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR.asSelectivityType&lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&gt;</computeroutput>. </para>
+<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR::asSelectivityType&lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24162,7 +24162,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR.asSelectivityType&lt;<ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref>&gt;</computeroutput>. </para>
+<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR::asSelectivityType&lt;<ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24185,7 +24185,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR.asSelectivityType&lt;<ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref>&gt;</computeroutput>. </para>
+<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR::asSelectivityType&lt;<ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24208,7 +24208,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR.asSelectivityType&lt;<ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref>&gt;</computeroutput>. </para>
+<para>if input object is of given type then returns another pointer on it Generated from function <computeroutput>MR::asSelectivityType&lt;<ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24232,7 +24232,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getAllObjectsInTree&lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24256,7 +24256,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getAllObjectsInTree&lt;<ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&lt;<ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24280,7 +24280,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getAllObjectsInTree&lt;<ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&lt;<ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24304,7 +24304,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getAllObjectsInTree&lt;<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&lt;<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24328,7 +24328,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getAllObjectsInTree&lt;<ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&lt;<ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24352,7 +24352,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getAllObjectsInTree&lt;<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&lt;<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24376,7 +24376,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getAllObjectsInTree&lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24400,7 +24400,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getAllObjectsInTree&lt;<ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&lt;<ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24424,7 +24424,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getAllObjectsInTree&lt;<ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&lt;<ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24448,7 +24448,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getAllObjectsInTree&lt;<ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&lt;<ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24472,7 +24472,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostVisibleObjects&lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24496,7 +24496,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostVisibleObjects&lt;<ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;<ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24520,7 +24520,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostVisibleObjects&lt;<ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;<ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24544,7 +24544,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostVisibleObjects&lt;<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24568,7 +24568,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostVisibleObjects&lt;<ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;<ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24592,7 +24592,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostVisibleObjects&lt;<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24616,7 +24616,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostVisibleObjects&lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24640,7 +24640,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostVisibleObjects&lt;<ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;<ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24664,7 +24664,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostVisibleObjects&lt;<ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;<ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24688,7 +24688,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostVisibleObjects&lt;<ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&lt;<ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24717,7 +24717,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostObjects&lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24746,7 +24746,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostObjects&lt;<ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&lt;<ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24775,7 +24775,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostObjects&lt;<ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&lt;<ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24804,7 +24804,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostObjects&lt;<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&lt;<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24833,7 +24833,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostObjects&lt;<ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&lt;<ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24862,7 +24862,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostObjects&lt;<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&lt;<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24891,7 +24891,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostObjects&lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24920,7 +24920,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostObjects&lt;<ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&lt;<ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24949,7 +24949,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostObjects&lt;<ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&lt;<ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -24978,7 +24978,7 @@ element fields:<linebreak/>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR.getTopmostObjects&lt;<ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&lt;<ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref>&gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -25001,7 +25001,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getDepthFirstObject&lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getDepthFirstObject&lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -25024,7 +25024,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getDepthFirstObject&lt;<ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref>&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getDepthFirstObject&lt;<ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -25047,7 +25047,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getDepthFirstObject&lt;<ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref>&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getDepthFirstObject&lt;<ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -25070,7 +25070,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getDepthFirstObject&lt;<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref>&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getDepthFirstObject&lt;<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -25093,7 +25093,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getDepthFirstObject&lt;<ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref>&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getDepthFirstObject&lt;<ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -25116,7 +25116,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getDepthFirstObject&lt;<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref>&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getDepthFirstObject&lt;<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -25139,7 +25139,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getDepthFirstObject&lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getDepthFirstObject&lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -25162,7 +25162,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getDepthFirstObject&lt;<ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref>&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getDepthFirstObject&lt;<ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -25185,7 +25185,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getDepthFirstObject&lt;<ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref>&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getDepthFirstObject&lt;<ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -25208,7 +25208,7 @@ element fields:<linebreak/>
           <declname>type</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.getDepthFirstObject&lt;<ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref>&gt;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getDepthFirstObject&lt;<ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref>&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -25547,7 +25547,7 @@ element fields:<linebreak/>
 <para>saves object subtree in given scene file (zip/mru) </para>
         </briefdescription>
         <detaileddescription>
-<para>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder if preCompress is set, it is called before compression saving is controlled with Object.serializeModel_ and Object.serializeFields_ Generated from function <computeroutput><ref refid="classMR_1a61549957b3b3b5ef92608591ea77b74c" kindref="member">MR.serializeObjectTree</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder if preCompress is set, it is called before compression saving is controlled with Object::serializeModel_ and Object::serializeFields_ Generated from function <computeroutput><ref refid="classMR_1a61549957b3b3b5ef92608591ea77b74c" kindref="member">MR.serializeObjectTree</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -26104,7 +26104,7 @@ element fields:<linebreak/>
           <declname>surfacePaths</declname>
         </param>
         <briefdescription>
-<para>Converts SurfacePaths to OneMeshContours Creates MR.OneMeshContours object from given surface paths for <ref refid="classMR_1a69c80bb31266546933db0c88875afc59" kindref="member">MR.cutMesh</ref> input Generated from function <computeroutput><ref refid="classMR_1a17aadc79148649b96ee95169fb912b52" kindref="member">MR.convertSurfacePathsToMeshContours</ref></computeroutput>. </para>
+<para>Converts SurfacePaths to OneMeshContours Creates MR::OneMeshContours object from given surface paths for <ref refid="classMR_1a69c80bb31266546933db0c88875afc59" kindref="member">MR.cutMesh</ref> input Generated from function <computeroutput><ref refid="classMR_1a17aadc79148649b96ee95169fb912b52" kindref="member">MR.convertSurfacePathsToMeshContours</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -26212,7 +26212,7 @@ element fields:<linebreak/>
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator&amp;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator&amp;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -26235,7 +26235,7 @@ element fields:<linebreak/>
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator|</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator|</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -26254,7 +26254,7 @@ element fields:<linebreak/>
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator~</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator~</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -26277,7 +26277,7 @@ element fields:<linebreak/>
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator&amp;=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator&amp;=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -26300,7 +26300,7 @@ element fields:<linebreak/>
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator|=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator|=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -26323,7 +26323,7 @@ element fields:<linebreak/>
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -26346,7 +26346,7 @@ element fields:<linebreak/>
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -26369,7 +26369,7 @@ element fields:<linebreak/>
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -27277,9 +27277,9 @@ element fields:<linebreak/>
 <para><table rows="1" cols="2"><caption id="classMR_1triangulatePointCloud_examples"></caption>
 <row>
 <entry thead="no"><para><image type="html" name="triangulate_0.png" width="350cm">Before</image>
- </para>
+</para>
 </entry><entry thead="no"><para><image type="html" name="triangulate_3.png" width="350cm">After</image>
-  </para>
+</para>
 </entry></row>
 </table>
 Generated from function <computeroutput><ref refid="classMR_1a3cdd62f00020dd257c7ba0d90e6b5d5f" kindref="member">MR.triangulatePointCloud</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>progressCb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
@@ -27371,7 +27371,7 @@ Generated from function <computeroutput><ref refid="classMR_1a3cdd62f00020dd257c
           <declname>point</declname>
         </param>
         <briefdescription>
-<para>Converts given point into local coordinates of its object, returns std.nullopt if object or point is invalid, or if it does not present in the object&apos;s topology Generated from function <computeroutput><ref refid="classMR_1a54e825177825c441bc55c686b1161fd0" kindref="member">MR.getPickedPointPosition</ref></computeroutput>. </para>
+<para>Converts given point into local coordinates of its object, returns std::nullopt if object or point is invalid, or if it does not present in the object&apos;s topology Generated from function <computeroutput><ref refid="classMR_1a54e825177825c441bc55c686b1161fd0" kindref="member">MR.getPickedPointPosition</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -27407,7 +27407,7 @@ Generated from function <computeroutput><ref refid="classMR_1a3cdd62f00020dd257c
 <parametername>interpolated</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if true returns interpolated normal for mesh object, otherwise returns flat normal returns std.nullopt if object or point is invalid, or if it is <ref refid="classMR_1_1ObjectLines" kindref="compound">ObjectLines</ref> or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> without normals Generated from function <computeroutput><ref refid="classMR_1ad8baa1c1c560be78df3cd763db8d62cc" kindref="member">MR.getPickedPointNormal</ref></computeroutput>. Parameter <computeroutput>interpolated</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>if true returns interpolated normal for mesh object, otherwise returns flat normal returns std::nullopt if object or point is invalid, or if it is <ref refid="classMR_1_1ObjectLines" kindref="compound">ObjectLines</ref> or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> without normals Generated from function <computeroutput><ref refid="classMR_1ad8baa1c1c560be78df3cd763db8d62cc" kindref="member">MR.getPickedPointNormal</ref></computeroutput>. Parameter <computeroutput>interpolated</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -28494,7 +28494,7 @@ Generated from function <computeroutput><ref refid="classMR_1a3cdd62f00020dd257c
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="306" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="306" bodyend="313"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a6395faf9db8917747e12a9e33e707b22" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.DecimatePolylineResult</type>
+        <type>unsafe <ref refid="classMR_1_1DecimatePolylineResult" kindref="compound">MR.DecimatePolylineResult</ref></type>
         <definition>static unsafe MR.DecimatePolylineResult MR.decimatePolyline</definition>
         <argsstring>(MR.Polyline2 polyline, MR.Const_DecimatePolylineSettings_MRVector2f? settings=null)</argsstring>
         <name>decimatePolyline</name>
@@ -28518,7 +28518,7 @@ Generated from function <computeroutput><ref refid="classMR_1a3cdd62f00020dd257c
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1147" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1147" bodyend="1152"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a596c22dadd176574e09a25c8e9a0d91a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.DecimatePolylineResult</type>
+        <type>unsafe <ref refid="classMR_1_1DecimatePolylineResult" kindref="compound">MR.DecimatePolylineResult</ref></type>
         <definition>static unsafe MR.DecimatePolylineResult MR.decimatePolyline</definition>
         <argsstring>(MR.Polyline3 polyline, MR.Const_DecimatePolylineSettings_MRVector3f? settings=null)</argsstring>
         <name>decimatePolyline</name>
@@ -28542,7 +28542,7 @@ Generated from function <computeroutput><ref refid="classMR_1a3cdd62f00020dd257c
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1158" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1158" bodyend="1163"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae1d08fcfaafea04fc9e6b51e7b9c187b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.DecimatePolylineResult</type>
+        <type>unsafe <ref refid="classMR_1_1DecimatePolylineResult" kindref="compound">MR.DecimatePolylineResult</ref></type>
         <definition>static unsafe MR.DecimatePolylineResult MR.decimateContour</definition>
         <argsstring>(MR.Std.Vector_MRVector2f contour, MR.Const_DecimatePolylineSettings_MRVector2f? settings=null)</argsstring>
         <name>decimateContour</name>
@@ -28566,7 +28566,7 @@ Generated from function <computeroutput><ref refid="classMR_1a3cdd62f00020dd257c
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1170" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1170" bodyend="1175"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ada2324ff8c50136471a253eae77241f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.DecimatePolylineResult</type>
+        <type>unsafe <ref refid="classMR_1_1DecimatePolylineResult" kindref="compound">MR.DecimatePolylineResult</ref></type>
         <definition>static unsafe MR.DecimatePolylineResult MR.decimateContour</definition>
         <argsstring>(MR.Std.Vector_MRVector3f contour, MR.Const_DecimatePolylineSettings_MRVector3f? settings=null)</argsstring>
         <name>decimateContour</name>
@@ -32043,7 +32043,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator&amp;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator&amp;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -32066,7 +32066,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator|</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator|</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -32085,7 +32085,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator~</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator~</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -32108,7 +32108,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator&amp;=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator&amp;=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -32131,7 +32131,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator|=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator|=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -32154,7 +32154,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -32177,7 +32177,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -32200,7 +32200,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -32786,7 +32786,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         <name>getCurrentStacktraceInline</name>
         <qualifiedname>MR.getCurrentStacktraceInline</qualifiedname>
         <briefdescription>
-<para>returns string representation of the current stacktrace; the function is inlined, to put the code in any shared library; if std.stacktrace is first called from MRMesh.dll then it is not unloaded propely Generated from function <computeroutput><ref refid="classMR_1a79a52d6dd4f662bf9425a092bb995711" kindref="member">MR.getCurrentStacktraceInline</ref></computeroutput>. </para>
+<para>returns string representation of the current stacktrace; the function is inlined, to put the code in any shared library; if std::stacktrace is first called from MRMesh.dll then it is not unloaded propely Generated from function <computeroutput><ref refid="classMR_1a79a52d6dd4f662bf9425a092bb995711" kindref="member">MR.getCurrentStacktraceInline</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -33022,7 +33022,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
           <declname>str</declname>
         </param>
         <briefdescription>
-<para>Removes all whitespace character (detected by std.isspace) at the beginning and the end of string view Generated from function <computeroutput><ref refid="classMR_1a3d40dce31bb9a0a27c715c1615d97a0d" kindref="member">MR.trim</ref></computeroutput>. </para>
+<para>Removes all whitespace character (detected by std::isspace) at the beginning and the end of string view Generated from function <computeroutput><ref refid="classMR_1a3d40dce31bb9a0a27c715c1615d97a0d" kindref="member">MR.trim</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -33041,7 +33041,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
           <declname>str</declname>
         </param>
         <briefdescription>
-<para>Removes all whitespace character (detected by std.isspace) at the beginning of string view Generated from function <computeroutput><ref refid="classMR_1a762ec94f552b8fbcac2b658bfdcdf93e" kindref="member">MR.trimLeft</ref></computeroutput>. </para>
+<para>Removes all whitespace character (detected by std::isspace) at the beginning of string view Generated from function <computeroutput><ref refid="classMR_1a762ec94f552b8fbcac2b658bfdcdf93e" kindref="member">MR.trimLeft</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -33060,7 +33060,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
           <declname>str</declname>
         </param>
         <briefdescription>
-<para>Removes all whitespace character (detected by std.isspace) at the end of string view Generated from function <computeroutput><ref refid="classMR_1a73669f7618c9dfa0cd133f096bd62075" kindref="member">MR.trimRight</ref></computeroutput>. </para>
+<para>Removes all whitespace character (detected by std::isspace) at the end of string view Generated from function <computeroutput><ref refid="classMR_1a73669f7618c9dfa0cd133f096bd62075" kindref="member">MR.trimRight</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -34373,7 +34373,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>name</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.SetCurrentThreadName</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::SetCurrentThreadName</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -34418,7 +34418,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         <name>getTempDirectory</name>
         <qualifiedname>MR.getTempDirectory</qualifiedname>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.GetTempDirectory</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::GetTempDirectory</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -34433,7 +34433,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         <name>getHomeDirectory</name>
         <qualifiedname>MR.getHomeDirectory</qualifiedname>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.GetHomeDirectory</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::GetHomeDirectory</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -34448,7 +34448,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         <name>getMRVersionString</name>
         <qualifiedname>MR.getMRVersionString</qualifiedname>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.GetMRVersionString</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::GetMRVersionString</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -34467,7 +34467,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>url</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.OpenLink</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::OpenLink</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -34486,7 +34486,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>path</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.OpenDocument</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::OpenDocument</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -34501,7 +34501,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         <name>getCpuId</name>
         <qualifiedname>MR.getCpuId</qualifiedname>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.GetCpuId</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::GetCpuId</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -34516,7 +34516,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         <name>getDetailedOSName</name>
         <qualifiedname>MR.getDetailedOSName</qualifiedname>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.GetDetailedOSName</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::GetDetailedOSName</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -34666,7 +34666,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>triCornerUvCoords</declname>
         </param>
         <briefdescription>
-<para>returns UV-coordinates at the given vertex if they are the same in all surrounding triangles; otherwise returns std.nullopt Generated from function <computeroutput><ref refid="classMR_1a7cd260780645bc9fb94b14b47ca7ca10" kindref="member">MR.findVertexUV</ref></computeroutput>. </para>
+<para>returns UV-coordinates at the given vertex if they are the same in all surrounding triangles; otherwise returns std::nullopt Generated from function <computeroutput><ref refid="classMR_1a7cd260780645bc9fb94b14b47ca7ca10" kindref="member">MR.findVertexUV</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -34689,7 +34689,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>triCornerUvCoords</declname>
         </param>
         <briefdescription>
-<para>if all mesh vertices have unique UV-coordinates in all triangles, then returns them; otherwise returns std.nullopt Generated from function <computeroutput><ref refid="classMR_1aa7880a792cc8204ab77e68904f70fb26" kindref="member">MR.findVertexUVs</ref></computeroutput>. </para>
+<para>if all mesh vertices have unique UV-coordinates in all triangles, then returns them; otherwise returns std::nullopt Generated from function <computeroutput><ref refid="classMR_1aa7880a792cc8204ab77e68904f70fb26" kindref="member">MR.findVertexUVs</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -36076,7 +36076,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>settings</declname>
         </param>
         <briefdescription>
-<para>Sample vertices, removing ones that are too close; returns std.nullopt if it was terminated by the callback Generated from function <computeroutput><ref refid="classMR_1a0ffba9170d9de407e5822d23a24df0d8" kindref="member">MR.pointUniformSampling</ref></computeroutput>. </para>
+<para>Sample vertices, removing ones that are too close; returns std::nullopt if it was terminated by the callback Generated from function <computeroutput><ref refid="classMR_1a0ffba9170d9de407e5822d23a24df0d8" kindref="member">MR.pointUniformSampling</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -36099,7 +36099,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>settings</declname>
         </param>
         <briefdescription>
-<para>Composes new point cloud consisting of uniform samples of original point cloud; returns std.nullopt if it was terminated by the callback Generated from function <computeroutput><ref refid="classMR_1a12168f0c7100f7a57278f3cd1aeaccd8" kindref="member">MR.makeUniformSampledCloud</ref></computeroutput>. </para>
+<para>Composes new point cloud consisting of uniform samples of original point cloud; returns std::nullopt if it was terminated by the callback Generated from function <computeroutput><ref refid="classMR_1a12168f0c7100f7a57278f3cd1aeaccd8" kindref="member">MR.makeUniformSampledCloud</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -39886,7 +39886,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>A shortcut for TeethMaskToDirectionVolumeConvertor.create and TeethMaskToDirectionVolumeConvertor.convertAll Generated from function <computeroutput><ref refid="classMR_1a243e10210f7e6ab86cd3f27bc827b5e9" kindref="member">MR.teethMaskToDirectionVolume</ref></computeroutput>. Parameter <computeroutput>additionalIds</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>A shortcut for TeethMaskToDirectionVolumeConvertor::create and TeethMaskToDirectionVolumeConvertor::convertAll Generated from function <computeroutput><ref refid="classMR_1a243e10210f7e6ab86cd3f27bc827b5e9" kindref="member">MR.teethMaskToDirectionVolume</ref></computeroutput>. Parameter <computeroutput>additionalIds</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -40772,7 +40772,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator&amp;</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator&amp;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -40795,7 +40795,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator|</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator|</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -40814,7 +40814,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator~</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator~</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -40837,7 +40837,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator&amp;=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator&amp;=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -40860,7 +40860,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator|=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator|=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -40883,7 +40883,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -40906,7 +40906,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -40929,7 +40929,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*=</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

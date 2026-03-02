@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeDualMarchingCubesAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeDualMarchingCubesAction</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeDualMarchingCubesAction</basecompoundref>
@@ -99,7 +99,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1aba246c956e4a86c2125b1617ba03ca39" kindref="member">MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -118,7 +118,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1aba246c956e4a86c2125b1617ba03ca39" kindref="member">MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -137,7 +137,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1aba246c956e4a86c2125b1617ba03ca39" kindref="member">MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -160,7 +160,7 @@
           <declname>obj</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s dual-value before making any changes in it Generated from constructor <computeroutput>MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</computeroutput>. </para>
+<para>use this constructor to remember object&apos;s dual-value before making any changes in it Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1aba246c956e4a86c2125b1617ba03ca39" kindref="member">MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -187,7 +187,7 @@
           <declname>storeDual</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember given dual-value (and not the current value in the object) Generated from constructor <computeroutput>MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</computeroutput>. </para>
+<para>use this constructor to remember given dual-value (and not the current value in the object) Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1aba246c956e4a86c2125b1617ba03ca39" kindref="member">MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -206,7 +206,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.ChangeDualMarchingCubesAction.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ChangeDualMarchingCubesAction::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -240,45 +240,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_ChangeDualMarchingCubesAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeDualMarchingCubesAction</label>
         <link refid="classMR_1_1ChangeDualMarchingCubesAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeDualMarchingCubesAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeDualMarchingCubesAction &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_ChangeDualMarchingCubesAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.ChangeDualMarchingCubesAction</label>
         <link refid="classMR_1_1ChangeDualMarchingCubesAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_ChangeDualMarchingCubesAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_ChangeDualMarchingCubesAction &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="555" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="556" bodyend="653"/>

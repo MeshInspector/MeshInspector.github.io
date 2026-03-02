@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MR3mf_8h" kind="file" language="C++">
     <compoundname>MR3mf.h</compoundname>
     <includes refid="MRIOExtras_2config_8h" local="yes">config.h</includes>
@@ -9,7 +9,7 @@
     <includes refid="MRLoadedObjects_8h" local="no">MRMesh/MRLoadedObjects.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>MR3mf.h</label>
+        <label>MRIOExtras/MR3mf.h</label>
         <link refid="MR3mf_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -426,9 +426,9 @@
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1ga58ca3a48e21d88de69dd699129025edb" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObject&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga58ca3a48e21d88de69dd699129025edb" kindref="member">deserializeObjectTreeFromModel</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>callback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MR3mf.h"/>
+    <location file="MRIOExtras/MR3mf.h"/>
   </compounddef>
 </doxygen>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1GcodeProcessor" kind="class" language="C++" prot="public">
     <compoundname>MR::GcodeProcessor</compoundname>
-    <includes refid="MRGcodeProcessor_8h" local="no">MRGcodeProcessor.h</includes>
+    <includes refid="MRGcodeProcessor_8h" local="no">MRMesh/MRGcodeProcessor.h</includes>
     <innerclass refid="structMR_1_1GcodeProcessor_1_1BaseAction" prot="public">MR::GcodeProcessor::BaseAction</innerclass>
     <innerclass refid="structMR_1_1GcodeProcessor_1_1Command" prot="public">MR::GcodeProcessor::Command</innerclass>
     <innerclass refid="structMR_1_1GcodeProcessor_1_1MoveAction" prot="public">MR::GcodeProcessor::MoveAction</innerclass>
@@ -76,7 +76,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="20" bodyend="167"/>
+    <location file="MRMesh/MRGcodeProcessor.h" line="19" column="1" bodyfile="MRMesh/MRGcodeProcessor.h" bodystart="20" bodyend="167"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae0d8f26f57c57239ce8ffc3a746b610e" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>absoluteCoordinates_</name></member>
       <member refid="group__GeneralGroup_1gaccf0a47fe2f1443b6d08014952014ce7" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>accuracy_</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::std_vector_Pdf_PaletteRowStats</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -559,18 +559,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.std_vector_Pdf_PaletteRowStats</label>
-        <link refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>element_type_byte_size</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87021" bodyend="87111"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a78195b8358a6653a2c293b5794db7aef" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>__bool__</name></member>

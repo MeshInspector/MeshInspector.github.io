@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SetViewPresetMenuItem" kind="class" language="C++" prot="public">
     <compoundname>MR::SetViewPresetMenuItem</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
-    <includes refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="no">MRSceneControlMenuItems.h</includes>
+    <includes refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="no">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga370683fe5e745d7ea982e94c2ae476dc" kind="enum"><name>Type</name></member>
     </sectiondef>
@@ -54,7 +54,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="50" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="51" bodyend="69"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="50" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="51" bodyend="69"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga22d459e6dfc41abb30e789e165d22d13" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>blocking</name></member>

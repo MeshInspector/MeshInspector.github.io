@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVoxelsLoad_8h" kind="file" language="C++">
     <compoundname>MRVoxelsLoad.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
@@ -88,45 +88,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRVoxelsLoad_8h_1ad964a22a5f428efbf66fb45d2d17ed82" prot="public" static="no">
-        <type>struct <ref refid="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" kindref="member">MR_expected_MR_FloatGrid_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_FloatGrid_std_string MR_expected_MR_FloatGrid_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_FloatGrid_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsLoad.h" line="15" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsLoad.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsLoad_8h_1afddfdf9f07abac630b268df02dbaed95" prot="public" static="no">
-        <type>struct <ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_LoadedObjects_std_string MR_expected_MR_LoadedObjects_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_LoadedObjects_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsLoad.h" line="16" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsLoad.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsLoad_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" prot="public" static="no">
-        <type>struct <ref refid="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" kindref="member">MR_expected_MR_VdbVolume_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_VdbVolume_std_string MR_expected_MR_VdbVolume_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_VdbVolume_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsLoad.h" line="17" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsLoad.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRVoxelsLoad_8h_1a633ff3caabdb019f6ddf961b8f5836be" prot="public" static="no">
         <type>struct <ref refid="MRVoxelsLoad_8h_1a633ff3caabdb019f6ddf961b8f5836be" kindref="member">MR_expected_MR_VoxelsLoad_RawParameters_std_string</ref></type>
         <definition>typedef struct MR_expected_MR_VoxelsLoad_RawParameters_std_string MR_expected_MR_VoxelsLoad_RawParameters_std_string</definition>
@@ -178,45 +139,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsLoad.h" line="21" column="79" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsLoad.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsLoad_8h_1a006d61fd2048bba5b5622d42cbe72526" prot="public" static="no">
-        <type>struct <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref></type>
-        <definition>typedef struct MR_std_filesystem_path MR_std_filesystem_path</definition>
-        <argsstring></argsstring>
-        <name>MR_std_filesystem_path</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsLoad.h" line="22" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsLoad.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsLoad_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsLoad.h" line="23" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsLoad.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsLoad_8h_1aef22a11476e76208a3f9a5cf2eba4c98" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref></type>
-        <definition>typedef struct MR_std_istream MR_std_istream</definition>
-        <argsstring></argsstring>
-        <name>MR_std_istream</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsLoad.h" line="24" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsLoad.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRVoxelsLoad_8h_1af646f8f51576a586c8b409eb6b38e998" prot="public" static="no">
         <type>struct <ref refid="MRVoxelsLoad_8h_1af646f8f51576a586c8b409eb6b38e998" kindref="member">MR_VoxelsLoad_RawParameters</ref></type>
@@ -629,7 +551,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_VoxelsLoad_RawParameters</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVoxelsLoad_8h_1af646f8f51576a586c8b409eb6b38e998" kindref="member">MR_VoxelsLoad_RawParameters</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -647,7 +569,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_VoxelsLoad_RawParameters</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVoxelsLoad_8h_1af646f8f51576a586c8b409eb6b38e998" kindref="member">MR_VoxelsLoad_RawParameters</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1431,7 +1353,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_VoxelsLoad_LoadingTiffSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1449,7 +1371,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_VoxelsLoad_LoadingTiffSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1577,19 +1499,19 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRVoxelsLoad_8h_1ad964a22a5f428efbf66fb45d2d17ed82" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" kindref="member">MR_expected_MR_FloatGrid_std_string</ref><sp/><ref refid="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" kindref="member">MR_expected_MR_FloatGrid_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_FloatGrid_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRVoxelsLoad_8h_1afddfdf9f07abac630b268df02dbaed95" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref><sp/><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_LoadedObjects_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRVoxelsLoad_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" kindref="member">MR_expected_MR_VdbVolume_std_string</ref><sp/><ref refid="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" kindref="member">MR_expected_MR_VdbVolume_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_VdbVolume_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" kindref="member">MR_expected_MR_FloatGrid_std_string</ref><sp/><ref refid="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" kindref="member">MR_expected_MR_FloatGrid_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_FloatGrid_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref><sp/><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_LoadedObjects_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" kindref="member">MR_expected_MR_VdbVolume_std_string</ref><sp/><ref refid="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" kindref="member">MR_expected_MR_VdbVolume_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_VdbVolume_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="MRVoxelsLoad_8h_1a633ff3caabdb019f6ddf961b8f5836be" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsLoad_8h_1a633ff3caabdb019f6ddf961b8f5836be" kindref="member">MR_expected_MR_VoxelsLoad_RawParameters_std_string</ref><sp/><ref refid="MRVoxelsLoad_8h_1a633ff3caabdb019f6ddf961b8f5836be" kindref="member">MR_expected_MR_VoxelsLoad_RawParameters_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_VoxelsLoad_RawParameters_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="MRVoxelsLoad_8h_1a2715e10954cbaa44a81ecdf891016721" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsLoad_8h_1a2715e10954cbaa44a81ecdf891016721" kindref="member">MR_expected_std_vector_MR_FloatGrid_std_string</ref><sp/><ref refid="MRVoxelsLoad_8h_1a2715e10954cbaa44a81ecdf891016721" kindref="member">MR_expected_std_vector_MR_FloatGrid_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_MR_FloatGrid_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="MRVoxelsLoad_8h_1ae3ba0e6af4325538adb54422bf66550e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsLoad_8h_1ae3ba0e6af4325538adb54422bf66550e" kindref="member">MR_expected_std_vector_MR_VdbVolume_std_string</ref><sp/><ref refid="MRVoxelsLoad_8h_1ae3ba0e6af4325538adb54422bf66550e" kindref="member">MR_expected_std_vector_MR_VdbVolume_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_MR_VdbVolume_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRVoxelsLoad_8h_1ac9916094f7c66b0214a856e06fe3ea70" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsLoad_8h_1ac9916094f7c66b0214a856e06fe3ea70" kindref="member">MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string</ref><sp/><ref refid="MRVoxelsLoad_8h_1ac9916094f7c66b0214a856e06fe3ea70" kindref="member">MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRVoxelsLoad_8h_1a006d61fd2048bba5b5622d42cbe72526" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRVoxelsLoad_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRVoxelsLoad_8h_1aef22a11476e76208a3f9a5cf2eba4c98" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRVoxelsLoad_8h_1af646f8f51576a586c8b409eb6b38e998" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsLoad_8h_1af646f8f51576a586c8b409eb6b38e998" kindref="member">MR_VoxelsLoad_RawParameters</ref><sp/><ref refid="MRVoxelsLoad_8h_1af646f8f51576a586c8b409eb6b38e998" kindref="member">MR_VoxelsLoad_RawParameters</ref>;</highlight></codeline>
+<codeline lineno="29" refid="MRVoxelsLoad_8h_1af646f8f51576a586c8b409eb6b38e998" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsLoad_8h_1af646f8f51576a586c8b409eb6b38e998" kindref="member">MR_VoxelsLoad_RawParameters</ref><sp/><ref refid="MRVoxelsLoad_8h_1af646f8f51576a586c8b409eb6b38e998" kindref="member">MR_VoxelsLoad_RawParameters</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Determines<sp/>iso-surface<sp/>orientation</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3e" kindref="member">MR_VoxelsLoad_GridType</ref></highlight></codeline>
@@ -1600,7 +1522,7 @@
 <codeline lineno="37" refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3ea47d65f766447b295a21ed3614b20b22b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3ea47d65f766447b295a21ed3614b20b22b" kindref="member">MR_VoxelsLoad_GridType_LevelSet</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="38" refid="MRVoxelsLoad_8h_1a48dc9955a7e911e90a30f8306223fce3" refkind="member"><highlight class="normal">}<sp/><ref refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3e" kindref="member">MR_VoxelsLoad_GridType</ref>;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref>;</highlight></codeline>
+<codeline lineno="42" refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref>;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48" refid="MRVoxelsLoad_8h_1a6d7c799106ec441c3db3a48ba3b253cd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a6d7c799106ec441c3db3a48ba3b253cd" kindref="member">MR_VoxelsLoad_RawParameters_Get_dimensions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1af646f8f51576a586c8b409eb6b38e998" kindref="member">MR_VoxelsLoad_RawParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>

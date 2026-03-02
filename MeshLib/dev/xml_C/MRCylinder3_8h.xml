@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCylinder3_8h" kind="file" language="C++">
     <compoundname>MRCylinder3.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -21,58 +21,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRCylinder3_8h_1ac137600e53e2a5c6efea3c61034a1a95" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref></type>
-        <definition>typedef struct MR_Line3d MR_Line3d</definition>
-        <argsstring></argsstring>
-        <name>MR_Line3d</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="11" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRCylinder3_8h_1aca1d803422d4caa25c56d04a67efbc52" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref></type>
-        <definition>typedef struct MR_Line3f MR_Line3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Line3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="12" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRCylinder3_8h_1aa6b35c703a4572c3ccc120ee82723a66" prot="public" static="no">
-        <type>struct MR_Vector3d</type>
-        <definition>typedef struct MR_Vector3d MR_Vector3d</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3d</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="13" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRCylinder3_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
-        <type>struct MR_Vector3f</type>
-        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="14" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" prot="public" static="no">
         <type>struct <ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref></type>
         <definition>typedef struct MR_Cylinder3f MR_Cylinder3f</definition>
@@ -440,7 +388,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Cylinder3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -458,7 +406,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Cylinder3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -897,7 +845,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Cylinder3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -915,7 +863,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Cylinder3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1033,19 +981,19 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRCylinder3_8h_1ac137600e53e2a5c6efea3c61034a1a95" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref><sp/><ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRCylinder3_8h_1aca1d803422d4caa25c56d04a67efbc52" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRCylinder3_8h_1aa6b35c703a4572c3ccc120ee82723a66" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRCylinder3_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref><sp/><ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>class<sp/>describing<sp/>a<sp/>cylinder<sp/>as<sp/>a<sp/>mathematical<sp/>object.A<sp/>cylinder<sp/>is<sp/>represented<sp/>by<sp/>a<sp/>centerline,<sp/>a<sp/>radius,<sp/>and<sp/>a<sp/>length.template<sp/>&lt;typename<sp/>T&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>Cylinder3<sp/>could<sp/>be<sp/>infinite.<sp/>For<sp/>example<sp/>for<sp/>infinite<sp/>Cylinder3<sp/>we<sp/>could<sp/>use<sp/>negative<sp/>length<sp/>or<sp/>length<sp/>=<sp/>-1</highlight></codeline>
-<codeline lineno="21" refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>Cylinder3<sp/>could<sp/>be<sp/>infinite.<sp/>For<sp/>example<sp/>for<sp/>infinite<sp/>Cylinder3<sp/>we<sp/>could<sp/>use<sp/>negative<sp/>length<sp/>or<sp/>length<sp/>=<sp/>-1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>class<sp/>describing<sp/>a<sp/>cylinder<sp/>as<sp/>a<sp/>mathematical<sp/>object.A<sp/>cylinder<sp/>is<sp/>represented<sp/>by<sp/>a<sp/>centerline,<sp/>a<sp/>radius,<sp/>and<sp/>a<sp/>length.template<sp/>&lt;typename<sp/>T&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>Cylinder3<sp/>could<sp/>be<sp/>infinite.<sp/>For<sp/>example<sp/>for<sp/>infinite<sp/>Cylinder3<sp/>we<sp/>could<sp/>use<sp/>negative<sp/>length<sp/>or<sp/>length<sp/>=<sp/>-1</highlight></codeline>
-<codeline lineno="27" refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>Cylinder3<sp/>could<sp/>be<sp/>infinite.<sp/>For<sp/>example<sp/>for<sp/>infinite<sp/>Cylinder3<sp/>we<sp/>could<sp/>use<sp/>negative<sp/>length<sp/>or<sp/>length<sp/>=<sp/>-1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref>;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33" refid="MRCylinder3_8h_1a8544a3e2d1ec17590bbee4d0d80e8425" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a8544a3e2d1ec17590bbee4d0d80e8425" kindref="member">MR_Cylinder3f_Get_mainAxis</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>

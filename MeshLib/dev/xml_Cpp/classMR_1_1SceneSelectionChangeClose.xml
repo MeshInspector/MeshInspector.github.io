@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneSelectionChangeClose" kind="class" language="C++" prot="public">
     <compoundname>MR::SceneSelectionChangeClose</compoundname>
     <basecompoundref refid="classMR_1_1ISceneSelectionChange" prot="public" virt="virtual">MR::ISceneSelectionChange</basecompoundref>
-    <includes refid="MRSceneSelectionChange_8h" local="no">MRSceneSelectionChange.h</includes>
+    <includes refid="MRSceneSelectionChange_8h" local="no">MRViewer/MRSceneSelectionChange.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga72f058a92bf92fc08d2ba0b591fd3744" kind="function"><name>updateSelection</name></member>
     </sectiondef>
@@ -36,7 +36,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneSelectionChange.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneSelectionChange.h" bodystart="25" bodyend="28"/>
+    <location file="MRViewer/MRSceneSelectionChange.h" line="24" column="1" bodyfile="MRViewer/MRSceneSelectionChange.h" bodystart="25" bodyend="28"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga72f058a92bf92fc08d2ba0b591fd3744" prot="public" virt="virtual"><scope>MR::SceneSelectionChangeClose</scope><name>updateSelection</name></member>
       <member refid="group__GeneralGroup_1ga46ed29a0c79bdfb7de53ea802fee042c" prot="public" virt="virtual"><scope>MR::SceneSelectionChangeClose</scope><name>~ISceneSelectionChange</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointToPointAligningTransform" kind="class" language="C++" prot="public">
     <compoundname>MR::PointToPointAligningTransform</compoundname>
-    <includes refid="MRPointToPointAligningTransform_8h" local="no">MRPointToPointAligningTransform.h</includes>
+    <includes refid="MRPointToPointAligningTransform_8h" local="no">MRMesh/MRPointToPointAligningTransform.h</includes>
     <innerclass refid="structMR_1_1PointToPointAligningTransform_1_1BestRotation" prot="private">MR::PointToPointAligningTransform::BestRotation</innerclass>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1PointToPointAligningTransform_1ab91d6f05bd29312cd06a75b7e4a50e4e" prot="private" static="no" mutable="no">
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="66" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" bodystart="66" bodyend="-1"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="66" column="14" bodyfile="MRMesh/MRPointToPointAligningTransform.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1PointToPointAligningTransform_1a50a254a2c56c73c0f9d2f10343b1ba1c" prot="private" static="no" mutable="no">
         <type>Vector3d</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="67" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" bodystart="67" bodyend="-1"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="67" column="14" bodyfile="MRMesh/MRPointToPointAligningTransform.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1PointToPointAligningTransform_1ab6f8a4196f48e66dbc2f5e7e775bdd25" prot="private" static="no" mutable="no">
         <type>Vector3d</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="67" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" bodystart="67" bodyend="-1"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="67" column="20" bodyfile="MRMesh/MRPointToPointAligningTransform.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1PointToPointAligningTransform_1acbcf407842ed980377499d3a7f6426a9" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="68" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" bodystart="68" bodyend="-1"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="68" column="12" bodyfile="MRMesh/MRPointToPointAligningTransform.h" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1PointToPointAligningTransform_1ac300c8207fd695c4dc274bd35382a9d8" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="69" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" bodystart="69" bodyend="-1"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="69" column="12" bodyfile="MRMesh/MRPointToPointAligningTransform.h" bodystart="69" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="19" column="11"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="19" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPointAligningTransform_1a1f94659f434039a0d815dc1cc7926025" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="22" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" bodystart="22" bodyend="22"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="22" column="10" bodyfile="MRMesh/MRPointToPointAligningTransform.h" bodystart="22" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPointAligningTransform_1a443f77a80d33d459b4eb9d37264241cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="25" column="11"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="25" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPointAligningTransform_1ac5424746eb81f9bd5747eefad03a184b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -169,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="28" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" bodystart="28" bodyend="28"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="28" column="10" bodyfile="MRMesh/MRPointToPointAligningTransform.h" bodystart="28" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPointAligningTransform_1a7c5ce61a849b6f702c6d585049995ef0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3d</type>
@@ -184,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="31" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" bodystart="31" bodyend="31"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="31" column="15" bodyfile="MRMesh/MRPointToPointAligningTransform.h" bodystart="31" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPointAligningTransform_1a71bc17188dc3fb99ec66eca0caadcb0e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3d</type>
@@ -199,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="34" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" bodystart="34" bodyend="34"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="34" column="15" bodyfile="MRMesh/MRPointToPointAligningTransform.h" bodystart="34" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPointAligningTransform_1a36c54b01cd263e2fd5108051a8588576" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -214,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="37" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" bodystart="37" bodyend="37"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="37" column="13" bodyfile="MRMesh/MRPointToPointAligningTransform.h" bodystart="37" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPointAligningTransform_1a1aa61a6aa29e1ed1cc269c3e147ce9b0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>AffineXf3d</type>
@@ -229,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="42" column="18"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="42" column="18"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPointAligningTransform_1ae5b2f6e8a74884a10a6914afbb8ba12b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>AffineXf3d</type>
@@ -244,7 +244,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="45" column="18"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="45" column="18"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPointAligningTransform_1ad5d312c82e2c66505844283d81318459" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>AffineXf3d</type>
@@ -263,7 +263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="48" column="18"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="48" column="18"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPointAligningTransform_1ac0d25befa3ce9b9ac11852c66c0b9def" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>AffineXf3d</type>
@@ -282,7 +282,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="51" column="18"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="51" column="18"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPointAligningTransform_1a4e2b650956d9ae729830232e6464e313" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3d</type>
@@ -297,7 +297,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="54" column="16"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="54" column="16"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -314,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="63" column="18"/>
+        <location file="MRMesh/MRPointToPointAligningTransform.h" line="63" column="18"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -322,7 +322,7 @@
     <detaileddescription>
 <para>This class and its main method can be used to solve the problem well-known as the absolute orientation problem. It means computing the transformation that aligns two sets of points for which correspondence is known. </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointToPointAligningTransform.h" bodystart="16" bodyend="70"/>
+    <location file="MRMesh/MRPointToPointAligningTransform.h" line="15" column="1" bodyfile="MRMesh/MRPointToPointAligningTransform.h" bodystart="16" bodyend="70"/>
     <listofallmembers>
       <member refid="classMR_1_1PointToPointAligningTransform_1a28ee1d360198448e23e00615c086e7ff" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>add</name></member>
       <member refid="classMR_1_1PointToPointAligningTransform_1a1f94659f434039a0d815dc1cc7926025" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>add</name></member>

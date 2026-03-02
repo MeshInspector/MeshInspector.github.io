@@ -3,7 +3,6 @@ var MRViewportId_8h =
     [ "MR_ViewportId", "structMR__ViewportId.html", "structMR__ViewportId" ],
     [ "MR_ViewportId", "MRViewportId_8h.html#a65c52420639c3080b4ecbceeffbd70bc", null ],
     [ "MR_ViewportIterator", "MRViewportId_8h.html#a3b7f8b8de027e6c034c8ebd922c80f51", null ],
-    [ "MR_ViewportMask", "MRViewportId_8h.html#a85b2b5f875361920283d305645987092", null ],
     [ "MR_begin_MR_ViewportMask", "MRViewportId_8h.html#ab32673d5399fc258db12234300ae6a08", null ],
     [ "MR_bitand_MR_ViewportMask", "MRViewportId_8h.html#ad600022b724ec1385ce695f04c4321c1", null ],
     [ "MR_bitor_MR_ViewportMask", "MRViewportId_8h.html#aa90ccb7d41d8df8c8d0c67825e2f36ff", null ],

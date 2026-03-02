@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPositionVertsSmoothly_8h" kind="file" language="C++">
     <compoundname>MRPositionVertsSmoothly.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -44,7 +44,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPositionVertsSmoothly.h</label>
+        <label>MRMesh/MRPositionVertsSmoothly.h</label>
         <link refid="MRPositionVertsSmoothly_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -150,8 +150,8 @@
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
 <codeline lineno="96" refid="group__GeneralGroup_1ga62ff69b90b83786af6489013210c7650" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62ff69b90b83786af6489013210c7650" kindref="member">inflate1</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/>VertCoords&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>verts,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pressure<sp/>);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h"/>
+    <location file="MRMesh/MRPositionVertsSmoothly.h"/>
   </compounddef>
 </doxygen>

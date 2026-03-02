@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeSceneObjectsOrder" kind="class" language="C++" prot="public">
     <compoundname>MR::ChangeSceneObjectsOrder</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRChangeSceneObjectsOrder_8h" local="no">MRChangeSceneObjectsOrder.h</includes>
+    <includes refid="MRChangeSceneObjectsOrder_8h" local="no">MRMesh/MRChangeSceneObjectsOrder.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga19fb2c5245ef48fe78651c37f650ea27" kind="variable"><name>childrenOrder_</name></member>
       <member refid="group__GeneralGroup_1ga32dedc19d4b8af7fb8b7dd6bd12fce64" kind="variable"><name>obj_</name></member>
@@ -44,7 +44,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" bodystart="16" bodyend="58"/>
+    <location file="MRMesh/MRChangeSceneObjectsOrder.h" line="15" column="1" bodyfile="MRMesh/MRChangeSceneObjectsOrder.h" bodystart="16" bodyend="58"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga48cb146f899e3b77bed59f4bd1073e11" prot="public" virt="virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac98e7e6f6de1cbc791db5f23b6409542" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>ChangeSceneObjectsOrder</name></member>

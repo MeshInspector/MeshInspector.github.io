@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CudaAccessor" kind="class" language="C++" prot="public">
     <compoundname>MR::CudaAccessor</compoundname>
-    <includes refid="MRCudaAccessor_8h" local="no">MRCudaAccessor.h</includes>
+    <includes refid="MRCudaAccessor_8h" local="no">MRViewer/MRCudaAccessor.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gaa67f49b71c900e67a603dc5a6960d567" kind="typedef"><name>CudaFreeMemoryFunc</name></member>
       <member refid="group__GeneralGroup_1ga29c59af2c526ce1b2b126dd201c3a7fb" kind="typedef"><name>CudaFwnConstructor</name></member>
@@ -66,7 +66,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCudaAccessor.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCudaAccessor.h" bodystart="23" bodyend="142"/>
+    <location file="MRViewer/MRCudaAccessor.h" line="22" column="1" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="23" bodyend="142"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga4d7e17632fb046055187b46d701f3671" prot="private" virt="non-virtual"><scope>MR::CudaAccessor</scope><name>computeMajor_</name></member>
       <member refid="group__GeneralGroup_1ga0ebaf705e73dec6050735b5b97b96560" prot="private" virt="non-virtual"><scope>MR::CudaAccessor</scope><name>computeMinor_</name></member>

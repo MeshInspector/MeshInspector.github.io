@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PlaneWidget" kind="class" language="C++" prot="public">
     <compoundname>MR::PlaneWidget</compoundname>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; DragStartListener, DragListener, DragEndListener, NameTagClickListener &gt;</basecompoundref>
-    <includes refid="MRPlaneWidget_8h" local="no">MRPlaneWidget.h</includes>
+    <includes refid="MRPlaneWidget_8h" local="no">MRViewer/MRPlaneWidget.h</includes>
     <sectiondef kind="private-type">
       <member refid="group__GeneralGroup_1ga808fc2486084ef99fc09fa592b022201" kind="typedef"><name>OnPlaneUpdateCallback</name></member>
     </sectiondef>
@@ -87,7 +87,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="17" bodyend="87"/>
+    <location file="MRViewer/MRPlaneWidget.h" line="16" column="1" bodyfile="MRViewer/MRPlaneWidget.h" bodystart="17" bodyend="87"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7db31502e3cd0969c0aca88d8f4ee9f2" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>box</name></member>
       <member refid="group__GeneralGroup_1ga47c53444dd395fdf2f575f9e8401f086" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>box_</name></member>

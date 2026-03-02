@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRAggregateFlow_8h" kind="file" language="C++">
     <compoundname>MRAggregateFlow.h</compoundname>
     <includes refid="MRMeshTriPoint_8h" local="yes">MRMeshTriPoint.h</includes>
@@ -8,7 +8,7 @@
     <includes local="no">functional</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRAggregateFlow.h</label>
+        <label>MRMesh/MRAggregateFlow.h</label>
         <link refid="MRAggregateFlow_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -357,7 +357,7 @@
 <codeline lineno="29" refid="group__GeneralGroup_1ga269ce938dc53ce1c582db0ce91e12693" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga269ce938dc53ce1c582db0ce91e12693" kindref="member">amountGreaterThan</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="classMR_1_1FlowAggregator" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1FlowAggregator" kindref="compound">FlowAggregator</ref></highlight></codeline>
+<codeline lineno="33" refid="classMR_1_1FlowAggregator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gabc1a76b1bf90fe8aa1fdc481e5ac839a" kindref="member">FlowAggregator</ref></highlight></codeline>
 <codeline lineno="34"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="37" refid="group__GeneralGroup_1gabc1a76b1bf90fe8aa1fdc481e5ac839a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gabc1a76b1bf90fe8aa1fdc481e5ac839a" kindref="member">FlowAggregator</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>heights<sp/>);</highlight></codeline>
@@ -393,8 +393,8 @@
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;VertId&gt;<sp/>vertsSortedDesc_;<sp/></highlight></codeline>
 <codeline lineno="80"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h"/>
+    <location file="MRMesh/MRAggregateFlow.h"/>
   </compounddef>
 </doxygen>

@@ -1,15 +1,10 @@
 var MRFixUndercuts_8h =
 [
-    [ "MR_expected_void_std_string", "MRFixUndercuts_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
-    [ "MR_FaceBitSet", "MRFixUndercuts_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
     [ "MR_FixUndercuts_DistMapImproveDirectionParameters", "MRFixUndercuts_8h.html#acf63afa59957521d53e610583fd7bbce", null ],
     [ "MR_FixUndercuts_FindParams", "MRFixUndercuts_8h.html#a810a4790494a58167c183db7961dd0e1", null ],
     [ "MR_FixUndercuts_FixParams", "MRFixUndercuts_8h.html#a92e9180a1005067bf390d3966bcf7dd0", null ],
     [ "MR_FixUndercuts_ImproveDirectionParameters", "MRFixUndercuts_8h.html#a27ce05e2b3f60cfa547693c70ab3acd7", null ],
-    [ "MR_Mesh", "MRFixUndercuts_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_std_function_bool_from_float", "MRFixUndercuts_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref", "MRFixUndercuts_8h.html#a309655ba4963e00d4431b0beee705484", null ],
-    [ "MR_VertBitSet", "MRFixUndercuts_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_FixUndercuts_distMapImproveDirection", "MRFixUndercuts_8h.html#a0bf2ba97a2a81230b3d93ceb5eb8bd7b", null ],
     [ "MR_FixUndercuts_DistMapImproveDirectionParameters_AssignFromAnother", "MRFixUndercuts_8h.html#ac9d3490df9c211447831ddca0612714f", null ],
     [ "MR_FixUndercuts_DistMapImproveDirectionParameters_ConstructFromAnother", "MRFixUndercuts_8h.html#a3921f89a4c8414b29620922bbadefde0", null ],

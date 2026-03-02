@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCalcDims_8h" kind="file" language="C++">
     <compoundname>MRCalcDims.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
@@ -42,19 +42,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRCalcDims_8h_1a387c2b6c194640a4dfac77733cbe3880" prot="public" static="no">
-        <type>struct MR_Box3f</type>
-        <definition>typedef struct MR_Box3f MR_Box3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Box3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" line="12" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRCalcDims.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" prot="public" static="no">
         <type>struct <ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref></type>
         <definition>typedef struct MR_OriginAndDimensions MR_OriginAndDimensions</definition>
@@ -316,7 +303,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_OriginAndDimensions</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -334,7 +321,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_OriginAndDimensions</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -403,10 +390,10 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRCalcDims_8h_1a387c2b6c194640a4dfac77733cbe3880" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref>;</highlight></codeline>
+<codeline lineno="18" refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRCalcDims_8h_1a9ac52695486df911891f37e24de63882" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRCalcDims_8h_1a9ac52695486df911891f37e24de63882" kindref="member">MR_OriginAndDimensions_Get_origin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCalcDims_8h_1a6ca6b1607459d08c79d3b696efe4f9ed" kindref="member">MR_OriginAndDimensions</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>

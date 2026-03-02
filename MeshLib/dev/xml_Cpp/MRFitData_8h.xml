@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFitData_8h" kind="file" language="C++">
     <compoundname>MRFitData.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes refid="MRBox_8h" local="no">MRMesh/MRBox.h</includes>
-    <includedby refid="MRViewport_8h" local="yes">MRViewport.h</includedby>
+    <includedby refid="MRViewport_8h" local="yes">MRViewer/MRViewport.h</includedby>
     <incdepgraph>
       <node id="29">
         <label>MRAffineXf.h</label>
@@ -143,7 +143,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRFitData.h</label>
+        <label>MRViewer/MRFitData.h</label>
         <link refid="MRFitData_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -217,21 +217,21 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRFitData.h</label>
+        <label>MRViewer/MRFitData.h</label>
         <link refid="MRFitData_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRPickPointManager.h</label>
+        <label>MRViewer/MRPickPointManager.h</label>
         <link refid="MRPickPointManager_8h"/>
       </node>
       <node id="4">
-        <label>MRTouchpadController.h</label>
+        <label>MRViewer/MRTouchpadController.h</label>
         <link refid="MRTouchpadController_8h"/>
       </node>
       <node id="2">
-        <label>MRViewport.h</label>
+        <label>MRViewer/MRViewport.h</label>
         <link refid="MRViewport_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -241,7 +241,7 @@
         </childnode>
       </node>
       <node id="5">
-        <label>MRViewportParametersAction.h</label>
+        <label>MRViewer/MRViewportParametersAction.h</label>
         <link refid="MRViewportParametersAction_8h"/>
       </node>
     </invincdepgraph>
@@ -263,13 +263,13 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="group__GeneralGroup_1ga286c087de610b6e6a6baaf3c7cff3f4b" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga286c087de610b6e6a6baaf3c7cff3f4b" kindref="member">FitMode</ref></highlight></codeline>
+<codeline lineno="13" refid="group__GeneralGroup_1ga286c087de610b6e6a6baaf3c7cff3f4b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga286c087de610b6e6a6baaf3c7cff3f4b" kindref="member">FitMode</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga286c087de610b6e6a6baaf3c7cff3f4baec24d78ce33048dc73a2b6b1a0690192" kindref="member">Visible</ref>,<sp/></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga286c087de610b6e6a6baaf3c7cff3f4ba5e6ec7d73c67853669ec7f19208bc4f3" kindref="member">SelectedPrimitives</ref>,<sp/></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga286c087de610b6e6a6baaf3c7cff3f4ba59ebaac912e88dcadf4c1963af0724a1" kindref="member">SelectedObjects</ref>,<sp/></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga286c087de610b6e6a6baaf3c7cff3f4ba7fc4b5594576e44c09309d16d6e44195" kindref="member">SelectableObjects</ref>,<sp/></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga286c087de610b6e6a6baaf3c7cff3f4bab217a711be13c7b44993261f88a6b070" kindref="member">CustomObjectsList</ref><sp/></highlight></codeline>
+<codeline lineno="15" refid="group__GeneralGroup_1gga286c087de610b6e6a6baaf3c7cff3f4baec24d78ce33048dc73a2b6b1a0690192" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga286c087de610b6e6a6baaf3c7cff3f4baec24d78ce33048dc73a2b6b1a0690192" kindref="member">Visible</ref>,<sp/></highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1gga286c087de610b6e6a6baaf3c7cff3f4ba5e6ec7d73c67853669ec7f19208bc4f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga286c087de610b6e6a6baaf3c7cff3f4ba5e6ec7d73c67853669ec7f19208bc4f3" kindref="member">SelectedPrimitives</ref>,<sp/></highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1gga286c087de610b6e6a6baaf3c7cff3f4ba59ebaac912e88dcadf4c1963af0724a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga286c087de610b6e6a6baaf3c7cff3f4ba59ebaac912e88dcadf4c1963af0724a1" kindref="member">SelectedObjects</ref>,<sp/></highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1gga286c087de610b6e6a6baaf3c7cff3f4ba7fc4b5594576e44c09309d16d6e44195" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga286c087de610b6e6a6baaf3c7cff3f4ba7fc4b5594576e44c09309d16d6e44195" kindref="member">SelectableObjects</ref>,<sp/></highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gga286c087de610b6e6a6baaf3c7cff3f4bab217a711be13c7b44993261f88a6b070" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga286c087de610b6e6a6baaf3c7cff3f4bab217a711be13c7b44993261f88a6b070" kindref="member">CustomObjectsList</ref><sp/></highlight></codeline>
 <codeline lineno="20"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="structMR_1_1BaseFitParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1BaseFitParams" kindref="compound">BaseFitParams</ref></highlight></codeline>
@@ -278,7 +278,7 @@
 <codeline lineno="28" refid="group__GeneralGroup_1ga1ba0fadee2fc4bad0655f2b0f15211ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1ba0fadee2fc4bad0655f2b0f15211ab" kindref="member">snapView</ref>{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="29"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="structMR_1_1FitDataParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FitDataParams" kindref="compound">FitDataParams</ref><sp/>:<sp/><ref refid="structMR_1_1BaseFitParams" kindref="compound">BaseFitParams</ref></highlight></codeline>
+<codeline lineno="31" refid="structMR_1_1FitDataParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga787fc08baa43be923ee963b3e338ea46" kindref="member">FitDataParams</ref><sp/>:<sp/><ref refid="structMR_1_1BaseFitParams" kindref="compound">BaseFitParams</ref></highlight></codeline>
 <codeline lineno="32"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="33" refid="group__GeneralGroup_1ga423ab9ff17d938fcf943e0989297eba6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga286c087de610b6e6a6baaf3c7cff3f4b" kindref="member">FitMode</ref><sp/><ref refid="group__GeneralGroup_1ga423ab9ff17d938fcf943e0989297eba6" kindref="member">mode</ref>{<sp/><ref refid="group__GeneralGroup_1gga286c087de610b6e6a6baaf3c7cff3f4baec24d78ce33048dc73a2b6b1a0690192" kindref="member">FitMode::Visible</ref><sp/>};<sp/></highlight></codeline>
 <codeline lineno="34" refid="group__GeneralGroup_1gad080d5785a8217efd7dd3134b61d933f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::shared_ptr&lt;VisualObject&gt;&gt;<sp/><ref refid="group__GeneralGroup_1gad080d5785a8217efd7dd3134b61d933f" kindref="member">objsList</ref>;<sp/></highlight></codeline>
@@ -291,7 +291,7 @@
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{};</highlight></codeline>
 <codeline lineno="42"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="structMR_1_1FitBoxParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FitBoxParams" kindref="compound">FitBoxParams</ref><sp/>:<sp/><ref refid="structMR_1_1BaseFitParams" kindref="compound">BaseFitParams</ref></highlight></codeline>
+<codeline lineno="44" refid="structMR_1_1FitBoxParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga8a30a63152233b895d83c43813fffa46" kindref="member">FitBoxParams</ref><sp/>:<sp/><ref refid="structMR_1_1BaseFitParams" kindref="compound">BaseFitParams</ref></highlight></codeline>
 <codeline lineno="45"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="46" refid="group__GeneralGroup_1ga5594292518e53a54c005c6e95576306d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Box3f<sp/><ref refid="group__GeneralGroup_1ga5594292518e53a54c005c6e95576306d" kindref="member">worldBox</ref>;<sp/></highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
@@ -301,8 +301,8 @@
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>{};</highlight></codeline>
 <codeline lineno="52"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFitData.h"/>
+    <location file="MRViewer/MRFitData.h"/>
   </compounddef>
 </doxygen>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SystemPath" kind="class" language="C++" prot="public">
     <compoundname>MR::SystemPath</compoundname>
-    <includes refid="MRSystemPath_8h" local="no">MRSystemPath.h</includes>
+    <includes refid="MRSystemPath_8h" local="no">MRMesh/MRSystemPath.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gafb3badbeb3302b38006c0c0bb407057b" kind="enum"><name>Directory</name></member>
       <member refid="group__GeneralGroup_1ga0cf7d55377d8e831c45ed8aa549b7ac8" kind="enum"><name>SystemFontType</name></member>
@@ -27,7 +27,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystemPath.h" bodystart="16" bodyend="77"/>
+    <location file="MRMesh/MRSystemPath.h" line="15" column="1" bodyfile="MRMesh/MRSystemPath.h" bodystart="16" bodyend="77"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gafb3badbeb3302b38006c0c0bb407057b" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>Directory</name></member>
       <member refid="group__GeneralGroup_1ga32f7ef7d037115be21b0acf2a550920f" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getDirectory</name></member>

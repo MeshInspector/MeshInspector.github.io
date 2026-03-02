@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FillingSurface::CellularSurface::Params</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -513,23 +513,6 @@ we cannot afford to run tests on too big surfaces as it takes too long.
 <para><verbatim>Generated from:  MR::FillingSurface::CellularSurface::Params
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.FillingSurface.CellularSurface.Params</label>
-        <link refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_highRes</edgelabel>
-          <edgelabel>_offsetof_period</edgelabel>
-          <edgelabel>_offsetof_preserveTips</edgelabel>
-          <edgelabel>_offsetof_r</edgelabel>
-          <edgelabel>_offsetof_type</edgelabel>
-          <edgelabel>_offsetof_width</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19623" bodyend="19710"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a1eb067678e12e51cace4a3321a335475" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>__init__</name></member>

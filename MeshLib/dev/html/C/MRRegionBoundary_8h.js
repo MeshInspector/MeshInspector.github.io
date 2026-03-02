@@ -1,13 +1,5 @@
 var MRRegionBoundary_8h =
 [
-    [ "MR_EdgeBitSet", "MRRegionBoundary_8h.html#a0ab67259585b94fe4f3e06c70ba102f3", null ],
-    [ "MR_FaceBitSet", "MRRegionBoundary_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_Mesh", "MRRegionBoundary_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshTopology", "MRRegionBoundary_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
-    [ "MR_std_vector_MR_EdgeId", "MRRegionBoundary_8h.html#aa2cb99914308eb7429fd11738cf79483", null ],
-    [ "MR_std_vector_std_vector_MR_EdgeId", "MRRegionBoundary_8h.html#ab5de264b6065dbf84f6b3fa0f6530592", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRRegionBoundary_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
-    [ "MR_VertBitSet", "MRRegionBoundary_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_delRegionKeepBd", "MRRegionBoundary_8h.html#a48f6a76a7ce40849c5a7ee2e3247e11f", null ],
     [ "MR_extractAllLoops", "MRRegionBoundary_8h.html#a7838420826884263b1b49f0fd69a42f8", null ],
     [ "MR_extractPath", "MRRegionBoundary_8h.html#aa1a4570ee892b384f86f8fb9e7df5621", null ],

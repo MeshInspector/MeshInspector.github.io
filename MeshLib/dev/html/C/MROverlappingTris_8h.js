@@ -1,9 +1,6 @@
 var MROverlappingTris_8h =
 [
-    [ "MR_expected_MR_FaceBitSet_std_string", "MROverlappingTris_8h.html#a6aeecd4fac2aea90513510421de3f37b", null ],
     [ "MR_FindOverlappingSettings", "MROverlappingTris_8h.html#a0c1a5be4d33252d042fbdba932462d18", null ],
-    [ "MR_MeshPart", "MROverlappingTris_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
-    [ "MR_std_function_bool_from_float", "MROverlappingTris_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_function_bool_from_MR_FaceId_MR_FaceId", "MROverlappingTris_8h.html#aa877810c44f69df2d226b9e030b53faa", null ],
     [ "MR_FindOverlappingSettings_AssignFromAnother", "MROverlappingTris_8h.html#a426b44dc99fb3e644684d5dfacf5f218", null ],
     [ "MR_FindOverlappingSettings_ConstructFrom", "MROverlappingTris_8h.html#af43850fe714ab4c66d1d598bfe610fd6", null ],

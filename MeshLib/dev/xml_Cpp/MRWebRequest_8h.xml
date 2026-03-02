@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRWebRequest_8h" kind="file" language="C++">
     <compoundname>MRWebRequest.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
@@ -71,7 +71,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRWebRequest.h</label>
+        <label>MRViewer/MRWebRequest.h</label>
         <link refid="MRWebRequest_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -157,10 +157,10 @@
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15"></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1ga96f88a4f2bd7a05e5c6de0f758d58f50" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Json::Value&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga96f88a4f2bd7a05e5c6de0f758d58f50" kindref="member">parseResponse</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>response<sp/>);</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="classMR_1_1WebRequest" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1WebRequest" kindref="compound">WebRequest</ref></highlight></codeline>
+<codeline lineno="20" refid="classMR_1_1WebRequest" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="group__GeneralGroup_1ga127ff4863cb6f49573d3d843b9dbcf60" kindref="member">WebRequest</ref></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1ga127ff4863cb6f49573d3d843b9dbcf60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga127ff4863cb6f49573d3d843b9dbcf60" kindref="member">WebRequest</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -168,11 +168,11 @@
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="group__GeneralGroup_1gace710e20f931b5a3da04f21f16c5ab0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gace710e20f931b5a3da04f21f16c5ab0c" kindref="member">Method</ref><sp/></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Get,</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Post,</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Patch,</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Put,</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Delete,</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ggace710e20f931b5a3da04f21f16c5ab0cac55582518cba2c464f29f5bae1c68def" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggace710e20f931b5a3da04f21f16c5ab0cac55582518cba2c464f29f5bae1c68def" kindref="member">Get</ref>,</highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1ggace710e20f931b5a3da04f21f16c5ab0ca03d947a2158373c3b9d74325850cb8b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggace710e20f931b5a3da04f21f16c5ab0ca03d947a2158373c3b9d74325850cb8b9" kindref="member">Post</ref>,</highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1ggace710e20f931b5a3da04f21f16c5ab0ca156e10596fdc76ee5300bab931d89c0f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggace710e20f931b5a3da04f21f16c5ab0ca156e10596fdc76ee5300bab931d89c0f" kindref="member">Patch</ref>,</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1ggace710e20f931b5a3da04f21f16c5ab0cad0bf1810982e9728fcf3ac444a015373" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggace710e20f931b5a3da04f21f16c5ab0cad0bf1810982e9728fcf3ac444a015373" kindref="member">Put</ref>,</highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1ggace710e20f931b5a3da04f21f16c5ab0caf2a6c498fb90ee345d997f888fce3b18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggace710e20f931b5a3da04f21f16c5ab0caf2a6c498fb90ee345d997f888fce3b18" kindref="member">Delete</ref>,</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36" refid="group__GeneralGroup_1gaa4c379f80b6cb834a38f930239028843" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa4c379f80b6cb834a38f930239028843" kindref="member">clear</ref>();</highlight></codeline>
@@ -216,7 +216,7 @@
 <codeline lineno="92" refid="group__GeneralGroup_1gaa867f28921e766c820f9339b364d7b6e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa867f28921e766c820f9339b364d7b6e" kindref="member">waitRemainingAsync</ref>();</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gace710e20f931b5a3da04f21f16c5ab0c" kindref="member">Method</ref><sp/>method_{<sp/>Method::Get<sp/>};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gace710e20f931b5a3da04f21f16c5ab0c" kindref="member">Method</ref><sp/>method_{<sp/><ref refid="group__GeneralGroup_1ggace710e20f931b5a3da04f21f16c5ab0cac55582518cba2c464f29f5bae1c68def" kindref="member">Method::Get</ref><sp/>};</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>url_;</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>logName_;</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>async_{<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>};</highlight></codeline>
@@ -234,6 +234,6 @@
 <codeline lineno="110"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h"/>
+    <location file="MRViewer/MRWebRequest.h"/>
   </compounddef>
 </doxygen>

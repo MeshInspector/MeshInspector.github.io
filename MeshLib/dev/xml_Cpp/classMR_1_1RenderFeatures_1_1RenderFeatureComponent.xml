@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderFeatures_1_1RenderFeatureComponent" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderFeatures::RenderFeatureComponent</compoundname>
     <basecompoundref refid="classMR_1_1RenderWrapObject_1_1Wrapper" prot="public" virt="non-virtual">MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectType &gt;, RenderObjectType &gt;</basecompoundref>
-    <includes refid="MRRenderFeatureObjects_8h" local="no">MRRenderFeatureObjects.h</includes>
+    <includes refid="MRRenderFeatureObjects_8h" local="no">MRViewer/MRRenderFeatureObjects.h</includes>
     <templateparamlist>
       <param>
         <type>bool</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="150" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="150" bodyend="-1"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="150" column="5" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="150" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -51,7 +51,7 @@
         <inbodydescription>
 <para>Skip rendering the secondary components (aka subfeatures) if they are disabled.</para>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="154" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="154" bodyend="163"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="154" column="10" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="154" bodyend="163"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1aac7d0eb9a73f28680925b75d122b66a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -59,7 +59,6 @@
         <argsstring>(const ModelRenderParams &amp;params) override</argsstring>
         <name>render</name>
         <qualifiedname>MR::RenderFeatures::RenderFeatureComponent::render</qualifiedname>
-        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1adff765d25d052a22403a15ce5231a41b">render</reimplementedby>
         <param>
           <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
           <declname>params</declname>
@@ -70,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="165" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="165" bodyend="170"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="165" column="10" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="165" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1a7223265f55a1d01543ece7518bc011ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -78,7 +77,6 @@
         <argsstring>(const ModelBaseRenderParams &amp;params, unsigned geomId) override</argsstring>
         <name>renderPicker</name>
         <qualifiedname>MR::RenderFeatures::RenderFeatureComponent::renderPicker</qualifiedname>
-        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent_1a2d5ce382c91aad5ff7d42827e3aa8c13">renderPicker</reimplementedby>
         <param>
           <type>const <ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref> &amp;</type>
           <declname>params</declname>
@@ -93,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="172" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="172" bodyend="177"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="172" column="10" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="172" bodyend="177"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -153,7 +151,7 @@
         <label>RenderObjectType</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="148" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="149" bodyend="178"/>
+    <location file="MRViewer/MRRenderFeatureObjects.h" line="148" column="1" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="149" bodyend="178"/>
     <listofallmembers>
       <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1aa328384b8fc2972d8e2e734026bf2816" prot="private" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureComponent</scope><name>Base</name></member>
       <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ab3a0e53c8d180bbb25650e0ac1544abf" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureComponent</scope><name>operator=</name></member>

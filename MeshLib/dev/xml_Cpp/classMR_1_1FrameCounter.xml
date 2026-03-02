@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FrameCounter" kind="class" language="C++" prot="public">
     <compoundname>MR::FrameCounter</compoundname>
-    <includes refid="MRFrameCounter_8h" local="no">MRFrameCounter.h</includes>
+    <includes refid="MRFrameCounter_8h" local="no">MRViewer/MRFrameCounter.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gad31cb34958177047b45d91d3bde14b0b" kind="variable"><name>totalFrameCounter</name></member>
       <member refid="group__GeneralGroup_1ga809b38fcb6b28b20246970f011a49af9" kind="variable"><name>swappedFrameCounter</name></member>
@@ -23,7 +23,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" bodystart="13" bodyend="28"/>
+    <location file="MRViewer/MRFrameCounter.h" line="12" column="1" bodyfile="MRViewer/MRFrameCounter.h" bodystart="13" bodyend="28"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab152bae1e1a65d8d52cba5b78cd43a8c" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>drawTimeMilliSec</name></member>
       <member refid="group__GeneralGroup_1gab565c8657588a4b578f147fd10456b43" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>endDraw</name></member>

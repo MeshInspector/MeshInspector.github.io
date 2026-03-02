@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CircleObject" kind="class" language="C++" prot="public">
     <compoundname>MR::CircleObject</compoundname>
     <basecompoundref refid="classMR_1_1AddVisualProperties" prot="public" virt="non-virtual">MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter &gt;</basecompoundref>
-    <includes refid="MRCircleObject_8h" local="no">MRCircleObject.h</includes>
+    <includes refid="MRCircleObject_8h" local="no">MRMesh/MRCircleObject.h</includes>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1CircleObject_1a6619745b8f6bf405910373da45cb8f54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="20" column="6"/>
+        <location file="MRMesh/MRCircleObject.h" line="20" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1af40b5dfb76c6edd2bff5609e1beb14e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="22" column="6"/>
+        <location file="MRMesh/MRCircleObject.h" line="22" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a93090fe220169d0ebb34d3fcc16425d5" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="24" column="5"/>
+        <location file="MRMesh/MRCircleObject.h" line="24" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a213eae2656d58c2c869a7c592a70c899" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1CircleObject" kindref="compound">CircleObject</ref> &amp;</type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="25" column="18"/>
+        <location file="MRMesh/MRCircleObject.h" line="25" column="18"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a7dd05445d9524f457b174b86526f7917" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>const char *</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="28" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" bodystart="28" bodyend="28"/>
+        <location file="MRMesh/MRCircleObject.h" line="28" column="24" bodyfile="MRMesh/MRCircleObject.h" bodystart="28" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a991beec8b2a8e873d3c1325a07e90050" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="31" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" bodystart="31" bodyend="31"/>
+        <location file="MRMesh/MRCircleObject.h" line="31" column="25" bodyfile="MRMesh/MRCircleObject.h" bodystart="31" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1aa13f61ce686ebbd95f164568642be551" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -116,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="34" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" bodystart="34" bodyend="34"/>
+        <location file="MRMesh/MRCircleObject.h" line="34" column="25" bodyfile="MRMesh/MRCircleObject.h" bodystart="34" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1abec5f0f71f858d015c3d3f59b521962e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="37" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" bodystart="37" bodyend="38"/>
+        <location file="MRMesh/MRCircleObject.h" line="37" column="5" bodyfile="MRMesh/MRCircleObject.h" bodystart="37" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1ae9c8036268eeeed78dcc7531805138e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="40" column="30"/>
+        <location file="MRMesh/MRCircleObject.h" line="40" column="30"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a33a94d84daa652e3c3b97d887be4ab5c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="41" column="30"/>
+        <location file="MRMesh/MRCircleObject.h" line="41" column="30"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a11fc875b20af33ac2e864ef3aea0a504" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="44" column="13"/>
+        <location file="MRMesh/MRCircleObject.h" line="44" column="13"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1ac35a7a207e548a2782870a3d1a218de1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3f</type>
@@ -212,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="46" column="17"/>
+        <location file="MRMesh/MRCircleObject.h" line="46" column="17"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a409841b0f2ee39434fe6e55cf5982473" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3f</type>
@@ -232,7 +232,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="48" column="16"/>
+        <location file="MRMesh/MRCircleObject.h" line="48" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1af6a4f0cbede7af795365ea5250edb8c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -256,7 +256,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="50" column="11"/>
+        <location file="MRMesh/MRCircleObject.h" line="50" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a07b0144d0e669462ab75be33cb9016d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -280,7 +280,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="52" column="11"/>
+        <location file="MRMesh/MRCircleObject.h" line="52" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1ad1e182377b70f61de511f181e69bebe2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -304,7 +304,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="54" column="11"/>
+        <location file="MRMesh/MRCircleObject.h" line="54" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a71adcff077bd4cf5509cea361f0f96bb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type><ref refid="structMR_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
@@ -329,7 +329,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="56" column="39"/>
+        <location file="MRMesh/MRCircleObject.h" line="56" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a1f55c134f2c45fa0f1a3cee504d2c596" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type>const std::vector&lt; <ref refid="structMR_1_1FeatureObjectSharedProperty" kindref="compound">FeatureObjectSharedProperty</ref> &gt; &amp;</type>
@@ -345,7 +345,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="58" column="33"/>
+        <location file="MRMesh/MRCircleObject.h" line="58" column="33"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -361,7 +361,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="27" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" bodystart="27" bodyend="27"/>
+        <location file="MRMesh/MRCircleObject.h" line="27" column="33" bodyfile="MRMesh/MRCircleObject.h" bodystart="27" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a69a72ecdbb83966f8cffd271b74fe252" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>const char *</type>
@@ -375,7 +375,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="30" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" bodystart="30" bodyend="30"/>
+        <location file="MRMesh/MRCircleObject.h" line="30" column="33" bodyfile="MRMesh/MRCircleObject.h" bodystart="30" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a1ca70a82a97fb811b670be0a9b51efea" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>const char *</type>
@@ -389,7 +389,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="33" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" bodystart="33" bodyend="33"/>
+        <location file="MRMesh/MRCircleObject.h" line="33" column="33" bodyfile="MRMesh/MRCircleObject.h" bodystart="33" bodyend="33"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -409,7 +409,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="61" column="5"/>
+        <location file="MRMesh/MRCircleObject.h" line="61" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1ad3e687bc98baabb7e78eb9f51419c7f0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -429,7 +429,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="64" column="19"/>
+        <location file="MRMesh/MRCircleObject.h" line="64" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a49ecfd52791039ef148e6b809ee192f4" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -451,7 +451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="66" column="19"/>
+        <location file="MRMesh/MRCircleObject.h" line="66" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a1736c81bbbed02bdefb9e95d8b991724" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::future&lt; <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt; &gt; &gt;</type>
@@ -471,7 +471,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="68" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" bodystart="68" bodyend="71"/>
+        <location file="MRMesh/MRCircleObject.h" line="68" column="22" bodyfile="MRMesh/MRCircleObject.h" bodystart="68" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a200c9643698b13aa5c464c4797c58a73" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
@@ -495,7 +495,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="73" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" bodystart="73" bodyend="76"/>
+        <location file="MRMesh/MRCircleObject.h" line="73" column="22" bodyfile="MRMesh/MRCircleObject.h" bodystart="73" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a63eee314cf35d07e3826acf4fc92dc77" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -511,7 +511,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="78" column="11"/>
+        <location file="MRMesh/MRCircleObject.h" line="78" column="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -667,7 +667,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" bodystart="17" bodyend="79"/>
+    <location file="MRMesh/MRCircleObject.h" line="16" column="1" bodyfile="MRMesh/MRCircleObject.h" bodystart="17" bodyend="79"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>addChildBefore</name></member>

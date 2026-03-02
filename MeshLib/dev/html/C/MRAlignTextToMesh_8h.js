@@ -1,15 +1,6 @@
 var MRAlignTextToMesh_8h =
 [
     [ "MR_BendTextAlongCurveParams", "MRAlignTextToMesh_8h.html#a62175768dc7465c4a8a71dfd89aa229c", null ],
-    [ "MR_CurveFunc", "MRAlignTextToMesh_8h.html#ab736d01b412677bf61e955b279bb05c2", null ],
-    [ "MR_expected_MR_Mesh_std_string", "MRAlignTextToMesh_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
-    [ "MR_GeodesicPath", "MRAlignTextToMesh_8h.html#ac1634d1d822123ef12012bc7bf0bfa90", null ],
-    [ "MR_Mesh", "MRAlignTextToMesh_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshTriPoint", "MRAlignTextToMesh_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc", null ],
-    [ "MR_std_filesystem_path", "MRAlignTextToMesh_8h.html#a006d61fd2048bba5b5622d42cbe72526", null ],
-    [ "MR_std_string", "MRAlignTextToMesh_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
-    [ "MR_std_vector_MR_CurvePoint", "MRAlignTextToMesh_8h.html#a5fb03e93707418a937ebb703f9a455e3", null ],
-    [ "MR_std_vector_MR_EdgePoint", "MRAlignTextToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae", null ],
     [ "MR_SymbolMeshParams", "MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59", null ],
     [ "MR_TextMeshAlignParams", "MRAlignTextToMesh_8h.html#a248de3625afa5f345225a9c64501932b", null ],
     [ "MR_alignTextToMesh", "MRAlignTextToMesh_8h.html#a1af1febfdb6d97f18732c58a1b49a6a5", null ],

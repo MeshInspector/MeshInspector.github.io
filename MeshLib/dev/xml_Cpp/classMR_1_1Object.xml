@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Object" kind="class" language="C++" prot="public">
     <compoundname>MR::Object</compoundname>
     <basecompoundref refid="classMR_1_1ObjectChildrenHolder" prot="public" virt="non-virtual">MR::ObjectChildrenHolder</basecompoundref>
     <derivedcompoundref refid="classMR_1_1SceneRootObject" prot="public" virt="non-virtual">MR::SceneRootObject</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1VisualObject" prot="public" virt="non-virtual">MR::VisualObject</derivedcompoundref>
-    <includes refid="MRObject_8h" local="no">MRObject.h</includes>
+    <includes refid="MRObject_8h" local="no">MRMesh/MRObject.h</includes>
     <innerclass refid="structMR_1_1Object_1_1ProtectedStruct" prot="protected">MR::Object::ProtectedStruct</innerclass>
     <sectiondef kind="public-type">
       <memberdef kind="typedef" id="classMR_1_1Object_1adbe9460ebe355b8838a49e5a8a7d5830" prot="public" static="no">
@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="281" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="281" bodyend="-1"/>
+        <location file="MRMesh/MRObject.h" line="281" column="5" bodyfile="MRMesh/MRObject.h" bodystart="281" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="282" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="282" bodyend="-1"/>
+        <location file="MRMesh/MRObject.h" line="282" column="21" bodyfile="MRMesh/MRObject.h" bodystart="282" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="316" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="316" bodyend="-1"/>
+        <location file="MRMesh/MRObject.h" line="316" column="17" bodyfile="MRMesh/MRObject.h" bodystart="316" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Object_1a5f512c4898f6a69b782b8647109ff8e0" prot="protected" static="no" mutable="no">
         <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; AffineXf3f &gt;</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="317" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="317" bodyend="-1"/>
+        <location file="MRMesh/MRObject.h" line="317" column="22" bodyfile="MRMesh/MRObject.h" bodystart="317" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" static="no" mutable="no">
         <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="318" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="318" bodyend="-1"/>
+        <location file="MRMesh/MRObject.h" line="318" column="18" bodyfile="MRMesh/MRObject.h" bodystart="318" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Object_1a958714fb7d616e608cb16223e052052b" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="319" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="319" bodyend="-1"/>
+        <location file="MRMesh/MRObject.h" line="319" column="10" bodyfile="MRMesh/MRObject.h" bodystart="319" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Object_1a2f679f701887cee54069b81a45cc8ebc" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="320" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="320" bodyend="-1"/>
+        <location file="MRMesh/MRObject.h" line="320" column="10" bodyfile="MRMesh/MRObject.h" bodystart="320" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="321" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="321" bodyend="321"/>
+        <location file="MRMesh/MRObject.h" line="321" column="10" bodyfile="MRMesh/MRObject.h" bodystart="321" bodyend="321"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Object_1a7919fe84554abf5973d82255df4425a6" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="322" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="322" bodyend="322"/>
+        <location file="MRMesh/MRObject.h" line="322" column="10" bodyfile="MRMesh/MRObject.h" bodystart="322" bodyend="322"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" static="no" mutable="yes">
         <type>bool</type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="323" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="323" bodyend="323"/>
+        <location file="MRMesh/MRObject.h" line="323" column="18" bodyfile="MRMesh/MRObject.h" bodystart="323" bodyend="323"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" static="no" mutable="no">
         <type>std::set&lt; std::string &gt;</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="324" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="324" bodyend="-1"/>
+        <location file="MRMesh/MRObject.h" line="324" column="14" bodyfile="MRMesh/MRObject.h" bodystart="324" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -188,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="64" column="5"/>
+        <location file="MRMesh/MRObject.h" line="64" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1abac87686448c89b770d46ab30ad79dc2" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="65" column="5"/>
+        <location file="MRMesh/MRObject.h" line="65" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
@@ -222,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="66" column="13"/>
+        <location file="MRMesh/MRObject.h" line="66" column="13"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a89c09f7a1ec5ba173cd21879e3f9953e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -236,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="67" column="13"/>
+        <location file="MRMesh/MRObject.h" line="67" column="13"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a46f7be31befc01e09d18deed96127a02" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>const char *</type>
@@ -275,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="71" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="71" bodyend="71"/>
+        <location file="MRMesh/MRObject.h" line="71" column="24" bodyfile="MRMesh/MRObject.h" bodystart="71" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1affbcbbc7f5e086e26cdb5f7689557c74" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -309,7 +309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="75" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="75" bodyend="75"/>
+        <location file="MRMesh/MRObject.h" line="75" column="25" bodyfile="MRMesh/MRObject.h" bodystart="75" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a6f75a192e0d9f2bdfecdac79b4a15ae1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -343,7 +343,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="79" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="79" bodyend="79"/>
+        <location file="MRMesh/MRObject.h" line="79" column="25" bodyfile="MRMesh/MRObject.h" bodystart="79" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a1f6de8e94b4cc46c3fd7ba2cb4e6cfb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -362,7 +362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="82" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="82" bodyend="82"/>
+        <location file="MRMesh/MRObject.h" line="82" column="8" bodyfile="MRMesh/MRObject.h" bodystart="82" bodyend="82"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a64cc87b1de99f84bb49d9e0b0f24d9ea" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -381,7 +381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="84" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="84" bodyend="84"/>
+        <location file="MRMesh/MRObject.h" line="84" column="14" bodyfile="MRMesh/MRObject.h" bodystart="84" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::string &amp;</type>
@@ -395,7 +395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="86" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="86" bodyend="86"/>
+        <location file="MRMesh/MRObject.h" line="86" column="24" bodyfile="MRMesh/MRObject.h" bodystart="86" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -414,7 +414,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="87" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="87" bodyend="87"/>
+        <location file="MRMesh/MRObject.h" line="87" column="18" bodyfile="MRMesh/MRObject.h" bodystart="87" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a0520ac7d486992d1ab8e2e421b9237f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
@@ -433,7 +433,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="90" column="22"/>
+        <location file="MRMesh/MRObject.h" line="90" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a639d2e0d72c82c1efd9dc00ecaa0d3da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
@@ -451,7 +451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="91" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="91" bodyend="91"/>
+        <location file="MRMesh/MRObject.h" line="91" column="21" bodyfile="MRMesh/MRObject.h" bodystart="91" bodyend="91"/>
       </memberdef>
       <member refid="group__DataModelGroup_1gaa9133d1e63e15eb09f7f902afe2abd3a" kind="function"><name>find</name></member>
       <memberdef kind="function" id="classMR_1_1Object_1a3079240f06bd4e66c5c10dbab8a824f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -471,7 +471,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="97" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="97" bodyend="97"/>
+        <location file="MRMesh/MRObject.h" line="97" column="21" bodyfile="MRMesh/MRObject.h" bodystart="97" bodyend="97"/>
       </memberdef>
       <member refid="group__DataModelGroup_1ga595c5f842600963ee11cd5e9a3a0a7f8" kind="function"><name>find</name></member>
       <memberdef kind="function" id="classMR_1_1Object_1a7dc1382248ea0ff99064282167614a4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -495,7 +495,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="103" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="103" bodyend="103"/>
+        <location file="MRMesh/MRObject.h" line="103" column="21" bodyfile="MRMesh/MRObject.h" bodystart="103" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a603c094ba75fe76c397b93e84d1cb129" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const AffineXf3f &amp;</type>
@@ -529,7 +529,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="107" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="107" bodyend="107"/>
+        <location file="MRMesh/MRObject.h" line="107" column="23" bodyfile="MRMesh/MRObject.h" bodystart="107" bodyend="107"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a13e613fb84a7c11c723e88c920ddbfda" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -553,7 +553,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="108" column="19"/>
+        <location file="MRMesh/MRObject.h" line="108" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a28ae4cd299540ffaf382524cb03062c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -574,7 +574,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="110" column="19"/>
+        <location file="MRMesh/MRObject.h" line="110" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a695ed8027820a6f982adf8a3e393503d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; AffineXf3f &gt; &amp;</type>
@@ -589,7 +589,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="113" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="113" bodyend="113"/>
+        <location file="MRMesh/MRObject.h" line="113" column="29" bodyfile="MRMesh/MRObject.h" bodystart="113" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -608,7 +608,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="115" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="115" bodyend="115"/>
+        <location file="MRMesh/MRObject.h" line="115" column="18" bodyfile="MRMesh/MRObject.h" bodystart="115" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a2b84ff3669616f30ffec70c763993f12" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>AffineXf3f</type>
@@ -642,7 +642,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="119" column="17"/>
+        <location file="MRMesh/MRObject.h" line="119" column="17"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a61f69554fe584800b9f60fac7e7f2200" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -665,7 +665,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="120" column="11"/>
+        <location file="MRMesh/MRObject.h" line="120" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a3a68f754bb677c34f6275a6fcbc332ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -690,7 +690,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="123" column="19"/>
+        <location file="MRMesh/MRObject.h" line="123" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a33afd7cea9523c3669d9d549f1ab53b4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
@@ -705,7 +705,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="126" column="19"/>
+        <location file="MRMesh/MRObject.h" line="126" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a1a3e9aa0f80849839b009e8b82c37c94" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -725,7 +725,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="128" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="128" bodyend="128"/>
+        <location file="MRMesh/MRObject.h" line="128" column="10" bodyfile="MRMesh/MRObject.h" bodystart="128" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a2d67075395231ca81600bcf6241a6e24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -749,7 +749,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="130" column="11"/>
+        <location file="MRMesh/MRObject.h" line="130" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1ad7f9426f9adc37a95648822d1566db77" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -764,7 +764,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="133" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="133" bodyend="133"/>
+        <location file="MRMesh/MRObject.h" line="133" column="10" bodyfile="MRMesh/MRObject.h" bodystart="133" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -782,7 +782,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="134" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="134" bodyend="134"/>
+        <location file="MRMesh/MRObject.h" line="134" column="18" bodyfile="MRMesh/MRObject.h" bodystart="134" bodyend="134"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1ae6f5f78500e8c1342b7f4d7d98b03928" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -797,7 +797,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="138" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="138" bodyend="138"/>
+        <location file="MRMesh/MRObject.h" line="138" column="11" bodyfile="MRMesh/MRObject.h" bodystart="138" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -815,7 +815,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="139" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="139" bodyend="139"/>
+        <location file="MRMesh/MRObject.h" line="139" column="18" bodyfile="MRMesh/MRObject.h" bodystart="139" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a68500213a1d6e4f3b7f9fc3806fcacd1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
@@ -830,7 +830,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="142" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="142" bodyend="142"/>
+        <location file="MRMesh/MRObject.h" line="142" column="19" bodyfile="MRMesh/MRObject.h" bodystart="142" bodyend="142"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a04aa027ee39ae2bc0f084534a946c9f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
@@ -844,7 +844,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="143" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="143" bodyend="143"/>
+        <location file="MRMesh/MRObject.h" line="143" column="13" bodyfile="MRMesh/MRObject.h" bodystart="143" bodyend="143"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a253fd3912bdef96fa071f29d781225a9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -863,7 +863,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="146" column="11"/>
+        <location file="MRMesh/MRObject.h" line="146" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a831f4bf76e2d9593f570d292c549999f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
@@ -882,7 +882,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="151" column="14"/>
+        <location file="MRMesh/MRObject.h" line="151" column="14"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
@@ -900,7 +900,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="152" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="152" bodyend="155"/>
+        <location file="MRMesh/MRObject.h" line="152" column="19" bodyfile="MRMesh/MRObject.h" bodystart="152" bodyend="155"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1acde230852a1c88579a652d00e088d03a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -915,7 +915,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="159" column="19"/>
+        <location file="MRMesh/MRObject.h" line="159" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
@@ -930,7 +930,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="161" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="161" bodyend="161"/>
+        <location file="MRMesh/MRObject.h" line="161" column="23" bodyfile="MRMesh/MRObject.h" bodystart="161" bodyend="161"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::vector&lt; std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
@@ -944,7 +944,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="167" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="167" bodyend="167"/>
+        <location file="MRMesh/MRObject.h" line="167" column="23" bodyfile="MRMesh/MRObject.h" bodystart="167" bodyend="167"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -977,7 +977,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="176" column="19"/>
+        <location file="MRMesh/MRObject.h" line="176" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -1000,7 +1000,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="180" column="19"/>
+        <location file="MRMesh/MRObject.h" line="180" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -1019,7 +1019,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="182" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="182" bodyend="182"/>
+        <location file="MRMesh/MRObject.h" line="182" column="10" bodyfile="MRMesh/MRObject.h" bodystart="182" bodyend="182"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a47b1fa919826f583d492e9c5c12b448f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -1037,7 +1037,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="183" column="19"/>
+        <location file="MRMesh/MRObject.h" line="183" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a7a29a352087add682135f1b2e1c8030e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1052,7 +1052,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="185" column="19"/>
+        <location file="MRMesh/MRObject.h" line="185" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a4cf0bc879b98d57f31a9787e357dce2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1067,7 +1067,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="187" column="11"/>
+        <location file="MRMesh/MRObject.h" line="187" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a6a0d3c1523518070b289fea6871fb3b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -1088,7 +1088,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="190" column="19"/>
+        <location file="MRMesh/MRObject.h" line="190" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>bool</type>
@@ -1096,16 +1096,13 @@
         <argsstring>() const</argsstring>
         <name>isSelected</name>
         <qualifiedname>MR::Object::isSelected</qualifiedname>
-        <reimplementedby refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase_1a149210ca6db44ac261556f0531230df6">isSelected</reimplementedby>
-        <reimplementedby refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase_1a149210ca6db44ac261556f0531230df6">isSelected</reimplementedby>
-        <reimplementedby refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase_1a149210ca6db44ac261556f0531230df6">isSelected</reimplementedby>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="191" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="191" bodyend="191"/>
+        <location file="MRMesh/MRObject.h" line="191" column="18" bodyfile="MRMesh/MRObject.h" bodystart="191" bodyend="191"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1aff1c500650f7ae09501f12d0830ebe69" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1125,7 +1122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="195" column="19"/>
+        <location file="MRMesh/MRObject.h" line="195" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -1139,7 +1136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="196" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="196" bodyend="196"/>
+        <location file="MRMesh/MRObject.h" line="196" column="10" bodyfile="MRMesh/MRObject.h" bodystart="196" bodyend="196"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a67ca42a9190dd34feda17f5c75fa676c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1154,7 +1151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="198" column="11"/>
+        <location file="MRMesh/MRObject.h" line="198" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a7c38cdec34f5eb072645d48c9c348046" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1178,7 +1175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="201" column="11"/>
+        <location file="MRMesh/MRObject.h" line="201" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -1198,7 +1195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="203" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="203" bodyend="203"/>
+        <location file="MRMesh/MRObject.h" line="203" column="10" bodyfile="MRMesh/MRObject.h" bodystart="203" bodyend="203"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1abd94110891bc5e4715ab564a4912a01a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1217,7 +1214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="205" column="19"/>
+        <location file="MRMesh/MRObject.h" line="205" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
@@ -1232,7 +1229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="207" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="207" bodyend="207"/>
+        <location file="MRMesh/MRObject.h" line="207" column="26" bodyfile="MRMesh/MRObject.h" bodystart="207" bodyend="207"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a4ae8a13d0528c5937e200015938b6dc5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>bool</type>
@@ -1252,7 +1249,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="210" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="210" bodyend="210"/>
+        <location file="MRMesh/MRObject.h" line="210" column="18" bodyfile="MRMesh/MRObject.h" bodystart="210" bodyend="210"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a9dc77f3f61430395182e8402e6e6f410" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1266,7 +1263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="211" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="211" bodyend="211"/>
+        <location file="MRMesh/MRObject.h" line="211" column="10" bodyfile="MRMesh/MRObject.h" bodystart="211" bodyend="211"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1ad1ccd26177dbfce7701ea0c9258f755a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
@@ -1281,7 +1278,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="214" column="22"/>
+        <location file="MRMesh/MRObject.h" line="214" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a3d0d34710d4460c82c6e1a0b641b49ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
@@ -1320,7 +1317,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="216" column="30"/>
+        <location file="MRMesh/MRObject.h" line="216" column="30"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a406d860dc855babd99ec6eb2eccd06d8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
@@ -1335,7 +1332,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="219" column="22"/>
+        <location file="MRMesh/MRObject.h" line="219" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a04daf2482cff43d36ae8c6f34faae22d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
@@ -1373,7 +1370,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="222" column="30"/>
+        <location file="MRMesh/MRObject.h" line="222" column="30"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a7f2ed80a457d4cb01790c861267af3be" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::vector&lt; std::string &gt;</type>
@@ -1398,7 +1395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="225" column="26"/>
+        <location file="MRMesh/MRObject.h" line="225" column="26"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a816a99fe61e3ee86b2dddb57fc65aef9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; std::future&lt; <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt; &gt; &gt; &gt;</type>
@@ -1434,7 +1431,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="234" column="30"/>
+        <location file="MRMesh/MRObject.h" line="234" column="30"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a5ad7a9244371a01ba7538ff24ce15165" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
@@ -1467,7 +1464,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="239" column="15"/>
+        <location file="MRMesh/MRObject.h" line="239" column="15"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1af6d1058c77b340a20c6cfaf8ccbf48fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1486,7 +1483,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="245" column="11"/>
+        <location file="MRMesh/MRObject.h" line="245" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1aeb145057d6707527c3d60d9f459ec2b4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>Box3f</type>
@@ -1510,7 +1507,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="248" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="248" bodyend="248"/>
+        <location file="MRMesh/MRObject.h" line="248" column="19" bodyfile="MRMesh/MRObject.h" bodystart="248" bodyend="248"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1ad214d65abcf7233510a268c7d615beda" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Box3f</type>
@@ -1530,7 +1527,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="250" column="12"/>
+        <location file="MRMesh/MRObject.h" line="250" column="12"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a9f8a60330354b5cd43536c22bed08f3d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>bool</type>
@@ -1551,7 +1548,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="253" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="253" bodyend="253"/>
+        <location file="MRMesh/MRObject.h" line="253" column="19" bodyfile="MRMesh/MRObject.h" bodystart="253" bodyend="253"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a376cb1be36addec5afd14487533e6693" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>bool</type>
@@ -1571,7 +1568,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="257" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="257" bodyend="257"/>
+        <location file="MRMesh/MRObject.h" line="257" column="19" bodyfile="MRMesh/MRObject.h" bodystart="257" bodyend="257"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::set&lt; std::string &gt; &amp;</type>
@@ -1586,7 +1583,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="261" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="261" bodyend="261"/>
+        <location file="MRMesh/MRObject.h" line="261" column="20" bodyfile="MRMesh/MRObject.h" bodystart="261" bodyend="261"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a56371d5594dc04ece2f123377835e11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1605,7 +1602,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="265" column="11"/>
+        <location file="MRMesh/MRObject.h" line="265" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1aaf5c6ed94ae5c2460bd980f52836d6c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1624,7 +1621,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="268" column="11"/>
+        <location file="MRMesh/MRObject.h" line="268" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a5604698e40028be9831f88ae7b25cd8e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type>size_t</type>
@@ -1647,7 +1644,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="271" column="22"/>
+        <location file="MRMesh/MRObject.h" line="271" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1abea48cadbb0a62e3251ab0dc7fea2976" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -1667,7 +1664,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="274" column="19"/>
+        <location file="MRMesh/MRObject.h" line="274" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a3f895610f42b2b4dec3e99d8b0920ecf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>size_t</type>
@@ -1683,7 +1680,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="276" column="21"/>
+        <location file="MRMesh/MRObject.h" line="276" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a795eb7eeaecc99cf34dabd14ac113e0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -1707,7 +1704,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="287" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="287" bodyend="287"/>
+        <location file="MRMesh/MRObject.h" line="287" column="5" bodyfile="MRMesh/MRObject.h" bodystart="287" bodyend="287"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -1724,7 +1721,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="70" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="70" bodyend="70"/>
+        <location file="MRMesh/MRObject.h" line="70" column="33" bodyfile="MRMesh/MRObject.h" bodystart="70" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1aabde5426250bcc724ead68efd97e4be2" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>const char *</type>
@@ -1739,7 +1736,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="74" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="74" bodyend="74"/>
+        <location file="MRMesh/MRObject.h" line="74" column="33" bodyfile="MRMesh/MRObject.h" bodystart="74" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a4ab2cadfadf02977ff6a11256d9e4d54" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>const char *</type>
@@ -1754,7 +1751,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="78" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="78" bodyend="78"/>
+        <location file="MRMesh/MRObject.h" line="78" column="33" bodyfile="MRMesh/MRObject.h" bodystart="78" bodyend="78"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -1775,7 +1772,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="291" column="5"/>
+        <location file="MRMesh/MRObject.h" line="291" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a91ab78dc593781da4dbda7960a376fee" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1817,7 +1814,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="294" column="19"/>
+        <location file="MRMesh/MRObject.h" line="294" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a379568377624da7413adaabeac8222d2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1843,7 +1840,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="297" column="19"/>
+        <location file="MRMesh/MRObject.h" line="297" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a50700fd5697a12cef45947f3b26adc2b" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::future&lt; <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt; &gt; &gt;</type>
@@ -1873,7 +1870,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="301" column="23"/>
+        <location file="MRMesh/MRObject.h" line="301" column="23"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1af1776b0b1ac82e06055823a9cac2eafa" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1919,7 +1916,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="305" column="19"/>
+        <location file="MRMesh/MRObject.h" line="305" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a24103b426aec928b849c1c5aed3849fd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
@@ -1955,7 +1952,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="308" column="23"/>
+        <location file="MRMesh/MRObject.h" line="308" column="23"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1ae255ade2b73c7c74b291f272f5073e73" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
@@ -1975,7 +1972,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="310" column="23"/>
+        <location file="MRMesh/MRObject.h" line="310" column="23"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1ace37b35645d3a70bd3bd51339b19d2bc" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -2011,7 +2008,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="314" column="19"/>
+        <location file="MRMesh/MRObject.h" line="314" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a51befbcd75bb0e8dabe65ab428c0ca61" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2026,7 +2023,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="329" column="11"/>
+        <location file="MRMesh/MRObject.h" line="329" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1aac36fc983d44d6c7aca1abc5d12dd457" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -2044,7 +2041,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="332" column="19"/>
+        <location file="MRMesh/MRObject.h" line="332" column="19"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -2076,7 +2073,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="336" column="14"/>
+        <location file="MRMesh/MRObject.h" line="336" column="14"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1ad45231879b5ca6ac91ec634a08fd853a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
@@ -2110,7 +2107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="341" column="14"/>
+        <location file="MRMesh/MRObject.h" line="341" column="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -2195,10 +2192,10 @@
         <label>MR::ObjectChildrenHolder</label>
         <link refid="classMR_1_1ObjectChildrenHolder"/>
       </node>
-      <node id="30">
+      <node id="28">
         <label>MR::ObjectDistanceMap</label>
         <link refid="classMR_1_1ObjectDistanceMap"/>
-        <childnode refid="29" relation="public-inheritance">
+        <childnode refid="27" relation="public-inheritance">
         </childnode>
       </node>
       <node id="24">
@@ -2231,34 +2228,34 @@
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="31">
+      <node id="29">
         <label>MR::ObjectMesh</label>
         <link refid="classMR_1_1ObjectMesh"/>
-        <childnode refid="29" relation="public-inheritance">
+        <childnode refid="27" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="29">
+      <node id="27">
         <label>MR::ObjectMeshHolder</label>
         <link refid="classMR_1_1ObjectMeshHolder"/>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="37">
+      <node id="33">
         <label>MR::ObjectPoints</label>
         <link refid="classMR_1_1ObjectPoints"/>
-        <childnode refid="36" relation="public-inheritance">
+        <childnode refid="32" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="36">
+      <node id="32">
         <label>MR::ObjectPointsHolder</label>
         <link refid="classMR_1_1ObjectPointsHolder"/>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="35">
+      <node id="31">
         <label>MR::ObjectVoxels</label>
         <link refid="classMR_1_1ObjectVoxels"/>
-        <childnode refid="29" relation="public-inheritance">
+        <childnode refid="27" relation="public-inheritance">
         </childnode>
       </node>
       <node id="14">
@@ -2285,58 +2282,28 @@
         <childnode refid="16" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="28">
-        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
-        <childnode refid="27" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="34">
-        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
-        <childnode refid="33" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="40">
-        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
-        <childnode refid="39" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="27">
-        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, ObjectLines &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
-        <childnode refid="26" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="33">
-        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, ObjectMesh &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
-        <childnode refid="32" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="39">
-        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, ObjectPoints &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
-        <childnode refid="38" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="26">
         <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectLines &gt;</label>
         <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4"/>
         <childnode refid="25" relation="public-inheritance">
         </childnode>
-      </node>
-      <node id="32">
-        <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectMesh &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4"/>
-        <childnode refid="31" relation="public-inheritance">
+        <childnode refid="25" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="38">
+      <node id="30">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectMesh &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
         <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectPoints &gt;</label>
         <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4"/>
-        <childnode refid="37" relation="public-inheritance">
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+        <childnode refid="33" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">
@@ -2399,7 +2366,7 @@
         <label>boost::signals2::signal&lt; void() &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="61" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="62" bodyend="343"/>
+    <location file="MRMesh/MRObject.h" line="61" column="1" bodyfile="MRMesh/MRObject.h" bodystart="62" bodyend="343"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::Object</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::Object</scope><name>addChildBefore</name></member>

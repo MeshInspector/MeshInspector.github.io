@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PointsSave_1_1CtmSavePointsOptions" kind="struct" language="C++" prot="public">
     <compoundname>MR::PointsSave::CtmSavePointsOptions</compoundname>
     <basecompoundref refid="structMR_1_1SaveSettings" prot="public" virt="non-virtual">MR::SaveSettings</basecompoundref>
-    <includes refid="MRCtm_8h" local="no">MRCtm.h</includes>
+    <includes refid="MRCtm_8h" local="no">MRIOExtras/MRCtm.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga93bcbf8ddd9c5a89210bf3cf9f8acbef" kind="variable"><name>compressionLevel</name></member>
       <member refid="group__GeneralGroup_1ga5f613f44fae6b6a33f13f57fc0161a01" kind="variable"><name>comment</name></member>
@@ -49,7 +49,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="70" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" bodystart="71" bodyend="76"/>
+    <location file="MRIOExtras/MRCtm.h" line="70" column="1" bodyfile="MRIOExtras/MRCtm.h" bodystart="71" bodyend="76"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga6aa78ab8ac3342aaeb267aa07e82721a" prot="public" virt="non-virtual"><scope>MR::PointsSave::CtmSavePointsOptions</scope><name>colors</name></member>
       <member refid="group__GeneralGroup_1ga5f613f44fae6b6a33f13f57fc0161a01" prot="public" virt="non-virtual"><scope>MR::PointsSave::CtmSavePointsOptions</scope><name>comment</name></member>

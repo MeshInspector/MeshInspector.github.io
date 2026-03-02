@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AncillaryImGuiLabel" kind="class" language="C++" prot="public">
     <compoundname>MR::AncillaryImGuiLabel</compoundname>
     <basecompoundref refid="structMR_1_1PreDrawListener" prot="public" virt="non-virtual">MR::PreDrawListener</basecompoundref>
-    <includes refid="MRAncillaryLabels_8h" local="no">MRAncillaryLabels.h</includes>
+    <includes refid="MRAncillaryLabels_8h" local="no">MRViewer/MRAncillaryLabels.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gad8142d902afd24b85597ecece31a3aa5" kind="variable"><name>parent_</name></member>
       <member refid="group__GeneralGroup_1gad212525dca4ea08ac96d5b0f63597d34" kind="variable"><name>pivot_</name></member>
@@ -79,7 +79,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="64" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" bodystart="65" bodyend="102"/>
+    <location file="MRViewer/MRAncillaryLabels.h" line="64" column="1" bodyfile="MRViewer/MRAncillaryLabels.h" bodystart="65" bodyend="102"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gade10d031eb7e19c1db2f6ef122332293" prot="public" virt="non-virtual"><scope>MR::AncillaryImGuiLabel</scope><name>AncillaryImGuiLabel</name></member>
       <member refid="group__GeneralGroup_1ga11a2606430cb36b32bb169a8b602e88d" prot="public" virt="virtual"><scope>MR::AncillaryImGuiLabel</scope><name>connect</name></member>

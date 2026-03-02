@@ -1,9 +1,6 @@
 var MRMeshDivideWithPlane_8h =
 [
     [ "MR_DivideMeshWithPlaneParams", "MRMeshDivideWithPlane_8h.html#a4d3a4c82c58f6a810bddd36cf061cefa", null ],
-    [ "MR_ObjectMeshData", "MRMeshDivideWithPlane_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e", null ],
-    [ "MR_Plane3f", "MRMeshDivideWithPlane_8h.html#aa7548d3448b3b7da1ea96433fe902e9a", null ],
-    [ "MR_std_vector_std_string", "MRMeshDivideWithPlane_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900", null ],
     [ "MR_divideMeshWithPlane", "MRMeshDivideWithPlane_8h.html#a875fdcb97b4ecf285f1d630cbde19bf5", null ],
     [ "MR_DivideMeshWithPlaneParams_AssignFromAnother", "MRMeshDivideWithPlane_8h.html#aef0ecdf68576ddc94642495911faf7d3", null ],
     [ "MR_DivideMeshWithPlaneParams_ConstructFrom", "MRMeshDivideWithPlane_8h.html#a824c162b352f7c95e834d1d6e7265d69", null ],

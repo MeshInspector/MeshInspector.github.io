@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRTiffIO_8h" kind="file" language="C++">
     <compoundname>MRTiffIO.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -53,7 +53,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRTiffIO.h</label>
+        <label>MRMesh/MRTiffIO.h</label>
         <link refid="MRTiffIO_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -176,18 +176,18 @@
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1gaaf63d045d0a43afd72404a7a0d4f862f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaf63d045d0a43afd72404a7a0d4f862f" kindref="member">SampleType</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5a3058ad1eccd44efa6030c506332e44" kindref="member">Unknown</ref>,</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fafa28cf323a8d44edbf80f68165f4f75b" kindref="member">Uint</ref>,</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52" kindref="member">Int</ref>,</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b" kindref="member">Float</ref></highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5a3058ad1eccd44efa6030c506332e44" kindref="member">Unknown</ref>,</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fafa28cf323a8d44edbf80f68165f4f75b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fafa28cf323a8d44edbf80f68165f4f75b" kindref="member">Uint</ref>,</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52" kindref="member">Int</ref>,</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b" kindref="member">Float</ref></highlight></codeline>
 <codeline lineno="24" refid="group__GeneralGroup_1ga5a3058ad1eccd44efa6030c506332e44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>sampleType{<sp/><ref refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">SampleType::Unknown</ref><sp/>};</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="group__GeneralGroup_1ga29407caa933d6665768b37358d7733e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga29407caa933d6665768b37358d7733e0" kindref="member">ValueType</ref></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5a3058ad1eccd44efa6030c506332e44" kindref="member">Unknown</ref>,</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74" kindref="member">Scalar</ref>,</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028" kindref="member">RGB</ref>,</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f" kindref="member">RGBA</ref>,</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5a3058ad1eccd44efa6030c506332e44" kindref="member">Unknown</ref>,</highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74" kindref="member">Scalar</ref>,</highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028" kindref="member">RGB</ref>,</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f" kindref="member">RGBA</ref>,</highlight></codeline>
 <codeline lineno="32" refid="group__GeneralGroup_1gadc1dce84dde29a56c33ce9d8fd1e0d8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>valueType{<sp/><ref refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">ValueType::Unknown</ref><sp/>};</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35" refid="group__GeneralGroup_1ga3ff0d181f2553f8714d635e264f383c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3ff0d181f2553f8714d635e264f383c7" kindref="member">bytesPerSample</ref><sp/>=<sp/>0;</highlight></codeline>
@@ -244,6 +244,6 @@
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h"/>
+    <location file="MRMesh/MRTiffIO.h"/>
   </compounddef>
 </doxygen>

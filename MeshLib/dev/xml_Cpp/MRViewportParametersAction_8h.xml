@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRViewportParametersAction_8h" kind="file" language="C++">
     <compoundname>MRViewportParametersAction.h</compoundname>
     <includes refid="MRHistoryAction_8h" local="no">MRMesh/MRHistoryAction.h</includes>
@@ -488,7 +488,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRViewportParametersAction.h</label>
+        <label>MRViewer/MRViewportParametersAction.h</label>
         <link refid="MRViewportParametersAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -598,8 +598,8 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"></codeline>
-<codeline lineno="16" refid="classMR_1_1ViewportParametersAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ViewportParametersAction" kindref="compound">ViewportParametersAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1ViewportParametersAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__HistoryGroup_1ga07eb725cd57069bb90b37cc3970a4c40" kindref="member">ViewportParametersAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="20" refid="group__HistoryGroup_1ga07eb725cd57069bb90b37cc3970a4c40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__HistoryGroup_1ga07eb725cd57069bb90b37cc3970a4c40" kindref="member">ViewportParametersAction</ref>(<sp/>std::string<sp/><ref refid="group__HistoryGroup_1ga6b90613818f7b81547a5b0bba1d40c39" kindref="member">name</ref>,<sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>viewports<sp/>=<sp/><ref refid="classMR_1_1ViewportMask_1a46b7527f0e3a3394b41be2515c171747" kindref="member">ViewportMask::all</ref>()<sp/>)<sp/>:</highlight></codeline>
@@ -607,7 +607,7 @@
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>*<sp/>viewer<sp/>=<sp/>&amp;<ref refid="group__GeneralGroup_1ga8b214a239776e9c466820912e4449a2f" kindref="member">getViewerInstance</ref>();</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>:<sp/>viewports<sp/>&amp;<sp/>viewer-&gt;<ref refid="group__GeneralGroup_1ga31d6494e00e43d9afe0c2ca0c089c075" kindref="member">getPresentViewports</ref>()<sp/>)</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>saveParameters_.push_back(<sp/>{<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>viewer-&gt;<ref refid="group__GeneralGroup_1ga2135a45dc216425b8c22edb5a21b322b" kindref="member">viewport</ref>(<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>).<ref refid="group__GeneralGroup_1ga926a8d8f0ce76178064c958cdb012a10" kindref="member">getParameters</ref>()<sp/>}<sp/>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>saveParameters_.push_back(<sp/>{<sp/>id,<sp/>viewer-&gt;<ref refid="group__GeneralGroup_1ga2135a45dc216425b8c22edb5a21b322b" kindref="member">viewport</ref>(<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>).<ref refid="group__GeneralGroup_1ga926a8d8f0ce76178064c958cdb012a10" kindref="member">getParameters</ref>()<sp/>}<sp/>);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28" refid="group__HistoryGroup_1ga6b90613818f7b81547a5b0bba1d40c39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__HistoryGroup_1ga6b90613818f7b81547a5b0bba1d40c39" kindref="member">name</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override</highlight></codeline>
@@ -638,8 +638,8 @@
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;</highlight></codeline>
 <codeline lineno="55"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportParametersAction.h"/>
+    <location file="MRViewer/MRViewportParametersAction.h"/>
   </compounddef>
 </doxygen>

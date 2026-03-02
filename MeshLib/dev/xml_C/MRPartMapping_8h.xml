@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPartMapping_8h" kind="file" language="C++">
     <compoundname>MRPartMapping.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -20,61 +20,6 @@
         <label>stddef.h</label>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPartMapping_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" prot="public" static="no">
-        <type>struct <ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref></type>
-        <definition>typedef struct MR_MapOrHashMap_MR_FaceId_MR_FaceId MR_MapOrHashMap_MR_FaceId_MR_FaceId</definition>
-        <argsstring></argsstring>
-        <name>MR_MapOrHashMap_MR_FaceId_MR_FaceId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="11" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPartMapping_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" prot="public" static="no">
-        <type>struct <ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref></type>
-        <definition>typedef struct MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</definition>
-        <argsstring></argsstring>
-        <name>MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="12" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPartMapping_8h_1acd6bd095c22453249b40b705a980d74c" prot="public" static="no">
-        <type>struct <ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref></type>
-        <definition>typedef struct MR_MapOrHashMap_MR_VertId_MR_VertId MR_MapOrHashMap_MR_VertId_MR_VertId</definition>
-        <argsstring></argsstring>
-        <name>MR_MapOrHashMap_MR_VertId_MR_VertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="13" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPartMapping_8h_1ac262f87c0239d73aafc464289f6eb02e" prot="public" static="no">
-        <type>struct <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref></type>
-        <definition>typedef struct MR_PartMapping MR_PartMapping</definition>
-        <argsstring></argsstring>
-        <name>MR_PartMapping</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>mapping among elements of source mesh, from which a part is taken, and target mesh Generated from class <computeroutput>MR::PartMapping</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" line="19" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPartMapping.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRPartMapping_8h_1aa57e54d2e7a1842e060c5bca07a7ecad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref> *const *</type>
@@ -569,7 +514,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PartMapping</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -587,7 +532,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PartMapping</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -651,29 +596,29 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRPartMapping_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMapOrHashMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRPartMapping_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref><sp/><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMapOrHashMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRPartMapping_8h_1acd6bd095c22453249b40b705a980d74c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref><sp/><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMapOrHashMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMapOrHashMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref><sp/><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMapOrHashMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref><sp/><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMapOrHashMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRPartMapping_8h_1ac262f87c0239d73aafc464289f6eb02e" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>source.id<sp/>-&gt;<sp/>target.id</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>each<sp/>map<sp/>here<sp/>can<sp/>be<sp/>either<sp/>dense<sp/>vector<sp/>or<sp/>hash<sp/>map,<sp/>the<sp/>type<sp/>is<sp/>set<sp/>by<sp/>the<sp/>user<sp/>and<sp/>preserved<sp/>by<sp/>mesh<sp/>copying<sp/>functions;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dense<sp/>maps<sp/>are<sp/>better<sp/>by<sp/>speed<sp/>and<sp/>memory<sp/>when<sp/>source<sp/>mesh<sp/>is<sp/>packed<sp/>and<sp/>must<sp/>be<sp/>copied<sp/>entirely;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hash<sp/>maps<sp/>minimize<sp/>memory<sp/>consumption<sp/>when<sp/>only<sp/>a<sp/>small<sp/>portion<sp/>of<sp/>source<sp/>mesh<sp/>is<sp/>copied</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hash<sp/>maps<sp/>minimize<sp/>memory<sp/>consumption<sp/>when<sp/>only<sp/>a<sp/>small<sp/>portion<sp/>of<sp/>source<sp/>mesh<sp/>is<sp/>copied</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="MRPartMapping_8h_1aa57e54d2e7a1842e060c5bca07a7ecad" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPartMapping_8h_1aa57e54d2e7a1842e060c5bca07a7ecad" kindref="member">MR_PartMapping_Get_src2tgtFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>source.id<sp/>-&gt;<sp/>target.id</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>each<sp/>map<sp/>here<sp/>can<sp/>be<sp/>either<sp/>dense<sp/>vector<sp/>or<sp/>hash<sp/>map,<sp/>the<sp/>type<sp/>is<sp/>set<sp/>by<sp/>the<sp/>user<sp/>and<sp/>preserved<sp/>by<sp/>mesh<sp/>copying<sp/>functions;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dense<sp/>maps<sp/>are<sp/>better<sp/>by<sp/>speed<sp/>and<sp/>memory<sp/>when<sp/>source<sp/>mesh<sp/>is<sp/>packed<sp/>and<sp/>must<sp/>be<sp/>copied<sp/>entirely;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hash<sp/>maps<sp/>minimize<sp/>memory<sp/>consumption<sp/>when<sp/>only<sp/>a<sp/>small<sp/>portion<sp/>of<sp/>source<sp/>mesh<sp/>is<sp/>copied</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hash<sp/>maps<sp/>minimize<sp/>memory<sp/>consumption<sp/>when<sp/>only<sp/>a<sp/>small<sp/>portion<sp/>of<sp/>source<sp/>mesh<sp/>is<sp/>copied</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="39" refid="MRPartMapping_8h_1a103cfcb0f72e5e0dee80506758b21c92" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPartMapping_8h_1a103cfcb0f72e5e0dee80506758b21c92" kindref="member">MR_PartMapping_Set_src2tgtFaces</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this,<sp/><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>source.id<sp/>-&gt;<sp/>target.id</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//<sp/>each<sp/>map<sp/>here<sp/>can<sp/>be<sp/>either<sp/>dense<sp/>vector<sp/>or<sp/>hash<sp/>map,<sp/>the<sp/>type<sp/>is<sp/>set<sp/>by<sp/>the<sp/>user<sp/>and<sp/>preserved<sp/>by<sp/>mesh<sp/>copying<sp/>functions;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dense<sp/>maps<sp/>are<sp/>better<sp/>by<sp/>speed<sp/>and<sp/>memory<sp/>when<sp/>source<sp/>mesh<sp/>is<sp/>packed<sp/>and<sp/>must<sp/>be<sp/>copied<sp/>entirely;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hash<sp/>maps<sp/>minimize<sp/>memory<sp/>consumption<sp/>when<sp/>only<sp/>a<sp/>small<sp/>portion<sp/>of<sp/>source<sp/>mesh<sp/>is<sp/>copied</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//<sp/>hash<sp/>maps<sp/>minimize<sp/>memory<sp/>consumption<sp/>when<sp/>only<sp/>a<sp/>small<sp/>portion<sp/>of<sp/>source<sp/>mesh<sp/>is<sp/>copied</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="49" refid="MRPartMapping_8h_1a343350fa2bac893a5381909844408bd6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/>**<ref refid="MRPartMapping_8h_1a343350fa2bac893a5381909844408bd6" kindref="member">MR_PartMapping_GetMutable_src2tgtFaces</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
 <codeline lineno="55" refid="MRPartMapping_8h_1a5e74bf56ec526199595b48952db70952" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPartMapping_8h_1a5e74bf56ec526199595b48952db70952" kindref="member">MR_PartMapping_Get_src2tgtVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
@@ -689,15 +634,15 @@
 <codeline lineno="85" refid="MRPartMapping_8h_1a1921c7fadf79d66dcf012e0dee7f9244" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapEdge_8h_1ae760fe9ce6adc57f4029ea7cdd2a8006" kindref="member">MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId</ref><sp/>**<ref refid="MRPartMapping_8h_1a1921c7fadf79d66dcf012e0dee7f9244" kindref="member">MR_PartMapping_GetMutable_src2tgtEdges</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//<sp/>target.id<sp/>-&gt;<sp/>source.id</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dense<sp/>vectors<sp/>are<sp/>better<sp/>by<sp/>speed<sp/>and<sp/>memory<sp/>when<sp/>target<sp/>mesh<sp/>was<sp/>empty<sp/>before<sp/>copying</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dense<sp/>vectors<sp/>are<sp/>better<sp/>by<sp/>speed<sp/>and<sp/>memory<sp/>when<sp/>target<sp/>mesh<sp/>was<sp/>empty<sp/>before<sp/>copying</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="93" refid="MRPartMapping_8h_1adced476a1d57ad4f2c62f1e390d4f795" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPartMapping_8h_1adced476a1d57ad4f2c62f1e390d4f795" kindref="member">MR_PartMapping_Get_tgt2srcFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment">//<sp/>target.id<sp/>-&gt;<sp/>source.id</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dense<sp/>vectors<sp/>are<sp/>better<sp/>by<sp/>speed<sp/>and<sp/>memory<sp/>when<sp/>target<sp/>mesh<sp/>was<sp/>empty<sp/>before<sp/>copying</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dense<sp/>vectors<sp/>are<sp/>better<sp/>by<sp/>speed<sp/>and<sp/>memory<sp/>when<sp/>target<sp/>mesh<sp/>was<sp/>empty<sp/>before<sp/>copying</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="101" refid="MRPartMapping_8h_1a3e1fe2d9fc416573f8979f8d6fcdabb9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPartMapping_8h_1a3e1fe2d9fc416573f8979f8d6fcdabb9" kindref="member">MR_PartMapping_Set_tgt2srcFaces</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this,<sp/><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment">//<sp/>target.id<sp/>-&gt;<sp/>source.id</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dense<sp/>vectors<sp/>are<sp/>better<sp/>by<sp/>speed<sp/>and<sp/>memory<sp/>when<sp/>target<sp/>mesh<sp/>was<sp/>empty<sp/>before<sp/>copying</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dense<sp/>vectors<sp/>are<sp/>better<sp/>by<sp/>speed<sp/>and<sp/>memory<sp/>when<sp/>target<sp/>mesh<sp/>was<sp/>empty<sp/>before<sp/>copying</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="109" refid="MRPartMapping_8h_1a5ab13cd54255274464355a64da7c511c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapOrHashMap_8h_1ac3f1b433f2be3aac9d0560c02e8c18ff" kindref="member">MR_MapOrHashMap_MR_FaceId_MR_FaceId</ref><sp/>**<ref refid="MRPartMapping_8h_1a5ab13cd54255274464355a64da7c511c" kindref="member">MR_PartMapping_GetMutable_tgt2srcFaces</ref>(<ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
 <codeline lineno="115" refid="MRPartMapping_8h_1ad38422fde32c0c32e765b001838c7ff1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMapOrHashMap_8h_1acd6bd095c22453249b40b705a980d74c" kindref="member">MR_MapOrHashMap_MR_VertId_MR_VertId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPartMapping_8h_1ad38422fde32c0c32e765b001838c7ff1" kindref="member">MR_PartMapping_Get_tgt2srcVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*_this);</highlight></codeline>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector" kind="class" language="C++" prot="public">
     <compoundname>MR::Vector</compoundname>
-    <includes refid="MRVector_8h" local="no">MRVector.h</includes>
+    <includes refid="MRVector_8h" local="no">MRMesh/MRVector.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -84,7 +84,7 @@
 </parameterlist>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="23" bodyend="167"/>
+    <location file="MRMesh/MRVector.h" line="22" column="1" bodyfile="MRMesh/MRVector.h" bodystart="23" bodyend="167"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga34cbfbd253ebde3284a83172a4443540" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>autoResizeAt</name></member>
       <member refid="group__GeneralGroup_1gaf0951dea97b2041bcf0b554bf3f92408" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>autoResizeSet</name></member>

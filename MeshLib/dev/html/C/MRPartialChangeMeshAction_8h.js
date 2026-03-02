@@ -1,17 +1,7 @@
 var MRPartialChangeMeshAction_8h =
 [
     [ "MR_CmpOld", "MRPartialChangeMeshAction_8h.html#afb8885e687634fbf1e0a00192fee895e", null ],
-    [ "MR_HistoryAction", "MRPartialChangeMeshAction_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
-    [ "MR_Mesh", "MRPartialChangeMeshAction_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshTopology", "MRPartialChangeMeshAction_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
-    [ "MR_PartialChangeMeshAction", "MRPartialChangeMeshAction_8h.html#a1dfeb0a82f9c635c37b1371bb1d3f22e", null ],
-    [ "MR_PartialChangeMeshPointsAction", "MRPartialChangeMeshAction_8h.html#ab22704b3df03315a3c89a759b652cbdc", null ],
-    [ "MR_PartialChangeMeshTopologyAction", "MRPartialChangeMeshAction_8h.html#adc5ac8e6f23fe577afaf4687a65d4696", null ],
     [ "MR_SetNew", "MRPartialChangeMeshAction_8h.html#a75c6059c71dc0c587331379530d9d01c", null ],
-    [ "MR_std_shared_ptr_MR_Mesh", "MRPartialChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed", null ],
-    [ "MR_std_shared_ptr_MR_ObjectMesh", "MRPartialChangeMeshAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a", null ],
-    [ "MR_std_string", "MRPartialChangeMeshAction_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
-    [ "MR_VertCoords", "MRPartialChangeMeshAction_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_CmpOld_AssignFromAnother", "MRPartialChangeMeshAction_8h.html#addc8fffe142bcafd127bf497dd9eb09d", null ],
     [ "MR_CmpOld_ConstructFromAnother", "MRPartialChangeMeshAction_8h.html#a1226eda1e7aa98625de33d700341619e", null ],
     [ "MR_CmpOld_DefaultConstruct", "MRPartialChangeMeshAction_8h.html#aee5897d6ae7171b5c343a8a6acddbf49", null ],

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRComputeBoundingBox_8h" kind="file" language="C++">
     <compoundname>MRComputeBoundingBox.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -54,7 +54,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRComputeBoundingBox.h</label>
+        <label>MRMesh/MRComputeBoundingBox.h</label>
         <link refid="MRComputeBoundingBox_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -210,23 +210,23 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
 <codeline lineno="19" refid="group__MathGroup_1ga3b002e846a245cb69384c1d444ea65a0" refkind="member"><highlight class="normal"><ref refid="structMR_1_1Box" kindref="compound">Box&lt;V&gt;</ref><sp/><ref refid="group__MathGroup_1ga3b002e846a245cb69384c1d444ea65a0" kindref="member">computeBoundingBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;V, VertId&gt;</ref><sp/>&amp;<sp/>points,<sp/>VertId<sp/>firstVert,<sp/>VertId<sp/>lastVert,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf&lt;V&gt;</ref>*<sp/>toWorld<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
 <codeline lineno="26" refid="group__MathGroup_1ga560ffd3d317d3bb18df9db6aae8c2d02" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Box" kindref="compound">Box&lt;V&gt;</ref><sp/><ref refid="group__MathGroup_1ga3b002e846a245cb69384c1d444ea65a0" kindref="member">computeBoundingBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;V, VertId&gt;</ref><sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf&lt;V&gt;</ref>*<sp/>toWorld<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)</highlight></codeline>
 <codeline lineno="27"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__MathGroup_1ga3b002e846a245cb69384c1d444ea65a0" kindref="member">computeBoundingBox</ref>(<sp/>points,<sp/>points.<ref refid="group__GeneralGroup_1ga77de89f2d4e174400377d487cb85aa88" kindref="member">beginId</ref>(),<sp/>points.<ref refid="group__GeneralGroup_1gaffe4aad8fd23742b0de456abb1921fc0" kindref="member">endId</ref>(),<sp/>region,<sp/>toWorld<sp/>);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
 <codeline lineno="36" refid="group__MathGroup_1gac591d793fa5ee868f8255a94350e1aef" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Box" kindref="compound">Box&lt;V&gt;</ref><sp/><ref refid="group__MathGroup_1ga3b002e846a245cb69384c1d444ea65a0" kindref="member">computeBoundingBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;V, VertId&gt;</ref><sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf&lt;V&gt;</ref><sp/>*<sp/>toWorld<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)</highlight></codeline>
 <codeline lineno="37"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__MathGroup_1ga3b002e846a245cb69384c1d444ea65a0" kindref="member">computeBoundingBox</ref>(<sp/>points,<sp/>points.<ref refid="group__GeneralGroup_1ga77de89f2d4e174400377d487cb85aa88" kindref="member">beginId</ref>(),<sp/>points.<ref refid="group__GeneralGroup_1gaffe4aad8fd23742b0de456abb1921fc0" kindref="member">endId</ref>(),<sp/>&amp;region,<sp/>toWorld<sp/>);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRComputeBoundingBox.h"/>
+    <location file="MRMesh/MRComputeBoundingBox.h"/>
   </compounddef>
 </doxygen>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCudaMath_8h" kind="file" language="C++">
     <compoundname>MRCudaMath.h</compoundname>
     <includes local="yes">exports.h</includes>
     <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRCudaMath.h</label>
+        <label>MRCuda/MRCudaMath.h</label>
         <link refid="MRCudaMath_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -102,15 +102,15 @@
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Cuda" kindref="compound">MR::Cuda</ref></highlight></codeline>
 <codeline lineno="20"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga71883428f1d6838140c899d5eb8ee7a1" kindref="member">Matrix4</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga71883428f1d6838140c899d5eb8ee7a1" kindref="member">Matrix4</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="namespaceMR_1_1Cuda_1abe48634df88da1f3afd905bbea765155" refkind="member"><highlight class="normal">MRCUDA_API<sp/>float3<sp/><ref refid="namespaceMR_1_1Cuda_1abe48634df88da1f3afd905bbea765155" kindref="member">fromVec</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>v<sp/>);</highlight></codeline>
 <codeline lineno="27" refid="namespaceMR_1_1Cuda_1a3847533ea91606e4e7a4068edd599d86" refkind="member"><highlight class="normal">MRCUDA_API<sp/>int3<sp/><ref refid="namespaceMR_1_1Cuda_1abe48634df88da1f3afd905bbea765155" kindref="member">fromVec</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>v<sp/>);</highlight></codeline>
 <codeline lineno="28" refid="namespaceMR_1_1Cuda_1a0383a2435c0b02c9305d443c8e9f5579" refkind="member"><highlight class="normal">MRCUDA_API<sp/><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4</ref><sp/><ref refid="namespaceMR_1_1Cuda_1a0383a2435c0b02c9305d443c8e9f5579" kindref="member">fromXf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR::AffineXf3f&amp;<sp/>xf<sp/>);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaMath.h"/>
+    <location file="MRCuda/MRCudaMath.h"/>
   </compounddef>
 </doxygen>

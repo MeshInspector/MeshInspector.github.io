@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1RegionId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::RegionId</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1NoDefInit__RegionId" prot="public" virt="non-virtual">mrmeshpy.NoDefInit_RegionId</derivedcompoundref>
@@ -27,9 +27,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RegionId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a079716a23c055cfb9d7c5b2451a5964a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a3294a03fb2ae6f85f1f18258425e529e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1addad5da0f49de05ca13bce935ef91e6b">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -52,9 +49,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RegionId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a079716a23c055cfb9d7c5b2451a5964a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a3294a03fb2ae6f85f1f18258425e529e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1addad5da0f49de05ca13bce935ef91e6b">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -235,9 +229,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RegionId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a079716a23c055cfb9d7c5b2451a5964a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a3294a03fb2ae6f85f1f18258425e529e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1addad5da0f49de05ca13bce935ef91e6b">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -256,9 +247,6 @@
         <argsstring>(self, int i)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RegionId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a079716a23c055cfb9d7c5b2451a5964a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a3294a03fb2ae6f85f1f18258425e529e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1addad5da0f49de05ca13bce935ef91e6b">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -289,9 +277,6 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         <argsstring>(self, RegionId arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RegionId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a079716a23c055cfb9d7c5b2451a5964a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a3294a03fb2ae6f85f1f18258425e529e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1addad5da0f49de05ca13bce935ef91e6b">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -378,7 +363,6 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.RegionId.__repr__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a48a57255b11d7dc6082617971585000a">__repr__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>

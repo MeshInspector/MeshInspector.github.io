@@ -1,10 +1,6 @@
 var MREmbedTerrainStructure_8h =
 [
     [ "MR_EmbeddedStructureParameters", "MREmbedTerrainStructure_8h.html#a9204627ed4e3e788d024175d696e2a99", null ],
-    [ "MR_expected_MR_Mesh_std_string", "MREmbedTerrainStructure_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
-    [ "MR_FaceBitSet", "MREmbedTerrainStructure_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_FaceMap", "MREmbedTerrainStructure_8h.html#ab809347fd151b45341bc9e7828673eb5", null ],
-    [ "MR_Mesh", "MREmbedTerrainStructure_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_EmbeddedStructureParameters_AssignFromAnother", "MREmbedTerrainStructure_8h.html#a299783a9cec776e5280b680dbfdff05f", null ],
     [ "MR_EmbeddedStructureParameters_ConstructFrom", "MREmbedTerrainStructure_8h.html#a2089cd4f502b51369e49fd97a7f5aadc", null ],
     [ "MR_EmbeddedStructureParameters_ConstructFromAnother", "MREmbedTerrainStructure_8h.html#ae5abbfc27f2cafc2f79f8ec082f19913", null ],

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SparsePolynomial" kind="class" language="C++" prot="public">
     <compoundname>MR::SparsePolynomial</compoundname>
-    <includes refid="MRSparsePolynomial_8h" local="no">MRSparsePolynomial.h</includes>
+    <includes refid="MRSparsePolynomial_8h" local="no">MRMesh/MRSparsePolynomial.h</includes>
     <templateparamlist>
       <param>
         <type>typename C</type>
@@ -64,7 +64,7 @@
 </parameterlist>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" bodystart="22" bodyend="55"/>
+    <location file="MRMesh/MRSparsePolynomial.h" line="21" column="1" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="22" bodyend="55"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3121c41d3714630889e95595c2ed63ba" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>empty</name></member>
       <member refid="group__GeneralGroup_1ga9cd30857ce58fb5b8e689aa4a56a9a4d" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>get</name></member>

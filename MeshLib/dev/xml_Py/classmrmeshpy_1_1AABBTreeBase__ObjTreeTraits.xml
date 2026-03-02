@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::AABBTreeBase_ObjTreeTraits</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1AABBTreeObjects" prot="public" virt="non-virtual">mrmeshpy.AABBTreeObjects</derivedcompoundref>
@@ -117,10 +117,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.AABBTreeBase_ObjTreeTraits.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreeObjects_1ac920103c45a43123e6e931da4abd83d9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreeObjects_1ac168a4c4f22ba17055e5b8d362f5953a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreeObjects_1a25789b4c40280c570eb8084a7971de1c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreeObjects_1afe3838dda5077ff51003501adb2064ec">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -233,10 +229,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.AABBTreeBase_ObjTreeTraits.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreeObjects_1ac920103c45a43123e6e931da4abd83d9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreeObjects_1ac168a4c4f22ba17055e5b8d362f5953a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreeObjects_1a25789b4c40280c570eb8084a7971de1c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreeObjects_1afe3838dda5077ff51003501adb2064ec">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -255,10 +247,6 @@
         <argsstring>(self, AABBTreeBase_ObjTreeTraits arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.AABBTreeBase_ObjTreeTraits.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreeObjects_1ac920103c45a43123e6e931da4abd83d9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreeObjects_1ac168a4c4f22ba17055e5b8d362f5953a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreeObjects_1a25789b4c40280c570eb8084a7971de1c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreeObjects_1afe3838dda5077ff51003501adb2064ec">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>

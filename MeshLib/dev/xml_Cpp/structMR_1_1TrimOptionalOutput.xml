@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1TrimOptionalOutput" kind="struct" language="C++" prot="public">
     <compoundname>MR::TrimOptionalOutput</compoundname>
-    <includes refid="MRMeshTrimWithPlane_8h" local="no">MRMeshTrimWithPlane.h</includes>
+    <includes refid="MRMeshTrimWithPlane_8h" local="no">MRMesh/MRMeshTrimWithPlane.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gab2764c07e0136d9d3309b44b8bf8eca7" kind="variable"><name>outCutEdges</name></member>
       <member refid="group__GeneralGroup_1gad716fbc89b71f32103375687ec684177" kind="variable"><name>outCutContours</name></member>
@@ -36,7 +36,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" line="58" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTrimWithPlane.h" bodystart="59" bodyend="72"/>
+    <location file="MRMesh/MRMeshTrimWithPlane.h" line="58" column="1" bodyfile="MRMesh/MRMeshTrimWithPlane.h" bodystart="59" bodyend="72"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga95f7939b3615030e5bcc1dd29d3552c1" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>new2Old</name></member>
       <member refid="group__GeneralGroup_1gab4ca89a01b605f3076a298047ecc240b" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>otherNew2Old</name></member>

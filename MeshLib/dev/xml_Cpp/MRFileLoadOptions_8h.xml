@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFileLoadOptions_8h" kind="file" language="C++">
     <compoundname>MRFileLoadOptions.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -41,7 +41,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRFileLoadOptions.h</label>
+        <label>MRViewer/MRFileLoadOptions.h</label>
         <link refid="MRFileLoadOptions_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -110,9 +110,9 @@
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1ga4febf8fb2b21426b895c77148a5ed6f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4febf8fb2b21426b895c77148a5ed6f4" kindref="member">ReplaceMode</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga4febf8fb2b21426b895c77148a5ed6f4a08d1322832298aa56fc96e27b2003820" kindref="member">ContructionBased</ref>,<sp/></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga4febf8fb2b21426b895c77148a5ed6f4ac2dfc039a4d2a8f153df8c92aedbd450" kindref="member">ForceReplace</ref>,</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga4febf8fb2b21426b895c77148a5ed6f4ac721f662f0a128ee25ff11f554667a27" kindref="member">ForceAdd</ref></highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gga4febf8fb2b21426b895c77148a5ed6f4a08d1322832298aa56fc96e27b2003820" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga4febf8fb2b21426b895c77148a5ed6f4a08d1322832298aa56fc96e27b2003820" kindref="member">ContructionBased</ref>,<sp/></highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1gga4febf8fb2b21426b895c77148a5ed6f4ac2dfc039a4d2a8f153df8c92aedbd450" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga4febf8fb2b21426b895c77148a5ed6f4ac2dfc039a4d2a8f153df8c92aedbd450" kindref="member">ForceReplace</ref>,</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1gga4febf8fb2b21426b895c77148a5ed6f4ac721f662f0a128ee25ff11f554667a27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga4febf8fb2b21426b895c77148a5ed6f4ac721f662f0a128ee25ff11f554667a27" kindref="member">ForceAdd</ref></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="group__GeneralGroup_1ga5cd3108431699d08603db992a2a923fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga4febf8fb2b21426b895c77148a5ed6f4" kindref="member">ReplaceMode</ref><sp/><ref refid="group__GeneralGroup_1ga5cd3108431699d08603db992a2a923fc" kindref="member">replaceMode</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gga4febf8fb2b21426b895c77148a5ed6f4a08d1322832298aa56fc96e27b2003820" kindref="member">ReplaceMode::ContructionBased</ref>;</highlight></codeline>
@@ -120,8 +120,8 @@
 <codeline lineno="30" refid="group__GeneralGroup_1ga4f4d8061842e6e46c5aab4e281bf1ad4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga23cad89260f563924fc2715e193959c5" kindref="member">FilesLoadedCallback</ref><sp/><ref refid="group__GeneralGroup_1ga4f4d8061842e6e46c5aab4e281bf1ad4" kindref="member">loadedCallback</ref>;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileLoadOptions.h"/>
+    <location file="MRViewer/MRFileLoadOptions.h"/>
   </compounddef>
 </doxygen>

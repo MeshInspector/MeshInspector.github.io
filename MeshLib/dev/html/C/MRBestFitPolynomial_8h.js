@@ -21,7 +21,6 @@ var MRBestFitPolynomial_8h =
     [ "MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6", "MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f", null ],
     [ "MR_std_variant_MR_Polynomial_float_0_MR_Polynomial_float_1_MR_Polynomial_float_2_MR_Polynomial_float_3_MR_Polynomial_float_4_MR_Polynomial_float_5_MR_Polynomial_float_6", "MRBestFitPolynomial_8h.html#a27bc416448c93f18df2f616b9809c7fc", null ],
     [ "MR_std_vector_double", "MRBestFitPolynomial_8h.html#af3cab7fcc7212d67f935a899fd3118ec", null ],
-    [ "MR_std_vector_float", "MRBestFitPolynomial_8h.html#aba323e6d596956f5a589a525c6f6adbc", null ],
     [ "MR_canMinimizePolynomial", "MRBestFitPolynomial_8h.html#a15ee096560bd9db2d06b77a2d679767e", null ],
     [ "MR_canSolvePolynomial", "MRBestFitPolynomial_8h.html#a2775b8a7647baa9a47dcea048e818e60", null ],
     [ "MR_Polynomial_double_0_AssignFromAnother", "MRBestFitPolynomial_8h.html#a7ba531b5b22488e1cae04abbcee84194", null ],

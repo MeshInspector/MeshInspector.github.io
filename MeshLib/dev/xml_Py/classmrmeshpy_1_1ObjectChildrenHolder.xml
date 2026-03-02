@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ObjectChildrenHolder" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ObjectChildrenHolder</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1Object" prot="public" virt="non-virtual">mrmeshpy.Object</derivedcompoundref>
@@ -10,40 +10,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ObjectChildrenHolder.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AngleMeasurementObject_1a44e5094398c2d722e8f76c60d0457965">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1ad0e48950b1d06ccdde14433a4958b3ff">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1a6c2cc6bd88924946089ae0df20600f0a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1ac22997ccae1372440154b18b40bcc096">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1aee3c9c6013b2f9ea032ae48cf2f136cd">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a5e6cd93bf59fcbeb0b0c6f05c401caa9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a01439225547a22c0e47983d8ce72088d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1ad39016caf2db5099aa1f469a6d3c3c39">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1LineObject_1a707b2540d964efa703893afe49306580">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1LineObject_1a5a8936c1eaa24d70f6c024352b277912">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeasurementObject_1ad77529d9844325cb9b22a49d3e206617">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeasurementObject_1a4d0ba97b8361ffac9e4ec2e0d5065d37">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Object_1a78e6900dc386c6dcc7d484090c140c74">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectDistanceMap_1aa11c35477076924c1d3101a45d78019c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1aeeee8765f9cedaf64cb20f3385a745d3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectLabel_1aba87056b804a68adbd7532069c0c1503">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1a24f2e6fd3d90352d42be66772b68adc0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectLinesHolder_1ae89c55eb14c80dcca14c9e11137e09fa">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectMesh_1a969a9885ff3b33b06a0ada8c222f6e7c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1abd61dce95267032fba31a6b6b8398cef">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a7723030d0f3da83fdd9f9f3deb67472d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a1b8a3423ebe5c2c2bfe68309b0180d64">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1a9eed396027becfde7d2590df55a49171">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectVoxels_1a88addf3f7eac5ac0fecfa218fa66c699">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1a07e978419c9e85e79e42d49188d03e2f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1a4c5ec9507fa15607f49f6734012fdb58">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1a8493c2aba5fb659322bb9a2cf620027e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a35ccb3c76197823708dc16e702a0c744">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a3bf07ea0a14f3e7a3fcfe0fefb6f1af8">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RadiusMeasurementObject_1a6dbbbc0852325c729144d57e5cc184c6">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SceneRootObject_1a2dd7053e85fc9d4ba144712a5a79c532">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1aaf02f7d1b6182f887248f9444d29a148">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1a4633876e20ed9435ac2940716253b3f4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -114,40 +80,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ObjectChildrenHolder.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AngleMeasurementObject_1a44e5094398c2d722e8f76c60d0457965">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1ad0e48950b1d06ccdde14433a4958b3ff">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1a6c2cc6bd88924946089ae0df20600f0a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1ac22997ccae1372440154b18b40bcc096">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1aee3c9c6013b2f9ea032ae48cf2f136cd">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a5e6cd93bf59fcbeb0b0c6f05c401caa9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a01439225547a22c0e47983d8ce72088d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1ad39016caf2db5099aa1f469a6d3c3c39">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1LineObject_1a707b2540d964efa703893afe49306580">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1LineObject_1a5a8936c1eaa24d70f6c024352b277912">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeasurementObject_1ad77529d9844325cb9b22a49d3e206617">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeasurementObject_1a4d0ba97b8361ffac9e4ec2e0d5065d37">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Object_1a78e6900dc386c6dcc7d484090c140c74">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectDistanceMap_1aa11c35477076924c1d3101a45d78019c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1aeeee8765f9cedaf64cb20f3385a745d3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectLabel_1aba87056b804a68adbd7532069c0c1503">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1a24f2e6fd3d90352d42be66772b68adc0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectLinesHolder_1ae89c55eb14c80dcca14c9e11137e09fa">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectMesh_1a969a9885ff3b33b06a0ada8c222f6e7c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1abd61dce95267032fba31a6b6b8398cef">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a7723030d0f3da83fdd9f9f3deb67472d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a1b8a3423ebe5c2c2bfe68309b0180d64">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1a9eed396027becfde7d2590df55a49171">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectVoxels_1a88addf3f7eac5ac0fecfa218fa66c699">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1a07e978419c9e85e79e42d49188d03e2f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1a4c5ec9507fa15607f49f6734012fdb58">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1a8493c2aba5fb659322bb9a2cf620027e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a35ccb3c76197823708dc16e702a0c744">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a3bf07ea0a14f3e7a3fcfe0fefb6f1af8">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RadiusMeasurementObject_1a6dbbbc0852325c729144d57e5cc184c6">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SceneRootObject_1a2dd7053e85fc9d4ba144712a5a79c532">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1aaf02f7d1b6182f887248f9444d29a148">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1a4633876e20ed9435ac2940716253b3f4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -166,40 +98,6 @@
         <argsstring>(self, ObjectChildrenHolder arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ObjectChildrenHolder.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AngleMeasurementObject_1a44e5094398c2d722e8f76c60d0457965">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1ad0e48950b1d06ccdde14433a4958b3ff">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1a6c2cc6bd88924946089ae0df20600f0a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1ac22997ccae1372440154b18b40bcc096">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1aee3c9c6013b2f9ea032ae48cf2f136cd">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a5e6cd93bf59fcbeb0b0c6f05c401caa9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a01439225547a22c0e47983d8ce72088d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1ad39016caf2db5099aa1f469a6d3c3c39">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1LineObject_1a707b2540d964efa703893afe49306580">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1LineObject_1a5a8936c1eaa24d70f6c024352b277912">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeasurementObject_1ad77529d9844325cb9b22a49d3e206617">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeasurementObject_1a4d0ba97b8361ffac9e4ec2e0d5065d37">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Object_1a78e6900dc386c6dcc7d484090c140c74">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectDistanceMap_1aa11c35477076924c1d3101a45d78019c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1aeeee8765f9cedaf64cb20f3385a745d3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectLabel_1aba87056b804a68adbd7532069c0c1503">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1a24f2e6fd3d90352d42be66772b68adc0">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectLinesHolder_1ae89c55eb14c80dcca14c9e11137e09fa">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectMesh_1a969a9885ff3b33b06a0ada8c222f6e7c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1abd61dce95267032fba31a6b6b8398cef">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a7723030d0f3da83fdd9f9f3deb67472d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a1b8a3423ebe5c2c2bfe68309b0180d64">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1a9eed396027becfde7d2590df55a49171">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjectVoxels_1a88addf3f7eac5ac0fecfa218fa66c699">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1a07e978419c9e85e79e42d49188d03e2f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1a4c5ec9507fa15607f49f6734012fdb58">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1a8493c2aba5fb659322bb9a2cf620027e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a35ccb3c76197823708dc16e702a0c744">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a3bf07ea0a14f3e7a3fcfe0fefb6f1af8">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RadiusMeasurementObject_1a6dbbbc0852325c729144d57e5cc184c6">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SceneRootObject_1a2dd7053e85fc9d4ba144712a5a79c532">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1aaf02f7d1b6182f887248f9444d29a148">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1a4633876e20ed9435ac2940716253b3f4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>

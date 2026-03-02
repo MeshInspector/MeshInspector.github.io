@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSvg_8h" kind="file" language="C++">
     <compoundname>MRSvg.h</compoundname>
     <includes refid="MRIOExtras_2config_8h" local="yes">config.h</includes>
@@ -9,7 +9,7 @@
     <includes local="no">filesystem</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRSvg.h</label>
+        <label>MRIOExtras/MRSvg.h</label>
         <link refid="MRSvg_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -151,9 +151,9 @@
 <codeline lineno="17" refid="namespaceMR_1_1LinesLoad_1adb7942f7aeca823b9ae28d698f599573" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Polyline3&gt;</ref><sp/><ref refid="namespaceMR_1_1LinesLoad_1a6c5aaedb0fddecc05327761329a8d9f1" kindref="member">fromSvg</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1LinesLoadSettings" kindref="compound">LinesLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="18" refid="namespaceMR_1_1LinesLoad_1a7dcf879b73b8a97e9f65c04228e953e6" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Polyline3&gt;</ref><sp/><ref refid="namespaceMR_1_1LinesLoad_1a6c5aaedb0fddecc05327761329a8d9f1" kindref="member">fromSvg</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>data,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1LinesLoadSettings" kindref="compound">LinesLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRSvg.h"/>
+    <location file="MRIOExtras/MRSvg.h"/>
   </compounddef>
 </doxygen>

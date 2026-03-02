@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Features_1_1Primitives_1_1Plane" kind="struct" language="C++" prot="public">
     <compoundname>MR::Features::Primitives::Plane</compoundname>
-    <includes refid="MRFeatures_8h" local="no">MRFeatures.h</includes>
+    <includes refid="MRFeatures_8h" local="no">MRMesh/MRFeatures.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga17291dba0d3768973959e35d4105ceea" kind="variable"><name>center</name></member>
       <member refid="group__GeneralGroup_1gaaef9e3698f1254ac0f28afb12046695d" kind="variable"><name>normal</name></member>
@@ -18,7 +18,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="35" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="36" bodyend="51"/>
+    <location file="MRMesh/MRFeatures.h" line="35" column="5" bodyfile="MRMesh/MRFeatures.h" bodystart="36" bodyend="51"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga17291dba0d3768973959e35d4105ceea" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>center</name></member>
       <member refid="group__GeneralGroup_1ga9943b098a0c2f6210aab93e83517eaa7" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>intersectWithLine</name></member>

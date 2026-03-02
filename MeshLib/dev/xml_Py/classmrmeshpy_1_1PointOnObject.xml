@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PointOnObject" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PointOnObject</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -241,19 +241,6 @@ point located on either
 3. point of ObjectPoints
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.PointOnObject</label>
-        <link refid="classmrmeshpy_1_1PointOnObject"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_point</edgelabel>
-          <edgelabel>_offsetof_zBuffer</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44996" bodyend="45042"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PointOnObject_1a4c843e660828b37cd4ff9323cc7c9072" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnObject</scope><name>__init__</name></member>

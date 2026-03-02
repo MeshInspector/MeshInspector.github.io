@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRBall_8h" kind="file" language="C++">
     <compoundname>MRBall.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRMesh_2MRVectorTraits_8h" local="yes">MRVectorTraits.h</includes>
-    <includedby refid="MRPointsInBall_8h" local="yes">MRPointsInBall.h</includedby>
+    <includedby refid="MRPointsInBall_8h" local="yes">MRMesh/MRPointsInBall.h</includedby>
     <incdepgraph>
       <node id="1">
-        <label>MRBall.h</label>
+        <label>MRMesh/MRBall.h</label>
         <link refid="MRBall_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -84,13 +84,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRBall.h</label>
+        <label>MRMesh/MRBall.h</label>
         <link refid="MRBall_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRPointsInBall.h</label>
+        <label>MRMesh/MRPointsInBall.h</label>
         <link refid="MRPointsInBall_8h"/>
       </node>
     </invincdepgraph>
@@ -110,10 +110,10 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
 <codeline lineno="14" refid="structMR_1_1Ball" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Ball" kindref="compound">Ball</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1gab29b342345673c2ab559f44111f75bdd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VectorTraits" kindref="compound">VTraits</ref><sp/>=<sp/><ref refid="structMR_1_1VectorTraits" kindref="compound">VectorTraits&lt;V&gt;</ref>;</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1gab29b342345673c2ab559f44111f75bdd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gab29b342345673c2ab559f44111f75bdd" kindref="member">VTraits</ref><sp/>=<sp/><ref refid="structMR_1_1VectorTraits" kindref="compound">VectorTraits&lt;V&gt;</ref>;</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1gaad1f3f595e73be14324c1ad3964ab4fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaad1f3f595e73be14324c1ad3964ab4fd" kindref="member">T</ref><sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadbadae2704ad269b8d78edbb0f2faa93" kindref="member">VTraits::BaseType</ref>;</highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1ga12631fc540b821bfa957ea4f9f2e57e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga12631fc540b821bfa957ea4f9f2e57e8" kindref="member">elements</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga63f31635f31a229471ff3cc2990d95ea" kindref="member">VTraits::size</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
@@ -125,8 +125,8 @@
 <codeline lineno="27" refid="group__GeneralGroup_1ga18bd851f9c63fe2f529f8ef586a5ea69" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga18bd851f9c63fe2f529f8ef586a5ea69" kindref="member">outside</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V<sp/>&amp;<sp/>pt<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__IntersectionGroup_1ga8fe41c203bb90cc8a7dc06426f6682f4" kindref="member">distanceSq</ref>(<sp/>pt,<sp/><ref refid="group__GeneralGroup_1gac2c803f24782033284e75272d9eab0dd" kindref="member">center</ref><sp/>)<sp/>&gt;<sp/><ref refid="group__GeneralGroup_1ga954cef52a073087f7bfdb9555e9584a3" kindref="member">radiusSq</ref>;<sp/>}</highlight></codeline>
 <codeline lineno="28"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBall.h"/>
+    <location file="MRMesh/MRBall.h"/>
   </compounddef>
 </doxygen>

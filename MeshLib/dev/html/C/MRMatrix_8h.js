@@ -1,9 +1,5 @@
 var MRMatrix_8h =
 [
-    [ "MR_Matrix_float", "MRMatrix_8h.html#a7cdde60e20392324b624c6508b359f95", null ],
-    [ "MR_RectIndexer", "MRMatrix_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b", null ],
-    [ "MR_std_vector_float", "MRMatrix_8h.html#aba323e6d596956f5a589a525c6f6adbc", null ],
-    [ "MR_Vector2i", "MRMatrix_8h.html#ac9edad53c37cc631c9de4431e0ca2907", null ],
     [ "MR_Matrix_float_AssignFromAnother", "MRMatrix_8h.html#a184d491ab3628c761c50f49ce9205588", null ],
     [ "MR_Matrix_float_call_1", "MRMatrix_8h.html#ad441e718bf0cdd4118ef48c5996f0992", null ],
     [ "MR_Matrix_float_call_2", "MRMatrix_8h.html#a904d35309812f99cc202fe2bcd87a764", null ],

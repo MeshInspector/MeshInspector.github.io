@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSetupViewer_8h" kind="file" language="C++">
     <compoundname>MRSetupViewer.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -44,7 +44,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRSetupViewer.h</label>
+        <label>MRViewer/MRSetupViewer.h</label>
         <link refid="MRSetupViewer_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -122,12 +122,12 @@
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="classMR_1_1ViewerSetup" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1ViewerSetup" kindref="compound">ViewerSetup</ref></highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1ViewerSetup" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="group__GeneralGroup_1ga9616d5542d1b0f230b9138f4da8a88cb" kindref="member">ViewerSetup</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga9616d5542d1b0f230b9138f4da8a88cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga9616d5542d1b0f230b9138f4da8a88cb" kindref="member">ViewerSetup</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1ga312d51f93256540b9109340e93cd279d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga312d51f93256540b9109340e93cd279d" kindref="member">ViewerSetup</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ViewerSetup" kindref="compound">ViewerSetup</ref><sp/>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="21" refid="group__GeneralGroup_1ga5de2e94012eb083d14c9b918420a2c9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5de2e94012eb083d14c9b918420a2c9e" kindref="member">ViewerSetup</ref>(<sp/><ref refid="classMR_1_1ViewerSetup" kindref="compound">ViewerSetup</ref><sp/>&amp;&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga312d51f93256540b9109340e93cd279d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga312d51f93256540b9109340e93cd279d" kindref="member">ViewerSetup</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9616d5542d1b0f230b9138f4da8a88cb" kindref="member">ViewerSetup</ref><sp/>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga5de2e94012eb083d14c9b918420a2c9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5de2e94012eb083d14c9b918420a2c9e" kindref="member">ViewerSetup</ref>(<sp/><ref refid="group__GeneralGroup_1ga9616d5542d1b0f230b9138f4da8a88cb" kindref="member">ViewerSetup</ref><sp/>&amp;&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1ga91f189592dac535dae6d91f80c911e1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga91f189592dac535dae6d91f80c911e1f" kindref="member">~ViewerSetup</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
@@ -164,8 +164,8 @@
 <codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="68"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSetupViewer.h"/>
+    <location file="MRViewer/MRSetupViewer.h"/>
   </compounddef>
 </doxygen>

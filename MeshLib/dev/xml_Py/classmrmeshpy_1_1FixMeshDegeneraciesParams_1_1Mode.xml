@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FixMeshDegeneraciesParams::Mode</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -312,20 +312,6 @@
   RemeshPatch : if both decimation and subdivision does not succeed, removes degenerate areas and fills occurred holes
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.FixMeshDegeneraciesParams.Mode</label>
-        <link refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>Decimate</edgelabel>
-          <edgelabel>Remesh</edgelabel>
-          <edgelabel>RemeshPatch</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20577" bodyend="20616"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a794fa596f4511ff14eb8c197e45825ed" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>__eq__</name></member>

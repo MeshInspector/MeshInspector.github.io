@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1std__vector__OffsetContoursOrigins" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::std_vector_OffsetContoursOrigins</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -561,18 +561,6 @@
 <para><verbatim>Aliases:  OffsetContoursVertMap
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.std_vector_OffsetContoursOrigins</label>
-        <link refid="classmrmeshpy_1_1std__vector__OffsetContoursOrigins"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>element_type_byte_size</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86651" bodyend="86744"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1std__vector__OffsetContoursOrigins_1a5764e7a7ade4bcbdd365a01638d7800b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_OffsetContoursOrigins</scope><name>__bool__</name></member>

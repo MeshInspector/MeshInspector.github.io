@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPlaneWidget_8h" kind="file" language="C++">
     <compoundname>MRPlaneWidget.h</compoundname>
     <includes refid="MRViewerEventsListener_8h" local="yes">MRViewerEventsListener.h</includes>
@@ -295,7 +295,7 @@
         <link refid="MRNotificationType_8h"/>
       </node>
       <node id="1">
-        <label>MRPlaneWidget.h</label>
+        <label>MRViewer/MRPlaneWidget.h</label>
         <link refid="MRPlaneWidget_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -455,8 +455,8 @@
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"></codeline>
-<codeline lineno="16" refid="classMR_1_1PlaneWidget" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1PlaneWidget" kindref="compound">PlaneWidget</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MultiListener" kindref="compound">MultiListener</ref>&lt;DragStartListener,<sp/>DragListener,<sp/>DragEndListener,<sp/>NameTagClickListener&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1PlaneWidget" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1PlaneWidget" kindref="compound">PlaneWidget</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MultiListener" kindref="compound">MultiListener</ref>&lt;DragStartListener,<sp/>DragListener,<sp/>DragEndListener,<sp/>NameTagClickListener&gt;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;ObjectMesh&gt;<sp/>planeObj_;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref><sp/>plane_;</highlight></codeline>
@@ -479,8 +479,8 @@
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>importPlaneMode_<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="42" refid="group__GeneralGroup_1ga5d8b28cf0b38aeac19eefe4813b7df31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5d8b28cf0b38aeac19eefe4813b7df31" kindref="member">updatePlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Plane3f&amp;<sp/>plane,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>updateCameraRotation<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="45" refid="group__GeneralGroup_1gaabd4a4dae6bd541eabfc1d46a09ea764" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaabd4a4dae6bd541eabfc1d46a09ea764" kindref="member">updateBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3f&amp;<sp/>box,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>updateCameraRotation<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1ga5d8b28cf0b38aeac19eefe4813b7df31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5d8b28cf0b38aeac19eefe4813b7df31" kindref="member">updatePlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref>&amp;<sp/>plane,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>updateCameraRotation<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1gaabd4a4dae6bd541eabfc1d46a09ea764" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaabd4a4dae6bd541eabfc1d46a09ea764" kindref="member">updateBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3f&amp;<sp/><ref refid="group__GeneralGroup_1ga7db31502e3cd0969c0aca88d8f4ee9f2" kindref="member">box</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>updateCameraRotation<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="47" refid="group__GeneralGroup_1ga9b457e8f370aa64a11f49854dab6f1dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9b457e8f370aa64a11f49854dab6f1dd" kindref="member">definePlane</ref>();</highlight></codeline>
 <codeline lineno="49" refid="group__GeneralGroup_1ga33499c2e0a1776e6ef530d80c4f3b5aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga33499c2e0a1776e6ef530d80c4f3b5aa" kindref="member">undefinePlane</ref>();</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
@@ -512,6 +512,6 @@
 <codeline lineno="87"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="88"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h"/>
+    <location file="MRViewer/MRPlaneWidget.h"/>
   </compounddef>
 </doxygen>

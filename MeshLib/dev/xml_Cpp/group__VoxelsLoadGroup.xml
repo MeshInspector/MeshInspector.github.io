@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__VoxelsLoadGroup" kind="group">
     <compoundname>VoxelsLoadGroup</compoundname>
     <title>Voxels Load</title>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="84" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="85" bodyend="90"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="84" column="1" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="85" bodyend="90"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="105" bodyend="-1"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="105" column="1" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="105" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="var">
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="24" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="24" bodyend="-1"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="24" column="14" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__VoxelsLoadGroup_1gafd3e66a2e50b601320d9254e884691dd" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="25" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="25" bodyend="-1"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="25" column="14" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__VoxelsLoadGroup_1ga5d28afdbdf8874a171bdaa3da9a77db7" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="26" bodyend="26"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="26" column="10" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="26" bodyend="26"/>
       </memberdef>
       <memberdef kind="variable" id="group__VoxelsLoadGroup_1ga69214b3d1697f4864e145aa2b9802cea" prot="public" static="no" mutable="no">
         <type>ScalarType</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="27" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="27" bodyend="27"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="27" column="16" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="27" bodyend="27"/>
       </memberdef>
       <memberdef kind="variable" id="group__VoxelsLoadGroup_1gaafca990d1d688a3f2f9ce8ba0a67a3c5" prot="public" static="no" mutable="no">
         <type>std::filesystem::path</type>
@@ -127,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="95" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="95" bodyend="-1"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="95" column="27" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="95" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__VoxelsLoadGroup_1ga39c8477a2a590bcaef5179d861b7f1de" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="96" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="96" bodyend="96"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="96" column="14" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="96" bodyend="96"/>
       </memberdef>
       <memberdef kind="variable" id="group__VoxelsLoadGroup_1ga162c946b965977a5048ed85b3b7d1293" prot="public" static="no" mutable="no">
         <type>GridType</type>
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="97" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="97" bodyend="-1"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="97" column="14" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__VoxelsLoadGroup_1gad7f6150701181ada771a2322643a89dd" prot="public" static="no" mutable="no">
         <type>ProgressCallback</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="98" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="98" bodyend="98"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="98" column="22" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="98" bodyend="98"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -202,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="30" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="30" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="30" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="30" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelsLoadGroup_1gab0a9073a8190607740aa7a4e108a70ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; VdbVolume &gt;</type>
@@ -230,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="34" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="34" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="34" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="34" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelsLoadGroup_1gab8b39ae86f2bd1e780c542ceebadc56d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; FloatGrid &gt;</type>
@@ -258,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="38" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="38" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="38" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="38" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelsLoadGroup_1ga433ccf3ee64b6d83ded8726d9bccd584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; FloatGrid &gt;</type>
@@ -286,7 +286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="43" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="43" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="43" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="43" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelsLoadGroup_1gab02ac1c58396a89e54c4b384dd5142ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; RawParameters &gt;</type>
@@ -314,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="49" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="49" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="49" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="49" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelsLoadGroup_1gae42a24cac2267bb02933d82f3153182a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; VdbVolume &gt;</type>
@@ -338,7 +338,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="52" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="52" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="52" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="52" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelsLoadGroup_1ga91731f11539ea11d1c4bd2dfbc25b2b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; FloatGrid &gt;</type>
@@ -362,7 +362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="56" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="56" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="56" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="56" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelsLoadGroup_1ga7b175c416a672c40b25a2ec4bab31047" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::vector&lt; VdbVolume &gt; &gt;</type>
@@ -386,7 +386,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="60" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="60" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="60" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="60" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelsLoadGroup_1ga45ad7e33491adf48887a084a760ce0dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::vector&lt; FloatGrid &gt; &gt;</type>
@@ -409,7 +409,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="63" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="63" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="63" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="63" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelsLoadGroup_1ga255028947dcc30bbf215b5da697a7e96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::vector&lt; FloatGrid &gt; &gt;</type>
@@ -432,7 +432,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="65" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="65" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="65" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="65" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelsLoadGroup_1gac56550c38609cdf38fcf34f3740e8f82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; VdbVolume &gt;</type>
@@ -456,7 +456,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="70" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="70" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="70" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="70" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelsLoadGroup_1ga6e416ae7982ee1812f92be62d196d48d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; VdbVolume &gt;</type>
@@ -480,7 +480,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="72" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="72" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="72" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="72" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelsLoadGroup_1gad303045560cb427689099a6b7fd25789" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::vector&lt; FloatGrid &gt; &gt;</type>
@@ -504,7 +504,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="76" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="76" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="76" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="76" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelsLoadGroup_1ga1679273711f98deaa8bb82cf59834512" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::vector&lt; VdbVolume &gt; &gt;</type>
@@ -528,7 +528,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="80" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="80" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="80" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="80" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelsLoadGroup_1gaa3493438ee99f77d8e1ae26c176c0453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; VdbVolume &gt;</type>
@@ -547,7 +547,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="101" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="101" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="101" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="101" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

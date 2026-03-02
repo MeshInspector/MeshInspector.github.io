@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CNCMachineSettings" kind="class" language="C++" prot="public">
     <compoundname>MR::CNCMachineSettings</compoundname>
-    <includes refid="MRCNCMachineSettings_8h" local="no">MRCNCMachineSettings.h</includes>
+    <includes refid="MRCNCMachineSettings_8h" local="no">MRMesh/MRCNCMachineSettings.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gac2d45830eaf9a922d7a6977cab60b79a" kind="enum"><name>RotationAxisName</name></member>
       <member refid="group__GeneralGroup_1gac6d8378bba6ed1303ede82290d59c97d" kind="typedef"><name>RotationAxesOrder</name></member>
@@ -39,7 +39,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="19" bodyend="66"/>
+    <location file="MRMesh/MRCNCMachineSettings.h" line="18" column="1" bodyfile="MRMesh/MRCNCMachineSettings.h" bodystart="19" bodyend="66"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga9c190b668695dc7442dd075e6e0b036c" prot="private" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>feedrateIdle_</name></member>
       <member refid="group__GeneralGroup_1ga271280ff24b28ebf15bb5513121032be" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getAxesCount</name></member>

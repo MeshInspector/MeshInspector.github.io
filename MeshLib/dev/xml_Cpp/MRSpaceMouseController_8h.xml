@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSpaceMouseController_8h" kind="file" language="C++">
     <compoundname>MRSpaceMouseController.h</compoundname>
     <includes refid="MRSpaceMouseParameters_8h" local="yes">MRSpaceMouseParameters.h</includes>
@@ -78,7 +78,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRSpaceMouseController.h</label>
+        <label>MRViewer/MRSpaceMouseController.h</label>
         <link refid="MRSpaceMouseController_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -171,7 +171,7 @@
 <codeline lineno="6" refid="namespaceMR_1_1SpaceMouse" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1SpaceMouse" kindref="compound">MR::SpaceMouse</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="classMR_1_1SpaceMouse_1_1Controller" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1SpaceMouse_1_1Controller" kindref="compound">Controller</ref></highlight></codeline>
+<codeline lineno="10" refid="classMR_1_1SpaceMouse_1_1Controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1SpaceMouse_1_1Controller" kindref="compound">Controller</ref></highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="13" refid="classMR_1_1SpaceMouse_1_1Controller_1ae8826c26d7999552582481a659b7eed7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1SpaceMouse_1_1Controller_1ae8826c26d7999552582481a659b7eed7" kindref="member">MR_ADD_CTOR_DELETE_MOVE</ref>(<sp/><ref refid="classMR_1_1SpaceMouse_1_1Controller" kindref="compound">Controller</ref><sp/>);</highlight></codeline>
@@ -191,8 +191,8 @@
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>Parameters<sp/>params_;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h"/>
+    <location file="MRViewer/MRSpaceMouseController.h"/>
   </compounddef>
 </doxygen>

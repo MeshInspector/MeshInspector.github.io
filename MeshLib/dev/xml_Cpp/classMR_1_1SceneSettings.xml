@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneSettings" kind="class" language="C++" prot="public">
     <compoundname>MR::SceneSettings</compoundname>
-    <includes refid="MRSceneSettings_8h" local="no">MRSceneSettings.h</includes>
+    <includes refid="MRSceneSettings_8h" local="no">MRMesh/MRSceneSettings.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga01216132f55f2f10947b9f6143f1b9b8" kind="enum"><name>BoolType</name></member>
       <member refid="group__GeneralGroup_1gad40f8b0bfec68b50393b6e9e021b0261" kind="enum"><name>FloatType</name></member>
@@ -38,7 +38,7 @@
     <detaileddescription>
 <para>This singleton struct contains default settings for scene objects </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneSettings.h" bodystart="15" bodyend="84"/>
+    <location file="MRMesh/MRSceneSettings.h" line="14" column="1" bodyfile="MRMesh/MRSceneSettings.h" bodystart="15" bodyend="84"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga75e3127e8a7c5e0009f6238aeb254941" prot="private" virt="non-virtual"><scope>MR::SceneSettings</scope><name>boolSettings_</name></member>
       <member refid="group__GeneralGroup_1ga01216132f55f2f10947b9f6143f1b9b8" prot="public" virt="non-virtual"><scope>MR::SceneSettings</scope><name>BoolType</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRIntersectionContour_8h" kind="file" language="C++">
     <compoundname>MRIntersectionContour.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -21,19 +21,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRIntersectionContour_8h_1ad396cf7d4433c5ba7924776f5b379c9b" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref></type>
-        <definition>typedef struct MR_MeshTopology MR_MeshTopology</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTopology</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionContour.h" line="11" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionContour.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRIntersectionContour_8h_1a3d502e2ab46b5aa656a771e8cbbb3ab9" prot="public" static="no">
         <type>struct <ref refid="MRIntersectionContour_8h_1a3d502e2ab46b5aa656a771e8cbbb3ab9" kindref="member">MR_std_vector_MR_EdgeTri</ref></type>
         <definition>typedef struct MR_std_vector_MR_EdgeTri MR_std_vector_MR_EdgeTri</definition>
@@ -46,19 +33,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionContour.h" line="12" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionContour.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRIntersectionContour_8h_1a071da9f0f67109f51758510529ba0b5b" prot="public" static="no">
-        <type>struct <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref></type>
-        <definition>typedef struct MR_std_vector_MR_OneMeshContour MR_std_vector_MR_OneMeshContour</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_OneMeshContour</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionContour.h" line="13" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionContour.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRIntersectionContour_8h_1a1b4353d07e0d9c78080a20bc84d0ebf3" prot="public" static="no">
         <type>struct <ref refid="MRIntersectionContour_8h_1a1b4353d07e0d9c78080a20bc84d0ebf3" kindref="member">MR_std_vector_MR_VarEdgeTri</ref></type>
@@ -266,9 +240,9 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRIntersectionContour_8h_1ad396cf7d4433c5ba7924776f5b379c9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12" refid="MRIntersectionContour_8h_1a3d502e2ab46b5aa656a771e8cbbb3ab9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionContour_8h_1a3d502e2ab46b5aa656a771e8cbbb3ab9" kindref="member">MR_std_vector_MR_EdgeTri</ref><sp/><ref refid="MRIntersectionContour_8h_1a3d502e2ab46b5aa656a771e8cbbb3ab9" kindref="member">MR_std_vector_MR_EdgeTri</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgeTri.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRIntersectionContour_8h_1a071da9f0f67109f51758510529ba0b5b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_OneMeshContour.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_OneMeshContour.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="MRIntersectionContour_8h_1a1b4353d07e0d9c78080a20bc84d0ebf3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionContour_8h_1a1b4353d07e0d9c78080a20bc84d0ebf3" kindref="member">MR_std_vector_MR_VarEdgeTri</ref><sp/><ref refid="MRIntersectionContour_8h_1a1b4353d07e0d9c78080a20bc84d0ebf3" kindref="member">MR_std_vector_MR_VarEdgeTri</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_VarEdgeTri.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="MRIntersectionContour_8h_1a39843253e49249719b6defbb7948aa79" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionContour_8h_1a39843253e49249719b6defbb7948aa79" kindref="member">MR_std_vector_int</ref><sp/><ref refid="MRIntersectionContour_8h_1a39843253e49249719b6defbb7948aa79" kindref="member">MR_std_vector_int</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_int.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRIntersectionContour_8h_1ab48ef760c2671fd11ca83216d1b17ff8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionContour_8h_1ab48ef760c2671fd11ca83216d1b17ff8" kindref="member">MR_std_vector_std_vector_MR_VarEdgeTri</ref><sp/><ref refid="MRIntersectionContour_8h_1ab48ef760c2671fd11ca83216d1b17ff8" kindref="member">MR_std_vector_std_vector_MR_VarEdgeTri</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_VarEdgeTri.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>

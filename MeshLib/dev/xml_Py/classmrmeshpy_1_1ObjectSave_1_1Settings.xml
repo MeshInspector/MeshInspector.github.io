@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ObjectSave_1_1Settings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ObjectSave::Settings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -264,19 +264,6 @@
 <para><verbatim>Generated from:  MR::ObjectSave::Settings
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.ObjectSave.Settings</label>
-        <link refid="classmrmeshpy_1_1ObjectSave_1_1Settings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_lengthUnit</edgelabel>
-          <edgelabel>_offsetof_progress</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40671" bodyend="40717"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1ad4bb8046afdbd2ce646aba6350ef5ebd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectSave::Settings</scope><name>__init__</name></member>

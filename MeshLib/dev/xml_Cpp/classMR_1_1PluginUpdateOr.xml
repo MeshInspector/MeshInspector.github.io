@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PluginUpdateOr" kind="class" language="C++" prot="public">
     <compoundname>MR::PluginUpdateOr</compoundname>
     <basecompoundref prot="public" virt="non-virtual">Updates...</basecompoundref>
-    <includes refid="MRStatePluginUpdate_8h" local="no">MRStatePluginUpdate.h</includes>
+    <includes refid="MRStatePluginUpdate_8h" local="no">MRViewer/MRStatePluginUpdate.h</includes>
     <templateparamlist>
       <param>
         <type>typename ...</type>
@@ -22,8 +22,7 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Runs all preDrawUpdate and all shouldClose_ checks shouldClose_ returns true if at least on of checks was ture <linebreak/>
- </para>
+<para>Runs all preDrawUpdate and all shouldClose_ checks shouldClose_ returns true if at least on of checks was ture </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -47,7 +46,7 @@
         <label>Updates...</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="106" bodyend="127"/>
+    <location file="MRViewer/MRStatePluginUpdate.h" line="105" column="1" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="106" bodyend="127"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab13e2a281b83e65ad9b1e99315bc173e" prot="protected" virt="virtual"><scope>MR::PluginUpdateOr</scope><name>onPluginDisable_</name></member>
       <member refid="group__GeneralGroup_1gad916bd3dde1ec66ce4c87b223517fc00" prot="protected" virt="virtual"><scope>MR::PluginUpdateOr</scope><name>onPluginEnable_</name></member>

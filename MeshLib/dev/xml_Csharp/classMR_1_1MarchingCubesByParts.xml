@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MarchingCubesByParts" kind="class" language="C#" prot="public">
     <compoundname>MR::MarchingCubesByParts</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_MarchingCubesByParts</basecompoundref>
@@ -39,7 +39,7 @@
           <declname>s</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MarchingCubesByParts.MarchingCubesByParts</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MarchingCubesByParts_1adac6d7cfc97b0d20c65c2f5108c05124" kindref="member">MR.MarchingCubesByParts.MarchingCubesByParts</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -75,7 +75,7 @@
 <parametername>layersPerBlock</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>all z-slices of the volume will be partitioned on blocks of given size to process blocks in parallel (0 means auto-select layersPerBlock) Generated from constructor <computeroutput>MR.MarchingCubesByParts.MarchingCubesByParts</computeroutput>. Parameter <computeroutput>layersPerBlock</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+<para>all z-slices of the volume will be partitioned on blocks of given size to process blocks in parallel (0 means auto-select layersPerBlock) Generated from constructor <computeroutput><ref refid="classMR_1_1MarchingCubesByParts_1adac6d7cfc97b0d20c65c2f5108c05124" kindref="member">MR.MarchingCubesByParts.MarchingCubesByParts</ref></computeroutput>. Parameter <computeroutput>layersPerBlock</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -96,7 +96,7 @@
           <declname>s</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MarchingCubesByParts.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MarchingCubesByParts::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -140,50 +140,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>converts volume split on parts by planes z=const into mesh, last z-layer of previous part must be repeated as first z-layer of next part usage: <ref refid="classMR_1_1MarchingCubesByParts" kindref="compound">MarchingCubesByParts</ref> x( dims, params); x.addPart( part1 ); ... x.addPart( partN ); <ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref> mesh = Mesh.fromTriMesh( *x.<ref refid="classMR_1_1MarchingCubesByParts_1a8cfcd7c18166f2f8aedb84d88182a027" kindref="member">finalize()</ref> ); Generated from class <computeroutput><ref refid="classMR_1_1MarchingCubesByParts" kindref="compound">MR.MarchingCubesByParts</ref></computeroutput>. This is the non-const half of the class. </para>
+<para>converts volume split on parts by planes z=const into mesh, last z-layer of previous part must be repeated as first z-layer of next part usage: <ref refid="classMR_1_1MarchingCubesByParts" kindref="compound">MarchingCubesByParts</ref> x( dims, params); x.addPart( part1 ); ... x.addPart( partN ); <ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref> mesh = Mesh::fromTriMesh( *x.<ref refid="classMR_1_1MarchingCubesByParts_1a8cfcd7c18166f2f8aedb84d88182a027" kindref="member">finalize()</ref> ); Generated from class <computeroutput><ref refid="classMR_1_1MarchingCubesByParts" kindref="compound">MR.MarchingCubesByParts</ref></computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_MarchingCubesByParts</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MarchingCubesByParts</label>
         <link refid="classMR_1_1MarchingCubesByParts"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MarchingCubesByParts</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MarchingCubesByParts &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_MarchingCubesByParts</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MarchingCubesByParts</label>
         <link refid="classMR_1_1MarchingCubesByParts"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MarchingCubesByParts</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MarchingCubesByParts &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="503" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="504" bodyend="577"/>

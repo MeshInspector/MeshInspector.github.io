@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Toolbar" kind="class" language="C++" prot="public">
     <compoundname>MR::Toolbar</compoundname>
-    <includes refid="MRToolbar_8h" local="no">MRToolbar.h</includes>
+    <includes refid="MRToolbar_8h" local="no">MRViewer/MRToolbar.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga8922dc2087ac25c4fc88489926795b32" kind="variable"><name>ribbonMenu_</name></member>
       <member refid="group__GeneralGroup_1ga796163c4756039c1728067f069c21036" kind="variable"><name>itemsList_</name></member>
@@ -44,7 +44,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="24" bodyend="84"/>
+    <location file="MRViewer/MRToolbar.h" line="23" column="1" bodyfile="MRViewer/MRToolbar.h" bodystart="24" bodyend="84"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga5c1c1d04ebe1a11e93ff0f6533fa62dc" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>currentWidth_</name></member>
       <member refid="group__GeneralGroup_1gaac941d198b6a18a82528912830209687" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>customizeTabNum_</name></member>

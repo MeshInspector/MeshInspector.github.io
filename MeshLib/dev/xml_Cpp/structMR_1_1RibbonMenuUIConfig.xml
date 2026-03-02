@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RibbonMenuUIConfig" kind="struct" language="C++" prot="public">
     <compoundname>MR::RibbonMenuUIConfig</compoundname>
-    <includes refid="MRRibbonMenuUIConfig_8h" local="no">MRRibbonMenuUIConfig.h</includes>
+    <includes refid="MRRibbonMenuUIConfig_8h" local="no">MRViewer/MRRibbonMenuUIConfig.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga596b3cd3ab9f14700dc1c54b3d7cdac3" kind="variable"><name>topLayout</name></member>
       <member refid="group__GeneralGroup_1ga859a05b1d76e85de81ee694b3b0dd341" kind="variable"><name>centerRibbonItems</name></member>
@@ -20,7 +20,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h" bodystart="18" bodyend="30"/>
+    <location file="MRViewer/MRRibbonMenuUIConfig.h" line="17" column="1" bodyfile="MRViewer/MRRibbonMenuUIConfig.h" bodystart="18" bodyend="30"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga859a05b1d76e85de81ee694b3b0dd341" prot="public" virt="non-virtual"><scope>MR::RibbonMenuUIConfig</scope><name>centerRibbonItems</name></member>
       <member refid="group__GeneralGroup_1ga6ef8462bce49279a9ec938eb5cc74d8e" prot="public" virt="non-virtual"><scope>MR::RibbonMenuUIConfig</scope><name>drawNotifications</name></member>

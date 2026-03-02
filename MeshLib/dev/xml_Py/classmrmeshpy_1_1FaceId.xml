@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1FaceId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FaceId</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1NoDefInit__FaceId" prot="public" virt="non-virtual">mrmeshpy.NoDefInit_FaceId</derivedcompoundref>
@@ -27,9 +27,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FaceId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1ae2af3ce1d07cb5eac81147357dbd58af">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1a244501494d2bc203924551a0def465e3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1a19176245788bed061c0e2816bfd23a65">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -52,9 +49,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FaceId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1ae2af3ce1d07cb5eac81147357dbd58af">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1a244501494d2bc203924551a0def465e3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1a19176245788bed061c0e2816bfd23a65">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -235,9 +229,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FaceId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1ae2af3ce1d07cb5eac81147357dbd58af">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1a244501494d2bc203924551a0def465e3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1a19176245788bed061c0e2816bfd23a65">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -256,9 +247,6 @@
         <argsstring>(self, int i)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FaceId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1ae2af3ce1d07cb5eac81147357dbd58af">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1a244501494d2bc203924551a0def465e3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1a19176245788bed061c0e2816bfd23a65">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -289,9 +277,6 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         <argsstring>(self, int i)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FaceId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1ae2af3ce1d07cb5eac81147357dbd58af">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1a244501494d2bc203924551a0def465e3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1a19176245788bed061c0e2816bfd23a65">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -322,9 +307,6 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         <argsstring>(self, int i)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FaceId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1ae2af3ce1d07cb5eac81147357dbd58af">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1a244501494d2bc203924551a0def465e3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1a19176245788bed061c0e2816bfd23a65">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -355,9 +337,6 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         <argsstring>(self, FaceId arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FaceId.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1ae2af3ce1d07cb5eac81147357dbd58af">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1a244501494d2bc203924551a0def465e3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1a19176245788bed061c0e2816bfd23a65">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -444,7 +423,6 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.FaceId.__repr__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__FaceId_1ae69548ba5c6452970e6071901bb6d109">__repr__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>

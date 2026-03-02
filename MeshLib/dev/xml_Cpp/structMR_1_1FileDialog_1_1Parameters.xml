@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1FileDialog_1_1Parameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::FileDialog::Parameters</compoundname>
     <basecompoundref refid="structMR_1_1FileParameters" prot="public" virt="non-virtual">MR::FileParameters</basecompoundref>
-    <includes refid="MRFileDialog_8h" local="no">MRFileDialog.h</includes>
+    <includes refid="MRFileDialog_8h" local="no">MRViewer/MRFileDialog.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gacb4f09069a5538c14fe2e0553c3569d1" kind="variable"><name>folderDialog</name></member>
       <member refid="group__GeneralGroup_1ga3b16808165abc1930db418e488d58225" kind="variable"><name>multiselect</name></member>
@@ -37,7 +37,7 @@
         <link refid="structMR_1_1FileParameters"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialog.h" line="88" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialog.h" bodystart="89" bodyend="93"/>
+    <location file="MRViewer/MRFileDialog.h" line="88" column="1" bodyfile="MRViewer/MRFileDialog.h" bodystart="89" bodyend="93"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga4712ec5afb78d48f6b26fd4813a720e7" prot="public" virt="non-virtual"><scope>MR::FileDialog::Parameters</scope><name>baseFolder</name></member>
       <member refid="group__GeneralGroup_1ga136b19b9c9c5b93c2788ccacc848e219" prot="public" virt="non-virtual"><scope>MR::FileDialog::Parameters</scope><name>fileName</name></member>

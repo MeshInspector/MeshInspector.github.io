@@ -1,6 +1,6 @@
 var group__MathGroup =
 [
-    [ "2d <-> 3d conversion", "group__ConversionBetween2and3dimGroup.html", "group__ConversionBetween2and3dimGroup" ],
+    [ "2d &lt;-&gt; 3d conversion", "group__ConversionBetween2and3dimGroup.html", "group__ConversionBetween2and3dimGroup" ],
     [ "BestFit", "group__BestFitGroup.html", "group__BestFitGroup" ],
     [ "Box", "group__BoxGroup.html", "group__BoxGroup" ],
     [ "Constants", "group__ConstantsGroup.html", null ],

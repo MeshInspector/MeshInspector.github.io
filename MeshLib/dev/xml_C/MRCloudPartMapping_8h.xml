@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCloudPartMapping_8h" kind="file" language="C++">
     <compoundname>MRCloudPartMapping.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -21,19 +21,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRCloudPartMapping_8h_1a0c1baad62a31685b2dfb5955f3fb8230" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref></type>
-        <definition>typedef struct MR_VertMap MR_VertMap</definition>
-        <argsstring></argsstring>
-        <name>MR_VertMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="11" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" prot="public" static="no">
         <type>struct <ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref></type>
         <definition>typedef struct MR_CloudPartMapping MR_CloudPartMapping</definition>
@@ -295,7 +282,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_CloudPartMapping</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -313,7 +300,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_CloudPartMapping</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -359,28 +346,28 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRCloudPartMapping_8h_1a0c1baad62a31685b2dfb5955f3fb8230" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mapping<sp/>among<sp/>elements<sp/>of<sp/>source<sp/>point<sp/>cloud,<sp/>from<sp/>which<sp/>a<sp/>part<sp/>is<sp/>taken,<sp/>and<sp/>target<sp/>(this)<sp/>point<sp/>cloud</highlight></codeline>
-<codeline lineno="17" refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mapping<sp/>among<sp/>elements<sp/>of<sp/>source<sp/>point<sp/>cloud,<sp/>from<sp/>which<sp/>a<sp/>part<sp/>is<sp/>taken,<sp/>and<sp/>target<sp/>(this)<sp/>point<sp/>cloud</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref>;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>from.id<sp/>-&gt;<sp/>this.id,<sp/>efficient<sp/>when<sp/>full<sp/>cloud<sp/>without<sp/>many<sp/>invalid<sp/>points<sp/>is<sp/>added<sp/>into<sp/>another<sp/>cloud</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>from.id<sp/>-&gt;<sp/>this.id,<sp/>efficient<sp/>when<sp/>full<sp/>cloud<sp/>without<sp/>many<sp/>invalid<sp/>points<sp/>is<sp/>added<sp/>into<sp/>another<sp/>cloud</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRCloudPartMapping_8h_1a91187b54f56384bf6ff7e614ba30cd20" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCloudPartMapping_8h_1a91187b54f56384bf6ff7e614ba30cd20" kindref="member">MR_CloudPartMapping_Get_src2tgtVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>from.id<sp/>-&gt;<sp/>this.id,<sp/>efficient<sp/>when<sp/>full<sp/>cloud<sp/>without<sp/>many<sp/>invalid<sp/>points<sp/>is<sp/>added<sp/>into<sp/>another<sp/>cloud</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>from.id<sp/>-&gt;<sp/>this.id,<sp/>efficient<sp/>when<sp/>full<sp/>cloud<sp/>without<sp/>many<sp/>invalid<sp/>points<sp/>is<sp/>added<sp/>into<sp/>another<sp/>cloud</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31" refid="MRCloudPartMapping_8h_1afa487af50e518241eda6e0243f9397ef" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1afa487af50e518241eda6e0243f9397ef" kindref="member">MR_CloudPartMapping_Set_src2tgtVerts</ref>(<ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>from.id<sp/>-&gt;<sp/>this.id,<sp/>efficient<sp/>when<sp/>full<sp/>cloud<sp/>without<sp/>many<sp/>invalid<sp/>points<sp/>is<sp/>added<sp/>into<sp/>another<sp/>cloud</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>from.id<sp/>-&gt;<sp/>this.id,<sp/>efficient<sp/>when<sp/>full<sp/>cloud<sp/>without<sp/>many<sp/>invalid<sp/>points<sp/>is<sp/>added<sp/>into<sp/>another<sp/>cloud</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="38" refid="MRCloudPartMapping_8h_1ab2f94722b167d15a641233080fd5d1d1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRCloudPartMapping_8h_1ab2f94722b167d15a641233080fd5d1d1" kindref="member">MR_CloudPartMapping_GetMutable_src2tgtVerts</ref>(<ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>this.id<sp/>-&gt;<sp/>from.id,<sp/>efficient<sp/>when<sp/>any<sp/>cloud<sp/>or<sp/>its<sp/>part<sp/>is<sp/>added<sp/>into<sp/>empty<sp/>cloud</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>this.id<sp/>-&gt;<sp/>from.id,<sp/>efficient<sp/>when<sp/>any<sp/>cloud<sp/>or<sp/>its<sp/>part<sp/>is<sp/>added<sp/>into<sp/>empty<sp/>cloud</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="45" refid="MRCloudPartMapping_8h_1a6da777bcc6d272d43462c38b0c2c0a30" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCloudPartMapping_8h_1a6da777bcc6d272d43462c38b0c2c0a30" kindref="member">MR_CloudPartMapping_Get_tgt2srcVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>this.id<sp/>-&gt;<sp/>from.id,<sp/>efficient<sp/>when<sp/>any<sp/>cloud<sp/>or<sp/>its<sp/>part<sp/>is<sp/>added<sp/>into<sp/>empty<sp/>cloud</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>this.id<sp/>-&gt;<sp/>from.id,<sp/>efficient<sp/>when<sp/>any<sp/>cloud<sp/>or<sp/>its<sp/>part<sp/>is<sp/>added<sp/>into<sp/>empty<sp/>cloud</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="52" refid="MRCloudPartMapping_8h_1adc748cfaf3d9cff47a781fcae9599ca9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1adc748cfaf3d9cff47a781fcae9599ca9" kindref="member">MR_CloudPartMapping_Set_tgt2srcVerts</ref>(<ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/>this.id<sp/>-&gt;<sp/>from.id,<sp/>efficient<sp/>when<sp/>any<sp/>cloud<sp/>or<sp/>its<sp/>part<sp/>is<sp/>added<sp/>into<sp/>empty<sp/>cloud</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/>this.id<sp/>-&gt;<sp/>from.id,<sp/>efficient<sp/>when<sp/>any<sp/>cloud<sp/>or<sp/>its<sp/>part<sp/>is<sp/>added<sp/>into<sp/>empty<sp/>cloud</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="59" refid="MRCloudPartMapping_8h_1ab6fa6b384fd6ef0ed6ad2a0fd3816577" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRCloudPartMapping_8h_1ab6fa6b384fd6ef0ed6ad2a0fd3816577" kindref="member">MR_CloudPartMapping_GetMutable_tgt2srcVerts</ref>(<ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="63" refid="MRCloudPartMapping_8h_1ac350375addfc6814b92d818a20a7d959" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*<ref refid="MRCloudPartMapping_8h_1ac350375addfc6814b92d818a20a7d959" kindref="member">MR_CloudPartMapping_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>

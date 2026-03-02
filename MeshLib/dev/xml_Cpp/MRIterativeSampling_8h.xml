@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRIterativeSampling_8h" kind="file" language="C++">
     <compoundname>MRIterativeSampling.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -13,7 +13,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRIterativeSampling.h</label>
+        <label>MRMesh/MRIterativeSampling.h</label>
         <link refid="MRIterativeSampling_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -108,8 +108,8 @@
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1gab1ebfd99de734fb5a427394dcc38d2d5" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="group__GeneralGroup_1gab1ebfd99de734fb5a427394dcc38d2d5" kindref="member">pointIterativeSampling</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numSamples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIterativeSampling.h"/>
+    <location file="MRMesh/MRIterativeSampling.h"/>
   </compounddef>
 </doxygen>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderObjectBuffer" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderObjectBuffer</compoundname>
-    <includes refid="MRRenderHelpers_8h" local="no">MRRenderHelpers.h</includes>
+    <includes refid="MRRenderHelpers_8h" local="no">MRViewer/MRRenderHelpers.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaf9861d4c2dda1de9631b99cd6b2f19c0" kind="variable"><name>buffer_</name></member>
     </sectiondef>
@@ -15,7 +15,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="66" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="67" bodyend="85"/>
+    <location file="MRViewer/MRRenderHelpers.h" line="66" column="1" bodyfile="MRViewer/MRRenderHelpers.h" bodystart="67" bodyend="85"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaf9861d4c2dda1de9631b99cd6b2f19c0" prot="private" virt="non-virtual"><scope>MR::RenderObjectBuffer</scope><name>buffer_</name></member>
       <member refid="group__GeneralGroup_1gab02cd1ea0027d6d6976037b84fbbbe33" prot="public" virt="non-virtual"><scope>MR::RenderObjectBuffer</scope><name>heapBytes</name></member>

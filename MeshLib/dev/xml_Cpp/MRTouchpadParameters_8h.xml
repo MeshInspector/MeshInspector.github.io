@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRTouchpadParameters_8h" kind="file" language="C++">
     <compoundname>MRTouchpadParameters.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
-    <includedby refid="MRTouchpadController_8h" local="yes">MRTouchpadController.h</includedby>
-    <includedby refid="MRViewerSettingsPlugin_8h" local="yes">MRViewerSettingsPlugin.h</includedby>
+    <includedby refid="MRTouchpadController_8h" local="yes">MRViewer/MRTouchpadController.h</includedby>
+    <includedby refid="MRViewerSettingsPlugin_8h" local="yes">MRViewer/MRViewerSettingsPlugin.h</includedby>
     <incdepgraph>
       <node id="7">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -43,7 +43,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRTouchpadParameters.h</label>
+        <label>MRViewer/MRTouchpadParameters.h</label>
         <link refid="MRTouchpadParameters_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -91,11 +91,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRTouchpadController.h</label>
+        <label>MRViewer/MRTouchpadController.h</label>
         <link refid="MRTouchpadController_8h"/>
       </node>
       <node id="1">
-        <label>MRTouchpadParameters.h</label>
+        <label>MRViewer/MRTouchpadParameters.h</label>
         <link refid="MRTouchpadParameters_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -103,7 +103,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MRViewerSettingsPlugin.h</label>
+        <label>MRViewer/MRViewerSettingsPlugin.h</label>
         <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
@@ -127,14 +127,14 @@
 <codeline lineno="14" refid="group__GeneralGroup_1ga9ae8b021b03e91d547e512ba94391092" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9ae8b021b03e91d547e512ba94391092" kindref="member">ignoreKineticMoves</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1gaddabc579478d3071f3b5a951ab574251" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaddabc579478d3071f3b5a951ab574251" kindref="member">cancellable</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1ga5fa77fceab21954148047b9057cdadce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5fa77fceab21954148047b9057cdadce" kindref="member">SwipeMode</ref><sp/>{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1" kindref="member">SwipeRotatesCamera</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e" kindref="member">SwipeMovesCamera</ref><sp/>=<sp/>1,</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gga5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1" kindref="member">SwipeRotatesCamera</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gga5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e" kindref="member">SwipeMovesCamera</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1gga5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
 <codeline lineno="22" refid="group__GeneralGroup_1ga4c54fd86bf3e610a33c76ea0e5b8c508" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><ref refid="group__GeneralGroup_1ga4c54fd86bf3e610a33c76ea0e5b8c508" kindref="member">swipeMode</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gga5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1" kindref="member">SwipeMode::SwipeRotatesCamera</ref>;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadParameters.h"/>
+    <location file="MRViewer/MRTouchpadParameters.h"/>
   </compounddef>
 </doxygen>

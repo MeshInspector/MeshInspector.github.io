@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshDiff_8h" kind="file" language="C++">
     <compoundname>MRMeshDiff.h</compoundname>
     <includes refid="MRVertCoordsDiff_8h" local="yes">MRVertCoordsDiff.h</includes>
     <includes refid="MRMeshTopologyDiff_8h" local="yes">MRMeshTopologyDiff.h</includes>
-    <includedby refid="MRPartialChangeMeshAction_8h" local="yes">MRPartialChangeMeshAction.h</includedby>
+    <includedby refid="MRPartialChangeMeshAction_8h" local="yes">MRMesh/MRPartialChangeMeshAction.h</includedby>
     <incdepgraph>
       <node id="24">
         <label>MRBitSet.h</label>
@@ -77,7 +77,7 @@
         <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
-        <label>MRMeshDiff.h</label>
+        <label>MRMesh/MRMeshDiff.h</label>
         <link refid="MRMeshDiff_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -311,13 +311,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRMeshDiff.h</label>
+        <label>MRMesh/MRMeshDiff.h</label>
         <link refid="MRMeshDiff_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRPartialChangeMeshAction.h</label>
+        <label>MRMesh/MRPartialChangeMeshAction.h</label>
         <link refid="MRPartialChangeMeshAction_8h"/>
       </node>
     </invincdepgraph>
@@ -337,7 +337,7 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="classMR_1_1MeshDiff" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MeshDiff" kindref="compound">MeshDiff</ref></highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1MeshDiff" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga5864778df831e322d932e266452fe232" kindref="member">MeshDiff</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga5864778df831e322d932e266452fe232" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5864778df831e322d932e266452fe232" kindref="member">MeshDiff</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -346,17 +346,17 @@
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="group__GeneralGroup_1ga0ca2efbedbc4a22640ef0e348d55bfaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0ca2efbedbc4a22640ef0e348d55bfaf" kindref="member">applyAndSwap</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>m<sp/>);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="group__GeneralGroup_1ga75b8d7d561c4183ee307a3c1f1d85ba1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga75b8d7d561c4183ee307a3c1f1d85ba1" kindref="member">any</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pointsDiff_.<ref refid="group__GeneralGroup_1ga5f175f350625d742580210d6aeda32e8" kindref="member">any</ref>()<sp/>||<sp/>topologyDiff_.<ref refid="group__GeneralGroup_1gaeb15ef52dc9593c97da084a462456e23" kindref="member">any</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1ga75b8d7d561c4183ee307a3c1f1d85ba1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga75b8d7d561c4183ee307a3c1f1d85ba1" kindref="member">any</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pointsDiff_.any()<sp/>||<sp/>topologyDiff_.any();<sp/>}</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="group__GeneralGroup_1gafc1a1ad047dc4eb7b120e4cc9ab2c915" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafc1a1ad047dc4eb7b120e4cc9ab2c915" kindref="member">heapBytes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pointsDiff_.<ref refid="group__GeneralGroup_1gac535b1f7665cf87c787eea93553218a9" kindref="member">heapBytes</ref>()<sp/>+<sp/>topologyDiff_.<ref refid="group__GeneralGroup_1gaa4a8e6c2de54156f11ab33a657c3c2d9" kindref="member">heapBytes</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1gafc1a1ad047dc4eb7b120e4cc9ab2c915" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafc1a1ad047dc4eb7b120e4cc9ab2c915" kindref="member">heapBytes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pointsDiff_.heapBytes()<sp/>+<sp/>topologyDiff_.heapBytes();<sp/>}</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1VertCoordsDiff" kindref="compound">VertCoordsDiff</ref><sp/>pointsDiff_;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1MeshTopologyDiff" kindref="compound">MeshTopologyDiff</ref><sp/>topologyDiff_;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDiff.h"/>
+    <location file="MRMesh/MRMeshDiff.h"/>
   </compounddef>
 </doxygen>

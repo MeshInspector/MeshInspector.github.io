@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__PlanarPathGroup" kind="group">
     <compoundname>PlanarPathGroup</compoundname>
     <title>Planar Path</title>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" line="17" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" declline="17" declcolumn="9"/>
+        <location file="MRMesh/MRReducePath.h" line="17" column="9" declfile="MRMesh/MRReducePath.h" declline="17" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__PlanarPathGroup_1gaf1a65dfbfdcd23da6f9a48589ee8060e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" line="23" column="3" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" declline="23" declcolumn="3"/>
+        <location file="MRMesh/MRReducePath.h" line="23" column="3" declfile="MRMesh/MRReducePath.h" declline="23" declcolumn="3"/>
       </memberdef>
       <memberdef kind="function" id="group__PlanarPathGroup_1gaf1dd390e537cb9342ced1b65ad2b29d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -111,7 +111,7 @@
         <inbodydescription>
 <para>if path goes via vertices A or C then the quadrangle is concave or degenerated to triangle</para>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" line="28" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" bodystart="28" bodyend="32"/>
+        <location file="MRMesh/MRReducePath.h" line="28" column="6" bodyfile="MRMesh/MRReducePath.h" bodystart="28" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="group__PlanarPathGroup_1ga4dcf8a62c1ef3b68774507c3d3557bc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -179,7 +179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" line="38" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" declline="38" declcolumn="7"/>
+        <location file="MRMesh/MRReducePath.h" line="38" column="7" declfile="MRMesh/MRReducePath.h" declline="38" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__PlanarPathGroup_1ga0d2e3afb7eada78ede593a4e0a0d0e81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -215,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" line="43" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" declline="43" declcolumn="6"/>
+        <location file="MRMesh/MRReducePath.h" line="43" column="6" declfile="MRMesh/MRReducePath.h" declline="43" declcolumn="6"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

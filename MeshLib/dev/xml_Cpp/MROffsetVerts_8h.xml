@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MROffsetVerts_8h" kind="file" language="C++">
     <compoundname>MROffsetVerts.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -40,7 +40,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MROffsetVerts.h</label>
+        <label>MRMesh/MROffsetVerts.h</label>
         <link refid="MROffsetVerts_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -145,8 +145,8 @@
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62" refid="group__GeneralGroup_1gad3160267e2d1fe91584968a7cf1387ff" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertCoords&gt;<sp/><ref refid="group__GeneralGroup_1gad3160267e2d1fe91584968a7cf1387ff" kindref="member">findZcompensatedPositions</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ZCompensateParams" kindref="compound">ZCompensateParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetVerts.h"/>
+    <location file="MRMesh/MROffsetVerts.h"/>
   </compounddef>
 </doxygen>

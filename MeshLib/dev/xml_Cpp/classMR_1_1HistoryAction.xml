@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1HistoryAction" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>MR::HistoryAction</compoundname>
     <derivedcompoundref refid="classMR_1_1ChangVoxelSelectionAction" prot="public" virt="non-virtual">MR::ChangVoxelSelectionAction</derivedcompoundref>
@@ -56,7 +56,7 @@
     <derivedcompoundref refid="structMR_1_1PickPointManager_1_1WidgetHistoryAction" prot="public" virt="non-virtual">MR::PickPointManager::WidgetHistoryAction</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1SwapRootAction" prot="public" virt="non-virtual">MR::SwapRootAction</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1ViewportParametersAction" prot="public" virt="non-virtual">MR::ViewportParametersAction</derivedcompoundref>
-    <includes refid="MRHistoryAction_8h" local="no">MRHistoryAction.h</includes>
+    <includes refid="MRHistoryAction_8h" local="no">MRMesh/MRHistoryAction.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kind="enum"><name>Type</name></member>
     </sectiondef>
@@ -407,7 +407,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistoryAction.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistoryAction.h" bodystart="15" bodyend="31"/>
+    <location file="MRMesh/MRHistoryAction.h" line="14" column="1" bodyfile="MRMesh/MRHistoryAction.h" bodystart="15" bodyend="31"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaecfce349736beaf17a23a6817c86f3bb" prot="public" virt="pure-virtual"><scope>MR::HistoryAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gad6df54da6a63ed83f15053507e8569de" prot="public" virt="pure-virtual"><scope>MR::HistoryAction</scope><name>heapBytes</name></member>

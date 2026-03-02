@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RadiusMeasurementObject" kind="class" language="C++" prot="public">
     <compoundname>MR::RadiusMeasurementObject</compoundname>
     <basecompoundref refid="classMR_1_1MeasurementObject" prot="public" virt="non-virtual">MR::MeasurementObject</basecompoundref>
-    <includes refid="MRRadiusMeasurementObject_8h" local="no">MRRadiusMeasurementObject.h</includes>
+    <includes refid="MRRadiusMeasurementObject_8h" local="no">MRMesh/MRRadiusMeasurementObject.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gad6a20d14e4a0d6f0867561c459606c93" kind="variable"><name>drawAsDiameter_</name></member>
       <member refid="group__GeneralGroup_1gacdc632ba526bf0f3631a99cf8cef5ce7" kind="variable"><name>isSpherical_</name></member>
@@ -180,7 +180,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="13" bodyend="102"/>
+    <location file="MRMesh/MRRadiusMeasurementObject.h" line="12" column="1" bodyfile="MRMesh/MRRadiusMeasurementObject.h" bodystart="13" bodyend="102"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>addChildBefore</name></member>

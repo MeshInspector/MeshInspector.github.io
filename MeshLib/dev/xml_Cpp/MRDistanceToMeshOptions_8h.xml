@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRDistanceToMeshOptions_8h" kind="file" language="C++">
     <compoundname>MRDistanceToMeshOptions.h</compoundname>
     <includes refid="MRSignDetectionMode_8h" local="yes">MRSignDetectionMode.h</includes>
     <includes local="no">cfloat</includes>
-    <includedby refid="MRCudaFastWindingNumber_8h" local="yes">MRCudaFastWindingNumber.h</includedby>
-    <includedby refid="MRMeshDistance_8h" local="yes">MRMeshDistance.h</includedby>
-    <includedby refid="MRPolylineToVoxels_8h" local="yes">MRPolylineToVoxels.h</includedby>
+    <includedby refid="MRCudaFastWindingNumber_8h" local="yes">MRCuda/MRCudaFastWindingNumber.h</includedby>
+    <includedby refid="MRMeshDistance_8h" local="yes">MRMesh/MRMeshDistance.h</includedby>
+    <includedby refid="MRPolylineToVoxels_8h" local="yes">MRVoxels/MRPolylineToVoxels.h</includedby>
     <incdepgraph>
       <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -15,7 +15,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRDistanceToMeshOptions.h</label>
+        <label>MRMesh/MRDistanceToMeshOptions.h</label>
         <link refid="MRDistanceToMeshOptions_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -85,11 +85,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRCudaFastWindingNumber.h</label>
+        <label>MRCuda/MRCudaFastWindingNumber.h</label>
         <link refid="MRCudaFastWindingNumber_8h"/>
       </node>
       <node id="1">
-        <label>MRDistanceToMeshOptions.h</label>
+        <label>MRMesh/MRDistanceToMeshOptions.h</label>
         <link refid="MRDistanceToMeshOptions_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -99,17 +99,17 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MRMeshDistance.h</label>
+        <label>MRMesh/MRMeshDistance.h</label>
         <link refid="MRMeshDistance_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRMeshToDistanceVolume.h</label>
+        <label>MRVoxels/MRMeshToDistanceVolume.h</label>
         <link refid="MRMeshToDistanceVolume_8h"/>
       </node>
       <node id="5">
-        <label>MRPolylineToVoxels.h</label>
+        <label>MRVoxels/MRPolylineToVoxels.h</label>
         <link refid="MRPolylineToVoxels_8h"/>
       </node>
     </invincdepgraph>
@@ -130,7 +130,7 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="structMR_1_1DistanceToMeshOptions" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1DistanceToMeshOptions" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1gae2fa63f37be78f78cc9c0146c30c913f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae2fa63f37be78f78cc9c0146c30c913f" kindref="member">minDistSq</ref>{<sp/>0<sp/>};</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
@@ -143,13 +143,13 @@
 <codeline lineno="35" refid="group__GeneralGroup_1ga760f0917e02d32cbd6a708966ef922a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga760f0917e02d32cbd6a708966ef922a5" kindref="member">windingNumberBeta</ref><sp/>=<sp/>2;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="structMR_1_1SignedDistanceToMeshOptions" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SignedDistanceToMeshOptions" kindref="compound">SignedDistanceToMeshOptions</ref><sp/>:<sp/><ref refid="structMR_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></highlight></codeline>
+<codeline lineno="39" refid="structMR_1_1SignedDistanceToMeshOptions" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SignedDistanceToMeshOptions" kindref="compound">SignedDistanceToMeshOptions</ref><sp/>:<sp/><ref refid="structMR_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></highlight></codeline>
 <codeline lineno="40"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="42" refid="group__GeneralGroup_1ga0cd9e5d7a7828694eccf3cd8a455f47e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga03fba1fe0e5d6fe3c22dc41c9d57d309" kindref="member">SignDetectionMode</ref><sp/><ref refid="group__GeneralGroup_1ga0cd9e5d7a7828694eccf3cd8a455f47e" kindref="member">signMode</ref>{<sp/><ref refid="group__GeneralGroup_1gga03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9" kindref="member">SignDetectionMode::ProjectionNormal</ref><sp/>};</highlight></codeline>
 <codeline lineno="43"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceToMeshOptions.h"/>
+    <location file="MRMesh/MRDistanceToMeshOptions.h"/>
   </compounddef>
 </doxygen>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonSceneRename" kind="class" language="C++" prot="public">
     <compoundname>MR::RibbonSceneRename</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
     <basecompoundref refid="classMR_1_1SceneStateExactCheck" prot="public" virt="non-virtual">MR::SceneStateExactCheck&lt; 1, Object, NoModelCheck &gt;</basecompoundref>
-    <includes refid="MRRibbonSceneButtons_8h" local="no">MRRibbonSceneButtons.h</includes>
+    <includes refid="MRRibbonSceneButtons_8h" local="no">MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga4ef4cb4a806b31af47c4388ec9d1df95" kind="function"><name>RibbonSceneRename</name></member>
       <member refid="group__GeneralGroup_1ga0a3ceed28e10a93082b57b82d8488854" kind="function"><name>action</name></member>
@@ -65,7 +65,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" line="90" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" bodystart="91" bodyend="97"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" line="90" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" bodystart="91" bodyend="97"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0a3ceed28e10a93082b57b82d8488854" prot="public" virt="virtual"><scope>MR::RibbonSceneRename</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::RibbonSceneRename</scope><name>blocking</name></member>

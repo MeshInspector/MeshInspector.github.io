@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeScaleAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ChangeScaleAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRChangeScaleAction_8h" local="no">MRChangeScaleAction.h</includes>
+    <includes refid="MRChangeScaleAction_8h" local="no">MRMesh/MRChangeScaleAction.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga34ee15aeaa5fd343fa66757e88a7e634" kind="variable"><name>obj_</name></member>
       <member refid="group__GeneralGroup_1gab6aef2e7f19b6ff376065b1e7e3d1838" kind="variable"><name>scale_</name></member>
@@ -44,7 +44,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" bodystart="17" bodyend="54"/>
+    <location file="MRMesh/MRChangeScaleAction.h" line="16" column="1" bodyfile="MRMesh/MRChangeScaleAction.h" bodystart="17" bodyend="54"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga5b30db2db48c27d37a14849a1b6b0dca" prot="public" virt="virtual"><scope>MR::ChangeScaleAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga7ed6dd43bb4742c5a423190cdb2b8075" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>ChangeScaleAction</name></member>

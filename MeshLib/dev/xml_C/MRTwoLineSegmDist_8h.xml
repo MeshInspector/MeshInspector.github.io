@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRTwoLineSegmDist_8h" kind="file" language="C++">
     <compoundname>MRTwoLineSegmDist.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
@@ -42,32 +42,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRTwoLineSegmDist_8h_1a438f2f50208ff37150a7ac5a2725ac05" prot="public" static="no">
-        <type>struct <ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref></type>
-        <definition>typedef struct MR_LineSegm3d MR_LineSegm3d</definition>
-        <argsstring></argsstring>
-        <name>MR_LineSegm3d</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="12" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTwoLineSegmDist_8h_1a39540ed403db4865d7d6ce134f7654c1" prot="public" static="no">
-        <type>struct <ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref></type>
-        <definition>typedef struct MR_LineSegm3f MR_LineSegm3f</definition>
-        <argsstring></argsstring>
-        <name>MR_LineSegm3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTwoLineSegmDist.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" prot="public" static="no">
         <type>struct <ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref></type>
         <definition>typedef struct MR_TwoLineSegmClosestPoints_float MR_TwoLineSegmClosestPoints_float</definition>
@@ -405,7 +379,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_TwoLineSegmClosestPoints_float</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -423,7 +397,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_TwoLineSegmClosestPoints_float</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -760,7 +734,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_TwoLineSegmClosestPoints_double</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -778,7 +752,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_TwoLineSegmClosestPoints_double</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -869,13 +843,13 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRTwoLineSegmDist_8h_1a438f2f50208ff37150a7ac5a2725ac05" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLineSegm.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRTwoLineSegmDist_8h_1a39540ed403db4865d7d6ce134f7654c1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLineSegm.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref><sp/><ref refid="MRLineSegm_8h_1a438f2f50208ff37150a7ac5a2725ac05" kindref="member">MR_LineSegm3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLineSegm.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref><sp/><ref refid="MRFeatures_8h_1a39540ed403db4865d7d6ce134f7654c1" kindref="member">MR_LineSegm3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLineSegm.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref>;</highlight></codeline>
+<codeline lineno="18" refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref>;</highlight></codeline>
+<codeline lineno="22" refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref>;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="MRTwoLineSegmDist_8h_1ad5b2c6b7021b057c3cc036e4c6b7b34f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1ad5b2c6b7021b057c3cc036e4c6b7b34f" kindref="member">MR_TwoLineSegmClosestPoints_float_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
@@ -891,17 +865,17 @@
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>in<sp/>segment<sp/>endpoints,<sp/>then<sp/>directed<sp/>from<sp/>closest<sp/>point<sp/>a<sp/>to<sp/>closest<sp/>point<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>inner<sp/>to<sp/>the<sp/>segments,<sp/>then<sp/>its<sp/>orthogonal<sp/>to<sp/>both<sp/>segments<sp/>and<sp/>directed<sp/>from<sp/>a<sp/>to<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="73" refid="MRTwoLineSegmDist_8h_1a5ad2bd94c24a5ed4eac24a34b1337d9e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a5ad2bd94c24a5ed4eac24a34b1337d9e" kindref="member">MR_TwoLineSegmClosestPoints_float_Get_dir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>in<sp/>segment<sp/>endpoints,<sp/>then<sp/>directed<sp/>from<sp/>closest<sp/>point<sp/>a<sp/>to<sp/>closest<sp/>point<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>inner<sp/>to<sp/>the<sp/>segments,<sp/>then<sp/>its<sp/>orthogonal<sp/>to<sp/>both<sp/>segments<sp/>and<sp/>directed<sp/>from<sp/>a<sp/>to<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="82" refid="MRTwoLineSegmDist_8h_1abe827bf33443506fe4fa6624faef71f2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1abe827bf33443506fe4fa6624faef71f2" kindref="member">MR_TwoLineSegmClosestPoints_float_Set_dir</ref>(<ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>in<sp/>segment<sp/>endpoints,<sp/>then<sp/>directed<sp/>from<sp/>closest<sp/>point<sp/>a<sp/>to<sp/>closest<sp/>point<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>inner<sp/>to<sp/>the<sp/>segments,<sp/>then<sp/>its<sp/>orthogonal<sp/>to<sp/>both<sp/>segments<sp/>and<sp/>directed<sp/>from<sp/>a<sp/>to<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="91" refid="MRTwoLineSegmDist_8h_1a7e4eb433b2f5fec57e1648c4092fc98a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a7e4eb433b2f5fec57e1648c4092fc98a" kindref="member">MR_TwoLineSegmClosestPoints_float_GetMutable_dir</ref>(<ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
 <codeline lineno="95" refid="MRTwoLineSegmDist_8h_1ab7a3426757ef715e9947f0c104a662b0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTwoLineSegmDist_8h_1aaf5e73314bc6e11e389029131788e76f" kindref="member">MR_TwoLineSegmClosestPoints_float</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1ab7a3426757ef715e9947f0c104a662b0" kindref="member">MR_TwoLineSegmClosestPoints_float_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
@@ -936,17 +910,17 @@
 <codeline lineno="179"><highlight class="normal"></highlight></codeline>
 <codeline lineno="180"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>in<sp/>segment<sp/>endpoints,<sp/>then<sp/>directed<sp/>from<sp/>closest<sp/>point<sp/>a<sp/>to<sp/>closest<sp/>point<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="181"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>inner<sp/>to<sp/>the<sp/>segments,<sp/>then<sp/>its<sp/>orthogonal<sp/>to<sp/>both<sp/>segments<sp/>and<sp/>directed<sp/>from<sp/>a<sp/>to<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="182"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="187" refid="MRTwoLineSegmDist_8h_1ac937bfbba5b49af27ec35864ceaf2a88" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1ac937bfbba5b49af27ec35864ceaf2a88" kindref="member">MR_TwoLineSegmClosestPoints_double_Get_dir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>in<sp/>segment<sp/>endpoints,<sp/>then<sp/>directed<sp/>from<sp/>closest<sp/>point<sp/>a<sp/>to<sp/>closest<sp/>point<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="190"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>inner<sp/>to<sp/>the<sp/>segments,<sp/>then<sp/>its<sp/>orthogonal<sp/>to<sp/>both<sp/>segments<sp/>and<sp/>directed<sp/>from<sp/>a<sp/>to<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="191"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="196" refid="MRTwoLineSegmDist_8h_1afbf890d25e03d328dd1762fd9109d8b6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTwoLineSegmDist_8h_1afbf890d25e03d328dd1762fd9109d8b6" kindref="member">MR_TwoLineSegmClosestPoints_double_Set_dir</ref>(<ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
 <codeline lineno="198"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>in<sp/>segment<sp/>endpoints,<sp/>then<sp/>directed<sp/>from<sp/>closest<sp/>point<sp/>a<sp/>to<sp/>closest<sp/>point<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="199"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>both<sp/>closest<sp/>points<sp/>are<sp/>inner<sp/>to<sp/>the<sp/>segments,<sp/>then<sp/>its<sp/>orthogonal<sp/>to<sp/>both<sp/>segments<sp/>and<sp/>directed<sp/>from<sp/>a<sp/>to<sp/>b,</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="200"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight><highlight class="comment">//<sp/>otherwise<sp/>it<sp/>is<sp/>orthogonal<sp/>to<sp/>the<sp/>segment<sp/>with<sp/>inner<sp/>closest<sp/>point<sp/>and<sp/>rotated<sp/>toward/away<sp/>the<sp/>other<sp/>closest<sp/>point<sp/>in<sp/>endpoint</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="205" refid="MRTwoLineSegmDist_8h_1a75ead5a7443e4f275562e8fe1070f637" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a75ead5a7443e4f275562e8fe1070f637" kindref="member">MR_TwoLineSegmClosestPoints_double_GetMutable_dir</ref>(<ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="206"><highlight class="normal"></highlight></codeline>
 <codeline lineno="209" refid="MRTwoLineSegmDist_8h_1a40c9737a5288aaeddde7be184ecd708a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTwoLineSegmDist_8h_1ae4fdd6d3e98f13d0ad9bfdda791811e4" kindref="member">MR_TwoLineSegmClosestPoints_double</ref><sp/>*<ref refid="MRTwoLineSegmDist_8h_1a40c9737a5288aaeddde7be184ecd708a" kindref="member">MR_TwoLineSegmClosestPoints_double_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>

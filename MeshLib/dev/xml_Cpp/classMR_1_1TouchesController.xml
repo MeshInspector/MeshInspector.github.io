@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TouchesController" kind="class" language="C++" prot="public">
     <compoundname>MR::TouchesController</compoundname>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; TouchStartListener, TouchMoveListener, TouchEndListener &gt;</basecompoundref>
-    <includes refid="MRTouchesController_8h" local="no">MRTouchesController.h</includes>
+    <includes refid="MRTouchesController_8h" local="no">MRViewer/MRTouchesController.h</includes>
     <innerclass refid="structMR_1_1TouchesController_1_1Info" prot="private">MR::TouchesController::Info</innerclass>
     <innerclass refid="classMR_1_1TouchesController_1_1MultiInfo" prot="private">MR::TouchesController::MultiInfo</innerclass>
     <sectiondef kind="public-type">
@@ -66,7 +66,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="20" bodyend="76"/>
+    <location file="MRViewer/MRTouchesController.h" line="19" column="1" bodyfile="MRViewer/MRTouchesController.h" bodystart="20" bodyend="76"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::TouchesController</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::TouchesController</scope><name>disconnect</name></member>

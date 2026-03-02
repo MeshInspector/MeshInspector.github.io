@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonSceneShowOnlyNext" kind="class" language="C++" prot="public">
     <compoundname>MR::RibbonSceneShowOnlyNext</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
-    <includes refid="MRRibbonSceneButtons_8h" local="no">MRRibbonSceneButtons.h</includes>
+    <includes refid="MRRibbonSceneButtons_8h" local="no">MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gaa19e42c2e998d1d7389e7a6f859c2980" kind="function"><name>RibbonSceneShowOnlyNext</name></member>
       <member refid="group__GeneralGroup_1ga91abe5224df3d02efdba386b1954ed51" kind="function"><name>isAvailable</name></member>
@@ -49,7 +49,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" line="79" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" bodystart="80" bodyend="88"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" line="79" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" bodystart="80" bodyend="88"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2199b5a9a3cc9f2888ab7acc6262cbb4" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>blocking</name></member>

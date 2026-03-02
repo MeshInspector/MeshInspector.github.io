@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PreciseVertCoords2" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PreciseVertCoords2</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -264,19 +264,6 @@
 <para><verbatim>Generated from:  MR::PreciseVertCoords2
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.PreciseVertCoords2</label>
-        <link refid="classmrmeshpy_1_1PreciseVertCoords2"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_id</edgelabel>
-          <edgelabel>_offsetof_pt</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48449" bodyend="48495"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PreciseVertCoords2_1a771a0b1d2105e3aa83086a1419824f3b" prot="public" virt="non-virtual"><scope>mrmeshpy::PreciseVertCoords2</scope><name>__init__</name></member>

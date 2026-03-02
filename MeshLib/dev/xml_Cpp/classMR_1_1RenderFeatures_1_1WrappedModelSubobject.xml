@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderFeatures_1_1WrappedModelSubobject" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderFeatures::WrappedModelSubobject</compoundname>
     <basecompoundref refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase" prot="public" virt="non-virtual">MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, BaseObjectType &gt;</basecompoundref>
-    <includes refid="MRRenderFeatureObjects_8h" local="no">MRRenderFeatureObjects.h</includes>
+    <includes refid="MRRenderFeatureObjects_8h" local="no">MRViewer/MRRenderFeatureObjects.h</includes>
     <templateparamlist>
       <param>
         <type>bool</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="102" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="102" bodyend="105"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="102" column="28" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="102" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_1a9e508cc1c0b80f9d9127cedc7a67ddb5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="107" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="107" bodyend="110"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="107" column="28" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="107" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_1a4f7e8040992675f602ced6970bfd58f9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; uint8_t &gt; &amp;</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="112" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="112" bodyend="117"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="112" column="28" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="112" bodyend="117"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -144,7 +144,7 @@
         <label>ObjectType</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="97" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="98" bodyend="118"/>
+    <location file="MRViewer/MRRenderFeatureObjects.h" line="97" column="1" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="98" bodyend="118"/>
     <listofallmembers>
       <member refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_1a9e508cc1c0b80f9d9127cedc7a67ddb5" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::WrappedModelSubobject</scope><name>getBackColorsForAllViewports</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_1acd15ed44fd7280f12b948e5818ca1cd6" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::WrappedModelSubobject</scope><name>getFrontColorsForAllViewports</name></member>

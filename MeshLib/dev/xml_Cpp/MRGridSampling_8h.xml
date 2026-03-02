@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRGridSampling_8h" kind="file" language="C++">
     <compoundname>MRGridSampling.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -8,7 +8,7 @@
     <includes refid="MRPointCloudPart_8h" local="yes">MRPointCloudPart.h</includes>
     <includes refid="MRVector_8h" local="yes">MRVector.h</includes>
     <includes local="no">optional</includes>
-    <includedby refid="MRMultiwayICP_8h" local="yes">MRMultiwayICP.h</includedby>
+    <includedby refid="MRMultiwayICP_8h" local="yes">MRMesh/MRMultiwayICP.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -17,7 +17,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRGridSampling.h</label>
+        <label>MRMesh/MRGridSampling.h</label>
         <link refid="MRGridSampling_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -160,13 +160,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRGridSampling.h</label>
+        <label>MRMesh/MRGridSampling.h</label>
         <link refid="MRGridSampling_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRMultiwayICP.h</label>
+        <label>MRMesh/MRMultiwayICP.h</label>
         <link refid="MRMultiwayICP_8h"/>
       </node>
     </invincdepgraph>
@@ -196,7 +196,7 @@
 <codeline lineno="26" refid="group__GeneralGroup_1ga8fd557ec370469d7e49dda43061bb485" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="group__GeneralGroup_1ga8fd557ec370469d7e49dda43061bb485" kindref="member">pointGridSampling</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref>&amp;<sp/>pcp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="structMR_1_1ModelPointsData" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ModelPointsData" kindref="compound">ModelPointsData</ref></highlight></codeline>
+<codeline lineno="30" refid="structMR_1_1ModelPointsData" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ModelPointsData" kindref="compound">ModelPointsData</ref></highlight></codeline>
 <codeline lineno="31"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="33" refid="group__GeneralGroup_1ga68f2dced6aad70a6ad6e70cc610e1dd0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords*<sp/><ref refid="group__GeneralGroup_1ga68f2dced6aad70a6ad6e70cc610e1dd0" kindref="member">points</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="35" refid="group__GeneralGroup_1ga28af87bed47360152c4d30cff182595b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/><ref refid="group__GeneralGroup_1ga28af87bed47360152c4d30cff182595b" kindref="member">validPoints</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
@@ -216,8 +216,8 @@
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56" refid="group__GeneralGroup_1gae26b8f62dca51a80c9ba270f309ca6d8" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;MultiObjsSamples&gt;<sp/><ref refid="group__GeneralGroup_1gae26b8f62dca51a80c9ba270f309ca6d8" kindref="member">multiModelGridSampling</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;ModelPointsData, ObjId&gt;</ref>&amp;<sp/>models,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSampling.h"/>
+    <location file="MRMesh/MRGridSampling.h"/>
   </compounddef>
 </doxygen>

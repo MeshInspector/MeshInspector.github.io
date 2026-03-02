@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SaveSceneMenuItem" kind="class" language="C++" prot="public">
     <compoundname>MR::SaveSceneMenuItem</compoundname>
     <basecompoundref refid="classMR_1_1SaveSceneAsMenuItem" prot="public" virt="non-virtual">MR::SaveSceneAsMenuItem</basecompoundref>
-    <includes refid="MRIOFilesMenuItems_8h" local="no">MRIOFilesMenuItems.h</includes>
+    <includes refid="MRIOFilesMenuItems_8h" local="no">MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga5e044c405a8cd6940694a83729102012" kind="function"><name>SaveSceneMenuItem</name></member>
       <member refid="group__GeneralGroup_1ga417f49d8c8d7f15f3650c9e0aa881b3d" kind="function"><name>action</name></member>
@@ -60,7 +60,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="91" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="92" bodyend="96"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="91" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="92" bodyend="96"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga417f49d8c8d7f15f3650c9e0aa881b3d" prot="public" virt="virtual"><scope>MR::SaveSceneMenuItem</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::SaveSceneMenuItem</scope><name>blocking</name></member>

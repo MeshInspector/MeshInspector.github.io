@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Features::MeasureResult::Distance</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart" prot="public" virt="non-virtual">mrmeshpy.Features.MeasureResult.BasicPart</basecompoundref>
@@ -57,7 +57,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Features.MeasureResult.Distance.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a8ea5580560746c5935e3d719f737e753">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -128,7 +127,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Features.MeasureResult.Distance.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a8ea5580560746c5935e3d719f737e753">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -147,7 +145,6 @@
         <argsstring>(self, Features.MeasureResult.Distance arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Features.MeasureResult.Distance.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a8ea5580560746c5935e3d719f737e753">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -172,7 +169,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.Features.MeasureResult.Distance.__repr__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1ac3ee1998322bd737c04046d286ba1120">__repr__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -318,13 +314,8 @@
         <link refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_closestPointA</edgelabel>
-          <edgelabel>_offsetof_closestPointB</edgelabel>
-          <edgelabel>_offsetof_distance</edgelabel>
-        </childnode>
       </node>
-      <node id="4">
+      <node id="3">
         <label>mrmeshpy.Features</label>
         <link refid="classmrmeshpy_1_1Features"/>
       </node>
@@ -332,18 +323,13 @@
         <label>mrmeshpy.Features.MeasureResult.BasicPart</label>
         <link refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart"/>
         <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_status</edgelabel>
-        </childnode>
-        <childnode refid="4" relation="usage">
           <edgelabel>status</edgelabel>
         </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18306" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18306" bodyend="18350"/>
     <listofallmembers>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a4ca12ccf28289ce7db9a791101cf196b" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Distance</scope><name>__bool__</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a574cb4c3ba5323f0c11d1d7469f0c73e" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Distance</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a6d500af459cbae224203c247e38b091a" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Distance</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1abcf09585c82f77e506d636969a1a79a7" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Distance</scope><name>__init__</name></member>
@@ -351,6 +337,7 @@
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a76adab2495f6e2ca2facf162ba17e595" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Distance</scope><name>_offsetof_closestPointA</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a028a5d40e8214d36052ac7c4b4712423" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Distance</scope><name>_offsetof_closestPointB</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a7011fbafd97e944246f702e5ca89cfc8" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Distance</scope><name>_offsetof_distance</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a48e12ebf97595ff5ba74000dc081b0d8" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Distance</scope><name>_offsetof_status</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a58cff51c9202b6ae7c6e4227b7b40036" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Distance</scope><name>closestPointFor</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1ae6d992741122cc18a475e6b707992883" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Distance</scope><name>distance</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1ad9f66589e7ae5a340390d98b1f8d48d5" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Distance</scope><name>distance</name></member>
@@ -358,6 +345,7 @@
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1ac9998974a776f3b71967adee7614ae84" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Distance</scope><name>distanceAlongAxisAbs</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a582684351b34f5c0cb955c83646d0e14" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Distance</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a582684351b34f5c0cb955c83646d0e14" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Distance</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a9f67a08a87117463302cf714d9ff0981" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::Distance</scope><name>status</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

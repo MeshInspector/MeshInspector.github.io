@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Buffer" kind="class" language="C++" prot="public">
     <compoundname>MR::Buffer</compoundname>
-    <includes refid="MRBuffer_8h" local="no">MRBuffer.h</includes>
+    <includes refid="MRBuffer_8h" local="no">MRMesh/MRBuffer.h</includes>
     <templateparamlist>
       <param>
         <type>typename V</type>
@@ -63,7 +63,7 @@
 </parameterlist>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="57" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="58" bodyend="119"/>
+    <location file="MRMesh/MRBuffer.h" line="57" column="1" bodyfile="MRMesh/MRBuffer.h" bodystart="58" bodyend="119"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0aae7e1ae916ef6da5cd9f342f93207c" prot="public" virt="non-virtual"><scope>MR::Buffer</scope><name>backId</name></member>
       <member refid="group__GeneralGroup_1ga6fa2be8099e8b9ba78c8a4ca991103be" prot="public" virt="non-virtual"><scope>MR::Buffer</scope><name>beginId</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::VoxelsLoad::DicomVolumeAsVdb</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -199,20 +199,6 @@
 <para><verbatim>Generated from:  MR::VoxelsLoad::DicomVolumeAsVdb
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.VoxelsLoad.DicomVolumeAsVdb</label>
-        <link refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_name</edgelabel>
-          <edgelabel>_offsetof_vol</edgelabel>
-          <edgelabel>_offsetof_xf</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74162" bodyend="74196"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb_1a21881b7eac12c60ca3f7b2d2dd42f7fc" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::DicomVolumeAsVdb</scope><name>__init__</name></member>

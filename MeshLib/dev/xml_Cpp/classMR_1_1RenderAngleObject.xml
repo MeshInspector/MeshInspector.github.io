@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderAngleObject" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderAngleObject</compoundname>
     <basecompoundref refid="classMR_1_1RenderObjectCombinator" prot="public" virt="non-virtual">MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderResetDirtyComponent &gt;</basecompoundref>
-    <includes refid="MRRenderMeasurementObjects_8h" local="no">MRRenderMeasurementObjects.h</includes>
+    <includes refid="MRRenderMeasurementObjects_8h" local="no">MRViewer/MRRenderMeasurementObjects.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga93e6b8c70f890b0dd55b104c049d2bf2" kind="variable"><name>object_</name></member>
       <member refid="group__GeneralGroup_1ga18c03c253ec75bfad15ad257be0a099c" kind="variable"><name>task_</name></member>
@@ -50,7 +50,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="48" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" bodystart="49" bodyend="55"/>
+    <location file="MRViewer/MRRenderMeasurementObjects.h" line="48" column="1" bodyfile="MRViewer/MRRenderMeasurementObjects.h" bodystart="49" bodyend="55"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>forceBindAll</name></member>
       <member refid="group__GeneralGroup_1ga119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>glBytes</name></member>

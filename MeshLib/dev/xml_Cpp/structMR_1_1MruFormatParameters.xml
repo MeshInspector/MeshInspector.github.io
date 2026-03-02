@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MruFormatParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::MruFormatParameters</compoundname>
-    <includes refid="MRMruFormatParameters_8h" local="no">MRMruFormatParameters.h</includes>
+    <includes refid="MRMruFormatParameters_8h" local="no">MRViewer/MRMruFormatParameters.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga54e98c48affcdf0689a304151d417c25" kind="enum"><name>MeshFormat</name></member>
       <member refid="group__GeneralGroup_1gab14f18f4a69f41e12e03f1f7f15685f8" kind="enum"><name>PointsFormat</name></member>
@@ -18,7 +18,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" bodystart="11" bodyend="31"/>
+    <location file="MRViewer/MRMruFormatParameters.h" line="10" column="1" bodyfile="MRViewer/MRMruFormatParameters.h" bodystart="11" bodyend="31"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga54e98c48affcdf0689a304151d417c25" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>MeshFormat</name></member>
       <member refid="group__GeneralGroup_1ga847374c0c9703ddd9fd62bcf0b779112" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>meshFormat</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneColors" kind="class" language="C#" prot="public">
     <compoundname>MR::SceneColors</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_SceneColors</basecompoundref>
@@ -33,35 +33,35 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_SceneColors</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.SceneColors</label>
         <link refid="classMR_1_1SceneColors"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_SceneColors</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SceneColors &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_SceneColors</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.SceneColors</label>
         <link refid="classMR_1_1SceneColors"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_SceneColors</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SceneColors &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" line="94" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" bodystart="95" bodyend="97"/>

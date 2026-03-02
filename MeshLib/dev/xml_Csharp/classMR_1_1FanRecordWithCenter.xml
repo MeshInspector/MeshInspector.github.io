@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FanRecordWithCenter" kind="class" language="C#" prot="public">
     <compoundname>MR::FanRecordWithCenter</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_FanRecordWithCenter</basecompoundref>
@@ -41,7 +41,7 @@
         <name>firstNei</name>
         <qualifiedname>MR.FanRecordWithCenter.firstNei</qualifiedname>
         <briefdescription>
-<para>the position of first neigbor in LocalTriangulations.neighbours </para>
+<para>the position of first neigbor in LocalTriangulations::neighbours </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -80,7 +80,7 @@
           <declname>c</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FanRecordWithCenter.FanRecordWithCenter</computeroutput>. Parameter <computeroutput>c</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>b</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>fn</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FanRecordWithCenter_1a2b83d3bee168a0b9b5bdb089e98ea172" kindref="member">MR.FanRecordWithCenter.FanRecordWithCenter</ref></computeroutput>. Parameter <computeroutput>c</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>b</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>fn</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -99,7 +99,7 @@
           <declname>_1</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FanRecordWithCenter.FanRecordWithCenter</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FanRecordWithCenter_1a2b83d3bee168a0b9b5bdb089e98ea172" kindref="member">MR.FanRecordWithCenter.FanRecordWithCenter</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -155,7 +155,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FanRecordWithCenter.FanRecordWithCenter</computeroutput>. Parameter <computeroutput>c</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>b</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>fn</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FanRecordWithCenter_1a2b83d3bee168a0b9b5bdb089e98ea172" kindref="member">MR.FanRecordWithCenter.FanRecordWithCenter</ref></computeroutput>. Parameter <computeroutput>c</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>b</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>fn</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -174,7 +174,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FanRecordWithCenter.FanRecordWithCenter</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FanRecordWithCenter_1a2b83d3bee168a0b9b5bdb089e98ea172" kindref="member">MR.FanRecordWithCenter.FanRecordWithCenter</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -193,7 +193,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FanRecordWithCenter.FanRecordWithCenter</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FanRecordWithCenter_1a2b83d3bee168a0b9b5bdb089e98ea172" kindref="member">MR.FanRecordWithCenter.FanRecordWithCenter</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -212,7 +212,7 @@
           <declname>_1</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FanRecordWithCenter.FanRecordWithCenter</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FanRecordWithCenter_1a2b83d3bee168a0b9b5bdb089e98ea172" kindref="member">MR.FanRecordWithCenter.FanRecordWithCenter</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -231,7 +231,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FanRecordWithCenter.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FanRecordWithCenter::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -246,45 +246,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_FanRecordWithCenter</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.FanRecordWithCenter</label>
         <link refid="classMR_1_1FanRecordWithCenter"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_FanRecordWithCenter</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FanRecordWithCenter &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_FanRecordWithCenter</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.FanRecordWithCenter</label>
         <link refid="classMR_1_1FanRecordWithCenter"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_FanRecordWithCenter</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FanRecordWithCenter &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="411" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="412" bodyend="510"/>

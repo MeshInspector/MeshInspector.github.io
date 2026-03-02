@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BooleanParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::BooleanParameters</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_BooleanParameters</basecompoundref>
@@ -20,7 +20,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="892" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="893" bodyend="902"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1BooleanParameters_1a0b4d64485461751a76dc6da72fc3f7b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? BooleanResultMapper</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1BooleanResultMapper" kindref="compound">BooleanResultMapper</ref></type>
         <definition>new unsafe MR.? BooleanResultMapper MR.BooleanParameters.mapper</definition>
         <argsstring></argsstring>
         <name>mapper</name>
@@ -177,7 +177,7 @@
           <declname>rigidB2A</declname>
         </param>
         <param>
-          <type>MR.BooleanResultMapper?</type>
+          <type><ref refid="classMR_1_1BooleanResultMapper" kindref="compound">MR.BooleanResultMapper</ref>?</type>
           <declname>mapper</declname>
         </param>
         <param>
@@ -224,7 +224,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.BooleanParameters.BooleanParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BooleanParameters_1abf3789d887f8bff27ed3d65be8b2f7d6" kindref="member">MR.BooleanParameters.BooleanParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -243,7 +243,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.BooleanParameters.BooleanParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BooleanParameters_1abf3789d887f8bff27ed3d65be8b2f7d6" kindref="member">MR.BooleanParameters.BooleanParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -262,7 +262,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.BooleanParameters.BooleanParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BooleanParameters_1abf3789d887f8bff27ed3d65be8b2f7d6" kindref="member">MR.BooleanParameters.BooleanParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -281,7 +281,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.BooleanParameters.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::BooleanParameters::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -295,45 +295,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_BooleanParameters</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.BooleanParameters</label>
         <link refid="classMR_1_1BooleanParameters"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_BooleanParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_BooleanParameters &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_BooleanParameters</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.BooleanParameters</label>
         <link refid="classMR_1_1BooleanParameters"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_BooleanParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_BooleanParameters &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="889" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="890" bodyend="1052"/>

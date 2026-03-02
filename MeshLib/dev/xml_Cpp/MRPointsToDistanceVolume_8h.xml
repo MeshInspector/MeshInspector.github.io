@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointsToDistanceVolume_8h" kind="file" language="C++">
     <compoundname>MRPointsToDistanceVolume.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
     <includes refid="MRDistanceVolumeParams_8h" local="yes">MRDistanceVolumeParams.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRMesh/MRExpected.h</includes>
     <includes refid="MRPointCloud_8h" local="yes">MRMesh/MRPointCloud.h</includes>
-    <includedby refid="MRCudaPointsToDistanceVolume_8h" local="yes">MRCudaPointsToDistanceVolume.h</includedby>
+    <includedby refid="MRCudaPointsToDistanceVolume_8h" local="yes">MRCuda/MRCudaPointsToDistanceVolume.h</includedby>
     <incdepgraph>
       <node id="33">
         <label>MRBitSet.h</label>
@@ -205,7 +205,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPointsToDistanceVolume.h</label>
+        <label>MRVoxels/MRPointsToDistanceVolume.h</label>
         <link refid="MRPointsToDistanceVolume_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -288,11 +288,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRCudaPointsToDistanceVolume.h</label>
+        <label>MRCuda/MRCudaPointsToDistanceVolume.h</label>
         <link refid="MRCudaPointsToDistanceVolume_8h"/>
       </node>
       <node id="1">
-        <label>MRPointsToDistanceVolume.h</label>
+        <label>MRVoxels/MRPointsToDistanceVolume.h</label>
         <link refid="MRPointsToDistanceVolume_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -337,8 +337,8 @@
 <codeline lineno="50" refid="group__GeneralGroup_1ga43c5eff589bf8b66beca99dac171b10c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertColors&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga43c5eff589bf8b66beca99dac171b10c" kindref="member">calcAvgColors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertColors<sp/>&amp;<sp/>colors,</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>tgtPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>tgtVerts,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sigma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h"/>
+    <location file="MRVoxels/MRPointsToDistanceVolume.h"/>
   </compounddef>
 </doxygen>

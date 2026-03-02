@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structfmt_1_1formatter_3_01MR_1_1Vector2_3_01T_01_4_01_4" kind="struct" language="C++" prot="public">
     <compoundname>fmt::formatter&lt; MR::Vector2&lt; T &gt; &gt;</compoundname>
     <basecompoundref prot="public" virt="non-virtual">fmt::formatter&lt; T &gt;</basecompoundref>
-    <includes refid="MRFormat_8h" local="no">MRFormat.h</includes>
+    <includes refid="MRFormat_8h" local="no">MRMesh/MRFormat.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" line="10" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" bodystart="10" bodyend="19"/>
+        <location file="MRMesh/MRFormat.h" line="10" column="20" bodyfile="MRMesh/MRFormat.h" bodystart="10" bodyend="19"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -64,7 +64,7 @@
         <label>fmt::formatter&lt; T &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" line="7" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" bodystart="8" bodyend="20"/>
+    <location file="MRMesh/MRFormat.h" line="7" column="1" bodyfile="MRMesh/MRFormat.h" bodystart="8" bodyend="20"/>
     <listofallmembers>
       <member refid="structfmt_1_1formatter_3_01MR_1_1Vector2_3_01T_01_4_01_4_1a790df0ed02ae6744787cba1a5cde723e" prot="public" virt="non-virtual"><scope>fmt::formatter&lt; MR::Vector2&lt; T &gt; &gt;</scope><name>format</name></member>
     </listofallmembers>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FunctionVolume" kind="class" language="C#" prot="public">
     <compoundname>MR::FunctionVolume</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_FunctionVolume</basecompoundref>
@@ -125,7 +125,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FunctionVolume.FunctionVolume</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FunctionVolume_1a1a0baea2b78ecca1cd8b00cc450b1263" kindref="member">MR.FunctionVolume.FunctionVolume</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -144,7 +144,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FunctionVolume.FunctionVolume</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FunctionVolume_1a1a0baea2b78ecca1cd8b00cc450b1263" kindref="member">MR.FunctionVolume.FunctionVolume</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -163,7 +163,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FunctionVolume.FunctionVolume</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FunctionVolume_1a1a0baea2b78ecca1cd8b00cc450b1263" kindref="member">MR.FunctionVolume.FunctionVolume</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -182,7 +182,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FunctionVolume.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FunctionVolume::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -197,45 +197,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_FunctionVolume</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.FunctionVolume</label>
         <link refid="classMR_1_1FunctionVolume"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_FunctionVolume</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FunctionVolume &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_FunctionVolume</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.FunctionVolume</label>
         <link refid="classMR_1_1FunctionVolume"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_FunctionVolume</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FunctionVolume &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1773" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1774" bodyend="1861"/>

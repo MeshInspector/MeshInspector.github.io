@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MREdgePathsBuilder_8h" kind="file" language="C++">
     <compoundname>MREdgePathsBuilder.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -63,58 +63,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MREdgePathsBuilder_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgePathsBuilder.h" line="15" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgePathsBuilder.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MREdgePathsBuilder_8h_1ad396cf7d4433c5ba7924776f5b379c9b" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref></type>
-        <definition>typedef struct MR_MeshTopology MR_MeshTopology</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTopology</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgePathsBuilder.h" line="16" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgePathsBuilder.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MREdgePathsBuilder_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" prot="public" static="no">
-        <type>struct <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref></type>
-        <definition>typedef struct MR_MeshTriPoint MR_MeshTriPoint</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTriPoint</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgePathsBuilder.h" line="17" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgePathsBuilder.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MREdgePathsBuilder_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
-        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
-        <argsstring></argsstring>
-        <name>MR_VertCoords</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgePathsBuilder.h" line="18" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgePathsBuilder.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MREdgePathsBuilder_8h_1a1d419115035182245153af12b9f6c4e4" prot="public" static="no">
         <type>struct <ref refid="MREdgePathsBuilder_8h_1a1d419115035182245153af12b9f6c4e4" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_VertPathInfo</ref></type>
         <definition>typedef struct MR_phmap_flat_hash_map_MR_VertId_MR_VertPathInfo MR_phmap_flat_hash_map_MR_VertId_MR_VertPathInfo</definition>
@@ -127,32 +75,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgePathsBuilder.h" line="19" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgePathsBuilder.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MREdgePathsBuilder_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" prot="public" static="no">
-        <type>struct <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref></type>
-        <definition>typedef struct MR_std_function_float_from_MR_EdgeId MR_std_function_float_from_MR_EdgeId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_float_from_MR_EdgeId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgePathsBuilder.h" line="20" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgePathsBuilder.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MREdgePathsBuilder_8h_1aa2cb99914308eb7429fd11738cf79483" prot="public" static="no">
-        <type>struct <ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref></type>
-        <definition>typedef struct MR_std_vector_MR_EdgeId MR_std_vector_MR_EdgeId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_EdgeId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgePathsBuilder.h" line="21" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgePathsBuilder.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" prot="public" static="no">
         <type>struct <ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref></type>
@@ -513,7 +435,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_VertPathInfo</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -531,7 +453,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_VertPathInfo</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -695,7 +617,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MREdgePathsBuilder_8h_1a50192f5a57f74b7867d11a6d00737d25" kindref="member">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -713,7 +635,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MREdgePathsBuilder_8h_1a50192f5a57f74b7867d11a6d00737d25" kindref="member">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1320,7 +1242,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MREdgePathsBuilder_8h_1abb0d40bdfccc35a1d1d17e70817e9326" kindref="member">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1338,7 +1260,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MREdgePathsBuilder_8h_1abb0d40bdfccc35a1d1d17e70817e9326" kindref="member">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1520,7 +1442,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_EdgePathsBuilderT_MR_MetricToAStarPenalty</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MREdgePathsBuilder_8h_1a838cd1f6ddfe0e58be08134cbbcacf20" kindref="member">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1538,7 +1460,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_EdgePathsBuilderT_MR_MetricToAStarPenalty</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MREdgePathsBuilder_8h_1a838cd1f6ddfe0e58be08134cbbcacf20" kindref="member">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2145,7 +2067,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MREdgePathsBuilder_8h_1adf99a7df50e375e4b9cd7f2784abca06" kindref="member">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2163,7 +2085,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MREdgePathsBuilder_8h_1adf99a7df50e375e4b9cd7f2784abca06" kindref="member">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2300,7 +2222,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_TrivialMetricToPenalty</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MREdgePathsBuilder_8h_1a26cb937547438ae810adac3452858cbd" kindref="member">MR_TrivialMetricToPenalty</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2318,7 +2240,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_TrivialMetricToPenalty</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MREdgePathsBuilder_8h_1a26cb937547438ae810adac3452858cbd" kindref="member">MR_TrivialMetricToPenalty</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2619,7 +2541,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MetricToAStarPenalty</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MREdgePathsBuilder_8h_1a5048c03565ee1fd58e60f78391da947f" kindref="member">MR_MetricToAStarPenalty</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2637,7 +2559,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MetricToAStarPenalty</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MREdgePathsBuilder_8h_1a5048c03565ee1fd58e60f78391da947f" kindref="member">MR_MetricToAStarPenalty</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2857,7 +2779,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_EdgePathsAStarBuilder</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MREdgePathsBuilder_8h_1af247824cce9e6bf514e3f0960b3db77f" kindref="member">MR_EdgePathsAStarBuilder</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2875,7 +2797,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_EdgePathsAStarBuilder</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MREdgePathsBuilder_8h_1af247824cce9e6bf514e3f0960b3db77f" kindref="member">MR_EdgePathsAStarBuilder</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3133,47 +3055,47 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MREdgePathsBuilder_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MREdgePathsBuilder_8h_1ad396cf7d4433c5ba7924776f5b379c9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MREdgePathsBuilder_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MREdgePathsBuilder_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="MREdgePathsBuilder_8h_1a1d419115035182245153af12b9f6c4e4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1a1d419115035182245153af12b9f6c4e4" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_VertPathInfo</ref><sp/><ref refid="MREdgePathsBuilder_8h_1a1d419115035182245153af12b9f6c4e4" kindref="member">MR_phmap_flat_hash_map_MR_VertId_MR_VertPathInfo</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/phmap_flat_hash_map_MR_VertId_MR_VertPathInfo.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MREdgePathsBuilder_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_float_from_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MREdgePathsBuilder_8h_1aa2cb99914308eb7429fd11738cf79483" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_float_from_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref><sp/><ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref>;</highlight></codeline>
+<codeline lineno="27" refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref><sp/><ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref>;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MREdgePathsBuilder_8h_1abb0d40bdfccc35a1d1d17e70817e9326" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1abb0d40bdfccc35a1d1d17e70817e9326" kindref="member">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert</ref><sp/><ref refid="MREdgePathsBuilder_8h_1abb0d40bdfccc35a1d1d17e70817e9326" kindref="member">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert</ref>;</highlight></codeline>
+<codeline lineno="32" refid="MREdgePathsBuilder_8h_1abb0d40bdfccc35a1d1d17e70817e9326" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1abb0d40bdfccc35a1d1d17e70817e9326" kindref="member">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert</ref><sp/><ref refid="MREdgePathsBuilder_8h_1abb0d40bdfccc35a1d1d17e70817e9326" kindref="member">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert</ref>;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MREdgePathsBuilder_8h_1a50192f5a57f74b7867d11a6d00737d25" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1a50192f5a57f74b7867d11a6d00737d25" kindref="member">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty</ref><sp/><ref refid="MREdgePathsBuilder_8h_1a50192f5a57f74b7867d11a6d00737d25" kindref="member">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty</ref>;</highlight></codeline>
+<codeline lineno="37" refid="MREdgePathsBuilder_8h_1a50192f5a57f74b7867d11a6d00737d25" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1a50192f5a57f74b7867d11a6d00737d25" kindref="member">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty</ref><sp/><ref refid="MREdgePathsBuilder_8h_1a50192f5a57f74b7867d11a6d00737d25" kindref="member">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty</ref>;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MREdgePathsBuilder_8h_1adf99a7df50e375e4b9cd7f2784abca06" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1adf99a7df50e375e4b9cd7f2784abca06" kindref="member">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert</ref><sp/><ref refid="MREdgePathsBuilder_8h_1adf99a7df50e375e4b9cd7f2784abca06" kindref="member">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert</ref>;</highlight></codeline>
+<codeline lineno="42" refid="MREdgePathsBuilder_8h_1adf99a7df50e375e4b9cd7f2784abca06" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1adf99a7df50e375e4b9cd7f2784abca06" kindref="member">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert</ref><sp/><ref refid="MREdgePathsBuilder_8h_1adf99a7df50e375e4b9cd7f2784abca06" kindref="member">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert</ref>;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MREdgePathsBuilder_8h_1a838cd1f6ddfe0e58be08134cbbcacf20" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1a838cd1f6ddfe0e58be08134cbbcacf20" kindref="member">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty</ref><sp/><ref refid="MREdgePathsBuilder_8h_1a838cd1f6ddfe0e58be08134cbbcacf20" kindref="member">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty</ref>;</highlight></codeline>
+<codeline lineno="50" refid="MREdgePathsBuilder_8h_1a838cd1f6ddfe0e58be08134cbbcacf20" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1a838cd1f6ddfe0e58be08134cbbcacf20" kindref="member">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty</ref><sp/><ref refid="MREdgePathsBuilder_8h_1a838cd1f6ddfe0e58be08134cbbcacf20" kindref="member">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty</ref>;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="MREdgePathsBuilder_8h_1a26cb937547438ae810adac3452858cbd" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1a26cb937547438ae810adac3452858cbd" kindref="member">MR_TrivialMetricToPenalty</ref><sp/><ref refid="MREdgePathsBuilder_8h_1a26cb937547438ae810adac3452858cbd" kindref="member">MR_TrivialMetricToPenalty</ref>;</highlight></codeline>
+<codeline lineno="55" refid="MREdgePathsBuilder_8h_1a26cb937547438ae810adac3452858cbd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1a26cb937547438ae810adac3452858cbd" kindref="member">MR_TrivialMetricToPenalty</ref><sp/><ref refid="MREdgePathsBuilder_8h_1a26cb937547438ae810adac3452858cbd" kindref="member">MR_TrivialMetricToPenalty</ref>;</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="MREdgePathsBuilder_8h_1a5048c03565ee1fd58e60f78391da947f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1a5048c03565ee1fd58e60f78391da947f" kindref="member">MR_MetricToAStarPenalty</ref><sp/><ref refid="MREdgePathsBuilder_8h_1a5048c03565ee1fd58e60f78391da947f" kindref="member">MR_MetricToAStarPenalty</ref>;</highlight></codeline>
+<codeline lineno="61" refid="MREdgePathsBuilder_8h_1a5048c03565ee1fd58e60f78391da947f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1a5048c03565ee1fd58e60f78391da947f" kindref="member">MR_MetricToAStarPenalty</ref><sp/><ref refid="MREdgePathsBuilder_8h_1a5048c03565ee1fd58e60f78391da947f" kindref="member">MR_MetricToAStarPenalty</ref>;</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="MREdgePathsBuilder_8h_1af247824cce9e6bf514e3f0960b3db77f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1af247824cce9e6bf514e3f0960b3db77f" kindref="member">MR_EdgePathsAStarBuilder</ref><sp/><ref refid="MREdgePathsBuilder_8h_1af247824cce9e6bf514e3f0960b3db77f" kindref="member">MR_EdgePathsAStarBuilder</ref>;</highlight></codeline>
+<codeline lineno="70" refid="MREdgePathsBuilder_8h_1af247824cce9e6bf514e3f0960b3db77f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePathsBuilder_8h_1af247824cce9e6bf514e3f0960b3db77f" kindref="member">MR_EdgePathsAStarBuilder</ref><sp/><ref refid="MREdgePathsBuilder_8h_1af247824cce9e6bf514e3f0960b3db77f" kindref="member">MR_EdgePathsAStarBuilder</ref>;</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/>edge<sp/>from<sp/>this<sp/>vertex<sp/>to<sp/>its<sp/>predecessor<sp/>in<sp/>the<sp/>forest</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/>edge<sp/>from<sp/>this<sp/>vertex<sp/>to<sp/>its<sp/>predecessor<sp/>in<sp/>the<sp/>forest</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="77" refid="MREdgePathsBuilder_8h_1a3e39fd3ae6d9c4eadc756829766f7991" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MREdgePathsBuilder_8h_1a3e39fd3ae6d9c4eadc756829766f7991" kindref="member">MR_VertPathInfo_Get_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//<sp/>edge<sp/>from<sp/>this<sp/>vertex<sp/>to<sp/>its<sp/>predecessor<sp/>in<sp/>the<sp/>forest</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//<sp/>edge<sp/>from<sp/>this<sp/>vertex<sp/>to<sp/>its<sp/>predecessor<sp/>in<sp/>the<sp/>forest</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="84" refid="MREdgePathsBuilder_8h_1a493be71fbcaf7ef666338fb79416e84c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgePathsBuilder_8h_1a493be71fbcaf7ef666338fb79416e84c" kindref="member">MR_VertPathInfo_Set_back</ref>(<ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/>edge<sp/>from<sp/>this<sp/>vertex<sp/>to<sp/>its<sp/>predecessor<sp/>in<sp/>the<sp/>forest</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/>edge<sp/>from<sp/>this<sp/>vertex<sp/>to<sp/>its<sp/>predecessor<sp/>in<sp/>the<sp/>forest</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="91" refid="MREdgePathsBuilder_8h_1a182646eba91d96ecf4e22a38f48c01a1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MREdgePathsBuilder_8h_1a182646eba91d96ecf4e22a38f48c01a1" kindref="member">MR_VertPathInfo_GetMutable_back</ref>(<ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight><highlight class="comment">//<sp/>best<sp/>summed<sp/>metric<sp/>to<sp/>reach<sp/>this<sp/>vertex</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="comment">//<sp/>best<sp/>summed<sp/>metric<sp/>to<sp/>reach<sp/>this<sp/>vertex</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="98" refid="MREdgePathsBuilder_8h_1a65325a06047b83b33faeb2d0a6931411" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREdgePathsBuilder_8h_1a65325a06047b83b33faeb2d0a6931411" kindref="member">MR_VertPathInfo_Get_metric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">//<sp/>best<sp/>summed<sp/>metric<sp/>to<sp/>reach<sp/>this<sp/>vertex</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">//<sp/>best<sp/>summed<sp/>metric<sp/>to<sp/>reach<sp/>this<sp/>vertex</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="104" refid="MREdgePathsBuilder_8h_1a2549f22a545943e9febb5c43e9be2941" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgePathsBuilder_8h_1a2549f22a545943e9febb5c43e9be2941" kindref="member">MR_VertPathInfo_Set_metric</ref>(<ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment">//<sp/>best<sp/>summed<sp/>metric<sp/>to<sp/>reach<sp/>this<sp/>vertex</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment">//<sp/>best<sp/>summed<sp/>metric<sp/>to<sp/>reach<sp/>this<sp/>vertex</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="111" refid="MREdgePathsBuilder_8h_1a11084f76f2f00e38aa6ab58a62488da1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREdgePathsBuilder_8h_1a11084f76f2f00e38aa6ab58a62488da1" kindref="member">MR_VertPathInfo_GetMutable_metric</ref>(<ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
 <codeline lineno="115" refid="MREdgePathsBuilder_8h_1a7d17cbbbd59273051289e170a044ee50" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgePathsBuilder_8h_1a53440520ac60fcb9bf27733dca65b59d" kindref="member">MR_VertPathInfo</ref><sp/>*<ref refid="MREdgePathsBuilder_8h_1a7d17cbbbd59273051289e170a044ee50" kindref="member">MR_VertPathInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1IntrinsicDeloneSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::IntrinsicDeloneSettings</compoundname>
-    <includes refid="MRMeshDelone_8h" local="no">MRMeshDelone.h</includes>
+    <includes refid="MRMeshDelone_8h" local="no">MRMesh/MRMeshDelone.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1IntrinsicDeloneSettings_1a5985046a04f74cccc9f62e82968a5671" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="88" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="88" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDelone.h" line="88" column="11" bodyfile="MRMesh/MRMeshDelone.h" bodystart="88" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1IntrinsicDeloneSettings_1a5fe9566d6f97f752f0d434d75a04ea53" prot="public" static="no" mutable="no">
         <type>const FaceBitSet *</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="91" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="91" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDelone.h" line="91" column="22" bodyfile="MRMesh/MRMeshDelone.h" bodystart="91" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1IntrinsicDeloneSettings_1a826d54dbfadee964e4e8d815e3aeda22" prot="public" static="no" mutable="no">
         <type>const UndirectedEdgeBitSet *</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="94" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="94" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDelone.h" line="94" column="32" bodyfile="MRMesh/MRMeshDelone.h" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1IntrinsicDeloneSettings_1a8fed3ef49b5eeb2b4c7df0c84bbfad79" prot="public" static="no" mutable="no">
         <type>const VertBitSet *</type>
@@ -66,14 +66,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="97" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="97" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDelone.h" line="97" column="22" bodyfile="MRMesh/MRMeshDelone.h" bodystart="97" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="84" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="85" bodyend="98"/>
+    <location file="MRMesh/MRMeshDelone.h" line="84" column="1" bodyfile="MRMesh/MRMeshDelone.h" bodystart="85" bodyend="98"/>
     <listofallmembers>
       <member refid="structMR_1_1IntrinsicDeloneSettings_1a826d54dbfadee964e4e8d815e3aeda22" prot="public" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>notFlippable</name></member>
       <member refid="structMR_1_1IntrinsicDeloneSettings_1a5fe9566d6f97f752f0d434d75a04ea53" prot="public" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>region</name></member>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DrawViewportWidgetsItem" kind="class" language="C++" prot="public">
     <compoundname>MR::DrawViewportWidgetsItem</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
-    <includes refid="MRDrawViewportWidgetsItem_8h" local="no">MRDrawViewportWidgetsItem.h</includes>
+    <includes refid="MRDrawViewportWidgetsItem_8h" local="no">MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h</includes>
     <sectiondef kind="private-type">
       <member refid="group__GeneralGroup_1ga1ff947a71673abbf45b679beb978f9aa" kind="typedef"><name>HandleViewportSignal</name></member>
     </sectiondef>
@@ -62,7 +62,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" line="46" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" bodystart="47" bodyend="62"/>
+    <location file="MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" line="46" column="1" bodyfile="MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" bodystart="47" bodyend="62"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga19db2d517f3ac2f31349049b26abc9d3" prot="public" virt="virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::DrawViewportWidgetsItem</scope><name>blocking</name></member>

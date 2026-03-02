@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PluginCloseOnSelectedObjectRemove" kind="class" language="C++" prot="public">
     <compoundname>MR::PluginCloseOnSelectedObjectRemove</compoundname>
     <basecompoundref refid="classMR_1_1IPluginUpdate" prot="public" virt="virtual">MR::IPluginUpdate</basecompoundref>
     <derivedcompoundref refid="classMR_1_1BinaryOperations" prot="public" virt="non-virtual">MR::BinaryOperations</derivedcompoundref>
-    <includes refid="MRStatePluginUpdate_8h" local="no">MRStatePluginUpdate.h</includes>
+    <includes refid="MRStatePluginUpdate_8h" local="no">MRViewer/MRStatePluginUpdate.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga90e667c415c9c5f19be0f5c8383d3448" kind="variable"><name>selectedObjs_</name></member>
     </sectiondef>
@@ -48,7 +48,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="32" bodyend="39"/>
+    <location file="MRViewer/MRStatePluginUpdate.h" line="31" column="1" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="32" bodyend="39"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa560ad539172d4468ab4c11bda0cfa1f" prot="protected" virt="virtual"><scope>MR::PluginCloseOnSelectedObjectRemove</scope><name>onPluginDisable_</name></member>
       <member refid="group__GeneralGroup_1gaa62f51f7319943c7184b9c948adfbe59" prot="protected" virt="virtual"><scope>MR::PluginCloseOnSelectedObjectRemove</scope><name>onPluginEnable_</name></member>

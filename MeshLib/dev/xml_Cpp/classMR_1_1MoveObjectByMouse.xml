@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MoveObjectByMouse" kind="class" language="C++" prot="public">
     <compoundname>MR::MoveObjectByMouse</compoundname>
     <basecompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;</basecompoundref>
-    <includes refid="MRMoveObjectByMouse_8h" local="no">MRMoveObjectByMouse.h</includes>
+    <includes refid="MRMoveObjectByMouse_8h" local="no">MRCommonPlugins/Basic/MRMoveObjectByMouse.h</includes>
     <innerclass refid="classMR_1_1MoveObjectByMouse_1_1MoveObjectByMouseWithSelected" prot="private">MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</innerclass>
     <sectiondef kind="private-type">
       <member refid="group__GeneralGroup_1ga6aacb9f665076ffd42d5baa6e69c24fb" kind="enum"><name>XfMode</name></member>
@@ -157,7 +157,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" bodystart="19" bodyend="54"/>
+    <location file="MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="18" column="1" bodyfile="MRCommonPlugins/Basic/MRMoveObjectByMouse.h" bodystart="19" bodyend="54"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gaf8619e80df46a41878d35b50d427ef0c" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>blocking</name></member>

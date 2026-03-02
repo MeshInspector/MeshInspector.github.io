@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Features" kind="class" language="C#" prot="public">
     <compoundname>MR::Features</compoundname>
     <innerclass refid="classMR_1_1Features_1_1MeasureResult" prot="public">MR::Features::MeasureResult</innerclass>
@@ -444,7 +444,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSubfeatures.cs" bodystart="4" bodyend="303"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="4" bodyend="3347"/>
     <listofallmembers>
       <member refid="classMR_1_1Features_1a4f86b37b2a79448751afbe14d08aafe9" prot="public" virt="non-virtual"><scope>MR::Features</scope><name>forEachSubfeature</name></member>
       <member refid="classMR_1_1Features_1a211bf0f45c7a84b3e46c4d04a7e6a1c5" prot="public" virt="non-virtual"><scope>MR::Features</scope><name>measure</name></member>

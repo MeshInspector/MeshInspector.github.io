@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__PointCloudGroup" kind="group">
     <compoundname>PointCloudGroup</compoundname>
     <title>PointCloud</title>
@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImproveSampling.h" line="44" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImproveSampling.h" declline="44" declcolumn="7"/>
+        <location file="MRMesh/MRImproveSampling.h" line="44" column="7" declfile="MRMesh/MRImproveSampling.h" declline="44" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1gabbad18eed929fbd7bec2afad0b91541d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; VertNormals &gt;</type>
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="18" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="18" declcolumn="17"/>
+        <location file="MRMesh/MRPointCloudMakeNormals.h" line="18" column="17" declfile="MRMesh/MRPointCloudMakeNormals.h" declline="18" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1gabc9d6a3d4680264055d93f5039ee962e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; VertNormals &gt;</type>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="26" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="26" declcolumn="17"/>
+        <location file="MRMesh/MRPointCloudMakeNormals.h" line="26" column="17" declfile="MRMesh/MRPointCloudMakeNormals.h" declline="26" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1ga864b89267ca9c36845aa4bda529ea85e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; VertNormals &gt;</type>
@@ -207,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="34" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="34" declcolumn="17"/>
+        <location file="MRMesh/MRPointCloudMakeNormals.h" line="34" column="17" declfile="MRMesh/MRPointCloudMakeNormals.h" declline="34" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1ga4207b28452885c6d8c37052d9f9f9297" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -251,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="41" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="41" declcolumn="7"/>
+        <location file="MRMesh/MRPointCloudMakeNormals.h" line="41" column="7" declfile="MRMesh/MRPointCloudMakeNormals.h" declline="41" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1ga543bf9d494b5f9966b03ac52df938eb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -295,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="51" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="51" declcolumn="7"/>
+        <location file="MRMesh/MRPointCloudMakeNormals.h" line="51" column="7" declfile="MRMesh/MRPointCloudMakeNormals.h" declline="51" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1ga3040bf00fa2722f573c4ef965d0ddae6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -343,7 +343,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="58" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="58" declcolumn="7"/>
+        <location file="MRMesh/MRPointCloudMakeNormals.h" line="58" column="7" declfile="MRMesh/MRPointCloudMakeNormals.h" declline="58" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1gaccb668ec7a811b6c00bb5eda5f7fa8f3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; VertNormals &gt;</type>
@@ -383,7 +383,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="65" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="65" declcolumn="17"/>
+        <location file="MRMesh/MRPointCloudMakeNormals.h" line="65" column="17" declfile="MRMesh/MRPointCloudMakeNormals.h" declline="65" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1ga117dbe61fc1c56b7b7ba25d6514ac35d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; VertNormals &gt;</type>
@@ -414,7 +414,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="72" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="72" declcolumn="17"/>
+        <location file="MRMesh/MRPointCloudMakeNormals.h" line="72" column="17" declfile="MRMesh/MRPointCloudMakeNormals.h" declline="72" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1ga15578cc0c068a55121b279b4d0b9e7cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertNormals</type>
@@ -448,7 +448,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h" declline="79" declcolumn="14"/>
+        <location file="MRMesh/MRPointCloudMakeNormals.h" line="79" column="14" declfile="MRMesh/MRPointCloudMakeNormals.h" declline="79" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1gad170a186634adcea1422a0bcb701584d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -486,7 +486,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRadius.h" line="14" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRadius.h" declline="14" declcolumn="8"/>
+        <location file="MRMesh/MRPointCloudRadius.h" line="14" column="8" declfile="MRMesh/MRPointCloudRadius.h" declline="14" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1gab9585f4e631931775325d348d2b41f9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -517,7 +517,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" line="21" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" declline="21" declcolumn="7"/>
+        <location file="MRMesh/MRPointCloudRelax.h" line="21" column="7" declfile="MRMesh/MRPointCloudRelax.h" declline="21" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1ga98ac77273eb374aff599b70216768f96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -548,7 +548,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" line="26" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" declline="26" declcolumn="7"/>
+        <location file="MRMesh/MRPointCloudRelax.h" line="26" column="7" declfile="MRMesh/MRPointCloudRelax.h" declline="26" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1gaf730c446bd16a9211e90506d85c35757" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -579,7 +579,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" line="36" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" declline="36" declcolumn="7"/>
+        <location file="MRMesh/MRPointCloudRelax.h" line="36" column="7" declfile="MRMesh/MRPointCloudRelax.h" declline="36" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1ga419eb233734e75003af48032eb07f36b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; VertBitSet &gt;</type>
@@ -602,7 +602,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" line="35" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" declline="35" declcolumn="17"/>
+        <location file="MRMesh/MRUniformSampling.h" line="35" column="17" declfile="MRMesh/MRUniformSampling.h" declline="35" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1ga1ff3748ea4a24c0683e2029fb56deb48" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; PointCloud &gt;</type>
@@ -625,7 +625,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" line="41" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" declline="41" declcolumn="17"/>
+        <location file="MRMesh/MRUniformSampling.h" line="41" column="17" declfile="MRMesh/MRUniformSampling.h" declline="41" declcolumn="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMarchingCubes_8h" kind="file" language="C++">
     <compoundname>MRMarchingCubes.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
@@ -89,19 +89,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRMarchingCubes_8h_1ab294732b2988d23c13fd8799dc19a43a" prot="public" static="no">
-        <type>struct <ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref></type>
-        <definition>typedef struct MR_FunctionVolume MR_FunctionVolume</definition>
-        <argsstring></argsstring>
-        <name>MR_FunctionVolume</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" line="14" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRMarchingCubes_8h_1aaa4ae6bbf6ad9117ec1235050e489a58" prot="public" static="no">
         <type>struct <ref refid="MRMarchingCubes_8h_1aaa4ae6bbf6ad9117ec1235050e489a58" kindref="member">MR_SimpleBinaryVolume</ref></type>
         <definition>typedef struct MR_SimpleBinaryVolume MR_SimpleBinaryVolume</definition>
@@ -110,6 +97,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>represents a box in 3D space subdivided on voxels stored in T Generated from class <computeroutput>MR::SimpleBinaryVolume</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -123,75 +111,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>represents a box in 3D space subdivided on voxels stored in T Generated from class <computeroutput>MR::SimpleVolume</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::SimpleVolumeMinMax</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" line="16" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMarchingCubes_8h_1a8926b75bb2beb7a906aef87b4867fe03" prot="public" static="no">
-        <type>struct <ref refid="MRBox_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref></type>
-        <definition>typedef struct MR_SimpleVolumeMinMax MR_SimpleVolumeMinMax</definition>
-        <argsstring></argsstring>
-        <name>MR_SimpleVolumeMinMax</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" line="17" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMarchingCubes_8h_1a3d8aa59058b2516d2c9b34241f2c0441" prot="public" static="no">
-        <type>struct <ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref></type>
-        <definition>typedef struct MR_VdbVolume MR_VdbVolume</definition>
-        <argsstring></argsstring>
-        <name>MR_VdbVolume</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" line="18" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMarchingCubes_8h_1ad55ca9af0874ffb89877bad65ae2859d" prot="public" static="no">
-        <type>struct MR_Vector3i</type>
-        <definition>typedef struct MR_Vector3i MR_Vector3i</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3i</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" line="19" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMarchingCubes_8h_1a9692dc04329fdb84eb3ddd8d265ba089" prot="public" static="no">
-        <type>struct <ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref></type>
-        <definition>typedef struct MR_Vector_MR_VoxelId_MR_FaceId MR_Vector_MR_VoxelId_MR_FaceId</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector_MR_VoxelId_MR_FaceId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" line="20" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMarchingCubes_8h_1a0d97154d4aed695055160a4688c04a3d" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_Mesh_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" line="21" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMarchingCubes_8h_1abba3269885ea2c785d41576ce387913c" prot="public" static="no">
         <type>struct <ref refid="MRMarchingCubes_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref></type>
@@ -206,19 +130,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" line="22" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" bodystart="22" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRMarchingCubes_8h_1a077b8debfae88f9cf2267ad2db95c006" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref></type>
-        <definition>typedef struct MR_expected_void_std_string MR_expected_void_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_void_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" line="23" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRMarchingCubes_8h_1a9df647acfeac434db64ba98df9302185" prot="public" static="no">
         <type>struct <ref refid="MRMarchingCubes_8h_1a9df647acfeac434db64ba98df9302185" kindref="member">MR_std_function_MR_Vector3f_from_const_MR_Vector3f_ref_const_MR_Vector3f_ref_float_float_float</ref></type>
         <definition>typedef struct MR_std_function_MR_Vector3f_from_const_MR_Vector3f_ref_const_MR_Vector3f_ref_float_float_float MR_std_function_MR_Vector3f_from_const_MR_Vector3f_ref_const_MR_Vector3f_ref_float_float_float</definition>
@@ -231,32 +142,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" line="24" column="109" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMarchingCubes_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" line="25" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMarchingCubes_8h_1a6271d7bfd9eac1863a0a9da93022599c" prot="public" static="no">
-        <type>struct <ref refid="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" kindref="member">MR_std_function_void</ref></type>
-        <definition>typedef struct MR_std_function_void MR_std_function_void</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_void</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" line="26" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRMarchingCubes.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMarchingCubes_8h_1a16eb026a6c0d955824ad60ef5ad641c6" prot="public" static="no">
         <type>enum <ref refid="MRMarchingCubes_8h_1ad392dc18f426d3ba900d02eb9c576ccd" kindref="member">MR_MarchingCubesParams_CachingMode</ref></type>
@@ -1009,7 +894,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MarchingCubesParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1027,7 +912,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MarchingCubesParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1392,7 +1277,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MarchingCubesByParts</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMarchingCubes_8h_1a29b96ebac96e57ea3f9e456f60172924" kindref="member">MR_MarchingCubesByParts</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1410,7 +1295,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MarchingCubesByParts</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMarchingCubes_8h_1a29b96ebac96e57ea3f9e456f60172924" kindref="member">MR_MarchingCubesByParts</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1539,31 +1424,31 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRMarchingCubes_8h_1ab294732b2988d23c13fd8799dc19a43a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="MRMarchingCubes_8h_1aaa4ae6bbf6ad9117ec1235050e489a58" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarchingCubes_8h_1aaa4ae6bbf6ad9117ec1235050e489a58" kindref="member">MR_SimpleBinaryVolume</ref><sp/><ref refid="MRMarchingCubes_8h_1aaa4ae6bbf6ad9117ec1235050e489a58" kindref="member">MR_SimpleBinaryVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRMarchingCubes_8h_1a9eebc3ffb6c9528989e38a2930f391cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarchingCubes_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/><ref refid="MRMarchingCubes_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRMarchingCubes_8h_1a8926b75bb2beb7a906aef87b4867fe03" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/><ref refid="MRBox_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRMarchingCubes_8h_1a3d8aa59058b2516d2c9b34241f2c0441" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRMarchingCubes_8h_1ad55ca9af0874ffb89877bad65ae2859d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRMarchingCubes_8h_1a9692dc04329fdb84eb3ddd8d265ba089" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref><sp/><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRMarchingCubes_8h_1a0d97154d4aed695055160a4688c04a3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/><ref refid="MRBox_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref><sp/><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="MRMarchingCubes_8h_1abba3269885ea2c785d41576ce387913c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarchingCubes_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/><ref refid="MRMarchingCubes_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_TriMesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRMarchingCubes_8h_1a077b8debfae88f9cf2267ad2db95c006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRMarchingCubes_8h_1a9df647acfeac434db64ba98df9302185" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarchingCubes_8h_1a9df647acfeac434db64ba98df9302185" kindref="member">MR_std_function_MR_Vector3f_from_const_MR_Vector3f_ref_const_MR_Vector3f_ref_float_float_float</ref><sp/><ref refid="MRMarchingCubes_8h_1a9df647acfeac434db64ba98df9302185" kindref="member">MR_std_function_MR_Vector3f_from_const_MR_Vector3f_ref_const_MR_Vector3f_ref_float_float_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_MR_Vector3f_from_const_MR_Vector3f_ref_const_MR_Vector3f_ref_float_float_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MRMarchingCubes_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRMarchingCubes_8h_1a6271d7bfd9eac1863a0a9da93022599c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" kindref="member">MR_std_function_void</ref><sp/><ref refid="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" kindref="member">MR_std_function_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" kindref="member">MR_std_function_void</ref><sp/><ref refid="MRSystem_8h_1a6271d7bfd9eac1863a0a9da93022599c" kindref="member">MR_std_function_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRMarchingCubes_8h_1ad392dc18f426d3ba900d02eb9c576ccd" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1ad392dc18f426d3ba900d02eb9c576ccd" kindref="member">MR_MarchingCubesParams_CachingMode</ref></highlight></codeline>
+<codeline lineno="31" refid="MRMarchingCubes_8h_1ad392dc18f426d3ba900d02eb9c576ccd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1ad392dc18f426d3ba900d02eb9c576ccd" kindref="member">MR_MarchingCubesParams_CachingMode</ref></highlight></codeline>
 <codeline lineno="32"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="35" refid="MRMarchingCubes_8h_1ad392dc18f426d3ba900d02eb9c576ccda809691d268d937d20d1313b8f8530168" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMarchingCubes_8h_1ad392dc18f426d3ba900d02eb9c576ccda809691d268d937d20d1313b8f8530168" kindref="member">MR_MarchingCubesParams_CachingMode_Automatic</ref><sp/>=<sp/>0,</highlight></codeline>
 <codeline lineno="37" refid="MRMarchingCubes_8h_1ad392dc18f426d3ba900d02eb9c576ccdab0f7437d78eca27bed730bd530181b11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMarchingCubes_8h_1ad392dc18f426d3ba900d02eb9c576ccdab0f7437d78eca27bed730bd530181b11" kindref="member">MR_MarchingCubesParams_CachingMode_None</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="39" refid="MRMarchingCubes_8h_1ad392dc18f426d3ba900d02eb9c576ccdaecaece6f04026d83ea44ba0f2df57bdd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMarchingCubes_8h_1ad392dc18f426d3ba900d02eb9c576ccdaecaece6f04026d83ea44ba0f2df57bdd" kindref="member">MR_MarchingCubesParams_CachingMode_Normal</ref><sp/>=<sp/>2,</highlight></codeline>
 <codeline lineno="40" refid="MRMarchingCubes_8h_1a16eb026a6c0d955824ad60ef5ad641c6" refkind="member"><highlight class="normal">}<sp/><ref refid="MRMarchingCubes_8h_1ad392dc18f426d3ba900d02eb9c576ccd" kindref="member">MR_MarchingCubesParams_CachingMode</ref>;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref><sp/><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref>;</highlight></codeline>
+<codeline lineno="44" refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref><sp/><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref>;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRMarchingCubes_8h_1a29b96ebac96e57ea3f9e456f60172924" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarchingCubes_8h_1a29b96ebac96e57ea3f9e456f60172924" kindref="member">MR_MarchingCubesByParts</ref><sp/><ref refid="MRMarchingCubes_8h_1a29b96ebac96e57ea3f9e456f60172924" kindref="member">MR_MarchingCubesByParts</ref>;</highlight></codeline>
+<codeline lineno="56" refid="MRMarchingCubes_8h_1a29b96ebac96e57ea3f9e456f60172924" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarchingCubes_8h_1a29b96ebac96e57ea3f9e456f60172924" kindref="member">MR_MarchingCubesByParts</ref><sp/><ref refid="MRMarchingCubes_8h_1a29b96ebac96e57ea3f9e456f60172924" kindref="member">MR_MarchingCubesByParts</ref>;</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
 <codeline lineno="63" refid="MRMarchingCubes_8h_1a15d5a15a9e4a6dda291396cbf463a205" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRMarchingCubes_8h_1a15d5a15a9e4a6dda291396cbf463a205" kindref="member">MR_MarchingCubesParams_Get_origin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
@@ -1637,27 +1522,27 @@
 <codeline lineno="285"><highlight class="normal"></highlight></codeline>
 <codeline lineno="291" refid="MRMarchingCubes_8h_1a432b22b65dd50a62dc231767110ef891" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref><sp/>*<ref refid="MRMarchingCubes_8h_1a432b22b65dd50a62dc231767110ef891" kindref="member">MR_MarchingCubesParams_AssignFromAnother</ref>(<ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="292"><highlight class="normal"></highlight></codeline>
-<codeline lineno="293"><highlight class="normal"></highlight><highlight class="comment">//<sp/>makes<sp/>Mesh<sp/>from<sp/>SimpleVolume<sp/>with<sp/>given<sp/>settings<sp/>using<sp/>Marching<sp/>Cubes<sp/>algorithm</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight><highlight class="comment">//<sp/>makes<sp/>Mesh<sp/>from<sp/>SimpleVolume<sp/>with<sp/>given<sp/>settings<sp/>using<sp/>Marching<sp/>Cubes<sp/>algorithm</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="299" refid="MRMarchingCubes_8h_1ab60b5865432a721130d6aa3adbe0ed32" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRMarchingCubes_8h_1ab60b5865432a721130d6aa3adbe0ed32" kindref="member">MR_marchingCubes_MR_SimpleVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="300"><highlight class="normal"></highlight></codeline>
 <codeline lineno="306" refid="MRMarchingCubes_8h_1aea4424dfcbfd28f6734b1e09e81d7e86" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarchingCubes_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*<ref refid="MRMarchingCubes_8h_1aea4424dfcbfd28f6734b1e09e81d7e86" kindref="member">MR_marchingCubesAsTriMesh_MR_SimpleVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="307"><highlight class="normal"></highlight></codeline>
-<codeline lineno="308"><highlight class="normal"></highlight><highlight class="comment">//<sp/>makes<sp/>Mesh<sp/>from<sp/>SimpleVolumeMinMax<sp/>with<sp/>given<sp/>settings<sp/>using<sp/>Marching<sp/>Cubes<sp/>algorithm</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight><highlight class="comment">//<sp/>makes<sp/>Mesh<sp/>from<sp/>SimpleVolumeMinMax<sp/>with<sp/>given<sp/>settings<sp/>using<sp/>Marching<sp/>Cubes<sp/>algorithm</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="314" refid="MRMarchingCubes_8h_1ab2c12cb00b6b1137789dd0a597262e75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRMarchingCubes_8h_1ab2c12cb00b6b1137789dd0a597262e75" kindref="member">MR_marchingCubes_MR_SimpleVolumeMinMax</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="315"><highlight class="normal"></highlight></codeline>
 <codeline lineno="321" refid="MRMarchingCubes_8h_1a1a0385e860577fa7e4bb3d33e9acc24f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarchingCubes_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*<ref refid="MRMarchingCubes_8h_1a1a0385e860577fa7e4bb3d33e9acc24f" kindref="member">MR_marchingCubesAsTriMesh_MR_SimpleVolumeMinMax</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="322"><highlight class="normal"></highlight></codeline>
-<codeline lineno="323"><highlight class="normal"></highlight><highlight class="comment">//<sp/>makes<sp/>Mesh<sp/>from<sp/>VdbVolume<sp/>with<sp/>given<sp/>settings<sp/>using<sp/>Marching<sp/>Cubes<sp/>algorithm</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight><highlight class="comment">//<sp/>makes<sp/>Mesh<sp/>from<sp/>VdbVolume<sp/>with<sp/>given<sp/>settings<sp/>using<sp/>Marching<sp/>Cubes<sp/>algorithm</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="329" refid="MRMarchingCubes_8h_1a392f3259c732613a0063c873bc941e95" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRMarchingCubes_8h_1a392f3259c732613a0063c873bc941e95" kindref="member">MR_marchingCubes_MR_VdbVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="330"><highlight class="normal"></highlight></codeline>
 <codeline lineno="336" refid="MRMarchingCubes_8h_1ab6ed136dab2df7bb8618c51c90c24638" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarchingCubes_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*<ref refid="MRMarchingCubes_8h_1ab6ed136dab2df7bb8618c51c90c24638" kindref="member">MR_marchingCubesAsTriMesh_MR_VdbVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="337"><highlight class="normal"></highlight></codeline>
-<codeline lineno="338"><highlight class="normal"></highlight><highlight class="comment">//<sp/>makes<sp/>Mesh<sp/>from<sp/>FunctionVolume<sp/>with<sp/>given<sp/>settings<sp/>using<sp/>Marching<sp/>Cubes<sp/>algorithm</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight><highlight class="comment">//<sp/>makes<sp/>Mesh<sp/>from<sp/>FunctionVolume<sp/>with<sp/>given<sp/>settings<sp/>using<sp/>Marching<sp/>Cubes<sp/>algorithm</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="344" refid="MRMarchingCubes_8h_1a550d4b9f93e1dc3da28f727b8ceca4f9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRMarchingCubes_8h_1a550d4b9f93e1dc3da28f727b8ceca4f9" kindref="member">MR_marchingCubes_MR_FunctionVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="345"><highlight class="normal"></highlight></codeline>
 <codeline lineno="351" refid="MRMarchingCubes_8h_1a6cf45dbc50627e829908bfc5016af1e8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarchingCubes_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*<ref refid="MRMarchingCubes_8h_1a6cf45dbc50627e829908bfc5016af1e8" kindref="member">MR_marchingCubesAsTriMesh_MR_FunctionVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="352"><highlight class="normal"></highlight></codeline>
-<codeline lineno="353"><highlight class="normal"></highlight><highlight class="comment">//<sp/>makes<sp/>Mesh<sp/>from<sp/>SimpleBinaryVolume<sp/>with<sp/>given<sp/>settings<sp/>using<sp/>Marching<sp/>Cubes<sp/>algorithm</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight><highlight class="comment">//<sp/>makes<sp/>Mesh<sp/>from<sp/>SimpleBinaryVolume<sp/>with<sp/>given<sp/>settings<sp/>using<sp/>Marching<sp/>Cubes<sp/>algorithm</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="359" refid="MRMarchingCubes_8h_1a4e58911735521672c55655ea458edc9b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRMarchingCubes_8h_1a4e58911735521672c55655ea458edc9b" kindref="member">MR_marchingCubes_MR_SimpleBinaryVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1aaa4ae6bbf6ad9117ec1235050e489a58" kindref="member">MR_SimpleBinaryVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="360"><highlight class="normal"></highlight></codeline>
 <codeline lineno="366" refid="MRMarchingCubes_8h_1aab70a05e2897e14d0204e75dc85e987a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMarchingCubes_8h_1abba3269885ea2c785d41576ce387913c" kindref="member">MR_expected_MR_TriMesh_std_string</ref><sp/>*<ref refid="MRMarchingCubes_8h_1aab70a05e2897e14d0204e75dc85e987a" kindref="member">MR_marchingCubesAsTriMesh_MR_SimpleBinaryVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1aaa4ae6bbf6ad9117ec1235050e489a58" kindref="member">MR_SimpleBinaryVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a1984172f8194867c8a6b616e8e2772dc" kindref="member">MR_MarchingCubesParams</ref><sp/>*params);</highlight></codeline>

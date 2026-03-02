@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PolylineProjectionWithOffsetResult" kind="struct" language="C++" prot="public">
     <compoundname>MR::PolylineProjectionWithOffsetResult</compoundname>
-    <includes refid="MRPolylineProject_8h" local="no">MRPolylineProject.h</includes>
+    <includes refid="MRPolylineProject_8h" local="no">MRMesh/MRPolylineProject.h</includes>
     <templateparamlist>
       <param>
         <type>typename V</type>
@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="75" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" bodystart="75" bodyend="-1"/>
+        <location file="MRMesh/MRPolylineProject.h" line="75" column="22" bodyfile="MRMesh/MRPolylineProject.h" bodystart="75" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PolylineProjectionWithOffsetResult_1ac03c6975d60108034bbd6964a751d08d" prot="public" static="no" mutable="no">
         <type>V</type>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="77" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" bodystart="77" bodyend="-1"/>
+        <location file="MRMesh/MRPolylineProject.h" line="77" column="7" bodyfile="MRMesh/MRPolylineProject.h" bodystart="77" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PolylineProjectionWithOffsetResult_1af9b6fe85013195dcada09f829b2c552d" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -53,14 +53,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="79" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" bodystart="79" bodyend="-1"/>
+        <location file="MRMesh/MRPolylineProject.h" line="79" column="11" bodyfile="MRMesh/MRPolylineProject.h" bodystart="79" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="72" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" bodystart="73" bodyend="80"/>
+    <location file="MRMesh/MRPolylineProject.h" line="72" column="1" bodyfile="MRMesh/MRPolylineProject.h" bodystart="73" bodyend="80"/>
     <listofallmembers>
       <member refid="structMR_1_1PolylineProjectionWithOffsetResult_1af9b6fe85013195dcada09f829b2c552d" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionWithOffsetResult</scope><name>dist</name></member>
       <member refid="structMR_1_1PolylineProjectionWithOffsetResult_1a11d0a9e4090b200e7152c1d2000db9c3" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionWithOffsetResult</scope><name>line</name></member>

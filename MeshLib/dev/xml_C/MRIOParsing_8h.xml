@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRIOParsing_8h" kind="file" language="C++">
     <compoundname>MRIOParsing.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -26,47 +26,6 @@
         <label>stdbool.h</label>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRIOParsing_8h_1afbb808142b78943a45d860ed6aba54e5" prot="public" static="no">
-        <type>struct MR_VertId</type>
-        <definition>typedef struct MR_VertId MR_VertId</definition>
-        <argsstring></argsstring>
-        <name>MR_VertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOParsing.h" line="12" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOParsing.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRIOParsing_8h_1a077b8debfae88f9cf2267ad2db95c006" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref></type>
-        <definition>typedef struct MR_expected_void_std_string MR_expected_void_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_void_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOParsing.h" line="13" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOParsing.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRIOParsing_8h_1a4f0d822b41437ab650418eb826969703" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref></type>
-        <definition>typedef struct MR_std_vector_uint64_t MR_std_vector_uint64_t</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_uint64_t</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOParsing.h" line="14" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIOParsing.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRIOParsing_8h_1a44882cb376c7cefe55fede70d89390ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref> *</type>
@@ -185,23 +144,23 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRIOParsing_8h_1afbb808142b78943a45d860ed6aba54e5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRIOParsing_8h_1a077b8debfae88f9cf2267ad2db95c006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRIOParsing_8h_1a4f0d822b41437ab650418eb826969703" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref><sp/><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref><sp/><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>offsets<sp/>for<sp/>each<sp/>new<sp/>line<sp/>in<sp/>monolith<sp/>char<sp/>block</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>offsets<sp/>for<sp/>each<sp/>new<sp/>line<sp/>in<sp/>monolith<sp/>char<sp/>block</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="MRIOParsing_8h_1a44882cb376c7cefe55fede70d89390ae" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref><sp/>*<ref refid="MRIOParsing_8h_1a44882cb376c7cefe55fede70d89390ae" kindref="member">MR_splitByLines</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*data,<sp/>MR_uint64_t<sp/>size);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>reads<sp/>the<sp/>first<sp/>integer<sp/>number<sp/>in<sp/>the<sp/>line</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>reads<sp/>the<sp/>first<sp/>integer<sp/>number<sp/>in<sp/>the<sp/>line</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28" refid="MRIOParsing_8h_1a165e3c0aad0b46e07135c2d6b2f3ccac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRIOParsing_8h_1a165e3c0aad0b46e07135c2d6b2f3ccac" kindref="member">MR_parseFirstNum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str_end,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*num);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>reads<sp/>the<sp/>polygon<sp/>points<sp/>and<sp/>optional<sp/>number<sp/>of<sp/>polygon<sp/>points</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>example</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>N<sp/>vertex0<sp/>vertex1<sp/>...<sp/>vertexN</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>N<sp/>vertex0<sp/>vertex1<sp/>...<sp/>vertexN</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="37" refid="MRIOParsing_8h_1aa162568c11f9dd9c2e997fcd347922b1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRIOParsing_8h_1aa162568c11f9dd9c2e997fcd347922b1" kindref="member">MR_parsePolygon</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str_end,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*vertId,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*numPoints);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>checks<sp/>if<sp/>the<sp/>given<sp/>string<sp/>starts<sp/>with<sp/>the<sp/>UTF-8<sp/>byte-order<sp/>mark</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>checks<sp/>if<sp/>the<sp/>given<sp/>string<sp/>starts<sp/>with<sp/>the<sp/>UTF-8<sp/>byte-order<sp/>mark</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="43" refid="MRIOParsing_8h_1a13369ae350e20efd9d5312488289b5f8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRIOParsing_8h_1a13369ae350e20efd9d5312488289b5f8" kindref="member">MR_hasBom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str_end);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>

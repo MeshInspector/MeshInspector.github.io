@@ -1,11 +1,8 @@
 var MRClosestWeightedPoint_8h =
 [
-    [ "MR_AABBTreePoints", "MRClosestWeightedPoint_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a", null ],
     [ "MR_DistanceFromWeightedPointsComputeParams", "MRClosestWeightedPoint_8h.html#aa20cbf3be7c00dc9e7b303754305b272", null ],
     [ "MR_DistanceFromWeightedPointsParams", "MRClosestWeightedPoint_8h.html#a342aeaf84a0230885a70e136c94b01b5", null ],
-    [ "MR_Mesh", "MRClosestWeightedPoint_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_MeshPointAndDistance", "MRClosestWeightedPoint_8h.html#a08429cd182a6764ccc44eda594f8e618", null ],
-    [ "MR_MeshTriPoint", "MRClosestWeightedPoint_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc", null ],
     [ "MR_PointAndDistance", "MRClosestWeightedPoint_8h.html#afffc5fa143113f743748d20f771a7f38", null ],
     [ "MR_std_function_float_from_MR_VertId", "MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1", null ],
     [ "MR_DistanceFromWeightedPointsComputeParams_AssignFromAnother", "MRClosestWeightedPoint_8h.html#ad3c43a91b4d9c25dcf8006ef34bcc55b", null ],

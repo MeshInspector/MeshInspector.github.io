@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__MeshAlgorithmGroup" kind="group">
     <compoundname>MeshAlgorithmGroup</compoundname>
     <title>Mesh Algorithm</title>
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoundary.h" line="15" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoundary.h" declline="15" declcolumn="7"/>
+        <location file="MRMesh/MRMeshBoundary.h" line="15" column="7" declfile="MRMesh/MRMeshBoundary.h" declline="15" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshAlgorithmGroup_1gaff12e899a2fa7790b09853a93701515f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>PointCloud</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshToPointCloud.h" line="13" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshToPointCloud.h" declline="13" declcolumn="13"/>
+        <location file="MRMesh/MRMeshToPointCloud.h" line="13" column="13" declfile="MRMesh/MRMeshToPointCloud.h" declline="13" declcolumn="13"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

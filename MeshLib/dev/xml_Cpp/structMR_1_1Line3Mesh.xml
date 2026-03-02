@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Line3Mesh" kind="struct" language="C++" prot="public">
     <compoundname>MR::Line3Mesh</compoundname>
-    <includes refid="MRMeshIntersect_8h" local="no">MRMeshIntersect.h</includes>
+    <includes refid="MRMeshIntersect_8h" local="no">MRMesh/MRMeshIntersect.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="86" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="86" bodyend="-1"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="86" column="11" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1Line3Mesh_1aa5ec1978556ce126db464bc744212937" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1IntersectionPrecomputes" kindref="compound">IntersectionPrecomputes</ref>&lt; T &gt; *</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="87" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="87" bodyend="-1"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="87" column="30" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="87" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1Line3Mesh_1a13bcc7a7757286de5b44e0d5157828d2" prot="public" static="no" mutable="no">
         <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> *</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="88" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="88" bodyend="-1"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="88" column="17" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="88" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1Line3Mesh_1a993c546c36a0d4723de3bdaffd1d769e" prot="public" static="no" mutable="no">
         <type>const <ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref> *</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="89" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="89" bodyend="-1"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="89" column="21" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1Line3Mesh_1a2324f26e0f3e5d41d2b5c9ab95f50fca" prot="public" static="no" mutable="no">
         <type>const FaceBitSet *</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="90" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="90" bodyend="-1"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="90" column="23" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="90" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -121,7 +121,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MR::Line&lt; T &gt;</label>
+        <label>MR::Line&lt; Vector3&lt; T &gt; &gt;&lt; T &gt;</label>
         <link refid="structMR_1_1Line"/>
       </node>
       <node id="3">
@@ -140,7 +140,7 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="84" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="85" bodyend="91"/>
+    <location file="MRMesh/MRMeshIntersect.h" line="84" column="1" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="85" bodyend="91"/>
     <listofallmembers>
       <member refid="structMR_1_1Line3Mesh_1a0de1e3305b0aa64219ac2de3c2abb2f3" prot="public" virt="non-virtual"><scope>MR::Line3Mesh</scope><name>line</name></member>
       <member refid="structMR_1_1Line3Mesh_1a13bcc7a7757286de5b44e0d5157828d2" prot="public" virt="non-virtual"><scope>MR::Line3Mesh</scope><name>mesh</name></member>

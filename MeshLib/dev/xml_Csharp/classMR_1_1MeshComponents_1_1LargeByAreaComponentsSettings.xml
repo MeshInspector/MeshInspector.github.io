@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshComponents::LargeByAreaComponentsSettings</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.MeshComponents.Const_LargeByAreaComponentsSettings</basecompoundref>
@@ -147,7 +147,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshComponents.LargeByAreaComponentsSettings.LargeByAreaComponentsSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1accc663d072f32a9f5925cf2864ce927f" kindref="member">MR.MeshComponents.LargeByAreaComponentsSettings.LargeByAreaComponentsSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -166,7 +166,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MeshComponents.LargeByAreaComponentsSettings.LargeByAreaComponentsSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1accc663d072f32a9f5925cf2864ce927f" kindref="member">MR.MeshComponents.LargeByAreaComponentsSettings.LargeByAreaComponentsSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -185,7 +185,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MeshComponents.LargeByAreaComponentsSettings.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MeshComponents::LargeByAreaComponentsSettings::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -200,45 +200,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_LargeByAreaComponentsSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshComponents.LargeByAreaComponentsSettings</label>
         <link refid="classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.MeshComponents.Const_LargeByAreaComponentsSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_LargeByAreaComponentsSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_LargeByAreaComponentsSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MeshComponents.LargeByAreaComponentsSettings</label>
         <link refid="classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.MeshComponents.Const_LargeByAreaComponentsSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_LargeByAreaComponentsSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="508" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="509" bodyend="604"/>

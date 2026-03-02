@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFillContourByGraphCut_8h" kind="file" language="C++">
     <compoundname>MRFillContourByGraphCut.h</compoundname>
     <includes refid="MREdgePaths_8h" local="yes">MREdgePaths.h</includes>
@@ -36,7 +36,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRFillContourByGraphCut.h</label>
+        <label>MRMesh/MRFillContourByGraphCut.h</label>
         <link refid="MRFillContourByGraphCut_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -149,6 +149,7 @@
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="group__MeshSegmentationGroup_1gab3e1164ebf68822aab118be88463559f" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__MeshSegmentationGroup_1gab3e1164ebf68822aab118be88463559f" kindref="member">fillContourLeftByGraphCut</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref><sp/>&amp;<sp/>contour,</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref><sp/>&amp;<sp/>metric,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
@@ -158,8 +159,8 @@
 <codeline lineno="46" refid="group__MeshSegmentationGroup_1ga83df6392f2ec180519c0977c7c2a0db7" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__MeshSegmentationGroup_1ga83df6392f2ec180519c0977c7c2a0db7" kindref="member">segmentByGraphCut</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet&amp;<sp/>source,</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet&amp;<sp/>sink,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref>&amp;<sp/>metric,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h"/>
+    <location file="MRMesh/MRFillContourByGraphCut.h"/>
   </compounddef>
 </doxygen>

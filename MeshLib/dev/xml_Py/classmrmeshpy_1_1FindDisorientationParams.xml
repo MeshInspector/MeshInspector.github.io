@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1FindDisorientationParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FindDisorientationParams</compoundname>
     <innerclass refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode" prot="public">mrmeshpy::FindDisorientationParams::RayMode</innerclass>
@@ -251,26 +251,15 @@ Parameters for `findDisorientedFaces` function
         <label>mrmeshpy.FindDisorientationParams</label>
         <link refid="classmrmeshpy_1_1FindDisorientationParams"/>
         <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_mode</edgelabel>
-          <edgelabel>_offsetof_virtualFillHoles</edgelabel>
-        </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>mode</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>mrmeshpy.FindDisorientationParams</label>
-        <link refid="classmrmeshpy_1_1FindDisorientationParams"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_mode</edgelabel>
-          <edgelabel>_offsetof_virtualFillHoles</edgelabel>
-        </childnode>
-        <childnode refid="3" relation="usage">
           <edgelabel>mode</edgelabel>
         </childnode>
       </node>
       <node id="2">
-        <label>typing</label>
+        <label>mrmeshpy.FindDisorientationParams</label>
+        <link refid="classmrmeshpy_1_1FindDisorientationParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mode</edgelabel>
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20051" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20051" bodyend="20134"/>

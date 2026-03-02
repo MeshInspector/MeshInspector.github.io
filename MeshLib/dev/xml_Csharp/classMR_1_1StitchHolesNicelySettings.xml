@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1StitchHolesNicelySettings" kind="class" language="C#" prot="public">
     <compoundname>MR::StitchHolesNicelySettings</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_StitchHolesNicelySettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1StitchHolesNicelySettings_1a27be56eb1f840312c053e99a5e8dc3d2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.StitchHolesParams</type>
+        <type>new unsafe <ref refid="classMR_1_1StitchHolesParams" kindref="compound">MR.StitchHolesParams</ref></type>
         <definition>new unsafe MR.StitchHolesParams MR.StitchHolesNicelySettings.triangulateParams</definition>
         <argsstring></argsstring>
         <name>triangulateParams</name>
@@ -185,7 +185,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.StitchHolesNicelySettings.StitchHolesNicelySettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1StitchHolesNicelySettings_1a679e65fdb416cf2f7d501fa681d9b4fd" kindref="member">MR.StitchHolesNicelySettings.StitchHolesNicelySettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -204,7 +204,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.StitchHolesNicelySettings.StitchHolesNicelySettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1StitchHolesNicelySettings_1a679e65fdb416cf2f7d501fa681d9b4fd" kindref="member">MR.StitchHolesNicelySettings.StitchHolesNicelySettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -223,7 +223,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.StitchHolesNicelySettings.StitchHolesNicelySettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1StitchHolesNicelySettings_1a679e65fdb416cf2f7d501fa681d9b4fd" kindref="member">MR.StitchHolesNicelySettings.StitchHolesNicelySettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -242,7 +242,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.StitchHolesNicelySettings.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::StitchHolesNicelySettings::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -257,45 +257,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_StitchHolesNicelySettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.StitchHolesNicelySettings</label>
         <link refid="classMR_1_1StitchHolesNicelySettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_StitchHolesNicelySettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_StitchHolesNicelySettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_StitchHolesNicelySettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.StitchHolesNicelySettings</label>
         <link refid="classMR_1_1StitchHolesNicelySettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_StitchHolesNicelySettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_StitchHolesNicelySettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1334" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1335" bodyend="1458"/>

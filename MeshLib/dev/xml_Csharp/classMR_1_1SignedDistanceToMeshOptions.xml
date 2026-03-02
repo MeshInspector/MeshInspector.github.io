@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SignedDistanceToMeshOptions" kind="class" language="C#" prot="public">
     <compoundname>MR::SignedDistanceToMeshOptions</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_SignedDistanceToMeshOptions</basecompoundref>
@@ -58,7 +58,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>what to do if actual distance is outside [min, max) range: true - return std.nullopt for std.optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here </para>
+<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -166,7 +166,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SignedDistanceToMeshOptions.SignedDistanceToMeshOptions</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SignedDistanceToMeshOptions_1afbb6ca22069c28e5a565c0887f4bf8fc" kindref="member">MR.SignedDistanceToMeshOptions.SignedDistanceToMeshOptions</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -185,7 +185,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SignedDistanceToMeshOptions.SignedDistanceToMeshOptions</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SignedDistanceToMeshOptions_1afbb6ca22069c28e5a565c0887f4bf8fc" kindref="member">MR.SignedDistanceToMeshOptions.SignedDistanceToMeshOptions</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -204,7 +204,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.SignedDistanceToMeshOptions.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SignedDistanceToMeshOptions::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -219,45 +219,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_SignedDistanceToMeshOptions</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.SignedDistanceToMeshOptions</label>
         <link refid="classMR_1_1SignedDistanceToMeshOptions"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_SignedDistanceToMeshOptions</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SignedDistanceToMeshOptions &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_SignedDistanceToMeshOptions</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.SignedDistanceToMeshOptions</label>
         <link refid="classMR_1_1SignedDistanceToMeshOptions"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_SignedDistanceToMeshOptions</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SignedDistanceToMeshOptions &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="425" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="426" bodyend="510"/>

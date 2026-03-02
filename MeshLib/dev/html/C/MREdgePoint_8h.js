@@ -3,8 +3,6 @@ var MREdgePoint_8h =
     [ "MR_EdgePoint", "MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45", null ],
     [ "MR_EdgePointPair", "MREdgePoint_8h.html#a8a401395680b3017eda4a4bcd40aa2be", null ],
     [ "MR_EdgeSegment", "MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583", null ],
-    [ "MR_FaceBitSet", "MREdgePoint_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_MeshTopology", "MREdgePoint_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
     [ "MR_PolylineTopology", "MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd", null ],
     [ "MR_SegmPointf", "MREdgePoint_8h.html#a82acfe4bf120daf3ba429a5974adeafe", null ],
     [ "MR_EdgePoint_AssignFromAnother", "MREdgePoint_8h.html#aae76ac0dc0d0f9d5fc3ee806d76e17a8", null ],

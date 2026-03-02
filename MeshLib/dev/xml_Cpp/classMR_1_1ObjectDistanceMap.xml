@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectDistanceMap" kind="class" language="C++" prot="public">
     <compoundname>MR::ObjectDistanceMap</compoundname>
     <basecompoundref refid="classMR_1_1ObjectMeshHolder" prot="public" virt="non-virtual">MR::ObjectMeshHolder</basecompoundref>
-    <includes refid="MRObjectDistanceMap_8h" local="no">MRObjectDistanceMap.h</includes>
+    <includes refid="MRObjectDistanceMap_8h" local="no">MRMesh/MRObjectDistanceMap.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gab8860ea2edf64befe1f7783082504886" kind="variable"><name>dmap_</name></member>
       <member refid="group__GeneralGroup_1ga3b5319466ef109ba7704d16b4502558e" kind="variable"><name>dmap2local_</name></member>
@@ -163,7 +163,7 @@
           <edgelabel>showPoints_</edgelabel>
           <edgelabel>showSelectedEdges_</edgelabel>
           <edgelabel>showSelectedFaces_</edgelabel>
-          <edgelabel>...</edgelabel>
+          <edgelabel>  ...</edgelabel>
         </childnode>
         <childnode refid="12" relation="usage">
           <edgelabel>bordersColor_</edgelabel>
@@ -249,7 +249,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectDistanceMap.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectDistanceMap.h" bodystart="16" bodyend="103"/>
+    <location file="MRMesh/MRObjectDistanceMap.h" line="15" column="1" bodyfile="MRMesh/MRObjectDistanceMap.h" bodystart="16" bodyend="103"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa8ad23b98d545682db124f812216b717" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>actualSerializeFormat</name></member>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::ObjectDistanceMap</scope><name>addChild</name></member>

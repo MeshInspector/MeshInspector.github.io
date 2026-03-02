@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PolylineSubdivideSettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PolylineSubdivideSettings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -632,25 +632,6 @@ and no sharp angles in between
 <para><verbatim>Generated from:  MR::PolylineSubdivideSettings
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.PolylineSubdivideSettings</label>
-        <link refid="classmrmeshpy_1_1PolylineSubdivideSettings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_maxEdgeLen</edgelabel>
-          <edgelabel>_offsetof_maxEdgeSplits</edgelabel>
-          <edgelabel>_offsetof_newVerts</edgelabel>
-          <edgelabel>_offsetof_onEdgeSplit</edgelabel>
-          <edgelabel>_offsetof_onVertCreated</edgelabel>
-          <edgelabel>_offsetof_progressCallback</edgelabel>
-          <edgelabel>_offsetof_region</edgelabel>
-          <edgelabel>_offsetof_useCurvature</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46925" bodyend="47027"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1ad0ec91d06d4e6e85a5eecdfbc803e7a6" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>__init__</name></member>

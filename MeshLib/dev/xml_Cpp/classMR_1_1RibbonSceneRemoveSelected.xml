@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonSceneRemoveSelected" kind="class" language="C++" prot="public">
     <compoundname>MR::RibbonSceneRemoveSelected</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
     <basecompoundref refid="classMR_1_1SceneStateAtLeastCheck" prot="public" virt="non-virtual">MR::SceneStateAtLeastCheck&lt; 1, Object, NoModelCheck &gt;</basecompoundref>
-    <includes refid="MRRibbonSceneButtons_8h" local="no">MRRibbonSceneButtons.h</includes>
+    <includes refid="MRRibbonSceneButtons_8h" local="no">MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga7570afcb911fef7ef4b4209311ff56fa" kind="function"><name>RibbonSceneRemoveSelected</name></member>
       <member refid="group__GeneralGroup_1gad163bea4fd969e36923bd710b0e9bbd5" kind="function"><name>isAvailable</name></member>
@@ -66,7 +66,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" line="99" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" bodystart="100" bodyend="108"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" line="99" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" bodystart="100" bodyend="108"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga29caebde4be3ee15714f1c5698a8edb0" prot="public" virt="virtual"><scope>MR::RibbonSceneRemoveSelected</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::RibbonSceneRemoveSelected</scope><name>blocking</name></member>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRBooleanOperation_8h" kind="file" language="C++">
     <compoundname>MRBooleanOperation.h</compoundname>
     <includes refid="MRVector_8h" local="yes">MRVector.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes local="no">array</includes>
-    <includedby refid="MRMeshBoolean_8h" local="yes">MRMeshBoolean.h</includedby>
+    <includedby refid="MRMeshBoolean_8h" local="yes">MRMesh/MRMeshBoolean.h</includedby>
     <incdepgraph>
       <node id="1">
-        <label>MRBooleanOperation.h</label>
+        <label>MRMesh/MRBooleanOperation.h</label>
         <link refid="MRBooleanOperation_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -147,13 +147,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRBooleanOperation.h</label>
+        <label>MRMesh/MRBooleanOperation.h</label>
         <link refid="MRBooleanOperation_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRMeshBoolean.h</label>
+        <label>MRMesh/MRMeshBoolean.h</label>
         <link refid="MRMeshBoolean_8h"/>
       </node>
     </invincdepgraph>
@@ -176,24 +176,24 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="group__BooleanGroup_1ga9e84a8cc429efdf5cc108ca1c6aaccbd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__BooleanGroup_1ga9e84a8cc429efdf5cc108ca1c6aaccbd" kindref="member">BooleanOperation</ref></highlight></codeline>
 <codeline lineno="20"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda833b7406c91f551bd8502cf76bb95c29" kindref="member">InsideA</ref>,</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda9f3e5e704c939dff3070cf175df0b75d" kindref="member">InsideB</ref>,</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda9a03bdff82f27d2bf0997d9c54855711" kindref="member">OutsideA</ref>,</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda6c72337a335f60bed93678d35bd0165f" kindref="member">OutsideB</ref>,</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbdaaef12e903e606a4895a16b393bfdec8c" kindref="member">Union</ref>,</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24" kindref="member">Intersection</ref>,</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbdad7e2d5557f4bc77c023a5c3fd8b52aae" kindref="member">DifferenceBA</ref>,</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda676747ace506f0a560e1d99f5da1ab2a" kindref="member">DifferenceAB</ref>,</highlight></codeline>
+<codeline lineno="23" refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda833b7406c91f551bd8502cf76bb95c29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda833b7406c91f551bd8502cf76bb95c29" kindref="member">InsideA</ref>,</highlight></codeline>
+<codeline lineno="26" refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda9f3e5e704c939dff3070cf175df0b75d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda9f3e5e704c939dff3070cf175df0b75d" kindref="member">InsideB</ref>,</highlight></codeline>
+<codeline lineno="29" refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda9a03bdff82f27d2bf0997d9c54855711" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda9a03bdff82f27d2bf0997d9c54855711" kindref="member">OutsideA</ref>,</highlight></codeline>
+<codeline lineno="32" refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda6c72337a335f60bed93678d35bd0165f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda6c72337a335f60bed93678d35bd0165f" kindref="member">OutsideB</ref>,</highlight></codeline>
+<codeline lineno="35" refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbdaaef12e903e606a4895a16b393bfdec8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbdaaef12e903e606a4895a16b393bfdec8c" kindref="member">Union</ref>,</highlight></codeline>
+<codeline lineno="38" refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24" kindref="member">Intersection</ref>,</highlight></codeline>
+<codeline lineno="41" refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbdad7e2d5557f4bc77c023a5c3fd8b52aae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbdad7e2d5557f4bc77c023a5c3fd8b52aae" kindref="member">DifferenceBA</ref>,</highlight></codeline>
+<codeline lineno="44" refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda676747ace506f0a560e1d99f5da1ab2a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda676747ace506f0a560e1d99f5da1ab2a" kindref="member">DifferenceAB</ref>,</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref><sp/></highlight></codeline>
+<codeline lineno="46" refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbdae93f994f01c537c4e2f7d8528c3eb5e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref><sp/></highlight></codeline>
 <codeline lineno="47"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">BooleanResultMapper</highlight></codeline>
+<codeline lineno="56" refid="structMR_1_1BooleanResultMapper" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1BooleanResultMapper_1a00bac3eecd35b44f05f28f7cb1f3c0d9" kindref="member">BooleanResultMapper</ref></highlight></codeline>
 <codeline lineno="57"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="59" refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587" kindref="member">MapObject</ref><sp/>{<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587a7fc56270e7a70fa81a5935b72eacbe29" kindref="member">A</ref>,<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587a9d5ed678fe57bcca610140957afab571" kindref="member">B</ref>,<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref><sp/>};</highlight></codeline>
+<codeline lineno="59" refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587a7fc56270e7a70fa81a5935b72eacbe29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587" kindref="member">MapObject</ref><sp/>{<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587a7fc56270e7a70fa81a5935b72eacbe29" kindref="member">A</ref>,<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587a9d5ed678fe57bcca610140957afab571" kindref="member">B</ref>,<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref><sp/>};</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61" refid="structMR_1_1BooleanResultMapper_1a00bac3eecd35b44f05f28f7cb1f3c0d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1BooleanResultMapper_1a00bac3eecd35b44f05f28f7cb1f3c0d9" kindref="member">BooleanResultMapper</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
@@ -222,7 +222,7 @@
 <codeline lineno="97" refid="structMR_1_1BooleanResultMapper_1a90a7bf08cca602701e835565e3d516e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BooleanResultMapper_1_1Maps" kindref="compound">Maps</ref>&amp;<sp/><ref refid="structMR_1_1BooleanResultMapper_1a90a7bf08cca602701e835565e3d516e7" kindref="member">getMaps</ref>(<sp/><ref refid="structMR_1_1BooleanResultMapper_1ad0b1836dae4789a5640522e69a889587" kindref="member">MapObject</ref><sp/>index<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BooleanResultMapper_1a3a2abc280314da83919063aff2e0490f" kindref="member">maps</ref>[<sp/>int(<sp/>index<sp/>)<sp/>];<sp/>}</highlight></codeline>
 <codeline lineno="98"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="structMR_1_1BooleanInternalParameters" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1BooleanInternalParameters" kindref="compound">BooleanInternalParameters</ref></highlight></codeline>
+<codeline lineno="101" refid="structMR_1_1BooleanInternalParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1BooleanInternalParameters" kindref="compound">BooleanInternalParameters</ref></highlight></codeline>
 <codeline lineno="102"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="104" refid="structMR_1_1BooleanInternalParameters_1a2733395f91f3ed00b0e61ccae13ce37d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>*<sp/><ref refid="structMR_1_1BooleanInternalParameters_1a2733395f91f3ed00b0e61ccae13ce37d" kindref="member">originalMeshA</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="106" refid="structMR_1_1BooleanInternalParameters_1a9564c4edb40ecc90fa59bfc7a9342bc5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>*<sp/><ref refid="structMR_1_1BooleanInternalParameters_1a9564c4edb40ecc90fa59bfc7a9342bc5" kindref="member">originalMeshB</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
@@ -237,8 +237,8 @@
 <codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BooleanInternalParameters" kindref="compound">BooleanInternalParameters</ref>&amp;<sp/>intParams<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h"/>
+    <location file="MRMesh/MRBooleanOperation.h"/>
   </compounddef>
 </doxygen>

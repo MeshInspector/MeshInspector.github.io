@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1GcodeToolsLibrary" kind="class" language="C++" prot="public">
     <compoundname>MR::GcodeToolsLibrary</compoundname>
-    <includes refid="MRToolsLibrary_8h" local="no">MRToolsLibrary.h</includes>
+    <includes refid="MRToolsLibrary_8h" local="no">MRViewer/MRToolsLibrary.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga20927a270a59ac8319be9d1c1df678c6" kind="variable"><name>libraryName_</name></member>
       <member refid="group__GeneralGroup_1ga743be925e838e9b2804bcf9fa959d1bf" kind="variable"><name>filesList_</name></member>
@@ -43,7 +43,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolsLibrary.h" bodystart="18" bodyend="73"/>
+    <location file="MRViewer/MRToolsLibrary.h" line="17" column="1" bodyfile="MRViewer/MRToolsLibrary.h" bodystart="18" bodyend="73"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga6caa0229a5a8da3fd4cba9829ed4aff1" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>addNewTool_</name></member>
       <member refid="group__GeneralGroup_1ga528d4a4874ad406032e58ec6d32e682e" prot="private" virt="non-virtual"><scope>MR::GcodeToolsLibrary</scope><name>addNewToolFromFile_</name></member>

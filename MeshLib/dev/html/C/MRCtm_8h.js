@@ -13,7 +13,6 @@ var MRCtm_8h =
     [ "MR_PointsLoadSettings", "MRCtm_8h.html#a67029d3455a5c9aa45725d3c35e1e4df", null ],
     [ "MR_PointsSave_CtmSavePointsOptions", "MRCtm_8h.html#ae978f40ff51260a61a48889fa82116d9", null ],
     [ "MR_SaveSettings", "MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb", null ],
-    [ "MR_std_function_bool_from_float", "MRCtm_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_istream", "MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
     [ "MR_std_optional_MR_Color", "MRCtm_8h.html#af8e34c593afc89cf4494928ca552201f", null ],
     [ "MR_std_optional_MR_LengthUnit", "MRCtm_8h.html#abfa36f7cf27ce4b9864dde0b998a0c96", null ],

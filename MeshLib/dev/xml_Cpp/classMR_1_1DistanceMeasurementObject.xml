@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DistanceMeasurementObject" kind="class" language="C++" prot="public">
     <compoundname>MR::DistanceMeasurementObject</compoundname>
     <basecompoundref refid="classMR_1_1MeasurementObject" prot="public" virt="non-virtual">MR::MeasurementObject</basecompoundref>
     <basecompoundref refid="classMR_1_1ObjectComparableWithReference" prot="public" virt="non-virtual">MR::ObjectComparableWithReference</basecompoundref>
-    <includes refid="MRDistanceMeasurementObject_8h" local="no">MRDistanceMeasurementObject.h</includes>
+    <includes refid="MRDistanceMeasurementObject_8h" local="no">MRMesh/MRDistanceMeasurementObject.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gace9513029904e4f1154117bec80e9e51" kind="enum"><name>DistanceMode</name></member>
     </sectiondef>
@@ -200,7 +200,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="14" bodyend="113"/>
+    <location file="MRMesh/MRDistanceMeasurementObject.h" line="13" column="1" bodyfile="MRMesh/MRDistanceMeasurementObject.h" bodystart="14" bodyend="113"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>addChildBefore</name></member>

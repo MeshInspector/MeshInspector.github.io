@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshModifier_8h" kind="file" language="C++">
     <compoundname>MRMeshModifier.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -497,7 +497,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshModifier.h</label>
+        <label>MRViewer/MRMeshModifier.h</label>
         <link refid="MRMeshModifier_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -726,11 +726,11 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">RenderObject;</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga49165bcb87a59752b8f02f19ea7f2424" kindref="member">Mesh</ref>;</highlight></codeline>
-<codeline lineno="13" refid="classMR_1_1MeshModifier" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1MeshModifier" kindref="compound">MeshModifier</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>;</highlight></codeline>
+<codeline lineno="13" refid="classMR_1_1MeshModifier" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="group__GeneralGroup_1gac3904c134d1624aa5b9e625a476632f5" kindref="member">MeshModifier</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" kindref="member">RibbonMenuItem</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1gac3904c134d1624aa5b9e625a476632f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gac3904c134d1624aa5b9e625a476632f5" kindref="member">MeshModifier</ref>(<sp/>std::string<sp/>name,<sp/><ref refid="group__GeneralGroup_1ga9228096dfb940b935e8dada25c4b0c37" kindref="member">StatePluginTabs</ref><sp/>tab<sp/>=<sp/>StatePluginTabs::Mesh<sp/>);</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1gac3904c134d1624aa5b9e625a476632f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gac3904c134d1624aa5b9e625a476632f5" kindref="member">MeshModifier</ref>(<sp/>std::string<sp/><ref refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" kindref="member">name</ref>,<sp/><ref refid="group__GeneralGroup_1ga9228096dfb940b935e8dada25c4b0c37" kindref="member">StatePluginTabs</ref><sp/>tab<sp/>=<sp/><ref refid="group__GeneralGroup_1gga9228096dfb940b935e8dada25c4b0c37a710fdb6adb881b408116ef95335e1961" kindref="member">StatePluginTabs::Mesh</ref><sp/>);</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1ga78b84722bd2aef0d182ee5eb2fa81686" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga78b84722bd2aef0d182ee5eb2fa81686" kindref="member">~MeshModifier</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga4e1d72aa805e5b2515886bea4ad7d758" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4e1d72aa805e5b2515886bea4ad7d758" kindref="member">action</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
@@ -747,6 +747,6 @@
 <codeline lineno="32"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="33"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshModifier.h"/>
+    <location file="MRViewer/MRMeshModifier.h"/>
   </compounddef>
 </doxygen>

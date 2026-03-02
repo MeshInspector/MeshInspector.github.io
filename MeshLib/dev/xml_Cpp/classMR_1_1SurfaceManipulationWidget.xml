@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SurfaceManipulationWidget" kind="class" language="C++" prot="public">
     <compoundname>MR::SurfaceManipulationWidget</compoundname>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener, PostDrawListener &gt;</basecompoundref>
-    <includes refid="MRSurfaceManipulationWidget_8h" local="no">MRSurfaceManipulationWidget.h</includes>
+    <includes refid="MRSurfaceManipulationWidget_8h" local="no">MRViewer/MRSurfaceManipulationWidget.h</includes>
     <innerclass refid="structMR_1_1SurfaceManipulationWidget_1_1Settings" prot="public">MR::SurfaceManipulationWidget::Settings</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gaaf2bf24fbfd2017b8037ed9cab3df93c" kind="enum"><name>WorkMode</name></member>
@@ -146,7 +146,7 @@
         <link refid="structMR_1_1SurfaceManipulationWidget_1_1Settings"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="23" bodyend="202"/>
+    <location file="MRViewer/MRSurfaceManipulationWidget.h" line="20" column="1" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="23" bodyend="202"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gadd0ddfdc3b43ddc99dec3be877b7a919" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>abortEdit_</name></member>
       <member refid="group__GeneralGroup_1ga09c56116fa4c39bcc7554e4142816027" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>appendHistoryAction_</name></member>

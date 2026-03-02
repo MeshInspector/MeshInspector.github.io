@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__TunnelDetectorGroup" kind="group">
     <compoundname>TunnelDetectorGroup</compoundname>
     <title>Tunnel Detector</title>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" line="18" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" declline="18" declcolumn="11"/>
+        <location file="MRMesh/MRTunnelDetector.h" line="18" column="11" declfile="MRMesh/MRTunnelDetector.h" declline="18" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__TunnelDetectorGroup_1ga135a3163af766566666c69ac52f98a9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; EdgeLoop &gt;</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" line="26" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" declline="26" declcolumn="11"/>
+        <location file="MRMesh/MRTunnelDetector.h" line="26" column="11" declfile="MRMesh/MRTunnelDetector.h" declline="26" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__TunnelDetectorGroup_1ga40474d64aa8fbdd33ab7ba70b9970bec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; EdgeLoop &gt;</type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" line="30" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" declline="30" declcolumn="11"/>
+        <location file="MRMesh/MRTunnelDetector.h" line="30" column="11" declfile="MRMesh/MRTunnelDetector.h" declline="30" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__TunnelDetectorGroup_1gaacda8ac164232c8d91b8801a72a192f5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeLoop &gt;</type>
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" line="37" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" declline="37" declcolumn="15"/>
+        <location file="MRMesh/MRTunnelDetector.h" line="37" column="15" declfile="MRMesh/MRTunnelDetector.h" declline="37" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__TunnelDetectorGroup_1ga557063bbcff132d2836603e69593b565" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeLoop &gt;</type>
@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" line="41" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" declline="41" declcolumn="15"/>
+        <location file="MRMesh/MRTunnelDetector.h" line="41" column="15" declfile="MRMesh/MRTunnelDetector.h" declline="41" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__TunnelDetectorGroup_1ga9c2c318e4e6ea35933bf2653c0bdf2ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; FaceBitSet &gt;</type>
@@ -166,7 +166,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" line="72" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" declline="72" declcolumn="11"/>
+        <location file="MRMesh/MRTunnelDetector.h" line="72" column="11" declfile="MRMesh/MRTunnelDetector.h" declline="72" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

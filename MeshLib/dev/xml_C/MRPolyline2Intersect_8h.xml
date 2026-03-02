@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPolyline2Intersect_8h" kind="file" language="C++">
     <compoundname>MRPolyline2Intersect.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -27,97 +27,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPolyline2Intersect_8h_1a50185006f78fd01ef7f1316a047afa45" prot="public" static="no">
-        <type>struct <ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref></type>
-        <definition>typedef struct MR_EdgePoint MR_EdgePoint</definition>
-        <argsstring></argsstring>
-        <name>MR_EdgePoint</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Intersect.h" line="12" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Intersect.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline2Intersect_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" prot="public" static="no">
-        <type>struct <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref></type>
-        <definition>typedef struct MR_IntersectionPrecomputes2_double MR_IntersectionPrecomputes2_double</definition>
-        <argsstring></argsstring>
-        <name>MR_IntersectionPrecomputes2_double</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Intersect.h" line="13" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Intersect.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline2Intersect_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" prot="public" static="no">
-        <type>struct <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref></type>
-        <definition>typedef struct MR_IntersectionPrecomputes2_float MR_IntersectionPrecomputes2_float</definition>
-        <argsstring></argsstring>
-        <name>MR_IntersectionPrecomputes2_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Intersect.h" line="14" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Intersect.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline2Intersect_8h_1a6992d64f6703ac6d7687c699042105a2" prot="public" static="no">
-        <type>struct <ref refid="MRLine_8h_1a6992d64f6703ac6d7687c699042105a2" kindref="member">MR_Line2d</ref></type>
-        <definition>typedef struct MR_Line2d MR_Line2d</definition>
-        <argsstring></argsstring>
-        <name>MR_Line2d</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Intersect.h" line="15" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Intersect.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline2Intersect_8h_1a42f4324f3958a2b1ca19cd1728c5db67" prot="public" static="no">
-        <type>struct <ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref></type>
-        <definition>typedef struct MR_Line2f MR_Line2f</definition>
-        <argsstring></argsstring>
-        <name>MR_Line2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Intersect.h" line="16" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Intersect.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline2Intersect_8h_1ac19d267fe4a2399b21a578c74213dfd2" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref></type>
-        <definition>typedef struct MR_Polyline2 MR_Polyline2</definition>
-        <argsstring></argsstring>
-        <name>MR_Polyline2</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Intersect.h" line="17" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Intersect.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolyline2Intersect_8h_1a72ab0be0b71b29e9f310e7526a8cc57b" prot="public" static="no">
-        <type>struct MR_Vector2f</type>
-        <definition>typedef struct MR_Vector2f MR_Vector2f</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Intersect.h" line="18" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Intersect.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRPolyline2Intersect_8h_1a86a322fd0d6145e9282cc5dbadc12ece" prot="public" static="no">
         <type>struct <ref refid="MRPolyline2Intersect_8h_1a86a322fd0d6145e9282cc5dbadc12ece" kindref="member">MR_std_function_MR_Processing_from_const_MR_EdgePoint_ref_double_double_ref_double_ref</ref></type>
         <definition>typedef struct MR_std_function_MR_Processing_from_const_MR_EdgePoint_ref_double_double_ref_double_ref MR_std_function_MR_Processing_from_const_MR_EdgePoint_ref_double_double_ref_double_ref</definition>
@@ -458,7 +367,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PolylineIntersectionResult2</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPolyline2Intersect_8h_1a3db0409fc80b9fae469a9fbca2407a83" kindref="member">MR_PolylineIntersectionResult2</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -476,7 +385,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PolylineIntersectionResult2</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPolyline2Intersect_8h_1a3db0409fc80b9fae469a9fbca2407a83" kindref="member">MR_PolylineIntersectionResult2</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -675,19 +584,19 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRPolyline2Intersect_8h_1a50185006f78fd01ef7f1316a047afa45" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MREdgePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRPolyline2Intersect_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIntersectionPrecomputes2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRPolyline2Intersect_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIntersectionPrecomputes2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRPolyline2Intersect_8h_1a6992d64f6703ac6d7687c699042105a2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLine_8h_1a6992d64f6703ac6d7687c699042105a2" kindref="member">MR_Line2d</ref><sp/><ref refid="MRLine_8h_1a6992d64f6703ac6d7687c699042105a2" kindref="member">MR_Line2d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRPolyline2Intersect_8h_1a42f4324f3958a2b1ca19cd1728c5db67" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref><sp/><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRPolyline2Intersect_8h_1ac19d267fe4a2399b21a578c74213dfd2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRPolyline2Intersect_8h_1a72ab0be0b71b29e9f310e7526a8cc57b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MREdgePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIntersectionPrecomputes2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIntersectionPrecomputes2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLine_8h_1a6992d64f6703ac6d7687c699042105a2" kindref="member">MR_Line2d</ref><sp/><ref refid="MRLine_8h_1a6992d64f6703ac6d7687c699042105a2" kindref="member">MR_Line2d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref><sp/><ref refid="MRLine_8h_1a42f4324f3958a2b1ca19cd1728c5db67" kindref="member">MR_Line2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLine.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="MRPolyline2Intersect_8h_1a86a322fd0d6145e9282cc5dbadc12ece" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolyline2Intersect_8h_1a86a322fd0d6145e9282cc5dbadc12ece" kindref="member">MR_std_function_MR_Processing_from_const_MR_EdgePoint_ref_double_double_ref_double_ref</ref><sp/><ref refid="MRPolyline2Intersect_8h_1a86a322fd0d6145e9282cc5dbadc12ece" kindref="member">MR_std_function_MR_Processing_from_const_MR_EdgePoint_ref_double_double_ref_double_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_MR_Processing_from_const_MR_EdgePoint_ref_double_double_ref_double_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="MRPolyline2Intersect_8h_1a9b3eb01056e3e3d7af16c8a419dc8bc5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolyline2Intersect_8h_1a9b3eb01056e3e3d7af16c8a419dc8bc5" kindref="member">MR_std_function_MR_Processing_from_const_MR_EdgePoint_ref_float_float_ref_float_ref</ref><sp/><ref refid="MRPolyline2Intersect_8h_1a9b3eb01056e3e3d7af16c8a419dc8bc5" kindref="member">MR_std_function_MR_Processing_from_const_MR_EdgePoint_ref_float_float_ref_float_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_MR_Processing_from_const_MR_EdgePoint_ref_float_float_ref_float_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRPolyline2Intersect_8h_1ab703fb0e787f91fc7194e3fe95e9c09a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolyline2Intersect_8h_1ab703fb0e787f91fc7194e3fe95e9c09a" kindref="member">MR_std_optional_MR_PolylineIntersectionResult2</ref><sp/><ref refid="MRPolyline2Intersect_8h_1ab703fb0e787f91fc7194e3fe95e9c09a" kindref="member">MR_std_optional_MR_PolylineIntersectionResult2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_PolylineIntersectionResult2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRPolyline2Intersect_8h_1a3db0409fc80b9fae469a9fbca2407a83" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolyline2Intersect_8h_1a3db0409fc80b9fae469a9fbca2407a83" kindref="member">MR_PolylineIntersectionResult2</ref><sp/><ref refid="MRPolyline2Intersect_8h_1a3db0409fc80b9fae469a9fbca2407a83" kindref="member">MR_PolylineIntersectionResult2</ref>;</highlight></codeline>
+<codeline lineno="26" refid="MRPolyline2Intersect_8h_1a3db0409fc80b9fae469a9fbca2407a83" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolyline2Intersect_8h_1a3db0409fc80b9fae469a9fbca2407a83" kindref="member">MR_PolylineIntersectionResult2</ref><sp/><ref refid="MRPolyline2Intersect_8h_1a3db0409fc80b9fae469a9fbca2407a83" kindref="member">MR_PolylineIntersectionResult2</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36" refid="MRPolyline2Intersect_8h_1acf93cf3a1f5ba3084dba6820c954ff9a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Intersect_8h_1acf93cf3a1f5ba3084dba6820c954ff9a" kindref="member">MR_isPointInsidePolyline</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*point);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>

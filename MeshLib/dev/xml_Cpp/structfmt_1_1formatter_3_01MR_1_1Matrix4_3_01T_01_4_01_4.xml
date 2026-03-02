@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structfmt_1_1formatter_3_01MR_1_1Matrix4_3_01T_01_4_01_4" kind="struct" language="C++" prot="public">
     <compoundname>fmt::formatter&lt; MR::Matrix4&lt; T &gt; &gt;</compoundname>
     <basecompoundref refid="structfmt_1_1formatter_3_01MR_1_1Vector4_3_01T_01_4_01_4" prot="public" virt="non-virtual">fmt::formatter&lt; MR::Vector4&lt; T &gt; &gt;</basecompoundref>
-    <includes refid="MRFormat_8h" local="no">MRFormat.h</includes>
+    <includes refid="MRFormat_8h" local="no">MRMesh/MRFormat.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" line="97" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" bodystart="97" bodyend="120"/>
+        <location file="MRMesh/MRFormat.h" line="97" column="20" bodyfile="MRMesh/MRFormat.h" bodystart="97" bodyend="120"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -76,7 +76,7 @@
         <label>fmt::formatter&lt; T &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" line="94" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFormat.h" bodystart="95" bodyend="121"/>
+    <location file="MRMesh/MRFormat.h" line="94" column="1" bodyfile="MRMesh/MRFormat.h" bodystart="95" bodyend="121"/>
     <listofallmembers>
       <member refid="structfmt_1_1formatter_3_01MR_1_1Matrix4_3_01T_01_4_01_4_1a9edd80455d7d6a60d0638eeafa0988b2" prot="public" virt="non-virtual"><scope>fmt::formatter&lt; MR::Matrix4&lt; T &gt; &gt;</scope><name>format</name></member>
       <member refid="structfmt_1_1formatter_3_01MR_1_1Vector4_3_01T_01_4_01_4_1ab3dbb1b7dae7a25127227a697c0aea56" prot="public" virt="non-virtual" ambiguityscope="fmt::formatter&lt; MR::Vector4&lt; T &gt; &gt;::"><scope>fmt::formatter&lt; MR::Matrix4&lt; T &gt; &gt;</scope><name>format</name></member>

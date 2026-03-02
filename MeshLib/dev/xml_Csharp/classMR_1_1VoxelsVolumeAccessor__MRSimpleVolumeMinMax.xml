@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolumeMinMax" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelsVolumeAccessor_MRSimpleVolumeMinMax</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</basecompoundref>
@@ -59,7 +59,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.VoxelsVolumeAccessor&lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&gt;::VoxelsVolumeAccessor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&gt;::VoxelsVolumeAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -78,7 +78,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.VoxelsVolumeAccessor&lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&gt;::VoxelsVolumeAccessor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&gt;::VoxelsVolumeAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -97,7 +97,7 @@
           <declname>volume</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.VoxelsVolumeAccessor&lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&gt;::VoxelsVolumeAccessor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&gt;::VoxelsVolumeAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -107,50 +107,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>VoxelsVolumeAccessor specialization for simple volumes with min/max Generated from class <computeroutput>MR.VoxelsVolumeAccessor&lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR.VoxelsVolumeAccessor&lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&gt;</computeroutput> This is the non-const half of the class. </para>
+<para>VoxelsVolumeAccessor specialization for simple volumes with min/max Generated from class <computeroutput>MR::VoxelsVolumeAccessor&lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::VoxelsVolumeAccessor&lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&gt;</computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.VoxelsVolumeAccessor_MRSimpleVolumeMinMax</label>
         <link refid="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolumeMinMax"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.VoxelsVolumeAccessor_MRSimpleVolumeMinMax</label>
         <link refid="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolumeMinMax"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="101" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="102" bodyend="141"/>

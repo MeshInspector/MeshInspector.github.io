@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PriorityQueue" kind="class" language="C++" prot="public">
     <compoundname>MR::PriorityQueue</compoundname>
-    <includes refid="MRPriorityQueue_8h" local="no">MRPriorityQueue.h</includes>
+    <includes refid="MRPriorityQueue_8h" local="no">MRMesh/MRPriorityQueue.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -43,7 +43,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="17" bodyend="57"/>
+    <location file="MRMesh/MRPriorityQueue.h" line="16" column="1" bodyfile="MRMesh/MRPriorityQueue.h" bodystart="17" bodyend="57"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga5f49205aba3f95b0774623effbc87e49" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>c</name></member>
       <member refid="group__GeneralGroup_1gaeaf2b86418b3f772aaf5c8bc2329d8c2" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>Container</name></member>

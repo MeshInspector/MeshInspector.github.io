@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MoveObjectByMouse_1_1MoveObjectByMouseWithSelected" kind="class" language="C++" prot="private">
     <compoundname>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</compoundname>
     <basecompoundref refid="classMR_1_1MoveObjectByMouseImpl" prot="public" virt="non-virtual">MR::MoveObjectByMouseImpl</basecompoundref>
@@ -47,7 +47,7 @@
         <link refid="structMR_1_1UI_1_1RadioButtonOrModifierState"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="43" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" bodystart="44" bodyend="53"/>
+    <location file="MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="43" column="5" bodyfile="MRCommonPlugins/Basic/MRMoveObjectByMouse.h" bodystart="44" bodyend="53"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac467ef9606a5f98eaf884d0ef8970c8f" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>calcControlPlane_</name></member>
       <member refid="group__GeneralGroup_1ga68ec037621662887baaa9c63759afcb9" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>cancel</name></member>

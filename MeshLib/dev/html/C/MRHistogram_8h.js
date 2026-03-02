@@ -1,8 +1,6 @@
 var MRHistogram_8h =
 [
     [ "MR_Histogram", "MRHistogram_8h.html#a0e9f273dfbb0b8a846ee013219140002", null ],
-    [ "MR_std_pair_float_float", "MRHistogram_8h.html#aa12bdb75aa07ac9931f491f5e67125aa", null ],
-    [ "MR_std_vector_uint64_t", "MRHistogram_8h.html#a4f0d822b41437ab650418eb826969703", null ],
     [ "MR_Histogram_addHistogram", "MRHistogram_8h.html#aefd5d0c1c0e88b20a858c6fa7d6f344f", null ],
     [ "MR_Histogram_addSample", "MRHistogram_8h.html#ac0967efba5ea9fbcacaad0a44e00efc5", null ],
     [ "MR_Histogram_AssignFromAnother", "MRHistogram_8h.html#ad3c64996e3bb034dad4933ae3ba628db", null ],

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ModelRenderParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::ModelRenderParams</compoundname>
     <basecompoundref refid="structMR_1_1ModelBaseRenderParams" prot="public" virt="non-virtual">MR::ModelBaseRenderParams</basecompoundref>
-    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <includes refid="MRIRenderObject_8h" local="no">MRMesh/MRIRenderObject.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga7055e460ef562d8825891c62abcd7f2e" kind="variable"><name>normMatrixPtr</name></member>
       <member refid="group__GeneralGroup_1ga0e29cb9eb425bcc241a394492f68ca08" kind="variable"><name>lightPos</name></member>
@@ -65,7 +65,7 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="53" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="54" bodyend="60"/>
+    <location file="MRMesh/MRIRenderObject.h" line="53" column="1" bodyfile="MRMesh/MRIRenderObject.h" bodystart="54" bodyend="60"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga62b1dc3636e8859d7b4f46b53d1e02c8" prot="public" virt="non-virtual"><scope>MR::ModelRenderParams</scope><name>clipPlane</name></member>
       <member refid="group__GeneralGroup_1ga4c79d51067cd63730f681f5aa2c4ad67" prot="public" virt="non-virtual"><scope>MR::ModelRenderParams</scope><name>depthFunction</name></member>

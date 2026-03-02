@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRBoolean_8h" kind="file" language="C++">
     <compoundname>MRBoolean.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
@@ -172,7 +172,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRBoolean.h</label>
+        <label>MRVoxels/MRBoolean.h</label>
         <link refid="MRBoolean_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -299,7 +299,7 @@
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="structMR_1_1MeshVoxelsConverter" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshVoxelsConverter" kindref="compound">MeshVoxelsConverter</ref></highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1MeshVoxelsConverter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshVoxelsConverter" kindref="compound">MeshVoxelsConverter</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1gaff9a0bc144c30c521df635ba7c3ae056" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaff9a0bc144c30c521df635ba7c3ae056" kindref="member">voxelSize</ref><sp/>=<sp/>0.001f;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
@@ -317,8 +317,8 @@
 <codeline lineno="34" refid="group__GeneralGroup_1ga1fec7954ca12a18f84497f9f0553585d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1gab180b7c950637b7ef71f6a4d2dd078d1" kindref="member">operator() </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/>&amp;<sp/>grid<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h"/>
+    <location file="MRVoxels/MRBoolean.h"/>
   </compounddef>
 </doxygen>

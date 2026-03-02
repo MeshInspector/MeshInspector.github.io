@@ -1,13 +1,8 @@
 var MRInnerShell_8h =
 [
-    [ "MR_FaceBitSet", "MRInnerShell_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
     [ "MR_FindInnerShellSettings", "MRInnerShell_8h.html#a1aff57300d2d16a1b810eb1ac3e99abc", null ],
-    [ "MR_Mesh", "MRInnerShell_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshPart", "MRInnerShell_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
     [ "MR_ShellVertexInfo", "MRInnerShell_8h.html#a8f017aa80e9dbff8ac5390bebca3fe35", null ],
     [ "MR_Side", "MRInnerShell_8h.html#a1927fc1e31e0b7bac4d7633ba0b2d711", null ],
-    [ "MR_Vector3f", "MRInnerShell_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
-    [ "MR_VertBitSet", "MRInnerShell_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_Side", "MRInnerShell_8h.html#a9d88fefb52aeb60e749874b389a9cd87", [
       [ "MR_Side_Negative", "MRInnerShell_8h.html#a9d88fefb52aeb60e749874b389a9cd87ae9bee15864d2ec7258da834670f8d6f8", null ],
       [ "MR_Side_Positive", "MRInnerShell_8h.html#a9d88fefb52aeb60e749874b389a9cd87a6461b3171f1a3826dc85611b00dac197", null ]

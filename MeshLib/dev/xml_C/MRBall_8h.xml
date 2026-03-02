@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRBall_8h" kind="file" language="C++">
     <compoundname>MRBall.h</compoundname>
     <includes refid="MRVector2_8h" local="no">MRCMesh/MRVector2.h</includes>
@@ -407,7 +407,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Ball1f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBall_8h_1aef0f86a28d605dc6cc5f0ce533464bd1" kindref="member">MR_Ball1f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -425,7 +425,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Ball1f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBall_8h_1aef0f86a28d605dc6cc5f0ce533464bd1" kindref="member">MR_Ball1f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -760,7 +760,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Ball1d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBall_8h_1a7078177e97cb7f95891497b11ff5f46a" kindref="member">MR_Ball1d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -778,7 +778,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Ball1d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBall_8h_1a7078177e97cb7f95891497b11ff5f46a" kindref="member">MR_Ball1d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1113,7 +1113,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Ball2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBall_8h_1ac604cd206e0ed70b8b208c9da56d175f" kindref="member">MR_Ball2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1131,7 +1131,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Ball2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBall_8h_1ac604cd206e0ed70b8b208c9da56d175f" kindref="member">MR_Ball2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1466,7 +1466,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Ball2d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBall_8h_1a3afe7f1b16e63c73de8962bffc452d9a" kindref="member">MR_Ball2d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1484,7 +1484,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Ball2d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBall_8h_1a3afe7f1b16e63c73de8962bffc452d9a" kindref="member">MR_Ball2d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1819,7 +1819,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Ball3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBall_8h_1a7cb056b4e1f70f86be4b0196968a0a98" kindref="member">MR_Ball3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1837,7 +1837,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Ball3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBall_8h_1a7cb056b4e1f70f86be4b0196968a0a98" kindref="member">MR_Ball3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2172,7 +2172,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Ball3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBall_8h_1a58fe3251ae3f84f63a3cb8cc890240f1" kindref="member">MR_Ball3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2190,7 +2190,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Ball3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBall_8h_1a58fe3251ae3f84f63a3cb8cc890240f1" kindref="member">MR_Ball3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2284,17 +2284,17 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRBall_8h_1aef0f86a28d605dc6cc5f0ce533464bd1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBall_8h_1aef0f86a28d605dc6cc5f0ce533464bd1" kindref="member">MR_Ball1f</ref><sp/><ref refid="MRBall_8h_1aef0f86a28d605dc6cc5f0ce533464bd1" kindref="member">MR_Ball1f</ref>;</highlight></codeline>
+<codeline lineno="18" refid="MRBall_8h_1aef0f86a28d605dc6cc5f0ce533464bd1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBall_8h_1aef0f86a28d605dc6cc5f0ce533464bd1" kindref="member">MR_Ball1f</ref><sp/><ref refid="MRBall_8h_1aef0f86a28d605dc6cc5f0ce533464bd1" kindref="member">MR_Ball1f</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRBall_8h_1a7078177e97cb7f95891497b11ff5f46a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBall_8h_1a7078177e97cb7f95891497b11ff5f46a" kindref="member">MR_Ball1d</ref><sp/><ref refid="MRBall_8h_1a7078177e97cb7f95891497b11ff5f46a" kindref="member">MR_Ball1d</ref>;</highlight></codeline>
+<codeline lineno="23" refid="MRBall_8h_1a7078177e97cb7f95891497b11ff5f46a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBall_8h_1a7078177e97cb7f95891497b11ff5f46a" kindref="member">MR_Ball1d</ref><sp/><ref refid="MRBall_8h_1a7078177e97cb7f95891497b11ff5f46a" kindref="member">MR_Ball1d</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRBall_8h_1ac604cd206e0ed70b8b208c9da56d175f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBall_8h_1ac604cd206e0ed70b8b208c9da56d175f" kindref="member">MR_Ball2f</ref><sp/><ref refid="MRBall_8h_1ac604cd206e0ed70b8b208c9da56d175f" kindref="member">MR_Ball2f</ref>;</highlight></codeline>
+<codeline lineno="28" refid="MRBall_8h_1ac604cd206e0ed70b8b208c9da56d175f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBall_8h_1ac604cd206e0ed70b8b208c9da56d175f" kindref="member">MR_Ball2f</ref><sp/><ref refid="MRBall_8h_1ac604cd206e0ed70b8b208c9da56d175f" kindref="member">MR_Ball2f</ref>;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRBall_8h_1a3afe7f1b16e63c73de8962bffc452d9a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBall_8h_1a3afe7f1b16e63c73de8962bffc452d9a" kindref="member">MR_Ball2d</ref><sp/><ref refid="MRBall_8h_1a3afe7f1b16e63c73de8962bffc452d9a" kindref="member">MR_Ball2d</ref>;</highlight></codeline>
+<codeline lineno="33" refid="MRBall_8h_1a3afe7f1b16e63c73de8962bffc452d9a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBall_8h_1a3afe7f1b16e63c73de8962bffc452d9a" kindref="member">MR_Ball2d</ref><sp/><ref refid="MRBall_8h_1a3afe7f1b16e63c73de8962bffc452d9a" kindref="member">MR_Ball2d</ref>;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRBall_8h_1a7cb056b4e1f70f86be4b0196968a0a98" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBall_8h_1a7cb056b4e1f70f86be4b0196968a0a98" kindref="member">MR_Ball3f</ref><sp/><ref refid="MRBall_8h_1a7cb056b4e1f70f86be4b0196968a0a98" kindref="member">MR_Ball3f</ref>;</highlight></codeline>
+<codeline lineno="38" refid="MRBall_8h_1a7cb056b4e1f70f86be4b0196968a0a98" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBall_8h_1a7cb056b4e1f70f86be4b0196968a0a98" kindref="member">MR_Ball3f</ref><sp/><ref refid="MRBall_8h_1a7cb056b4e1f70f86be4b0196968a0a98" kindref="member">MR_Ball3f</ref>;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRBall_8h_1a58fe3251ae3f84f63a3cb8cc890240f1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBall_8h_1a58fe3251ae3f84f63a3cb8cc890240f1" kindref="member">MR_Ball3d</ref><sp/><ref refid="MRBall_8h_1a58fe3251ae3f84f63a3cb8cc890240f1" kindref="member">MR_Ball3d</ref>;</highlight></codeline>
+<codeline lineno="43" refid="MRBall_8h_1a58fe3251ae3f84f63a3cb8cc890240f1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBall_8h_1a58fe3251ae3f84f63a3cb8cc890240f1" kindref="member">MR_Ball3d</ref><sp/><ref refid="MRBall_8h_1a58fe3251ae3f84f63a3cb8cc890240f1" kindref="member">MR_Ball3d</ref>;</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47" refid="MRBall_8h_1a30db1531ddfbea9484ef624a3ac8af3d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRBall_8h_1a30db1531ddfbea9484ef624a3ac8af3d" kindref="member">MR_Ball1f_Get_elements</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>

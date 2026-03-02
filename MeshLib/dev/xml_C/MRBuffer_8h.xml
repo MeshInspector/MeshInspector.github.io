@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRBuffer_8h" kind="file" language="C++">
     <compoundname>MRBuffer.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -48,19 +48,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRBuffer_8h_1af8cfbacc0df87971b8455177e0d07815" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1af8cfbacc0df87971b8455177e0d07815" kindref="member">MR_Id_MR_ICPElemtTag</ref></type>
-        <definition>typedef struct MR_Id_MR_ICPElemtTag MR_Id_MR_ICPElemtTag</definition>
-        <argsstring></argsstring>
-        <name>MR_Id_MR_ICPElemtTag</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="14" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRBuffer_8h_1a11e5fcaead1aca04d8c2635ab66d676e" prot="public" static="no">
         <type>struct <ref refid="MRBuffer_8h_1a11e5fcaead1aca04d8c2635ab66d676e" kindref="member">MR_NoDefInit_MR_EdgeId</ref></type>
         <definition>typedef struct MR_NoDefInit_MR_EdgeId MR_NoDefInit_MR_EdgeId</definition>
@@ -69,6 +56,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::NoDefInit&lt;MR::EdgeId&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::EdgeId</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -82,6 +70,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::NoDefInit&lt;MR::FaceId&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::FaceId</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -95,6 +84,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::NoDefInit&lt;MR::GraphEdgeId&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::GraphEdgeId</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -108,6 +98,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::NoDefInit&lt;MR::GraphVertId&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::GraphVertId</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -121,6 +112,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::NoDefInit&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::Id&lt;MR::ICPElemtTag&gt;</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -134,6 +126,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::NoDefInit&lt;MR::NodeId&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::NodeId</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -147,6 +140,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::NoDefInit&lt;MR::ObjId&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::ObjId</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -160,6 +154,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::NoDefInit&lt;MR::PixelId&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::PixelId</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -173,6 +168,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::NoDefInit&lt;MR::RegionId&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::RegionId</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -186,6 +182,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::NoDefInit&lt;MR::TextureId&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::TextureId</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -199,6 +196,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::NoDefInit&lt;MR::UndirectedEdgeId&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::UndirectedEdgeId</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -212,6 +210,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::NoDefInit&lt;MR::VertId&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::VertId</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -225,6 +224,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::NoDefInit&lt;MR::VoxelId&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::VoxelId</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -838,62 +838,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="256" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="256" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRBuffer_8h_1af977d78366b2e3f513265191e2207539" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1af977d78366b2e3f513265191e2207539" kindref="member">MR_FaceBMap</ref></type>
-        <definition>typedef struct MR_FaceBMap MR_FaceBMap</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceBMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>flat map: I -&gt; T Generated from class <computeroutput>MR::FaceBMap</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="261" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="261" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBuffer_8h_1aa7b9116fbd7f68728817ec9e0d331d91" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePoints_8h_1aa7b9116fbd7f68728817ec9e0d331d91" kindref="member">MR_VertBMap</ref></type>
-        <definition>typedef struct MR_VertBMap MR_VertBMap</definition>
-        <argsstring></argsstring>
-        <name>MR_VertBMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>flat map: I -&gt; T Generated from class <computeroutput>MR::VertBMap</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="266" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="266" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBuffer_8h_1ac4ec1327ed00f3c6387c58d44264e0a1" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1ac4ec1327ed00f3c6387c58d44264e0a1" kindref="member">MR_EdgeBMap</ref></type>
-        <definition>typedef struct MR_EdgeBMap MR_EdgeBMap</definition>
-        <argsstring></argsstring>
-        <name>MR_EdgeBMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>flat map: I -&gt; T Generated from class <computeroutput>MR::EdgeBMap</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="271" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="271" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBuffer_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref></type>
-        <definition>typedef struct MR_UndirectedEdgeBMap MR_UndirectedEdgeBMap</definition>
-        <argsstring></argsstring>
-        <name>MR_UndirectedEdgeBMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>flat map: I -&gt; T Generated from class <computeroutput>MR::UndirectedEdgeBMap</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="276" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="276" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRBuffer_8h_1ad1ad750b438e104c98e72feaa49b57ac" prot="public" static="no">
         <type>struct <ref refid="MRBuffer_8h_1ad1ad750b438e104c98e72feaa49b57ac" kindref="member">MR_WholeEdgeBMap</ref></type>
         <definition>typedef struct MR_WholeEdgeBMap MR_WholeEdgeBMap</definition>
@@ -907,48 +851,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="281" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="281" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBuffer_8h_1a25d90af67efbfddc78b3d0a6b6d14f10" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1a25d90af67efbfddc78b3d0a6b6d14f10" kindref="member">MR_BMap_MR_ObjId_MR_ObjId</ref></type>
-        <definition>typedef struct MR_BMap_MR_ObjId_MR_ObjId MR_BMap_MR_ObjId_MR_ObjId</definition>
-        <argsstring></argsstring>
-        <name>MR_BMap_MR_ObjId_MR_ObjId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>flat map: I -&gt; T Generated from class <computeroutput>MR::BMap&lt;MR::ObjId, MR::ObjId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="286" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="286" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBuffer_8h_1a7f6aa85480f5ea36533be6f6b557bc1f" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a7f6aa85480f5ea36533be6f6b557bc1f" kindref="member">MR_BMap_MR_GraphVertId_MR_GraphVertId</ref></type>
-        <definition>typedef struct MR_BMap_MR_GraphVertId_MR_GraphVertId MR_BMap_MR_GraphVertId_MR_GraphVertId</definition>
-        <argsstring></argsstring>
-        <name>MR_BMap_MR_GraphVertId_MR_GraphVertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>flat map: I -&gt; T Generated from class <computeroutput>MR::BMap&lt;MR::GraphVertId, MR::GraphVertId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="291" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="291" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBuffer_8h_1af034b4103e85b60d533cd9bcaf4b9b00" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1af034b4103e85b60d533cd9bcaf4b9b00" kindref="member">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</ref></type>
-        <definition>typedef struct MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</definition>
-        <argsstring></argsstring>
-        <name>MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>flat map: I -&gt; T Generated from class <computeroutput>MR::BMap&lt;MR::GraphEdgeId, MR::GraphEdgeId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="296" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="296" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" prot="public" static="no">
         <type>struct <ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref></type>
@@ -991,90 +893,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="311" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="311" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBuffer_8h_1a2edfcbc192a56da6ffb031e1a4db21a6" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a2edfcbc192a56da6ffb031e1a4db21a6" kindref="member">MR_BMap_MR_VoxelId_MR_VoxelId</ref></type>
-        <definition>typedef struct MR_BMap_MR_VoxelId_MR_VoxelId MR_BMap_MR_VoxelId_MR_VoxelId</definition>
-        <argsstring></argsstring>
-        <name>MR_BMap_MR_VoxelId_MR_VoxelId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>flat map: I -&gt; T Generated from class <computeroutput>MR::BMap&lt;MR::VoxelId, MR::VoxelId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="316" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="316" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBuffer_8h_1abede243c7536fdbb10ee49eb5699e92a" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1abede243c7536fdbb10ee49eb5699e92a" kindref="member">MR_BMap_MR_PixelId_MR_PixelId</ref></type>
-        <definition>typedef struct MR_BMap_MR_PixelId_MR_PixelId MR_BMap_MR_PixelId_MR_PixelId</definition>
-        <argsstring></argsstring>
-        <name>MR_BMap_MR_PixelId_MR_PixelId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>flat map: I -&gt; T Generated from class <computeroutput>MR::BMap&lt;MR::PixelId, MR::PixelId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="321" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="321" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBuffer_8h_1a344606571f6eaa6fd3be5e41566a9623" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a344606571f6eaa6fd3be5e41566a9623" kindref="member">MR_BMap_MR_RegionId_MR_RegionId</ref></type>
-        <definition>typedef struct MR_BMap_MR_RegionId_MR_RegionId MR_BMap_MR_RegionId_MR_RegionId</definition>
-        <argsstring></argsstring>
-        <name>MR_BMap_MR_RegionId_MR_RegionId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>flat map: I -&gt; T Generated from class <computeroutput>MR::BMap&lt;MR::RegionId, MR::RegionId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="326" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="326" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBuffer_8h_1ac158ba2296f24a35280b647601ac827e" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1ac158ba2296f24a35280b647601ac827e" kindref="member">MR_BMap_MR_NodeId_MR_NodeId</ref></type>
-        <definition>typedef struct MR_BMap_MR_NodeId_MR_NodeId MR_BMap_MR_NodeId_MR_NodeId</definition>
-        <argsstring></argsstring>
-        <name>MR_BMap_MR_NodeId_MR_NodeId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>flat map: I -&gt; T Generated from class <computeroutput>MR::BMap&lt;MR::NodeId, MR::NodeId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="331" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="331" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBuffer_8h_1a3aa411e9856bf9a9e37133683af0ef39" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a3aa411e9856bf9a9e37133683af0ef39" kindref="member">MR_BMap_MR_TextureId_MR_TextureId</ref></type>
-        <definition>typedef struct MR_BMap_MR_TextureId_MR_TextureId MR_BMap_MR_TextureId_MR_TextureId</definition>
-        <argsstring></argsstring>
-        <name>MR_BMap_MR_TextureId_MR_TextureId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>flat map: I -&gt; T Generated from class <computeroutput>MR::BMap&lt;MR::TextureId, MR::TextureId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="336" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="336" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRBuffer_8h_1a50a20684bdf34e41c28488bc3aaf4b94" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a50a20684bdf34e41c28488bc3aaf4b94" kindref="member">MR_BMap_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</ref></type>
-        <definition>typedef struct MR_BMap_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag MR_BMap_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</definition>
-        <argsstring></argsstring>
-        <name>MR_BMap_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>flat map: I -&gt; T Generated from class <computeroutput>MR::BMap&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" line="341" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBuffer.h" bodystart="341" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRBuffer_8h_1a06cb46fdafae5c03d22cdc54e0ce660a" prot="public" static="no">
         <type>struct <ref refid="MRBuffer_8h_1a06cb46fdafae5c03d22cdc54e0ce660a" kindref="member">MR_ZeroOnMove_uint64_t</ref></type>
@@ -1445,7 +1263,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_UndirectedEdgeId_MR_UndirectedEdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a8e878ed19959d26e0cab5107926156df" kindref="member">MR_Buffer_MR_UndirectedEdgeId_MR_UndirectedEdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1463,7 +1281,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_UndirectedEdgeId_MR_UndirectedEdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a8e878ed19959d26e0cab5107926156df" kindref="member">MR_Buffer_MR_UndirectedEdgeId_MR_UndirectedEdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1872,7 +1690,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_FaceId_MR_FaceId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a5ee8e6d803e62e627454a554e26d95a7" kindref="member">MR_Buffer_MR_FaceId_MR_FaceId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1890,7 +1708,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_FaceId_MR_FaceId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a5ee8e6d803e62e627454a554e26d95a7" kindref="member">MR_Buffer_MR_FaceId_MR_FaceId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2299,7 +2117,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_VertId_MR_VertId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a3d70bc8fa84fcd08c750182e3160d939" kindref="member">MR_Buffer_MR_VertId_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2317,7 +2135,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_VertId_MR_VertId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a3d70bc8fa84fcd08c750182e3160d939" kindref="member">MR_Buffer_MR_VertId_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2726,7 +2544,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_VertId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2744,7 +2562,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_VertId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3153,7 +2971,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_UndirectedEdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a65578cccc12601546b8fe146df1ae039" kindref="member">MR_Buffer_MR_UndirectedEdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3171,7 +2989,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_UndirectedEdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a65578cccc12601546b8fe146df1ae039" kindref="member">MR_Buffer_MR_UndirectedEdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3580,7 +3398,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_FaceId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1adbc86b6b49b764ec55230fd896870553" kindref="member">MR_Buffer_MR_FaceId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3598,7 +3416,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_FaceId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1adbc86b6b49b764ec55230fd896870553" kindref="member">MR_Buffer_MR_FaceId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4007,7 +3825,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_char</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1ae59984a854d371b2c7cc8dd07657d65e" kindref="member">MR_Buffer_char</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4025,7 +3843,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_char</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1ae59984a854d371b2c7cc8dd07657d65e" kindref="member">MR_Buffer_char</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4434,7 +4252,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_unsigned_char</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a550e58c065e57e782377429b013a4a29" kindref="member">MR_Buffer_unsigned_char</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4452,7 +4270,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_unsigned_char</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a550e58c065e57e782377429b013a4a29" kindref="member">MR_Buffer_unsigned_char</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4861,7 +4679,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_EdgeId_MR_EdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a688bf12270075ec1756174e79fbebec1" kindref="member">MR_Buffer_MR_EdgeId_MR_EdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4879,7 +4697,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_EdgeId_MR_EdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a688bf12270075ec1756174e79fbebec1" kindref="member">MR_Buffer_MR_EdgeId_MR_EdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5288,7 +5106,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_EdgeId_MR_UndirectedEdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a7db12eef618c5e62913d9aeeff0a31df" kindref="member">MR_Buffer_MR_EdgeId_MR_UndirectedEdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5306,7 +5124,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_EdgeId_MR_UndirectedEdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a7db12eef618c5e62913d9aeeff0a31df" kindref="member">MR_Buffer_MR_EdgeId_MR_UndirectedEdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5715,7 +5533,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_ObjId_MR_ObjId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a5c1ed2dc956018abc4f085a9fc775976" kindref="member">MR_Buffer_MR_ObjId_MR_ObjId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5733,7 +5551,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_ObjId_MR_ObjId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a5c1ed2dc956018abc4f085a9fc775976" kindref="member">MR_Buffer_MR_ObjId_MR_ObjId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6142,7 +5960,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_GraphVertId_MR_GraphVertId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1aae9d841c2af7379030570adf3d3c3f71" kindref="member">MR_Buffer_MR_GraphVertId_MR_GraphVertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6160,7 +5978,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_GraphVertId_MR_GraphVertId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1aae9d841c2af7379030570adf3d3c3f71" kindref="member">MR_Buffer_MR_GraphVertId_MR_GraphVertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6569,7 +6387,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_GraphEdgeId_MR_GraphEdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1aaf145b0c1e10941ff7c25a89e4dbce57" kindref="member">MR_Buffer_MR_GraphEdgeId_MR_GraphEdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6587,7 +6405,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_GraphEdgeId_MR_GraphEdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1aaf145b0c1e10941ff7c25a89e4dbce57" kindref="member">MR_Buffer_MR_GraphEdgeId_MR_GraphEdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6996,7 +6814,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_VoxelId_MR_VoxelId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a18592f8df128a626eb66b2e8567d0961" kindref="member">MR_Buffer_MR_VoxelId_MR_VoxelId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -7014,7 +6832,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_VoxelId_MR_VoxelId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a18592f8df128a626eb66b2e8567d0961" kindref="member">MR_Buffer_MR_VoxelId_MR_VoxelId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -7423,7 +7241,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_PixelId_MR_PixelId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1adac2b5ae81a02ba91e7b462b960a4cae" kindref="member">MR_Buffer_MR_PixelId_MR_PixelId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -7441,7 +7259,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_PixelId_MR_PixelId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1adac2b5ae81a02ba91e7b462b960a4cae" kindref="member">MR_Buffer_MR_PixelId_MR_PixelId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -7850,7 +7668,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_RegionId_MR_RegionId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a0bb962be912b95550d5d1cd4828087bc" kindref="member">MR_Buffer_MR_RegionId_MR_RegionId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -7868,7 +7686,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_RegionId_MR_RegionId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a0bb962be912b95550d5d1cd4828087bc" kindref="member">MR_Buffer_MR_RegionId_MR_RegionId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -8277,7 +8095,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_NodeId_MR_NodeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a8f73daf53fdacd8526acf82716af385a" kindref="member">MR_Buffer_MR_NodeId_MR_NodeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -8295,7 +8113,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_NodeId_MR_NodeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a8f73daf53fdacd8526acf82716af385a" kindref="member">MR_Buffer_MR_NodeId_MR_NodeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -8704,7 +8522,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_TextureId_MR_TextureId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1af6cc3ef336eca3a4b9bbba9c6cae1ff5" kindref="member">MR_Buffer_MR_TextureId_MR_TextureId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -8722,7 +8540,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_TextureId_MR_TextureId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1af6cc3ef336eca3a4b9bbba9c6cae1ff5" kindref="member">MR_Buffer_MR_TextureId_MR_TextureId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -9131,7 +8949,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Buffer_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a36ec34f93a19b67b6f573b8bd0363279" kindref="member">MR_Buffer_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -9149,7 +8967,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Buffer_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a36ec34f93a19b67b6f573b8bd0363279" kindref="member">MR_Buffer_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -9685,7 +9503,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_FaceBMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAABBTree_8h_1af977d78366b2e3f513265191e2207539" kindref="member">MR_FaceBMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -9703,7 +9521,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_FaceBMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAABBTree_8h_1af977d78366b2e3f513265191e2207539" kindref="member">MR_FaceBMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -9993,7 +9811,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_VertBMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAABBTreePoints_8h_1aa7b9116fbd7f68728817ec9e0d331d91" kindref="member">MR_VertBMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -10011,7 +9829,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_VertBMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAABBTreePoints_8h_1aa7b9116fbd7f68728817ec9e0d331d91" kindref="member">MR_VertBMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -10301,7 +10119,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_EdgeBMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBitSet_8h_1ac4ec1327ed00f3c6387c58d44264e0a1" kindref="member">MR_EdgeBMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -10319,7 +10137,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_EdgeBMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBitSet_8h_1ac4ec1327ed00f3c6387c58d44264e0a1" kindref="member">MR_EdgeBMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -10609,7 +10427,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_UndirectedEdgeBMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -10627,7 +10445,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_UndirectedEdgeBMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -10917,7 +10735,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_WholeEdgeBMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1ad1ad750b438e104c98e72feaa49b57ac" kindref="member">MR_WholeEdgeBMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -10935,7 +10753,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_WholeEdgeBMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1ad1ad750b438e104c98e72feaa49b57ac" kindref="member">MR_WholeEdgeBMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -11225,7 +11043,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_BMap_MR_ObjId_MR_ObjId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAABBTreeBase_8h_1a25d90af67efbfddc78b3d0a6b6d14f10" kindref="member">MR_BMap_MR_ObjId_MR_ObjId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -11243,7 +11061,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_BMap_MR_ObjId_MR_ObjId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAABBTreeBase_8h_1a25d90af67efbfddc78b3d0a6b6d14f10" kindref="member">MR_BMap_MR_ObjId_MR_ObjId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -11533,7 +11351,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_BMap_MR_GraphVertId_MR_GraphVertId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBitSet_8h_1a7f6aa85480f5ea36533be6f6b557bc1f" kindref="member">MR_BMap_MR_GraphVertId_MR_GraphVertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -11551,7 +11369,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_BMap_MR_GraphVertId_MR_GraphVertId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBitSet_8h_1a7f6aa85480f5ea36533be6f6b557bc1f" kindref="member">MR_BMap_MR_GraphVertId_MR_GraphVertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -11841,7 +11659,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBitSet_8h_1af034b4103e85b60d533cd9bcaf4b9b00" kindref="member">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -11859,7 +11677,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBitSet_8h_1af034b4103e85b60d533cd9bcaf4b9b00" kindref="member">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -12149,7 +11967,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_BMap_MR_VertId_uint64_t</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -12167,7 +11985,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_BMap_MR_VertId_uint64_t</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -12457,7 +12275,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_BMap_MR_UndirectedEdgeId_uint64_t</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -12475,7 +12293,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_BMap_MR_UndirectedEdgeId_uint64_t</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -12765,7 +12583,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_BMap_MR_FaceId_uint64_t</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -12783,7 +12601,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_BMap_MR_FaceId_uint64_t</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13073,7 +12891,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_BMap_MR_VoxelId_MR_VoxelId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBitSet_8h_1a2edfcbc192a56da6ffb031e1a4db21a6" kindref="member">MR_BMap_MR_VoxelId_MR_VoxelId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13091,7 +12909,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_BMap_MR_VoxelId_MR_VoxelId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBitSet_8h_1a2edfcbc192a56da6ffb031e1a4db21a6" kindref="member">MR_BMap_MR_VoxelId_MR_VoxelId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13381,7 +13199,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_BMap_MR_PixelId_MR_PixelId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBitSet_8h_1abede243c7536fdbb10ee49eb5699e92a" kindref="member">MR_BMap_MR_PixelId_MR_PixelId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13399,7 +13217,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_BMap_MR_PixelId_MR_PixelId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBitSet_8h_1abede243c7536fdbb10ee49eb5699e92a" kindref="member">MR_BMap_MR_PixelId_MR_PixelId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13689,7 +13507,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_BMap_MR_RegionId_MR_RegionId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBitSet_8h_1a344606571f6eaa6fd3be5e41566a9623" kindref="member">MR_BMap_MR_RegionId_MR_RegionId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13707,7 +13525,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_BMap_MR_RegionId_MR_RegionId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBitSet_8h_1a344606571f6eaa6fd3be5e41566a9623" kindref="member">MR_BMap_MR_RegionId_MR_RegionId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -13997,7 +13815,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_BMap_MR_NodeId_MR_NodeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBitSet_8h_1ac158ba2296f24a35280b647601ac827e" kindref="member">MR_BMap_MR_NodeId_MR_NodeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -14015,7 +13833,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_BMap_MR_NodeId_MR_NodeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBitSet_8h_1ac158ba2296f24a35280b647601ac827e" kindref="member">MR_BMap_MR_NodeId_MR_NodeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -14305,7 +14123,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_BMap_MR_TextureId_MR_TextureId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBitSet_8h_1a3aa411e9856bf9a9e37133683af0ef39" kindref="member">MR_BMap_MR_TextureId_MR_TextureId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -14323,7 +14141,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_BMap_MR_TextureId_MR_TextureId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBitSet_8h_1a3aa411e9856bf9a9e37133683af0ef39" kindref="member">MR_BMap_MR_TextureId_MR_TextureId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -14613,7 +14431,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_BMap_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBitSet_8h_1a50a20684bdf34e41c28488bc3aaf4b94" kindref="member">MR_BMap_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -14631,7 +14449,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_BMap_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBitSet_8h_1a50a20684bdf34e41c28488bc3aaf4b94" kindref="member">MR_BMap_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -14834,7 +14652,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ZeroOnMove_uint64_t</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a06cb46fdafae5c03d22cdc54e0ce660a" kindref="member">MR_ZeroOnMove_uint64_t</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -14852,7 +14670,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ZeroOnMove_uint64_t</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a06cb46fdafae5c03d22cdc54e0ce660a" kindref="member">MR_ZeroOnMove_uint64_t</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -14993,7 +14811,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NoCtor_MR_UndirectedEdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a63f76b0f0138cc49104747ea862cfd35" kindref="member">MR_NoCtor_MR_UndirectedEdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -15011,7 +14829,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NoCtor_MR_UndirectedEdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a63f76b0f0138cc49104747ea862cfd35" kindref="member">MR_NoCtor_MR_UndirectedEdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -15148,7 +14966,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NoCtor_MR_FaceId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1ac83cc62c49eb258359785855545a6a43" kindref="member">MR_NoCtor_MR_FaceId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -15166,7 +14984,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NoCtor_MR_FaceId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1ac83cc62c49eb258359785855545a6a43" kindref="member">MR_NoCtor_MR_FaceId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -15303,7 +15121,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NoCtor_MR_VertId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a673fe253eca6ec7afe8f6a2bb44eca4f" kindref="member">MR_NoCtor_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -15321,7 +15139,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NoCtor_MR_VertId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a673fe253eca6ec7afe8f6a2bb44eca4f" kindref="member">MR_NoCtor_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -15458,7 +15276,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NoCtor_unsigned_char</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a65aeadfa7403acec3d68ffa65802c816" kindref="member">MR_NoCtor_unsigned_char</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -15476,7 +15294,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NoCtor_unsigned_char</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a65aeadfa7403acec3d68ffa65802c816" kindref="member">MR_NoCtor_unsigned_char</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -15613,7 +15431,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NoCtor_char</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1abde96022140d7df9200836b495ab09ba" kindref="member">MR_NoCtor_char</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -15631,7 +15449,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NoCtor_char</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1abde96022140d7df9200836b495ab09ba" kindref="member">MR_NoCtor_char</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -15768,7 +15586,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NoCtor_MR_EdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a29c65f54ff07c79ed937906a9c39ec3f" kindref="member">MR_NoCtor_MR_EdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -15786,7 +15604,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NoCtor_MR_EdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a29c65f54ff07c79ed937906a9c39ec3f" kindref="member">MR_NoCtor_MR_EdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -15923,7 +15741,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NoCtor_MR_ObjId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a70f77c511f242f56a504646f219c7499" kindref="member">MR_NoCtor_MR_ObjId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -15941,7 +15759,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NoCtor_MR_ObjId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a70f77c511f242f56a504646f219c7499" kindref="member">MR_NoCtor_MR_ObjId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -16078,7 +15896,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NoCtor_MR_GraphVertId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a1e25dbf9decc3dd3e23262530b050fa4" kindref="member">MR_NoCtor_MR_GraphVertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -16096,7 +15914,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NoCtor_MR_GraphVertId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a1e25dbf9decc3dd3e23262530b050fa4" kindref="member">MR_NoCtor_MR_GraphVertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -16233,7 +16051,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NoCtor_MR_GraphEdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a664f5bb9aca7dcf5b29767572e2d8931" kindref="member">MR_NoCtor_MR_GraphEdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -16251,7 +16069,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NoCtor_MR_GraphEdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a664f5bb9aca7dcf5b29767572e2d8931" kindref="member">MR_NoCtor_MR_GraphEdgeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -16388,7 +16206,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NoCtor_MR_VoxelId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a66c29d589720f2829f561da9a1d61e91" kindref="member">MR_NoCtor_MR_VoxelId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -16406,7 +16224,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NoCtor_MR_VoxelId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a66c29d589720f2829f561da9a1d61e91" kindref="member">MR_NoCtor_MR_VoxelId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -16543,7 +16361,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NoCtor_MR_PixelId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a3f6a76d5cdbf194aaa1c90dc65b8e52f" kindref="member">MR_NoCtor_MR_PixelId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -16561,7 +16379,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NoCtor_MR_PixelId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a3f6a76d5cdbf194aaa1c90dc65b8e52f" kindref="member">MR_NoCtor_MR_PixelId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -16698,7 +16516,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NoCtor_MR_RegionId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a1aaf4dcda3c21208c756ad0254947d3a" kindref="member">MR_NoCtor_MR_RegionId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -16716,7 +16534,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NoCtor_MR_RegionId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a1aaf4dcda3c21208c756ad0254947d3a" kindref="member">MR_NoCtor_MR_RegionId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -16853,7 +16671,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NoCtor_MR_NodeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1ad71c42c3e68840c89aafab04cedc5ff2" kindref="member">MR_NoCtor_MR_NodeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -16871,7 +16689,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NoCtor_MR_NodeId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1ad71c42c3e68840c89aafab04cedc5ff2" kindref="member">MR_NoCtor_MR_NodeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -17008,7 +16826,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NoCtor_MR_TextureId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1ad376862a632728835c1969ec688d2a4f" kindref="member">MR_NoCtor_MR_TextureId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -17026,7 +16844,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NoCtor_MR_TextureId</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1ad376862a632728835c1969ec688d2a4f" kindref="member">MR_NoCtor_MR_TextureId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -17163,7 +16981,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NoCtor_MR_Id_MR_ICPElemtTag</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1a53c60def287d621c8033ecaeb982d2b0" kindref="member">MR_NoCtor_MR_Id_MR_ICPElemtTag</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -17181,7 +16999,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NoCtor_MR_Id_MR_ICPElemtTag</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1a53c60def287d621c8033ecaeb982d2b0" kindref="member">MR_NoCtor_MR_Id_MR_ICPElemtTag</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -17572,7 +17390,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PackMapping</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBuffer_8h_1aff238b96282bea00a687ce310151b30d" kindref="member">MR_PackMapping</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -17590,7 +17408,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PackMapping</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBuffer_8h_1aff238b96282bea00a687ce310151b30d" kindref="member">MR_PackMapping</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -17643,7 +17461,7 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRBuffer_8h_1af8cfbacc0df87971b8455177e0d07815" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1af8cfbacc0df87971b8455177e0d07815" kindref="member">MR_Id_MR_ICPElemtTag</ref><sp/><ref refid="MRBitSet_8h_1af8cfbacc0df87971b8455177e0d07815" kindref="member">MR_Id_MR_ICPElemtTag</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1af8cfbacc0df87971b8455177e0d07815" kindref="member">MR_Id_MR_ICPElemtTag</ref><sp/><ref refid="MRBitSet_8h_1af8cfbacc0df87971b8455177e0d07815" kindref="member">MR_Id_MR_ICPElemtTag</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="MRBuffer_8h_1a11e5fcaead1aca04d8c2635ab66d676e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a11e5fcaead1aca04d8c2635ab66d676e" kindref="member">MR_NoDefInit_MR_EdgeId</ref><sp/><ref refid="MRBuffer_8h_1a11e5fcaead1aca04d8c2635ab66d676e" kindref="member">MR_NoDefInit_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRNoDefInit.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRBuffer_8h_1a20e6c7929f19da86acfc70e84c69c657" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a20e6c7929f19da86acfc70e84c69c657" kindref="member">MR_NoDefInit_MR_FaceId</ref><sp/><ref refid="MRBuffer_8h_1a20e6c7929f19da86acfc70e84c69c657" kindref="member">MR_NoDefInit_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRNoDefInit.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MRBuffer_8h_1aa39af63c5f3a67a0d4bb6337717f9099" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1aa39af63c5f3a67a0d4bb6337717f9099" kindref="member">MR_NoDefInit_MR_GraphEdgeId</ref><sp/><ref refid="MRBuffer_8h_1aa39af63c5f3a67a0d4bb6337717f9099" kindref="member">MR_NoDefInit_MR_GraphEdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRNoDefInit.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
@@ -17659,126 +17477,126 @@
 <codeline lineno="27" refid="MRBuffer_8h_1a8ea0ffa07c19f2d9750086a86ad119cb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a8ea0ffa07c19f2d9750086a86ad119cb" kindref="member">MR_NoDefInit_MR_VoxelId</ref><sp/><ref refid="MRBuffer_8h_1a8ea0ffa07c19f2d9750086a86ad119cb" kindref="member">MR_NoDefInit_MR_VoxelId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRNoDefInit.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRBuffer_8h_1a8e878ed19959d26e0cab5107926156df" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a8e878ed19959d26e0cab5107926156df" kindref="member">MR_Buffer_MR_UndirectedEdgeId_MR_UndirectedEdgeId</ref><sp/><ref refid="MRBuffer_8h_1a8e878ed19959d26e0cab5107926156df" kindref="member">MR_Buffer_MR_UndirectedEdgeId_MR_UndirectedEdgeId</ref>;</highlight></codeline>
+<codeline lineno="40" refid="MRBuffer_8h_1a8e878ed19959d26e0cab5107926156df" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a8e878ed19959d26e0cab5107926156df" kindref="member">MR_Buffer_MR_UndirectedEdgeId_MR_UndirectedEdgeId</ref><sp/><ref refid="MRBuffer_8h_1a8e878ed19959d26e0cab5107926156df" kindref="member">MR_Buffer_MR_UndirectedEdgeId_MR_UndirectedEdgeId</ref>;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRBuffer_8h_1a5ee8e6d803e62e627454a554e26d95a7" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a5ee8e6d803e62e627454a554e26d95a7" kindref="member">MR_Buffer_MR_FaceId_MR_FaceId</ref><sp/><ref refid="MRBuffer_8h_1a5ee8e6d803e62e627454a554e26d95a7" kindref="member">MR_Buffer_MR_FaceId_MR_FaceId</ref>;</highlight></codeline>
+<codeline lineno="52" refid="MRBuffer_8h_1a5ee8e6d803e62e627454a554e26d95a7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a5ee8e6d803e62e627454a554e26d95a7" kindref="member">MR_Buffer_MR_FaceId_MR_FaceId</ref><sp/><ref refid="MRBuffer_8h_1a5ee8e6d803e62e627454a554e26d95a7" kindref="member">MR_Buffer_MR_FaceId_MR_FaceId</ref>;</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="MRBuffer_8h_1a3d70bc8fa84fcd08c750182e3160d939" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a3d70bc8fa84fcd08c750182e3160d939" kindref="member">MR_Buffer_MR_VertId_MR_VertId</ref><sp/><ref refid="MRBuffer_8h_1a3d70bc8fa84fcd08c750182e3160d939" kindref="member">MR_Buffer_MR_VertId_MR_VertId</ref>;</highlight></codeline>
+<codeline lineno="64" refid="MRBuffer_8h_1a3d70bc8fa84fcd08c750182e3160d939" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a3d70bc8fa84fcd08c750182e3160d939" kindref="member">MR_Buffer_MR_VertId_MR_VertId</ref><sp/><ref refid="MRBuffer_8h_1a3d70bc8fa84fcd08c750182e3160d939" kindref="member">MR_Buffer_MR_VertId_MR_VertId</ref>;</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref><sp/><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref>;</highlight></codeline>
+<codeline lineno="76" refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref><sp/><ref refid="MRBuffer_8h_1ab9532c7498f492993c731c877ba0332b" kindref="member">MR_Buffer_MR_VertId</ref>;</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="MRBuffer_8h_1a65578cccc12601546b8fe146df1ae039" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a65578cccc12601546b8fe146df1ae039" kindref="member">MR_Buffer_MR_UndirectedEdgeId</ref><sp/><ref refid="MRBuffer_8h_1a65578cccc12601546b8fe146df1ae039" kindref="member">MR_Buffer_MR_UndirectedEdgeId</ref>;</highlight></codeline>
+<codeline lineno="88" refid="MRBuffer_8h_1a65578cccc12601546b8fe146df1ae039" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a65578cccc12601546b8fe146df1ae039" kindref="member">MR_Buffer_MR_UndirectedEdgeId</ref><sp/><ref refid="MRBuffer_8h_1a65578cccc12601546b8fe146df1ae039" kindref="member">MR_Buffer_MR_UndirectedEdgeId</ref>;</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100" refid="MRBuffer_8h_1adbc86b6b49b764ec55230fd896870553" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1adbc86b6b49b764ec55230fd896870553" kindref="member">MR_Buffer_MR_FaceId</ref><sp/><ref refid="MRBuffer_8h_1adbc86b6b49b764ec55230fd896870553" kindref="member">MR_Buffer_MR_FaceId</ref>;</highlight></codeline>
+<codeline lineno="100" refid="MRBuffer_8h_1adbc86b6b49b764ec55230fd896870553" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1adbc86b6b49b764ec55230fd896870553" kindref="member">MR_Buffer_MR_FaceId</ref><sp/><ref refid="MRBuffer_8h_1adbc86b6b49b764ec55230fd896870553" kindref="member">MR_Buffer_MR_FaceId</ref>;</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRBuffer_8h_1ae59984a854d371b2c7cc8dd07657d65e" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ae59984a854d371b2c7cc8dd07657d65e" kindref="member">MR_Buffer_char</ref><sp/><ref refid="MRBuffer_8h_1ae59984a854d371b2c7cc8dd07657d65e" kindref="member">MR_Buffer_char</ref>;</highlight></codeline>
+<codeline lineno="112" refid="MRBuffer_8h_1ae59984a854d371b2c7cc8dd07657d65e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ae59984a854d371b2c7cc8dd07657d65e" kindref="member">MR_Buffer_char</ref><sp/><ref refid="MRBuffer_8h_1ae59984a854d371b2c7cc8dd07657d65e" kindref="member">MR_Buffer_char</ref>;</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRBuffer_8h_1a550e58c065e57e782377429b013a4a29" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a550e58c065e57e782377429b013a4a29" kindref="member">MR_Buffer_unsigned_char</ref><sp/><ref refid="MRBuffer_8h_1a550e58c065e57e782377429b013a4a29" kindref="member">MR_Buffer_unsigned_char</ref>;</highlight></codeline>
+<codeline lineno="124" refid="MRBuffer_8h_1a550e58c065e57e782377429b013a4a29" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a550e58c065e57e782377429b013a4a29" kindref="member">MR_Buffer_unsigned_char</ref><sp/><ref refid="MRBuffer_8h_1a550e58c065e57e782377429b013a4a29" kindref="member">MR_Buffer_unsigned_char</ref>;</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="MRBuffer_8h_1a688bf12270075ec1756174e79fbebec1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a688bf12270075ec1756174e79fbebec1" kindref="member">MR_Buffer_MR_EdgeId_MR_EdgeId</ref><sp/><ref refid="MRBuffer_8h_1a688bf12270075ec1756174e79fbebec1" kindref="member">MR_Buffer_MR_EdgeId_MR_EdgeId</ref>;</highlight></codeline>
+<codeline lineno="136" refid="MRBuffer_8h_1a688bf12270075ec1756174e79fbebec1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a688bf12270075ec1756174e79fbebec1" kindref="member">MR_Buffer_MR_EdgeId_MR_EdgeId</ref><sp/><ref refid="MRBuffer_8h_1a688bf12270075ec1756174e79fbebec1" kindref="member">MR_Buffer_MR_EdgeId_MR_EdgeId</ref>;</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148" refid="MRBuffer_8h_1a7db12eef618c5e62913d9aeeff0a31df" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a7db12eef618c5e62913d9aeeff0a31df" kindref="member">MR_Buffer_MR_EdgeId_MR_UndirectedEdgeId</ref><sp/><ref refid="MRBuffer_8h_1a7db12eef618c5e62913d9aeeff0a31df" kindref="member">MR_Buffer_MR_EdgeId_MR_UndirectedEdgeId</ref>;</highlight></codeline>
+<codeline lineno="148" refid="MRBuffer_8h_1a7db12eef618c5e62913d9aeeff0a31df" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a7db12eef618c5e62913d9aeeff0a31df" kindref="member">MR_Buffer_MR_EdgeId_MR_UndirectedEdgeId</ref><sp/><ref refid="MRBuffer_8h_1a7db12eef618c5e62913d9aeeff0a31df" kindref="member">MR_Buffer_MR_EdgeId_MR_UndirectedEdgeId</ref>;</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="MRBuffer_8h_1a5c1ed2dc956018abc4f085a9fc775976" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a5c1ed2dc956018abc4f085a9fc775976" kindref="member">MR_Buffer_MR_ObjId_MR_ObjId</ref><sp/><ref refid="MRBuffer_8h_1a5c1ed2dc956018abc4f085a9fc775976" kindref="member">MR_Buffer_MR_ObjId_MR_ObjId</ref>;</highlight></codeline>
+<codeline lineno="160" refid="MRBuffer_8h_1a5c1ed2dc956018abc4f085a9fc775976" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a5c1ed2dc956018abc4f085a9fc775976" kindref="member">MR_Buffer_MR_ObjId_MR_ObjId</ref><sp/><ref refid="MRBuffer_8h_1a5c1ed2dc956018abc4f085a9fc775976" kindref="member">MR_Buffer_MR_ObjId_MR_ObjId</ref>;</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172" refid="MRBuffer_8h_1aae9d841c2af7379030570adf3d3c3f71" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1aae9d841c2af7379030570adf3d3c3f71" kindref="member">MR_Buffer_MR_GraphVertId_MR_GraphVertId</ref><sp/><ref refid="MRBuffer_8h_1aae9d841c2af7379030570adf3d3c3f71" kindref="member">MR_Buffer_MR_GraphVertId_MR_GraphVertId</ref>;</highlight></codeline>
+<codeline lineno="172" refid="MRBuffer_8h_1aae9d841c2af7379030570adf3d3c3f71" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1aae9d841c2af7379030570adf3d3c3f71" kindref="member">MR_Buffer_MR_GraphVertId_MR_GraphVertId</ref><sp/><ref refid="MRBuffer_8h_1aae9d841c2af7379030570adf3d3c3f71" kindref="member">MR_Buffer_MR_GraphVertId_MR_GraphVertId</ref>;</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="MRBuffer_8h_1aaf145b0c1e10941ff7c25a89e4dbce57" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1aaf145b0c1e10941ff7c25a89e4dbce57" kindref="member">MR_Buffer_MR_GraphEdgeId_MR_GraphEdgeId</ref><sp/><ref refid="MRBuffer_8h_1aaf145b0c1e10941ff7c25a89e4dbce57" kindref="member">MR_Buffer_MR_GraphEdgeId_MR_GraphEdgeId</ref>;</highlight></codeline>
+<codeline lineno="184" refid="MRBuffer_8h_1aaf145b0c1e10941ff7c25a89e4dbce57" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1aaf145b0c1e10941ff7c25a89e4dbce57" kindref="member">MR_Buffer_MR_GraphEdgeId_MR_GraphEdgeId</ref><sp/><ref refid="MRBuffer_8h_1aaf145b0c1e10941ff7c25a89e4dbce57" kindref="member">MR_Buffer_MR_GraphEdgeId_MR_GraphEdgeId</ref>;</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="MRBuffer_8h_1a18592f8df128a626eb66b2e8567d0961" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a18592f8df128a626eb66b2e8567d0961" kindref="member">MR_Buffer_MR_VoxelId_MR_VoxelId</ref><sp/><ref refid="MRBuffer_8h_1a18592f8df128a626eb66b2e8567d0961" kindref="member">MR_Buffer_MR_VoxelId_MR_VoxelId</ref>;</highlight></codeline>
+<codeline lineno="196" refid="MRBuffer_8h_1a18592f8df128a626eb66b2e8567d0961" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a18592f8df128a626eb66b2e8567d0961" kindref="member">MR_Buffer_MR_VoxelId_MR_VoxelId</ref><sp/><ref refid="MRBuffer_8h_1a18592f8df128a626eb66b2e8567d0961" kindref="member">MR_Buffer_MR_VoxelId_MR_VoxelId</ref>;</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="MRBuffer_8h_1adac2b5ae81a02ba91e7b462b960a4cae" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1adac2b5ae81a02ba91e7b462b960a4cae" kindref="member">MR_Buffer_MR_PixelId_MR_PixelId</ref><sp/><ref refid="MRBuffer_8h_1adac2b5ae81a02ba91e7b462b960a4cae" kindref="member">MR_Buffer_MR_PixelId_MR_PixelId</ref>;</highlight></codeline>
+<codeline lineno="208" refid="MRBuffer_8h_1adac2b5ae81a02ba91e7b462b960a4cae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1adac2b5ae81a02ba91e7b462b960a4cae" kindref="member">MR_Buffer_MR_PixelId_MR_PixelId</ref><sp/><ref refid="MRBuffer_8h_1adac2b5ae81a02ba91e7b462b960a4cae" kindref="member">MR_Buffer_MR_PixelId_MR_PixelId</ref>;</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220" refid="MRBuffer_8h_1a0bb962be912b95550d5d1cd4828087bc" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a0bb962be912b95550d5d1cd4828087bc" kindref="member">MR_Buffer_MR_RegionId_MR_RegionId</ref><sp/><ref refid="MRBuffer_8h_1a0bb962be912b95550d5d1cd4828087bc" kindref="member">MR_Buffer_MR_RegionId_MR_RegionId</ref>;</highlight></codeline>
+<codeline lineno="220" refid="MRBuffer_8h_1a0bb962be912b95550d5d1cd4828087bc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a0bb962be912b95550d5d1cd4828087bc" kindref="member">MR_Buffer_MR_RegionId_MR_RegionId</ref><sp/><ref refid="MRBuffer_8h_1a0bb962be912b95550d5d1cd4828087bc" kindref="member">MR_Buffer_MR_RegionId_MR_RegionId</ref>;</highlight></codeline>
 <codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232" refid="MRBuffer_8h_1a8f73daf53fdacd8526acf82716af385a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a8f73daf53fdacd8526acf82716af385a" kindref="member">MR_Buffer_MR_NodeId_MR_NodeId</ref><sp/><ref refid="MRBuffer_8h_1a8f73daf53fdacd8526acf82716af385a" kindref="member">MR_Buffer_MR_NodeId_MR_NodeId</ref>;</highlight></codeline>
+<codeline lineno="232" refid="MRBuffer_8h_1a8f73daf53fdacd8526acf82716af385a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a8f73daf53fdacd8526acf82716af385a" kindref="member">MR_Buffer_MR_NodeId_MR_NodeId</ref><sp/><ref refid="MRBuffer_8h_1a8f73daf53fdacd8526acf82716af385a" kindref="member">MR_Buffer_MR_NodeId_MR_NodeId</ref>;</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="MRBuffer_8h_1af6cc3ef336eca3a4b9bbba9c6cae1ff5" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1af6cc3ef336eca3a4b9bbba9c6cae1ff5" kindref="member">MR_Buffer_MR_TextureId_MR_TextureId</ref><sp/><ref refid="MRBuffer_8h_1af6cc3ef336eca3a4b9bbba9c6cae1ff5" kindref="member">MR_Buffer_MR_TextureId_MR_TextureId</ref>;</highlight></codeline>
+<codeline lineno="244" refid="MRBuffer_8h_1af6cc3ef336eca3a4b9bbba9c6cae1ff5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1af6cc3ef336eca3a4b9bbba9c6cae1ff5" kindref="member">MR_Buffer_MR_TextureId_MR_TextureId</ref><sp/><ref refid="MRBuffer_8h_1af6cc3ef336eca3a4b9bbba9c6cae1ff5" kindref="member">MR_Buffer_MR_TextureId_MR_TextureId</ref>;</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="256" refid="MRBuffer_8h_1a36ec34f93a19b67b6f573b8bd0363279" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a36ec34f93a19b67b6f573b8bd0363279" kindref="member">MR_Buffer_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</ref><sp/><ref refid="MRBuffer_8h_1a36ec34f93a19b67b6f573b8bd0363279" kindref="member">MR_Buffer_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</ref>;</highlight></codeline>
+<codeline lineno="256" refid="MRBuffer_8h_1a36ec34f93a19b67b6f573b8bd0363279" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a36ec34f93a19b67b6f573b8bd0363279" kindref="member">MR_Buffer_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</ref><sp/><ref refid="MRBuffer_8h_1a36ec34f93a19b67b6f573b8bd0363279" kindref="member">MR_Buffer_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</ref>;</highlight></codeline>
 <codeline lineno="257"><highlight class="normal"></highlight></codeline>
-<codeline lineno="261" refid="MRBuffer_8h_1af977d78366b2e3f513265191e2207539" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af977d78366b2e3f513265191e2207539" kindref="member">MR_FaceBMap</ref><sp/><ref refid="MRAABBTree_8h_1af977d78366b2e3f513265191e2207539" kindref="member">MR_FaceBMap</ref>;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af977d78366b2e3f513265191e2207539" kindref="member">MR_FaceBMap</ref><sp/><ref refid="MRAABBTree_8h_1af977d78366b2e3f513265191e2207539" kindref="member">MR_FaceBMap</ref>;</highlight></codeline>
 <codeline lineno="262"><highlight class="normal"></highlight></codeline>
-<codeline lineno="266" refid="MRBuffer_8h_1aa7b9116fbd7f68728817ec9e0d331d91" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1aa7b9116fbd7f68728817ec9e0d331d91" kindref="member">MR_VertBMap</ref><sp/><ref refid="MRAABBTreePoints_8h_1aa7b9116fbd7f68728817ec9e0d331d91" kindref="member">MR_VertBMap</ref>;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1aa7b9116fbd7f68728817ec9e0d331d91" kindref="member">MR_VertBMap</ref><sp/><ref refid="MRAABBTreePoints_8h_1aa7b9116fbd7f68728817ec9e0d331d91" kindref="member">MR_VertBMap</ref>;</highlight></codeline>
 <codeline lineno="267"><highlight class="normal"></highlight></codeline>
-<codeline lineno="271" refid="MRBuffer_8h_1ac4ec1327ed00f3c6387c58d44264e0a1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1ac4ec1327ed00f3c6387c58d44264e0a1" kindref="member">MR_EdgeBMap</ref><sp/><ref refid="MRBitSet_8h_1ac4ec1327ed00f3c6387c58d44264e0a1" kindref="member">MR_EdgeBMap</ref>;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1ac4ec1327ed00f3c6387c58d44264e0a1" kindref="member">MR_EdgeBMap</ref><sp/><ref refid="MRBitSet_8h_1ac4ec1327ed00f3c6387c58d44264e0a1" kindref="member">MR_EdgeBMap</ref>;</highlight></codeline>
 <codeline lineno="272"><highlight class="normal"></highlight></codeline>
-<codeline lineno="276" refid="MRBuffer_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref><sp/><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref>;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref><sp/><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref>;</highlight></codeline>
 <codeline lineno="277"><highlight class="normal"></highlight></codeline>
-<codeline lineno="281" refid="MRBuffer_8h_1ad1ad750b438e104c98e72feaa49b57ac" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ad1ad750b438e104c98e72feaa49b57ac" kindref="member">MR_WholeEdgeBMap</ref><sp/><ref refid="MRBuffer_8h_1ad1ad750b438e104c98e72feaa49b57ac" kindref="member">MR_WholeEdgeBMap</ref>;</highlight></codeline>
+<codeline lineno="281" refid="MRBuffer_8h_1ad1ad750b438e104c98e72feaa49b57ac" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ad1ad750b438e104c98e72feaa49b57ac" kindref="member">MR_WholeEdgeBMap</ref><sp/><ref refid="MRBuffer_8h_1ad1ad750b438e104c98e72feaa49b57ac" kindref="member">MR_WholeEdgeBMap</ref>;</highlight></codeline>
 <codeline lineno="282"><highlight class="normal"></highlight></codeline>
-<codeline lineno="286" refid="MRBuffer_8h_1a25d90af67efbfddc78b3d0a6b6d14f10" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1a25d90af67efbfddc78b3d0a6b6d14f10" kindref="member">MR_BMap_MR_ObjId_MR_ObjId</ref><sp/><ref refid="MRAABBTreeBase_8h_1a25d90af67efbfddc78b3d0a6b6d14f10" kindref="member">MR_BMap_MR_ObjId_MR_ObjId</ref>;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1a25d90af67efbfddc78b3d0a6b6d14f10" kindref="member">MR_BMap_MR_ObjId_MR_ObjId</ref><sp/><ref refid="MRAABBTreeBase_8h_1a25d90af67efbfddc78b3d0a6b6d14f10" kindref="member">MR_BMap_MR_ObjId_MR_ObjId</ref>;</highlight></codeline>
 <codeline lineno="287"><highlight class="normal"></highlight></codeline>
-<codeline lineno="291" refid="MRBuffer_8h_1a7f6aa85480f5ea36533be6f6b557bc1f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a7f6aa85480f5ea36533be6f6b557bc1f" kindref="member">MR_BMap_MR_GraphVertId_MR_GraphVertId</ref><sp/><ref refid="MRBitSet_8h_1a7f6aa85480f5ea36533be6f6b557bc1f" kindref="member">MR_BMap_MR_GraphVertId_MR_GraphVertId</ref>;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a7f6aa85480f5ea36533be6f6b557bc1f" kindref="member">MR_BMap_MR_GraphVertId_MR_GraphVertId</ref><sp/><ref refid="MRBitSet_8h_1a7f6aa85480f5ea36533be6f6b557bc1f" kindref="member">MR_BMap_MR_GraphVertId_MR_GraphVertId</ref>;</highlight></codeline>
 <codeline lineno="292"><highlight class="normal"></highlight></codeline>
-<codeline lineno="296" refid="MRBuffer_8h_1af034b4103e85b60d533cd9bcaf4b9b00" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1af034b4103e85b60d533cd9bcaf4b9b00" kindref="member">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</ref><sp/><ref refid="MRBitSet_8h_1af034b4103e85b60d533cd9bcaf4b9b00" kindref="member">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</ref>;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1af034b4103e85b60d533cd9bcaf4b9b00" kindref="member">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</ref><sp/><ref refid="MRBitSet_8h_1af034b4103e85b60d533cd9bcaf4b9b00" kindref="member">MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</ref>;</highlight></codeline>
 <codeline lineno="297"><highlight class="normal"></highlight></codeline>
-<codeline lineno="301" refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref><sp/><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref>;</highlight></codeline>
+<codeline lineno="301" refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref><sp/><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref>;</highlight></codeline>
 <codeline lineno="302"><highlight class="normal"></highlight></codeline>
-<codeline lineno="306" refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref><sp/><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref>;</highlight></codeline>
+<codeline lineno="306" refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref><sp/><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref>;</highlight></codeline>
 <codeline lineno="307"><highlight class="normal"></highlight></codeline>
-<codeline lineno="311" refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref><sp/><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref>;</highlight></codeline>
+<codeline lineno="311" refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref><sp/><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref>;</highlight></codeline>
 <codeline lineno="312"><highlight class="normal"></highlight></codeline>
-<codeline lineno="316" refid="MRBuffer_8h_1a2edfcbc192a56da6ffb031e1a4db21a6" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a2edfcbc192a56da6ffb031e1a4db21a6" kindref="member">MR_BMap_MR_VoxelId_MR_VoxelId</ref><sp/><ref refid="MRBitSet_8h_1a2edfcbc192a56da6ffb031e1a4db21a6" kindref="member">MR_BMap_MR_VoxelId_MR_VoxelId</ref>;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a2edfcbc192a56da6ffb031e1a4db21a6" kindref="member">MR_BMap_MR_VoxelId_MR_VoxelId</ref><sp/><ref refid="MRBitSet_8h_1a2edfcbc192a56da6ffb031e1a4db21a6" kindref="member">MR_BMap_MR_VoxelId_MR_VoxelId</ref>;</highlight></codeline>
 <codeline lineno="317"><highlight class="normal"></highlight></codeline>
-<codeline lineno="321" refid="MRBuffer_8h_1abede243c7536fdbb10ee49eb5699e92a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1abede243c7536fdbb10ee49eb5699e92a" kindref="member">MR_BMap_MR_PixelId_MR_PixelId</ref><sp/><ref refid="MRBitSet_8h_1abede243c7536fdbb10ee49eb5699e92a" kindref="member">MR_BMap_MR_PixelId_MR_PixelId</ref>;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1abede243c7536fdbb10ee49eb5699e92a" kindref="member">MR_BMap_MR_PixelId_MR_PixelId</ref><sp/><ref refid="MRBitSet_8h_1abede243c7536fdbb10ee49eb5699e92a" kindref="member">MR_BMap_MR_PixelId_MR_PixelId</ref>;</highlight></codeline>
 <codeline lineno="322"><highlight class="normal"></highlight></codeline>
-<codeline lineno="326" refid="MRBuffer_8h_1a344606571f6eaa6fd3be5e41566a9623" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a344606571f6eaa6fd3be5e41566a9623" kindref="member">MR_BMap_MR_RegionId_MR_RegionId</ref><sp/><ref refid="MRBitSet_8h_1a344606571f6eaa6fd3be5e41566a9623" kindref="member">MR_BMap_MR_RegionId_MR_RegionId</ref>;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a344606571f6eaa6fd3be5e41566a9623" kindref="member">MR_BMap_MR_RegionId_MR_RegionId</ref><sp/><ref refid="MRBitSet_8h_1a344606571f6eaa6fd3be5e41566a9623" kindref="member">MR_BMap_MR_RegionId_MR_RegionId</ref>;</highlight></codeline>
 <codeline lineno="327"><highlight class="normal"></highlight></codeline>
-<codeline lineno="331" refid="MRBuffer_8h_1ac158ba2296f24a35280b647601ac827e" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1ac158ba2296f24a35280b647601ac827e" kindref="member">MR_BMap_MR_NodeId_MR_NodeId</ref><sp/><ref refid="MRBitSet_8h_1ac158ba2296f24a35280b647601ac827e" kindref="member">MR_BMap_MR_NodeId_MR_NodeId</ref>;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1ac158ba2296f24a35280b647601ac827e" kindref="member">MR_BMap_MR_NodeId_MR_NodeId</ref><sp/><ref refid="MRBitSet_8h_1ac158ba2296f24a35280b647601ac827e" kindref="member">MR_BMap_MR_NodeId_MR_NodeId</ref>;</highlight></codeline>
 <codeline lineno="332"><highlight class="normal"></highlight></codeline>
-<codeline lineno="336" refid="MRBuffer_8h_1a3aa411e9856bf9a9e37133683af0ef39" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a3aa411e9856bf9a9e37133683af0ef39" kindref="member">MR_BMap_MR_TextureId_MR_TextureId</ref><sp/><ref refid="MRBitSet_8h_1a3aa411e9856bf9a9e37133683af0ef39" kindref="member">MR_BMap_MR_TextureId_MR_TextureId</ref>;</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a3aa411e9856bf9a9e37133683af0ef39" kindref="member">MR_BMap_MR_TextureId_MR_TextureId</ref><sp/><ref refid="MRBitSet_8h_1a3aa411e9856bf9a9e37133683af0ef39" kindref="member">MR_BMap_MR_TextureId_MR_TextureId</ref>;</highlight></codeline>
 <codeline lineno="337"><highlight class="normal"></highlight></codeline>
-<codeline lineno="341" refid="MRBuffer_8h_1a50a20684bdf34e41c28488bc3aaf4b94" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a50a20684bdf34e41c28488bc3aaf4b94" kindref="member">MR_BMap_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</ref><sp/><ref refid="MRBitSet_8h_1a50a20684bdf34e41c28488bc3aaf4b94" kindref="member">MR_BMap_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</ref>;</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a50a20684bdf34e41c28488bc3aaf4b94" kindref="member">MR_BMap_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</ref><sp/><ref refid="MRBitSet_8h_1a50a20684bdf34e41c28488bc3aaf4b94" kindref="member">MR_BMap_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</ref>;</highlight></codeline>
 <codeline lineno="342"><highlight class="normal"></highlight></codeline>
-<codeline lineno="345" refid="MRBuffer_8h_1a06cb46fdafae5c03d22cdc54e0ce660a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a06cb46fdafae5c03d22cdc54e0ce660a" kindref="member">MR_ZeroOnMove_uint64_t</ref><sp/><ref refid="MRBuffer_8h_1a06cb46fdafae5c03d22cdc54e0ce660a" kindref="member">MR_ZeroOnMove_uint64_t</ref>;</highlight></codeline>
+<codeline lineno="345" refid="MRBuffer_8h_1a06cb46fdafae5c03d22cdc54e0ce660a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a06cb46fdafae5c03d22cdc54e0ce660a" kindref="member">MR_ZeroOnMove_uint64_t</ref><sp/><ref refid="MRBuffer_8h_1a06cb46fdafae5c03d22cdc54e0ce660a" kindref="member">MR_ZeroOnMove_uint64_t</ref>;</highlight></codeline>
 <codeline lineno="346"><highlight class="normal"></highlight></codeline>
-<codeline lineno="347"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight></codeline>
-<codeline lineno="350" refid="MRBuffer_8h_1a63f76b0f0138cc49104747ea862cfd35" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a63f76b0f0138cc49104747ea862cfd35" kindref="member">MR_NoCtor_MR_UndirectedEdgeId</ref><sp/><ref refid="MRBuffer_8h_1a63f76b0f0138cc49104747ea862cfd35" kindref="member">MR_NoCtor_MR_UndirectedEdgeId</ref>;</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="MRBuffer_8h_1a63f76b0f0138cc49104747ea862cfd35" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a63f76b0f0138cc49104747ea862cfd35" kindref="member">MR_NoCtor_MR_UndirectedEdgeId</ref><sp/><ref refid="MRBuffer_8h_1a63f76b0f0138cc49104747ea862cfd35" kindref="member">MR_NoCtor_MR_UndirectedEdgeId</ref>;</highlight></codeline>
 <codeline lineno="351"><highlight class="normal"></highlight></codeline>
-<codeline lineno="352"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight></codeline>
-<codeline lineno="355" refid="MRBuffer_8h_1ac83cc62c49eb258359785855545a6a43" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ac83cc62c49eb258359785855545a6a43" kindref="member">MR_NoCtor_MR_FaceId</ref><sp/><ref refid="MRBuffer_8h_1ac83cc62c49eb258359785855545a6a43" kindref="member">MR_NoCtor_MR_FaceId</ref>;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="MRBuffer_8h_1ac83cc62c49eb258359785855545a6a43" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ac83cc62c49eb258359785855545a6a43" kindref="member">MR_NoCtor_MR_FaceId</ref><sp/><ref refid="MRBuffer_8h_1ac83cc62c49eb258359785855545a6a43" kindref="member">MR_NoCtor_MR_FaceId</ref>;</highlight></codeline>
 <codeline lineno="356"><highlight class="normal"></highlight></codeline>
-<codeline lineno="357"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight></codeline>
-<codeline lineno="360" refid="MRBuffer_8h_1a673fe253eca6ec7afe8f6a2bb44eca4f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a673fe253eca6ec7afe8f6a2bb44eca4f" kindref="member">MR_NoCtor_MR_VertId</ref><sp/><ref refid="MRBuffer_8h_1a673fe253eca6ec7afe8f6a2bb44eca4f" kindref="member">MR_NoCtor_MR_VertId</ref>;</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="MRBuffer_8h_1a673fe253eca6ec7afe8f6a2bb44eca4f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a673fe253eca6ec7afe8f6a2bb44eca4f" kindref="member">MR_NoCtor_MR_VertId</ref><sp/><ref refid="MRBuffer_8h_1a673fe253eca6ec7afe8f6a2bb44eca4f" kindref="member">MR_NoCtor_MR_VertId</ref>;</highlight></codeline>
 <codeline lineno="361"><highlight class="normal"></highlight></codeline>
-<codeline lineno="362"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>trivial<sp/>types,<sp/>return<sp/>the<sp/>type<sp/>itself</highlight></codeline>
-<codeline lineno="365" refid="MRBuffer_8h_1a65aeadfa7403acec3d68ffa65802c816" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a65aeadfa7403acec3d68ffa65802c816" kindref="member">MR_NoCtor_unsigned_char</ref><sp/><ref refid="MRBuffer_8h_1a65aeadfa7403acec3d68ffa65802c816" kindref="member">MR_NoCtor_unsigned_char</ref>;</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>trivial<sp/>types,<sp/>return<sp/>the<sp/>type<sp/>itself</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="365" refid="MRBuffer_8h_1a65aeadfa7403acec3d68ffa65802c816" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a65aeadfa7403acec3d68ffa65802c816" kindref="member">MR_NoCtor_unsigned_char</ref><sp/><ref refid="MRBuffer_8h_1a65aeadfa7403acec3d68ffa65802c816" kindref="member">MR_NoCtor_unsigned_char</ref>;</highlight></codeline>
 <codeline lineno="366"><highlight class="normal"></highlight></codeline>
-<codeline lineno="367"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>trivial<sp/>types,<sp/>return<sp/>the<sp/>type<sp/>itself</highlight></codeline>
-<codeline lineno="370" refid="MRBuffer_8h_1abde96022140d7df9200836b495ab09ba" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1abde96022140d7df9200836b495ab09ba" kindref="member">MR_NoCtor_char</ref><sp/><ref refid="MRBuffer_8h_1abde96022140d7df9200836b495ab09ba" kindref="member">MR_NoCtor_char</ref>;</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>trivial<sp/>types,<sp/>return<sp/>the<sp/>type<sp/>itself</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="370" refid="MRBuffer_8h_1abde96022140d7df9200836b495ab09ba" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1abde96022140d7df9200836b495ab09ba" kindref="member">MR_NoCtor_char</ref><sp/><ref refid="MRBuffer_8h_1abde96022140d7df9200836b495ab09ba" kindref="member">MR_NoCtor_char</ref>;</highlight></codeline>
 <codeline lineno="371"><highlight class="normal"></highlight></codeline>
-<codeline lineno="372"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight></codeline>
-<codeline lineno="375" refid="MRBuffer_8h_1a29c65f54ff07c79ed937906a9c39ec3f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a29c65f54ff07c79ed937906a9c39ec3f" kindref="member">MR_NoCtor_MR_EdgeId</ref><sp/><ref refid="MRBuffer_8h_1a29c65f54ff07c79ed937906a9c39ec3f" kindref="member">MR_NoCtor_MR_EdgeId</ref>;</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="375" refid="MRBuffer_8h_1a29c65f54ff07c79ed937906a9c39ec3f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a29c65f54ff07c79ed937906a9c39ec3f" kindref="member">MR_NoCtor_MR_EdgeId</ref><sp/><ref refid="MRBuffer_8h_1a29c65f54ff07c79ed937906a9c39ec3f" kindref="member">MR_NoCtor_MR_EdgeId</ref>;</highlight></codeline>
 <codeline lineno="376"><highlight class="normal"></highlight></codeline>
-<codeline lineno="377"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight></codeline>
-<codeline lineno="380" refid="MRBuffer_8h_1a70f77c511f242f56a504646f219c7499" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a70f77c511f242f56a504646f219c7499" kindref="member">MR_NoCtor_MR_ObjId</ref><sp/><ref refid="MRBuffer_8h_1a70f77c511f242f56a504646f219c7499" kindref="member">MR_NoCtor_MR_ObjId</ref>;</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="380" refid="MRBuffer_8h_1a70f77c511f242f56a504646f219c7499" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a70f77c511f242f56a504646f219c7499" kindref="member">MR_NoCtor_MR_ObjId</ref><sp/><ref refid="MRBuffer_8h_1a70f77c511f242f56a504646f219c7499" kindref="member">MR_NoCtor_MR_ObjId</ref>;</highlight></codeline>
 <codeline lineno="381"><highlight class="normal"></highlight></codeline>
-<codeline lineno="382"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight></codeline>
-<codeline lineno="385" refid="MRBuffer_8h_1a1e25dbf9decc3dd3e23262530b050fa4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a1e25dbf9decc3dd3e23262530b050fa4" kindref="member">MR_NoCtor_MR_GraphVertId</ref><sp/><ref refid="MRBuffer_8h_1a1e25dbf9decc3dd3e23262530b050fa4" kindref="member">MR_NoCtor_MR_GraphVertId</ref>;</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="385" refid="MRBuffer_8h_1a1e25dbf9decc3dd3e23262530b050fa4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a1e25dbf9decc3dd3e23262530b050fa4" kindref="member">MR_NoCtor_MR_GraphVertId</ref><sp/><ref refid="MRBuffer_8h_1a1e25dbf9decc3dd3e23262530b050fa4" kindref="member">MR_NoCtor_MR_GraphVertId</ref>;</highlight></codeline>
 <codeline lineno="386"><highlight class="normal"></highlight></codeline>
-<codeline lineno="387"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight></codeline>
-<codeline lineno="390" refid="MRBuffer_8h_1a664f5bb9aca7dcf5b29767572e2d8931" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a664f5bb9aca7dcf5b29767572e2d8931" kindref="member">MR_NoCtor_MR_GraphEdgeId</ref><sp/><ref refid="MRBuffer_8h_1a664f5bb9aca7dcf5b29767572e2d8931" kindref="member">MR_NoCtor_MR_GraphEdgeId</ref>;</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="390" refid="MRBuffer_8h_1a664f5bb9aca7dcf5b29767572e2d8931" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a664f5bb9aca7dcf5b29767572e2d8931" kindref="member">MR_NoCtor_MR_GraphEdgeId</ref><sp/><ref refid="MRBuffer_8h_1a664f5bb9aca7dcf5b29767572e2d8931" kindref="member">MR_NoCtor_MR_GraphEdgeId</ref>;</highlight></codeline>
 <codeline lineno="391"><highlight class="normal"></highlight></codeline>
-<codeline lineno="392"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight></codeline>
-<codeline lineno="395" refid="MRBuffer_8h_1a66c29d589720f2829f561da9a1d61e91" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a66c29d589720f2829f561da9a1d61e91" kindref="member">MR_NoCtor_MR_VoxelId</ref><sp/><ref refid="MRBuffer_8h_1a66c29d589720f2829f561da9a1d61e91" kindref="member">MR_NoCtor_MR_VoxelId</ref>;</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="395" refid="MRBuffer_8h_1a66c29d589720f2829f561da9a1d61e91" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a66c29d589720f2829f561da9a1d61e91" kindref="member">MR_NoCtor_MR_VoxelId</ref><sp/><ref refid="MRBuffer_8h_1a66c29d589720f2829f561da9a1d61e91" kindref="member">MR_NoCtor_MR_VoxelId</ref>;</highlight></codeline>
 <codeline lineno="396"><highlight class="normal"></highlight></codeline>
-<codeline lineno="397"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight></codeline>
-<codeline lineno="400" refid="MRBuffer_8h_1a3f6a76d5cdbf194aaa1c90dc65b8e52f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a3f6a76d5cdbf194aaa1c90dc65b8e52f" kindref="member">MR_NoCtor_MR_PixelId</ref><sp/><ref refid="MRBuffer_8h_1a3f6a76d5cdbf194aaa1c90dc65b8e52f" kindref="member">MR_NoCtor_MR_PixelId</ref>;</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="400" refid="MRBuffer_8h_1a3f6a76d5cdbf194aaa1c90dc65b8e52f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a3f6a76d5cdbf194aaa1c90dc65b8e52f" kindref="member">MR_NoCtor_MR_PixelId</ref><sp/><ref refid="MRBuffer_8h_1a3f6a76d5cdbf194aaa1c90dc65b8e52f" kindref="member">MR_NoCtor_MR_PixelId</ref>;</highlight></codeline>
 <codeline lineno="401"><highlight class="normal"></highlight></codeline>
-<codeline lineno="402"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight></codeline>
-<codeline lineno="405" refid="MRBuffer_8h_1a1aaf4dcda3c21208c756ad0254947d3a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a1aaf4dcda3c21208c756ad0254947d3a" kindref="member">MR_NoCtor_MR_RegionId</ref><sp/><ref refid="MRBuffer_8h_1a1aaf4dcda3c21208c756ad0254947d3a" kindref="member">MR_NoCtor_MR_RegionId</ref>;</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="405" refid="MRBuffer_8h_1a1aaf4dcda3c21208c756ad0254947d3a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a1aaf4dcda3c21208c756ad0254947d3a" kindref="member">MR_NoCtor_MR_RegionId</ref><sp/><ref refid="MRBuffer_8h_1a1aaf4dcda3c21208c756ad0254947d3a" kindref="member">MR_NoCtor_MR_RegionId</ref>;</highlight></codeline>
 <codeline lineno="406"><highlight class="normal"></highlight></codeline>
-<codeline lineno="407"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight></codeline>
-<codeline lineno="410" refid="MRBuffer_8h_1ad71c42c3e68840c89aafab04cedc5ff2" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ad71c42c3e68840c89aafab04cedc5ff2" kindref="member">MR_NoCtor_MR_NodeId</ref><sp/><ref refid="MRBuffer_8h_1ad71c42c3e68840c89aafab04cedc5ff2" kindref="member">MR_NoCtor_MR_NodeId</ref>;</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="410" refid="MRBuffer_8h_1ad71c42c3e68840c89aafab04cedc5ff2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ad71c42c3e68840c89aafab04cedc5ff2" kindref="member">MR_NoCtor_MR_NodeId</ref><sp/><ref refid="MRBuffer_8h_1ad71c42c3e68840c89aafab04cedc5ff2" kindref="member">MR_NoCtor_MR_NodeId</ref>;</highlight></codeline>
 <codeline lineno="411"><highlight class="normal"></highlight></codeline>
-<codeline lineno="412"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight></codeline>
-<codeline lineno="415" refid="MRBuffer_8h_1ad376862a632728835c1969ec688d2a4f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ad376862a632728835c1969ec688d2a4f" kindref="member">MR_NoCtor_MR_TextureId</ref><sp/><ref refid="MRBuffer_8h_1ad376862a632728835c1969ec688d2a4f" kindref="member">MR_NoCtor_MR_TextureId</ref>;</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="415" refid="MRBuffer_8h_1ad376862a632728835c1969ec688d2a4f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ad376862a632728835c1969ec688d2a4f" kindref="member">MR_NoCtor_MR_TextureId</ref><sp/><ref refid="MRBuffer_8h_1ad376862a632728835c1969ec688d2a4f" kindref="member">MR_NoCtor_MR_TextureId</ref>;</highlight></codeline>
 <codeline lineno="416"><highlight class="normal"></highlight></codeline>
-<codeline lineno="417"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight></codeline>
-<codeline lineno="420" refid="MRBuffer_8h_1a53c60def287d621c8033ecaeb982d2b0" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a53c60def287d621c8033ecaeb982d2b0" kindref="member">MR_NoCtor_MR_Id_MR_ICPElemtTag</ref><sp/><ref refid="MRBuffer_8h_1a53c60def287d621c8033ecaeb982d2b0" kindref="member">MR_NoCtor_MR_Id_MR_ICPElemtTag</ref>;</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>our<sp/>complex<sp/>types,<sp/>return<sp/>wrapped<sp/>type<sp/>with<sp/>default<sp/>constructor<sp/>doing<sp/>nothing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="420" refid="MRBuffer_8h_1a53c60def287d621c8033ecaeb982d2b0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a53c60def287d621c8033ecaeb982d2b0" kindref="member">MR_NoCtor_MR_Id_MR_ICPElemtTag</ref><sp/><ref refid="MRBuffer_8h_1a53c60def287d621c8033ecaeb982d2b0" kindref="member">MR_NoCtor_MR_Id_MR_ICPElemtTag</ref>;</highlight></codeline>
 <codeline lineno="421"><highlight class="normal"></highlight></codeline>
-<codeline lineno="426" refid="MRBuffer_8h_1aff238b96282bea00a687ce310151b30d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1aff238b96282bea00a687ce310151b30d" kindref="member">MR_PackMapping</ref><sp/><ref refid="MRBuffer_8h_1aff238b96282bea00a687ce310151b30d" kindref="member">MR_PackMapping</ref>;</highlight></codeline>
+<codeline lineno="426" refid="MRBuffer_8h_1aff238b96282bea00a687ce310151b30d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1aff238b96282bea00a687ce310151b30d" kindref="member">MR_PackMapping</ref><sp/><ref refid="MRBuffer_8h_1aff238b96282bea00a687ce310151b30d" kindref="member">MR_PackMapping</ref>;</highlight></codeline>
 <codeline lineno="427"><highlight class="normal"></highlight></codeline>
 <codeline lineno="430" refid="MRBuffer_8h_1ab2abe96fd740becde9a543c576b89153" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBuffer_8h_1a8e878ed19959d26e0cab5107926156df" kindref="member">MR_Buffer_MR_UndirectedEdgeId_MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRBuffer_8h_1ab2abe96fd740becde9a543c576b89153" kindref="member">MR_Buffer_MR_UndirectedEdgeId_MR_UndirectedEdgeId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="431"><highlight class="normal"></highlight></codeline>

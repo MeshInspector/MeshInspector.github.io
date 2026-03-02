@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCreateShader_8h" kind="file" language="C++">
     <compoundname>MRCreateShader.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -8,7 +8,7 @@
     <includes local="no">vector</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRCreateShader.h</label>
+        <label>MRViewer/MRCreateShader.h</label>
         <link refid="MRCreateShader_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -67,6 +67,6 @@
 <codeline lineno="32" refid="group__GeneralGroup_1ga8b096e49296af19ff8c88104eedeb8d1" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8b096e49296af19ff8c88104eedeb8d1" kindref="member">destroyShader</ref>(<sp/>GLuint<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCreateShader.h"/>
+    <location file="MRViewer/MRCreateShader.h"/>
   </compounddef>
 </doxygen>

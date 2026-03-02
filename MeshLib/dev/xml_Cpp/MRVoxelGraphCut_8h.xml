@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVoxelGraphCut_8h" kind="file" language="C++">
     <compoundname>MRVoxelGraphCut.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
@@ -65,7 +65,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRVoxelGraphCut.h</label>
+        <label>MRVoxels/MRVoxelGraphCut.h</label>
         <link refid="MRVoxelGraphCut_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -132,8 +132,8 @@
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="group__VoxelGroup_1ga71235d812cf6058d2da7c6930493a78f" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VoxelBitSet&gt;</ref><sp/><ref refid="group__VoxelGroup_1ga71235d812cf6058d2da7c6930493a78f" kindref="member">segmentVolumeByGraphCut</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SimpleVolume&amp;<sp/>densityVolume,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>k,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VoxelBitSet&amp;<sp/>sourceSeeds,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VoxelBitSet&amp;<sp/>sinkSeeds,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelGraphCut.h"/>
+    <location file="MRVoxels/MRVoxelGraphCut.h"/>
   </compounddef>
 </doxygen>

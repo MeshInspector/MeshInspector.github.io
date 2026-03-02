@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPrecipitationSimulator_8h" kind="file" language="C++">
     <compoundname>MRPrecipitationSimulator.h</compoundname>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
@@ -69,7 +69,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPrecipitationSimulator.h</label>
+        <label>MRMesh/MRPrecipitationSimulator.h</label>
         <link refid="MRPrecipitationSimulator_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -179,16 +179,16 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="classMR_1_1PrecipitationSimulator" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1PrecipitationSimulator" kindref="compound">PrecipitationSimulator</ref></highlight></codeline>
+<codeline lineno="14" refid="classMR_1_1PrecipitationSimulator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gad0a5cd2183eefe7bfc3f29122f2b607d" kindref="member">PrecipitationSimulator</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1gad0a5cd2183eefe7bfc3f29122f2b607d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gad0a5cd2183eefe7bfc3f29122f2b607d" kindref="member">PrecipitationSimulator</ref>(<sp/><ref refid="classMR_1_1WatershedGraph" kindref="compound">WatershedGraph</ref>&amp;<sp/>wg<sp/>);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1ga1ff436805e728c27089cf75e5d98c90f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1ff436805e728c27089cf75e5d98c90f" kindref="member">Event</ref></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga1ff436805e728c27089cf75e5d98c90faa20ddccbb6f808ec42cd66323e6c6061" kindref="member">Finish</ref>,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga1ff436805e728c27089cf75e5d98c90fa72a8744509ab6e486c5019b1175f2e9b" kindref="member">BasinFull</ref>,<sp/><sp/></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga1ff436805e728c27089cf75e5d98c90fa68be4837f6c739877233e527a996dd00" kindref="member">Merge</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1gga1ff436805e728c27089cf75e5d98c90faa20ddccbb6f808ec42cd66323e6c6061" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga1ff436805e728c27089cf75e5d98c90faa20ddccbb6f808ec42cd66323e6c6061" kindref="member">Finish</ref>,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1gga1ff436805e728c27089cf75e5d98c90fa72a8744509ab6e486c5019b1175f2e9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga1ff436805e728c27089cf75e5d98c90fa72a8744509ab6e486c5019b1175f2e9b" kindref="member">BasinFull</ref>,<sp/><sp/></highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1gga1ff436805e728c27089cf75e5d98c90fa68be4837f6c739877233e527a996dd00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga1ff436805e728c27089cf75e5d98c90fa68be4837f6c739877233e527a996dd00" kindref="member">Merge</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27" refid="structMR_1_1PrecipitationSimulator_1_1SimulationStep" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PrecipitationSimulator_1_1SimulationStep" kindref="compound">SimulationStep</ref></highlight></codeline>
@@ -206,8 +206,8 @@
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Heap" kindref="compound">Heap&lt;float, GraphVertId, std::greater&lt;float&gt;</ref>&gt;<sp/>heap_;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecipitationSimulator.h"/>
+    <location file="MRMesh/MRPrecipitationSimulator.h"/>
   </compounddef>
 </doxygen>

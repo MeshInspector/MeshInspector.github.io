@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPartMappingAdapters_8h" kind="file" language="C++">
     <compoundname>MRPartMappingAdapters.h</compoundname>
     <includes refid="MRPartMapping_8h" local="yes">MRPartMapping.h</includes>
@@ -56,7 +56,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPartMappingAdapters.h</label>
+        <label>MRMesh/MRPartMappingAdapters.h</label>
         <link refid="MRPartMappingAdapters_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -139,7 +139,7 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="classMR_1_1Src2TgtMaps" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Src2TgtMaps" kindref="compound">Src2TgtMaps</ref></highlight></codeline>
+<codeline lineno="13" refid="classMR_1_1Src2TgtMaps" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga5f0185e4c04090deee9b661477a19867" kindref="member">Src2TgtMaps</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1ga5f0185e4c04090deee9b661477a19867" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga5f0185e4c04090deee9b661477a19867" kindref="member">Src2TgtMaps</ref>(<sp/>FaceMap<sp/>*<sp/>outFmap,<sp/>VertMap<sp/>*<sp/>outVmap,<sp/>WholeEdgeMap<sp/>*<sp/>outEmap<sp/>);</highlight></codeline>
@@ -153,12 +153,12 @@
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>VertMap<sp/>*<sp/>outVmap_<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>WholeEdgeMap<sp/>*<sp/>outEmap_<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref><sp/>map_;</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MapOrHashMap" kindref="compound">FaceMapOrHashMap</ref><sp/>src2tgtFaces_;</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MapOrHashMap" kindref="compound">VertMapOrHashMap</ref><sp/>src2tgtVerts_;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MapOrHashMap" kindref="compound">WholeEdgeMapOrHashMap</ref><sp/>src2tgtEdges_;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga23dbcde07009ca26251020b292a2837b" kindref="member">FaceMapOrHashMap</ref><sp/>src2tgtFaces_;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga595ea07ed87137527c40e85cf045379f" kindref="member">VertMapOrHashMap</ref><sp/>src2tgtVerts_;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga97913e3bb3380204133f3b371cc4b6de" kindref="member">WholeEdgeMapOrHashMap</ref><sp/>src2tgtEdges_;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="classMR_1_1Tgt2SrcMaps" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Tgt2SrcMaps" kindref="compound">Tgt2SrcMaps</ref></highlight></codeline>
+<codeline lineno="33" refid="classMR_1_1Tgt2SrcMaps" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga029b3c622e328b4569769168e38bf925" kindref="member">Tgt2SrcMaps</ref></highlight></codeline>
 <codeline lineno="34"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="36" refid="group__GeneralGroup_1ga029b3c622e328b4569769168e38bf925" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga029b3c622e328b4569769168e38bf925" kindref="member">Tgt2SrcMaps</ref>(<sp/>FaceMap<sp/>*<sp/>outFmap,<sp/>VertMap<sp/>*<sp/>outVmap,<sp/>WholeEdgeMap<sp/>*<sp/>outEmap<sp/>);</highlight></codeline>
@@ -172,13 +172,13 @@
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>VertMap<sp/>*<sp/>outVmap_<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>WholeEdgeMap<sp/>*<sp/>outEmap_<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref><sp/>map_;</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MapOrHashMap" kindref="compound">FaceMapOrHashMap</ref><sp/>tgt2srcFaces_;</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MapOrHashMap" kindref="compound">VertMapOrHashMap</ref><sp/>tgt2srcVerts_;</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MapOrHashMap" kindref="compound">WholeEdgeMapOrHashMap</ref><sp/>tgt2srcEdges_;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga23dbcde07009ca26251020b292a2837b" kindref="member">FaceMapOrHashMap</ref><sp/>tgt2srcFaces_;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga595ea07ed87137527c40e85cf045379f" kindref="member">VertMapOrHashMap</ref><sp/>tgt2srcVerts_;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga97913e3bb3380204133f3b371cc4b6de" kindref="member">WholeEdgeMapOrHashMap</ref><sp/>tgt2srcEdges_;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h"/>
+    <location file="MRMesh/MRPartMappingAdapters.h"/>
   </compounddef>
 </doxygen>

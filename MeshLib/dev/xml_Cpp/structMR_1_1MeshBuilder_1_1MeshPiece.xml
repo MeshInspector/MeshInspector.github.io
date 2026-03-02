@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshBuilder_1_1MeshPiece" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshBuilder::MeshPiece</compoundname>
-    <includes refid="MRMeshBuilder_8h" local="no">MRMeshBuilder.h</includes>
+    <includes refid="MRMeshBuilder_8h" local="no">MRMesh/MRMeshBuilder.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga9d2f3c57986b646bdf6618a914511a38" kind="variable"><name>fmap</name></member>
       <member refid="group__GeneralGroup_1ga0e2772f29127c4ade3e9c174019fa545" kind="variable"><name>vmap</name></member>
@@ -27,7 +27,7 @@
         <link refid="classMR_1_1MeshTopology"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="67" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="68" bodyend="73"/>
+    <location file="MRMesh/MRMeshBuilder.h" line="67" column="1" bodyfile="MRMesh/MRMeshBuilder.h" bodystart="68" bodyend="73"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga9d2f3c57986b646bdf6618a914511a38" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>fmap</name></member>
       <member refid="group__GeneralGroup_1gae9d0ca02e23513325ee4fb19d39b6948" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>rem</name></member>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRShaderBlocks_8h" kind="file" language="C++">
     <compoundname>MRShaderBlocks.h</compoundname>
     <includes local="yes">exports.h</includes>
     <includes local="no">string</includes>
-    <includedby refid="MRLinesShader_8h" local="yes">MRLinesShader.h</includedby>
-    <includedby refid="MRMeshShader_8h" local="yes">MRMeshShader.h</includedby>
-    <includedby refid="MRPointsShader_8h" local="yes">MRPointsShader.h</includedby>
+    <includedby refid="MRLinesShader_8h" local="yes">MRViewer/MRLinesShader.h</includedby>
+    <includedby refid="MRMeshShader_8h" local="yes">MRViewer/MRMeshShader.h</includedby>
+    <includedby refid="MRPointsShader_8h" local="yes">MRViewer/MRPointsShader.h</includedby>
     <incdepgraph>
       <node id="1">
-        <label>MRShaderBlocks.h</label>
+        <label>MRViewer/MRShaderBlocks.h</label>
         <link refid="MRShaderBlocks_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -25,19 +25,19 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRLinesShader.h</label>
+        <label>MRViewer/MRLinesShader.h</label>
         <link refid="MRLinesShader_8h"/>
       </node>
       <node id="3">
-        <label>MRMeshShader.h</label>
+        <label>MRViewer/MRMeshShader.h</label>
         <link refid="MRMeshShader_8h"/>
       </node>
       <node id="4">
-        <label>MRPointsShader.h</label>
+        <label>MRViewer/MRPointsShader.h</label>
         <link refid="MRPointsShader_8h"/>
       </node>
       <node id="1">
-        <label>MRShaderBlocks.h</label>
+        <label>MRViewer/MRShaderBlocks.h</label>
         <link refid="MRShaderBlocks_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -63,9 +63,9 @@
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11" refid="group__GeneralGroup_1ga26e449af7b615d9ec3575a5298ac7083" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga26e449af7b615d9ec3575a5298ac7083" kindref="member">ShaderTransparencyMode</ref><sp/>:<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" kindref="member">None</ref>,</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga26e449af7b615d9ec3575a5298ac7083ac1bd4a6d3cfe0b7a0ad7592bbf6a1e7c" kindref="member">AlphaSort</ref>,</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga26e449af7b615d9ec3575a5298ac7083ab599b93eecddfcaaae57ee81a7cd12b6" kindref="member">DepthPeel</ref></highlight></codeline>
+<codeline lineno="13" refid="group__GeneralGroup_1gga26e449af7b615d9ec3575a5298ac7083a6adf97f83acf6453d4a6a4b1070f3754" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" kindref="member">None</ref>,</highlight></codeline>
+<codeline lineno="14" refid="group__GeneralGroup_1gga26e449af7b615d9ec3575a5298ac7083ac1bd4a6d3cfe0b7a0ad7592bbf6a1e7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga26e449af7b615d9ec3575a5298ac7083ac1bd4a6d3cfe0b7a0ad7592bbf6a1e7c" kindref="member">AlphaSort</ref>,</highlight></codeline>
+<codeline lineno="15" refid="group__GeneralGroup_1gga26e449af7b615d9ec3575a5298ac7083ab599b93eecddfcaaae57ee81a7cd12b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga26e449af7b615d9ec3575a5298ac7083ab599b93eecddfcaaae57ee81a7cd12b6" kindref="member">DepthPeel</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1ga8d0c35a10cb3d303e56387880f7a8e76" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga8d0c35a10cb3d303e56387880f7a8e76" kindref="member">getPickerFragmentShader</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>points,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>cornerMode<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
@@ -84,6 +84,6 @@
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShaderBlocks.h"/>
+    <location file="MRViewer/MRShaderBlocks.h"/>
   </compounddef>
 </doxygen>

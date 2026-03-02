@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPrimitiveMapsComposition_8h" kind="file" language="C++">
     <compoundname>MRPrimitiveMapsComposition.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -37,7 +37,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPrimitiveMapsComposition.h</label>
+        <label>MRMesh/MRPrimitiveMapsComposition.h</label>
         <link refid="MRPrimitiveMapsComposition_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -80,7 +80,7 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="5"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11" refid="group__BasicGroup_1ga9827d849d71487bb58386782fb69e80d" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga9827d849d71487bb58386782fb69e80d" kindref="member">vertMapsComposition</ref>(<sp/>VertMap&amp;<sp/>a2b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertMap&amp;<sp/>b2c<sp/>);</highlight></codeline>
 <codeline lineno="13" refid="group__BasicGroup_1ga67788793274ddc28050e9e3d1c76c40f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertMap<sp/><ref refid="group__BasicGroup_1ga9827d849d71487bb58386782fb69e80d" kindref="member">vertMapsComposition</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertMap&amp;<sp/>a2b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertMap&amp;<sp/>b2c<sp/>);</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
@@ -93,6 +93,6 @@
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h"/>
+    <location file="MRMesh/MRPrimitiveMapsComposition.h"/>
   </compounddef>
 </doxygen>

@@ -1,8 +1,5 @@
 var MRObjectSaveSettings_8h =
 [
-    [ "MR_ObjectSave_Settings", "MRObjectSaveSettings_8h.html#a8ea0856fcd01d21e1d2d78a04eb46c1c", null ],
-    [ "MR_std_function_bool_from_float", "MRObjectSaveSettings_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_optional_MR_LengthUnit", "MRObjectSaveSettings_8h.html#abfa36f7cf27ce4b9864dde0b998a0c96", null ],
     [ "MR_ObjectSave_Settings_AssignFromAnother", "MRObjectSaveSettings_8h.html#ab106a915978c0771fd327d77ae400b5f", null ],
     [ "MR_ObjectSave_Settings_ConstructFrom", "MRObjectSaveSettings_8h.html#a2211839d2f9f368fc7189d61a2326a71", null ],
     [ "MR_ObjectSave_Settings_ConstructFromAnother", "MRObjectSaveSettings_8h.html#ad8c1080ab0ac60764ef001f3b3df49aa", null ],

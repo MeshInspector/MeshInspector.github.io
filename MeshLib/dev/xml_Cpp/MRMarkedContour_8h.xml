@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMarkedContour_8h" kind="file" language="C++">
     <compoundname>MRMarkedContour.h</compoundname>
     <includes refid="MRBitSet_8h" local="yes">MRBitSet.h</includes>
@@ -57,7 +57,7 @@
         <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
-        <label>MRMarkedContour.h</label>
+        <label>MRMesh/MRMarkedContour.h</label>
         <link refid="MRMarkedContour_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -224,20 +224,20 @@
 <codeline lineno="16" refid="group__GeneralGroup_1gaf4a0eb3a1b2a34ed0c90d37d6e36baa2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref><sp/><ref refid="group__GeneralGroup_1gaf4a0eb3a1b2a34ed0c90d37d6e36baa2" kindref="member">marks</ref>;<sp/></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="group__GeneralGroup_1gacd259cc34db34b6aee3060c1baf8822d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5f51d4370aebd823bf1ff7e534b0b426" kindref="member">isClosed</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref>&amp;<sp/>c<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>c.<ref refid="classMR_1_1BitSet_1a9bf0ff93a8acb7497c308b9406d035d3" kindref="member">size</ref>()<sp/>&gt;<sp/>1<sp/>&amp;&amp;<sp/>c.front()<sp/>==<sp/>c.back();<sp/>}</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gacd259cc34db34b6aee3060c1baf8822d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5f51d4370aebd823bf1ff7e534b0b426" kindref="member">isClosed</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref>&amp;<sp/>c<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>c.size()<sp/>&gt;<sp/>1<sp/>&amp;&amp;<sp/>c.front()<sp/>==<sp/>c.back();<sp/>}</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="group__GeneralGroup_1ga209bfc652faa16c46df5315c189242b1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref><sp/><ref refid="group__GeneralGroup_1ga209bfc652faa16c46df5315c189242b1" kindref="member">markedContour</ref>(<sp/><ref refid="group__GeneralGroup_1ga19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref><sp/>in<sp/>)</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>sz<sp/>=<sp/>in.size();</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref>{<sp/>.<ref refid="group__GeneralGroup_1ga78abdca0c2ecab9e15c2bfc6583dea1c" kindref="member">contour</ref><sp/>=<sp/>std::move(<sp/>in<sp/>),<sp/>.marks<sp/>=<sp/><ref refid="group__GeneralGroup_1ga0644533afbeab941be3a4178a8feb4fe" kindref="member">BitSet</ref>(<sp/>sz,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>)<sp/>};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref>{<sp/>.contour<sp/>=<sp/>std::move(<sp/>in<sp/>),<sp/>.marks<sp/>=<sp/><ref refid="group__GeneralGroup_1ga0644533afbeab941be3a4178a8feb4fe" kindref="member">BitSet</ref>(<sp/>sz,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>)<sp/>};</highlight></codeline>
 <codeline lineno="26"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="group__GeneralGroup_1gabbe4ed3e93ef2ac23bd9eac49139758a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref><sp/><ref refid="group__GeneralGroup_1gabbe4ed3e93ef2ac23bd9eac49139758a" kindref="member">markedFirstLast</ref>(<sp/><ref refid="group__GeneralGroup_1ga19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref><sp/>in<sp/>)</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>sz<sp/>=<sp/>in.size();</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref><sp/>res{<sp/>.<ref refid="group__GeneralGroup_1ga78abdca0c2ecab9e15c2bfc6583dea1c" kindref="member">contour</ref><sp/>=<sp/>std::move(<sp/>in<sp/>),<sp/>.marks<sp/>=<sp/><ref refid="group__GeneralGroup_1ga0644533afbeab941be3a4178a8feb4fe" kindref="member">BitSet</ref>(<sp/>sz,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/>};</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>res.marks.set(<sp/>0<sp/>);</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>res.marks.set(<sp/>sz<sp/>-<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref><sp/>res{<sp/>.contour<sp/>=<sp/>std::move(<sp/>in<sp/>),<sp/>.marks<sp/>=<sp/><ref refid="group__GeneralGroup_1ga0644533afbeab941be3a4178a8feb4fe" kindref="member">BitSet</ref>(<sp/>sz,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/>};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>res.<ref refid="group__GeneralGroup_1gaf4a0eb3a1b2a34ed0c90d37d6e36baa2" kindref="member">marks</ref>.<ref refid="classMR_1_1BitSet_1a597ed58dd86315f71c893994b7bb46c4" kindref="member">set</ref>(<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>res.<ref refid="group__GeneralGroup_1gaf4a0eb3a1b2a34ed0c90d37d6e36baa2" kindref="member">marks</ref>.<ref refid="classMR_1_1BitSet_1a597ed58dd86315f71c893994b7bb46c4" kindref="member">set</ref>(<sp/>sz<sp/>-<sp/>1<sp/>);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
@@ -262,8 +262,8 @@
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
 <codeline lineno="78" refid="group__GeneralGroup_1ga13c18161efe2f1e2b155e6d0247a27e6" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref><sp/><ref refid="group__GeneralGroup_1gaf35eda873f57d271f24416d60a8aecf9" kindref="member">makeSpline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref><sp/>&amp;<sp/>controlPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SplineSettings" kindref="compound">SplineSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h"/>
+    <location file="MRMesh/MRMarkedContour.h"/>
   </compounddef>
 </doxygen>

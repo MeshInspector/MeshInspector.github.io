@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderWrapObject::detail::BasicWrapperTargetUntyped</compoundname>
     <derivedcompoundref refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget" prot="public" virt="non-virtual">MR::RenderWrapObject::BasicWrapperTarget&lt; FeatureObject &gt;</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget" prot="public" virt="non-virtual">MR::RenderWrapObject::BasicWrapperTarget&lt; ObjectType &gt;</derivedcompoundref>
-    <includes refid="MRRenderWrapObject_8h" local="no">MRRenderWrapObject.h</includes>
+    <includes refid="MRRenderWrapObject_8h" local="no">MRViewer/MRRenderWrapObject.h</includes>
     <sectiondef kind="protected-func">
       <memberdef kind="function" id="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped_1accd812ab77a105a8bee866ccd51d0d9d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" line="21" column="9"/>
+        <location file="MRViewer/MRRenderWrapObject.h" line="21" column="9"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -26,91 +26,51 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="12">
-        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, BaseObjectType &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="6">
-        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt;</label>
+        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, BaseObjectType &gt;</label>
         <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="8">
-        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
-        <childnode refid="7" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="10">
+      <node id="4">
         <label>MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</label>
         <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4"/>
-        <childnode refid="9" relation="public-inheritance">
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="11">
+      <node id="5">
         <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, BaseObjectType &gt;</label>
         <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">
-        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, ObjectLines &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-        <childnode refid="13" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, ObjectMesh &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-        <childnode refid="14" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, ObjectPoints &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-        <childnode refid="15" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="9">
         <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; false, BaseObjectType &gt;</label>
         <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="13">
+      <node id="7">
         <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectLines &gt;</label>
         <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="14">
+      <node id="8">
         <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectMesh &gt;</label>
         <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="15">
+      <node id="9">
         <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectPoints &gt;</label>
         <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="16">
+      <node id="10">
         <label>MR::RenderWrapObject::BasicWrapperTarget&lt; ObjectType &gt;</label>
         <link refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget"/>
         <childnode refid="1" relation="public-inheritance">
@@ -127,7 +87,7 @@
         <link refid="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped"/>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" bodystart="19" bodyend="22"/>
+    <location file="MRViewer/MRRenderWrapObject.h" line="18" column="5" bodyfile="MRViewer/MRRenderWrapObject.h" bodystart="19" bodyend="22"/>
     <listofallmembers>
       <member refid="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped_1accd812ab77a105a8bee866ccd51d0d9d" prot="protected" virt="non-virtual"><scope>MR::RenderWrapObject::detail::BasicWrapperTargetUntyped</scope><name>~BasicWrapperTargetUntyped</name></member>
     </listofallmembers>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeasurementObject" kind="class" language="C++" prot="public">
     <compoundname>MR::MeasurementObject</compoundname>
     <basecompoundref refid="classMR_1_1VisualObject" prot="public" virt="non-virtual">MR::VisualObject</basecompoundref>
@@ -7,7 +7,7 @@
     <derivedcompoundref refid="classMR_1_1DistanceMeasurementObject" prot="public" virt="non-virtual">MR::DistanceMeasurementObject</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1PointMeasurementObject" prot="public" virt="non-virtual">MR::PointMeasurementObject</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1RadiusMeasurementObject" prot="public" virt="non-virtual">MR::RadiusMeasurementObject</derivedcompoundref>
-    <includes refid="MRMeasurementObject_8h" local="no">MRMeasurementObject.h</includes>
+    <includes refid="MRMeasurementObject_8h" local="no">MRMesh/MRMeasurementObject.h</includes>
     <sectiondef kind="protected-func">
       <member refid="group__GeneralGroup_1gacb41c66901ba89701e4dae2f4fe6f40f" kind="function"><name>MeasurementObject</name></member>
     </sectiondef>
@@ -152,7 +152,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeasurementObject.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeasurementObject.h" bodystart="14" bodyend="17"/>
+    <location file="MRMesh/MRMeasurementObject.h" line="13" column="1" bodyfile="MRMesh/MRMeasurementObject.h" bodystart="14" bodyend="17"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::MeasurementObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::MeasurementObject</scope><name>addChildBefore</name></member>

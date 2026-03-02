@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FastWindingNumber" kind="class" language="C++" prot="public">
     <compoundname>MR::FastWindingNumber</compoundname>
     <basecompoundref refid="classMR_1_1IFastWindingNumber" prot="public" virt="non-virtual">MR::IFastWindingNumber</basecompoundref>
-    <includes refid="MRFastWindingNumber_8h" local="no">MRFastWindingNumber.h</includes>
+    <includes refid="MRFastWindingNumber_8h" local="no">MRMesh/MRFastWindingNumber.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaf77abe1fbfbd40c8bd6dcaf35db1aa14" kind="variable"><name>mesh_</name></member>
       <member refid="group__GeneralGroup_1gaa47491aa7ed9a5fdef4a5324c9979280" kind="variable"><name>tree_</name></member>
@@ -50,7 +50,7 @@
         <link refid="classMR_1_1IFastWindingNumber"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="57" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" bodystart="58" bodyend="77"/>
+    <location file="MRMesh/MRFastWindingNumber.h" line="57" column="1" bodyfile="MRMesh/MRFastWindingNumber.h" bodystart="58" bodyend="77"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa9edda8988faaa5628273baa36cadccd" prot="private" virt="non-virtual"><scope>MR::FastWindingNumber</scope><name>calc_</name></member>
       <member refid="group__GeneralGroup_1ga1dfcd2ac54d392958b88fdddedbdfbbc" prot="public" virt="virtual"><scope>MR::FastWindingNumber</scope><name>calcFromGrid</name></member>

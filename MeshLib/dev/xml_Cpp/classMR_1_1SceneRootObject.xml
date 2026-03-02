@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneRootObject" kind="class" language="C++" prot="public" final="yes">
     <compoundname>MR::SceneRootObject</compoundname>
     <basecompoundref refid="classMR_1_1Object" prot="public" virt="non-virtual">MR::Object</basecompoundref>
-    <includes refid="MRSceneRoot_8h" local="no">MRSceneRoot.h</includes>
+    <includes refid="MRSceneRoot_8h" local="no">MRMesh/MRSceneRoot.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga10ee56f1c6e8cdd403c6c199d3cd1481" kind="function"><name>SceneRootObject</name></member>
       <member refid="group__GeneralGroup_1ga1ab8d75a25ddf033c08c2b9a4b302a9d" kind="function"><name>SceneRootObject</name></member>
@@ -99,7 +99,7 @@
         <label>boost::signals2::signal&lt; void() &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="14" bodyend="53"/>
+    <location file="MRMesh/MRSceneRoot.h" line="13" column="1" bodyfile="MRMesh/MRSceneRoot.h" bodystart="14" bodyend="53"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>addChildBefore</name></member>

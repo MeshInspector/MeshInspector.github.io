@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRegionBoundary_8h" kind="file" language="C++">
     <compoundname>MRRegionBoundary.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -62,7 +62,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRRegionBoundary.h</label>
+        <label>MRMesh/MRRegionBoundary.h</label>
         <link refid="MRRegionBoundary_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -193,8 +193,8 @@
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
 <codeline lineno="131" refid="group__GeneralGroup_1ga6552a6e6676abaae7bffe15e1b993c4a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertBitSet<sp/><ref refid="group__GeneralGroup_1ga933bf23c183f418612370ff8c7a14101" kindref="member">getInnerVerts</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>&amp;<sp/>edges<sp/>);</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRegionBoundary.h"/>
+    <location file="MRMesh/MRRegionBoundary.h"/>
   </compounddef>
 </doxygen>

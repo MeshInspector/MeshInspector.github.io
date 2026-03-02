@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1overloaded" kind="struct" language="C++" prot="public">
     <compoundname>MR::overloaded</compoundname>
     <basecompoundref prot="public" virt="non-virtual">Ts...</basecompoundref>
-    <includes refid="MRMeshFwd_8h" local="no">MRMeshFwd.h</includes>
+    <includes refid="MRMeshFwd_8h" local="no">MRMesh/MRMeshFwd.h</includes>
     <templateparamlist>
       <param>
         <type>class...</type>
@@ -37,7 +37,7 @@
         <label>Ts...</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" line="778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" bodystart="778" bodyend="778"/>
+    <location file="MRMesh/MRMeshFwd.h" line="778" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="778" bodyend="778"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

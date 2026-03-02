@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EmbeddedPython" kind="class" language="C++" prot="public">
     <compoundname>MR::EmbeddedPython</compoundname>
-    <includes refid="MREmbeddedPython_8h" local="no">MREmbeddedPython.h</includes>
+    <includes refid="MREmbeddedPython_8h" local="no">MREmbeddedPython/MREmbeddedPython.h</includes>
     <innerclass refid="structMR_1_1EmbeddedPython_1_1Config" prot="public">MR::EmbeddedPython::Config</innerclass>
     <sectiondef kind="private-type">
       <member refid="group__GeneralGroup_1gac065892e3b4bdf340513ed58980ac699" kind="enum"><name>State</name></member>
@@ -58,7 +58,7 @@
         <link refid="structMR_1_1EmbeddedPython_1_1Config"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="21" bodyend="85"/>
+    <location file="MREmbeddedPython/MREmbeddedPython.h" line="20" column="1" bodyfile="MREmbeddedPython/MREmbeddedPython.h" bodystart="21" bodyend="85"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1c44871c8481b2c5197276e8a66e3b02" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>available_</name></member>
       <member refid="group__GeneralGroup_1ga49199ddba429cf34407e2faaf77853d8" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>cv_</name></member>

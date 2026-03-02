@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PointsProjectionResult" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PointsProjectionResult</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -264,19 +264,6 @@
 <para><verbatim>Generated from:  MR::PointsProjectionResult
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.PointsProjectionResult</label>
-        <link refid="classmrmeshpy_1_1PointsProjectionResult"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_distSq</edgelabel>
-          <edgelabel>_offsetof_vId</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45580" bodyend="45626"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PointsProjectionResult_1a4480f12abf85fb5b10a3c5fa3652c043" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjectionResult</scope><name>__init__</name></member>

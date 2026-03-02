@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVoxelsVolumeCachingAccessor_8h" kind="file" language="C++">
     <compoundname>MRVoxelsVolumeCachingAccessor.h</compoundname>
     <includes refid="MRVoxelsVolumeAccess_8h" local="yes">MRVoxelsVolumeAccess.h</includes>
@@ -405,7 +405,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRVoxelsVolumeCachingAccessor.h</label>
+        <label>MRVoxels/MRVoxelsVolumeCachingAccessor.h</label>
         <link refid="MRVoxelsVolumeCachingAccessor_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -542,8 +542,8 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
-<codeline lineno="16" refid="classMR_1_1VoxelsVolumeCachingAccessor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1VoxelsVolumeCachingAccessor" kindref="compound">VoxelsVolumeCachingAccessor</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1VoxelsVolumeCachingAccessor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga9cc3638c285a6cd11cf11483bd156ade" kindref="member">VoxelsVolumeCachingAccessor</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga1f89107f2c482a6e0468ab1cceb602c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga1f89107f2c482a6e0468ab1cceb602c0" kindref="member">VolumeType</ref><sp/>=<sp/>V;</highlight></codeline>
@@ -563,7 +563,7 @@
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>params_.<ref refid="group__GeneralGroup_1gaf8a829af89a52b2fc7092ffa6f36f3e0" kindref="member">preloadedLayerCount</ref><sp/>&gt;<sp/>0<sp/>);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;<sp/>l<sp/>:<sp/>layers_<sp/>)</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>l.resize(<sp/>indexer_.sizeXY()<sp/>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>l.resize(<sp/>indexer_.<ref refid="group__VoxelGroup_1gaf0d94fe95fbc290e175743a06ad3d1c6" kindref="member">sizeXY</ref>()<sp/>);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41" refid="group__GeneralGroup_1ga558587609465a7dd36240569f5891047" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga558587609465a7dd36240569f5891047" kindref="member">currentLayer</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
@@ -603,7 +603,7 @@
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>layerIndex<sp/>=<sp/>loc.<ref refid="group__VoxelGroup_1gada259ed5ae07b6f5138fb6e8212f7531" kindref="member">pos</ref>.z<sp/>-<sp/>z_;</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>0<sp/>&lt;=<sp/>layerIndex<sp/>&amp;&amp;<sp/>layerIndex<sp/>&lt;<sp/>layers_.size()<sp/>);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>loc.<ref refid="group__VoxelGroup_1ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e" kindref="member">id</ref><sp/>&gt;=<sp/>firstLayerVoxelId_[layerIndex]<sp/>);</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>loc.<ref refid="group__VoxelGroup_1ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e" kindref="member">id</ref><sp/>&lt;<sp/>firstLayerVoxelId_[layerIndex]<sp/>+<sp/>indexer_.<ref refid="group__VoxelGroup_1gaf0d94fe95fbc290e175743a06ad3d1c6" kindref="member">sizeXY</ref>()<sp/>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>loc.<ref refid="group__VoxelGroup_1ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e" kindref="member">id</ref><sp/>&lt;<sp/>firstLayerVoxelId_[layerIndex]<sp/>+<sp/>indexer_.sizeXY()<sp/>);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>layers_[layerIndex][loc.<ref refid="group__VoxelGroup_1ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e" kindref="member">id</ref><sp/>-<sp/>firstLayerVoxelId_[layerIndex]];</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
@@ -619,9 +619,9 @@
 <codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>layerIndex<sp/>&lt;<sp/>layers_.size()<sp/>);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>layer<sp/>=<sp/>layers_[layerIndex];</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>z<sp/>=<sp/>z_<sp/>+<sp/>(int)layerIndex;</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>dims<sp/>=<sp/>indexer_.<ref refid="group__VoxelGroup_1ga242530ea0c7771c807c769bcb292f37f" kindref="member">dims</ref>();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>dims<sp/>=<sp/>indexer_.dims();</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>0<sp/>&lt;=<sp/>z<sp/>&amp;&amp;<sp/>z<sp/>&lt;<sp/>dims.z<sp/>);</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>firstLayerVoxelId_[layerIndex]<sp/>=<sp/>indexer_.<ref refid="group__VoxelGroup_1ga1e9ca6412f80a5ce4751fb16cad4ce2c" kindref="member">toVoxelId</ref>(<sp/>Vector3i{<sp/>0,<sp/>0,<sp/>z<sp/>}<sp/>);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>firstLayerVoxelId_[layerIndex]<sp/>=<sp/>indexer_.toVoxelId(<sp/>Vector3i{<sp/>0,<sp/>0,<sp/>z<sp/>}<sp/>);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1gaf184f372f735726148d7a07cbbbb29af" kindref="member">ParallelFor</ref>(<sp/>0,<sp/>dims.y,<sp/>[&amp;](<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y<sp/>)</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>accessor<sp/>=<sp/>accessor_;<sp/></highlight></codeline>
@@ -633,8 +633,8 @@
 <codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VoxelsVolumeAccessor&lt;V&gt;&amp;<sp/>accessor_;</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>VolumeIndexer<sp/>indexer_;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VoxelsVolumeAccessor" kindref="compound">VoxelsVolumeAccessor&lt;V&gt;</ref>&amp;<sp/>accessor_;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1VolumeIndexer" kindref="compound">VolumeIndexer</ref><sp/>indexer_;</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>Parameters<sp/>params_;</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
 <codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>z_<sp/>=<sp/>-1;</highlight></codeline>
@@ -642,8 +642,8 @@
 <codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;VoxelId&gt;<sp/>firstLayerVoxelId_;</highlight></codeline>
 <codeline lineno="120"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeCachingAccessor.h"/>
+    <location file="MRVoxels/MRVoxelsVolumeCachingAccessor.h"/>
   </compounddef>
 </doxygen>

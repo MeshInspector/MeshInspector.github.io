@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1LoadedObjectT__ObjectMesh" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::LoadedObjectT_ObjectMesh</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -286,20 +286,6 @@ Aliases:  LoadedObjectMesh
 result of loading (e.g. from a file) as one object (with possible subobjects)
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.LoadedObjectT_ObjectMesh</label>
-        <link refid="classmrmeshpy_1_1LoadedObjectT__ObjectMesh"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_lengthUnit</edgelabel>
-          <edgelabel>_offsetof_obj</edgelabel>
-          <edgelabel>_offsetof_warnings</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26554" bodyend="26605"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectMesh_1abe8afed65c6d8f1b5b731fa26423fff8" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectMesh</scope><name>__init__</name></member>

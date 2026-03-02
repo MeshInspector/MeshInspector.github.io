@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DistanceFromWeightedPointsComputeParams" kind="class" language="C#" prot="public">
     <compoundname>MR::DistanceFromWeightedPointsComputeParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_DistanceFromWeightedPointsComputeParams</basecompoundref>
@@ -180,7 +180,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DistanceFromWeightedPointsComputeParams.DistanceFromWeightedPointsComputeParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceFromWeightedPointsComputeParams_1a702c49035bcabfe26e379f4a6c82fa14" kindref="member">MR.DistanceFromWeightedPointsComputeParams.DistanceFromWeightedPointsComputeParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -199,7 +199,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DistanceFromWeightedPointsComputeParams.DistanceFromWeightedPointsComputeParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceFromWeightedPointsComputeParams_1a702c49035bcabfe26e379f4a6c82fa14" kindref="member">MR.DistanceFromWeightedPointsComputeParams.DistanceFromWeightedPointsComputeParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -218,7 +218,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DistanceFromWeightedPointsComputeParams.DistanceFromWeightedPointsComputeParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceFromWeightedPointsComputeParams_1a702c49035bcabfe26e379f4a6c82fa14" kindref="member">MR.DistanceFromWeightedPointsComputeParams.DistanceFromWeightedPointsComputeParams</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -237,7 +237,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.DistanceFromWeightedPointsComputeParams.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::DistanceFromWeightedPointsComputeParams::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -252,45 +252,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_DistanceFromWeightedPointsComputeParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.DistanceFromWeightedPointsComputeParams</label>
         <link refid="classMR_1_1DistanceFromWeightedPointsComputeParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_DistanceFromWeightedPointsComputeParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DistanceFromWeightedPointsComputeParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_DistanceFromWeightedPointsComputeParams</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.DistanceFromWeightedPointsComputeParams</label>
         <link refid="classMR_1_1DistanceFromWeightedPointsComputeParams"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_DistanceFromWeightedPointsComputeParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_DistanceFromWeightedPointsComputeParams &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="1020" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="1021" bodyend="1127"/>

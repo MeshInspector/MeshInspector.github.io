@@ -1074,7 +1074,6 @@ var annotated_dup =
       [ "VoxelsVolume", "structMR_1_1VoxelsVolume.html", "structMR_1_1VoxelsVolume" ],
       [ "VoxelsVolumeAccessor", "classMR_1_1VoxelsVolumeAccessor.html", null ],
       [ "VoxelsVolumeAccessor< VdbVolume >", "classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html", "classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4" ],
-      [ "VoxelsVolumeAccessor< VoxelsVolume< Vector< T, VoxelId > > >", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4.html", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4" ],
       [ "VoxelsVolumeAccessor< VoxelsVolume< VoxelValueGetter< T > > >", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4.html", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4" ],
       [ "VoxelsVolumeAccessor< VoxelsVolumeMinMax< Vector< T, VoxelId > > >", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4.html", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4" ],
       [ "VoxelsVolumeCachingAccessor", "classMR_1_1VoxelsVolumeCachingAccessor.html", "classMR_1_1VoxelsVolumeCachingAccessor" ],

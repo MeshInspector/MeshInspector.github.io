@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1SimpleVolume" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::SimpleVolume</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1SimpleVolumeMinMax" prot="public" virt="non-virtual">mrmeshpy.SimpleVolumeMinMax</derivedcompoundref>
@@ -57,9 +57,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SimpleVolume.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMax_1abfc09fbc871e3f89385a9e55f90b50d5">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMax_1ab6e7e76f12bdafe45c385f02ab5438fd">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMax_1a242f5793ca66cd4b23e898aacdf9f316">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -132,9 +129,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SimpleVolume.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMax_1abfc09fbc871e3f89385a9e55f90b50d5">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMax_1ab6e7e76f12bdafe45c385f02ab5438fd">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMax_1a242f5793ca66cd4b23e898aacdf9f316">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -153,9 +147,6 @@
         <argsstring>(self, SimpleVolume arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SimpleVolume.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMax_1abfc09fbc871e3f89385a9e55f90b50d5">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMax_1ab6e7e76f12bdafe45c385f02ab5438fd">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMax_1a242f5793ca66cd4b23e898aacdf9f316">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -180,9 +171,6 @@
         <argsstring>(self, Vector_float_VoxelId data, Vector3i dims, Vector3f voxelSize)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SimpleVolume.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMax_1abfc09fbc871e3f89385a9e55f90b50d5">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMax_1ab6e7e76f12bdafe45c385f02ab5438fd">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMax_1a242f5793ca66cd4b23e898aacdf9f316">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -249,20 +237,6 @@ represents a box in 3D space subdivided on voxels stored in T
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.SimpleVolume</label>
-        <link refid="classmrmeshpy_1_1SimpleVolume"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_data</edgelabel>
-          <edgelabel>_offsetof_dims</edgelabel>
-          <edgelabel>_offsetof_voxelSize</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52605" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52605" bodyend="52644"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1SimpleVolume_1a44059610c7410a7f9feb239bf27612dc" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleVolume</scope><name>__init__</name></member>

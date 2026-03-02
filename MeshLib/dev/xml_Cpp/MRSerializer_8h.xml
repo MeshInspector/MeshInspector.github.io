@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSerializer_8h" kind="file" language="C++">
     <compoundname>MRSerializer.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -13,7 +13,7 @@
     <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <includes local="no">filesystem</includes>
-    <includedby refid="MRConfig_8h" local="yes">MRConfig.h</includedby>
+    <includedby refid="MRConfig_8h" local="yes">MRMesh/MRConfig.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -116,7 +116,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRSerializer.h</label>
+        <label>MRMesh/MRSerializer.h</label>
         <link refid="MRSerializer_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -272,11 +272,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRConfig.h</label>
+        <label>MRMesh/MRConfig.h</label>
         <link refid="MRConfig_8h"/>
       </node>
       <node id="1">
-        <label>MRSerializer.h</label>
+        <label>MRMesh/MRSerializer.h</label>
         <link refid="MRSerializer_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -371,8 +371,8 @@
 <codeline lineno="95" refid="group__SerializerGroup_1ga2d2bfffd8ea520a7eb58c0c7132868a5" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref>&amp;<sp/>pf<sp/>);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h"/>
+    <location file="MRMesh/MRSerializer.h"/>
   </compounddef>
 </doxygen>

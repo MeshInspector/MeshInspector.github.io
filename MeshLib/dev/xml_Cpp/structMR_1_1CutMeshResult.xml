@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1CutMeshResult" kind="struct" language="C++" prot="public">
     <compoundname>MR::CutMeshResult</compoundname>
-    <includes refid="MRContoursCut_8h" local="no">MRContoursCut.h</includes>
+    <includes refid="MRContoursCut_8h" local="no">MRMesh/MRContoursCut.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga5fd92baa79aac5e503e3310ab91fb400" kind="variable"><name>resultCut</name></member>
       <member refid="group__GeneralGroup_1gaca01891e95be4a6f3cb7168e88a33aac" kind="variable"><name>fbsWithContourIntersections</name></member>
@@ -12,7 +12,7 @@
     <detaileddescription>
 <para>This structure contains result of <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref> function </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="61" column="1"/>
+    <location file="MRMesh/MRContoursCut.h" line="61" column="1" bodyfile="MRMesh/MRContoursCut.h" bodystart="62" bodyend="68"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaca01891e95be4a6f3cb7168e88a33aac" prot="public" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>fbsWithContourIntersections</name></member>
       <member refid="group__GeneralGroup_1ga5fd92baa79aac5e503e3310ab91fb400" prot="public" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>resultCut</name></member>

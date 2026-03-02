@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVoxelsVolumeAccess_8h" kind="file" language="C++">
     <compoundname>MRVoxelsVolumeAccess.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
@@ -48,85 +48,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRVoxelsVolumeAccess_8h_1ab294732b2988d23c13fd8799dc19a43a" prot="public" static="no">
-        <type>struct <ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref></type>
-        <definition>typedef struct MR_FunctionVolume MR_FunctionVolume</definition>
-        <argsstring></argsstring>
-        <name>MR_FunctionVolume</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="14" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsVolumeAccess_8h_1a9eebc3ffb6c9528989e38a2930f391cf" prot="public" static="no">
-        <type>struct <ref refid="MRMarchingCubes_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref></type>
-        <definition>typedef struct MR_SimpleVolume MR_SimpleVolume</definition>
-        <argsstring></argsstring>
-        <name>MR_SimpleVolume</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="15" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsVolumeAccess_8h_1a3d8aa59058b2516d2c9b34241f2c0441" prot="public" static="no">
-        <type>struct <ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref></type>
-        <definition>typedef struct MR_VdbVolume MR_VdbVolume</definition>
-        <argsstring></argsstring>
-        <name>MR_VdbVolume</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="16" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsVolumeAccess_8h_1ad55ca9af0874ffb89877bad65ae2859d" prot="public" static="no">
-        <type>struct MR_Vector3i</type>
-        <definition>typedef struct MR_Vector3i MR_Vector3i</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3i</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="17" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsVolumeAccess_8h_1a74e1493d8fd738638c30f10863c7324d" prot="public" static="no">
-        <type>struct <ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref></type>
-        <definition>typedef struct MR_VoxelLocation MR_VoxelLocation</definition>
-        <argsstring></argsstring>
-        <name>MR_VoxelLocation</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="18" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsVolumeAccess_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" prot="public" static="no">
-        <type>struct <ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref></type>
-        <definition>typedef struct MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</definition>
-        <argsstring></argsstring>
-        <name>MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>VoxelsVolumeAccessor specialization for simple volumes with min/max Generated from class <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="27" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" prot="public" static="no">
         <type>struct <ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref></type>
         <definition>typedef struct MR_VoxelsVolumeAccessor_MR_SimpleVolume MR_VoxelsVolumeAccessor_MR_SimpleVolume</definition>
@@ -140,34 +61,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="35" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsVolumeAccess_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" prot="public" static="no">
-        <type>struct <ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref></type>
-        <definition>typedef struct MR_VoxelsVolumeAccessor_MR_FunctionVolume MR_VoxelsVolumeAccessor_MR_FunctionVolume</definition>
-        <argsstring></argsstring>
-        <name>MR_VoxelsVolumeAccessor_MR_FunctionVolume</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>VoxelsVolumeAccessor specialization for value getters Generated from class <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::FunctionVolume&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="40" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" bodystart="40" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsVolumeAccess_8h_1a3c75ce800b8e618cd4d8b9421a153688" prot="public" static="no">
-        <type>struct <ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref></type>
-        <definition>typedef struct MR_VoxelsVolumeAccessor_MR_VdbVolume MR_VoxelsVolumeAccessor_MR_VdbVolume</definition>
-        <argsstring></argsstring>
-        <name>MR_VoxelsVolumeAccessor_MR_VdbVolume</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>VoxelsVolumeAccessor specialization for VDB volume Generated from class <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::VdbVolume&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). caching results of this accessor does not make any sense since it returns values from a simple container Returns a pointer to a member variable of class <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</computeroutput> named <computeroutput>cacheEffective</computeroutput>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="45" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" bodystart="45" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -313,7 +206,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -331,7 +224,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -499,7 +392,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_VoxelsVolumeAccessor_MR_SimpleVolume</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -517,7 +410,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_VoxelsVolumeAccessor_MR_SimpleVolume</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -693,7 +586,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_VoxelsVolumeAccessor_MR_FunctionVolume</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -711,7 +604,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_VoxelsVolumeAccessor_MR_FunctionVolume</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -891,7 +784,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_VoxelsVolumeAccessor_MR_VdbVolume</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -909,7 +802,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_VoxelsVolumeAccessor_MR_VdbVolume</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1042,20 +935,20 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRVoxelsVolumeAccess_8h_1ab294732b2988d23c13fd8799dc19a43a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRVoxelsVolumeAccess_8h_1a9eebc3ffb6c9528989e38a2930f391cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarchingCubes_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/><ref refid="MRMarchingCubes_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRVoxelsVolumeAccess_8h_1a3d8aa59058b2516d2c9b34241f2c0441" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRVoxelsVolumeAccess_8h_1ad55ca9af0874ffb89877bad65ae2859d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRVoxelsVolumeAccess_8h_1a74e1493d8fd738638c30f10863c7324d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVolumeIndexer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMarchingCubes_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/><ref refid="MRMarchingCubes_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVolumeIndexer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRVoxelsVolumeAccess_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref>;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref>;</highlight></codeline>
+<codeline lineno="35" refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref>;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRVoxelsVolumeAccess_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref>;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRVoxelsVolumeAccess_8h_1a3c75ce800b8e618cd4d8b9421a153688" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref>;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50" refid="MRVoxelsVolumeAccess_8h_1a07fdec9fbbbc304bd568a5856c06b641" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a07fdec9fbbbc304bd568a5856c06b641" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_Get_cacheEffective</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>

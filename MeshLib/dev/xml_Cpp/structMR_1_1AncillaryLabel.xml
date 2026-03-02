@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1AncillaryLabel" kind="struct" language="C++" prot="public">
     <compoundname>MR::AncillaryLabel</compoundname>
-    <includes refid="MRAncillaryLabels_8h" local="no">MRAncillaryLabels.h</includes>
+    <includes refid="MRAncillaryLabels_8h" local="no">MRViewer/MRAncillaryLabels.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga4ad01ecea78683580f97a7bc98dee31b" kind="variable"><name>obj</name></member>
     </sectiondef>
@@ -27,7 +27,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLabels.h" bodystart="24" bodyend="61"/>
+    <location file="MRViewer/MRAncillaryLabels.h" line="23" column="1" bodyfile="MRViewer/MRAncillaryLabels.h" bodystart="24" bodyend="61"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga9f49573b059e019198ac431311d41dee" prot="public" virt="non-virtual"><scope>MR::AncillaryLabel</scope><name>AncillaryLabel</name></member>
       <member refid="group__GeneralGroup_1ga239c63d2e67790f3d6e1338de1f351ac" prot="public" virt="non-virtual"><scope>MR::AncillaryLabel</scope><name>AncillaryLabel</name></member>

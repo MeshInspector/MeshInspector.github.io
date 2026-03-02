@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1TriPoint" kind="struct" language="C++" prot="public">
     <compoundname>MR::TriPoint</compoundname>
-    <includes refid="MRTriPoint_8h" local="no">MRTriPoint.h</includes>
+    <includes refid="MRTriPoint_8h" local="no">MRMesh/MRTriPoint.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -38,7 +38,7 @@
     <detaileddescription>
 <para>Notations used below: v0, v1, v2 - points of the triangle </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriPoint.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriPoint.h" bodystart="19" bodyend="69"/>
+    <location file="MRMesh/MRTriPoint.h" line="18" column="1" bodyfile="MRMesh/MRTriPoint.h" bodystart="19" bodyend="69"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8b3c5d2f52bedd379a12737883685b69" prot="public" virt="non-virtual"><scope>MR::TriPoint</scope><name>a</name></member>
       <member refid="group__GeneralGroup_1ga7ad9a3fd75d2c4414e75599a4eb0d497" prot="public" virt="non-virtual"><scope>MR::TriPoint</scope><name>b</name></member>

@@ -1,13 +1,6 @@
 var MRRelaxParams_8h =
 [
-    [ "MR_MeshApproxRelaxParams", "MRRelaxParams_8h.html#a0961ed14052ec630a4f9e367afe11da3", null ],
-    [ "MR_MeshEqualizeTriAreasParams", "MRRelaxParams_8h.html#a1cb564fdc55d5745d0ef594a88b81646", null ],
-    [ "MR_MeshRelaxParams", "MRRelaxParams_8h.html#adc5d88756b2c801276a68f81a54a22dc", null ],
-    [ "MR_PointCloudApproxRelaxParams", "MRRelaxParams_8h.html#a576d261d78807ab4a67d7c0977066804", null ],
-    [ "MR_PointCloudRelaxParams", "MRRelaxParams_8h.html#a957799ae79eb3501ff98b4a3c3781bc0", null ],
     [ "MR_RelaxApproxType", "MRRelaxParams_8h.html#a263e9befdfb2ab381789404f8e2118d2", null ],
-    [ "MR_RelaxParams", "MRRelaxParams_8h.html#acbad516b8cbb2b5069857163ee94db3f", null ],
-    [ "MR_VertBitSet", "MRRelaxParams_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_RelaxApproxType", "MRRelaxParams_8h.html#a1112baea9bbd6b1cbc51256e83bd698e", [
       [ "MR_RelaxApproxType_Planar", "MRRelaxParams_8h.html#a1112baea9bbd6b1cbc51256e83bd698ea0e5c1dd8eaff3292c00303440503c71a", null ],
       [ "MR_RelaxApproxType_Quadric", "MRRelaxParams_8h.html#a1112baea9bbd6b1cbc51256e83bd698ea597bee20b1dba23ef679b01a3e00a379", null ]

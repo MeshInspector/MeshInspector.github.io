@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRGraph_8h" kind="file" language="C++">
     <compoundname>MRGraph.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -48,40 +48,33 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRGraph_8h_1a05d09e19e779df08fe9df7bbb7e22cb7" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a05d09e19e779df08fe9df7bbb7e22cb7" kindref="member">MR_GraphEdgeBitSet</ref></type>
-        <definition>typedef struct MR_GraphEdgeBitSet MR_GraphEdgeBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_GraphEdgeBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGraph.h" line="14" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGraph.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRGraph_8h_1a4241c1f908eab380e90d72ea0fc69a32" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a4241c1f908eab380e90d72ea0fc69a32" kindref="member">MR_GraphVertBitSet</ref></type>
-        <definition>typedef struct MR_GraphVertBitSet MR_GraphVertBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_GraphVertBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGraph.h" line="15" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGraph.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRGraph_8h_1aa587fe38469cba58044669a58438b656" prot="public" static="no">
         <type>struct <ref refid="MRGraph_8h_1aa587fe38469cba58044669a58438b656" kindref="member">MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId</ref></type>
         <definition>typedef struct MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId</definition>
         <argsstring></argsstring>
         <name>MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId</name>
         <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&lt;MR::Graph::EndVertices, MR::GraphEdgeId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -93,8 +86,27 @@
         <argsstring></argsstring>
         <name>MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId</name>
         <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&lt;std::vector&lt;MR::GraphEdgeId&gt;, MR::GraphVertId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -267,7 +279,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Graph</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRGraph_8h_1a5e638837d22d1028b724cc8f267c2762" kindref="member">MR_Graph</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -285,7 +297,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Graph</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRGraph_8h_1a5e638837d22d1028b724cc8f267c2762" kindref="member">MR_Graph</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -862,7 +874,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Graph_EndVertices</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRGraph_8h_1a8c7bacba4378ff403f17cdff39d814a5" kindref="member">MR_Graph_EndVertices</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -880,7 +892,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Graph_EndVertices</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRGraph_8h_1a8c7bacba4378ff403f17cdff39d814a5" kindref="member">MR_Graph_EndVertices</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -977,17 +989,17 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRGraph_8h_1a05d09e19e779df08fe9df7bbb7e22cb7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a05d09e19e779df08fe9df7bbb7e22cb7" kindref="member">MR_GraphEdgeBitSet</ref><sp/><ref refid="MRBitSet_8h_1a05d09e19e779df08fe9df7bbb7e22cb7" kindref="member">MR_GraphEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRGraph_8h_1a4241c1f908eab380e90d72ea0fc69a32" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a4241c1f908eab380e90d72ea0fc69a32" kindref="member">MR_GraphVertBitSet</ref><sp/><ref refid="MRBitSet_8h_1a4241c1f908eab380e90d72ea0fc69a32" kindref="member">MR_GraphVertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a05d09e19e779df08fe9df7bbb7e22cb7" kindref="member">MR_GraphEdgeBitSet</ref><sp/><ref refid="MRBitSet_8h_1a05d09e19e779df08fe9df7bbb7e22cb7" kindref="member">MR_GraphEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a4241c1f908eab380e90d72ea0fc69a32" kindref="member">MR_GraphVertBitSet</ref><sp/><ref refid="MRBitSet_8h_1a4241c1f908eab380e90d72ea0fc69a32" kindref="member">MR_GraphVertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRGraph_8h_1aa587fe38469cba58044669a58438b656" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGraph_8h_1aa587fe38469cba58044669a58438b656" kindref="member">MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId</ref><sp/><ref refid="MRGraph_8h_1aa587fe38469cba58044669a58438b656" kindref="member">MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MRGraph_8h_1a4dc64f4d7249dc400451d0a7774feb7a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGraph_8h_1a4dc64f4d7249dc400451d0a7774feb7a" kindref="member">MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId</ref><sp/><ref refid="MRGraph_8h_1a4dc64f4d7249dc400451d0a7774feb7a" kindref="member">MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="MRGraph_8h_1a036edfb07f39db6a183328939d25f1b5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGraph_8h_1a036edfb07f39db6a183328939d25f1b5" kindref="member">MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId</ref><sp/><ref refid="MRGraph_8h_1a036edfb07f39db6a183328939d25f1b5" kindref="member">MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="MRGraph_8h_1a69bf1e3186eb9f5254b48c24d41f5de7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGraph_8h_1a69bf1e3186eb9f5254b48c24d41f5de7" kindref="member">MR_std_vector_MR_GraphEdgeId</ref><sp/><ref refid="MRGraph_8h_1a69bf1e3186eb9f5254b48c24d41f5de7" kindref="member">MR_std_vector_MR_GraphEdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_GraphEdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRGraph_8h_1a8c7bacba4378ff403f17cdff39d814a5" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGraph_8h_1a8c7bacba4378ff403f17cdff39d814a5" kindref="member">MR_Graph_EndVertices</ref><sp/><ref refid="MRGraph_8h_1a8c7bacba4378ff403f17cdff39d814a5" kindref="member">MR_Graph_EndVertices</ref>;</highlight></codeline>
+<codeline lineno="24" refid="MRGraph_8h_1a8c7bacba4378ff403f17cdff39d814a5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGraph_8h_1a8c7bacba4378ff403f17cdff39d814a5" kindref="member">MR_Graph_EndVertices</ref><sp/><ref refid="MRGraph_8h_1a8c7bacba4378ff403f17cdff39d814a5" kindref="member">MR_Graph_EndVertices</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRGraph_8h_1a5e638837d22d1028b724cc8f267c2762" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGraph_8h_1a5e638837d22d1028b724cc8f267c2762" kindref="member">MR_Graph</ref><sp/><ref refid="MRGraph_8h_1a5e638837d22d1028b724cc8f267c2762" kindref="member">MR_Graph</ref>;</highlight></codeline>
+<codeline lineno="29" refid="MRGraph_8h_1a5e638837d22d1028b724cc8f267c2762" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGraph_8h_1a5e638837d22d1028b724cc8f267c2762" kindref="member">MR_Graph</ref><sp/><ref refid="MRGraph_8h_1a5e638837d22d1028b724cc8f267c2762" kindref="member">MR_Graph</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33" refid="MRGraph_8h_1a0d0b42845153a80846f99a7fe18c2f05" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGraph_8h_1a5e638837d22d1028b724cc8f267c2762" kindref="member">MR_Graph</ref><sp/>*<ref refid="MRGraph_8h_1a0d0b42845153a80846f99a7fe18c2f05" kindref="member">MR_Graph_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
@@ -1031,22 +1043,22 @@
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
 <codeline lineno="134" refid="MRGraph_8h_1ab86e55517291dadf8809fe462bbf7544" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRGraph_8h_1ab86e55517291dadf8809fe462bbf7544" kindref="member">MR_Graph_checkValidity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGraph_8h_1a5e638837d22d1028b724cc8f267c2762" kindref="member">MR_Graph</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136"><highlight class="normal"></highlight><highlight class="comment">//<sp/>v0<sp/>&lt;<sp/>v1</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="comment">//<sp/>v0<sp/>&lt;<sp/>v1</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="141" refid="MRGraph_8h_1a78571e7d3fa45f13cdded54e6d33f6fd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRGraph_8h_1a78571e7d3fa45f13cdded54e6d33f6fd" kindref="member">MR_Graph_EndVertices_Get_v0</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGraph_8h_1a8c7bacba4378ff403f17cdff39d814a5" kindref="member">MR_Graph_EndVertices</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143"><highlight class="normal"></highlight><highlight class="comment">//<sp/>v0<sp/>&lt;<sp/>v1</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="comment">//<sp/>v0<sp/>&lt;<sp/>v1</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="148" refid="MRGraph_8h_1a5c6253859d95f87473960b5399cf9ce1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGraph_8h_1a5c6253859d95f87473960b5399cf9ce1" kindref="member">MR_Graph_EndVertices_Set_v0</ref>(<ref refid="MRGraph_8h_1a8c7bacba4378ff403f17cdff39d814a5" kindref="member">MR_Graph_EndVertices</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150"><highlight class="normal"></highlight><highlight class="comment">//<sp/>v0<sp/>&lt;<sp/>v1</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="comment">//<sp/>v0<sp/>&lt;<sp/>v1</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="155" refid="MRGraph_8h_1a1c2b594ca4b72fee1322c4d99118e052" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRGraph_8h_1a1c2b594ca4b72fee1322c4d99118e052" kindref="member">MR_Graph_EndVertices_GetMutable_v0</ref>(<ref refid="MRGraph_8h_1a8c7bacba4378ff403f17cdff39d814a5" kindref="member">MR_Graph_EndVertices</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment">//<sp/>v0<sp/>&lt;<sp/>v1</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment">//<sp/>v0<sp/>&lt;<sp/>v1</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="162" refid="MRGraph_8h_1a5fd5831340cadc846a8e217066379fb7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRGraph_8h_1a5fd5831340cadc846a8e217066379fb7" kindref="member">MR_Graph_EndVertices_Get_v1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGraph_8h_1a8c7bacba4378ff403f17cdff39d814a5" kindref="member">MR_Graph_EndVertices</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164"><highlight class="normal"></highlight><highlight class="comment">//<sp/>v0<sp/>&lt;<sp/>v1</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="comment">//<sp/>v0<sp/>&lt;<sp/>v1</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="169" refid="MRGraph_8h_1a8a879aae0f9463df087816ecf26c6a07" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGraph_8h_1a8a879aae0f9463df087816ecf26c6a07" kindref="member">MR_Graph_EndVertices_Set_v1</ref>(<ref refid="MRGraph_8h_1a8c7bacba4378ff403f17cdff39d814a5" kindref="member">MR_Graph_EndVertices</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171"><highlight class="normal"></highlight><highlight class="comment">//<sp/>v0<sp/>&lt;<sp/>v1</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="comment">//<sp/>v0<sp/>&lt;<sp/>v1</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="176" refid="MRGraph_8h_1a92c8f408d60d38278c3ade89a6bc49ec" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRGraph_8h_1a92c8f408d60d38278c3ade89a6bc49ec" kindref="member">MR_Graph_EndVertices_GetMutable_v1</ref>(<ref refid="MRGraph_8h_1a8c7bacba4378ff403f17cdff39d814a5" kindref="member">MR_Graph_EndVertices</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"></highlight></codeline>
 <codeline lineno="180" refid="MRGraph_8h_1a2806c430e2ec53ce14023e06c894314f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGraph_8h_1a8c7bacba4378ff403f17cdff39d814a5" kindref="member">MR_Graph_EndVertices</ref><sp/>*<ref refid="MRGraph_8h_1a2806c430e2ec53ce14023e06c894314f" kindref="member">MR_Graph_EndVertices_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>

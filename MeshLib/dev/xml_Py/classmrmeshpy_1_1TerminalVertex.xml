@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1TerminalVertex" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::TerminalVertex</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -183,19 +183,6 @@ a vertex with associated penalty metric
 to designate a possible start or end of edge path
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.TerminalVertex</label>
-        <link refid="classmrmeshpy_1_1TerminalVertex"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_metric</edgelabel>
-          <edgelabel>_offsetof_v</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56480" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56480" bodyend="56515"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1TerminalVertex_1a3393859844a6a9df86c6306aeb7dd935" prot="public" virt="non-virtual"><scope>mrmeshpy::TerminalVertex</scope><name>__init__</name></member>

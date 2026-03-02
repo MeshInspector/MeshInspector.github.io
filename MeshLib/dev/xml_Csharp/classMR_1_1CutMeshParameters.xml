@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
-  <compounddef id="classMR_1_1CutMeshParameters" kind="class" language="C#" prot="private">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1CutMeshParameters" kind="struct" language="C#" prot="public">
     <compoundname>MR::CutMeshParameters</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_CutMeshParameters</basecompoundref>
     <sectiondef kind="property">
@@ -130,7 +130,7 @@ it provides additional info from other mesh used in boolean operation, useful to
           <declname>new2oldEdgesMap</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR.CutMeshParameters</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput><ref refid="classMR_1_1CutMeshParameters" kindref="compound">MR.CutMeshParameters</ref></computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -149,7 +149,7 @@ it provides additional info from other mesh used in boolean operation, useful to
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.CutMeshParameters.CutMeshParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CutMeshParameters_1adf6c2f846c8033bca895add8a641aa97" kindref="member">MR.CutMeshParameters.CutMeshParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -164,11 +164,11 @@ it provides additional info from other mesh used in boolean operation, useful to
         <name>CutMeshParameters</name>
         <qualifiedname>MR.CutMeshParameters.CutMeshParameters</qualifiedname>
         <param>
-          <type>CutMeshParameters</type>
+          <type><ref refid="classMR_1_1CutMeshParameters" kindref="compound">CutMeshParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.CutMeshParameters.CutMeshParameters</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CutMeshParameters_1adf6c2f846c8033bca895add8a641aa97" kindref="member">MR.CutMeshParameters.CutMeshParameters</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -177,7 +177,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="553" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="553" bodyend="553"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutMeshParameters_1ac1eaab21aa9131b18c467a57f7a50738" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.CutMeshParameters</type>
+        <type>unsafe <ref refid="classMR_1_1CutMeshParameters" kindref="compound">MR.CutMeshParameters</ref></type>
         <definition>unsafe MR.CutMeshParameters MR.CutMeshParameters.assign</definition>
         <argsstring>(MR.Const_CutMeshParameters _other)</argsstring>
         <name>assign</name>
@@ -187,7 +187,7 @@ it provides additional info from other mesh used in boolean operation, useful to
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.CutMeshParameters.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::CutMeshParameters::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -200,53 +200,55 @@ it provides additional info from other mesh used in boolean operation, useful to
 <para>Parameters of <ref refid="classMR_1a69c80bb31266546933db0c88875afc59" kindref="member">MR.cutMesh</ref> This structure contains some options and optional outputs of <ref refid="classMR_1a69c80bb31266546933db0c88875afc59" kindref="member">MR.cutMesh</ref> function. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="see"><para>MR.CutMeshResult Generated from class <computeroutput>MR.CutMeshParameters</computeroutput>. This is the const half of the class.</para>
+<para><simplesect kind="see"><para><ref refid="classMR_1_1CutMeshResult" kindref="compound">MR.CutMeshResult</ref> Generated from class <computeroutput><ref refid="classMR_1_1CutMeshParameters" kindref="compound">MR.CutMeshParameters</ref></computeroutput>. This is the const half of the class.</para>
 </simplesect>
-<simplesect kind="see"><para>MR.CutMeshResult Generated from class <computeroutput>MR.CutMeshParameters</computeroutput>. This is the non-const half of the class. </para>
+<simplesect kind="see"><para><ref refid="classMR_1_1CutMeshResult" kindref="compound">MR.CutMeshResult</ref> Generated from class <computeroutput><ref refid="classMR_1_1CutMeshParameters" kindref="compound">MR.CutMeshParameters</ref></computeroutput>. This is the non-const half of the class. </para>
 </simplesect>
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.CutMeshParameters</label>
+        <link refid="classMR_1_1CutMeshParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_CutMeshParameters</label>
+        <label>MR.Const_CutMeshParameters</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.CutMeshParameters</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_CutMeshParameters &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.CutMeshParameters</label>
+        <link refid="classMR_1_1CutMeshParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_CutMeshParameters</label>
+        <label>MR.Const_CutMeshParameters</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.CutMeshParameters</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_CutMeshParameters &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="459" column="11"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="459" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="460" bodyend="566"/>
     <listofallmembers>
       <member refid="classMR_1_1CutMeshParameters_1ac1eaab21aa9131b18c467a57f7a50738" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1CutMeshParameters_1a98e7bec8811e7a2d0a4ea4a2c159ab0a" prot="package" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>CutMeshParameters</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1StitchHolesParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::StitchHolesParams</compoundname>
-    <includes refid="MRMeshFillHole_8h" local="no">MRMeshFillHole.h</includes>
+    <includes refid="MRMeshFillHole_8h" local="no">MRMesh/MRMeshFillHole.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1StitchHolesParams_1ac806ee8caa2479cc244851eaac1e7020" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref></type>
@@ -20,7 +20,7 @@ default for <ref refid="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="89" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="89" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="89" column="20" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1StitchHolesParams_1a472b65c8cadbd4c6cf5c2acbf4302f66" prot="public" static="no" mutable="no">
         <type>FaceBitSet *</type>
@@ -36,7 +36,7 @@ default for <ref refid="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="91" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="91" bodyend="91"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="91" column="16" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="91" bodyend="91"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -63,7 +63,7 @@ Structure has some options to control <ref refid="group__FillHoleGroup_1ga1411d5
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="83" column="1"/>
+    <location file="MRMesh/MRMeshFillHole.h" line="83" column="1" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="84" bodyend="92"/>
     <listofallmembers>
       <member refid="structMR_1_1StitchHolesParams_1ac806ee8caa2479cc244851eaac1e7020" prot="public" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>metric</name></member>
       <member refid="structMR_1_1StitchHolesParams_1a472b65c8cadbd4c6cf5c2acbf4302f66" prot="public" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>outNewFaces</name></member>

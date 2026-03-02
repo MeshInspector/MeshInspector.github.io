@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1LinesVisualizePropertyType" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::LinesVisualizePropertyType</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -331,21 +331,6 @@
   _count
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.LinesVisualizePropertyType</label>
-        <link refid="classmrmeshpy_1_1LinesVisualizePropertyType"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>Dashed</edgelabel>
-          <edgelabel>Points</edgelabel>
-          <edgelabel>Smooth</edgelabel>
-          <edgelabel>_count</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26407" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26407" bodyend="26449"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1LinesVisualizePropertyType_1a91a81a260b99c70e5b3f4f030592d9c9" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesVisualizePropertyType</scope><name>__eq__</name></member>

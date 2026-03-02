@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVertCoordsDiff_8h" kind="file" language="C++">
     <compoundname>MRVertCoordsDiff.h</compoundname>
     <includes local="yes">MRphmap.h</includes>
-    <includedby refid="MRMeshDiff_8h" local="yes">MRMeshDiff.h</includedby>
+    <includedby refid="MRMeshDiff_8h" local="yes">MRMesh/MRMeshDiff.h</includedby>
     <incdepgraph>
       <node id="1">
-        <label>MRVertCoordsDiff.h</label>
+        <label>MRMesh/MRVertCoordsDiff.h</label>
         <link refid="MRVertCoordsDiff_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -17,17 +17,17 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRMeshDiff.h</label>
+        <label>MRMesh/MRMeshDiff.h</label>
         <link refid="MRMeshDiff_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRPartialChangeMeshAction.h</label>
+        <label>MRMesh/MRPartialChangeMeshAction.h</label>
         <link refid="MRPartialChangeMeshAction_8h"/>
       </node>
       <node id="1">
-        <label>MRVertCoordsDiff.h</label>
+        <label>MRMesh/MRVertCoordsDiff.h</label>
         <link refid="MRVertCoordsDiff_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -48,7 +48,7 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="classMR_1_1VertCoordsDiff" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1VertCoordsDiff" kindref="compound">VertCoordsDiff</ref></highlight></codeline>
+<codeline lineno="14" refid="classMR_1_1VertCoordsDiff" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gafa80c539d783f275a194ae8f5202647e" kindref="member">VertCoordsDiff</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1gafa80c539d783f275a194ae8f5202647e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gafa80c539d783f275a194ae8f5202647e" kindref="member">VertCoordsDiff</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -66,8 +66,8 @@
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;VertId, Vector3f&gt;</ref><sp/>changedPoints_;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h"/>
+    <location file="MRMesh/MRVertCoordsDiff.h"/>
   </compounddef>
 </doxygen>

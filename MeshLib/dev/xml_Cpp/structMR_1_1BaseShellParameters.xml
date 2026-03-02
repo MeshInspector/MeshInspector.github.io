@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1BaseShellParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::BaseShellParameters</compoundname>
     <derivedcompoundref refid="structMR_1_1OffsetParameters" prot="public" virt="non-virtual">MR::OffsetParameters</derivedcompoundref>
-    <includes refid="MROffset_8h" local="no">MROffset.h</includes>
+    <includes refid="MROffset_8h" local="no">MRVoxels/MROffset.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga0496e82daf37476561be7bd450c6fb48" kind="variable"><name>voxelSize</name></member>
       <member refid="group__GeneralGroup_1ga21a919475b5c9882d80ab9a26dd60d50" kind="variable"><name>callBack</name></member>
@@ -36,7 +36,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="19" bodyend="26"/>
+    <location file="MRVoxels/MROffset.h" line="18" column="1" bodyfile="MRVoxels/MROffset.h" bodystart="19" bodyend="26"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga21a919475b5c9882d80ab9a26dd60d50" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>callBack</name></member>
       <member refid="group__GeneralGroup_1ga0496e82daf37476561be7bd450c6fb48" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>voxelSize</name></member>

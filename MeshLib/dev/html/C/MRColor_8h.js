@@ -2,7 +2,6 @@ var MRColor_8h =
 [
     [ "MR_Color", "structMR__Color.html", "structMR__Color" ],
     [ "MR_Color", "MRColor_8h.html#ab04f90c0c45a09f664d0bd8e652bc339", null ],
-    [ "MR_NoInit", "MRColor_8h.html#a14f0f26a43ddb92c3fa3c2192008224c", null ],
     [ "MR_add_MR_Color", "MRColor_8h.html#ab0c5ede8e1e01d7d3e09c64342e269e3", null ],
     [ "MR_blend", "MRColor_8h.html#a2d6645320c5c7c4c9d86eb851a0e9791", null ],
     [ "MR_Color_add_assign", "MRColor_8h.html#a09b683dd5087f2b9733375af18156d03", null ],

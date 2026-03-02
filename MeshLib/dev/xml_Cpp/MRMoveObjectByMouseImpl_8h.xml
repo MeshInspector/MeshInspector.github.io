@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMoveObjectByMouseImpl_8h" kind="file" language="C++">
     <compoundname>MRMoveObjectByMouseImpl.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -8,7 +8,7 @@
     <includes refid="MRPlane3_8h" local="yes">MRMesh/MRPlane3.h</includes>
     <includes refid="MRAffineXf3_8h" local="yes">MRMesh/MRAffineXf3.h</includes>
     <includes refid="MRSignal_8h" local="yes">MRMesh/MRSignal.h</includes>
-    <includedby refid="MRMoveObjectByMouse_8h" local="yes">MRMoveObjectByMouse.h</includedby>
+    <includedby refid="MRMoveObjectByMouse_8h" local="yes">MRCommonPlugins/Basic/MRMoveObjectByMouse.h</includedby>
     <incdepgraph>
       <node id="33">
         <label>MRAffineXf.h</label>
@@ -143,7 +143,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMoveObjectByMouseImpl.h</label>
+        <label>MRViewer/MRMoveObjectByMouseImpl.h</label>
         <link refid="MRMoveObjectByMouseImpl_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -231,11 +231,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRMoveObjectByMouse.h</label>
+        <label>MRCommonPlugins/Basic/MRMoveObjectByMouse.h</label>
         <link refid="MRMoveObjectByMouse_8h"/>
       </node>
       <node id="1">
-        <label>MRMoveObjectByMouseImpl.h</label>
+        <label>MRViewer/MRMoveObjectByMouseImpl.h</label>
         <link refid="MRMoveObjectByMouseImpl_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -260,14 +260,14 @@
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="classMR_1_1MoveObjectByMouseImpl" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1MoveObjectByMouseImpl" kindref="compound">MoveObjectByMouseImpl</ref></highlight></codeline>
+<codeline lineno="19" refid="classMR_1_1MoveObjectByMouseImpl" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="group__GeneralGroup_1ga38667d92b4c0a5c674ae3984e4887601" kindref="member">MoveObjectByMouseImpl</ref></highlight></codeline>
 <codeline lineno="20"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="22" refid="group__GeneralGroup_1ga38667d92b4c0a5c674ae3984e4887601" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga38667d92b4c0a5c674ae3984e4887601" kindref="member">MoveObjectByMouseImpl</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1ga1efc181844c96d8927ff6e49ea0139bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1efc181844c96d8927ff6e49ea0139bf" kindref="member">~MoveObjectByMouseImpl</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28" refid="group__GeneralGroup_1ga8ed871e4f43e2c23e6b2cfb9aae9b0ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8ed871e4f43e2c23e6b2cfb9aae9b0ae" kindref="member">minDistance</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>minDistance_;<sp/>}</highlight></codeline>
-<codeline lineno="29" refid="group__GeneralGroup_1gaa3df927c144669a86b1cbaba22fa36ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa3df927c144669a86b1cbaba22fa36ac" kindref="member">setMinDistance</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minDistance<sp/>)<sp/>{<sp/>minDistance_<sp/>=<sp/>minDistance;<sp/>}</highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1gaa3df927c144669a86b1cbaba22fa36ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa3df927c144669a86b1cbaba22fa36ac" kindref="member">setMinDistance</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8ed871e4f43e2c23e6b2cfb9aae9b0ae" kindref="member">minDistance</ref><sp/>)<sp/>{<sp/>minDistance_<sp/>=<sp/><ref refid="group__GeneralGroup_1ga8ed871e4f43e2c23e6b2cfb9aae9b0ae" kindref="member">minDistance</ref>;<sp/>}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33" refid="group__GeneralGroup_1ga45f8ebdbb4537a2ba85a49fbb88a49b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga45f8ebdbb4537a2ba85a49fbb88a49b6" kindref="member">onDrawDialog</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
@@ -286,14 +286,14 @@
 <codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="62" refid="group__GeneralGroup_1ga4e5180c9fe4f3ff399794c4a640b500a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4e5180c9fe4f3ff399794c4a640b500a" kindref="member">TransformMode</ref></highlight></codeline>
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" kindref="member">None</ref>,</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga067afc36528fa2a554ff76aaa10efb75a6dd08874f83507e9c7b23f1a46b7fa7c" kindref="member">Translation</ref>,</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga067afc36528fa2a554ff76aaa10efb75af1a42bd417390fc63b030a519624607a" kindref="member">Rotation</ref>,</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UniformScale,</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NonUniformScale,</highlight></codeline>
+<codeline lineno="64" refid="group__GeneralGroup_1gga4e5180c9fe4f3ff399794c4a640b500aa6adf97f83acf6453d4a6a4b1070f3754" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga4e5180c9fe4f3ff399794c4a640b500aa6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref>,</highlight></codeline>
+<codeline lineno="65" refid="group__GeneralGroup_1gga4e5180c9fe4f3ff399794c4a640b500aa6dd08874f83507e9c7b23f1a46b7fa7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga4e5180c9fe4f3ff399794c4a640b500aa6dd08874f83507e9c7b23f1a46b7fa7c" kindref="member">Translation</ref>,</highlight></codeline>
+<codeline lineno="66" refid="group__GeneralGroup_1gga4e5180c9fe4f3ff399794c4a640b500aaf1a42bd417390fc63b030a519624607a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga4e5180c9fe4f3ff399794c4a640b500aaf1a42bd417390fc63b030a519624607a" kindref="member">Rotation</ref>,</highlight></codeline>
+<codeline lineno="67" refid="group__GeneralGroup_1gga4e5180c9fe4f3ff399794c4a640b500aa191348a9fc863907c57be8b4bc28bea7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga4e5180c9fe4f3ff399794c4a640b500aa191348a9fc863907c57be8b4bc28bea7" kindref="member">UniformScale</ref>,</highlight></codeline>
+<codeline lineno="68" refid="group__GeneralGroup_1gga4e5180c9fe4f3ff399794c4a640b500aa5a2f9ea34c787f321f36dfeb41b837fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga4e5180c9fe4f3ff399794c4a640b500aa5a2f9ea34c787f321f36dfeb41b837fb" kindref="member">NonUniformScale</ref>,</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="group__GeneralGroup_1gada61b8ab8617465251bf6b1f36c1d782" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>deadZonePixelRadius_{<sp/>20.0f<sp/>};</highlight></codeline>
+<codeline lineno="73" refid="group__GeneralGroup_1gada61b8ab8617465251bf6b1f36c1d782" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gada61b8ab8617465251bf6b1f36c1d782" kindref="member">deadZonePixelRadius_</ref>{<sp/>20.0f<sp/>};</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
 <codeline lineno="77" refid="group__GeneralGroup_1ga1b2f159ab2d3b7941f27a5356fe15b2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7080d56b73b285dc9afd120e1bc1ff71" kindref="member">ObjAndPick</ref><sp/><ref refid="group__GeneralGroup_1ga1b2f159ab2d3b7941f27a5356fe15b2f" kindref="member">pickObjects_</ref>(<sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp;<sp/>objects,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>modifiers<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
@@ -328,10 +328,10 @@
 <codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;<sp/>objects_;</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;AffineXf3f&gt;<sp/>initialXfs_;</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga4e5180c9fe4f3ff399794c4a640b500a" kindref="member">TransformMode</ref><sp/>transformMode_<sp/>=<sp/>TransformMode::None;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga4e5180c9fe4f3ff399794c4a640b500a" kindref="member">TransformMode</ref><sp/>transformMode_<sp/>=<sp/><ref refid="group__GeneralGroup_1gga4e5180c9fe4f3ff399794c4a640b500aa6adf97f83acf6453d4a6a4b1070f3754" kindref="member">TransformMode::None</ref>;</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector2i<sp/>screenStartPoint_;<sp/></highlight></codeline>
 <codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>xfChanged_<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight></codeline>
-<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref><sp/>currentButton_<sp/>=<sp/>MouseButton::NoButton;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref><sp/>currentButton_<sp/>=<sp/><ref refid="group__GeneralGroup_1gga13f98b7840e7298925ef1770b7cdb62dab592247167772fc6ba15f3d0f6465e38" kindref="member">MouseButton::NoButton</ref>;</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/>worldStartPoint_;<sp/><sp/></highlight></codeline>
 <codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/>xfCenterPoint_;</highlight></codeline>
@@ -351,6 +351,6 @@
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
 <codeline lineno="148"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h"/>
+    <location file="MRViewer/MRMoveObjectByMouseImpl.h"/>
   </compounddef>
 </doxygen>

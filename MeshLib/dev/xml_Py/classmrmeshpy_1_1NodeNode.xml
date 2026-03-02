@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1NodeNode" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::NodeNode</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -180,19 +180,6 @@
 <para><verbatim>Generated from:  MR::NodeNode
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.NodeNode</label>
-        <link refid="classmrmeshpy_1_1NodeNode"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_aNode</edgelabel>
-          <edgelabel>_offsetof_bNode</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38191" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38191" bodyend="38223"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1NodeNode_1afc6e345f70f26907037aec662ce01df3" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeNode</scope><name>__init__</name></member>

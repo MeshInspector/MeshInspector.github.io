@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1DividePolylineParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::DividePolylineParameters</compoundname>
-    <includes refid="MRPolylineTrimWithPlane_8h" local="no">MRPolylineTrimWithPlane.h</includes>
+    <includes refid="MRPolylineTrimWithPlane_8h" local="no">MRMesh/MRPolylineTrimWithPlane.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga980edf71338a26044da6655e80f5d8bd" kind="variable"><name>onEdgeSplitCallback</name></member>
       <member refid="group__GeneralGroup_1gaec036aa36c10ac45b9ef07682adb3350" kind="variable"><name>closeLineAfterCut</name></member>
@@ -16,7 +16,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" bodystart="20" bodyend="36"/>
+    <location file="MRMesh/MRPolylineTrimWithPlane.h" line="19" column="1" bodyfile="MRMesh/MRPolylineTrimWithPlane.h" bodystart="20" bodyend="36"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaec036aa36c10ac45b9ef07682adb3350" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>closeLineAfterCut</name></member>
       <member refid="group__GeneralGroup_1ga980edf71338a26044da6655e80f5d8bd" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>onEdgeSplitCallback</name></member>

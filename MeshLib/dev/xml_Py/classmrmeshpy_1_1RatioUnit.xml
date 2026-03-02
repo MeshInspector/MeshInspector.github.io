@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1RatioUnit" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::RatioUnit</compoundname>
     <sectiondef kind="private-static-attrib">
@@ -314,20 +314,6 @@
   _count
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.RatioUnit</label>
-        <link refid="classmrmeshpy_1_1RatioUnit"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_count</edgelabel>
-          <edgelabel>factor</edgelabel>
-          <edgelabel>percents</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49323" bodyend="49362"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1RatioUnit_1a8a9874b59321b3dde8d10959b125f637" prot="public" virt="non-virtual"><scope>mrmeshpy::RatioUnit</scope><name>__eq__</name></member>

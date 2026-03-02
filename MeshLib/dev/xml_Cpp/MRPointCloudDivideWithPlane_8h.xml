@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointCloudDivideWithPlane_8h" kind="file" language="C++">
     <compoundname>MRPointCloudDivideWithPlane.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -37,7 +37,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPointCloudDivideWithPlane.h</label>
+        <label>MRMesh/MRPointCloudDivideWithPlane.h</label>
         <link refid="MRPointCloudDivideWithPlane_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -80,7 +80,7 @@
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="5"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="8"></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12" refid="group__GeneralGroup_1ga947a6bad93f0eb336d355ab0497b7dbd" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertBitSet<sp/><ref refid="group__GeneralGroup_1ga947a6bad93f0eb336d355ab0497b7dbd" kindref="member">findHalfSpacePoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref>&amp;<sp/>plane<sp/>);</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
@@ -94,6 +94,6 @@
 <codeline lineno="30" refid="group__GeneralGroup_1ga6d7f1057abe62b822b7c51220cdcb574" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/><ref refid="group__GeneralGroup_1ga6d7f1057abe62b822b7c51220cdcb574" kindref="member">divideWithPlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref>&amp;<sp/>plane,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DividePointCloudOptionalOutput" kindref="compound">DividePointCloudOptionalOutput</ref>&amp;<sp/>optOut<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudDivideWithPlane.h"/>
+    <location file="MRMesh/MRPointCloudDivideWithPlane.h"/>
   </compounddef>
 </doxygen>

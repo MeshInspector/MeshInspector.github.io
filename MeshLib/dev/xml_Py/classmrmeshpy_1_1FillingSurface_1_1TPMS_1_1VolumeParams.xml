@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FillingSurface::TPMS::VolumeParams</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams" prot="public" virt="non-virtual">mrmeshpy.FillingSurface.TPMS.MeshParams</derivedcompoundref>
@@ -57,9 +57,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a4ea7d32c5ad7e525785f308d8bb8707f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a8b4f0b707c9cbb86957643e9357805a1">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ad864facb1021d68f65e098a5ccef2d3b">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -132,9 +129,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a4ea7d32c5ad7e525785f308d8bb8707f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a8b4f0b707c9cbb86957643e9357805a1">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ad864facb1021d68f65e098a5ccef2d3b">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -153,9 +147,6 @@
         <argsstring>(self, FillingSurface.TPMS.VolumeParams arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a4ea7d32c5ad7e525785f308d8bb8707f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a8b4f0b707c9cbb86957643e9357805a1">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ad864facb1021d68f65e098a5ccef2d3b">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -180,9 +171,6 @@
         <argsstring>(self, FillingSurface.TPMS.Type type, float frequency, float resolution)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FillingSurface.TPMS.VolumeParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a4ea7d32c5ad7e525785f308d8bb8707f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a8b4f0b707c9cbb86957643e9357805a1">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ad864facb1021d68f65e098a5ccef2d3b">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -354,20 +342,6 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.FillingSurface.TPMS.VolumeParams</label>
-        <link refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_frequency</edgelabel>
-          <edgelabel>_offsetof_resolution</edgelabel>
-          <edgelabel>_offsetof_type</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19890" bodyend="19945"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a42dc2f07ed688e680ef4d3a0631cf771" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::VolumeParams</scope><name>__init__</name></member>

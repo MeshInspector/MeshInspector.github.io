@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ZeroOnMove" kind="struct" language="C++" prot="public">
     <compoundname>MR::ZeroOnMove</compoundname>
-    <includes refid="MRBuffer_8h" local="no">MRBuffer.h</includes>
+    <includes refid="MRBuffer_8h" local="no">MRMesh/MRBuffer.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -22,7 +22,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="19" bodyend="26"/>
+    <location file="MRMesh/MRBuffer.h" line="18" column="1" bodyfile="MRMesh/MRBuffer.h" bodystart="19" bodyend="26"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac3bc0c5c28107a3a11a89d8b43373be0" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga51e46bdba8b867ecd3c48d42a29c6aac" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove</scope><name>operator=</name></member>

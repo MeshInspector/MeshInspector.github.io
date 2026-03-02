@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Tgt2SrcMaps" kind="class" language="C++" prot="public">
     <compoundname>MR::Tgt2SrcMaps</compoundname>
-    <includes refid="MRPartMappingAdapters_8h" local="no">MRPartMappingAdapters.h</includes>
+    <includes refid="MRPartMappingAdapters_8h" local="no">MRMesh/MRPartMappingAdapters.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga9d1aa77a4d94484528e724c1559cc9b7" kind="variable"><name>outFmap_</name></member>
       <member refid="group__GeneralGroup_1ga2db6e54b7e0811eab2f6e7705de2c2eb" kind="variable"><name>outVmap_</name></member>
@@ -23,7 +23,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMappingAdapters.h" bodystart="34" bodyend="50"/>
+    <location file="MRMesh/MRPartMappingAdapters.h" line="33" column="1" bodyfile="MRMesh/MRPartMappingAdapters.h" bodystart="34" bodyend="50"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8266fef859ccf3d06f819a2681185063" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>getPartMapping</name></member>
       <member refid="group__GeneralGroup_1ga5dcc6532f4ca3394a1a2a5e9c50682b0" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>map_</name></member>

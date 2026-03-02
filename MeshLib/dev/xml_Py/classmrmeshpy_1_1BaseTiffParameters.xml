@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1BaseTiffParameters" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::BaseTiffParameters</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1TiffParameters" prot="public" virt="non-virtual">mrmeshpy.TiffParameters</derivedcompoundref>
@@ -106,7 +106,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__eq__</name>
         <qualifiedname>mrmeshpy.BaseTiffParameters.__eq__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1TiffParameters_1a8f0c4c531b9042105ed15f43b1116b15">__eq__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -129,9 +128,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.BaseTiffParameters.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1TiffParameters_1a8b7359e57cafc3c35dba79fb2a05bda1">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TiffParameters_1abd2bc65edbd4c83c1feb9a0f80d9c17d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TiffParameters_1a1f45c922ee0e86478df53b1824c96008">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -204,9 +200,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.BaseTiffParameters.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1TiffParameters_1a8b7359e57cafc3c35dba79fb2a05bda1">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TiffParameters_1abd2bc65edbd4c83c1feb9a0f80d9c17d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TiffParameters_1a1f45c922ee0e86478df53b1824c96008">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -225,9 +218,6 @@
         <argsstring>(self, BaseTiffParameters arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.BaseTiffParameters.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1TiffParameters_1a8b7359e57cafc3c35dba79fb2a05bda1">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TiffParameters_1abd2bc65edbd4c83c1feb9a0f80d9c17d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TiffParameters_1a1f45c922ee0e86478df53b1824c96008">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -252,9 +242,6 @@
         <argsstring>(self, BaseTiffParameters.SampleType sampleType, BaseTiffParameters.ValueType valueType, int bytesPerSample, Vector2i imageSize)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.BaseTiffParameters.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1TiffParameters_1a8b7359e57cafc3c35dba79fb2a05bda1">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TiffParameters_1abd2bc65edbd4c83c1feb9a0f80d9c17d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TiffParameters_1a1f45c922ee0e86478df53b1824c96008">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -393,32 +380,17 @@
         <label>mrmeshpy.BaseTiffParameters</label>
         <link refid="classmrmeshpy_1_1BaseTiffParameters"/>
         <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_bytesPerSample</edgelabel>
-          <edgelabel>_offsetof_imageSize</edgelabel>
-          <edgelabel>_offsetof_sampleType</edgelabel>
-          <edgelabel>_offsetof_valueType</edgelabel>
-        </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>sampleType</edgelabel>
-          <edgelabel>valueType</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>mrmeshpy.BaseTiffParameters</label>
-        <link refid="classmrmeshpy_1_1BaseTiffParameters"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_bytesPerSample</edgelabel>
-          <edgelabel>_offsetof_imageSize</edgelabel>
-          <edgelabel>_offsetof_sampleType</edgelabel>
-          <edgelabel>_offsetof_valueType</edgelabel>
-        </childnode>
-        <childnode refid="3" relation="usage">
           <edgelabel>sampleType</edgelabel>
           <edgelabel>valueType</edgelabel>
         </childnode>
       </node>
       <node id="2">
-        <label>typing</label>
+        <label>mrmeshpy.BaseTiffParameters</label>
+        <link refid="classmrmeshpy_1_1BaseTiffParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>sampleType</edgelabel>
+          <edgelabel>valueType</edgelabel>
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2596" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2596" bodyend="2736"/>

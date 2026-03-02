@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshModifier" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>MR::MeshModifier</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
-    <includes refid="MRMeshModifier_8h" local="no">MRMeshModifier.h</includes>
+    <includes refid="MRMeshModifier_8h" local="no">MRViewer/MRMeshModifier.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaa035865ba9e71b7abc1e75a605a9e5c0" kind="variable"><name>tab_</name></member>
     </sectiondef>
@@ -58,7 +58,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshModifier.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshModifier.h" bodystart="14" bodyend="32"/>
+    <location file="MRViewer/MRMeshModifier.h" line="13" column="1" bodyfile="MRViewer/MRMeshModifier.h" bodystart="14" bodyend="32"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga4e1d72aa805e5b2515886bea4ad7d758" prot="public" virt="virtual"><scope>MR::MeshModifier</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::MeshModifier</scope><name>blocking</name></member>

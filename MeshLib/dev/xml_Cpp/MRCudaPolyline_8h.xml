@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCudaPolyline_8h" kind="file" language="C++">
     <compoundname>MRCudaPolyline.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -9,7 +9,7 @@
     <includes refid="MRExpected_8h" local="yes">MRMesh/MRExpected.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRCudaPolyline.h</label>
+        <label>MRCuda/MRCudaPolyline.h</label>
         <link refid="MRCudaPolyline_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -130,7 +130,7 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Cuda" kindref="compound">MR::Cuda</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="classMR_1_1Cuda_1_1Polyline2DataHolder" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Cuda_1_1Polyline2DataHolder" kindref="compound">Polyline2DataHolder</ref></highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1Cuda_1_1Polyline2DataHolder" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Cuda_1_1Polyline2DataHolder" kindref="compound">Polyline2DataHolder</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="21" refid="classMR_1_1Cuda_1_1Polyline2DataHolder_1a5ce3f1afdf8bc14fd31b7480a0ccc596" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRCUDA_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Polyline2DataHolder&gt;</ref><sp/><ref refid="classMR_1_1Cuda_1_1Polyline2DataHolder_1a5ce3f1afdf8bc14fd31b7480a0ccc596" kindref="member">fromLines</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga98da94791426a3dbbdeb1a6b25801df6" kindref="member">Polyline2</ref>&amp;<sp/>polyline<sp/>);</highlight></codeline>
@@ -148,7 +148,7 @@
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>DynamicArray&lt;int&gt;<sp/>orgs_;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="classMR_1_1Cuda_1_1Polyline3DataHolder" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Cuda_1_1Polyline3DataHolder" kindref="compound">Polyline3DataHolder</ref></highlight></codeline>
+<codeline lineno="40" refid="classMR_1_1Cuda_1_1Polyline3DataHolder" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Cuda_1_1Polyline3DataHolder" kindref="compound">Polyline3DataHolder</ref></highlight></codeline>
 <codeline lineno="41"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="45" refid="classMR_1_1Cuda_1_1Polyline3DataHolder_1a809a8c50767809df58a829b7d57f812c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRCUDA_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Polyline3DataHolder&gt;</ref><sp/><ref refid="classMR_1_1Cuda_1_1Polyline3DataHolder_1a809a8c50767809df58a829b7d57f812c" kindref="member">fromLines</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;<sp/>polyline<sp/>);</highlight></codeline>
@@ -166,10 +166,10 @@
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>DynamicArray&lt;int&gt;<sp/>orgs_;</highlight></codeline>
 <codeline lineno="61"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h"/>
+    <location file="MRCuda/MRCudaPolyline.h"/>
   </compounddef>
 </doxygen>

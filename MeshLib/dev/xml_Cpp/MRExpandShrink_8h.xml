@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRExpandShrink_8h" kind="file" language="C++">
     <compoundname>MRExpandShrink.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -11,7 +11,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRExpandShrink.h</label>
+        <label>MRMesh/MRExpandShrink.h</label>
         <link refid="MRExpandShrink_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -97,8 +97,8 @@
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35" refid="group__GeneralGroup_1ga7ac9f72415af14442abb77b79c689de8" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga7ac9f72415af14442abb77b79c689de8" kindref="member">getBoundaryFaces</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet<sp/>&amp;<sp/>region<sp/>);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRExpandShrink.h"/>
+    <location file="MRMesh/MRExpandShrink.h"/>
   </compounddef>
 </doxygen>

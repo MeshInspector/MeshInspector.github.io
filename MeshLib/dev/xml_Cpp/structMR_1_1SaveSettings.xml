@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SaveSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::SaveSettings</compoundname>
     <derivedcompoundref refid="structMR_1_1MeshSave_1_1CtmSaveOptions" prot="public" virt="non-virtual">MR::MeshSave::CtmSaveOptions</derivedcompoundref>
     <derivedcompoundref refid="structMR_1_1PointsSave_1_1CtmSavePointsOptions" prot="public" virt="non-virtual">MR::PointsSave::CtmSavePointsOptions</derivedcompoundref>
-    <includes refid="MRSaveSettings_8h" local="no">MRSaveSettings.h</includes>
+    <includes refid="MRSaveSettings_8h" local="no">MRMesh/MRSaveSettings.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga88539fbafc85e15a6dbc49b2b3144a15" kind="variable"><name>onlyValidPoints</name></member>
       <member refid="group__GeneralGroup_1gaf59abe4d1987a4ccd1c117cfe7f3c160" kind="variable"><name>packPrimitives</name></member>
@@ -61,7 +61,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="20" bodyend="62"/>
+    <location file="MRMesh/MRSaveSettings.h" line="19" column="1" bodyfile="MRMesh/MRSaveSettings.h" bodystart="20" bodyend="62"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga6aa78ab8ac3342aaeb267aa07e82721a" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>colors</name></member>
       <member refid="group__GeneralGroup_1ga1b152fd38e636ee6803cabaac71794cc" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>lengthUnit</name></member>

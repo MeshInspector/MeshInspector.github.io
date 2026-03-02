@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PositionedText" kind="struct" language="C++" prot="public">
     <compoundname>MR::PositionedText</compoundname>
-    <includes refid="MRPositionedText_8h" local="no">MRPositionedText.h</includes>
+    <includes refid="MRPositionedText_8h" local="no">MRMesh/MRPositionedText.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga0361f418c9fa0c8257d7148d219fe4c6" kind="variable"><name>text</name></member>
       <member refid="group__GeneralGroup_1gadf395638da1f3aeb90c01d197a2cf0e0" kind="variable"><name>position</name></member>
@@ -16,7 +16,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionedText.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionedText.h" bodystart="13" bodyend="21"/>
+    <location file="MRMesh/MRPositionedText.h" line="12" column="1" bodyfile="MRMesh/MRPositionedText.h" bodystart="13" bodyend="21"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa430fb4a7ceafb3eb18505b07dcd5273" prot="public" virt="non-virtual"><scope>MR::PositionedText</scope><name>operator==</name></member>
       <member refid="group__GeneralGroup_1gadf395638da1f3aeb90c01d197a2cf0e0" prot="public" virt="non-virtual"><scope>MR::PositionedText</scope><name>position</name></member>

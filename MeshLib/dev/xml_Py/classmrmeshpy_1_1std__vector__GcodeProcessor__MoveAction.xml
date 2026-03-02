@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1std__vector__GcodeProcessor__MoveAction" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::std_vector_GcodeProcessor_MoveAction</compoundname>
     <sectiondef kind="private-static-attrib">
@@ -712,18 +712,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.std_vector_GcodeProcessor_MoveAction</label>
-        <link refid="classmrmeshpy_1_1std__vector__GcodeProcessor__MoveAction"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>element_type_byte_size</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82793" bodyend="82904"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1std__vector__GcodeProcessor__MoveAction_1a46f5b81b7360c82fee40b0d0cd9ee5dd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_GcodeProcessor_MoveAction</scope><name>__bool__</name></member>

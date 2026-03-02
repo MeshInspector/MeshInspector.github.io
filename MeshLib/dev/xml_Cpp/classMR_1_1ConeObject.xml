@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ConeObject" kind="class" language="C++" prot="public">
     <compoundname>MR::ConeObject</compoundname>
     <basecompoundref refid="classMR_1_1AddVisualProperties" prot="public" virt="non-virtual">MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter, DimensionsVisualizePropertyType::angle, DimensionsVisualizePropertyType::length &gt;</basecompoundref>
-    <includes refid="MRConeObject_8h" local="no">MRConeObject.h</includes>
+    <includes refid="MRConeObject_8h" local="no">MRMesh/MRConeObject.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga29d0a508f5ebb88aed983d2e80ca3504" kind="function"><name>ConeObject</name></member>
       <member refid="group__GeneralGroup_1gae667dd5648b8eaf7454d9a2541d92a32" kind="function"><name>ConeObject</name></member>
@@ -198,7 +198,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" bodystart="22" bodyend="99"/>
+    <location file="MRMesh/MRConeObject.h" line="17" column="1" bodyfile="MRMesh/MRConeObject.h" bodystart="22" bodyend="99"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>addChildBefore</name></member>

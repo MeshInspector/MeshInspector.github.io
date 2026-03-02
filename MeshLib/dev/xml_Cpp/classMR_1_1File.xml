@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1File" kind="class" language="C++" prot="public">
     <compoundname>MR::File</compoundname>
-    <includes refid="MRFile_8h" local="no">MRFile.h</includes>
+    <includes refid="MRFile_8h" local="no">MRMesh/MRFile.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaee2e9cc3c9bd652293c52707b1f68f18" kind="variable"><name>handle_</name></member>
     </sectiondef>
@@ -25,7 +25,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" bodystart="19" bodyend="42"/>
+    <location file="MRMesh/MRFile.h" line="18" column="1" bodyfile="MRMesh/MRFile.h" bodystart="19" bodyend="42"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1da05c5461ae76cfb46367697be9f18e" prot="public" virt="non-virtual"><scope>MR::File</scope><name>attach</name></member>
       <member refid="group__GeneralGroup_1ga145a85aba4ff2da4c73891332356102a" prot="public" virt="non-virtual"><scope>MR::File</scope><name>close</name></member>

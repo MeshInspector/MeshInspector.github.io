@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRGridSettings_8h" kind="file" language="C++">
     <compoundname>MRGridSettings.h</compoundname>
     <includes refid="MRVector2_8h" local="no">MRCMesh/MRVector2.h</includes>
@@ -117,45 +117,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRGridSettings_8h_1ac3b408307603e915fb9df60a6981b582" prot="public" static="no">
-        <type>struct <ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref></type>
-        <definition>typedef struct MR_BMap_MR_FaceId_uint64_t MR_BMap_MR_FaceId_uint64_t</definition>
-        <argsstring></argsstring>
-        <name>MR_BMap_MR_FaceId_uint64_t</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="13" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRGridSettings_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" prot="public" static="no">
-        <type>struct <ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref></type>
-        <definition>typedef struct MR_BMap_MR_UndirectedEdgeId_uint64_t MR_BMap_MR_UndirectedEdgeId_uint64_t</definition>
-        <argsstring></argsstring>
-        <name>MR_BMap_MR_UndirectedEdgeId_uint64_t</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="14" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRGridSettings_8h_1a7f5f03336386d65f3e0804994394713e" prot="public" static="no">
-        <type>struct <ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref></type>
-        <definition>typedef struct MR_BMap_MR_VertId_uint64_t MR_BMap_MR_VertId_uint64_t</definition>
-        <argsstring></argsstring>
-        <name>MR_BMap_MR_VertId_uint64_t</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="15" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRGridSettings_8h_1ae3c511aee8952cf05f248dd162b3ddb2" prot="public" static="no">
         <type>enum <ref refid="MRGridSettings_8h_1aaa9624438105f4572d37fa0b0be8840e" kindref="member">MR_GridSettings_EdgeType</ref></type>
         <definition>typedef enum MR_GridSettings_EdgeType MR_GridSettings_EdgeType</definition>
@@ -595,7 +556,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_GridSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -613,7 +574,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_GridSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -665,9 +626,9 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRGridSettings_8h_1ac3b408307603e915fb9df60a6981b582" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref><sp/><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBuffer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRGridSettings_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref><sp/><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBuffer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRGridSettings_8h_1a7f5f03336386d65f3e0804994394713e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref><sp/><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBuffer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref><sp/><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBuffer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref><sp/><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBuffer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref><sp/><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBuffer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="MRGridSettings_8h_1aaa9624438105f4572d37fa0b0be8840e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1aaa9624438105f4572d37fa0b0be8840e" kindref="member">MR_GridSettings_EdgeType</ref></highlight></codeline>
@@ -690,7 +651,7 @@
 <codeline lineno="35" refid="MRGridSettings_8h_1a67dfa26a9268fcb75419dba0e0247ecead0ae47796f0485f9f765e4e852366de2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRGridSettings_8h_1a67dfa26a9268fcb75419dba0e0247ecead0ae47796f0485f9f765e4e852366de2" kindref="member">MR_GridSettings_TriType_Upper</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="36" refid="MRGridSettings_8h_1a7a393df8efcc2bc97f02f376b197a66b" refkind="member"><highlight class="normal">}<sp/><ref refid="MRGridSettings_8h_1a67dfa26a9268fcb75419dba0e0247ece" kindref="member">MR_GridSettings_TriType</ref>;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref>;</highlight></codeline>
+<codeline lineno="41" refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref>;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="49" refid="MRGridSettings_8h_1ab2837951c78644b63d62e291f5b20e98" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRGridSettings_8h_1ab2837951c78644b63d62e291f5b20e98" kindref="member">MR_GridSettings_Get_dim</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>

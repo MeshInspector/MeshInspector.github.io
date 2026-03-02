@@ -1,14 +1,9 @@
 var MROutlierPoints_8h =
 [
-    [ "MR_expected_MR_VertBitSet_std_string", "MROutlierPoints_8h.html#ad28f0eefdef309c3ac3580e15985c342", null ],
-    [ "MR_expected_void_std_string", "MROutlierPoints_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
     [ "MR_FindOutliersParams", "MROutlierPoints_8h.html#a6ae2a5939728f4964a916974ab90e4e1", null ],
     [ "MR_OutlierParams", "MROutlierPoints_8h.html#ab39fb48c85375ff45ee9280fe69ffb33", null ],
     [ "MR_OutliersDetector", "MROutlierPoints_8h.html#aed90ec091f4cad4120e2fa4dcadba078", null ],
     [ "MR_OutlierTypeMask", "MROutlierPoints_8h.html#a996f841f3a78fded10ee376405ede190", null ],
-    [ "MR_PointCloud", "MROutlierPoints_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
-    [ "MR_std_function_bool_from_float", "MROutlierPoints_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_vector_unsigned_char", "MROutlierPoints_8h.html#a7f6e3e5252ba136468a252fb7a041661", null ],
     [ "MR_OutlierTypeMask", "MROutlierPoints_8h.html#a818cafa3e3769392d17e6dea349016b4", [
       [ "MR_OutlierTypeMask_SmallComponents", "MROutlierPoints_8h.html#a818cafa3e3769392d17e6dea349016b4a49a11635b6ea1e1d23cb402722ccafa7", null ],
       [ "MR_OutlierTypeMask_WeaklyConnected", "MROutlierPoints_8h.html#a818cafa3e3769392d17e6dea349016b4aa2e0ab008d2928378827c29dec298d18", null ],

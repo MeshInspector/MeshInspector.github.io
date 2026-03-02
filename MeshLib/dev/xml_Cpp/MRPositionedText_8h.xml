@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPositionedText_8h" kind="file" language="C++">
     <compoundname>MRPositionedText.h</compoundname>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
     <includes local="no">string</includes>
-    <includedby refid="MRAncillaryLabels_8h" local="yes">MRAncillaryLabels.h</includedby>
-    <includedby refid="MRChangeLabelAction_8h" local="yes">MRChangeLabelAction.h</includedby>
-    <includedby refid="MRObjectLabel_8h" local="yes">MRObjectLabel.h</includedby>
+    <includedby refid="MRChangeLabelAction_8h" local="yes">MRSymbolMesh/MRChangeLabelAction.h</includedby>
+    <includedby refid="MRObjectLabel_8h" local="yes">MRSymbolMesh/MRObjectLabel.h</includedby>
+    <includedby refid="MRAncillaryLabels_8h" local="yes">MRViewer/MRAncillaryLabels.h</includedby>
     <incdepgraph>
       <node id="10">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -46,7 +46,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPositionedText.h</label>
+        <label>MRMesh/MRPositionedText.h</label>
         <link refid="MRPositionedText_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -136,7 +136,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRPositionedText.h</label>
+        <label>MRMesh/MRPositionedText.h</label>
         <link refid="MRPositionedText_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -145,18 +145,18 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRChangeLabelAction.h</label>
+      <node id="2">
+        <label>MRSymbolMesh/MRChangeLabelAction.h</label>
         <link refid="MRChangeLabelAction_8h"/>
       </node>
-      <node id="4">
-        <label>MRObjectLabel.h</label>
+      <node id="3">
+        <label>MRSymbolMesh/MRObjectLabel.h</label>
         <link refid="MRObjectLabel_8h"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRAncillaryLabels.h</label>
+      <node id="4">
+        <label>MRViewer/MRAncillaryLabels.h</label>
         <link refid="MRAncillaryLabels_8h"/>
       </node>
     </invincdepgraph>
@@ -176,7 +176,7 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="structMR_1_1PositionedText" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref></highlight></codeline>
+<codeline lineno="12" refid="structMR_1_1PositionedText" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gacc622ad7b3847f83e8d5d6f92dd0ed0a" kindref="member">PositionedText</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14" refid="group__GeneralGroup_1gacc622ad7b3847f83e8d5d6f92dd0ed0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gacc622ad7b3847f83e8d5d6f92dd0ed0a" kindref="member">PositionedText</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1ga362e71ee7a4c24ff0ca9f4dce5d43fa1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga362e71ee7a4c24ff0ca9f4dce5d43fa1" kindref="member">PositionedText</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="group__GeneralGroup_1ga0361f418c9fa0c8257d7148d219fe4c6" kindref="member">text</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="group__GeneralGroup_1gadf395638da1f3aeb90c01d197a2cf0e0" kindref="member">position</ref><sp/>)<sp/>:<sp/><ref refid="group__GeneralGroup_1ga0361f418c9fa0c8257d7148d219fe4c6" kindref="member">text</ref>{<ref refid="group__GeneralGroup_1ga0361f418c9fa0c8257d7148d219fe4c6" kindref="member">text</ref>},<sp/><ref refid="group__GeneralGroup_1gadf395638da1f3aeb90c01d197a2cf0e0" kindref="member">position</ref>{<ref refid="group__GeneralGroup_1gadf395638da1f3aeb90c01d197a2cf0e0" kindref="member">position</ref>}{}</highlight></codeline>
@@ -184,13 +184,13 @@
 <codeline lineno="17" refid="group__GeneralGroup_1ga0361f418c9fa0c8257d7148d219fe4c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga0361f418c9fa0c8257d7148d219fe4c6" kindref="member">text</ref>;</highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1gadf395638da1f3aeb90c01d197a2cf0e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gadf395638da1f3aeb90c01d197a2cf0e0" kindref="member">position</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1gaa430fb4a7ceafb3eb18505b07dcd5273" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa430fb4a7ceafb3eb18505b07dcd5273" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gaa430fb4a7ceafb3eb18505b07dcd5273" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa430fb4a7ceafb3eb18505b07dcd5273" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacc622ad7b3847f83e8d5d6f92dd0ed0a" kindref="member">PositionedText</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">MeshLabel<sp/>[[deprecated]]<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>=<sp/><ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionedText.h"/>
+    <location file="MRMesh/MRPositionedText.h"/>
   </compounddef>
 </doxygen>

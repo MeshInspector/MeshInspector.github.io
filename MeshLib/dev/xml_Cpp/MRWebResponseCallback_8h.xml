@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRWebResponseCallback_8h" kind="file" language="C++">
     <compoundname>MRWebResponseCallback.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes local="no">json/forwards.h</includes>
-    <includedby refid="MRWebRequest_8h" local="yes">MRWebRequest.h</includedby>
+    <includedby refid="MRWebRequest_8h" local="yes">MRViewer/MRWebRequest.h</includedby>
     <incdepgraph>
       <node id="7">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -55,7 +55,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRWebResponseCallback.h</label>
+        <label>MRViewer/MRWebResponseCallback.h</label>
         <link refid="MRWebResponseCallback_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -96,11 +96,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRWebRequest.h</label>
+        <label>MRViewer/MRWebRequest.h</label>
         <link refid="MRWebRequest_8h"/>
       </node>
       <node id="1">
-        <label>MRWebResponseCallback.h</label>
+        <label>MRViewer/MRWebResponseCallback.h</label>
         <link refid="MRWebResponseCallback_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -123,8 +123,8 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12" refid="group__GeneralGroup_1gaa81b46bc5e733f50fb93fe00f095b2f8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaa81b46bc5e733f50fb93fe00f095b2f8" kindref="member">WebResponseCallback</ref><sp/>=<sp/>std::function&lt;void(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>response<sp/>)&gt;;</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebResponseCallback.h"/>
+    <location file="MRViewer/MRWebResponseCallback.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPolylineToVoxels_8h" kind="file" language="C++">
     <compoundname>MRPolylineToVoxels.h</compoundname>
     <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
@@ -106,45 +106,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref></type>
-        <definition>typedef struct MR_DistanceToMeshOptions MR_DistanceToMeshOptions</definition>
-        <argsstring></argsstring>
-        <name>MR_DistanceToMeshOptions</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref></type>
-        <definition>typedef struct MR_DistanceVolumeParams MR_DistanceVolumeParams</definition>
-        <argsstring></argsstring>
-        <name>MR_DistanceVolumeParams</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="15" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref></type>
-        <definition>typedef struct MR_Polyline3 MR_Polyline3</definition>
-        <argsstring></argsstring>
-        <name>MR_Polyline3</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="16" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" prot="public" static="no">
         <type>struct <ref refid="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" kindref="member">MR_expected_MR_FloatGrid_std_string</ref></type>
         <definition>typedef struct MR_expected_MR_FloatGrid_std_string MR_expected_MR_FloatGrid_std_string</definition>
@@ -171,19 +132,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="18" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="18" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" prot="public" static="no">
-        <type>struct <ref refid="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_SimpleVolume_std_string MR_expected_MR_SimpleVolume_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_SimpleVolume_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="19" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" prot="public" static="no">
         <type>struct <ref refid="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" kindref="member">MR_expected_MR_VdbVolume_std_string</ref></type>
         <definition>typedef struct MR_expected_MR_VdbVolume_std_string MR_expected_MR_VdbVolume_std_string</definition>
@@ -196,19 +144,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="20" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" line="21" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPolylineToVoxels.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" prot="public" static="no">
         <type>struct <ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref></type>
@@ -683,7 +618,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PolylineToDistanceVolumeParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -701,7 +636,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PolylineToDistanceVolumeParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1036,7 +971,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PolylineToVolumeParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1054,7 +989,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PolylineToVolumeParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1151,19 +1086,19 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRPolylineToVoxels_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceToMeshOptions.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRPolylineToVoxels_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRDistanceVolumeParams.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRPolylineToVoxels_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceToMeshOptions.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRDistanceVolumeParams.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" kindref="member">MR_expected_MR_FloatGrid_std_string</ref><sp/><ref refid="MRPolylineToVoxels_8h_1ad964a22a5f428efbf66fb45d2d17ed82" kindref="member">MR_expected_MR_FloatGrid_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_FloatGrid_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="MRPolylineToVoxels_8h_1a6d763aded740c8f4a904266815282341" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineToVoxels_8h_1a6d763aded740c8f4a904266815282341" kindref="member">MR_expected_MR_FunctionVolume_std_string</ref><sp/><ref refid="MRPolylineToVoxels_8h_1a6d763aded740c8f4a904266815282341" kindref="member">MR_expected_MR_FunctionVolume_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_FunctionVolume_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRPolylineToVoxels_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref><sp/><ref refid="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_SimpleVolume_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref><sp/><ref refid="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_SimpleVolume_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" kindref="member">MR_expected_MR_VdbVolume_std_string</ref><sp/><ref refid="MRPolylineToVoxels_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" kindref="member">MR_expected_MR_VdbVolume_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_VdbVolume_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRPolylineToVoxels_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref>;</highlight></codeline>
+<codeline lineno="26" refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref>;</highlight></codeline>
+<codeline lineno="31" refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref><sp/><ref refid="MRPolylineToVoxels_8h_1a3251850bdaa632f44f6046b2db9b6c6b" kindref="member">MR_PolylineToVolumeParams</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37" refid="MRPolylineToVoxels_8h_1ae8ce71a1fd6806c753a824ca5bf82e31" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1ae8ce71a1fd6806c753a824ca5bf82e31" kindref="member">MR_PolylineToDistanceVolumeParams_Get_voxelSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
@@ -1177,22 +1112,22 @@
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="69" refid="MRPolylineToVoxels_8h_1aeaced75e2ec048f127ed915580bf8f59" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineToVoxels_8h_1aeaced75e2ec048f127ed915580bf8f59" kindref="member">MR_PolylineToDistanceVolumeParams_GetMutable_offsetCount</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//<sp/>line<sp/>initial<sp/>transform</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//<sp/>line<sp/>initial<sp/>transform</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="76" refid="MRPolylineToVoxels_8h_1ab8ec1bb711b1959add86c9f6d4651e2c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1ab8ec1bb711b1959add86c9f6d4651e2c" kindref="member">MR_PolylineToDistanceVolumeParams_Get_worldXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">//<sp/>line<sp/>initial<sp/>transform</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">//<sp/>line<sp/>initial<sp/>transform</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="83" refid="MRPolylineToVoxels_8h_1ae4293606829302990ac89e80410457f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1ae4293606829302990ac89e80410457f1" kindref="member">MR_PolylineToDistanceVolumeParams_Set_worldXf</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>value);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//<sp/>line<sp/>initial<sp/>transform</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//<sp/>line<sp/>initial<sp/>transform</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="90" refid="MRPolylineToVoxels_8h_1a45828c70842a8d2be6ee31330a701008" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a45828c70842a8d2be6ee31330a701008" kindref="member">MR_PolylineToDistanceVolumeParams_GetMutable_worldXf</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>output:<sp/>xf<sp/>to<sp/>original<sp/>mesh<sp/>(respecting<sp/>worldXf)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>output:<sp/>xf<sp/>to<sp/>original<sp/>mesh<sp/>(respecting<sp/>worldXf)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="97" refid="MRPolylineToVoxels_8h_1a7c544170ec371339e5ce89a75b76e177" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineToVoxels_8h_1a7c544170ec371339e5ce89a75b76e177" kindref="member">MR_PolylineToDistanceVolumeParams_Get_outXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>output:<sp/>xf<sp/>to<sp/>original<sp/>mesh<sp/>(respecting<sp/>worldXf)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>output:<sp/>xf<sp/>to<sp/>original<sp/>mesh<sp/>(respecting<sp/>worldXf)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="104" refid="MRPolylineToVoxels_8h_1ac5ea8bd6da3a44316b405d199aaf79d9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1ac5ea8bd6da3a44316b405d199aaf79d9" kindref="member">MR_PolylineToDistanceVolumeParams_Set_outXf</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>output:<sp/>xf<sp/>to<sp/>original<sp/>mesh<sp/>(respecting<sp/>worldXf)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>output:<sp/>xf<sp/>to<sp/>original<sp/>mesh<sp/>(respecting<sp/>worldXf)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="111" refid="MRPolylineToVoxels_8h_1af3d83a9f38c0ff56fe9bd9311cb2b45a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRPolylineToVoxels_8h_1af3d83a9f38c0ff56fe9bd9311cb2b45a" kindref="member">MR_PolylineToDistanceVolumeParams_GetMutable_outXf</ref>(<ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
 <codeline lineno="117" refid="MRPolylineToVoxels_8h_1a496561ed4572996f0ae351b9d3f987f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPolylineToVoxels_8h_1a496561ed4572996f0ae351b9d3f987f1" kindref="member">MR_PolylineToDistanceVolumeParams_Get_cb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineToVoxels_8h_1a1e139f346b0d12414ed3c4ab8b50c1f9" kindref="member">MR_PolylineToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>

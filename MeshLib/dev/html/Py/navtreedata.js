@@ -303,23 +303,16 @@ var NAVTREEINDEX =
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__FloatGrid__std__string.html#acc8c158761deaabfa8a8855408761dd6",
 "classmrmeshpy_1_1std__vector__unsigned__short.html#ae2767e31b3f91218dfc777a4faef896d",
 "classmrviewerpy_1_1ViewportFitMode.html#a1437642b98d6cea1eac5397d00e6421b",
-"mrmeshpy_8pyi.html#a0daa7e0ef8a1a78afa948faa72100ef1",
-"mrmeshpy_8pyi.html#a345f1304f7d263b6cdb2f7ea30b99b72",
-"mrmeshpy_8pyi.html#a52de46e6ac4d8b3634b09208262a13b0",
-"mrmeshpy_8pyi.html#a77f346e104ce23605e1e780a6467907f",
-"mrmeshpy_8pyi.html#a9d1a1992f1511b1f3932e40551bc8793",
-"mrmeshpy_8pyi.html#abed911a79523ef3d9091cfb33bf07497",
-"mrmeshpy_8pyi.html#aded961acb20f501c0f23e04a35c18754",
-"mrviewerpy_8pyi.html#a5c2b587a3767681f8880428674f8b83a",
-"namespacemrmeshpy.html#a113ad4c057f63477f35bbcda637fed4f",
-"namespacemrmeshpy.html#a3724d61e2b10d9464fbc34f14df1fd08",
-"namespacemrmeshpy.html#a551d68820fc6ab3fc2c466d4a67a2f17",
-"namespacemrmeshpy.html#a7aef7c408b25b2a970143c0744bddd82",
-"namespacemrmeshpy.html#a9ee9db1c708deb83523a679ec304db17",
-"namespacemrmeshpy.html#ac045bbed791b84e9229603f4adf6ae51",
-"namespacemrmeshpy.html#ae1b9cafee0537610d49df249e78fde27",
-"namespacemrviewerpy.html#ad723a9f8a820b28c207c7fd920f3f84f"
+"namespacemrmeshpy.html#a039556a42cb804cf1b349ae4645fed00",
+"namespacemrmeshpy.html#a29bfff9d138ffe3f98ac542f088006a0",
+"namespacemrmeshpy.html#a4af72f5b670df357eb00e9990fc92be0",
+"namespacemrmeshpy.html#a6cfa3c663f1a2efd249202ede8ab0d26",
+"namespacemrmeshpy.html#a9206f1f51d3ee008d85f613994353866",
+"namespacemrmeshpy.html#ab4b3c674e63d66aae7cb979c49784de5",
+"namespacemrmeshpy.html#ad41ac0c78aa4ed42cc43a194f4e5de41",
+"namespacemrmeshpy.html#af6f0bc49eb3905032886e0034bc279b1"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'click to disable panel synchronization';
+var SYNCOFFMSG = 'click to enable panel synchronization';
+var LISTOFALLMEMBERS = 'List of all members';

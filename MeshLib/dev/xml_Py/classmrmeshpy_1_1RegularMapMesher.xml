@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1RegularMapMesher" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::RegularMapMesher</compoundname>
     <sectiondef kind="public-static-func">
@@ -256,7 +256,8 @@
  \\details distance for each lattice of map is defined as 
  point on ray from surface point cloud to direction point cloud,
  with length equal to 1/distance from distances file 
- (if distance in file == 0 ray had no point) </verbatim> </para>
+ (if distance in file == 0 ray had no point) 
+</verbatim> </para>
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50002" bodyend="50053"/>
     <listofallmembers>

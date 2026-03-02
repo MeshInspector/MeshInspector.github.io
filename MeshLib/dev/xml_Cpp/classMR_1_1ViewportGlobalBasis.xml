@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewportGlobalBasis" kind="class" language="C++" prot="public">
     <compoundname>MR::ViewportGlobalBasis</compoundname>
-    <includes refid="MRViewportGlobalBasis_8h" local="no">MRViewportGlobalBasis.h</includes>
+    <includes refid="MRViewportGlobalBasis_8h" local="no">MRViewer/MRViewportGlobalBasis.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga1b9151f737d72a760d8b3032f7e69c86" kind="variable"><name>axes_</name></member>
       <member refid="group__GeneralGroup_1ga76f2c5c39ce855bbb3d28920c255d1ea" kind="variable"><name>grids_</name></member>
@@ -38,7 +38,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGlobalBasis.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGlobalBasis.h" bodystart="15" bodyend="69"/>
+    <location file="MRViewer/MRViewportGlobalBasis.h" line="14" column="1" bodyfile="MRViewer/MRViewportGlobalBasis.h" bodystart="15" bodyend="69"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1b9151f737d72a760d8b3032f7e69c86" prot="private" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>axes_</name></member>
       <member refid="group__GeneralGroup_1gaed207e94eca73fe32d328d00a623e80e" prot="public" virt="non-virtual"><scope>MR::ViewportGlobalBasis</scope><name>axesChildren</name></member>

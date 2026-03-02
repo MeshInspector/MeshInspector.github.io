@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1UnorientedTriangle" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::UnorientedTriangle</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -297,18 +297,6 @@ describes a triangle as three vertex IDs sorted in a way to quickly find same tr
 irrespective of vertex order (clockwise or counterclockwise)
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.UnorientedTriangle</label>
-        <link refid="classmrmeshpy_1_1UnorientedTriangle"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_verts</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61111" bodyend="61157"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1UnorientedTriangle_1a7f63766c1b07f99cc9fd15fc66f883f3" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>__eq__</name></member>

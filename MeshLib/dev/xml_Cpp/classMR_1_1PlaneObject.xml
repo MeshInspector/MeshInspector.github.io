@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PlaneObject" kind="class" language="C++" prot="public">
     <compoundname>MR::PlaneObject</compoundname>
     <basecompoundref refid="classMR_1_1FeatureObject" prot="public" virt="non-virtual">MR::FeatureObject</basecompoundref>
-    <includes refid="MRPlaneObject_8h" local="no">MRPlaneObject.h</includes>
+    <includes refid="MRPlaneObject_8h" local="no">MRMesh/MRPlaneObject.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gab35aa183bd33b809948695986c906b8b" kind="function"><name>PlaneObject</name></member>
       <member refid="group__GeneralGroup_1gac490d1ca94320ab2f54d3d9bcb3f8a9b" kind="function"><name>PlaneObject</name></member>
@@ -188,7 +188,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPlaneObject.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPlaneObject.h" bodystart="15" bodyend="92"/>
+    <location file="MRMesh/MRPlaneObject.h" line="14" column="1" bodyfile="MRMesh/MRPlaneObject.h" bodystart="15" bodyend="92"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::PlaneObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::PlaneObject</scope><name>addChildBefore</name></member>

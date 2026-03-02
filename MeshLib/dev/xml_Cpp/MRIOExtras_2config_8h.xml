@@ -1,70 +1,70 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRIOExtras_2config_8h" kind="file" language="C++">
-    <compoundname>MRIOExtras/config.h</compoundname>
-    <includedby refid="MR3mf_8h" local="yes">MR3mf.h</includedby>
-    <includedby refid="MRCtm_8h" local="yes">MRCtm.h</includedby>
-    <includedby refid="MRE57_8h" local="yes">MRE57.h</includedby>
-    <includedby refid="MRGltf_8h" local="yes">MRGltf.h</includedby>
-    <includedby refid="MRJpeg_8h" local="yes">MRJpeg.h</includedby>
-    <includedby refid="MRLas_8h" local="yes">MRLas.h</includedby>
-    <includedby refid="MRPdf_8h" local="yes">MRPdf.h</includedby>
-    <includedby refid="MRPng_8h" local="yes">MRPng.h</includedby>
-    <includedby refid="MRStep_8h" local="yes">MRStep.h</includedby>
-    <includedby refid="MRSvg_8h" local="yes">MRSvg.h</includedby>
-    <includedby refid="MRTiff_8h" local="yes">MRTiff.h</includedby>
-    <includedby refid="MRZlib_8h" local="yes">MRZlib.h</includedby>
+    <compoundname>config.h</compoundname>
+    <includedby refid="MR3mf_8h" local="yes">MRIOExtras/MR3mf.h</includedby>
+    <includedby refid="MRCtm_8h" local="yes">MRIOExtras/MRCtm.h</includedby>
+    <includedby refid="MRE57_8h" local="yes">MRIOExtras/MRE57.h</includedby>
+    <includedby refid="MRGltf_8h" local="yes">MRIOExtras/MRGltf.h</includedby>
+    <includedby refid="MRJpeg_8h" local="yes">MRIOExtras/MRJpeg.h</includedby>
+    <includedby refid="MRLas_8h" local="yes">MRIOExtras/MRLas.h</includedby>
+    <includedby refid="MRPdf_8h" local="yes">MRIOExtras/MRPdf.h</includedby>
+    <includedby refid="MRPng_8h" local="yes">MRIOExtras/MRPng.h</includedby>
+    <includedby refid="MRStep_8h" local="yes">MRIOExtras/MRStep.h</includedby>
+    <includedby refid="MRSvg_8h" local="yes">MRIOExtras/MRSvg.h</includedby>
+    <includedby refid="MRTiff_8h" local="yes">MRIOExtras/MRTiff.h</includedby>
+    <includedby refid="MRZlib_8h" local="yes">MRIOExtras/MRZlib.h</includedby>
     <invincdepgraph>
       <node id="2">
-        <label>MR3mf.h</label>
+        <label>MRIOExtras/MR3mf.h</label>
         <link refid="MR3mf_8h"/>
       </node>
       <node id="3">
-        <label>MRCtm.h</label>
+        <label>MRIOExtras/MRCtm.h</label>
         <link refid="MRCtm_8h"/>
       </node>
       <node id="4">
-        <label>MRE57.h</label>
+        <label>MRIOExtras/MRE57.h</label>
         <link refid="MRE57_8h"/>
       </node>
       <node id="5">
-        <label>MRGltf.h</label>
+        <label>MRIOExtras/MRGltf.h</label>
         <link refid="MRGltf_8h"/>
       </node>
       <node id="6">
-        <label>MRJpeg.h</label>
+        <label>MRIOExtras/MRJpeg.h</label>
         <link refid="MRJpeg_8h"/>
       </node>
       <node id="7">
-        <label>MRLas.h</label>
+        <label>MRIOExtras/MRLas.h</label>
         <link refid="MRLas_8h"/>
       </node>
       <node id="8">
-        <label>MRPdf.h</label>
+        <label>MRIOExtras/MRPdf.h</label>
         <link refid="MRPdf_8h"/>
       </node>
       <node id="9">
-        <label>MRPng.h</label>
+        <label>MRIOExtras/MRPng.h</label>
         <link refid="MRPng_8h"/>
       </node>
       <node id="10">
-        <label>MRStep.h</label>
+        <label>MRIOExtras/MRStep.h</label>
         <link refid="MRStep_8h"/>
       </node>
       <node id="11">
-        <label>MRSvg.h</label>
+        <label>MRIOExtras/MRSvg.h</label>
         <link refid="MRSvg_8h"/>
       </node>
       <node id="12">
-        <label>MRTiff.h</label>
+        <label>MRIOExtras/MRTiff.h</label>
         <link refid="MRTiff_8h"/>
       </node>
       <node id="13">
-        <label>MRZlib.h</label>
+        <label>MRIOExtras/MRZlib.h</label>
         <link refid="MRZlib_8h"/>
       </node>
       <node id="1">
-        <label>config.h</label>
+        <label>MRIOExtras/config.h</label>
         <link refid="MRIOExtras_2config_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -104,6 +104,6 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;config_cmake.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/config.h"/>
+    <location file="MRIOExtras/config.h"/>
   </compounddef>
 </doxygen>

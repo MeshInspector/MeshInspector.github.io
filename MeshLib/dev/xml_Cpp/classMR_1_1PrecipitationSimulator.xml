@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PrecipitationSimulator" kind="class" language="C++" prot="public">
     <compoundname>MR::PrecipitationSimulator</compoundname>
-    <includes refid="MRPrecipitationSimulator_8h" local="no">MRPrecipitationSimulator.h</includes>
+    <includes refid="MRPrecipitationSimulator_8h" local="no">MRMesh/MRPrecipitationSimulator.h</includes>
     <innerclass refid="structMR_1_1PrecipitationSimulator_1_1SimulationStep" prot="public">MR::PrecipitationSimulator::SimulationStep</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga1ff436805e728c27089cf75e5d98c90f" kind="enum"><name>Event</name></member>
@@ -20,7 +20,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecipitationSimulator.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecipitationSimulator.h" bodystart="15" bodyend="43"/>
+    <location file="MRMesh/MRPrecipitationSimulator.h" line="14" column="1" bodyfile="MRMesh/MRPrecipitationSimulator.h" bodystart="15" bodyend="43"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1ff436805e728c27089cf75e5d98c90f" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>Event</name></member>
       <member refid="group__GeneralGroup_1ga40d83f299265b6f68e4560c1841eaeca" prot="private" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>heap_</name></member>

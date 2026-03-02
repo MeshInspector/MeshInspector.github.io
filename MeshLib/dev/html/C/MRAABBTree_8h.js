@@ -5,7 +5,6 @@ var MRAABBTree_8h =
     [ "MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f", "MRAABBTree_8h.html#a1393a5d741da9c6edd04b0105efe0727", null ],
     [ "MR_FaceBitSet", "MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
     [ "MR_FaceBMap", "MRAABBTree_8h.html#af977d78366b2e3f513265191e2207539", null ],
-    [ "MR_Mesh", "MRAABBTree_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_MeshPart", "MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
     [ "MR_NodeBitSet", "MRAABBTree_8h.html#aa94c1c7260ea012c8bea78aa4477d504", null ],
     [ "MR_std_vector_MR_NodeId", "MRAABBTree_8h.html#a1158aa6b6ad18c6b9a857e3db9a7722a", null ],

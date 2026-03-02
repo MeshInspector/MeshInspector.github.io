@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ModalDialogSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::ModalDialogSettings</compoundname>
-    <includes refid="MRModalDialog_8h" local="no">MRModalDialog.h</includes>
+    <includes refid="MRModalDialog_8h" local="no">MRViewer/MRModalDialog.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaff877b60069cbba358ec18108751d01b" kind="variable"><name>windowWidth</name></member>
       <member refid="group__GeneralGroup_1gaf4bb1e08280d27647734c03a24b716e5" kind="variable"><name>headline</name></member>
@@ -17,7 +17,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" bodystart="16" bodyend="33"/>
+    <location file="MRViewer/MRModalDialog.h" line="15" column="1" bodyfile="MRViewer/MRModalDialog.h" bodystart="16" bodyend="33"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa6a1e75f223b26a6dc2ad1ddd9771ab4" prot="public" virt="non-virtual"><scope>MR::ModalDialogSettings</scope><name>closeButton</name></member>
       <member refid="group__GeneralGroup_1ga26096cca550b1692d761f787646e25c7" prot="public" virt="non-virtual"><scope>MR::ModalDialogSettings</scope><name>closeOnClickOutside</name></member>

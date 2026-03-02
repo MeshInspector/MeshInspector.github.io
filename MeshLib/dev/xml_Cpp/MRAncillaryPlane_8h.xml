@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRAncillaryPlane_8h" kind="file" language="C++">
     <compoundname>MRAncillaryPlane.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -42,7 +42,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRAncillaryPlane.h</label>
+        <label>MRViewer/MRAncillaryPlane.h</label>
         <link refid="MRAncillaryPlane_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -89,11 +89,11 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="structMR_1_1AncillaryPlane" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="structMR_1_1AncillaryPlane" kindref="compound">AncillaryPlane</ref></highlight></codeline>
+<codeline lineno="12" refid="structMR_1_1AncillaryPlane" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="group__GeneralGroup_1ga3025b88ba2074a327842dc08155313db" kindref="member">AncillaryPlane</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14" refid="group__GeneralGroup_1ga3025b88ba2074a327842dc08155313db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga3025b88ba2074a327842dc08155313db" kindref="member">AncillaryPlane</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1gaff20855169063d26e84956dce51cb1c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaff20855169063d26e84956dce51cb1c6" kindref="member">AncillaryPlane</ref>(<sp/><ref refid="structMR_1_1AncillaryPlane" kindref="compound">AncillaryPlane</ref>&amp;&amp;<sp/>b<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="17" refid="group__GeneralGroup_1ga5b991fd73a28962d40fc9a290e1c806f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="structMR_1_1AncillaryPlane" kindref="compound">AncillaryPlane</ref>&amp;<sp/>operator<sp/>=(<sp/><ref refid="structMR_1_1AncillaryPlane" kindref="compound">AncillaryPlane</ref>&amp;&amp;<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1gaff20855169063d26e84956dce51cb1c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaff20855169063d26e84956dce51cb1c6" kindref="member">AncillaryPlane</ref>(<sp/><ref refid="group__GeneralGroup_1ga3025b88ba2074a327842dc08155313db" kindref="member">AncillaryPlane</ref>&amp;&amp;<sp/>b<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga5b991fd73a28962d40fc9a290e1c806f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga3025b88ba2074a327842dc08155313db" kindref="member">AncillaryPlane</ref>&amp;<sp/>operator<sp/>=(<sp/><ref refid="group__GeneralGroup_1ga3025b88ba2074a327842dc08155313db" kindref="member">AncillaryPlane</ref>&amp;&amp;<sp/>b<sp/>);</highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1gafc639beaa44225b629fec1f0a51fd68f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gafc639beaa44225b629fec1f0a51fd68f" kindref="member">~AncillaryPlane</ref>();</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1gae624027e30e44cf3abcaa38b9f307fce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae624027e30e44cf3abcaa38b9f307fce" kindref="member">make</ref>();</highlight></codeline>
@@ -104,6 +104,6 @@
 <codeline lineno="25"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="26"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPlane.h"/>
+    <location file="MRViewer/MRAncillaryPlane.h"/>
   </compounddef>
 </doxygen>

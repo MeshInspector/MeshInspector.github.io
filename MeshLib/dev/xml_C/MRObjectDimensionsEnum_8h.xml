@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRObjectDimensionsEnum_8h" kind="file" language="C++">
     <compoundname>MRObjectDimensionsEnum.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -73,19 +73,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRObjectDimensionsEnum_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref></type>
-        <definition>typedef struct MR_std_string_view MR_std_string_view</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string_view</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectDimensionsEnum.h" line="9" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectDimensionsEnum.h" bodystart="9" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRObjectDimensionsEnum_8h_1aa2cf9fbc31d7580b28a6599bc4c547c1" prot="public" static="no">
         <type>enum <ref refid="MRObjectDimensionsEnum_8h_1a6c6eb20cd5f98d435ef900cd2cf4e836" kindref="member">MR_DimensionsVisualizePropertyType</ref></type>
         <definition>typedef enum MR_DimensionsVisualizePropertyType MR_DimensionsVisualizePropertyType</definition>
@@ -133,7 +120,7 @@
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="MRObjectDimensionsEnum_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string_view.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string_view.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>controls<sp/>which<sp/>dimensions<sp/>are<sp/>shown<sp/>on<sp/>top<sp/>of<sp/>an<sp/>object<sp/>as<sp/>arrows.</highlight><highlight class="normal"></highlight></codeline>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TeethMaskToDirectionVolumeConvertor" kind="class" language="C++" prot="public">
     <compoundname>MR::TeethMaskToDirectionVolumeConvertor</compoundname>
-    <includes refid="MRTeethMaskToDirectionVolume_8h" local="no">MRTeethMaskToDirectionVolume.h</includes>
+    <includes refid="MRTeethMaskToDirectionVolume_8h" local="no">MRVoxels/MRTeethMaskToDirectionVolume.h</includes>
     <innerclass refid="structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult" prot="public">MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga4aa7048d9cefc5a963d3583190bea7e1" kind="typedef"><name>DirectionVolume</name></member>
@@ -27,7 +27,7 @@
     <detaileddescription>
 <para>This class is an alternative to directly invoking <ref refid="group__GeneralGroup_1ga0752e5390277bae84ef50d8e1f0a5db9" kindref="member">meshToDirectionVolume</ref> for the mesh retrieved from the teeth mask. It is better because when a single mesh is created from mask, some neighboring teeth might fuse together, creating incorrect mask. This class invokes meshing for each teeth separately, thus eliminating this problem. </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="70" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="71" bodyend="100"/>
+    <location file="MRVoxels/MRTeethMaskToDirectionVolume.h" line="70" column="1" bodyfile="MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="71" bodyend="100"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga85945152e834903417843fd459a86ba0" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>convertAll</name></member>
       <member refid="group__GeneralGroup_1ga5e8e05fd5b42a02a4f30855d98651b98" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>convertObject</name></member>

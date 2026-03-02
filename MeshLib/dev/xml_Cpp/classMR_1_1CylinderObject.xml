@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CylinderObject" kind="class" language="C++" prot="public">
     <compoundname>MR::CylinderObject</compoundname>
     <basecompoundref refid="classMR_1_1AddVisualProperties" prot="public" virt="non-virtual">MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter, DimensionsVisualizePropertyType::length &gt;</basecompoundref>
-    <includes refid="MRCylinderObject_8h" local="no">MRCylinderObject.h</includes>
+    <includes refid="MRCylinderObject_8h" local="no">MRMesh/MRCylinderObject.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga9e5ebeb3b2230f97a77faf36ec5708f0" kind="function"><name>CylinderObject</name></member>
       <member refid="group__GeneralGroup_1ga932a14f2a00f045ca3b480a65edba5d9" kind="function"><name>CylinderObject</name></member>
@@ -193,7 +193,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderObject.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderObject.h" bodystart="21" bodyend="90"/>
+    <location file="MRMesh/MRCylinderObject.h" line="17" column="1" bodyfile="MRMesh/MRCylinderObject.h" bodystart="21" bodyend="90"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::CylinderObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::CylinderObject</scope><name>addChildBefore</name></member>

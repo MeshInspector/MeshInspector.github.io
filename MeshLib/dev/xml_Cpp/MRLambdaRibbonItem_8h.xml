@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRLambdaRibbonItem_8h" kind="file" language="C++">
     <compoundname>MRLambdaRibbonItem.h</compoundname>
     <includes refid="MRRibbonMenuItem_8h" local="yes">MRRibbonMenuItem.h</includes>
@@ -55,7 +55,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRLambdaRibbonItem.h</label>
+        <label>MRViewer/MRLambdaRibbonItem.h</label>
         <link refid="MRLambdaRibbonItem_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -129,12 +129,12 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="classMR_1_1LambdaRibbonItem" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1LambdaRibbonItem" kindref="compound">LambdaRibbonItem</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref></highlight></codeline>
+<codeline lineno="12" refid="classMR_1_1LambdaRibbonItem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gadef78787d2334e909f2cd6f40c3e427e" kindref="member">LambdaRibbonItem</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" kindref="member">RibbonMenuItem</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1gadf0efc0eaab84312e1058ba6f3d8cb95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gadf0efc0eaab84312e1058ba6f3d8cb95" kindref="member">SimpleLambda</ref><sp/>=<sp/>std::function&lt;void()&gt;;</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1gadef78787d2334e909f2cd6f40c3e427e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gadef78787d2334e909f2cd6f40c3e427e" kindref="member">LambdaRibbonItem</ref>(<sp/>std::string<sp/><ref refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" kindref="member">name</ref>,<sp/><ref refid="group__GeneralGroup_1gadf0efc0eaab84312e1058ba6f3d8cb95" kindref="member">SimpleLambda</ref><sp/>lambda<sp/>)<sp/>:</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref>(<sp/>std::move(<sp/><ref refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" kindref="member">name</ref><sp/>)<sp/>),</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" kindref="member">RibbonMenuItem</ref>(<sp/>std::move(<sp/><ref refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" kindref="member">name</ref><sp/>)<sp/>),</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lambda_(<sp/>std::move(<sp/>lambda<sp/>)<sp/>)</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{}</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
@@ -147,8 +147,8 @@
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gadf0efc0eaab84312e1058ba6f3d8cb95" kindref="member">SimpleLambda</ref><sp/>lambda_;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRLambdaRibbonItem.h"/>
+    <location file="MRViewer/MRLambdaRibbonItem.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Box__Box2i64" kind="class" language="C#" prot="public">
     <compoundname>MR::Box_Box2i64</compoundname>
     <basecompoundref refid="classMR_1_1ConstBox__Box2i64" prot="public" virt="non-virtual">MR.ConstBox_Box2i64</basecompoundref>
@@ -39,7 +39,7 @@
         <name>this[int e]</name>
         <qualifiedname>MR.Box_Box2i64.this[int e]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Box2i64.operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Box2i64::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -251,8 +251,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.Box_Box2i64</label>
+        <link refid="classMR_1_1Box__Box2i64"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>ConstBox_Box2i64</label>
+        <label>MR.ConstBox_Box2i64</label>
         <link refid="classMR_1_1ConstBox__Box2i64"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
@@ -261,25 +267,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Box_Box2i64</label>
-        <link refid="classMR_1_1Box__Box2i64"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; ConstBox_Box2i64 &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.ConstBox_Box2i64 &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.Box_Box2i64</label>
+        <link refid="classMR_1_1Box__Box2i64"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>ConstBox_Box2i64</label>
+        <label>MR.ConstBox_Box2i64</label>
         <link refid="classMR_1_1ConstBox__Box2i64"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
@@ -288,20 +294,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.Box_Box2i64</label>
-        <link refid="classMR_1_1Box__Box2i64"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; ConstBox_Box2i64 &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.ConstBox_Box2i64 &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="5554" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="5555" bodyend="5681"/>

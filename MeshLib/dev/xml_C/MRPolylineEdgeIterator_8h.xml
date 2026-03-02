@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPolylineEdgeIterator_8h" kind="file" language="C++">
     <compoundname>MRPolylineEdgeIterator.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -44,48 +44,6 @@
         <label>stddef.h</label>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPolylineEdgeIterator_8h_1a210c323dfaa0990243a9ea8357bf584f" prot="public" static="no">
-        <type>struct <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref></type>
-        <definition>typedef struct MR_IteratorRange_MR_PolylineUndirectedEdgeIterator MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</definition>
-        <argsstring></argsstring>
-        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" line="13" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolylineEdgeIterator_8h_1a02d1fe1568aa3e29e692594602ba76bd" prot="public" static="no">
-        <type>struct <ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref></type>
-        <definition>typedef struct MR_PolylineTopology MR_PolylineTopology</definition>
-        <argsstring></argsstring>
-        <name>MR_PolylineTopology</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" line="14" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolylineEdgeIterator_8h_1ae6e065050c61472b2891c5a5007dc426" prot="public" static="no">
-        <type>struct <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref></type>
-        <definition>typedef struct MR_PolylineUndirectedEdgeIterator MR_PolylineUndirectedEdgeIterator</definition>
-        <argsstring></argsstring>
-        <name>MR_PolylineUndirectedEdgeIterator</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>The iterator to find all not-lone undirected edges in the polyline topology Generated from class <computeroutput>MR::PolylineUndirectedEdgeIterator</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" line="20" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRPolylineEdgeIterator_8h_1a224cdacee8ba75237f2e48679026eff1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
@@ -212,7 +170,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PolylineUndirectedEdgeIterator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -230,7 +188,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PolylineUndirectedEdgeIterator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -354,11 +312,11 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRPolylineEdgeIterator_8h_1a210c323dfaa0990243a9ea8357bf584f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIteratorRange.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRPolylineEdgeIterator_8h_1a02d1fe1568aa3e29e692594602ba76bd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolylineTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIteratorRange.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolylineTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRPolylineEdgeIterator_8h_1ae6e065050c61472b2891c5a5007dc426" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRPolylineEdgeIterator_8h_1a224cdacee8ba75237f2e48679026eff1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a224cdacee8ba75237f2e48679026eff1" kindref="member">MR_PolylineUndirectedEdgeIterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
@@ -370,7 +328,7 @@
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="43" refid="MRPolylineEdgeIterator_8h_1a655d85f7473fdbd2878424413805f9f7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a655d85f7473fdbd2878424413805f9f7" kindref="member">MR_PolylineUndirectedEdgeIterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/>creates<sp/>begin<sp/>iterator</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/>creates<sp/>begin<sp/>iterator</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="50" refid="MRPolylineEdgeIterator_8h_1a027016a799144c2a73aa5f28e78361be" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a027016a799144c2a73aa5f28e78361be" kindref="member">MR_PolylineUndirectedEdgeIterator_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/>*topology);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53" refid="MRPolylineEdgeIterator_8h_1a117e1f4c59b8ee8d1abf08afb6446ce7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineEdgeIterator_8h_1a117e1f4c59b8ee8d1abf08afb6446ce7" kindref="member">MR_PolylineUndirectedEdgeIterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>

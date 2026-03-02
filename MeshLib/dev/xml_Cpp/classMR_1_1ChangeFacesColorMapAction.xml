@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeFacesColorMapAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ChangeFacesColorMapAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRChangeColoringActions_8h" local="no">MRChangeColoringActions.h</includes>
+    <includes refid="MRChangeColoringActions_8h" local="no">MRMesh/MRChangeColoringActions.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gaa339df5a9e2b648891867bc5a37bc837" kind="typedef"><name>Obj</name></member>
     </sectiondef>
@@ -51,7 +51,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" line="77" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" bodystart="78" bodyend="130"/>
+    <location file="MRMesh/MRChangeColoringActions.h" line="77" column="1" bodyfile="MRMesh/MRChangeColoringActions.h" bodystart="78" bodyend="130"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga77ea732b203bb29d780236576dec2923" prot="public" virt="virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gaec7da8b61591c85b8e910d1411bdaa56" prot="public" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>ChangeFacesColorMapAction</name></member>

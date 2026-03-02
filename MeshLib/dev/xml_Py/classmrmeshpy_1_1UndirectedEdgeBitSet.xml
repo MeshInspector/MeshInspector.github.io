@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1UndirectedEdgeBitSet" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::UndirectedEdgeBitSet</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
@@ -10,7 +10,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -98,7 +97,6 @@
         <argsstring>(self, UndirectedEdgeBitSet b)</argsstring>
         <name>__and__</name>
         <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__and__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -121,7 +119,6 @@
         <argsstring>(self, UndirectedEdgeBitSet b)</argsstring>
         <name>__iand__</name>
         <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__iand__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -144,7 +141,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -163,7 +159,6 @@
         <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -193,7 +188,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -218,7 +212,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -243,7 +236,6 @@
         <argsstring>(self, UndirectedEdgeBitSet arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -268,7 +260,6 @@
         <argsstring>(self, UndirectedEdgeBitSet b)</argsstring>
         <name>__ior__</name>
         <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__ior__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -291,7 +282,6 @@
         <argsstring>(self, UndirectedEdgeBitSet b)</argsstring>
         <name>__isub__</name>
         <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__isub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -314,7 +304,6 @@
         <argsstring>(self)</argsstring>
         <name>__iter__</name>
         <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__iter__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -333,7 +322,6 @@
         <argsstring>(self, UndirectedEdgeBitSet b)</argsstring>
         <name>__ixor__</name>
         <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__ixor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -356,7 +344,6 @@
         <argsstring>(self, UndirectedEdgeBitSet b)</argsstring>
         <name>__or__</name>
         <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__or__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -379,7 +366,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__repr__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -398,7 +384,6 @@
         <argsstring>(self, UndirectedEdgeBitSet b)</argsstring>
         <name>__sub__</name>
         <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__sub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -421,7 +406,6 @@
         <argsstring>(self, UndirectedEdgeBitSet b)</argsstring>
         <name>__xor__</name>
         <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__xor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -1252,18 +1236,12 @@ with all bits after size() considered off during testing
       <node id="2">
         <label>mrmeshpy.BitSet</label>
         <link refid="classmrmeshpy_1_1BitSet"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>bits_per_block</edgelabel>
-          <edgelabel>npos</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59694" bodyend="59852"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ad19a4140d88bb93c87ac93c7b22bd4c7" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1af06e5b8bd598633ae38015e4ef438a97" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aa423765dd694f30be60c91370d24b018" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__iand__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aeef231fecfb1da6574de47f55022b82a" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a152f2b14f4909f101b562a4933068280" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__init__</name></member>
@@ -1277,13 +1255,23 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a5ea4b2f89fd30aa077a4ba902f82e957" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__ixor__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ae55958a91779ed0058ed121254df314c" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__or__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1afc967e6b5dd8ce2daccfe8b3906ef231" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a98282e643a9a65e1c6109bb7e5d7bb0f" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a180dc7a7e3b1484cbc0655607c27948d" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__rrshift__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8ee21d8a5c375283337e6a6a33ab6837" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__sub__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a9b788e843ee1267f8f072fd5df465f56" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a7791a54179bcc02c9e8d46ccd467d1df" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>all</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a72e64427ab6f98e8ffeb422c97588e62" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>any</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a1f801f7a80a61ade2820344ba54f16c4" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1acc184546a131bbdbd1746e79fd318084" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a82aee58b292ed8f758fb25574c2ef10f" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>autoResizeTestSet</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1affdca8d8a34705b33de3e93f24504807" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>backId</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a964d26ef019c3a9b0886d65c951c938b" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab1c92776adea9f7d4a8aa71b4db8585e" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>bits</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a59b26e0abde0aeed833933ad5058adfe" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>bits_per_block</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a2335e90bc299cbaa4f87a7e2157f869a" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a640d1f443a7ea30d50a532de2cdf90b4" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a4b8a47eb3cd9dc19a7448b1a3b1765e2" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aab954a31474723788e2aeee311325c15" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>empty</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a014c16ba35665fec2b7f229eb5552f56" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>endId</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1acc13e8c223669324fbda7612f9d8a7a7" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>find_first</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a3c8e127ded43321cfa7948e30aa92909" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>find_first_not_set</name></member>
@@ -1294,26 +1282,41 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aeca4db86ad0b08163f99867f647ccd16" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1af156f0c076934ebcff78a9ba1b652c70" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a5384121c911f7218d12f57f528462358" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab52de9f1462e6d83e5b7191d4396df74" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>fromBlocks</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8b83c32ea1e1a23201a13bd98e87e603" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a67adc0a581254e46edbfb3fd07aa066e" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8c0bdca016bdee8748b81b9343825a86" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a3628ffe9c5b4a832b2789490cb7586f6" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a1ae221f7877fac5d31fc01ef10897f8c" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a683fdd6be9d4bf7b7917bfea77d81b83" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a05c7256465c9b710d85004528f3e1f5a" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aba96890a6af8d454cea1e755d03af8db" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>none</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aa0a7d1ede8a4702ab5421d151412dfc9" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>npos</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aecac9cccff05bca9628645a8b5856209" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a33fe73fcaf13f4fe52d1fe72379ba764" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>num_blocks</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac4b019d722ab7f5fa260f1b681147fae" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac4b019d722ab7f5fa260f1b681147fae" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a204e188214d1fd66553951c4a6c9888b" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1af016fdece4d1e0fcefadce98dff1b478" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a289c8f64f552d93f25d60aae2140354a" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>reserve</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ab2f1351025dc64bf5cc04de30aa8db56" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aa8816283e9e688b1a3e9338b03522bde" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ae25df2a74aac5f31af965af76365672f" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a9e4c33df165c88226f1105129caa15f2" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a8f011a2d79e0769e54a51148de3d2dec" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a6e10a386d264b1d2ac5153c7eda3452e" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>reverse</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac39c27d4a76c12c0b33ce94077a0ed0f" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aa3ac59b85ab81d90e1bf9d633e742c01" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8354c2103dcced3a61f4c9f5ec676c26" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1af74b2b3e5086b04104e9d0d2371a6624" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a394f9a9633d44001a7cab69dbd3815e8" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>shrink_to_fit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae04e046bab014f7e687c1010d5386eb" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a3c05fbe8c9afe0ed34f42c4169c40e10" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>subtract</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8deff232135e126b1090cf8d164b3933" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>test</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac1b15ee3c3e830b12156e060401f97e5" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>test_set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae49ff1ea465f9b7185a328d08806e08" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>uncheckedTest</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a908f2b141bba37ea2f49d8dd1938c711" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>uncheckedTestSet</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

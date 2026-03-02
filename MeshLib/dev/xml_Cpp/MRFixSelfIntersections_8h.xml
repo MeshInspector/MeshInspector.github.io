@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFixSelfIntersections_8h" kind="file" language="C++">
     <compoundname>MRFixSelfIntersections.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
@@ -24,7 +24,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRFixSelfIntersections.h</label>
+        <label>MRMesh/MRFixSelfIntersections.h</label>
         <link refid="MRFixSelfIntersections_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -103,16 +103,16 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="namespaceMR_1_1SelfIntersections" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">SelfIntersections</highlight></codeline>
+<codeline lineno="12" refid="namespaceMR_1_1SelfIntersections" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1SelfIntersections" kindref="compound">SelfIntersections</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="structMR_1_1SelfIntersections_1_1Settings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SelfIntersections_1_1Settings" kindref="compound">Settings</ref></highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1SelfIntersections_1_1Settings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SelfIntersections_1_1Settings" kindref="compound">Settings</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1gae5606c4ebbd1f6f3acf27a76862219b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae5606c4ebbd1f6f3acf27a76862219b0" kindref="member">touchIsIntersection</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1ga89959b4882d33598d9220db080145bc5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga89959b4882d33598d9220db080145bc5" kindref="member">Method</ref></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4" kindref="member">Relax</ref>,</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7" kindref="member">CutAndFill</ref></highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1gga89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4" kindref="member">Relax</ref>,</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1gga89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7" kindref="member">CutAndFill</ref></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="28" refid="group__GeneralGroup_1gaface1dd6cc60f50dd76186b73d130994" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga89959b4882d33598d9220db080145bc5" kindref="member">Method</ref><sp/><ref refid="group__GeneralGroup_1gaface1dd6cc60f50dd76186b73d130994" kindref="member">method</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gga89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4" kindref="member">Method::Relax</ref>;</highlight></codeline>
 <codeline lineno="30" refid="group__GeneralGroup_1gaca7a5619c15bc97f529b69737ac12bb6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaca7a5619c15bc97f529b69737ac12bb6" kindref="member">relaxIterations</ref><sp/>=<sp/>5;</highlight></codeline>
@@ -128,6 +128,6 @@
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h"/>
+    <location file="MRMesh/MRFixSelfIntersections.h"/>
   </compounddef>
 </doxygen>

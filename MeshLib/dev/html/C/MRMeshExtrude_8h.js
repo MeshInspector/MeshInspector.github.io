@@ -1,10 +1,6 @@
 var MRMeshExtrude_8h =
 [
-    [ "MR_FaceBitSet", "MRMeshExtrude_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
     [ "MR_MakeDegenerateBandAroundRegionParams", "MRMeshExtrude_8h.html#ae6d6541454dfea770db08a45a78dac80", null ],
-    [ "MR_Mesh", "MRMeshExtrude_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_phmap_flat_hash_map_MR_VertId_MR_VertId", "MRMeshExtrude_8h.html#a4b90f49d08ad220afcccf3e064a60cdd", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRMeshExtrude_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
     [ "MR_makeDegenerateBandAroundRegion", "MRMeshExtrude_8h.html#a39d2b29b3ecfd98e0dbc9567bb79d00d", null ],
     [ "MR_MakeDegenerateBandAroundRegionParams_AssignFromAnother", "MRMeshExtrude_8h.html#aedfe80446ac3010dad9b824eee76e537", null ],
     [ "MR_MakeDegenerateBandAroundRegionParams_ConstructFrom", "MRMeshExtrude_8h.html#a4c28b45f4813a5058e5294c071e1aa3f", null ],

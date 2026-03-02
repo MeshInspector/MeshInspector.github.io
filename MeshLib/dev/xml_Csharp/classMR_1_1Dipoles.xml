@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Dipoles" kind="class" language="C#" prot="public">
     <compoundname>MR::Dipoles</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Dipoles</basecompoundref>
@@ -26,7 +26,7 @@
         <name>this[MR.NodeId i]</name>
         <qualifiedname>MR.Dipoles.this[MR.NodeId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Dipoles.operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Dipoles::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -86,7 +86,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Dipoles.Dipoles</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" kindref="member">MR.Dipoles.Dipoles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -105,7 +105,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Dipoles.Dipoles</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" kindref="member">MR.Dipoles.Dipoles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -124,7 +124,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Dipoles.Dipoles</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" kindref="member">MR.Dipoles.Dipoles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,7 +143,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.Dipoles.Dipoles</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput><ref refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" kindref="member">MR.Dipoles.Dipoles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -166,7 +166,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.Dipoles.Dipoles</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput><ref refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" kindref="member">MR.Dipoles.Dipoles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -185,7 +185,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Dipoles.Dipoles</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" kindref="member">MR.Dipoles.Dipoles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -204,7 +204,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Dipoles.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Dipoles::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -410,7 +410,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Dipoles.push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Dipoles::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -429,7 +429,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Dipoles.push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Dipoles::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -444,7 +444,7 @@
         <name>popBack</name>
         <qualifiedname>MR.Dipoles.popBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Dipoles.pop_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Dipoles::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -459,7 +459,7 @@
         <name>emplaceBack</name>
         <qualifiedname>MR.Dipoles.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Dipoles.emplace_back&lt;&gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Dipoles::emplace_back&lt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -544,7 +544,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Dipoles.Dipoles</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" kindref="member">MR.Dipoles.Dipoles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -554,7 +554,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -577,45 +577,45 @@
 </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Dipoles</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Dipoles</label>
         <link refid="classMR_1_1Dipoles"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Dipoles</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Dipoles &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Dipoles</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Dipoles</label>
         <link refid="classMR_1_1Dipoles"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Dipoles</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Dipoles &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2373" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2374" bodyend="2694"/>

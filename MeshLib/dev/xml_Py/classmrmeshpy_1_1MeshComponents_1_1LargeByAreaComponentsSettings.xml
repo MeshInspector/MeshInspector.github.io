@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -386,21 +386,6 @@
 <para><verbatim>Generated from:  MR::MeshComponents::LargeByAreaComponentsSettings
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.MeshComponents.LargeByAreaComponentsSettings</label>
-        <link refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_isCompBd</edgelabel>
-          <edgelabel>_offsetof_maxLargeComponents</edgelabel>
-          <edgelabel>_offsetof_minArea</edgelabel>
-          <edgelabel>_offsetof_numSmallerComponents</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31939" bodyend="32003"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a6e9ee55549c04eb84d8c7c3d57f8e82a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::LargeByAreaComponentsSettings</scope><name>__init__</name></member>

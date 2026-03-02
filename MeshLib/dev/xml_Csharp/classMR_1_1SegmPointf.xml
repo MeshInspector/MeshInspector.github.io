@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SegmPointf" kind="class" language="C#" prot="public">
     <compoundname>MR::SegmPointf</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_SegmPointf</basecompoundref>
@@ -71,7 +71,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SegmPointf.SegmPointf</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SegmPointf_1a79626bfaba80b32c76e0d3b24bd2ebba" kindref="member">MR.SegmPointf.SegmPointf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -90,7 +90,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SegmPointf.SegmPointf</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SegmPointf_1a79626bfaba80b32c76e0d3b24bd2ebba" kindref="member">MR.SegmPointf.SegmPointf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -109,7 +109,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SegmPointf.SegmPointf</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SegmPointf_1a79626bfaba80b32c76e0d3b24bd2ebba" kindref="member">MR.SegmPointf.SegmPointf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -124,7 +124,7 @@
         <name>convertTo_FloatRef</name>
         <qualifiedname>MR.SegmPointf.convertTo_FloatRef</qualifiedname>
         <briefdescription>
-<para>Generated from conversion operator <computeroutput>MR.SegmPointf.operator float &amp;</computeroutput>. </para>
+<para>Generated from conversion operator <computeroutput>MR::SegmPointf::operator float &amp;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,7 +143,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.SegmPointf.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SegmPointf::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -164,7 +164,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.SegmPointf.SegmPointf</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SegmPointf_1a79626bfaba80b32c76e0d3b24bd2ebba" kindref="member">MR.SegmPointf.SegmPointf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -179,65 +179,59 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_SegmPointf</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
-        <childnode refid="6" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.SegmPointf</label>
         <link refid="classMR_1_1SegmPointf"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_SegmPointf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SegmPointf &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_SegmPointf &gt;</label>
-      </node>
-      <node id="6">
-        <label>System::IEquatable&lt; float &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_SegmPointf</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
-        <childnode refid="6" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.SegmPointf</label>
         <link refid="classMR_1_1SegmPointf"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_SegmPointf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_SegmPointf &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_SegmPointf &gt;</label>
-      </node>
-      <node id="6">
-        <label>System::IEquatable&lt; float &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="202" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="203" bodyend="281"/>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1VoxelMetricParameters" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::VoxelMetricParameters</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -449,22 +449,6 @@
 Parameters for building metric function
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.VoxelMetricParameters</label>
-        <link refid="classmrmeshpy_1_1VoxelMetricParameters"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_maxDistRatio</edgelabel>
-          <edgelabel>_offsetof_plane</edgelabel>
-          <edgelabel>_offsetof_quatersMask</edgelabel>
-          <edgelabel>_offsetof_start</edgelabel>
-          <edgelabel>_offsetof_stop</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73789" bodyend="73864"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1VoxelMetricParameters_1ac443001fee4638897cc9fc7507fab2f7" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>__init__</name></member>

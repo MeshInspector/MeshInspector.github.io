@@ -1,21 +1,11 @@
 var MRBooleanOperation_8h =
 [
-    [ "MR_AffineXf3f", "MRBooleanOperation_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
     [ "MR_BooleanInternalParameters", "MRBooleanOperation_8h.html#a3af009690a5c2d9c70bcf789daec7f6b", null ],
     [ "MR_BooleanOperation", "MRBooleanOperation_8h.html#a8a246f470737b3738795958e5807f66c", null ],
     [ "MR_BooleanResultMapper", "MRBooleanOperation_8h.html#a525cc4d3dcd23270a5db9cfcfb224548", null ],
     [ "MR_BooleanResultMapper_MapObject", "MRBooleanOperation_8h.html#a759a9c7800e3bc0fca2e9d8daaa18f89", null ],
     [ "MR_BooleanResultMapper_Maps", "MRBooleanOperation_8h.html#a7d191f578301123ae97adbfd5ac96d34", null ],
-    [ "MR_EdgeBitSet", "MRBooleanOperation_8h.html#a0ab67259585b94fe4f3e06c70ba102f3", null ],
-    [ "MR_expected_MR_Mesh_std_string", "MRBooleanOperation_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
-    [ "MR_FaceBitSet", "MRBooleanOperation_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_FaceMap", "MRBooleanOperation_8h.html#ab809347fd151b45341bc9e7828673eb5", null ],
-    [ "MR_Mesh", "MRBooleanOperation_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_std_array_MR_BooleanResultMapper_Maps_2", "MRBooleanOperation_8h.html#a5adf2c3b0beed4fb6b836f265c2be7be", null ],
-    [ "MR_std_vector_std_vector_MR_EdgeId", "MRBooleanOperation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRBooleanOperation_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
-    [ "MR_VertBitSet", "MRBooleanOperation_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
-    [ "MR_VertMap", "MRBooleanOperation_8h.html#a0c1baad62a31685b2dfb5955f3fb8230", null ],
     [ "MR_WholeEdgeMap", "MRBooleanOperation_8h.html#a50066b58d97b0be73d826cfdcc9eb188", null ],
     [ "MR_BooleanOperation", "MRBooleanOperation_8h.html#a251062e1161744270ec7b749518f75c5", [
       [ "MR_BooleanOperation_InsideA", "MRBooleanOperation_8h.html#a251062e1161744270ec7b749518f75c5abeed6eb985c743a4aa21ed1f93490066", null ],

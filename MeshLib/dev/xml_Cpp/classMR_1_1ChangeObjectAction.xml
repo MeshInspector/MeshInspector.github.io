@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeObjectAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ChangeObjectAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRChangeObjectAction_8h" local="no">MRChangeObjectAction.h</includes>
+    <includes refid="MRChangeObjectAction_8h" local="no">MRMesh/MRChangeObjectAction.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga7e9aa61679bff304898e0c31cf066f72" kind="variable"><name>obj_</name></member>
       <member refid="group__GeneralGroup_1gac59492787127db09336835ff1d888317" kind="variable"><name>cloneObj_</name></member>
@@ -44,7 +44,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectAction.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectAction.h" bodystart="17" bodyend="67"/>
+    <location file="MRMesh/MRChangeObjectAction.h" line="16" column="1" bodyfile="MRMesh/MRChangeObjectAction.h" bodystart="17" bodyend="67"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gabae57c93f1aaa324cd73f0dd5a678718" prot="public" virt="virtual"><scope>MR::ChangeObjectAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga1fb57757d3858115a5eb58acce570d82" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>ChangeObjectAction</name></member>

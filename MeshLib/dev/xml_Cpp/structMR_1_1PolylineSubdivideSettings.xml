@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PolylineSubdivideSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::PolylineSubdivideSettings</compoundname>
-    <includes refid="MRPolylineSubdivide_8h" local="no">MRPolylineSubdivide.h</includes>
+    <includes refid="MRPolylineSubdivide_8h" local="no">MRMesh/MRPolylineSubdivide.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1a508f0caa9ead99ba37cd6a62babca39f" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="17" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="17" bodyend="-1"/>
+        <location file="MRMesh/MRPolylineSubdivide.h" line="17" column="11" bodyfile="MRMesh/MRPolylineSubdivide.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1afd93804f4deac58fb3c9851426d2d9a3" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="19" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="19" bodyend="-1"/>
+        <location file="MRMesh/MRPolylineSubdivide.h" line="19" column="9" bodyfile="MRMesh/MRPolylineSubdivide.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1a90d24e3763062fee365e69daf9f74b23" prot="public" static="no" mutable="no">
         <type>VertBitSet *</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="22" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="22" bodyend="-1"/>
+        <location file="MRMesh/MRPolylineSubdivide.h" line="22" column="17" bodyfile="MRMesh/MRPolylineSubdivide.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1a41c3020ba21d66919d363b5e261b2666" prot="public" static="no" mutable="no">
         <type>VertBitSet *</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="24" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="24" bodyend="-1"/>
+        <location file="MRMesh/MRPolylineSubdivide.h" line="24" column="17" bodyfile="MRMesh/MRPolylineSubdivide.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1abaf36082a394e79118a87b09054964e3" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="27" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="27" bodyend="-1"/>
+        <location file="MRMesh/MRPolylineSubdivide.h" line="27" column="10" bodyfile="MRMesh/MRPolylineSubdivide.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1a99ce30c33108d826ab31a84dcfb796e9" prot="public" static="no" mutable="no">
         <type>std::function&lt; void(VertId)&gt;</type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="29" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="29" bodyend="-1"/>
+        <location file="MRMesh/MRPolylineSubdivide.h" line="29" column="19" bodyfile="MRMesh/MRPolylineSubdivide.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1a6fb7e5a3cc422db6b191956e2e931bff" prot="public" static="no" mutable="no">
         <type>std::function&lt; void(EdgeId e1, EdgeId e)&gt;</type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="31" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="31" bodyend="-1"/>
+        <location file="MRMesh/MRPolylineSubdivide.h" line="31" column="19" bodyfile="MRMesh/MRPolylineSubdivide.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PolylineSubdivideSettings_1afd1b05e15df328d6581de39d05ef0ba2" prot="public" static="no" mutable="no">
         <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
@@ -128,14 +128,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="33" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="33" bodyend="33"/>
+        <location file="MRMesh/MRPolylineSubdivide.h" line="33" column="22" bodyfile="MRMesh/MRPolylineSubdivide.h" bodystart="33" bodyend="33"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" bodystart="15" bodyend="34"/>
+    <location file="MRMesh/MRPolylineSubdivide.h" line="14" column="1" bodyfile="MRMesh/MRPolylineSubdivide.h" bodystart="15" bodyend="34"/>
     <listofallmembers>
       <member refid="structMR_1_1PolylineSubdivideSettings_1a508f0caa9ead99ba37cd6a62babca39f" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>maxEdgeLen</name></member>
       <member refid="structMR_1_1PolylineSubdivideSettings_1afd93804f4deac58fb3c9851426d2d9a3" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>maxEdgeSplits</name></member>

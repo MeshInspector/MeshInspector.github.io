@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FixUndercuts::ImproveDirectionParameters</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" prot="public" virt="non-virtual">mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters</derivedcompoundref>
@@ -72,9 +72,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FixUndercuts.ImproveDirectionParameters.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1ab9a2eb17921047855c71fdc90ec62c54">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a577a90d268d3c2c6a2531d6613f79cbe">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a68dece4dbef2667b381c4c03655df128">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -147,9 +144,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FixUndercuts.ImproveDirectionParameters.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1ab9a2eb17921047855c71fdc90ec62c54">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a577a90d268d3c2c6a2531d6613f79cbe">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a68dece4dbef2667b381c4c03655df128">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -168,9 +162,6 @@
         <argsstring>(self, FixUndercuts.ImproveDirectionParameters arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FixUndercuts.ImproveDirectionParameters.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1ab9a2eb17921047855c71fdc90ec62c54">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a577a90d268d3c2c6a2531d6613f79cbe">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a68dece4dbef2667b381c4c03655df128">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -195,9 +186,6 @@
         <argsstring>(self, Vector3f hintDirection, float baseAngleStep, float maxBaseAngle, float polarAngleStep)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FixUndercuts.ImproveDirectionParameters.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1ab9a2eb17921047855c71fdc90ec62c54">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a577a90d268d3c2c6a2531d6613f79cbe">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a68dece4dbef2667b381c4c03655df128">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -415,21 +403,6 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.FixUndercuts.ImproveDirectionParameters</label>
-        <link refid="classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_baseAngleStep</edgelabel>
-          <edgelabel>_offsetof_hintDirection</edgelabel>
-          <edgelabel>_offsetof_maxBaseAngle</edgelabel>
-          <edgelabel>_offsetof_polarAngleStep</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20869" bodyend="20933"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters_1aeb572f1da79723883bc7c0473d92634b" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::ImproveDirectionParameters</scope><name>__init__</name></member>

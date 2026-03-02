@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1NoDefInit__RegionId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::NoDefInit_RegionId</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1RegionId" prot="public" virt="non-virtual">mrmeshpy.RegionId</basecompoundref>
@@ -10,7 +10,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NoDefInit_RegionId.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RegionId_1a550ff7d530f12d0a379a1cb8c7d13bd8">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -81,7 +80,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NoDefInit_RegionId.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RegionId_1a550ff7d530f12d0a379a1cb8c7d13bd8">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -100,7 +98,6 @@
         <argsstring>(self, NoDefInit_RegionId arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NoDefInit_RegionId.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RegionId_1a550ff7d530f12d0a379a1cb8c7d13bd8">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -125,7 +122,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.NoDefInit_RegionId.__repr__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RegionId_1a65382b9e01ebbb01161090fb64d99dda">__repr__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -174,12 +170,22 @@ this class is similar to T, but does not make default initialization of the fiel
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37706" bodyend="37734"/>
     <listofallmembers>
+      <member refid="classmrmeshpy_1_1RegionId_1a97e5a79aa4ca1128dbbde41a60044570" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_RegionId</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1ad0ac42fa0528bed89510407cbf8abc64" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_RegionId</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a0f7861bd1d46de19bb790825242ec589" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_RegionId</scope><name>__iadd__</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__RegionId_1a079716a23c055cfb9d7c5b2451a5964a" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_RegionId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__RegionId_1a3294a03fb2ae6f85f1f18258425e529e" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_RegionId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__RegionId_1addad5da0f49de05ca13bce935ef91e6b" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_RegionId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a895d1d9cd2562440c1ce28a7da6b33d0" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_RegionId</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a55c86dbda8fd3e1313eafadd7f8fb2c6" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_RegionId</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1afcbcbca7d56e63f4f41ff22a31a283cd" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_RegionId</scope><name>__ne__</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__RegionId_1a48a57255b11d7dc6082617971585000a" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_RegionId</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a9cf2e6d2bdd7e37823137d92cf297731" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_RegionId</scope><name>get</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__RegionId_1ab14cf4ac30da2976a59e603584d69698" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_RegionId</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__RegionId_1ab14cf4ac30da2976a59e603584d69698" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_RegionId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1ab1a58310d0336df42c361b13303542c2" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_RegionId</scope><name>operatorminusminus</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a4d6a2f4659a9a073fb2ed902358da692" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_RegionId</scope><name>operatorminusminus</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a7d9b5c5096ede265948d880c172b5e53" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_RegionId</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

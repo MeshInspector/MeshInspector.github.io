@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRNormalDenoising_8h" kind="file" language="C++">
     <compoundname>MRNormalDenoising.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -51,7 +51,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRNormalDenoising.h</label>
+        <label>MRMesh/MRNormalDenoising.h</label>
         <link refid="MRNormalDenoising_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -150,8 +150,8 @@
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71" refid="group__GeneralGroup_1ga86981572c4f14bf7f1a09887110d60f3" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga86981572c4f14bf7f1a09887110d60f3" kindref="member">meshDenoiseViaNormals</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DenoiseViaNormalsSettings" kindref="compound">DenoiseViaNormalsSettings</ref><sp/>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h"/>
+    <location file="MRMesh/MRNormalDenoising.h"/>
   </compounddef>
 </doxygen>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1EdgePoint" kind="struct" language="C++" prot="public">
     <compoundname>MR::EdgePoint</compoundname>
-    <includes refid="MREdgePoint_8h" local="no">MREdgePoint.h</includes>
+    <includes refid="MREdgePoint_8h" local="no">MRMesh/MREdgePoint.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaa0fb43077718779351b94f5a803498a6" kind="variable"><name>e</name></member>
       <member refid="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" kind="variable"><name>a</name></member>
@@ -33,7 +33,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="14" bodyend="46"/>
+    <location file="MRMesh/MREdgePoint.h" line="13" column="1" bodyfile="MRMesh/MREdgePoint.h" bodystart="14" bodyend="46"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>a</name></member>
       <member refid="group__GeneralGroup_1gaa0fb43077718779351b94f5a803498a6" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>e</name></member>

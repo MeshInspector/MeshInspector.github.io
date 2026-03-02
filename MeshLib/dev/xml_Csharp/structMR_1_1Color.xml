@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Color" kind="struct" language="C#" prot="public">
     <compoundname>MR::Color</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.Color &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1Color_1a731adcd29979d9ee8a5ce472dbacaff9" prot="public" static="no" mutable="no">
         <type>byte</type>
@@ -69,7 +69,7 @@
         <name>this[int e]</name>
         <qualifiedname>MR.Color.this[int e]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Color.operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Color::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -109,7 +109,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from conversion operator <computeroutput>MR.Color.operator <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></computeroutput>. </para>
+<para>Generated from conversion operator <computeroutput>MR::Color::operator <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -128,7 +128,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Generated from conversion operator <computeroutput>MR.Color.operator <ref refid="structMR_1_1Vector4f" kindref="compound">MR.Vector4f</ref></computeroutput>. </para>
+<para>Generated from conversion operator <computeroutput>MR::Color::operator <ref refid="structMR_1_1Vector4f" kindref="compound">MR.Vector4f</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -339,7 +339,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator==</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator==</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -384,7 +384,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator+</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator+</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -407,7 +407,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator-</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator-</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -430,7 +430,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -453,7 +453,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator*</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -476,7 +476,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR.operator/</computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::operator/</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -719,7 +719,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Color.operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Color::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -738,7 +738,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Color.operator+=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Color::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -757,7 +757,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Color.operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Color::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -776,7 +776,7 @@
           <declname>m</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Color.operator*=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Color::operator*=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -795,7 +795,7 @@
           <declname>m</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Color.operator/=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Color::operator/=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -872,7 +872,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>System::IEquatable&lt; MR.Color &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -883,7 +883,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>System::IEquatable&lt; MR.Color &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="614" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="615" bodyend="1063"/>

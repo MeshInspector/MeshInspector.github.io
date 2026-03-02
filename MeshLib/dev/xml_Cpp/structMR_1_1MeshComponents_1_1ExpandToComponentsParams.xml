@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshComponents_1_1ExpandToComponentsParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshComponents::ExpandToComponentsParams</compoundname>
-    <includes refid="MRMeshComponents_8h" local="no">MRMeshComponents.h</includes>
+    <includes refid="MRMeshComponents_8h" local="no">MRMesh/MRMeshComponents.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1MeshComponents_1_1ExpandToComponentsParams_1abbe32ea54819d615cd13a10a9c99193c" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -14,12 +14,12 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>expands only if seeds cover at least this ratio of the component area &lt;=0 - expands all seeds <blockquote><para><zwj/>1 - none </para>
+<para>expands only if seeds cover at least this ratio of the component area &lt;=0 - expands all seeds <blockquote><para>1 - none </para>
 </blockquote></para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="63" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" bodystart="63" bodyend="-1"/>
+        <location file="MRMesh/MRMeshComponents.h" line="63" column="11" bodyfile="MRMesh/MRMeshComponents.h" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshComponents_1_1ExpandToComponentsParams_1a9fa4046abd37f9758ba01336676cf2c1" prot="public" static="no" mutable="no">
         <type><ref refid="group__MeshComponentsGroup_1ga7489c91178e90fdd4200bbb0074e025f" kindref="member">FaceIncidence</ref></type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="65" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" bodystart="65" bodyend="-1"/>
+        <location file="MRMesh/MRMeshComponents.h" line="65" column="19" bodyfile="MRMesh/MRMeshComponents.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshComponents_1_1ExpandToComponentsParams_1a3b52749445bbc0fec608f7f5449ad818" prot="public" static="no" mutable="no">
         <type>const UndirectedEdgeBitSet *</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="68" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" bodystart="68" bodyend="-1"/>
+        <location file="MRMesh/MRMeshComponents.h" line="68" column="33" bodyfile="MRMesh/MRMeshComponents.h" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshComponents_1_1ExpandToComponentsParams_1aa6bdb8eb71da275b3fcf70fdeb43199f" prot="public" static="no" mutable="no">
         <type>int *</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="71" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" bodystart="71" bodyend="-1"/>
+        <location file="MRMesh/MRMeshComponents.h" line="71" column="9" bodyfile="MRMesh/MRMeshComponents.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshComponents_1_1ExpandToComponentsParams_1aee9c119e10ee9a63b219e9db0061a578" prot="public" static="no" mutable="no">
         <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
@@ -80,14 +80,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="73" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" bodystart="73" bodyend="-1"/>
+        <location file="MRMesh/MRMeshComponents.h" line="73" column="22" bodyfile="MRMesh/MRMeshComponents.h" bodystart="73" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="58" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" bodystart="59" bodyend="74"/>
+    <location file="MRMesh/MRMeshComponents.h" line="58" column="1" bodyfile="MRMesh/MRMeshComponents.h" bodystart="59" bodyend="74"/>
     <listofallmembers>
       <member refid="structMR_1_1MeshComponents_1_1ExpandToComponentsParams_1aee9c119e10ee9a63b219e9db0061a578" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>cb</name></member>
       <member refid="structMR_1_1MeshComponents_1_1ExpandToComponentsParams_1abbe32ea54819d615cd13a10a9c99193c" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>coverRatio</name></member>

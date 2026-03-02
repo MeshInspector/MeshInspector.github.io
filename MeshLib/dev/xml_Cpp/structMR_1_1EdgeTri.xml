@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1EdgeTri" kind="struct" language="C++" prot="public">
     <compoundname>MR::EdgeTri</compoundname>
-    <includes refid="MRMeshCollidePrecise_8h" local="no">MRMeshCollidePrecise.h</includes>
+    <includes refid="MRMeshCollidePrecise_8h" local="no">MRMesh/MRMeshCollidePrecise.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1EdgeTri_1a75d3cbfc185bb135fa0ecacfa0eea64e" prot="public" static="no" mutable="no">
         <type>EdgeId</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="18" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="18" bodyend="-1"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="18" column="12" bodyfile="MRMesh/MRMeshCollidePrecise.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1EdgeTri_1ad73baa8260912b59b30536da0cb50318" prot="public" static="no" mutable="no">
         <type>FaceId</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="19" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="19" bodyend="-1"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="19" column="12" bodyfile="MRMesh/MRMeshCollidePrecise.h" bodystart="19" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="20" column="5"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="20" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1EdgeTri_1a45de5d714a586bda433f476169bb81ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="21" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="21" bodyend="21"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="21" column="5" bodyfile="MRMesh/MRMeshCollidePrecise.h" bodystart="21" bodyend="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -76,7 +76,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="17" bodyend="22"/>
+    <location file="MRMesh/MRMeshCollidePrecise.h" line="16" column="1" bodyfile="MRMesh/MRMeshCollidePrecise.h" bodystart="17" bodyend="22"/>
     <listofallmembers>
       <member refid="structMR_1_1EdgeTri_1a75d3cbfc185bb135fa0ecacfa0eea64e" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>edge</name></member>
       <member refid="structMR_1_1EdgeTri_1abc6f03d4ca7344789c80a99a10605739" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>EdgeTri</name></member>

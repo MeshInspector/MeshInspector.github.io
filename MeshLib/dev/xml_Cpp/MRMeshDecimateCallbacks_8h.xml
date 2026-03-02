@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshDecimateCallbacks_8h" kind="file" language="C++">
     <compoundname>MRMeshDecimateCallbacks.h</compoundname>
     <includes refid="MRMesh_8h" local="yes">MRMesh.h</includes>
@@ -120,7 +120,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshDecimateCallbacks.h</label>
+        <label>MRMesh/MRMeshDecimateCallbacks.h</label>
         <link refid="MRMeshDecimateCallbacks_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -422,9 +422,9 @@
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="10"></codeline>
-<codeline lineno="14"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad9d6f60ebc6c98c7e8ddfc4ad3b46bab" kindref="member">preCollapseVertAttribute</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga49165bcb87a59752b8f02f19ea7f2424" kindref="member">Mesh</ref>&amp;<sp/>mesh,<sp/><ref refid="group__GeneralGroup_1gacac5737ffa7f53925156e25e8825e2e6" kindref="member">Vector&lt;T, VertId&gt;</ref>&amp;<sp/>data<sp/>);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad9d6f60ebc6c98c7e8ddfc4ad3b46bab" kindref="member">preCollapseVertAttribute</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;T, VertId&gt;</ref>&amp;<sp/>data<sp/>);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31" refid="group__GeneralGroup_1ga00f6abdbff2057a8c1d1838e4bf43849" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga8ca6fbc7c349a31c3f0a68ce8f513265" kindref="member">PreCollapseCallback</ref><sp/><ref refid="group__GeneralGroup_1ga00f6abdbff2057a8c1d1838e4bf43849" kindref="member">meshPreCollapseVertAttribute</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshAttributesToUpdate" kindref="compound">MeshAttributesToUpdate</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
@@ -439,7 +439,7 @@
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>destPos<sp/>=<sp/>mesh.<ref refid="structMR_1_1Mesh_1a6241859f835aa7cd22f26c1e40b9791a" kindref="member">destPnt</ref>(<sp/>edgeToCollapse<sp/>);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ab<sp/>=<sp/>destPos<sp/>-<sp/>orgPos;</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>dt<sp/>=<sp/>dot(<sp/>newEdgeOrgPos<sp/>-<sp/>orgPos,<sp/>ab<sp/>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>dt<sp/>=<sp/><ref refid="group__GeneralGroup_1ga3a21629633bf0e4bedadc69121c907ed" kindref="member">dot</ref>(<sp/>newEdgeOrgPos<sp/>-<sp/>orgPos,<sp/>ab<sp/>);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>abLengthSq<sp/>=<sp/>ab.lengthSq();</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>dt<sp/>&lt;=<sp/>0<sp/>)</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -463,6 +463,6 @@
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
 <codeline lineno="66"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimateCallbacks.h"/>
+    <location file="MRMesh/MRMeshDecimateCallbacks.h"/>
   </compounddef>
 </doxygen>

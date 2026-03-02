@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRObject_8h" kind="file" language="C++">
     <compoundname>MRObject.h</compoundname>
     <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
@@ -138,149 +138,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRObject_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref></type>
-        <definition>typedef struct MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</definition>
-        <argsstring></argsstring>
-        <name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="16" column="98" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1ac1385bd9e8fa466aaf34d0db0019ba79" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1ac1385bd9e8fa466aaf34d0db0019ba79" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length</ref></type>
-        <definition>typedef struct MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length</definition>
-        <argsstring></argsstring>
-        <name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="17" column="181" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1aec928ec9053250e5440a0bd58db3b348" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1aec928ec9053250e5440a0bd58db3b348" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</ref></type>
-        <definition>typedef struct MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</definition>
-        <argsstring></argsstring>
-        <name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="18" column="140" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1a5af6b79d144ff4f07641dd4a79c33bc1" prot="public" static="no">
-        <type>struct <ref refid="MRAngleMeasurementObject_8h_1a5af6b79d144ff4f07641dd4a79c33bc1" kindref="member">MR_AngleMeasurementObject</ref></type>
-        <definition>typedef struct MR_AngleMeasurementObject MR_AngleMeasurementObject</definition>
-        <argsstring></argsstring>
-        <name>MR_AngleMeasurementObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="19" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1a967eba9f410685a4d6f879dc97240a08" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a967eba9f410685a4d6f879dc97240a08" kindref="member">MR_CircleObject</ref></type>
-        <definition>typedef struct MR_CircleObject MR_CircleObject</definition>
-        <argsstring></argsstring>
-        <name>MR_CircleObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="20" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1a943257aecd41a7a33ecfe2ccbf1490d2" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a943257aecd41a7a33ecfe2ccbf1490d2" kindref="member">MR_ConeObject</ref></type>
-        <definition>typedef struct MR_ConeObject MR_ConeObject</definition>
-        <argsstring></argsstring>
-        <name>MR_ConeObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="21" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1a01e7c260afa54426440fd3f81b13e76e" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a01e7c260afa54426440fd3f81b13e76e" kindref="member">MR_CylinderObject</ref></type>
-        <definition>typedef struct MR_CylinderObject MR_CylinderObject</definition>
-        <argsstring></argsstring>
-        <name>MR_CylinderObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="22" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref></type>
-        <definition>typedef struct MR_DistanceMeasurementObject MR_DistanceMeasurementObject</definition>
-        <argsstring></argsstring>
-        <name>MR_DistanceMeasurementObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="23" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1aff93746de8efe15fd5fa764838b71e9b" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kindref="member">MR_FeatureObject</ref></type>
-        <definition>typedef struct MR_FeatureObject MR_FeatureObject</definition>
-        <argsstring></argsstring>
-        <name>MR_FeatureObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="24" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1a7a2a1e79f2d7916e5b59911ffa2ce37e" prot="public" static="no">
-        <type>struct <ref refid="MRFeatureObject_8h_1a7a2a1e79f2d7916e5b59911ffa2ce37e" kindref="member">MR_LineObject</ref></type>
-        <definition>typedef struct MR_LineObject MR_LineObject</definition>
-        <argsstring></argsstring>
-        <name>MR_LineObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="25" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1af3835b44b6f41035bcc3f994b4711cc1" prot="public" static="no">
-        <type>struct <ref refid="MRAngleMeasurementObject_8h_1af3835b44b6f41035bcc3f994b4711cc1" kindref="member">MR_MeasurementObject</ref></type>
-        <definition>typedef struct MR_MeasurementObject MR_MeasurementObject</definition>
-        <argsstring></argsstring>
-        <name>MR_MeasurementObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="26" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRObject_8h_1ad6ad696793a6623bba06b95cbf9e7245" prot="public" static="no">
         <type>struct <ref refid="MRObject_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref></type>
         <definition>typedef struct MR_ObjectDistanceMap MR_ObjectDistanceMap</definition>
@@ -289,6 +146,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>This class stores information about distance map object Generated from class <computeroutput>MR::ObjectDistanceMap</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::ObjectMeshHolder</computeroutput> Indirect: (non-virtual) <computeroutput>MR::ObjectChildrenHolder</computeroutput> <computeroutput>MR::Object</computeroutput> <computeroutput>MR::VisualObject</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -302,6 +160,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>an object that stores a g-code Generated from class <computeroutput>MR::ObjectGcode</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::ObjectLinesHolder</computeroutput> Indirect: (non-virtual) <computeroutput>MR::ObjectChildrenHolder</computeroutput> <computeroutput>MR::Object</computeroutput> <computeroutput>MR::VisualObject</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -315,6 +174,8 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>This object type renders label in scene</para>
+<para>default pivot point = (0, 0) Generated from class <computeroutput>MR::ObjectLabel</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::VisualObject</computeroutput> Indirect: (non-virtual) <computeroutput>MR::ObjectChildrenHolder</computeroutput> <computeroutput>MR::Object</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -328,6 +189,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>This object type has not visual representation, just holder for lines in scene Generated from class <computeroutput>MR::ObjectLines</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::ObjectLinesHolder</computeroutput> Indirect: (non-virtual) <computeroutput>MR::ObjectChildrenHolder</computeroutput> <computeroutput>MR::Object</computeroutput> <computeroutput>MR::VisualObject</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -341,23 +203,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>an object that stores a lines Generated from class <computeroutput>MR::ObjectLinesHolder</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::VisualObject</computeroutput> Indirect: (non-virtual) <computeroutput>MR::ObjectChildrenHolder</computeroutput> <computeroutput>MR::Object</computeroutput> Derived classes: Direct: (non-virtual) <computeroutput>MR::ObjectGcode</computeroutput> <computeroutput>MR::ObjectLines</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="31" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" prot="public" static="no">
-        <type>struct <ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref></type>
-        <definition>typedef struct MR_ObjectMesh MR_ObjectMesh</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjectMesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="32" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRObject_8h_1a1c5e41e50d86c1613114a6f1296f0934" prot="public" static="no">
         <type>struct <ref refid="MRObject_8h_1a1c5e41e50d86c1613114a6f1296f0934" kindref="member">MR_ObjectMeshHolder</ref></type>
@@ -367,23 +217,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>an object that stores a mesh Generated from class <computeroutput>MR::ObjectMeshHolder</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::VisualObject</computeroutput> Indirect: (non-virtual) <computeroutput>MR::ObjectChildrenHolder</computeroutput> <computeroutput>MR::Object</computeroutput> Derived classes: Direct: (non-virtual) <computeroutput>MR::ObjectDistanceMap</computeroutput> <computeroutput>MR::ObjectMesh</computeroutput> <computeroutput>MR::ObjectVoxels</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="33" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="33" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1ab1c1a63bde0febef265b95d647c94932" prot="public" static="no">
-        <type>struct <ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref></type>
-        <definition>typedef struct MR_ObjectPoints MR_ObjectPoints</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjectPoints</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="34" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRObject_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" prot="public" static="no">
         <type>struct <ref refid="MRObject_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref></type>
@@ -393,6 +231,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>an object that stores a points Generated from class <computeroutput>MR::ObjectPointsHolder</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::VisualObject</computeroutput> Indirect: (non-virtual) <computeroutput>MR::ObjectChildrenHolder</computeroutput> <computeroutput>MR::Object</computeroutput> Derived classes: Direct: (non-virtual) <computeroutput>MR::ObjectPoints</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -406,62 +245,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>This class stores information about voxels object Generated from class <computeroutput>MR::ObjectVoxels</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::ObjectMeshHolder</computeroutput> Indirect: (non-virtual) <computeroutput>MR::ObjectChildrenHolder</computeroutput> <computeroutput>MR::Object</computeroutput> <computeroutput>MR::VisualObject</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="36" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1a9d9e851e595520f918a21aa5c106d6ce" prot="public" static="no">
-        <type>struct <ref refid="MRFeatureObject_8h_1a9d9e851e595520f918a21aa5c106d6ce" kindref="member">MR_PlaneObject</ref></type>
-        <definition>typedef struct MR_PlaneObject MR_PlaneObject</definition>
-        <argsstring></argsstring>
-        <name>MR_PlaneObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="37" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="37" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1a749cca566de75c01b7c4210dfd5ab596" prot="public" static="no">
-        <type>struct <ref refid="MRMeasurementObject_8h_1a749cca566de75c01b7c4210dfd5ab596" kindref="member">MR_PointMeasurementObject</ref></type>
-        <definition>typedef struct MR_PointMeasurementObject MR_PointMeasurementObject</definition>
-        <argsstring></argsstring>
-        <name>MR_PointMeasurementObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="38" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1a6150a41bd1abc312778a78a3543c0f54" prot="public" static="no">
-        <type>struct <ref refid="MRFeatureObject_8h_1a6150a41bd1abc312778a78a3543c0f54" kindref="member">MR_PointObject</ref></type>
-        <definition>typedef struct MR_PointObject MR_PointObject</definition>
-        <argsstring></argsstring>
-        <name>MR_PointObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="39" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="39" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1ad32b2e846921e8b3aa5e562e89d5568c" prot="public" static="no">
-        <type>struct <ref refid="MRMeasurementObject_8h_1ad32b2e846921e8b3aa5e562e89d5568c" kindref="member">MR_RadiusMeasurementObject</ref></type>
-        <definition>typedef struct MR_RadiusMeasurementObject MR_RadiusMeasurementObject</definition>
-        <argsstring></argsstring>
-        <name>MR_RadiusMeasurementObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="40" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRObject_8h_1a885f919fff839030c6725c849e0db23a" prot="public" static="no">
         <type>struct <ref refid="MRObject_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref></type>
@@ -471,88 +259,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Object that is parent of all scene Generated from class <computeroutput>MR::SceneRootObject</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::Object</computeroutput> Indirect: (non-virtual) <computeroutput>MR::ObjectChildrenHolder</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="41" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1a67f545f54ad8cf36cd415d108d463f83" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a67f545f54ad8cf36cd415d108d463f83" kindref="member">MR_SphereObject</ref></type>
-        <definition>typedef struct MR_SphereObject MR_SphereObject</definition>
-        <argsstring></argsstring>
-        <name>MR_SphereObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="42" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="42" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1a85b2b5f875361920283d305645987092" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref></type>
-        <definition>typedef struct MR_ViewportMask MR_ViewportMask</definition>
-        <argsstring></argsstring>
-        <name>MR_ViewportMask</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="43" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="43" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1aebba128754c26d6c67761a3a0d2e0e4f" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1aebba128754c26d6c67761a3a0d2e0e4f" kindref="member">MR_ViewportProperty_MR_AffineXf3f</ref></type>
-        <definition>typedef struct MR_ViewportProperty_MR_AffineXf3f MR_ViewportProperty_MR_AffineXf3f</definition>
-        <argsstring></argsstring>
-        <name>MR_ViewportProperty_MR_AffineXf3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="44" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="44" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1a36f3696eda81d7005927ebc5fdf17e14" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref></type>
-        <definition>typedef struct MR_VisualObject MR_VisualObject</definition>
-        <argsstring></argsstring>
-        <name>MR_VisualObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="45" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="45" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1ac70a547e279521dbca88d6d95326ba2a" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref></type>
-        <definition>typedef struct MR_std_set_std_string MR_std_set_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_set_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="46" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="46" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_MR_Object MR_std_shared_ptr_MR_Object</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_MR_Object</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="47" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRObject_8h_1a430d586657822e294dced54cc7b4f7a6" prot="public" static="no">
         <type>struct <ref refid="MRObject_8h_1a430d586657822e294dced54cc7b4f7a6" kindref="member">MR_std_shared_ptr_const_MR_Object</ref></type>
@@ -567,32 +278,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="48" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="48" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
-        <definition>typedef struct MR_std_string MR_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="49" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="49" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1acc2f4e4d04631180d278fad84fbbc6cf" prot="public" static="no">
-        <type>struct <ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref></type>
-        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_Object MR_std_vector_std_shared_ptr_MR_Object</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_shared_ptr_MR_Object</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="50" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="50" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRObject_8h_1ae295d93375f5ea0ece8044d77aa7f442" prot="public" static="no">
         <type>struct <ref refid="MRObject_8h_1ae295d93375f5ea0ece8044d77aa7f442" kindref="member">MR_std_vector_std_shared_ptr_const_MR_Object</ref></type>
         <definition>typedef struct MR_std_vector_std_shared_ptr_const_MR_Object MR_std_vector_std_shared_ptr_const_MR_Object</definition>
@@ -605,47 +290,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="51" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="51" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" prot="public" static="no">
-        <type>struct <ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref></type>
-        <definition>typedef struct MR_std_vector_std_string MR_std_vector_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="52" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="52" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref></type>
-        <definition>typedef struct MR_ObjectChildrenHolder MR_ObjectChildrenHolder</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjectChildrenHolder</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>the main purpose of this class is to avoid copy and move constructor and assignment operator implementation in Object class, which has too many fields for that; since every object stores a pointer on its parent, copying of this object does not copy the children and moving is taken with care Generated from class <computeroutput>MR::ObjectChildrenHolder</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::Object</computeroutput> Indirect: (non-virtual) <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;</computeroutput> <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;</computeroutput> <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;</computeroutput> <computeroutput>MR::AngleMeasurementObject</computeroutput> <computeroutput>MR::CircleObject</computeroutput> <computeroutput>MR::ConeObject</computeroutput> <computeroutput>MR::CylinderObject</computeroutput> <computeroutput>MR::DistanceMeasurementObject</computeroutput> <computeroutput>MR::FeatureObject</computeroutput> <computeroutput>MR::LineObject</computeroutput> <computeroutput>MR::MeasurementObject</computeroutput> <computeroutput>MR::ObjectDistanceMap</computeroutput> <computeroutput>MR::ObjectGcode</computeroutput> <computeroutput>MR::ObjectLabel</computeroutput> <computeroutput>MR::ObjectLines</computeroutput> <computeroutput>MR::ObjectLinesHolder</computeroutput> <computeroutput>MR::ObjectMesh</computeroutput> <computeroutput>MR::ObjectMeshHolder</computeroutput> <computeroutput>MR::ObjectPoints</computeroutput> <computeroutput>MR::ObjectPointsHolder</computeroutput> <computeroutput>MR::ObjectVoxels</computeroutput> <computeroutput>MR::PlaneObject</computeroutput> <computeroutput>MR::PointMeasurementObject</computeroutput> <computeroutput>MR::PointObject</computeroutput> <computeroutput>MR::RadiusMeasurementObject</computeroutput> <computeroutput>MR::SceneRootObject</computeroutput> <computeroutput>MR::SphereObject</computeroutput> <computeroutput>MR::VisualObject</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="93" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="93" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObject_8h_1accce9c9179cadabc541edda0fc7a2571" prot="public" static="no">
-        <type>struct <ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref></type>
-        <definition>typedef struct MR_Object MR_Object</definition>
-        <argsstring></argsstring>
-        <name>MR_Object</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>named object in the data model Generated from class <computeroutput>MR::Object</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::ObjectChildrenHolder</computeroutput> Derived classes: Direct: (non-virtual) <computeroutput>MR::SceneRootObject</computeroutput> <computeroutput>MR::VisualObject</computeroutput> Indirect: (non-virtual) <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;</computeroutput> <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;</computeroutput> <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;</computeroutput> <computeroutput>MR::AngleMeasurementObject</computeroutput> <computeroutput>MR::CircleObject</computeroutput> <computeroutput>MR::ConeObject</computeroutput> <computeroutput>MR::CylinderObject</computeroutput> <computeroutput>MR::DistanceMeasurementObject</computeroutput> <computeroutput>MR::FeatureObject</computeroutput> <computeroutput>MR::LineObject</computeroutput> <computeroutput>MR::MeasurementObject</computeroutput> <computeroutput>MR::ObjectDistanceMap</computeroutput> <computeroutput>MR::ObjectGcode</computeroutput> <computeroutput>MR::ObjectLabel</computeroutput> <computeroutput>MR::ObjectLines</computeroutput> <computeroutput>MR::ObjectLinesHolder</computeroutput> <computeroutput>MR::ObjectMesh</computeroutput> <computeroutput>MR::ObjectMeshHolder</computeroutput> <computeroutput>MR::ObjectPoints</computeroutput> <computeroutput>MR::ObjectPointsHolder</computeroutput> <computeroutput>MR::ObjectVoxels</computeroutput> <computeroutput>MR::PlaneObject</computeroutput> <computeroutput>MR::PointMeasurementObject</computeroutput> <computeroutput>MR::PointObject</computeroutput> <computeroutput>MR::RadiusMeasurementObject</computeroutput> <computeroutput>MR::SphereObject</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" line="132" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObject.h" bodystart="132" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -1804,7 +1448,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ObjectChildrenHolder</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1822,7 +1466,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ObjectChildrenHolder</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5063,7 +4707,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Object</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5081,7 +4725,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Object</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6598,48 +6242,48 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRObject_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAddVisualPropertiesMixin.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRObject_8h_1ac1385bd9e8fa466aaf34d0db0019ba79" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1ac1385bd9e8fa466aaf34d0db0019ba79" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac1385bd9e8fa466aaf34d0db0019ba79" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAddVisualPropertiesMixin.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRObject_8h_1aec928ec9053250e5440a0bd58db3b348" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aec928ec9053250e5440a0bd58db3b348" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aec928ec9053250e5440a0bd58db3b348" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAddVisualPropertiesMixin.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRObject_8h_1a5af6b79d144ff4f07641dd4a79c33bc1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAngleMeasurementObject_8h_1a5af6b79d144ff4f07641dd4a79c33bc1" kindref="member">MR_AngleMeasurementObject</ref><sp/><ref refid="MRAngleMeasurementObject_8h_1a5af6b79d144ff4f07641dd4a79c33bc1" kindref="member">MR_AngleMeasurementObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAngleMeasurementObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRObject_8h_1a967eba9f410685a4d6f879dc97240a08" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a967eba9f410685a4d6f879dc97240a08" kindref="member">MR_CircleObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a967eba9f410685a4d6f879dc97240a08" kindref="member">MR_CircleObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRCircleObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRObject_8h_1a943257aecd41a7a33ecfe2ccbf1490d2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a943257aecd41a7a33ecfe2ccbf1490d2" kindref="member">MR_ConeObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a943257aecd41a7a33ecfe2ccbf1490d2" kindref="member">MR_ConeObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRConeObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRObject_8h_1a01e7c260afa54426440fd3f81b13e76e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a01e7c260afa54426440fd3f81b13e76e" kindref="member">MR_CylinderObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a01e7c260afa54426440fd3f81b13e76e" kindref="member">MR_CylinderObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRCylinderObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceMeasurementObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRObject_8h_1aff93746de8efe15fd5fa764838b71e9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kindref="member">MR_FeatureObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kindref="member">MR_FeatureObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRFeatureObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MRObject_8h_1a7a2a1e79f2d7916e5b59911ffa2ce37e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureObject_8h_1a7a2a1e79f2d7916e5b59911ffa2ce37e" kindref="member">MR_LineObject</ref><sp/><ref refid="MRFeatureObject_8h_1a7a2a1e79f2d7916e5b59911ffa2ce37e" kindref="member">MR_LineObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLineObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRObject_8h_1af3835b44b6f41035bcc3f994b4711cc1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAngleMeasurementObject_8h_1af3835b44b6f41035bcc3f994b4711cc1" kindref="member">MR_MeasurementObject</ref><sp/><ref refid="MRAngleMeasurementObject_8h_1af3835b44b6f41035bcc3f994b4711cc1" kindref="member">MR_MeasurementObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeasurementObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAddVisualPropertiesMixin.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1ac1385bd9e8fa466aaf34d0db0019ba79" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac1385bd9e8fa466aaf34d0db0019ba79" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAddVisualPropertiesMixin.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aec928ec9053250e5440a0bd58db3b348" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aec928ec9053250e5440a0bd58db3b348" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAddVisualPropertiesMixin.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAngleMeasurementObject_8h_1a5af6b79d144ff4f07641dd4a79c33bc1" kindref="member">MR_AngleMeasurementObject</ref><sp/><ref refid="MRAngleMeasurementObject_8h_1a5af6b79d144ff4f07641dd4a79c33bc1" kindref="member">MR_AngleMeasurementObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAngleMeasurementObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a967eba9f410685a4d6f879dc97240a08" kindref="member">MR_CircleObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a967eba9f410685a4d6f879dc97240a08" kindref="member">MR_CircleObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRCircleObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a943257aecd41a7a33ecfe2ccbf1490d2" kindref="member">MR_ConeObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a943257aecd41a7a33ecfe2ccbf1490d2" kindref="member">MR_ConeObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRConeObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a01e7c260afa54426440fd3f81b13e76e" kindref="member">MR_CylinderObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a01e7c260afa54426440fd3f81b13e76e" kindref="member">MR_CylinderObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRCylinderObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceMeasurementObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kindref="member">MR_FeatureObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kindref="member">MR_FeatureObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRFeatureObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureObject_8h_1a7a2a1e79f2d7916e5b59911ffa2ce37e" kindref="member">MR_LineObject</ref><sp/><ref refid="MRFeatureObject_8h_1a7a2a1e79f2d7916e5b59911ffa2ce37e" kindref="member">MR_LineObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRLineObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAngleMeasurementObject_8h_1af3835b44b6f41035bcc3f994b4711cc1" kindref="member">MR_MeasurementObject</ref><sp/><ref refid="MRAngleMeasurementObject_8h_1af3835b44b6f41035bcc3f994b4711cc1" kindref="member">MR_MeasurementObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeasurementObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27" refid="MRObject_8h_1ad6ad696793a6623bba06b95cbf9e7245" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObject_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref><sp/><ref refid="MRObject_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectDistanceMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28" refid="MRObject_8h_1af23a4f0a386adc3ab051268483b937da" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObject_8h_1af23a4f0a386adc3ab051268483b937da" kindref="member">MR_ObjectGcode</ref><sp/><ref refid="MRObject_8h_1af23a4f0a386adc3ab051268483b937da" kindref="member">MR_ObjectGcode</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectGcode.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="MRObject_8h_1a4edfc78551f61ec34b3b0e5f5173453f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObject_8h_1a4edfc78551f61ec34b3b0e5f5173453f" kindref="member">MR_ObjectLabel</ref><sp/><ref refid="MRObject_8h_1a4edfc78551f61ec34b3b0e5f5173453f" kindref="member">MR_ObjectLabel</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCSymbolMesh/MRObjectLabel.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="MRObject_8h_1a6ea30e504a416bf2f8b79c3f9124e265" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObject_8h_1a6ea30e504a416bf2f8b79c3f9124e265" kindref="member">MR_ObjectLines</ref><sp/><ref refid="MRObject_8h_1a6ea30e504a416bf2f8b79c3f9124e265" kindref="member">MR_ObjectLines</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectLines.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31" refid="MRObject_8h_1af46c30b811dbea0af7a43f2bfcf2741a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObject_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref><sp/><ref refid="MRObject_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectLinesHolder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRObject_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="33" refid="MRObject_8h_1a1c5e41e50d86c1613114a6f1296f0934" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObject_8h_1a1c5e41e50d86c1613114a6f1296f0934" kindref="member">MR_ObjectMeshHolder</ref><sp/><ref refid="MRObject_8h_1a1c5e41e50d86c1613114a6f1296f0934" kindref="member">MR_ObjectMeshHolder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectMeshHolder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRObject_8h_1ab1c1a63bde0febef265b95d647c94932" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref><sp/><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectPoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref><sp/><ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectPoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="35" refid="MRObject_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObject_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/><ref refid="MRObject_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectPointsHolder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="36" refid="MRObject_8h_1a4b484d976d1077ae78acdc3b6ea174c0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObject_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref><sp/><ref refid="MRObject_8h_1a4b484d976d1077ae78acdc3b6ea174c0" kindref="member">MR_ObjectVoxels</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRObjectVoxels.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRObject_8h_1a9d9e851e595520f918a21aa5c106d6ce" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureObject_8h_1a9d9e851e595520f918a21aa5c106d6ce" kindref="member">MR_PlaneObject</ref><sp/><ref refid="MRFeatureObject_8h_1a9d9e851e595520f918a21aa5c106d6ce" kindref="member">MR_PlaneObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPlaneObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRObject_8h_1a749cca566de75c01b7c4210dfd5ab596" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeasurementObject_8h_1a749cca566de75c01b7c4210dfd5ab596" kindref="member">MR_PointMeasurementObject</ref><sp/><ref refid="MRMeasurementObject_8h_1a749cca566de75c01b7c4210dfd5ab596" kindref="member">MR_PointMeasurementObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointMeasurementObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRObject_8h_1a6150a41bd1abc312778a78a3543c0f54" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureObject_8h_1a6150a41bd1abc312778a78a3543c0f54" kindref="member">MR_PointObject</ref><sp/><ref refid="MRFeatureObject_8h_1a6150a41bd1abc312778a78a3543c0f54" kindref="member">MR_PointObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRObject_8h_1ad32b2e846921e8b3aa5e562e89d5568c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeasurementObject_8h_1ad32b2e846921e8b3aa5e562e89d5568c" kindref="member">MR_RadiusMeasurementObject</ref><sp/><ref refid="MRMeasurementObject_8h_1ad32b2e846921e8b3aa5e562e89d5568c" kindref="member">MR_RadiusMeasurementObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRRadiusMeasurementObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureObject_8h_1a9d9e851e595520f918a21aa5c106d6ce" kindref="member">MR_PlaneObject</ref><sp/><ref refid="MRFeatureObject_8h_1a9d9e851e595520f918a21aa5c106d6ce" kindref="member">MR_PlaneObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPlaneObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeasurementObject_8h_1a749cca566de75c01b7c4210dfd5ab596" kindref="member">MR_PointMeasurementObject</ref><sp/><ref refid="MRMeasurementObject_8h_1a749cca566de75c01b7c4210dfd5ab596" kindref="member">MR_PointMeasurementObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointMeasurementObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureObject_8h_1a6150a41bd1abc312778a78a3543c0f54" kindref="member">MR_PointObject</ref><sp/><ref refid="MRFeatureObject_8h_1a6150a41bd1abc312778a78a3543c0f54" kindref="member">MR_PointObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeasurementObject_8h_1ad32b2e846921e8b3aa5e562e89d5568c" kindref="member">MR_RadiusMeasurementObject</ref><sp/><ref refid="MRMeasurementObject_8h_1ad32b2e846921e8b3aa5e562e89d5568c" kindref="member">MR_RadiusMeasurementObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRRadiusMeasurementObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="41" refid="MRObject_8h_1a885f919fff839030c6725c849e0db23a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObject_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/><ref refid="MRObject_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRSceneRoot.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRObject_8h_1a67f545f54ad8cf36cd415d108d463f83" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a67f545f54ad8cf36cd415d108d463f83" kindref="member">MR_SphereObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a67f545f54ad8cf36cd415d108d463f83" kindref="member">MR_SphereObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRSphereObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRObject_8h_1a85b2b5f875361920283d305645987092" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRViewportId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRObject_8h_1aebba128754c26d6c67761a3a0d2e0e4f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aebba128754c26d6c67761a3a0d2e0e4f" kindref="member">MR_ViewportProperty_MR_AffineXf3f</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aebba128754c26d6c67761a3a0d2e0e4f" kindref="member">MR_ViewportProperty_MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRViewportProperty.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRObject_8h_1a36f3696eda81d7005927ebc5fdf17e14" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVisualObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRObject_8h_1ac70a547e279521dbca88d6d95326ba2a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_set_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRObject_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a67f545f54ad8cf36cd415d108d463f83" kindref="member">MR_SphereObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a67f545f54ad8cf36cd415d108d463f83" kindref="member">MR_SphereObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRSphereObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRViewportId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aebba128754c26d6c67761a3a0d2e0e4f" kindref="member">MR_ViewportProperty_MR_AffineXf3f</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aebba128754c26d6c67761a3a0d2e0e4f" kindref="member">MR_ViewportProperty_MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRViewportProperty.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a36f3696eda81d7005927ebc5fdf17e14" kindref="member">MR_VisualObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVisualObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_set_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="48" refid="MRObject_8h_1a430d586657822e294dced54cc7b4f7a6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObject_8h_1a430d586657822e294dced54cc7b4f7a6" kindref="member">MR_std_shared_ptr_const_MR_Object</ref><sp/><ref refid="MRObject_8h_1a430d586657822e294dced54cc7b4f7a6" kindref="member">MR_std_shared_ptr_const_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_const_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="MRObject_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRObject_8h_1acc2f4e4d04631180d278fad84fbbc6cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref><sp/><ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref><sp/><ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="51" refid="MRObject_8h_1ae295d93375f5ea0ece8044d77aa7f442" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObject_8h_1ae295d93375f5ea0ece8044d77aa7f442" kindref="member">MR_std_vector_std_shared_ptr_const_MR_Object</ref><sp/><ref refid="MRObject_8h_1ae295d93375f5ea0ece8044d77aa7f442" kindref="member">MR_std_vector_std_shared_ptr_const_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_const_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRObject_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRObject_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref>;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref>;</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="132" refid="MRObject_8h_1accce9c9179cadabc541edda0fc7a2571" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref>;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref>;</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
 <codeline lineno="136" refid="MRObject_8h_1a198b8cc667b3de135d790c751ed63da4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref><sp/>*<ref refid="MRObject_8h_1a198b8cc667b3de135d790c751ed63da4" kindref="member">MR_ObjectChildrenHolder_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
@@ -6774,7 +6418,7 @@
 <codeline lineno="487" refid="MRObject_8h_1a9226627c01aa8370c0afb2431562c20f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref><sp/>*<ref refid="MRObject_8h_1a9226627c01aa8370c0afb2431562c20f" kindref="member">MR_ObjectChildrenHolder_AssignFromAnother</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="488"><highlight class="normal"></highlight></codeline>
 <codeline lineno="489"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>this<sp/>Object<sp/>as<sp/>shared_ptr</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="490"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight></codeline>
+<codeline lineno="490"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="494" refid="MRObject_8h_1a7823061ce70f48ac4d8b1f335d57d98d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*<ref refid="MRObject_8h_1a7823061ce70f48ac4d8b1f335d57d98d" kindref="member">MR_ObjectChildrenHolder_getSharedPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="495"><highlight class="normal"></highlight></codeline>
 <codeline lineno="500" refid="MRObject_8h_1a170e8ee914f1b29dd719e23a330890de" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRObject_8h_1a170e8ee914f1b29dd719e23a330890de" kindref="member">MR_ObjectChildrenHolder_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aecafdb5edbdb31eb13fbab762e3c39bc" kindref="member">MR_ObjectChildrenHolder</ref><sp/>*_this);</highlight></codeline>
@@ -7135,7 +6779,7 @@
 <codeline lineno="1574"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1581" refid="MRObject_8h_1a2f22be4cdc3453e92808dd9472a61b45" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*<ref refid="MRObject_8h_1a2f22be4cdc3453e92808dd9472a61b45" kindref="member">MR_Object_AssignFromAnother</ref>(<ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="1582"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1583"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>name<sp/>of<sp/>subtype<sp/>for<sp/>serialization<sp/>purposes</highlight></codeline>
+<codeline lineno="1583"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>name<sp/>of<sp/>subtype<sp/>for<sp/>serialization<sp/>purposes</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1585" refid="MRObject_8h_1a1f6cf2ac962f42a48c35f51135d9a9e2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRObject_8h_1a1f6cf2ac962f42a48c35f51135d9a9e2" kindref="member">MR_Object_StaticTypeName</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="1586"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1589" refid="MRObject_8h_1a9b959f48032e98d3cf38296043521878" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRObject_8h_1a9b959f48032e98d3cf38296043521878" kindref="member">MR_Object_typeName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*_this);</highlight></codeline>
@@ -7268,14 +6912,14 @@
 <codeline lineno="1961"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1965" refid="MRObject_8h_1a971cbea63dfa43cfba5d850f7d76a3bb" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRObject_8h_1a971cbea63dfa43cfba5d850f7d76a3bb" kindref="member">MR_Object_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1966"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1967"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>true<sp/>if<sp/>model<sp/>of<sp/>current<sp/>object<sp/>equals<sp/>to<sp/>model<sp/>(the<sp/>same)<sp/>of<sp/>other</highlight></codeline>
+<codeline lineno="1967"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>true<sp/>if<sp/>model<sp/>of<sp/>current<sp/>object<sp/>equals<sp/>to<sp/>model<sp/>(the<sp/>same)<sp/>of<sp/>other</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1971" refid="MRObject_8h_1a1346477b9ffabeb00714e17e55256012" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRObject_8h_1a1346477b9ffabeb00714e17e55256012" kindref="member">MR_Object_sameModels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="1972"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1973"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>hash<sp/>of<sp/>model<sp/>(or<sp/>hash<sp/>object<sp/>pointer<sp/>if<sp/>object<sp/>has<sp/>no<sp/>model)</highlight></codeline>
+<codeline lineno="1973"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>hash<sp/>of<sp/>model<sp/>(or<sp/>hash<sp/>object<sp/>pointer<sp/>if<sp/>object<sp/>has<sp/>no<sp/>model)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1976" refid="MRObject_8h_1a898437c4c2edcebd762d3fb0f856f640" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRObject_8h_1a898437c4c2edcebd762d3fb0f856f640" kindref="member">MR_Object_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1977"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1978"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>this<sp/>Object<sp/>as<sp/>shared_ptr</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1979"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight></codeline>
+<codeline lineno="1979"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1983" refid="MRObject_8h_1af8490501c0ef9a5a586a088081fb1208" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*<ref refid="MRObject_8h_1af8490501c0ef9a5a586a088081fb1208" kindref="member">MR_Object_getSharedPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1984"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1985"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>

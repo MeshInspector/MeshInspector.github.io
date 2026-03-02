@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line" kind="struct" language="C++" prot="public">
     <compoundname>MR::ImGuiMeasurementIndicators::TextParams::Line</compoundname>
-    <includes refid="MRImGuiMeasurementIndicators_8h" local="no">MRImGuiMeasurementIndicators.h</includes>
+    <includes refid="MRImGuiMeasurementIndicators_8h" local="no">MRViewer/MRImGuiMeasurementIndicators.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line_1a5cb62d069491278c2397eb5c0a8d94fa" prot="public" static="no" mutable="no">
         <type>ImVec2</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="291" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="291" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="291" column="16" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="291" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line_1a3915b7762c2b88313bdf93ba00b51475" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a57d1104a2e78b1f148bbd864c7d7cd6a" kindref="member">LineCapDecoration</ref></type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="292" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="292" bodyend="292"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="292" column="27" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="292" bodyend="292"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line_1ad3b9bd4bb1b58ac3d681a5ee86935825" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams" kindref="compound">LineBodyParams</ref></type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="293" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="293" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="293" column="24" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="293" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -65,7 +65,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="289" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="290" bodyend="294"/>
+    <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="289" column="5" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="290" bodyend="294"/>
     <listofallmembers>
       <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line_1ad3b9bd4bb1b58ac3d681a5ee86935825" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::TextParams::Line</scope><name>body</name></member>
       <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line_1a3915b7762c2b88313bdf93ba00b51475" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::TextParams::Line</scope><name>capDecoration</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UnionFind__MRUndirectedEdgeId" kind="class" language="C#" prot="public">
     <compoundname>MR::UnionFind_MRUndirectedEdgeId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_UnionFind_MRUndirectedEdgeId</basecompoundref>
@@ -54,7 +54,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::UnionFind</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::UnionFind</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::UnionFind</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::UnionFind</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,7 +92,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::UnionFind</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::UnionFind</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -111,7 +111,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates union-find with given number of elements, each element is the only one in its disjoint set Generated from constructor <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::UnionFind</computeroutput>. </para>
+<para>creates union-find with given number of elements, each element is the only one in its disjoint set Generated from constructor <computeroutput>MR::UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::UnionFind</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -130,7 +130,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -149,7 +149,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::reset</computeroutput>. </para>
+<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR::UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::reset</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -175,7 +175,7 @@
 <para>unite two elements, </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>first: new common root, second: true = union was done, false = first and second were already united Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::unite</computeroutput>. </para>
+<para><simplesect kind="return"><para>first: new common root, second: true = union was done, false = first and second were already united Generated from method <computeroutput>MR::UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::unite</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -198,7 +198,7 @@
           <declname>second</declname>
         </param>
         <briefdescription>
-<para>returns true if given two elements are from one set Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::united</computeroutput>. </para>
+<para>returns true if given two elements are from one set Generated from method <computeroutput>MR::UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::united</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -217,7 +217,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>finds the root of the set containing given element with optimizing data structure updates Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::find</computeroutput>. </para>
+<para>finds the root of the set containing given element with optimizing data structure updates Generated from method <computeroutput>MR::UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::find</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -244,7 +244,7 @@
           <declname>end</declname>
         </param>
         <briefdescription>
-<para>finds the root of the set containing given element with optimizing data structure in the range [begin, end) Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::findUpdateRange</computeroutput>. </para>
+<para>finds the root of the set containing given element with optimizing data structure in the range [begin, end) Generated from method <computeroutput>MR::UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::findUpdateRange</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -259,7 +259,7 @@
         <name>roots</name>
         <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.roots</qualifiedname>
         <briefdescription>
-<para>sets the root of corresponding set as the parent of each element, then returns the vector Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::roots</computeroutput>. </para>
+<para>sets the root of corresponding set as the parent of each element, then returns the vector Generated from method <computeroutput>MR::UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::roots</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -278,7 +278,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>returns the number of elements in the set containing given element Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::sizeOfComp</computeroutput>. </para>
+<para>returns the number of elements in the set containing given element Generated from method <computeroutput>MR::UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::sizeOfComp</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -296,52 +296,52 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>is the identifier of a set&apos;s element, e.g. <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> Generated from class <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>is the identifier of a set&apos;s element, e.g. <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> Generated from class <computeroutput>MR::UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_UnionFind_MRUndirectedEdgeId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.UnionFind_MRUndirectedEdgeId</label>
         <link refid="classMR_1_1UnionFind__MRUndirectedEdgeId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_UnionFind_MRUndirectedEdgeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_UnionFind_MRUndirectedEdgeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_UnionFind_MRUndirectedEdgeId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.UnionFind_MRUndirectedEdgeId</label>
         <link refid="classMR_1_1UnionFind__MRUndirectedEdgeId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_UnionFind_MRUndirectedEdgeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_UnionFind_MRUndirectedEdgeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="764" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="765" bodyend="899"/>

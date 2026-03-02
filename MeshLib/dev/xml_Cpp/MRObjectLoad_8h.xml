@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRObjectLoad_8h" kind="file" language="C++">
     <compoundname>MRObjectLoad.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -92,7 +92,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRObjectLoad.h</label>
+        <label>MRMesh/MRObjectLoad.h</label>
         <link refid="MRObjectLoad_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -217,7 +217,7 @@
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="group__DataModelGroup_1gae0171c457a8d377c478e26a0b170456c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObjectMesh&gt;</ref><sp/><ref refid="group__DataModelGroup_1gae0171c457a8d377c478e26a0b170456c" kindref="member">makeObjectMeshFromFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="group__DataModelGroup_1gadd90fc0dc330a520a6dff51ba956a7f1" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObject&gt;</ref><sp/><ref refid="group__DataModelGroup_1gadd90fc0dc330a520a6dff51ba956a7f1" kindref="member">makeObjectFromMeshFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{},</highlight></codeline>
@@ -248,8 +248,8 @@
 <codeline lineno="79" refid="group__DataModelGroup_1gaf486b5ab2b1a6bea43372dfd45b9dfc8" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__IOFiltersGroup_1ga6e5e24c14d4909fcad8aa5fab54d047b" kindref="member">IOFilters</ref><sp/><ref refid="group__DataModelGroup_1gaf486b5ab2b1a6bea43372dfd45b9dfc8" kindref="member">getAllFilters</ref>();</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h"/>
+    <location file="MRMesh/MRObjectLoad.h"/>
   </compounddef>
 </doxygen>

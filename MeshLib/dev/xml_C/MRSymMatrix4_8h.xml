@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSymMatrix4_8h" kind="file" language="C++">
     <compoundname>MRSymMatrix4.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -806,7 +806,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix4b</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSymMatrix4_8h_1a39c4e928ef03df5e35709c67cf615625" kindref="member">MR_SymMatrix4b</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -824,7 +824,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix4b</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSymMatrix4_8h_1a39c4e928ef03df5e35709c67cf615625" kindref="member">MR_SymMatrix4b</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1722,7 +1722,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix4i</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSymMatrix4_8h_1a0a488d5f7804d6c7e156503cc177b7cb" kindref="member">MR_SymMatrix4i</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1740,7 +1740,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix4i</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSymMatrix4_8h_1a0a488d5f7804d6c7e156503cc177b7cb" kindref="member">MR_SymMatrix4i</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2638,7 +2638,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix4i64</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSymMatrix4_8h_1a0345757f327c1f5be7a41bf7d1544e76" kindref="member">MR_SymMatrix4i64</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2656,7 +2656,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix4i64</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSymMatrix4_8h_1a0345757f327c1f5be7a41bf7d1544e76" kindref="member">MR_SymMatrix4i64</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3554,7 +3554,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix4f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSymMatrix4_8h_1a88cdd6a3888b483383935bf825eb4873" kindref="member">MR_SymMatrix4f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3572,7 +3572,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix4f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSymMatrix4_8h_1a88cdd6a3888b483383935bf825eb4873" kindref="member">MR_SymMatrix4f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4470,7 +4470,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix4d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSymMatrix4_8h_1abf9d3a4e5b6599db1615ab93dd532031" kindref="member">MR_SymMatrix4d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4488,7 +4488,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix4d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSymMatrix4_8h_1abf9d3a4e5b6599db1615ab93dd532031" kindref="member">MR_SymMatrix4d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5386,7 +5386,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SymMatrix4_unsigned_char</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSymMatrix4_8h_1ae357a2ff1644db0f599129d441c83531" kindref="member">MR_SymMatrix4_unsigned_char</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5404,7 +5404,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SymMatrix4_unsigned_char</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSymMatrix4_8h_1ae357a2ff1644db0f599129d441c83531" kindref="member">MR_SymMatrix4_unsigned_char</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5634,17 +5634,17 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRSymMatrix4_8h_1a39c4e928ef03df5e35709c67cf615625" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix4_8h_1a39c4e928ef03df5e35709c67cf615625" kindref="member">MR_SymMatrix4b</ref><sp/><ref refid="MRSymMatrix4_8h_1a39c4e928ef03df5e35709c67cf615625" kindref="member">MR_SymMatrix4b</ref>;</highlight></codeline>
+<codeline lineno="17" refid="MRSymMatrix4_8h_1a39c4e928ef03df5e35709c67cf615625" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix4_8h_1a39c4e928ef03df5e35709c67cf615625" kindref="member">MR_SymMatrix4b</ref><sp/><ref refid="MRSymMatrix4_8h_1a39c4e928ef03df5e35709c67cf615625" kindref="member">MR_SymMatrix4b</ref>;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRSymMatrix4_8h_1a0a488d5f7804d6c7e156503cc177b7cb" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix4_8h_1a0a488d5f7804d6c7e156503cc177b7cb" kindref="member">MR_SymMatrix4i</ref><sp/><ref refid="MRSymMatrix4_8h_1a0a488d5f7804d6c7e156503cc177b7cb" kindref="member">MR_SymMatrix4i</ref>;</highlight></codeline>
+<codeline lineno="22" refid="MRSymMatrix4_8h_1a0a488d5f7804d6c7e156503cc177b7cb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix4_8h_1a0a488d5f7804d6c7e156503cc177b7cb" kindref="member">MR_SymMatrix4i</ref><sp/><ref refid="MRSymMatrix4_8h_1a0a488d5f7804d6c7e156503cc177b7cb" kindref="member">MR_SymMatrix4i</ref>;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRSymMatrix4_8h_1a0345757f327c1f5be7a41bf7d1544e76" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix4_8h_1a0345757f327c1f5be7a41bf7d1544e76" kindref="member">MR_SymMatrix4i64</ref><sp/><ref refid="MRSymMatrix4_8h_1a0345757f327c1f5be7a41bf7d1544e76" kindref="member">MR_SymMatrix4i64</ref>;</highlight></codeline>
+<codeline lineno="27" refid="MRSymMatrix4_8h_1a0345757f327c1f5be7a41bf7d1544e76" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix4_8h_1a0345757f327c1f5be7a41bf7d1544e76" kindref="member">MR_SymMatrix4i64</ref><sp/><ref refid="MRSymMatrix4_8h_1a0345757f327c1f5be7a41bf7d1544e76" kindref="member">MR_SymMatrix4i64</ref>;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRSymMatrix4_8h_1a88cdd6a3888b483383935bf825eb4873" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix4_8h_1a88cdd6a3888b483383935bf825eb4873" kindref="member">MR_SymMatrix4f</ref><sp/><ref refid="MRSymMatrix4_8h_1a88cdd6a3888b483383935bf825eb4873" kindref="member">MR_SymMatrix4f</ref>;</highlight></codeline>
+<codeline lineno="32" refid="MRSymMatrix4_8h_1a88cdd6a3888b483383935bf825eb4873" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix4_8h_1a88cdd6a3888b483383935bf825eb4873" kindref="member">MR_SymMatrix4f</ref><sp/><ref refid="MRSymMatrix4_8h_1a88cdd6a3888b483383935bf825eb4873" kindref="member">MR_SymMatrix4f</ref>;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRSymMatrix4_8h_1abf9d3a4e5b6599db1615ab93dd532031" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix4_8h_1abf9d3a4e5b6599db1615ab93dd532031" kindref="member">MR_SymMatrix4d</ref><sp/><ref refid="MRSymMatrix4_8h_1abf9d3a4e5b6599db1615ab93dd532031" kindref="member">MR_SymMatrix4d</ref>;</highlight></codeline>
+<codeline lineno="37" refid="MRSymMatrix4_8h_1abf9d3a4e5b6599db1615ab93dd532031" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix4_8h_1abf9d3a4e5b6599db1615ab93dd532031" kindref="member">MR_SymMatrix4d</ref><sp/><ref refid="MRSymMatrix4_8h_1abf9d3a4e5b6599db1615ab93dd532031" kindref="member">MR_SymMatrix4d</ref>;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRSymMatrix4_8h_1ae357a2ff1644db0f599129d441c83531" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix4_8h_1ae357a2ff1644db0f599129d441c83531" kindref="member">MR_SymMatrix4_unsigned_char</ref><sp/><ref refid="MRSymMatrix4_8h_1ae357a2ff1644db0f599129d441c83531" kindref="member">MR_SymMatrix4_unsigned_char</ref>;</highlight></codeline>
+<codeline lineno="42" refid="MRSymMatrix4_8h_1ae357a2ff1644db0f599129d441c83531" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSymMatrix4_8h_1ae357a2ff1644db0f599129d441c83531" kindref="member">MR_SymMatrix4_unsigned_char</ref><sp/><ref refid="MRSymMatrix4_8h_1ae357a2ff1644db0f599129d441c83531" kindref="member">MR_SymMatrix4_unsigned_char</ref>;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="49" refid="MRSymMatrix4_8h_1ad7d0eb41fe9bb57c2a44b0dc8cd91eee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRSymMatrix4_8h_1ad7d0eb41fe9bb57c2a44b0dc8cd91eee" kindref="member">MR_SymMatrix4b_Get_xx</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymMatrix4_8h_1a39c4e928ef03df5e35709c67cf615625" kindref="member">MR_SymMatrix4b</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>

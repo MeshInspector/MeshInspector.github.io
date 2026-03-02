@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1WatershedGraph" kind="class" language="C++" prot="public">
     <compoundname>MR::WatershedGraph</compoundname>
-    <includes refid="MRWatershedGraph_8h" local="no">MRWatershedGraph.h</includes>
+    <includes refid="MRWatershedGraph_8h" local="no">MRMesh/MRWatershedGraph.h</includes>
     <innerclass refid="structMR_1_1WatershedGraph_1_1BasinInfo" prot="public">MR::WatershedGraph::BasinInfo</innerclass>
     <innerclass refid="structMR_1_1WatershedGraph_1_1BdInfo" prot="public">MR::WatershedGraph::BdInfo</innerclass>
     <innerclass refid="structMR_1_1WatershedGraph_1_1OverflowPoint" prot="public">MR::WatershedGraph::OverflowPoint</innerclass>
@@ -47,7 +47,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="15" bodyend="170"/>
+    <location file="MRMesh/MRWatershedGraph.h" line="14" column="1" bodyfile="MRMesh/MRWatershedGraph.h" bodystart="15" bodyend="170"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaaded095af3e5c37cf3299086f255480d" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>basinInfo</name></member>
       <member refid="group__GeneralGroup_1ga9af63cdf457000d537668057705b684c" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>basinInfo</name></member>

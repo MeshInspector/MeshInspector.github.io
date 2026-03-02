@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MeshAttributesToUpdate" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MeshAttributesToUpdate</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -220,21 +220,6 @@
 the attribute data of the mesh that needs to be updated
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.MeshAttributesToUpdate</label>
-        <link refid="classmrmeshpy_1_1MeshAttributesToUpdate"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_colorMap</edgelabel>
-          <edgelabel>_offsetof_faceColors</edgelabel>
-          <edgelabel>_offsetof_texturePerFace</edgelabel>
-          <edgelabel>_offsetof_uvCoords</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31357" bodyend="31395"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshAttributesToUpdate_1a9a9a12f5e2fd0d328eb3569bc32902bd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshAttributesToUpdate</scope><name>__init__</name></member>

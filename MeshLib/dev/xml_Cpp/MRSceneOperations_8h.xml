@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSceneOperations_8h" kind="file" language="C++">
     <compoundname>MRSceneOperations.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -41,7 +41,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRSceneOperations.h</label>
+        <label>MRViewer/MRSceneOperations.h</label>
         <link refid="MRSceneOperations_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -103,13 +103,13 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="structMR_1_1FlatTree" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FlatTree" kindref="compound">FlatTree</ref></highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1FlatTree" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FlatTree" kindref="compound">FlatTree</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1ga91ce578b57c3afcd001373ff561404a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Object&gt;<sp/><ref refid="group__GeneralGroup_1ga91ce578b57c3afcd001373ff561404a9" kindref="member">root</ref>;</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1gac658a0431f66b43b4735d82b4ce30504" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;<sp/><ref refid="group__GeneralGroup_1gac658a0431f66b43b4735d82b4ce30504" kindref="member">subobjects</ref>;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="structMR_1_1TypedFlatTree" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TypedFlatTree" kindref="compound">TypedFlatTree</ref></highlight></codeline>
+<codeline lineno="21" refid="structMR_1_1TypedFlatTree" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TypedFlatTree" kindref="compound">TypedFlatTree</ref></highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1gaa04d404e0e698980823e763537ad5250" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Object&gt;<sp/><ref refid="group__GeneralGroup_1gaa04d404e0e698980823e763537ad5250" kindref="member">root</ref>;</highlight></codeline>
 <codeline lineno="24" refid="group__GeneralGroup_1ga3d41bfc0c348f8d528cde43bb62dbcde" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::shared_ptr&lt;ObjectMesh&gt;&gt;<sp/><ref refid="group__GeneralGroup_1ga3d41bfc0c348f8d528cde43bb62dbcde" kindref="member">objsMesh</ref>;</highlight></codeline>
@@ -124,8 +124,8 @@
 <codeline lineno="38" refid="group__GeneralGroup_1gab0122d48aa237a15416e1668203305e8" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab0122d48aa237a15416e1668203305e8" kindref="member">mergeSubtree</ref>(<sp/><ref refid="structMR_1_1TypedFlatTree" kindref="compound">TypedFlatTree</ref><sp/>subtree<sp/>);</highlight></codeline>
 <codeline lineno="39" refid="group__GeneralGroup_1ga7adba2e4aec682cc419aa32afb386e67" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab0122d48aa237a15416e1668203305e8" kindref="member">mergeSubtree</ref>(<sp/>std::shared_ptr&lt;Object&gt;<sp/>rootObj<sp/>);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneOperations.h"/>
+    <location file="MRViewer/MRSceneOperations.h"/>
   </compounddef>
 </doxygen>

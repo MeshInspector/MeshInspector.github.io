@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PointPairs" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PointPairs</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1IPointPairs" prot="public" virt="non-virtual">mrmeshpy.IPointPairs</basecompoundref>
@@ -97,7 +97,6 @@
         <argsstring>(self, int idx)</argsstring>
         <name>__getitem__</name>
         <qualifiedname>mrmeshpy.PointPairs.__getitem__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1IPointPairs_1a254724433e170b395a2c3d3ec4a459cf">__getitem__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -120,7 +119,6 @@
         <argsstring>(self, int idx)</argsstring>
         <name>__getitem__</name>
         <qualifiedname>mrmeshpy.PointPairs.__getitem__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1IPointPairs_1a254724433e170b395a2c3d3ec4a459cf">__getitem__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -185,7 +183,6 @@
         <argsstring>(self, int arg0, ICPPairData arg1)</argsstring>
         <name>__setitem__</name>
         <qualifiedname>mrmeshpy.PointPairs.__setitem__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1IPointPairs_1a2c8e2d6a582d7944d49d189aa9e6c7b1">__setitem__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -292,19 +289,10 @@
         <link refid="classmrmeshpy_1_1PointPairs"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_vec</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.IPointPairs</label>
         <link refid="classmrmeshpy_1_1IPointPairs"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_active</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45109" bodyend="45151"/>
@@ -315,7 +303,10 @@
       <member refid="classmrmeshpy_1_1PointPairs_1a9bac98863929f4d083157a3ac6f06797" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPairs</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1PointPairs_1ab1856c0f4803cbab7a875b96e396d254" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPairs</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1PointPairs_1a34f15f93aec5e051ab01c2eadc353c27" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPairs</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1IPointPairs_1a1911f82459e2937c78560f81d81d6892" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointPairs</scope><name>_offsetof_active</name></member>
       <member refid="classmrmeshpy_1_1PointPairs_1a67e2b0065a376bc5e3aa5058798e1cb9" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointPairs</scope><name>_offsetof_vec</name></member>
+      <member refid="classmrmeshpy_1_1IPointPairs_1a6638f11939566608e964f393545d8ac5" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPairs</scope><name>active</name></member>
+      <member refid="classmrmeshpy_1_1IPointPairs_1aa45def76cd00ccfe7a62a9e0eeeb7eee" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPairs</scope><name>active</name></member>
       <member refid="classmrmeshpy_1_1PointPairs_1a4e997d8247d4f100124c97c3b267057b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPairs</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1PointPairs_1a4e997d8247d4f100124c97c3b267057b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPairs</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1PointPairs_1aa79850471fabb79df4581cb0e24e8f57" prot="public" virt="non-virtual"><scope>mrmeshpy::PointPairs</scope><name>size</name></member>

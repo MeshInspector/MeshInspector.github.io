@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRectIndexer_8h" kind="file" language="C++">
     <compoundname>MRRectIndexer.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRVector2_8h" local="yes">MRVector2.h</includes>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes local="no">array</includes>
-    <includedby refid="MRDistanceMap_8h" local="yes">MRDistanceMap.h</includedby>
-    <includedby refid="MRMatrix_8h" local="yes">MRMatrix.h</includedby>
+    <includedby refid="MRDistanceMap_8h" local="yes">MRMesh/MRDistanceMap.h</includedby>
+    <includedby refid="MRMatrix_8h" local="yes">MRMesh/MRMatrix.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -58,7 +58,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRRectIndexer.h</label>
+        <label>MRMesh/MRRectIndexer.h</label>
         <link refid="MRRectIndexer_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -148,23 +148,23 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="8">
-        <label>MROpenRawVoxelsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
       <node id="3">
-        <label>MRCudaContoursDistanceMap.h</label>
+        <label>MRCuda/MRCudaContoursDistanceMap.h</label>
         <link refid="MRCudaContoursDistanceMap_8h"/>
       </node>
       <node id="4">
-        <label>MRCudaMeshDistanceMap.h</label>
+        <label>MRCuda/MRCudaMeshDistanceMap.h</label>
         <link refid="MRCudaMeshDistanceMap_8h"/>
       </node>
-      <node id="14">
-        <label>MRTiff.h</label>
+      <node id="12">
+        <label>MRIOExtras/MRTiff.h</label>
         <link refid="MRTiff_8h"/>
       </node>
       <node id="2">
-        <label>MRDistanceMap.h</label>
+        <label>MRMesh/MRDistanceMap.h</label>
         <link refid="MRDistanceMap_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -176,27 +176,27 @@
         </childnode>
       </node>
       <node id="5">
-        <label>MRDistanceMapLoad.h</label>
+        <label>MRMesh/MRDistanceMapLoad.h</label>
         <link refid="MRDistanceMapLoad_8h"/>
       </node>
       <node id="11">
-        <label>MRDistanceMapParams.h</label>
+        <label>MRMesh/MRDistanceMapParams.h</label>
         <link refid="MRDistanceMapParams_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
         <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="12">
-        <label>MRDistanceMapSave.h</label>
+      <node id="13">
+        <label>MRMesh/MRDistanceMapSave.h</label>
         <link refid="MRDistanceMapSave_8h"/>
       </node>
       <node id="6">
-        <label>MRIOFormatsRegistry.h</label>
+        <label>MRMesh/MRIOFormatsRegistry.h</label>
         <link refid="MRIOFormatsRegistry_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
@@ -204,17 +204,17 @@
         </childnode>
       </node>
       <node id="10">
-        <label>MRMatrix.h</label>
+        <label>MRMesh/MRMatrix.h</label>
         <link refid="MRMatrix_8h"/>
         <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="13">
-        <label>MRObjectDistanceMap.h</label>
+      <node id="14">
+        <label>MRMesh/MRObjectDistanceMap.h</label>
         <link refid="MRObjectDistanceMap_8h"/>
       </node>
       <node id="1">
-        <label>MRRectIndexer.h</label>
+        <label>MRMesh/MRRectIndexer.h</label>
         <link refid="MRRectIndexer_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -222,13 +222,13 @@
         </childnode>
       </node>
       <node id="7">
-        <label>MRVoxelsLoad.h</label>
+        <label>MRVoxels/MRVoxelsLoad.h</label>
         <link refid="MRVoxelsLoad_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="9">
-        <label>MRVoxelsSave.h</label>
+        <label>MRVoxels/MRVoxelsSave.h</label>
         <link refid="MRVoxelsSave_8h"/>
       </node>
     </invincdepgraph>
@@ -252,12 +252,12 @@
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="group__DistanceMapGroup_1gab7acb4543154d042c297e5823fb633b6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__DistanceMapGroup_1gab7acb4543154d042c297e5823fb633b6" kindref="member">OutEdge2</ref><sp/>:<sp/></highlight><highlight class="keywordtype">signed</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b" kindref="member">Invalid</ref><sp/>=<sp/>-1,</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a89241a914ba5d59de9168c4416e69c4a" kindref="member">PlusY</ref>,</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a9cc816b8a2117db796c073f012e78565" kindref="member">MinusY</ref>,</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6aac53fa7ccf60e6f59512da11975eb8a7" kindref="member">PlusX</ref>,</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a6ee0807f5bf1b3e0a4d52919eb298454" kindref="member">MinusX</ref>,</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="16" refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b" kindref="member">Invalid</ref><sp/>=<sp/>-1,</highlight></codeline>
+<codeline lineno="17" refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a89241a914ba5d59de9168c4416e69c4a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a89241a914ba5d59de9168c4416e69c4a" kindref="member">PlusY</ref>,</highlight></codeline>
+<codeline lineno="18" refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a9cc816b8a2117db796c073f012e78565" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a9cc816b8a2117db796c073f012e78565" kindref="member">MinusY</ref>,</highlight></codeline>
+<codeline lineno="19" refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6aac53fa7ccf60e6f59512da11975eb8a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6aac53fa7ccf60e6f59512da11975eb8a7" kindref="member">PlusX</ref>,</highlight></codeline>
+<codeline lineno="20" refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a6ee0807f5bf1b3e0a4d52919eb298454" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a6ee0807f5bf1b3e0a4d52919eb298454" kindref="member">MinusX</ref>,</highlight></codeline>
+<codeline lineno="21" refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6ae93f994f01c537c4e2f7d8528c3eb5e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
 <codeline lineno="22"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<sp/><ref refid="group__DistanceMapGroup_1gab7acb4543154d042c297e5823fb633b6" kindref="member">OutEdge2</ref><sp/>)<sp/>==<sp/>1<sp/>);</highlight></codeline>
@@ -272,11 +272,11 @@
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>OutEdge2Count<sp/>=<sp/>4;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="classMR_1_1RectIndexer" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RectIndexer" kindref="compound">RectIndexer</ref></highlight></codeline>
+<codeline lineno="37" refid="classMR_1_1RectIndexer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RectIndexer_1a801b588e260d6fa3432f296855de6f29" kindref="member">RectIndexer</ref></highlight></codeline>
 <codeline lineno="38"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="40" refid="classMR_1_1RectIndexer_1a801b588e260d6fa3432f296855de6f29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RectIndexer_1a801b588e260d6fa3432f296855de6f29" kindref="member">RectIndexer</ref>()<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RectIndexer" kindref="compound">RectIndexer</ref>(<sp/>const<sp/>Vector2i<sp/>&amp;<sp/><ref refid="classMR_1_1RectIndexer_1a3ad518f3ebe31196088da356bd7646cb" kindref="member">dims</ref><sp/>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RectIndexer_1a801b588e260d6fa3432f296855de6f29" kindref="member">RectIndexer</ref>(<sp/>const<sp/>Vector2i<sp/>&amp;<sp/><ref refid="classMR_1_1RectIndexer_1a3ad518f3ebe31196088da356bd7646cb" kindref="member">dims</ref><sp/>);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__DistanceMapGroup_1ga901329f8c2956e6baeb440b154c9907f" kindref="member">resize</ref>(<sp/>const<sp/>Vector2i<sp/>&amp;<sp/><ref refid="classMR_1_1RectIndexer_1a3ad518f3ebe31196088da356bd7646cb" kindref="member">dims</ref><sp/>);</highlight></codeline>
 <codeline lineno="43" refid="classMR_1_1RectIndexer_1a3ad518f3ebe31196088da356bd7646cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/>Vector2i<sp/>&amp;<sp/><ref refid="classMR_1_1RectIndexer_1a3ad518f3ebe31196088da356bd7646cb" kindref="member">dims</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RectIndexer_1ab4a6c53f72e0260996768505672d9052" kindref="member">dims_</ref>;<sp/>}</highlight></codeline>
 <codeline lineno="44" refid="classMR_1_1RectIndexer_1abd5035619b34370c067840c03ffb5b82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RectIndexer_1abd5035619b34370c067840c03ffb5b82" kindref="member">size</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RectIndexer_1af3cae594fa09e2f9517846460b7ab08a" kindref="member">size_</ref>;<sp/>}</highlight></codeline>
@@ -294,12 +294,12 @@
 <codeline lineno="58" refid="classMR_1_1RectIndexer_1af3cae594fa09e2f9517846460b7ab08a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RectIndexer_1af3cae594fa09e2f9517846460b7ab08a" kindref="member">size_</ref><sp/>=<sp/>0;<sp/></highlight></codeline>
 <codeline lineno="59"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="group__DistanceMapGroup_1ga239b9939936c38ad89df91dd649ab13d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RectIndexer_1a801b588e260d6fa3432f296855de6f29" kindref="member">RectIndexer::RectIndexer</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>dims<sp/>)</highlight></codeline>
+<codeline lineno="61" refid="group__DistanceMapGroup_1ga239b9939936c38ad89df91dd649ab13d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RectIndexer_1a801b588e260d6fa3432f296855de6f29" kindref="member">RectIndexer::RectIndexer</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/><ref refid="classMR_1_1RectIndexer_1a3ad518f3ebe31196088da356bd7646cb" kindref="member">dims</ref><sp/>)</highlight></codeline>
 <codeline lineno="62"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ga901329f8c2956e6baeb440b154c9907f" kindref="member">resize</ref>(<sp/><ref refid="classMR_1_1RectIndexer_1a3ad518f3ebe31196088da356bd7646cb" kindref="member">dims</ref><sp/>);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="group__DistanceMapGroup_1ga901329f8c2956e6baeb440b154c9907f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__DistanceMapGroup_1ga901329f8c2956e6baeb440b154c9907f" kindref="member">RectIndexer::resize</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/>dims<sp/>)<sp/></highlight></codeline>
+<codeline lineno="66" refid="group__DistanceMapGroup_1ga901329f8c2956e6baeb440b154c9907f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__DistanceMapGroup_1ga901329f8c2956e6baeb440b154c9907f" kindref="member">RectIndexer::resize</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i<sp/>&amp;<sp/><ref refid="classMR_1_1RectIndexer_1a3ad518f3ebe31196088da356bd7646cb" kindref="member">dims</ref><sp/>)<sp/></highlight></codeline>
 <codeline lineno="67"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RectIndexer_1ab4a6c53f72e0260996768505672d9052" kindref="member">dims_</ref><sp/>=<sp/><ref refid="classMR_1_1RectIndexer_1a3ad518f3ebe31196088da356bd7646cb" kindref="member">dims</ref>;</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RectIndexer_1af3cae594fa09e2f9517846460b7ab08a" kindref="member">size_</ref><sp/>=<sp/>size_t(<sp/><ref refid="classMR_1_1RectIndexer_1ab4a6c53f72e0260996768505672d9052" kindref="member">dims_</ref>.x<sp/>)<sp/>*<sp/><ref refid="classMR_1_1RectIndexer_1ab4a6c53f72e0260996768505672d9052" kindref="member">dims_</ref>.y;</highlight></codeline>
@@ -321,8 +321,8 @@
 <codeline lineno="87" refid="group__DistanceMapGroup_1ga74a690f4a3588537a12fb70388b1f65a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__DistanceMapGroup_1ga74a690f4a3588537a12fb70388b1f65a" kindref="member">shrinkPixelMask</ref>(<sp/>PixelBitSet&amp;<sp/>mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RectIndexer" kindref="compound">RectIndexer</ref>&amp;<sp/>indexer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shrinkage<sp/>=<sp/>1<sp/>);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h"/>
+    <location file="MRMesh/MRRectIndexer.h"/>
   </compounddef>
 </doxygen>

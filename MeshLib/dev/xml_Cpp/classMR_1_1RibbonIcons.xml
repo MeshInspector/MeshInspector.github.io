@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonIcons" kind="class" language="C++" prot="public">
     <compoundname>MR::RibbonIcons</compoundname>
-    <includes refid="MRRibbonIcons_8h" local="no">MRRibbonIcons.h</includes>
+    <includes refid="MRRibbonIcons_8h" local="no">MRViewer/MRRibbonIcons.h</includes>
     <innerclass refid="structMR_1_1RibbonIcons_1_1Icons" prot="private">MR::RibbonIcons::Icons</innerclass>
     <innerclass refid="structMR_1_1RibbonIcons_1_1IconTypeData" prot="private">MR::RibbonIcons::IconTypeData</innerclass>
     <sectiondef kind="public-type">
@@ -36,7 +36,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="16" bodyend="84"/>
+    <location file="MRViewer/MRRibbonIcons.h" line="15" column="1" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="16" bodyend="84"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gacd06ecfde8f0637bb01c0d36d8605bef" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>ColorType</name></member>
       <member refid="group__GeneralGroup_1ga1bb1ab1a4406b3b5cba83fc05098e8f2" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>data_</name></member>

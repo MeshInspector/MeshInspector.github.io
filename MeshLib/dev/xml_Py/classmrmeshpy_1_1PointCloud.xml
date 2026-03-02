@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PointCloud" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PointCloud</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -797,20 +797,6 @@ if region is nullptr, all valid points are modified
 Aliases:  std_shared_ptr_const_PointCloud, std_shared_ptr_PointCloud
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.PointCloud</label>
-        <link refid="classmrmeshpy_1_1PointCloud"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_normals</edgelabel>
-          <edgelabel>_offsetof_points</edgelabel>
-          <edgelabel>_offsetof_validPoints</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44495" bodyend="44644"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PointCloud_1a4a58ea76bcf4a51bfcb1fce9bbb90ee0" prot="public" virt="non-virtual"><scope>mrmeshpy::PointCloud</scope><name>__init__</name></member>

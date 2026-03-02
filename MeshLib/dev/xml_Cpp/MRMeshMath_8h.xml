@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshMath_8h" kind="file" language="C++">
     <compoundname>MRMeshMath.h</compoundname>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
     <includes refid="MRVector_8h" local="yes">MRVector.h</includes>
     <includes refid="MRMeshTopology_8h" local="yes">MRMeshTopology.h</includes>
     <includes refid="MRPointOnFace_8h" local="yes">MRPointOnFace.h</includes>
-    <includedby refid="MRMesh_8h" local="yes">MRMesh.h</includedby>
+    <includedby refid="MRMesh_8h" local="yes">MRMesh/MRMesh.h</includedby>
     <incdepgraph>
       <node id="21">
         <label>MRBitSet.h</label>
@@ -101,7 +101,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshMath.h</label>
+        <label>MRMesh/MRMeshMath.h</label>
         <link refid="MRMeshMath_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -312,42 +312,42 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="6">
-        <label>MRCudaFastWindingNumber.h</label>
+      <node id="3">
+        <label>MRCuda/MRCudaFastWindingNumber.h</label>
         <link refid="MRCudaFastWindingNumber_8h"/>
       </node>
-      <node id="7">
-        <label>MRCudaMeshDistanceMap.h</label>
+      <node id="4">
+        <label>MRCuda/MRCudaMeshDistanceMap.h</label>
         <link refid="MRCudaMeshDistanceMap_8h"/>
       </node>
-      <node id="8">
-        <label>MRCudaSolarRadiation.h</label>
+      <node id="5">
+        <label>MRCuda/MRCudaSolarRadiation.h</label>
         <link refid="MRCudaSolarRadiation_8h"/>
       </node>
-      <node id="3">
-        <label>MRAddNoise.h</label>
+      <node id="6">
+        <label>MRMesh/MRAddNoise.h</label>
         <link refid="MRAddNoise_8h"/>
       </node>
-      <node id="4">
-        <label>MRChangeMeshAction.h</label>
+      <node id="7">
+        <label>MRMesh/MRChangeMeshAction.h</label>
         <link refid="MRChangeMeshAction_8h"/>
       </node>
-      <node id="9">
-        <label>MREdgePathsBuilder.h</label>
+      <node id="8">
+        <label>MRMesh/MREdgePathsBuilder.h</label>
         <link refid="MREdgePathsBuilder_8h"/>
       </node>
-      <node id="10">
-        <label>MREmbedTerrainStructure.h</label>
+      <node id="9">
+        <label>MRMesh/MREmbedTerrainStructure.h</label>
         <link refid="MREmbedTerrainStructure_8h"/>
       </node>
-      <node id="11">
-        <label>MRMakeSphereMesh.h</label>
+      <node id="10">
+        <label>MRMesh/MRMakeSphereMesh.h</label>
         <link refid="MRMakeSphereMesh_8h"/>
-        <childnode refid="12" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRMesh.h</label>
+        <label>MRMesh/MRMesh.h</label>
         <link refid="MRMesh_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -365,7 +365,7 @@
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
@@ -396,74 +396,74 @@
         <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="13">
-        <label>MRMeshBoolean.h</label>
+      <node id="12">
+        <label>MRMesh/MRMeshBoolean.h</label>
         <link refid="MRMeshBoolean_8h"/>
       </node>
-      <node id="14">
-        <label>MRMeshBooleanFacade.h</label>
+      <node id="13">
+        <label>MRMesh/MRMeshBooleanFacade.h</label>
         <link refid="MRMeshBooleanFacade_8h"/>
       </node>
-      <node id="16">
-        <label>MRMeshBuilder.h</label>
+      <node id="14">
+        <label>MRMesh/MRMeshBuilder.h</label>
         <link refid="MRMeshBuilder_8h"/>
       </node>
-      <node id="17">
-        <label>MRMeshDecimateCallbacks.h</label>
+      <node id="15">
+        <label>MRMesh/MRMeshDecimateCallbacks.h</label>
         <link refid="MRMeshDecimateCallbacks_8h"/>
       </node>
-      <node id="18">
-        <label>MRMeshLoadObj.h</label>
+      <node id="16">
+        <label>MRMesh/MRMeshLoadObj.h</label>
         <link refid="MRMeshLoadObj_8h"/>
       </node>
       <node id="1">
-        <label>MRMeshMath.h</label>
+        <label>MRMesh/MRMeshMath.h</label>
         <link refid="MRMeshMath_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="19">
-        <label>MRMeshSaveObj.h</label>
+      <node id="17">
+        <label>MRMesh/MRMeshSaveObj.h</label>
         <link refid="MRMeshSaveObj_8h"/>
       </node>
-      <node id="20">
-        <label>MRMeshSubdivideCallbacks.h</label>
+      <node id="18">
+        <label>MRMesh/MRMeshSubdivideCallbacks.h</label>
         <link refid="MRMeshSubdivideCallbacks_8h"/>
       </node>
-      <node id="21">
-        <label>MRPartialChangeMeshAction.h</label>
+      <node id="19">
+        <label>MRMesh/MRPartialChangeMeshAction.h</label>
         <link refid="MRPartialChangeMeshAction_8h"/>
       </node>
-      <node id="22">
-        <label>MRPointCloudTriangulation.h</label>
+      <node id="20">
+        <label>MRMesh/MRPointCloudTriangulation.h</label>
         <link refid="MRPointCloudTriangulation_8h"/>
       </node>
-      <node id="23">
-        <label>MRProjectionMeshAttribute.h</label>
+      <node id="21">
+        <label>MRMesh/MRProjectionMeshAttribute.h</label>
         <link refid="MRProjectionMeshAttribute_8h"/>
       </node>
-      <node id="24">
-        <label>MRTerrainTriangulation.h</label>
+      <node id="22">
+        <label>MRMesh/MRTerrainTriangulation.h</label>
         <link refid="MRTerrainTriangulation_8h"/>
       </node>
-      <node id="12">
-        <label>MRUVSphere.h</label>
+      <node id="11">
+        <label>MRMesh/MRUVSphere.h</label>
         <link refid="MRUVSphere_8h"/>
       </node>
-      <node id="26">
-        <label>MRUniteManyMeshes.h</label>
+      <node id="23">
+        <label>MRMesh/MRUniteManyMeshes.h</label>
         <link refid="MRUniteManyMeshes_8h"/>
       </node>
-      <node id="15">
-        <label>MRMeshBoundarySelectionWidget.h</label>
+      <node id="24">
+        <label>MRViewer/MRMeshBoundarySelectionWidget.h</label>
         <link refid="MRMeshBoundarySelectionWidget_8h"/>
       </node>
-      <node id="5">
-        <label>MRChangeVoxelsAction.h</label>
+      <node id="25">
+        <label>MRVoxels/MRChangeVoxelsAction.h</label>
         <link refid="MRChangeVoxelsAction_8h"/>
       </node>
-      <node id="25">
-        <label>MRToolPath.h</label>
+      <node id="26">
+        <label>MRVoxels/MRToolPath.h</label>
         <link refid="MRToolPath_8h"/>
       </node>
     </invincdepgraph>
@@ -506,7 +506,7 @@
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>f<sp/>*<sp/><ref refid="group__GeneralGroup_1ga5cdd8fe5835da1eaf2a4f623c04f00a9" kindref="member">destPnt</ref>(<sp/>topology,<sp/>points,<sp/>e<sp/>)<sp/>+<sp/>(<sp/>1<sp/>-<sp/>f<sp/>)<sp/>*<sp/><ref refid="group__GeneralGroup_1gaa2a7fba3a600699de880615c69671718" kindref="member">orgPnt</ref>(<sp/>topology,<sp/>points,<sp/>e<sp/>);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="group__GeneralGroup_1ga537cde697d7f35e3370cd46156a03646" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga7d641e99aa4679047a71ff850e614f60" kindref="member">edgePoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">MeshEdgePoint</ref><sp/>&amp;<sp/>ep<sp/>)</highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1ga537cde697d7f35e3370cd46156a03646" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga7d641e99aa4679047a71ff850e614f60" kindref="member">edgePoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8ffb37085bbd6060f17bcf222941ab8c" kindref="member">MeshEdgePoint</ref><sp/>&amp;<sp/>ep<sp/>)</highlight></codeline>
 <codeline lineno="43"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7d641e99aa4679047a71ff850e614f60" kindref="member">edgePoint</ref>(<sp/>topology,<sp/>points,<sp/>ep.<ref refid="group__GeneralGroup_1gaa0fb43077718779351b94f5a803498a6" kindref="member">e</ref>,<sp/>ep.<ref refid="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" kindref="member">a</ref><sp/>);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal">}</highlight></codeline>
@@ -530,7 +530,7 @@
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
 <codeline lineno="69"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="group__GeneralGroup_1ga4f1ba2ac64996a6cd34ae45a5c002194" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4f1ba2ac64996a6cd34ae45a5c002194" kindref="member">getTriPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/>FaceId<sp/>f,<sp/>Vector3f<sp/>&amp;<sp/>v0,<sp/>Vector3f<sp/>&amp;<sp/>v1,<sp/>Vector3f<sp/>&amp;<sp/>v2<sp/>)</highlight></codeline>
+<codeline lineno="72" refid="group__GeneralGroup_1ga4f1ba2ac64996a6cd34ae45a5c002194" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4f1ba2ac64996a6cd34ae45a5c002194" kindref="member">getTriPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/>FaceId<sp/>f,<sp/>Vector3f<sp/>&amp;<sp/>v0,<sp/>Vector3f<sp/>&amp;<sp/>v1,<sp/>Vector3f<sp/>&amp;<sp/>v2<sp/>)</highlight></codeline>
 <codeline lineno="73"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac2c9135eb71f70ec9ef0162e47475097" kindref="member">getLeftTriPoints</ref>(<sp/>topology,<sp/>points,<sp/>topology.<ref refid="group__GeneralGroup_1ga75ce403909333e95eca530fcf3d62e2b" kindref="member">edgeWithLeft</ref>(<sp/>f<sp/>),<sp/>v0,<sp/>v1,<sp/>v2<sp/>);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal">}</highlight></codeline>
@@ -561,7 +561,7 @@
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
 <codeline lineno="111" refid="group__GeneralGroup_1ga53356a3fa673a824447ef8f96ddb1c9f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/><ref refid="group__GeneralGroup_1gaf69bc50caca90dd5ebde7b604ad678f7" kindref="member">toTriPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref>&amp;<sp/>p<sp/>);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114" refid="group__GeneralGroup_1gabe638e99ebfb3b54030f011f87f115f1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">MeshEdgePoint</ref><sp/><ref refid="group__GeneralGroup_1gabe638e99ebfb3b54030f011f87f115f1" kindref="member">toEdgePoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/>EdgeId<sp/>e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>p<sp/>);</highlight></codeline>
+<codeline lineno="114" refid="group__GeneralGroup_1gabe638e99ebfb3b54030f011f87f115f1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga8ffb37085bbd6060f17bcf222941ab8c" kindref="member">MeshEdgePoint</ref><sp/><ref refid="group__GeneralGroup_1gabe638e99ebfb3b54030f011f87f115f1" kindref="member">toEdgePoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/>EdgeId<sp/>e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>p<sp/>);</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
 <codeline lineno="117" refid="group__GeneralGroup_1ga23a60fe7bb911f6106a348b04ccab586" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga23a60fe7bb911f6106a348b04ccab586" kindref="member">getClosestVertex</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref><sp/>&amp;<sp/>p<sp/>);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
@@ -712,8 +712,8 @@
 <codeline lineno="339"><highlight class="normal"></highlight></codeline>
 <codeline lineno="341" refid="group__GeneralGroup_1ga8584ba296269c36fb978e0c964c011bc" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga8584ba296269c36fb978e0c964c011bc" kindref="member">findCenterFromBBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points<sp/>);</highlight></codeline>
 <codeline lineno="342"><highlight class="normal"></highlight></codeline>
-<codeline lineno="343"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="343"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMath.h"/>
+    <location file="MRMesh/MRMeshMath.h"/>
   </compounddef>
 </doxygen>

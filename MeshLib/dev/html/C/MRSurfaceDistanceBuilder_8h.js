@@ -1,13 +1,7 @@
 var MRSurfaceDistanceBuilder_8h =
 [
-    [ "MR_Mesh", "MRSurfaceDistanceBuilder_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshTriPoint", "MRSurfaceDistanceBuilder_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc", null ],
-    [ "MR_phmap_flat_hash_map_MR_VertId_float", "MRSurfaceDistanceBuilder_8h.html#ae608d193970b2c92c351593c86ca1075", null ],
     [ "MR_SurfaceDistanceBuilder", "MRSurfaceDistanceBuilder_8h.html#a1d0a59dcbf14d2c46eb7f09430511c2f", null ],
-    [ "MR_Vector3f", "MRSurfaceDistanceBuilder_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
-    [ "MR_VertBitSet", "MRSurfaceDistanceBuilder_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_VertDistance", "MRSurfaceDistanceBuilder_8h.html#a33ea51b92cca6cac01baf4aa7a78e24a", null ],
-    [ "MR_VertScalars", "MRSurfaceDistanceBuilder_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4", null ],
     [ "MR_less_MR_VertDistance", "MRSurfaceDistanceBuilder_8h.html#acf99680cd852e320d9031be69414c2b2", null ],
     [ "MR_SurfaceDistanceBuilder_addStart", "MRSurfaceDistanceBuilder_8h.html#a715f015deeb1227fe9733fb9a1e17bcd", null ],
     [ "MR_SurfaceDistanceBuilder_addStartRegion", "MRSurfaceDistanceBuilder_8h.html#ab58cf65f768a2d4960105f48fc269e71", null ],

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ViewportGL_1_1BasePickResult" kind="struct" language="C++" prot="public">
     <compoundname>MR::ViewportGL::BasePickResult</compoundname>
     <derivedcompoundref refid="structMR_1_1ViewportGL_1_1PickResult" prot="public" virt="non-virtual">MR::ViewportGL::PickResult</derivedcompoundref>
-    <includes refid="MRViewportGL_8h" local="no">MRViewportGL.h</includes>
+    <includes refid="MRViewportGL_8h" local="no">MRViewer/MRViewportGL.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gab3a28df9902a6bfa722c359efdd91d44" kind="variable"><name>geomId</name></member>
       <member refid="group__GeneralGroup_1ga0dd6e10cd7b368dae3470cbdf00592ca" kind="variable"><name>primId</name></member>
@@ -24,7 +24,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="78" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="79" bodyend="83"/>
+    <location file="MRViewer/MRViewportGL.h" line="78" column="5" bodyfile="MRViewer/MRViewportGL.h" bodystart="79" bodyend="83"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab3a28df9902a6bfa722c359efdd91d44" prot="public" virt="non-virtual"><scope>MR::ViewportGL::BasePickResult</scope><name>geomId</name></member>
       <member refid="group__GeneralGroup_1ga0dd6e10cd7b368dae3470cbdf00592ca" prot="public" virt="non-virtual"><scope>MR::ViewportGL::BasePickResult</scope><name>primId</name></member>

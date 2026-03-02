@@ -1,9 +1,6 @@
 var MRChangeObjectAction_8h =
 [
     [ "MR_ChangeObjectAction", "MRChangeObjectAction_8h.html#ace428deca741a051d6044c38fa0c124a", null ],
-    [ "MR_HistoryAction", "MRChangeObjectAction_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
-    [ "MR_std_shared_ptr_MR_Object", "MRChangeObjectAction_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4", null ],
-    [ "MR_std_string", "MRChangeObjectAction_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_ChangeObjectAction_action", "MRChangeObjectAction_8h.html#acbff716dd4b0a4b19e8fac1c79442472", null ],
     [ "MR_ChangeObjectAction_AssignFromAnother", "MRChangeObjectAction_8h.html#a2714b769512a027eb88a89085532a469", null ],
     [ "MR_ChangeObjectAction_Construct", "MRChangeObjectAction_8h.html#a29306a834793ac0490847c6f28ba6f12", null ],

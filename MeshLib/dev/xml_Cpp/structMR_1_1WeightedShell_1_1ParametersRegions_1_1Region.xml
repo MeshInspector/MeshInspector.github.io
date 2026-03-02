@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region" kind="struct" language="C++" prot="public">
     <compoundname>MR::WeightedShell::ParametersRegions::Region</compoundname>
-    <includes refid="MRWeightedPointsShell_8h" local="no">MRWeightedPointsShell.h</includes>
+    <includes refid="MRWeightedPointsShell_8h" local="no">MRVoxels/MRWeightedPointsShell.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region_1a01352ebbd0c15c42cc60d529877ff26c" prot="public" static="no" mutable="no">
         <type>VertBitSet</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="60" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="60" bodyend="-1"/>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="60" column="20" bodyfile="MRVoxels/MRWeightedPointsShell.h" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region_1aa47efdcf86ee2cbcfefc52e1781b2c61" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -31,14 +31,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="61" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="61" bodyend="-1"/>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="61" column="15" bodyfile="MRVoxels/MRWeightedPointsShell.h" bodystart="61" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="58" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="59" bodyend="62"/>
+    <location file="MRVoxels/MRWeightedPointsShell.h" line="58" column="5" bodyfile="MRVoxels/MRWeightedPointsShell.h" bodystart="59" bodyend="62"/>
     <listofallmembers>
       <member refid="structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region_1a01352ebbd0c15c42cc60d529877ff26c" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions::Region</scope><name>verts</name></member>
       <member refid="structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region_1aa47efdcf86ee2cbcfefc52e1781b2c61" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions::Region</scope><name>weight</name></member>

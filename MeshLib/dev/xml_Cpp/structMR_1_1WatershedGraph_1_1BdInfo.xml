@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1WatershedGraph_1_1BdInfo" kind="struct" language="C++" prot="public">
     <compoundname>MR::WatershedGraph::BdInfo</compoundname>
-    <includes refid="MRWatershedGraph_8h" local="no">MRWatershedGraph.h</includes>
+    <includes refid="MRWatershedGraph_8h" local="no">MRMesh/MRWatershedGraph.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga1cef595f818149e8ab3c459988194aac" kind="variable"><name>lowestVert</name></member>
     </sectiondef>
@@ -11,7 +11,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="67" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="68" bodyend="70"/>
+    <location file="MRMesh/MRWatershedGraph.h" line="67" column="5" bodyfile="MRMesh/MRWatershedGraph.h" bodystart="68" bodyend="70"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1cef595f818149e8ab3c459988194aac" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BdInfo</scope><name>lowestVert</name></member>
     </listofallmembers>

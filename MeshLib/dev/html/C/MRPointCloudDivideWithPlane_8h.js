@@ -1,10 +1,6 @@
 var MRPointCloudDivideWithPlane_8h =
 [
     [ "MR_DividePointCloudOptionalOutput", "MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43", null ],
-    [ "MR_Plane3f", "MRPointCloudDivideWithPlane_8h.html#aa7548d3448b3b7da1ea96433fe902e9a", null ],
-    [ "MR_PointCloud", "MRPointCloudDivideWithPlane_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
-    [ "MR_VertBitSet", "MRPointCloudDivideWithPlane_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
-    [ "MR_VertMap", "MRPointCloudDivideWithPlane_8h.html#a0c1baad62a31685b2dfb5955f3fb8230", null ],
     [ "MR_DividePointCloudOptionalOutput_AssignFromAnother", "MRPointCloudDivideWithPlane_8h.html#a8c7a1d1b7cc332eeeb184456d9c49c4e", null ],
     [ "MR_DividePointCloudOptionalOutput_ConstructFrom", "MRPointCloudDivideWithPlane_8h.html#ada78f6792cab8e4b27f0cc8e473a6851", null ],
     [ "MR_DividePointCloudOptionalOutput_ConstructFromAnother", "MRPointCloudDivideWithPlane_8h.html#a0c3447da794b15be7a189c8c4bbab486", null ],

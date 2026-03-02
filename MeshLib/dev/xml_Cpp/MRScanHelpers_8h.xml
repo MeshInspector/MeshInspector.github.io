@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRScanHelpers_8h" kind="file" language="C++">
     <compoundname>MRScanHelpers.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
@@ -80,7 +80,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRScanHelpers.h</label>
+        <label>MRVoxels/MRScanHelpers.h</label>
         <link refid="MRScanHelpers_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -173,7 +173,7 @@
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="structMR_1_1SliceInfoBase" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SliceInfoBase" kindref="compound">SliceInfoBase</ref></highlight></codeline>
+<codeline lineno="18" refid="structMR_1_1SliceInfoBase" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SliceInfoBase" kindref="compound">SliceInfoBase</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1gae54aec5158705c1e248f53879d6639cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae54aec5158705c1e248f53879d6639cf" kindref="member">instanceNum</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1ga1c860dd386f07581661cc74f394a1470" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1c860dd386f07581661cc74f394a1470" kindref="member">z</ref><sp/>=<sp/>0;</highlight></codeline>
@@ -182,7 +182,7 @@
 <codeline lineno="27" refid="group__GeneralGroup_1ga2d712987f45ca23b27e048c4decf6293" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2d712987f45ca23b27e048c4decf6293" kindref="member">operator &lt;=&gt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SliceInfoBase" kindref="compound">SliceInfoBase</ref><sp/>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="structMR_1_1SliceInfo" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SliceInfo" kindref="compound">SliceInfo</ref><sp/>:<sp/><ref refid="structMR_1_1SliceInfoBase" kindref="compound">SliceInfoBase</ref></highlight></codeline>
+<codeline lineno="33" refid="structMR_1_1SliceInfo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SliceInfo" kindref="compound">SliceInfo</ref><sp/>:<sp/><ref refid="structMR_1_1SliceInfoBase" kindref="compound">SliceInfoBase</ref></highlight></codeline>
 <codeline lineno="34"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="36" refid="group__GeneralGroup_1ga44785160df691c40ebdf392f66282315" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3d<sp/><ref refid="group__GeneralGroup_1ga44785160df691c40ebdf392f66282315" kindref="member">imagePos</ref>;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal">};</highlight></codeline>
@@ -193,8 +193,8 @@
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46" refid="group__GeneralGroup_1ga5e508caef59590753520653304096fa8" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5e508caef59590753520653304096fa8" kindref="member">sortScanFilesByName</ref>(<sp/>std::vector&lt;std::filesystem::path&gt;&amp;<sp/>scans<sp/>);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h"/>
+    <location file="MRVoxels/MRScanHelpers.h"/>
   </compounddef>
 </doxygen>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshTopology" kind="class" language="C++" prot="public">
     <compoundname>MR::MeshTopology</compoundname>
-    <includes refid="MRMeshTopology_8h" local="no">MRMeshTopology.h</includes>
+    <includes refid="MRMeshTopology_8h" local="no">MRMesh/MRMeshTopology.h</includes>
     <innerclass refid="structMR_1_1MeshTopology_1_1HalfEdgeRecord" prot="private">MR::MeshTopology::HalfEdgeRecord</innerclass>
     <sectiondef kind="friend">
       <member refid="group__GeneralGroup_1gac9dd8ac8bb48edc727dfda0f73d714da" kind="friend"><name>MeshTopologyDiff</name></member>
@@ -175,7 +175,7 @@
     <detaileddescription>
 <para><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> Topology </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" bodystart="22" bodyend="599"/>
+    <location file="MRMesh/MRMeshTopology.h" line="21" column="1" bodyfile="MRMesh/MRMeshTopology.h" bodystart="22" bodyend="599"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab2810fe9c6b38f4a0926069ab58120ea" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>addFaceId</name></member>
       <member refid="group__GeneralGroup_1ga9240c1848633d691fdbb0e5869910043" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>addPackedPart</name></member>

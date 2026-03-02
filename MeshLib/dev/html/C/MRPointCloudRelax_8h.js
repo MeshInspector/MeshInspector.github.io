@@ -1,11 +1,7 @@
 var MRPointCloudRelax_8h =
 [
-    [ "MR_PointCloud", "MRPointCloudRelax_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
     [ "MR_PointCloudApproxRelaxParams", "MRPointCloudRelax_8h.html#a576d261d78807ab4a67d7c0977066804", null ],
     [ "MR_PointCloudRelaxParams", "MRPointCloudRelax_8h.html#a957799ae79eb3501ff98b4a3c3781bc0", null ],
-    [ "MR_RelaxParams", "MRPointCloudRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f", null ],
-    [ "MR_std_function_bool_from_float", "MRPointCloudRelax_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_VertBitSet", "MRPointCloudRelax_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_PointCloudApproxRelaxParams_AssignFromAnother", "MRPointCloudRelax_8h.html#ad489daac054fd874f4ad5ef8e16b45f1", null ],
     [ "MR_PointCloudApproxRelaxParams_ConstructFromAnother", "MRPointCloudRelax_8h.html#abb2f74949db9d2ad1a0461e7ad2bfbdf", null ],
     [ "MR_PointCloudApproxRelaxParams_DefaultConstruct", "MRPointCloudRelax_8h.html#af7ef368d7cbe6f432163b430eb090b7f", null ],

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRColorMapAggregator_8h" kind="file" language="C++">
     <compoundname>MRColorMapAggregator.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -116,97 +116,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRColorMapAggregator_8h_1ab04f90c0c45a09f664d0bd8e652bc339" prot="public" static="no">
-        <type>struct MR_Color</type>
-        <definition>typedef struct MR_Color MR_Color</definition>
-        <argsstring></argsstring>
-        <name>MR_Color</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColorMapAggregator.h" line="12" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColorMapAggregator.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRColorMapAggregator_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
-        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColorMapAggregator.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColorMapAggregator.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRColorMapAggregator_8h_1a88c7503c40b624a577fda0eab1faa5fa" prot="public" static="no">
-        <type>struct <ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref></type>
-        <definition>typedef struct MR_FaceColors MR_FaceColors</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceColors</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColorMapAggregator.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColorMapAggregator.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRColorMapAggregator_8h_1ac7f59a6736b29701d7e619412b6e2890" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref></type>
-        <definition>typedef struct MR_UndirectedEdgeBitSet MR_UndirectedEdgeBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_UndirectedEdgeBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColorMapAggregator.h" line="15" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColorMapAggregator.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRColorMapAggregator_8h_1a63019091c05b8b468f7f88db47cfb0ef" prot="public" static="no">
-        <type>struct <ref refid="MRChangeColoringActions_8h_1a63019091c05b8b468f7f88db47cfb0ef" kindref="member">MR_UndirectedEdgeColors</ref></type>
-        <definition>typedef struct MR_UndirectedEdgeColors MR_UndirectedEdgeColors</definition>
-        <argsstring></argsstring>
-        <name>MR_UndirectedEdgeColors</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColorMapAggregator.h" line="16" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColorMapAggregator.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRColorMapAggregator_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
-        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_VertBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColorMapAggregator.h" line="17" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColorMapAggregator.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRColorMapAggregator_8h_1a20dc7d636220f61a60c7ae92b8caa768" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref></type>
-        <definition>typedef struct MR_VertColors MR_VertColors</definition>
-        <argsstring></argsstring>
-        <name>MR_VertColors</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColorMapAggregator.h" line="18" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColorMapAggregator.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" prot="public" static="no">
         <type>struct <ref refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</ref></type>
         <definition>typedef struct MR_ColorMapAggregator_MR_VertTag_PartialColorMap MR_ColorMapAggregator_MR_VertTag_PartialColorMap</definition>
@@ -449,7 +358,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_VertColorMapAggregator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRColorMapAggregator_8h_1aa06542dda3b7a636d18636955399ece4" kindref="member">MR_VertColorMapAggregator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -467,7 +376,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_VertColorMapAggregator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRColorMapAggregator_8h_1aa06542dda3b7a636d18636955399ece4" kindref="member">MR_VertColorMapAggregator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -990,7 +899,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ColorMapAggregator_MR_VertTag_PartialColorMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1008,7 +917,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ColorMapAggregator_MR_VertTag_PartialColorMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1153,7 +1062,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_UndirEdgeColorMapAggregator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRColorMapAggregator_8h_1a0a86d71ed439c40b739e94b1de6c2fe0" kindref="member">MR_UndirEdgeColorMapAggregator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1171,7 +1080,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_UndirEdgeColorMapAggregator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRColorMapAggregator_8h_1a0a86d71ed439c40b739e94b1de6c2fe0" kindref="member">MR_UndirEdgeColorMapAggregator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1694,7 +1603,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1712,7 +1621,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1857,7 +1766,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_FaceColorMapAggregator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRColorMapAggregator_8h_1a3201bc53016d10f34c140a762fd4b28c" kindref="member">MR_FaceColorMapAggregator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1875,7 +1784,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_FaceColorMapAggregator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRColorMapAggregator_8h_1a3201bc53016d10f34c140a762fd4b28c" kindref="member">MR_FaceColorMapAggregator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2398,7 +2307,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2416,7 +2325,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2467,44 +2376,44 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRColorMapAggregator_8h_1ab04f90c0c45a09f664d0bd8e652bc339" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRColor.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRColorMapAggregator_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRColorMapAggregator_8h_1a88c7503c40b624a577fda0eab1faa5fa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRColorMapAggregator_8h_1ac7f59a6736b29701d7e619412b6e2890" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRColorMapAggregator_8h_1a63019091c05b8b468f7f88db47cfb0ef" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a63019091c05b8b468f7f88db47cfb0ef" kindref="member">MR_UndirectedEdgeColors</ref><sp/><ref refid="MRChangeColoringActions_8h_1a63019091c05b8b468f7f88db47cfb0ef" kindref="member">MR_UndirectedEdgeColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRColorMapAggregator_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRColorMapAggregator_8h_1a20dc7d636220f61a60c7ae92b8caa768" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRColor.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a63019091c05b8b468f7f88db47cfb0ef" kindref="member">MR_UndirectedEdgeColors</ref><sp/><ref refid="MRChangeColoringActions_8h_1a63019091c05b8b468f7f88db47cfb0ef" kindref="member">MR_UndirectedEdgeColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</ref><sp/><ref refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</ref>;</highlight></codeline>
+<codeline lineno="24" refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</ref><sp/><ref refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRColorMapAggregator_8h_1af167108ad97055d6af4428ae33453841" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1af167108ad97055d6af4428ae33453841" kindref="member">MR_ColorMapAggregator_MR_VertTag_AggregateMode</ref></highlight></codeline>
+<codeline lineno="27" refid="MRColorMapAggregator_8h_1af167108ad97055d6af4428ae33453841" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1af167108ad97055d6af4428ae33453841" kindref="member">MR_ColorMapAggregator_MR_VertTag_AggregateMode</ref></highlight></codeline>
 <codeline lineno="28"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="29" refid="MRColorMapAggregator_8h_1af167108ad97055d6af4428ae33453841ac3cf4928350e1a32e90b47dbea35c10e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRColorMapAggregator_8h_1af167108ad97055d6af4428ae33453841ac3cf4928350e1a32e90b47dbea35c10e" kindref="member">MR_ColorMapAggregator_MR_VertTag_AggregateMode_Overlay</ref><sp/>=<sp/>0,</highlight></codeline>
 <codeline lineno="31" refid="MRColorMapAggregator_8h_1af167108ad97055d6af4428ae33453841acfdf970c8e4ad295c5abc4f17a408915" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRColorMapAggregator_8h_1af167108ad97055d6af4428ae33453841acfdf970c8e4ad295c5abc4f17a408915" kindref="member">MR_ColorMapAggregator_MR_VertTag_AggregateMode_Blending</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="32" refid="MRColorMapAggregator_8h_1a981b7592a7ab68cfd181cb28452e3e8c" refkind="member"><highlight class="normal">}<sp/><ref refid="MRColorMapAggregator_8h_1af167108ad97055d6af4428ae33453841" kindref="member">MR_ColorMapAggregator_MR_VertTag_AggregateMode</ref>;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRColorMapAggregator_8h_1aa06542dda3b7a636d18636955399ece4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRColorMapAggregator_8h_1aa06542dda3b7a636d18636955399ece4" kindref="member">MR_VertColorMapAggregator</ref><sp/><ref refid="MRColorMapAggregator_8h_1aa06542dda3b7a636d18636955399ece4" kindref="member">MR_VertColorMapAggregator</ref>;</highlight></codeline>
+<codeline lineno="40" refid="MRColorMapAggregator_8h_1aa06542dda3b7a636d18636955399ece4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRColorMapAggregator_8h_1aa06542dda3b7a636d18636955399ece4" kindref="member">MR_VertColorMapAggregator</ref><sp/><ref refid="MRColorMapAggregator_8h_1aa06542dda3b7a636d18636955399ece4" kindref="member">MR_VertColorMapAggregator</ref>;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</ref><sp/><ref refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</ref>;</highlight></codeline>
+<codeline lineno="45" refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</ref><sp/><ref refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</ref>;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRColorMapAggregator_8h_1a3ad327457042f15a9bd0397463d21970" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1a3ad327457042f15a9bd0397463d21970" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</ref></highlight></codeline>
+<codeline lineno="48" refid="MRColorMapAggregator_8h_1a3ad327457042f15a9bd0397463d21970" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1a3ad327457042f15a9bd0397463d21970" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</ref></highlight></codeline>
 <codeline lineno="49"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="50" refid="MRColorMapAggregator_8h_1a3ad327457042f15a9bd0397463d21970a7a7e9c4e3451ae33f108469240824fcd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRColorMapAggregator_8h_1a3ad327457042f15a9bd0397463d21970a7a7e9c4e3451ae33f108469240824fcd" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode_Overlay</ref><sp/>=<sp/>0,</highlight></codeline>
 <codeline lineno="52" refid="MRColorMapAggregator_8h_1a3ad327457042f15a9bd0397463d21970ae89593bfe84d70c39bfd45a38f99fd77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRColorMapAggregator_8h_1a3ad327457042f15a9bd0397463d21970ae89593bfe84d70c39bfd45a38f99fd77" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode_Blending</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="53" refid="MRColorMapAggregator_8h_1ad126a48ea420dbdb8f8408fbf55a392e" refkind="member"><highlight class="normal">}<sp/><ref refid="MRColorMapAggregator_8h_1a3ad327457042f15a9bd0397463d21970" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</ref>;</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="MRColorMapAggregator_8h_1a0a86d71ed439c40b739e94b1de6c2fe0" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRColorMapAggregator_8h_1a0a86d71ed439c40b739e94b1de6c2fe0" kindref="member">MR_UndirEdgeColorMapAggregator</ref><sp/><ref refid="MRColorMapAggregator_8h_1a0a86d71ed439c40b739e94b1de6c2fe0" kindref="member">MR_UndirEdgeColorMapAggregator</ref>;</highlight></codeline>
+<codeline lineno="61" refid="MRColorMapAggregator_8h_1a0a86d71ed439c40b739e94b1de6c2fe0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRColorMapAggregator_8h_1a0a86d71ed439c40b739e94b1de6c2fe0" kindref="member">MR_UndirEdgeColorMapAggregator</ref><sp/><ref refid="MRColorMapAggregator_8h_1a0a86d71ed439c40b739e94b1de6c2fe0" kindref="member">MR_UndirEdgeColorMapAggregator</ref>;</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</ref><sp/><ref refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</ref>;</highlight></codeline>
+<codeline lineno="66" refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</ref><sp/><ref refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</ref>;</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="MRColorMapAggregator_8h_1aa54d15bb655971bdac300d124e524afe" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1aa54d15bb655971bdac300d124e524afe" kindref="member">MR_ColorMapAggregator_MR_FaceTag_AggregateMode</ref></highlight></codeline>
+<codeline lineno="69" refid="MRColorMapAggregator_8h_1aa54d15bb655971bdac300d124e524afe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1aa54d15bb655971bdac300d124e524afe" kindref="member">MR_ColorMapAggregator_MR_FaceTag_AggregateMode</ref></highlight></codeline>
 <codeline lineno="70"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="71" refid="MRColorMapAggregator_8h_1aa54d15bb655971bdac300d124e524afeaee76537019e6d542b02221ffff29ad7f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRColorMapAggregator_8h_1aa54d15bb655971bdac300d124e524afeaee76537019e6d542b02221ffff29ad7f" kindref="member">MR_ColorMapAggregator_MR_FaceTag_AggregateMode_Overlay</ref><sp/>=<sp/>0,</highlight></codeline>
 <codeline lineno="73" refid="MRColorMapAggregator_8h_1aa54d15bb655971bdac300d124e524afea3eb58c5162cfdf6cddd95d2c21bddd3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRColorMapAggregator_8h_1aa54d15bb655971bdac300d124e524afea3eb58c5162cfdf6cddd95d2c21bddd3d" kindref="member">MR_ColorMapAggregator_MR_FaceTag_AggregateMode_Blending</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="74" refid="MRColorMapAggregator_8h_1a967d434878151e003c9a4c6a5c4dbb8d" refkind="member"><highlight class="normal">}<sp/><ref refid="MRColorMapAggregator_8h_1aa54d15bb655971bdac300d124e524afe" kindref="member">MR_ColorMapAggregator_MR_FaceTag_AggregateMode</ref>;</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRColorMapAggregator_8h_1a3201bc53016d10f34c140a762fd4b28c" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRColorMapAggregator_8h_1a3201bc53016d10f34c140a762fd4b28c" kindref="member">MR_FaceColorMapAggregator</ref><sp/><ref refid="MRColorMapAggregator_8h_1a3201bc53016d10f34c140a762fd4b28c" kindref="member">MR_FaceColorMapAggregator</ref>;</highlight></codeline>
+<codeline lineno="82" refid="MRColorMapAggregator_8h_1a3201bc53016d10f34c140a762fd4b28c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRColorMapAggregator_8h_1a3201bc53016d10f34c140a762fd4b28c" kindref="member">MR_FaceColorMapAggregator</ref><sp/><ref refid="MRColorMapAggregator_8h_1a3201bc53016d10f34c140a762fd4b28c" kindref="member">MR_FaceColorMapAggregator</ref>;</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
 <codeline lineno="86" refid="MRColorMapAggregator_8h_1a6fa9321e32097fbd45897a2f18a83574" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRColorMapAggregator_8h_1aa06542dda3b7a636d18636955399ece4" kindref="member">MR_VertColorMapAggregator</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a6fa9321e32097fbd45897a2f18a83574" kindref="member">MR_VertColorMapAggregator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
@@ -2542,22 +2451,22 @@
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
 <codeline lineno="175" refid="MRColorMapAggregator_8h_1ab180312694452d3f4928ff9ce85085e4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1ab180312694452d3f4928ff9ce85085e4" kindref="member">MR_VertColorMapAggregator_aggregate</ref>(<ref refid="MRColorMapAggregator_8h_1aa06542dda3b7a636d18636955399ece4" kindref="member">MR_VertColorMapAggregator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*elementBitSet);</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="182" refid="MRColorMapAggregator_8h_1ac15becc3335425e7b620a1939752b90b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1ac15becc3335425e7b620a1939752b90b" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap_Get_colorMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="189" refid="MRColorMapAggregator_8h_1acb5b16fed3b10cb6fcc3a3c173f6b072" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1acb5b16fed3b10cb6fcc3a3c173f6b072" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap_Set_colorMap</ref>(<ref refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="191"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="196" refid="MRColorMapAggregator_8h_1abc2ce95fb4cc5d7fb75806999aafe9f7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1abc2ce95fb4cc5d7fb75806999aafe9f7" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap_GetMutable_colorMap</ref>(<ref refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="203" refid="MRColorMapAggregator_8h_1a949d7a7735333e1573dbd04db7d82d7b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a949d7a7735333e1573dbd04db7d82d7b" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap_Get_elements</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="205"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="210" refid="MRColorMapAggregator_8h_1a063c8d3bea8e6302610334222e1dcd19" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1a063c8d3bea8e6302610334222e1dcd19" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap_Set_elements</ref>(<ref refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="217" refid="MRColorMapAggregator_8h_1a43aa2ba2666d199f7c4de084278286b2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a43aa2ba2666d199f7c4de084278286b2" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap_GetMutable_elements</ref>(<ref refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
 <codeline lineno="221" refid="MRColorMapAggregator_8h_1ade69ef6f4a5c6014a30242376e9f6f59" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRColorMapAggregator_8h_1ad112967572c31509cc0fe1aa56fce9b5" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1ade69ef6f4a5c6014a30242376e9f6f59" kindref="member">MR_ColorMapAggregator_MR_VertTag_PartialColorMap_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
@@ -2614,22 +2523,22 @@
 <codeline lineno="346"><highlight class="normal"></highlight></codeline>
 <codeline lineno="352" refid="MRColorMapAggregator_8h_1a85473c0c89414499ecd274b48683da3c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a63019091c05b8b468f7f88db47cfb0ef" kindref="member">MR_UndirectedEdgeColors</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a85473c0c89414499ecd274b48683da3c" kindref="member">MR_UndirEdgeColorMapAggregator_aggregate</ref>(<ref refid="MRColorMapAggregator_8h_1a0a86d71ed439c40b739e94b1de6c2fe0" kindref="member">MR_UndirEdgeColorMapAggregator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*elementBitSet);</highlight></codeline>
 <codeline lineno="353"><highlight class="normal"></highlight></codeline>
-<codeline lineno="354"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="359" refid="MRColorMapAggregator_8h_1a56d1601da93710be084c221719ca0c8b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a63019091c05b8b468f7f88db47cfb0ef" kindref="member">MR_UndirectedEdgeColors</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a56d1601da93710be084c221719ca0c8b" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap_Get_colorMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="360"><highlight class="normal"></highlight></codeline>
-<codeline lineno="361"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="366" refid="MRColorMapAggregator_8h_1ac3b13cb6e192e0cb333dc9d4ef61504b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1ac3b13cb6e192e0cb333dc9d4ef61504b" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap_Set_colorMap</ref>(<ref refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRChangeColoringActions_8h_1a63019091c05b8b468f7f88db47cfb0ef" kindref="member">MR_UndirectedEdgeColors</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="367"><highlight class="normal"></highlight></codeline>
-<codeline lineno="368"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="373" refid="MRColorMapAggregator_8h_1a32afcff97adc768c796b3d6ab9c076a6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a63019091c05b8b468f7f88db47cfb0ef" kindref="member">MR_UndirectedEdgeColors</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a32afcff97adc768c796b3d6ab9c076a6" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap_GetMutable_colorMap</ref>(<ref refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="374"><highlight class="normal"></highlight></codeline>
-<codeline lineno="375"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="380" refid="MRColorMapAggregator_8h_1a0b180d5bd4c8756ad7ba0e28ef3d89c2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a0b180d5bd4c8756ad7ba0e28ef3d89c2" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap_Get_elements</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="381"><highlight class="normal"></highlight></codeline>
-<codeline lineno="382"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="387" refid="MRColorMapAggregator_8h_1af89eade01d9cffc0eeb2457025e4e514" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1af89eade01d9cffc0eeb2457025e4e514" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap_Set_elements</ref>(<ref refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="388"><highlight class="normal"></highlight></codeline>
-<codeline lineno="389"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="394" refid="MRColorMapAggregator_8h_1a0409e8e478de981a5545146ed7e613a7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a0409e8e478de981a5545146ed7e613a7" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap_GetMutable_elements</ref>(<ref refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="395"><highlight class="normal"></highlight></codeline>
 <codeline lineno="398" refid="MRColorMapAggregator_8h_1a351e94a1df9f0f0c5f3c798b78e83f91" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRColorMapAggregator_8h_1a845fded56ba0794121f75691a3d7162a" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a351e94a1df9f0f0c5f3c798b78e83f91" kindref="member">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
@@ -2686,22 +2595,22 @@
 <codeline lineno="523"><highlight class="normal"></highlight></codeline>
 <codeline lineno="529" refid="MRColorMapAggregator_8h_1a96b068e21e0494bde88502666de1c108" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a96b068e21e0494bde88502666de1c108" kindref="member">MR_FaceColorMapAggregator_aggregate</ref>(<ref refid="MRColorMapAggregator_8h_1a3201bc53016d10f34c140a762fd4b28c" kindref="member">MR_FaceColorMapAggregator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*elementBitSet);</highlight></codeline>
 <codeline lineno="530"><highlight class="normal"></highlight></codeline>
-<codeline lineno="531"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight></codeline>
+<codeline lineno="531"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="536" refid="MRColorMapAggregator_8h_1a4d0931d2460639d34f948ca920162603" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a4d0931d2460639d34f948ca920162603" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap_Get_colorMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="537"><highlight class="normal"></highlight></codeline>
-<codeline lineno="538"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight></codeline>
+<codeline lineno="538"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="543" refid="MRColorMapAggregator_8h_1adf48e4afb664017f06d05ad104288074" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1adf48e4afb664017f06d05ad104288074" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap_Set_colorMap</ref>(<ref refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="544"><highlight class="normal"></highlight></codeline>
-<codeline lineno="545"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight></codeline>
+<codeline lineno="545"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>map</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="550" refid="MRColorMapAggregator_8h_1a07caaf1044757d259500fb6b3e32d524" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a07caaf1044757d259500fb6b3e32d524" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap_GetMutable_colorMap</ref>(<ref refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="551"><highlight class="normal"></highlight></codeline>
-<codeline lineno="552"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight></codeline>
+<codeline lineno="552"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="557" refid="MRColorMapAggregator_8h_1a8cc36872207b7c3310425f0e0e4e5545" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a8cc36872207b7c3310425f0e0e4e5545" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap_Get_elements</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="558"><highlight class="normal"></highlight></codeline>
-<codeline lineno="559"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight></codeline>
+<codeline lineno="559"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="564" refid="MRColorMapAggregator_8h_1a7cf019fcb9e356af5d2bc079236f7257" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRColorMapAggregator_8h_1a7cf019fcb9e356af5d2bc079236f7257" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap_Set_elements</ref>(<ref refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="565"><highlight class="normal"></highlight></codeline>
-<codeline lineno="566"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight></codeline>
+<codeline lineno="566"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitset<sp/>of<sp/>elements<sp/>for<sp/>which<sp/>the<sp/>color<sp/>map<sp/>is<sp/>applied</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="571" refid="MRColorMapAggregator_8h_1a2381913cd87dfffbac2168a3c3d4ae73" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a2381913cd87dfffbac2168a3c3d4ae73" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap_GetMutable_elements</ref>(<ref refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="572"><highlight class="normal"></highlight></codeline>
 <codeline lineno="575" refid="MRColorMapAggregator_8h_1a5e1b03651104dd783d4381097a625c63" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRColorMapAggregator_8h_1acefcfd40cf1fc2e253b84740efb81363" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</ref><sp/>*<ref refid="MRColorMapAggregator_8h_1a5e1b03651104dd783d4381097a625c63" kindref="member">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>

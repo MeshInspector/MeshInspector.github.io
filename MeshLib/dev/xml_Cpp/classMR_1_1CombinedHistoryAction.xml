@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CombinedHistoryAction" kind="class" language="C++" prot="public">
     <compoundname>MR::CombinedHistoryAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRCombinedHistoryAction_8h" local="no">MRCombinedHistoryAction.h</includes>
+    <includes refid="MRCombinedHistoryAction_8h" local="no">MRMesh/MRCombinedHistoryAction.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga3d9e926d1ee7633141a6549c2675186c" kind="variable"><name>actions_</name></member>
       <member refid="group__GeneralGroup_1ga219972a9af7ad77c1bd08a16d09df839" kind="variable"><name>name_</name></member>
@@ -47,7 +47,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCombinedHistoryAction.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCombinedHistoryAction.h" bodystart="15" bodyend="41"/>
+    <location file="MRMesh/MRCombinedHistoryAction.h" line="14" column="1" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="15" bodyend="41"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad5c4af46eaf9e4c6e88d77f5f7cdf5e6" prot="public" virt="virtual"><scope>MR::CombinedHistoryAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga3d9e926d1ee7633141a6549c2675186c" prot="private" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>actions_</name></member>

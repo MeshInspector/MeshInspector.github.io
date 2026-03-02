@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshAttributesToUpdate_8h" kind="file" language="C++">
     <compoundname>MRMeshAttributesToUpdate.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
-    <includedby refid="MRMeshDecimateCallbacks_8h" local="yes">MRMeshDecimateCallbacks.h</includedby>
-    <includedby refid="MRMeshSubdivideCallbacks_8h" local="yes">MRMeshSubdivideCallbacks.h</includedby>
-    <includedby refid="MRProjectionMeshAttribute_8h" local="yes">MRProjectionMeshAttribute.h</includedby>
+    <includedby refid="MRMeshDecimateCallbacks_8h" local="yes">MRMesh/MRMeshDecimateCallbacks.h</includedby>
+    <includedby refid="MRMeshSubdivideCallbacks_8h" local="yes">MRMesh/MRMeshSubdivideCallbacks.h</includedby>
+    <includedby refid="MRProjectionMeshAttribute_8h" local="yes">MRMesh/MRProjectionMeshAttribute.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -18,7 +18,7 @@
         <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
-        <label>MRMeshAttributesToUpdate.h</label>
+        <label>MRMesh/MRMeshAttributesToUpdate.h</label>
         <link refid="MRMeshAttributesToUpdate_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -73,7 +73,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRMeshAttributesToUpdate.h</label>
+        <label>MRMesh/MRMeshAttributesToUpdate.h</label>
         <link refid="MRMeshAttributesToUpdate_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -83,15 +83,15 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MRMeshDecimateCallbacks.h</label>
+        <label>MRMesh/MRMeshDecimateCallbacks.h</label>
         <link refid="MRMeshDecimateCallbacks_8h"/>
       </node>
       <node id="3">
-        <label>MRMeshSubdivideCallbacks.h</label>
+        <label>MRMesh/MRMeshSubdivideCallbacks.h</label>
         <link refid="MRMeshSubdivideCallbacks_8h"/>
       </node>
       <node id="4">
-        <label>MRProjectionMeshAttribute.h</label>
+        <label>MRMesh/MRProjectionMeshAttribute.h</label>
         <link refid="MRProjectionMeshAttribute_8h"/>
       </node>
     </invincdepgraph>
@@ -110,7 +110,7 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="structMR_1_1MeshAttributesToUpdate" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshAttributesToUpdate" kindref="compound">MeshAttributesToUpdate</ref></highlight></codeline>
+<codeline lineno="12" refid="structMR_1_1MeshAttributesToUpdate" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshAttributesToUpdate" kindref="compound">MeshAttributesToUpdate</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14" refid="group__GeneralGroup_1gaca8eecaf6d18987308450e4834bb50cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertUVCoords*<sp/><ref refid="group__GeneralGroup_1gaca8eecaf6d18987308450e4834bb50cd" kindref="member">uvCoords</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1ga161c46fbd4edb96386ef840eb0fe9fc7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertColors*<sp/><ref refid="group__GeneralGroup_1ga161c46fbd4edb96386ef840eb0fe9fc7" kindref="member">colorMap</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
@@ -120,6 +120,6 @@
 <codeline lineno="19"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="20"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshAttributesToUpdate.h"/>
+    <location file="MRMesh/MRMeshAttributesToUpdate.h"/>
   </compounddef>
 </doxygen>

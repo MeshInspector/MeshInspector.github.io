@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVolumeSegment_8h" kind="file" language="C++">
     <compoundname>MRVolumeSegment.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -64,45 +64,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRVolumeSegment_8h_1a3d8aa59058b2516d2c9b34241f2c0441" prot="public" static="no">
-        <type>struct <ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref></type>
-        <definition>typedef struct MR_VdbVolume MR_VdbVolume</definition>
-        <argsstring></argsstring>
-        <name>MR_VdbVolume</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="12" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVolumeSegment_8h_1ad55ca9af0874ffb89877bad65ae2859d" prot="public" static="no">
-        <type>struct MR_Vector3i</type>
-        <definition>typedef struct MR_Vector3i MR_Vector3i</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3i</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="13" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVolumeSegment_8h_1a94b5f700f4835481dce132716ff73b05" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref></type>
-        <definition>typedef struct MR_VoxelBitSet MR_VoxelBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_VoxelBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="14" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" prot="public" static="no">
         <type>struct <ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref></type>
         <definition>typedef struct MR_VoxelMetricParameters MR_VoxelMetricParameters</definition>
@@ -111,23 +72,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Parameters for building metric function Generated from class <computeroutput>MR::VoxelMetricParameters</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="15" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVolumeSegment_8h_1a0d97154d4aed695055160a4688c04a3d" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_Mesh_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="16" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRVolumeSegment_8h_1adbc0fff30d322ff1210cc6de0d6dda12" prot="public" static="no">
         <type>struct <ref refid="MRVolumeSegment_8h_1adbc0fff30d322ff1210cc6de0d6dda12" kindref="member">MR_expected_MR_VoxelBitSet_std_string</ref></type>
@@ -154,19 +103,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="18" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRVolumeSegment_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" line="19" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVolumeSegment.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRVolumeSegment_8h_1a7f44233acc15e6606c18834b06a1629d" prot="public" static="no">
         <type>struct <ref refid="MRVolumeSegment_8h_1a7f44233acc15e6606c18834b06a1629d" kindref="member">MR_std_vector_MR_Vector3i</ref></type>
@@ -233,17 +169,17 @@
 <para>Class for voxels segmentation. </para>
         </briefdescription>
         <detaileddescription>
-<para><table rows="1" cols="3"><caption id="MRVolumeSegment_8h_1VolumeSegmenter_examples"></caption>
+<para><table rows="1" cols="2"><caption id="MRVolumeSegment_8h_1VolumeSegmenter_examples"></caption>
 <row>
 <entry thead="no"><para><image type="html" name="voxel_segmentation_0_0.png" width="350cm">Before (a)</image>
- </para>
+</para>
 </entry><entry thead="no"><para><image type="html" name="voxel_segmentation_0_1.png" width="350cm">Before (b)</image>
-  </para>
-</entry><entry thead="no"><para><image type="html" name="voxel_segmentation_0_2.png" width="350cm">After</image>
-  </para>
+</para>
 </entry></row>
 </table>
-Generated from class <computeroutput>MR::VolumeSegmenter</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<image type="html" name="voxel_segmentation_0_2.png" width="350cm">After</image>
+</para>
+<para>Generated from class <computeroutput>MR::VolumeSegmenter</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -590,7 +526,7 @@ Generated from class <computeroutput>MR::VolumeSegmenter</computeroutput>. Suppo
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_VolumeSegmentationParameters</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -608,7 +544,7 @@ Generated from class <computeroutput>MR::VolumeSegmenter</computeroutput>. Suppo
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_VolumeSegmentationParameters</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -768,7 +704,7 @@ Generated from class <computeroutput>MR::VolumeSegmenter</computeroutput>. Suppo
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_VolumeSegmenter</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -786,7 +722,7 @@ Generated from class <computeroutput>MR::VolumeSegmenter</computeroutput>. Suppo
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_VolumeSegmenter</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1046,19 +982,19 @@ Generated from class <computeroutput>MR::VolumeSegmenter</computeroutput>. Suppo
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRVolumeSegment_8h_1a3d8aa59058b2516d2c9b34241f2c0441" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRVolumeSegment_8h_1ad55ca9af0874ffb89877bad65ae2859d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRVolumeSegment_8h_1a94b5f700f4835481dce132716ff73b05" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref><sp/><ref refid="MRVolumeSegment_8h_1a1bf861487a99eefce3b177f0edded8a4" kindref="member">MR_VoxelMetricParameters</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelPath.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRVolumeSegment_8h_1a0d97154d4aed695055160a4688c04a3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MRVolumeSegment_8h_1adbc0fff30d322ff1210cc6de0d6dda12" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeSegment_8h_1adbc0fff30d322ff1210cc6de0d6dda12" kindref="member">MR_expected_MR_VoxelBitSet_std_string</ref><sp/><ref refid="MRVolumeSegment_8h_1adbc0fff30d322ff1210cc6de0d6dda12" kindref="member">MR_expected_MR_VoxelBitSet_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_VoxelBitSet_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="MRVolumeSegment_8h_1a2704ecc047fdd30fa88d824c247edcde" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeSegment_8h_1a2704ecc047fdd30fa88d824c247edcde" kindref="member">MR_expected_std_vector_MR_Mesh_std_string</ref><sp/><ref refid="MRVolumeSegment_8h_1a2704ecc047fdd30fa88d824c247edcde" kindref="member">MR_expected_std_vector_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRVolumeSegment_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="MRVolumeSegment_8h_1a7f44233acc15e6606c18834b06a1629d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeSegment_8h_1a7f44233acc15e6606c18834b06a1629d" kindref="member">MR_std_vector_MR_Vector3i</ref><sp/><ref refid="MRVolumeSegment_8h_1a7f44233acc15e6606c18834b06a1629d" kindref="member">MR_std_vector_MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3i.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRVolumeSegment_8h_1aa2a44878522bc2a9ca50db378bfa329b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeSegment_8h_1aa2a44878522bc2a9ca50db378bfa329b" kindref="member">MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/><ref refid="MRVolumeSegment_8h_1aa2a44878522bc2a9ca50db378bfa329b" kindref="member">MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_pair_MR_Vector3f_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref>;</highlight></codeline>
+<codeline lineno="31" refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref><sp/><ref refid="MRVolumeSegment_8h_1a7121a8ffcb5592f4d56354b69b5ff914" kindref="member">MR_VolumeSegmentationParameters</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33" refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0" kindref="member">MR_VolumeSegmenter_SeedType</ref></highlight></codeline>
 <codeline lineno="34"><highlight class="normal">{</highlight></codeline>
@@ -1067,7 +1003,7 @@ Generated from class <computeroutput>MR::VolumeSegmenter</computeroutput>. Suppo
 <codeline lineno="37" refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0a83a389f5799d4aa2b740e6eec0de02e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0a83a389f5799d4aa2b740e6eec0de02e9" kindref="member">MR_VolumeSegmenter_SeedType_Count</ref><sp/>=<sp/>2,</highlight></codeline>
 <codeline lineno="38" refid="MRVolumeSegment_8h_1a2af59428533d5b0b42136dfa6d503672" refkind="member"><highlight class="normal">}<sp/><ref refid="MRVolumeSegment_8h_1aac9f0e02a3fca44ef300b6f4139c7cc0" kindref="member">MR_VolumeSegmenter_SeedType</ref>;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref>;</highlight></codeline>
+<codeline lineno="51" refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref><sp/><ref refid="MRVolumeSegment_8h_1a44dacd5572f893e267413ac24c8daf81" kindref="member">MR_VolumeSegmenter</ref>;</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62" refid="MRVolumeSegment_8h_1acca188df475d138634d4f969f4020737" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRVolumeSegment_8h_1acca188df475d138634d4f969f4020737" kindref="member">MR_meshFromVoxelsMask</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>*mask);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>

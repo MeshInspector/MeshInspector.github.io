@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRObjectFactory_8h" kind="file" language="C++">
     <compoundname>MRObjectFactory.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -40,7 +40,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRObjectFactory.h</label>
+        <label>MRMesh/MRObjectFactory.h</label>
         <link refid="MRObjectFactory_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -102,15 +102,15 @@
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1gaf64abac75be433ff8023d96ebb3cb627" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::shared_ptr&lt;Object&gt;<sp/><ref refid="group__GeneralGroup_1gaf64abac75be433ff8023d96ebb3cb627" kindref="member">createObject</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;<sp/>className<sp/>);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="group__GeneralGroup_1ga24de4e89ad2309dac978ce2ca22604e0" refkind="member"><highlight class="preprocessor">#define<sp/>MR_ADD_CLASS_FACTORY(<sp/>className<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga24de4e89ad2309dac978ce2ca22604e0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_ADD_CLASS_FACTORY(<sp/>className<sp/>)<sp/>\</highlight></codeline>
 <codeline lineno="22"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>static<sp/>MR::ObjectFactory&lt;className&gt;<sp/>className##_Factory_{<sp/>#className<sp/>};</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="group__GeneralGroup_1ga748899906b8ac8f5f125c7f913e38007" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga748899906b8ac8f5f125c7f913e38007" kindref="member">ObjectMakerFunc</ref><sp/>=<sp/>std::shared_ptr&lt;Object&gt;();</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="classMR_1_1ObjectFactoryBase" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectFactoryBase" kindref="compound">ObjectFactoryBase</ref></highlight></codeline>
+<codeline lineno="26" refid="classMR_1_1ObjectFactoryBase" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga975afaa4c56e742d9272695983c53793" kindref="member">ObjectFactoryBase</ref></highlight></codeline>
 <codeline lineno="27"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="29" refid="group__GeneralGroup_1ga975afaa4c56e742d9272695983c53793" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga975afaa4c56e742d9272695983c53793" kindref="member">ObjectFactoryBase</ref>(<sp/>std::string<sp/>className,<sp/><ref refid="group__GeneralGroup_1ga748899906b8ac8f5f125c7f913e38007" kindref="member">ObjectMakerFunc</ref><sp/>*<sp/>creator<sp/>);</highlight></codeline>
@@ -121,20 +121,20 @@
 <codeline lineno="34"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="37" refid="classMR_1_1ObjectFactory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectFactory" kindref="compound">ObjectFactory</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectFactoryBase" kindref="compound">ObjectFactoryBase</ref></highlight></codeline>
+<codeline lineno="37" refid="classMR_1_1ObjectFactory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga196468998cd1d0aedd44db61031634d6" kindref="member">ObjectFactory</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga975afaa4c56e742d9272695983c53793" kindref="member">ObjectFactoryBase</ref></highlight></codeline>
 <codeline lineno="38"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/>std::is_base_of_v&lt;Object,<sp/>T&gt;,<sp/></highlight><highlight class="stringliteral">&quot;MR::Object<sp/>is<sp/>not<sp/>base<sp/>of<sp/>T&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
 <codeline lineno="42" refid="group__GeneralGroup_1ga196468998cd1d0aedd44db61031634d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga196468998cd1d0aedd44db61031634d6" kindref="member">ObjectFactory</ref>(<sp/>std::string<sp/>className<sp/>)</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="classMR_1_1ObjectFactoryBase" kindref="compound">ObjectFactoryBase</ref>(<sp/>std::move(<sp/>className<sp/>),</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="group__GeneralGroup_1ga975afaa4c56e742d9272695983c53793" kindref="member">ObjectFactoryBase</ref>(<sp/>std::move(<sp/>className<sp/>),</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[]()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::static_pointer_cast&lt;Object&gt;(<sp/>std::make_shared&lt;T&gt;()<sp/>);<sp/>}<sp/>)</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>}</highlight></codeline>
 <codeline lineno="46"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h"/>
+    <location file="MRMesh/MRObjectFactory.h"/>
   </compounddef>
 </doxygen>

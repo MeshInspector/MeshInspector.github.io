@@ -1,18 +1,9 @@
 var MRFastWindingNumber_8h =
 [
-    [ "MR_AffineXf3f", "MRFastWindingNumber_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
-    [ "MR_DistanceToMeshOptions", "MRFastWindingNumber_8h.html#a89c8051ab9f8ef3cd2f86752938a9e07", null ],
-    [ "MR_expected_void_std_string", "MRFastWindingNumber_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
-    [ "MR_FaceBitSet", "MRFastWindingNumber_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
     [ "MR_FastWindingNumber", "MRFastWindingNumber_8h.html#a200243313a8febf0af29cf2af80f94d2", null ],
     [ "MR_IFastWindingNumber", "MRFastWindingNumber_8h.html#a0ffb387b226b9065fc0db873078ef44a", null ],
     [ "MR_IFastWindingNumberByParts", "MRFastWindingNumber_8h.html#ab4d2990d4a188fad54429719f466cf18", null ],
-    [ "MR_Mesh", "MRFastWindingNumber_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_std_function_bool_from_float", "MRFastWindingNumber_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_function_expected_void_std_string_from_std_vector_float_rvalue_ref_const_MR_Vector3i_ref_int", "MRFastWindingNumber_8h.html#a3d2775edc5a0f80cf104f495be573436", null ],
-    [ "MR_std_vector_float", "MRFastWindingNumber_8h.html#aba323e6d596956f5a589a525c6f6adbc", null ],
-    [ "MR_std_vector_MR_Vector3f", "MRFastWindingNumber_8h.html#aefed148a09a0ae55edbd22814638b462", null ],
-    [ "MR_Vector3f", "MRFastWindingNumber_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
     [ "MR_Vector3i", "MRFastWindingNumber_8h.html#ad55ca9af0874ffb89877bad65ae2859d", null ],
     [ "MR_FastWindingNumber_calcFromGrid", "MRFastWindingNumber_8h.html#ab1afb7f1e7f85c14b17b899412b68ac0", null ],
     [ "MR_FastWindingNumber_calcFromGridWithDistances", "MRFastWindingNumber_8h.html#ae536f6040cfe17fd09999620ece0f78e", null ],

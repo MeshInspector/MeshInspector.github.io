@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VolumeIndexer" kind="class" language="C++" prot="public">
     <compoundname>MR::VolumeIndexer</compoundname>
-    <includes refid="MRVolumeIndexer_8h" local="no">MRVolumeIndexer.h</includes>
+    <includes refid="MRVolumeIndexer_8h" local="no">MRMesh/MRVolumeIndexer.h</includes>
     <sectiondef kind="protected-attrib">
       <member refid="group__VoxelGroup_1gaa1c0e0f0f1418ecbd002c094e0d42e13" kind="variable"><name>dims_</name></member>
       <member refid="group__VoxelGroup_1ga4640c0c164372ff567a458ce590c241b" kind="variable"><name>sizeXY_</name></member>
@@ -34,7 +34,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="64" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="65" bodyend="116"/>
+    <location file="MRMesh/MRVolumeIndexer.h" line="64" column="1" bodyfile="MRMesh/MRVolumeIndexer.h" bodystart="65" bodyend="116"/>
     <listofallmembers>
       <member refid="group__VoxelGroup_1gad83baf7155c4c4be0ffa42c4de418e6b" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>areNeigbors</name></member>
       <member refid="group__VoxelGroup_1ga991a1f3d21cb03e21402be655ba7c06c" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>areNeigbors</name></member>

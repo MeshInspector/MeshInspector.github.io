@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VisualObjectTagManager" kind="class" language="C++" prot="public">
     <compoundname>MR::VisualObjectTagManager</compoundname>
-    <includes refid="MRVisualObjectTag_8h" local="no">MRVisualObjectTag.h</includes>
+    <includes refid="MRVisualObjectTag_8h" local="no">MRViewer/MRVisualObjectTag.h</includes>
     <innerclass refid="structMR_1_1VisualObjectTagManager_1_1ProtectedTag" prot="private">MR::VisualObjectTagManager::ProtectedTag</innerclass>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga357a7188eb9a9ff3553c502b24b2bf86" kind="variable"><name>onTagAdded_</name></member>
@@ -29,7 +29,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" bodystart="25" bodyend="56"/>
+    <location file="MRViewer/MRVisualObjectTag.h" line="24" column="1" bodyfile="MRViewer/MRVisualObjectTag.h" bodystart="25" bodyend="56"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaf4bbfb7affce8bc85f680fc1562f61ce" prot="private" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>deserializeFromJson</name></member>
       <member refid="group__GeneralGroup_1ga34a64f20f0d77b16c8711a3dd15ab3ac" prot="public" virt="non-virtual"><scope>MR::VisualObjectTagManager</scope><name>getAllObjectsWithTag</name></member>

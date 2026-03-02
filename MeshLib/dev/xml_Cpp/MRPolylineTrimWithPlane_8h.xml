@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPolylineTrimWithPlane_8h" kind="file" language="C++">
     <compoundname>MRPolylineTrimWithPlane.h</compoundname>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
@@ -38,7 +38,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPolylineTrimWithPlane.h</label>
+        <label>MRMesh/MRPolylineTrimWithPlane.h</label>
         <link refid="MRPolylineTrimWithPlane_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -84,7 +84,7 @@
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1ga567160da97e42583ca4ebf047a3f345f" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>UndirectedEdgeBitSet<sp/><ref refid="group__GeneralGroup_1gabc65201be45a805494282264894b6016" kindref="member">subdivideWithPlane</ref>(<sp/>Polyline3&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref>&amp;<sp/>plane,<sp/>EdgeBitSet*<sp/>newPositiveEdges<sp/>=<sp/>{},<sp/>std::function&lt;void(<sp/>EdgeId,<sp/>EdgeId,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>)&gt;<sp/>onEdgeSplitCallback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1gab3ca818ec0fc66be87093884adb00c7c" refkind="member"><highlight class="normal">[[deprecated]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>UndirectedEdgeBitSet<sp/><ref refid="group__GeneralGroup_1gab3ca818ec0fc66be87093884adb00c7c" kindref="member">subdividePolylineWithPlane</ref>(<sp/>Polyline3&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref>&amp;<sp/>plane,<sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(<sp/>EdgeId,<sp/>EdgeId,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>)&gt;<sp/>onEdgeSplitCallback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
@@ -106,6 +106,6 @@
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h"/>
+    <location file="MRMesh/MRPolylineTrimWithPlane.h"/>
   </compounddef>
 </doxygen>

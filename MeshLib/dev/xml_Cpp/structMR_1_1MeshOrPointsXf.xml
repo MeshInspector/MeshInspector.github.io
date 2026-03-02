@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshOrPointsXf" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshOrPointsXf</compoundname>
-    <includes refid="MRMeshOrPoints_8h" local="no">MRMeshOrPoints.h</includes>
+    <includes refid="MRMeshOrPoints_8h" local="no">MRMesh/MRMeshOrPoints.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga64a929bd548c696b451590ec6b2465bb" kind="variable"><name>obj</name></member>
       <member refid="group__GeneralGroup_1gafea52861c699700de59ff6307740c6b7" kind="variable"><name>xf</name></member>
@@ -29,7 +29,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="109" bodyend="119"/>
+    <location file="MRMesh/MRMeshOrPoints.h" line="108" column="1" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="109" bodyend="119"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0d7468f56842cdd248afdc82b07e6d29" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>limitedProjector</name></member>
       <member refid="group__GeneralGroup_1ga64a929bd548c696b451590ec6b2465bb" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>obj</name></member>

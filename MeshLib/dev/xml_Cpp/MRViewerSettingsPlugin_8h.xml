@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRViewerSettingsPlugin_8h" kind="file" language="C++">
     <compoundname>MRViewerSettingsPlugin.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -630,7 +630,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRViewerSettingsPlugin.h</label>
+        <label>MRViewer/MRViewerSettingsPlugin.h</label>
         <link refid="MRViewerSettingsPlugin_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -782,19 +782,19 @@
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="classMR_1_1ViewerSettingsPlugin" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1ViewerSettingsPlugin" kindref="compound">ViewerSettingsPlugin</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1StateListenerPlugin" kindref="compound">StatePlugin</ref></highlight></codeline>
+<codeline lineno="18" refid="classMR_1_1ViewerSettingsPlugin" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="group__GeneralGroup_1ga4fda238acd33621d265e12dff2282e03" kindref="member">ViewerSettingsPlugin</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab03e30b3d478dc602964140a67391c49" kindref="member">StatePlugin</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="group__GeneralGroup_1gafeeff27006fc4c615527cbd2c08c552b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafeeff27006fc4c615527cbd2c08c552b" kindref="member">TabType</ref></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Quick,</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Application,</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Control,</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref>,</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MeasurementUnits,</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Features,</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba809b7a805a28884b364837536cdc38b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba809b7a805a28884b364837536cdc38b7" kindref="member">Quick</ref>,</highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988" kindref="member">Application</ref>,</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552baa1595abbb4c3a326636dd178757cd6c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552baa1595abbb4c3a326636dd178757cd6c1" kindref="member">Control</ref>,</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2" kindref="member">Viewport</ref>,</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba87d240c3f234e32f9143dd0446de66d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba87d240c3f234e32f9143dd0446de66d8" kindref="member">MeasurementUnits</ref>,</highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba98f770b0af18ca763421bac22b4b6805" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba98f770b0af18ca763421bac22b4b6805" kindref="member">Features</ref>,</highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33" refid="group__GeneralGroup_1ga4fda238acd33621d265e12dff2282e03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga4fda238acd33621d265e12dff2282e03" kindref="member">ViewerSettingsPlugin</ref>();</highlight></codeline>
@@ -819,7 +819,7 @@
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61" refid="group__GeneralGroup_1ga825a622fcfe43eae88b6c32e132c0ba3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga825a622fcfe43eae88b6c32e132c0ba3" kindref="member">delComboSettings</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafeeff27006fc4c615527cbd2c08c552b" kindref="member">TabType</ref><sp/>tab,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings" kindref="compound">ExternalSettings</ref><sp/>*<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="group__GeneralGroup_1gaf31247144d4b7dbe6ce93572ca7047cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ViewerSettingsPlugin" kindref="compound">ViewerSettingsPlugin</ref>*<sp/><ref refid="group__GeneralGroup_1gaf31247144d4b7dbe6ce93572ca7047cc" kindref="member">instance</ref>();</highlight></codeline>
+<codeline lineno="65" refid="group__GeneralGroup_1gaf31247144d4b7dbe6ce93572ca7047cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4fda238acd33621d265e12dff2282e03" kindref="member">ViewerSettingsPlugin</ref>*<sp/><ref refid="group__GeneralGroup_1gaf31247144d4b7dbe6ce93572ca7047cc" kindref="member">instance</ref>();</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
 <codeline lineno="68" refid="group__GeneralGroup_1gacc58c168370abe4d53898a41e80cfc51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacc58c168370abe4d53898a41e80cfc51" kindref="member">setActiveTab</ref>(<sp/><ref refid="group__GeneralGroup_1gafeeff27006fc4c615527cbd2c08c552b" kindref="member">TabType</ref><sp/>tab<sp/>);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
@@ -886,6 +886,6 @@
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
 <codeline lineno="131"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h"/>
+    <location file="MRViewer/MRViewerSettingsPlugin.h"/>
   </compounddef>
 </doxygen>

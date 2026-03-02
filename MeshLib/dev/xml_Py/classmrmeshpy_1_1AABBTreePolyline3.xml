@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1AABBTreePolyline3" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::AABBTreePolyline3</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f" prot="public" virt="non-virtual">mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f</basecompoundref>
@@ -10,7 +10,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.AABBTreePolyline3.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1aed1b0b76fd5610588bd2892bbbd9ad72">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -29,7 +28,6 @@
         <argsstring>(self, Polyline3 polyline)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.AABBTreePolyline3.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1aed1b0b76fd5610588bd2892bbbd9ad72">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -54,7 +52,6 @@
         <argsstring>(self, Mesh mesh, UndirectedEdgeBitSet edgeSet)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.AABBTreePolyline3.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1aed1b0b76fd5610588bd2892bbbd9ad72">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -112,9 +109,29 @@ bounding volume hierarchy for line segments
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1005" bodyend="1023"/>
     <listofallmembers>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1af1f654d09269c7a52d7811f6bf7b0384" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>__getitem__</name></member>
       <member refid="classmrmeshpy_1_1AABBTreePolyline3_1adefbc8798e09252111ce0aade24d52e4" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1AABBTreePolyline3_1a5a1336c6bb85fd26e1421a1252a55e94" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1AABBTreePolyline3_1aa57a293f118f3131053d7757459d8509" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1a40cdac3378d84bb6c482a0b2e21db707" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>BoxT</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1a87ada0d953ea4451f8396dbd40bbe759" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>getBoundingBox</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1ab033543e17a3c5457020a9b9350331db" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>getLeafOrder</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1aa6531b850df3eaed517fdb6cd7aab175" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1afbde60e958aaa6d677953b9004f6a018" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>getNodesFromLeaves</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1a210ebda190ef6238a44ae47ddb37a74e" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>getSubtreeLeaves</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1a5f34a8685094910577d6b6f4440dc52e" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>getSubtrees</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1a6f7fe261062b8ccef1a87ec348524669" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1ad0bf63a2d68dbbbee0bbf0f93dd3c121" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>LeafBitSet</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1a834b0e307469aa539b80fe4ef37b6903" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>LeafBMap</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1abc0a8596f98052f84573335ee3711f0d" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>LeafId</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1a078934aa2dabf953acc628451528bb85" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>Node</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1a38114ec1d1349a46628324489a602e0f" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>nodes</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1a6d320bc0d72623f3406b98273e379416" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>NodeVec</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1a3625420152ec57fb23539b356e3601dc" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>numLeaves</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1a1a928a0711c4849c3baa8d7a804d2de2" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1a1a928a0711c4849c3baa8d7a804d2de2" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1a10fbbb4a985450e512ee0e5e0c14c612" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>rootNodeId</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f_1a0163c4be6a16587609878826dec3e56c" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePolyline3</scope><name>Traits</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

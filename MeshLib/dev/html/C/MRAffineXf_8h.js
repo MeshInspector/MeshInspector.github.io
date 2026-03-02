@@ -8,8 +8,6 @@ var MRAffineXf_8h =
     [ "MR_AffineXf2f", "MRAffineXf_8h.html#a0a0645e84146720d27b2088d9d3dc1b8", null ],
     [ "MR_AffineXf3d", "MRAffineXf_8h.html#af1806312cd8f8c6825c10fcb27b69305", null ],
     [ "MR_AffineXf3f", "MRAffineXf_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
-    [ "MR_std_istream", "MRAffineXf_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
-    [ "MR_std_ostream", "MRAffineXf_8h.html#a933fad1748853c0c595a157b9f6527c6", null ],
     [ "MR_AffineXf2d_call", "MRAffineXf_8h.html#a1ba81515e6649a673069a40940334b92", null ],
     [ "MR_AffineXf2d_Construct", "MRAffineXf_8h.html#adbbb07609802905ffec0fe92224176ab", null ],
     [ "MR_AffineXf2d_DefaultConstruct", "MRAffineXf_8h.html#af5e532959ced5b00311cd48ad0b12e7b", null ],

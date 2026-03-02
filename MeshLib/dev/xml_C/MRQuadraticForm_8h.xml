@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRQuadraticForm_8h" kind="file" language="C++">
     <compoundname>MRQuadraticForm.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -29,6 +29,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>symmetric 2x2 matrix Generated from class <computeroutput>MR::SymMatrix2d</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -42,6 +43,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>symmetric 2x2 matrix Generated from class <computeroutput>MR::SymMatrix2f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -55,6 +57,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>symmetric 3x3 matrix Generated from class <computeroutput>MR::SymMatrix3d</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -68,6 +71,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>symmetric 3x3 matrix Generated from class <computeroutput>MR::SymMatrix3f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -85,45 +89,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRQuadraticForm.h" line="15" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRQuadraticForm.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRQuadraticForm_8h_1a72ab0be0b71b29e9f310e7526a8cc57b" prot="public" static="no">
-        <type>struct MR_Vector2f</type>
-        <definition>typedef struct MR_Vector2f MR_Vector2f</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRQuadraticForm.h" line="16" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRQuadraticForm.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRQuadraticForm_8h_1aa6b35c703a4572c3ccc120ee82723a66" prot="public" static="no">
-        <type>struct MR_Vector3d</type>
-        <definition>typedef struct MR_Vector3d MR_Vector3d</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3d</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRQuadraticForm.h" line="17" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRQuadraticForm.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRQuadraticForm_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
-        <type>struct MR_Vector3f</type>
-        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRQuadraticForm.h" line="18" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRQuadraticForm.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" prot="public" static="no">
         <type>struct <ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref></type>
@@ -152,20 +117,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRQuadraticForm.h" line="29" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRQuadraticForm.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRQuadraticForm_8h_1a5b120d16168818c8c364c4818a6d2c56" prot="public" static="no">
-        <type>struct <ref refid="MRMesh_8h_1a5b120d16168818c8c364c4818a6d2c56" kindref="member">MR_QuadraticForm3f</ref></type>
-        <definition>typedef struct MR_QuadraticForm3f MR_QuadraticForm3f</definition>
-        <argsstring></argsstring>
-        <name>MR_QuadraticForm3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>quadratic form: f = x^T A x + c Generated from class <computeroutput>MR::QuadraticForm3f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRQuadraticForm.h" line="34" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRQuadraticForm.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRQuadraticForm_8h_1a939ba05e75d5df60ea100919a965431e" prot="public" static="no">
         <type>struct <ref refid="MRQuadraticForm_8h_1a939ba05e75d5df60ea100919a965431e" kindref="member">MR_QuadraticForm3d</ref></type>
@@ -428,7 +379,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_QuadraticForm2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -446,7 +397,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_QuadraticForm2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -861,7 +812,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_QuadraticForm2d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRQuadraticForm_8h_1aa6ee999dc831de73c9dbea5a9de68cbb" kindref="member">MR_QuadraticForm2d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -879,7 +830,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_QuadraticForm2d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRQuadraticForm_8h_1aa6ee999dc831de73c9dbea5a9de68cbb" kindref="member">MR_QuadraticForm2d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1294,7 +1245,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_QuadraticForm3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMesh_8h_1a5b120d16168818c8c364c4818a6d2c56" kindref="member">MR_QuadraticForm3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1312,7 +1263,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_QuadraticForm3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMesh_8h_1a5b120d16168818c8c364c4818a6d2c56" kindref="member">MR_QuadraticForm3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1727,7 +1678,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_QuadraticForm3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRQuadraticForm_8h_1a939ba05e75d5df60ea100919a965431e" kindref="member">MR_QuadraticForm3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1745,7 +1696,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_QuadraticForm3d</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRQuadraticForm_8h_1a939ba05e75d5df60ea100919a965431e" kindref="member">MR_QuadraticForm3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1936,18 +1887,18 @@
 <codeline lineno="13" refid="MRQuadraticForm_8h_1a1c368f42c21a18903319f8bf1c63ef01" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1a1c368f42c21a18903319f8bf1c63ef01" kindref="member">MR_SymMatrix3d</ref><sp/><ref refid="MRQuadraticForm_8h_1a1c368f42c21a18903319f8bf1c63ef01" kindref="member">MR_SymMatrix3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRSymMatrix3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="MRQuadraticForm_8h_1acc98317fa841947f4df16cb8b58b046a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1acc98317fa841947f4df16cb8b58b046a" kindref="member">MR_SymMatrix3f</ref><sp/><ref refid="MRQuadraticForm_8h_1acc98317fa841947f4df16cb8b58b046a" kindref="member">MR_SymMatrix3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRSymMatrix3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="MRQuadraticForm_8h_1a8fbfe75b70658eb6e5580c06bfa2176e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRQuadraticForm_8h_1a72ab0be0b71b29e9f310e7526a8cc57b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRQuadraticForm_8h_1aa6b35c703a4572c3ccc120ee82723a66" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRQuadraticForm_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref>;</highlight></codeline>
+<codeline lineno="24" refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRQuadraticForm_8h_1aa6ee999dc831de73c9dbea5a9de68cbb" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1aa6ee999dc831de73c9dbea5a9de68cbb" kindref="member">MR_QuadraticForm2d</ref><sp/><ref refid="MRQuadraticForm_8h_1aa6ee999dc831de73c9dbea5a9de68cbb" kindref="member">MR_QuadraticForm2d</ref>;</highlight></codeline>
+<codeline lineno="29" refid="MRQuadraticForm_8h_1aa6ee999dc831de73c9dbea5a9de68cbb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1aa6ee999dc831de73c9dbea5a9de68cbb" kindref="member">MR_QuadraticForm2d</ref><sp/><ref refid="MRQuadraticForm_8h_1aa6ee999dc831de73c9dbea5a9de68cbb" kindref="member">MR_QuadraticForm2d</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRQuadraticForm_8h_1a5b120d16168818c8c364c4818a6d2c56" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1a5b120d16168818c8c364c4818a6d2c56" kindref="member">MR_QuadraticForm3f</ref><sp/><ref refid="MRMesh_8h_1a5b120d16168818c8c364c4818a6d2c56" kindref="member">MR_QuadraticForm3f</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1a5b120d16168818c8c364c4818a6d2c56" kindref="member">MR_QuadraticForm3f</ref><sp/><ref refid="MRMesh_8h_1a5b120d16168818c8c364c4818a6d2c56" kindref="member">MR_QuadraticForm3f</ref>;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRQuadraticForm_8h_1a939ba05e75d5df60ea100919a965431e" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1a939ba05e75d5df60ea100919a965431e" kindref="member">MR_QuadraticForm3d</ref><sp/><ref refid="MRQuadraticForm_8h_1a939ba05e75d5df60ea100919a965431e" kindref="member">MR_QuadraticForm3d</ref>;</highlight></codeline>
+<codeline lineno="39" refid="MRQuadraticForm_8h_1a939ba05e75d5df60ea100919a965431e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1a939ba05e75d5df60ea100919a965431e" kindref="member">MR_QuadraticForm3d</ref><sp/><ref refid="MRQuadraticForm_8h_1a939ba05e75d5df60ea100919a965431e" kindref="member">MR_QuadraticForm3d</ref>;</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45" refid="MRQuadraticForm_8h_1aec76f5ca81012b6e0b35a635bfd853be" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRQuadraticForm_8h_1a13cd8cbd4d45e7cccbccacbb1336a621" kindref="member">MR_SymMatrix2f</ref><sp/>*<ref refid="MRQuadraticForm_8h_1aec76f5ca81012b6e0b35a635bfd853be" kindref="member">MR_QuadraticForm2f_Get_A</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>

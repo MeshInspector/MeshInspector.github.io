@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRenderWrapObject_8h" kind="file" language="C++">
     <compoundname>MRRenderWrapObject.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
     <includes refid="MRVisualObject_8h" local="yes">MRMesh/MRVisualObject.h</includes>
-    <includedby refid="MRRenderFeatureObjects_8h" local="yes">MRRenderFeatureObjects.h</includedby>
+    <includedby refid="MRRenderFeatureObjects_8h" local="yes">MRViewer/MRRenderFeatureObjects.h</includedby>
     <incdepgraph>
       <node id="27">
         <label>MRAffineXf.h</label>
@@ -431,7 +431,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRRenderWrapObject.h</label>
+        <label>MRViewer/MRRenderWrapObject.h</label>
         <link refid="MRRenderWrapObject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -519,11 +519,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRRenderFeatureObjects.h</label>
+        <label>MRViewer/MRRenderFeatureObjects.h</label>
         <link refid="MRRenderFeatureObjects_8h"/>
       </node>
       <node id="1">
-        <label>MRRenderWrapObject.h</label>
+        <label>MRViewer/MRRenderWrapObject.h</label>
         <link refid="MRRenderWrapObject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -549,7 +549,7 @@
 <codeline lineno="6" refid="namespaceMR_1_1RenderWrapObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1RenderWrapObject" kindref="compound">MR::RenderWrapObject</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="namespaceMR_1_1RenderWrapObject_1_1detail" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">detail</highlight></codeline>
+<codeline lineno="9" refid="namespaceMR_1_1RenderWrapObject_1_1detail" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1RenderWrapObject_1_1detail" kindref="compound">detail</ref></highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectType&gt;</highlight></codeline>
 <codeline lineno="13" refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage" kindref="compound">SubobjectStorage</ref></highlight></codeline>
@@ -564,7 +564,7 @@
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;std::derived_from&lt;Object&gt;<sp/>ObjectType&gt;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;std::derived_from&lt;Object&gt;<sp/>ObjectType&gt;</highlight></codeline>
 <codeline lineno="27" refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget" kindref="compound">BasicWrapperTarget</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped" kindref="compound">detail::BasicWrapperTargetUntyped</ref></highlight></codeline>
 <codeline lineno="28"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
@@ -573,23 +573,23 @@
 <codeline lineno="32" refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget_1ad5152bbde21a5324ac54935274da4bbb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectType*<sp/><ref refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget_1ad5152bbde21a5324ac54935274da4bbb" kindref="member">target_</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectType,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>RenderObjectType&gt;</highlight></codeline>
-<codeline lineno="38" refid="classMR_1_1RenderWrapObject_1_1Wrapper" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RenderWrapObject_1_1Wrapper" kindref="compound">Wrapper</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage" kindref="compound">detail::SubobjectStorage</ref>&lt;ObjectType&gt;,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>RenderObjectType</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectType,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>RenderObjectType&gt;</highlight></codeline>
+<codeline lineno="38" refid="classMR_1_1RenderWrapObject_1_1Wrapper" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RenderWrapObject_1_1Wrapper_1a1513e9da308ecba00c67324e0c0cf39b" kindref="member">Wrapper</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage" kindref="compound">detail::SubobjectStorage</ref>&lt;ObjectType&gt;,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>RenderObjectType</highlight></codeline>
 <codeline lineno="39"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="41" refid="classMR_1_1RenderWrapObject_1_1Wrapper_1a1513e9da308ecba00c67324e0c0cf39b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RenderWrapObject_1_1Wrapper_1a1513e9da308ecba00c67324e0c0cf39b" kindref="member">Wrapper</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>)</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>RenderObjectType(<sp/>detail::SubobjectStorage&lt;ObjectType&gt;::<ref refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage_1aefbb8b64a400a9acc5e776111c7ae297" kindref="member">subobject</ref><sp/>)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>RenderObjectType(<sp/><ref refid="namespaceMR_1_1RenderWrapObject_1_1detail" kindref="compound">detail</ref>::SubobjectStorage&lt;ObjectType&gt;::<ref refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage_1aefbb8b64a400a9acc5e776111c7ae297" kindref="member">subobject</ref><sp/>)</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>(<sp/>std::derived_from&lt;ObjectType,<sp/>detail::BasicWrapperTargetUntyped&gt;<sp/>)</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage_1aefbb8b64a400a9acc5e776111c7ae297" kindref="member">subobject</ref>.target_<sp/>=<sp/>&amp;</highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="normal">decltype(*this-</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal"><ref refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage_1aefbb8b64a400a9acc5e776111c7ae297" kindref="member">subobject</ref>.target_)&gt;(<sp/>object<sp/>);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ad13b52643d115db231f4501231b97765" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ad13b52643d115db231f4501231b97765" kindref="member">Wrapper</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RenderWrapObject_1_1Wrapper" kindref="compound">Wrapper</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="49" refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ab3a0e53c8d180bbb25650e0ac1544abf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RenderWrapObject_1_1Wrapper" kindref="compound">Wrapper</ref>&amp;<sp/><ref refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ab3a0e53c8d180bbb25650e0ac1544abf" kindref="member">operator=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RenderWrapObject_1_1Wrapper" kindref="compound">Wrapper</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48" refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ad13b52643d115db231f4501231b97765" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ad13b52643d115db231f4501231b97765" kindref="member">Wrapper</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RenderWrapObject_1_1Wrapper_1a1513e9da308ecba00c67324e0c0cf39b" kindref="member">Wrapper</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49" refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ab3a0e53c8d180bbb25650e0ac1544abf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RenderWrapObject_1_1Wrapper_1a1513e9da308ecba00c67324e0c0cf39b" kindref="member">Wrapper</ref>&amp;<sp/><ref refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ab3a0e53c8d180bbb25650e0ac1544abf" kindref="member">operator=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1RenderWrapObject_1_1Wrapper_1a1513e9da308ecba00c67324e0c0cf39b" kindref="member">Wrapper</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h"/>
+    <location file="MRViewer/MRRenderWrapObject.h"/>
   </compounddef>
 </doxygen>

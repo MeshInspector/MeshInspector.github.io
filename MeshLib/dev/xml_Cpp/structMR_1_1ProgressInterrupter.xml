@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ProgressInterrupter" kind="struct" language="C++" prot="public">
     <compoundname>MR::ProgressInterrupter</compoundname>
     <basecompoundref prot="public" virt="non-virtual">openvdb::util::NullInterrupter</basecompoundref>
-    <includes refid="MRVDBProgressInterrupter_8h" local="no">MRVDBProgressInterrupter.h</includes>
+    <includes refid="MRVDBProgressInterrupter_8h" local="no">MRVoxels/MRVDBProgressInterrupter.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga6741a2f239c77c48cc98dcc1be451e75" kind="variable"><name>wasInterrupted_</name></member>
       <member refid="group__GeneralGroup_1ga0bfad00f21a4543393c77f032c8d42a5" kind="variable"><name>cb_</name></member>
@@ -41,7 +41,7 @@
         <label>openvdb::util::NullInterrupter</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" bodystart="18" bodyend="35"/>
+    <location file="MRVoxels/MRVDBProgressInterrupter.h" line="17" column="1" bodyfile="MRVoxels/MRVDBProgressInterrupter.h" bodystart="18" bodyend="35"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0bfad00f21a4543393c77f032c8d42a5" prot="private" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>cb_</name></member>
       <member refid="group__GeneralGroup_1ga448f23c735ae1b223b8b928ff4a2deb3" prot="public" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>getWasInterrupted</name></member>

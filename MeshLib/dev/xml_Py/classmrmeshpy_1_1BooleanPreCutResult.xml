@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1BooleanPreCutResult" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::BooleanPreCutResult</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -180,19 +180,6 @@
 <para><verbatim>Generated from:  MR::BooleanPreCutResult
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.BooleanPreCutResult</label>
-        <link refid="classmrmeshpy_1_1BooleanPreCutResult"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_contours</edgelabel>
-          <edgelabel>_offsetof_mesh</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3613" bodyend="3645"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1BooleanPreCutResult_1ae8493473eb50e7189b41afd546bd510e" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanPreCutResult</scope><name>__init__</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PrecipitationSimulator_1_1Event" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PrecipitationSimulator::Event</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -312,20 +312,6 @@
   Merge : two basins just merged
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.PrecipitationSimulator.Event</label>
-        <link refid="classmrmeshpy_1_1PrecipitationSimulator_1_1Event"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>BasinFull</edgelabel>
-          <edgelabel>Finish</edgelabel>
-          <edgelabel>Merge</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48237" bodyend="48276"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PrecipitationSimulator_1_1Event_1affd0ad9ce09c0ca743837a10061a74b9" prot="public" virt="non-virtual"><scope>mrmeshpy::PrecipitationSimulator::Event</scope><name>__eq__</name></member>

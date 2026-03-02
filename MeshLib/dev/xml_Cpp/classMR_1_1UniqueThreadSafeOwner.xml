@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UniqueThreadSafeOwner" kind="class" language="C++" prot="public">
     <compoundname>MR::UniqueThreadSafeOwner</compoundname>
-    <includes refid="MRUniqueThreadSafeOwner_8h" local="no">MRUniqueThreadSafeOwner.h</includes>
+    <includes refid="MRUniqueThreadSafeOwner_8h" local="no">MRMesh/MRUniqueThreadSafeOwner.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="39" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" bodystart="39" bodyend="-1"/>
+        <location file="MRMesh/MRUniqueThreadSafeOwner.h" line="39" column="24" bodyfile="MRMesh/MRUniqueThreadSafeOwner.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1UniqueThreadSafeOwner_1ab0d51a929ff2e2de32a95167b71e37db" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; T &gt;</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="40" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" bodystart="40" bodyend="-1"/>
+        <location file="MRMesh/MRUniqueThreadSafeOwner.h" line="40" column="21" bodyfile="MRMesh/MRUniqueThreadSafeOwner.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1UniqueThreadSafeOwner_1af29806290d2f67bc248591e6f8a30cec" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="structMR_1_1TbbTaskArenaAndGroup" kindref="compound">TbbTaskArenaAndGroup</ref> &gt;</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="42" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" bodystart="42" bodyend="-1"/>
+        <location file="MRMesh/MRUniqueThreadSafeOwner.h" line="42" column="21" bodyfile="MRMesh/MRUniqueThreadSafeOwner.h" bodystart="42" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="20" column="6"/>
+        <location file="MRMesh/MRUniqueThreadSafeOwner.h" line="20" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1af22ff27ea4145d05864f9c70b8d4b355" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="21" column="6"/>
+        <location file="MRMesh/MRUniqueThreadSafeOwner.h" line="21" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a6d5da0de362dedbdfea9cb36588093f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMR_1_1UniqueThreadSafeOwner" kindref="compound">UniqueThreadSafeOwner</ref> &amp;</type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="22" column="28"/>
+        <location file="MRMesh/MRUniqueThreadSafeOwner.h" line="22" column="28"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1aac40ad5a280f9942e61b59df3599969d" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="23" column="6"/>
+        <location file="MRMesh/MRUniqueThreadSafeOwner.h" line="23" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a64a10dee713d8b17c9bdde7e86b7e7ad" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1UniqueThreadSafeOwner" kindref="compound">UniqueThreadSafeOwner</ref> &amp;</type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="24" column="28"/>
+        <location file="MRMesh/MRUniqueThreadSafeOwner.h" line="24" column="28"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1aa4d169e499f27522636ee6d6583dadd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="25" column="6"/>
+        <location file="MRMesh/MRUniqueThreadSafeOwner.h" line="25" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1ad67258a7a3b8aeb188de6494661b2298" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="28" column="11"/>
+        <location file="MRMesh/MRUniqueThreadSafeOwner.h" line="28" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a6ab481f5b5794550188bd3bc3557b15f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>T *</type>
@@ -180,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="30" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" bodystart="30" bodyend="30"/>
+        <location file="MRMesh/MRUniqueThreadSafeOwner.h" line="30" column="8" bodyfile="MRMesh/MRUniqueThreadSafeOwner.h" bodystart="30" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a2dda95c55e90e76bb8f38140cd276c6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>T &amp;</type>
@@ -199,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="32" column="9"/>
+        <location file="MRMesh/MRUniqueThreadSafeOwner.h" line="32" column="9"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a9e426780257a98ca9ae76478afe01453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -218,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="34" column="11"/>
+        <location file="MRMesh/MRUniqueThreadSafeOwner.h" line="34" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a263b2d43f529f2cd5885456450f7fa02" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -233,7 +233,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="36" column="14"/>
+        <location file="MRMesh/MRUniqueThreadSafeOwner.h" line="36" column="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -241,7 +241,7 @@
     <detaileddescription>
 <para>This class is base class for unique thread safe owning of some objects, for example <ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref> classes derived from this one should have function like getOrCreate </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" line="651" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" bodystart="18" bodyend="43"/>
+    <location file="MRMesh/MRUniqueThreadSafeOwner.h" line="17" column="1" bodyfile="MRMesh/MRUniqueThreadSafeOwner.h" bodystart="18" bodyend="43"/>
     <listofallmembers>
       <member refid="classMR_1_1UniqueThreadSafeOwner_1af29806290d2f67bc248591e6f8a30cec" prot="private" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>construction_</name></member>
       <member refid="classMR_1_1UniqueThreadSafeOwner_1a6ab481f5b5794550188bd3bc3557b15f" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner</scope><name>get</name></member>

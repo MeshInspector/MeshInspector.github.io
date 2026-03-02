@@ -1,9 +1,7 @@
 var MRCombinedHistoryAction_8h =
 [
     [ "MR_CombinedHistoryAction", "MRCombinedHistoryAction_8h.html#acc235a5ff64fb8c5ad600b5569568909", null ],
-    [ "MR_HistoryAction", "MRCombinedHistoryAction_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
     [ "MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref", "MRCombinedHistoryAction_8h.html#a3ae2a902ff1290a29d4eb83645b9ed24", null ],
-    [ "MR_std_string", "MRCombinedHistoryAction_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction", "MRCombinedHistoryAction_8h.html#a302e96c8fc205d87b7083d246ebeb457", null ],
     [ "MR_CombinedHistoryAction_action", "MRCombinedHistoryAction_8h.html#abc970b5ed5b27cd34dda2bb5677fa556", null ],
     [ "MR_CombinedHistoryAction_AssignFromAnother", "MRCombinedHistoryAction_8h.html#ae37e33ca625aa34393144b3a4b8b4011", null ],

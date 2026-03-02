@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSystem_8h" kind="file" language="C++">
     <compoundname>MRSystem.h</compoundname>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
@@ -7,7 +7,7 @@
     <includes refid="MRColor_8h" local="yes">MRColor.h</includes>
     <includes local="no">filesystem</includes>
     <includes local="no">string</includes>
-    <includedby refid="MRSymbolMesh_8h" local="yes">MRSymbolMesh.h</includedby>
+    <includedby refid="MRSymbolMesh_8h" local="yes">MRSymbolMesh/MRSymbolMesh.h</includedby>
     <incdepgraph>
       <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -56,7 +56,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRSystem.h</label>
+        <label>MRMesh/MRSystem.h</label>
         <link refid="MRSystem_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -169,27 +169,27 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRSystem.h</label>
+        <label>MRMesh/MRSystem.h</label>
         <link refid="MRSystem_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRAlignTextToMesh.h</label>
+        <label>MRSymbolMesh/MRAlignTextToMesh.h</label>
         <link refid="MRAlignTextToMesh_8h"/>
       </node>
       <node id="5">
-        <label>MRChangeLabelAction.h</label>
+        <label>MRSymbolMesh/MRChangeLabelAction.h</label>
         <link refid="MRChangeLabelAction_8h"/>
       </node>
       <node id="4">
-        <label>MRObjectLabel.h</label>
+        <label>MRSymbolMesh/MRObjectLabel.h</label>
         <link refid="MRObjectLabel_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRSymbolMesh.h</label>
+        <label>MRSymbolMesh/MRSymbolMesh.h</label>
         <link refid="MRSymbolMesh_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -240,7 +240,7 @@
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51" refid="group__GeneralGroup_1gaede3ee4fa7cd6dac98eec3af0fc694e6" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1gaede3ee4fa7cd6dac98eec3af0fc694e6" kindref="member">GetHomeDirectory</ref>();</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::filesystem::path<sp/>GetWindowsInstallDirectory();</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
@@ -260,7 +260,7 @@
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gabf9e7451b5087b4485b6207161438dc3" kindref="member">FileNamesStack</ref><sp/>=<sp/>std::vector&lt;std::filesystem::path&gt;;</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__EMSCRIPTEN__</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__EMSCRIPTEN__</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="84" refid="group__GeneralGroup_1gaaa012fae7e3ab332b853cc1277239fe8" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::string<sp/><ref refid="group__GeneralGroup_1gaaa012fae7e3ab332b853cc1277239fe8" kindref="member">getCurrentStacktrace</ref>();</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
@@ -273,8 +273,8 @@
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
 <codeline lineno="97" refid="group__GeneralGroup_1ga7b96790a3e5d5239dec152d5121bf39a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1SystemMemory" kindref="compound">SystemMemory</ref><sp/><ref refid="group__GeneralGroup_1ga7b96790a3e5d5239dec152d5121bf39a" kindref="member">getSystemMemory</ref>();</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight></codeline>
-<codeline lineno="101"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>ProccessMemoryInfo</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>ProccessMemoryInfo</highlight></codeline>
 <codeline lineno="102"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>currVirtual<sp/>=<sp/>0,<sp/>maxVirtual<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>currPhysical<sp/>=<sp/>0,<sp/>maxPhysical<sp/>=<sp/>0;</highlight></codeline>
@@ -284,8 +284,8 @@
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
 <codeline lineno="116" refid="group__GeneralGroup_1ga4dd8859ebc257098d203f7a962a131bd" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4dd8859ebc257098d203f7a962a131bd" kindref="member">setupLoggerByDefault</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">()&gt;&amp;<sp/>customLogSinkAdder<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystem.h"/>
+    <location file="MRMesh/MRSystem.h"/>
   </compounddef>
 </doxygen>

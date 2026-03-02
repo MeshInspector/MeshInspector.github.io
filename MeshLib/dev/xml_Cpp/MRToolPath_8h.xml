@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRToolPath_8h" kind="file" language="C++">
     <compoundname>MRToolPath.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
@@ -398,7 +398,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRToolPath.h</label>
+        <label>MRVoxels/MRToolPath.h</label>
         <link refid="MRToolPath_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -522,8 +522,8 @@
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1ga496117b22a6f09546f0037fb4b5d43aa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga496117b22a6f09546f0037fb4b5d43aa" kindref="member">BypassDirection</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga496117b22a6f09546f0037fb4b5d43aaaba360a794737bcc8657a5b6e870d7ba8" kindref="member">Clockwise</ref>,</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga496117b22a6f09546f0037fb4b5d43aaa8f23635f9ec49db2161fc5cddf033a79" kindref="member">CounterClockwise</ref></highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1gga496117b22a6f09546f0037fb4b5d43aaaba360a794737bcc8657a5b6e870d7ba8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga496117b22a6f09546f0037fb4b5d43aaaba360a794737bcc8657a5b6e870d7ba8" kindref="member">Clockwise</ref>,</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gga496117b22a6f09546f0037fb4b5d43aaa8f23635f9ec49db2161fc5cddf033a79" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga496117b22a6f09546f0037fb4b5d43aaa8f23635f9ec49db2161fc5cddf033a79" kindref="member">CounterClockwise</ref></highlight></codeline>
 <codeline lineno="20"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="structMR_1_1ToolPathParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ToolPathParams" kindref="compound">ToolPathParams</ref></highlight></codeline>
@@ -573,19 +573,19 @@
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
 <codeline lineno="96" refid="group__GeneralGroup_1ga88f1fdd848610bc41226918baa28e601" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga88f1fdd848610bc41226918baa28e601" kindref="member">MoveType</ref></highlight></codeline>
 <codeline lineno="97"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" kindref="member">None</ref><sp/>=<sp/>-1,</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga88f1fdd848610bc41226918baa28e601a7c45b71678fb35e216cb6bd78280e1e2" kindref="member">FastLinear</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b" kindref="member">Linear</ref><sp/>=<sp/>1,</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga88f1fdd848610bc41226918baa28e601aa9479796fed0e84208885bc83352c5ea" kindref="member">ArcCW</ref><sp/>=<sp/>2,</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga88f1fdd848610bc41226918baa28e601acb5dc5739002bbc3b5c303988de899d4" kindref="member">ArcCCW</ref><sp/>=<sp/>3</highlight></codeline>
+<codeline lineno="98" refid="group__GeneralGroup_1gga88f1fdd848610bc41226918baa28e601a6adf97f83acf6453d4a6a4b1070f3754" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" kindref="member">None</ref><sp/>=<sp/>-1,</highlight></codeline>
+<codeline lineno="99" refid="group__GeneralGroup_1gga88f1fdd848610bc41226918baa28e601a7c45b71678fb35e216cb6bd78280e1e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga88f1fdd848610bc41226918baa28e601a7c45b71678fb35e216cb6bd78280e1e2" kindref="member">FastLinear</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="100" refid="group__GeneralGroup_1gga88f1fdd848610bc41226918baa28e601a32a843da6ea40ab3b17a3421ccdf671b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b" kindref="member">Linear</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="101" refid="group__GeneralGroup_1gga88f1fdd848610bc41226918baa28e601aa9479796fed0e84208885bc83352c5ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga88f1fdd848610bc41226918baa28e601aa9479796fed0e84208885bc83352c5ea" kindref="member">ArcCW</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="102" refid="group__GeneralGroup_1gga88f1fdd848610bc41226918baa28e601acb5dc5739002bbc3b5c303988de899d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga88f1fdd848610bc41226918baa28e601acb5dc5739002bbc3b5c303988de899d4" kindref="member">ArcCCW</ref><sp/>=<sp/>3</highlight></codeline>
 <codeline lineno="103"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
 <codeline lineno="105" refid="group__GeneralGroup_1gae1af7aec8f28c8e85182ca94f5802435" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae1af7aec8f28c8e85182ca94f5802435" kindref="member">ArcPlane</ref></highlight></codeline>
 <codeline lineno="106"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" kindref="member">None</ref><sp/>=<sp/>-1,</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20aba3629e4a37a6ff95437939d8664d158e9" kindref="member">XY</ref><sp/>=<sp/>17,</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggae1af7aec8f28c8e85182ca94f5802435a27db3b98d01e664c17a6620b222c6469" kindref="member">XZ</ref><sp/>=<sp/>18,</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20aba848c5fe5a26f3330bcbedda94181fc74" kindref="member">YZ</ref><sp/>=<sp/>19</highlight></codeline>
+<codeline lineno="107" refid="group__GeneralGroup_1ggae1af7aec8f28c8e85182ca94f5802435a6adf97f83acf6453d4a6a4b1070f3754" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" kindref="member">None</ref><sp/>=<sp/>-1,</highlight></codeline>
+<codeline lineno="108" refid="group__GeneralGroup_1ggae1af7aec8f28c8e85182ca94f5802435a74c53bcd3dcb2bb79993b2fec37d362a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20aba3629e4a37a6ff95437939d8664d158e9" kindref="member">XY</ref><sp/>=<sp/>17,</highlight></codeline>
+<codeline lineno="109" refid="group__GeneralGroup_1ggae1af7aec8f28c8e85182ca94f5802435a27db3b98d01e664c17a6620b222c6469" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggae1af7aec8f28c8e85182ca94f5802435a27db3b98d01e664c17a6620b222c6469" kindref="member">XZ</ref><sp/>=<sp/>18,</highlight></codeline>
+<codeline lineno="110" refid="group__GeneralGroup_1ggae1af7aec8f28c8e85182ca94f5802435affa4ba973372c3650fd0881abeca6512" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20aba848c5fe5a26f3330bcbedda94181fc74" kindref="member">YZ</ref><sp/>=<sp/>19</highlight></codeline>
 <codeline lineno="111"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
 <codeline lineno="113" refid="structMR_1_1GCommand" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1GCommand" kindref="compound">GCommand</ref></highlight></codeline>
@@ -609,7 +609,7 @@
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
 <codeline lineno="143" refid="group__GeneralGroup_1ga8c5016c58c1f50556f6983b8c64e9513" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;ToolPathResult&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8c5016c58c1f50556f6983b8c64e9513" kindref="member">constantZToolPath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ToolPathParams" kindref="compound">ToolPathParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147"></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
 <codeline lineno="149" refid="group__GeneralGroup_1ga4ace8f8e8e272418344b22a43ceb26e8" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;ToolPathResult&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga4ace8f8e8e272418344b22a43ceb26e8" kindref="member">lacingToolPath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ToolPathParams" kindref="compound">ToolPathParams</ref>&amp;<sp/>params,<sp/><ref refid="group__GeneralGroup_1ga05195fdcf0d1d90b73a5d24b11150005" kindref="member">Axis</ref><sp/>cutDirection<sp/>);</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight></codeline>
 <codeline lineno="155" refid="group__GeneralGroup_1ga0a71dd1e4625f6e6061b4825cdeb774c" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;ToolPathResult&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga0a71dd1e4625f6e6061b4825cdeb774c" kindref="member">constantCuspToolPath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ConstantCuspParams" kindref="compound">ConstantCuspParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
@@ -623,6 +623,6 @@
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
 <codeline lineno="170"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h"/>
+    <location file="MRVoxels/MRToolPath.h"/>
   </compounddef>
 </doxygen>

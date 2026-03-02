@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MREmbedTerrainStructure_8h" kind="file" language="C++">
     <compoundname>MREmbedTerrainStructure.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -46,7 +46,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MREmbedTerrainStructure.h</label>
+        <label>MRMesh/MREmbedTerrainStructure.h</label>
         <link refid="MREmbedTerrainStructure_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -426,7 +426,7 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="structMR_1_1EmbeddedStructureParameters" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1EmbeddedStructureParameters" kindref="compound">EmbeddedStructureParameters</ref></highlight></codeline>
+<codeline lineno="14" refid="structMR_1_1EmbeddedStructureParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1EmbeddedStructureParameters" kindref="compound">EmbeddedStructureParameters</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1gaa7558ae5f2adc54f37b0610cb406b7a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa7558ae5f2adc54f37b0610cb406b7a3" kindref="member">fillAngle</ref><sp/>=<sp/>0.0f;</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga05c78c11ae3e84bc6ecb2f3ea9baf462" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga05c78c11ae3e84bc6ecb2f3ea9baf462" kindref="member">cutAngle</ref><sp/>=<sp/>0.0f;</highlight></codeline>
@@ -442,6 +442,6 @@
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREmbedTerrainStructure.h"/>
+    <location file="MRMesh/MREmbedTerrainStructure.h"/>
   </compounddef>
 </doxygen>

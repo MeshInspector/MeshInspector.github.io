@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SurfacePointWidget" kind="class" language="C++" prot="public">
     <compoundname>MR::SurfacePointWidget</compoundname>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; PreDrawListener, MouseDownListener, MouseMoveListener, MouseUpListener &gt;</basecompoundref>
-    <includes refid="MRSurfacePointPicker_8h" local="no">MRSurfacePointPicker.h</includes>
+    <includes refid="MRSurfacePointPicker_8h" local="no">MRViewer/MRSurfacePointPicker.h</includes>
     <innerclass refid="structMR_1_1SurfacePointWidget_1_1Parameters" prot="public">MR::SurfacePointWidget::Parameters</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gad925d10fc0ebaadb952aaa7dd07dc0f2" kind="enum"><name>PositionType</name></member>
@@ -104,7 +104,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfacePointPicker.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfacePointPicker.h" bodystart="21" bodyend="206"/>
+    <location file="MRViewer/MRSurfacePointPicker.h" line="20" column="1" bodyfile="MRViewer/MRSurfacePointPicker.h" bodystart="21" bodyend="206"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga09dd007e92b00816cb468d954ca6471f" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>autoHover_</name></member>
       <member refid="group__GeneralGroup_1gab24acd35a87bae2f729e25c4b403840d" prot="private" virt="non-virtual"><scope>MR::SurfacePointWidget</scope><name>baseObject_</name></member>

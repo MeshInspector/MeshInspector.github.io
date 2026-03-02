@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TouchpadController" kind="class" language="C++" prot="public">
     <compoundname>MR::TouchpadController</compoundname>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener &gt;</basecompoundref>
-    <includes refid="MRTouchpadController_8h" local="no">MRTouchpadController.h</includes>
+    <includes refid="MRTouchpadController_8h" local="no">MRViewer/MRTouchpadController.h</includes>
     <innerclass refid="classMR_1_1TouchpadController_1_1Handler" prot="public">MR::TouchpadController::Handler</innerclass>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga212d93bd698ebe95a4743f2aea37a2e2" kind="variable"><name>handler_</name></member>
@@ -76,7 +76,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" bodystart="35" bodyend="96"/>
+    <location file="MRViewer/MRTouchpadController.h" line="30" column="1" bodyfile="MRViewer/MRTouchpadController.h" bodystart="35" bodyend="96"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::TouchpadController</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1ga9b2b49ef6184285f55682bded96e6114" prot="private" virt="non-virtual"><scope>MR::TouchpadController</scope><name>currentSwipeMode_</name></member>

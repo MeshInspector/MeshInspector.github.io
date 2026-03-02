@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRAlignContoursToMesh_8h" kind="file" language="C++">
     <compoundname>MRAlignContoursToMesh.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -11,7 +11,7 @@
     <includes refid="MRCurve_8h" local="yes">MRCurve.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRAlignContoursToMesh.h</label>
+        <label>MRMesh/MRAlignContoursToMesh.h</label>
         <link refid="MRAlignContoursToMesh_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -266,7 +266,7 @@
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="structMR_1_1ContoursMeshAlignParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ContoursMeshAlignParams" kindref="compound">ContoursMeshAlignParams</ref></highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1ContoursMeshAlignParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ContoursMeshAlignParams" kindref="compound">ContoursMeshAlignParams</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1gae97d50b08fe054c5ef97702df2abed70" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/><ref refid="group__GeneralGroup_1gae97d50b08fe054c5ef97702df2abed70" kindref="member">meshPoint</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -283,7 +283,7 @@
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41" refid="group__GeneralGroup_1ga619ceff20b592c254a41645fbe14fa4e" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga619ceff20b592c254a41645fbe14fa4e" kindref="member">alignContoursToMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContoursMeshAlignParams" kindref="compound">ContoursMeshAlignParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="structMR_1_1BendContoursAlongCurveParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1BendContoursAlongCurveParams" kindref="compound">BendContoursAlongCurveParams</ref></highlight></codeline>
+<codeline lineno="44" refid="structMR_1_1BendContoursAlongCurveParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1BendContoursAlongCurveParams" kindref="compound">BendContoursAlongCurveParams</ref></highlight></codeline>
 <codeline lineno="45"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="48" refid="group__GeneralGroup_1gaf94f08b9029b46debd6c05b78ee3d395" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf94f08b9029b46debd6c05b78ee3d395" kindref="member">pivotCurveTime</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
@@ -318,6 +318,6 @@
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
 <codeline lineno="99"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h"/>
+    <location file="MRMesh/MRAlignContoursToMesh.h"/>
   </compounddef>
 </doxygen>

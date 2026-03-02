@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSeparationPoint_8h" kind="file" language="C++">
     <compoundname>MRSeparationPoint.h</compoundname>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
@@ -71,7 +71,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRSeparationPoint.h</label>
+        <label>MRMesh/MRSeparationPoint.h</label>
         <link refid="MRSeparationPoint_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -205,13 +205,13 @@
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1ga280c060609c3f9f4b19b026220db29fe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga280c060609c3f9f4b19b026220db29fe" kindref="member">NeighborDir</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383" kindref="member">X</ref>,<sp/><ref refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005a57cec4137b614c87cb4e24a3d003a3e0" kindref="member">Y</ref>,<sp/><ref refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005a21c2e59531c8710156d34a3c30ac81d5" kindref="member">Z</ref>,<sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1gga280c060609c3f9f4b19b026220db29feae93f994f01c537c4e2f7d8528c3eb5e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383" kindref="member">X</ref>,<sp/><ref refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005a57cec4137b614c87cb4e24a3d003a3e0" kindref="member">Y</ref>,<sp/><ref refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005a21c2e59531c8710156d34a3c30ac81d5" kindref="member">Z</ref>,<sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1ga9818c25296630cb432dbe0d4e068734d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga9818c25296630cb432dbe0d4e068734d" kindref="member">SeparationPointSet</ref><sp/>=<sp/>std::array&lt;VertId,<sp/>size_t(<sp/><ref refid="group__GeneralGroup_1gga280c060609c3f9f4b19b026220db29feae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">NeighborDir::Count</ref><sp/>)&gt;;</highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1gabe4fc717ac175a150ec372e71e5d0ba1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gabe4fc717ac175a150ec372e71e5d0ba1" kindref="member">SeparationPointMap</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;size_t, SeparationPointSet&gt;</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="classMR_1_1SeparationPointStorage" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1SeparationPointStorage" kindref="compound">SeparationPointStorage</ref></highlight></codeline>
+<codeline lineno="24" refid="classMR_1_1SeparationPointStorage" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1SeparationPointStorage" kindref="compound">SeparationPointStorage</ref></highlight></codeline>
 <codeline lineno="25"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="27" refid="structMR_1_1SeparationPointStorage_1_1Block" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="keyword">alignas</highlight><highlight class="normal">(64)<sp/><ref refid="structMR_1_1SeparationPointStorage_1_1Block" kindref="compound">Block</ref></highlight></codeline>
@@ -248,8 +248,8 @@
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Block&gt;<sp/>blocks_;</highlight></codeline>
 <codeline lineno="68"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h"/>
+    <location file="MRMesh/MRSeparationPoint.h"/>
   </compounddef>
 </doxygen>

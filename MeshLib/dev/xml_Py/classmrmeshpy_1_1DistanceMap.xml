@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1DistanceMap" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::DistanceMap</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1RectIndexer" prot="public" virt="non-virtual">mrmeshpy.RectIndexer</basecompoundref>
@@ -27,7 +27,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.DistanceMap.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RectIndexer_1ab1edef7af78a60f135dfd592f4db3b74">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -98,7 +97,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.DistanceMap.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RectIndexer_1ab1edef7af78a60f135dfd592f4db3b74">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -117,7 +115,6 @@
         <argsstring>(self, int resX, int resY)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.DistanceMap.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RectIndexer_1ab1edef7af78a60f135dfd592f4db3b74">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -147,7 +144,6 @@ Access by the index (i) is equal to (y*resX + x)
         <argsstring>(self, Matrix_float m)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.DistanceMap.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RectIndexer_1ab1edef7af78a60f135dfd592f4db3b74">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -172,7 +168,6 @@ Access by the index (i) is equal to (y*resX + x)
         <argsstring>(self, DistanceMap arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.DistanceMap.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RectIndexer_1ab1edef7af78a60f135dfd592f4db3b74">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -1160,16 +1155,10 @@ validVerts keeps only pixels with mesh-intersecting rays from them
         <link refid="classmrmeshpy_1_1DistanceMap"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>NOT_VALID_VALUE</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.RectIndexer</label>
         <link refid="classmrmeshpy_1_1RectIndexer"/>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13470" bodyend="13690"/>
@@ -1181,9 +1170,12 @@ validVerts keeps only pixels with mesh-intersecting rays from them
       <member refid="classmrmeshpy_1_1DistanceMap_1ad38a0abf119f8ad2f14ffda136ceed4c" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1adb4ebdb589d86793bac94b9ee60d40b3" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>__isub__</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1acde3c8b98de14ca34093e2d7be48aee8" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>__sub__</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a27e451d40797215779c9255b084d99f7" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>areNeigbors</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a6c23c4d90dc1fef793b740fc91956626" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>areNeigbors</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1a7a52b1d24279d4963c5254956479c363" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>clear</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1a63e4bbe59438f62bbb4ba72ff927ae12" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>data</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1a63e4bbe59438f62bbb4ba72ff927ae12" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a9ba99f18552f382c8e2f10540e3c9630" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>dims</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1a7e888eb88fa0f46afd777d99688a1bb0" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>get</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1a0cfcf83993e0484482e0b55134093058" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>get</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1a7a49e628d3e20e4e0344d2bba3e073a0" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>getDerivativeMap</name></member>
@@ -1192,6 +1184,8 @@ validVerts keeps only pixels with mesh-intersecting rays from them
       <member refid="classmrmeshpy_1_1DistanceMap_1ab95eb68eb6db30d47f2974685d966692" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>getMaxIndex</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1a081fcb23e72e61a9fc11991745f50a30" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>getMinIndex</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1ab50df8b8a974f6540b3499109b35f2de" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>getMinMaxValues</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a87ec23ff9e60e4e9efcd49d86c652153" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>getNeighbor</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1aa645b2294161a3337fa6eb76b0ef7875" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>getNeighbor</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1a090a22321d528a72585649f477857cb0" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>getValue</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1a090a22321d528a72585649f477857cb0" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>getValue</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1a7176a26fd0a2d3fb609380120bed17ca" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>getValue</name></member>
@@ -1212,11 +1206,17 @@ validVerts keeps only pixels with mesh-intersecting rays from them
       <member refid="classmrmeshpy_1_1DistanceMap_1a9acc8913f87d3fa28af1c526af77d808" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>numPoints</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1a5e2eed1e3b7a737a174c329787f7de26" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1a5e2eed1e3b7a737a174c329787f7de26" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a5a057c9ea99fecc08350ec8e9ee84e67" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>resize</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1afbc7c0381be6fd416dabf79de9b1cc76" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>resX</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1ad39837ff357a34562a6030f04d370d25" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>resY</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1a6f7b08538de34316e3d7d56401783eb5" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1aa95dcbecad0297a5626eb78cc03feb8a" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1a3d38b0567a056a385909d3efcc32af75" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1abae9d444cfed27fc50696762e20f3d2d" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1ab4448d6b90f03e77c082264013981c0c" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>toIndex</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a8749d8e7e091021bec46a95a5b21779a" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>toPixelId</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1aa9005b3f3d99b3470b8a767a2ccc5020" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>toPos</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1af8a6233b03fc2a53e2ac399d228a6b6e" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>toPos</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1aad906a61939a24efbe2dcb78be89768a" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>unproject</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1a331733fe82cbf5d65d714fde659d9497" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>unprojectInterpolated</name></member>
       <member refid="classmrmeshpy_1_1DistanceMap_1a4826a35db2c7dac2099ead94bb33cedd" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMap</scope><name>unset</name></member>

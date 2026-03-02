@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1GeodesicPathApprox" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::GeodesicPathApprox</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -312,20 +312,6 @@
   FastMarching : use Fast Marching algorithm
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.GeodesicPathApprox</label>
-        <link refid="classmrmeshpy_1_1GeodesicPathApprox"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>DijkstraAStar</edgelabel>
-          <edgelabel>DijkstraBiDir</edgelabel>
-          <edgelabel>FastMarching</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21876" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21876" bodyend="21915"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1GeodesicPathApprox_1a14a45ff5273c3be0ffa3a09360f45696" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>__eq__</name></member>

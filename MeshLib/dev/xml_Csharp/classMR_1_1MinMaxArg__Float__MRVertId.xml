@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MinMaxArg__Float__MRVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::MinMaxArg_Float_MRVertId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_MinMaxArg_Float_MRVertId</basecompoundref>
@@ -124,7 +124,7 @@
           <declname>maxArg</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR.MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,7 +143,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::MinMaxArg</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::MinMaxArg</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -162,7 +162,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::MinMaxArg</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::MinMaxArg</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -181,7 +181,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -200,7 +200,7 @@
           <declname>p</declname>
         </param>
         <briefdescription>
-<para>changes <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a18ee707d0a21ffbf6ae19c9929a7621d" kindref="member">min(Arg)</ref> and <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a8ba0fa645893067e242862e3bf046b6d" kindref="member">max(Arg)</ref> if necessary to include given point Generated from method <computeroutput>MR.MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::include</computeroutput>. </para>
+<para>changes <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a18ee707d0a21ffbf6ae19c9929a7621d" kindref="member">min(Arg)</ref> and <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a8ba0fa645893067e242862e3bf046b6d" kindref="member">max(Arg)</ref> if necessary to include given point Generated from method <computeroutput>MR::MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::include</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -223,7 +223,7 @@
           <declname>arg</declname>
         </param>
         <briefdescription>
-<para>changes <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a18ee707d0a21ffbf6ae19c9929a7621d" kindref="member">min(Arg)</ref> and <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a8ba0fa645893067e242862e3bf046b6d" kindref="member">max(Arg)</ref> if necessary to include given point Generated from method <computeroutput>MR.MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::include</computeroutput>. </para>
+<para>changes <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a18ee707d0a21ffbf6ae19c9929a7621d" kindref="member">min(Arg)</ref> and <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a8ba0fa645893067e242862e3bf046b6d" kindref="member">max(Arg)</ref> if necessary to include given point Generated from method <computeroutput>MR::MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::include</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -242,7 +242,7 @@
           <declname>s</declname>
         </param>
         <briefdescription>
-<para>changes <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a18ee707d0a21ffbf6ae19c9929a7621d" kindref="member">min(Arg)</ref> and <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a8ba0fa645893067e242862e3bf046b6d" kindref="member">max(Arg)</ref> if necessary to include given segment Generated from method <computeroutput>MR.MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::include</computeroutput>. </para>
+<para>changes <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a18ee707d0a21ffbf6ae19c9929a7621d" kindref="member">min(Arg)</ref> and <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a8ba0fa645893067e242862e3bf046b6d" kindref="member">max(Arg)</ref> if necessary to include given segment Generated from method <computeroutput>MR::MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::include</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -252,50 +252,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>minimum and maximum of some elements of type T, and the indices of where minimum and maximum are reached of type I Generated from class <computeroutput>MR.MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>minimum and maximum of some elements of type T, and the indices of where minimum and maximum are reached of type I Generated from class <computeroutput>MR::MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_MinMaxArg_Float_MRVertId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MinMaxArg_Float_MRVertId</label>
         <link refid="classMR_1_1MinMaxArg__Float__MRVertId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MinMaxArg_Float_MRVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MinMaxArg_Float_MRVertId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_MinMaxArg_Float_MRVertId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.MinMaxArg_Float_MRVertId</label>
         <link refid="classMR_1_1MinMaxArg__Float__MRVertId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_MinMaxArg_Float_MRVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MinMaxArg_Float_MRVertId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" line="145" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" bodystart="146" bodyend="247"/>

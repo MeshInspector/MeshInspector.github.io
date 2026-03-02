@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectMesh" kind="class" language="C++" prot="public">
     <compoundname>MR::ObjectMesh</compoundname>
     <basecompoundref refid="classMR_1_1ObjectMeshHolder" prot="public" virt="non-virtual">MR::ObjectMeshHolder</basecompoundref>
     <derivedcompoundref refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4" prot="public" virt="non-virtual">MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectMesh &gt;</derivedcompoundref>
-    <includes refid="MRObjectMesh_8h" local="no">MRObjectMesh.h</includes>
+    <derivedcompoundref refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4" prot="public" virt="non-virtual">MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectMesh &gt;</derivedcompoundref>
+    <includes refid="MRObjectMesh_8h" local="no">MRMesh/MRObjectMesh.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga60912e66f88e4d3f0f1330585e37a930" kind="function"><name>ObjectMesh</name></member>
       <member refid="group__GeneralGroup_1ga250ab5edcdba0ab02a8af6128fdce868" kind="function"><name>ObjectMesh</name></member>
@@ -59,21 +60,11 @@
         <childnode refid="3" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="8">
-        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
-        <childnode refid="7" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, ObjectMesh &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
-        <childnode refid="6" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="6">
         <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectMesh &gt;</label>
         <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
@@ -163,7 +154,7 @@
           <edgelabel>showPoints_</edgelabel>
           <edgelabel>showSelectedEdges_</edgelabel>
           <edgelabel>showSelectedFaces_</edgelabel>
-          <edgelabel>...</edgelabel>
+          <edgelabel>  ...</edgelabel>
         </childnode>
         <childnode refid="12" relation="usage">
           <edgelabel>bordersColor_</edgelabel>
@@ -249,7 +240,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMesh.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectMesh.h" bodystart="14" bodyend="59"/>
+    <location file="MRMesh/MRObjectMesh.h" line="13" column="1" bodyfile="MRMesh/MRObjectMesh.h" bodystart="14" bodyend="59"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa8ad23b98d545682db124f812216b717" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>actualSerializeFormat</name></member>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::ObjectMesh</scope><name>addChild</name></member>

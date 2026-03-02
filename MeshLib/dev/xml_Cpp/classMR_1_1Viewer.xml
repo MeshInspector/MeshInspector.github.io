@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Viewer" kind="class" language="C++" prot="public">
     <compoundname>MR::Viewer</compoundname>
-    <includes refid="MRViewer_8h" local="no">MRViewer.h</includes>
+    <includes refid="MRViewer_8h" local="no">MRViewer/MRViewer.h</includes>
     <innerclass refid="structMR_1_1Viewer_1_1EventsCounter" prot="private">MR::Viewer::EventsCounter</innerclass>
     <innerclass refid="structMR_1_1Viewer_1_1GLPrimitivesCounter" prot="private">MR::Viewer::GLPrimitivesCounter</innerclass>
     <sectiondef kind="public-type">
@@ -252,7 +252,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" line="68" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" bodystart="69" bodyend="654"/>
+    <location file="MRViewer/MRViewer.h" line="68" column="1" bodyfile="MRViewer/MRViewer.h" bodystart="69" bodyend="654"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8a4165d397a7c241fd7a2b6df849d8c8" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>alphaSortEnabled_</name></member>
       <member refid="group__GeneralGroup_1gad254163ddf7de404d091c350fb978a1b" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>alphaSorter_</name></member>

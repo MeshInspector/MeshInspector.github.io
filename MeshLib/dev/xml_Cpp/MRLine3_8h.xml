@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRLine3_8h" kind="file" language="C++">
     <compoundname>MRLine3.h</compoundname>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
     <includes refid="MRLine_8h" local="yes">MRLine.h</includes>
-    <includedby refid="MRBestFit_8h" local="yes">MRBestFit.h</includedby>
-    <includedby refid="MRCone3_8h" local="yes">MRCone3.h</includedby>
-    <includedby refid="MRIntersection_8h" local="yes">MRIntersection.h</includedby>
-    <includedby refid="MRMeshIntersect_8h" local="yes">MRMeshIntersect.h</includedby>
+    <includedby refid="MRBestFit_8h" local="yes">MRMesh/MRBestFit.h</includedby>
+    <includedby refid="MRCone3_8h" local="yes">MRMesh/MRCone3.h</includedby>
+    <includedby refid="MRIntersection_8h" local="yes">MRMesh/MRIntersection.h</includedby>
+    <includedby refid="MRMeshIntersect_8h" local="yes">MRMesh/MRMeshIntersect.h</includedby>
     <incdepgraph>
       <node id="24">
         <label>MRAffineXf.h</label>
@@ -40,7 +40,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRLine3.h</label>
+        <label>MRMesh/MRLine3.h</label>
         <link refid="MRLine3_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -154,17 +154,17 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="11">
-        <label>MRCudaSolarRadiation.h</label>
+        <label>MRCuda/MRCudaSolarRadiation.h</label>
         <link refid="MRCudaSolarRadiation_8h"/>
       </node>
       <node id="2">
-        <label>MRBestFit.h</label>
+        <label>MRMesh/MRBestFit.h</label>
         <link refid="MRBestFit_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRCone3.h</label>
+        <label>MRMesh/MRCone3.h</label>
         <link refid="MRCone3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
@@ -172,25 +172,25 @@
         </childnode>
       </node>
       <node id="5">
-        <label>MRConeApproximator.h</label>
+        <label>MRMesh/MRConeApproximator.h</label>
         <link refid="MRConeApproximator_8h"/>
       </node>
       <node id="3">
-        <label>MRDenseBox.h</label>
+        <label>MRMesh/MRDenseBox.h</label>
         <link refid="MRDenseBox_8h"/>
       </node>
       <node id="6">
-        <label>MRFeatures.h</label>
+        <label>MRMesh/MRFeatures.h</label>
         <link refid="MRFeatures_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="9">
-        <label>MRIntersection.h</label>
+        <label>MRMesh/MRIntersection.h</label>
         <link refid="MRIntersection_8h"/>
       </node>
       <node id="1">
-        <label>MRLine3.h</label>
+        <label>MRMesh/MRLine3.h</label>
         <link refid="MRLine3_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -202,19 +202,19 @@
         </childnode>
       </node>
       <node id="10">
-        <label>MRMeshIntersect.h</label>
+        <label>MRMesh/MRMeshIntersect.h</label>
         <link refid="MRMeshIntersect_8h"/>
         <childnode refid="11" relation="include">
         </childnode>
       </node>
       <node id="7">
-        <label>MRSubfeatures.h</label>
+        <label>MRMesh/MRSubfeatures.h</label>
         <link refid="MRSubfeatures_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="8">
-        <label>MRVisualSubfeatures.h</label>
+        <label>MRViewer/MRVisualSubfeatures.h</label>
         <link refid="MRVisualSubfeatures_8h"/>
       </node>
     </invincdepgraph>
@@ -228,6 +228,6 @@
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRLine_8h" kindref="compound">MRLine.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLine3.h"/>
+    <location file="MRMesh/MRLine3.h"/>
   </compounddef>
 </doxygen>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SeparationPointStorage_1_1Block" kind="struct" language="C++" prot="public">
     <compoundname>MR::SeparationPointStorage::Block</compoundname>
-    <includes refid="MRSeparationPoint_8h" local="no">MRSeparationPoint.h</includes>
+    <includes refid="MRSeparationPoint_8h" local="no">MRMesh/MRSeparationPoint.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga171fe956486e01cdfdddedaedd905ca4" kind="variable"><name>smap</name></member>
       <member refid="group__GeneralGroup_1ga58df13a2b6e26ec0a73b3883451f7c27" kind="variable"><name>coords</name></member>
@@ -30,7 +30,7 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="27" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" bodystart="28" bodyend="39"/>
+    <location file="MRMesh/MRSeparationPoint.h" line="27" column="5" bodyfile="MRMesh/MRSeparationPoint.h" bodystart="28" bodyend="39"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga58df13a2b6e26ec0a73b3883451f7c27" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage::Block</scope><name>coords</name></member>
       <member refid="group__GeneralGroup_1ga3bb9eb5b60d6dcb38389506da2cb6a0e" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage::Block</scope><name>faceMap</name></member>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFinally_8h" kind="file" language="C++">
     <compoundname>MRFinally.h</compoundname>
     <includes refid="MRMacros_8h" local="yes">MRMacros.h</includes>
     <includes local="no">utility</includes>
-    <includedby refid="MRGLMacro_8h" local="yes">MRGLMacro.h</includedby>
-    <includedby refid="MRScopedValue_8h" local="yes">MRScopedValue.h</includedby>
-    <includedby refid="MRUIStyle_8h" local="yes">MRUIStyle.h</includedby>
+    <includedby refid="MRScopedValue_8h" local="yes">MRMesh/MRScopedValue.h</includedby>
+    <includedby refid="MRGLMacro_8h" local="yes">MRViewer/MRGLMacro.h</includedby>
+    <includedby refid="MRUIStyle_8h" local="yes">MRViewer/MRUIStyle.h</includedby>
     <incdepgraph>
       <node id="1">
-        <label>MRFinally.h</label>
+        <label>MRMesh/MRFinally.h</label>
         <link refid="MRFinally_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -26,59 +26,57 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="18">
-        <label>MRMoveObjectByMouse.h</label>
+        <label>MRCommonPlugins/Basic/MRMoveObjectByMouse.h</label>
         <link refid="MRMoveObjectByMouse_8h"/>
       </node>
       <node id="1">
-        <label>MRFinally.h</label>
+        <label>MRMesh/MRFinally.h</label>
         <link refid="MRFinally_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="16">
-        <label>MRScopedValue.h</label>
+      <node id="2">
+        <label>MRMesh/MRScopedValue.h</label>
         <link refid="MRScopedValue_8h"/>
       </node>
-      <node id="4">
-        <label>MRDepthPeelingGL.h</label>
+      <node id="5">
+        <label>MRViewer/MRDepthPeelingGL.h</label>
         <link refid="MRDepthPeelingGL_8h"/>
       </node>
-      <node id="2">
-        <label>MRGLMacro.h</label>
+      <node id="3">
+        <label>MRViewer/MRGLMacro.h</label>
         <link refid="MRGLMacro_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRImGuiImage.h</label>
-        <link refid="MRImGuiImage_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>MRMarkedVoxelSlice.h</label>
+        <label>MRViewer/MRImGuiImage.h</label>
+        <link refid="MRImGuiImage_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRViewer/MRMarkedVoxelSlice.h</label>
         <link refid="MRMarkedVoxelSlice_8h"/>
       </node>
-      <node id="9">
-        <label>MRRenderFeatureObjects.h</label>
+      <node id="10">
+        <label>MRViewer/MRRenderFeatureObjects.h</label>
         <link refid="MRRenderFeatureObjects_8h"/>
       </node>
-      <node id="3">
-        <label>MRRenderGLHelpers.h</label>
+      <node id="4">
+        <label>MRViewer/MRRenderGLHelpers.h</label>
         <link refid="MRRenderGLHelpers_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
@@ -88,51 +86,53 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-      </node>
-      <node id="7">
-        <label>MRRenderLabelObject.h</label>
-        <link refid="MRRenderLabelObject_8h"/>
-      </node>
-      <node id="8">
-        <label>MRRenderLinesObject.h</label>
-        <link refid="MRRenderLinesObject_8h"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>MRRenderMeshObject.h</label>
-        <link refid="MRRenderMeshObject_8h"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>MRRenderPointsObject.h</label>
-        <link refid="MRRenderPointsObject_8h"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MRRenderVolumeObject.h</label>
-        <link refid="MRRenderVolumeObject_8h"/>
-      </node>
-      <node id="13">
-        <label>MRSceneTextureGL.h</label>
-        <link refid="MRSceneTextureGL_8h"/>
-      </node>
-      <node id="14">
-        <label>MRShadowsGL.h</label>
-        <link refid="MRShadowsGL_8h"/>
         <childnode refid="15" relation="include">
         </childnode>
       </node>
+      <node id="8">
+        <label>MRViewer/MRRenderLabelObject.h</label>
+        <link refid="MRRenderLabelObject_8h"/>
+      </node>
+      <node id="9">
+        <label>MRViewer/MRRenderLinesObject.h</label>
+        <link refid="MRRenderLinesObject_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MRViewer/MRRenderMeshObject.h</label>
+        <link refid="MRRenderMeshObject_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MRViewer/MRRenderPointsObject.h</label>
+        <link refid="MRRenderPointsObject_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRViewer/MRRenderVolumeObject.h</label>
+        <link refid="MRRenderVolumeObject_8h"/>
+      </node>
+      <node id="14">
+        <label>MRViewer/MRSceneTextureGL.h</label>
+        <link refid="MRSceneTextureGL_8h"/>
+      </node>
+      <node id="15">
+        <label>MRViewer/MRShadowsGL.h</label>
+        <link refid="MRShadowsGL_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
       <node id="17">
-        <label>MRUIStyle.h</label>
+        <label>MRViewer/MRUIStyle.h</label>
         <link refid="MRUIStyle_8h"/>
         <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="15">
-        <label>MRViewerSettingsPlugin.h</label>
+      <node id="16">
+        <label>MRViewer/MRViewerSettingsPlugin.h</label>
         <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="11" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" bodystart="11" bodyend="-1"/>
+        <location file="MRMesh/MRFinally.h" line="11" column="9" bodyfile="MRMesh/MRFinally.h" bodystart="11" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRFinally_8h_1a72db3a237e531f5d3935a8cd53f533b6" prot="public" static="no">
         <name>MR_FINALLY_ON_SUCCESS</name>
@@ -164,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" bodystart="24" bodyend="-1"/>
+        <location file="MRMesh/MRFinally.h" line="24" column="9" bodyfile="MRMesh/MRFinally.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRFinally_8h_1a40e5af90a48f13bfd508e3019793ad23" prot="public" static="no">
         <name>MR_FINALLY_ON_THROW</name>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="26" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" bodystart="26" bodyend="-1"/>
+        <location file="MRMesh/MRFinally.h" line="26" column="9" bodyfile="MRMesh/MRFinally.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRFinally_8h_1ac22b729a28295f5adeb690ef54729b1c" prot="public" static="no">
         <name>DETAIL_MR_FINALLY</name>
@@ -189,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="30" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" bodystart="30" bodyend="31"/>
+        <location file="MRMesh/MRFinally.h" line="30" column="9" bodyfile="MRMesh/MRFinally.h" bodystart="30" bodyend="31"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -206,18 +206,18 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;utility&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRFinally_8h_1ad10d1a8c04c5722bf0d42b1ddd493aad" refkind="member"><highlight class="preprocessor">#define<sp/>MR_FINALLY<sp/>DETAIL_MR_FINALLY(<sp/>ScopeGuard<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="MRFinally_8h_1ad10d1a8c04c5722bf0d42b1ddd493aad" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_FINALLY<sp/>DETAIL_MR_FINALLY(<sp/>ScopeGuard<sp/>)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cpp_exceptions</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="preprocessor">#define<sp/>MR_FINALLY_ON_SUCCESS<sp/>DETAIL_MR_FINALLY(<sp/>ExceptionScopeGuard&lt;true&gt;::Type<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_FINALLY_ON_SUCCESS<sp/>DETAIL_MR_FINALLY(<sp/>ExceptionScopeGuard&lt;true&gt;::Type<sp/>)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="preprocessor">#define<sp/>MR_FINALLY_ON_THROW<sp/>DETAIL_MR_FINALLY(<sp/>ExceptionScopeGuard&lt;false&gt;::Type<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_FINALLY_ON_THROW<sp/>DETAIL_MR_FINALLY(<sp/>ExceptionScopeGuard&lt;false&gt;::Type<sp/>)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRFinally_8h_1a72db3a237e531f5d3935a8cd53f533b6" refkind="member"><highlight class="preprocessor">#define<sp/>MR_FINALLY_ON_SUCCESS<sp/>MR_FINALLY</highlight></codeline>
-<codeline lineno="26" refid="MRFinally_8h_1a40e5af90a48f13bfd508e3019793ad23" refkind="member"><highlight class="preprocessor">#define<sp/>MR_FINALLY_ON_THROW<sp/>(void)[&amp;]()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRFinally_8h_1a72db3a237e531f5d3935a8cd53f533b6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_FINALLY_ON_SUCCESS<sp/>MR_FINALLY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRFinally_8h_1a40e5af90a48f13bfd508e3019793ad23" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_FINALLY_ON_THROW<sp/>(void)[&amp;]()</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
@@ -228,14 +228,14 @@
 <codeline lineno="34"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
-<codeline lineno="37" refid="classMR_1_1detail_1_1ScopeGuard" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1detail_1_1ScopeGuard" kindref="compound">ScopeGuard</ref></highlight></codeline>
+<codeline lineno="37" refid="classMR_1_1detail_1_1ScopeGuard" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1detail_1_1ScopeGuard_1a4bb7973a1780f673131d887ccd7a99a5" kindref="member">ScopeGuard</ref></highlight></codeline>
 <codeline lineno="38"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>F<sp/>func;</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="42" refid="classMR_1_1detail_1_1ScopeGuard_1a4bb7973a1780f673131d887ccd7a99a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1detail_1_1ScopeGuard_1a4bb7973a1780f673131d887ccd7a99a5" kindref="member">ScopeGuard</ref>(<sp/>F&amp;&amp;<sp/>func<sp/>)<sp/>:<sp/>func(<sp/>std::move(<sp/>func<sp/>)<sp/>)<sp/>{}</highlight></codeline>
-<codeline lineno="43" refid="classMR_1_1detail_1_1ScopeGuard_1ab72f5f420a40ffb2fdeba77f9cfc3c6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1detail_1_1ScopeGuard_1ab72f5f420a40ffb2fdeba77f9cfc3c6f" kindref="member">ScopeGuard</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1detail_1_1ScopeGuard" kindref="compound">ScopeGuard</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="44" refid="classMR_1_1detail_1_1ScopeGuard_1a80a080271e0af15a7e4244bcc72d35a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1detail_1_1ScopeGuard" kindref="compound">ScopeGuard</ref>&amp;<sp/><ref refid="classMR_1_1detail_1_1ScopeGuard_1a80a080271e0af15a7e4244bcc72d35a4" kindref="member">operator=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1detail_1_1ScopeGuard" kindref="compound">ScopeGuard</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43" refid="classMR_1_1detail_1_1ScopeGuard_1ab72f5f420a40ffb2fdeba77f9cfc3c6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1detail_1_1ScopeGuard_1ab72f5f420a40ffb2fdeba77f9cfc3c6f" kindref="member">ScopeGuard</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1detail_1_1ScopeGuard_1a4bb7973a1780f673131d887ccd7a99a5" kindref="member">ScopeGuard</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44" refid="classMR_1_1detail_1_1ScopeGuard_1a80a080271e0af15a7e4244bcc72d35a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1detail_1_1ScopeGuard_1a4bb7973a1780f673131d887ccd7a99a5" kindref="member">ScopeGuard</ref>&amp;<sp/><ref refid="classMR_1_1detail_1_1ScopeGuard_1a80a080271e0af15a7e4244bcc72d35a4" kindref="member">operator=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1detail_1_1ScopeGuard_1a4bb7973a1780f673131d887ccd7a99a5" kindref="member">ScopeGuard</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="45" refid="classMR_1_1detail_1_1ScopeGuard_1a2c51cf739e0e06d29590ee4e3d5729b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1detail_1_1ScopeGuard_1a2c51cf739e0e06d29590ee4e3d5729b0" kindref="member">~ScopeGuard</ref>()<sp/>{<sp/>func();<sp/>}</highlight></codeline>
 <codeline lineno="46"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
@@ -272,8 +272,8 @@
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="79"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h"/>
+    <location file="MRMesh/MRFinally.h"/>
   </compounddef>
 </doxygen>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRBasinVolume_8h" kind="file" language="C++">
     <compoundname>MRBasinVolume.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRBasinVolume.h</label>
+        <label>MRMesh/MRBasinVolume.h</label>
         <link refid="MRBasinVolume_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -83,7 +83,7 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="classMR_1_1BasinVolumeCalculator" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1BasinVolumeCalculator" kindref="compound">BasinVolumeCalculator</ref></highlight></codeline>
+<codeline lineno="13" refid="classMR_1_1BasinVolumeCalculator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1BasinVolumeCalculator" kindref="compound">BasinVolumeCalculator</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1ga5936131a39f0ecf451622b11ebf588bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5936131a39f0ecf451622b11ebf588bd" kindref="member">addTerrainTri</ref>(<sp/><ref refid="group__GeneralGroup_1gac3b4f93ff16dbb5975ce8dec6adc39cf" kindref="member">Triangle3f</ref><sp/>t,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>level<sp/>);</highlight></codeline>
@@ -96,8 +96,8 @@
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="group__GeneralGroup_1ga6228b3f2c431f1a5fa94b25ba13cf4f2" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6228b3f2c431f1a5fa94b25ba13cf4f2" kindref="member">computeBasinVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet&amp;<sp/>faces,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>level<sp/>);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBasinVolume.h"/>
+    <location file="MRMesh/MRBasinVolume.h"/>
   </compounddef>
 </doxygen>

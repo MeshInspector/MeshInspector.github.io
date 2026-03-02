@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ICP" kind="class" language="C++" prot="public">
     <compoundname>MR::ICP</compoundname>
-    <includes refid="MRICP_8h" local="no">MRICP.h</includes>
+    <includes refid="MRICP_8h" local="no">MRMesh/MRICP.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gab6fc4b50aa9caa98755ba4e1b62e3f2d" kind="variable"><name>flt_</name></member>
       <member refid="group__GeneralGroup_1ga4b0a185c72915330bc57a2aa250e5bd8" kind="variable"><name>ref_</name></member>
@@ -56,7 +56,7 @@
     <detaileddescription>
 <para>This class allows you to register two object with similar shape using Iterative Closest Points (<ref refid="classMR_1_1ICP" kindref="compound">ICP</ref>) point-to-point or point-to-plane algorithms <programlisting filename="cpp-examples/MeshICP.dox.cpp"></programlisting> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="189" bodyend="294"/>
+    <location file="MRMesh/MRICP.h" line="188" column="1" bodyfile="MRMesh/MRICP.h" bodystart="189" bodyend="294"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae6979d6159d128afbd42cd9efe9774ae" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>autoSelectFloatXf</name></member>
       <member refid="group__GeneralGroup_1ga2919e6c1f1b78a1b0e6e9513744013bd" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>calcCombined_</name></member>

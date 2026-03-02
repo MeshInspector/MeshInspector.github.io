@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ICPGroupPairs" kind="struct" language="C++" prot="public">
     <compoundname>MR::ICPGroupPairs</compoundname>
     <basecompoundref refid="structMR_1_1IPointPairs" prot="public" virt="non-virtual">MR::IPointPairs</basecompoundref>
-    <includes refid="MRMultiwayICP_8h" local="no">MRMultiwayICP.h</includes>
+    <includes refid="MRMultiwayICP_8h" local="no">MRMesh/MRMultiwayICP.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga6d040d69ff557db2395159717b51b08d" kind="variable"><name>vec</name></member>
     </sectiondef>
@@ -47,7 +47,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="23" bodyend="28"/>
+    <location file="MRMesh/MRMultiwayICP.h" line="22" column="1" bodyfile="MRMesh/MRMultiwayICP.h" bodystart="23" bodyend="28"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab838ce7cceeb506514a4124c9587f032" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>active</name></member>
       <member refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>IPointPairs</name></member>

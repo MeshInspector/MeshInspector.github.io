@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ComputeSweptVolumeParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::ComputeSweptVolumeParameters</compoundname>
-    <includes refid="MRSweptVolume_8h" local="no">MRSweptVolume.h</includes>
+    <includes refid="MRSweptVolume_8h" local="no">MRVoxels/MRSweptVolume.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga30734a48ed1db5decfd6bc50b5e5a9c6" kind="variable"><name>path</name></member>
       <member refid="group__GeneralGroup_1gaa31ab5fc3b9d49a142a4879771d70f71" kind="variable"><name>toolMesh</name></member>
@@ -36,7 +36,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" bodystart="27" bodyend="43"/>
+    <location file="MRVoxels/MRSweptVolume.h" line="26" column="1" bodyfile="MRVoxels/MRSweptVolume.h" bodystart="27" bodyend="43"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga710c3b728313851d1a392af1f9514232" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>cb</name></member>
       <member refid="group__GeneralGroup_1ga4cbfdf9b6dd57369b2f808629eb3a4a4" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>memoryLimit</name></member>

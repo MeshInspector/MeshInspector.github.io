@@ -1,23 +1,15 @@
 var MRToolPath_8h =
 [
-    [ "MR_AffineXf3f", "MRToolPath_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
     [ "MR_ArcInterpolationParams", "MRToolPath_8h.html#af75e6f14901acb244d17e7580064fb12", null ],
     [ "MR_ArcPlane", "MRToolPath_8h.html#ad0a4840ee63bc108ec4c0c7a4fd46582", null ],
     [ "MR_BypassDirection", "MRToolPath_8h.html#aff05b8e638df734c6d49a67790adcc65", null ],
     [ "MR_ConstantCuspParams", "MRToolPath_8h.html#a719c074d2cbae47ffcae2252945d6daa", null ],
     [ "MR_expected_MR_ToolPathResult_std_string", "MRToolPath_8h.html#a8a1ec36123aa99a3d7cf7cdb51b663b6", null ],
-    [ "MR_expected_void_std_string", "MRToolPath_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
-    [ "MR_FaceBitSet", "MRToolPath_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
     [ "MR_GCommand", "MRToolPath_8h.html#ace59308137c86730185d551295ea9885", null ],
     [ "MR_LineInterpolationParams", "MRToolPath_8h.html#a47fdc09ea924ccdcd5248a10d938b430", null ],
-    [ "MR_Mesh", "MRToolPath_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
-    [ "MR_MeshPart", "MRToolPath_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
     [ "MR_MoveType", "MRToolPath_8h.html#a2abacc00a3f0d8f1daab9d3f9a741e6e", null ],
-    [ "MR_std_function_bool_from_float", "MRToolPath_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_shared_ptr_MR_ObjectGcode", "MRToolPath_8h.html#a1f869d74315185b1af007bfe2e6bee69", null ],
     [ "MR_std_vector_MR_GCommand", "MRToolPath_8h.html#a74d888f02412f83e4463e59b0c0d3861", null ],
-    [ "MR_std_vector_MR_Vector3f", "MRToolPath_8h.html#aefed148a09a0ae55edbd22814638b462", null ],
-    [ "MR_std_vector_std_vector_MR_Vector3f", "MRToolPath_8h.html#a79b88ecd897f6c27c8428cecc4a91f30", null ],
     [ "MR_ToolPathParams", "MRToolPath_8h.html#a2976135c12ae6b4dd0d22d15205b3fe2", null ],
     [ "MR_ToolPathResult", "MRToolPath_8h.html#a300d46c0652bb439197967dc145caba1", null ],
     [ "MR_ArcPlane", "MRToolPath_8h.html#a7dbdcb309b4cac6e29a29dc3a0a28bca", [

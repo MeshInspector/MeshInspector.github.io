@@ -2,9 +2,6 @@ var MRMapEdge_8h =
 [
     [ "MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId", "MRMapEdge_8h.html#ae760fe9ce6adc57f4029ea7cdd2a8006", null ],
     [ "MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId", "MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRMapEdge_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
-    [ "MR_UndirectedEdgeBMap", "MRMapEdge_8h.html#aa00ac70d4ed56bb62fbf2000eff1a5bf", null ],
-    [ "MR_WholeEdgeMap", "MRMapEdge_8h.html#a50066b58d97b0be73d826cfdcc9eb188", null ],
     [ "MR_mapEdge_const_MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId_ref_MR_EdgeId", "MRMapEdge_8h.html#a2c9eab08f0d04dd9603368abad816297", null ],
     [ "MR_mapEdge_const_MR_MapOrHashMap_MR_UndirectedEdgeId_MR_EdgeId_ref_MR_UndirectedEdgeId", "MRMapEdge_8h.html#a057da93a924bb71f06b5efc2c5faa0b2", null ],
     [ "MR_mapEdge_const_MR_UndirectedEdgeBMap_ref", "MRMapEdge_8h.html#aa2963d9ec5bf84d7f55df05f40392b87", null ],

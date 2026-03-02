@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DepthPeelingGL" kind="class" language="C++" prot="public">
     <compoundname>MR::DepthPeelingGL</compoundname>
-    <includes refid="MRDepthPeelingGL_8h" local="no">MRDepthPeelingGL.h</includes>
+    <includes refid="MRDepthPeelingGL_8h" local="no">MRViewer/MRDepthPeelingGL.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gac2e53d9e2f5aaadfc575f3fb31a60ca5" kind="variable"><name>accumFB_</name></member>
       <member refid="group__GeneralGroup_1ga9d947f56105730e5ef299dd37157e9cf" kind="variable"><name>qt_</name></member>
@@ -21,7 +21,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDepthPeelingGL.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDepthPeelingGL.h" bodystart="13" bodyend="35"/>
+    <location file="MRViewer/MRDepthPeelingGL.h" line="12" column="1" bodyfile="MRViewer/MRDepthPeelingGL.h" bodystart="13" bodyend="35"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac2e53d9e2f5aaadfc575f3fb31a60ca5" prot="private" virt="non-virtual"><scope>MR::DepthPeelingGL</scope><name>accumFB_</name></member>
       <member refid="group__GeneralGroup_1gad4718d7754750a1817de744bca8ec07c" prot="public" virt="non-virtual"><scope>MR::DepthPeelingGL</scope><name>doPasses</name></member>

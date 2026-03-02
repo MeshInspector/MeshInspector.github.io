@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Cylinder3Approximation" kind="class" language="C++" prot="public">
     <compoundname>MR::Cylinder3Approximation</compoundname>
-    <includes refid="MRCylinderApproximator_8h" local="no">MRCylinderApproximator.h</includes>
+    <includes refid="MRCylinderApproximator_8h" local="no">MRMesh/MRCylinderApproximator.h</includes>
     <innerclass refid="classMR_1_1Cylinder3Approximation_1_1BestHemisphereStoredData" prot="private">MR::Cylinder3Approximation::BestHemisphereStoredData</innerclass>
     <templateparamlist>
       <param>
@@ -42,7 +42,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="16" bodyend="98"/>
+    <location file="MRMesh/MRCylinderApproximator.h" line="15" column="1" bodyfile="MRMesh/MRCylinderApproximator.h" bodystart="16" bodyend="98"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga579d35802248f0935569af18cf42db07" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>baseCylinderAxis_</name></member>
       <member refid="group__GeneralGroup_1ga0e4a56fc93e558ba228d4ae40f56fa5b" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>Cylinder3Approximation</name></member>

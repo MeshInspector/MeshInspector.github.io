@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1MeshLoad" kind="namespace" language="C++">
     <compoundname>MR::MeshLoad</compoundname>
     <innerclass refid="structMR_1_1MeshLoad_1_1MeshLoader" prot="public">MR::MeshLoad::MeshLoader</innerclass>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRStep.h" line="17" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRStep.h" declline="17" declcolumn="11"/>
+        <location file="MRIOExtras/MRStep.h" line="17" column="11" declfile="MRIOExtras/MRStep.h" declline="17" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1af222b1f187c6ada07459e5df2376a87c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRStep.h" line="18" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRStep.h" declline="18" declcolumn="11"/>
+        <location file="MRIOExtras/MRStep.h" line="18" column="11" declfile="MRIOExtras/MRStep.h" declline="18" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a3453ab4b6c9bff2b53d97baf751e54e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt;</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRStep.h" line="21" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRStep.h" declline="21" declcolumn="11"/>
+        <location file="MRIOExtras/MRStep.h" line="21" column="11" declfile="MRIOExtras/MRStep.h" declline="21" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1ad3b397fbfc7cb3fab8f3864f7acd8c0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt;</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRStep.h" line="22" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRStep.h" declline="22" declcolumn="11"/>
+        <location file="MRIOExtras/MRStep.h" line="22" column="11" declfile="MRIOExtras/MRStep.h" declline="22" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a49d00efe33bc30d02b7d948b82e8c33e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="87" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="87" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="87" column="11" declfile="MRMesh/MRMeshLoad.h" declline="87" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1aabe337de5edd40419753b070ba85a532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="91" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="91" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="91" column="11" declfile="MRMesh/MRMeshLoad.h" declline="91" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a3e868d87950982efb75b51d258abb559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="94" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="94" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="94" column="11" declfile="MRMesh/MRMeshLoad.h" declline="94" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a05b8033683952292064d99cc33e8484f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="97" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="97" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="97" column="11" declfile="MRMesh/MRMeshLoad.h" declline="97" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1aef05885c67fa4ee995e6f72d7fb4cbe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -224,7 +224,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="100" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="100" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="100" column="11" declfile="MRMesh/MRMeshLoad.h" declline="100" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1ac2dbeb2e7ecd6bb3b0d3fb8e71a45404" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -248,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="104" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="104" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="104" column="11" declfile="MRMesh/MRMeshLoad.h" declline="104" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a5fbeb822f5135480d23cbe6d8b6f70f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -272,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="107" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="107" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="107" column="11" declfile="MRMesh/MRMeshLoad.h" declline="107" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1ad4fec3336f66f6e63872c27f104224b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -296,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="111" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="111" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="111" column="11" declfile="MRMesh/MRMeshLoad.h" declline="111" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1ada89cdcc118cebd47aaa3795b32de730" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -320,7 +320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="114" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="114" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="114" column="11" declfile="MRMesh/MRMeshLoad.h" declline="114" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a0f49ad0b21c3acc94cbd3a39acd9b285" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -344,7 +344,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="118" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="118" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="118" column="11" declfile="MRMesh/MRMeshLoad.h" declline="118" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a13fff22a02280dc3df69fcdd4a9dcdc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -368,7 +368,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="121" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="121" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="121" column="11" declfile="MRMesh/MRMeshLoad.h" declline="121" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a0af2341103af4e9a49a749aeae8be936" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -392,7 +392,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="124" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="124" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="124" column="11" declfile="MRMesh/MRMeshLoad.h" declline="124" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a1605821604741fe1492121121c59f06d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -416,7 +416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="127" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="127" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="127" column="11" declfile="MRMesh/MRMeshLoad.h" declline="127" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a276f38ac4f57c6a34b02b9644d7324fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -440,7 +440,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="131" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="131" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="131" column="11" declfile="MRMesh/MRMeshLoad.h" declline="131" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a0889ea8de881e47d230b6958335bcd64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -464,7 +464,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="134" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="134" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="134" column="11" declfile="MRMesh/MRMeshLoad.h" declline="134" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a237ce93a6f674962c499c791476e1839" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -488,7 +488,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="137" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="137" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="137" column="11" declfile="MRMesh/MRMeshLoad.h" declline="137" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1aa115a0d8b8efd585125c07693565388b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -512,7 +512,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="140" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="140" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="140" column="11" declfile="MRMesh/MRMeshLoad.h" declline="140" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a78e3652043b5c14b69d5b91e83061f81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -540,7 +540,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="144" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="144" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="144" column="11" declfile="MRMesh/MRMeshLoad.h" declline="144" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a56ffb5ceb885e2f5e2b965ce19ba299f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> void</type>
@@ -559,7 +559,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" line="147" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoad.h" declline="147" declcolumn="22"/>
+        <location file="MRMesh/MRMeshLoad.h" line="147" column="22" declfile="MRMesh/MRMeshLoad.h" declline="147" declcolumn="22"/>
       </memberdef>
       <member refid="group__MeshLoadObjGroup_1ga78eb3db4a38b8df457c09a8f74b126a3" kind="function"><name>fromSceneObjFile</name></member>
       <member refid="group__MeshLoadObjGroup_1ga084c68bf6ed27f70de50de85900bd2bc" kind="function"><name>fromSceneObjFile</name></member>
@@ -571,6 +571,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="20" column="1"/>
+    <location file="MRIOExtras/MRCtm.h" line="20" column="1"/>
   </compounddef>
 </doxygen>

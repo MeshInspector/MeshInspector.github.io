@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__MeshRelaxGroup" kind="group">
     <compoundname>MeshRelaxGroup</compoundname>
     <title>Mesh Relax</title>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="24" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="24" declcolumn="7"/>
+        <location file="MRMesh/MRMeshRelax.h" line="24" column="7" declfile="MRMesh/MRMeshRelax.h" declline="24" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshRelaxGroup_1ga3dbd5ee9aa51d0fb51e6d8cbc8bb5b9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="25" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="25" declcolumn="7"/>
+        <location file="MRMesh/MRMeshRelax.h" line="25" column="7" declfile="MRMesh/MRMeshRelax.h" declline="25" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshRelaxGroup_1ga11a3c4423d57bdec0536c0916269613c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3f</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="29" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="29" declcolumn="12"/>
+        <location file="MRMesh/MRMeshRelax.h" line="29" column="12" declfile="MRMesh/MRMeshRelax.h" declline="29" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshRelaxGroup_1gafbd4050c45f9441d53f08ae512d5b495" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3f</type>
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="30" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="30" declcolumn="12"/>
+        <location file="MRMesh/MRMeshRelax.h" line="30" column="12" declfile="MRMesh/MRMeshRelax.h" declline="30" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshRelaxGroup_1ga0b7b12e3abc437cc721146292d65991b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="41" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="41" declcolumn="7"/>
+        <location file="MRMesh/MRMeshRelax.h" line="41" column="7" declfile="MRMesh/MRMeshRelax.h" declline="41" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshRelaxGroup_1gaa1dce47380c062d2c483761c304e96a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -188,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="42" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="42" declcolumn="7"/>
+        <location file="MRMesh/MRMeshRelax.h" line="42" column="7" declfile="MRMesh/MRMeshRelax.h" declline="42" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshRelaxGroup_1ga894cdb8a2d420dfb6ba8b0dbb3133408" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -220,7 +220,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="47" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="47" declcolumn="7"/>
+        <location file="MRMesh/MRMeshRelax.h" line="47" column="7" declfile="MRMesh/MRMeshRelax.h" declline="47" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshRelaxGroup_1ga285895a15897accb6d69c1403ee53f93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -252,7 +252,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="48" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="48" declcolumn="7"/>
+        <location file="MRMesh/MRMeshRelax.h" line="48" column="7" declfile="MRMesh/MRMeshRelax.h" declline="48" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshRelaxGroup_1gaefa276ee29dcda75a6e5dc13844047f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -283,7 +283,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="61" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="61" declcolumn="7"/>
+        <location file="MRMesh/MRMeshRelax.h" line="61" column="7" declfile="MRMesh/MRMeshRelax.h" declline="61" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshRelaxGroup_1ga627da0d5cc2bd7fb8124183d0e1482d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -315,7 +315,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="62" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="62" declcolumn="7"/>
+        <location file="MRMesh/MRMeshRelax.h" line="62" column="7" declfile="MRMesh/MRMeshRelax.h" declline="62" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshRelaxGroup_1ga81eff59a2228d4ebc80ca39dbf2df492" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -347,7 +347,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="65" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="65" declcolumn="7"/>
+        <location file="MRMesh/MRMeshRelax.h" line="65" column="7" declfile="MRMesh/MRMeshRelax.h" declline="65" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshRelaxGroup_1ga39d942209bb1452b07dc1c6176d0113d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -382,7 +382,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="66" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="66" declcolumn="7"/>
+        <location file="MRMesh/MRMeshRelax.h" line="66" column="7" declfile="MRMesh/MRMeshRelax.h" declline="66" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshRelaxGroup_1ga1e187006b1fd0ad4a2ae525c00b813d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -419,7 +419,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="72" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="72" declcolumn="7"/>
+        <location file="MRMesh/MRMeshRelax.h" line="72" column="7" declfile="MRMesh/MRMeshRelax.h" declline="72" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshRelaxGroup_1ga2fdc8d3b573ee09fec87e7ab823ee3cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -443,7 +443,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="75" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="75" declcolumn="7"/>
+        <location file="MRMesh/MRMeshRelax.h" line="75" column="7" declfile="MRMesh/MRMeshRelax.h" declline="75" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshRelaxGroup_1ga5334e44dde4cc350f4731fd75154f896" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -470,7 +470,7 @@ do not really keeps volume but tries hard <simplesect kind="return"><para>true i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="76" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" declline="76" declcolumn="7"/>
+        <location file="MRMesh/MRMeshRelax.h" line="76" column="7" declfile="MRMesh/MRMeshRelax.h" declline="76" declcolumn="7"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

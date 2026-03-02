@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1SymbolMeshParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::SymbolMeshParams</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1TextMeshAlignParams" prot="public" virt="non-virtual">mrmeshpy.TextMeshAlignParams</derivedcompoundref>
@@ -119,9 +119,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SymbolMeshParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1aec3a8ab3b9dac180c5f7951099b10139">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1a253a6c2d4ea3ebc89386085636d36ce1">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1af0f4e1878c008b30662c59a442e7f9d2">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -194,9 +191,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SymbolMeshParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1aec3a8ab3b9dac180c5f7951099b10139">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1a253a6c2d4ea3ebc89386085636d36ce1">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1af0f4e1878c008b30662c59a442e7f9d2">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -215,9 +209,6 @@
         <argsstring>(self, SymbolMeshParams arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SymbolMeshParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1aec3a8ab3b9dac180c5f7951099b10139">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1a253a6c2d4ea3ebc89386085636d36ce1">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1af0f4e1878c008b30662c59a442e7f9d2">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -242,9 +233,6 @@
         <argsstring>(self, str text, int fontDetalization, Vector2f symbolsDistanceAdditionalOffset, float symbolsThicknessOffsetModifier, AlignType align, os.PathLike|str|bytes pathToFontFile)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SymbolMeshParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1aec3a8ab3b9dac180c5f7951099b10139">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1a253a6c2d4ea3ebc89386085636d36ce1">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1af0f4e1878c008b30662c59a442e7f9d2">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -557,24 +545,6 @@ note: changing this to non-zero values cause costly calculations
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.SymbolMeshParams</label>
-        <link refid="classmrmeshpy_1_1SymbolMeshParams"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>MaxGeneratedFontHeight</edgelabel>
-          <edgelabel>_offsetof_align</edgelabel>
-          <edgelabel>_offsetof_fontDetalization</edgelabel>
-          <edgelabel>_offsetof_pathToFontFile</edgelabel>
-          <edgelabel>_offsetof_symbolsDistanceAdditionalOffset</edgelabel>
-          <edgelabel>_offsetof_symbolsThicknessOffsetModifier</edgelabel>
-          <edgelabel>_offsetof_text</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56109" bodyend="56195"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1SymbolMeshParams_1a7843f58a322674da5fd605032c5da6d0" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>__init__</name></member>

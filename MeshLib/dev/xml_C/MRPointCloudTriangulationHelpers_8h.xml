@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointCloudTriangulationHelpers_8h" kind="file" language="C++">
     <compoundname>MRPointCloudTriangulationHelpers.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -48,97 +48,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPointCloudTriangulationHelpers_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" prot="public" static="no">
-        <type>struct <ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref></type>
-        <definition>typedef struct MR_FewSmallest_MR_PointsProjectionResult MR_FewSmallest_MR_PointsProjectionResult</definition>
-        <argsstring></argsstring>
-        <name>MR_FewSmallest_MR_PointsProjectionResult</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" line="14" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudTriangulationHelpers_8h_1aa319738c95f0bbde075b7ef777cf2665" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref></type>
-        <definition>typedef struct MR_PointCloud MR_PointCloud</definition>
-        <argsstring></argsstring>
-        <name>MR_PointCloud</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudTriangulationHelpers_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
-        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_VertBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" line="16" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudTriangulationHelpers_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
-        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
-        <argsstring></argsstring>
-        <name>MR_VertCoords</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" line="17" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudTriangulationHelpers_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" line="18" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudTriangulationHelpers_8h_1a07206f863a7930f17413a0d2e2ad518a" prot="public" static="no">
-        <type>struct <ref refid="MRLocalTriangulations_8h_1a07206f863a7930f17413a0d2e2ad518a" kindref="member">MR_std_optional_MR_AllLocalTriangulations</ref></type>
-        <definition>typedef struct MR_std_optional_MR_AllLocalTriangulations MR_std_optional_MR_AllLocalTriangulations</definition>
-        <argsstring></argsstring>
-        <name>MR_std_optional_MR_AllLocalTriangulations</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" line="19" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudTriangulationHelpers_8h_1a0d97f913ba505f7b3b5f786c0437a6dc" prot="public" static="no">
-        <type>struct <ref refid="MRCloseVertices_8h_1a0d97f913ba505f7b3b5f786c0437a6dc" kindref="member">MR_std_optional_MR_VertBitSet</ref></type>
-        <definition>typedef struct MR_std_optional_MR_VertBitSet MR_std_optional_MR_VertBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_std_optional_MR_VertBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" line="20" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" prot="public" static="no">
         <type>struct <ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref></type>
         <definition>typedef struct MR_std_optional_std_vector_MR_SomeLocalTriangulations MR_std_optional_std_vector_MR_SomeLocalTriangulations</definition>
@@ -151,19 +60,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" line="21" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudTriangulationHelpers_8h_1a954949e1753f6a2063d09e91b23d252d" prot="public" static="no">
-        <type>struct <ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref></type>
-        <definition>typedef struct MR_std_vector_MR_VertId MR_std_vector_MR_VertId</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_VertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" line="22" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulationHelpers.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRPointCloudTriangulationHelpers_8h_1a2865cb60e932f33ee6cc62480e9ea63c" prot="public" static="no">
         <type>struct <ref refid="MRPointCloudTriangulationHelpers_8h_1a2865cb60e932f33ee6cc62480e9ea63c" kindref="member">MR_std_vector_std_pair_double_int</ref></type>
@@ -826,7 +722,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_TriangulationHelpers_FanOptimizerQueueElement</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -844,7 +740,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_TriangulationHelpers_FanOptimizerQueueElement</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1295,7 +1191,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_TriangulationHelpers_TriangulatedFanData</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPointCloudTriangulationHelpers_8h_1a969098fb61bc9c575f0a2ca401ba3f7a" kindref="member">MR_TriangulationHelpers_TriangulatedFanData</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1313,7 +1209,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_TriangulationHelpers_TriangulatedFanData</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPointCloudTriangulationHelpers_8h_1a969098fb61bc9c575f0a2ca401ba3f7a" kindref="member">MR_TriangulationHelpers_TriangulatedFanData</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2150,7 +2046,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_TriangulationHelpers_Settings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPointCloudTriangulationHelpers_8h_1aeb1317cea6682674bb53634c2d619ca8" kindref="member">MR_TriangulationHelpers_Settings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2168,7 +2064,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_TriangulationHelpers_Settings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPointCloudTriangulationHelpers_8h_1aeb1317cea6682674bb53634c2d619ca8" kindref="member">MR_TriangulationHelpers_Settings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2395,23 +2291,23 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRPointCloudTriangulationHelpers_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRFewSmallest.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRPointCloudTriangulationHelpers_8h_1aa319738c95f0bbde075b7ef777cf2665" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRPointCloudTriangulationHelpers_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRPointCloudTriangulationHelpers_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRPointCloudTriangulationHelpers_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRPointCloudTriangulationHelpers_8h_1a07206f863a7930f17413a0d2e2ad518a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1a07206f863a7930f17413a0d2e2ad518a" kindref="member">MR_std_optional_MR_AllLocalTriangulations</ref><sp/><ref refid="MRLocalTriangulations_8h_1a07206f863a7930f17413a0d2e2ad518a" kindref="member">MR_std_optional_MR_AllLocalTriangulations</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_AllLocalTriangulations.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRPointCloudTriangulationHelpers_8h_1a0d97f913ba505f7b3b5f786c0437a6dc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCloseVertices_8h_1a0d97f913ba505f7b3b5f786c0437a6dc" kindref="member">MR_std_optional_MR_VertBitSet</ref><sp/><ref refid="MRCloseVertices_8h_1a0d97f913ba505f7b3b5f786c0437a6dc" kindref="member">MR_std_optional_MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_VertBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref><sp/><ref refid="MRFewSmallest_8h_1a66e1ce13e2d4b3d10a8605b9d6b685d3" kindref="member">MR_FewSmallest_MR_PointsProjectionResult</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRFewSmallest.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1a07206f863a7930f17413a0d2e2ad518a" kindref="member">MR_std_optional_MR_AllLocalTriangulations</ref><sp/><ref refid="MRLocalTriangulations_8h_1a07206f863a7930f17413a0d2e2ad518a" kindref="member">MR_std_optional_MR_AllLocalTriangulations</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_AllLocalTriangulations.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCloseVertices_8h_1a0d97f913ba505f7b3b5f786c0437a6dc" kindref="member">MR_std_optional_MR_VertBitSet</ref><sp/><ref refid="MRCloseVertices_8h_1a0d97f913ba505f7b3b5f786c0437a6dc" kindref="member">MR_std_optional_MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_VertBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a13d4bef8bfa67d12df7bafa84331b149" kindref="member">MR_std_optional_std_vector_MR_SomeLocalTriangulations</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_std_vector_MR_SomeLocalTriangulations.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRPointCloudTriangulationHelpers_8h_1a954949e1753f6a2063d09e91b23d252d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="MRPointCloudTriangulationHelpers_8h_1a2865cb60e932f33ee6cc62480e9ea63c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudTriangulationHelpers_8h_1a2865cb60e932f33ee6cc62480e9ea63c" kindref="member">MR_std_vector_std_pair_double_int</ref><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a2865cb60e932f33ee6cc62480e9ea63c" kindref="member">MR_std_vector_std_pair_double_int</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_pair_double_int.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref>;</highlight></codeline>
+<codeline lineno="28" refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref>;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRPointCloudTriangulationHelpers_8h_1a969098fb61bc9c575f0a2ca401ba3f7a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudTriangulationHelpers_8h_1a969098fb61bc9c575f0a2ca401ba3f7a" kindref="member">MR_TriangulationHelpers_TriangulatedFanData</ref><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a969098fb61bc9c575f0a2ca401ba3f7a" kindref="member">MR_TriangulationHelpers_TriangulatedFanData</ref>;</highlight></codeline>
+<codeline lineno="36" refid="MRPointCloudTriangulationHelpers_8h_1a969098fb61bc9c575f0a2ca401ba3f7a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudTriangulationHelpers_8h_1a969098fb61bc9c575f0a2ca401ba3f7a" kindref="member">MR_TriangulationHelpers_TriangulatedFanData</ref><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a969098fb61bc9c575f0a2ca401ba3f7a" kindref="member">MR_TriangulationHelpers_TriangulatedFanData</ref>;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRPointCloudTriangulationHelpers_8h_1aeb1317cea6682674bb53634c2d619ca8" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudTriangulationHelpers_8h_1aeb1317cea6682674bb53634c2d619ca8" kindref="member">MR_TriangulationHelpers_Settings</ref><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1aeb1317cea6682674bb53634c2d619ca8" kindref="member">MR_TriangulationHelpers_Settings</ref>;</highlight></codeline>
+<codeline lineno="40" refid="MRPointCloudTriangulationHelpers_8h_1aeb1317cea6682674bb53634c2d619ca8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudTriangulationHelpers_8h_1aeb1317cea6682674bb53634c2d619ca8" kindref="member">MR_TriangulationHelpers_Settings</ref><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1aeb1317cea6682674bb53634c2d619ca8" kindref="member">MR_TriangulationHelpers_Settings</ref>;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50" refid="MRPointCloudTriangulationHelpers_8h_1a1a0d6d833b028029692a14ed71011545" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a1a0d6d833b028029692a14ed71011545" kindref="member">MR_TriangulationHelpers_updateNeighborsRadius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>boundaryV,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*fan,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>baseRadius);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
@@ -2421,49 +2317,49 @@
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82" refid="MRPointCloudTriangulationHelpers_8h_1a0f0d171a244fb9233e6fddcf93de8816" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a0f0d171a244fb9233e6fddcf93de8816" kindref="member">MR_TriangulationHelpers_filterNeighbors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*orientedNormals,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*untrustedNormals,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*neighbors);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//<sp/>profit<sp/>of<sp/>flipping<sp/>this<sp/>edge</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//<sp/>profit<sp/>of<sp/>flipping<sp/>this<sp/>edge</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="89" refid="MRPointCloudTriangulationHelpers_8h_1a0898d6affc3dd088e842e293ebb369bc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudTriangulationHelpers_8h_1a0898d6affc3dd088e842e293ebb369bc" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement_Get_weight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">//<sp/>profit<sp/>of<sp/>flipping<sp/>this<sp/>edge</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">//<sp/>profit<sp/>of<sp/>flipping<sp/>this<sp/>edge</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="95" refid="MRPointCloudTriangulationHelpers_8h_1a6609abad21a1bba5e08464697a5f9738" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a6609abad21a1bba5e08464697a5f9738" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement_Set_weight</ref>(<ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>profit<sp/>of<sp/>flipping<sp/>this<sp/>edge</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>profit<sp/>of<sp/>flipping<sp/>this<sp/>edge</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="102" refid="MRPointCloudTriangulationHelpers_8h_1ac785c39798e89d55d2f190870981b172" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudTriangulationHelpers_8h_1ac785c39798e89d55d2f190870981b172" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement_GetMutable_weight</ref>(<ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//<sp/>index</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//<sp/>index</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="109" refid="MRPointCloudTriangulationHelpers_8h_1ae552b31a7e66c34b3dc1bb20fda06e8a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudTriangulationHelpers_8h_1ae552b31a7e66c34b3dc1bb20fda06e8a" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement_Get_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">//<sp/>index</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">//<sp/>index</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="115" refid="MRPointCloudTriangulationHelpers_8h_1aaa4b7ec6bb5ecec85c027ae16c18f0b2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1aaa4b7ec6bb5ecec85c027ae16c18f0b2" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement_Set_id</ref>(<ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">//<sp/>index</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">//<sp/>index</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="122" refid="MRPointCloudTriangulationHelpers_8h_1a677f622a736451f694492097335fc48e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudTriangulationHelpers_8h_1a677f622a736451f694492097335fc48e" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement_GetMutable_id</ref>(<ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment">//<sp/>id<sp/>of<sp/>prev<sp/>neighbor</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment">//<sp/>id<sp/>of<sp/>prev<sp/>neighbor</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="129" refid="MRPointCloudTriangulationHelpers_8h_1adba6bbb21f12988b8b2a4a5522088312" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudTriangulationHelpers_8h_1adba6bbb21f12988b8b2a4a5522088312" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement_Get_prevId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight><highlight class="comment">//<sp/>id<sp/>of<sp/>prev<sp/>neighbor</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="comment">//<sp/>id<sp/>of<sp/>prev<sp/>neighbor</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="135" refid="MRPointCloudTriangulationHelpers_8h_1aae2e00f73018e355cfc398e022408b50" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1aae2e00f73018e355cfc398e022408b50" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement_Set_prevId</ref>(<ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137"><highlight class="normal"></highlight><highlight class="comment">//<sp/>id<sp/>of<sp/>prev<sp/>neighbor</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="comment">//<sp/>id<sp/>of<sp/>prev<sp/>neighbor</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="142" refid="MRPointCloudTriangulationHelpers_8h_1a31803bdb66c627a89503d7c2e5401f01" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudTriangulationHelpers_8h_1a31803bdb66c627a89503d7c2e5401f01" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement_GetMutable_prevId</ref>(<ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144"><highlight class="normal"></highlight><highlight class="comment">//<sp/>id<sp/>of<sp/>next<sp/>neighbor</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="comment">//<sp/>id<sp/>of<sp/>next<sp/>neighbor</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="149" refid="MRPointCloudTriangulationHelpers_8h_1a6f53d086f5193a5ce364b006c0914509" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudTriangulationHelpers_8h_1a6f53d086f5193a5ce364b006c0914509" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement_Get_nextId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">//<sp/>id<sp/>of<sp/>next<sp/>neighbor</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">//<sp/>id<sp/>of<sp/>next<sp/>neighbor</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="155" refid="MRPointCloudTriangulationHelpers_8h_1a442d88657539b9333d60d0e55fe86f61" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a442d88657539b9333d60d0e55fe86f61" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement_Set_nextId</ref>(<ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment">//<sp/>id<sp/>of<sp/>next<sp/>neighbor</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment">//<sp/>id<sp/>of<sp/>next<sp/>neighbor</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="162" refid="MRPointCloudTriangulationHelpers_8h_1a5118ae794cc78b2659d4a9b1a3be4556" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudTriangulationHelpers_8h_1a5118ae794cc78b2659d4a9b1a3be4556" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement_GetMutable_nextId</ref>(<ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>this<sp/>flag<sp/>is<sp/>true,<sp/>edge<sp/>cannot<sp/>be<sp/>flipped</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>this<sp/>flag<sp/>is<sp/>true,<sp/>edge<sp/>cannot<sp/>be<sp/>flipped</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="169" refid="MRPointCloudTriangulationHelpers_8h_1a3b4fe8b9cf18cca79705fa2e43289e6a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudTriangulationHelpers_8h_1a3b4fe8b9cf18cca79705fa2e43289e6a" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement_Get_stable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>this<sp/>flag<sp/>is<sp/>true,<sp/>edge<sp/>cannot<sp/>be<sp/>flipped</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>this<sp/>flag<sp/>is<sp/>true,<sp/>edge<sp/>cannot<sp/>be<sp/>flipped</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="175" refid="MRPointCloudTriangulationHelpers_8h_1a672bd69c9eec7357d7e02d7f6aa1caf1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1a672bd69c9eec7357d7e02d7f6aa1caf1" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement_Set_stable</ref>(<ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>this<sp/>flag<sp/>is<sp/>true,<sp/>edge<sp/>cannot<sp/>be<sp/>flipped</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>this<sp/>flag<sp/>is<sp/>true,<sp/>edge<sp/>cannot<sp/>be<sp/>flipped</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="182" refid="MRPointCloudTriangulationHelpers_8h_1ac6339e5ba2cc34cdc4fe6127cea4d2a2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudTriangulationHelpers_8h_1ac6339e5ba2cc34cdc4fe6127cea4d2a2" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement_GetMutable_stable</ref>(<ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight></codeline>
 <codeline lineno="186" refid="MRPointCloudTriangulationHelpers_8h_1a5f7d3f8724038fac47c8a7574074afb7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudTriangulationHelpers_8h_1acdc88e216df432e56c790679814a8275" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement</ref><sp/>*<ref refid="MRPointCloudTriangulationHelpers_8h_1a5f7d3f8724038fac47c8a7574074afb7" kindref="member">MR_TriangulationHelpers_FanOptimizerQueueElement_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>

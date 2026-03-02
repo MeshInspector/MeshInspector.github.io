@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1IntersectionPrecomputes2__double" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::IntersectionPrecomputes2_double</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -448,23 +448,6 @@ stores useful precomputed values for presented direction vector
 \\details allows to avoid repeatable computations during intersection finding
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.IntersectionPrecomputes2_double</label>
-        <link refid="classmrmeshpy_1_1IntersectionPrecomputes2__double"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_Sx</edgelabel>
-          <edgelabel>_offsetof_Sy</edgelabel>
-          <edgelabel>_offsetof_idxX</edgelabel>
-          <edgelabel>_offsetof_invDir</edgelabel>
-          <edgelabel>_offsetof_maxDimIdxY</edgelabel>
-          <edgelabel>_offsetof_sign</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24389" bodyend="24466"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1IntersectionPrecomputes2__double_1a0a3580a4014ed27e66cfcedda1ce24b5" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes2_double</scope><name>__init__</name></member>

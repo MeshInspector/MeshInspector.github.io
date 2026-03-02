@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSceneColors_8h" kind="file" language="C++">
     <compoundname>MRSceneColors.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -290,19 +290,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRSceneColors_8h_1ab04f90c0c45a09f664d0bd8e652bc339" prot="public" static="no">
-        <type>struct MR_Color</type>
-        <definition>typedef struct MR_Color MR_Color</definition>
-        <argsstring></argsstring>
-        <name>MR_Color</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" line="11" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRSceneColors_8h_1a12def2e3e2f922d5117c6eb43c01a436" prot="public" static="no">
         <type>enum <ref refid="MRSceneColors_8h_1ac9cef54f15d866a97c8c76928c763bab" kindref="member">MR_SceneColors_Type</ref></type>
         <definition>typedef enum MR_SceneColors_Type MR_SceneColors_Type</definition>
@@ -450,7 +437,7 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRSceneColors_8h_1ab04f90c0c45a09f664d0bd8e652bc339" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRColor.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRColor.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="MRSceneColors_8h_1ac9cef54f15d866a97c8c76928c763bab" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRSceneColors_8h_1ac9cef54f15d866a97c8c76928c763bab" kindref="member">MR_SceneColors_Type</ref></highlight></codeline>
@@ -491,7 +478,7 @@
 <codeline lineno="49" refid="MRSceneColors_8h_1ac9cef54f15d866a97c8c76928c763babadc15826e12bef994356ac497642a90e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneColors_8h_1ac9cef54f15d866a97c8c76928c763babadc15826e12bef994356ac497642a90e0" kindref="member">MR_SceneColors_Type_Count</ref><sp/>=<sp/>31,</highlight></codeline>
 <codeline lineno="50" refid="MRSceneColors_8h_1a12def2e3e2f922d5117c6eb43c01a436" refkind="member"><highlight class="normal">}<sp/><ref refid="MRSceneColors_8h_1ac9cef54f15d866a97c8c76928c763bab" kindref="member">MR_SceneColors_Type</ref>;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref><sp/><ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref>;</highlight></codeline>
+<codeline lineno="54" refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref><sp/><ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref>;</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58" refid="MRSceneColors_8h_1abd39f578f643bc642549d00d6d83ff94" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*<ref refid="MRSceneColors_8h_1abd39f578f643bc642549d00d6d83ff94" kindref="member">MR_SceneColors_get</ref>(<ref refid="MRSceneColors_8h_1ac9cef54f15d866a97c8c76928c763bab" kindref="member">MR_SceneColors_Type</ref><sp/>type);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1UI_1_1ButtonCustomizationParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::UI::ButtonCustomizationParams</compoundname>
-    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <includes refid="MRUIStyle_8h" local="no">MRViewer/MRUIStyle.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga535ce8036fde0db76e18417ab476bf53" kind="variable"><name>enabled</name></member>
       <member refid="group__GeneralGroup_1ga4f1e3048ba6230a8535ee31a43944921" kind="variable"><name>flags</name></member>
@@ -32,7 +32,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="65" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="66" bodyend="94"/>
+    <location file="MRViewer/MRUIStyle.h" line="65" column="1" bodyfile="MRViewer/MRUIStyle.h" bodystart="66" bodyend="94"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga44e7a1e13298276ebd757d7e318111a0" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>border</name></member>
       <member refid="group__GeneralGroup_1ga39f7611697c3b8dca64336b3cc48a7cc" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>customTexture</name></member>

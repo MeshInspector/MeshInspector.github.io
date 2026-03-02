@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointToPointAligningTransform_8h" kind="file" language="C++">
     <compoundname>MRPointToPointAligningTransform.h</compoundname>
     <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
@@ -103,19 +103,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPointToPointAligningTransform_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
-        <type>struct MR_Vector3f</type>
-        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointToPointAligningTransform.h" line="13" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointToPointAligningTransform.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRPointToPointAligningTransform_8h_1ad84082678f26273d579061ef25bd3ffb" prot="public" static="no">
         <type>struct <ref refid="MRPointToPointAligningTransform_8h_1ad84082678f26273d579061ef25bd3ffb" kindref="member">MR_PointToPointAligningTransform</ref></type>
         <definition>typedef struct MR_PointToPointAligningTransform MR_PointToPointAligningTransform</definition>
@@ -239,7 +226,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PointToPointAligningTransform</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPointToPointAligningTransform_8h_1ad84082678f26273d579061ef25bd3ffb" kindref="member">MR_PointToPointAligningTransform</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -257,7 +244,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PointToPointAligningTransform</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPointToPointAligningTransform_8h_1ad84082678f26273d579061ef25bd3ffb" kindref="member">MR_PointToPointAligningTransform</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -557,10 +544,10 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRPointToPointAligningTransform_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRPointToPointAligningTransform_8h_1ad84082678f26273d579061ef25bd3ffb" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointToPointAligningTransform_8h_1ad84082678f26273d579061ef25bd3ffb" kindref="member">MR_PointToPointAligningTransform</ref><sp/><ref refid="MRPointToPointAligningTransform_8h_1ad84082678f26273d579061ef25bd3ffb" kindref="member">MR_PointToPointAligningTransform</ref>;</highlight></codeline>
+<codeline lineno="20" refid="MRPointToPointAligningTransform_8h_1ad84082678f26273d579061ef25bd3ffb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointToPointAligningTransform_8h_1ad84082678f26273d579061ef25bd3ffb" kindref="member">MR_PointToPointAligningTransform</ref><sp/><ref refid="MRPointToPointAligningTransform_8h_1ad84082678f26273d579061ef25bd3ffb" kindref="member">MR_PointToPointAligningTransform</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRPointToPointAligningTransform_8h_1af3ee3e9ffd094fa2259a23c8a43ac6fd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointToPointAligningTransform_8h_1ad84082678f26273d579061ef25bd3ffb" kindref="member">MR_PointToPointAligningTransform</ref><sp/>*<ref refid="MRPointToPointAligningTransform_8h_1af3ee3e9ffd094fa2259a23c8a43ac6fd" kindref="member">MR_PointToPointAligningTransform_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>

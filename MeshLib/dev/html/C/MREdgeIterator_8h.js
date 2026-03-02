@@ -1,7 +1,6 @@
 var MREdgeIterator_8h =
 [
     [ "MR_IteratorRange_MR_UndirectedEdgeIterator", "MREdgeIterator_8h.html#ab3c03ef8c769a0f3606febe178369fc6", null ],
-    [ "MR_MeshTopology", "MREdgeIterator_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
     [ "MR_UndirectedEdgeIterator", "MREdgeIterator_8h.html#adc8078d2c099930a4e1cfd69ad02cad5", null ],
     [ "MR_deref_MR_UndirectedEdgeIterator", "MREdgeIterator_8h.html#aa4e667a9d2b5d9af31adcceb0732626b", null ],
     [ "MR_equal_MR_UndirectedEdgeIterator", "MREdgeIterator_8h.html#a326f00595942206f50b03b11ae4fa707", null ],

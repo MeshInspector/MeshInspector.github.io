@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangeLabelAction_8h" kind="file" language="C++">
     <compoundname>MRChangeLabelAction.h</compoundname>
     <includes refid="MRSymbolMeshFwd_8h" local="yes">MRSymbolMeshFwd.h</includes>
@@ -467,7 +467,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRChangeLabelAction.h</label>
+        <label>MRSymbolMesh/MRChangeLabelAction.h</label>
         <link refid="MRChangeLabelAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -613,7 +613,7 @@
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="classMR_1_1ChangeLabelAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeLabelAction" kindref="compound">ChangeLabelAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1ChangeLabelAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga21a4e3c00216db2abbbfb9ce47014c81" kindref="member">ChangeLabelAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga21a4e3c00216db2abbbfb9ce47014c81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga21a4e3c00216db2abbbfb9ce47014c81" kindref="member">ChangeLabelAction</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>actionName,<sp/>std::shared_ptr&lt;ObjectLabel&gt;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
@@ -644,7 +644,7 @@
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45" refid="group__GeneralGroup_1ga44cff8296d6419da98913c39fdbd8050" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga44cff8296d6419da98913c39fdbd8050" kindref="member">heapBytes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override</highlight></codeline>
 <codeline lineno="46"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>label_.<ref refid="group__GeneralGroup_1ga0361f418c9fa0c8257d7148d219fe4c6" kindref="member">text</ref>.capacity()<sp/>+<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<sp/>float<sp/>)<sp/>*<sp/>5<sp/>+<sp/>actionName_.capacity();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>label_.text.capacity()<sp/>+<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<sp/>float<sp/>)<sp/>*<sp/>5<sp/>+<sp/>actionName_.capacity();</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;ObjectLabel&gt;<sp/>obj_;</highlight></codeline>
@@ -656,6 +656,6 @@
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h"/>
+    <location file="MRSymbolMesh/MRChangeLabelAction.h"/>
   </compounddef>
 </doxygen>

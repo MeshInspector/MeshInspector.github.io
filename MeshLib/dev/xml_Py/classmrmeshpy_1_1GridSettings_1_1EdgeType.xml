@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1GridSettings_1_1EdgeType" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::GridSettings::EdgeType</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -329,21 +329,6 @@
   DiagonalB : (x+1,y) - (x,y+1)
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.GridSettings.EdgeType</label>
-        <link refid="classmrmeshpy_1_1GridSettings_1_1EdgeType"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>DiagonalA</edgelabel>
-          <edgelabel>DiagonalB</edgelabel>
-          <edgelabel>Horizontal</edgelabel>
-          <edgelabel>Vertical</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22536" bodyend="22578"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1GridSettings_1_1EdgeType_1a2a0ce796a61a129f300a1db20192257a" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings::EdgeType</scope><name>__eq__</name></member>

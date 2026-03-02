@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Features::Primitives::ConeSegment</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -829,24 +829,6 @@ The top and/or bottom can be flat or pointy.
 Doubles as a cylinder, line (finite or infinite), and a circle.
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.Features.Primitives.ConeSegment</label>
-        <link refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_dir</edgelabel>
-          <edgelabel>_offsetof_hollow</edgelabel>
-          <edgelabel>_offsetof_negativeLength</edgelabel>
-          <edgelabel>_offsetof_negativeSideRadius</edgelabel>
-          <edgelabel>_offsetof_positiveLength</edgelabel>
-          <edgelabel>_offsetof_positiveSideRadius</edgelabel>
-          <edgelabel>_offsetof_referencePoint</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18461" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18461" bodyend="18603"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a916d0a63aa72bb5856c1c04c1e3ee3e7" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>__eq__</name></member>

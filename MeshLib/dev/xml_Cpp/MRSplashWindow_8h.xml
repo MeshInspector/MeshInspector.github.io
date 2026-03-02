@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSplashWindow_8h" kind="file" language="C++">
     <compoundname>MRSplashWindow.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -46,7 +46,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRSplashWindow.h</label>
+        <label>MRViewer/MRSplashWindow.h</label>
         <link refid="MRSplashWindow_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -135,7 +135,7 @@
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="classMR_1_1SplashWindow" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1SplashWindow" kindref="compound">SplashWindow</ref></highlight></codeline>
+<codeline lineno="21" refid="classMR_1_1SplashWindow" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="group__GeneralGroup_1gaea6b0a8d8e0e9d21c3475f3a64700c36" kindref="member">SplashWindow</ref></highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="24" refid="group__GeneralGroup_1gaea6b0a8d8e0e9d21c3475f3a64700c36" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gaea6b0a8d8e0e9d21c3475f3a64700c36" kindref="member">SplashWindow</ref>(<sp/>std::string<sp/>name<sp/>);</highlight></codeline>
@@ -151,10 +151,10 @@
 <codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="40" refid="group__GeneralGroup_1ga79107d23834b7d624c70558d9acfcd38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga79107d23834b7d624c70558d9acfcd38" kindref="member">name_</ref>;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="group__GeneralGroup_1ga4e6ed4ee9950dc53818813544070379e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>GLFWwindow*<sp/>window_{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
-<codeline lineno="43" refid="group__GeneralGroup_1ga8e1b0c94c0dec969c8476897de435fdb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ImGuiContext*<sp/>guiContext_{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1ga4e6ed4ee9950dc53818813544070379e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>GLFWwindow*<sp/><ref refid="group__GeneralGroup_1ga4e6ed4ee9950dc53818813544070379e" kindref="member">window_</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="43" refid="group__GeneralGroup_1ga8e1b0c94c0dec969c8476897de435fdb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ImGuiContext*<sp/><ref refid="group__GeneralGroup_1ga8e1b0c94c0dec969c8476897de435fdb" kindref="member">guiContext_</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="group__GeneralGroup_1ga302e1b3310c1ee684e3de1d7a239e964" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::atomic&lt;bool&gt;<sp/>terminate_{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1ga302e1b3310c1ee684e3de1d7a239e964" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::atomic&lt;bool&gt;<sp/><ref refid="group__GeneralGroup_1ga302e1b3310c1ee684e3de1d7a239e964" kindref="member">terminate_</ref>{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>afterStart_()<sp/>{}</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>beforeStop_()<sp/>{}</highlight></codeline>
@@ -171,7 +171,7 @@
 <codeline lineno="68"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__EMSCRIPTEN__</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="classMR_1_1DefaultSplashWindow" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1DefaultSplashWindow" kindref="compound">DefaultSplashWindow</ref><sp/>final<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SplashWindow" kindref="compound">SplashWindow</ref></highlight></codeline>
+<codeline lineno="71" refid="classMR_1_1DefaultSplashWindow" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="group__GeneralGroup_1ga47971ab928e999aec01b1d27348ff43c" kindref="member">DefaultSplashWindow</ref><sp/>final<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaea6b0a8d8e0e9d21c3475f3a64700c36" kindref="member">SplashWindow</ref></highlight></codeline>
 <codeline lineno="72"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="74" refid="group__GeneralGroup_1ga47971ab928e999aec01b1d27348ff43c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga47971ab928e999aec01b1d27348ff43c" kindref="member">DefaultSplashWindow</ref>();</highlight></codeline>
@@ -189,6 +189,6 @@
 <codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="87"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h"/>
+    <location file="MRViewer/MRSplashWindow.h"/>
   </compounddef>
 </doxygen>

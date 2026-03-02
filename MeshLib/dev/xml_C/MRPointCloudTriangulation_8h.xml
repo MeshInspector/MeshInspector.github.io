@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointCloudTriangulation_8h" kind="file" language="C++">
     <compoundname>MRPointCloudTriangulation.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -27,71 +27,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPointCloudTriangulation_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulation.h" line="12" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulation.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudTriangulation_8h_1aa319738c95f0bbde075b7ef777cf2665" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref></type>
-        <definition>typedef struct MR_PointCloud MR_PointCloud</definition>
-        <argsstring></argsstring>
-        <name>MR_PointCloud</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulation.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulation.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudTriangulation_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
-        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_VertBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulation.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulation.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudTriangulation_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulation.h" line="15" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulation.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointCloudTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref></type>
-        <definition>typedef struct MR_std_optional_MR_Mesh MR_std_optional_MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_std_optional_MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulation.h" line="16" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudTriangulation.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRPointCloudTriangulation_8h_1a032845a1d3f3181b204e6dcfa00d27fd" prot="public" static="no">
         <type>struct <ref refid="MRPointCloudTriangulation_8h_1a032845a1d3f3181b204e6dcfa00d27fd" kindref="member">MR_TriangulationParameters</ref></type>
         <definition>typedef struct MR_TriangulationParameters MR_TriangulationParameters</definition>
@@ -144,9 +79,9 @@
 <table rows="1" cols="2"><caption id="MRPointCloudTriangulation_8h_1TriangulationParameters::numNeighbours_examples"></caption>
 <row>
 <entry thead="no"><para><image type="html" name="triangulate_3.png" width="350cm">Good</image>
- </para>
+</para>
 </entry><entry thead="no"><para><image type="html" name="triangulate_2.png" width="350cm">Too small value</image>
-  </para>
+</para>
 </entry></row>
 </table>
 Returns a pointer to a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>numNeighbours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
@@ -178,9 +113,9 @@ Returns a pointer to a member variable of class <computeroutput>MR::Triangulatio
 <table rows="1" cols="2"><caption id="MRPointCloudTriangulation_8h_1TriangulationParameters::numNeighbours_examples"></caption>
 <row>
 <entry thead="no"><para><image type="html" name="triangulate_3.png" width="350cm">Good</image>
- </para>
+</para>
 </entry><entry thead="no"><para><image type="html" name="triangulate_2.png" width="350cm">Too small value</image>
-  </para>
+</para>
 </entry></row>
 </table>
 Modifies a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>numNeighbours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>numNeighbours</computeroutput>. </para>
@@ -208,9 +143,9 @@ Modifies a member variable of class <computeroutput>MR::TriangulationParameters<
 <table rows="1" cols="2"><caption id="MRPointCloudTriangulation_8h_1TriangulationParameters::numNeighbours_examples"></caption>
 <row>
 <entry thead="no"><para><image type="html" name="triangulate_3.png" width="350cm">Good</image>
- </para>
+</para>
 </entry><entry thead="no"><para><image type="html" name="triangulate_2.png" width="350cm">Too small value</image>
-  </para>
+</para>
 </entry></row>
 </table>
 Returns a mutable pointer to a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>numNeighbours</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
@@ -293,9 +228,9 @@ Returns a mutable pointer to a member variable of class <computeroutput>MR::Tria
 <para><table rows="1" cols="2"><caption id="MRPointCloudTriangulation_8h_1TriangulationParameters::critAngle_examples"></caption>
 <row>
 <entry thead="no"><para><image type="html" name="triangulate_3.png" width="350cm">Good</image>
- </para>
+</para>
 </entry><entry thead="no"><para><image type="html" name="triangulate_4.png" width="350cm">Too small value</image>
-  </para>
+</para>
 </entry></row>
 </table>
 Returns a pointer to a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>critAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
@@ -324,9 +259,9 @@ Returns a pointer to a member variable of class <computeroutput>MR::Triangulatio
 <para><table rows="1" cols="2"><caption id="MRPointCloudTriangulation_8h_1TriangulationParameters::critAngle_examples"></caption>
 <row>
 <entry thead="no"><para><image type="html" name="triangulate_3.png" width="350cm">Good</image>
- </para>
+</para>
 </entry><entry thead="no"><para><image type="html" name="triangulate_4.png" width="350cm">Too small value</image>
-  </para>
+</para>
 </entry></row>
 </table>
 Modifies a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>critAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>critAngle</computeroutput>. </para>
@@ -351,9 +286,9 @@ Modifies a member variable of class <computeroutput>MR::TriangulationParameters<
 <para><table rows="1" cols="2"><caption id="MRPointCloudTriangulation_8h_1TriangulationParameters::critAngle_examples"></caption>
 <row>
 <entry thead="no"><para><image type="html" name="triangulate_3.png" width="350cm">Good</image>
- </para>
+</para>
 </entry><entry thead="no"><para><image type="html" name="triangulate_4.png" width="350cm">Too small value</image>
-  </para>
+</para>
 </entry></row>
 </table>
 Returns a mutable pointer to a member variable of class <computeroutput>MR::TriangulationParameters</computeroutput> named <computeroutput>critAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
@@ -746,7 +681,7 @@ Returns a mutable pointer to a member variable of class <computeroutput>MR::Tria
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_TriangulationParameters</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPointCloudTriangulation_8h_1a032845a1d3f3181b204e6dcfa00d27fd" kindref="member">MR_TriangulationParameters</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -764,7 +699,7 @@ Returns a mutable pointer to a member variable of class <computeroutput>MR::Tria
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_TriangulationParameters</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPointCloudTriangulation_8h_1a032845a1d3f3181b204e6dcfa00d27fd" kindref="member">MR_TriangulationParameters</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -818,9 +753,9 @@ Returns a mutable pointer to a member variable of class <computeroutput>MR::Tria
 <para><table rows="1" cols="2"><caption id="MRPointCloudTriangulation_8h_1triangulatePointCloud_examples"></caption>
 <row>
 <entry thead="no"><para><image type="html" name="triangulate_0.png" width="350cm">Before</image>
- </para>
+</para>
 </entry><entry thead="no"><para><image type="html" name="triangulate_3.png" width="350cm">After</image>
-  </para>
+</para>
 </entry></row>
 </table>
 Generated from function <computeroutput>MR::triangulatePointCloud</computeroutput>. Parameter <computeroutput>pointCloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>progressCb</computeroutput> is a single object. Parameter <computeroutput>progressCb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_Mesh_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
@@ -1074,7 +1009,7 @@ Generated from function <computeroutput>MR::triangulatePointCloud</computeroutpu
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_FillHolesWithExtraPointsParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPointCloudTriangulation_8h_1af27b22b1d76c7e77d8af842d82b704a3" kindref="member">MR_FillHolesWithExtraPointsParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1092,7 +1027,7 @@ Generated from function <computeroutput>MR::triangulatePointCloud</computeroutpu
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_FillHolesWithExtraPointsParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPointCloudTriangulation_8h_1af27b22b1d76c7e77d8af842d82b704a3" kindref="member">MR_FillHolesWithExtraPointsParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1180,16 +1115,16 @@ Generated from function <computeroutput>MR::triangulatePointCloud</computeroutpu
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRPointCloudTriangulation_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRPointCloudTriangulation_8h_1aa319738c95f0bbde075b7ef777cf2665" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRPointCloudTriangulation_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRPointCloudTriangulation_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRPointCloudTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Mesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Mesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRPointCloudTriangulation_8h_1a032845a1d3f3181b204e6dcfa00d27fd" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudTriangulation_8h_1a032845a1d3f3181b204e6dcfa00d27fd" kindref="member">MR_TriangulationParameters</ref><sp/><ref refid="MRPointCloudTriangulation_8h_1a032845a1d3f3181b204e6dcfa00d27fd" kindref="member">MR_TriangulationParameters</ref>;</highlight></codeline>
+<codeline lineno="27" refid="MRPointCloudTriangulation_8h_1a032845a1d3f3181b204e6dcfa00d27fd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudTriangulation_8h_1a032845a1d3f3181b204e6dcfa00d27fd" kindref="member">MR_TriangulationParameters</ref><sp/><ref refid="MRPointCloudTriangulation_8h_1a032845a1d3f3181b204e6dcfa00d27fd" kindref="member">MR_TriangulationParameters</ref>;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRPointCloudTriangulation_8h_1af27b22b1d76c7e77d8af842d82b704a3" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudTriangulation_8h_1af27b22b1d76c7e77d8af842d82b704a3" kindref="member">MR_FillHolesWithExtraPointsParams</ref><sp/><ref refid="MRPointCloudTriangulation_8h_1af27b22b1d76c7e77d8af842d82b704a3" kindref="member">MR_FillHolesWithExtraPointsParams</ref>;</highlight></codeline>
+<codeline lineno="31" refid="MRPointCloudTriangulation_8h_1af27b22b1d76c7e77d8af842d82b704a3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudTriangulation_8h_1af27b22b1d76c7e77d8af842d82b704a3" kindref="member">MR_FillHolesWithExtraPointsParams</ref><sp/><ref refid="MRPointCloudTriangulation_8h_1af27b22b1d76c7e77d8af842d82b704a3" kindref="member">MR_FillHolesWithExtraPointsParams</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50" refid="MRPointCloudTriangulation_8h_1ab10b2f622bdec031da35100a6558c03b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudTriangulation_8h_1ab10b2f622bdec031da35100a6558c03b" kindref="member">MR_TriangulationParameters_Get_numNeighbours</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudTriangulation_8h_1a032845a1d3f3181b204e6dcfa00d27fd" kindref="member">MR_TriangulationParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>

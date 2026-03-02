@@ -1,12 +1,8 @@
 var MRViewportProperty_8h =
 [
-    [ "MR_Vector4_unsigned_char", "MRViewportProperty_8h.html#aff8d82a4de868d97999c3be4cd2f9893", null ],
-    [ "MR_ViewportProperty_MR_AffineXf3f", "MRViewportProperty_8h.html#aebba128754c26d6c67761a3a0d2e0e4f", null ],
-    [ "MR_ViewportProperty_MR_Color", "MRViewportProperty_8h.html#aacabcfa2021a7c9f2d2f8862cd9c75c6", null ],
     [ "MR_ViewportProperty_MR_Matrix3f", "MRViewportProperty_8h.html#ae68e7b9d64932677a153fd0fdf997e24", null ],
     [ "MR_ViewportProperty_MR_Vector4_unsigned_char", "MRViewportProperty_8h.html#a0681d4e085bec92a7af6be778eaf56a6", null ],
     [ "MR_ViewportProperty_MR_XfBasedCache_MR_Box3f", "MRViewportProperty_8h.html#a3fb42a0c62f15ea5ac8b51a1df426f44", null ],
-    [ "MR_ViewportProperty_unsigned_char", "MRViewportProperty_8h.html#a2d0680ad0c312805e86e003e2d1205aa", null ],
     [ "MR_XfBasedCache_MR_Box3f", "MRViewportProperty_8h.html#afd809241b98e686da37ea296a946c1ee", null ],
     [ "MR_ViewportProperty_MR_AffineXf3f_AssignFromAnother", "MRViewportProperty_8h.html#a49993acc16f9a1b6efeb44464539481d", null ],
     [ "MR_ViewportProperty_MR_AffineXf3f_Construct", "MRViewportProperty_8h.html#a28fcc0a62f8f12957c41596510106631", null ],

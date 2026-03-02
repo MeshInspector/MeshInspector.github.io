@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MakeSignedByWindingNumberSettings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -448,22 +448,6 @@ ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes
 <para><verbatim>Generated from:  MR::MakeSignedByWindingNumberSettings
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.MakeSignedByWindingNumberSettings</label>
-        <link refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_fwn</edgelabel>
-          <edgelabel>_offsetof_meshToGridXf</edgelabel>
-          <edgelabel>_offsetof_progress</edgelabel>
-          <edgelabel>_offsetof_windingNumberBeta</edgelabel>
-          <edgelabel>_offsetof_windingNumberThreshold</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26890" bodyend="26964"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a7700b4fd03a52a869c8886c4bf2f06de" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>__init__</name></member>

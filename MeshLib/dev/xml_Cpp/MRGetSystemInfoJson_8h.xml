@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRGetSystemInfoJson_8h" kind="file" language="C++">
     <compoundname>MRGetSystemInfoJson.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -42,7 +42,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRGetSystemInfoJson.h</label>
+        <label>MRViewer/MRGetSystemInfoJson.h</label>
         <link refid="MRGetSystemInfoJson_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -105,10 +105,10 @@
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11" refid="group__GeneralGroup_1ga8b1ad752d0922386c2dbc94bc2059653" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>Json::Value<sp/><ref refid="group__GeneralGroup_1ga8b1ad752d0922386c2dbc94bc2059653" kindref="member">GetSystemInfoJson</ref>();</highlight></codeline>
 <codeline lineno="12"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGetSystemInfoJson.h"/>
+    <location file="MRViewer/MRGetSystemInfoJson.h"/>
   </compounddef>
 </doxygen>

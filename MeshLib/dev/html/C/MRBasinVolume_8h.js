@@ -1,8 +1,6 @@
 var MRBasinVolume_8h =
 [
     [ "MR_BasinVolumeCalculator", "MRBasinVolume_8h.html#a92e9bfe09cc0215931c58d6c081a656e", null ],
-    [ "MR_FaceBitSet", "MRBasinVolume_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_Mesh", "MRBasinVolume_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_BasinVolumeCalculator_addTerrainTri", "MRBasinVolume_8h.html#a3ebd6eaf592de7750deda774202b8ddb", null ],
     [ "MR_BasinVolumeCalculator_AssignFromAnother", "MRBasinVolume_8h.html#a5ce2d0ee75268c7e110145ce673c9f99", null ],
     [ "MR_BasinVolumeCalculator_ConstructFromAnother", "MRBasinVolume_8h.html#a2d3d5734145a62ac6c2c8d32f3f87a2e", null ],

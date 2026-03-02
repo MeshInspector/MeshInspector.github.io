@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointOnObject_8h" kind="file" language="C++">
     <compoundname>MRPointOnObject.h</compoundname>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
@@ -8,8 +8,8 @@
     <includes refid="MREdgePoint_8h" local="yes">MREdgePoint.h</includes>
     <includes local="no">optional</includes>
     <includes local="no">variant</includes>
-    <includedby refid="MRSurfacePointPicker_8h" local="yes">MRSurfacePointPicker.h</includedby>
-    <includedby refid="MRViewport_8h" local="no">MRViewport.h</includedby>
+    <includedby refid="MRSurfacePointPicker_8h" local="yes">MRViewer/MRSurfacePointPicker.h</includedby>
+    <includedby refid="MRViewport_8h" local="no">MRViewer/MRViewport.h</includedby>
     <incdepgraph>
       <node id="11">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -92,7 +92,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPointOnObject.h</label>
+        <label>MRMesh/MRPointOnObject.h</label>
         <link refid="MRPointOnObject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -217,7 +217,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRPointOnObject.h</label>
+        <label>MRMesh/MRPointOnObject.h</label>
         <link refid="MRPointOnObject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -225,21 +225,21 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MRPickPointManager.h</label>
+        <label>MRViewer/MRPickPointManager.h</label>
         <link refid="MRPickPointManager_8h"/>
       </node>
       <node id="2">
-        <label>MRSurfacePointPicker.h</label>
+        <label>MRViewer/MRSurfacePointPicker.h</label>
         <link refid="MRSurfacePointPicker_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRTouchpadController.h</label>
+        <label>MRViewer/MRTouchpadController.h</label>
         <link refid="MRTouchpadController_8h"/>
       </node>
       <node id="4">
-        <label>MRViewport.h</label>
+        <label>MRViewer/MRViewport.h</label>
         <link refid="MRViewport_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -249,7 +249,7 @@
         </childnode>
       </node>
       <node id="6">
-        <label>MRViewportParametersAction.h</label>
+        <label>MRViewer/MRViewportParametersAction.h</label>
         <link refid="MRViewportParametersAction_8h"/>
       </node>
     </invincdepgraph>
@@ -273,7 +273,7 @@
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="structMR_1_1PointOnObject" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PointOnObject" kindref="compound">PointOnObject</ref></highlight></codeline>
+<codeline lineno="20" refid="structMR_1_1PointOnObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gae6ddf1f922426da0befb0c18020f6682" kindref="member">PointOnObject</ref></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="22" refid="group__GeneralGroup_1gae6ddf1f922426da0befb0c18020f6682" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gae6ddf1f922426da0befb0c18020f6682" kindref="member">PointOnObject</ref>()<sp/>{}<sp/></highlight></codeline>
 <codeline lineno="24" refid="group__GeneralGroup_1gab99d125d3a34811d275a4d95aefe82f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gab99d125d3a34811d275a4d95aefe82f4" kindref="member">point</ref>;</highlight></codeline>
@@ -285,10 +285,10 @@
 <codeline lineno="32" refid="group__GeneralGroup_1gaff11e6354c0eb7e2e92d1ecdf69ddb18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UndirectedEdgeId<sp/><ref refid="group__GeneralGroup_1gaff11e6354c0eb7e2e92d1ecdf69ddb18" kindref="member">uedge</ref>;<sp/><sp/></highlight></codeline>
 <codeline lineno="33" refid="group__GeneralGroup_1gaea864d6b3c02490b48f05814d5023357" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="group__GeneralGroup_1gaea864d6b3c02490b48f05814d5023357" kindref="member">vert</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="35" refid="group__GeneralGroup_1ga2e7dcb184c3434e435a3b5cf16b66101" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>.<ref refid="group__GeneralGroup_1ga2ec934aa6c7847dbfbc812bcea286b53" kindref="member">face</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga097965189767222c3d16454fef46570c" kindref="member">face</ref>,<sp/>.point<sp/>=<sp/><ref refid="group__GeneralGroup_1gab99d125d3a34811d275a4d95aefe82f4" kindref="member">point</ref><sp/>};<sp/>}</highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1ga2e7dcb184c3434e435a3b5cf16b66101" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>.face<sp/>=<sp/><ref refid="group__GeneralGroup_1ga097965189767222c3d16454fef46570c" kindref="member">face</ref>,<sp/>.point<sp/>=<sp/><ref refid="group__GeneralGroup_1gab99d125d3a34811d275a4d95aefe82f4" kindref="member">point</ref><sp/>};<sp/>}</highlight></codeline>
 <codeline lineno="36"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref><sp/>=<sp/>std::variant&lt;std::monostate,<sp/>MeshTriPoint,<sp/>EdgePoint,<sp/>VertId&gt;;</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref><sp/>=<sp/>std::variant&lt;std::monostate,<sp/>MeshTriPoint,<sp/>EdgePoint,<sp/>VertId&gt;;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48" refid="group__GeneralGroup_1ga682733ab4117db6c9d32200fd2fbf837" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref><sp/><ref refid="group__GeneralGroup_1ga682733ab4117db6c9d32200fd2fbf837" kindref="member">pointOnObjectToPickedPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>*<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointOnObject" kindref="compound">PointOnObject</ref>&amp;<sp/>pos<sp/>);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
@@ -300,8 +300,8 @@
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
 <codeline lineno="63" refid="group__GeneralGroup_1ga04831f2ccc8463060908522a0b06066c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga04831f2ccc8463060908522a0b06066c" kindref="member">getPickedPointNormal</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref>&amp;<sp/>point,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>interpolated<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h"/>
+    <location file="MRMesh/MRPointOnObject.h"/>
   </compounddef>
 </doxygen>

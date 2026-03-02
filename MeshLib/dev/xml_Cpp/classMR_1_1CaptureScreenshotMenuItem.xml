@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CaptureScreenshotMenuItem" kind="class" language="C++" prot="public">
     <compoundname>MR::CaptureScreenshotMenuItem</compoundname>
     <basecompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt;&gt;</basecompoundref>
-    <includes refid="MRIOFilesMenuItems_8h" local="no">MRIOFilesMenuItems.h</includes>
+    <includes refid="MRIOFilesMenuItems_8h" local="no">MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaed6f9d3b2ddcf1f626ee1d3e024da391" kind="variable"><name>resolution_</name></member>
       <member refid="group__GeneralGroup_1gaf48e19e8b78c45da3385e9c89be0843b" kind="variable"><name>transparentBg_</name></member>
@@ -142,7 +142,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="98" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="99" bodyend="107"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="98" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="99" bodyend="107"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac4b0cdb8632f4960672d36407fae15e8" prot="public" virt="virtual"><scope>MR::CaptureScreenshotMenuItem</scope><name>blocking</name></member>

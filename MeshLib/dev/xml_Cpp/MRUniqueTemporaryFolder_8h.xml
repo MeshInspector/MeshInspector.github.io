@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRUniqueTemporaryFolder_8h" kind="file" language="C++">
     <compoundname>MRUniqueTemporaryFolder.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes local="no">filesystem</includes>
-    <includedby refid="MRObjectLoad_8h" local="yes">MRObjectLoad.h</includedby>
-    <includedby refid="MRObjectSave_8h" local="yes">MRObjectSave.h</includedby>
+    <includedby refid="MRObjectLoad_8h" local="yes">MRMesh/MRObjectLoad.h</includedby>
+    <includedby refid="MRObjectSave_8h" local="yes">MRMesh/MRObjectSave.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -40,7 +40,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRUniqueTemporaryFolder.h</label>
+        <label>MRMesh/MRUniqueTemporaryFolder.h</label>
         <link refid="MRUniqueTemporaryFolder_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -78,15 +78,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRObjectLoad.h</label>
+        <label>MRMesh/MRObjectLoad.h</label>
         <link refid="MRObjectLoad_8h"/>
       </node>
       <node id="3">
-        <label>MRObjectSave.h</label>
+        <label>MRMesh/MRObjectSave.h</label>
         <link refid="MRObjectSave_8h"/>
       </node>
       <node id="1">
-        <label>MRUniqueTemporaryFolder.h</label>
+        <label>MRMesh/MRUniqueTemporaryFolder.h</label>
         <link refid="MRUniqueTemporaryFolder_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -111,9 +111,9 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="group__GeneralGroup_1ga3f12c695d99ddb646e5d824fa7257413" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga3f12c695d99ddb646e5d824fa7257413" kindref="member">FolderCallback</ref><sp/>=<sp/>std::function&lt;void(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>tempFolderName<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="14" refid="group__GeneralGroup_1ga3f12c695d99ddb646e5d824fa7257413" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga3f12c695d99ddb646e5d824fa7257413" kindref="member">FolderCallback</ref><sp/>=<sp/>std::function&lt;void(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>tempFolderName<sp/>)&gt;;</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="classMR_1_1UniqueTemporaryFolder" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1UniqueTemporaryFolder" kindref="compound">UniqueTemporaryFolder</ref></highlight></codeline>
+<codeline lineno="17" refid="classMR_1_1UniqueTemporaryFolder" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaea7e76db7a25256c915abaefb1df86bb" kindref="member">UniqueTemporaryFolder</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1gaea7e76db7a25256c915abaefb1df86bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gaea7e76db7a25256c915abaefb1df86bb" kindref="member">UniqueTemporaryFolder</ref>(<sp/><ref refid="group__GeneralGroup_1ga3f12c695d99ddb646e5d824fa7257413" kindref="member">FolderCallback</ref><sp/>onPreTempFolderDelete<sp/>=<sp/>{}<sp/>);</highlight></codeline>
@@ -138,8 +138,8 @@
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga3f12c695d99ddb646e5d824fa7257413" kindref="member">FolderCallback</ref><sp/>onPreTempFolderDelete_;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueTemporaryFolder.h"/>
+    <location file="MRMesh/MRUniqueTemporaryFolder.h"/>
   </compounddef>
 </doxygen>

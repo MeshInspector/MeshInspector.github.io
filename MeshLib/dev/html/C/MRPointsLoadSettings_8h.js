@@ -1,9 +1,5 @@
 var MRPointsLoadSettings_8h =
 [
-    [ "MR_AffineXf3f", "MRPointsLoadSettings_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
-    [ "MR_PointsLoadSettings", "MRPointsLoadSettings_8h.html#a67029d3455a5c9aa45725d3c35e1e4df", null ],
-    [ "MR_std_function_bool_from_float", "MRPointsLoadSettings_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_VertColors", "MRPointsLoadSettings_8h.html#a20dc7d636220f61a60c7ae92b8caa768", null ],
     [ "MR_PointsLoadSettings_AssignFromAnother", "MRPointsLoadSettings_8h.html#a577c7b8965dd21164481ebbb15b4760c", null ],
     [ "MR_PointsLoadSettings_ConstructFrom", "MRPointsLoadSettings_8h.html#a0ab4e421e82a66132a41912176e1a302", null ],
     [ "MR_PointsLoadSettings_ConstructFromAnother", "MRPointsLoadSettings_8h.html#ad290b38871acd1a5f1935b8bbdf453ac", null ],

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeasurementObject_8h" kind="file" language="C++">
     <compoundname>MRMeasurementObject.h</compoundname>
     <includes refid="MRVisualObject_8h" local="yes">MRMesh/MRVisualObject.h</includes>
-    <includedby refid="MRAngleMeasurementObject_8h" local="yes">MRAngleMeasurementObject.h</includedby>
-    <includedby refid="MRDistanceMeasurementObject_8h" local="yes">MRDistanceMeasurementObject.h</includedby>
-    <includedby refid="MRPointMeasurementObject_8h" local="yes">MRPointMeasurementObject.h</includedby>
-    <includedby refid="MRRadiusMeasurementObject_8h" local="yes">MRRadiusMeasurementObject.h</includedby>
+    <includedby refid="MRAngleMeasurementObject_8h" local="yes">MRMesh/MRAngleMeasurementObject.h</includedby>
+    <includedby refid="MRDistanceMeasurementObject_8h" local="yes">MRMesh/MRDistanceMeasurementObject.h</includedby>
+    <includedby refid="MRPointMeasurementObject_8h" local="yes">MRMesh/MRPointMeasurementObject.h</includedby>
+    <includedby refid="MRRadiusMeasurementObject_8h" local="yes">MRMesh/MRRadiusMeasurementObject.h</includedby>
     <incdepgraph>
       <node id="27">
         <label>MRAffineXf.h</label>
@@ -201,7 +201,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeasurementObject.h</label>
+        <label>MRMesh/MRMeasurementObject.h</label>
         <link refid="MRMeasurementObject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -519,19 +519,19 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRAngleMeasurementObject.h</label>
+        <label>MRMesh/MRAngleMeasurementObject.h</label>
         <link refid="MRAngleMeasurementObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRDistanceMeasurementObject.h</label>
+        <label>MRMesh/MRDistanceMeasurementObject.h</label>
         <link refid="MRDistanceMeasurementObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeasurementObject.h</label>
+        <label>MRMesh/MRMeasurementObject.h</label>
         <link refid="MRMeasurementObject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -543,19 +543,19 @@
         </childnode>
       </node>
       <node id="5">
-        <label>MRPointMeasurementObject.h</label>
+        <label>MRMesh/MRPointMeasurementObject.h</label>
         <link refid="MRPointMeasurementObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>MRRadiusMeasurementObject.h</label>
+        <label>MRMesh/MRRadiusMeasurementObject.h</label>
         <link refid="MRRadiusMeasurementObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>MRRenderMeasurementObjects.h</label>
+        <label>MRViewer/MRRenderMeasurementObjects.h</label>
         <link refid="MRRenderMeasurementObjects_8h"/>
       </node>
     </invincdepgraph>
@@ -574,7 +574,7 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="classMR_1_1MeasurementObject" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1MeasurementObject" kindref="compound">MeasurementObject</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref></highlight></codeline>
+<codeline lineno="13" refid="classMR_1_1MeasurementObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="group__GeneralGroup_1gacb41c66901ba89701e4dae2f4fe6f40f" kindref="member">MeasurementObject</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject_1afba4e36ba430b26b2a358fe7669c568b" kindref="member">VisualObject</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1gacb41c66901ba89701e4dae2f4fe6f40f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gacb41c66901ba89701e4dae2f4fe6f40f" kindref="member">MeasurementObject</ref>();</highlight></codeline>
@@ -582,6 +582,6 @@
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeasurementObject.h"/>
+    <location file="MRMesh/MRMeasurementObject.h"/>
   </compounddef>
 </doxygen>

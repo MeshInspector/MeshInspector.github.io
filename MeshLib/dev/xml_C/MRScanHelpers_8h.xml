@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRScanHelpers_8h" kind="file" language="C++">
     <compoundname>MRScanHelpers.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
@@ -54,19 +54,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="12" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRScanHelpers_8h_1a4d75e004d098bc7d987ebfcf304f5454" prot="public" static="no">
-        <type>struct <ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref></type>
-        <definition>typedef struct MR_std_vector_std_filesystem_path MR_std_vector_std_filesystem_path</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_filesystem_path</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="13" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" prot="public" static="no">
         <type>struct <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref></type>
@@ -445,7 +432,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SliceInfoBase</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -463,7 +450,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SliceInfoBase</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -868,7 +855,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SliceInfo</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -886,7 +873,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SliceInfo</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -996,12 +983,12 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12" refid="MRScanHelpers_8h_1a771ba5022befbb504ac90050d525a465" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRScanHelpers_8h_1a771ba5022befbb504ac90050d525a465" kindref="member">MR_std_vector_MR_SliceInfo</ref><sp/><ref refid="MRScanHelpers_8h_1a771ba5022befbb504ac90050d525a465" kindref="member">MR_std_vector_MR_SliceInfo</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_SliceInfo.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRScanHelpers_8h_1a4d75e004d098bc7d987ebfcf304f5454" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref>;</highlight></codeline>
+<codeline lineno="23" refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref>;</highlight></codeline>
+<codeline lineno="33" refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref>;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40" refid="MRScanHelpers_8h_1a1773301f9c5408586b29a7a73cb7487c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRScanHelpers_8h_1a1773301f9c5408586b29a7a73cb7487c" kindref="member">MR_SliceInfoBase_Get_instanceNum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>

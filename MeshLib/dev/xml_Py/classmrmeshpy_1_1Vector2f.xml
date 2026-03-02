@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Vector2f" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Vector2f</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -832,20 +832,6 @@
 Aliases:  Vector_Vector2f_VertId_reference, Vector_Vector2f_VertId_value_type, UVCoord, Vector_Vector2f_VertId_const_reference, Matrix2_float_VectorType
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.Vector2f</label>
-        <link refid="classmrmeshpy_1_1Vector2f"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_x</edgelabel>
-          <edgelabel>_offsetof_y</edgelabel>
-          <edgelabel>elements</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61555" bodyend="61664"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Vector2f_1a4aada1b697e5548e55feca871011c5d6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector2f</scope><name>__add__</name></member>

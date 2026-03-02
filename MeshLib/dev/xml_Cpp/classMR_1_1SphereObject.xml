@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SphereObject" kind="class" language="C++" prot="public">
     <compoundname>MR::SphereObject</compoundname>
     <basecompoundref refid="classMR_1_1AddVisualProperties" prot="public" virt="non-virtual">MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter &gt;</basecompoundref>
-    <includes refid="MRSphereObject_8h" local="no">MRSphereObject.h</includes>
+    <includes refid="MRSphereObject_8h" local="no">MRMesh/MRSphereObject.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gacfa7feabcd8d7764651c00074cd48ce6" kind="function"><name>SphereObject</name></member>
       <member refid="group__GeneralGroup_1gad9df287b74828ee34ed719756f6e6574" kind="function"><name>SphereObject</name></member>
@@ -188,7 +188,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSphereObject.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSphereObject.h" bodystart="18" bodyend="71"/>
+    <location file="MRMesh/MRSphereObject.h" line="17" column="1" bodyfile="MRMesh/MRSphereObject.h" bodystart="18" bodyend="71"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::SphereObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::SphereObject</scope><name>addChildBefore</name></member>

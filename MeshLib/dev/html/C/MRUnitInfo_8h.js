@@ -8,7 +8,6 @@ var MRUnitInfo_8h =
     [ "MR_NoUnit", "MRUnitInfo_8h.html#a2ac997f72ec53f0e0ab4aec46e5b33d4", null ],
     [ "MR_PixelSizeUnit", "MRUnitInfo_8h.html#ae97dd5994fd2209865ef10d990c10cbd", null ],
     [ "MR_RatioUnit", "MRUnitInfo_8h.html#a3b4848ed5450da748c7658e6802aa2e8", null ],
-    [ "MR_std_string_view", "MRUnitInfo_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37", null ],
     [ "MR_TimeUnit", "MRUnitInfo_8h.html#a280579a12a2681bcaab2e73755bf3393", null ],
     [ "MR_UnitInfo", "MRUnitInfo_8h.html#a2f2d4909d05dde8b12c6a0b99d41b98b", null ],
     [ "MR_VolumeUnit", "MRUnitInfo_8h.html#ac7cf53f4557ea0b9cd073c65b2da4477", null ],

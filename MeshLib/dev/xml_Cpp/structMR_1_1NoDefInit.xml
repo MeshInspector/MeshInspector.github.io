@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1NoDefInit" kind="struct" language="C++" prot="public">
     <compoundname>MR::NoDefInit</compoundname>
     <basecompoundref prot="public" virt="non-virtual">T</basecompoundref>
-    <includes refid="MRNoDefInit_8h" local="no">MRNoDefInit.h</includes>
+    <includes refid="MRNoDefInit_8h" local="no">MRMesh/MRNoDefInit.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -39,7 +39,7 @@
         <label>T</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNoDefInit.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNoDefInit.h" bodystart="14" bodyend="17"/>
+    <location file="MRMesh/MRNoDefInit.h" line="13" column="1" bodyfile="MRMesh/MRNoDefInit.h" bodystart="14" bodyend="17"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaaa8735508a78c638055d6001174d206a" prot="public" virt="non-virtual"><scope>MR::NoDefInit</scope><name>NoDefInit</name></member>
     </listofallmembers>

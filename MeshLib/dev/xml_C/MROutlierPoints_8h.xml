@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MROutlierPoints_8h" kind="file" language="C++">
     <compoundname>MROutlierPoints.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -91,71 +91,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MROutlierPoints_8h_1aa319738c95f0bbde075b7ef777cf2665" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref></type>
-        <definition>typedef struct MR_PointCloud MR_PointCloud</definition>
-        <argsstring></argsstring>
-        <name>MR_PointCloud</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MROutlierPoints_8h_1ad28f0eefdef309c3ac3580e15985c342" prot="public" static="no">
-        <type>struct <ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_VertBitSet_std_string MR_expected_MR_VertBitSet_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_VertBitSet_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="14" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MROutlierPoints_8h_1a077b8debfae88f9cf2267ad2db95c006" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref></type>
-        <definition>typedef struct MR_expected_void_std_string MR_expected_void_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_void_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="15" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MROutlierPoints_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="16" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MROutlierPoints_8h_1a7f6e3e5252ba136468a252fb7a041661" prot="public" static="no">
-        <type>struct <ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref></type>
-        <definition>typedef struct MR_std_vector_unsigned_char MR_std_vector_unsigned_char</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_unsigned_char</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="17" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" prot="public" static="no">
         <type>struct <ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref></type>
         <definition>typedef struct MR_OutlierParams MR_OutlierParams</definition>
@@ -589,7 +524,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_OutlierParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -607,7 +542,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_OutlierParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -920,7 +855,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_OutliersDetector</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -938,7 +873,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_OutliersDetector</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1523,7 +1458,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_FindOutliersParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1541,7 +1476,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_FindOutliersParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1615,27 +1550,27 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MROutlierPoints_8h_1aa319738c95f0bbde075b7ef777cf2665" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MROutlierPoints_8h_1ad28f0eefdef309c3ac3580e15985c342" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref><sp/><ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_VertBitSet_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MROutlierPoints_8h_1a077b8debfae88f9cf2267ad2db95c006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MROutlierPoints_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MROutlierPoints_8h_1a7f6e3e5252ba136468a252fb7a041661" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref><sp/><ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_unsigned_char.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref><sp/><ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_VertBitSet_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref><sp/><ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_unsigned_char.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref>;</highlight></codeline>
+<codeline lineno="23" refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref></highlight></codeline>
+<codeline lineno="26" refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref></highlight></codeline>
 <codeline lineno="27"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4a49a11635b6ea1e1d23cb402722ccafa7" kindref="member">MR_OutlierTypeMask_SmallComponents</ref><sp/>=<sp/>1,</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4aa2e0ab008d2928378827c29dec298d18" kindref="member">MR_OutlierTypeMask_WeaklyConnected</ref><sp/>=<sp/>2,</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4ae73de69dcdf95f7e3d0f0acdaa7c7de8" kindref="member">MR_OutlierTypeMask_FarSurface</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="29" refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4a49a11635b6ea1e1d23cb402722ccafa7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4a49a11635b6ea1e1d23cb402722ccafa7" kindref="member">MR_OutlierTypeMask_SmallComponents</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="31" refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4aa2e0ab008d2928378827c29dec298d18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4aa2e0ab008d2928378827c29dec298d18" kindref="member">MR_OutlierTypeMask_WeaklyConnected</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="33" refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4ae73de69dcdf95f7e3d0f0acdaa7c7de8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4ae73de69dcdf95f7e3d0f0acdaa7c7de8" kindref="member">MR_OutlierTypeMask_FarSurface</ref><sp/>=<sp/>4,</highlight></codeline>
 <codeline lineno="35" refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4af3d39282f4faa60ceef1608d0e46ddd7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4af3d39282f4faa60ceef1608d0e46ddd7" kindref="member">MR_OutlierTypeMask_AwayNormal</ref><sp/>=<sp/>8,</highlight></codeline>
 <codeline lineno="36" refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4a3631eb828bd4da8956644ea5495b8712" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4a3631eb828bd4da8956644ea5495b8712" kindref="member">MR_OutlierTypeMask_All</ref><sp/>=<sp/>15,</highlight></codeline>
 <codeline lineno="37" refid="MROutlierPoints_8h_1a996f841f3a78fded10ee376405ede190" refkind="member"><highlight class="normal">}<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref>;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref>;</highlight></codeline>
+<codeline lineno="43" refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref>;</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref>;</highlight></codeline>
+<codeline lineno="48" refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref>;</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="55" refid="MROutlierPoints_8h_1a3db8a8e94f88b439594f96b5eefac469" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1a3db8a8e94f88b439594f96b5eefac469" kindref="member">MR_OutlierParams_Get_maxClusterSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>

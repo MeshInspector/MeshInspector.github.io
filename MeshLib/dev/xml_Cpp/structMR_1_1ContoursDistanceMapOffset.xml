@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ContoursDistanceMapOffset" kind="struct" language="C++" prot="public">
     <compoundname>MR::ContoursDistanceMapOffset</compoundname>
-    <includes refid="MRDistanceMap_8h" local="no">MRDistanceMap.h</includes>
+    <includes refid="MRDistanceMap_8h" local="no">MRMesh/MRDistanceMap.h</includes>
     <sectiondef kind="public-type">
       <memberdef kind="enum" id="structMR_1_1ContoursDistanceMapOffset_1ae4253ef0c3b8227af4acd442f2567178" prot="public" static="no" strong="yes">
         <type></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="196" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" bodystart="197" bodyend="200"/>
+        <location file="MRMesh/MRDistanceMap.h" line="196" column="5" bodyfile="MRMesh/MRDistanceMap.h" bodystart="197" bodyend="200"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="195" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" bodystart="195" bodyend="-1"/>
+        <location file="MRMesh/MRDistanceMap.h" line="195" column="18" bodyfile="MRMesh/MRDistanceMap.h" bodystart="195" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ContoursDistanceMapOffset_1a68a80dcbb5c3dc5175cdb355315dd038" prot="public" static="no" mutable="no">
         <type>enum <ref refid="structMR_1_1ContoursDistanceMapOffset_1ae4253ef0c3b8227af4acd442f2567178" kindref="member">MR::ContoursDistanceMapOffset::OffsetType</ref></type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="200" column="27"/>
+        <location file="MRMesh/MRDistanceMap.h" line="200" column="27"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -82,7 +82,7 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" bodystart="193" bodyend="201"/>
+    <location file="MRMesh/MRDistanceMap.h" line="192" column="1" bodyfile="MRMesh/MRDistanceMap.h" bodystart="193" bodyend="201"/>
     <listofallmembers>
       <member refid="structMR_1_1ContoursDistanceMapOffset_1ae4253ef0c3b8227af4acd442f2567178" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>OffsetType</name></member>
       <member refid="structMR_1_1ContoursDistanceMapOffset_1adedbc97955e245ed2441465fc386f0c5" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>perEdgeOffset</name></member>

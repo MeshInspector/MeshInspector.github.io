@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PolynomialWrapper" kind="struct" language="C++" prot="public">
     <compoundname>MR::PolynomialWrapper</compoundname>
-    <includes refid="MRBestFitPolynomial_8h" local="no">MRBestFitPolynomial.h</includes>
+    <includes refid="MRBestFitPolynomial_8h" local="no">MRMesh/MRBestFitPolynomial.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -22,7 +22,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="76" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" bodystart="77" bodyend="90"/>
+    <location file="MRMesh/MRBestFitPolynomial.h" line="76" column="1" bodyfile="MRMesh/MRBestFitPolynomial.h" bodystart="77" bodyend="90"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2777374aff190c0ee3f47d8d0ca571f2" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper</scope><name>deriv</name></member>
       <member refid="group__GeneralGroup_1gac1221fc89d5a44fe8152408550c99146" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper</scope><name>intervalMin</name></member>

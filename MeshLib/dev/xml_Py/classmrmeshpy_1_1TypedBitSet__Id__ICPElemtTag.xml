@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::TypedBitSet_Id_ICPElemtTag</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
@@ -42,7 +42,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -130,7 +129,6 @@
         <argsstring>(self, TypedBitSet_Id_ICPElemtTag b)</argsstring>
         <name>__and__</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.__and__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -153,7 +151,6 @@
         <argsstring>(self, TypedBitSet_Id_ICPElemtTag b)</argsstring>
         <name>__iand__</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.__iand__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -176,7 +173,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -195,7 +191,6 @@
         <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -225,7 +220,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -250,7 +244,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -275,7 +268,6 @@
         <argsstring>(self, TypedBitSet_Id_ICPElemtTag arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -300,7 +292,6 @@
         <argsstring>(self, TypedBitSet_Id_ICPElemtTag b)</argsstring>
         <name>__ior__</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.__ior__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -323,7 +314,6 @@
         <argsstring>(self, TypedBitSet_Id_ICPElemtTag b)</argsstring>
         <name>__isub__</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.__isub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -346,7 +336,6 @@
         <argsstring>(self)</argsstring>
         <name>__iter__</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.__iter__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -365,7 +354,6 @@
         <argsstring>(self, TypedBitSet_Id_ICPElemtTag b)</argsstring>
         <name>__ixor__</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.__ixor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -388,7 +376,6 @@
         <argsstring>(self, TypedBitSet_Id_ICPElemtTag b)</argsstring>
         <name>__or__</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.__or__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -411,7 +398,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.__repr__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -430,7 +416,6 @@
         <argsstring>(self, TypedBitSet_Id_ICPElemtTag b)</argsstring>
         <name>__sub__</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.__sub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -453,7 +438,6 @@
         <argsstring>(self, TypedBitSet_Id_ICPElemtTag b)</argsstring>
         <name>__xor__</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.__xor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -1284,18 +1268,12 @@ with all bits after size() considered off during testing
       <node id="2">
         <label>mrmeshpy.BitSet</label>
         <link refid="classmrmeshpy_1_1BitSet"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>bits_per_block</edgelabel>
-          <edgelabel>npos</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59221" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59221" bodyend="59381"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ace7efa81a28a47ba77bbd5b0aee30e97" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1af06e5b8bd598633ae38015e4ef438a97" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a0f68655030467fb4e80a67d73ac82f52" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>__iand__</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a1d286795150f0c90833d2750acb74e8a" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ae6bde5c3948e3cbb6e5f357d10f9efd9" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>__init__</name></member>
@@ -1309,14 +1287,24 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1add09ac56119e279f96cd09df5936031f" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>__ixor__</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ae797f3141eed6c6c4c3a66c7ff5b663e" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>__or__</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a068e0d234f06358d8da5679bcce4c2ec" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a98282e643a9a65e1c6109bb7e5d7bb0f" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a180dc7a7e3b1484cbc0655607c27948d" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>__rrshift__</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a1e9f54304c29400e77da072f332faaba" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>__sub__</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a6c104e6b7c3dcd34acd36877192cc0d3" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a7791a54179bcc02c9e8d46ccd467d1df" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>all</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a72e64427ab6f98e8ffeb422c97588e62" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>any</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a73daebdc93e0efa2a12276d6a0e4c492" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ad127d99136dc7099b252684bc95e69ce" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a7bf33a40a0a2392ceec98f4b3d173f1a" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>autoResizeTestSet</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a19700858d071417529ed4bfd841151e7" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>backId</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a96d3785a7538ed24af80da239909b23a" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>base</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a2644ebbfe1fdcaed7775bb655c34242b" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab1c92776adea9f7d4a8aa71b4db8585e" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>bits</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a59b26e0abde0aeed833933ad5058adfe" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>bits_per_block</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a2335e90bc299cbaa4f87a7e2157f869a" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a640d1f443a7ea30d50a532de2cdf90b4" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a4b8a47eb3cd9dc19a7448b1a3b1765e2" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aab954a31474723788e2aeee311325c15" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>empty</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1aa78147ad440f847a36a037a13bc888ec" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>endId</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1aad6c384219befe1457ca572393bd2f11" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>find_first</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1aa0a8b017c729715b5dddfb08af590b6b" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>find_first_not_set</name></member>
@@ -1327,27 +1315,42 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1abacbcdde4a32de39b32e3a9070372e9a" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a57a48f68e3119818a6bc156b6143c7dc" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a920aca7c9c08719062e76a1508c94063" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab52de9f1462e6d83e5b7191d4396df74" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>fromBlocks</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a4e1c3ff37653282424c6de60521931b5" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ad382f127595efbfe279487303e1c14e9" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1af99a44c0bfeee00cef0498be889b590c" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a756dcd259d56fe1ea3d9ebae3cbc3ab8" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ad1d70cf1b4aa9a9d5b937aaafdf7f864" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a609a7ce47fe0bc9f61b78fd7b2fe4691" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>IndexType</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1aeb407dd49988a3d3609cd8b1ada60828" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a2b0d54dcffaceded209743dce407c57d" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aba96890a6af8d454cea1e755d03af8db" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>none</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aa0a7d1ede8a4702ab5421d151412dfc9" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>npos</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a8eb496ff91c9e8a00426375ace7eb94e" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a33fe73fcaf13f4fe52d1fe72379ba764" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>num_blocks</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a1daa34da0a3b3a3ac7590b2ef7288dba" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a1daa34da0a3b3a3ac7590b2ef7288dba" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a204e188214d1fd66553951c4a6c9888b" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1af016fdece4d1e0fcefadce98dff1b478" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a289c8f64f552d93f25d60aae2140354a" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>reserve</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a6599aa811d37a94a4e0bc52f33b9311c" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a3977d95b3a2285dcb5a478b77a1bcac0" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ab22db1e6b36563636149cd503595d505" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a9e4c33df165c88226f1105129caa15f2" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a8f011a2d79e0769e54a51148de3d2dec" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a6e10a386d264b1d2ac5153c7eda3452e" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>reverse</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1af36f89fd0d9cd5abfa7bf6da7bad567b" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a09da553e3206d9b0e50c98199d00ba38" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a6fe741fb6e614114eb7e8b6f6f4b4662" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a6e4cbbc58ab31935303fd94e47479b09" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a394f9a9633d44001a7cab69dbd3815e8" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>shrink_to_fit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae04e046bab014f7e687c1010d5386eb" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ae0ce3095d9f8b9985e42b11e92850c9b" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>subtract</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1af697a37ff7acdb2f74cf0a7d212641a1" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>test</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1acaf830fec20497cbd7e9d5d68b3c0133" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>test_set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae49ff1ea465f9b7185a328d08806e08" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>uncheckedTest</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a908f2b141bba37ea2f49d8dd1938c711" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>uncheckedTestSet</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

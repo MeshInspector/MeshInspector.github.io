@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRDipole_8h" kind="file" language="C++">
     <compoundname>MRDipole.h</compoundname>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
@@ -15,7 +15,7 @@
         <link refid="MRConstants_8h"/>
       </node>
       <node id="1">
-        <label>MRDipole.h</label>
+        <label>MRMesh/MRDipole.h</label>
         <link refid="MRDipole_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -140,7 +140,7 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="structMR_1_1Dipole" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Dipole" kindref="compound">Dipole</ref></highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1Dipole" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Dipole" kindref="compound">Dipole</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1gae70faa532d5372a7fa0e32336cc6df35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gae70faa532d5372a7fa0e32336cc6df35" kindref="member">pos</ref>;</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1gaae5226baaa9fd2fef60b3940f4d0951f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaae5226baaa9fd2fef60b3940f4d0951f" kindref="member">area</ref><sp/>=<sp/>0;</highlight></codeline>
@@ -153,12 +153,12 @@
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>dd<sp/>&lt;=<sp/>betaSq<sp/>*<sp/><ref refid="group__GeneralGroup_1ga778dc3bfc3f81905b9e4922c640bb584" kindref="member">rr</ref><sp/>)</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>d<sp/>=<sp/>std::sqrt(<sp/>dd<sp/>);<sp/>d<sp/>&gt;<sp/>0<sp/>)</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>addTo<sp/>+=<sp/>dot(<sp/>dp,<sp/><ref refid="group__GeneralGroup_1ga804c3991b7713194228966805194c66a" kindref="member">dirArea</ref><sp/>)<sp/>/<sp/>(<sp/>d<sp/>*<sp/>dd<sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>addTo<sp/>+=<sp/><ref refid="group__GeneralGroup_1ga3a21629633bf0e4bedadc69121c907ed" kindref="member">dot</ref>(<sp/>dp,<sp/><ref refid="group__GeneralGroup_1ga804c3991b7713194228966805194c66a" kindref="member">dirArea</ref><sp/>)<sp/>/<sp/>(<sp/>d<sp/>*<sp/>dd<sp/>);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="31"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<sp/><ref refid="group__GeneralGroup_1gad199d60177879413c7ab7c1b24e30a54" kindref="member">Dipole</ref><sp/>)<sp/>==<sp/>8<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<sp/><ref refid="group__GeneralGroup_1gad199d60177879413c7ab7c1b24e30a54" kindref="member">Dipole</ref><sp/>)<sp/>==<sp/>8<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<sp/>float<sp/>)<sp/>);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36" refid="group__GeneralGroup_1ga8fedddf735f8ee4a84207200eb0d9b6a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8fedddf735f8ee4a84207200eb0d9b6a" kindref="member">calcDipoles</ref>(<sp/>Dipoles&amp;<sp/>dipoles,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref>&amp;<sp/>tree,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh<sp/>);</highlight></codeline>
 <codeline lineno="37" refid="group__GeneralGroup_1ga6183b53e85b58b3c7c8e78c383c4be15" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Dipoles<sp/><ref refid="group__GeneralGroup_1ga8fedddf735f8ee4a84207200eb0d9b6a" kindref="member">calcDipoles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref>&amp;<sp/>tree,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh<sp/>);</highlight></codeline>
@@ -166,8 +166,8 @@
 <codeline lineno="43" refid="group__GeneralGroup_1gac27f9510340528d33d307b37dfa40ade" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac27f9510340528d33d307b37dfa40ade" kindref="member">calcFastWindingNumber</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Dipoles&amp;<sp/>dipoles,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref>&amp;<sp/>tree,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>q,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>beta,<sp/>FaceId<sp/>skipFace<sp/>);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDipole.h"/>
+    <location file="MRMesh/MRDipole.h"/>
   </compounddef>
 </doxygen>

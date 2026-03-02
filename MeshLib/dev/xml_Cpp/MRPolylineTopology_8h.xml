@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPolylineTopology_8h" kind="file" language="C++">
     <compoundname>MRPolylineTopology.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRVector_8h" local="yes">MRVector.h</includes>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes refid="MRBitSet_8h" local="yes">MRBitSet.h</includes>
-    <includedby refid="MRPolyline_8h" local="yes">MRPolyline.h</includedby>
-    <includedby refid="MRPolylineEdgeIterator_8h" local="yes">MRPolylineEdgeIterator.h</includedby>
+    <includedby refid="MRPolyline_8h" local="yes">MRMesh/MRPolyline.h</includedby>
+    <includedby refid="MRPolylineEdgeIterator_8h" local="yes">MRMesh/MRPolylineEdgeIterator.h</includedby>
     <incdepgraph>
       <node id="20">
         <label>MRBitSet.h</label>
@@ -78,7 +78,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPolylineTopology.h</label>
+        <label>MRMesh/MRPolylineTopology.h</label>
         <link refid="MRPolylineTopology_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -162,41 +162,41 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="13">
-        <label>MROpenRawVoxelsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
       <node id="8">
-        <label>MRCudaContoursDistanceMap.h</label>
+        <label>MRCuda/MRCudaContoursDistanceMap.h</label>
         <link refid="MRCudaContoursDistanceMap_8h"/>
       </node>
       <node id="9">
-        <label>MRCudaMeshDistanceMap.h</label>
+        <label>MRCuda/MRCudaMeshDistanceMap.h</label>
         <link refid="MRCudaMeshDistanceMap_8h"/>
       </node>
-      <node id="18">
-        <label>MRCudaSweptVolume.h</label>
+      <node id="17">
+        <label>MRCuda/MRCudaSweptVolume.h</label>
         <link refid="MRCudaSweptVolume_8h"/>
       </node>
       <node id="3">
-        <label>MRAggregateFlow.h</label>
+        <label>MRMesh/MRAggregateFlow.h</label>
         <link refid="MRAggregateFlow_8h"/>
       </node>
       <node id="4">
-        <label>MRBestFit.h</label>
+        <label>MRMesh/MRBestFit.h</label>
         <link refid="MRBestFit_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>MRChangePolylineAction.h</label>
+        <label>MRMesh/MRChangePolylineAction.h</label>
         <link refid="MRChangePolylineAction_8h"/>
       </node>
       <node id="5">
-        <label>MRDenseBox.h</label>
+        <label>MRMesh/MRDenseBox.h</label>
         <link refid="MRDenseBox_8h"/>
       </node>
       <node id="7">
-        <label>MRDistanceMap.h</label>
+        <label>MRMesh/MRDistanceMap.h</label>
         <link refid="MRDistanceMap_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
@@ -208,11 +208,11 @@
         </childnode>
       </node>
       <node id="10">
-        <label>MRDistanceMapLoad.h</label>
+        <label>MRMesh/MRDistanceMapLoad.h</label>
         <link refid="MRDistanceMapLoad_8h"/>
       </node>
       <node id="11">
-        <label>MRIOFormatsRegistry.h</label>
+        <label>MRMesh/MRIOFormatsRegistry.h</label>
         <link refid="MRIOFormatsRegistry_8h"/>
         <childnode refid="12" relation="include">
         </childnode>
@@ -220,7 +220,7 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MRPolyline.h</label>
+        <label>MRMesh/MRPolyline.h</label>
         <link refid="MRPolyline_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -238,27 +238,27 @@
         </childnode>
       </node>
       <node id="15">
-        <label>MRPolyline2Collide.h</label>
+        <label>MRMesh/MRPolyline2Collide.h</label>
         <link refid="MRPolyline2Collide_8h"/>
       </node>
       <node id="20">
-        <label>MRPolylineEdgeIterator.h</label>
+        <label>MRMesh/MRPolylineEdgeIterator.h</label>
         <link refid="MRPolylineEdgeIterator_8h"/>
       </node>
       <node id="1">
-        <label>MRPolylineTopology.h</label>
+        <label>MRMesh/MRPolylineTopology.h</label>
         <link refid="MRPolylineTopology_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="17">
-        <label>MRCudaAccessor.h</label>
+      <node id="18">
+        <label>MRViewer/MRCudaAccessor.h</label>
         <link refid="MRCudaAccessor_8h"/>
       </node>
       <node id="16">
-        <label>MRSweptVolume.h</label>
+        <label>MRVoxels/MRSweptVolume.h</label>
         <link refid="MRSweptVolume_8h"/>
         <childnode refid="17" relation="include">
         </childnode>
@@ -266,17 +266,17 @@
         </childnode>
       </node>
       <node id="19">
-        <label>MRToolPath.h</label>
+        <label>MRVoxels/MRToolPath.h</label>
         <link refid="MRToolPath_8h"/>
       </node>
       <node id="12">
-        <label>MRVoxelsLoad.h</label>
+        <label>MRVoxels/MRVoxelsLoad.h</label>
         <link refid="MRVoxelsLoad_8h"/>
         <childnode refid="13" relation="include">
         </childnode>
       </node>
       <node id="14">
-        <label>MRVoxelsSave.h</label>
+        <label>MRVoxels/MRVoxelsSave.h</label>
         <link refid="MRVoxelsSave_8h"/>
       </node>
     </invincdepgraph>
@@ -293,14 +293,14 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector_8h" kindref="compound">MRVector.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRId.h</ref>&quot;</highlight></codeline>
-<codeline lineno="7"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRBitSet_8h" kindref="compound">MRBitSet.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRBitSet_8h" kindref="compound">MRBitSet.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="classMR_1_1PolylineTopology" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1PolylineTopology" kindref="compound">PolylineTopology</ref></highlight></codeline>
+<codeline lineno="17" refid="classMR_1_1PolylineTopology" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1PolylineTopology" kindref="compound">PolylineTopology</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F1,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F2&gt;</highlight></codeline>
@@ -323,17 +323,17 @@
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58" refid="group__GeneralGroup_1ga33c3aacafb6ce19a620996cd32878639" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>EdgeId<sp/><ref refid="group__GeneralGroup_1ga33c3aacafb6ce19a620996cd32878639" kindref="member">lastNotLoneEdge</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ue<sp/>=<sp/><ref refid="group__GeneralGroup_1ga40e8d81723bd6eb788fb7a2f51478ff8" kindref="member">lastNotLoneUndirectedEdge</ref>();<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ue<sp/>?<sp/>EdgeId(<sp/>ue<sp/>)<sp/>+<sp/>1<sp/>:<sp/>EdgeId();<sp/>}</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="group__GeneralGroup_1ga7308421016a4a943460946176b524bc8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7308421016a4a943460946176b524bc8" kindref="member">edgeSize</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>edges_.<ref refid="group__GeneralGroup_1ga2816ffd002bac70ab04d1bd18e2c5cfd" kindref="member">size</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="61" refid="group__GeneralGroup_1ga7308421016a4a943460946176b524bc8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7308421016a4a943460946176b524bc8" kindref="member">edgeSize</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>edges_.size();<sp/>}</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="group__GeneralGroup_1gac0ebbe561720059f815c339a5a2d7607" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac0ebbe561720059f815c339a5a2d7607" kindref="member">edgeCapacity</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>edges_.<ref refid="group__GeneralGroup_1ga291f08448069b69e4286d064907e6fdd" kindref="member">capacity</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="64" refid="group__GeneralGroup_1gac0ebbe561720059f815c339a5a2d7607" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac0ebbe561720059f815c339a5a2d7607" kindref="member">edgeCapacity</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>edges_.capacity();<sp/>}</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="group__GeneralGroup_1ga061dd907ada10af2d8ed533c49f4b0ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga061dd907ada10af2d8ed533c49f4b0ab" kindref="member">undirectedEdgeSize</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>edges_.<ref refid="group__GeneralGroup_1ga2816ffd002bac70ab04d1bd18e2c5cfd" kindref="member">size</ref>()<sp/>&gt;&gt;<sp/>1;<sp/>}</highlight></codeline>
+<codeline lineno="67" refid="group__GeneralGroup_1ga061dd907ada10af2d8ed533c49f4b0ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga061dd907ada10af2d8ed533c49f4b0ab" kindref="member">undirectedEdgeSize</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>edges_.size()<sp/>&gt;&gt;<sp/>1;<sp/>}</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="group__GeneralGroup_1gaf60df47c2413fe61618210b292dde6c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf60df47c2413fe61618210b292dde6c0" kindref="member">undirectedEdgeCapacity</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>edges_.<ref refid="group__GeneralGroup_1ga291f08448069b69e4286d064907e6fdd" kindref="member">capacity</ref>()<sp/>&gt;&gt;<sp/>1;<sp/>}</highlight></codeline>
+<codeline lineno="70" refid="group__GeneralGroup_1gaf60df47c2413fe61618210b292dde6c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf60df47c2413fe61618210b292dde6c0" kindref="member">undirectedEdgeCapacity</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>edges_.capacity()<sp/>&gt;&gt;<sp/>1;<sp/>}</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
 <codeline lineno="73" refid="group__GeneralGroup_1ga7f5ad4b2bbc4c7b58cf07647e8b201f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7f5ad4b2bbc4c7b58cf07647e8b201f1" kindref="member">computeNotLoneUndirectedEdges</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="group__GeneralGroup_1gaa5cb50f06372f350dcdd3dbc747a0615" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa5cb50f06372f350dcdd3dbc747a0615" kindref="member">edgeReserve</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newCapacity<sp/>)<sp/>{<sp/>edges_.<ref refid="group__GeneralGroup_1ga74f2d276465f6183ec4068d124cbb596" kindref="member">reserve</ref>(<sp/>newCapacity<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="76" refid="group__GeneralGroup_1gaa5cb50f06372f350dcdd3dbc747a0615" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa5cb50f06372f350dcdd3dbc747a0615" kindref="member">edgeReserve</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newCapacity<sp/>)<sp/>{<sp/>edges_.reserve(<sp/>newCapacity<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
 <codeline lineno="79" refid="group__GeneralGroup_1gae20a806936450b9f38d28938a2721f47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae20a806936450b9f38d28938a2721f47" kindref="member">hasEdge</ref>(<sp/>EdgeId<sp/>e<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/>assert(<sp/>e.valid()<sp/>);<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>e<sp/>&lt;<sp/>(int)<ref refid="group__GeneralGroup_1ga7308421016a4a943460946176b524bc8" kindref="member">edgeSize</ref>()<sp/>&amp;&amp;<sp/>!<ref refid="group__GeneralGroup_1ga340d1c3c2700cc5e1f3e470e2b04e0ca" kindref="member">isLoneEdge</ref>(<sp/>e<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
@@ -357,7 +357,7 @@
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
 <codeline lineno="113" refid="group__GeneralGroup_1ga2024e9659eff3dd70640f343052294c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;VertId, EdgeId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga2024e9659eff3dd70640f343052294c9" kindref="member">getOrgs</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="group__GeneralGroup_1ga2ebdc3893e2fbb0963c302c1361dfe3b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>EdgeId<sp/><ref refid="group__GeneralGroup_1ga2ebdc3893e2fbb0963c302c1361dfe3b" kindref="member">edgeWithOrg</ref>(<sp/>VertId<sp/>a<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/>assert(<sp/>a.valid()<sp/>);<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a<sp/>&lt;<sp/>int(edgePerVertex_.<ref refid="group__GeneralGroup_1ga2816ffd002bac70ab04d1bd18e2c5cfd" kindref="member">size</ref>())<sp/>&amp;&amp;<sp/>edgePerVertex_[a].valid()<sp/>?<sp/>edgePerVertex_[a]<sp/>:<sp/>EdgeId();<sp/>}</highlight></codeline>
+<codeline lineno="116" refid="group__GeneralGroup_1ga2ebdc3893e2fbb0963c302c1361dfe3b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>EdgeId<sp/><ref refid="group__GeneralGroup_1ga2ebdc3893e2fbb0963c302c1361dfe3b" kindref="member">edgeWithOrg</ref>(<sp/>VertId<sp/>a<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/>assert(<sp/>a.valid()<sp/>);<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a<sp/>&lt;<sp/>int(edgePerVertex_.size())<sp/>&amp;&amp;<sp/>edgePerVertex_[a].valid()<sp/>?<sp/>edgePerVertex_[a]<sp/>:<sp/>EdgeId();<sp/>}</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
 <codeline lineno="119" refid="group__GeneralGroup_1ga2b966e998f03cd7ed4d30898f4542284" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b966e998f03cd7ed4d30898f4542284" kindref="member">hasVert</ref>(<sp/>VertId<sp/>a<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>validVerts_.test(<sp/>a<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
@@ -367,17 +367,17 @@
 <codeline lineno="126"><highlight class="normal"></highlight></codeline>
 <codeline lineno="128" refid="group__GeneralGroup_1ga405ae3689daf40b5216f8d36d6a295c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga405ae3689daf40b5216f8d36d6a295c8" kindref="member">lastValidVert</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="group__GeneralGroup_1gabfb6e0044fbe8c29dd9114c691a687a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>VertId<sp/><ref refid="group__GeneralGroup_1gabfb6e0044fbe8c29dd9114c691a687a7" kindref="member">addVertId</ref>()<sp/>{<sp/>edgePerVertex_.<ref refid="group__GeneralGroup_1ga5ea16d2aeaa1f2e2d683aade3c67794c" kindref="member">push_back</ref>(<sp/>{}<sp/>);<sp/>validVerts_.push_back(<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>VertId(<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)edgePerVertex_.<ref refid="group__GeneralGroup_1ga2816ffd002bac70ab04d1bd18e2c5cfd" kindref="member">size</ref>()<sp/>-<sp/>1<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="131" refid="group__GeneralGroup_1gabfb6e0044fbe8c29dd9114c691a687a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>VertId<sp/><ref refid="group__GeneralGroup_1gabfb6e0044fbe8c29dd9114c691a687a7" kindref="member">addVertId</ref>()<sp/>{<sp/>edgePerVertex_.push_back(<sp/>{}<sp/>);<sp/>validVerts_.push_back(<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>VertId(<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)edgePerVertex_.size()<sp/>-<sp/>1<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
 <codeline lineno="134" refid="group__GeneralGroup_1ga84ccf7860cc1f6ffbfaffe6f0b603593" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga84ccf7860cc1f6ffbfaffe6f0b603593" kindref="member">vertResize</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize<sp/>);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
 <codeline lineno="137" refid="group__GeneralGroup_1ga70c73a8ac13316a94e3c36348d79b192" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga70c73a8ac13316a94e3c36348d79b192" kindref="member">vertResizeWithReserve</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize<sp/>);</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="group__GeneralGroup_1ga269967fe44b9296f578fb65a74733bc4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga269967fe44b9296f578fb65a74733bc4" kindref="member">vertReserve</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newCapacity<sp/>)<sp/>{<sp/>edgePerVertex_.<ref refid="group__GeneralGroup_1ga74f2d276465f6183ec4068d124cbb596" kindref="member">reserve</ref>(<sp/>newCapacity<sp/>);<sp/>validVerts_.reserve(<sp/>newCapacity<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="140" refid="group__GeneralGroup_1ga269967fe44b9296f578fb65a74733bc4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga269967fe44b9296f578fb65a74733bc4" kindref="member">vertReserve</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newCapacity<sp/>)<sp/>{<sp/>edgePerVertex_.reserve(<sp/>newCapacity<sp/>);<sp/>validVerts_.reserve(<sp/>newCapacity<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143" refid="group__GeneralGroup_1ga9574f81615523ac5fe203e1648765942" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9574f81615523ac5fe203e1648765942" kindref="member">vertSize</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>edgePerVertex_.<ref refid="group__GeneralGroup_1ga2816ffd002bac70ab04d1bd18e2c5cfd" kindref="member">size</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="143" refid="group__GeneralGroup_1ga9574f81615523ac5fe203e1648765942" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9574f81615523ac5fe203e1648765942" kindref="member">vertSize</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>edgePerVertex_.size();<sp/>}</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="group__GeneralGroup_1ga726c75e6aeb80d5a75500cc50275a477" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga726c75e6aeb80d5a75500cc50275a477" kindref="member">vertCapacity</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>edgePerVertex_.<ref refid="group__GeneralGroup_1ga291f08448069b69e4286d064907e6fdd" kindref="member">capacity</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="146" refid="group__GeneralGroup_1ga726c75e6aeb80d5a75500cc50275a477" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga726c75e6aeb80d5a75500cc50275a477" kindref="member">vertCapacity</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>edgePerVertex_.capacity();<sp/>}</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
 <codeline lineno="149" refid="group__GeneralGroup_1ga3ec7d95cc6120617767536b8705d3ee6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga3ec7d95cc6120617767536b8705d3ee6" kindref="member">getValidVerts</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>validVerts_;<sp/>}</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight></codeline>
@@ -424,12 +424,12 @@
 <codeline lineno="216" refid="group__GeneralGroup_1gab1ed86ede6d5b6c5be5ed47055c9ee11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EdgeId<sp/><ref refid="group__GeneralGroup_1gab1ed86ede6d5b6c5be5ed47055c9ee11" kindref="member">next</ref>;<sp/></highlight></codeline>
 <codeline lineno="217" refid="group__GeneralGroup_1ga3cd5f11c0bc84108cea084772f379962" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga3cd5f11c0bc84108cea084772f379962" kindref="member">org</ref>;<sp/><sp/></highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="219" refid="group__GeneralGroup_1gacd6560a0f28fb19765459a10c4f673c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacd6560a0f28fb19765459a10c4f673c4" kindref="member">operator ==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>HalfEdgeRecord&amp;<sp/>b<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="219" refid="group__GeneralGroup_1gacd6560a0f28fb19765459a10c4f673c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacd6560a0f28fb19765459a10c4f673c4" kindref="member">operator ==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafa0f07a20d1c7be61d394cfe05af0d19" kindref="member">HalfEdgeRecord</ref>&amp;<sp/>b<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="220"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab1ed86ede6d5b6c5be5ed47055c9ee11" kindref="member">next</ref><sp/>==<sp/>b.<ref refid="group__GeneralGroup_1gab1ed86ede6d5b6c5be5ed47055c9ee11" kindref="member">next</ref><sp/>&amp;&amp;<sp/><ref refid="group__GeneralGroup_1ga3cd5f11c0bc84108cea084772f379962" kindref="member">org</ref><sp/>==<sp/>b.<ref refid="group__GeneralGroup_1ga3cd5f11c0bc84108cea084772f379962" kindref="member">org</ref>;</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="223" refid="group__GeneralGroup_1gafa0f07a20d1c7be61d394cfe05af0d19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gafa0f07a20d1c7be61d394cfe05af0d19" kindref="member">HalfEdgeRecord</ref>()<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
-<codeline lineno="224" refid="group__GeneralGroup_1gad486c946604c41af89e8d9bf4ae0f231" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>explicit<sp/>HalfEdgeRecord(<sp/><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref><sp/>)<sp/>noexcept<sp/>:<sp/><ref refid="group__GeneralGroup_1gab1ed86ede6d5b6c5be5ed47055c9ee11" kindref="member">next</ref>(<sp/><ref refid="group__GeneralGroup_1gaaa8f63a4fb4dcabf0f8f1dc79cdeee90" kindref="member">noInit</ref><sp/>),<sp/><ref refid="group__GeneralGroup_1ga3cd5f11c0bc84108cea084772f379962" kindref="member">org</ref>(<sp/><ref refid="group__GeneralGroup_1gaaa8f63a4fb4dcabf0f8f1dc79cdeee90" kindref="member">noInit</ref><sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="224" refid="group__GeneralGroup_1gad486c946604c41af89e8d9bf4ae0f231" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>explicit<sp/><ref refid="group__GeneralGroup_1gafa0f07a20d1c7be61d394cfe05af0d19" kindref="member">HalfEdgeRecord</ref>(<sp/><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref><sp/>)<sp/>noexcept<sp/>:<sp/><ref refid="group__GeneralGroup_1gab1ed86ede6d5b6c5be5ed47055c9ee11" kindref="member">next</ref>(<sp/><ref refid="group__GeneralGroup_1gaaa8f63a4fb4dcabf0f8f1dc79cdeee90" kindref="member">noInit</ref><sp/>),<sp/><ref refid="group__GeneralGroup_1ga3cd5f11c0bc84108cea084772f379962" kindref="member">org</ref>(<sp/><ref refid="group__GeneralGroup_1gaaa8f63a4fb4dcabf0f8f1dc79cdeee90" kindref="member">noInit</ref><sp/>)<sp/>{}</highlight></codeline>
 <codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"></highlight></codeline>
 <codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;HalfEdgeRecord, EdgeId&gt;</ref><sp/>edges_;</highlight></codeline>
@@ -445,7 +445,7 @@
 <codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>=<sp/>{};</highlight></codeline>
 <codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;bool&gt;<sp/>closed;</highlight></codeline>
-<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>closed.<ref refid="group__GeneralGroup_1ga74f2d276465f6183ec4068d124cbb596" kindref="member">reserve</ref>(<sp/>contours.size()<sp/>);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>closed.reserve(<sp/>contours.size()<sp/>);</highlight></codeline>
 <codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numClosed<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>c<sp/>:<sp/>contours<sp/>)</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -496,7 +496,7 @@
 <codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<sp/><ref refid="group__GeneralGroup_1ga96c2c24ecc0e7c11f5acc74aaedfa10b" kindref="member">isConsistentlyOriented</ref>()<sp/>);</highlight></codeline>
-<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<sp/>edgePerVertex_.<ref refid="group__GeneralGroup_1ga2816ffd002bac70ab04d1bd18e2c5cfd" kindref="member">size</ref>()<sp/>==<sp/><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>-<sp/>numClosed<sp/>);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<sp/>edgePerVertex_.size()<sp/>==<sp/><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>-<sp/>numClosed<sp/>);</highlight></codeline>
 <codeline lineno="294"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="295"><highlight class="normal"></highlight></codeline>
 <codeline lineno="296"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
@@ -545,7 +545,7 @@
 <codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
 <codeline lineno="340"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="341"><highlight class="normal"></highlight></codeline>
-<codeline lineno="343" refid="structMR_1_1PolylineMaker" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PolylineMaker" kindref="compound">PolylineMaker</ref></highlight></codeline>
+<codeline lineno="343" refid="structMR_1_1PolylineMaker" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga8c386bea061f3eab0448adbfa67dceb0" kindref="member">PolylineMaker</ref></highlight></codeline>
 <codeline lineno="344"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="345" refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1PolylineTopology" kindref="compound">PolylineTopology</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kindref="member">topology</ref>;</highlight></codeline>
 <codeline lineno="346" refid="group__GeneralGroup_1ga8c386bea061f3eab0448adbfa67dceb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8c386bea061f3eab0448adbfa67dceb0" kindref="member">PolylineMaker</ref>(<sp/><ref refid="classMR_1_1PolylineTopology" kindref="compound">PolylineTopology</ref><sp/>&amp;<sp/>t<sp/>)<sp/>:<sp/><ref refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kindref="member">topology</ref>(<sp/>t<sp/>)<sp/>{}</highlight></codeline>
@@ -553,28 +553,28 @@
 <codeline lineno="350" refid="group__GeneralGroup_1ga4728051228e7a8b6910c567e9a075840" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/><ref refid="group__GeneralGroup_1ga4728051228e7a8b6910c567e9a075840" kindref="member">start</ref>(<sp/>VertId<sp/>v<sp/>)</highlight></codeline>
 <codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>!e0_<sp/>&amp;&amp;<sp/>!eLast_<sp/>);</highlight></codeline>
-<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>e0_<sp/>=<sp/>eLast_<sp/>=<sp/><ref refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kindref="member">topology</ref>.<ref refid="group__GeneralGroup_1ga033fa53955636a7d40a7a37dd5a263ab" kindref="member">makeEdge</ref>();</highlight></codeline>
-<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kindref="member">topology</ref>.<ref refid="group__GeneralGroup_1ga51aeb5ec23430816ca9d010a59f8f3c2" kindref="member">setOrg</ref>(<sp/>e0_,<sp/>v<sp/>);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>e0_<sp/>=<sp/>eLast_<sp/>=<sp/><ref refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kindref="member">topology</ref>.makeEdge();</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kindref="member">topology</ref>.setOrg(<sp/>e0_,<sp/>v<sp/>);</highlight></codeline>
 <codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>e0_;</highlight></codeline>
 <codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="359" refid="group__GeneralGroup_1gabaa25d6997f93c9797a20cf3975b2eef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/><ref refid="group__GeneralGroup_1gabaa25d6997f93c9797a20cf3975b2eef" kindref="member">proceed</ref>(<sp/>VertId<sp/>v<sp/>)</highlight></codeline>
 <codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>eLast_<sp/>);</highlight></codeline>
-<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ej<sp/>=<sp/><ref refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kindref="member">topology</ref>.<ref refid="group__GeneralGroup_1ga033fa53955636a7d40a7a37dd5a263ab" kindref="member">makeEdge</ref>();</highlight></codeline>
-<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kindref="member">topology</ref>.<ref refid="group__GeneralGroup_1ga7acb3c46a1a58b055c55a899b43b428c" kindref="member">splice</ref>(<sp/>ej,<sp/>eLast_.sym()<sp/>);</highlight></codeline>
-<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kindref="member">topology</ref>.<ref refid="group__GeneralGroup_1ga51aeb5ec23430816ca9d010a59f8f3c2" kindref="member">setOrg</ref>(<sp/>ej,<sp/>v<sp/>);</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ej<sp/>=<sp/><ref refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kindref="member">topology</ref>.makeEdge();</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kindref="member">topology</ref>.splice(<sp/>ej,<sp/>eLast_.sym()<sp/>);</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kindref="member">topology</ref>.setOrg(<sp/>ej,<sp/>v<sp/>);</highlight></codeline>
 <codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>eLast_<sp/>=<sp/>ej;</highlight></codeline>
 <codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="368" refid="group__GeneralGroup_1ga6b10efd85c33f60e8896d7ce1971364f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b10efd85c33f60e8896d7ce1971364f" kindref="member">close</ref>()</highlight></codeline>
 <codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>e0_<sp/>&amp;&amp;<sp/>eLast_<sp/>);</highlight></codeline>
-<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kindref="member">topology</ref>.<ref refid="group__GeneralGroup_1ga7acb3c46a1a58b055c55a899b43b428c" kindref="member">splice</ref>(<sp/>e0_,<sp/>eLast_.sym()<sp/>);</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kindref="member">topology</ref>.splice(<sp/>e0_,<sp/>eLast_.sym()<sp/>);</highlight></codeline>
 <codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>e0_<sp/>=<sp/>eLast_<sp/>=<sp/>{};</highlight></codeline>
 <codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="375" refid="group__GeneralGroup_1ga4a15b5f552bb650a6fab86110c95ad3f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4a15b5f552bb650a6fab86110c95ad3f" kindref="member">finishOpen</ref>(<sp/>VertId<sp/>v<sp/>)</highlight></codeline>
 <codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>eLast_<sp/>);</highlight></codeline>
-<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kindref="member">topology</ref>.<ref refid="group__GeneralGroup_1ga51aeb5ec23430816ca9d010a59f8f3c2" kindref="member">setOrg</ref>(<sp/>eLast_.sym(),<sp/>v<sp/>);</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kindref="member">topology</ref>.setOrg(<sp/>eLast_.sym(),<sp/>v<sp/>);</highlight></codeline>
 <codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>e0_<sp/>=<sp/>eLast_<sp/>=<sp/>{};</highlight></codeline>
 <codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="381"><highlight class="normal"></highlight></codeline>
@@ -582,8 +582,8 @@
 <codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/>e0_,<sp/>eLast_;</highlight></codeline>
 <codeline lineno="384"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="385"><highlight class="normal"></highlight></codeline>
-<codeline lineno="386"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="386"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h"/>
+    <location file="MRMesh/MRPolylineTopology.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag" kind="class" language="C#" prot="public">
     <compoundname>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</basecompoundref>
@@ -54,7 +54,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Buffer&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::Buffer</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::Buffer</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Buffer&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::Buffer</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::Buffer</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,7 +92,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -107,7 +107,7 @@
         <name>clear</name>
         <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::clear</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::clear</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -126,7 +126,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::resize</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::resize</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -141,7 +141,7 @@
         <name>data</name>
         <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Buffer&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;::data</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;::data</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -151,7 +151,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
+<para>std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -167,52 +167,52 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR.Buffer&lt;MR.Id&lt;MR.ICPElemtTag&gt;, MR.Id&lt;MR.ICPElemtTag&gt;&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Buffer&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
         <link refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
         <link refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6003" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6004" bodyend="6099"/>

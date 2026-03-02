@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MarchingCubesByParts" kind="class" language="C++" prot="public">
     <compoundname>MR::MarchingCubesByParts</compoundname>
-    <includes refid="MRMarchingCubes_8h" local="no">MRMarchingCubes.h</includes>
+    <includes refid="MRMarchingCubes_8h" local="no">MRVoxels/MRMarchingCubes.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga731e24a7648d6e8021c2b5173ecd0277" kind="variable"><name>impl_</name></member>
     </sectiondef>
@@ -21,7 +21,7 @@
     <detaileddescription>
 <para>converts volume split on parts by planes z=const into mesh, last z-layer of previous part must be repeated as first z-layer of next part usage: <ref refid="classMR_1_1MarchingCubesByParts" kindref="compound">MarchingCubesByParts</ref> x( dims, params); x.addPart( part1 ); ... x.addPart( partN ); <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> mesh = <ref refid="structMR_1_1Mesh_1afaefb0c0710fe0b87937c2901b4b486a" kindref="member">Mesh::fromTriMesh</ref>( *x.<ref refid="group__GeneralGroup_1ga76529b64a8e1e3a92ddf4c3d7b1d3e85" kindref="member">finalize()</ref> ); </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="94" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" bodystart="95" bodyend="120"/>
+    <location file="MRVoxels/MRMarchingCubes.h" line="94" column="1" bodyfile="MRVoxels/MRMarchingCubes.h" bodystart="95" bodyend="120"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3ce510677c42e024a501000d9d3595e6" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>addPart</name></member>
       <member refid="group__GeneralGroup_1ga76529b64a8e1e3a92ddf4c3d7b1d3e85" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>finalize</name></member>

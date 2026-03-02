@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
-  <compounddef id="classMR_1_1MergeVolumePartSettings" kind="class" language="C#" prot="private">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MergeVolumePartSettings" kind="struct" language="C#" prot="public">
     <compoundname>MR::MergeVolumePartSettings</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_MergeVolumePartSettings</basecompoundref>
     <sectiondef kind="property">
@@ -144,7 +144,7 @@
           <declname>origin</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR.MergeVolumePartSettings</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MergeVolumePartSettings" kindref="compound">MR.MergeVolumePartSettings</ref></computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -163,7 +163,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MergeVolumePartSettings.MergeVolumePartSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MergeVolumePartSettings_1a4f7f7ae91d9d932613b479879a5f126e" kindref="member">MR.MergeVolumePartSettings.MergeVolumePartSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -182,7 +182,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MergeVolumePartSettings.MergeVolumePartSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MergeVolumePartSettings_1a4f7f7ae91d9d932613b479879a5f126e" kindref="member">MR.MergeVolumePartSettings.MergeVolumePartSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -197,11 +197,11 @@
         <name>MergeVolumePartSettings</name>
         <qualifiedname>MR.MergeVolumePartSettings.MergeVolumePartSettings</qualifiedname>
         <param>
-          <type>MergeVolumePartSettings</type>
+          <type><ref refid="classMR_1_1MergeVolumePartSettings" kindref="compound">MergeVolumePartSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.MergeVolumePartSettings.MergeVolumePartSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MergeVolumePartSettings_1a4f7f7ae91d9d932613b479879a5f126e" kindref="member">MR.MergeVolumePartSettings.MergeVolumePartSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -210,7 +210,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="252" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="252" bodyend="252"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MergeVolumePartSettings_1aa37c3d7764ebc18932c53db0a2e7430c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.MergeVolumePartSettings</type>
+        <type>unsafe <ref refid="classMR_1_1MergeVolumePartSettings" kindref="compound">MR.MergeVolumePartSettings</ref></type>
         <definition>unsafe MR.MergeVolumePartSettings MR.MergeVolumePartSettings.assign</definition>
         <argsstring>(MR._ByValue_MergeVolumePartSettings _other)</argsstring>
         <name>assign</name>
@@ -220,7 +220,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.MergeVolumePartSettings.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MergeVolumePartSettings::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -230,56 +230,58 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Parameters&apos; structure for MR.mergeVolumePart. </para>
+<para>Parameters&apos; structure for MR::mergeVolumePart. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="see"><para>mergeVolumePart Generated from class <computeroutput>MR.MergeVolumePartSettings</computeroutput>. This is the const half of the class.</para>
+<para><simplesect kind="see"><para>mergeVolumePart Generated from class <computeroutput><ref refid="classMR_1_1MergeVolumePartSettings" kindref="compound">MR.MergeVolumePartSettings</ref></computeroutput>. This is the const half of the class.</para>
 </simplesect>
-<simplesect kind="see"><para>mergeVolumePart Generated from class <computeroutput>MR.MergeVolumePartSettings</computeroutput>. This is the non-const half of the class. </para>
+<simplesect kind="see"><para>mergeVolumePart Generated from class <computeroutput><ref refid="classMR_1_1MergeVolumePartSettings" kindref="compound">MR.MergeVolumePartSettings</ref></computeroutput>. This is the non-const half of the class. </para>
 </simplesect>
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.MergeVolumePartSettings</label>
+        <link refid="classMR_1_1MergeVolumePartSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_MergeVolumePartSettings</label>
+        <label>MR.Const_MergeVolumePartSettings</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.MergeVolumePartSettings</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MergeVolumePartSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.MergeVolumePartSettings</label>
+        <link refid="classMR_1_1MergeVolumePartSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_MergeVolumePartSettings</label>
+        <label>MR.Const_MergeVolumePartSettings</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.MergeVolumePartSettings</label>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_MergeVolumePartSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="147" column="11"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="147" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="148" bodyend="265"/>
     <listofallmembers>
       <member refid="classMR_1_1MergeVolumePartSettings_1aa37c3d7764ebc18932c53db0a2e7430c" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1MergeVolumePartSettings_1a2d5f576a8a8525ae3ba29fecf0b21d1b" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>mapping</name></member>

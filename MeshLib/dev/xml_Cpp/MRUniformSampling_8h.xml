@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRUniformSampling_8h" kind="file" language="C++">
     <compoundname>MRUniformSampling.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -54,7 +54,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRUniformSampling.h</label>
+        <label>MRMesh/MRUniformSampling.h</label>
         <link refid="MRUniformSampling_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -179,8 +179,8 @@
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41" refid="group__PointCloudGroup_1ga1ff3748ea4a24c0683e2029fb56deb48" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;PointCloud&gt;<sp/><ref refid="group__PointCloudGroup_1ga1ff3748ea4a24c0683e2029fb56deb48" kindref="member">makeUniformSampledCloud</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UniformSamplingSettings" kindref="compound">UniformSamplingSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h"/>
+    <location file="MRMesh/MRUniformSampling.h"/>
   </compounddef>
 </doxygen>

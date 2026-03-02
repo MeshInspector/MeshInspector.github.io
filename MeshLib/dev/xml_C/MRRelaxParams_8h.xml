@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRelaxParams_8h" kind="file" language="C++">
     <compoundname>MRRelaxParams.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -76,98 +76,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRRelaxParams_8h_1a0961ed14052ec630a4f9e367afe11da3" prot="public" static="no">
-        <type>struct <ref refid="MRMeshRelax_8h_1a0961ed14052ec630a4f9e367afe11da3" kindref="member">MR_MeshApproxRelaxParams</ref></type>
-        <definition>typedef struct MR_MeshApproxRelaxParams MR_MeshApproxRelaxParams</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshApproxRelaxParams</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRelaxParams.h" line="12" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRelaxParams.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRelaxParams_8h_1a1cb564fdc55d5745d0ef594a88b81646" prot="public" static="no">
-        <type>struct <ref refid="MRMeshRelax_8h_1a1cb564fdc55d5745d0ef594a88b81646" kindref="member">MR_MeshEqualizeTriAreasParams</ref></type>
-        <definition>typedef struct MR_MeshEqualizeTriAreasParams MR_MeshEqualizeTriAreasParams</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshEqualizeTriAreasParams</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRelaxParams.h" line="13" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRelaxParams.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRelaxParams_8h_1adc5d88756b2c801276a68f81a54a22dc" prot="public" static="no">
-        <type>struct <ref refid="MRMeshRelax_8h_1adc5d88756b2c801276a68f81a54a22dc" kindref="member">MR_MeshRelaxParams</ref></type>
-        <definition>typedef struct MR_MeshRelaxParams MR_MeshRelaxParams</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshRelaxParams</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRelaxParams.h" line="14" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRelaxParams.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRelaxParams_8h_1a576d261d78807ab4a67d7c0977066804" prot="public" static="no">
-        <type>struct <ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref></type>
-        <definition>typedef struct MR_PointCloudApproxRelaxParams MR_PointCloudApproxRelaxParams</definition>
-        <argsstring></argsstring>
-        <name>MR_PointCloudApproxRelaxParams</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRelaxParams.h" line="15" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRelaxParams.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRelaxParams_8h_1a957799ae79eb3501ff98b4a3c3781bc0" prot="public" static="no">
-        <type>struct <ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref></type>
-        <definition>typedef struct MR_PointCloudRelaxParams MR_PointCloudRelaxParams</definition>
-        <argsstring></argsstring>
-        <name>MR_PointCloudRelaxParams</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRelaxParams.h" line="16" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRelaxParams.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRelaxParams_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
-        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_VertBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRelaxParams.h" line="17" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRelaxParams.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRelaxParams_8h_1acbad516b8cbb2b5069857163ee94db3f" prot="public" static="no">
-        <type>struct <ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref></type>
-        <definition>typedef struct MR_RelaxParams MR_RelaxParams</definition>
-        <argsstring></argsstring>
-        <name>MR_RelaxParams</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::RelaxParams</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::MeshRelaxParams</computeroutput> <computeroutput>MR::PointCloudRelaxParams</computeroutput> Indirect: (non-virtual) <computeroutput>MR::MeshApproxRelaxParams</computeroutput> <computeroutput>MR::MeshEqualizeTriAreasParams</computeroutput> <computeroutput>MR::PointCloudApproxRelaxParams</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRelaxParams.h" line="30" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRelaxParams.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRRelaxParams_8h_1a263e9befdfb2ab381789404f8e2118d2" prot="public" static="no">
         <type>enum <ref refid="MRRelaxParams_8h_1a1112baea9bbd6b1cbc51256e83bd698e" kindref="member">MR_RelaxApproxType</ref></type>
         <definition>typedef enum MR_RelaxApproxType MR_RelaxApproxType</definition>
@@ -760,7 +668,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_RelaxParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -778,7 +686,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_RelaxParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -825,15 +733,15 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRRelaxParams_8h_1a0961ed14052ec630a4f9e367afe11da3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshRelax_8h_1a0961ed14052ec630a4f9e367afe11da3" kindref="member">MR_MeshApproxRelaxParams</ref><sp/><ref refid="MRMeshRelax_8h_1a0961ed14052ec630a4f9e367afe11da3" kindref="member">MR_MeshApproxRelaxParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshRelax.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRRelaxParams_8h_1a1cb564fdc55d5745d0ef594a88b81646" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshRelax_8h_1a1cb564fdc55d5745d0ef594a88b81646" kindref="member">MR_MeshEqualizeTriAreasParams</ref><sp/><ref refid="MRMeshRelax_8h_1a1cb564fdc55d5745d0ef594a88b81646" kindref="member">MR_MeshEqualizeTriAreasParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshRelax.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRRelaxParams_8h_1adc5d88756b2c801276a68f81a54a22dc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshRelax_8h_1adc5d88756b2c801276a68f81a54a22dc" kindref="member">MR_MeshRelaxParams</ref><sp/><ref refid="MRMeshRelax_8h_1adc5d88756b2c801276a68f81a54a22dc" kindref="member">MR_MeshRelaxParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshRelax.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRRelaxParams_8h_1a576d261d78807ab4a67d7c0977066804" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloudRelax.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRRelaxParams_8h_1a957799ae79eb3501ff98b4a3c3781bc0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloudRelax.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRRelaxParams_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshRelax_8h_1a0961ed14052ec630a4f9e367afe11da3" kindref="member">MR_MeshApproxRelaxParams</ref><sp/><ref refid="MRMeshRelax_8h_1a0961ed14052ec630a4f9e367afe11da3" kindref="member">MR_MeshApproxRelaxParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshRelax.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshRelax_8h_1a1cb564fdc55d5745d0ef594a88b81646" kindref="member">MR_MeshEqualizeTriAreasParams</ref><sp/><ref refid="MRMeshRelax_8h_1a1cb564fdc55d5745d0ef594a88b81646" kindref="member">MR_MeshEqualizeTriAreasParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshRelax.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshRelax_8h_1adc5d88756b2c801276a68f81a54a22dc" kindref="member">MR_MeshRelaxParams</ref><sp/><ref refid="MRMeshRelax_8h_1adc5d88756b2c801276a68f81a54a22dc" kindref="member">MR_MeshRelaxParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshRelax.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref><sp/><ref refid="MRPointCloudRelax_8h_1a576d261d78807ab4a67d7c0977066804" kindref="member">MR_PointCloudApproxRelaxParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloudRelax.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref><sp/><ref refid="MRPointCloudRelax_8h_1a957799ae79eb3501ff98b4a3c3781bc0" kindref="member">MR_PointCloudRelaxParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloudRelax.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRRelaxParams_8h_1acbad516b8cbb2b5069857163ee94db3f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref><sp/><ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref><sp/><ref refid="MRMeshRelax_8h_1acbad516b8cbb2b5069857163ee94db3f" kindref="member">MR_RelaxParams</ref>;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="MRRelaxParams_8h_1a1112baea9bbd6b1cbc51256e83bd698e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRRelaxParams_8h_1a1112baea9bbd6b1cbc51256e83bd698e" kindref="member">MR_RelaxApproxType</ref></highlight></codeline>
 <codeline lineno="33"><highlight class="normal">{</highlight></codeline>

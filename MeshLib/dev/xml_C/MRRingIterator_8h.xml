@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRingIterator_8h" kind="file" language="C++">
     <compoundname>MRRingIterator.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -45,73 +45,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRRingIterator_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" prot="public" static="no">
-        <type>struct <ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref></type>
-        <definition>typedef struct MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</definition>
-        <argsstring></argsstring>
-        <name>MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRingIterator.h" line="13" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRingIterator.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRingIterator_8h_1a134a47c65547c1f3e3189da6b185fa67" prot="public" static="no">
-        <type>struct <ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref></type>
-        <definition>typedef struct MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</definition>
-        <argsstring></argsstring>
-        <name>MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRingIterator.h" line="14" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRingIterator.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRingIterator_8h_1ad396cf7d4433c5ba7924776f5b379c9b" prot="public" static="no">
-        <type>struct <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref></type>
-        <definition>typedef struct MR_MeshTopology MR_MeshTopology</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshTopology</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRingIterator.h" line="15" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRingIterator.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRingIterator_8h_1a89120138410f15b591375c52d6b999b0" prot="public" static="no">
-        <type>struct <ref refid="MRIteratorRange_8h_1a89120138410f15b591375c52d6b999b0" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin</ref></type>
-        <definition>typedef struct MR_RingIterator_MR_NextEdgeSameOrigin MR_RingIterator_MR_NextEdgeSameOrigin</definition>
-        <argsstring></argsstring>
-        <name>MR_RingIterator_MR_NextEdgeSameOrigin</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::RingIterator&lt;MR::NextEdgeSameOrigin&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::NextEdgeSameOrigin</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRingIterator.h" line="24" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRingIterator.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRRingIterator_8h_1ad437e0fab3b4f064f790a59b9e914e30" prot="public" static="no">
-        <type>struct <ref refid="MRIteratorRange_8h_1ad437e0fab3b4f064f790a59b9e914e30" kindref="member">MR_RingIterator_MR_NextEdgeSameLeft</ref></type>
-        <definition>typedef struct MR_RingIterator_MR_NextEdgeSameLeft MR_RingIterator_MR_NextEdgeSameLeft</definition>
-        <argsstring></argsstring>
-        <name>MR_RingIterator_MR_NextEdgeSameLeft</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::RingIterator&lt;MR::NextEdgeSameLeft&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::NextEdgeSameLeft</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRingIterator.h" line="32" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRingIterator.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRRingIterator_8h_1a59e1d582a0016f4fda5ffe0c11c56717" prot="public" static="no">
         <type>struct <ref refid="MRRingIterator_8h_1a59e1d582a0016f4fda5ffe0c11c56717" kindref="member">MR_NextEdgeSameOrigin</ref></type>
         <definition>typedef struct MR_NextEdgeSameOrigin MR_NextEdgeSameOrigin</definition>
@@ -276,7 +209,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_RingIterator_MR_NextEdgeSameOrigin</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRIteratorRange_8h_1a89120138410f15b591375c52d6b999b0" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -294,7 +227,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_RingIterator_MR_NextEdgeSameOrigin</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRIteratorRange_8h_1a89120138410f15b591375c52d6b999b0" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -578,7 +511,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_RingIterator_MR_NextEdgeSameLeft</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRIteratorRange_8h_1ad437e0fab3b4f064f790a59b9e914e30" kindref="member">MR_RingIterator_MR_NextEdgeSameLeft</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -596,7 +529,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_RingIterator_MR_NextEdgeSameLeft</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRIteratorRange_8h_1ad437e0fab3b4f064f790a59b9e914e30" kindref="member">MR_RingIterator_MR_NextEdgeSameLeft</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -872,7 +805,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NextEdgeSameOrigin</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRRingIterator_8h_1a59e1d582a0016f4fda5ffe0c11c56717" kindref="member">MR_NextEdgeSameOrigin</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -890,7 +823,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NextEdgeSameOrigin</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRRingIterator_8h_1a59e1d582a0016f4fda5ffe0c11c56717" kindref="member">MR_NextEdgeSameOrigin</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1068,7 +1001,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_NextEdgeSameLeft</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRRingIterator_8h_1a2af0f32d2a47d854bf6398dfdce195e6" kindref="member">MR_NextEdgeSameLeft</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1086,7 +1019,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_NextEdgeSameLeft</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRRingIterator_8h_1a2af0f32d2a47d854bf6398dfdce195e6" kindref="member">MR_NextEdgeSameLeft</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1288,20 +1221,20 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRRingIterator_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIteratorRange.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRRingIterator_8h_1a134a47c65547c1f3e3189da6b185fa67" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/><ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIteratorRange.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRRingIterator_8h_1ad396cf7d4433c5ba7924776f5b379c9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIteratorRange.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/><ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIteratorRange.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>iterator<sp/>to<sp/>find<sp/>all<sp/>edges<sp/>in<sp/>a<sp/>ring<sp/>of<sp/>edges<sp/>(e.g.<sp/>all<sp/>edges<sp/>with<sp/>same<sp/>origin<sp/>or<sp/>all<sp/>edges<sp/>with<sp/>same<sp/>left<sp/>face)</highlight></codeline>
-<codeline lineno="24" refid="MRRingIterator_8h_1a89120138410f15b591375c52d6b999b0" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIteratorRange_8h_1a89120138410f15b591375c52d6b999b0" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/><ref refid="MRIteratorRange_8h_1a89120138410f15b591375c52d6b999b0" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>iterator<sp/>to<sp/>find<sp/>all<sp/>edges<sp/>in<sp/>a<sp/>ring<sp/>of<sp/>edges<sp/>(e.g.<sp/>all<sp/>edges<sp/>with<sp/>same<sp/>origin<sp/>or<sp/>all<sp/>edges<sp/>with<sp/>same<sp/>left<sp/>face)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIteratorRange_8h_1a89120138410f15b591375c52d6b999b0" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/><ref refid="MRIteratorRange_8h_1a89120138410f15b591375c52d6b999b0" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>iterator<sp/>to<sp/>find<sp/>all<sp/>edges<sp/>in<sp/>a<sp/>ring<sp/>of<sp/>edges<sp/>(e.g.<sp/>all<sp/>edges<sp/>with<sp/>same<sp/>origin<sp/>or<sp/>all<sp/>edges<sp/>with<sp/>same<sp/>left<sp/>face)</highlight></codeline>
-<codeline lineno="32" refid="MRRingIterator_8h_1ad437e0fab3b4f064f790a59b9e914e30" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIteratorRange_8h_1ad437e0fab3b4f064f790a59b9e914e30" kindref="member">MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/><ref refid="MRIteratorRange_8h_1ad437e0fab3b4f064f790a59b9e914e30" kindref="member">MR_RingIterator_MR_NextEdgeSameLeft</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>iterator<sp/>to<sp/>find<sp/>all<sp/>edges<sp/>in<sp/>a<sp/>ring<sp/>of<sp/>edges<sp/>(e.g.<sp/>all<sp/>edges<sp/>with<sp/>same<sp/>origin<sp/>or<sp/>all<sp/>edges<sp/>with<sp/>same<sp/>left<sp/>face)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIteratorRange_8h_1ad437e0fab3b4f064f790a59b9e914e30" kindref="member">MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/><ref refid="MRIteratorRange_8h_1ad437e0fab3b4f064f790a59b9e914e30" kindref="member">MR_RingIterator_MR_NextEdgeSameLeft</ref>;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRRingIterator_8h_1a59e1d582a0016f4fda5ffe0c11c56717" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRingIterator_8h_1a59e1d582a0016f4fda5ffe0c11c56717" kindref="member">MR_NextEdgeSameOrigin</ref><sp/><ref refid="MRRingIterator_8h_1a59e1d582a0016f4fda5ffe0c11c56717" kindref="member">MR_NextEdgeSameOrigin</ref>;</highlight></codeline>
+<codeline lineno="39" refid="MRRingIterator_8h_1a59e1d582a0016f4fda5ffe0c11c56717" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRingIterator_8h_1a59e1d582a0016f4fda5ffe0c11c56717" kindref="member">MR_NextEdgeSameOrigin</ref><sp/><ref refid="MRRingIterator_8h_1a59e1d582a0016f4fda5ffe0c11c56717" kindref="member">MR_NextEdgeSameOrigin</ref>;</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRRingIterator_8h_1a2af0f32d2a47d854bf6398dfdce195e6" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRingIterator_8h_1a2af0f32d2a47d854bf6398dfdce195e6" kindref="member">MR_NextEdgeSameLeft</ref><sp/><ref refid="MRRingIterator_8h_1a2af0f32d2a47d854bf6398dfdce195e6" kindref="member">MR_NextEdgeSameLeft</ref>;</highlight></codeline>
+<codeline lineno="46" refid="MRRingIterator_8h_1a2af0f32d2a47d854bf6398dfdce195e6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRingIterator_8h_1a2af0f32d2a47d854bf6398dfdce195e6" kindref="member">MR_NextEdgeSameLeft</ref><sp/><ref refid="MRRingIterator_8h_1a2af0f32d2a47d854bf6398dfdce195e6" kindref="member">MR_NextEdgeSameLeft</ref>;</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
 <codeline lineno="52" refid="MRRingIterator_8h_1a73ebb15da830d2468a10537d46096866" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1a89120138410f15b591375c52d6b999b0" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*<ref refid="MRRingIterator_8h_1a73ebb15da830d2468a10537d46096866" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a89120138410f15b591375c52d6b999b0" kindref="member">MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
@@ -1404,23 +1337,23 @@
 <codeline lineno="288" refid="MRRingIterator_8h_1af631e32128af04b4f415d40c25f3673d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/><ref refid="MRRingIterator_8h_1af631e32128af04b4f415d40c25f3673d" kindref="member">MR_NextEdgeSameLeft_next</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRingIterator_8h_1a2af0f32d2a47d854bf6398dfdce195e6" kindref="member">MR_NextEdgeSameLeft</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e);</highlight></codeline>
 <codeline lineno="289"><highlight class="normal"></highlight></codeline>
 <codeline lineno="290"><highlight class="normal"></highlight><highlight class="comment">//<sp/>to<sp/>iterate<sp/>over<sp/>all<sp/>edges<sp/>with<sp/>same<sp/>origin<sp/>vertex<sp/><sp/>as<sp/>firstEdge<sp/>(INCLUDING<sp/>firstEdge)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="291"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>(<sp/>Edge<sp/>e<sp/>:<sp/>orgRing(<sp/>topology,<sp/>firstEdge<sp/>)<sp/>)<sp/>...</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>(<sp/>Edge<sp/>e<sp/>:<sp/>orgRing(<sp/>topology,<sp/>firstEdge<sp/>)<sp/>)<sp/>...</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="295" refid="MRRingIterator_8h_1af679c02671b24d6706a2012cbbd4c50c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*<ref refid="MRRingIterator_8h_1af679c02671b24d6706a2012cbbd4c50c" kindref="member">MR_orgRing_MR_EdgeId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>edge);</highlight></codeline>
 <codeline lineno="296"><highlight class="normal"></highlight></codeline>
 <codeline lineno="300" refid="MRRingIterator_8h_1ac0b6703a08bd574b3998d00c8d963afb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*<ref refid="MRRingIterator_8h_1ac0b6703a08bd574b3998d00c8d963afb" kindref="member">MR_orgRing_MR_VertId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v);</highlight></codeline>
 <codeline lineno="301"><highlight class="normal"></highlight></codeline>
 <codeline lineno="302"><highlight class="normal"></highlight><highlight class="comment">//<sp/>to<sp/>iterate<sp/>over<sp/>all<sp/>edges<sp/>with<sp/>same<sp/>origin<sp/>vertex<sp/>as<sp/>firstEdge<sp/>(EXCLUDING<sp/>firstEdge)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="303"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>(<sp/>Edge<sp/>e<sp/>:<sp/>orgRing0(<sp/>topology,<sp/>firstEdge<sp/>)<sp/>)<sp/>...</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>(<sp/>Edge<sp/>e<sp/>:<sp/>orgRing0(<sp/>topology,<sp/>firstEdge<sp/>)<sp/>)<sp/>...</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="307" refid="MRRingIterator_8h_1a9c28775948aa27cc5b107370ce1f93c1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1a134a47c65547c1f3e3189da6b185fa67" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin</ref><sp/>*<ref refid="MRRingIterator_8h_1a9c28775948aa27cc5b107370ce1f93c1" kindref="member">MR_orgRing0</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>edge);</highlight></codeline>
 <codeline lineno="308"><highlight class="normal"></highlight></codeline>
 <codeline lineno="309"><highlight class="normal"></highlight><highlight class="comment">//<sp/>to<sp/>iterate<sp/>over<sp/>all<sp/>edges<sp/>with<sp/>same<sp/>left<sp/>face<sp/>as<sp/>firstEdge<sp/>(INCLUDING<sp/>firstEdge)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="310"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>(<sp/>Edge<sp/>e<sp/>:<sp/>leftRing(<sp/>topology,<sp/>firstEdge<sp/>)<sp/>)<sp/>...</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>(<sp/>Edge<sp/>e<sp/>:<sp/>leftRing(<sp/>topology,<sp/>firstEdge<sp/>)<sp/>)<sp/>...</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="314" refid="MRRingIterator_8h_1ade68b414743df09ed0e3e8853d825f95" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*<ref refid="MRRingIterator_8h_1ade68b414743df09ed0e3e8853d825f95" kindref="member">MR_leftRing_MR_EdgeId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>edge);</highlight></codeline>
 <codeline lineno="315"><highlight class="normal"></highlight></codeline>
 <codeline lineno="319" refid="MRRingIterator_8h_1a86a0bb646509e03d6cc927a5cbd92b5d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*<ref refid="MRRingIterator_8h_1a86a0bb646509e03d6cc927a5cbd92b5d" kindref="member">MR_leftRing_MR_FaceId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>f);</highlight></codeline>
 <codeline lineno="320"><highlight class="normal"></highlight></codeline>
 <codeline lineno="321"><highlight class="normal"></highlight><highlight class="comment">//<sp/>to<sp/>iterate<sp/>over<sp/>all<sp/>edges<sp/>with<sp/>same<sp/>left<sp/>face<sp/>as<sp/>firstEdge<sp/>(EXCLUDING<sp/>firstEdge)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="322"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>(<sp/>Edge<sp/>e<sp/>:<sp/>leftRing0(<sp/>topology,<sp/>firstEdge<sp/>)<sp/>)<sp/>...</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>(<sp/>Edge<sp/>e<sp/>:<sp/>leftRing0(<sp/>topology,<sp/>firstEdge<sp/>)<sp/>)<sp/>...</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="326" refid="MRRingIterator_8h_1a127bfc0e41f6bdc0460f2b0bde48fa07" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*<ref refid="MRRingIterator_8h_1a127bfc0e41f6bdc0460f2b0bde48fa07" kindref="member">MR_leftRing0</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>edge);</highlight></codeline>
 <codeline lineno="327"><highlight class="normal"></highlight></codeline>
 <codeline lineno="328"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>

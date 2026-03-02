@@ -1,9 +1,6 @@
 var MRChangeColoringType_8h =
 [
     [ "MR_ChangeColoringType", "MRChangeColoringType_8h.html#a39d00a70b6ff4dda255d4fe1d3b6d8a9", null ],
-    [ "MR_HistoryAction", "MRChangeColoringType_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
-    [ "MR_std_shared_ptr_MR_VisualObject", "MRChangeColoringType_8h.html#aa4b9828f4113d20d85483568f977c8ff", null ],
-    [ "MR_std_string", "MRChangeColoringType_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_ChangeColoringType_action", "MRChangeColoringType_8h.html#aca4dc01ff9d00e2caac119559af108de", null ],
     [ "MR_ChangeColoringType_AssignFromAnother", "MRChangeColoringType_8h.html#ad4649cf3b2d320af0bb873cc0df9aa05", null ],
     [ "MR_ChangeColoringType_Construct_2", "MRChangeColoringType_8h.html#aac9bfd72137c6a34724ce87c44f68ebc", null ],

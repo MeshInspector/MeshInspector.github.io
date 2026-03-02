@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1CutByProjectionSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::CutByProjectionSettings</compoundname>
-    <includes refid="MRContoursCut_8h" local="no">MRContoursCut.h</includes>
+    <includes refid="MRContoursCut_8h" local="no">MRMesh/MRContoursCut.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga789a41f7dc3d705c8ee83ea3c207ef9e" kind="variable"><name>direction</name></member>
       <member refid="group__GeneralGroup_1ga1e498975d50ae1790f29c924362e4261" kind="variable"><name>cont2mesh</name></member>
@@ -12,7 +12,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" bodystart="106" bodyend="112"/>
+    <location file="MRMesh/MRContoursCut.h" line="105" column="1" bodyfile="MRMesh/MRContoursCut.h" bodystart="106" bodyend="112"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1e498975d50ae1790f29c924362e4261" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>cont2mesh</name></member>
       <member refid="group__GeneralGroup_1ga789a41f7dc3d705c8ee83ea3c207ef9e" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>direction</name></member>

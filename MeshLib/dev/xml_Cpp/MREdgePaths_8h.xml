@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MREdgePaths_8h" kind="file" language="C++">
     <compoundname>MREdgePaths.h</compoundname>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
@@ -7,9 +7,9 @@
     <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
     <includes local="no">cfloat</includes>
     <includes local="no">vector</includes>
-    <includedby refid="MREdgePathsBuilder_8h" local="yes">MREdgePathsBuilder.h</includedby>
-    <includedby refid="MRFillContourByGraphCut_8h" local="yes">MRFillContourByGraphCut.h</includedby>
-    <includedby refid="MRSurroundingContour_8h" local="yes">MRSurroundingContour.h</includedby>
+    <includedby refid="MREdgePathsBuilder_8h" local="yes">MRMesh/MREdgePathsBuilder.h</includedby>
+    <includedby refid="MRFillContourByGraphCut_8h" local="yes">MRMesh/MRFillContourByGraphCut.h</includedby>
+    <includedby refid="MRSurroundingContour_8h" local="yes">MRMesh/MRSurroundingContour.h</includedby>
     <incdepgraph>
       <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -28,7 +28,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MREdgePaths.h</label>
+        <label>MRMesh/MREdgePaths.h</label>
         <link refid="MREdgePaths_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -136,7 +136,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MREdgePaths.h</label>
+        <label>MRMesh/MREdgePaths.h</label>
         <link refid="MREdgePaths_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -146,15 +146,15 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MREdgePathsBuilder.h</label>
+        <label>MRMesh/MREdgePathsBuilder.h</label>
         <link refid="MREdgePathsBuilder_8h"/>
       </node>
       <node id="3">
-        <label>MRFillContourByGraphCut.h</label>
+        <label>MRMesh/MRFillContourByGraphCut.h</label>
         <link refid="MRFillContourByGraphCut_8h"/>
       </node>
       <node id="4">
-        <label>MRSurroundingContour.h</label>
+        <label>MRMesh/MRSurroundingContour.h</label>
         <link refid="MRSurroundingContour_8h"/>
       </node>
     </invincdepgraph>
@@ -177,7 +177,7 @@
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="group__SurfacePathGroup_1gaa19748400735de370a91b932989ff0f0" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__SurfacePathGroup_1gaa19748400735de370a91b932989ff0f0" kindref="member">isEdgePath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgeId&gt;<sp/>&amp;<sp/>edges<sp/>);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="group__SurfacePathGroup_1gac69eac289f7c94aff94e7e9db7ed8a62" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__SurfacePathGroup_1gac69eac289f7c94aff94e7e9db7ed8a62" kindref="member">isEdgeLoop</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;EdgeId&gt;<sp/>&amp;<sp/>edges<sp/>);</highlight></codeline>
@@ -197,7 +197,7 @@
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46" refid="group__SurfacePathGroup_1ga76647b99785eef207f1f05c7dc568e35" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__SurfacePathGroup_1ga76647b99785eef207f1f05c7dc568e35" kindref="member">addLeftBand</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga099da1b4cb4b8348ee3fed0588b01aa3" kindref="member">EdgeLoop</ref><sp/>&amp;<sp/>loop,<sp/>FaceBitSet<sp/>&amp;<sp/>addHere<sp/>);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="structMR_1_1TerminalVertex" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TerminalVertex" kindref="compound">TerminalVertex</ref></highlight></codeline>
+<codeline lineno="50" refid="structMR_1_1TerminalVertex" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TerminalVertex" kindref="compound">TerminalVertex</ref></highlight></codeline>
 <codeline lineno="51"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="52" refid="group__GeneralGroup_1gae7c419aebb40aa7937984ceba3489254" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="group__GeneralGroup_1gae7c419aebb40aa7937984ceba3489254" kindref="member">v</ref>;</highlight></codeline>
 <codeline lineno="53" refid="group__GeneralGroup_1gab851f9e73d6568c7bda22cae8c669238" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab851f9e73d6568c7bda22cae8c669238" kindref="member">metric</ref><sp/>=<sp/>0;</highlight></codeline>
@@ -272,8 +272,8 @@
 <codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;EdgeId&gt;<sp/>*<sp/>outInPlaneEdges<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"></highlight></codeline>
 <codeline lineno="159"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="160"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h"/>
+    <location file="MRMesh/MREdgePaths.h"/>
   </compounddef>
 </doxygen>

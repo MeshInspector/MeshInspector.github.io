@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ICPMode" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ICPMode</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -346,22 +346,6 @@
   TranslationOnly : only translation (3 degrees of freedom)
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.ICPMode</label>
-        <link refid="classmrmeshpy_1_1ICPMode"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>AnyRigidXf</edgelabel>
-          <edgelabel>FixedAxis</edgelabel>
-          <edgelabel>OrthogonalAxis</edgelabel>
-          <edgelabel>RigidScale</edgelabel>
-          <edgelabel>TranslationOnly</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23290" bodyend="23335"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ICPMode_1a5e8a96aede3746da927d8ab08438f578" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPMode</scope><name>__eq__</name></member>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1BaseTiffParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::BaseTiffParameters</compoundname>
     <derivedcompoundref refid="structMR_1_1TiffParameters" prot="public" virt="non-virtual">MR::TiffParameters</derivedcompoundref>
-    <includes refid="MRTiffIO_8h" local="no">MRTiffIO.h</includes>
+    <includes refid="MRTiffIO_8h" local="no">MRMesh/MRTiffIO.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gaaf63d045d0a43afd72404a7a0d4f862f" kind="enum"><name>SampleType</name></member>
       <member refid="group__GeneralGroup_1ga29407caa933d6665768b37358d7733e0" kind="enum"><name>ValueType</name></member>
@@ -33,7 +33,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="17" bodyend="41"/>
+    <location file="MRMesh/MRTiffIO.h" line="16" column="1" bodyfile="MRMesh/MRTiffIO.h" bodystart="17" bodyend="41"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3ff0d181f2553f8714d635e264f383c7" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>bytesPerSample</name></member>
       <member refid="group__GeneralGroup_1gaccde4306e1b219c38e5ff1880b053701" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>imageSize</name></member>

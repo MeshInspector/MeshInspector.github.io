@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FaceColors" kind="class" language="C#" prot="public">
     <compoundname>MR::FaceColors</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_FaceColors</basecompoundref>
@@ -26,7 +26,7 @@
         <name>this[MR.FaceId i]</name>
         <qualifiedname>MR.FaceColors.this[MR.FaceId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FaceColors.operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FaceColors::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -86,7 +86,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FaceColors.FaceColors</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceColors_1aa54c3f2c753553b4479b578ffb17f52c" kindref="member">MR.FaceColors.FaceColors</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -105,7 +105,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FaceColors.FaceColors</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceColors_1aa54c3f2c753553b4479b578ffb17f52c" kindref="member">MR.FaceColors.FaceColors</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -124,7 +124,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FaceColors.FaceColors</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceColors_1aa54c3f2c753553b4479b578ffb17f52c" kindref="member">MR.FaceColors.FaceColors</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,7 +143,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.FaceColors.FaceColors</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput><ref refid="classMR_1_1FaceColors_1aa54c3f2c753553b4479b578ffb17f52c" kindref="member">MR.FaceColors.FaceColors</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -166,7 +166,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.FaceColors.FaceColors</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput><ref refid="classMR_1_1FaceColors_1aa54c3f2c753553b4479b578ffb17f52c" kindref="member">MR.FaceColors.FaceColors</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -185,7 +185,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.FaceColors.FaceColors</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1FaceColors_1aa54c3f2c753553b4479b578ffb17f52c" kindref="member">MR.FaceColors.FaceColors</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -204,7 +204,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FaceColors.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FaceColors::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -429,7 +429,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FaceColors.push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FaceColors::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -452,7 +452,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FaceColors.push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FaceColors::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -467,7 +467,7 @@
         <name>popBack</name>
         <qualifiedname>MR.FaceColors.popBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FaceColors.pop_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FaceColors::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -482,7 +482,7 @@
         <name>emplaceBack</name>
         <qualifiedname>MR.FaceColors.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.FaceColors.emplace_back&lt;&gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FaceColors::emplace_back&lt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -567,7 +567,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.FaceColors.FaceColors</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1FaceColors_1aa54c3f2c753553b4479b578ffb17f52c" kindref="member">MR.FaceColors.FaceColors</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -577,7 +577,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -600,8 +600,14 @@
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.FaceColors</label>
+        <link refid="classMR_1_1FaceColors"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_FaceColors</label>
+        <label>MR.Const_FaceColors</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -609,25 +615,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.FaceColors</label>
-        <link refid="classMR_1_1FaceColors"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FaceColors &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_FaceColors &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.FaceColors</label>
+        <link refid="classMR_1_1FaceColors"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_FaceColors</label>
+        <label>MR.Const_FaceColors</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -635,20 +641,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.FaceColors</label>
-        <link refid="classMR_1_1FaceColors"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_FaceColors &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_FaceColors &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="12823" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="12824" bodyend="13155"/>

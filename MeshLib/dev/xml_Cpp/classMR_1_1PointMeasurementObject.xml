@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointMeasurementObject" kind="class" language="C++" prot="public">
     <compoundname>MR::PointMeasurementObject</compoundname>
     <basecompoundref refid="classMR_1_1MeasurementObject" prot="public" virt="non-virtual">MR::MeasurementObject</basecompoundref>
     <basecompoundref refid="classMR_1_1ObjectComparableWithReference" prot="public" virt="non-virtual">MR::ObjectComparableWithReference</basecompoundref>
-    <includes refid="MRPointMeasurementObject_8h" local="no">MRPointMeasurementObject.h</includes>
+    <includes refid="MRPointMeasurementObject_8h" local="no">MRMesh/MRPointMeasurementObject.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga95facd11fa69b61db27f87fbd737df5d" kind="variable"><name>referencePos_</name></member>
       <member refid="group__GeneralGroup_1gaefa853ab1211c443d16dcf16f2f39d84" kind="variable"><name>referenceNormal_</name></member>
@@ -191,7 +191,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" bodystart="22" bodyend="87"/>
+    <location file="MRMesh/MRPointMeasurementObject.h" line="19" column="1" bodyfile="MRMesh/MRPointMeasurementObject.h" bodystart="22" bodyend="87"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>addChildBefore</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CircleObject" kind="class" language="C#" prot="public">
     <compoundname>MR::CircleObject</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_CircleObject</basecompoundref>
@@ -177,7 +177,7 @@
           <declname>pointsToApprox</declname>
         </param>
         <briefdescription>
-<para>Finds best sphere to approx given points Generated from constructor <computeroutput>MR.CircleObject.CircleObject</computeroutput>. </para>
+<para>Finds best sphere to approx given points Generated from constructor <computeroutput><ref refid="classMR_1_1CircleObject_1a766161eb249c0247b1298fc1714c4759" kindref="member">MR.CircleObject.CircleObject</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -259,7 +259,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.CircleObject.CircleObject</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CircleObject_1a766161eb249c0247b1298fc1714c4759" kindref="member">MR.CircleObject.CircleObject</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -278,7 +278,7 @@
           <declname>pointsToApprox</declname>
         </param>
         <briefdescription>
-<para>Finds best sphere to approx given points Generated from constructor <computeroutput>MR.CircleObject.CircleObject</computeroutput>. </para>
+<para>Finds best sphere to approx given points Generated from constructor <computeroutput><ref refid="classMR_1_1CircleObject_1a766161eb249c0247b1298fc1714c4759" kindref="member">MR.CircleObject.CircleObject</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -297,7 +297,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.CircleObject.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::CircleObject::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -921,7 +921,7 @@
 <parametername>mask</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>is a union of DirtyFlags flags </para>
+<para>is a union of <ref refid="classMR_1afdc8eb214c61d43e8ef39575a19d0e29" kindref="member">DirtyFlags</ref> flags </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1444,7 +1444,7 @@
           <declname>tag</declname>
         </param>
         <briefdescription>
-<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager.tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a03a20ed4c23cbe2f92fa47488f4f5294" kindref="member">MR.CircleObject.addTag</ref></computeroutput>. </para>
+<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager::tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a03a20ed4c23cbe2f92fa47488f4f5294" kindref="member">MR.CircleObject.addTag</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1463,7 +1463,7 @@
           <declname>tag</declname>
         </param>
         <briefdescription>
-<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager.tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a192e021c7ba5f4bbaeb315115ebae535" kindref="member">MR.CircleObject.removeTag</ref></computeroutput>. </para>
+<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager::tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a192e021c7ba5f4bbaeb315115ebae535" kindref="member">MR.CircleObject.removeTag</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1473,50 +1473,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para><ref refid="classMR_1_1Object" kindref="compound">Object</ref> to show sphere feature, position and radius are controlled by xf Generated from class <computeroutput><ref refid="classMR_1_1CircleObject" kindref="compound">MR.CircleObject</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter&gt;</computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></computeroutput> This is the non-const half of the class. </para>
+<para><ref refid="classMR_1_1Object" kindref="compound">Object</ref> to show sphere feature, position and radius are controlled by xf Generated from class <computeroutput><ref refid="classMR_1_1CircleObject" kindref="compound">MR.CircleObject</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter&gt;</computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_CircleObject</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.CircleObject</label>
         <link refid="classMR_1_1CircleObject"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_CircleObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_CircleObject &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_CircleObject</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.CircleObject</label>
         <link refid="classMR_1_1CircleObject"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_CircleObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_CircleObject &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1126" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1127" bodyend="1908"/>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRContoursSeparation_8h" kind="file" language="C++">
     <compoundname>MRContoursSeparation.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -12,7 +12,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRContoursSeparation.h</label>
+        <label>MRMesh/MRContoursSeparation.h</label>
         <link refid="MRContoursSeparation_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -86,14 +86,14 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="group__GeneralGroup_1ga2403984460c26289689a1eddd1fb4270" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga2403984460c26289689a1eddd1fb4270" kindref="member">PathMeshEdgePointCallback</ref><sp/>=<sp/>std::function&lt;void(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">MeshEdgePoint</ref>&amp;<sp/>mep<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="13" refid="group__GeneralGroup_1ga2403984460c26289689a1eddd1fb4270" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga2403984460c26289689a1eddd1fb4270" kindref="member">PathMeshEdgePointCallback</ref><sp/>=<sp/>std::function&lt;void(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8ffb37085bbd6060f17bcf222941ab8c" kindref="member">MeshEdgePoint</ref>&amp;<sp/>mep<sp/>)&gt;;</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga41199d0cddfedc2e7a079524081c570e" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;FaceBitSet&gt;<sp/><ref refid="group__GeneralGroup_1ga41199d0cddfedc2e7a079524081c570e" kindref="member">separateClosedContour</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>contour,</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2403984460c26289689a1eddd1fb4270" kindref="member">PathMeshEdgePointCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursSeparation.h"/>
+    <location file="MRMesh/MRContoursSeparation.h"/>
   </compounddef>
 </doxygen>

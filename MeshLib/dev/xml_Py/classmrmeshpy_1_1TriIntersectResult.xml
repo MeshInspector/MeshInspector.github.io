@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1TriIntersectResult" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::TriIntersectResult</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -248,19 +248,6 @@
 <para><verbatim>Generated from:  MR::TriIntersectResult
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.TriIntersectResult</label>
-        <link refid="classmrmeshpy_1_1TriIntersectResult"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_bary</edgelabel>
-          <edgelabel>_offsetof_t</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57715" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57715" bodyend="57756"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1TriIntersectResult_1aeb34ff9578447f13ba41221ca8e2bbdd" prot="public" virt="non-virtual"><scope>mrmeshpy::TriIntersectResult</scope><name>__init__</name></member>

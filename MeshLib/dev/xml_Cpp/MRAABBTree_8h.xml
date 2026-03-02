@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRAABBTree_8h" kind="file" language="C++">
     <compoundname>MRAABBTree.h</compoundname>
     <includes refid="MRAABBTreeBase_8h" local="yes">MRAABBTreeBase.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRAABBTree.h</label>
+        <label>MRMesh/MRAABBTree.h</label>
         <link refid="MRAABBTree_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -291,26 +291,27 @@
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="classMR_1_1AABBTree" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreeBase" kindref="compound">AABBTreeBase</ref>&lt;FaceTreeTraits3&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1AABBTree" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1AABBTree_1abea29a2d21e3807703a04574779d3d71" kindref="member">AABBTree</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreeBase" kindref="compound">AABBTreeBase</ref>&lt;FaceTreeTraits3&gt;</highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="classMR_1_1AABBTree_1abea29a2d21e3807703a04574779d3d71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTree_1abea29a2d21e3807703a04574779d3d71" kindref="member">AABBTree</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp<sp/>);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="classMR_1_1AABBTree_1a23b6f58682ec54006a8fb8d00ca4a191" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AABBTree_1a23b6f58682ec54006a8fb8d00ca4a191" kindref="member">AABBTree</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="22" refid="classMR_1_1AABBTree_1a299be175c35406bc5c624c524a3221e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AABBTree_1a299be175c35406bc5c624c524a3221e7" kindref="member">AABBTree</ref>(<sp/><ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref><sp/>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
-<codeline lineno="23" refid="classMR_1_1AABBTree_1a3d03064881df6e739bd9f815c909abe5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref><sp/>&amp;<sp/>operator<sp/>=(<sp/><ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref><sp/>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="22" refid="classMR_1_1AABBTree_1a299be175c35406bc5c624c524a3221e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AABBTree_1a299be175c35406bc5c624c524a3221e7" kindref="member">AABBTree</ref>(<sp/><ref refid="classMR_1_1AABBTree_1abea29a2d21e3807703a04574779d3d71" kindref="member">AABBTree</ref><sp/>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="23" refid="classMR_1_1AABBTree_1a3d03064881df6e739bd9f815c909abe5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AABBTree_1abea29a2d21e3807703a04574779d3d71" kindref="member">AABBTree</ref><sp/>&amp;<sp/>operator<sp/>=(<sp/><ref refid="classMR_1_1AABBTree_1abea29a2d21e3807703a04574779d3d71" kindref="member">AABBTree</ref><sp/>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="classMR_1_1AABBTree_1ae34906bea801ab798c256ac017ef0a70" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTree_1ae34906bea801ab798c256ac017ef0a70" kindref="member">refit</ref>(<sp/>const<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/>const<sp/>VertBitSet<sp/>&amp;<sp/>changedVerts<sp/>);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal">private:</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref>(<sp/>const<sp/><ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref><sp/>&amp;<sp/>)<sp/>=<sp/>default;</highlight></codeline>
-<codeline lineno="33" refid="classMR_1_1AABBTree_1a1c7a27ff83b86c0c4b27ab51c59cdedb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref><sp/>&amp;<sp/>operator<sp/>=(<sp/>const<sp/><ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref><sp/>&amp;<sp/>)<sp/>=<sp/>default;</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>friend<sp/>class<sp/><ref refid="classMR_1_1UniqueThreadSafeOwner" kindref="compound">UniqueThreadSafeOwner</ref>&lt;<ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref>&gt;;</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>friend<sp/>class<sp/><ref refid="classMR_1_1SharedThreadSafeOwner" kindref="compound">SharedThreadSafeOwner</ref>&lt;<ref refid="classMR_1_1AABBTree" kindref="compound">AABBTree</ref>&gt;;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AABBTree_1abea29a2d21e3807703a04574779d3d71" kindref="member">AABBTree</ref>(<sp/>const<sp/><ref refid="classMR_1_1AABBTree_1abea29a2d21e3807703a04574779d3d71" kindref="member">AABBTree</ref><sp/>&amp;<sp/>)<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="33" refid="classMR_1_1AABBTree_1a1c7a27ff83b86c0c4b27ab51c59cdedb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AABBTree_1abea29a2d21e3807703a04574779d3d71" kindref="member">AABBTree</ref><sp/>&amp;<sp/>operator<sp/>=(<sp/>const<sp/><ref refid="classMR_1_1AABBTree_1abea29a2d21e3807703a04574779d3d71" kindref="member">AABBTree</ref><sp/>&amp;<sp/>)<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>friend<sp/>class<sp/><ref refid="classMR_1_1UniqueThreadSafeOwner" kindref="compound">UniqueThreadSafeOwner</ref>&lt;<ref refid="classMR_1_1AABBTree_1abea29a2d21e3807703a04574779d3d71" kindref="member">AABBTree</ref>&gt;;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>friend<sp/>class<sp/><ref refid="classMR_1_1SharedThreadSafeOwner" kindref="compound">SharedThreadSafeOwner</ref>&lt;<ref refid="classMR_1_1AABBTree_1abea29a2d21e3807703a04574779d3d71" kindref="member">AABBTree</ref>&gt;;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTree.h"/>
+    <location file="MRMesh/MRAABBTree.h"/>
   </compounddef>
 </doxygen>

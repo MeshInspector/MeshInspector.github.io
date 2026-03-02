@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshBuilderTypes_8h" kind="file" language="C++">
     <compoundname>MRMeshBuilderTypes.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -51,19 +51,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRMeshBuilderTypes_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
-        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_FaceBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" prot="public" static="no">
         <type>struct <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref></type>
         <definition>typedef struct MR_MeshBuilder_Triangle MR_MeshBuilder_Triangle</definition>
@@ -77,20 +64,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="20" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMeshBuilderTypes_8h_1ad64e870545f55932379857e2c2d7eafb" prot="public" static="no">
-        <type>struct <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref></type>
-        <definition>typedef struct MR_MeshBuilder_BuildSettings MR_MeshBuilder_BuildSettings</definition>
-        <argsstring></argsstring>
-        <name>MR_MeshBuilder_BuildSettings</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="24" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" prot="public" static="no">
         <type>struct <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref></type>
@@ -361,7 +334,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshBuilder_Triangle</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -379,7 +352,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MeshBuilder_Triangle</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -800,7 +773,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshBuilder_BuildSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -818,7 +791,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MeshBuilder_BuildSettings</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1093,7 +1066,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshBuilder_VertSpan</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1111,7 +1084,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_MeshBuilder_VertSpan</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1160,15 +1133,15 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRMeshBuilderTypes_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref>;</highlight></codeline>
+<codeline lineno="20" refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRMeshBuilderTypes_8h_1ad64e870545f55932379857e2c2d7eafb" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>each<sp/>face<sp/>is<sp/>surrounded<sp/>by<sp/>a<sp/>closed<sp/>contour<sp/>of<sp/>vertices<sp/>[fistVertex,<sp/>lastVertex)</highlight></codeline>
-<codeline lineno="29" refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>each<sp/>face<sp/>is<sp/>surrounded<sp/>by<sp/>a<sp/>closed<sp/>contour<sp/>of<sp/>vertices<sp/>[fistVertex,<sp/>lastVertex)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35" refid="MRMeshBuilderTypes_8h_1a1e6520b2dd436043876e12b9a84ff091" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a1e6520b2dd436043876e12b9a84ff091" kindref="member">MR_MeshBuilder_Triangle_Get_v</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>

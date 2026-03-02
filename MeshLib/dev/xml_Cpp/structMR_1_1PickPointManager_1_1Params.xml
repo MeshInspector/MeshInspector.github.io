@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PickPointManager_1_1Params" kind="struct" language="C++" prot="public">
     <compoundname>MR::PickPointManager::Params</compoundname>
-    <includes refid="MRPickPointManager_8h" local="no">MRPickPointManager.h</includes>
+    <includes refid="MRPickPointManager_8h" local="no">MRViewer/MRPickPointManager.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga5fea1d890a42ca21cec4e297bf2ae7ed" kind="variable"><name>widgetContourCloseMod</name></member>
       <member refid="group__GeneralGroup_1ga53a190ae905fd433a574393eca3095af" kind="variable"><name>widgetDeletePointMod</name></member>
@@ -55,7 +55,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="30" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="31" bodyend="94"/>
+    <location file="MRViewer/MRPickPointManager.h" line="30" column="5" bodyfile="MRViewer/MRPickPointManager.h" bodystart="31" bodyend="94"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaf2fa5fa03ddcb2645c4f22130a4a50da" prot="public" virt="non-virtual"><scope>MR::PickPointManager::Params</scope><name>canAddPoint</name></member>
       <member refid="group__GeneralGroup_1gaf9338df64363f0830a45a56dec21f983" prot="public" virt="non-virtual"><scope>MR::PickPointManager::Params</scope><name>canMovePoint</name></member>

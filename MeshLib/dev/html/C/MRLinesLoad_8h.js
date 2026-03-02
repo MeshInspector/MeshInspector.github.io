@@ -1,8 +1,5 @@
 var MRLinesLoad_8h =
 [
-    [ "MR_expected_MR_Polyline3_std_string", "MRLinesLoad_8h.html#af91e6181653b78efd8dfe626e27a9575", null ],
-    [ "MR_LinesLoadSettings", "MRLinesLoad_8h.html#af6111911cb00c2c2881d290dd9eef469", null ],
-    [ "MR_std_istream", "MRLinesLoad_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
     [ "MR_LinesLoad_fromAnySupportedFormat_2", "MRLinesLoad_8h.html#a0b9dd44e384f50087be2efa5f099bb56", null ],
     [ "MR_LinesLoad_fromAnySupportedFormat_3", "MRLinesLoad_8h.html#a7add80154a6684501460c767fb94ed1d", null ],
     [ "MR_LinesLoad_fromMrLines_std_filesystem_path", "MRLinesLoad_8h.html#aede610f72fa2371fd8e2ac33c77eab23", null ],

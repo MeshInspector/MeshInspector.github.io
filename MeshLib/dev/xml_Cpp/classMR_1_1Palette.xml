@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Palette" kind="class" language="C++" prot="public">
     <compoundname>MR::Palette</compoundname>
-    <includes refid="MRPalette_8h" local="no">MRPalette.h</includes>
+    <includes refid="MRPalette_8h" local="no">MRViewer/MRPalette.h</includes>
     <innerclass refid="structMR_1_1Palette_1_1Label" prot="public">MR::Palette::Label</innerclass>
     <innerclass refid="structMR_1_1Palette_1_1Parameters" prot="public">MR::Palette::Parameters</innerclass>
     <sectiondef kind="public-static-attrib">
@@ -61,7 +61,7 @@
     <detaileddescription>
 <para>Discrete mode will draw rectangle for each color Continuous mode will draw interpolated color </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="29" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="30" bodyend="316"/>
+    <location file="MRViewer/MRPalette.h" line="29" column="1" bodyfile="MRViewer/MRPalette.h" bodystart="30" bodyend="316"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac69f97944a537d356ce690f83e509f65" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>BlueGreenRedColors</name></member>
       <member refid="group__GeneralGroup_1gabfdf377e10c2bf0babc22965290920cb" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>DefaultColors</name></member>

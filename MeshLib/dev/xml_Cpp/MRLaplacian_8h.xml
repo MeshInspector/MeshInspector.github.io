@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRLaplacian_8h" kind="file" language="C++">
     <compoundname>MRLaplacian.h</compoundname>
     <includes refid="MRBitSet_8h" local="yes">MRBitSet.h</includes>
@@ -61,7 +61,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRLaplacian.h</label>
+        <label>MRMesh/MRLaplacian.h</label>
         <link refid="MRLaplacian_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -237,13 +237,13 @@
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="classMR_1_1Laplacian" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref></highlight></codeline>
+<codeline lineno="23" refid="classMR_1_1Laplacian" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga701e06f6b7ebb3c08d691ca34ffeab37" kindref="member">Laplacian</ref></highlight></codeline>
 <codeline lineno="24"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="26" refid="group__GeneralGroup_1ga67c8dfc7669f41712a92d21d5ec99fed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga67c8dfc7669f41712a92d21d5ec99fed" kindref="member">RememberShape</ref></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435" kindref="member">Yes</ref>,<sp/><sp/></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga67c8dfc7669f41712a92d21d5ec99fedabafd7322c6e97d25b6299b5d6fe8920b" kindref="member">No</ref><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1gga67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435" kindref="member">Yes</ref>,<sp/><sp/></highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1gga67c8dfc7669f41712a92d21d5ec99fedabafd7322c6e97d25b6299b5d6fe8920b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga67c8dfc7669f41712a92d21d5ec99fedabafd7322c6e97d25b6299b5d6fe8920b" kindref="member">No</ref><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="group__GeneralGroup_1ga701e06f6b7ebb3c08d691ca34ffeab37" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga701e06f6b7ebb3c08d691ca34ffeab37" kindref="member">Laplacian</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh<sp/>);</highlight></codeline>
@@ -328,8 +328,8 @@
 <codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>Eigen::VectorXd<sp/>rhs_[3];</highlight></codeline>
 <codeline lineno="137"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h"/>
+    <location file="MRMesh/MRLaplacian.h"/>
   </compounddef>
 </doxygen>

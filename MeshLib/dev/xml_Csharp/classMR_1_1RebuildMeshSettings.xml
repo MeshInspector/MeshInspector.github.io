@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RebuildMeshSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::RebuildMeshSettings</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_RebuildMeshSettings</basecompoundref>
@@ -191,7 +191,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this callback is invoked when SignDetectionMode is determined (useful if signMode = <ref refid="classMR_1aacd4e54997154b3fd8baece917df2044a06b9281e396db002010bde1de57262eb" kindref="member">SignDetectionModeShort.Auto</ref>), but before actual work begins </para>
+<para>this callback is invoked when <ref refid="classMR_1a616095899064d3af43a1861f0ae70fed" kindref="member">SignDetectionMode</ref> is determined (useful if signMode = <ref refid="classMR_1aacd4e54997154b3fd8baece917df2044a06b9281e396db002010bde1de57262eb" kindref="member">SignDetectionModeShort.Auto</ref>), but before actual work begins </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -316,7 +316,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.RebuildMeshSettings.RebuildMeshSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RebuildMeshSettings_1a507d23963b1a2cb1d4d9c73a8b9b83f0" kindref="member">MR.RebuildMeshSettings.RebuildMeshSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -335,7 +335,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.RebuildMeshSettings.RebuildMeshSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RebuildMeshSettings_1a507d23963b1a2cb1d4d9c73a8b9b83f0" kindref="member">MR.RebuildMeshSettings.RebuildMeshSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -354,7 +354,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.RebuildMeshSettings.RebuildMeshSettings</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RebuildMeshSettings_1a507d23963b1a2cb1d4d9c73a8b9b83f0" kindref="member">MR.RebuildMeshSettings.RebuildMeshSettings</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -373,7 +373,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.RebuildMeshSettings.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::RebuildMeshSettings::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -388,45 +388,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_RebuildMeshSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.RebuildMeshSettings</label>
         <link refid="classMR_1_1RebuildMeshSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_RebuildMeshSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_RebuildMeshSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_RebuildMeshSettings</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.RebuildMeshSettings</label>
         <link refid="classMR_1_1RebuildMeshSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_RebuildMeshSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_RebuildMeshSettings &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="245" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="246" bodyend="402"/>

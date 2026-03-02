@@ -1,15 +1,6 @@
 var MRDistanceMapParams_8h =
 [
-    [ "MR_Box2f", "MRDistanceMapParams_8h.html#a05745414240b5f207ca38fdc6d06f099", null ],
-    [ "MR_ContourToDistanceMapParams", "MRDistanceMapParams_8h.html#ad61286dbd4af331e293fe93f97dbf8c4", null ],
-    [ "MR_DistanceMapLoadSettings", "MRDistanceMapParams_8h.html#acb7982850a6576e45e73598937682264", null ],
-    [ "MR_DistanceMapSaveSettings", "MRDistanceMapParams_8h.html#a2b8e42b38bd4d4f8c966e3bc97e7527e", null ],
     [ "MR_DistanceMapToWorld", "MRDistanceMapParams_8h.html#a20641c296a854171ffca0e1334e8a422", null ],
-    [ "MR_Matrix3f", "MRDistanceMapParams_8h.html#a864a32707cffe3bd344334f0e4b292cf", null ],
-    [ "MR_MeshPart", "MRDistanceMapParams_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
-    [ "MR_MeshToDistanceMapParams", "MRDistanceMapParams_8h.html#a23925ade3ecef5dcb8ca148e5af923f1", null ],
-    [ "MR_std_function_bool_from_float", "MRDistanceMapParams_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_vector_std_vector_MR_Vector2f", "MRDistanceMapParams_8h.html#a603c36c96311a8cb693f3e5500963e17", null ],
     [ "MR_ContourToDistanceMapParams_AssignFromAnother", "MRDistanceMapParams_8h.html#a2b18770d495723972d441baafa5cbbb1", null ],
     [ "MR_ContourToDistanceMapParams_Construct_1", "MRDistanceMapParams_8h.html#a99cbca329f9a1cd30fa91e2a6b4aa2db", null ],
     [ "MR_ContourToDistanceMapParams_Construct_3", "MRDistanceMapParams_8h.html#a3a6911919d5785dd117a556f3e7e0286", null ],

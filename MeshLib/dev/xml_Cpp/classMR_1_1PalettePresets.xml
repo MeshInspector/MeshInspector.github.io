@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PalettePresets" kind="class" language="C++" prot="public">
     <compoundname>MR::PalettePresets</compoundname>
-    <includes refid="MRPalette_8h" local="no">MRPalette.h</includes>
+    <includes refid="MRPalette_8h" local="no">MRViewer/MRPalette.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga1b79582928a957d51ade1340dd12000e" kind="variable"><name>names_</name></member>
     </sectiondef>
@@ -25,7 +25,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="320" bodyend="340"/>
+    <location file="MRViewer/MRPalette.h" line="319" column="1" bodyfile="MRViewer/MRPalette.h" bodystart="320" bodyend="340"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga96ad4bb41ba9bbf53813546896f9ed21" prot="public" virt="non-virtual"><scope>MR::PalettePresets</scope><name>getPalettePresetsFolder</name></member>
       <member refid="group__GeneralGroup_1ga8f089b137d9e85696729847a1407d759" prot="public" virt="non-virtual"><scope>MR::PalettePresets</scope><name>getPresetNames</name></member>

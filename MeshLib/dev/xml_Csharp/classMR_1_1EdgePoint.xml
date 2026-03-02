@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EdgePoint" kind="class" language="C#" prot="public">
     <compoundname>MR::EdgePoint</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_EdgePoint</basecompoundref>
@@ -85,7 +85,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgePoint.EdgePoint</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgePoint_1a90f457fffa0b69bbeae7421a033f2bbe" kindref="member">MR.EdgePoint.EdgePoint</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -104,7 +104,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgePoint.EdgePoint</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgePoint_1a90f457fffa0b69bbeae7421a033f2bbe" kindref="member">MR.EdgePoint.EdgePoint</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -127,7 +127,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgePoint.EdgePoint</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgePoint_1a90f457fffa0b69bbeae7421a033f2bbe" kindref="member">MR.EdgePoint.EdgePoint</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -150,7 +150,7 @@
           <declname>v</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgePoint.EdgePoint</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgePoint_1a90f457fffa0b69bbeae7421a033f2bbe" kindref="member">MR.EdgePoint.EdgePoint</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -173,7 +173,7 @@
           <declname>v</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.EdgePoint.EdgePoint</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgePoint_1a90f457fffa0b69bbeae7421a033f2bbe" kindref="member">MR.EdgePoint.EdgePoint</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -192,7 +192,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.EdgePoint.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::EdgePoint::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -222,8 +222,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.EdgePoint</label>
+        <link refid="classMR_1_1EdgePoint"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_EdgePoint</label>
+        <label>MR.Const_EdgePoint</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -231,25 +237,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.EdgePoint</label>
-        <link refid="classMR_1_1EdgePoint"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_EdgePoint &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_EdgePoint &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.EdgePoint</label>
+        <link refid="classMR_1_1EdgePoint"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_EdgePoint</label>
+        <label>MR.Const_EdgePoint</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -257,20 +263,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.EdgePoint</label>
-        <link refid="classMR_1_1EdgePoint"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_EdgePoint &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_EdgePoint &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="262" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="263" bodyend="378"/>

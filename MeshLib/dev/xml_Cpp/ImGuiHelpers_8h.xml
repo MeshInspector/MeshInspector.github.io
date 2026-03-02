@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="ImGuiHelpers_8h" kind="file" language="C++">
     <compoundname>ImGuiHelpers.h</compoundname>
     <includes refid="MRFlagOperators_8h" local="yes">MRMesh/MRFlagOperators.h</includes>
@@ -17,7 +17,7 @@
     <includes local="no">string</includes>
     <includes local="no">vector</includes>
     <includes local="no">optional</includes>
-    <includedby refid="MRStatePlugin_8h" local="yes">MRStatePlugin.h</includedby>
+    <includedby refid="MRStatePlugin_8h" local="yes">MRViewer/MRStatePlugin.h</includedby>
     <incdepgraph>
       <node id="11">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -146,7 +146,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>ImGuiHelpers.h</label>
+        <label>MRViewer/ImGuiHelpers.h</label>
         <link refid="ImGuiHelpers_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -278,46 +278,46 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="5">
-        <label>MRCameraOrientationPlugin.h</label>
+      <node id="3">
+        <label>MRCommonPlugins/Basic/MRCameraOrientationPlugin.h</label>
         <link refid="MRCameraOrientationPlugin_8h"/>
       </node>
-      <node id="8">
-        <label>MRMoveObjectByMouse.h</label>
+      <node id="4">
+        <label>MRCommonPlugins/Basic/MRMoveObjectByMouse.h</label>
         <link refid="MRMoveObjectByMouse_8h"/>
       </node>
-      <node id="10">
-        <label>MRSelectObjectByClick.h</label>
+      <node id="5">
+        <label>MRCommonPlugins/Selectors/MRSelectObjectByClick.h</label>
         <link refid="MRSelectObjectByClick_8h"/>
       </node>
-      <node id="3">
-        <label>MRAddCustomTheme.h</label>
+      <node id="6">
+        <label>MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h</label>
         <link refid="MRAddCustomTheme_8h"/>
       </node>
-      <node id="6">
-        <label>MRIOFilesMenuItems.h</label>
+      <node id="7">
+        <label>MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</label>
         <link refid="MRIOFilesMenuItems_8h"/>
       </node>
-      <node id="4">
-        <label>MRBinaryOperationsPlugin.h</label>
+      <node id="8">
+        <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
       </node>
       <node id="9">
-        <label>MROpenRawVoxelsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
       <node id="1">
-        <label>ImGuiHelpers.h</label>
+        <label>MRViewer/ImGuiHelpers.h</label>
         <link refid="ImGuiHelpers_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="7">
-        <label>MRMeshModifier.h</label>
+      <node id="10">
+        <label>MRViewer/MRMeshModifier.h</label>
         <link refid="MRMeshModifier_8h"/>
       </node>
       <node id="2">
-        <label>MRStatePlugin.h</label>
+        <label>MRViewer/MRStatePlugin.h</label>
         <link refid="MRStatePlugin_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -339,7 +339,7 @@
         </childnode>
       </node>
       <node id="11">
-        <label>MRViewerSettingsPlugin.h</label>
+        <label>MRViewer/MRViewerSettingsPlugin.h</label>
         <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
@@ -353,7 +353,7 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRFlagOperators_8h" kindref="compound">MRMesh/MRFlagOperators.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -373,7 +373,7 @@
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">ImGuiWindow;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="namespaceImGui" refkind="compound"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceImGui" kindref="compound">ImGui</ref></highlight></codeline>
+<codeline lineno="32" refid="namespaceImGui" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceImGui" kindref="compound">ImGui</ref></highlight></codeline>
 <codeline lineno="33"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>vector_getter<sp/>=<sp/>[]<sp/>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>vec,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idx<sp/>)<sp/>-&gt;<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*</highlight></codeline>
@@ -464,7 +464,7 @@
 <codeline lineno="142" refid="namespaceImGui_1a867aa01d47fba96fd27bffdb9ab8caef" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceImGui_1a867aa01d47fba96fd27bffdb9ab8caef" kindref="member">InputIntValid</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>label,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>min,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>max,</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>step<sp/>=<sp/>1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>step_fast<sp/>=<sp/>100,<sp/>ImGuiInputTextFlags<sp/>flags<sp/>=<sp/>0<sp/>);</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Getter,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Setter&gt;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Getter,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Setter&gt;</highlight></codeline>
 <codeline lineno="147" refid="namespaceImGui_1a01e8908c9ff42e3510168251a97f1d48" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceImGui_1a01e8908c9ff42e3510168251a97f1d48" kindref="member">Checkbox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>label,<sp/>Getter<sp/>get,<sp/>Setter<sp/>set)</highlight></codeline>
 <codeline lineno="148"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value<sp/>=<sp/>get();</highlight></codeline>
@@ -473,7 +473,7 @@
 <codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
 <codeline lineno="153"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156" refid="structImGui_1_1HistogramGridLine" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structImGui_1_1HistogramGridLine" kindref="compound">HistogramGridLine</ref></highlight></codeline>
+<codeline lineno="156" refid="structImGui_1_1HistogramGridLine" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structImGui_1_1HistogramGridLine" kindref="compound">HistogramGridLine</ref></highlight></codeline>
 <codeline lineno="157"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="159" refid="structImGui_1_1HistogramGridLine_1ad68d7c0ed96e587ceb3706c08dfba76d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structImGui_1_1HistogramGridLine_1ad68d7c0ed96e587ceb3706c08dfba76d" kindref="member">value</ref>{};</highlight></codeline>
 <codeline lineno="161" refid="structImGui_1_1HistogramGridLine_1acffdb0cea13c4773abcdfaa935aa1dc5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structImGui_1_1HistogramGridLine_1acffdb0cea13c4773abcdfaa935aa1dc5" kindref="member">label</ref>;</highlight></codeline>
@@ -492,9 +492,9 @@
 <codeline lineno="178"><highlight class="normal"></highlight></codeline>
 <codeline lineno="180" refid="namespaceImGui_1a216fbde95017cbd4e591842b3530da81" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceImGui_1a216fbde95017cbd4e591842b3530da81" kindref="member">BeginStatePlugin</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>label,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>open,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width<sp/>);</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183" refid="structImGui_1_1CustomStatePluginWindowParameters" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structImGui_1_1CustomStatePluginWindowParameters" kindref="compound">CustomStatePluginWindowParameters</ref></highlight></codeline>
+<codeline lineno="183" refid="structImGui_1_1CustomStatePluginWindowParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structImGui_1_1CustomStatePluginWindowParameters" kindref="compound">CustomStatePluginWindowParameters</ref></highlight></codeline>
 <codeline lineno="184"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="187"></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
 <codeline lineno="190" refid="structImGui_1_1CustomStatePluginWindowParameters_1aeb0498cd6f3dce0e76837aa8d02fba62" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/><ref refid="structImGui_1_1CustomStatePluginWindowParameters_1aeb0498cd6f3dce0e76837aa8d02fba62" kindref="member">collapsed</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="192" refid="structImGui_1_1CustomStatePluginWindowParameters_1a1b847836011905ac5e81447b23f40ca5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structImGui_1_1CustomStatePluginWindowParameters_1a1b847836011905ac5e81447b23f40ca5" kindref="member">width</ref>{<sp/>0.0f<sp/>};</highlight></codeline>
 <codeline lineno="194" refid="structImGui_1_1CustomStatePluginWindowParameters_1a1f70e63acc39d4e06bd02168e934b9d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structImGui_1_1CustomStatePluginWindowParameters_1a1f70e63acc39d4e06bd02168e934b9d0" kindref="member">height</ref>{<sp/>0.0f<sp/>};</highlight></codeline>
@@ -518,7 +518,7 @@
 <codeline lineno="233" refid="namespaceImGui_1ae48c5f3721a42228f06ad99bd9d3182f" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceImGui_1ae48c5f3721a42228f06ad99bd9d3182f" kindref="member">SaveWindowPosition</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>label,<sp/>ImGuiWindow*<sp/>window<sp/>);</highlight></codeline>
 <codeline lineno="234" refid="namespaceImGui_1a5cc3e778e75f9ee629a7ae99f8472c6f" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceImGui_1ae48c5f3721a42228f06ad99bd9d3182f" kindref="member">SaveWindowPosition</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>label<sp/>);</highlight></codeline>
 <codeline lineno="235"><highlight class="normal"></highlight></codeline>
-<codeline lineno="237" refid="structImGui_1_1SavedWindowPosParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structImGui_1_1SavedWindowPosParams" kindref="compound">SavedWindowPosParams</ref></highlight></codeline>
+<codeline lineno="237" refid="structImGui_1_1SavedWindowPosParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structImGui_1_1SavedWindowPosParams" kindref="compound">SavedWindowPosParams</ref></highlight></codeline>
 <codeline lineno="238"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="240" refid="structImGui_1_1SavedWindowPosParams_1abec52796b93dfc05ed43a9d1ba21b070" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structImGui_1_1SavedWindowPosParams_1abec52796b93dfc05ed43a9d1ba21b070" kindref="member">size</ref><sp/>=<sp/>{<sp/>-1,<sp/>-1<sp/>};</highlight></codeline>
 <codeline lineno="242" refid="structImGui_1_1SavedWindowPosParams_1a9d92babd36fa8c3689b01e4759f1c777" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ImVec2*<sp/><ref refid="structImGui_1_1SavedWindowPosParams_1a9d92babd36fa8c3689b01e4759f1c777" kindref="member">pos</ref><sp/>=<sp/>0;</highlight></codeline>
@@ -538,13 +538,13 @@
 <codeline lineno="272"><highlight class="normal"></highlight></codeline>
 <codeline lineno="277" refid="namespaceImGui_1a1de0301581b33a2a2e592a082de3ab16" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceImGui_1a1de0301581b33a2a2e592a082de3ab16" kindref="member">Link</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>label,<sp/>uint32_t<sp/>color<sp/>=<sp/><ref refid="structMR_1_1Color" kindref="compound">MR::Color</ref>(<sp/>60,<sp/>120,<sp/>255<sp/>).getUInt32()<sp/>);</highlight></codeline>
 <codeline lineno="278"><highlight class="normal"></highlight></codeline>
-<codeline lineno="281" refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682" kindref="member">PaletteChanges</ref></highlight></codeline>
+<codeline lineno="281" refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682" kindref="member">PaletteChanges</ref></highlight></codeline>
 <codeline lineno="282"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682a526d688f37a86d3c3f27d0c5016eb71d" kindref="member">Reset</ref><sp/><sp/><sp/>=<sp/>1,<sp/></highlight></codeline>
-<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b" kindref="member">Texture</ref><sp/>=<sp/>2,<sp/></highlight></codeline>
-<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258" kindref="member">Ranges</ref><sp/><sp/>=<sp/>4,<sp/></highlight></codeline>
-<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">All</ref><sp/>=<sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b" kindref="member">Texture</ref><sp/>|<sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258" kindref="member">Ranges</ref><sp/>|<sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682a526d688f37a86d3c3f27d0c5016eb71d" kindref="member">Reset</ref>,<sp/></highlight></codeline>
+<codeline lineno="283" refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="284" refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682a526d688f37a86d3c3f27d0c5016eb71d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682a526d688f37a86d3c3f27d0c5016eb71d" kindref="member">Reset</ref><sp/><sp/><sp/>=<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="285" refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b" kindref="member">Texture</ref><sp/>=<sp/>2,<sp/></highlight></codeline>
+<codeline lineno="286" refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258" kindref="member">Ranges</ref><sp/><sp/>=<sp/>4,<sp/></highlight></codeline>
+<codeline lineno="287" refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">All</ref><sp/>=<sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b" kindref="member">Texture</ref><sp/>|<sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258" kindref="member">Ranges</ref><sp/>|<sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682a526d688f37a86d3c3f27d0c5016eb71d" kindref="member">Reset</ref>,<sp/></highlight></codeline>
 <codeline lineno="288"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="289"><highlight class="normal"><ref refid="MRFlagOperators_8h_1afbd9348d27fb58bbb0befb3db34fab6a" kindref="member">MR_MAKE_FLAG_OPERATORS</ref>(<sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682" kindref="member">PaletteChanges</ref><sp/>)</highlight></codeline>
 <codeline lineno="290"><highlight class="normal"></highlight></codeline>
@@ -562,8 +562,8 @@
 <codeline lineno="307"><highlight class="normal"></highlight></codeline>
 <codeline lineno="309" refid="namespaceImGui_1a265e606cad7268f09dacbeeb9b6be3d5" refkind="member"><highlight class="normal">enum<sp/>class<sp/><ref refid="namespaceImGui_1a265e606cad7268f09dacbeeb9b6be3d5" kindref="member">PlaneWidgetFlags</ref></highlight></codeline>
 <codeline lineno="310"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref><sp/>=<sp/>0,<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceImGui_1a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac" kindref="member">DisableVisibility</ref><sp/>=<sp/>1<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="311" refid="namespaceImGui_1a265e606cad7268f09dacbeeb9b6be3d5a6adf97f83acf6453d4a6a4b1070f3754" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceImGui_1a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref><sp/>=<sp/>0,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="312" refid="namespaceImGui_1a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceImGui_1a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac" kindref="member">DisableVisibility</ref><sp/>=<sp/>1<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="313"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="314"><highlight class="normal"><ref refid="MRFlagOperators_8h_1afbd9348d27fb58bbb0befb3db34fab6a" kindref="member">MR_MAKE_FLAG_OPERATORS</ref>(<sp/><ref refid="namespaceImGui_1a265e606cad7268f09dacbeeb9b6be3d5" kindref="member">PlaneWidgetFlags</ref><sp/>)</highlight></codeline>
 <codeline lineno="315"><highlight class="normal"></highlight></codeline>
@@ -584,28 +584,28 @@
 <codeline lineno="340"><highlight class="normal"></highlight></codeline>
 <codeline lineno="342" refid="namespaceImGui_1a526ae831fa80bb7c77bcb658c70af536" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceImGui_1a526ae831fa80bb7c77bcb658c70af536" kindref="member">ModalExitButton</ref>();</highlight></codeline>
 <codeline lineno="343"><highlight class="normal"></highlight></codeline>
-<codeline lineno="345" refid="namespaceImGui_1a22263f205e7e3988ff6be4e152a963a6" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="namespaceImGui_1a22263f205e7e3988ff6be4e152a963a6" kindref="member">getExpSpeed</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>frac<sp/>=<sp/>0.01f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>min<sp/>=<sp/>1e-5f<sp/>)</highlight></codeline>
+<codeline lineno="345" refid="namespaceImGui_1a22263f205e7e3988ff6be4e152a963a6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="namespaceImGui_1a22263f205e7e3988ff6be4e152a963a6" kindref="member">getExpSpeed</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>frac<sp/>=<sp/>0.01f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>min<sp/>=<sp/>1e-5f<sp/>)</highlight></codeline>
 <codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::max(<sp/>val<sp/>*<sp/>frac,<sp/>min<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="347"><highlight class="normal"></highlight></codeline>
-<codeline lineno="349" refid="namespaceImGui_1adcf2f35edd39ac820b77b169fce7c33e" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="namespaceImGui_1adcf2f35edd39ac820b77b169fce7c33e" kindref="member">getLuminance</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ImVec4&amp;<sp/>col<sp/>)</highlight></codeline>
+<codeline lineno="349" refid="namespaceImGui_1adcf2f35edd39ac820b77b169fce7c33e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="namespaceImGui_1adcf2f35edd39ac820b77b169fce7c33e" kindref="member">getLuminance</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ImVec4&amp;<sp/>col<sp/>)</highlight></codeline>
 <codeline lineno="350"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.2126f<sp/>*<sp/>col.x<sp/>+<sp/>0.7152f<sp/>*<sp/>col.y<sp/>+<sp/>0.0722f<sp/>*<sp/>col.z;</highlight></codeline>
 <codeline lineno="352"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="353"><highlight class="normal"></highlight></codeline>
 <codeline lineno="355" refid="namespaceImGui_1a765b6525f19901392bdd0a4456045e5e" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceImGui_1a765b6525f19901392bdd0a4456045e5e" kindref="member">isMultiViewportEnabled</ref>();</highlight></codeline>
 <codeline lineno="356"><highlight class="normal"></highlight></codeline>
-<codeline lineno="357"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>IMGUI_DISABLE_OBSOLETE_FUNCTIONS</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>IMGUI_DISABLE_OBSOLETE_FUNCTIONS</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="360"><highlight class="normal">MRVIEWER_API<sp/>ImVec2<sp/>GetWindowContentRegionMax();</highlight></codeline>
 <codeline lineno="361"><highlight class="normal"></highlight></codeline>
-<codeline lineno="364"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ImVec2<sp/>GetContentRegionMax()</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ImVec2<sp/>GetContentRegionMax()</highlight></codeline>
 <codeline lineno="365"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetContentRegionAvail()<sp/>+<sp/>GetCursorScreenPos()<sp/>-<sp/>GetWindowPos();</highlight></codeline>
 <codeline lineno="367"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="368"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="369"><highlight class="normal"></highlight></codeline>
-<codeline lineno="370"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="370"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="371"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h"/>
+    <location file="MRViewer/ImGuiHelpers.h"/>
   </compounddef>
 </doxygen>

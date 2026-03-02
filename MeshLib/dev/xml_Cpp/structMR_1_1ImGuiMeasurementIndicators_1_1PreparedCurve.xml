@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve" kind="struct" language="C++" prot="public">
     <compoundname>MR::ImGuiMeasurementIndicators::PreparedCurve</compoundname>
-    <includes refid="MRImGuiMeasurementIndicators_8h" local="no">MRImGuiMeasurementIndicators.h</includes>
+    <includes refid="MRImGuiMeasurementIndicators_8h" local="no">MRViewer/MRImGuiMeasurementIndicators.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve_1a3816885bcfec02afae90a2eb378332a9" prot="public" static="no" mutable="no">
         <type>ImVec2</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="385" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="385" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="385" column="12" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="385" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve_1a82c49f908474da383b54cab422513525" prot="public" static="no" mutable="no">
         <type>ImVec2</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="386" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="386" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="386" column="12" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="386" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve_1adc882bf59a1455b3ac5391416ed0c55b" prot="public" static="no" mutable="no">
         <type>std::span&lt; ImVec2 &gt;</type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="390" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="390" bodyend="-1"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="390" column="15" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="390" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -66,14 +66,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="388" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="388" bodyend="388"/>
+        <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="388" column="13" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="388" bodyend="388"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="383" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="384" bodyend="391"/>
+    <location file="MRViewer/MRImGuiMeasurementIndicators.h" line="383" column="1" bodyfile="MRViewer/MRImGuiMeasurementIndicators.h" bodystart="384" bodyend="391"/>
     <listofallmembers>
       <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve_1a3816885bcfec02afae90a2eb378332a9" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::PreparedCurve</scope><name>a</name></member>
       <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve_1a82c49f908474da383b54cab422513525" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::PreparedCurve</scope><name>b</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1EndMillCutter" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::EndMillCutter</compoundname>
     <innerclass refid="classmrmeshpy_1_1EndMillCutter_1_1Type" prot="public">mrmeshpy::EndMillCutter::Type</innerclass>
@@ -354,28 +354,15 @@ end mill cutter specifications
         <label>mrmeshpy.EndMillCutter</label>
         <link refid="classmrmeshpy_1_1EndMillCutter"/>
         <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_cuttingAngle</edgelabel>
-          <edgelabel>_offsetof_endDiameter</edgelabel>
-          <edgelabel>_offsetof_type</edgelabel>
-        </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>type</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>mrmeshpy.EndMillCutter</label>
-        <link refid="classmrmeshpy_1_1EndMillCutter"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_cuttingAngle</edgelabel>
-          <edgelabel>_offsetof_endDiameter</edgelabel>
-          <edgelabel>_offsetof_type</edgelabel>
-        </childnode>
-        <childnode refid="3" relation="usage">
           <edgelabel>type</edgelabel>
         </childnode>
       </node>
       <node id="2">
-        <label>typing</label>
+        <label>mrmeshpy.EndMillCutter</label>
+        <link refid="classmrmeshpy_1_1EndMillCutter"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>type</edgelabel>
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16189" bodyend="16294"/>

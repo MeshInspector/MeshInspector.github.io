@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1IntersectionPrecomputes__float" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::IntersectionPrecomputes_float</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -520,25 +520,6 @@ stores useful precomputed values for presented direction vector
 \\details allows to avoid repeatable computations during intersection finding
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.IntersectionPrecomputes_float</label>
-        <link refid="classmrmeshpy_1_1IntersectionPrecomputes__float"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_Sx</edgelabel>
-          <edgelabel>_offsetof_Sy</edgelabel>
-          <edgelabel>_offsetof_Sz</edgelabel>
-          <edgelabel>_offsetof_idxX</edgelabel>
-          <edgelabel>_offsetof_idxY</edgelabel>
-          <edgelabel>_offsetof_invDir</edgelabel>
-          <edgelabel>_offsetof_maxDimIdxZ</edgelabel>
-          <edgelabel>_offsetof_sign</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24634" bodyend="24722"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1IntersectionPrecomputes__float_1a184e56a2288d5f51499e57177920b363" prot="public" virt="non-virtual"><scope>mrmeshpy::IntersectionPrecomputes_float</scope><name>__init__</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Pdf_1_1TableGeneralParams" kind="struct" language="C++" prot="private">
     <compoundname>MR::Pdf::TableGeneralParams</compoundname>
     <sectiondef kind="public-attrib">
@@ -32,7 +32,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="274" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="275" bodyend="286"/>
+    <location file="MRIOExtras/MRPdf.h" line="274" column="5" bodyfile="MRIOExtras/MRPdf.h" bodystart="275" bodyend="286"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga78106295ab82df5849650f7e49e762ba" prot="public" virt="non-virtual"><scope>MR::Pdf::TableGeneralParams</scope><name>colorCellBg1</name></member>
       <member refid="group__GeneralGroup_1ga3ecacaf9b1df9a068cf28ec9245ebd4e" prot="public" virt="non-virtual"><scope>MR::Pdf::TableGeneralParams</scope><name>colorCellBg2</name></member>

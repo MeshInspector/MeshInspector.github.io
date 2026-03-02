@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSegmPoint_8h" kind="file" language="C++">
     <compoundname>MRSegmPoint.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -27,20 +27,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRSegmPoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" prot="public" static="no">
-        <type>struct <ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref></type>
-        <definition>typedef struct MR_SegmPointf MR_SegmPointf</definition>
-        <argsstring></argsstring>
-        <name>MR_SegmPointf</name>
-        <briefdescription>
-<para>encodes a point inside a line segment using relative distance in [0,1] Generated from class <computeroutput>MR::SegmPointf</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" line="16" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSegmPoint.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" prot="public" static="no">
         <type>struct <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref></type>
         <definition>typedef struct MR_SegmPointd MR_SegmPointd</definition>
@@ -256,7 +242,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SegmPointf</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -274,7 +260,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SegmPointf</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -619,7 +605,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_SegmPointd</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -637,7 +623,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_SegmPointd</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -801,9 +787,9 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRSegmPoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref>;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref>;</highlight></codeline>
+<codeline lineno="21" refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25" refid="MRSegmPoint_8h_1a0035133af66b9b6f91c2eabf9f6a4432" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1a0035133af66b9b6f91c2eabf9f6a4432" kindref="member">MR_SegmPointf_Get_eps</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>

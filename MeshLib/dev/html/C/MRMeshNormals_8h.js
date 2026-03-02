@@ -1,12 +1,9 @@
 var MRMeshNormals_8h =
 [
     [ "MR_FaceNormals", "MRMeshNormals_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5", null ],
-    [ "MR_Mesh", "MRMeshNormals_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_MeshNormals", "MRMeshNormals_8h.html#a4c404df0e68a9dc60914c3fab1545116", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRMeshNormals_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
     [ "MR_Vector4f", "MRMeshNormals_8h.html#a3bbb72144be216efbb91200d0fc37f10", null ],
     [ "MR_Vector_std_array_MR_Vector3f_3_MR_FaceId", "MRMeshNormals_8h.html#a50f94ee230b3b0bffb2b4b0a00986133", null ],
-    [ "MR_VertCoords", "MRMeshNormals_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_computeMeshNormals", "MRMeshNormals_8h.html#aa38d33691c3bbad2742a1057548fef86", null ],
     [ "MR_computePerCornerNormals", "MRMeshNormals_8h.html#afd2c9ab9488a861871977f8f7fdd29cd", null ],
     [ "MR_computePerFaceNormals", "MRMeshNormals_8h.html#a6c9067cbe12173d78299a2557aea7430", null ],

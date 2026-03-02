@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::WatershedGraph::BasinInfo</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -760,28 +760,6 @@ Aliases:  Vector_WatershedGraph_BasinInfo_GraphVertId.const_reference, Vector_Wa
 associated with each vertex in graph
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.WatershedGraph.BasinInfo</label>
-        <link refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_accVolume</edgelabel>
-          <edgelabel>_offsetof_area</edgelabel>
-          <edgelabel>_offsetof_lastMergeLevel</edgelabel>
-          <edgelabel>_offsetof_lastMergeVolume</edgelabel>
-          <edgelabel>_offsetof_lastUpdateAmount</edgelabel>
-          <edgelabel>_offsetof_lowestBdLevel</edgelabel>
-          <edgelabel>_offsetof_lowestLevel</edgelabel>
-          <edgelabel>_offsetof_lowestVert</edgelabel>
-          <edgelabel>_offsetof_maxVolume</edgelabel>
-          <edgelabel>_offsetof_overflowVia</edgelabel>
-          <edgelabel>...</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74885" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74885" bodyend="75014"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo_1aa1230be7c28dca729bc6fc2d403d5ff0" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph::BasinInfo</scope><name>__init__</name></member>

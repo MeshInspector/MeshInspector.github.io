@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFreeFormDeformer_8h" kind="file" language="C++">
     <compoundname>MRFreeFormDeformer.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -61,7 +61,7 @@
         <link refid="MRConstants_8h"/>
       </node>
       <node id="1">
-        <label>MRFreeFormDeformer.h</label>
+        <label>MRMesh/MRFreeFormDeformer.h</label>
         <link refid="MRFreeFormDeformer_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -261,8 +261,8 @@
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="12"></codeline>
-<codeline lineno="15" refid="classMR_1_1FreeFormDeformer" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1FreeFormDeformer" kindref="compound">FreeFormDeformer</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1FreeFormDeformer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga3cb49e9f454ec68c01a56adff1d1f576" kindref="member">FreeFormDeformer</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga3cb49e9f454ec68c01a56adff1d1f576" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga3cb49e9f454ec68c01a56adff1d1f576" kindref="member">FreeFormDeformer</ref>(<sp/>VertCoords&amp;<sp/>coords,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>valid<sp/>);</highlight></codeline>
@@ -289,7 +289,7 @@
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/>applyToNormedPoint_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>normedPoint,<sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>xPlaneCache,<sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>yLineCache,<sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>tempPoints<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="classMR_1_1FreeFormBestFit" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1FreeFormBestFit" kindref="compound">FreeFormBestFit</ref></highlight></codeline>
+<codeline lineno="55" refid="classMR_1_1FreeFormBestFit" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="group__GeneralGroup_1ga5710d8090432098f5a13940a6904d5b5" kindref="member">FreeFormBestFit</ref></highlight></codeline>
 <codeline lineno="56"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="59" refid="group__GeneralGroup_1ga5710d8090432098f5a13940a6904d5b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga5710d8090432098f5a13940a6904d5b5" kindref="member">FreeFormBestFit</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3d&amp;<sp/>box,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>resolution<sp/>=<sp/>Vector3i::diagonal(<sp/>2<sp/>)<sp/>);</highlight></codeline>
@@ -297,7 +297,7 @@
 <codeline lineno="62" refid="group__GeneralGroup_1ga6815b644f737674d9bbb9a07956f50e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6815b644f737674d9bbb9a07956f50e6" kindref="member">addPair</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>src,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3d&amp;<sp/>tgt,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>1.0<sp/>);</highlight></codeline>
 <codeline lineno="63" refid="group__GeneralGroup_1ga5e0c21c2de7ea212b991b59d105e79bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5e0c21c2de7ea212b991b59d105e79bd" kindref="member">addPair</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>src,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>tgt,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>1.0f<sp/>)<sp/>{<sp/><ref refid="group__GeneralGroup_1ga5e0c21c2de7ea212b991b59d105e79bd" kindref="member">addPair</ref>(<sp/>Vector3d(<sp/>src<sp/>),<sp/>Vector3d(<sp/>tgt<sp/>),<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">(<sp/>w<sp/>)<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="group__GeneralGroup_1ga2fc1ccc14384faa1050bccc388646018" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2fc1ccc14384faa1050bccc388646018" kindref="member">addOther</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FreeFormBestFit" kindref="compound">FreeFormBestFit</ref>&amp;<sp/>other<sp/>);</highlight></codeline>
+<codeline lineno="66" refid="group__GeneralGroup_1ga2fc1ccc14384faa1050bccc388646018" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2fc1ccc14384faa1050bccc388646018" kindref="member">addOther</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5710d8090432098f5a13940a6904d5b5" kindref="member">FreeFormBestFit</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70" refid="group__GeneralGroup_1ga7da32b588679f5a44bb7394b8906ed3c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7da32b588679f5a44bb7394b8906ed3c" kindref="member">setStabilizer</ref>(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>stabilizer<sp/>)<sp/>{<sp/>stabilizer_<sp/>=<sp/>stabilizer;<sp/>}</highlight></codeline>
 <codeline lineno="71" refid="group__GeneralGroup_1ga74da50410f7eed1cfc466b2a63ba919d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga74da50410f7eed1cfc466b2a63ba919d" kindref="member">getStabilizer</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>stabilizer_;<sp/>}</highlight></codeline>
@@ -330,6 +330,6 @@
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
 <codeline lineno="105"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFreeFormDeformer.h"/>
+    <location file="MRMesh/MRFreeFormDeformer.h"/>
   </compounddef>
 </doxygen>

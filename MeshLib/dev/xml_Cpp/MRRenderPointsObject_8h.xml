@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRenderPointsObject_8h" kind="file" language="C++">
     <compoundname>MRRenderPointsObject.h</compoundname>
     <includes refid="MRIRenderObject_8h" local="yes">MRMesh/MRIRenderObject.h</includes>
     <includes refid="MRRenderGLHelpers_8h" local="yes">MRRenderGLHelpers.h</includes>
     <includes refid="MRRenderHelpers_8h" local="yes">MRRenderHelpers.h</includes>
     <includes refid="MRGLStaticHolder_8h" local="yes">MRGLStaticHolder.h</includes>
-    <includedby refid="MRRenderFeatureObjects_8h" local="yes">MRRenderFeatureObjects.h</includedby>
+    <includedby refid="MRRenderFeatureObjects_8h" local="yes">MRViewer/MRRenderFeatureObjects.h</includedby>
     <incdepgraph>
       <node id="31">
         <label>MRAffineXf.h</label>
@@ -335,7 +335,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRRenderPointsObject.h</label>
+        <label>MRViewer/MRRenderPointsObject.h</label>
         <link refid="MRRenderPointsObject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -412,11 +412,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRRenderFeatureObjects.h</label>
+        <label>MRViewer/MRRenderFeatureObjects.h</label>
         <link refid="MRRenderFeatureObjects_8h"/>
       </node>
       <node id="1">
-        <label>MRRenderPointsObject.h</label>
+        <label>MRViewer/MRRenderPointsObject.h</label>
         <link refid="MRRenderPointsObject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -439,7 +439,7 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="classMR_1_1RenderPointsObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RenderPointsObject" kindref="compound">RenderPointsObject</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IRenderObject" kindref="compound">IRenderObject</ref></highlight></codeline>
+<codeline lineno="13" refid="classMR_1_1RenderPointsObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gab99ca8621e3c55c14e02d3452bbdd239" kindref="member">RenderPointsObject</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IRenderObject" kindref="compound">IRenderObject</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1gab99ca8621e3c55c14e02d3452bbdd239" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab99ca8621e3c55c14e02d3452bbdd239" kindref="member">RenderPointsObject</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/>visObj<sp/>);</highlight></codeline>
@@ -496,6 +496,6 @@
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderPointsObject.h"/>
+    <location file="MRViewer/MRRenderPointsObject.h"/>
   </compounddef>
 </doxygen>

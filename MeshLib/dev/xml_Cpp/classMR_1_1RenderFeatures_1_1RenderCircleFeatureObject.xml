@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderFeatures::RenderCircleFeatureObject</compoundname>
     <basecompoundref refid="classMR_1_1RenderObjectCombinator" prot="public" virt="non-virtual">MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderFeatureLinesComponent&lt; true &gt;, RenderFeaturePointsComponent&lt; false &gt;, RenderResetDirtyComponent &gt;</basecompoundref>
-    <includes refid="MRRenderFeatureObjects_8h" local="no">MRRenderFeatureObjects.h</includes>
+    <includes refid="MRRenderFeatureObjects_8h" local="no">MRViewer/MRRenderFeatureObjects.h</includes>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject_1a29dc597db844b392b51fc6ca2475a1a2" prot="private" static="no" mutable="no">
         <type>const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> *</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="242" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="242" bodyend="-1"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="242" column="24" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="242" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject_1af329d77a809f61449141449d06874cfe" prot="private" static="no" mutable="no">
         <type><ref refid="classMR_1_1RenderDimensions_1_1RadiusTask" kindref="compound">RenderDimensions::RadiusTask</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="243" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="243" bodyend="-1"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="243" column="34" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="243" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="245" column="6"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="245" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject_1a48bf22a7a30dabdbe6871758c246758d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="246" column="11"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="246" column="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -111,7 +111,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="241" bodyend="247"/>
+    <location file="MRViewer/MRRenderFeatureObjects.h" line="240" column="1" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="241" bodyend="247"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderCircleFeatureObject</scope><name>forceBindAll</name></member>
       <member refid="group__GeneralGroup_1ga119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderCircleFeatureObject</scope><name>glBytes</name></member>

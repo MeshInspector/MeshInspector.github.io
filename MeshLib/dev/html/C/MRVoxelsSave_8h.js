@@ -1,17 +1,5 @@
 var MRVoxelsSave_8h =
 [
-    [ "MR_expected_void_std_string", "MRVoxelsSave_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
-    [ "MR_FloatGrid", "MRVoxelsSave_8h.html#abc899d5a6475d6b9c15b9ccd231431b3", null ],
-    [ "MR_Object", "MRVoxelsSave_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
-    [ "MR_ObjectSave_Settings", "MRVoxelsSave_8h.html#a8ea0856fcd01d21e1d2d78a04eb46c1c", null ],
-    [ "MR_SimpleVolume", "MRVoxelsSave_8h.html#a9eebc3ffb6c9528989e38a2930f391cf", null ],
-    [ "MR_SimpleVolumeMinMax", "MRVoxelsSave_8h.html#a8926b75bb2beb7a906aef87b4867fe03", null ],
-    [ "MR_std_filesystem_path", "MRVoxelsSave_8h.html#a006d61fd2048bba5b5622d42cbe72526", null ],
-    [ "MR_std_function_bool_from_float", "MRVoxelsSave_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_ostream", "MRVoxelsSave_8h.html#a933fad1748853c0c595a157b9f6527c6", null ],
-    [ "MR_std_string", "MRVoxelsSave_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
-    [ "MR_VdbVolume", "MRVoxelsSave_8h.html#a3d8aa59058b2516d2c9b34241f2c0441", null ],
-    [ "MR_Vector3i", "MRVoxelsSave_8h.html#ad55ca9af0874ffb89877bad65ae2859d", null ],
     [ "MR_VoxelsSave_SavingSettings", "MRVoxelsSave_8h.html#a4fbdf2733718be5c8a4eb6b77207c017", null ],
     [ "MR_saveObjectVoxelsToFile", "MRVoxelsSave_8h.html#a70d96e6719fc2a42197dcc5aee065fb0", null ],
     [ "MR_VoxelsSave_gridToAnySupportedFormat", "MRVoxelsSave_8h.html#ae3b70a2ff05b5c2c6ed52657f80a7edd", null ],

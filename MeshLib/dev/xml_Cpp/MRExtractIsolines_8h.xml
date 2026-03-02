@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRExtractIsolines_8h" kind="file" language="C++">
     <compoundname>MRExtractIsolines.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -31,7 +31,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRExtractIsolines.h</label>
+        <label>MRMesh/MRExtractIsolines.h</label>
         <link refid="MRExtractIsolines_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -148,8 +148,8 @@
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
 <codeline lineno="74" refid="group__GeneralGroup_1ga9d313852215c7bc19114963b168f3435" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref><sp/><ref refid="group__GeneralGroup_1ga9d313852215c7bc19114963b168f3435" kindref="member">planeSectionsToContours2f</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5e21b52bde652c1330fdd745ee2ccbbc" kindref="member">PlaneSections</ref><sp/>&amp;<sp/>sections,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>&amp;<sp/>meshToPlane<sp/>);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRExtractIsolines.h"/>
+    <location file="MRMesh/MRExtractIsolines.h"/>
   </compounddef>
 </doxygen>

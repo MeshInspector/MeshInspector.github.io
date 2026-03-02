@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonFontHolder" kind="class" language="C++" prot="public">
     <compoundname>MR::RibbonFontHolder</compoundname>
-    <includes refid="MRRibbonFontHolder_8h" local="no">MRRibbonFontHolder.h</includes>
+    <includes refid="MRRibbonFontHolder_8h" local="no">MRViewer/MRRibbonFontHolder.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga00db004405c2640b76d7b1f93a74adce" kind="variable"><name>pushed_</name></member>
       <member refid="group__GeneralGroup_1gac4b6bb78dd407c89f9bfc0923089f0b5" kind="variable"><name>font_</name></member>
@@ -22,7 +22,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontHolder.h" bodystart="13" bodyend="34"/>
+    <location file="MRViewer/MRRibbonFontHolder.h" line="12" column="1" bodyfile="MRViewer/MRRibbonFontHolder.h" bodystart="13" bodyend="34"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac4b6bb78dd407c89f9bfc0923089f0b5" prot="private" virt="non-virtual"><scope>MR::RibbonFontHolder</scope><name>font_</name></member>
       <member refid="group__GeneralGroup_1gae7f38353c705231ad0e835fdb1d8660d" prot="public" virt="non-virtual"><scope>MR::RibbonFontHolder</scope><name>isPushed</name></member>

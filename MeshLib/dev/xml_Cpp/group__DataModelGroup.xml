@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__DataModelGroup" kind="group">
     <compoundname>DataModelGroup</compoundname>
     <title>Data Model</title>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h" line="18" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h" declline="18" declcolumn="18"/>
+        <location file="MRMesh/MRObjectFactory.h" line="18" column="18" declfile="MRMesh/MRObjectFactory.h" declline="18" declcolumn="18"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="23" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="23" declcolumn="11"/>
+        <location file="MRMesh/MRObjectLoad.h" line="23" column="11" declfile="MRMesh/MRObjectLoad.h" declline="23" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__DataModelGroup_1gadd90fc0dc330a520a6dff51ba956a7f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; LoadedObject &gt;</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="26" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="26" declcolumn="11"/>
+        <location file="MRMesh/MRObjectLoad.h" line="26" column="11" declfile="MRMesh/MRObjectLoad.h" declline="26" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__DataModelGroup_1gac9dd077808aa46ace7e81ce139b9059a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; ObjectLines &gt;</type>
@@ -116,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="30" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="30" declcolumn="11"/>
+        <location file="MRMesh/MRObjectLoad.h" line="30" column="11" declfile="MRMesh/MRObjectLoad.h" declline="30" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__DataModelGroup_1gae9ee60bba4a2913ac489fd27115fdd5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; ObjectPoints &gt;</type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="33" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="33" declcolumn="11"/>
+        <location file="MRMesh/MRObjectLoad.h" line="33" column="11" declfile="MRMesh/MRObjectLoad.h" declline="33" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__DataModelGroup_1ga57cc69565e989e8da9e17d20f41b42eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; ObjectDistanceMap &gt;</type>
@@ -164,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="36" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="36" declcolumn="11"/>
+        <location file="MRMesh/MRObjectLoad.h" line="36" column="11" declfile="MRMesh/MRObjectLoad.h" declline="36" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__DataModelGroup_1ga0bb66c4b59655efd884905cf765e7a8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; ObjectGcode &gt;</type>
@@ -188,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="39" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="39" declcolumn="11"/>
+        <location file="MRMesh/MRObjectLoad.h" line="39" column="11" declfile="MRMesh/MRObjectLoad.h" declline="39" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__DataModelGroup_1ga8f970cf17eda4dc8ebd3a11ba3227894" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; LoadedObjects &gt;</type>
@@ -222,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="45" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="45" declcolumn="11"/>
+        <location file="MRMesh/MRObjectLoad.h" line="45" column="11" declfile="MRMesh/MRObjectLoad.h" declline="45" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__DataModelGroup_1gad2d1bf6f777a42936fe7f20f86a7afa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -241,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="48" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="48" declcolumn="7"/>
+        <location file="MRMesh/MRObjectLoad.h" line="48" column="7" declfile="MRMesh/MRObjectLoad.h" declline="48" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__DataModelGroup_1gaca44e2332e7de600e47bb62bb01f93c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; LoadedObject &gt;</type>
@@ -265,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="51" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="51" declcolumn="11"/>
+        <location file="MRMesh/MRObjectLoad.h" line="51" column="11" declfile="MRMesh/MRObjectLoad.h" declline="51" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__DataModelGroup_1ga6fd5afbbb086d0929f3dc6d4f227c744" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; LoadedObject &gt;</type>
@@ -296,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="62" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="62" declcolumn="11"/>
+        <location file="MRMesh/MRObjectLoad.h" line="62" column="11" declfile="MRMesh/MRObjectLoad.h" declline="62" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__DataModelGroup_1ga6f03d6e2aa5d66aac5eb616ef651e31d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; LoadedObject &gt;</type>
@@ -322,7 +322,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="74" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="74" declcolumn="11"/>
+        <location file="MRMesh/MRObjectLoad.h" line="74" column="11" declfile="MRMesh/MRObjectLoad.h" declline="74" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__DataModelGroup_1gaf486b5ab2b1a6bea43372dfd45b9dfc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>IOFilters</type>
@@ -337,7 +337,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" line="79" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectLoad.h" declline="79" declcolumn="12"/>
+        <location file="MRMesh/MRObjectLoad.h" line="79" column="12" declfile="MRMesh/MRObjectLoad.h" declline="79" declcolumn="12"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -360,7 +360,7 @@
         <inbodydescription>
 <para>not found</para>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="95" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="346" bodyend="352"/>
+        <location file="MRMesh/MRObject.h" line="95" column="21" bodyfile="MRMesh/MRObject.h" bodystart="346" bodyend="352"/>
       </memberdef>
       <memberdef kind="function" id="group__DataModelGroup_1ga595c5f842600963ee11cd5e9a3a0a7f8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -385,7 +385,7 @@
         <inbodydescription>
 <para>not found</para>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="101" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="355" bodyend="362"/>
+        <location file="MRMesh/MRObject.h" line="101" column="21" bodyfile="MRMesh/MRObject.h" bodystart="355" bodyend="362"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

@@ -1,15 +1,10 @@
 var MRPolylineToVoxels_8h =
 [
-    [ "MR_DistanceToMeshOptions", "MRPolylineToVoxels_8h.html#a89c8051ab9f8ef3cd2f86752938a9e07", null ],
-    [ "MR_DistanceVolumeParams", "MRPolylineToVoxels_8h.html#af9c1f01ab3534b48d6b02a0b6c78143e", null ],
     [ "MR_expected_MR_FloatGrid_std_string", "MRPolylineToVoxels_8h.html#ad964a22a5f428efbf66fb45d2d17ed82", null ],
     [ "MR_expected_MR_FunctionVolume_std_string", "MRPolylineToVoxels_8h.html#a6d763aded740c8f4a904266815282341", null ],
-    [ "MR_expected_MR_SimpleVolume_std_string", "MRPolylineToVoxels_8h.html#a1fc8e13b15f164149cdebe00fc8c33b8", null ],
     [ "MR_expected_MR_VdbVolume_std_string", "MRPolylineToVoxels_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1", null ],
-    [ "MR_Polyline3", "MRPolylineToVoxels_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b", null ],
     [ "MR_PolylineToDistanceVolumeParams", "MRPolylineToVoxels_8h.html#a1e139f346b0d12414ed3c4ab8b50c1f9", null ],
     [ "MR_PolylineToVolumeParams", "MRPolylineToVoxels_8h.html#a3251850bdaa632f44f6046b2db9b6c6b", null ],
-    [ "MR_std_function_bool_from_float", "MRPolylineToVoxels_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_polylineToDistanceField", "MRPolylineToVoxels_8h.html#a39662768026f65a0c0c5c9beb27299b4", null ],
     [ "MR_PolylineToDistanceVolumeParams_AssignFromAnother", "MRPolylineToVoxels_8h.html#a41d3f0150b08817d95a82da7b775d9f5", null ],
     [ "MR_PolylineToDistanceVolumeParams_ConstructFrom", "MRPolylineToVoxels_8h.html#ab18988229b3cee667bdd2c184fd0bcbf", null ],

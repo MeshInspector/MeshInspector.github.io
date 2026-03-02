@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshBuilder_1_1UniteCloseParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshBuilder::UniteCloseParams</compoundname>
-    <includes refid="MRMeshBuilder_8h" local="no">MRMeshBuilder.h</includes>
+    <includes refid="MRMeshBuilder_8h" local="no">MRMesh/MRMeshBuilder.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga7a875c31321cd79bd5c7d57c5b9a6f4e" kind="variable"><name>closeDist</name></member>
       <member refid="group__GeneralGroup_1ga114d1d59ef37898d184ed75daaf0b5fa" kind="variable"><name>uniteOnlyBd</name></member>
@@ -15,7 +15,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="95" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="96" bodyend="114"/>
+    <location file="MRMesh/MRMeshBuilder.h" line="95" column="1" bodyfile="MRMesh/MRMeshBuilder.h" bodystart="96" bodyend="114"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7a875c31321cd79bd5c7d57c5b9a6f4e" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>closeDist</name></member>
       <member refid="group__GeneralGroup_1ga6e04cfb485e0a54e7aaf0c75c8ad0eec" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>duplicateNonManifold</name></member>

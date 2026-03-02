@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1DistanceMapLoadSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::DistanceMapLoadSettings</compoundname>
-    <includes refid="MRDistanceMapParams_8h" local="no">MRDistanceMapParams.h</includes>
+    <includes refid="MRDistanceMapParams_8h" local="no">MRMesh/MRDistanceMapParams.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1DistanceMapLoadSettings_1a4329716168946bea274736a95808880e" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1DistanceMapToWorld" kindref="compound">DistanceMapToWorld</ref> *</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="191" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="191" bodyend="-1"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="191" column="24" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="191" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DistanceMapLoadSettings_1ac98a6aecff7b146c598462c9c382a18f" prot="public" static="no" mutable="no">
         <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="193" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="193" bodyend="-1"/>
+        <location file="MRMesh/MRDistanceMapParams.h" line="193" column="22" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="193" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -54,7 +54,7 @@
         <link refid="structMR_1_1DistanceMapToWorld"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="189" bodyend="194"/>
+    <location file="MRMesh/MRDistanceMapParams.h" line="188" column="1" bodyfile="MRMesh/MRDistanceMapParams.h" bodystart="189" bodyend="194"/>
     <listofallmembers>
       <member refid="structMR_1_1DistanceMapLoadSettings_1a4329716168946bea274736a95808880e" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>distanceMapToWorld</name></member>
       <member refid="structMR_1_1DistanceMapLoadSettings_1ac98a6aecff7b146c598462c9c382a18f" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>progress</name></member>

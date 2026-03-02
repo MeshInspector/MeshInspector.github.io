@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1FindOutliersParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::FindOutliersParams</compoundname>
-    <includes refid="MROutlierPoints_8h" local="no">MROutlierPoints.h</includes>
+    <includes refid="MROutlierPoints_8h" local="no">MRMesh/MROutlierPoints.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga946930107905c1323ecdbcab72a87914" kind="variable"><name>finderParams</name></member>
       <member refid="group__GeneralGroup_1ga41cffc0d0bf42f1a2f3131c84385aac0" kind="variable"><name>radius</name></member>
@@ -27,7 +27,7 @@
         <link refid="structMR_1_1OutlierParams"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" line="89" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" bodystart="90" bodyend="97"/>
+    <location file="MRMesh/MROutlierPoints.h" line="89" column="1" bodyfile="MRMesh/MROutlierPoints.h" bodystart="90" bodyend="97"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga946930107905c1323ecdbcab72a87914" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>finderParams</name></member>
       <member refid="group__GeneralGroup_1ga7f72b590f90df23de6d1e5a77a5c1fc5" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>mask</name></member>

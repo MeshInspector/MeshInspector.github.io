@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRUITestEngine_8h" kind="file" language="C++">
     <compoundname>MRUITestEngine.h</compoundname>
     <includes refid="MRExpected_8h" local="yes">MRMesh/MRExpected.h</includes>
@@ -62,7 +62,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRUITestEngine.h</label>
+        <label>MRViewer/MRUITestEngine.h</label>
         <link refid="MRUITestEngine_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -166,7 +166,7 @@
 <codeline lineno="18" refid="namespaceMR_1_1UI_1_1TestEngine" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1UI_1_1TestEngine" kindref="compound">MR::UI::TestEngine</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">detail</highlight></codeline>
+<codeline lineno="21" refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail" kindref="compound">detail</ref></highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
 <codeline lineno="24" refid="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue" kindref="compound">BoundedValue</ref></highlight></codeline>
@@ -206,7 +206,7 @@
 <codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
 <codeline lineno="61" refid="conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">concept<sp/></highlight><highlight class="normal"><ref refid="conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType" kindref="compound">AllowedValueType</ref><sp/>=<sp/>std::is_arithmetic_v&lt;T&gt;<sp/>||<sp/>std::is_same_v&lt;T,<sp/>std::string&gt;;</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;AllowedValueType<sp/>T&gt;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;AllowedValueType<sp/>T&gt;</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight><highlight class="keyword">requires</highlight><highlight class="normal"><sp/>std::is_arithmetic_v&lt;T&gt;</highlight></codeline>
 <codeline lineno="71" refid="namespaceMR_1_1UI_1_1TestEngine_1af12811d400185e17b9fbecf90ca59920" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>std::optional&lt;T&gt;<sp/><ref refid="namespaceMR_1_1UI_1_1TestEngine_1af12811d400185e17b9fbecf90ca59920" kindref="member">createValue</ref>(<sp/>std::string_view<sp/>name,<sp/>T<sp/>value,<sp/>T<sp/>min,<sp/>T<sp/>max,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>consumeValueOverride<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>)</highlight></codeline>
 <codeline lineno="72"><highlight class="normal">{</highlight></codeline>
@@ -219,12 +219,12 @@
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">U<sp/>=<sp/><ref refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1ab897ec83d6544cb895ed73a8330cfe6e" kindref="member">detail::UnderlyingValueType&lt;T&gt;</ref>;</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(T)<sp/>&lt;=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(U),<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>used<sp/>type<sp/>is<sp/>too<sp/>large.&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ret<sp/>=<sp/><ref refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1a028265a06dcf0d5ed01bd801f6fc7314" kindref="member">detail::createValueLow&lt;U&gt;</ref>(<sp/>name,<sp/><ref refid="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue" kindref="compound">detail::BoundedValue&lt;U&gt;</ref>{<sp/>.<ref refid="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue_1ad64f2e2f9194fde2222f1ecc5cb37a47" kindref="member">value</ref><sp/>=<sp/>U(<sp/>value<sp/>),<sp/>.min<sp/>=<sp/>U(<sp/>min<sp/>),<sp/>.max<sp/>=<sp/>U(<sp/>max<sp/>)<sp/>},<sp/>consumeValueOverride<sp/>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ret<sp/>=<sp/><ref refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1a028265a06dcf0d5ed01bd801f6fc7314" kindref="member">detail::createValueLow&lt;U&gt;</ref>(<sp/>name,<sp/><ref refid="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue" kindref="compound">detail::BoundedValue&lt;U&gt;</ref>{<sp/>.value<sp/>=<sp/>U(<sp/>value<sp/>),<sp/>.min<sp/>=<sp/>U(<sp/>min<sp/>),<sp/>.max<sp/>=<sp/>U(<sp/>max<sp/>)<sp/>},<sp/>consumeValueOverride<sp/>);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret<sp/>?<sp/>std::optional&lt;T&gt;(<sp/>T(<sp/>*ret<sp/>)<sp/>)<sp/>:<sp/>std::nullopt;</highlight></codeline>
 <codeline lineno="84"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="86" refid="namespaceMR_1_1UI_1_1TestEngine_1a74c5a460292cbb0112a63fe0a6e85bf8" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/>std::optional&lt;std::string&gt;<sp/><ref refid="namespaceMR_1_1UI_1_1TestEngine_1af12811d400185e17b9fbecf90ca59920" kindref="member">createValue</ref>(<sp/>std::string_view<sp/>name,<sp/>std::string<sp/>value,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>consumeValueOverride<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>std::optional&lt;std::vector&lt;std::string&gt;&gt;<sp/>allowedValues<sp/>=<sp/>std::nullopt<sp/>);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;AllowedValueType<sp/>T&gt;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;AllowedValueType<sp/>T&gt;</highlight></codeline>
 <codeline lineno="93" refid="namespaceMR_1_1UI_1_1TestEngine_1a937d804d659e0c82a3623bf0c09be2bf" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>std::optional&lt;T&gt;<sp/><ref refid="namespaceMR_1_1UI_1_1TestEngine_1a937d804d659e0c82a3623bf0c09be2bf" kindref="member">createValueTentative</ref>(<sp/>std::string_view<sp/>name,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>consumeValueOverride<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>)</highlight></codeline>
 <codeline lineno="94"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ret<sp/>=<sp/><ref refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1a028265a06dcf0d5ed01bd801f6fc7314" kindref="member">detail::createValueLow&lt;detail::UnderlyingValueType&lt;T&gt;</ref>&gt;(<sp/>name,<sp/>std::nullopt,<sp/>consumeValueOverride<sp/>);</highlight></codeline>
@@ -243,10 +243,10 @@
 <codeline lineno="110" refid="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry_1ae266c30a230c916a84c4bc1704ab96d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::string_view<sp/><ref refid="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry_1ae266c30a230c916a84c4bc1704ab96d2" kindref="member">kindName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;button&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="111"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114" refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry" kindref="compound">ValueEntry</ref></highlight></codeline>
+<codeline lineno="114" refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry" kindref="compound">ValueEntry</ref></highlight></codeline>
 <codeline lineno="115"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="117" refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value" kindref="compound">Value</ref></highlight></codeline>
+<codeline lineno="117" refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1a0c53df5fe946d2f3a130df1ba36cc8dc" kindref="member">Value</ref></highlight></codeline>
 <codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="120" refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1aaa2f88e1c672ce3881f126bcb168693b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>T<sp/><ref refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1aaa2f88e1c672ce3881f126bcb168693b" kindref="member">value</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
@@ -258,7 +258,7 @@
 <codeline lineno="129" refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1a0c53df5fe946d2f3a130df1ba36cc8dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1a0c53df5fe946d2f3a130df1ba36cc8dc" kindref="member">Value</ref>()<sp/>{}<sp/></highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;std::same_as&lt;std::</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&gt;<sp/>T&gt;<sp/></highlight></codeline>
-<codeline lineno="132" refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value" kindref="compound">Value</ref>&lt;T&gt;</highlight></codeline>
+<codeline lineno="132" refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4_1a0c53df5fe946d2f3a130df1ba36cc8dc" kindref="member">Value</ref>&lt;T&gt;</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="135" refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4_1a75052a15d9676e842bbd866aa32fa037" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4_1a75052a15d9676e842bbd866aa32fa037" kindref="member">value</ref>;</highlight></codeline>
 <codeline lineno="136"><highlight class="normal"></highlight></codeline>
@@ -311,6 +311,6 @@
 <codeline lineno="192"><highlight class="normal"></highlight></codeline>
 <codeline lineno="193"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h"/>
+    <location file="MRViewer/MRUITestEngine.h"/>
   </compounddef>
 </doxygen>

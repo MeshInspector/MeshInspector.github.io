@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRHistoryAction_8h" kind="file" language="C++">
     <compoundname>MRHistoryAction.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -216,6 +216,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Undo action for ObjectVoxels face selection Generated from class <computeroutput>MR::ChangVoxelSelectionAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -229,23 +230,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::ChangeActiveBoxAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" prot="public" static="no">
-        <type>struct <ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref></type>
-        <definition>typedef struct MR_ChangeColoringType MR_ChangeColoringType</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeColoringType</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="15" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRHistoryAction_8h_1a86ea6a96b491c586909a0a455015d414" prot="public" static="no">
         <type>struct <ref refid="MRHistoryAction_8h_1a86ea6a96b491c586909a0a455015d414" kindref="member">MR_ChangeDualMarchingCubesAction</ref></type>
@@ -255,23 +244,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Undo action for ObjectVoxels dual/standard marching cubes change Generated from class <computeroutput>MR::ChangeDualMarchingCubesAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="16" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" prot="public" static="no">
-        <type>struct <ref refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" kindref="member">MR_ChangeFacesColorMapAction</ref></type>
-        <definition>typedef struct MR_ChangeFacesColorMapAction MR_ChangeFacesColorMapAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeFacesColorMapAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="17" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRHistoryAction_8h_1a49915b5fcd60bfb177c54347b03a606f" prot="public" static="no">
         <type>struct <ref refid="MRHistoryAction_8h_1a49915b5fcd60bfb177c54347b03a606f" kindref="member">MR_ChangeGridAction</ref></type>
@@ -281,6 +258,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::ChangeGridAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -294,6 +272,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Undo action for ObjectVoxels iso-value change Generated from class <computeroutput>MR::ChangeIsoAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -307,374 +286,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::ChangeLabelAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="20" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" prot="public" static="no">
-        <type>struct <ref refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" kindref="member">MR_ChangeLinesColorMapAction</ref></type>
-        <definition>typedef struct MR_ChangeLinesColorMapAction MR_ChangeLinesColorMapAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeLinesColorMapAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="21" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a050074989f3eb0b2bcda841a828694e8" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref></type>
-        <definition>typedef struct MR_ChangeMeshAction MR_ChangeMeshAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeMeshAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="22" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a46ed06941314c98e9621a63e5ae9ef79" prot="public" static="no">
-        <type>struct <ref refid="MRChangeSelectionAction_8h_1a46ed06941314c98e9621a63e5ae9ef79" kindref="member">MR_ChangeMeshCreasesAction</ref></type>
-        <definition>typedef struct MR_ChangeMeshCreasesAction MR_ChangeMeshCreasesAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeMeshCreasesAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="23" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a0708d452c5be91c86b2f58af98d730f9" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref></type>
-        <definition>typedef struct MR_ChangeMeshDataAction MR_ChangeMeshDataAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeMeshDataAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="24" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a7f8390cba4e0fcc5132bbd760a8b2794" prot="public" static="no">
-        <type>struct <ref refid="MRChangeSelectionAction_8h_1a7f8390cba4e0fcc5132bbd760a8b2794" kindref="member">MR_ChangeMeshEdgeSelectionAction</ref></type>
-        <definition>typedef struct MR_ChangeMeshEdgeSelectionAction MR_ChangeMeshEdgeSelectionAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeMeshEdgeSelectionAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="25" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1ad981a11117b7a06254d40011d5959840" prot="public" static="no">
-        <type>struct <ref refid="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" kindref="member">MR_ChangeMeshFaceSelectionAction</ref></type>
-        <definition>typedef struct MR_ChangeMeshFaceSelectionAction MR_ChangeMeshFaceSelectionAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeMeshFaceSelectionAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="26" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a348511c440e71cb80d812e05b6410240" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshAction_8h_1a348511c440e71cb80d812e05b6410240" kindref="member">MR_ChangeMeshPointsAction</ref></type>
-        <definition>typedef struct MR_ChangeMeshPointsAction MR_ChangeMeshPointsAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeMeshPointsAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="27" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a2f9cf3d56b1cb324253a5b6ad1e5832a" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshAction_8h_1a2f9cf3d56b1cb324253a5b6ad1e5832a" kindref="member">MR_ChangeMeshTexturePerFaceAction</ref></type>
-        <definition>typedef struct MR_ChangeMeshTexturePerFaceAction MR_ChangeMeshTexturePerFaceAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeMeshTexturePerFaceAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="28" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a7b5ec4a3711d1244920ee80000b7b80d" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshAction_8h_1a7b5ec4a3711d1244920ee80000b7b80d" kindref="member">MR_ChangeMeshTopologyAction</ref></type>
-        <definition>typedef struct MR_ChangeMeshTopologyAction MR_ChangeMeshTopologyAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeMeshTopologyAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="29" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a8872d1132566b574ae996c25d6d037c2" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshAction_8h_1a8872d1132566b574ae996c25d6d037c2" kindref="member">MR_ChangeMeshUVCoordsAction</ref></type>
-        <definition>typedef struct MR_ChangeMeshUVCoordsAction MR_ChangeMeshUVCoordsAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeMeshUVCoordsAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="30" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1af94722bc440c31a055f3776ce2a2d17d" prot="public" static="no">
-        <type>struct <ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref></type>
-        <definition>typedef struct MR_ChangeNameAction MR_ChangeNameAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeNameAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="31" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1ace428deca741a051d6044c38fa0c124a" prot="public" static="no">
-        <type>struct <ref refid="MRChangeObjectAction_8h_1ace428deca741a051d6044c38fa0c124a" kindref="member">MR_ChangeObjectAction</ref></type>
-        <definition>typedef struct MR_ChangeObjectAction MR_ChangeObjectAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeObjectAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="32" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1ac5655fa994c66e1064866af75a1c3f2b" prot="public" static="no">
-        <type>struct <ref refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" kindref="member">MR_ChangeObjectColorAction</ref></type>
-        <definition>typedef struct MR_ChangeObjectColorAction MR_ChangeObjectColorAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeObjectColorAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="33" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="33" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" prot="public" static="no">
-        <type>struct <ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref></type>
-        <definition>typedef struct MR_ChangeObjectSelectedAction MR_ChangeObjectSelectedAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeObjectSelectedAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="34" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" prot="public" static="no">
-        <type>struct <ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref></type>
-        <definition>typedef struct MR_ChangeObjectVisibilityAction MR_ChangeObjectVisibilityAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeObjectVisibilityAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="35" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a33567717a02a1e15d460721dee6ed102" prot="public" static="no">
-        <type>struct <ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref></type>
-        <definition>typedef struct MR_ChangeOneNormalInCloudAction MR_ChangeOneNormalInCloudAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeOneNormalInCloudAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="36" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a1eb83c1313108b7598ca5623f32563c5" prot="public" static="no">
-        <type>struct <ref refid="MRChangePointCloudAction_8h_1a1eb83c1313108b7598ca5623f32563c5" kindref="member">MR_ChangeOnePointInCloudAction</ref></type>
-        <definition>typedef struct MR_ChangeOnePointInCloudAction MR_ChangeOnePointInCloudAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeOnePointInCloudAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="37" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="37" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1aff5307960a8c87337da88bb8be88c198" prot="public" static="no">
-        <type>struct <ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref></type>
-        <definition>typedef struct MR_ChangeOnePointInPolylineAction MR_ChangeOnePointInPolylineAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeOnePointInPolylineAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="38" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a508d7869c6f665b19d0d28a6f8508680" prot="public" static="no">
-        <type>struct <ref refid="MRChangePointCloudAction_8h_1a508d7869c6f665b19d0d28a6f8508680" kindref="member">MR_ChangePointCloudAction</ref></type>
-        <definition>typedef struct MR_ChangePointCloudAction MR_ChangePointCloudAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangePointCloudAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="39" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="39" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a23b364fd86366826aa1826b67cdf2de6" prot="public" static="no">
-        <type>struct <ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref></type>
-        <definition>typedef struct MR_ChangePointCloudNormalsAction MR_ChangePointCloudNormalsAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangePointCloudNormalsAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="40" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="40" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1aae484122f7057358e0ea8cde58912cb6" prot="public" static="no">
-        <type>struct <ref refid="MRChangePointCloudAction_8h_1aae484122f7057358e0ea8cde58912cb6" kindref="member">MR_ChangePointCloudPointsAction</ref></type>
-        <definition>typedef struct MR_ChangePointCloudPointsAction MR_ChangePointCloudPointsAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangePointCloudPointsAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="41" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" prot="public" static="no">
-        <type>struct <ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref></type>
-        <definition>typedef struct MR_ChangePointPointSelectionAction MR_ChangePointPointSelectionAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangePointPointSelectionAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="42" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="42" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a6d994a09b1de861a40216b52abea27f4" prot="public" static="no">
-        <type>struct <ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref></type>
-        <definition>typedef struct MR_ChangePolylineAction MR_ChangePolylineAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangePolylineAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="43" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="43" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" prot="public" static="no">
-        <type>struct <ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref></type>
-        <definition>typedef struct MR_ChangePolylinePointsAction MR_ChangePolylinePointsAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangePolylinePointsAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="44" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="44" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" prot="public" static="no">
-        <type>struct <ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref></type>
-        <definition>typedef struct MR_ChangePolylineTopologyAction MR_ChangePolylineTopologyAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangePolylineTopologyAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="45" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="45" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a84dcb56dda89d6796be86c50afca37f5" prot="public" static="no">
-        <type>struct <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref></type>
-        <definition>typedef struct MR_ChangeScaleAction MR_ChangeScaleAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeScaleAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="46" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="46" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" prot="public" static="no">
-        <type>struct <ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref></type>
-        <definition>typedef struct MR_ChangeSceneAction MR_ChangeSceneAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeSceneAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="47" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="47" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" prot="public" static="no">
-        <type>struct <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref></type>
-        <definition>typedef struct MR_ChangeSceneObjectsOrder MR_ChangeSceneObjectsOrder</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeSceneObjectsOrder</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="48" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRHistoryAction_8h_1a3bbeed91b50ae84d8f30852df31f64a9" prot="public" static="no">
         <type>struct <ref refid="MRHistoryAction_8h_1a3bbeed91b50ae84d8f30852df31f64a9" kindref="member">MR_ChangeSurfaceAction</ref></type>
@@ -684,62 +300,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::ChangeSurfaceAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="49" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="49" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1ae7320f41fa5ef9a1eabb7ec4b6c95f72" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshAction_8h_1ae7320f41fa5ef9a1eabb7ec4b6c95f72" kindref="member">MR_ChangeTextureAction</ref></type>
-        <definition>typedef struct MR_ChangeTextureAction MR_ChangeTextureAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeTextureAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="50" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="50" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a4afb08efd011be59bb864b94c4ebf52d" prot="public" static="no">
-        <type>struct <ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref></type>
-        <definition>typedef struct MR_ChangeVisualizePropertyAction MR_ChangeVisualizePropertyAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeVisualizePropertyAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="51" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="51" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" prot="public" static="no">
-        <type>struct <ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref></type>
-        <definition>typedef struct MR_ChangeXfAction MR_ChangeXfAction</definition>
-        <argsstring></argsstring>
-        <name>MR_ChangeXfAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="52" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="52" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" prot="public" static="no">
-        <type>struct <ref refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" kindref="member">MR_CombinedHistoryAction</ref></type>
-        <definition>typedef struct MR_CombinedHistoryAction MR_CombinedHistoryAction</definition>
-        <argsstring></argsstring>
-        <name>MR_CombinedHistoryAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="53" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRHistoryAction_8h_1a1dfeb0a82f9c635c37b1371bb1d3f22e" prot="public" static="no">
         <type>struct <ref refid="MRHistoryAction_8h_1a1dfeb0a82f9c635c37b1371bb1d3f22e" kindref="member">MR_PartialChangeMeshAction</ref></type>
@@ -749,23 +314,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Undo action for efficiently storage of partial change in mesh (e.g. a modification of small region) Generated from class <computeroutput>MR::PartialChangeMeshAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="54" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="54" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref></type>
-        <definition>typedef struct MR_PartialChangeMeshDataAction MR_PartialChangeMeshDataAction</definition>
-        <argsstring></argsstring>
-        <name>MR_PartialChangeMeshDataAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="55" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRHistoryAction_8h_1ab22704b3df03315a3c89a759b652cbdc" prot="public" static="no">
         <type>struct <ref refid="MRHistoryAction_8h_1ab22704b3df03315a3c89a759b652cbdc" kindref="member">MR_PartialChangeMeshPointsAction</ref></type>
@@ -775,6 +328,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Undo action for efficiently storage of partial change in mesh points (e.g. a modification of small region) Generated from class <computeroutput>MR::PartialChangeMeshPointsAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -788,23 +342,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Undo action for efficiently storage of partial change in mesh topology (e.g. a modification of small region) Generated from class <computeroutput>MR::PartialChangeMeshTopologyAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="57" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="57" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a3ae2a902ff1290a29d4eb83645b9ed24" prot="public" static="no">
-        <type>struct <ref refid="MRCombinedHistoryAction_8h_1a3ae2a902ff1290a29d4eb83645b9ed24" kindref="member">MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="58" column="82" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRHistoryAction_8h_1adaf3c02e21cb0b0f3f57f79e214ef692" prot="public" static="no">
         <type>struct <ref refid="MRHistoryAction_8h_1adaf3c02e21cb0b0f3f57f79e214ef692" kindref="member">MR_std_pair_bool_int</ref></type>
@@ -819,32 +361,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="59" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="59" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
-        <definition>typedef struct MR_std_string MR_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="60" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="60" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a302e96c8fc205d87b7083d246ebeb457" prot="public" static="no">
-        <type>struct <ref refid="MRCombinedHistoryAction_8h_1a302e96c8fc205d87b7083d246ebeb457" kindref="member">MR_std_vector_std_shared_ptr_MR_HistoryAction</ref></type>
-        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_HistoryAction MR_std_vector_std_shared_ptr_MR_HistoryAction</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_shared_ptr_MR_HistoryAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="61" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="61" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRHistoryAction_8h_1ab97889d4c27c6ef16c1f55670347801f" prot="public" static="no">
         <type>enum <ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref></type>
         <definition>typedef enum MR_HistoryAction_Type MR_HistoryAction_Type</definition>
@@ -858,20 +374,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="68" column="23"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRHistoryAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" prot="public" static="no">
-        <type>struct <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref></type>
-        <definition>typedef struct MR_HistoryAction MR_HistoryAction</definition>
-        <argsstring></argsstring>
-        <name>MR_HistoryAction</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Abstract class for history actions Generated from class <computeroutput>MR::HistoryAction</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::ChangVoxelSelectionAction</computeroutput> <computeroutput>MR::ChangeActiveBoxAction</computeroutput> <computeroutput>MR::ChangeColoringType</computeroutput> <computeroutput>MR::ChangeDualMarchingCubesAction</computeroutput> <computeroutput>MR::ChangeFacesColorMapAction</computeroutput> <computeroutput>MR::ChangeGridAction</computeroutput> <computeroutput>MR::ChangeIsoAction</computeroutput> <computeroutput>MR::ChangeLabelAction</computeroutput> <computeroutput>MR::ChangeLinesColorMapAction</computeroutput> <computeroutput>MR::ChangeMeshAction</computeroutput> <computeroutput>MR::ChangeMeshCreasesAction</computeroutput> <computeroutput>MR::ChangeMeshDataAction</computeroutput> <computeroutput>MR::ChangeMeshEdgeSelectionAction</computeroutput> <computeroutput>MR::ChangeMeshFaceSelectionAction</computeroutput> <computeroutput>MR::ChangeMeshPointsAction</computeroutput> <computeroutput>MR::ChangeMeshTexturePerFaceAction</computeroutput> <computeroutput>MR::ChangeMeshTopologyAction</computeroutput> <computeroutput>MR::ChangeMeshUVCoordsAction</computeroutput> <computeroutput>MR::ChangeNameAction</computeroutput> <computeroutput>MR::ChangeObjectAction</computeroutput> <computeroutput>MR::ChangeObjectColorAction</computeroutput> <computeroutput>MR::ChangeObjectSelectedAction</computeroutput> <computeroutput>MR::ChangeObjectVisibilityAction</computeroutput> <computeroutput>MR::ChangeOneNormalInCloudAction</computeroutput> <computeroutput>MR::ChangeOnePointInCloudAction</computeroutput> <computeroutput>MR::ChangeOnePointInPolylineAction</computeroutput> <computeroutput>MR::ChangePointCloudAction</computeroutput> <computeroutput>MR::ChangePointCloudNormalsAction</computeroutput> <computeroutput>MR::ChangePointCloudPointsAction</computeroutput> <computeroutput>MR::ChangePointPointSelectionAction</computeroutput> <computeroutput>MR::ChangePolylineAction</computeroutput> <computeroutput>MR::ChangePolylinePointsAction</computeroutput> <computeroutput>MR::ChangePolylineTopologyAction</computeroutput> <computeroutput>MR::ChangeScaleAction</computeroutput> <computeroutput>MR::ChangeSceneAction</computeroutput> <computeroutput>MR::ChangeSceneObjectsOrder</computeroutput> <computeroutput>MR::ChangeSurfaceAction</computeroutput> <computeroutput>MR::ChangeTextureAction</computeroutput> <computeroutput>MR::ChangeVisualizePropertyAction</computeroutput> <computeroutput>MR::ChangeXfAction</computeroutput> <computeroutput>MR::CombinedHistoryAction</computeroutput> <computeroutput>MR::PartialChangeMeshAction</computeroutput> <computeroutput>MR::PartialChangeMeshDataAction</computeroutput> <computeroutput>MR::PartialChangeMeshPointsAction</computeroutput> <computeroutput>MR::PartialChangeMeshTopologyAction</computeroutput> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" line="119" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHistoryAction.h" bodystart="119" bodyend="-1"/>
-      </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRHistoryAction_8h_1a3e2beacbb63e29937e3388a090123727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -884,7 +386,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_HistoryAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -902,7 +404,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_HistoryAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5946,53 +5448,53 @@
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13" refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref><sp/><ref refid="MRHistoryAction_8h_1a57a2ae8d8eb710bac84ccc821236200d" kindref="member">MR_ChangVoxelSelectionAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRChangeVoxelSelectionAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="MRHistoryAction_8h_1aeaeebecb7d5aa1257ca82ad7bfb71305" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistoryAction_8h_1aeaeebecb7d5aa1257ca82ad7bfb71305" kindref="member">MR_ChangeActiveBoxAction</ref><sp/><ref refid="MRHistoryAction_8h_1aeaeebecb7d5aa1257ca82ad7bfb71305" kindref="member">MR_ChangeActiveBoxAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRChangeVoxelsAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRHistoryAction_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeColoringType.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeColoringType.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRHistoryAction_8h_1a86ea6a96b491c586909a0a455015d414" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistoryAction_8h_1a86ea6a96b491c586909a0a455015d414" kindref="member">MR_ChangeDualMarchingCubesAction</ref><sp/><ref refid="MRHistoryAction_8h_1a86ea6a96b491c586909a0a455015d414" kindref="member">MR_ChangeDualMarchingCubesAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRChangeVoxelsAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRHistoryAction_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" kindref="member">MR_ChangeFacesColorMapAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" kindref="member">MR_ChangeFacesColorMapAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeColoringActions.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" kindref="member">MR_ChangeFacesColorMapAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" kindref="member">MR_ChangeFacesColorMapAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeColoringActions.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="MRHistoryAction_8h_1a49915b5fcd60bfb177c54347b03a606f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistoryAction_8h_1a49915b5fcd60bfb177c54347b03a606f" kindref="member">MR_ChangeGridAction</ref><sp/><ref refid="MRHistoryAction_8h_1a49915b5fcd60bfb177c54347b03a606f" kindref="member">MR_ChangeGridAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRChangeVoxelsAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="MRHistoryAction_8h_1a79ae7cac7003bbf0ffae3a8d018821c2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistoryAction_8h_1a79ae7cac7003bbf0ffae3a8d018821c2" kindref="member">MR_ChangeIsoAction</ref><sp/><ref refid="MRHistoryAction_8h_1a79ae7cac7003bbf0ffae3a8d018821c2" kindref="member">MR_ChangeIsoAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRChangeVoxelsAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref><sp/><ref refid="MRHistoryAction_8h_1ab259828ed76e1f7397ce95b14ddd7aa8" kindref="member">MR_ChangeLabelAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCSymbolMesh/MRChangeLabelAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRHistoryAction_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" kindref="member">MR_ChangeLinesColorMapAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" kindref="member">MR_ChangeLinesColorMapAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeColoringActions.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRHistoryAction_8h_1a050074989f3eb0b2bcda841a828694e8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref><sp/><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRHistoryAction_8h_1a46ed06941314c98e9621a63e5ae9ef79" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSelectionAction_8h_1a46ed06941314c98e9621a63e5ae9ef79" kindref="member">MR_ChangeMeshCreasesAction</ref><sp/><ref refid="MRChangeSelectionAction_8h_1a46ed06941314c98e9621a63e5ae9ef79" kindref="member">MR_ChangeMeshCreasesAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeSelectionAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRHistoryAction_8h_1a0708d452c5be91c86b2f58af98d730f9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshDataAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MRHistoryAction_8h_1a7f8390cba4e0fcc5132bbd760a8b2794" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSelectionAction_8h_1a7f8390cba4e0fcc5132bbd760a8b2794" kindref="member">MR_ChangeMeshEdgeSelectionAction</ref><sp/><ref refid="MRChangeSelectionAction_8h_1a7f8390cba4e0fcc5132bbd760a8b2794" kindref="member">MR_ChangeMeshEdgeSelectionAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeSelectionAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRHistoryAction_8h_1ad981a11117b7a06254d40011d5959840" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" kindref="member">MR_ChangeMeshFaceSelectionAction</ref><sp/><ref refid="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" kindref="member">MR_ChangeMeshFaceSelectionAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeSelectionAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRHistoryAction_8h_1a348511c440e71cb80d812e05b6410240" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a348511c440e71cb80d812e05b6410240" kindref="member">MR_ChangeMeshPointsAction</ref><sp/><ref refid="MRChangeMeshAction_8h_1a348511c440e71cb80d812e05b6410240" kindref="member">MR_ChangeMeshPointsAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRHistoryAction_8h_1a2f9cf3d56b1cb324253a5b6ad1e5832a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a2f9cf3d56b1cb324253a5b6ad1e5832a" kindref="member">MR_ChangeMeshTexturePerFaceAction</ref><sp/><ref refid="MRChangeMeshAction_8h_1a2f9cf3d56b1cb324253a5b6ad1e5832a" kindref="member">MR_ChangeMeshTexturePerFaceAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRHistoryAction_8h_1a7b5ec4a3711d1244920ee80000b7b80d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a7b5ec4a3711d1244920ee80000b7b80d" kindref="member">MR_ChangeMeshTopologyAction</ref><sp/><ref refid="MRChangeMeshAction_8h_1a7b5ec4a3711d1244920ee80000b7b80d" kindref="member">MR_ChangeMeshTopologyAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRHistoryAction_8h_1a8872d1132566b574ae996c25d6d037c2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a8872d1132566b574ae996c25d6d037c2" kindref="member">MR_ChangeMeshUVCoordsAction</ref><sp/><ref refid="MRChangeMeshAction_8h_1a8872d1132566b574ae996c25d6d037c2" kindref="member">MR_ChangeMeshUVCoordsAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRHistoryAction_8h_1af94722bc440c31a055f3776ce2a2d17d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeNameAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRHistoryAction_8h_1ace428deca741a051d6044c38fa0c124a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeObjectAction_8h_1ace428deca741a051d6044c38fa0c124a" kindref="member">MR_ChangeObjectAction</ref><sp/><ref refid="MRChangeObjectAction_8h_1ace428deca741a051d6044c38fa0c124a" kindref="member">MR_ChangeObjectAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeObjectAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRHistoryAction_8h_1ac5655fa994c66e1064866af75a1c3f2b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" kindref="member">MR_ChangeObjectColorAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" kindref="member">MR_ChangeObjectColorAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeColoringActions.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRHistoryAction_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeObjectFields.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRHistoryAction_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeObjectFields.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRHistoryAction_8h_1a33567717a02a1e15d460721dee6ed102" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePointCloudNormalsAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRHistoryAction_8h_1a1eb83c1313108b7598ca5623f32563c5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePointCloudAction_8h_1a1eb83c1313108b7598ca5623f32563c5" kindref="member">MR_ChangeOnePointInCloudAction</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a1eb83c1313108b7598ca5623f32563c5" kindref="member">MR_ChangeOnePointInCloudAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePointCloudAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRHistoryAction_8h_1aff5307960a8c87337da88bb8be88c198" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePolylineAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRHistoryAction_8h_1a508d7869c6f665b19d0d28a6f8508680" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePointCloudAction_8h_1a508d7869c6f665b19d0d28a6f8508680" kindref="member">MR_ChangePointCloudAction</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a508d7869c6f665b19d0d28a6f8508680" kindref="member">MR_ChangePointCloudAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePointCloudAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRHistoryAction_8h_1a23b364fd86366826aa1826b67cdf2de6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePointCloudNormalsAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRHistoryAction_8h_1aae484122f7057358e0ea8cde58912cb6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePointCloudAction_8h_1aae484122f7057358e0ea8cde58912cb6" kindref="member">MR_ChangePointCloudPointsAction</ref><sp/><ref refid="MRChangePointCloudAction_8h_1aae484122f7057358e0ea8cde58912cb6" kindref="member">MR_ChangePointCloudPointsAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePointCloudAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRHistoryAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeSelectionAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRHistoryAction_8h_1a6d994a09b1de861a40216b52abea27f4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePolylineAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRHistoryAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePolylineAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRHistoryAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePolylineAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRHistoryAction_8h_1a84dcb56dda89d6796be86c50afca37f5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeScaleAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRHistoryAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeSceneAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRHistoryAction_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeSceneObjectsOrder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" kindref="member">MR_ChangeLinesColorMapAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" kindref="member">MR_ChangeLinesColorMapAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeColoringActions.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref><sp/><ref refid="MRChangeMeshAction_8h_1a050074989f3eb0b2bcda841a828694e8" kindref="member">MR_ChangeMeshAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSelectionAction_8h_1a46ed06941314c98e9621a63e5ae9ef79" kindref="member">MR_ChangeMeshCreasesAction</ref><sp/><ref refid="MRChangeSelectionAction_8h_1a46ed06941314c98e9621a63e5ae9ef79" kindref="member">MR_ChangeMeshCreasesAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeSelectionAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a0708d452c5be91c86b2f58af98d730f9" kindref="member">MR_ChangeMeshDataAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshDataAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSelectionAction_8h_1a7f8390cba4e0fcc5132bbd760a8b2794" kindref="member">MR_ChangeMeshEdgeSelectionAction</ref><sp/><ref refid="MRChangeSelectionAction_8h_1a7f8390cba4e0fcc5132bbd760a8b2794" kindref="member">MR_ChangeMeshEdgeSelectionAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeSelectionAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" kindref="member">MR_ChangeMeshFaceSelectionAction</ref><sp/><ref refid="MRChangeSelectionAction_8h_1ad981a11117b7a06254d40011d5959840" kindref="member">MR_ChangeMeshFaceSelectionAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeSelectionAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a348511c440e71cb80d812e05b6410240" kindref="member">MR_ChangeMeshPointsAction</ref><sp/><ref refid="MRChangeMeshAction_8h_1a348511c440e71cb80d812e05b6410240" kindref="member">MR_ChangeMeshPointsAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a2f9cf3d56b1cb324253a5b6ad1e5832a" kindref="member">MR_ChangeMeshTexturePerFaceAction</ref><sp/><ref refid="MRChangeMeshAction_8h_1a2f9cf3d56b1cb324253a5b6ad1e5832a" kindref="member">MR_ChangeMeshTexturePerFaceAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a7b5ec4a3711d1244920ee80000b7b80d" kindref="member">MR_ChangeMeshTopologyAction</ref><sp/><ref refid="MRChangeMeshAction_8h_1a7b5ec4a3711d1244920ee80000b7b80d" kindref="member">MR_ChangeMeshTopologyAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a8872d1132566b574ae996c25d6d037c2" kindref="member">MR_ChangeMeshUVCoordsAction</ref><sp/><ref refid="MRChangeMeshAction_8h_1a8872d1132566b574ae996c25d6d037c2" kindref="member">MR_ChangeMeshUVCoordsAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeNameAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeObjectAction_8h_1ace428deca741a051d6044c38fa0c124a" kindref="member">MR_ChangeObjectAction</ref><sp/><ref refid="MRChangeObjectAction_8h_1ace428deca741a051d6044c38fa0c124a" kindref="member">MR_ChangeObjectAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeObjectAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" kindref="member">MR_ChangeObjectColorAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" kindref="member">MR_ChangeObjectColorAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeColoringActions.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeObjectFields.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeObjectFields.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePointCloudNormalsAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePointCloudAction_8h_1a1eb83c1313108b7598ca5623f32563c5" kindref="member">MR_ChangeOnePointInCloudAction</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a1eb83c1313108b7598ca5623f32563c5" kindref="member">MR_ChangeOnePointInCloudAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePointCloudAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref><sp/><ref refid="MRChangePolylineAction_8h_1aff5307960a8c87337da88bb8be88c198" kindref="member">MR_ChangeOnePointInPolylineAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePolylineAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePointCloudAction_8h_1a508d7869c6f665b19d0d28a6f8508680" kindref="member">MR_ChangePointCloudAction</ref><sp/><ref refid="MRChangePointCloudAction_8h_1a508d7869c6f665b19d0d28a6f8508680" kindref="member">MR_ChangePointCloudAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePointCloudAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePointCloudNormalsAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePointCloudAction_8h_1aae484122f7057358e0ea8cde58912cb6" kindref="member">MR_ChangePointCloudPointsAction</ref><sp/><ref refid="MRChangePointCloudAction_8h_1aae484122f7057358e0ea8cde58912cb6" kindref="member">MR_ChangePointCloudPointsAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePointCloudAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeSelectionAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref><sp/><ref refid="MRChangePolylineAction_8h_1a6d994a09b1de861a40216b52abea27f4" kindref="member">MR_ChangePolylineAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePolylineAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref><sp/><ref refid="MRChangePolylineAction_8h_1ac44b86276dcad1cbecec74465cb6ad84" kindref="member">MR_ChangePolylinePointsAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePolylineAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref><sp/><ref refid="MRChangePolylineAction_8h_1a4b1a6a755da99974fc919f1251f3ac8a" kindref="member">MR_ChangePolylineTopologyAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangePolylineAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeScaleAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeSceneAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeSceneObjectsOrder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="49" refid="MRHistoryAction_8h_1a3bbeed91b50ae84d8f30852df31f64a9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistoryAction_8h_1a3bbeed91b50ae84d8f30852df31f64a9" kindref="member">MR_ChangeSurfaceAction</ref><sp/><ref refid="MRHistoryAction_8h_1a3bbeed91b50ae84d8f30852df31f64a9" kindref="member">MR_ChangeSurfaceAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRChangeVoxelsAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRHistoryAction_8h_1ae7320f41fa5ef9a1eabb7ec4b6c95f72" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1ae7320f41fa5ef9a1eabb7ec4b6c95f72" kindref="member">MR_ChangeTextureAction</ref><sp/><ref refid="MRChangeMeshAction_8h_1ae7320f41fa5ef9a1eabb7ec4b6c95f72" kindref="member">MR_ChangeTextureAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRHistoryAction_8h_1a4afb08efd011be59bb864b94c4ebf52d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeObjectFields.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRHistoryAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref><sp/><ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeXfAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MRHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" kindref="member">MR_CombinedHistoryAction</ref><sp/><ref refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" kindref="member">MR_CombinedHistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRCombinedHistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1ae7320f41fa5ef9a1eabb7ec4b6c95f72" kindref="member">MR_ChangeTextureAction</ref><sp/><ref refid="MRChangeMeshAction_8h_1ae7320f41fa5ef9a1eabb7ec4b6c95f72" kindref="member">MR_ChangeTextureAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeObjectFields.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref><sp/><ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeXfAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" kindref="member">MR_CombinedHistoryAction</ref><sp/><ref refid="MRCombinedHistoryAction_8h_1acc235a5ff64fb8c5ad600b5569568909" kindref="member">MR_CombinedHistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRCombinedHistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="54" refid="MRHistoryAction_8h_1a1dfeb0a82f9c635c37b1371bb1d3f22e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistoryAction_8h_1a1dfeb0a82f9c635c37b1371bb1d3f22e" kindref="member">MR_PartialChangeMeshAction</ref><sp/><ref refid="MRHistoryAction_8h_1a1dfeb0a82f9c635c37b1371bb1d3f22e" kindref="member">MR_PartialChangeMeshAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPartialChangeMeshAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="MRHistoryAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshDataAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref><sp/><ref refid="MRChangeMeshDataAction_8h_1a136a2aaa9e9d665a7cfe4d01f89c09dd" kindref="member">MR_PartialChangeMeshDataAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRChangeMeshDataAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="56" refid="MRHistoryAction_8h_1ab22704b3df03315a3c89a759b652cbdc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistoryAction_8h_1ab22704b3df03315a3c89a759b652cbdc" kindref="member">MR_PartialChangeMeshPointsAction</ref><sp/><ref refid="MRHistoryAction_8h_1ab22704b3df03315a3c89a759b652cbdc" kindref="member">MR_PartialChangeMeshPointsAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPartialChangeMeshAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="57" refid="MRHistoryAction_8h_1adc5ac8e6f23fe577afaf4687a65d4696" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistoryAction_8h_1adc5ac8e6f23fe577afaf4687a65d4696" kindref="member">MR_PartialChangeMeshTopologyAction</ref><sp/><ref refid="MRHistoryAction_8h_1adc5ac8e6f23fe577afaf4687a65d4696" kindref="member">MR_PartialChangeMeshTopologyAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPartialChangeMeshAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="MRHistoryAction_8h_1a3ae2a902ff1290a29d4eb83645b9ed24" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCombinedHistoryAction_8h_1a3ae2a902ff1290a29d4eb83645b9ed24" kindref="member">MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</ref><sp/><ref refid="MRCombinedHistoryAction_8h_1a3ae2a902ff1290a29d4eb83645b9ed24" kindref="member">MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCombinedHistoryAction_8h_1a3ae2a902ff1290a29d4eb83645b9ed24" kindref="member">MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</ref><sp/><ref refid="MRCombinedHistoryAction_8h_1a3ae2a902ff1290a29d4eb83645b9ed24" kindref="member">MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="59" refid="MRHistoryAction_8h_1adaf3c02e21cb0b0f3f57f79e214ef692" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHistoryAction_8h_1adaf3c02e21cb0b0f3f57f79e214ef692" kindref="member">MR_std_pair_bool_int</ref><sp/><ref refid="MRHistoryAction_8h_1adaf3c02e21cb0b0f3f57f79e214ef692" kindref="member">MR_std_pair_bool_int</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_bool_int.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRHistoryAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="MRHistoryAction_8h_1a302e96c8fc205d87b7083d246ebeb457" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCombinedHistoryAction_8h_1a302e96c8fc205d87b7083d246ebeb457" kindref="member">MR_std_vector_std_shared_ptr_MR_HistoryAction</ref><sp/><ref refid="MRCombinedHistoryAction_8h_1a302e96c8fc205d87b7083d246ebeb457" kindref="member">MR_std_vector_std_shared_ptr_MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_HistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCombinedHistoryAction_8h_1a302e96c8fc205d87b7083d246ebeb457" kindref="member">MR_std_vector_std_shared_ptr_MR_HistoryAction</ref><sp/><ref refid="MRCombinedHistoryAction_8h_1a302e96c8fc205d87b7083d246ebeb457" kindref="member">MR_std_vector_std_shared_ptr_MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_HistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64" refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref></highlight></codeline>
@@ -6001,7 +5503,7 @@
 <codeline lineno="67" refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741a616a73dbffa3f6f1e71dc4d50435103f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741a616a73dbffa3f6f1e71dc4d50435103f" kindref="member">MR_HistoryAction_Type_Redo</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="68" refid="MRHistoryAction_8h_1ab97889d4c27c6ef16c1f55670347801f" refkind="member"><highlight class="normal">}<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref>;</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119" refid="MRHistoryAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref>;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref>;</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
 <codeline lineno="122" refid="MRHistoryAction_8h_1a3e2beacbb63e29937e3388a090123727" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHistoryAction_8h_1a3e2beacbb63e29937e3388a090123727" kindref="member">MR_HistoryAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>

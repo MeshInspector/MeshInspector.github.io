@@ -1,6 +1,5 @@
 var MRRigidScaleXf3_8h =
 [
-    [ "MR_RigidScaleXf3d", "MRRigidScaleXf3_8h.html#ad1591488603e4a7f9f1931786ba322b8", null ],
     [ "MR_RigidScaleXf3f", "MRRigidScaleXf3_8h.html#abe1e8769e8910c39faff18f2f42d6b21", null ],
     [ "MR_RigidScaleXf3d_AssignFromAnother", "MRRigidScaleXf3_8h.html#a8edff08d2866ce1754ea96f650d2da90", null ],
     [ "MR_RigidScaleXf3d_Construct", "MRRigidScaleXf3_8h.html#a6e5d96853398f83ec1e1f6daa13f61ed", null ],

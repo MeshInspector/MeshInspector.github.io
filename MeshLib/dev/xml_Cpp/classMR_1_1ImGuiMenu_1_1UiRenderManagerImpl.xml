@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl" kind="class" language="C++" prot="protected">
     <compoundname>MR::ImGuiMenu::UiRenderManagerImpl</compoundname>
     <basecompoundref refid="structMR_1_1UiRenderManager" prot="public" virt="non-virtual">MR::UiRenderManager</basecompoundref>
-    <includes refid="ImGuiMenu_8h" local="no">ImGuiMenu.h</includes>
+    <includes refid="ImGuiMenu_8h" local="no">MRViewer/ImGuiMenu.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga810c0bc5c84d12f69dbbdd1510c7ea20" kind="variable"><name>consumedInteractions</name></member>
     </sectiondef>
@@ -42,7 +42,7 @@
         <link refid="structMR_1_1UiRenderManager"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="420" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="421" bodyend="434"/>
+    <location file="MRViewer/ImGuiMenu.h" line="420" column="5" bodyfile="MRViewer/ImGuiMenu.h" bodystart="421" bodyend="434"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0d422ddb23c790808aa9288b25363482" prot="public" virt="virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>beginBackwardPass</name></member>
       <member refid="group__GeneralGroup_1gaa40348ce85a4b0c87fffec966a71d952" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::UiRenderManagerImpl</scope><name>canConsumeEvent</name></member>

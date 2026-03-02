@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRUniqueTemporaryFolder_8h" kind="file" language="C++">
     <compoundname>MRUniqueTemporaryFolder.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -33,32 +33,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRUniqueTemporaryFolder_8h_1a006d61fd2048bba5b5622d42cbe72526" prot="public" static="no">
-        <type>struct <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref></type>
-        <definition>typedef struct MR_std_filesystem_path MR_std_filesystem_path</definition>
-        <argsstring></argsstring>
-        <name>MR_std_filesystem_path</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueTemporaryFolder.h" line="13" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueTemporaryFolder.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRUniqueTemporaryFolder_8h_1a30107ef4120845cdac99e9368f431014" prot="public" static="no">
-        <type>struct <ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref></type>
-        <definition>typedef struct MR_std_function_void_from_const_std_filesystem_path_ref MR_std_function_void_from_const_std_filesystem_path_ref</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_void_from_const_std_filesystem_path_ref</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueTemporaryFolder.h" line="14" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueTemporaryFolder.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRUniqueTemporaryFolder_8h_1a4a438655e0772225e1f8fd14e86431da" prot="public" static="no">
         <type>struct <ref refid="MRUniqueTemporaryFolder_8h_1a4a438655e0772225e1f8fd14e86431da" kindref="member">MR_UniqueTemporaryFolder</ref></type>
         <definition>typedef struct MR_UniqueTemporaryFolder MR_UniqueTemporaryFolder</definition>
@@ -191,7 +165,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_UniqueTemporaryFolder</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRUniqueTemporaryFolder_8h_1a4a438655e0772225e1f8fd14e86431da" kindref="member">MR_UniqueTemporaryFolder</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -209,7 +183,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_UniqueTemporaryFolder</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRUniqueTemporaryFolder_8h_1a4a438655e0772225e1f8fd14e86431da" kindref="member">MR_UniqueTemporaryFolder</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -323,11 +297,11 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRUniqueTemporaryFolder_8h_1a006d61fd2048bba5b5622d42cbe72526" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRUniqueTemporaryFolder_8h_1a30107ef4120845cdac99e9368f431014" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref><sp/><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_const_std_filesystem_path_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref><sp/><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_const_std_filesystem_path_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRUniqueTemporaryFolder_8h_1a4a438655e0772225e1f8fd14e86431da" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUniqueTemporaryFolder_8h_1a4a438655e0772225e1f8fd14e86431da" kindref="member">MR_UniqueTemporaryFolder</ref><sp/><ref refid="MRUniqueTemporaryFolder_8h_1a4a438655e0772225e1f8fd14e86431da" kindref="member">MR_UniqueTemporaryFolder</ref>;</highlight></codeline>
+<codeline lineno="20" refid="MRUniqueTemporaryFolder_8h_1a4a438655e0772225e1f8fd14e86431da" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUniqueTemporaryFolder_8h_1a4a438655e0772225e1f8fd14e86431da" kindref="member">MR_UniqueTemporaryFolder</ref><sp/><ref refid="MRUniqueTemporaryFolder_8h_1a4a438655e0772225e1f8fd14e86431da" kindref="member">MR_UniqueTemporaryFolder</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27" refid="MRUniqueTemporaryFolder_8h_1a123861522b1765d714dae66dc577220b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniqueTemporaryFolder_8h_1a4a438655e0772225e1f8fd14e86431da" kindref="member">MR_UniqueTemporaryFolder</ref><sp/>*<ref refid="MRUniqueTemporaryFolder_8h_1a123861522b1765d714dae66dc577220b" kindref="member">MR_UniqueTemporaryFolder_Construct</ref>(MR_PassBy<sp/>onPreTempFolderDelete_pass_by,<sp/><ref refid="MRObjectLoad_8h_1a30107ef4120845cdac99e9368f431014" kindref="member">MR_std_function_void_from_const_std_filesystem_path_ref</ref><sp/>*onPreTempFolderDelete);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>

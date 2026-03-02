@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1TriangulationHelpers_1_1TriangulatedFanData" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::TriangulationHelpers::TriangulatedFanData</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -388,23 +388,9 @@ each pair of points (as well as back()-front() pair) together with the center fo
 <para><verbatim>Generated from:  MR::TriangulationHelpers::TriangulatedFanData
 
 
- \\brief Data with caches for optimizing fan triangulation</verbatim> </para>
+ \\brief Data with caches for optimizing fan triangulation
+</verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.TriangulationHelpers.TriangulatedFanData</label>
-        <link refid="classmrmeshpy_1_1TriangulationHelpers_1_1TriangulatedFanData"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_border</edgelabel>
-          <edgelabel>_offsetof_cacheAngleOrder</edgelabel>
-          <edgelabel>_offsetof_nearesetPoints</edgelabel>
-          <edgelabel>_offsetof_neighbors</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58644" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58644" bodyend="58714"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1TriangulationHelpers_1_1TriangulatedFanData_1ad320ed4de6aad4b8aa5c374f3e6c7454" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers::TriangulatedFanData</scope><name>__init__</name></member>

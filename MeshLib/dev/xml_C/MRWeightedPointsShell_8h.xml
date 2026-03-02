@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRWeightedPointsShell_8h" kind="file" language="C++">
     <compoundname>MRWeightedPointsShell.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -33,123 +33,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRWeightedPointsShell_8h_1aa20cbf3be7c00dc9e7b303754305b272" prot="public" static="no">
-        <type>struct <ref refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" kindref="member">MR_DistanceFromWeightedPointsComputeParams</ref></type>
-        <definition>typedef struct MR_DistanceFromWeightedPointsComputeParams MR_DistanceFromWeightedPointsComputeParams</definition>
-        <argsstring></argsstring>
-        <name>MR_DistanceFromWeightedPointsComputeParams</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" line="13" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWeightedPointsShell_8h_1a342aeaf84a0230885a70e136c94b01b5" prot="public" static="no">
-        <type>struct <ref refid="MRClosestWeightedPoint_8h_1a342aeaf84a0230885a70e136c94b01b5" kindref="member">MR_DistanceFromWeightedPointsParams</ref></type>
-        <definition>typedef struct MR_DistanceFromWeightedPointsParams MR_DistanceFromWeightedPointsParams</definition>
-        <argsstring></argsstring>
-        <name>MR_DistanceFromWeightedPointsParams</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" line="14" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWeightedPointsShell_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref></type>
-        <definition>typedef struct MR_DistanceVolumeParams MR_DistanceVolumeParams</definition>
-        <argsstring></argsstring>
-        <name>MR_DistanceVolumeParams</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" line="15" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWeightedPointsShell_8h_1ab294732b2988d23c13fd8799dc19a43a" prot="public" static="no">
-        <type>struct <ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref></type>
-        <definition>typedef struct MR_FunctionVolume MR_FunctionVolume</definition>
-        <argsstring></argsstring>
-        <name>MR_FunctionVolume</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" line="16" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWeightedPointsShell_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
-        <definition>typedef struct MR_Mesh MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" line="17" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWeightedPointsShell_8h_1aa319738c95f0bbde075b7ef777cf2665" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref></type>
-        <definition>typedef struct MR_PointCloud MR_PointCloud</definition>
-        <argsstring></argsstring>
-        <name>MR_PointCloud</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" line="18" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWeightedPointsShell_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
-        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_VertBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" line="19" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWeightedPointsShell_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" prot="public" static="no">
-        <type>struct <ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref></type>
-        <definition>typedef struct MR_VertScalars MR_VertScalars</definition>
-        <argsstring></argsstring>
-        <name>MR_VertScalars</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" line="20" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWeightedPointsShell_8h_1a0d97154d4aed695055160a4688c04a3d" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_Mesh_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" line="21" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRWeightedPointsShell_8h_1a41cfc684740dccc7dea95f25c807b6ce" prot="public" static="no">
         <type>struct <ref refid="MRWeightedPointsShell_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref></type>
         <definition>typedef struct MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</definition>
@@ -162,19 +45,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" line="22" column="127" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRWeightedPointsShell_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" line="23" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRWeightedPointsShell.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRWeightedPointsShell_8h_1abf73071fe06d383693ea376448200cf3" prot="public" static="no">
         <type>struct <ref refid="MRWeightedPointsShell_8h_1abf73071fe06d383693ea376448200cf3" kindref="member">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</ref></type>
@@ -526,7 +396,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_WeightedShell_DistanceVolumeCreationParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRWeightedPointsShell_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -544,7 +414,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_WeightedShell_DistanceVolumeCreationParams</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRWeightedPointsShell_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1075,7 +945,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_WeightedShell_ParametersBase</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRWeightedPointsShell_8h_1a8f659b402e47ecefb533ee63744559cb" kindref="member">MR_WeightedShell_ParametersBase</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1093,7 +963,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_WeightedShell_ParametersBase</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRWeightedPointsShell_8h_1a8f659b402e47ecefb533ee63744559cb" kindref="member">MR_WeightedShell_ParametersBase</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1572,7 +1442,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_WeightedShell_ParametersMetric</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRWeightedPointsShell_8h_1a71beb2b6696f0402ac0c9f1bbf95a461" kindref="member">MR_WeightedShell_ParametersMetric</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1590,7 +1460,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_WeightedShell_ParametersMetric</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRWeightedPointsShell_8h_1a71beb2b6696f0402ac0c9f1bbf95a461" kindref="member">MR_WeightedShell_ParametersMetric</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2185,7 +2055,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_WeightedShell_ParametersRegions</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRWeightedPointsShell_8h_1afa48f38f4c78e4a5bbb2fd060782d0d9" kindref="member">MR_WeightedShell_ParametersRegions</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2203,7 +2073,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_WeightedShell_ParametersRegions</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRWeightedPointsShell_8h_1afa48f38f4c78e4a5bbb2fd060782d0d9" kindref="member">MR_WeightedShell_ParametersRegions</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2494,7 +2364,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_WeightedShell_ParametersRegions_Region</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRWeightedPointsShell_8h_1a0c8fa266835b87106cadd3fa5cede1b1" kindref="member">MR_WeightedShell_ParametersRegions_Region</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2512,7 +2382,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_WeightedShell_ParametersRegions_Region</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRWeightedPointsShell_8h_1a0c8fa266835b87106cadd3fa5cede1b1" kindref="member">MR_WeightedShell_ParametersRegions_Region</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2694,29 +2564,29 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRWeightedPointsShell_8h_1aa20cbf3be7c00dc9e7b303754305b272" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" kindref="member">MR_DistanceFromWeightedPointsComputeParams</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" kindref="member">MR_DistanceFromWeightedPointsComputeParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRClosestWeightedPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRWeightedPointsShell_8h_1a342aeaf84a0230885a70e136c94b01b5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1a342aeaf84a0230885a70e136c94b01b5" kindref="member">MR_DistanceFromWeightedPointsParams</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1a342aeaf84a0230885a70e136c94b01b5" kindref="member">MR_DistanceFromWeightedPointsParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRClosestWeightedPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRWeightedPointsShell_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRDistanceVolumeParams.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRWeightedPointsShell_8h_1ab294732b2988d23c13fd8799dc19a43a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRWeightedPointsShell_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRWeightedPointsShell_8h_1aa319738c95f0bbde075b7ef777cf2665" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRWeightedPointsShell_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRWeightedPointsShell_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRWeightedPointsShell_8h_1a0d97154d4aed695055160a4688c04a3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" kindref="member">MR_DistanceFromWeightedPointsComputeParams</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1aa20cbf3be7c00dc9e7b303754305b272" kindref="member">MR_DistanceFromWeightedPointsComputeParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRClosestWeightedPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestWeightedPoint_8h_1a342aeaf84a0230885a70e136c94b01b5" kindref="member">MR_DistanceFromWeightedPointsParams</ref><sp/><ref refid="MRClosestWeightedPoint_8h_1a342aeaf84a0230885a70e136c94b01b5" kindref="member">MR_DistanceFromWeightedPointsParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRClosestWeightedPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRDistanceVolumeParams.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="MRWeightedPointsShell_8h_1a41cfc684740dccc7dea95f25c807b6ce" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRWeightedPointsShell_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/><ref refid="MRWeightedPointsShell_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRWeightedPointsShell_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRWeightedPointsShell_8h_1abf73071fe06d383693ea376448200cf3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRWeightedPointsShell_8h_1abf73071fe06d383693ea376448200cf3" kindref="member">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</ref><sp/><ref refid="MRWeightedPointsShell_8h_1abf73071fe06d383693ea376448200cf3" kindref="member">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_WeightedShell_ParametersRegions_Region.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRWeightedPointsShell_8h_1a5f1122828e3202acc9af2a2202dd11af" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRWeightedPointsShell_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref><sp/><ref refid="MRWeightedPointsShell_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref>;</highlight></codeline>
+<codeline lineno="29" refid="MRWeightedPointsShell_8h_1a5f1122828e3202acc9af2a2202dd11af" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRWeightedPointsShell_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref><sp/><ref refid="MRWeightedPointsShell_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRWeightedPointsShell_8h_1a8f659b402e47ecefb533ee63744559cb" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRWeightedPointsShell_8h_1a8f659b402e47ecefb533ee63744559cb" kindref="member">MR_WeightedShell_ParametersBase</ref><sp/><ref refid="MRWeightedPointsShell_8h_1a8f659b402e47ecefb533ee63744559cb" kindref="member">MR_WeightedShell_ParametersBase</ref>;</highlight></codeline>
+<codeline lineno="37" refid="MRWeightedPointsShell_8h_1a8f659b402e47ecefb533ee63744559cb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRWeightedPointsShell_8h_1a8f659b402e47ecefb533ee63744559cb" kindref="member">MR_WeightedShell_ParametersBase</ref><sp/><ref refid="MRWeightedPointsShell_8h_1a8f659b402e47ecefb533ee63744559cb" kindref="member">MR_WeightedShell_ParametersBase</ref>;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRWeightedPointsShell_8h_1a71beb2b6696f0402ac0c9f1bbf95a461" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRWeightedPointsShell_8h_1a71beb2b6696f0402ac0c9f1bbf95a461" kindref="member">MR_WeightedShell_ParametersMetric</ref><sp/><ref refid="MRWeightedPointsShell_8h_1a71beb2b6696f0402ac0c9f1bbf95a461" kindref="member">MR_WeightedShell_ParametersMetric</ref>;</highlight></codeline>
+<codeline lineno="44" refid="MRWeightedPointsShell_8h_1a71beb2b6696f0402ac0c9f1bbf95a461" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRWeightedPointsShell_8h_1a71beb2b6696f0402ac0c9f1bbf95a461" kindref="member">MR_WeightedShell_ParametersMetric</ref><sp/><ref refid="MRWeightedPointsShell_8h_1a71beb2b6696f0402ac0c9f1bbf95a461" kindref="member">MR_WeightedShell_ParametersMetric</ref>;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRWeightedPointsShell_8h_1a0c8fa266835b87106cadd3fa5cede1b1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRWeightedPointsShell_8h_1a0c8fa266835b87106cadd3fa5cede1b1" kindref="member">MR_WeightedShell_ParametersRegions_Region</ref><sp/><ref refid="MRWeightedPointsShell_8h_1a0c8fa266835b87106cadd3fa5cede1b1" kindref="member">MR_WeightedShell_ParametersRegions_Region</ref>;</highlight></codeline>
+<codeline lineno="48" refid="MRWeightedPointsShell_8h_1a0c8fa266835b87106cadd3fa5cede1b1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRWeightedPointsShell_8h_1a0c8fa266835b87106cadd3fa5cede1b1" kindref="member">MR_WeightedShell_ParametersRegions_Region</ref><sp/><ref refid="MRWeightedPointsShell_8h_1a0c8fa266835b87106cadd3fa5cede1b1" kindref="member">MR_WeightedShell_ParametersRegions_Region</ref>;</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="MRWeightedPointsShell_8h_1afa48f38f4c78e4a5bbb2fd060782d0d9" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRWeightedPointsShell_8h_1afa48f38f4c78e4a5bbb2fd060782d0d9" kindref="member">MR_WeightedShell_ParametersRegions</ref><sp/><ref refid="MRWeightedPointsShell_8h_1afa48f38f4c78e4a5bbb2fd060782d0d9" kindref="member">MR_WeightedShell_ParametersRegions</ref>;</highlight></codeline>
+<codeline lineno="55" refid="MRWeightedPointsShell_8h_1afa48f38f4c78e4a5bbb2fd060782d0d9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRWeightedPointsShell_8h_1afa48f38f4c78e4a5bbb2fd060782d0d9" kindref="member">MR_WeightedShell_ParametersRegions</ref><sp/><ref refid="MRWeightedPointsShell_8h_1afa48f38f4c78e4a5bbb2fd060782d0d9" kindref="member">MR_WeightedShell_ParametersRegions</ref>;</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61" refid="MRWeightedPointsShell_8h_1a69a3d7c54a6d4c14a4bfa13e57409c86" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*<ref refid="MRWeightedPointsShell_8h_1a69a3d7c54a6d4c14a4bfa13e57409c86" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams_Get_vol</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWeightedPointsShell_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>

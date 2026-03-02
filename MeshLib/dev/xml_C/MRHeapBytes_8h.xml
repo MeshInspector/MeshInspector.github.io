@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRHeapBytes_8h" kind="file" language="C++">
     <compoundname>MRHeapBytes.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -21,45 +21,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRHeapBytes_8h_1a9b857b6bfc1402811fa58f9b79be0ae1" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshAction_8h_1a9b857b6bfc1402811fa58f9b79be0ae1" kindref="member">MR_Vector_MR_MeshTexture_MR_TextureId</ref></type>
-        <definition>typedef struct MR_Vector_MR_MeshTexture_MR_TextureId MR_Vector_MR_MeshTexture_MR_TextureId</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector_MR_MeshTexture_MR_TextureId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" line="10" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" bodystart="10" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHeapBytes_8h_1a078d52fb855baae04a6dcdd71e46fbed" prot="public" static="no">
-        <type>struct <ref refid="MRChangeMeshAction_8h_1a078d52fb855baae04a6dcdd71e46fbed" kindref="member">MR_std_shared_ptr_MR_Mesh</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_MR_Mesh MR_std_shared_ptr_MR_Mesh</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_MR_Mesh</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" line="11" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHeapBytes_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_MR_Object MR_std_shared_ptr_MR_Object</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_MR_Object</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" line="12" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" prot="public" static="no">
         <type>struct <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref></type>
         <definition>typedef struct MR_std_shared_ptr_MR_PointCloud MR_std_shared_ptr_MR_PointCloud</definition>
@@ -73,45 +34,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" line="13" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" bodystart="13" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRHeapBytes_8h_1a7fbcc9ee811f65e53e31f32d2c5484c2" prot="public" static="no">
-        <type>struct <ref refid="MRChangePolylineAction_8h_1a7fbcc9ee811f65e53e31f32d2c5484c2" kindref="member">MR_std_shared_ptr_MR_Polyline3</ref></type>
-        <definition>typedef struct MR_std_shared_ptr_MR_Polyline3 MR_std_shared_ptr_MR_Polyline3</definition>
-        <argsstring></argsstring>
-        <name>MR_std_shared_ptr_MR_Polyline3</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" line="14" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHeapBytes_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref></type>
-        <definition>typedef struct MR_std_vector_MR_Color MR_std_vector_MR_Color</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_Color</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" line="15" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHeapBytes_8h_1aba323e6d596956f5a589a525c6f6adbc" prot="public" static="no">
-        <type>struct <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref></type>
-        <definition>typedef struct MR_std_vector_float MR_std_vector_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" line="16" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" prot="public" static="no">
         <type>struct <ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref></type>
         <definition>typedef struct MR_std_vector_std_shared_ptr_MR_Object MR_std_vector_std_shared_ptr_MR_Object</definition>
@@ -124,19 +46,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" line="17" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRHeapBytes_8h_1a4f0d822b41437ab650418eb826969703" prot="public" static="no">
-        <type>struct <ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref></type>
-        <definition>typedef struct MR_std_vector_uint64_t MR_std_vector_uint64_t</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_uint64_t</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" line="18" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRHeapBytes.h" bodystart="18" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -317,15 +226,15 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="MRHeapBytes_8h_1a9b857b6bfc1402811fa58f9b79be0ae1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a9b857b6bfc1402811fa58f9b79be0ae1" kindref="member">MR_Vector_MR_MeshTexture_MR_TextureId</ref><sp/><ref refid="MRChangeMeshAction_8h_1a9b857b6bfc1402811fa58f9b79be0ae1" kindref="member">MR_Vector_MR_MeshTexture_MR_TextureId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="MRHeapBytes_8h_1a078d52fb855baae04a6dcdd71e46fbed" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a078d52fb855baae04a6dcdd71e46fbed" kindref="member">MR_std_shared_ptr_MR_Mesh</ref><sp/><ref refid="MRChangeMeshAction_8h_1a078d52fb855baae04a6dcdd71e46fbed" kindref="member">MR_std_shared_ptr_MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_Mesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MRHeapBytes_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a9b857b6bfc1402811fa58f9b79be0ae1" kindref="member">MR_Vector_MR_MeshTexture_MR_TextureId</ref><sp/><ref refid="MRChangeMeshAction_8h_1a9b857b6bfc1402811fa58f9b79be0ae1" kindref="member">MR_Vector_MR_MeshTexture_MR_TextureId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeMeshAction_8h_1a078d52fb855baae04a6dcdd71e46fbed" kindref="member">MR_std_shared_ptr_MR_Mesh</ref><sp/><ref refid="MRChangeMeshAction_8h_1a078d52fb855baae04a6dcdd71e46fbed" kindref="member">MR_std_shared_ptr_MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_Mesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13" refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_PointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRHeapBytes_8h_1a7fbcc9ee811f65e53e31f32d2c5484c2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePolylineAction_8h_1a7fbcc9ee811f65e53e31f32d2c5484c2" kindref="member">MR_std_shared_ptr_MR_Polyline3</ref><sp/><ref refid="MRChangePolylineAction_8h_1a7fbcc9ee811f65e53e31f32d2c5484c2" kindref="member">MR_std_shared_ptr_MR_Polyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_Polyline3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRHeapBytes_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Color.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRHeapBytes_8h_1aba323e6d596956f5a589a525c6f6adbc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePolylineAction_8h_1a7fbcc9ee811f65e53e31f32d2c5484c2" kindref="member">MR_std_shared_ptr_MR_Polyline3</ref><sp/><ref refid="MRChangePolylineAction_8h_1a7fbcc9ee811f65e53e31f32d2c5484c2" kindref="member">MR_std_shared_ptr_MR_Polyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_Polyline3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Color.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref><sp/><ref refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRHeapBytes_8h_1a4f0d822b41437ab650418eb826969703" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref><sp/><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref><sp/><ref refid="MRBitSet_8h_1a4f0d822b41437ab650418eb826969703" kindref="member">MR_std_vector_uint64_t</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_uint64_t.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRHeapBytes_8h_1aac4c6c11a3b9095fca28abd037617c2a" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRHeapBytes_8h_1aac4c6c11a3b9095fca28abd037617c2a" kindref="member">MR_heapBytes_MR_Color</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/>*vec);</highlight></codeline>

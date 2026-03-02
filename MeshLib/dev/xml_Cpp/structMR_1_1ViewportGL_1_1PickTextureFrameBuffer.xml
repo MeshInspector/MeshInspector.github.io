@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer" kind="struct" language="C++" prot="private">
     <compoundname>MR::ViewportGL::PickTextureFrameBuffer</compoundname>
     <sectiondef kind="private-attrib">
@@ -17,7 +17,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="114" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="115" bodyend="124"/>
+    <location file="MRViewer/MRViewportGL.h" line="114" column="5" bodyfile="MRViewer/MRViewportGL.h" bodystart="115" bodyend="124"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab74a54a2d94d7b5a11e9fcbf8858d594" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>bind</name></member>
       <member refid="group__GeneralGroup_1gadc55d58803804b8c6216dbfdf53b3031" prot="private" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>colorTexture_</name></member>

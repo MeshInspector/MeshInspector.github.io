@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangePointCloudNormalsAction_8h" kind="file" language="C++">
     <compoundname>MRChangePointCloudNormalsAction.h</compoundname>
     <includes refid="MRHistoryAction_8h" local="yes">MRHistoryAction.h</includes>
@@ -77,7 +77,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRChangePointCloudNormalsAction.h</label>
+        <label>MRMesh/MRChangePointCloudNormalsAction.h</label>
         <link refid="MRChangePointCloudNormalsAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -624,10 +624,10 @@
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="classMR_1_1ChangePointCloudNormalsAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangePointCloudNormalsAction" kindref="compound">ChangePointCloudNormalsAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="17" refid="classMR_1_1ChangePointCloudNormalsAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaa3fc74b29ef4cc3ed08c0e8f0a5f342e" kindref="member">ChangePointCloudNormalsAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1gab1318bc8719ca89bb19cd901f204ad49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectPoints" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref>;</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gab1318bc8719ca89bb19cd901f204ad49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gab1318bc8719ca89bb19cd901f204ad49" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1gaa3fc74b29ef4cc3ed08c0e8f0a5f342e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaa3fc74b29ef4cc3ed08c0e8f0a5f342e" kindref="member">ChangePointCloudNormalsAction</ref>(<sp/>std::string<sp/><ref refid="group__GeneralGroup_1gaec6f4ff965e50adb3b9f2605fa2662a8" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectPoints&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objPoints_{<sp/>obj<sp/>},</highlight></codeline>
@@ -680,10 +680,10 @@
 <codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;</highlight></codeline>
 <codeline lineno="73"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="classMR_1_1ChangeOneNormalInCloudAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeOneNormalInCloudAction" kindref="compound">ChangeOneNormalInCloudAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="77" refid="classMR_1_1ChangeOneNormalInCloudAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga56b040ed71f05bfbf64a540bf3b4bf3d" kindref="member">ChangeOneNormalInCloudAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="78"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="80" refid="group__GeneralGroup_1gac4f0cb98bb0490e5bc3bf86995a76ac0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectPoints" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref>;</highlight></codeline>
+<codeline lineno="80" refid="group__GeneralGroup_1gac4f0cb98bb0490e5bc3bf86995a76ac0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac4f0cb98bb0490e5bc3bf86995a76ac0" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref>;</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
 <codeline lineno="83" refid="group__GeneralGroup_1ga56b040ed71f05bfbf64a540bf3b4bf3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga56b040ed71f05bfbf64a540bf3b4bf3d" kindref="member">ChangeOneNormalInCloudAction</ref>(<sp/>std::string<sp/><ref refid="group__GeneralGroup_1gaa922f462c2baab3f1699371f60ca1059" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectPoints&gt;&amp;<sp/>obj,<sp/>VertId<sp/>pointId<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>objPoints_{<sp/>obj<sp/>},</highlight></codeline>
@@ -746,8 +746,8 @@
 <codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;</highlight></codeline>
 <codeline lineno="143"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePointCloudNormalsAction.h"/>
+    <location file="MRMesh/MRChangePointCloudNormalsAction.h"/>
   </compounddef>
 </doxygen>

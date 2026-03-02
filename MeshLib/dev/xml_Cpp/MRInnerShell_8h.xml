@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRInnerShell_8h" kind="file" language="C++">
     <compoundname>MRInnerShell.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -12,7 +12,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRInnerShell.h</label>
+        <label>MRMesh/MRInnerShell.h</label>
         <link refid="MRInnerShell_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -93,8 +93,8 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12" refid="group__GeneralGroup_1ga494f6ca56c512e886474f7209f624c48" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga494f6ca56c512e886474f7209f624c48" kindref="member">Side</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga494f6ca56c512e886474f7209f624c48affb9356ff2b7da85c75c92fa7ea03b8b" kindref="member">Negative</ref>,</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga494f6ca56c512e886474f7209f624c48a3289297424e01eda5b788c083bbf3147" kindref="member">Positive</ref></highlight></codeline>
+<codeline lineno="14" refid="group__GeneralGroup_1gga494f6ca56c512e886474f7209f624c48affb9356ff2b7da85c75c92fa7ea03b8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga494f6ca56c512e886474f7209f624c48affb9356ff2b7da85c75c92fa7ea03b8b" kindref="member">Negative</ref>,</highlight></codeline>
+<codeline lineno="15" refid="group__GeneralGroup_1gga494f6ca56c512e886474f7209f624c48a3289297424e01eda5b788c083bbf3147" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga494f6ca56c512e886474f7209f624c48a3289297424e01eda5b788c083bbf3147" kindref="member">Positive</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="structMR_1_1FindInnerShellSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FindInnerShellSettings" kindref="compound">FindInnerShellSettings</ref></highlight></codeline>
@@ -110,7 +110,7 @@
 <codeline lineno="35" refid="group__GeneralGroup_1ga376bbe83d190953bcff30be0a55cac6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga376bbe83d190953bcff30be0a55cac6c" kindref="member">minVertsInComp</ref><sp/>=<sp/>10;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="structMR_1_1ShellVertexInfo" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ShellVertexInfo" kindref="compound">ShellVertexInfo</ref></highlight></codeline>
+<codeline lineno="39" refid="structMR_1_1ShellVertexInfo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ShellVertexInfo" kindref="compound">ShellVertexInfo</ref></highlight></codeline>
 <codeline lineno="40"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="42" refid="group__GeneralGroup_1ga2a6da8b3af021f4593c78e7b6717f573" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2a6da8b3af021f4593c78e7b6717f573" kindref="member">inRange</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
@@ -127,8 +127,8 @@
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
 <codeline lineno="65" refid="group__GeneralGroup_1ga366d5994c143bce6e6ba0d65f060cb1c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga366d5994c143bce6e6ba0d65f060cb1c" kindref="member">findInnerShellFacesWithSplits</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>shell,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FindInnerShellSettings" kindref="compound">FindInnerShellSettings</ref><sp/>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h"/>
+    <location file="MRMesh/MRInnerShell.h"/>
   </compounddef>
 </doxygen>

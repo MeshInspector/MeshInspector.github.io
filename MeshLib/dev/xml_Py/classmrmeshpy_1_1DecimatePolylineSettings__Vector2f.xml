@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1DecimatePolylineSettings__Vector2f" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::DecimatePolylineSettings_Vector2f</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -772,30 +772,9 @@ Aliases:  DecimatePolylineSettings2
  \\struct MR::DecimatePolylineSettings
  \\brief Parameters structure for MR::decimatePolyline
 
- \\sa \\ref decimatePolyline</verbatim> </para>
+ \\sa \\ref decimatePolyline
+</verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.DecimatePolylineSettings_Vector2f</label>
-        <link refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector2f"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_adjustCollapse</edgelabel>
-          <edgelabel>_offsetof_maxDeletedVertices</edgelabel>
-          <edgelabel>_offsetof_maxEdgeLen</edgelabel>
-          <edgelabel>_offsetof_maxError</edgelabel>
-          <edgelabel>_offsetof_optimizeVertexPos</edgelabel>
-          <edgelabel>_offsetof_preCollapse</edgelabel>
-          <edgelabel>_offsetof_region</edgelabel>
-          <edgelabel>_offsetof_stabilizer</edgelabel>
-          <edgelabel>_offsetof_touchBdVertices</edgelabel>
-          <edgelabel>_offsetof_vertForms</edgelabel>
-          <edgelabel>...</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11760" bodyend="11902"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector2f_1a3e8cf70eec7d15922261fe53af723c53" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector2f</scope><name>__init__</name></member>

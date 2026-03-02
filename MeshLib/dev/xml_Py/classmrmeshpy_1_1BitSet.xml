@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1BitSet" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::BitSet</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" prot="public" virt="non-virtual">mrmeshpy.AABBTreePoints.NodeBitSet</derivedcompoundref>
@@ -55,90 +55,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.BitSet.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a97b6a540ea71aa245892003d139c7be2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a6aba2a7e6780ea90c7675900f497d3fb">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a167febe06d6aaafd413af1d66c4bb600">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a167febe06d6aaafd413af1d66c4bb600">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ac9c194f18ab852dba9c0c2180e2ff32e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a75b2a4c88d194278ad98d3d32f63d959">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a9786e09678ed92b8e120c5f11ba856a5">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1aca47e274fa08bb2e989f9f2feaa8fc8a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1ae94fad4319808db0e78a07d60ec7d370">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1ae94fad4319808db0e78a07d60ec7d370">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a2c355243b97269dd261aa16c5f9a94bd">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1aba567d1352ee5ccb52b5b25c117a4244">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ad3558f0cd80c685f9c13d466780eb5e2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a6f5f1fa4bdad810423d1a95586f40a65">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ad588e9f51d281a05ce61e8c3e3e9f5d9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ad588e9f51d281a05ce61e8c3e3e9f5d9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a63b2afcce37aeab792d47351386d6e41">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ad76b8ae914f41226edf49c1be769371c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a5d07da3efb823706bc1159d37e5e791e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a2852d4b89450251baafdaa456319bdb7">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7e9409c1a67cb7aaa68feea527942b31">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7e9409c1a67cb7aaa68feea527942b31">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1ad6107e9e27855d31e1cf542e149118f4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a2fcc5e8454987544e5af713aac008bdc">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1ae1474c2d1fec63dbc745f21c825353ce">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1a6f6ac87cd94c97add7f004320ced8092">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1acfd5bbeb3c88c2877adef0cbbd013746">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1acfd5bbeb3c88c2877adef0cbbd013746">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1ac08d5ba4fdcb5f6c291aa492cab5529d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1a48c434d0d27828aae0112220c618858d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a2d4d65a90fa7ec24993879684d6f275d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a2cf61ff0d1e8905251c7d15eca1a5496">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a6ccdd2a9f9dcb301a30515b4ec57a80a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a6ccdd2a9f9dcb301a30515b4ec57a80a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a3807b229e4b4e67b8140583c1258e643">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a7ce62035deadd745ba3d19f773df5c38">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1af740e6e0c30f5461fb7c68a23787cca7">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a5ab260973d71263a3b95ab630d1f71bf">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1aba5eaaa22b5a9f6bd487fc746170fd0f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1aba5eaaa22b5a9f6bd487fc746170fd0f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a7b9136c1bc76ba1ef90f2dd6f3674dc1">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a0df626d8a5cfc246075fbdf50698ca45">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1a9a45769ea947c52fc7ee48269c0a8e8d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1aa4a879edc2a0040aff3ec0c2958fa553">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1ac6197f2b8025d64fbf8c0039dad9d4ff">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1ac6197f2b8025d64fbf8c0039dad9d4ff">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1af67cbd7782a980f71b558f8fdc1782cc">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1a0f82c93f911a0cc323b95430fe13eb15">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a234ae192f36f5ca340d2b60cd44866b3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a859c6a6b1edf5d2245373d455cdee147">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a3ccc448813e1f64fcf1e64cbf03eace3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a3ccc448813e1f64fcf1e64cbf03eace3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a7ead9ee9b45c21eb2953b2283febc950">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a904c4f7896e71a3ada36ff5b9ccb5cd3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a47ee59c118ec12edd9e48b93ee2798a6">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a0d3ff17f538ec7891dab74243a440dc2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a91292ee53f5906f94a409431d15a964f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a91292ee53f5906f94a409431d15a964f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a0dfeaeb7cbfeb7e947f2635f5e1ad232">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a23c662fb866debfb856dba7682a5421c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a1d286795150f0c90833d2750acb74e8a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ae6bde5c3948e3cbb6e5f357d10f9efd9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a11120a01812c832ef83471e4bbb129a2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a11120a01812c832ef83471e4bbb129a2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ab6565bc8d2230a0816ad745ef490ce22">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1aec971f1d6708bcd24d655df357a5d239">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aeef231fecfb1da6574de47f55022b82a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a152f2b14f4909f101b562a4933068280">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ab9ccdf2a846553fafc6033d6f24d36a4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ab9ccdf2a846553fafc6033d6f24d36a4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8f6f85b2492f8b397048199e9d3a7073">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8cb0325d0f71ff203924c46ef355b001">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1ab1d6b7a8c44458c400ce8ef751b464d3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1ac5300e210459d3297c77078cc8012cde">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1af172f98cfb4268b17f7799d37e02be4a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1af172f98cfb4268b17f7799d37e02be4a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a5e9ea2c23391ffc6d8610617d50f16e2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a09325d1f8440d6a37d104ec90e76417f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a2cc6f174079abf55749380bb7d71064d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1adbb5b3919c2c22748e96d888b9c77ddf">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a5c0eb2a3ac4e52f7d44e0f778a372685">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a5c0eb2a3ac4e52f7d44e0f778a372685">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1aedfc3bbe2924e968a0c455c1c8ba4771">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1ae12f400cb820b1f6d0be623fef37c326">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -313,20 +229,6 @@
         <argsstring>(self, BitSet b)</argsstring>
         <name>__and__</name>
         <qualifiedname>mrmeshpy.BitSet.__and__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a3df02c9c6e64a458e4d1b755948bf707">__and__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a82d7bfbd60cbbff4249bef7eaa9e9111">__and__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a9185d70e452093505fdaea723f0f14a2">__and__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a9e3039c123c28da4a58c4735a6deae81">__and__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1a0ed597f34b83f6bca59b46a178908099">__and__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a634516e24ab14258ba7a672a26f837f1">__and__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a93a108d6c963ebe87906c0529b5c3c4f">__and__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1a4774dd308fa4b5c89c01dbb73483657b">__and__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1ac643a5826f25c6ecaa6f6be3150cbff3">__and__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1abeb6a5aa6812a8c78f92e7b935269d26">__and__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ace7efa81a28a47ba77bbd5b0aee30e97">__and__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ad19a4140d88bb93c87ac93c7b22bd4c7">__and__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1aa5af83d2653845ae064d1435c7d8480e">__and__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a8d6a563a507e1805f144159832347d7b">__and__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -349,8 +251,6 @@
         <argsstring>(self, BitSet b)</argsstring>
         <name>__eq__</name>
         <qualifiedname>mrmeshpy.BitSet.__eq__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a9cb1e47c66d2a21cc3730d24bd6f2386">__eq__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a90d8fc6df47156026f4605757f37cc5d">__eq__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -375,20 +275,6 @@
         <argsstring>(self, BitSet b)</argsstring>
         <name>__iand__</name>
         <qualifiedname>mrmeshpy.BitSet.__iand__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1abd2a3d7e5b5225f1bfbf2cedb8b00ff4">__iand__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a0c24090a010b811f42dad4bd8350d2a9">__iand__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a2e3b6de4e0ed5b37ccbf0b8f934fa5c8">__iand__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a4d14181af650fb07af6e56bb5a0763ec">__iand__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1a284dcd5ddaa7cafa8779d5141c7c3d01">__iand__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a172addb2db1fbc630b7c5aa9636341d2">__iand__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a47b36f9deeeaaf8a236a083819a48de7">__iand__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1afa5a096072f2351283ecdcd8fa2d1759">__iand__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a6b7c4a98a4dc61239836f3b103d7d856">__iand__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a2f8ae29589c2aa2bde6ccdd1830ffd88">__iand__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a0f68655030467fb4e80a67d73ac82f52">__iand__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aa423765dd694f30be60c91370d24b018">__iand__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a963265eb5ca4824e14573ba8ec3c222c">__iand__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1ac209c8d2550a2e16f6a874d609757efa">__iand__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -411,90 +297,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.BitSet.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a97b6a540ea71aa245892003d139c7be2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a6aba2a7e6780ea90c7675900f497d3fb">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a167febe06d6aaafd413af1d66c4bb600">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a167febe06d6aaafd413af1d66c4bb600">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ac9c194f18ab852dba9c0c2180e2ff32e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a75b2a4c88d194278ad98d3d32f63d959">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a9786e09678ed92b8e120c5f11ba856a5">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1aca47e274fa08bb2e989f9f2feaa8fc8a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1ae94fad4319808db0e78a07d60ec7d370">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1ae94fad4319808db0e78a07d60ec7d370">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a2c355243b97269dd261aa16c5f9a94bd">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1aba567d1352ee5ccb52b5b25c117a4244">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ad3558f0cd80c685f9c13d466780eb5e2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a6f5f1fa4bdad810423d1a95586f40a65">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ad588e9f51d281a05ce61e8c3e3e9f5d9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ad588e9f51d281a05ce61e8c3e3e9f5d9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a63b2afcce37aeab792d47351386d6e41">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ad76b8ae914f41226edf49c1be769371c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a5d07da3efb823706bc1159d37e5e791e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a2852d4b89450251baafdaa456319bdb7">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7e9409c1a67cb7aaa68feea527942b31">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7e9409c1a67cb7aaa68feea527942b31">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1ad6107e9e27855d31e1cf542e149118f4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a2fcc5e8454987544e5af713aac008bdc">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1ae1474c2d1fec63dbc745f21c825353ce">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1a6f6ac87cd94c97add7f004320ced8092">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1acfd5bbeb3c88c2877adef0cbbd013746">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1acfd5bbeb3c88c2877adef0cbbd013746">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1ac08d5ba4fdcb5f6c291aa492cab5529d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1a48c434d0d27828aae0112220c618858d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a2d4d65a90fa7ec24993879684d6f275d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a2cf61ff0d1e8905251c7d15eca1a5496">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a6ccdd2a9f9dcb301a30515b4ec57a80a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a6ccdd2a9f9dcb301a30515b4ec57a80a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a3807b229e4b4e67b8140583c1258e643">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a7ce62035deadd745ba3d19f773df5c38">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1af740e6e0c30f5461fb7c68a23787cca7">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a5ab260973d71263a3b95ab630d1f71bf">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1aba5eaaa22b5a9f6bd487fc746170fd0f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1aba5eaaa22b5a9f6bd487fc746170fd0f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a7b9136c1bc76ba1ef90f2dd6f3674dc1">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a0df626d8a5cfc246075fbdf50698ca45">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1a9a45769ea947c52fc7ee48269c0a8e8d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1aa4a879edc2a0040aff3ec0c2958fa553">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1ac6197f2b8025d64fbf8c0039dad9d4ff">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1ac6197f2b8025d64fbf8c0039dad9d4ff">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1af67cbd7782a980f71b558f8fdc1782cc">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1a0f82c93f911a0cc323b95430fe13eb15">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a234ae192f36f5ca340d2b60cd44866b3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a859c6a6b1edf5d2245373d455cdee147">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a3ccc448813e1f64fcf1e64cbf03eace3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a3ccc448813e1f64fcf1e64cbf03eace3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a7ead9ee9b45c21eb2953b2283febc950">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a904c4f7896e71a3ada36ff5b9ccb5cd3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a47ee59c118ec12edd9e48b93ee2798a6">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a0d3ff17f538ec7891dab74243a440dc2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a91292ee53f5906f94a409431d15a964f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a91292ee53f5906f94a409431d15a964f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a0dfeaeb7cbfeb7e947f2635f5e1ad232">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a23c662fb866debfb856dba7682a5421c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a1d286795150f0c90833d2750acb74e8a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ae6bde5c3948e3cbb6e5f357d10f9efd9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a11120a01812c832ef83471e4bbb129a2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a11120a01812c832ef83471e4bbb129a2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ab6565bc8d2230a0816ad745ef490ce22">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1aec971f1d6708bcd24d655df357a5d239">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aeef231fecfb1da6574de47f55022b82a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a152f2b14f4909f101b562a4933068280">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ab9ccdf2a846553fafc6033d6f24d36a4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ab9ccdf2a846553fafc6033d6f24d36a4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8f6f85b2492f8b397048199e9d3a7073">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8cb0325d0f71ff203924c46ef355b001">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1ab1d6b7a8c44458c400ce8ef751b464d3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1ac5300e210459d3297c77078cc8012cde">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1af172f98cfb4268b17f7799d37e02be4a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1af172f98cfb4268b17f7799d37e02be4a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a5e9ea2c23391ffc6d8610617d50f16e2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a09325d1f8440d6a37d104ec90e76417f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a2cc6f174079abf55749380bb7d71064d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1adbb5b3919c2c22748e96d888b9c77ddf">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a5c0eb2a3ac4e52f7d44e0f778a372685">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a5c0eb2a3ac4e52f7d44e0f778a372685">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1aedfc3bbe2924e968a0c455c1c8ba4771">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1ae12f400cb820b1f6d0be623fef37c326">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -515,90 +317,6 @@
         <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.BitSet.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a97b6a540ea71aa245892003d139c7be2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a6aba2a7e6780ea90c7675900f497d3fb">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a167febe06d6aaafd413af1d66c4bb600">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a167febe06d6aaafd413af1d66c4bb600">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ac9c194f18ab852dba9c0c2180e2ff32e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a75b2a4c88d194278ad98d3d32f63d959">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a9786e09678ed92b8e120c5f11ba856a5">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1aca47e274fa08bb2e989f9f2feaa8fc8a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1ae94fad4319808db0e78a07d60ec7d370">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1ae94fad4319808db0e78a07d60ec7d370">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a2c355243b97269dd261aa16c5f9a94bd">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1aba567d1352ee5ccb52b5b25c117a4244">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ad3558f0cd80c685f9c13d466780eb5e2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a6f5f1fa4bdad810423d1a95586f40a65">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ad588e9f51d281a05ce61e8c3e3e9f5d9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ad588e9f51d281a05ce61e8c3e3e9f5d9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a63b2afcce37aeab792d47351386d6e41">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ad76b8ae914f41226edf49c1be769371c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a5d07da3efb823706bc1159d37e5e791e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a2852d4b89450251baafdaa456319bdb7">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7e9409c1a67cb7aaa68feea527942b31">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7e9409c1a67cb7aaa68feea527942b31">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1ad6107e9e27855d31e1cf542e149118f4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a2fcc5e8454987544e5af713aac008bdc">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1ae1474c2d1fec63dbc745f21c825353ce">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1a6f6ac87cd94c97add7f004320ced8092">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1acfd5bbeb3c88c2877adef0cbbd013746">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1acfd5bbeb3c88c2877adef0cbbd013746">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1ac08d5ba4fdcb5f6c291aa492cab5529d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1a48c434d0d27828aae0112220c618858d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a2d4d65a90fa7ec24993879684d6f275d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a2cf61ff0d1e8905251c7d15eca1a5496">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a6ccdd2a9f9dcb301a30515b4ec57a80a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a6ccdd2a9f9dcb301a30515b4ec57a80a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a3807b229e4b4e67b8140583c1258e643">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a7ce62035deadd745ba3d19f773df5c38">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1af740e6e0c30f5461fb7c68a23787cca7">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a5ab260973d71263a3b95ab630d1f71bf">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1aba5eaaa22b5a9f6bd487fc746170fd0f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1aba5eaaa22b5a9f6bd487fc746170fd0f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a7b9136c1bc76ba1ef90f2dd6f3674dc1">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a0df626d8a5cfc246075fbdf50698ca45">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1a9a45769ea947c52fc7ee48269c0a8e8d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1aa4a879edc2a0040aff3ec0c2958fa553">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1ac6197f2b8025d64fbf8c0039dad9d4ff">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1ac6197f2b8025d64fbf8c0039dad9d4ff">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1af67cbd7782a980f71b558f8fdc1782cc">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1a0f82c93f911a0cc323b95430fe13eb15">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a234ae192f36f5ca340d2b60cd44866b3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a859c6a6b1edf5d2245373d455cdee147">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a3ccc448813e1f64fcf1e64cbf03eace3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a3ccc448813e1f64fcf1e64cbf03eace3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a7ead9ee9b45c21eb2953b2283febc950">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a904c4f7896e71a3ada36ff5b9ccb5cd3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a47ee59c118ec12edd9e48b93ee2798a6">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a0d3ff17f538ec7891dab74243a440dc2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a91292ee53f5906f94a409431d15a964f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a91292ee53f5906f94a409431d15a964f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a0dfeaeb7cbfeb7e947f2635f5e1ad232">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a23c662fb866debfb856dba7682a5421c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a1d286795150f0c90833d2750acb74e8a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ae6bde5c3948e3cbb6e5f357d10f9efd9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a11120a01812c832ef83471e4bbb129a2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a11120a01812c832ef83471e4bbb129a2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ab6565bc8d2230a0816ad745ef490ce22">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1aec971f1d6708bcd24d655df357a5d239">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aeef231fecfb1da6574de47f55022b82a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a152f2b14f4909f101b562a4933068280">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ab9ccdf2a846553fafc6033d6f24d36a4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ab9ccdf2a846553fafc6033d6f24d36a4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8f6f85b2492f8b397048199e9d3a7073">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8cb0325d0f71ff203924c46ef355b001">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1ab1d6b7a8c44458c400ce8ef751b464d3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1ac5300e210459d3297c77078cc8012cde">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1af172f98cfb4268b17f7799d37e02be4a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1af172f98cfb4268b17f7799d37e02be4a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a5e9ea2c23391ffc6d8610617d50f16e2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a09325d1f8440d6a37d104ec90e76417f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a2cc6f174079abf55749380bb7d71064d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1adbb5b3919c2c22748e96d888b9c77ddf">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a5c0eb2a3ac4e52f7d44e0f778a372685">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a5c0eb2a3ac4e52f7d44e0f778a372685">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1aedfc3bbe2924e968a0c455c1c8ba4771">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1ae12f400cb820b1f6d0be623fef37c326">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -628,90 +346,6 @@
         <argsstring>(self, BitSet arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.BitSet.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a97b6a540ea71aa245892003d139c7be2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a6aba2a7e6780ea90c7675900f497d3fb">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a167febe06d6aaafd413af1d66c4bb600">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a167febe06d6aaafd413af1d66c4bb600">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ac9c194f18ab852dba9c0c2180e2ff32e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a75b2a4c88d194278ad98d3d32f63d959">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a9786e09678ed92b8e120c5f11ba856a5">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1aca47e274fa08bb2e989f9f2feaa8fc8a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1ae94fad4319808db0e78a07d60ec7d370">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1ae94fad4319808db0e78a07d60ec7d370">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a2c355243b97269dd261aa16c5f9a94bd">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1aba567d1352ee5ccb52b5b25c117a4244">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ad3558f0cd80c685f9c13d466780eb5e2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a6f5f1fa4bdad810423d1a95586f40a65">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ad588e9f51d281a05ce61e8c3e3e9f5d9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ad588e9f51d281a05ce61e8c3e3e9f5d9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a63b2afcce37aeab792d47351386d6e41">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ad76b8ae914f41226edf49c1be769371c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a5d07da3efb823706bc1159d37e5e791e">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a2852d4b89450251baafdaa456319bdb7">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7e9409c1a67cb7aaa68feea527942b31">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7e9409c1a67cb7aaa68feea527942b31">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1ad6107e9e27855d31e1cf542e149118f4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a2fcc5e8454987544e5af713aac008bdc">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1ae1474c2d1fec63dbc745f21c825353ce">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1a6f6ac87cd94c97add7f004320ced8092">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1acfd5bbeb3c88c2877adef0cbbd013746">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1acfd5bbeb3c88c2877adef0cbbd013746">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1ac08d5ba4fdcb5f6c291aa492cab5529d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1a48c434d0d27828aae0112220c618858d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a2d4d65a90fa7ec24993879684d6f275d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a2cf61ff0d1e8905251c7d15eca1a5496">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a6ccdd2a9f9dcb301a30515b4ec57a80a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a6ccdd2a9f9dcb301a30515b4ec57a80a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a3807b229e4b4e67b8140583c1258e643">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a7ce62035deadd745ba3d19f773df5c38">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1af740e6e0c30f5461fb7c68a23787cca7">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a5ab260973d71263a3b95ab630d1f71bf">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1aba5eaaa22b5a9f6bd487fc746170fd0f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1aba5eaaa22b5a9f6bd487fc746170fd0f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a7b9136c1bc76ba1ef90f2dd6f3674dc1">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a0df626d8a5cfc246075fbdf50698ca45">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1a9a45769ea947c52fc7ee48269c0a8e8d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1aa4a879edc2a0040aff3ec0c2958fa553">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1ac6197f2b8025d64fbf8c0039dad9d4ff">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1ac6197f2b8025d64fbf8c0039dad9d4ff">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1af67cbd7782a980f71b558f8fdc1782cc">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1a0f82c93f911a0cc323b95430fe13eb15">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a234ae192f36f5ca340d2b60cd44866b3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a859c6a6b1edf5d2245373d455cdee147">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a3ccc448813e1f64fcf1e64cbf03eace3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a3ccc448813e1f64fcf1e64cbf03eace3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a7ead9ee9b45c21eb2953b2283febc950">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a904c4f7896e71a3ada36ff5b9ccb5cd3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a47ee59c118ec12edd9e48b93ee2798a6">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a0d3ff17f538ec7891dab74243a440dc2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a91292ee53f5906f94a409431d15a964f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a91292ee53f5906f94a409431d15a964f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a0dfeaeb7cbfeb7e947f2635f5e1ad232">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a23c662fb866debfb856dba7682a5421c">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a1d286795150f0c90833d2750acb74e8a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ae6bde5c3948e3cbb6e5f357d10f9efd9">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a11120a01812c832ef83471e4bbb129a2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a11120a01812c832ef83471e4bbb129a2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ab6565bc8d2230a0816ad745ef490ce22">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1aec971f1d6708bcd24d655df357a5d239">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aeef231fecfb1da6574de47f55022b82a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a152f2b14f4909f101b562a4933068280">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ab9ccdf2a846553fafc6033d6f24d36a4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ab9ccdf2a846553fafc6033d6f24d36a4">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8f6f85b2492f8b397048199e9d3a7073">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8cb0325d0f71ff203924c46ef355b001">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1ab1d6b7a8c44458c400ce8ef751b464d3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1ac5300e210459d3297c77078cc8012cde">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1af172f98cfb4268b17f7799d37e02be4a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1af172f98cfb4268b17f7799d37e02be4a">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a5e9ea2c23391ffc6d8610617d50f16e2">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a09325d1f8440d6a37d104ec90e76417f">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a2cc6f174079abf55749380bb7d71064d">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1adbb5b3919c2c22748e96d888b9c77ddf">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a5c0eb2a3ac4e52f7d44e0f778a372685">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a5c0eb2a3ac4e52f7d44e0f778a372685">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1aedfc3bbe2924e968a0c455c1c8ba4771">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1ae12f400cb820b1f6d0be623fef37c326">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -736,20 +370,6 @@
         <argsstring>(self, BitSet b)</argsstring>
         <name>__ior__</name>
         <qualifiedname>mrmeshpy.BitSet.__ior__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a4e58da9e31b546113ab58d33268276bc">__ior__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a7ff6e6cc406c15a9421c702c5fd9adfe">__ior__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a96ae721cf5201e69bbdd9f2c8a2ed6d7">__ior__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7fbbef9415507a11f61e4faff66ec75c">__ior__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1ae5be9f989aad8f10f1428f5d0acd1819">__ior__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a27de67d72d75ebda92fa598719dc3953">__ior__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a862334a8a7ca18121d6e3a7847d070fd">__ior__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1ad3fd6d3fe30884057e110e1d84f41464">__ior__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1aa8d3f732c4431adeeaabf9ceed77246f">__ior__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a037760267dc5c133da70d212d3bf1d1d">__ior__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a3977caba54b284712b5711a2875e698d">__ior__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1af5947648693def648233dba6c9c80f5c">__ior__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1aaa02955649899351574bdb711f8a1d3a">__ior__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1abaae621b4ab196d7cd57d7d5f28eb522">__ior__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -772,20 +392,6 @@
         <argsstring>(self, BitSet b)</argsstring>
         <name>__isub__</name>
         <qualifiedname>mrmeshpy.BitSet.__isub__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a5e433e44da42b65ff6848e9715b99c6f">__isub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a8a138267a1211bd682d973397d3f39df">__isub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1aa989812bb586a4d97db66a5d6a4b3bd7">__isub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a44ff67aa07ca09e1f5fa4eec3ccacfd0">__isub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1a77cd1d78dee2c916b16768b9424ddaa7">__isub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a53edd0472f3b445c48adb4122e085969">__isub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1ad3acb252f1b5412aae1de575aef9883f">__isub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1a2deb33a5d8429ef8a7f2f32f09f18877">__isub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a647c331e395572e18714ac4cfc319b91">__isub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a2c91ad89ed4ecd241aca6b3b760f2799">__isub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a3897a8fa3d1fd9c12c9a09b88612565c">__isub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a83c51be8ab274f62a6db72219b1530b4">__isub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a66b0e7fd33a06a866dd8255fe91c2d04">__isub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1af70de9e12af9939b6451b14ddae311ba">__isub__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -808,20 +414,6 @@
         <argsstring>(self)</argsstring>
         <name>__iter__</name>
         <qualifiedname>mrmeshpy.BitSet.__iter__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a6a3903e04732376bf5d8ac0d991ef150">__iter__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a2aa2f62dcdba0abd2013ceeed6f6d431">__iter__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a620a3172c71340082ce5f2b2592b8e91">__iter__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a0249c1331438b69bc0f2ad753333e904">__iter__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1ab441e659e190c7636523fb9bd1e9447e">__iter__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a8294b12ee8219946554540bd0e66034b">__iter__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a34d27cdd991f96efabcf990b7be4da0c">__iter__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1a3c375dd46253b798e337704f319a0487">__iter__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a287c34fb36db3294d722437711dc05ea">__iter__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a6c98feae275ecf3ffd17c59d4703538b">__iter__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a8039c3464a773d318776c6dc3eaa5522">__iter__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a1a108fb3e93b19fc8d6032281b2ca3a1">__iter__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a6754140522b9c6757067c0ae5f9417e4">__iter__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a7b08296775a9cd080756bb4679ae2102">__iter__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -840,20 +432,6 @@
         <argsstring>(self, BitSet b)</argsstring>
         <name>__ixor__</name>
         <qualifiedname>mrmeshpy.BitSet.__ixor__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1acdcbf376241166bc7fc8485bf26243d0">__ixor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a8c112cf26e723b8ec96ed7f0cc8f9d64">__ixor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a5306d6365c4f1f80be01a199a1371263">__ixor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a5942ea982bcb72ab797f52165e025668">__ixor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1a20ea96ad1ae77d86fd2f8856eace9be1">__ixor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1ad93939dcd837710392a06de9f5f1767b">__ixor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1add27885fcdb27d13e42570dc93489009">__ixor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1a8a1aa9fbcd84a171e2c0a201ad463021">__ixor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a191ded296c733a7de15f8374f3b79ff0">__ixor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a2cde06c67ddce2ba7409acd18542ba21">__ixor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1add09ac56119e279f96cd09df5936031f">__ixor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a5ea4b2f89fd30aa077a4ba902f82e957">__ixor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a9a8634a40088c704704ad95aad3d30cb">__ixor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a6cf92818a32c5d47ecc63a0109ebb034">__ixor__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -876,20 +454,6 @@
         <argsstring>(self, BitSet b)</argsstring>
         <name>__or__</name>
         <qualifiedname>mrmeshpy.BitSet.__or__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a31e96cd2d2877c2c3869d915ad3526ab">__or__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1af3e5e329233fdaadd2d360b0838e831e">__or__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a2baa20bcc9116f41217c748a0d9ece17">__or__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7326340474e89a0f99b9276107533f23">__or__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1ade311a053d6f0c1ad73804cf2b3457b4">__or__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1aaeae76407cfd99e17f9de86de924f05c">__or__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a7f62546502ac025e1e40ed3f778e9c55">__or__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1a40609c628555672fde417ade7fd3404f">__or__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1aa4dacc0f017749b4dae8db84c098c058">__or__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1af0b6ac70b88b380f3f51a8a7f158da8a">__or__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ae797f3141eed6c6c4c3a66c7ff5b663e">__or__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ae55958a91779ed0058ed121254df314c">__or__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a9efeed7746912f8eefde3651b2b84ced">__or__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1aef2d84ae7454b4e5d8d52154f2f4222a">__or__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -912,20 +476,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.BitSet.__repr__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ac6769a4a523c4a581c79d6da343ac5a2">__repr__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a69dea4dff0daf7a1aecf49d080999389">__repr__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a59b6929ca16cbe090c495f80bb98ef1a">__repr__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a2daba4ceae7b15a152705ff963d7a3d8">__repr__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1a6b9fb75f61fbd7df29a36b5b39f60953">__repr__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a4710c47c510d5595fe61636c3fb897b2">__repr__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a22a5a48ff9b18857c01e9ff9ba31c379">__repr__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1a13aa5abdaacc1ac185ee0103370a58f4">__repr__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a9ae781ec49a10782dd62aa870b928e6b">__repr__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a74578d9e7e34e5132036206163480bb6">__repr__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a068e0d234f06358d8da5679bcce4c2ec">__repr__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1afc967e6b5dd8ce2daccfe8b3906ef231">__repr__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1aa258db5bc3b9034510a9ec6078c3f579">__repr__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a3b442277af4823e1675a3acaed8441b2">__repr__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -988,20 +538,6 @@
         <argsstring>(self, BitSet b)</argsstring>
         <name>__sub__</name>
         <qualifiedname>mrmeshpy.BitSet.__sub__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a89a9b163bd3887abd3a4ee810d30c9bb">__sub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a3bd2d1a918179c2e008ea27c3191f2c8">__sub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1a1668f0c3d5587d8ef5d31e483ebe3b22">__sub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a0ea5e7892c402e689ce30ff1955d5c57">__sub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1a7f141be9b58552f19936c74d79e518eb">__sub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a0096acae95f9a975c95b152970a2287d">__sub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a058ba9d428348001004ee944deeb5ed4">__sub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1a2a42e5006e467482fc47e531e58b574d">__sub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a15c6df59da4e2a891fcada1a328dd0a0">__sub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1aa6b5555229b9cd4e6d018a10f61c39fd">__sub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a1e9f54304c29400e77da072f332faaba">__sub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8ee21d8a5c375283337e6a6a33ab6837">__sub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a1f0f881ea4e3f3b24bf41c8f332821b6">__sub__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1ad6d90efe452c6ee9bcd98cc77b5375d0">__sub__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -1024,20 +560,6 @@
         <argsstring>(self, BitSet b)</argsstring>
         <name>__xor__</name>
         <qualifiedname>mrmeshpy.BitSet.__xor__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a186c74932a30e873c96fb140589e89c8">__xor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1a51581f90cba5a02e66043666e96183ed">__xor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1ab523743769810a55a8eea4e7f67e208d">__xor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a368340b9d0233f4fc2e86095f4224c8e">__xor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1af7997f27ec53915b99b7ec6e08d400d2">__xor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1aa23c9caeb69e8f1703225063dd321c16">__xor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1a53af67f93f50b6eae895ba6e9d558d9c">__xor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1a3e5ae1c08ca224de03777ceb47628b25">__xor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1a9bc2f297651bf40ee89dc1bf3f0ef255">__xor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a12052dc58db7c1d117a7b38a84b2adb2">__xor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a6c104e6b7c3dcd34acd36877192cc0d3">__xor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a9b788e843ee1267f8f072fd5df465f56">__xor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1ae8b54bdad9527607a3c845367a841f82">__xor__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a17ea5fdb5cfab3d02e89b1d7f60340dc">__xor__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -2945,19 +2467,6 @@ with all bits after size() considered off during testing
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.BitSet</label>
-        <link refid="classmrmeshpy_1_1BitSet"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>bits_per_block</edgelabel>
-          <edgelabel>npos</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3156" bodyend="3384"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>__and__</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RibbonMenu_1_1DialogItemPtr" kind="struct" language="C++" prot="protected">
     <compoundname>MR::RibbonMenu::DialogItemPtr</compoundname>
-    <includes refid="MRRibbonMenu_8h" local="no">MRRibbonMenu.h</includes>
+    <includes refid="MRRibbonMenu_8h" local="no">MRViewer/MRRibbonMenu.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaeb25a7d0ddadeeeda6f7ca36d711642b" kind="variable"><name>item</name></member>
       <member refid="group__GeneralGroup_1ga81cacb5c7aa2d35d0b873c9a48145777" kind="variable"><name>dialogPositionFixed</name></member>
@@ -11,7 +11,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="180" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="181" bodyend="185"/>
+    <location file="MRViewer/MRRibbonMenu.h" line="180" column="5" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="181" bodyend="185"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga81cacb5c7aa2d35d0b873c9a48145777" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::DialogItemPtr</scope><name>dialogPositionFixed</name></member>
       <member refid="group__GeneralGroup_1gaeb25a7d0ddadeeeda6f7ca36d711642b" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::DialogItemPtr</scope><name>item</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1NodeBitSet" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::NodeBitSet</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
@@ -10,7 +10,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NodeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -98,7 +97,6 @@
         <argsstring>(self, NodeBitSet b)</argsstring>
         <name>__and__</name>
         <qualifiedname>mrmeshpy.NodeBitSet.__and__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -121,7 +119,6 @@
         <argsstring>(self, NodeBitSet b)</argsstring>
         <name>__iand__</name>
         <qualifiedname>mrmeshpy.NodeBitSet.__iand__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -144,7 +141,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NodeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -163,7 +159,6 @@
         <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NodeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -193,7 +188,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NodeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -218,7 +212,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NodeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -243,7 +236,6 @@
         <argsstring>(self, NodeBitSet arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NodeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -268,7 +260,6 @@
         <argsstring>(self, NodeBitSet b)</argsstring>
         <name>__ior__</name>
         <qualifiedname>mrmeshpy.NodeBitSet.__ior__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -291,7 +282,6 @@
         <argsstring>(self, NodeBitSet b)</argsstring>
         <name>__isub__</name>
         <qualifiedname>mrmeshpy.NodeBitSet.__isub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -314,7 +304,6 @@
         <argsstring>(self)</argsstring>
         <name>__iter__</name>
         <qualifiedname>mrmeshpy.NodeBitSet.__iter__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -333,7 +322,6 @@
         <argsstring>(self, NodeBitSet b)</argsstring>
         <name>__ixor__</name>
         <qualifiedname>mrmeshpy.NodeBitSet.__ixor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -356,7 +344,6 @@
         <argsstring>(self, NodeBitSet b)</argsstring>
         <name>__or__</name>
         <qualifiedname>mrmeshpy.NodeBitSet.__or__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -379,7 +366,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.NodeBitSet.__repr__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -398,7 +384,6 @@
         <argsstring>(self, NodeBitSet b)</argsstring>
         <name>__sub__</name>
         <qualifiedname>mrmeshpy.NodeBitSet.__sub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -421,7 +406,6 @@
         <argsstring>(self, NodeBitSet b)</argsstring>
         <name>__xor__</name>
         <qualifiedname>mrmeshpy.NodeBitSet.__xor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -1252,18 +1236,12 @@ with all bits after size() considered off during testing
       <node id="2">
         <label>mrmeshpy.BitSet</label>
         <link refid="classmrmeshpy_1_1BitSet"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>bits_per_block</edgelabel>
-          <edgelabel>npos</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37945" bodyend="38103"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a634516e24ab14258ba7a672a26f837f1" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1af06e5b8bd598633ae38015e4ef438a97" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a172addb2db1fbc630b7c5aa9636341d2" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>__iand__</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a2d4d65a90fa7ec24993879684d6f275d" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a2cf61ff0d1e8905251c7d15eca1a5496" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>__init__</name></member>
@@ -1277,13 +1255,23 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1NodeBitSet_1ad93939dcd837710392a06de9f5f1767b" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>__ixor__</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1aaeae76407cfd99e17f9de86de924f05c" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>__or__</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a4710c47c510d5595fe61636c3fb897b2" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a98282e643a9a65e1c6109bb7e5d7bb0f" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a180dc7a7e3b1484cbc0655607c27948d" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>__rrshift__</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a0096acae95f9a975c95b152970a2287d" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>__sub__</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1aa23c9caeb69e8f1703225063dd321c16" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a7791a54179bcc02c9e8d46ccd467d1df" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>all</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a72e64427ab6f98e8ffeb422c97588e62" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>any</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1ad2a863b8e3ebac9a7067b63371179a09" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a7ec268765192e72f321d02c8b32b59a2" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1af96273b1fe9625a776c19b87259f4106" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>autoResizeTestSet</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a97075d2c9be14ccdcbb538c5fdb60eaf" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>backId</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a44d0c2a9630bc83fd5db958915cca112" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab1c92776adea9f7d4a8aa71b4db8585e" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>bits</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a59b26e0abde0aeed833933ad5058adfe" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>bits_per_block</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a2335e90bc299cbaa4f87a7e2157f869a" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a640d1f443a7ea30d50a532de2cdf90b4" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a4b8a47eb3cd9dc19a7448b1a3b1765e2" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aab954a31474723788e2aeee311325c15" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>empty</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a8b77febe8cf5054605ae5446e3d17bf4" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>endId</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1aef593e06f124139ca5aa7059af394b13" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>find_first</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a239889fa52e004bafeeb00089897e834" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>find_first_not_set</name></member>
@@ -1294,26 +1282,41 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1NodeBitSet_1a5f5515654a35e51d431d95a122243953" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a50e7481bdc88f87af18ba1bbbfdbc338" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a622022e7a27f05b7c55e050b6f45b3ec" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab52de9f1462e6d83e5b7191d4396df74" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>fromBlocks</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a0089c2673fffd7550660ba80653ba415" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a5dbd8207147eac48a9ab0bdf0826c882" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1acff536e69312f246e4887cdd370bf0c0" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a0e025beff109f2ea893af5a9752241f8" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a0f1dc050d4d9f3bf9ec4e7b5145e6c18" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1ab82246c0fa72889ff4ec773864055c2c" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1aeba03a6d9efe27936e771daaa3385352" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aba96890a6af8d454cea1e755d03af8db" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>none</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aa0a7d1ede8a4702ab5421d151412dfc9" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>npos</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a56d68b63a4499b05cc68a4311047fcc2" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a33fe73fcaf13f4fe52d1fe72379ba764" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>num_blocks</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a95cb675ef089058d9d55693f4f8c376a" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a95cb675ef089058d9d55693f4f8c376a" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a204e188214d1fd66553951c4a6c9888b" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1af016fdece4d1e0fcefadce98dff1b478" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a289c8f64f552d93f25d60aae2140354a" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>reserve</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1aa36eb9871ee9c4eb31beec56a5b51fbd" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a65c8f14852b513b577d4ddc522e23410" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a847521295063d60ca2080946f59cb526" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a9e4c33df165c88226f1105129caa15f2" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a8f011a2d79e0769e54a51148de3d2dec" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a6e10a386d264b1d2ac5153c7eda3452e" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>reverse</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a768679eb7850b2c1d2c43657d5815ca6" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a457545bdb318f23e90a231cbb5f4dc14" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a3b3ab68eaf3db3148129d8288f54695b" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1ad43491c6ae578af46e14a8e96a3b1363" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a394f9a9633d44001a7cab69dbd3815e8" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>shrink_to_fit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae04e046bab014f7e687c1010d5386eb" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a25763ad3a16ec43b9ef717b138ce9a25" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>subtract</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a9b0d75e83729ed158228c4e7d5ab083b" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>test</name></member>
       <member refid="classmrmeshpy_1_1NodeBitSet_1a801078d61d667a4b1ee4f860510b5547" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>test_set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae49ff1ea465f9b7185a328d08806e08" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>uncheckedTest</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a908f2b141bba37ea2f49d8dd1938c711" prot="public" virt="non-virtual"><scope>mrmeshpy::NodeBitSet</scope><name>uncheckedTestSet</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

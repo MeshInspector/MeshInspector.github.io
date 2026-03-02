@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCylinderApproximator_8h" kind="file" language="C++">
     <compoundname>MRCylinderApproximator.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -12,7 +12,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRCylinderApproximator.h</label>
+        <label>MRMesh/MRCylinderApproximator.h</label>
         <link refid="MRCylinderApproximator_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -93,12 +93,12 @@
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="15" refid="classMR_1_1Cylinder3Approximation" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Cylinder3Approximation" kindref="compound">Cylinder3Approximation</ref></highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1Cylinder3Approximation" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga0e4a56fc93e558ba228d4ae40f56fa5b" kindref="member">Cylinder3Approximation</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>CylinderFitterType</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0ec93e9fcfd4b11654579d65e255bb7da1a4728573c55a3c1ceca7af11776f64b" kindref="member">HemisphereSearchFit</ref>,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HemisphereSearchFit,</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SpecificAxisFit</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
@@ -149,11 +149,11 @@
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
 <codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>T<sp/>fitCylindeHemisphereMultiThreaded(<sp/>Eigen::Vector&lt;T,<sp/>3&gt;&amp;<sp/>PC,<sp/>Eigen::Vector&lt;T,<sp/>3&gt;&amp;<sp/>W,<sp/>T&amp;<sp/>resultedRootSquare<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>T<sp/>SpecificAxisFit(<sp/>Eigen::Vector&lt;T,<sp/>3&gt;&amp;<sp/>PC,<sp/>Eigen::Vector&lt;T,<sp/>3&gt;&amp;<sp/>W,<sp/>T&amp;<sp/>resultedRootSquare<sp/>);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>T<sp/><ref refid="group__GeneralGroup_1gga0ec93e9fcfd4b11654579d65e255bb7da2c0500afc7ff11f210c486fe633f3384" kindref="member">SpecificAxisFit</ref>(<sp/>Eigen::Vector&lt;T,<sp/>3&gt;&amp;<sp/>PC,<sp/>Eigen::Vector&lt;T,<sp/>3&gt;&amp;<sp/>W,<sp/>T&amp;<sp/>resultedRootSquare<sp/>);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
 <codeline lineno="100"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h"/>
+    <location file="MRMesh/MRCylinderApproximator.h"/>
   </compounddef>
 </doxygen>

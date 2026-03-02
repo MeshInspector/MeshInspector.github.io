@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshLoadSettings_8h" kind="file" language="C++">
     <compoundname>MRMeshLoadSettings.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
     <includes local="no">optional</includes>
-    <includedby refid="MRCtm_8h" local="no">MRCtm.h</includedby>
-    <includedby refid="MRIOFormatsRegistry_8h" local="yes">MRIOFormatsRegistry.h</includedby>
-    <includedby refid="MRMeshLoad_8h" local="yes">MRMeshLoad.h</includedby>
-    <includedby refid="MRMeshLoadObj_8h" local="yes">MRMeshLoadObj.h</includedby>
-    <includedby refid="MRMisonLoad_8h" local="yes">MRMisonLoad.h</includedby>
-    <includedby refid="MRObjectLoad_8h" local="yes">MRObjectLoad.h</includedby>
-    <includedby refid="MRStep_8h" local="no">MRStep.h</includedby>
+    <includedby refid="MRCtm_8h" local="no">MRIOExtras/MRCtm.h</includedby>
+    <includedby refid="MRStep_8h" local="no">MRIOExtras/MRStep.h</includedby>
+    <includedby refid="MRIOFormatsRegistry_8h" local="yes">MRMesh/MRIOFormatsRegistry.h</includedby>
+    <includedby refid="MRMeshLoad_8h" local="yes">MRMesh/MRMeshLoad.h</includedby>
+    <includedby refid="MRMeshLoadObj_8h" local="yes">MRMesh/MRMeshLoadObj.h</includedby>
+    <includedby refid="MRMisonLoad_8h" local="yes">MRMesh/MRMisonLoad.h</includedby>
+    <includedby refid="MRObjectLoad_8h" local="yes">MRMesh/MRObjectLoad.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -46,7 +46,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshLoadSettings.h</label>
+        <label>MRMesh/MRMeshLoadSettings.h</label>
         <link refid="MRMeshLoadSettings_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -98,42 +98,42 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="5">
-        <label>MROpenRawVoxelsPlugin.h</label>
+      <node id="6">
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
       <node id="2">
-        <label>MRCtm.h</label>
+        <label>MRIOExtras/MRCtm.h</label>
         <link refid="MRCtm_8h"/>
       </node>
-      <node id="11">
-        <label>MRStep.h</label>
+      <node id="3">
+        <label>MRIOExtras/MRStep.h</label>
         <link refid="MRStep_8h"/>
       </node>
-      <node id="3">
-        <label>MRIOFormatsRegistry.h</label>
+      <node id="4">
+        <label>MRMesh/MRIOFormatsRegistry.h</label>
         <link refid="MRIOFormatsRegistry_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-      </node>
-      <node id="7">
-        <label>MRMeshLoad.h</label>
-        <link refid="MRMeshLoad_8h"/>
       </node>
       <node id="8">
-        <label>MRMeshLoadObj.h</label>
+        <label>MRMesh/MRMeshLoad.h</label>
+        <link refid="MRMeshLoad_8h"/>
+      </node>
+      <node id="9">
+        <label>MRMesh/MRMeshLoadObj.h</label>
         <link refid="MRMeshLoadObj_8h"/>
       </node>
       <node id="1">
-        <label>MRMeshLoadSettings.h</label>
+        <label>MRMesh/MRMeshLoadSettings.h</label>
         <link refid="MRMeshLoadSettings_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -144,22 +144,22 @@
         <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="9">
-        <label>MRMisonLoad.h</label>
+      <node id="10">
+        <label>MRMesh/MRMisonLoad.h</label>
         <link refid="MRMisonLoad_8h"/>
       </node>
-      <node id="10">
-        <label>MRObjectLoad.h</label>
+      <node id="11">
+        <label>MRMesh/MRObjectLoad.h</label>
         <link refid="MRObjectLoad_8h"/>
       </node>
-      <node id="4">
-        <label>MRVoxelsLoad.h</label>
+      <node id="5">
+        <label>MRVoxels/MRVoxelsLoad.h</label>
         <link refid="MRVoxelsLoad_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>MRVoxelsSave.h</label>
+      <node id="7">
+        <label>MRVoxels/MRVoxelsSave.h</label>
         <link refid="MRVoxelsSave_8h"/>
       </node>
     </invincdepgraph>
@@ -179,7 +179,7 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="structMR_1_1MeshLoadSettings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1MeshLoadSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1ga49a42dcc4e94c7c1824987b168d150b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Edges&gt;*<sp/><ref refid="group__GeneralGroup_1ga49a42dcc4e94c7c1824987b168d150b9" kindref="member">edges</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1ga3d2dec2482a716804af51ed748ebcebc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertColors*<sp/><ref refid="group__GeneralGroup_1ga3d2dec2482a716804af51ed748ebcebc" kindref="member">colors</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/></highlight></codeline>
@@ -194,8 +194,8 @@
 <codeline lineno="25" refid="group__GeneralGroup_1gadf9210a3db4a2bdb4ccfb7e14f428246" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadf9210a3db4a2bdb4ccfb7e14f428246" kindref="member">telemetrySignal</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="26"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h"/>
+    <location file="MRMesh/MRMeshLoadSettings.h"/>
   </compounddef>
 </doxygen>

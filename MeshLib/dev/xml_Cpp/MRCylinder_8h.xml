@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCylinder_8h" kind="file" language="C++">
     <compoundname>MRCylinder.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -16,7 +16,7 @@
         <link refid="MRConstants_8h"/>
       </node>
       <node id="1">
-        <label>MRCylinder.h</label>
+        <label>MRMesh/MRCylinder.h</label>
         <link refid="MRCylinder_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -87,8 +87,8 @@
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"></codeline>
-<codeline lineno="11"></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13" refid="group__GeneralGroup_1gae8304f9886b01726e0bfd8eae173d7bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1gae8304f9886b01726e0bfd8eae173d7bf" kindref="member">makeCylinder</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius<sp/>=<sp/>0.1f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf9d495c1655d813d553030485d00fea7" kindref="member">length</ref><sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>resolution<sp/>=<sp/>16<sp/>);</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1ga9e9e32ceefb3721896bc40d630b35d68" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga9e9e32ceefb3721896bc40d630b35d68" kindref="member">makeOpenCylinder</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius<sp/>=<sp/>1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z1<sp/>=<sp/>-1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z2<sp/>=<sp/>1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numCircleSegments<sp/>=<sp/>16<sp/>);</highlight></codeline>
@@ -100,6 +100,6 @@
 <codeline lineno="24" refid="group__GeneralGroup_1gaa7e94c639e844da07b5feac8a0b6b713" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1gaa7e94c639e844da07b5feac8a0b6b713" kindref="member">makeCone</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius0<sp/>=<sp/>0.1f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf9d495c1655d813d553030485d00fea7" kindref="member">length</ref><sp/>=<sp/>1.0f,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>resolution<sp/>=<sp/>32<sp/>);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder.h"/>
+    <location file="MRMesh/MRCylinder.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ObjectVoxels::VolumeRenderingParams::AlphaType</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -312,20 +312,6 @@
   LinearDecreasing
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.ObjectVoxels.VolumeRenderingParams.AlphaType</label>
-        <link refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>Constant</edgelabel>
-          <edgelabel>LinearDecreasing</edgelabel>
-          <edgelabel>LinearIncreasing</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40818" bodyend="40857"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType_1a367a914a1de1b3a6017e10cfe3b050f9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels::VolumeRenderingParams::AlphaType</scope><name>__eq__</name></member>

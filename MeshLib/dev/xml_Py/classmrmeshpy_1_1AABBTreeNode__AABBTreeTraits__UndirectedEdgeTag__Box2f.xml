@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -420,20 +420,6 @@
 Aliases:  Vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f_NodeId.reference, Vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f_NodeId.value_type, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.Node, Vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f_NodeId.const_reference
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f</label>
-        <link refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_box</edgelabel>
-          <edgelabel>_offsetof_l</edgelabel>
-          <edgelabel>_offsetof_r</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="416" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="416" bodyend="484"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f_1ad549ce1eb184b68723242ca240e8d3b2" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>__init__</name></member>

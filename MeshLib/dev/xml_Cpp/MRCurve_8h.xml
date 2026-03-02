@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCurve_8h" kind="file" language="C++">
     <compoundname>MRCurve.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
-    <includedby refid="MRAlignContoursToMesh_8h" local="yes">MRAlignContoursToMesh.h</includedby>
-    <includedby refid="MRAlignTextToMesh_8h" local="yes">MRAlignTextToMesh.h</includedby>
+    <includedby refid="MRAlignContoursToMesh_8h" local="yes">MRMesh/MRAlignContoursToMesh.h</includedby>
+    <includedby refid="MRAlignTextToMesh_8h" local="yes">MRSymbolMesh/MRAlignTextToMesh.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -18,7 +18,7 @@
         <link refid="MRConstants_8h"/>
       </node>
       <node id="1">
-        <label>MRCurve.h</label>
+        <label>MRMesh/MRCurve.h</label>
         <link refid="MRCurve_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -132,11 +132,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRAlignContoursToMesh.h</label>
+        <label>MRMesh/MRAlignContoursToMesh.h</label>
         <link refid="MRAlignContoursToMesh_8h"/>
       </node>
       <node id="1">
-        <label>MRCurve.h</label>
+        <label>MRMesh/MRCurve.h</label>
         <link refid="MRCurve_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -144,7 +144,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MRAlignTextToMesh.h</label>
+        <label>MRSymbolMesh/MRAlignTextToMesh.h</label>
         <link refid="MRAlignTextToMesh_8h"/>
       </node>
     </invincdepgraph>
@@ -181,10 +181,10 @@
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>MR_BIND_PREFER_UNLOCK_GIL_WHEN_USED_AS_PARAM</highlight></codeline>
 <codeline lineno="29"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="group__GeneralGroup_1ga9373564bf8d768311a39df2f41d3d8e4" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga9373564bf8d768311a39df2f41d3d8e4" kindref="member">CurvePoints</ref><sp/>=<sp/>std::vector&lt;CurvePoint&gt;;</highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1ga9373564bf8d768311a39df2f41d3d8e4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga9373564bf8d768311a39df2f41d3d8e4" kindref="member">CurvePoints</ref><sp/>=<sp/>std::vector&lt;CurvePoint&gt;;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h"/>
+    <location file="MRMesh/MRCurve.h"/>
   </compounddef>
 </doxygen>

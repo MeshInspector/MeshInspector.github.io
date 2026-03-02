@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CameraOrientation" kind="class" language="C++" prot="public">
     <compoundname>MR::CameraOrientation</compoundname>
     <basecompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt;&gt;</basecompoundref>
-    <includes refid="MRCameraOrientationPlugin_8h" local="no">MRCameraOrientationPlugin.h</includes>
+    <includes refid="MRCameraOrientationPlugin_8h" local="no">MRCommonPlugins/Basic/MRCameraOrientationPlugin.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga3f152313df98ebb7fffb03fa32928a60" kind="variable"><name>position_</name></member>
       <member refid="group__GeneralGroup_1ga4bb143b3a4b81b06d8179e39509d78f4" kind="variable"><name>direction_</name></member>
@@ -150,7 +150,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" bodystart="14" bodyend="34"/>
+    <location file="MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="13" column="1" bodyfile="MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" bodystart="14" bodyend="34"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga8db9dbabafdd09e59c1024801023714d" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>autofit_</name></member>

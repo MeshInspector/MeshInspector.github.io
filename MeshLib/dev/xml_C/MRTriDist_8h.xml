@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRTriDist_8h" kind="file" language="C++">
     <compoundname>MRTriDist.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
@@ -48,10 +48,10 @@
       </node>
     </incdepgraph>
     <sectiondef kind="enum">
-      <memberdef kind="enum" id="MRTriDist_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57" prot="public" static="no" strong="no">
+      <memberdef kind="enum" id="MRTriDist_8h_1a15de9c8aeb9235d490a69c0450e30c1a" prot="public" static="no" strong="no">
         <type></type>
         <name></name>
-        <enumvalue id="MRTriDist_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57adf2e755067fca1ded95fdeb3ddccc3de" prot="public">
+        <enumvalue id="MRTriDist_8h_1a15de9c8aeb9235d490a69c0450e30c1aadf2e755067fca1ded95fdeb3ddccc3de" prot="public">
           <name>MR_UpLimitCheck_GreaterOrEqual</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -61,7 +61,7 @@
 <para>findTriTriDistance exits earlier if (distSqLowerBound &gt; upDistLimitSq) </para>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MRTriDist_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57ab370af5bd41f90f12b7710866f65a3e0" prot="public">
+        <enumvalue id="MRTriDist_8h_1a15de9c8aeb9235d490a69c0450e30c1aab370af5bd41f90f12b7710866f65a3e0" prot="public">
           <name>MR_UpLimitCheck_Greater</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -91,19 +91,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="14" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRTriDist_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" prot="public" static="no">
-        <type>struct <ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref></type>
-        <definition>typedef struct MR_std_array_MR_Vector3f_3 MR_std_array_MR_Vector3f_3</definition>
-        <argsstring></argsstring>
-        <name>MR_std_array_MR_Vector3f_3</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" line="15" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriDist.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" prot="public" static="no">
         <type>struct <ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref></type>
@@ -545,7 +532,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_TriTriDistanceResult_float</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -563,7 +550,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_TriTriDistanceResult_float</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -962,7 +949,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_TriTriDistanceResult_double</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -980,7 +967,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_TriTriDistanceResult_double</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1255,7 +1242,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_TriTriDistanceParams_float</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRTriDist_8h_1ae094c14d639c9cc0419f5cc37fb025c9" kindref="member">MR_TriTriDistanceParams_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1273,7 +1260,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_TriTriDistanceParams_float</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRTriDist_8h_1ae094c14d639c9cc0419f5cc37fb025c9" kindref="member">MR_TriTriDistanceParams_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1588,7 +1575,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_TriTriDistanceParams_double</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRTriDist_8h_1a0a0b6bc344cdd46da1d427c013bd9e86" kindref="member">MR_TriTriDistanceParams_double</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1606,7 +1593,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_TriTriDistanceParams_double</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRTriDist_8h_1a0a0b6bc344cdd46da1d427c013bd9e86" kindref="member">MR_TriTriDistanceParams_double</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1820,23 +1807,23 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="MRTriDist_8h_1ace0987ea77140eca8dd5c1d9e279129c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTriDist_8h_1ace0987ea77140eca8dd5c1d9e279129c" kindref="member">MR_std_array_MR_Vector3d_3</ref><sp/><ref refid="MRTriDist_8h_1ace0987ea77140eca8dd5c1d9e279129c" kindref="member">MR_std_array_MR_Vector3d_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_array_MR_Vector3d_3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRTriDist_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref><sp/><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_array_MR_Vector3f_3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref><sp/><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_array_MR_Vector3f_3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref>;</highlight></codeline>
+<codeline lineno="20" refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref>;</highlight></codeline>
+<codeline lineno="24" refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref><sp/><ref refid="MRTriDist_8h_1abd40009ace399a46f36148ebf4a80630" kindref="member">MR_TriTriDistanceResult_double</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="MRTriDist_8h_1a523fc5197b62dc5030370d9bb1455c29" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1a523fc5197b62dc5030370d9bb1455c29" kindref="member">MR_UpLimitCheck</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>MR_UpLimitCheck</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRTriDist_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57adf2e755067fca1ded95fdeb3ddccc3de" kindref="member">MR_UpLimitCheck_GreaterOrEqual</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="32" refid="MRTriDist_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57ab370af5bd41f90f12b7710866f65a3e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRTriDist_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57ab370af5bd41f90f12b7710866f65a3e0" kindref="member">MR_UpLimitCheck_Greater</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="30" refid="MRTriDist_8h_1a15de9c8aeb9235d490a69c0450e30c1aadf2e755067fca1ded95fdeb3ddccc3de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRTriDist_8h_1a15de9c8aeb9235d490a69c0450e30c1aadf2e755067fca1ded95fdeb3ddccc3de" kindref="member">MR_UpLimitCheck_GreaterOrEqual</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="32" refid="MRTriDist_8h_1a15de9c8aeb9235d490a69c0450e30c1aab370af5bd41f90f12b7710866f65a3e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRTriDist_8h_1a15de9c8aeb9235d490a69c0450e30c1aab370af5bd41f90f12b7710866f65a3e0" kindref="member">MR_UpLimitCheck_Greater</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="33"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRTriDist_8h_1ae094c14d639c9cc0419f5cc37fb025c9" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTriDist_8h_1ae094c14d639c9cc0419f5cc37fb025c9" kindref="member">MR_TriTriDistanceParams_float</ref><sp/><ref refid="MRTriDist_8h_1ae094c14d639c9cc0419f5cc37fb025c9" kindref="member">MR_TriTriDistanceParams_float</ref>;</highlight></codeline>
+<codeline lineno="37" refid="MRTriDist_8h_1ae094c14d639c9cc0419f5cc37fb025c9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTriDist_8h_1ae094c14d639c9cc0419f5cc37fb025c9" kindref="member">MR_TriTriDistanceParams_float</ref><sp/><ref refid="MRTriDist_8h_1ae094c14d639c9cc0419f5cc37fb025c9" kindref="member">MR_TriTriDistanceParams_float</ref>;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRTriDist_8h_1a0a0b6bc344cdd46da1d427c013bd9e86" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTriDist_8h_1a0a0b6bc344cdd46da1d427c013bd9e86" kindref="member">MR_TriTriDistanceParams_double</ref><sp/><ref refid="MRTriDist_8h_1a0a0b6bc344cdd46da1d427c013bd9e86" kindref="member">MR_TriTriDistanceParams_double</ref>;</highlight></codeline>
+<codeline lineno="41" refid="MRTriDist_8h_1a0a0b6bc344cdd46da1d427c013bd9e86" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTriDist_8h_1a0a0b6bc344cdd46da1d427c013bd9e86" kindref="member">MR_TriTriDistanceParams_double</ref><sp/><ref refid="MRTriDist_8h_1a0a0b6bc344cdd46da1d427c013bd9e86" kindref="member">MR_TriTriDistanceParams_double</ref>;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="52" refid="MRTriDist_8h_1a45f194e9c79c1c88e5d2f8d6990c2239" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRTriDist_8h_1a45f194e9c79c1c88e5d2f8d6990c2239" kindref="member">MR_TriTriDistanceResult_float_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1ae9c40a1aeb5944471bdd0069f3cd0580" kindref="member">MR_TriTriDistanceResult_float</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
@@ -1997,7 +1984,7 @@
 <codeline lineno="573"><highlight class="normal">MRC_DEPRECATED_REASON(</highlight><highlight class="stringliteral">&quot;Use<sp/>findDistance()<sp/>instead&quot;</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="574" refid="MRTriDist_8h_1a5244a905413d414f3de0190fa119e3c0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1a5244a905413d414f3de0190fa119e3c0" kindref="member">MR_triDist</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*q,<sp/>const<sp/><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref><sp/>*s,<sp/>const<sp/><ref refid="MRMeshDistance_8h_1aaa28ccd81fc18dfe14395ff51c90b31e" kindref="member">MR_std_array_MR_Vector3f_3</ref><sp/>*t);</highlight></codeline>
 <codeline lineno="575"><highlight class="normal"></highlight></codeline>
-<codeline lineno="584"><highlight class="normal">MRC_DEPRECATED_REASON(&quot;Use<sp/>findTwoLineSegmClosestPoints()<sp/>instead&quot;)</highlight></codeline>
+<codeline lineno="584"><highlight class="normal">MRC_DEPRECATED_REASON(</highlight><highlight class="stringliteral">&quot;Use<sp/>findTwoLineSegmClosestPoints()<sp/>instead&quot;</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="585" refid="MRTriDist_8h_1aea74db1d5d50b61bd996e02c99695a10" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriDist_8h_1aea74db1d5d50b61bd996e02c99695a10" kindref="member">MR_segPoints</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*VEC,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*X,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*Y,<sp/>const<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*P,<sp/>const<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*A,<sp/>const<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*Q,<sp/>const<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*B);</highlight></codeline>
 <codeline lineno="586"><highlight class="normal"></highlight></codeline>
 <codeline lineno="587"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>

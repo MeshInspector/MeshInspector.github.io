@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1FaceBMap" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FaceBMap</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -123,19 +123,6 @@ Aliases:  AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.LeafBMap
 flat map: I -&gt; T
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.FaceBMap</label>
-        <link refid="classmrmeshpy_1_1FaceBMap"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_b</edgelabel>
-          <edgelabel>_offsetof_tsize</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16625" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16625" bodyend="16646"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FaceBMap_1a4d5940cb9c9805f6810615e82476a83a" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceBMap</scope><name>__init__</name></member>

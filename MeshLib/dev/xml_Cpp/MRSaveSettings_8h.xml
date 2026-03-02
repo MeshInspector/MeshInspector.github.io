@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSaveSettings_8h" kind="file" language="C++">
     <compoundname>MRSaveSettings.h</compoundname>
     <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
@@ -10,11 +10,11 @@
     <includes refid="MRColor_8h" local="yes">MRColor.h</includes>
     <includes local="no">cassert</includes>
     <includes local="no">optional</includes>
-    <includedby refid="MRCtm_8h" local="no">MRCtm.h</includedby>
-    <includedby refid="MRIOFormatsRegistry_8h" local="yes">MRIOFormatsRegistry.h</includedby>
-    <includedby refid="MRLinesSave_8h" local="yes">MRLinesSave.h</includedby>
-    <includedby refid="MRMeshSave_8h" local="yes">MRMeshSave.h</includedby>
-    <includedby refid="MRPointsSave_8h" local="yes">MRPointsSave.h</includedby>
+    <includedby refid="MRCtm_8h" local="no">MRIOExtras/MRCtm.h</includedby>
+    <includedby refid="MRIOFormatsRegistry_8h" local="yes">MRMesh/MRIOFormatsRegistry.h</includedby>
+    <includedby refid="MRLinesSave_8h" local="yes">MRMesh/MRLinesSave.h</includedby>
+    <includedby refid="MRMeshSave_8h" local="yes">MRMesh/MRMeshSave.h</includedby>
+    <includedby refid="MRPointsSave_8h" local="yes">MRMesh/MRPointsSave.h</includedby>
     <incdepgraph>
       <node id="26">
         <label>MRAffineXf.h</label>
@@ -131,7 +131,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRSaveSettings.h</label>
+        <label>MRMesh/MRSaveSettings.h</label>
         <link refid="MRSaveSettings_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -289,15 +289,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="5">
-        <label>MROpenRawVoxelsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
       <node id="2">
-        <label>MRCtm.h</label>
+        <label>MRIOExtras/MRCtm.h</label>
         <link refid="MRCtm_8h"/>
       </node>
       <node id="3">
-        <label>MRIOFormatsRegistry.h</label>
+        <label>MRMesh/MRIOFormatsRegistry.h</label>
         <link refid="MRIOFormatsRegistry_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -305,19 +305,19 @@
         </childnode>
       </node>
       <node id="7">
-        <label>MRLinesSave.h</label>
+        <label>MRMesh/MRLinesSave.h</label>
         <link refid="MRLinesSave_8h"/>
       </node>
       <node id="8">
-        <label>MRMeshSave.h</label>
+        <label>MRMesh/MRMeshSave.h</label>
         <link refid="MRMeshSave_8h"/>
       </node>
       <node id="9">
-        <label>MRPointsSave.h</label>
+        <label>MRMesh/MRPointsSave.h</label>
         <link refid="MRPointsSave_8h"/>
       </node>
       <node id="1">
-        <label>MRSaveSettings.h</label>
+        <label>MRMesh/MRSaveSettings.h</label>
         <link refid="MRSaveSettings_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -331,13 +331,13 @@
         </childnode>
       </node>
       <node id="4">
-        <label>MRVoxelsLoad.h</label>
+        <label>MRVoxels/MRVoxelsLoad.h</label>
         <link refid="MRVoxelsLoad_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>MRVoxelsSave.h</label>
+        <label>MRVoxels/MRVoxelsSave.h</label>
         <link refid="MRVoxelsSave_8h"/>
       </node>
     </invincdepgraph>
@@ -364,7 +364,7 @@
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="structMR_1_1SaveSettings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref></highlight></codeline>
+<codeline lineno="19" refid="structMR_1_1SaveSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref></highlight></codeline>
 <codeline lineno="20"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1ga88539fbafc85e15a6dbc49b2b3144a15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga88539fbafc85e15a6dbc49b2b3144a15" kindref="member">onlyValidPoints</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
@@ -391,41 +391,41 @@
 <codeline lineno="61" refid="group__GeneralGroup_1ga0f2bb31407f2693aa939c47e0052b527" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="group__GeneralGroup_1ga0f2bb31407f2693aa939c47e0052b527" kindref="member">progress</ref>;</highlight></codeline>
 <codeline lineno="62"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="group__GeneralGroup_1ga423dfbb3e8fe2d355d3569c58f27881f" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga423dfbb3e8fe2d355d3569c58f27881f" kindref="member">applyFloat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3d<sp/>*<sp/>xf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>p<sp/>)</highlight></codeline>
+<codeline lineno="65" refid="group__GeneralGroup_1ga423dfbb3e8fe2d355d3569c58f27881f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga423dfbb3e8fe2d355d3569c58f27881f" kindref="member">applyFloat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3d<sp/>*<sp/>xf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>p<sp/>)</highlight></codeline>
 <codeline lineno="66"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>xf<sp/>?<sp/>Vector3f(<sp/>(*xf)(<sp/>Vector3d(<sp/>p<sp/>)<sp/>)<sp/>)<sp/>:<sp/>p;</highlight></codeline>
 <codeline lineno="68"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="group__GeneralGroup_1gacc1d104ed2e275977cf878d68073c9b2" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga423dfbb3e8fe2d355d3569c58f27881f" kindref="member">applyFloat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix3d<sp/>*<sp/>m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>n<sp/>)</highlight></codeline>
+<codeline lineno="71" refid="group__GeneralGroup_1gacc1d104ed2e275977cf878d68073c9b2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga423dfbb3e8fe2d355d3569c58f27881f" kindref="member">applyFloat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix3d<sp/>*<sp/>m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>n<sp/>)</highlight></codeline>
 <codeline lineno="72"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m<sp/>?<sp/>Vector3f(<sp/>*m<sp/>*<sp/>Vector3d(<sp/>n<sp/>)<sp/>)<sp/>:<sp/>n;</highlight></codeline>
 <codeline lineno="74"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="group__GeneralGroup_1ga7aba106487b0adfd357e9232e18a922f" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Vector3d<sp/><ref refid="group__GeneralGroup_1ga7aba106487b0adfd357e9232e18a922f" kindref="member">applyDouble</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3d<sp/>*<sp/>xf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>p<sp/>)</highlight></codeline>
+<codeline lineno="77" refid="group__GeneralGroup_1ga7aba106487b0adfd357e9232e18a922f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Vector3d<sp/><ref refid="group__GeneralGroup_1ga7aba106487b0adfd357e9232e18a922f" kindref="member">applyDouble</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3d<sp/>*<sp/>xf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>p<sp/>)</highlight></codeline>
 <codeline lineno="78"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3d<sp/>pd(<sp/>p<sp/>);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>xf<sp/>?<sp/>(*xf)(<sp/>pd<sp/>)<sp/>:<sp/>pd;</highlight></codeline>
 <codeline lineno="81"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="group__GeneralGroup_1ga7b5f265567104240be13bb0adc6d84f7" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Vector3d<sp/><ref refid="group__GeneralGroup_1ga7aba106487b0adfd357e9232e18a922f" kindref="member">applyDouble</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix3d<sp/>*<sp/>m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>n<sp/>)</highlight></codeline>
+<codeline lineno="84" refid="group__GeneralGroup_1ga7b5f265567104240be13bb0adc6d84f7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Vector3d<sp/><ref refid="group__GeneralGroup_1ga7aba106487b0adfd357e9232e18a922f" kindref="member">applyDouble</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix3d<sp/>*<sp/>m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>n<sp/>)</highlight></codeline>
 <codeline lineno="85"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3d<sp/>nd(<sp/>n<sp/>);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m<sp/>?<sp/>*m<sp/>*<sp/>nd<sp/>:<sp/>nd;</highlight></codeline>
 <codeline lineno="88"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91" refid="classMR_1_1VertRenumber" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1VertRenumber" kindref="compound">VertRenumber</ref></highlight></codeline>
+<codeline lineno="91" refid="classMR_1_1VertRenumber" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga296563a7c9d31763b73b5f44a2dd5424" kindref="member">VertRenumber</ref></highlight></codeline>
 <codeline lineno="92"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="95" refid="group__GeneralGroup_1ga296563a7c9d31763b73b5f44a2dd5424" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga296563a7c9d31763b73b5f44a2dd5424" kindref="member">VertRenumber</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>validVerts,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5ee74de7f5fdfc7a5230e3326b122644" kindref="member">saveValidOnly</ref><sp/>);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="group__GeneralGroup_1ga5ee74de7f5fdfc7a5230e3326b122644" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5ee74de7f5fdfc7a5230e3326b122644" kindref="member">saveValidOnly</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!vert2packed_.<ref refid="group__GeneralGroup_1gac4b153c69fb7b5e1466b10723dd2f35b" kindref="member">empty</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="97" refid="group__GeneralGroup_1ga5ee74de7f5fdfc7a5230e3326b122644" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5ee74de7f5fdfc7a5230e3326b122644" kindref="member">saveValidOnly</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!vert2packed_.empty();<sp/>}</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
 <codeline lineno="100" refid="group__GeneralGroup_1ga1804a1dca0466765918892c65d9436f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1804a1dca0466765918892c65d9436f0" kindref="member">sizeVerts</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sizeVerts_;<sp/>}</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
 <codeline lineno="103" refid="group__GeneralGroup_1ga4180132d13f552ef422f73a2ad0c6bdc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4180132d13f552ef422f73a2ad0c6bdc" kindref="member">operator()</ref>(<sp/>VertId<sp/>v<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="104"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>v<sp/>);</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vert2packed_.<ref refid="group__GeneralGroup_1gac4b153c69fb7b5e1466b10723dd2f35b" kindref="member">empty</ref>()<sp/>?<sp/>(int)v<sp/>:<sp/>vert2packed_[v];</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vert2packed_.empty()<sp/>?<sp/>(int)v<sp/>:<sp/>vert2packed_[v];</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
@@ -438,8 +438,8 @@
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
 <codeline lineno="121" refid="group__GeneralGroup_1ga452464952a46f9611ea150f4851a9202" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertNormals<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga452464952a46f9611ea150f4851a9202" kindref="member">transformNormals</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertNormals<sp/>&amp;<sp/>normals,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>validVerts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix3d<sp/>*<sp/>m,<sp/>VertNormals<sp/>&amp;<sp/>buf<sp/>);</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h"/>
+    <location file="MRMesh/MRSaveSettings.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVoxelsVolume_8h" kind="file" language="C++">
     <compoundname>MRVoxelsVolume.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
@@ -11,17 +11,17 @@
     <includes refid="MRVector_8h" local="yes">MRMesh/MRVector.h</includes>
     <includes refid="MRBitSet_8h" local="yes">MRMesh/MRBitSet.h</includes>
     <includes local="no">limits</includes>
-    <includedby refid="MRCudaPointsToDistanceVolume_8h" local="yes">MRCudaPointsToDistanceVolume.h</includedby>
-    <includedby refid="MRDicom_8h" local="yes">MRDicom.h</includedby>
-    <includedby refid="MRMarchingCubes_8h" local="yes">MRMarchingCubes.h</includedby>
-    <includedby refid="MRMeshToDistanceVolume_8h" local="yes">MRMeshToDistanceVolume.h</includedby>
-    <includedby refid="MRObjectVoxels_8h" local="yes">MRObjectVoxels.h</includedby>
-    <includedby refid="MRTeethMaskToDirectionVolume_8h" local="yes">MRTeethMaskToDirectionVolume.h</includedby>
-    <includedby refid="MRVolumeSegment_8h" local="yes">MRVolumeSegment.h</includedby>
-    <includedby refid="MRVoxelsApplyTransform_8h" local="yes">MRVoxelsApplyTransform.h</includedby>
-    <includedby refid="MRVoxelsLoad_8h" local="yes">MRVoxelsLoad.h</includedby>
-    <includedby refid="MRVoxelsSave_8h" local="yes">MRVoxelsSave.h</includedby>
-    <includedby refid="MRVoxelsVolumeAccess_8h" local="yes">MRVoxelsVolumeAccess.h</includedby>
+    <includedby refid="MRCudaPointsToDistanceVolume_8h" local="yes">MRCuda/MRCudaPointsToDistanceVolume.h</includedby>
+    <includedby refid="MRDicom_8h" local="yes">MRVoxels/MRDicom.h</includedby>
+    <includedby refid="MRMarchingCubes_8h" local="yes">MRVoxels/MRMarchingCubes.h</includedby>
+    <includedby refid="MRMeshToDistanceVolume_8h" local="yes">MRVoxels/MRMeshToDistanceVolume.h</includedby>
+    <includedby refid="MRObjectVoxels_8h" local="yes">MRVoxels/MRObjectVoxels.h</includedby>
+    <includedby refid="MRTeethMaskToDirectionVolume_8h" local="yes">MRVoxels/MRTeethMaskToDirectionVolume.h</includedby>
+    <includedby refid="MRVolumeSegment_8h" local="yes">MRVoxels/MRVolumeSegment.h</includedby>
+    <includedby refid="MRVoxelsApplyTransform_8h" local="yes">MRVoxels/MRVoxelsApplyTransform.h</includedby>
+    <includedby refid="MRVoxelsLoad_8h" local="yes">MRVoxels/MRVoxelsLoad.h</includedby>
+    <includedby refid="MRVoxelsSave_8h" local="yes">MRVoxels/MRVoxelsSave.h</includedby>
+    <includedby refid="MRVoxelsVolumeAccess_8h" local="yes">MRVoxels/MRVoxelsVolumeAccess.h</includedby>
     <incdepgraph>
       <node id="30">
         <label>MRAffineXf.h</label>
@@ -270,7 +270,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRVoxelsVolume.h</label>
+        <label>MRVoxels/MRVoxelsVolume.h</label>
         <link refid="MRVoxelsVolume_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -358,31 +358,31 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="6">
-        <label>MRBinaryOperationsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
       </node>
       <node id="15">
-        <label>MROpenRawVoxelsPlugin.h</label>
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
       <node id="2">
-        <label>MRCudaPointsToDistanceVolume.h</label>
+        <label>MRCuda/MRCudaPointsToDistanceVolume.h</label>
         <link refid="MRCudaPointsToDistanceVolume_8h"/>
       </node>
       <node id="7">
-        <label>MRChangeVoxelSelectionAction.h</label>
+        <label>MRVoxels/MRChangeVoxelSelectionAction.h</label>
         <link refid="MRChangeVoxelSelectionAction_8h"/>
       </node>
       <node id="8">
-        <label>MRChangeVoxelsAction.h</label>
+        <label>MRVoxels/MRChangeVoxelsAction.h</label>
         <link refid="MRChangeVoxelsAction_8h"/>
       </node>
       <node id="3">
-        <label>MRDicom.h</label>
+        <label>MRVoxels/MRDicom.h</label>
         <link refid="MRDicom_8h"/>
       </node>
       <node id="4">
-        <label>MRMarchingCubes.h</label>
+        <label>MRVoxels/MRMarchingCubes.h</label>
         <link refid="MRMarchingCubes_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
@@ -390,15 +390,15 @@
         </childnode>
       </node>
       <node id="10">
-        <label>MRMeshToDistanceVolume.h</label>
+        <label>MRVoxels/MRMeshToDistanceVolume.h</label>
         <link refid="MRMeshToDistanceVolume_8h"/>
       </node>
       <node id="18">
-        <label>MRMoveMeshToVoxelMaxDeriv.h</label>
+        <label>MRVoxels/MRMoveMeshToVoxelMaxDeriv.h</label>
         <link refid="MRMoveMeshToVoxelMaxDeriv_8h"/>
       </node>
       <node id="5">
-        <label>MRObjectVoxels.h</label>
+        <label>MRVoxels/MRObjectVoxels.h</label>
         <link refid="MRObjectVoxels_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
@@ -408,35 +408,35 @@
         </childnode>
       </node>
       <node id="11">
-        <label>MRTeethMaskToDirectionVolume.h</label>
+        <label>MRVoxels/MRTeethMaskToDirectionVolume.h</label>
         <link refid="MRTeethMaskToDirectionVolume_8h"/>
       </node>
       <node id="19">
-        <label>MRVolumeInterpolation.h</label>
+        <label>MRVoxels/MRVolumeInterpolation.h</label>
         <link refid="MRVolumeInterpolation_8h"/>
         <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="12">
-        <label>MRVolumeSegment.h</label>
+        <label>MRVoxels/MRVolumeSegment.h</label>
         <link refid="MRVolumeSegment_8h"/>
       </node>
       <node id="13">
-        <label>MRVoxelsApplyTransform.h</label>
+        <label>MRVoxels/MRVoxelsApplyTransform.h</label>
         <link refid="MRVoxelsApplyTransform_8h"/>
       </node>
       <node id="14">
-        <label>MRVoxelsLoad.h</label>
+        <label>MRVoxels/MRVoxelsLoad.h</label>
         <link refid="MRVoxelsLoad_8h"/>
         <childnode refid="15" relation="include">
         </childnode>
       </node>
       <node id="16">
-        <label>MRVoxelsSave.h</label>
+        <label>MRVoxels/MRVoxelsSave.h</label>
         <link refid="MRVoxelsSave_8h"/>
       </node>
       <node id="1">
-        <label>MRVoxelsVolume.h</label>
+        <label>MRVoxels/MRVoxelsVolume.h</label>
         <link refid="MRVoxelsVolume_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -462,7 +462,7 @@
         </childnode>
       </node>
       <node id="17">
-        <label>MRVoxelsVolumeAccess.h</label>
+        <label>MRVoxels/MRVoxelsVolumeAccess.h</label>
         <link refid="MRVoxelsVolumeAccess_8h"/>
         <childnode refid="18" relation="include">
         </childnode>
@@ -472,11 +472,11 @@
         </childnode>
       </node>
       <node id="20">
-        <label>MRVoxelsVolumeCachingAccessor.h</label>
+        <label>MRVoxels/MRVoxelsVolumeCachingAccessor.h</label>
         <link refid="MRVoxelsVolumeCachingAccessor_8h"/>
       </node>
       <node id="9">
-        <label>MRWeightedPointsShell.h</label>
+        <label>MRVoxels/MRWeightedPointsShell.h</label>
         <link refid="MRWeightedPointsShell_8h"/>
       </node>
     </invincdepgraph>
@@ -537,7 +537,7 @@
 <codeline lineno="45" refid="group__GeneralGroup_1ga3077359395681ceea5908eead7ca59f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga3077359395681ceea5908eead7ca59f4" kindref="member">ValueType</ref><sp/>=<sp/>float;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
 <codeline lineno="50" refid="structMR_1_1VoxelsVolume" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VoxelsVolume" kindref="compound">VoxelsVolume</ref></highlight></codeline>
 <codeline lineno="51"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="52" refid="group__GeneralGroup_1gaf9f77daea56312d1b6f7ac20d2473713" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaf9f77daea56312d1b6f7ac20d2473713" kindref="member">ValueType</ref><sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1VoxelTraits" kindref="compound">VoxelTraits&lt;T&gt;::ValueType</ref>;</highlight></codeline>
@@ -549,8 +549,8 @@
 <codeline lineno="58" refid="group__GeneralGroup_1ga6098927f3eb1a5ae05be948dd3ddf6ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6098927f3eb1a5ae05be948dd3ddf6ea" kindref="member">heapBytes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1gacfd51356fbcb71948b1ef3f058ac75c7" kindref="member">MR::heapBytes</ref>(<sp/><ref refid="group__GeneralGroup_1ga6ea81e0ad21fc888dfa262fb957f3c2e" kindref="member">data</ref><sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="59"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="64" refid="structMR_1_1VoxelsVolumeMinMax" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VoxelsVolumeMinMax" kindref="compound">VoxelsVolumeMinMax</ref><sp/>:<sp/><ref refid="structMR_1_1VoxelsVolume" kindref="compound">VoxelsVolume</ref>&lt;T&gt;,<sp/><ref refid="structMR_1_1Box" kindref="compound">MinMax</ref>&lt;typename<sp/>VoxelsVolume&lt;T&gt;::ValueType&gt;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="64" refid="structMR_1_1VoxelsVolumeMinMax" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VoxelsVolumeMinMax" kindref="compound">VoxelsVolumeMinMax</ref><sp/>:<sp/><ref refid="structMR_1_1VoxelsVolume" kindref="compound">VoxelsVolume</ref>&lt;T&gt;,<sp/><ref refid="group__GeneralGroup_1ga27890b8241dca9b28e5fc331a9453786" kindref="member">MinMax</ref>&lt;typename<sp/>VoxelsVolume&lt;T&gt;::ValueType&gt;</highlight></codeline>
 <codeline lineno="65"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">typename<sp/><ref refid="group__GeneralGroup_1gaf9f77daea56312d1b6f7ac20d2473713" kindref="member">VoxelsVolume&lt;T&gt;::ValueType</ref>;</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1VoxelsVolume" kindref="compound">VoxelsVolume</ref>&lt;<ref refid="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" kindref="member">T</ref>&gt;<ref refid="group__GeneralGroup_1ga6ea81e0ad21fc888dfa262fb957f3c2e" kindref="member">::data</ref>;</highlight></codeline>
@@ -562,8 +562,8 @@
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
 <codeline lineno="75" refid="group__GeneralGroup_1ga98e1035b952283c216159688c04819fd" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;SimpleVolumeMinMax&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga98e1035b952283c216159688c04819fd" kindref="member">functionVolumeToSimpleVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" kindref="member">FunctionVolume</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga20e9ae03dbf954625936ada6b2cbcf60" kindref="member">volume</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>callback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolume.h"/>
+    <location file="MRVoxels/MRVoxelsVolume.h"/>
   </compounddef>
 </doxygen>

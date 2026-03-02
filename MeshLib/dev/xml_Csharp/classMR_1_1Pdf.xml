@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Pdf" kind="class" language="C#" prot="public">
     <compoundname>MR::Pdf</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Pdf</basecompoundref>
@@ -40,7 +40,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Ctor. Create a document, but not a page. To create a new page use <ref refid="classMR_1_1Pdf_1a4489f29258f8bafb9aa1da75de9b32cb" kindref="member">newPage()</ref> method Generated from constructor <computeroutput>MR.Pdf.Pdf</computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1PdfParameters" kindref="compound">MR.PdfParameters()</ref></computeroutput>. </para>
+<para>Ctor. Create a document, but not a page. To create a new page use <ref refid="classMR_1_1Pdf_1a4489f29258f8bafb9aa1da75de9b32cb" kindref="member">newPage()</ref> method Generated from constructor <computeroutput><ref refid="classMR_1_1Pdf_1a81627f8cf190934a1d2f01ca463f13c0" kindref="member">MR.Pdf.Pdf</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1PdfParameters" kindref="compound">MR.PdfParameters()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -59,7 +59,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Pdf.Pdf</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Pdf_1a81627f8cf190934a1d2f01ca463f13c0" kindref="member">MR.Pdf.Pdf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -78,7 +78,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Pdf.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Pdf::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -554,7 +554,7 @@
           <declname>params_</declname>
         </param>
         <briefdescription>
-<para>Ctor. Create a document, but not a page. To create a new page use <ref refid="classMR_1_1Pdf_1a4489f29258f8bafb9aa1da75de9b32cb" kindref="member">newPage()</ref> method Generated from constructor <computeroutput>MR.Pdf.Pdf</computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1PdfParameters" kindref="compound">MR.PdfParameters()</ref></computeroutput>. </para>
+<para>Ctor. Create a document, but not a page. To create a new page use <ref refid="classMR_1_1Pdf_1a4489f29258f8bafb9aa1da75de9b32cb" kindref="member">newPage()</ref> method Generated from constructor <computeroutput><ref refid="classMR_1_1Pdf_1a81627f8cf190934a1d2f01ca463f13c0" kindref="member">MR.Pdf.Pdf</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1PdfParameters" kindref="compound">MR.PdfParameters()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -569,45 +569,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Pdf</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Pdf</label>
         <link refid="classMR_1_1Pdf"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Pdf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Pdf &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Pdf</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Pdf</label>
         <link refid="classMR_1_1Pdf"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Pdf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Pdf &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2345" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2346" bodyend="2696"/>

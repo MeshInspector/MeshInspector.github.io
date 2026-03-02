@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FunctionRef_3_01R_07Args_8_8_8_08_4" kind="class" language="C++" prot="public">
     <compoundname>MR::FunctionRef&lt; R(Args...)&gt;</compoundname>
-    <includes refid="MRFunctional_8h" local="no">MRFunctional.h</includes>
+    <includes refid="MRFunctional_8h" local="no">MRMesh/MRFunctional.h</includes>
     <templateparamlist>
       <param>
         <type>typename R</type>
@@ -36,7 +36,7 @@
 </listitem></itemizedlist>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFunctional.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFunctional.h" bodystart="24" bodyend="83"/>
+    <location file="MRMesh/MRFunctional.h" line="23" column="1" bodyfile="MRMesh/MRFunctional.h" bodystart="24" bodyend="83"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga6b30f6f3547c9e78add14d420015c684" prot="private" virt="non-virtual"><scope>MR::FunctionRef&lt; R(Args...)&gt;</scope><name>callback_</name></member>
       <member refid="group__GeneralGroup_1ga257060ec2f36661c4399283277b53fe5" prot="public" virt="non-virtual"><scope>MR::FunctionRef&lt; R(Args...)&gt;</scope><name>FunctionRef</name></member>

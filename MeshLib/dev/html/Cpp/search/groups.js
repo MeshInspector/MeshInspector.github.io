@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['2d_203d_20conversion_0',['2d &lt;-&gt; 3d conversion',['../group__ConversionBetween2and3dimGroup.html',1,'']]],
+  ['2d_203d_20conversion_0',['2d &amp;lt;-&amp;gt; 3d conversion',['../group__ConversionBetween2and3dimGroup.html',1,'']]],
   ['components_0',['Components',['../group__ComponentsGroup.html',1,'']]],
   ['constants_1',['Constants',['../group__ConstantsGroup.html',1,'']]],
   ['contour_2',['Contour',['../group__ContourGroup.html',1,'']]],
-  ['conversion_3',['2d &lt;-&gt; 3d conversion',['../group__ConversionBetween2and3dimGroup.html',1,'']]],
+  ['conversion_3',['2d &amp;lt;-&amp;gt; 3d conversion',['../group__ConversionBetween2and3dimGroup.html',1,'']]],
   ['correction_4',['Subvoxel Mesh Correction',['../group__SubvoxelMeshCorrection.html',1,'']]],
   ['high_20precision_0',['High Precision',['../group__HighPrecisionGroup.html',1,'']]],
   ['history_20group_1',['History group',['../group__HistoryGroup.html',1,'']]],
@@ -69,7 +69,7 @@ var searchData=
   ['ray_20box_20intersection_0',['Ray Box Intersection',['../group__RayBoxIntersectionGroup.html',1,'']]],
   ['registry_1',['IO Formats Registry',['../group__IOFormatsRegistryGroup.html',1,'']]],
   ['relax_2',['Mesh Relax',['../group__MeshRelaxGroup.html',1,'']]],
-  ['3d_20conversion_0',['2d &lt;-&gt; 3d conversion',['../group__ConversionBetween2and3dimGroup.html',1,'']]],
+  ['3d_20conversion_0',['2d &amp;lt;-&amp;gt; 3d conversion',['../group__ConversionBetween2and3dimGroup.html',1,'']]],
   ['transform_0',['Aligning Transform',['../group__AligningTransformGroup.html',1,'']]],
   ['tree_20overview_1',['AABB Tree overview',['../group__AABBTreeGroup.html',1,'']]],
   ['triangle_20intersection_2',['Triangle intersection',['../group__TriangleIntersectionGroup.html',1,'']]],

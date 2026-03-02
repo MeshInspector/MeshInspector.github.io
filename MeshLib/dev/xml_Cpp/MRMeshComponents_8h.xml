@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshComponents_8h" kind="file" language="C++">
     <compoundname>MRMeshComponents.h</compoundname>
     <includes refid="MRUnionFind_8h" local="yes">MRUnionFind.h</includes>
@@ -29,7 +29,7 @@
         <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
-        <label>MRMeshComponents.h</label>
+        <label>MRMesh/MRMeshComponents.h</label>
         <link refid="MRMeshComponents_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -162,15 +162,15 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="namespaceMR_1_1MeshComponents" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">MeshComponents</highlight></codeline>
+<codeline lineno="10" refid="namespaceMR_1_1MeshComponents" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1MeshComponents" kindref="compound">MeshComponents</ref></highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"></codeline>
-<codeline lineno="18" refid="group__MeshComponentsGroup_1ga7489c91178e90fdd4200bbb0074e025f" refkind="member"><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__MeshComponentsGroup_1ga7489c91178e90fdd4200bbb0074e025f" kindref="member">FaceIncidence</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="group__MeshComponentsGroup_1ga7489c91178e90fdd4200bbb0074e025f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__MeshComponentsGroup_1ga7489c91178e90fdd4200bbb0074e025f" kindref="member">FaceIncidence</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="20" refid="group__MeshComponentsGroup_1gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__MeshComponentsGroup_1gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc" kindref="member">PerEdge</ref>,<sp/></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__MeshComponentsGroup_1gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c" kindref="member">PerVertex</ref><sp/></highlight></codeline>
-<codeline lineno="22" refid="group__MeshComponentsGroup_1gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="21" refid="group__MeshComponentsGroup_1gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__MeshComponentsGroup_1gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c" kindref="member">PerVertex</ref><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="group__MeshComponentsGroup_1ga823ed70b2a3f8987017e57cbc9ae2789" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__MeshComponentsGroup_1ga823ed70b2a3f8987017e57cbc9ae2789" kindref="member">getComponent</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>meshPart,<sp/>FaceId<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__MeshComponentsGroup_1ga7489c91178e90fdd4200bbb0074e025f" kindref="member">FaceIncidence</ref><sp/>incidence<sp/>=<sp/><ref refid="group__MeshComponentsGroup_1gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc" kindref="member">FaceIncidence::PerEdge</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>*<sp/>isCompBd<sp/>=<sp/>{}<sp/>);</highlight></codeline>
@@ -184,7 +184,7 @@
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41" refid="group__MeshComponentsGroup_1gad1f06f5521d13b8e679953ce57f4e690" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__MeshComponentsGroup_1gad1f06f5521d13b8e679953ce57f4e690" kindref="member">getLargestComponent</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>meshPart,</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__MeshComponentsGroup_1ga7489c91178e90fdd4200bbb0074e025f" kindref="member">FaceIncidence</ref><sp/>incidence<sp/>=<sp/><ref refid="group__MeshComponentsGroup_1gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc" kindref="member">FaceIncidence::PerEdge</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>*<sp/>isCompBd<sp/>=<sp/>{},<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minArea<sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>numSmallerComponents<sp/>=<sp/>nullptr<sp/>);<sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>numSmallerComponents<sp/>=<sp/><ref refid="module__nullptr" kindref="compound">nullptr</ref><sp/>);<sp/></highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46" refid="group__MeshComponentsGroup_1gaab630260881d2a238df5dfc1d9a31517" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__MeshComponentsGroup_1gaab630260881d2a238df5dfc1d9a31517" kindref="member">getComponents</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet<sp/>&amp;<sp/>seeds,</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__MeshComponentsGroup_1ga7489c91178e90fdd4200bbb0074e025f" kindref="member">FaceIncidence</ref><sp/>incidence<sp/>=<sp/><ref refid="group__MeshComponentsGroup_1gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc" kindref="member">FaceIncidence::PerEdge</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>*<sp/>isCompBd<sp/>=<sp/>{}<sp/>);</highlight></codeline>
@@ -293,10 +293,10 @@
 <codeline lineno="205" refid="group__MeshComponentsGroup_1ga144b55cc0f8b4e8963f7316fa8abc761" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>UndirectedEdgeBitSet<sp/><ref refid="group__MeshComponentsGroup_1ga144b55cc0f8b4e8963f7316fa8abc761" kindref="member">getComponentsUndirectedEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet&amp;<sp/>seeds<sp/>);</highlight></codeline>
 <codeline lineno="206"><highlight class="normal"></highlight></codeline>
 <codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="209"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="209"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="210"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="211"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h"/>
+    <location file="MRMesh/MRMeshComponents.h"/>
   </compounddef>
 </doxygen>

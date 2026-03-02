@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRHistoryStore_8h" kind="file" language="C++">
     <compoundname>MRHistoryStore.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes refid="MRHistoryAction_8h" local="yes">MRMesh/MRHistoryAction.h</includes>
     <includes refid="MRSignal_8h" local="yes">MRMesh/MRSignal.h</includes>
     <includes local="no">memory</includes>
-    <includedby refid="MRAppendHistory_8h" local="yes">MRAppendHistory.h</includedby>
-    <includedby refid="MRMeshBoundarySelectionWidget_8h" local="yes">MRMeshBoundarySelectionWidget.h</includedby>
-    <includedby refid="MRPickPointManager_8h" local="yes">MRPickPointManager.h</includedby>
-    <includedby refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="yes">MRSceneControlMenuItems.h</includedby>
-    <includedby refid="MRViewer_2MRSceneControlMenuItems_8h" local="yes">MRSceneControlMenuItems.h</includedby>
+    <includedby refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="yes">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includedby>
+    <includedby refid="MRAppendHistory_8h" local="yes">MRViewer/MRAppendHistory.h</includedby>
+    <includedby refid="MRMeshBoundarySelectionWidget_8h" local="yes">MRViewer/MRMeshBoundarySelectionWidget.h</includedby>
+    <includedby refid="MRPickPointManager_8h" local="yes">MRViewer/MRPickPointManager.h</includedby>
+    <includedby refid="MRViewer_2MRSceneControlMenuItems_8h" local="yes">MRViewer/MRSceneControlMenuItems.h</includedby>
     <incdepgraph>
       <node id="7">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -65,7 +65,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRHistoryStore.h</label>
+        <label>MRViewer/MRHistoryStore.h</label>
         <link refid="MRHistoryStore_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -124,16 +124,16 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="5">
-        <label>MRSceneControlMenuItems.h</label>
+      <node id="2">
+        <label>MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</label>
         <link refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h"/>
       </node>
-      <node id="2">
-        <label>MRAppendHistory.h</label>
+      <node id="3">
+        <label>MRViewer/MRAppendHistory.h</label>
         <link refid="MRAppendHistory_8h"/>
       </node>
       <node id="1">
-        <label>MRHistoryStore.h</label>
+        <label>MRViewer/MRHistoryStore.h</label>
         <link refid="MRHistoryStore_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -146,16 +146,16 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRMeshBoundarySelectionWidget.h</label>
+      <node id="4">
+        <label>MRViewer/MRMeshBoundarySelectionWidget.h</label>
         <link refid="MRMeshBoundarySelectionWidget_8h"/>
       </node>
-      <node id="4">
-        <label>MRPickPointManager.h</label>
+      <node id="5">
+        <label>MRViewer/MRPickPointManager.h</label>
         <link refid="MRPickPointManager_8h"/>
       </node>
       <node id="6">
-        <label>MRSceneControlMenuItems.h</label>
+        <label>MRViewer/MRSceneControlMenuItems.h</label>
         <link refid="MRViewer_2MRSceneControlMenuItems_8h"/>
       </node>
     </invincdepgraph>
@@ -176,8 +176,8 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"></codeline>
-<codeline lineno="15" refid="classMR_1_1HistoryStore" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1HistoryStore" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="20" refid="classMR_1_1HistoryStore_1afb751ad4669fe2d69d69abe96ca4ede0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref>*<sp/><ref refid="classMR_1_1HistoryStore_1afb751ad4669fe2d69d69abe96ca4ede0" kindref="member">getViewerInstance</ref>();</highlight></codeline>
@@ -222,15 +222,15 @@
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4" kindref="member">ChangeType</ref></highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PreAppendAction,<sp/></highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PostAppendAction,<sp/></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PreUndo,<sp/></highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PostUndo,<sp/></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PreRedo,<sp/></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PostRedo,<sp/></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Clear,<sp/></highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PopAction,<sp/></highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Filter<sp/></highlight></codeline>
+<codeline lineno="84" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4ab1f903446317b676619997d1d95f21b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4ab1f903446317b676619997d1d95f21b2" kindref="member">PreAppendAction</ref>,<sp/></highlight></codeline>
+<codeline lineno="85" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a8fd03bb4371f2faa3cfb6162d2023f02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a8fd03bb4371f2faa3cfb6162d2023f02" kindref="member">PostAppendAction</ref>,<sp/></highlight></codeline>
+<codeline lineno="86" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a0e2f39f2f81bffc8a9ff7650dbc6a4c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a0e2f39f2f81bffc8a9ff7650dbc6a4c2" kindref="member">PreUndo</ref>,<sp/></highlight></codeline>
+<codeline lineno="87" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a2c1eed708cb6c0e9c674f7a13d937b6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a2c1eed708cb6c0e9c674f7a13d937b6c" kindref="member">PostUndo</ref>,<sp/></highlight></codeline>
+<codeline lineno="88" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a16485c2c1e58a75a3a3338996bdb39d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a16485c2c1e58a75a3a3338996bdb39d1" kindref="member">PreRedo</ref>,<sp/></highlight></codeline>
+<codeline lineno="89" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4af15a8966f04442a6c277545a9627a4c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4af15a8966f04442a6c277545a9627a4c2" kindref="member">PostRedo</ref>,<sp/></highlight></codeline>
+<codeline lineno="90" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2" kindref="member">Clear</ref>,<sp/></highlight></codeline>
+<codeline lineno="91" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f" kindref="member">PopAction</ref>,<sp/></highlight></codeline>
+<codeline lineno="92" refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a" kindref="member">Filter</ref><sp/></highlight></codeline>
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="94" refid="classMR_1_1HistoryStore_1a011909b9aa7a4cba9468e81a690b817f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1HistoryStore_1a011909b9aa7a4cba9468e81a690b817f" kindref="member">HistoryStoreChangedSignal</ref><sp/>=<sp/>boost::signals2::signal&lt;void(<sp/><ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref>&amp;<sp/>store,<sp/><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4" kindref="member">ChangeType</ref>,<sp/>std::shared_ptr&lt;HistoryAction&gt;<sp/>action<sp/>)&gt;;</highlight></codeline>
 <codeline lineno="95" refid="classMR_1_1HistoryStore_1afcedddcbe7c972d3a5b239e53a0f17ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1HistoryStore_1a011909b9aa7a4cba9468e81a690b817f" kindref="member">HistoryStoreChangedSignal</ref><sp/><ref refid="classMR_1_1HistoryStore_1afcedddcbe7c972d3a5b239e53a0f17ee" kindref="member">changedSignal</ref>;</highlight></codeline>
@@ -254,6 +254,6 @@
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
 <codeline lineno="123"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h"/>
+    <location file="MRViewer/MRHistoryStore.h"/>
   </compounddef>
 </doxygen>

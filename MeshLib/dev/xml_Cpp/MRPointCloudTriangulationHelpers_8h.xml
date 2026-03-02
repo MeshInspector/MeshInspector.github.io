@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointCloudTriangulationHelpers_8h" kind="file" language="C++">
     <compoundname>MRPointCloudTriangulationHelpers.h</compoundname>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
@@ -120,7 +120,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPointCloudTriangulationHelpers.h</label>
+        <label>MRMesh/MRPointCloudTriangulationHelpers.h</label>
         <link refid="MRPointCloudTriangulationHelpers_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -265,7 +265,7 @@
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="21" refid="namespaceMR_1_1TriangulationHelpers" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">TriangulationHelpers</highlight></codeline>
+<codeline lineno="21" refid="namespaceMR_1_1TriangulationHelpers" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1TriangulationHelpers" kindref="compound">TriangulationHelpers</ref></highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="group__TriangulationHelpersGroup_1gaf72ca8f1d6497ca42e99d5884312305c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__TriangulationHelpersGroup_1gaf72ca8f1d6497ca42e99d5884312305c" kindref="member">updateNeighborsRadius</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords&amp;<sp/>points,<sp/>VertId<sp/>v,<sp/>VertId<sp/>boundaryV,</highlight></codeline>
@@ -290,7 +290,7 @@
 <codeline lineno="64" refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1ae5bad17915c09a1143471d69b34a3436" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1ae5bad17915c09a1143471d69b34a3436" kindref="member">operator &lt; </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">FanOptimizerQueueElement</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="65"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a0bb7d70e695f6c8fb8806cf07f90bb9e" kindref="member">stable</ref><sp/>==<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>.stable<sp/>)</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a5c3e6b9bc3389cb66a4ecf6adb3f6091" kindref="member">weight</ref><sp/>&lt;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>.<ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a5c3e6b9bc3389cb66a4ecf6adb3f6091" kindref="member">weight</ref>;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a5c3e6b9bc3389cb66a4ecf6adb3f6091" kindref="member">weight</ref><sp/>&lt;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>.weight;</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a0bb7d70e695f6c8fb8806cf07f90bb9e" kindref="member">stable</ref>;</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="70" refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a259f0dc748bf189fe876ca658509642e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a259f0dc748bf189fe876ca658509642e" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">FanOptimizerQueueElement</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -354,10 +354,10 @@
 <codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="170"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="172"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h"/>
+    <location file="MRMesh/MRPointCloudTriangulationHelpers.h"/>
   </compounddef>
 </doxygen>

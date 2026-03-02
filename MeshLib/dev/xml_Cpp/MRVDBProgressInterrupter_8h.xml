@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVDBProgressInterrupter_8h" kind="file" language="C++">
     <compoundname>MRVDBProgressInterrupter.h</compoundname>
     <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
@@ -55,7 +55,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRVDBProgressInterrupter.h</label>
+        <label>MRVoxels/MRVDBProgressInterrupter.h</label>
         <link refid="MRVDBProgressInterrupter_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -134,7 +134,7 @@
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="structMR_1_1ProgressInterrupter" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ProgressInterrupter" kindref="compound">ProgressInterrupter</ref><sp/>:<sp/>openvdb::util::NullInterrupter</highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1ProgressInterrupter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gad4f40f015b6a225a963200f8fced9ea8" kindref="member">ProgressInterrupter</ref><sp/>:<sp/>openvdb::util::NullInterrupter</highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1gad4f40f015b6a225a963200f8fced9ea8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gad4f40f015b6a225a963200f8fced9ea8" kindref="member">ProgressInterrupter</ref>(<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>)<sp/><sp/>:<sp/>cb_{<sp/>cb<sp/>}</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>progressThreadId_{<sp/>std::this_thread::get_id()<sp/>}<sp/>{}</highlight></codeline>
@@ -152,8 +152,8 @@
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>std::thread::id<sp/>progressThreadId_;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h"/>
+    <location file="MRVoxels/MRVDBProgressInterrupter.h"/>
   </compounddef>
 </doxygen>

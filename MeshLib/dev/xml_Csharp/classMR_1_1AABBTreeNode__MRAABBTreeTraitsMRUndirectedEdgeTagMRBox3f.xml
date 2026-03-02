@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f" kind="class" language="C#" prot="public">
     <compoundname>MR::AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</basecompoundref>
@@ -109,7 +109,7 @@
           <declname>r</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -128,7 +128,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::AABBTreeNode</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::AABBTreeNode</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -147,7 +147,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::AABBTreeNode</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::AABBTreeNode</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -166,7 +166,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -185,7 +185,7 @@
           <declname>id</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::setLeafId</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;::setLeafId</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -195,50 +195,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</label>
         <link refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</label>
         <link refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1283" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1284" bodyend="1363"/>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRObjectPointsHistory_8h" kind="file" language="C++">
     <compoundname>MRObjectPointsHistory.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -43,7 +43,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRObjectPointsHistory.h</label>
+        <label>MRViewer/MRObjectPointsHistory.h</label>
         <link refid="MRObjectPointsHistory_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -100,8 +100,8 @@
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga1955fa1618a5c3e418195c43b821205f" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0d480862185e9cad5867f3bd064b7fe2" kindref="member">packPointsWithHistory</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectPoints&gt;&amp;<sp/>objPoints,<sp/><ref refid="group__GeneralGroup_1gafedf1467ef6a61af5a59eafa50a41bf9" kindref="member">Reorder</ref><sp/>reoder,<sp/>VertBitSet<sp/>newValidVerts<sp/>);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectPointsHistory.h"/>
+    <location file="MRViewer/MRObjectPointsHistory.h"/>
   </compounddef>
 </doxygen>

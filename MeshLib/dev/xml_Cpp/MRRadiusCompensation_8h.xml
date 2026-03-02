@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRadiusCompensation_8h" kind="file" language="C++">
     <compoundname>MRRadiusCompensation.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -56,7 +56,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRRadiusCompensation.h</label>
+        <label>MRMesh/MRRadiusCompensation.h</label>
         <link refid="MRRadiusCompensation_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -188,7 +188,7 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="structMR_1_1CompensateRadiusParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CompensateRadiusParams" kindref="compound">CompensateRadiusParams</ref></highlight></codeline>
+<codeline lineno="14" refid="structMR_1_1CompensateRadiusParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CompensateRadiusParams" kindref="compound">CompensateRadiusParams</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1ga78eaf043f024883ea5ff487bc2d7ec50" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga78eaf043f024883ea5ff487bc2d7ec50" kindref="member">direction</ref>;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
@@ -211,6 +211,6 @@
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h"/>
+    <location file="MRMesh/MRRadiusCompensation.h"/>
   </compounddef>
 </doxygen>

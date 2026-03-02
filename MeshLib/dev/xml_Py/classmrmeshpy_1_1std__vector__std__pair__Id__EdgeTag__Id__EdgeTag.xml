@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</compoundname>
     <sectiondef kind="private-static-attrib">
@@ -701,18 +701,6 @@
 <para><verbatim>Aliases:  std_vector_EdgePair, std_vector_std_pair_EdgeId_EdgeId, std_vector_EdgePair
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</label>
-        <link refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>element_type_byte_size</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="91856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="91856" bodyend="91966"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag_1a88ca8646970eddab786adf0077f40e82" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_pair_Id_EdgeTag_Id_EdgeTag</scope><name>__bool__</name></member>

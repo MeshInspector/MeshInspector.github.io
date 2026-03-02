@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1AncillaryMesh" kind="struct" language="C++" prot="public">
     <compoundname>MR::AncillaryMesh</compoundname>
-    <includes refid="MRAncillaryMesh_8h" local="no">MRAncillaryMesh.h</includes>
+    <includes refid="MRAncillaryMesh_8h" local="no">MRViewer/MRAncillaryMesh.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gadbf02a47e5a8e457c68acbf971e2a32e" kind="variable"><name>obj</name></member>
     </sectiondef>
@@ -20,7 +20,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryMesh.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryMesh.h" bodystart="15" bodyend="35"/>
+    <location file="MRViewer/MRAncillaryMesh.h" line="14" column="1" bodyfile="MRViewer/MRAncillaryMesh.h" bodystart="15" bodyend="35"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga6b419d58ac8ef363f12d96be28c48637" prot="public" virt="non-virtual"><scope>MR::AncillaryMesh</scope><name>AncillaryMesh</name></member>
       <member refid="group__GeneralGroup_1ga9e31f265784a03606af67d96f726c35c" prot="public" virt="non-virtual"><scope>MR::AncillaryMesh</scope><name>AncillaryMesh</name></member>

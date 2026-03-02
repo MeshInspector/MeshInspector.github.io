@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DistanceMap" kind="class" language="C#" prot="public">
     <compoundname>MR::DistanceMap</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_DistanceMap</basecompoundref>
@@ -33,7 +33,7 @@
           <declname>m</declname>
         </param>
         <briefdescription>
-<para>make from 2d array Generated from constructor <computeroutput>MR.DistanceMap.DistanceMap</computeroutput>. </para>
+<para>make from 2d array Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMap_1af82b21b9e40c4c5fe6a68bca4407d76e" kindref="member">MR.DistanceMap.DistanceMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -115,7 +115,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DistanceMap.DistanceMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMap_1af82b21b9e40c4c5fe6a68bca4407d76e" kindref="member">MR.DistanceMap.DistanceMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -134,7 +134,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DistanceMap.DistanceMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMap_1af82b21b9e40c4c5fe6a68bca4407d76e" kindref="member">MR.DistanceMap.DistanceMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -153,7 +153,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.DistanceMap.DistanceMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMap_1af82b21b9e40c4c5fe6a68bca4407d76e" kindref="member">MR.DistanceMap.DistanceMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -176,7 +176,7 @@
           <declname>resY</declname>
         </param>
         <briefdescription>
-<para>Preferable constructor with resolution arguments Access by the index (i) is equal to (y*resX + x) Generated from constructor <computeroutput>MR.DistanceMap.DistanceMap</computeroutput>. </para>
+<para>Preferable constructor with resolution arguments Access by the index (i) is equal to (y*resX + x) Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMap_1af82b21b9e40c4c5fe6a68bca4407d76e" kindref="member">MR.DistanceMap.DistanceMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -195,7 +195,7 @@
           <declname>m</declname>
         </param>
         <briefdescription>
-<para>make from 2d array Generated from constructor <computeroutput>MR.DistanceMap.DistanceMap</computeroutput>. </para>
+<para>make from 2d array Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceMap_1af82b21b9e40c4c5fe6a68bca4407d76e" kindref="member">MR.DistanceMap.DistanceMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -214,7 +214,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.DistanceMap.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::DistanceMap::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -343,7 +343,7 @@
           <declname>rhs</declname>
         </param>
         <briefdescription>
-<para>replaces values with cell-wise subtracted values. Invalid values remain only if both corresponding cells are invalid Generated from method <computeroutput>MR.DistanceMap.operator-=</computeroutput>. </para>
+<para>replaces values with cell-wise subtracted values. Invalid values remain only if both corresponding cells are invalid Generated from method <computeroutput>MR::DistanceMap::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -518,45 +518,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_DistanceMap</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.DistanceMap</label>
         <link refid="classMR_1_1DistanceMap"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_DistanceMap</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_DistanceMap &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_DistanceMap</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.DistanceMap</label>
         <link refid="classMR_1_1DistanceMap"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_DistanceMap</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_DistanceMap &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="532" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="533" bodyend="785"/>

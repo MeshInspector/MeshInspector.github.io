@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRTriMesh_8h" kind="file" language="C++">
     <compoundname>MRTriMesh.h</compoundname>
     <includes refid="MRVector_8h" local="yes">MRVector.h</includes>
@@ -69,7 +69,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRTriMesh.h</label>
+        <label>MRMesh/MRTriMesh.h</label>
         <link refid="MRTriMesh_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -191,14 +191,14 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="structMR_1_1TriMesh" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">[[nodiscard]]<sp/><ref refid="structMR_1_1TriMesh" kindref="compound">TriMesh</ref></highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1TriMesh" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">[[nodiscard]]<sp/><ref refid="structMR_1_1TriMesh" kindref="compound">TriMesh</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1ga1063845cc2871f7dcae178304213db81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Triangulation<sp/><ref refid="group__GeneralGroup_1ga1063845cc2871f7dcae178304213db81" kindref="member">tris</ref>;</highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1ga2819cf8b07b6ca5bccb45dd61d9d7f9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertCoords<sp/><ref refid="group__GeneralGroup_1ga2819cf8b07b6ca5bccb45dd61d9d7f9d" kindref="member">points</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMesh.h"/>
+    <location file="MRMesh/MRTriMesh.h"/>
   </compounddef>
 </doxygen>

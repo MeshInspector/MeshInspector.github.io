@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshOrPoints_8h" kind="file" language="C++">
     <compoundname>MRMeshOrPoints.h</compoundname>
     <includes refid="MRMeshPart_8h" local="yes">MRMeshPart.h</includes>
@@ -10,8 +10,8 @@
     <includes local="no">functional</includes>
     <includes local="no">optional</includes>
     <includes local="no">variant</includes>
-    <includedby refid="MRAABBTreeObjects_8h" local="yes">MRAABBTreeObjects.h</includedby>
-    <includedby refid="MRICP_8h" local="yes">MRICP.h</includedby>
+    <includedby refid="MRAABBTreeObjects_8h" local="yes">MRMesh/MRAABBTreeObjects.h</includedby>
+    <includedby refid="MRICP_8h" local="yes">MRMesh/MRICP.h</includedby>
     <incdepgraph>
       <node id="27">
         <label>MRAffineXf.h</label>
@@ -98,7 +98,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshOrPoints.h</label>
+        <label>MRMesh/MRMeshOrPoints.h</label>
         <link refid="MRMeshOrPoints_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -219,17 +219,17 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRAABBTreeObjects.h</label>
+        <label>MRMesh/MRAABBTreeObjects.h</label>
         <link refid="MRAABBTreeObjects_8h"/>
       </node>
       <node id="3">
-        <label>MRICP.h</label>
+        <label>MRMesh/MRICP.h</label>
         <link refid="MRICP_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>MRMeshOrPoints.h</label>
+        <label>MRMesh/MRMeshOrPoints.h</label>
         <link refid="MRMeshOrPoints_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -237,7 +237,7 @@
         </childnode>
       </node>
       <node id="4">
-        <label>MRMultiwayICP.h</label>
+        <label>MRMesh/MRMultiwayICP.h</label>
         <link refid="MRMultiwayICP_8h"/>
       </node>
     </invincdepgraph>
@@ -265,7 +265,7 @@
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="classMR_1_1MeshOrPoints" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref></highlight></codeline>
+<codeline lineno="20" refid="classMR_1_1MeshOrPoints" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga4b19905136ab6d31a445cc3884ab0c1e" kindref="member">MeshOrPoints</ref></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1ga4b19905136ab6d31a445cc3884ab0c1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga4b19905136ab6d31a445cc3884ab0c1e" kindref="member">MeshOrPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp<sp/>)<sp/>:<sp/>var_(<sp/>mp<sp/>)<sp/>{<sp/>}</highlight></codeline>
@@ -322,7 +322,7 @@
 <codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>std::variant&lt;MeshPart,<sp/>PointCloudPart&gt;<sp/>var_;</highlight></codeline>
 <codeline lineno="105"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="structMR_1_1MeshOrPointsXf" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></highlight></codeline>
+<codeline lineno="108" refid="structMR_1_1MeshOrPointsXf" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></highlight></codeline>
 <codeline lineno="109"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="110" refid="group__GeneralGroup_1ga64a929bd548c696b451590ec6b2465bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref><sp/><ref refid="group__GeneralGroup_1ga64a929bd548c696b451590ec6b2465bb" kindref="member">obj</ref>;</highlight></codeline>
 <codeline lineno="111" refid="group__GeneralGroup_1gafea52861c699700de59ff6307740c6b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>AffineXf3f<sp/><ref refid="group__GeneralGroup_1gafea52861c699700de59ff6307740c6b7" kindref="member">xf</ref>;</highlight></codeline>
@@ -335,7 +335,7 @@
 <codeline lineno="122" refid="group__GeneralGroup_1gacce53a7adfbc5a9d74d90df2d92b4abe" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;MeshOrPoints&gt;<sp/><ref refid="group__GeneralGroup_1gacce53a7adfbc5a9d74d90df2d92b4abe" kindref="member">getMeshOrPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref><sp/>*<sp/>obj<sp/>);</highlight></codeline>
 <codeline lineno="123" refid="group__GeneralGroup_1gae2003372e3c109e622d0a728cd5deaf9" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;MeshOrPointsXf&gt;<sp/><ref refid="group__GeneralGroup_1gae2003372e3c109e622d0a728cd5deaf9" kindref="member">getMeshOrPointsXf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref><sp/>*<sp/>obj<sp/>);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126" refid="group__GeneralGroup_1ga51c5c9bdf012ab12e360b5e161bb378e" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga51c5c9bdf012ab12e360b5e161bb378e" kindref="member">ProjectOnAllCallback</ref><sp/>=<sp/>std::function&lt;void(<sp/>ObjId,<sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints::ProjectionResult</ref><sp/>)&gt;;</highlight></codeline>
+<codeline lineno="126" refid="group__GeneralGroup_1ga51c5c9bdf012ab12e360b5e161bb378e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga51c5c9bdf012ab12e360b5e161bb378e" kindref="member">ProjectOnAllCallback</ref><sp/>=<sp/>std::function&lt;void(<sp/>ObjId,<sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints::ProjectionResult</ref><sp/>)&gt;;</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
 <codeline lineno="129" refid="group__GeneralGroup_1ga935f4bd296bc132f4fa4525ef92a4d56" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga935f4bd296bc132f4fa4525ef92a4d56" kindref="member">projectOnAll</ref>(</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pt,<sp/></highlight></codeline>
@@ -375,8 +375,8 @@
 <codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/>var_<sp/>);</highlight></codeline>
 <codeline lineno="170"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="172"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h"/>
+    <location file="MRMesh/MRMeshOrPoints.h"/>
   </compounddef>
 </doxygen>

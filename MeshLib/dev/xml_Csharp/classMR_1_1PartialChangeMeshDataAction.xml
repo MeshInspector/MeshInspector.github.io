@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PartialChangeMeshDataAction" kind="class" language="C#" prot="public">
     <compoundname>MR::PartialChangeMeshDataAction</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_PartialChangeMeshDataAction</basecompoundref>
@@ -99,7 +99,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.PartialChangeMeshDataAction.PartialChangeMeshDataAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshDataAction_1ae2cdd7997f342d4d349a4e36d92936c1" kindref="member">MR.PartialChangeMeshDataAction.PartialChangeMeshDataAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -126,7 +126,7 @@
           <declname>newData</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s data and immediately set new data Generated from constructor <computeroutput>MR.PartialChangeMeshDataAction.PartialChangeMeshDataAction</computeroutput>. </para>
+<para>use this constructor to remember object&apos;s data and immediately set new data Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshDataAction_1ae2cdd7997f342d4d349a4e36d92936c1" kindref="member">MR.PartialChangeMeshDataAction.PartialChangeMeshDataAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -145,7 +145,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.PartialChangeMeshDataAction.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PartialChangeMeshDataAction::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -179,45 +179,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_PartialChangeMeshDataAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PartialChangeMeshDataAction</label>
         <link refid="classMR_1_1PartialChangeMeshDataAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PartialChangeMeshDataAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_PartialChangeMeshDataAction &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_PartialChangeMeshDataAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.PartialChangeMeshDataAction</label>
         <link refid="classMR_1_1PartialChangeMeshDataAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_PartialChangeMeshDataAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_PartialChangeMeshDataAction &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="574" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="575" bodyend="647"/>

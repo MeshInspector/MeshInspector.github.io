@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Matrix3_1_1QR" kind="struct" language="C++" prot="public">
     <compoundname>MR::Matrix3::QR</compoundname>
-    <includes refid="MRMatrix3_8h" local="no">MRMatrix3.h</includes>
+    <includes refid="MRMatrix3_8h" local="no">MRMesh/MRMatrix3.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga24dcb157cbe93b3013842a9976525442" kind="variable"><name>q</name></member>
       <member refid="group__GeneralGroup_1gab303b0d5b439ba72a0be24e1c590241b" kind="variable"><name>r</name></member>
@@ -29,7 +29,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix3.h" line="94" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix3.h" bodystart="95" bodyend="97"/>
+    <location file="MRMesh/MRMatrix3.h" line="94" column="5" bodyfile="MRMesh/MRMatrix3.h" bodystart="95" bodyend="97"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga24dcb157cbe93b3013842a9976525442" prot="public" virt="non-virtual"><scope>MR::Matrix3::QR</scope><name>q</name></member>
       <member refid="group__GeneralGroup_1gab303b0d5b439ba72a0be24e1c590241b" prot="public" virt="non-virtual"><scope>MR::Matrix3::QR</scope><name>r</name></member>

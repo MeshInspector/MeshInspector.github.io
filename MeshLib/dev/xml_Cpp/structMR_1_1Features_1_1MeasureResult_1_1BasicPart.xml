@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Features_1_1MeasureResult_1_1BasicPart" kind="struct" language="C++" prot="public">
     <compoundname>MR::Features::MeasureResult::BasicPart</compoundname>
     <derivedcompoundref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle" prot="public" virt="non-virtual">MR::Features::MeasureResult::Angle</derivedcompoundref>
     <derivedcompoundref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance" prot="public" virt="non-virtual">MR::Features::MeasureResult::Distance</derivedcompoundref>
-    <includes refid="MRFeatures_8h" local="no">MRFeatures.h</includes>
+    <includes refid="MRFeatures_8h" local="no">MRMesh/MRFeatures.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga86193b4dbe9a464e56ff2fe272c46486" kind="variable"><name>status</name></member>
     </sectiondef>
@@ -33,7 +33,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="184" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="185" bodyend="188"/>
+    <location file="MRMesh/MRFeatures.h" line="184" column="5" bodyfile="MRMesh/MRFeatures.h" bodystart="185" bodyend="188"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7985af9aca32411b60aec8f8e6178e92" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::BasicPart</scope><name>operator bool</name></member>
       <member refid="group__GeneralGroup_1ga86193b4dbe9a464e56ff2fe272c46486" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::BasicPart</scope><name>status</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ImGuiMenu_1_1LabelParams" kind="struct" language="C++" prot="protected">
     <compoundname>MR::ImGuiMenu::LabelParams</compoundname>
-    <includes refid="ImGuiMenu_8h" local="no">ImGuiMenu.h</includes>
+    <includes refid="ImGuiMenu_8h" local="no">MRViewer/ImGuiMenu.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gadf0278292ff9ea06a7b310f6c39c237b" kind="variable"><name>lastLabel</name></member>
       <member refid="group__GeneralGroup_1ga9b6fa31d0eca45b8885f1594a2bf3f4a" kind="variable"><name>labelBuffer</name></member>
@@ -12,7 +12,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="119" column="3" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="120" bodyend="124"/>
+    <location file="MRViewer/ImGuiMenu.h" line="119" column="3" bodyfile="MRViewer/ImGuiMenu.h" bodystart="120" bodyend="124"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga9b6fa31d0eca45b8885f1594a2bf3f4a" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::LabelParams</scope><name>labelBuffer</name></member>
       <member refid="group__GeneralGroup_1gadf0278292ff9ea06a7b310f6c39c237b" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::LabelParams</scope><name>lastLabel</name></member>

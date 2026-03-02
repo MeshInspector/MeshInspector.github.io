@@ -1,14 +1,6 @@
 var MRMeshLoadSettings_8h =
 [
-    [ "MR_AffineXf3f", "MRMeshLoadSettings_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
-    [ "MR_FaceColors", "MRMeshLoadSettings_8h.html#a88c7503c40b624a577fda0eab1faa5fa", null ],
-    [ "MR_MeshLoadSettings", "MRMeshLoadSettings_8h.html#a616a0b042e712074c2ed4013f47fa0af", null ],
-    [ "MR_MeshTexture", "MRMeshLoadSettings_8h.html#ac5c5abdc9ba8adb6f8e522246978c790", null ],
-    [ "MR_std_function_bool_from_float", "MRMeshLoadSettings_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_optional_MR_Edges", "MRMeshLoadSettings_8h.html#a13a39913eea8101afdb2e6ed71bedc67", null ],
-    [ "MR_VertColors", "MRMeshLoadSettings_8h.html#a20dc7d636220f61a60c7ae92b8caa768", null ],
-    [ "MR_VertCoords", "MRMeshLoadSettings_8h.html#a249fd9254c0c3395567807936ad32641", null ],
-    [ "MR_VertCoords2", "MRMeshLoadSettings_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a", null ],
     [ "MR_MeshLoadSettings_AssignFromAnother", "MRMeshLoadSettings_8h.html#a7596ac1226963b624ac759b572ddd569", null ],
     [ "MR_MeshLoadSettings_ConstructFrom", "MRMeshLoadSettings_8h.html#a8fc7a9b91c176c4ce6cbbf5ca19f91c9", null ],
     [ "MR_MeshLoadSettings_ConstructFromAnother", "MRMeshLoadSettings_8h.html#a22c74d8fbcd3807dc70dce3ed2cdd78e", null ],

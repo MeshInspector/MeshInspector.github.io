@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ObjectMeshData" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ObjectMeshData</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -462,25 +462,6 @@
 mesh and its per-element attributes for ObjectMeshHolder
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.ObjectMeshData</label>
-        <link refid="classmrmeshpy_1_1ObjectMeshData"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_creases</edgelabel>
-          <edgelabel>_offsetof_faceColors</edgelabel>
-          <edgelabel>_offsetof_mesh</edgelabel>
-          <edgelabel>_offsetof_selectedEdges</edgelabel>
-          <edgelabel>_offsetof_selectedFaces</edgelabel>
-          <edgelabel>_offsetof_texturePerFace</edgelabel>
-          <edgelabel>_offsetof_uvCoordinates</edgelabel>
-          <edgelabel>_offsetof_vertColors</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40044" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40044" bodyend="40119"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ObjectMeshData_1a86cf8c400248e03f313cd4252cb4680f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>__init__</name></member>

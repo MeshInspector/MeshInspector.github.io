@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectPoints" kind="class" language="C++" prot="public">
     <compoundname>MR::ObjectPoints</compoundname>
     <basecompoundref refid="classMR_1_1ObjectPointsHolder" prot="public" virt="non-virtual">MR::ObjectPointsHolder</basecompoundref>
     <derivedcompoundref refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4" prot="public" virt="non-virtual">MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectPoints &gt;</derivedcompoundref>
-    <includes refid="MRObjectPoints_8h" local="no">MRObjectPoints.h</includes>
+    <derivedcompoundref refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4" prot="public" virt="non-virtual">MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectPoints &gt;</derivedcompoundref>
+    <includes refid="MRObjectPoints_8h" local="no">MRMesh/MRObjectPoints.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga7add507ed0f2abe3843cec2e9f387f8c" kind="function"><name>ObjectPoints</name></member>
       <member refid="group__GeneralGroup_1gafdac591813395cc98c7d9f3db14c0bcc" kind="function"><name>ObjectPoints</name></member>
@@ -59,21 +60,11 @@
         <childnode refid="3" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="8">
-        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
-        <childnode refid="7" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, ObjectPoints &gt;</label>
-        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
-        <childnode refid="6" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="6">
         <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectPoints &gt;</label>
         <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
@@ -208,7 +199,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPoints.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPoints.h" bodystart="14" bodyend="53"/>
+    <location file="MRMesh/MRObjectPoints.h" line="13" column="1" bodyfile="MRMesh/MRObjectPoints.h" bodystart="14" bodyend="53"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::ObjectPoints</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::ObjectPoints</scope><name>addChildBefore</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Reorder" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Reorder</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -312,20 +312,6 @@
   AABBTree : the order is determined so to put close in space points in close indices (optimal for compression)
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.Reorder</label>
-        <link refid="classmrmeshpy_1_1Reorder"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>AABBTree</edgelabel>
-          <edgelabel>Lexicographically</edgelabel>
-          <edgelabel>None</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50421" bodyend="50460"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Reorder_1ab6d28f21781b6d89f367bfe06f2dd9d2" prot="public" virt="non-virtual"><scope>mrmeshpy::Reorder</scope><name>__eq__</name></member>

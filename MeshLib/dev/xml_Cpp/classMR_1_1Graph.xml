@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Graph" kind="class" language="C++" prot="public">
     <compoundname>MR::Graph</compoundname>
-    <includes refid="MRGraph_8h" local="no">MRGraph.h</includes>
+    <includes refid="MRGraph_8h" local="no">MRMesh/MRGraph.h</includes>
     <innerclass refid="structMR_1_1Graph_1_1EndVertices" prot="public">MR::Graph::EndVertices</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kind="typedef"><name>VertId</name></member>
@@ -39,7 +39,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="17" bodyend="97"/>
+    <location file="MRMesh/MRGraph.h" line="16" column="1" bodyfile="MRMesh/MRGraph.h" bodystart="17" bodyend="97"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac3097672a81dda206c80984a7fdb0806" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>areNeighbors</name></member>
       <member refid="group__GeneralGroup_1gab26fbb915c93b782e599cf1a768fab63" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>checkValidity</name></member>

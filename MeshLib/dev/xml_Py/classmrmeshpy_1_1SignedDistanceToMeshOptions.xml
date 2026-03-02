@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1SignedDistanceToMeshOptions" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::SignedDistanceToMeshOptions</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1DistanceToMeshOptions" prot="public" virt="non-virtual">mrmeshpy.DistanceToMeshOptions</basecompoundref>
@@ -27,7 +27,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SignedDistanceToMeshOptions.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1DistanceToMeshOptions_1a018ab9456e66d92f604508f33b5b2f1b">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -98,7 +97,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SignedDistanceToMeshOptions.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1DistanceToMeshOptions_1a018ab9456e66d92f604508f33b5b2f1b">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -117,7 +115,6 @@
         <argsstring>(self, SignedDistanceToMeshOptions arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SignedDistanceToMeshOptions.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1DistanceToMeshOptions_1a018ab9456e66d92f604508f33b5b2f1b">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -205,23 +202,10 @@ options determining computation of signed distance from a point to a mesh
         <link refid="classmrmeshpy_1_1SignedDistanceToMeshOptions"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_signMode</edgelabel>
-        </childnode>
       </node>
       <node id="2">
         <label>mrmeshpy.DistanceToMeshOptions</label>
         <link refid="classmrmeshpy_1_1DistanceToMeshOptions"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>_offsetof_maxDistSq</edgelabel>
-          <edgelabel>_offsetof_minDistSq</edgelabel>
-          <edgelabel>_offsetof_nullOutsideMinMax</edgelabel>
-          <edgelabel>_offsetof_windingNumberBeta</edgelabel>
-          <edgelabel>_offsetof_windingNumberThreshold</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52475" bodyend="52509"/>
@@ -229,11 +213,26 @@ options determining computation of signed distance from a point to a mesh
       <member refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1a2f56735e05fcac7cd56a4e1c677d7466" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1ad55b383858a0417d2464b5c247b39436" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1a2a3ab58e5815530af8cec8eac21cd03d" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a6b1688da4187aa021d2975bcf17dfd39" prot="protected" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>_offsetof_maxDistSq</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a04e7c3cd4771a2067e7573545ace6887" prot="protected" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>_offsetof_minDistSq</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1af8012b6b89f3cabaebcb6000f0eebae8" prot="protected" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>_offsetof_nullOutsideMinMax</name></member>
       <member refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1aebc8d043c57e4d8f3489220252993f68" prot="protected" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>_offsetof_signMode</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1ad6d4f79ec687fff6ef3a42b14805eb32" prot="protected" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>_offsetof_windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a9d401ce5c9f93d40f4caf9d23e1932a2" prot="protected" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>_offsetof_windingNumberThreshold</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1ad09befd18d3d1af91f3abcdc32723ab8" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>maxDistSq</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a6599e39abe3fb35f92b2bad44faebb84" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>maxDistSq</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a1a3519767c036b77f65c2f182d35dacb" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>minDistSq</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a468dbb02cc9ea681838e396fb8677502" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>minDistSq</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a248c4d1374a3f13137c3f1a003b34d36" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>nullOutsideMinMax</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a44420267d0048d9539a9b6cea0a28ed2" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>nullOutsideMinMax</name></member>
       <member refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1a6ea5ec4c7a627cd0721f7c522818314e" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1a6ea5ec4c7a627cd0721f7c522818314e" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1ad51563ba7a4d8f4932a877c37f45324f" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>signMode</name></member>
       <member refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1ad0293ca5e704aa1400530075919d05c9" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>signMode</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1ac2a9eda1a9655941090c176d8729bc27" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a60629749f572b3f2a344828d1d366e21" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a0b0ea7eed543ddf956334e99c053fc4f" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>windingNumberThreshold</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1afefc0b359fbf40a711bd234dd9efa407" prot="public" virt="non-virtual"><scope>mrmeshpy::SignedDistanceToMeshOptions</scope><name>windingNumberThreshold</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

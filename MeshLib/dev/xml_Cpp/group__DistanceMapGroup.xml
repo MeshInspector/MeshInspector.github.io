@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__DistanceMapGroup" kind="group">
     <compoundname>DistanceMapGroup</compoundname>
     <title>Distance Map group</title>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" bodystart="15" bodyend="22"/>
+        <location file="MRMesh/MRRectIndexer.h" line="14" column="1" bodyfile="MRMesh/MRRectIndexer.h" bodystart="15" bodyend="22"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="var">
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" line="26" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" bodystart="26" bodyend="26"/>
+        <location file="MRMesh/MRRectIndexer.h" line="26" column="36" bodyfile="MRMesh/MRRectIndexer.h" bodystart="26" bodyend="26"/>
       </memberdef>
       <memberdef kind="variable" id="group__DistanceMapGroup_1ga1fe8adc8eeed5eae0d5217546cb26d59" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>int</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" line="34" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" bodystart="34" bodyend="-1"/>
+        <location file="MRMesh/MRRectIndexer.h" line="34" column="22" bodyfile="MRMesh/MRRectIndexer.h" bodystart="34" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="179" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="179" declcolumn="14"/>
+        <location file="MRMesh/MRDistanceMap.h" line="179" column="14" declfile="MRMesh/MRDistanceMap.h" declline="179" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga7f5c745dc0b7ff2cae12b60d6d99f941" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>DistanceMap</type>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="183" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="183" declcolumn="14"/>
+        <location file="MRMesh/MRDistanceMap.h" line="183" column="14" declfile="MRMesh/MRDistanceMap.h" declline="183" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga0251be1c9610cccefe8f908802eb6e0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>DistanceMap</type>
@@ -185,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="188" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="188" declcolumn="14"/>
+        <location file="MRMesh/MRDistanceMap.h" line="188" column="14" declfile="MRMesh/MRDistanceMap.h" declline="188" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga0c9486d9b44ae47b12824b99e28b0a93" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>DistanceMap</type>
@@ -223,7 +223,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="232" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="232" declcolumn="15"/>
+        <location file="MRMesh/MRDistanceMap.h" line="232" column="15" declfile="MRMesh/MRDistanceMap.h" declline="232" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1gae7e25fed5029c03aec12173cbf641fc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -273,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="240" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="240" declcolumn="7"/>
+        <location file="MRMesh/MRDistanceMap.h" line="240" column="7" declfile="MRMesh/MRDistanceMap.h" declline="240" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga9ee4d06d74d77a647a2858fba8cebdb3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; Vector3f &gt;</type>
@@ -302,7 +302,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="246" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="246" declcolumn="15"/>
+        <location file="MRMesh/MRDistanceMap.h" line="246" column="15" declfile="MRMesh/MRDistanceMap.h" declline="246" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1gaa693ceaf7bf9d2dc2728807f26d6e12a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Polyline2</type>
@@ -325,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="250" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="250" declcolumn="13"/>
+        <location file="MRMesh/MRDistanceMap.h" line="250" column="13" declfile="MRMesh/MRDistanceMap.h" declline="250" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga54c8f32aafa8f7d85f1839635e080609" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Polyline2</type>
@@ -352,7 +352,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="253" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="253" declcolumn="13"/>
+        <location file="MRMesh/MRDistanceMap.h" line="253" column="13" declfile="MRMesh/MRDistanceMap.h" declline="253" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1gaf8e4c5b69b7ff64356b8fe6d7d73583e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::pair&lt; Polyline2, AffineXf3f &gt;</type>
@@ -393,7 +393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="259" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="259" declcolumn="13"/>
+        <location file="MRMesh/MRDistanceMap.h" line="259" column="13" declfile="MRMesh/MRDistanceMap.h" declline="259" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga40f0ce955b843b2257a05a5ee11d7e93" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Polyline2</type>
@@ -419,7 +419,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="261" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="261" declcolumn="13"/>
+        <location file="MRMesh/MRDistanceMap.h" line="261" column="13" declfile="MRMesh/MRDistanceMap.h" declline="261" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1gacffe5f45914f7b6f7d4fbd8a17c3bd0d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Polyline2</type>
@@ -446,7 +446,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="264" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="264" declcolumn="13"/>
+        <location file="MRMesh/MRDistanceMap.h" line="264" column="13" declfile="MRMesh/MRDistanceMap.h" declline="264" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1gaa2524cfec596759a4205736303d71c32" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Polyline2</type>
@@ -483,7 +483,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="273" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="273" declcolumn="13"/>
+        <location file="MRMesh/MRDistanceMap.h" line="273" column="13" declfile="MRMesh/MRDistanceMap.h" declline="273" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga77440735adb40e169512805b388d02ff" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Polyline2</type>
@@ -520,7 +520,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="283" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="283" declcolumn="13"/>
+        <location file="MRMesh/MRDistanceMap.h" line="283" column="13" declfile="MRMesh/MRDistanceMap.h" declline="283" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga0e9d54f285f78c5e6229ed9cc17a9ab6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Polyline2</type>
@@ -557,7 +557,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="293" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="293" declcolumn="13"/>
+        <location file="MRMesh/MRDistanceMap.h" line="293" column="13" declfile="MRMesh/MRDistanceMap.h" declline="293" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga43601df100c62be8e9a82c549448bebd" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -585,7 +585,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="297" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="297" declcolumn="12"/>
+        <location file="MRMesh/MRDistanceMap.h" line="297" column="12" declfile="MRMesh/MRDistanceMap.h" declline="297" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga307b78cdb3484a6db6f95cf12dd2e0ef" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Image</type>
@@ -618,7 +618,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="301" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="301" declcolumn="9"/>
+        <location file="MRMesh/MRDistanceMap.h" line="301" column="9" declfile="MRMesh/MRDistanceMap.h" declline="301" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1gae5873b0d32e494a0e4eb9c14a39f9b1b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; DistanceMap &gt;</type>
@@ -664,7 +664,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="306" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="306" declcolumn="12"/>
+        <location file="MRMesh/MRDistanceMap.h" line="306" column="12" declfile="MRMesh/MRDistanceMap.h" declline="306" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga91a308e751ba7d6ace30ea1a895eb3fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>OutEdge2</type>
@@ -682,7 +682,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" line="28" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" bodystart="28" bodyend="32"/>
+        <location file="MRMesh/MRRectIndexer.h" line="28" column="17" bodyfile="MRMesh/MRRectIndexer.h" bodystart="28" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga7fff85ab73fba784cf244960e540806c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -710,7 +710,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" line="85" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" declline="85" declcolumn="7"/>
+        <location file="MRMesh/MRRectIndexer.h" line="85" column="7" declfile="MRMesh/MRRectIndexer.h" declline="85" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga74a690f4a3588537a12fb70388b1f65a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -738,7 +738,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" line="87" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" declline="87" declcolumn="7"/>
+        <location file="MRMesh/MRRectIndexer.h" line="87" column="7" declfile="MRMesh/MRRectIndexer.h" declline="87" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga239b9939936c38ad89df91dd649ab13d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -756,7 +756,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" line="41" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" bodystart="61" bodyend="64"/>
+        <location file="MRMesh/MRRectIndexer.h" line="41" column="5" bodyfile="MRMesh/MRRectIndexer.h" bodystart="61" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga901329f8c2956e6baeb440b154c9907f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -774,7 +774,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" line="42" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" bodystart="66" bodyend="70"/>
+        <location file="MRMesh/MRRectIndexer.h" line="42" column="10" bodyfile="MRMesh/MRRectIndexer.h" bodystart="66" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga920d5e2ba75ebd9fe641aae7d50cce9f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector2i</type>
@@ -792,7 +792,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" line="46" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" bodystart="72" bodyend="77"/>
+        <location file="MRMesh/MRRectIndexer.h" line="46" column="14" bodyfile="MRMesh/MRRectIndexer.h" bodystart="72" bodyend="77"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1gacf16438d65e6771b0a308b2e232e86b1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -810,7 +810,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" line="48" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" bodystart="79" bodyend="82"/>
+        <location file="MRMesh/MRRectIndexer.h" line="48" column="12" bodyfile="MRMesh/MRRectIndexer.h" bodystart="79" bodyend="82"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

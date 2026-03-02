@@ -1,12 +1,6 @@
 var MRPolylineSubdivide_8h =
 [
-    [ "MR_Polyline2", "MRPolylineSubdivide_8h.html#ac19d267fe4a2399b21a578c74213dfd2", null ],
-    [ "MR_Polyline3", "MRPolylineSubdivide_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b", null ],
     [ "MR_PolylineSubdivideSettings", "MRPolylineSubdivide_8h.html#a77fd6d5a1a50a80ecfcc3adba7e020ab", null ],
-    [ "MR_std_function_bool_from_float", "MRPolylineSubdivide_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_std_function_void_from_MR_EdgeId_MR_EdgeId", "MRPolylineSubdivide_8h.html#ad023ae65e5f5b35808a42976d62d515e", null ],
-    [ "MR_std_function_void_from_MR_VertId", "MRPolylineSubdivide_8h.html#ab5a1af27d17dce1b9ef76255b364508e", null ],
-    [ "MR_VertBitSet", "MRPolylineSubdivide_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_PolylineSubdivideSettings_AssignFromAnother", "MRPolylineSubdivide_8h.html#a16a31bfa1a60ff178fcd75bc70cd5f1f", null ],
     [ "MR_PolylineSubdivideSettings_ConstructFrom", "MRPolylineSubdivide_8h.html#a55053b9af68ac6ae878b21ce0e936975", null ],
     [ "MR_PolylineSubdivideSettings_ConstructFromAnother", "MRPolylineSubdivide_8h.html#a663dd6360ebc544c709fd32571d5a000", null ],

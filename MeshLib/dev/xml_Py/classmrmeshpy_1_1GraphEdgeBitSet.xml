@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1GraphEdgeBitSet" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::GraphEdgeBitSet</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
@@ -10,7 +10,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -98,7 +97,6 @@
         <argsstring>(self, GraphEdgeBitSet b)</argsstring>
         <name>__and__</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.__and__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -121,7 +119,6 @@
         <argsstring>(self, GraphEdgeBitSet b)</argsstring>
         <name>__iand__</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.__iand__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -144,7 +141,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -163,7 +159,6 @@
         <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -193,7 +188,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -218,7 +212,6 @@
         <argsstring>(self, BitSet src)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -243,7 +236,6 @@
         <argsstring>(self, GraphEdgeBitSet arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -268,7 +260,6 @@
         <argsstring>(self, GraphEdgeBitSet b)</argsstring>
         <name>__ior__</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.__ior__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -291,7 +282,6 @@
         <argsstring>(self, GraphEdgeBitSet b)</argsstring>
         <name>__isub__</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.__isub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -314,7 +304,6 @@
         <argsstring>(self)</argsstring>
         <name>__iter__</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.__iter__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -333,7 +322,6 @@
         <argsstring>(self, GraphEdgeBitSet b)</argsstring>
         <name>__ixor__</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.__ixor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -356,7 +344,6 @@
         <argsstring>(self, GraphEdgeBitSet b)</argsstring>
         <name>__or__</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.__or__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -379,7 +366,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.__repr__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -398,7 +384,6 @@
         <argsstring>(self, GraphEdgeBitSet b)</argsstring>
         <name>__sub__</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.__sub__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -421,7 +406,6 @@
         <argsstring>(self, GraphEdgeBitSet b)</argsstring>
         <name>__xor__</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.__xor__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -1252,18 +1236,12 @@ with all bits after size() considered off during testing
       <node id="2">
         <label>mrmeshpy.BitSet</label>
         <link refid="classmrmeshpy_1_1BitSet"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>bits_per_block</edgelabel>
-          <edgelabel>npos</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>typing</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22056" bodyend="22214"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a9e3039c123c28da4a58c4735a6deae81" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1af06e5b8bd598633ae38015e4ef438a97" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a4d14181af650fb07af6e56bb5a0763ec" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__iand__</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a5d07da3efb823706bc1159d37e5e791e" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a2852d4b89450251baafdaa456319bdb7" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__init__</name></member>
@@ -1277,13 +1255,23 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a5942ea982bcb72ab797f52165e025668" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__ixor__</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7326340474e89a0f99b9276107533f23" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__or__</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a2daba4ceae7b15a152705ff963d7a3d8" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a98282e643a9a65e1c6109bb7e5d7bb0f" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a180dc7a7e3b1484cbc0655607c27948d" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__rrshift__</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a0ea5e7892c402e689ce30ff1955d5c57" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__sub__</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a368340b9d0233f4fc2e86095f4224c8e" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a7791a54179bcc02c9e8d46ccd467d1df" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>all</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a72e64427ab6f98e8ffeb422c97588e62" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>any</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1aa6655b4ee80d071cd8ea06fe7c0778f3" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a0fdacaac7bdb6e7381be2185e23b9fa1" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a9744b88febc10db81dd13bd818d98ac8" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>autoResizeTestSet</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a61d7d9aa166ba062b0c1a58f965268f0" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>backId</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a6ebd4c42f25c0584e7a422cc7e3bcfc8" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab1c92776adea9f7d4a8aa71b4db8585e" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>bits</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a59b26e0abde0aeed833933ad5058adfe" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>bits_per_block</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a2335e90bc299cbaa4f87a7e2157f869a" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a640d1f443a7ea30d50a532de2cdf90b4" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a4b8a47eb3cd9dc19a7448b1a3b1765e2" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aab954a31474723788e2aeee311325c15" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>empty</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ad0d399349909eb6b2cd7209aad90bf0e" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>endId</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ab3e725b0f6906abee2f213386ed5055a" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>find_first</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a6f387f17c70ce9a0012596836bc1592b" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>find_first_not_set</name></member>
@@ -1294,26 +1282,41 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a9a1d2b585a08fbb876f597d658f37126" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7f89675aedf193dc468341b965b6d7f6" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ac8b3e38465415b5bb9c6d6b8e51746e1" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1ab52de9f1462e6d83e5b7191d4396df74" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>fromBlocks</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a580a8c1818089d87cf43cba1375b4d55" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1abdce625404d9cd03da73b4bf1a1c1ba0" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ae55bce77c01ab51ff370e4a51bb42efb" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ac2e79500d3d2076ebf242d437a880c21" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a71895041f014a328541c883d476b69c3" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a84bd9b4d677aca3f4e720b871ab894d3" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a4b37819366e4c3ab65824621c4a42586" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aba96890a6af8d454cea1e755d03af8db" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>none</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aa0a7d1ede8a4702ab5421d151412dfc9" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>npos</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1abcbe2fadfd69e22a335927a3d44f9112" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a33fe73fcaf13f4fe52d1fe72379ba764" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>num_blocks</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a90ee6054763625140408f132441fec8f" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a90ee6054763625140408f132441fec8f" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a204e188214d1fd66553951c4a6c9888b" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1af016fdece4d1e0fcefadce98dff1b478" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a289c8f64f552d93f25d60aae2140354a" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>reserve</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a9a83015d730b71412e72859d31b506d4" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ad8d3bd8085cf1e047f460e25f92257a7" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1adab5fa84aab9a8b0501cadd2e5cb7b3c" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a9e4c33df165c88226f1105129caa15f2" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a8f011a2d79e0769e54a51148de3d2dec" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a6e10a386d264b1d2ac5153c7eda3452e" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>reverse</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a36805afc1c021045d398a16f13cb4960" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a63e252c652585671c4144d40d0741f05" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a47cf69baead5c0b539cbadbf415f77fc" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1af40a7ffbd973eebaa9993ebbdb2fd078" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a394f9a9633d44001a7cab69dbd3815e8" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>shrink_to_fit</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae04e046bab014f7e687c1010d5386eb" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a0e0cb4d27f653e988f5716c6a4ddb7d0" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>subtract</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a1bd4b90eeca6edf2445e2a5068e4976a" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>test</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a84af477dd5fcdf46f75a90c556e316e8" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>test_set</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1aae49ff1ea465f9b7185a328d08806e08" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>uncheckedTest</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a908f2b141bba37ea2f49d8dd1938c711" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>uncheckedTestSet</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

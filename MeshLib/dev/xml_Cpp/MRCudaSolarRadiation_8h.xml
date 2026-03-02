@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCudaSolarRadiation_8h" kind="file" language="C++">
     <compoundname>MRCudaSolarRadiation.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -9,7 +9,7 @@
     <includes refid="MRMeshIntersect_8h" local="yes">MRMesh/MRMeshIntersect.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRCudaSolarRadiation.h</label>
+        <label>MRCuda/MRCudaSolarRadiation.h</label>
         <link refid="MRCudaSolarRadiation_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -492,12 +492,12 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMesh_8h" kindref="compound">MRMesh/MRMesh.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSolarRadiation_8h" kindref="compound">MRMesh/MRSolarRadiation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshIntersect_8h" kindref="compound">MRMesh/MRMeshIntersect.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshIntersect_8h" kindref="compound">MRMesh/MRMeshIntersect.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Cuda</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Cuda" kindref="compound">Cuda</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="group__GeneralGroup_1gab5f9490f820c7e7eb708e516e58d6e5a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRCUDA_API<sp/>VertScalars<sp/><ref refid="group__GeneralGroup_1gab5f9490f820c7e7eb708e516e58d6e5a" kindref="member">computeSkyViewFactor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>terrain,</highlight></codeline>
@@ -512,6 +512,6 @@
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSolarRadiation.h"/>
+    <location file="MRCuda/MRCudaSolarRadiation.h"/>
   </compounddef>
 </doxygen>

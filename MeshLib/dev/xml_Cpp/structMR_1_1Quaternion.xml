@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Quaternion" kind="struct" language="C++" prot="public">
     <compoundname>MR::Quaternion</compoundname>
-    <includes refid="MRQuaternion_8h" local="no">MRQuaternion.h</includes>
+    <includes refid="MRQuaternion_8h" local="no">MRMesh/MRQuaternion.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -57,7 +57,7 @@
     <detaileddescription>
 <para>Represents a quaternion following the notations from <ulink url="https:///">https:///</ulink> en.wikipedia.org/wiki/Quaternion </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="16" bodyend="72"/>
+    <location file="MRMesh/MRQuaternion.h" line="15" column="1" bodyfile="MRMesh/MRQuaternion.h" bodystart="16" bodyend="72"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga99d6bff08a40df6a9873566e597b029e" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>a</name></member>
       <member refid="group__GeneralGroup_1gabfbf2dd877c3cf929788c7f24710328b" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>angle</name></member>

@@ -1,9 +1,6 @@
 var MRUniteManyMeshes_8h =
 [
-    [ "MR_expected_MR_Mesh_std_string", "MRUniteManyMeshes_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
-    [ "MR_FaceBitSet", "MRUniteManyMeshes_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
     [ "MR_NestedComponenetsMode", "MRUniteManyMeshes_8h.html#a8e5eb6878680e80dcb60b3200acd0b03", null ],
-    [ "MR_std_function_bool_from_float", "MRUniteManyMeshes_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_vector_const_MR_Mesh_ptr", "MRUniteManyMeshes_8h.html#ae7193edfceac57cfb2d1d3b5b68a90b8", null ],
     [ "MR_UniteManyMeshesParams", "MRUniteManyMeshes_8h.html#a768fbaa1a635c9393fdb3628694b9f61", null ],
     [ "MR_NestedComponenetsMode", "MRUniteManyMeshes_8h.html#a4d170c6ac395b7e751c7ff25ae839ac5", [

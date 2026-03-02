@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1FindProjectionOnPointsSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::FindProjectionOnPointsSettings</compoundname>
-    <includes refid="MRPointsProject_8h" local="no">MRPointsProject.h</includes>
+    <includes refid="MRPointsProject_8h" local="no">MRMesh/MRPointsProject.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1FindProjectionOnPointsSettings_1a3f9c60f79369db701c3869e757686217" prot="public" static="no" mutable="no">
         <type>const <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> *</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="78" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="78" bodyend="-1"/>
+        <location file="MRMesh/MRPointsProject.h" line="78" column="18" bodyfile="MRMesh/MRPointsProject.h" bodystart="78" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FindProjectionOnPointsSettings_1ad8f6c40c1465fcd41082510e2022e694" prot="public" static="no" mutable="no">
         <type>const AffineXf3f *</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="80" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="80" bodyend="-1"/>
+        <location file="MRMesh/MRPointsProject.h" line="80" column="22" bodyfile="MRMesh/MRPointsProject.h" bodystart="80" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FindProjectionOnPointsSettings_1a51086d69676631deb69313f75b2d8379" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="82" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="82" bodyend="-1"/>
+        <location file="MRMesh/MRPointsProject.h" line="82" column="11" bodyfile="MRMesh/MRPointsProject.h" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FindProjectionOnPointsSettings_1a33ab001af75b70c47485278f07082bd5" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="84" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="84" bodyend="-1"/>
+        <location file="MRMesh/MRPointsProject.h" line="84" column="11" bodyfile="MRMesh/MRPointsProject.h" bodystart="84" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FindProjectionOnPointsSettings_1a41d849f8892e4ddc754d38672dde5152" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="86" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="86" bodyend="-1"/>
+        <location file="MRMesh/MRPointsProject.h" line="86" column="10" bodyfile="MRMesh/MRPointsProject.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FindProjectionOnPointsSettings_1aa4d8d3a3b0dac4b24f0e182945040220" prot="public" static="no" mutable="no">
         <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="88" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="88" bodyend="-1"/>
+        <location file="MRMesh/MRPointsProject.h" line="88" column="22" bodyfile="MRMesh/MRPointsProject.h" bodystart="88" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -118,7 +118,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="75" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="76" bodyend="89"/>
+    <location file="MRMesh/MRPointsProject.h" line="75" column="1" bodyfile="MRMesh/MRPointsProject.h" bodystart="76" bodyend="89"/>
     <listofallmembers>
       <member refid="structMR_1_1FindProjectionOnPointsSettings_1aa4d8d3a3b0dac4b24f0e182945040220" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>cb</name></member>
       <member refid="structMR_1_1FindProjectionOnPointsSettings_1a33ab001af75b70c47485278f07082bd5" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>loDistLimitSq</name></member>

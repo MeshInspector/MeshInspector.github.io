@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCudaMeshDistanceMap_8h" kind="file" language="C++">
     <compoundname>MRCudaMeshDistanceMap.h</compoundname>
     <includes local="yes">exports.h</includes>
@@ -7,7 +7,7 @@
     <includes refid="MRMesh_8h" local="yes">MRMesh/MRMesh.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRCudaMeshDistanceMap.h</label>
+        <label>MRCuda/MRCudaMeshDistanceMap.h</label>
         <link refid="MRCudaMeshDistanceMap_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -674,12 +674,12 @@
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13" refid="namespaceMR_1_1Cuda_1ae00800a975100101a6b94ad8c6c4c817" refkind="member"><highlight class="normal">MRCUDA_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;DistanceMap&gt;</ref><sp/><ref refid="namespaceMR_1_1Cuda_1ae00800a975100101a6b94ad8c6c4c817" kindref="member">computeDistanceMap</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref>&amp;<sp/>params,</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{},<sp/>std::vector&lt;MeshTriPoint&gt;*<sp/>outSamples<sp/>=<sp/>nullptr<sp/>);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{},<sp/>std::vector&lt;MeshTriPoint&gt;*<sp/>outSamples<sp/>=<sp/><ref refid="module__nullptr" kindref="compound">nullptr</ref><sp/>);</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="namespaceMR_1_1Cuda_1ad3376b68fd0e9661c0072bf92dd704a3" refkind="member"><highlight class="normal">MRCUDA_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Cuda_1ad3376b68fd0e9661c0072bf92dd704a3" kindref="member">computeDistanceMapHeapBytes</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>needOutSamples<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaMeshDistanceMap.h"/>
+    <location file="MRCuda/MRCudaMeshDistanceMap.h"/>
   </compounddef>
 </doxygen>

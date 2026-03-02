@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1BooleanResultPoints" kind="struct" language="C++" prot="public">
     <compoundname>MR::BooleanResultPoints</compoundname>
-    <includes refid="MRMeshBoolean_8h" local="no">MRMeshBoolean.h</includes>
+    <includes refid="MRMeshBoolean_8h" local="no">MRMesh/MRMeshBoolean.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1BooleanResultPoints_1a758818e3193d5a31f2ce34e7fef01456" prot="public" static="no" mutable="no">
         <type>VertBitSet</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="122" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="122" bodyend="-1"/>
+        <location file="MRMesh/MRMeshBoolean.h" line="122" column="16" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="122" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BooleanResultPoints_1a73c3b72527fa64512c86e99d2c0ce6c4" prot="public" static="no" mutable="no">
         <type>VertBitSet</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="123" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="123" bodyend="-1"/>
+        <location file="MRMesh/MRMeshBoolean.h" line="123" column="16" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BooleanResultPoints_1abc2f5304a2f9d4dc1963601907fb744f" prot="public" static="no" mutable="no">
         <type>std::vector&lt; Vector3f &gt;</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="124" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="124" bodyend="-1"/>
+        <location file="MRMesh/MRMeshBoolean.h" line="124" column="17" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="124" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -52,7 +52,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="121" bodyend="125"/>
+    <location file="MRMesh/MRMeshBoolean.h" line="120" column="1" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="121" bodyend="125"/>
     <listofallmembers>
       <member refid="structMR_1_1BooleanResultPoints_1abc2f5304a2f9d4dc1963601907fb744f" prot="public" virt="non-virtual"><scope>MR::BooleanResultPoints</scope><name>intersectionPoints</name></member>
       <member refid="structMR_1_1BooleanResultPoints_1a758818e3193d5a31f2ce34e7fef01456" prot="public" virt="non-virtual"><scope>MR::BooleanResultPoints</scope><name>meshAVerts</name></member>

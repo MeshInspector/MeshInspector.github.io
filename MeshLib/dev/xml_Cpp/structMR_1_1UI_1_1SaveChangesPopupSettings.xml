@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1UI_1_1SaveChangesPopupSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::UI::SaveChangesPopupSettings</compoundname>
-    <includes refid="MRUISaveChangesPopup_8h" local="no">MRUISaveChangesPopup.h</includes>
+    <includes refid="MRUISaveChangesPopup_8h" local="no">MRViewer/MRUISaveChangesPopup.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga6cd2f6a77d991bb28d74320269e1c849" kind="variable"><name>shortCloseText</name></member>
       <member refid="group__GeneralGroup_1ga1ddd1fee272b8d5ab0de85e419cc5c9c" kind="variable"><name>dontSaveText</name></member>
@@ -16,7 +16,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" bodystart="18" bodyend="31"/>
+    <location file="MRViewer/MRUISaveChangesPopup.h" line="17" column="1" bodyfile="MRViewer/MRUISaveChangesPopup.h" bodystart="18" bodyend="31"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gabf35d4bb097cddcc6c3ecb5bb79c1398" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>cancelTooltip</name></member>
       <member refid="group__GeneralGroup_1ga1ddd1fee272b8d5ab0de85e419cc5c9c" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>dontSaveText</name></member>

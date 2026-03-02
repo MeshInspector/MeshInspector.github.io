@@ -2,7 +2,6 @@ var MRDistanceVolumeParams_8h =
 [
     [ "MR_DistanceVolumeParams", "MRDistanceVolumeParams_8h.html#af9c1f01ab3534b48d6b02a0b6c78143e", null ],
     [ "MR_PointsToDistanceVolumeParams", "MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804", null ],
-    [ "MR_std_function_bool_from_float", "MRDistanceVolumeParams_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_DistanceVolumeParams_AssignFromAnother", "MRDistanceVolumeParams_8h.html#aabbfea38b9bf6f5159753abcc681efd3", null ],
     [ "MR_DistanceVolumeParams_ConstructFrom", "MRDistanceVolumeParams_8h.html#a3d397e744d00b99ae55898dbad3d5f7a", null ],
     [ "MR_DistanceVolumeParams_ConstructFromAnother", "MRDistanceVolumeParams_8h.html#ab67d0baae7fd847370f02dd8d0acea9c", null ],

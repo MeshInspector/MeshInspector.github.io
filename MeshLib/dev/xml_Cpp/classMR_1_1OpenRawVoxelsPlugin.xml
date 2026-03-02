@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OpenRawVoxelsPlugin" kind="class" language="C++" prot="public">
     <compoundname>MR::OpenRawVoxelsPlugin</compoundname>
     <basecompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt;&gt;</basecompoundref>
-    <includes refid="MROpenRawVoxelsPlugin_8h" local="no">MROpenRawVoxelsPlugin.h</includes>
+    <includes refid="MROpenRawVoxelsPlugin_8h" local="no">MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga6f7956ab3991792dfc3bee5f66d69f71" kind="variable"><name>autoMode_</name></member>
       <member refid="group__GeneralGroup_1gae600a0d93a5ed57dc666e7abea646eda" kind="variable"><name>parameters_</name></member>
@@ -145,7 +145,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h" bodystart="13" bodyend="25"/>
+    <location file="MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h" line="12" column="1" bodyfile="MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h" bodystart="13" bodyend="25"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga6f7956ab3991792dfc3bee5f66d69f71" prot="private" virt="non-virtual"><scope>MR::OpenRawVoxelsPlugin</scope><name>autoMode_</name></member>

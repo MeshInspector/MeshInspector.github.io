@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMakeRigidXf_8h" kind="file" language="C++">
     <compoundname>MRMakeRigidXf.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -15,7 +15,7 @@
         <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
-        <label>MRMakeRigidXf.h</label>
+        <label>MRMesh/MRMakeRigidXf.h</label>
         <link refid="MRMakeRigidXf_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -85,8 +85,8 @@
 <codeline lineno="14" refid="group__MathGroup_1ga9a3e0f5e3441afd311bdaca50e3edf16" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>AffineXf3d<sp/><ref refid="group__MathGroup_1ga9a3e0f5e3441afd311bdaca50e3edf16" kindref="member">makeRigidXf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3d<sp/>&amp;<sp/>meshXf<sp/>);</highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1gaafcab5cb1e6ba0fb12f08dc9041a1503" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>AffineXf3f<sp/><ref refid="group__MathGroup_1ga9a3e0f5e3441afd311bdaca50e3edf16" kindref="member">makeRigidXf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>&amp;<sp/>meshXf<sp/>);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMakeRigidXf.h"/>
+    <location file="MRMesh/MRMakeRigidXf.h"/>
   </compounddef>
 </doxygen>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1QuadTextureVertexObject" kind="class" language="C++" prot="public">
     <compoundname>MR::QuadTextureVertexObject</compoundname>
-    <includes refid="MRRenderGLHelpers_8h" local="no">MRRenderGLHelpers.h</includes>
+    <includes refid="MRRenderGLHelpers_8h" local="no">MRViewer/MRRenderGLHelpers.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga7c63e19c79faa8d221a44c175f0add41" kind="variable"><name>vao_</name></member>
       <member refid="group__GeneralGroup_1gab5e83a3c56780c46a64f9a04d4f17fe4" kind="variable"><name>vbo_</name></member>
@@ -17,7 +17,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="202" bodyend="213"/>
+    <location file="MRViewer/MRRenderGLHelpers.h" line="201" column="1" bodyfile="MRViewer/MRRenderGLHelpers.h" bodystart="202" bodyend="213"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga9b0e7ce4640cd562b5eab91216a857e7" prot="public" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>bind</name></member>
       <member refid="group__GeneralGroup_1ga18859b513a9de77213a374a2093e054b" prot="public" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>del</name></member>

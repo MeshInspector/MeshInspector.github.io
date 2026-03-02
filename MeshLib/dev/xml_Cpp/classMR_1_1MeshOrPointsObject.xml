@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshOrPointsObject" kind="class" language="C++" prot="public">
     <compoundname>MR::MeshOrPointsObject</compoundname>
-    <includes refid="MRMeshOrPointsObject_8h" local="no">MRMeshOrPointsObject.h</includes>
+    <includes refid="MRMeshOrPointsObject_8h" local="no">MRMesh/MRMeshOrPointsObject.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaf9aa4d4c9090c0bf06c81836cb73cd67" kind="variable"><name>var_</name></member>
       <member refid="group__GeneralGroup_1ga5ab21fa3ee379ea01ec8ed0b61417e75" kind="variable"><name>visualObject_</name></member>
@@ -27,7 +27,7 @@
     <detaileddescription>
 <para>This class can hold either <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> or ObjectPoint It is used for convenient storage and operation with any of them </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPointsObject.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPointsObject.h" bodystart="14" bodyend="43"/>
+    <location file="MRMesh/MRMeshOrPointsObject.h" line="13" column="1" bodyfile="MRMesh/MRMeshOrPointsObject.h" bodystart="14" bodyend="43"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1b3fde0a930a7dff00e2f67708b01169" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>asObjectMesh</name></member>
       <member refid="group__GeneralGroup_1ga4bbfddeb2497cd8f85cc398a68a22407" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>asObjectPoints</name></member>

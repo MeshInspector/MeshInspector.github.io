@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1LoggingStreambuf" kind="class" language="C++" prot="public">
     <compoundname>MR::LoggingStreambuf</compoundname>
     <basecompoundref prot="public" virt="non-virtual">std::streambuf</basecompoundref>
-    <includes refid="MRRestoringStreamsSink_8h" local="no">MRRestoringStreamsSink.h</includes>
+    <includes refid="MRRestoringStreamsSink_8h" local="no">MRMesh/MRRestoringStreamsSink.h</includes>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1LoggingStreambuf_1ae325ef8c246631af7ac5e6a866acfd1a" prot="private" static="no" mutable="no">
         <type>spdlog::level::level_enum</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="27" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" bodystart="27" bodyend="-1"/>
+        <location file="MRMesh/MRRestoringStreamsSink.h" line="27" column="31" bodyfile="MRMesh/MRRestoringStreamsSink.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1LoggingStreambuf_1a046a929d84d4db14e0a9c0196d26a30a" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="28" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" bodystart="28" bodyend="-1"/>
+        <location file="MRMesh/MRRestoringStreamsSink.h" line="28" column="16" bodyfile="MRMesh/MRRestoringStreamsSink.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1LoggingStreambuf_1abeb2c96aa6d9aed8ded584a7f7614edf" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="29" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" bodystart="29" bodyend="-1"/>
+        <location file="MRMesh/MRRestoringStreamsSink.h" line="29" column="17" bodyfile="MRMesh/MRRestoringStreamsSink.h" bodystart="29" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="19" column="15"/>
+        <location file="MRMesh/MRRestoringStreamsSink.h" line="19" column="15"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="22" column="22"/>
+        <location file="MRMesh/MRRestoringStreamsSink.h" line="22" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1LoggingStreambuf_1a689ba491de5b9a2634e89c00cf321c40" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int_type</type>
@@ -109,7 +109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="23" column="15"/>
+        <location file="MRMesh/MRRestoringStreamsSink.h" line="23" column="15"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -139,7 +139,7 @@
         <label>std::streambuf</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" bodystart="17" bodyend="30"/>
+    <location file="MRMesh/MRRestoringStreamsSink.h" line="16" column="1" bodyfile="MRMesh/MRRestoringStreamsSink.h" bodystart="17" bodyend="30"/>
     <listofallmembers>
       <member refid="classMR_1_1LoggingStreambuf_1abeb2c96aa6d9aed8ded584a7f7614edf" prot="private" virt="non-virtual"><scope>MR::LoggingStreambuf</scope><name>buf_</name></member>
       <member refid="classMR_1_1LoggingStreambuf_1a046a929d84d4db14e0a9c0196d26a30a" prot="private" virt="non-virtual"><scope>MR::LoggingStreambuf</scope><name>bufMutex_</name></member>

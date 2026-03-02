@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MREndMill_8h" kind="file" language="C++">
     <compoundname>MREndMill.h</compoundname>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
-    <includedby refid="MRCudaSweptVolume_8h" local="yes">MRCudaSweptVolume.h</includedby>
+    <includedby refid="MRCudaSweptVolume_8h" local="yes">MRCuda/MRCudaSweptVolume.h</includedby>
     <incdepgraph>
       <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -13,7 +13,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MREndMill.h</label>
+        <label>MRMesh/MREndMill.h</label>
         <link refid="MREndMill_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -89,11 +89,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRCudaSweptVolume.h</label>
+        <label>MRCuda/MRCudaSweptVolume.h</label>
         <link refid="MRCudaSweptVolume_8h"/>
       </node>
       <node id="1">
-        <label>MREndMill.h</label>
+        <label>MRMesh/MREndMill.h</label>
         <link refid="MREndMill_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -118,16 +118,16 @@
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="structMR_1_1EndMillCutter" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1EndMillCutter" kindref="compound">EndMillCutter</ref></highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1EndMillCutter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1EndMillCutter" kindref="compound">EndMillCutter</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1gab507809dfb8f5d7c74c8629fbb94d518" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab507809dfb8f5d7c74c8629fbb94d518" kindref="member">Type</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d" kindref="member">Flat</ref>,</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab507809dfb8f5d7c74c8629fbb94d518a353df421c4fc976e2637061d7a83f601" kindref="member">Ball</ref>,</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c" kindref="member">BullNose</ref>,</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab507809dfb8f5d7c74c8629fbb94d518ae837b737dc29d88107296d9f4aca6b29" kindref="member">Chamfer</ref>,</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ggab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d" kindref="member">Flat</ref>,</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ggab507809dfb8f5d7c74c8629fbb94d518a353df421c4fc976e2637061d7a83f601" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab507809dfb8f5d7c74c8629fbb94d518a353df421c4fc976e2637061d7a83f601" kindref="member">Ball</ref>,</highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ggab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c" kindref="member">BullNose</ref>,</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1ggab507809dfb8f5d7c74c8629fbb94d518ae837b737dc29d88107296d9f4aca6b29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab507809dfb8f5d7c74c8629fbb94d518ae837b737dc29d88107296d9f4aca6b29" kindref="member">Chamfer</ref>,</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab507809dfb8f5d7c74c8629fbb94d518ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1ggab507809dfb8f5d7c74c8629fbb94d518ae93f994f01c537c4e2f7d8528c3eb5e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab507809dfb8f5d7c74c8629fbb94d518ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="31" refid="group__GeneralGroup_1ga345bf16216bfaccfd158af74e386acbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab507809dfb8f5d7c74c8629fbb94d518" kindref="member">Type</ref><sp/><ref refid="group__GeneralGroup_1ga345bf16216bfaccfd158af74e386acbc" kindref="member">type</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ggab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d" kindref="member">Type::Flat</ref>;</highlight></codeline>
 <codeline lineno="33" refid="group__GeneralGroup_1ga70c992b2d214834d246a23811425f9d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga70c992b2d214834d246a23811425f9d8" kindref="member">cornerRadius</ref><sp/>=<sp/>0.f;</highlight></codeline>
@@ -135,7 +135,7 @@
 <codeline lineno="37" refid="group__GeneralGroup_1gac48d5c8fc78e3aaa89d3614f193fbfd7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac48d5c8fc78e3aaa89d3614f193fbfd7" kindref="member">endDiameter</ref><sp/>=<sp/>0.f;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="structMR_1_1EndMillTool" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1EndMillTool" kindref="compound">EndMillTool</ref></highlight></codeline>
+<codeline lineno="41" refid="structMR_1_1EndMillTool" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1EndMillTool" kindref="compound">EndMillTool</ref></highlight></codeline>
 <codeline lineno="42"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="44" refid="group__GeneralGroup_1gaa183c2d5c3810c0fe6fe877b2486af67" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa183c2d5c3810c0fe6fe877b2486af67" kindref="member">length</ref><sp/>=<sp/>1.f;</highlight></codeline>
 <codeline lineno="46" refid="group__GeneralGroup_1gad8f4a7587862e0863fa16e3bc9763cda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad8f4a7587862e0863fa16e3bc9763cda" kindref="member">diameter</ref><sp/>=<sp/>0.1f;</highlight></codeline>
@@ -152,8 +152,8 @@
 <codeline lineno="60" refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/><ref refid="structMR_1_1EndMillCutter" kindref="compound">EndMillCutter</ref>&amp;<sp/>cutter<sp/>);</highlight></codeline>
 <codeline lineno="61" refid="group__GeneralGroup_1gaeee8f86fe589d8b0fdcf4ef4e75ed668" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8f82ec25c33576d019eb788096c22288" kindref="member">deserializeFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root,<sp/><ref refid="structMR_1_1EndMillTool" kindref="compound">EndMillTool</ref>&amp;<sp/>tool<sp/>);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h"/>
+    <location file="MRMesh/MREndMill.h"/>
   </compounddef>
 </doxygen>

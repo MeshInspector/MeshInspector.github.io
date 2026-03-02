@@ -2,11 +2,6 @@ var MRChangePointCloudNormalsAction_8h =
 [
     [ "MR_ChangeOneNormalInCloudAction", "MRChangePointCloudNormalsAction_8h.html#a33567717a02a1e15d460721dee6ed102", null ],
     [ "MR_ChangePointCloudNormalsAction", "MRChangePointCloudNormalsAction_8h.html#a23b364fd86366826aa1826b67cdf2de6", null ],
-    [ "MR_HistoryAction", "MRChangePointCloudNormalsAction_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
-    [ "MR_std_shared_ptr_MR_ObjectPoints", "MRChangePointCloudNormalsAction_8h.html#a435e0aa2bd12dee2d56d7a965a666e4c", null ],
-    [ "MR_std_string", "MRChangePointCloudNormalsAction_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
-    [ "MR_Vector3f", "MRChangePointCloudNormalsAction_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
-    [ "MR_VertCoords", "MRChangePointCloudNormalsAction_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_ChangeOneNormalInCloudAction_action", "MRChangePointCloudNormalsAction_8h.html#ab0392ac3c7882fb8a469829752e9c345", null ],
     [ "MR_ChangeOneNormalInCloudAction_AssignFromAnother", "MRChangePointCloudNormalsAction_8h.html#a51b0046d22f4560f7153b78cd13b73af", null ],
     [ "MR_ChangeOneNormalInCloudAction_Construct_3", "MRChangePointCloudNormalsAction_8h.html#a738a984fc62ccf26b8f74a9433ca9afd", null ],

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ICPExitType" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ICPExitType</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -346,22 +346,6 @@
   StopMsdReached : stop mean square deviation reached
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.ICPExitType</label>
-        <link refid="classmrmeshpy_1_1ICPExitType"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>MaxBadIterations</edgelabel>
-          <edgelabel>MaxIterations</edgelabel>
-          <edgelabel>NotFoundSolution</edgelabel>
-          <edgelabel>NotStarted</edgelabel>
-          <edgelabel>StopMsdReached</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23133" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23133" bodyend="23178"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ICPExitType_1a7469b3afb3163abc524fdd62a7624f22" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPExitType</scope><name>__eq__</name></member>

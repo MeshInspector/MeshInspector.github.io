@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FramebufferData" kind="class" language="C++" prot="public">
     <compoundname>MR::FramebufferData</compoundname>
-    <includes refid="MRRenderGLHelpers_8h" local="no">MRRenderGLHelpers.h</includes>
+    <includes refid="MRRenderGLHelpers_8h" local="no">MRViewer/MRRenderGLHelpers.h</includes>
     <innerclass refid="structMR_1_1FramebufferData_1_1DrawParams" prot="public">MR::FramebufferData::DrawParams</innerclass>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga84328144fb173ad6c742e1664ace86e0" kind="variable"><name>isBound_</name></member>
@@ -36,7 +36,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="217" bodyend="267"/>
+    <location file="MRViewer/MRRenderGLHelpers.h" line="216" column="1" bodyfile="MRViewer/MRRenderGLHelpers.h" bodystart="217" bodyend="267"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga196e05bfe86c9b8203e53e98d40044e0" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>bind</name></member>
       <member refid="group__GeneralGroup_1ga0899a7637c71dca635d1256d481a0f98" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>bindDefault</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshNormals" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshNormals</compoundname>
-    <includes refid="MRMeshNormals_8h" local="no">MRMeshNormals.h</includes>
+    <includes refid="MRMeshNormals_8h" local="no">MRMesh/MRMeshNormals.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1MeshNormals_1a856a95674a96dae6b54c40f374500bb5" prot="public" static="no" mutable="no">
         <type>FaceNormals</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="18" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" bodystart="18" bodyend="-1"/>
+        <location file="MRMesh/MRMeshNormals.h" line="18" column="17" bodyfile="MRMesh/MRMeshNormals.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshNormals_1a9a227c6a8fb08eab31f2c5f3a8b86a27" prot="public" static="no" mutable="no">
         <type>VertNormals</type>
@@ -30,14 +30,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="19" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" bodystart="19" bodyend="-1"/>
+        <location file="MRMesh/MRMeshNormals.h" line="19" column="17" bodyfile="MRMesh/MRMeshNormals.h" bodystart="19" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" bodystart="17" bodyend="20"/>
+    <location file="MRMesh/MRMeshNormals.h" line="16" column="1" bodyfile="MRMesh/MRMeshNormals.h" bodystart="17" bodyend="20"/>
     <listofallmembers>
       <member refid="structMR_1_1MeshNormals_1a856a95674a96dae6b54c40f374500bb5" prot="public" virt="non-virtual"><scope>MR::MeshNormals</scope><name>faceNormals</name></member>
       <member refid="structMR_1_1MeshNormals_1a9a227c6a8fb08eab31f2c5f3a8b86a27" prot="public" virt="non-virtual"><scope>MR::MeshNormals</scope><name>vertNormals</name></member>

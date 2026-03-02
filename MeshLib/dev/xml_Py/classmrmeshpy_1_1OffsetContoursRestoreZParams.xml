@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1OffsetContoursRestoreZParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::OffsetContoursRestoreZParams</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -224,19 +224,6 @@
 Parameters of restoring Z coordinate of XY offset 3d contours
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.OffsetContoursRestoreZParams</label>
-        <link refid="classmrmeshpy_1_1OffsetContoursRestoreZParams"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_relaxIterations</edgelabel>
-          <edgelabel>_offsetof_zCallback</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41567" bodyend="41608"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a9253e4abf6761a43b83d2910f6593cc9" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursRestoreZParams</scope><name>__init__</name></member>

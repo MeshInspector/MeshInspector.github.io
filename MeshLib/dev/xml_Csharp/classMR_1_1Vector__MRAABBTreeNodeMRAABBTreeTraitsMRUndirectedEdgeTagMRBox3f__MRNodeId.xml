@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId</basecompoundref>
@@ -26,7 +26,7 @@
         <name>this[MR.NodeId i]</name>
         <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId.this[MR.NodeId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -86,7 +86,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -105,7 +105,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -124,7 +124,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,7 +143,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -166,7 +166,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -185,7 +185,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -204,7 +204,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -219,7 +219,7 @@
         <name>clear</name>
         <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::clear</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::clear</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -238,7 +238,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::resize</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::resize</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -261,7 +261,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::resize</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::resize</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -280,7 +280,7 @@
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::reserve</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::reserve</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -299,7 +299,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -322,7 +322,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -349,7 +349,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::autoResizeSet</computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::autoResizeSet</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -372,7 +372,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::autoResizeSet</computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::autoResizeSet</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -391,7 +391,7 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::autoResizeAt</computeroutput>. </para>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::autoResizeAt</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -410,7 +410,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -429,7 +429,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -444,7 +444,7 @@
         <name>popBack</name>
         <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId.popBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::pop_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -459,7 +459,7 @@
         <name>emplaceBack</name>
         <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::emplace_back&lt;&gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::emplace_back&lt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -474,7 +474,7 @@
         <name>front</name>
         <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId.front</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::front</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::front</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -489,7 +489,7 @@
         <name>back</name>
         <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId.back</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -504,7 +504,7 @@
         <name>data</name>
         <qualifiedname>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::data</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::data</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -523,7 +523,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::swap</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::swap</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -544,7 +544,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -554,7 +554,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -570,52 +570,52 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR.Vector&lt;MR.AABBTreeNode&lt;MR.AABBTreeTraits&lt;MR.UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;&gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId</label>
         <link refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId</label>
         <link refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48686" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48687" bodyend="49007"/>

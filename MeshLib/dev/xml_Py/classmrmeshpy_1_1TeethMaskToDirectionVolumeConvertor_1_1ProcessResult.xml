@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::TeethMaskToDirectionVolumeConvertor::ProcessResult</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -180,19 +180,6 @@
 <para><verbatim>Generated from:  MR::TeethMaskToDirectionVolumeConvertor::ProcessResult
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.TeethMaskToDirectionVolumeConvertor.ProcessResult</label>
-        <link refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_volume</edgelabel>
-          <edgelabel>_offsetof_xf</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56410" bodyend="56442"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult_1ade64427b43d22e7fdbbfb42ef5ab0012" prot="public" virt="non-virtual"><scope>mrmeshpy::TeethMaskToDirectionVolumeConvertor::ProcessResult</scope><name>__init__</name></member>

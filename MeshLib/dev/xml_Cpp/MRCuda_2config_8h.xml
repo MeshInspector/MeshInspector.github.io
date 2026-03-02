@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCuda_2config_8h" kind="file" language="C++">
-    <compoundname>MRCuda/config.h</compoundname>
-    <includedby refid="MRCudaPointsToDistanceVolume_8h" local="yes">MRCudaPointsToDistanceVolume.h</includedby>
-    <includedby refid="MRCudaSweptVolume_8h" local="yes">MRCudaSweptVolume.h</includedby>
+    <compoundname>config.h</compoundname>
+    <includedby refid="MRCudaPointsToDistanceVolume_8h" local="yes">MRCuda/MRCudaPointsToDistanceVolume.h</includedby>
+    <includedby refid="MRCudaSweptVolume_8h" local="yes">MRCuda/MRCudaSweptVolume.h</includedby>
     <invincdepgraph>
       <node id="2">
-        <label>MRCudaPointsToDistanceVolume.h</label>
+        <label>MRCuda/MRCudaPointsToDistanceVolume.h</label>
         <link refid="MRCudaPointsToDistanceVolume_8h"/>
       </node>
       <node id="3">
-        <label>MRCudaSweptVolume.h</label>
+        <label>MRCuda/MRCudaSweptVolume.h</label>
         <link refid="MRCudaSweptVolume_8h"/>
       </node>
       <node id="1">
-        <label>config.h</label>
+        <label>MRCuda/config.h</label>
         <link refid="MRCuda_2config_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -34,6 +34,6 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;config_cmake.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/config.h"/>
+    <location file="MRCuda/config.h"/>
   </compounddef>
 </doxygen>

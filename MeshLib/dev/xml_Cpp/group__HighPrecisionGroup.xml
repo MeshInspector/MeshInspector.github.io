@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__HighPrecisionGroup" kind="group">
     <compoundname>HighPrecisionGroup</compoundname>
     <title>High Precision</title>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHighPrecision.h" line="25" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHighPrecision.h" bodystart="25" bodyend="-1"/>
+        <location file="MRMesh/MRHighPrecision.h" line="25" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga62843f076a5d1ed019b89472396d5b37" prot="public" static="no">
         <type>boost::multiprecision::int256_t</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHighPrecision.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHighPrecision.h" bodystart="26" bodyend="-1"/>
+        <location file="MRMesh/MRHighPrecision.h" line="26" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga564f83b9c74fcac72243ca5b5ca0b366" prot="public" static="no">
         <type>Vector2&lt; Int128 &gt;</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHighPrecision.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHighPrecision.h" bodystart="28" bodyend="-1"/>
+        <location file="MRMesh/MRHighPrecision.h" line="28" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga63880082d353e6f29c0da82c436c2f17" prot="public" static="no">
         <type>Vector3&lt; Int128 &gt;</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHighPrecision.h" line="29" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHighPrecision.h" bodystart="29" bodyend="-1"/>
+        <location file="MRMesh/MRHighPrecision.h" line="29" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga6cc6a39f0d719c385249f1a861f2f603" prot="public" static="no">
         <type>Vector2&lt; FastInt128 &gt;</type>
@@ -67,13 +67,13 @@
         <name>Vector2i128fast</name>
         <qualifiedname>MR::Vector2i128fast</qualifiedname>
         <briefdescription>
-<para>no bindings since no operator &lt;&lt; and no sqrt for FastInt128 </para>
+<para>no bindings since no operator &lt;&lt; and no sqrt for <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHighPrecision.h" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHighPrecision.h" bodystart="33" bodyend="-1"/>
+        <location file="MRMesh/MRHighPrecision.h" line="33" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1gae17811dbb1f4d3ba17f955bab2dab90d" prot="public" static="no">
         <type>Vector3&lt; FastInt128 &gt;</type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHighPrecision.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHighPrecision.h" bodystart="34" bodyend="-1"/>
+        <location file="MRMesh/MRHighPrecision.h" line="34" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga5e9d2be2ad9f46eff16c846e4c195057" prot="public" static="no">
         <type>Vector3&lt; Int256 &gt;</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHighPrecision.h" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHighPrecision.h" bodystart="37" bodyend="-1"/>
+        <location file="MRMesh/MRHighPrecision.h" line="37" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga6290db8f78d4998addb556921ff349ef" prot="public" static="no">
         <type>Vector3&lt; Int256 &gt;</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHighPrecision.h" line="38" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHighPrecision.h" bodystart="38" bodyend="-1"/>
+        <location file="MRMesh/MRHighPrecision.h" line="38" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="38" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Matrix" kind="struct" language="C++" prot="public">
     <compoundname>MR::Matrix</compoundname>
     <basecompoundref refid="classMR_1_1RectIndexer" prot="public" virt="non-virtual">MR::RectIndexer</basecompoundref>
-    <includes refid="MRMatrix_8h" local="no">MRMatrix.h</includes>
+    <includes refid="MRMatrix_8h" local="no">MRMesh/MRMatrix.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="18" bodyend="-1"/>
+        <location file="MRMesh/MRMatrix.h" line="18" column="5" bodyfile="MRMesh/MRMatrix.h" bodystart="18" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="89" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="89" bodyend="-1"/>
+        <location file="MRMesh/MRMatrix.h" line="89" column="17" bodyfile="MRMesh/MRMatrix.h" bodystart="89" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="19" column="15"/>
+        <location file="MRMesh/MRMatrix.h" line="19" column="15"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Matrix_1a76e03ab6e259da469989ca91e6c1dd3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="21" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="21" bodyend="24"/>
+        <location file="MRMesh/MRMatrix.h" line="21" column="5" bodyfile="MRMesh/MRMatrix.h" bodystart="21" bodyend="24"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Matrix_1a9732eb2252ae08face0de86a534e7102" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>T &amp;</type>
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="27" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="27" bodyend="27"/>
+        <location file="MRMesh/MRMatrix.h" line="27" column="17" bodyfile="MRMesh/MRMatrix.h" bodystart="27" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Matrix_1ab4dd30aee86567790c1f73778509456d" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>T &amp;</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="28" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="28" bodyend="28"/>
+        <location file="MRMesh/MRMatrix.h" line="28" column="17" bodyfile="MRMesh/MRMatrix.h" bodystart="28" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Matrix_1ab08a4a3c3eebfc38135fb65061fa927c" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>const T &amp;</type>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="29" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="29" bodyend="29"/>
+        <location file="MRMesh/MRMatrix.h" line="29" column="23" bodyfile="MRMesh/MRMatrix.h" bodystart="29" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Matrix_1ab3a6654e368fa2ab1dbb1fc6f37ac4e3" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>const T &amp;</type>
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="30" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="30" bodyend="30"/>
+        <location file="MRMesh/MRMatrix.h" line="30" column="23" bodyfile="MRMesh/MRMatrix.h" bodystart="30" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Matrix_1a806891030ce95bf1c8f30915a0068e98" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Matrix" kindref="compound">Matrix</ref></type>
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="32" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="32" bodyend="43"/>
+        <location file="MRMesh/MRMatrix.h" line="32" column="22" bodyfile="MRMesh/MRMatrix.h" bodystart="32" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Matrix_1a354da291fab3037516b4802e24177529" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Matrix" kindref="compound">Matrix</ref></type>
@@ -202,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="46" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="46" bodyend="57"/>
+        <location file="MRMesh/MRMatrix.h" line="46" column="22" bodyfile="MRMesh/MRMatrix.h" bodystart="46" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Matrix_1afcec7ff199943212099a907797f41293" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -220,7 +220,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="59" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="59" bodyend="65"/>
+        <location file="MRMesh/MRMatrix.h" line="59" column="10" bodyfile="MRMesh/MRMatrix.h" bodystart="59" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Matrix_1a9eb1e62339fab559b2cdea38de18d03a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -234,7 +234,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="67" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="67" bodyend="71"/>
+        <location file="MRMesh/MRMatrix.h" line="67" column="10" bodyfile="MRMesh/MRMatrix.h" bodystart="67" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Matrix_1aaf278a69da3b6609b3a56d61f89f989e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -248,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="73" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="73" bodyend="76"/>
+        <location file="MRMesh/MRMatrix.h" line="73" column="12" bodyfile="MRMesh/MRMatrix.h" bodystart="73" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Matrix_1aa5793f31905b29875d11cc1de6d948d5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -262,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="78" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="78" bodyend="81"/>
+        <location file="MRMesh/MRMatrix.h" line="78" column="12" bodyfile="MRMesh/MRMatrix.h" bodystart="78" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Matrix_1a72f839037b43011a56b0f8624c2df0dd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::vector&lt; T &gt; &amp;</type>
@@ -276,7 +276,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="83" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="83" bodyend="86"/>
+        <location file="MRMesh/MRMatrix.h" line="83" column="24" bodyfile="MRMesh/MRMatrix.h" bodystart="83" bodyend="86"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -308,7 +308,7 @@
         <link refid="classMR_1_1RectIndexer"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="16" bodyend="90"/>
+    <location file="MRMesh/MRMatrix.h" line="15" column="1" bodyfile="MRMesh/MRMatrix.h" bodystart="16" bodyend="90"/>
     <listofallmembers>
       <member refid="classMR_1_1RectIndexer_1a581238851bf8cb545d729d3957100372" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>areNeigbors</name></member>
       <member refid="classMR_1_1RectIndexer_1a95b4e703046a8706888f15f3bd4b7c3a" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>areNeigbors</name></member>

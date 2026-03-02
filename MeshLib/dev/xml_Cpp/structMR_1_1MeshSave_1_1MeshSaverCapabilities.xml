@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshSave_1_1MeshSaverCapabilities" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshSave::MeshSaverCapabilities</compoundname>
-    <includes refid="MRIOFormatsRegistry_8h" local="no">MRIOFormatsRegistry.h</includes>
+    <includes refid="MRIOFormatsRegistry_8h" local="no">MRMesh/MRIOFormatsRegistry.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1MeshSave_1_1MeshSaverCapabilities_1aa4b2b579cd71f458759433d38a543ad4" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="175" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="175" bodyend="175"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="175" column="10" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="175" bodyend="175"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -26,7 +26,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="172" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="173" bodyend="176"/>
+    <location file="MRMesh/MRIOFormatsRegistry.h" line="172" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="173" bodyend="176"/>
     <listofallmembers>
       <member refid="structMR_1_1MeshSave_1_1MeshSaverCapabilities_1aa4b2b579cd71f458759433d38a543ad4" prot="public" virt="non-virtual"><scope>MR::MeshSave::MeshSaverCapabilities</scope><name>storesVertexColors</name></member>
     </listofallmembers>

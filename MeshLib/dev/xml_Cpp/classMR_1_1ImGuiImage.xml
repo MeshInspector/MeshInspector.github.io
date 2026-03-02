@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ImGuiImage" kind="class" language="C++" prot="public">
     <compoundname>MR::ImGuiImage</compoundname>
     <derivedcompoundref refid="classMR_1_1MarkedVoxelSlice" prot="public" virt="non-virtual">MR::MarkedVoxelSlice</derivedcompoundref>
-    <includes refid="MRImGuiImage_8h" local="no">MRImGuiImage.h</includes>
+    <includes refid="MRImGuiImage_8h" local="no">MRViewer/MRImGuiImage.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga485930dc262707adae9bc77ca57c2640" kind="variable"><name>glTex_</name></member>
       <member refid="group__GeneralGroup_1ga715878fc4c2aecb3f8f9bf769bd6be1c" kind="variable"><name>texture_</name></member>
@@ -38,7 +38,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiImage.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiImage.h" bodystart="18" bodyend="44"/>
+    <location file="MRViewer/MRImGuiImage.h" line="17" column="1" bodyfile="MRViewer/MRImGuiImage.h" bodystart="18" bodyend="44"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0db5dac585c3b0076bd39954581c9c55" prot="private" virt="non-virtual"><scope>MR::ImGuiImage</scope><name>bind_</name></member>
       <member refid="group__GeneralGroup_1gaf7efcafad27428ae82671e4afd46058c" prot="public" virt="non-virtual"><scope>MR::ImGuiImage</scope><name>getId</name></member>

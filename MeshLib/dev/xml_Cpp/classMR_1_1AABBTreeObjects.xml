@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTreeObjects" kind="class" language="C++" prot="public">
     <compoundname>MR::AABBTreeObjects</compoundname>
     <basecompoundref refid="classMR_1_1AABBTreeBase" prot="public" virt="non-virtual">MR::AABBTreeBase&lt; ObjTreeTraits &gt;</basecompoundref>
-    <includes refid="MRAABBTreeObjects_8h" local="no">MRAABBTreeObjects.h</includes>
+    <includes refid="MRAABBTreeObjects_8h" local="no">MRMesh/MRAABBTreeObjects.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga97a1b1752d785a0592fce54dab8d265e" kind="variable"><name>objs_</name></member>
       <member refid="group__GeneralGroup_1ga7c0b46fdc4400fefa96e1e3750e9431a" kind="variable"><name>toLocal_</name></member>
@@ -52,7 +52,7 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" bodystart="22" bodyend="44"/>
+    <location file="MRMesh/MRAABBTreeObjects.h" line="21" column="1" bodyfile="MRMesh/MRAABBTreeObjects.h" bodystart="22" bodyend="44"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa38c8faf49a02e3d7be46e67ca93605c" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>AABBTreeObjects</name></member>
       <member refid="group__GeneralGroup_1gaec3a344c532422551b9c0b890b5f309e" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>AABBTreeObjects</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ImageSave" kind="class" language="C#" prot="public">
     <compoundname>MR::ImageSave</compoundname>
     <sectiondef kind="public-static-func">
@@ -146,7 +146,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" line="58" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageSave.cs" bodystart="4" bodyend="38"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" line="58" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRJpeg.cs" bodystart="59" bodyend="76"/>
     <listofallmembers>
       <member refid="classMR_1_1ImageSave_1a4935909377affb036d74d5ad69594ddf" prot="public" virt="non-virtual"><scope>MR::ImageSave</scope><name>toAnySupportedFormat</name></member>
       <member refid="classMR_1_1ImageSave_1a2d45abf074e52d5ac241a628737dc8d0" prot="public" virt="non-virtual"><scope>MR::ImageSave</scope><name>toBmp</name></member>

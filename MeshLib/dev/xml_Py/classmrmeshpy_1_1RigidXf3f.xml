@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1RigidXf3f" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::RigidXf3f</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -305,19 +305,6 @@ rigid transformation preserving all distances: y = A*x + b,
 where A is rotation matrix 3x3 stored as 3 angles, and b is shift vector
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.RigidXf3f</label>
-        <link refid="classmrmeshpy_1_1RigidXf3f"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_a</edgelabel>
-          <edgelabel>_offsetof_b</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50732" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50732" bodyend="50787"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1RigidXf3f_1adc8d26ea1f59063329a796469a11dae0" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXf3f</scope><name>__init__</name></member>

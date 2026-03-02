@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1Vector__FanRecord__VertId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Vector_FanRecord_VertId</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -987,20 +987,9 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
 
  \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
  \\tparam T type of stored elements
- \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+ \\tparam I type of index (shall be convertible to size_t)
+</verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.Vector_FanRecord_VertId</label>
-        <link refid="classmrmeshpy_1_1Vector__FanRecord__VertId"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_vec_</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64604" bodyend="64763"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Vector__FanRecord__VertId_1ae77607f98cd6286fc76fd32e5731fecf" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FanRecord_VertId</scope><name>__getitem__</name></member>

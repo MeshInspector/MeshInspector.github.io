@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshMeshConverter" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshMeshConverter</compoundname>
-    <includes refid="MRMeshBooleanFacade_8h" local="no">MRMeshBooleanFacade.h</includes>
+    <includes refid="MRMeshBooleanFacade_8h" local="no">MRMesh/MRMeshBooleanFacade.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga9bd956d7adf45e7f09fe6105d37a84cb" kind="function"><name>operator()</name></member>
       <member refid="group__GeneralGroup_1ga74a243478f2e75f7806d1c8a5cea592b" kind="function"><name>operator()</name></member>
@@ -14,7 +14,7 @@
     <detaileddescription>
 <para>the purpose of this class is to be a replacement for <ref refid="structMR_1_1MeshVoxelsConverter" kindref="compound">MeshVoxelsConverter</ref> in case one wants to quickly assess the change from voxel-based to mesh-based boolean </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" bodystart="24" bodyend="33"/>
+    <location file="MRMesh/MRMeshBooleanFacade.h" line="23" column="1" bodyfile="MRMesh/MRMeshBooleanFacade.h" bodystart="24" bodyend="33"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga9bd956d7adf45e7f09fe6105d37a84cb" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>operator()</name></member>
       <member refid="group__GeneralGroup_1ga74a243478f2e75f7806d1c8a5cea592b" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>operator()</name></member>

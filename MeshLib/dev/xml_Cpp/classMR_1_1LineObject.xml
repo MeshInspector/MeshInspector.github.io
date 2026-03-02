@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1LineObject" kind="class" language="C++" prot="public">
     <compoundname>MR::LineObject</compoundname>
     <basecompoundref refid="classMR_1_1FeatureObject" prot="public" virt="non-virtual">MR::FeatureObject</basecompoundref>
-    <includes refid="MRLineObject_8h" local="no">MRLineObject.h</includes>
+    <includes refid="MRLineObject_8h" local="no">MRMesh/MRLineObject.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gace2668c43a0ab76cfdbbf5485e7242da" kind="function"><name>LineObject</name></member>
       <member refid="group__GeneralGroup_1ga93b299dfc9ae2db8fd99d4df7cba96ab" kind="function"><name>LineObject</name></member>
@@ -182,7 +182,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineObject.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLineObject.h" bodystart="16" bodyend="87"/>
+    <location file="MRMesh/MRLineObject.h" line="15" column="1" bodyfile="MRMesh/MRLineObject.h" bodystart="16" bodyend="87"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::LineObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::LineObject</scope><name>addChildBefore</name></member>

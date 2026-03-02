@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1LineInterpolationParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::LineInterpolationParams</compoundname>
-    <includes refid="MRToolPath_8h" local="no">MRToolPath.h</includes>
+    <includes refid="MRToolPath_8h" local="no">MRVoxels/MRToolPath.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga00b2d591ecca68af7d6e8cbd8d119b05" kind="variable"><name>eps</name></member>
       <member refid="group__GeneralGroup_1ga588b14865af06878e86ac78f0f16a5e2" kind="variable"><name>maxLength</name></member>
@@ -12,7 +12,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="76" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="77" bodyend="84"/>
+    <location file="MRVoxels/MRToolPath.h" line="76" column="1" bodyfile="MRVoxels/MRToolPath.h" bodystart="77" bodyend="84"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga56f66f6964e1a35b9ad98d4ea792c248" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>cb</name></member>
       <member refid="group__GeneralGroup_1ga00b2d591ecca68af7d6e8cbd8d119b05" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>eps</name></member>

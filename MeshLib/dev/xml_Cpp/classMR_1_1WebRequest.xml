@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1WebRequest" kind="class" language="C++" prot="public">
     <compoundname>MR::WebRequest</compoundname>
-    <includes refid="MRWebRequest_8h" local="no">MRWebRequest.h</includes>
+    <includes refid="MRWebRequest_8h" local="no">MRViewer/MRWebRequest.h</includes>
     <innerclass refid="structMR_1_1WebRequest_1_1FormData" prot="public">MR::WebRequest::FormData</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gace710e20f931b5a3da04f21f16c5ab0c" kind="enum"><name>Method</name></member>
@@ -50,7 +50,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="21" bodyend="108"/>
+    <location file="MRViewer/MRWebRequest.h" line="20" column="1" bodyfile="MRViewer/MRWebRequest.h" bodystart="21" bodyend="108"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac176f357f82b22e35e269317878dfc13" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>async_</name></member>
       <member refid="group__GeneralGroup_1ga2d98bf2716e159aef994e183d95baf59" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>body_</name></member>

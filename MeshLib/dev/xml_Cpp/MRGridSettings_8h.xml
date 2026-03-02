@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRGridSettings_8h" kind="file" language="C++">
     <compoundname>MRGridSettings.h</compoundname>
     <includes refid="MRVector2_8h" local="yes">MRVector2.h</includes>
@@ -30,7 +30,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRGridSettings.h</label>
+        <label>MRMesh/MRGridSettings.h</label>
         <link refid="MRGridSettings_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -184,7 +184,7 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="structMR_1_1GridSettings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1GridSettings" kindref="compound">GridSettings</ref></highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1GridSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1GridSettings" kindref="compound">GridSettings</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1ga079676e2ac1f95a1b11ecb8b7f0042aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector2i<sp/><ref refid="group__GeneralGroup_1ga079676e2ac1f95a1b11ecb8b7f0042aa" kindref="member">dim</ref>;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
@@ -192,23 +192,23 @@
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1ga46d7f5e53476c23ef05251179f3e15f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga46d7f5e53476c23ef05251179f3e15f0" kindref="member">EdgeType</ref></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga46d7f5e53476c23ef05251179f3e15f0ac1b5fa03ecdb95d4a45dd1c40b02527f" kindref="member">Horizontal</ref>,<sp/><sp/></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga46d7f5e53476c23ef05251179f3e15f0a06ce2a25e5d12c166a36f654dbea6012" kindref="member">Vertical</ref>,<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga46d7f5e53476c23ef05251179f3e15f0af14de12b788d5fd679e1e5d2875b95f4" kindref="member">DiagonalA</ref>,<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga46d7f5e53476c23ef05251179f3e15f0abdd515b2294ff6174a1894240f02e08e" kindref="member">DiagonalB</ref><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1gga46d7f5e53476c23ef05251179f3e15f0ac1b5fa03ecdb95d4a45dd1c40b02527f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga46d7f5e53476c23ef05251179f3e15f0ac1b5fa03ecdb95d4a45dd1c40b02527f" kindref="member">Horizontal</ref>,<sp/><sp/></highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1gga46d7f5e53476c23ef05251179f3e15f0a06ce2a25e5d12c166a36f654dbea6012" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga46d7f5e53476c23ef05251179f3e15f0a06ce2a25e5d12c166a36f654dbea6012" kindref="member">Vertical</ref>,<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1gga46d7f5e53476c23ef05251179f3e15f0af14de12b788d5fd679e1e5d2875b95f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga46d7f5e53476c23ef05251179f3e15f0af14de12b788d5fd679e1e5d2875b95f4" kindref="member">DiagonalA</ref>,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1gga46d7f5e53476c23ef05251179f3e15f0abdd515b2294ff6174a1894240f02e08e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga46d7f5e53476c23ef05251179f3e15f0abdd515b2294ff6174a1894240f02e08e" kindref="member">DiagonalB</ref><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="34" refid="group__GeneralGroup_1gaeb3dd9e9c7f4ea93ddd4aea1b4afc61c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1BMap" kindref="compound">BMap&lt;UndirectedEdgeId, size_t&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaeb3dd9e9c7f4ea93ddd4aea1b4afc61c" kindref="member">uedgeIds</ref>;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36" refid="group__GeneralGroup_1gaf447c539472e1a0723a984179f282685" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf447c539472e1a0723a984179f282685" kindref="member">TriType</ref></highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaf447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93" kindref="member">Lower</ref>,<sp/></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaf447c539472e1a0723a984179f282685a19de5b94f7b83900d4b296d9fa491aec" kindref="member">Upper</ref><sp/><sp/></highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1ggaf447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaf447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93" kindref="member">Lower</ref>,<sp/></highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1ggaf447c539472e1a0723a984179f282685a19de5b94f7b83900d4b296d9fa491aec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaf447c539472e1a0723a984179f282685a19de5b94f7b83900d4b296d9fa491aec" kindref="member">Upper</ref><sp/><sp/></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="44" refid="group__GeneralGroup_1ga790adf53fc23a7b8fe0be9674ebb70af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1BMap" kindref="compound">BMap&lt;FaceId, size_t&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga790adf53fc23a7b8fe0be9674ebb70af" kindref="member">faceIds</ref>;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h"/>
+    <location file="MRMesh/MRGridSettings.h"/>
   </compounddef>
 </doxygen>

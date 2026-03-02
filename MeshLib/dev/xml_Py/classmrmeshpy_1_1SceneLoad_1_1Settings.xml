@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1SceneLoad_1_1Settings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::SceneLoad::Settings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -284,20 +284,6 @@ then adjusts transformations of the loaded objects to match target units
 <para><verbatim>Generated from:  MR::SceneLoad::Settings
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.SceneLoad.Settings</label>
-        <link refid="classmrmeshpy_1_1SceneLoad_1_1Settings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_openFolder</edgelabel>
-          <edgelabel>_offsetof_progress</edgelabel>
-          <edgelabel>_offsetof_targetUnit</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51305" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51305" bodyend="51354"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1SceneLoad_1_1Settings_1af7cf3975e07d01473927ab51acc6c932" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Settings</scope><name>__init__</name></member>

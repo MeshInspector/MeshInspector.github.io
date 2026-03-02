@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRayBoxIntersection_8h" kind="file" language="C++">
     <compoundname>MRRayBoxIntersection.h</compoundname>
     <includes refid="MRBox_8h" local="yes">MRBox.h</includes>
@@ -106,7 +106,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRRayBoxIntersection.h</label>
+        <label>MRMesh/MRRayBoxIntersection.h</label>
         <link refid="MRRayBoxIntersection_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -227,7 +227,7 @@
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="15" refid="structMR_1_1RayOrigin" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1RayOrigin" kindref="compound">RayOrigin</ref></highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1RayOrigin" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1RayOrigin_1a8502e2d024f3f9f3b84ad9f25f659eb7" kindref="member">RayOrigin</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18" refid="structMR_1_1RayOrigin_1ac04a9fc6f4e6573fb74ba782ee0db113" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/><ref refid="structMR_1_1RayOrigin_1ac04a9fc6f4e6573fb74ba782ee0db113" kindref="member">p</ref>;</highlight></codeline>
 <codeline lineno="19" refid="structMR_1_1RayOrigin_1a8502e2d024f3f9f3b84ad9f25f659eb7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1RayOrigin_1a8502e2d024f3f9f3b84ad9f25f659eb7" kindref="member">RayOrigin</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/>&amp;<sp/>ro<sp/>)<sp/>:<sp/><ref refid="structMR_1_1RayOrigin_1ac04a9fc6f4e6573fb74ba782ee0db113" kindref="member">p</ref>(<sp/>ro<sp/>)<sp/>{<sp/>}</highlight></codeline>
@@ -242,8 +242,8 @@
 <codeline lineno="29"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T<sp/>=<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline lineno="36" refid="group__RayBoxIntersectionGroup_1ga774d7b2ef218b7634faca3e3300f13b9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__RayBoxIntersectionGroup_1ga774d7b2ef218b7634faca3e3300f13b9" kindref="member">rayBoxIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Box" kindref="compound">Box3&lt;T&gt;</ref>&amp;<sp/>box,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1RayOrigin" kindref="compound">RayOrigin&lt;T&gt;</ref><sp/>&amp;<sp/>rayOrigin,<sp/>T<sp/>&amp;<sp/>t0,<sp/>T<sp/>&amp;<sp/>t1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IntersectionPrecomputes" kindref="compound">IntersectionPrecomputes&lt;T&gt;</ref>&amp;<sp/>prec<sp/>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T<sp/>=<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="36" refid="group__RayBoxIntersectionGroup_1ga774d7b2ef218b7634faca3e3300f13b9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__RayBoxIntersectionGroup_1ga774d7b2ef218b7634faca3e3300f13b9" kindref="member">rayBoxIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga37d1429bcc1cfa30af36ca6313eb4a5d" kindref="member">Box3&lt;T&gt;</ref>&amp;<sp/>box,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1RayOrigin" kindref="compound">RayOrigin&lt;T&gt;</ref><sp/>&amp;<sp/>rayOrigin,<sp/>T<sp/>&amp;<sp/>t0,<sp/>T<sp/>&amp;<sp/>t1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IntersectionPrecomputes" kindref="compound">IntersectionPrecomputes&lt;T&gt;</ref>&amp;<sp/>prec<sp/>)</highlight></codeline>
 <codeline lineno="37"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>defined(__x86_64__)<sp/>||<sp/>defined(_M_X64)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>(std::is_same_v&lt;T,<sp/>float&gt;)</highlight></codeline>
@@ -292,7 +292,7 @@
 <codeline lineno="85"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T<sp/>=<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline lineno="88" refid="group__RayBoxIntersectionGroup_1ga710fb3f98b472e45efdd6c3671f90581" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__RayBoxIntersectionGroup_1ga774d7b2ef218b7634faca3e3300f13b9" kindref="member">rayBoxIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Box" kindref="compound">Box3&lt;T&gt;</ref>&amp;<sp/>box,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Line" kindref="compound">Line3&lt;T&gt;</ref>&amp;<sp/>line,<sp/>T<sp/>t0,<sp/>T<sp/>t1<sp/>)</highlight></codeline>
+<codeline lineno="88" refid="group__RayBoxIntersectionGroup_1ga710fb3f98b472e45efdd6c3671f90581" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__RayBoxIntersectionGroup_1ga774d7b2ef218b7634faca3e3300f13b9" kindref="member">rayBoxIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga37d1429bcc1cfa30af36ca6313eb4a5d" kindref="member">Box3&lt;T&gt;</ref>&amp;<sp/>box,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7eef389e2e2dd24fc59576c7ad184eb5" kindref="member">Line3&lt;T&gt;</ref>&amp;<sp/>line,<sp/>T<sp/>t0,<sp/>T<sp/>t1<sp/>)</highlight></codeline>
 <codeline lineno="89"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1IntersectionPrecomputes" kindref="compound">IntersectionPrecomputes&lt;T&gt;</ref><sp/>prec(<sp/>line.d<sp/>);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__RayBoxIntersectionGroup_1ga774d7b2ef218b7634faca3e3300f13b9" kindref="member">rayBoxIntersect</ref>(<sp/>box,<sp/><ref refid="structMR_1_1RayOrigin" kindref="compound">RayOrigin&lt;T&gt;</ref>(<sp/>line.p<sp/>),<sp/>t0,<sp/>t1,<sp/>prec<sp/>);</highlight></codeline>
@@ -301,6 +301,6 @@
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
 <codeline lineno="96"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRayBoxIntersection.h"/>
+    <location file="MRMesh/MRRayBoxIntersection.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangeColoringActions_8h" kind="file" language="C++">
     <compoundname>MRChangeColoringActions.h</compoundname>
     <includes refid="MRHistoryAction_8h" local="no">MRCMesh/MRHistoryAction.h</includes>
@@ -88,8 +88,27 @@
         <argsstring></argsstring>
         <name>MR_FaceColors</name>
         <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::FaceColors</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -103,6 +122,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Abstract class for history actions Generated from class <computeroutput>MR::HistoryAction</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::ChangVoxelSelectionAction</computeroutput> <computeroutput>MR::ChangeActiveBoxAction</computeroutput> <computeroutput>MR::ChangeColoringType</computeroutput> <computeroutput>MR::ChangeDualMarchingCubesAction</computeroutput> <computeroutput>MR::ChangeFacesColorMapAction</computeroutput> <computeroutput>MR::ChangeGridAction</computeroutput> <computeroutput>MR::ChangeIsoAction</computeroutput> <computeroutput>MR::ChangeLabelAction</computeroutput> <computeroutput>MR::ChangeLinesColorMapAction</computeroutput> <computeroutput>MR::ChangeMeshAction</computeroutput> <computeroutput>MR::ChangeMeshCreasesAction</computeroutput> <computeroutput>MR::ChangeMeshDataAction</computeroutput> <computeroutput>MR::ChangeMeshEdgeSelectionAction</computeroutput> <computeroutput>MR::ChangeMeshFaceSelectionAction</computeroutput> <computeroutput>MR::ChangeMeshPointsAction</computeroutput> <computeroutput>MR::ChangeMeshTexturePerFaceAction</computeroutput> <computeroutput>MR::ChangeMeshTopologyAction</computeroutput> <computeroutput>MR::ChangeMeshUVCoordsAction</computeroutput> <computeroutput>MR::ChangeNameAction</computeroutput> <computeroutput>MR::ChangeObjectAction</computeroutput> <computeroutput>MR::ChangeObjectColorAction</computeroutput> <computeroutput>MR::ChangeObjectSelectedAction</computeroutput> <computeroutput>MR::ChangeObjectVisibilityAction</computeroutput> <computeroutput>MR::ChangeOneNormalInCloudAction</computeroutput> <computeroutput>MR::ChangeOnePointInCloudAction</computeroutput> <computeroutput>MR::ChangeOnePointInPolylineAction</computeroutput> <computeroutput>MR::ChangePointCloudAction</computeroutput> <computeroutput>MR::ChangePointCloudNormalsAction</computeroutput> <computeroutput>MR::ChangePointCloudPointsAction</computeroutput> <computeroutput>MR::ChangePointPointSelectionAction</computeroutput> <computeroutput>MR::ChangePolylineAction</computeroutput> <computeroutput>MR::ChangePolylinePointsAction</computeroutput> <computeroutput>MR::ChangePolylineTopologyAction</computeroutput> <computeroutput>MR::ChangeScaleAction</computeroutput> <computeroutput>MR::ChangeSceneAction</computeroutput> <computeroutput>MR::ChangeSceneObjectsOrder</computeroutput> <computeroutput>MR::ChangeSurfaceAction</computeroutput> <computeroutput>MR::ChangeTextureAction</computeroutput> <computeroutput>MR::ChangeVisualizePropertyAction</computeroutput> <computeroutput>MR::ChangeXfAction</computeroutput> <computeroutput>MR::CombinedHistoryAction</computeroutput> <computeroutput>MR::PartialChangeMeshAction</computeroutput> <computeroutput>MR::PartialChangeMeshDataAction</computeroutput> <computeroutput>MR::PartialChangeMeshPointsAction</computeroutput> <computeroutput>MR::PartialChangeMeshTopologyAction</computeroutput> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -114,8 +134,27 @@
         <argsstring></argsstring>
         <name>MR_UndirectedEdgeColors</name>
         <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::UndirectedEdgeColors</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -159,19 +198,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringActions.h" line="18" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringActions.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRChangeColoringActions_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
-        <definition>typedef struct MR_std_string MR_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringActions.h" line="19" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringActions.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRChangeColoringActions_8h_1ad0923473099f8142766aa2e3f19a66da" prot="public" static="no">
         <type>enum <ref refid="MRChangeColoringActions_8h_1a9789518b7ebd15e444aa399fec82113b" kindref="member">MR_ChangeObjectColorAction_Type</ref></type>
@@ -372,7 +398,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangeObjectColorAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" kindref="member">MR_ChangeObjectColorAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -390,7 +416,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ChangeObjectColorAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" kindref="member">MR_ChangeObjectColorAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -668,7 +694,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangeFacesColorMapAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" kindref="member">MR_ChangeFacesColorMapAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -686,7 +712,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ChangeFacesColorMapAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" kindref="member">MR_ChangeFacesColorMapAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -964,7 +990,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangeLinesColorMapAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" kindref="member">MR_ChangeLinesColorMapAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -982,7 +1008,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ChangeLinesColorMapAction</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" kindref="member">MR_ChangeLinesColorMapAction</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1116,7 +1142,7 @@
 <codeline lineno="16" refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MRChangeColoringActions_8h_1abd3bb0462953cf0fbf4ae07efee66edb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1abd3bb0462953cf0fbf4ae07efee66edb" kindref="member">MR_std_shared_ptr_MR_ObjectMeshHolder</ref><sp/><ref refid="MRChangeColoringActions_8h_1abd3bb0462953cf0fbf4ae07efee66edb" kindref="member">MR_std_shared_ptr_MR_ObjectMeshHolder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_ObjectMeshHolder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_VisualObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRChangeColoringActions_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="MRChangeColoringActions_8h_1a9789518b7ebd15e444aa399fec82113b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a9789518b7ebd15e444aa399fec82113b" kindref="member">MR_ChangeObjectColorAction_Type</ref></highlight></codeline>
@@ -1126,11 +1152,11 @@
 <codeline lineno="26" refid="MRChangeColoringActions_8h_1a9789518b7ebd15e444aa399fec82113baa6bfe306da5b05891481dc4629693916" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRChangeColoringActions_8h_1a9789518b7ebd15e444aa399fec82113baa6bfe306da5b05891481dc4629693916" kindref="member">MR_ChangeObjectColorAction_Type_Back</ref><sp/>=<sp/>2,</highlight></codeline>
 <codeline lineno="27" refid="MRChangeColoringActions_8h_1ad0923473099f8142766aa2e3f19a66da" refkind="member"><highlight class="normal">}<sp/><ref refid="MRChangeColoringActions_8h_1a9789518b7ebd15e444aa399fec82113b" kindref="member">MR_ChangeObjectColorAction_Type</ref>;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" kindref="member">MR_ChangeObjectColorAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" kindref="member">MR_ChangeObjectColorAction</ref>;</highlight></codeline>
+<codeline lineno="36" refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" kindref="member">MR_ChangeObjectColorAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" kindref="member">MR_ChangeObjectColorAction</ref>;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" kindref="member">MR_ChangeFacesColorMapAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" kindref="member">MR_ChangeFacesColorMapAction</ref>;</highlight></codeline>
+<codeline lineno="44" refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" kindref="member">MR_ChangeFacesColorMapAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1aa58fe3709044e59d1dfb8d98ebf99e87" kindref="member">MR_ChangeFacesColorMapAction</ref>;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" kindref="member">MR_ChangeLinesColorMapAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" kindref="member">MR_ChangeLinesColorMapAction</ref>;</highlight></codeline>
+<codeline lineno="52" refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" kindref="member">MR_ChangeLinesColorMapAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a5d3e82a1fb3901ece39b0b72e3f54800" kindref="member">MR_ChangeLinesColorMapAction</ref>;</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="57" refid="MRChangeColoringActions_8h_1a24556dbc0273bdf0b0aa79edc84d9c72" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" kindref="member">MR_ChangeObjectColorAction</ref><sp/>*<ref refid="MRChangeColoringActions_8h_1a24556dbc0273bdf0b0aa79edc84d9c72" kindref="member">MR_ChangeObjectColorAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeColoringActions_8h_1ac5655fa994c66e1064866af75a1c3f2b" kindref="member">MR_ChangeObjectColorAction</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>

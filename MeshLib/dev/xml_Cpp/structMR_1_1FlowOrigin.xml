@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1FlowOrigin" kind="struct" language="C++" prot="public">
     <compoundname>MR::FlowOrigin</compoundname>
-    <includes refid="MRAggregateFlow_8h" local="no">MRAggregateFlow.h</includes>
+    <includes refid="MRAggregateFlow_8h" local="no">MRMesh/MRAggregateFlow.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga31bfc9564520f8ef69c0c112375278fb" kind="variable"><name>point</name></member>
       <member refid="group__GeneralGroup_1ga640532564293308f481aa69ef1b94062" kind="variable"><name>amount</name></member>
@@ -24,7 +24,7 @@
         <link refid="structMR_1_1MeshTriPoint"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="15" bodyend="20"/>
+    <location file="MRMesh/MRAggregateFlow.h" line="14" column="1" bodyfile="MRMesh/MRAggregateFlow.h" bodystart="15" bodyend="20"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga640532564293308f481aa69ef1b94062" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>amount</name></member>
       <member refid="group__GeneralGroup_1ga31bfc9564520f8ef69c0c112375278fb" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>point</name></member>

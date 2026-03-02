@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RibbonSchemaHolder_1_1SearchResult" kind="struct" language="C++" prot="public">
     <compoundname>MR::RibbonSchemaHolder::SearchResult</compoundname>
-    <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
+    <includes refid="MRRibbonSchema_8h" local="no">MRViewer/MRRibbonSchema.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga62d11082407bfd9fa9123e8c61f6c3f8" kind="variable"><name>tabIndex</name></member>
       <member refid="group__GeneralGroup_1ga7ca888bade52243be40b9bc8ea954035" kind="variable"><name>item</name></member>
@@ -32,7 +32,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="97" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="98" bodyend="101"/>
+    <location file="MRViewer/MRRibbonSchema.h" line="97" column="5" bodyfile="MRViewer/MRRibbonSchema.h" bodystart="98" bodyend="101"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7ca888bade52243be40b9bc8ea954035" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchResult</scope><name>item</name></member>
       <member refid="group__GeneralGroup_1ga62d11082407bfd9fa9123e8c61f6c3f8" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchResult</scope><name>tabIndex</name></member>

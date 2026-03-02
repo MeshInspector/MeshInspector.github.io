@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChunkIterator_8h" kind="file" language="C++">
     <compoundname>MRChunkIterator.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -39,6 +39,7 @@
         <argsstring></argsstring>
         <name>MR_IteratorRange_MR_ChunkIterator</name>
         <briefdescription>
+<para>simple alternative to boost/iterator_range Generated from class <computeroutput>MR::IteratorRange&lt;MR::ChunkIterator&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -321,7 +322,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Chunk</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -339,7 +340,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Chunk</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -738,7 +739,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ChunkIterator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -756,7 +757,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ChunkIterator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -953,9 +954,9 @@
 <codeline lineno="13" refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref><sp/><ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIteratorRange.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref>;</highlight></codeline>
+<codeline lineno="19" refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref>;</highlight></codeline>
+<codeline lineno="24" refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31" refid="MRChunkIterator_8h_1abe55eb90a40bd72e010c6557a607010e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR_uint64_t<sp/>*<ref refid="MRChunkIterator_8h_1abe55eb90a40bd72e010c6557a607010e" kindref="member">MR_Chunk_Get_offset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a9c3852fda9fab3637ddd459600e307fc" kindref="member">MR_Chunk</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>

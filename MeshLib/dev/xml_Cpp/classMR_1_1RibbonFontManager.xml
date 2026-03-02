@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonFontManager" kind="class" language="C++" prot="public">
     <compoundname>MR::RibbonFontManager</compoundname>
-    <includes refid="MRRibbonFontManager_8h" local="no">MRRibbonFontManager.h</includes>
+    <includes refid="MRRibbonFontManager_8h" local="no">MRViewer/MRRibbonFontManager.h</includes>
     <innerclass refid="structMR_1_1RibbonFontManager_1_1FontData" prot="private">MR::RibbonFontManager::FontData</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gaba42ec493818f2de36d60f069b34cee4" kind="enum"><name>FontType</name></member>
@@ -38,7 +38,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" bodystart="15" bodyend="96"/>
+    <location file="MRViewer/MRRibbonFontManager.h" line="14" column="1" bodyfile="MRViewer/MRRibbonFontManager.h" bodystart="15" bodyend="96"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga467cb9c5acd294f0d22ad2b2388f4ccb" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>FontFile</name></member>
       <member refid="group__GeneralGroup_1gab37a19ee9fe77c068e749dc7e8dfd6b2" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager</scope><name>FontFilePaths</name></member>

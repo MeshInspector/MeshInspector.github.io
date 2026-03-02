@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshTopologyDiff" kind="class" language="C++" prot="public">
     <compoundname>MR::MeshTopologyDiff</compoundname>
-    <includes refid="MRMeshTopologyDiff_8h" local="no">MRMeshTopologyDiff.h</includes>
+    <includes refid="MRMeshTopologyDiff_8h" local="no">MRMesh/MRMeshTopologyDiff.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga9f2e1e81b6a1f5328a10fb914ad88869" kind="variable"><name>toEdgesSize_</name></member>
       <member refid="group__GeneralGroup_1ga39b1649c247ac2e6e2c8364114912a1d" kind="variable"><name>changedEdges_</name></member>
@@ -20,7 +20,7 @@
 <para>this object stores a difference between two topologies: both in coordinates and in topology</para>
 <para>if the topologies are similar then this object is small, if the topologies are very distinct then this object will be even larger than one topology itself </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" bodystart="16" bodyend="39"/>
+    <location file="MRMesh/MRMeshTopologyDiff.h" line="15" column="1" bodyfile="MRMesh/MRMeshTopologyDiff.h" bodystart="16" bodyend="39"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaeb15ef52dc9593c97da084a462456e23" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>any</name></member>
       <member refid="group__GeneralGroup_1ga2938cffd19b314aeae8e39ef7dc4df2e" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>applyAndSwap</name></member>

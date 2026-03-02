@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1UnitInfo" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::UnitInfo</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -287,20 +287,6 @@ This may or may not start with a space.
 Information about a single measurement unit.
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.UnitInfo</label>
-        <link refid="classmrmeshpy_1_1UnitInfo"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_conversionFactor</edgelabel>
-          <edgelabel>_offsetof_prettyName</edgelabel>
-          <edgelabel>_offsetof_unitSuffix</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60947" bodyend="60999"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1UnitInfo_1a7ad6feb4a7412ebca6fc176d964c8315" prot="public" virt="non-virtual"><scope>mrmeshpy::UnitInfo</scope><name>__init__</name></member>

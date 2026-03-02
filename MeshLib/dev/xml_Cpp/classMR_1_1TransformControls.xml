@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TransformControls" kind="class" language="C++" prot="public">
     <compoundname>MR::TransformControls</compoundname>
     <basecompoundref refid="classMR_1_1ITransformControls" prot="public" virt="non-virtual">MR::ITransformControls</basecompoundref>
-    <includes refid="MRObjectTransformWidget_8h" local="no">MRObjectTransformWidget.h</includes>
+    <includes refid="MRObjectTransformWidget_8h" local="no">MRViewer/MRObjectTransformWidget.h</includes>
     <innerclass refid="structMR_1_1TransformControls_1_1VisualParams" prot="public">MR::TransformControls::VisualParams</innerclass>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga1b059680e24d210457de414b627f2507" kind="variable"><name>params_</name></member>
@@ -69,7 +69,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="133" bodyend="219"/>
+    <location file="MRViewer/MRObjectTransformWidget.h" line="132" column="1" bodyfile="MRViewer/MRObjectTransformWidget.h" bodystart="133" bodyend="219"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac9dcf0941d5bb699117accfe65f73810" prot="private" virt="non-virtual"><scope>MR::TransformControls</scope><name>activeLine_</name></member>
       <member refid="group__GeneralGroup_1ga5e795f2b8097d3ce430e9bd4bdf3283f" prot="private" virt="non-virtual"><scope>MR::TransformControls</scope><name>findHoveredIndex_</name></member>

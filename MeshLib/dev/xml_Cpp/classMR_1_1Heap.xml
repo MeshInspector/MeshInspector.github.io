@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Heap" kind="class" language="C++" prot="public">
     <compoundname>MR::Heap</compoundname>
-    <includes refid="MRHeap_8h" local="no">MRHeap.h</includes>
+    <includes refid="MRHeap_8h" local="no">MRMesh/MRHeap.h</includes>
     <innerclass refid="structMR_1_1Heap_1_1Element" prot="public">MR::Heap::Element</innerclass>
     <templateparamlist>
       <param>
@@ -13,6 +13,7 @@
       </param>
       <param>
         <type>typename P</type>
+        <defval>std::less&lt;T&gt;</defval>
       </param>
     </templateparamlist>
     <sectiondef kind="private-attrib">
@@ -28,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="60" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="60" bodyend="-1"/>
+        <location file="MRMesh/MRHeap.h" line="60" column="17" bodyfile="MRMesh/MRHeap.h" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Heap_1a9eb358dc5a4f0d0907ebf1397be937f6" prot="private" static="no" mutable="no">
         <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; size_t, <ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref> &gt;</type>
@@ -42,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="61" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="61" bodyend="-1"/>
+        <location file="MRMesh/MRHeap.h" line="61" column="12" bodyfile="MRMesh/MRHeap.h" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Heap_1a1a9506e21e2b8f84d7c4f23873e5fe8b" prot="private" static="no" mutable="no">
         <type>P</type>
@@ -56,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="62" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="62" bodyend="-1"/>
+        <location file="MRMesh/MRHeap.h" line="62" column="7" bodyfile="MRMesh/MRHeap.h" bodystart="62" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -75,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="36" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="36" bodyend="36"/>
+        <location file="MRMesh/MRHeap.h" line="36" column="12" bodyfile="MRMesh/MRHeap.h" bodystart="36" bodyend="36"/>
       </memberdef>
       <member refid="group__BasicGroup_1ga2dc347cff75def29aeb2eaa76f066a84" kind="function"><name>resize</name></member>
       <memberdef kind="function" id="classMR_1_1Heap_1abb8cd2f765625c9a0997a2cc6ec78e3c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
@@ -95,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="40" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="40" bodyend="40"/>
+        <location file="MRMesh/MRHeap.h" line="40" column="14" bodyfile="MRMesh/MRHeap.h" bodystart="40" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Heap_1a1df97b93103894341efd76f393c597fb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="structMR_1_1Heap_1_1Element" kindref="compound">Element</ref> &amp;</type>
@@ -110,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="42" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="42" bodyend="42"/>
+        <location file="MRMesh/MRHeap.h" line="42" column="20" bodyfile="MRMesh/MRHeap.h" bodystart="42" bodyend="42"/>
       </memberdef>
       <member refid="group__BasicGroup_1ga113ac866225ab4355eef002299a93671" kind="function"><name>setValue</name></member>
       <member refid="group__BasicGroup_1ga63073f7e258e45cf224a470df850692a" kind="function"><name>setLargerValue</name></member>
@@ -140,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="49" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="49" bodyend="49"/>
+        <location file="MRMesh/MRHeap.h" line="49" column="10" bodyfile="MRMesh/MRHeap.h" bodystart="49" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Heap_1adb81421ba706699de893596855455c2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Heap_1_1Element" kindref="compound">Element</ref></type>
@@ -160,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="51" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="51" bodyend="51"/>
+        <location file="MRMesh/MRHeap.h" line="51" column="13" bodyfile="MRMesh/MRHeap.h" bodystart="51" bodyend="51"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -173,7 +174,7 @@
     <detaileddescription>
 <para>provides two operations: 1) change the value of any element; 2) find the element with the largest value </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" bodystart="628" bodyend="-1"/>
+    <location file="MRMesh/MRHeap.h" line="22" column="1" bodyfile="MRMesh/MRHeap.h" bodystart="23" bodyend="63"/>
     <listofallmembers>
       <member refid="group__BasicGroup_1ga9313e4c55061c6256011bd32a616752e" prot="public" virt="non-virtual"><scope>MR::Heap</scope><name>Heap</name></member>
       <member refid="group__BasicGroup_1ga26381c3d0e45502caae2e269f988a3f8" prot="public" virt="non-virtual"><scope>MR::Heap</scope><name>Heap</name></member>

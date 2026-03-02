@@ -8555,14 +8555,6 @@ var group__GeneralGroup =
       [ "minCoord", "group__GeneralGroup.html#ga3df011766c40c1643253a7c4c1871135", null ],
       [ "shift", "group__GeneralGroup.html#ga67dfdaf568c4844e1435a42bec259460", null ]
     ] ],
-    [ "MR::VoxelsVolumeAccessor< VoxelsVolume< Vector< T, VoxelId > > >", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4.html", [
-      [ "ValueType", "group__GeneralGroup.html#gaadb5959316d4c15ab69ae78501aae575", null ],
-      [ "VolumeType", "group__GeneralGroup.html#gae1c5eb013533230efb01586bad5f3426", null ],
-      [ "VoxelsVolumeAccessor", "group__GeneralGroup.html#ga2b5abd9becbd2d068651ba0afc5a49fe", null ],
-      [ "get", "group__GeneralGroup.html#gae73fe3f829a36a4c416f494dd52d6a23", null ],
-      [ "get", "group__GeneralGroup.html#gad5969e08db6cde585c897d89b6187f8e", null ],
-      [ "shift", "group__GeneralGroup.html#ga16cbb3f5602c06dae1c74f1432459b97", null ]
-    ] ],
     [ "MR::VoxelsVolumeAccessor< VoxelsVolumeMinMax< Vector< T, VoxelId > > >", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4.html", [
       [ "ValueType", "group__GeneralGroup.html#gaa22d7ef42dfaaf6e48b28ab35f07eea9", null ],
       [ "VolumeType", "group__GeneralGroup.html#ga70725f7f72857d3b45faf0a3de686eb0", null ]
@@ -16484,7 +16476,7 @@ var group__GeneralGroup =
     [ "MR::MeshBuilder::Triangle::f", "group__GeneralGroup.html#gae1a5aa6c5e37175f3bebd45ab1014e5b", null ],
     [ "MR::PackMapping::f", "group__GeneralGroup.html#ga53564598fd272bd72bf4ea9a97a2340a", null ],
     [ "MR::PointOnFace::face", "group__GeneralGroup.html#ga2ec934aa6c7847dbfbc812bcea286b53", null ],
-    [ "MR::PointOnObject::@0::face", "group__GeneralGroup.html#ga15d029efcb7ca44901aae950bd538935", null ],
+    [ "MR::PointOnObject::@373253136045165145245233037211050217110323332135::face", "group__GeneralGroup.html#gadbd62fd33d95af9562f9840b661b493c", null ],
     [ "MR::PointOnObject::face", "group__GeneralGroup.html#ga097965189767222c3d16454fef46570c", null ],
     [ "MR::MeshAttributesToUpdate::faceColors", "group__GeneralGroup.html#ga7b265a7a8c17525854733647c2bf3363", null ],
     [ "MR::MeshLoadSettings::faceColors", "group__GeneralGroup.html#ga7dbfff2eb5c5cb545df805be2ba90d72", null ],
@@ -17301,7 +17293,7 @@ var group__GeneralGroup =
     [ "MR::MeshTopology::HalfEdgeRecord::prev", "group__GeneralGroup.html#ga72d923a9f0e2f0b8bf55d43bbd30bc2c", null ],
     [ "MR::ImGuiMenu::prevFrameFocusPlugin_", "group__GeneralGroup.html#gaed028910bb5ce3eedfa0802afa5e040d", null ],
     [ "MR::RibbonMenu::prevFrameSelectedObjectsCache_", "group__GeneralGroup.html#ga8d13b702d7c6dad7794328080b6562e0", null ],
-    [ "MR::PointOnObject::@0::primId", "group__GeneralGroup.html#ga6c8b7d41f8ab72496cef8dfbe83420db", null ],
+    [ "MR::PointOnObject::@373253136045165145245233037211050217110323332135::primId", "group__GeneralGroup.html#gabdc8c5b35d482d47aeeaa476b6834821", null ],
     [ "MR::PointOnObject::primId", "group__GeneralGroup.html#ga24573ab8d99e131aad6fa4b5b12e034f", null ],
     [ "MR::ViewportGL::BasePickResult::primId", "group__GeneralGroup.html#ga0dd6e10cd7b368dae3470cbdf00592ca", null ],
     [ "MR::SaveSettings::primitiveColors", "group__GeneralGroup.html#ga2adbb4514d02bbf6b87e95a090e1a2d9", null ],
@@ -17782,7 +17774,7 @@ var group__GeneralGroup =
     [ "MR::RibbonMenuItem::type_", "group__GeneralGroup.html#ga00b402da6dbcec7d6c97b5c6a16e3924", null ],
     [ "MR::OffsetContoursOrigins::uDest", "group__GeneralGroup.html#ga4ffc0647f40dc8059aaceaa657ec9511", null ],
     [ "MR::PlanarTriangulation::IntersectionInfo::uDest", "group__GeneralGroup.html#ga317063d55c098c2ef928c24f84e7d072", null ],
-    [ "MR::PointOnObject::@0::uedge", "group__GeneralGroup.html#gabd6b8b32c22f20801f4f1f3196a7b3ae", null ],
+    [ "MR::PointOnObject::@373253136045165145245233037211050217110323332135::uedge", "group__GeneralGroup.html#gafa9071cf774def640d8a72f9bc95be1d", null ],
     [ "MR::PointOnObject::uedge", "group__GeneralGroup.html#gaff11e6354c0eb7e2e92d1ecdf69ddb18", null ],
     [ "MR::GridSettings::uedgeIds", "group__GeneralGroup.html#gaeb3dd9e9c7f4ea93ddd4aea1b4afc61c", null ],
     [ "MR::ImGuiMenu::uiRenderManager_", "group__GeneralGroup.html#gac676c6482bdbd381c6a69ec47774f8eb", null ],
@@ -17855,7 +17847,7 @@ var group__GeneralGroup =
     [ "MR::Vector4", "group__GeneralGroup.html#ga67cff5041f700991499e260768a69ab8", null ],
     [ "MR::Vector4b", "group__GeneralGroup.html#gacc7861b5127982b69e4a2387666c8d62", null ],
     [ "MR::ViewerTitle::version_", "group__GeneralGroup.html#ga3f2e4aee7140f209be94eceacd3a0ea0", null ],
-    [ "MR::PointOnObject::@0::vert", "group__GeneralGroup.html#ga4eebac5fe2f05e63ab79f7885346d0e7", null ],
+    [ "MR::PointOnObject::@373253136045165145245233037211050217110323332135::vert", "group__GeneralGroup.html#gad3b7fe6445d0f17096617bd789144fd0", null ],
     [ "MR::PointOnObject::vert", "group__GeneralGroup.html#gaea864d6b3c02490b48f05814d5023357", null ],
     [ "MR::ObjectMeshData::vertColors", "group__GeneralGroup.html#gadf02aa6045febefa4bf078f43e512ee9", null ],
     [ "MR::RenderMeshObject::vertColorsBuffer_", "group__GeneralGroup.html#ga7be65ffb643076059379c9333885a89c", null ],

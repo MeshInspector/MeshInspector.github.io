@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRTbbThreadMutex_8h" kind="file" language="C++">
     <compoundname>MRTbbThreadMutex.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -7,7 +7,7 @@
     <includes local="no">atomic</includes>
     <includes local="no">optional</includes>
     <includes local="no">thread</includes>
-    <includedby refid="MRParallelFor_8h" local="yes">MRParallelFor.h</includedby>
+    <includedby refid="MRParallelFor_8h" local="yes">MRMesh/MRParallelFor.h</includedby>
     <incdepgraph>
       <node id="4">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -42,7 +42,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRTbbThreadMutex.h</label>
+        <label>MRMesh/MRTbbThreadMutex.h</label>
         <link refid="MRTbbThreadMutex_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -92,11 +92,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>MRConeApproximator.h</label>
+        <label>MRMesh/MRConeApproximator.h</label>
         <link refid="MRConeApproximator_8h"/>
       </node>
       <node id="2">
-        <label>MRParallelFor.h</label>
+        <label>MRMesh/MRParallelFor.h</label>
         <link refid="MRParallelFor_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -106,17 +106,17 @@
         </childnode>
       </node>
       <node id="4">
-        <label>MRParallelMinMax.h</label>
+        <label>MRMesh/MRParallelMinMax.h</label>
         <link refid="MRParallelMinMax_8h"/>
       </node>
       <node id="1">
-        <label>MRTbbThreadMutex.h</label>
+        <label>MRMesh/MRTbbThreadMutex.h</label>
         <link refid="MRTbbThreadMutex_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRVoxelsVolumeCachingAccessor.h</label>
+        <label>MRVoxels/MRVoxelsVolumeCachingAccessor.h</label>
         <link refid="MRVoxelsVolumeCachingAccessor_8h"/>
       </node>
     </invincdepgraph>
@@ -142,21 +142,21 @@
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="classMR_1_1TbbThreadMutex" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="classMR_1_1TbbThreadMutex" kindref="compound">TbbThreadMutex</ref></highlight></codeline>
+<codeline lineno="34" refid="classMR_1_1TbbThreadMutex" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="group__GeneralGroup_1ga9e630cbbab6778f00b0ce87c5a65a538" kindref="member">TbbThreadMutex</ref></highlight></codeline>
 <codeline lineno="35"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="39" refid="group__GeneralGroup_1ga9e630cbbab6778f00b0ce87c5a65a538" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9e630cbbab6778f00b0ce87c5a65a538" kindref="member">TbbThreadMutex</ref>(<sp/>std::thread::id<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>std::this_thread::get_id()<sp/>);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="classMR_1_1TbbThreadMutex_1_1LockGuard" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1TbbThreadMutex_1_1LockGuard" kindref="compound">LockGuard</ref></highlight></codeline>
+<codeline lineno="42" refid="classMR_1_1TbbThreadMutex_1_1LockGuard" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LockGuard</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="44" refid="group__GeneralGroup_1ga8c6392ce214f3ae75940276985adb46a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1TbbThreadMutex" kindref="compound">TbbThreadMutex</ref>;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1TbbThreadMutex" kindref="compound">TbbThreadMutex</ref>*<sp/>mutex_{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="44" refid="group__GeneralGroup_1ga8c6392ce214f3ae75940276985adb46a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga8c6392ce214f3ae75940276985adb46a" kindref="member">TbbThreadMutex</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8c6392ce214f3ae75940276985adb46a" kindref="member">TbbThreadMutex</ref>*<sp/>mutex_{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1TbbThreadMutex_1_1LockGuard" kindref="compound">LockGuard</ref>(<sp/><ref refid="classMR_1_1TbbThreadMutex" kindref="compound">TbbThreadMutex</ref>&amp;<sp/>mutex<sp/>)<sp/>:<sp/>mutex_(<sp/>&amp;mutex<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1TbbThreadMutex_1_1LockGuard" kindref="compound">LockGuard</ref>(<sp/><ref refid="group__GeneralGroup_1ga9e630cbbab6778f00b0ce87c5a65a538" kindref="member">TbbThreadMutex</ref>&amp;<sp/>mutex<sp/>)<sp/>:<sp/>mutex_(<sp/>&amp;mutex<sp/>)<sp/>{}</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="50" refid="group__GeneralGroup_1ga88773482b1410e7fe4a3e0199337191c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga88773482b1410e7fe4a3e0199337191c" kindref="member">LockGuard</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1TbbThreadMutex_1_1LockGuard" kindref="compound">LockGuard</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="51" refid="group__GeneralGroup_1ga1dc758a109b4c0c35b31302cab8b2bbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga1dc758a109b4c0c35b31302cab8b2bbc" kindref="member">LockGuard</ref>(<sp/><ref refid="classMR_1_1TbbThreadMutex_1_1LockGuard" kindref="compound">LockGuard</ref>&amp;&amp;<sp/>other<sp/>);</highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1ga88773482b1410e7fe4a3e0199337191c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga88773482b1410e7fe4a3e0199337191c" kindref="member">LockGuard</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LockGuard&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1ga1dc758a109b4c0c35b31302cab8b2bbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga1dc758a109b4c0c35b31302cab8b2bbc" kindref="member">LockGuard</ref>(<sp/>LockGuard&amp;&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53" refid="group__GeneralGroup_1gaf764f93b60643f2b782f259b29fa4ef0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gaf764f93b60643f2b782f259b29fa4ef0" kindref="member">~LockGuard</ref>();</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
@@ -168,8 +168,8 @@
 <codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>std::atomic_flag<sp/>lockFlag_;</highlight></codeline>
 <codeline lineno="63"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h"/>
+    <location file="MRMesh/MRTbbThreadMutex.h"/>
   </compounddef>
 </doxygen>

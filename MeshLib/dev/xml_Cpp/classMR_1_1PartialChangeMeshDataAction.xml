@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PartialChangeMeshDataAction" kind="class" language="C++" prot="public">
     <compoundname>MR::PartialChangeMeshDataAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRChangeMeshDataAction_8h" local="no">MRChangeMeshDataAction.h</includes>
+    <includes refid="MRChangeMeshDataAction_8h" local="no">MRMesh/MRChangeMeshDataAction.h</includes>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1PartialChangeMeshDataAction_1a0d23198d4fe1b60970b70ff825ff8a8d" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; <ref refid="classMR_1_1CombinedHistoryAction" kindref="compound">CombinedHistoryAction</ref> &gt;</type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="108" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="108" bodyend="-1"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="108" column="21" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="108" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="83" column="6"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="83" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PartialChangeMeshDataAction_1a86738a241e4ba1a61752fd26623c61e3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="85" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="85" bodyend="91"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="85" column="25" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="85" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PartialChangeMeshDataAction_1a846fb0d5a0466f922b3fd7fca3c1b516" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="93" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="93" bodyend="97"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="93" column="18" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="93" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PartialChangeMeshDataAction_1a0506227ed109f9b28b74220235172ddc" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="99" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="99" bodyend="105"/>
+        <location file="MRMesh/MRChangeMeshDataAction.h" line="99" column="21" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="99" bodyend="105"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -129,7 +129,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="79" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="80" bodyend="109"/>
+    <location file="MRMesh/MRChangeMeshDataAction.h" line="79" column="1" bodyfile="MRMesh/MRChangeMeshDataAction.h" bodystart="80" bodyend="109"/>
     <listofallmembers>
       <member refid="classMR_1_1PartialChangeMeshDataAction_1a846fb0d5a0466f922b3fd7fca3c1b516" prot="public" virt="virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>action</name></member>
       <member refid="classMR_1_1PartialChangeMeshDataAction_1a0d23198d4fe1b60970b70ff825ff8a8d" prot="private" virt="non-virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>combinedAction_</name></member>

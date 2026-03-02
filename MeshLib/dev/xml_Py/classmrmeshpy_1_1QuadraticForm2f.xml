@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1QuadraticForm2f" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::QuadraticForm2f</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -331,19 +331,6 @@ Aliases:  Vector_QuadraticForm2f_VertId.const_reference, Vector_QuadraticForm2f_
 quadratic form: f = x^T A x + c
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.QuadraticForm2f</label>
-        <link refid="classmrmeshpy_1_1QuadraticForm2f"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_A</edgelabel>
-          <edgelabel>_offsetof_c</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48664" bodyend="48723"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1QuadraticForm2f_1af8e70ad6f3ff91a7ec2718c60119023b" prot="public" virt="non-virtual"><scope>mrmeshpy::QuadraticForm2f</scope><name>__init__</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointCloud_8h" kind="file" language="C++">
     <compoundname>MRPointCloud.h</compoundname>
     <includes refid="MRVector_8h" local="yes">MRVector.h</includes>
@@ -8,14 +8,14 @@
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRSharedThreadSafeOwner_8h" local="yes">MRSharedThreadSafeOwner.h</includes>
     <includes refid="MRCloudPartMapping_8h" local="yes">MRCloudPartMapping.h</includes>
-    <includedby refid="MRChangePointCloudAction_8h" local="yes">MRChangePointCloudAction.h</includedby>
-    <includedby refid="MRChangePointCloudNormalsAction_8h" local="yes">MRChangePointCloudNormalsAction.h</includedby>
-    <includedby refid="MRDenseBox_8h" local="yes">MRDenseBox.h</includedby>
-    <includedby refid="MRE57_8h" local="no">MRE57.h</includedby>
-    <includedby refid="MRMeshToPointCloud_8h" local="yes">MRMeshToPointCloud.h</includedby>
-    <includedby refid="MRPointsSave_8h" local="yes">MRPointsSave.h</includedby>
-    <includedby refid="MRPointsToDistanceVolume_8h" local="yes">MRPointsToDistanceVolume.h</includedby>
-    <includedby refid="MRRegularMapMesher_8h" local="yes">MRRegularMapMesher.h</includedby>
+    <includedby refid="MRE57_8h" local="no">MRIOExtras/MRE57.h</includedby>
+    <includedby refid="MRChangePointCloudAction_8h" local="yes">MRMesh/MRChangePointCloudAction.h</includedby>
+    <includedby refid="MRChangePointCloudNormalsAction_8h" local="yes">MRMesh/MRChangePointCloudNormalsAction.h</includedby>
+    <includedby refid="MRDenseBox_8h" local="yes">MRMesh/MRDenseBox.h</includedby>
+    <includedby refid="MRMeshToPointCloud_8h" local="yes">MRMesh/MRMeshToPointCloud.h</includedby>
+    <includedby refid="MRPointsSave_8h" local="yes">MRMesh/MRPointsSave.h</includedby>
+    <includedby refid="MRRegularMapMesher_8h" local="yes">MRMesh/MRRegularMapMesher.h</includedby>
+    <includedby refid="MRPointsToDistanceVolume_8h" local="yes">MRVoxels/MRPointsToDistanceVolume.h</includedby>
     <incdepgraph>
       <node id="26">
         <label>MRBitSet.h</label>
@@ -96,7 +96,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPointCloud.h</label>
+        <label>MRMesh/MRPointCloud.h</label>
         <link refid="MRPointCloud_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -239,32 +239,32 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="9">
-        <label>MRCudaPointsToDistanceVolume.h</label>
+      <node id="10">
+        <label>MRCuda/MRCudaPointsToDistanceVolume.h</label>
         <link refid="MRCudaPointsToDistanceVolume_8h"/>
       </node>
-      <node id="5">
-        <label>MRE57.h</label>
+      <node id="2">
+        <label>MRIOExtras/MRE57.h</label>
         <link refid="MRE57_8h"/>
       </node>
-      <node id="2">
-        <label>MRChangePointCloudAction.h</label>
+      <node id="3">
+        <label>MRMesh/MRChangePointCloudAction.h</label>
         <link refid="MRChangePointCloudAction_8h"/>
       </node>
-      <node id="3">
-        <label>MRChangePointCloudNormalsAction.h</label>
+      <node id="4">
+        <label>MRMesh/MRChangePointCloudNormalsAction.h</label>
         <link refid="MRChangePointCloudNormalsAction_8h"/>
       </node>
-      <node id="4">
-        <label>MRDenseBox.h</label>
+      <node id="5">
+        <label>MRMesh/MRDenseBox.h</label>
         <link refid="MRDenseBox_8h"/>
       </node>
       <node id="6">
-        <label>MRMeshToPointCloud.h</label>
+        <label>MRMesh/MRMeshToPointCloud.h</label>
         <link refid="MRMeshToPointCloud_8h"/>
       </node>
       <node id="1">
-        <label>MRPointCloud.h</label>
+        <label>MRMesh/MRPointCloud.h</label>
         <link refid="MRPointCloud_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -280,21 +280,21 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
       <node id="7">
-        <label>MRPointsSave.h</label>
+        <label>MRMesh/MRPointsSave.h</label>
         <link refid="MRPointsSave_8h"/>
       </node>
-      <node id="10">
-        <label>MRRegularMapMesher.h</label>
+      <node id="8">
+        <label>MRMesh/MRRegularMapMesher.h</label>
         <link refid="MRRegularMapMesher_8h"/>
       </node>
-      <node id="8">
-        <label>MRPointsToDistanceVolume.h</label>
+      <node id="9">
+        <label>MRVoxels/MRPointsToDistanceVolume.h</label>
         <link refid="MRPointsToDistanceVolume_8h"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -317,8 +317,8 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"></codeline>
-<codeline lineno="16" refid="structMR_1_1PointCloud" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1PointCloud" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19" refid="structMR_1_1PointCloud_1a0da05bf74b7157037f314c884ab018b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertCoords<sp/><ref refid="structMR_1_1PointCloud_1a0da05bf74b7157037f314c884ab018b4" kindref="member">points</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
@@ -355,11 +355,11 @@
 <codeline lineno="68" refid="structMR_1_1PointCloud_1ab63b94ac2b31f8c2e5b7ee94bcfa2471" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;VertId&gt;<sp/><ref refid="structMR_1_1PointCloud_1ab63b94ac2b31f8c2e5b7ee94bcfa2471" kindref="member">getLexicographicalOrder</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="73" refid="structMR_1_1PointCloud_1a461af7799e74931eb23168bd86111217" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud_1a461af7799e74931eb23168bd86111217" kindref="member">addPartByMask</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>from,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>fromVerts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1CloudPartMapping" kindref="compound">CloudPartMapping</ref>&amp;<sp/>outMap<sp/>=<sp/>{},</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertNormals<sp/>*<sp/>extNormals<sp/>=<sp/>nullptr<sp/>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertNormals<sp/>*<sp/>extNormals<sp/>=<sp/><ref refid="module__nullptr" kindref="compound">nullptr</ref><sp/>);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
 <codeline lineno="77" refid="structMR_1_1PointCloud_1a7e507a7cdba55a1c26aa3a073cf2d315" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="structMR_1_1PointCloud_1a7e507a7cdba55a1c26aa3a073cf2d315" kindref="member">addPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>point<sp/>);</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="structMR_1_1PointCloud_1a765101913d8149614746444a3257c1f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="structMR_1_1PointCloud_1a765101913d8149614746444a3257c1f2" kindref="member">addPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>point,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="group__GeneralGroup_1gga09f9590ed4411f71af1c1526458d5dd1afea087517c26fadd409bd4b9dc642555" kindref="member">normal</ref><sp/>);</highlight></codeline>
+<codeline lineno="80" refid="structMR_1_1PointCloud_1a765101913d8149614746444a3257c1f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="structMR_1_1PointCloud_1a765101913d8149614746444a3257c1f2" kindref="member">addPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>point,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="group__GeneralGroup_1gaeaaa231de17fd92490d5ffbdac7d7c16" kindref="member">normal</ref><sp/>);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
 <codeline lineno="83" refid="structMR_1_1PointCloud_1ab5cc9f05068553ba1033167bb6189fcf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud_1ab5cc9f05068553ba1033167bb6189fcf" kindref="member">mirror</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref>&amp;<sp/>plane<sp/>);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
@@ -377,8 +377,8 @@
 <codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SharedThreadSafeOwner" kindref="compound">SharedThreadSafeOwner&lt;AABBTreePoints&gt;</ref><sp/>AABBTreeOwner_;</highlight></codeline>
 <codeline lineno="105"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloud.h"/>
+    <location file="MRMesh/MRPointCloud.h"/>
   </compounddef>
 </doxygen>

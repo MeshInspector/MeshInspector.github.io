@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1NoDefInit__GraphVertId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::NoDefInit_GraphVertId</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1GraphVertId" prot="public" virt="non-virtual">mrmeshpy.GraphVertId</basecompoundref>
@@ -10,7 +10,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NoDefInit_GraphVertId.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1GraphVertId_1af4aad912b7ad60be451d6cf21eaad75d">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -81,7 +80,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NoDefInit_GraphVertId.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1GraphVertId_1af4aad912b7ad60be451d6cf21eaad75d">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -100,7 +98,6 @@
         <argsstring>(self, NoDefInit_GraphVertId arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.NoDefInit_GraphVertId.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1GraphVertId_1af4aad912b7ad60be451d6cf21eaad75d">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -125,7 +122,6 @@
         <argsstring>(self)</argsstring>
         <name>__repr__</name>
         <qualifiedname>mrmeshpy.NoDefInit_GraphVertId.__repr__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1GraphVertId_1a48aa6e23efff07cdd74240da0cbb5676">__repr__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -174,12 +170,22 @@ this class is similar to T, but does not make default initialization of the fiel
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37561" bodyend="37589"/>
     <listofallmembers>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a1e7bb67e8acf0f3b9bca76c7a5b00e55" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_GraphVertId</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a3fa80cacd4937c7fd1a7d69593ff2a1e" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_GraphVertId</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a81e2cbf42d7d460133126b4c4d528d0a" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_GraphVertId</scope><name>__iadd__</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aed024d79a8bc9bdc081c15c661acafa0" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_GraphVertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1aa59a826f93de029d186b70783544df67" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_GraphVertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1a97f0c24fce263915696d139d6d6dd871" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1abbc7e8e6e96e21375e0f8b487092e0f2" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_GraphVertId</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a4464c8737528545111cf96e1712c5ac9" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_GraphVertId</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1aa873bc596181fb6687065c7c356193d8" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_GraphVertId</scope><name>__ne__</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1a1108e3ec531b7d90d82f03b9ffd2b78b" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_GraphVertId</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a6813b5171d45532069c99f9bf6c99832" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_GraphVertId</scope><name>get</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1af9fd651280c271f6192a4513c6e9e50e" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_GraphVertId</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1NoDefInit__GraphVertId_1af9fd651280c271f6192a4513c6e9e50e" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_GraphVertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a6323a05d9fd7830b679373e6f13b8391" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_GraphVertId</scope><name>operatorminusminus</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1a82a8c31ad0980e28bb183c8b00117480" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_GraphVertId</scope><name>operatorminusminus</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertId_1adb1fbc8d900eb1256a7ceaf4c8cd62f9" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_GraphVertId</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

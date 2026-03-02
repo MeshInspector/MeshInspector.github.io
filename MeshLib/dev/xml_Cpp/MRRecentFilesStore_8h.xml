@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRecentFilesStore_8h" kind="file" language="C++">
     <compoundname>MRRecentFilesStore.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -51,7 +51,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRRecentFilesStore.h</label>
+        <label>MRViewer/MRRecentFilesStore.h</label>
         <link refid="MRRecentFilesStore_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -132,7 +132,7 @@
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gabf9e7451b5087b4485b6207161438dc3" kindref="member">FileNamesStack</ref><sp/>=<sp/>std::vector&lt;std::filesystem::path&gt;;</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="classMR_1_1RecentFilesStore" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RecentFilesStore" kindref="compound">RecentFilesStore</ref></highlight></codeline>
+<codeline lineno="19" refid="classMR_1_1RecentFilesStore" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gab3bdf57745bbf11b5ac6fd1b27edcb68" kindref="member">RecentFilesStore</ref></highlight></codeline>
 <codeline lineno="20"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="22" refid="group__GeneralGroup_1gab3bdf57745bbf11b5ac6fd1b27edcb68" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab3bdf57745bbf11b5ac6fd1b27edcb68" kindref="member">RecentFilesStore</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -145,7 +145,7 @@
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36" refid="group__GeneralGroup_1ga1f48973b157bca4ee2c0e34407310654" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1f48973b157bca4ee2c0e34407310654" kindref="member">getCapacity</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>capacity_;<sp/>}</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="group__GeneralGroup_1ga1b8d341b91feead104f04f3951f2f50e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>boost::signals2::connection<sp/><ref refid="group__GeneralGroup_1ga1b8d341b91feead104f04f3951f2f50e" kindref="member">onUpdate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabf9e7451b5087b4485b6207161438dc3" kindref="member">FileNamesStack</ref>&amp;<sp/>files<sp/>)&gt;<sp/>&amp;<sp/>slot,<sp/>boost::signals2::connect_position<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a4757fe07fd492a8be0ea6a760d683d6e" kindref="member">position</ref><sp/>=<sp/>boost::signals2::at_back<sp/>);</highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1ga1b8d341b91feead104f04f3951f2f50e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/>boost::signals2::connection<sp/><ref refid="group__GeneralGroup_1ga1b8d341b91feead104f04f3951f2f50e" kindref="member">onUpdate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabf9e7451b5087b4485b6207161438dc3" kindref="member">FileNamesStack</ref>&amp;<sp/>files<sp/>)&gt;<sp/>&amp;<sp/>slot,<sp/>boost::signals2::connect_position<sp/><ref refid="group__GeneralGroup_1ga0ca61d3fae40bcd7a9e8ce848bf0362d" kindref="member">position</ref><sp/>=<sp/>boost::signals2::at_back<sp/>);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>appName_;</highlight></codeline>
@@ -153,8 +153,8 @@
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>boost::signals2::signal&lt;void(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabf9e7451b5087b4485b6207161438dc3" kindref="member">FileNamesStack</ref>&amp;<sp/>files<sp/>)&gt;<sp/>updateSignal_;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h"/>
+    <location file="MRViewer/MRRecentFilesStore.h"/>
   </compounddef>
 </doxygen>

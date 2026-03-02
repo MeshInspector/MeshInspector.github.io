@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRNormalsToPoints_8h" kind="file" language="C++">
     <compoundname>MRNormalsToPoints.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -38,7 +38,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRNormalsToPoints.h</label>
+        <label>MRMesh/MRNormalsToPoints.h</label>
         <link refid="MRNormalsToPoints_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -91,7 +91,7 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="classMR_1_1NormalsToPoints" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1NormalsToPoints" kindref="compound">NormalsToPoints</ref></highlight></codeline>
+<codeline lineno="14" refid="classMR_1_1NormalsToPoints" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1NormalsToPoints" kindref="compound">NormalsToPoints</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1ga19ffcc05d7dd0c8b6ce45e80e81d482e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga19ffcc05d7dd0c8b6ce45e80e81d482e" kindref="member">prepare</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>guideWeight<sp/>=<sp/>1<sp/>);</highlight></codeline>
@@ -110,8 +110,8 @@
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;ISolver&gt;<sp/>solver_;</highlight></codeline>
 <codeline lineno="40"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalsToPoints.h"/>
+    <location file="MRMesh/MRNormalsToPoints.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRObjectComparableWithReference_8h" kind="file" language="C++">
     <compoundname>MRObjectComparableWithReference.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -33,97 +33,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRObjectComparableWithReference_8h_1a9185d6c78b24d67f65fff43bd4a336c3" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref></type>
-        <definition>typedef struct MR_DistanceMeasurementObject MR_DistanceMeasurementObject</definition>
-        <argsstring></argsstring>
-        <name>MR_DistanceMeasurementObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" line="13" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectComparableWithReference_8h_1a749cca566de75c01b7c4210dfd5ab596" prot="public" static="no">
-        <type>struct <ref refid="MRMeasurementObject_8h_1a749cca566de75c01b7c4210dfd5ab596" kindref="member">MR_PointMeasurementObject</ref></type>
-        <definition>typedef struct MR_PointMeasurementObject MR_PointMeasurementObject</definition>
-        <argsstring></argsstring>
-        <name>MR_PointMeasurementObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" line="14" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectComparableWithReference_8h_1a80d9dd1ef50d7c3b70695bdf73404526" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMeasurementObject_8h_1a80d9dd1ef50d7c3b70695bdf73404526" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</ref></type>
-        <definition>typedef struct MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</definition>
-        <argsstring></argsstring>
-        <name>MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" line="15" column="82" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectComparableWithReference_8h_1a8e4615b108b22d42920cafb89a85540b" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMeasurementObject_8h_1a8e4615b108b22d42920cafb89a85540b" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</ref></type>
-        <definition>typedef struct MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</definition>
-        <argsstring></argsstring>
-        <name>MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" line="16" column="83" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectComparableWithReference_8h_1a55e42a260ef15081eb6a47c600bd1f4b" prot="public" static="no">
-        <type>struct <ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref></type>
-        <definition>typedef struct MR_std_optional_float MR_std_optional_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_optional_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" line="17" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectComparableWithReference_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref></type>
-        <definition>typedef struct MR_std_string_view MR_std_string_view</definition>
-        <argsstring></argsstring>
-        <name>MR_std_string_view</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" line="18" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectComparableWithReference_8h_1af3d91d0213ab95de48f9478fac0d21e0" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref></type>
-        <definition>typedef struct MR_std_variant_float_MR_Vector3f MR_std_variant_float_MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_variant_float_MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" line="19" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" prot="public" static="no">
         <type>struct <ref refid="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" kindref="member">MR_ObjectComparableWithReference_ComparableProperty</ref></type>
         <definition>typedef struct MR_ObjectComparableWithReference_ComparableProperty MR_ObjectComparableWithReference_ComparableProperty</definition>
@@ -138,48 +47,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" line="24" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" bodystart="24" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRObjectComparableWithReference_8h_1aadd5f2632221b9bf806db1fcddbf58fa" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref></type>
-        <definition>typedef struct MR_ObjectComparableWithReference_ComparisonTolerance MR_ObjectComparableWithReference_ComparisonTolerance</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjectComparableWithReference_ComparisonTolerance</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::ObjectComparableWithReference::ComparisonTolerance</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" line="29" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectComparableWithReference_8h_1ab2078183aee736bfebb1bb874807d75d" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref></type>
-        <definition>typedef struct MR_ObjectComparableWithReference_ComparisonReferenceValue MR_ObjectComparableWithReference_ComparisonReferenceValue</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjectComparableWithReference_ComparisonReferenceValue</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::ObjectComparableWithReference::ComparisonReferenceValue</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" line="34" column="72" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRObjectComparableWithReference_8h_1aac0f72690d55f7690795efb3b57df7cf" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref></type>
-        <definition>typedef struct MR_ObjectComparableWithReference MR_ObjectComparableWithReference</definition>
-        <argsstring></argsstring>
-        <name>MR_ObjectComparableWithReference</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::ObjectComparableWithReference</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::DistanceMeasurementObject</computeroutput> <computeroutput>MR::PointMeasurementObject</computeroutput> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" line="42" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRObjectComparableWithReference.h" bodystart="42" bodyend="-1"/>
-      </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRObjectComparableWithReference_8h_1a43ab77009ac794e47b455c291f564dc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -192,7 +59,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ObjectComparableWithReference</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -210,7 +77,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ObjectComparableWithReference</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -969,7 +836,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ObjectComparableWithReference_ComparableProperty</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" kindref="member">MR_ObjectComparableWithReference_ComparableProperty</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -987,7 +854,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ObjectComparableWithReference_ComparableProperty</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" kindref="member">MR_ObjectComparableWithReference_ComparableProperty</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1262,7 +1129,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ObjectComparableWithReference_ComparisonTolerance</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1280,7 +1147,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ObjectComparableWithReference_ComparisonTolerance</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1555,7 +1422,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ObjectComparableWithReference_ComparisonReferenceValue</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1573,7 +1440,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ObjectComparableWithReference_ComparisonReferenceValue</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1621,70 +1488,70 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRObjectComparableWithReference_8h_1a9185d6c78b24d67f65fff43bd4a336c3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceMeasurementObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRObjectComparableWithReference_8h_1a749cca566de75c01b7c4210dfd5ab596" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeasurementObject_8h_1a749cca566de75c01b7c4210dfd5ab596" kindref="member">MR_PointMeasurementObject</ref><sp/><ref refid="MRMeasurementObject_8h_1a749cca566de75c01b7c4210dfd5ab596" kindref="member">MR_PointMeasurementObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointMeasurementObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRObjectComparableWithReference_8h_1a80d9dd1ef50d7c3b70695bdf73404526" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a80d9dd1ef50d7c3b70695bdf73404526" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a80d9dd1ef50d7c3b70695bdf73404526" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_ObjectComparableWithReference_ComparableProperty.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRObjectComparableWithReference_8h_1a8e4615b108b22d42920cafb89a85540b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a8e4615b108b22d42920cafb89a85540b" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a8e4615b108b22d42920cafb89a85540b" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_ObjectComparableWithReference_ComparisonTolerance.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRObjectComparableWithReference_8h_1a55e42a260ef15081eb6a47c600bd1f4b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRObjectComparableWithReference_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string_view.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRObjectComparableWithReference_8h_1af3d91d0213ab95de48f9478fac0d21e0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_variant_float_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a9185d6c78b24d67f65fff43bd4a336c3" kindref="member">MR_DistanceMeasurementObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceMeasurementObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeasurementObject_8h_1a749cca566de75c01b7c4210dfd5ab596" kindref="member">MR_PointMeasurementObject</ref><sp/><ref refid="MRMeasurementObject_8h_1a749cca566de75c01b7c4210dfd5ab596" kindref="member">MR_PointMeasurementObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointMeasurementObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a80d9dd1ef50d7c3b70695bdf73404526" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a80d9dd1ef50d7c3b70695bdf73404526" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_ObjectComparableWithReference_ComparableProperty.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a8e4615b108b22d42920cafb89a85540b" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a8e4615b108b22d42920cafb89a85540b" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_ObjectComparableWithReference_ComparisonTolerance.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string_view.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_variant_float_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" kindref="member">MR_ObjectComparableWithReference_ComparableProperty</ref><sp/><ref refid="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" kindref="member">MR_ObjectComparableWithReference_ComparableProperty</ref>;</highlight></codeline>
+<codeline lineno="24" refid="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" kindref="member">MR_ObjectComparableWithReference_ComparableProperty</ref><sp/><ref refid="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" kindref="member">MR_ObjectComparableWithReference_ComparableProperty</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Tolerances:</highlight></codeline>
-<codeline lineno="29" refid="MRObjectComparableWithReference_8h_1aadd5f2632221b9bf806db1fcddbf58fa" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Tolerances:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>can&apos;t<sp/>be<sp/>`std::optional&lt;Var&gt;`,<sp/>because<sp/>we<sp/>still<sp/>need<sp/>the<sp/>variant<sp/>to<sp/>know<sp/>the<sp/>correct<sp/>type.</highlight></codeline>
-<codeline lineno="34" refid="MRObjectComparableWithReference_8h_1ab2078183aee736bfebb1bb874807d75d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>can&apos;t<sp/>be<sp/>`std::optional&lt;Var&gt;`,<sp/>because<sp/>we<sp/>still<sp/>need<sp/>the<sp/>variant<sp/>to<sp/>know<sp/>the<sp/>correct<sp/>type.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref>;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>base<sp/>class<sp/>for<sp/>a<sp/>data-model<sp/>object<sp/>that<sp/>is<sp/>a<sp/>feature/measurement<sp/>that<sp/>can<sp/>be<sp/>compared<sp/>between<sp/>two<sp/>models.</highlight></codeline>
-<codeline lineno="42" refid="MRObjectComparableWithReference_8h_1aac0f72690d55f7690795efb3b57df7cf" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>base<sp/>class<sp/>for<sp/>a<sp/>data-model<sp/>object<sp/>that<sp/>is<sp/>a<sp/>feature/measurement<sp/>that<sp/>can<sp/>be<sp/>compared<sp/>between<sp/>two<sp/>models.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref>;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45" refid="MRObjectComparableWithReference_8h_1a43ab77009ac794e47b455c291f564dc4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectComparableWithReference_8h_1a43ab77009ac794e47b455c291f564dc4" kindref="member">MR_ObjectComparableWithReference_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48" refid="MRObjectComparableWithReference_8h_1a9be70581eb3e827942c4bf25fc175ec7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectComparableWithReference_8h_1a9be70581eb3e827942c4bf25fc175ec7" kindref="member">MR_ObjectComparableWithReference_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//<sp/>When<sp/>comparing<sp/>this<sp/>object<sp/>with<sp/>a<sp/>reference,<sp/>how<sp/>many<sp/>different<sp/>properties<sp/>can<sp/>we<sp/>output?</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//<sp/>When<sp/>comparing<sp/>this<sp/>object<sp/>with<sp/>a<sp/>reference,<sp/>how<sp/>many<sp/>different<sp/>properties<sp/>can<sp/>we<sp/>output?</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="53" refid="MRObjectComparableWithReference_8h_1a034b9dc40ed5d21ed611f6883f306a3b" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRObjectComparableWithReference_8h_1a034b9dc40ed5d21ed611f6883f306a3b" kindref="member">MR_ObjectComparableWithReference_numComparableProperties</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparableProperties()`,<sp/>exclusive.</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparableProperties()`,<sp/>exclusive.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="59" refid="MRObjectComparableWithReference_8h_1a7bf8b69a2bc325cc5d4f8c361d938fdc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRObjectComparableWithReference_8h_1a7bf8b69a2bc325cc5d4f8c361d938fdc" kindref="member">MR_ObjectComparableWithReference_getComparablePropertyName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>i);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Compute<sp/>a<sp/>value<sp/>of<sp/>a<sp/>property.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Compare<sp/>`value`<sp/>and<sp/>`referenceValue`<sp/>using<sp/>the<sp/>tolerance.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>can<sp/>return<sp/>null<sp/>if<sp/>the<sp/>value<sp/>is<sp/>impossible<sp/>to<sp/>compute,<sp/>e.g.<sp/>for<sp/>some<sp/>types<sp/>if<sp/>the<sp/>reference<sp/>isn&apos;t<sp/>set<sp/>(e.g.<sp/>if</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>we&apos;re<sp/>computing<sp/>the<sp/>distance<sp/>to<sp/>a<sp/>reference<sp/>point).</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparableProperties()`,<sp/>exclusive.</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparableProperties()`,<sp/>exclusive.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="69" refid="MRObjectComparableWithReference_8h_1ab82090df58c385ecf391ee83de5a8f3e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMeasurementObject_8h_1a80d9dd1ef50d7c3b70695bdf73404526" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</ref><sp/>*<ref refid="MRObjectComparableWithReference_8h_1ab82090df58c385ecf391ee83de5a8f3e" kindref="member">MR_ObjectComparableWithReference_computeComparableProperty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>i);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Returns<sp/>the<sp/>tolerance<sp/>for<sp/>a<sp/>specific<sp/>comparable<sp/>property.<sp/>Returns<sp/>null<sp/>if<sp/>not<sp/>set.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparableProperties()`,<sp/>exclusive.</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparableProperties()`,<sp/>exclusive.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="76" refid="MRObjectComparableWithReference_8h_1a4ce06d472541eb9d5f643a57188ac44e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMeasurementObject_8h_1a8e4615b108b22d42920cafb89a85540b" kindref="member">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/>*<ref refid="MRObjectComparableWithReference_8h_1a4ce06d472541eb9d5f643a57188ac44e" kindref="member">MR_ObjectComparableWithReference_getComparisonTolerence</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>i);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Sets<sp/>the<sp/>tolerance<sp/>for<sp/>a<sp/>specific<sp/>comparable<sp/>property.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparableProperties()`,<sp/>exclusive.</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparableProperties()`,<sp/>exclusive.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="84" refid="MRObjectComparableWithReference_8h_1a89e3548f3b2930bf3f006c9b28320169" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectComparableWithReference_8h_1a89e3548f3b2930bf3f006c9b28320169" kindref="member">MR_ObjectComparableWithReference_setComparisonTolerance</ref>(<ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>i,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/>*newTolerance);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>true,<sp/>indicates<sp/>that<sp/>the<sp/>getter<sp/>will<sp/>always<sp/>return<sp/>zero<sp/>negative<sp/>tolerance,<sp/>and<sp/>the<sp/>setter<sp/>will<sp/>ignore<sp/>the<sp/>negative<sp/>tolerance.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparableProperties()`,<sp/>exclusive.</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparableProperties()`,<sp/>exclusive.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="90" refid="MRObjectComparableWithReference_8h_1a9221929f22ec111c7a5b19c4dcb565a0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRObjectComparableWithReference_8h_1a9221929f22ec111c7a5b19c4dcb565a0" kindref="member">MR_ObjectComparableWithReference_comparisonToleranceIsAlwaysOnlyPositive</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>i);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>number<sp/>and<sp/>types<sp/>of<sp/>reference<sp/>values<sp/>can<sp/>be<sp/>entirely<sp/>different<sp/>compared<sp/>to<sp/>`numComparableProperties()`.</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>number<sp/>and<sp/>types<sp/>of<sp/>reference<sp/>values<sp/>can<sp/>be<sp/>entirely<sp/>different<sp/>compared<sp/>to<sp/>`numComparableProperties()`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="95" refid="MRObjectComparableWithReference_8h_1a79044cba2a7f1f5d6b251e8a8c6363a1" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRObjectComparableWithReference_8h_1a79044cba2a7f1f5d6b251e8a8c6363a1" kindref="member">MR_ObjectComparableWithReference_numComparisonReferenceValues</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparisonReferenceValues()`,<sp/>exclusive.</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparisonReferenceValues()`,<sp/>exclusive.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="101" refid="MRObjectComparableWithReference_8h_1aa383232ee0fb456fc2060f1c773b7050" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRObjectComparableWithReference_8h_1aa383232ee0fb456fc2060f1c773b7050" kindref="member">MR_ObjectComparableWithReference_getComparisonReferenceValueName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>i);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Returns<sp/>the<sp/>internal<sp/>reference<sp/>value.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>value<sp/>wasn&apos;t<sp/>set<sp/>yet<sp/>(as<sp/>indicated<sp/>by<sp/>`isSet<sp/>==<sp/>false`),<sp/>you<sp/>can<sp/>still<sp/>use<sp/>the<sp/>returned<sp/>variant<sp/>to<sp/>get<sp/>the<sp/>expected<sp/>type.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparisonReferenceValues()`,<sp/>exclusive.</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparisonReferenceValues()`,<sp/>exclusive.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="109" refid="MRObjectComparableWithReference_8h_1aa9028cbd45c561ee90371321f29f55a4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref><sp/>*<ref refid="MRObjectComparableWithReference_8h_1aa9028cbd45c561ee90371321f29f55a4" kindref="member">MR_ObjectComparableWithReference_getComparisonReferenceValue</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>i);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Sets<sp/>the<sp/>internal<sp/>reference<sp/>value.<sp/>Makes<sp/>`hasComparisonReferenceValue()`<sp/>return<sp/>true.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>you<sp/>pass<sp/>nullopt,<sp/>removes<sp/>this<sp/>reference<sp/>value.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Only<sp/>a<sp/>certain<sp/>variant<sp/>type<sp/>is<sp/>legal<sp/>to<sp/>pass,<sp/>depending<sp/>on<sp/>the<sp/>derived<sp/>class<sp/>and<sp/>the<sp/>index.<sp/>Use<sp/>`getComparisonReferenceValue()`<sp/>to<sp/>determine<sp/>that<sp/>type.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparisonReferenceValues()`,<sp/>exclusive.</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">//<sp/>`i`<sp/>goes<sp/>up<sp/>to<sp/>`numComparisonReferenceValues()`,<sp/>exclusive.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="119" refid="MRObjectComparableWithReference_8h_1a0e6358d8dbb8f9e348659ef26d8f576b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectComparableWithReference_8h_1a0e6358d8dbb8f9e348659ef26d8f576b" kindref="member">MR_ObjectComparableWithReference_setComparisonReferenceValue</ref>(<ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>i,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
 <codeline lineno="124" refid="MRObjectComparableWithReference_8h_1ae71d7f978b36e36e9aaf77c6d7067bc5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectComparableWithReference_8h_1ae71d7f978b36e36e9aaf77c6d7067bc5" kindref="member">MR_ObjectComparableWithReference_setComparisonReferenceVal</ref>(<ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>i,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref><sp/>*value);</highlight></codeline>
@@ -1726,19 +1593,19 @@
 <codeline lineno="225"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>can<sp/>be<sp/>null<sp/>if<sp/>the<sp/>reference<sp/>value<sp/>isn&apos;t<sp/>set,<sp/>or<sp/>something<sp/>else<sp/>is<sp/>wrong.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="226"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>can<sp/>match<sp/>whatever<sp/>is<sp/>set<sp/>via<sp/>`get/setComparisonReferenceValue()`,<sp/>but<sp/>not<sp/>necessarily.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="227"><highlight class="normal"></highlight><highlight class="comment">//<sp/>E.g.<sp/>for<sp/>point<sp/>coordinates,<sp/>those<sp/>functions<sp/>act<sp/>on<sp/>the<sp/>reference<sp/>coordinates<sp/>(three<sp/>optional<sp/>floats),<sp/>but<sp/>this<sp/>number<sp/>is<sp/>always<sp/>zero,</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="228"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>and<sp/>the<sp/>`value`<sp/>is<sp/>the<sp/>distance<sp/>to<sp/>those<sp/>coordinates.</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>and<sp/>the<sp/>`value`<sp/>is<sp/>the<sp/>distance<sp/>to<sp/>those<sp/>coordinates.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="233" refid="MRObjectComparableWithReference_8h_1af3b89407fcbee976dc545fa172c0f9b6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref><sp/>*<ref refid="MRObjectComparableWithReference_8h_1af3b89407fcbee976dc545fa172c0f9b6" kindref="member">MR_ObjectComparableWithReference_ComparableProperty_Get_referenceValue</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" kindref="member">MR_ObjectComparableWithReference_ComparableProperty</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"></highlight></codeline>
 <codeline lineno="235"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>can<sp/>be<sp/>null<sp/>if<sp/>the<sp/>reference<sp/>value<sp/>isn&apos;t<sp/>set,<sp/>or<sp/>something<sp/>else<sp/>is<sp/>wrong.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="236"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>can<sp/>match<sp/>whatever<sp/>is<sp/>set<sp/>via<sp/>`get/setComparisonReferenceValue()`,<sp/>but<sp/>not<sp/>necessarily.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="237"><highlight class="normal"></highlight><highlight class="comment">//<sp/>E.g.<sp/>for<sp/>point<sp/>coordinates,<sp/>those<sp/>functions<sp/>act<sp/>on<sp/>the<sp/>reference<sp/>coordinates<sp/>(three<sp/>optional<sp/>floats),<sp/>but<sp/>this<sp/>number<sp/>is<sp/>always<sp/>zero,</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="238"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>and<sp/>the<sp/>`value`<sp/>is<sp/>the<sp/>distance<sp/>to<sp/>those<sp/>coordinates.</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>and<sp/>the<sp/>`value`<sp/>is<sp/>the<sp/>distance<sp/>to<sp/>those<sp/>coordinates.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="244" refid="MRObjectComparableWithReference_8h_1ad810e1c171cc96891b9f80eda97654c9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectComparableWithReference_8h_1ad810e1c171cc96891b9f80eda97654c9" kindref="member">MR_ObjectComparableWithReference_ComparableProperty_Set_referenceValue</ref>(<ref refid="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" kindref="member">MR_ObjectComparableWithReference_ComparableProperty</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"></highlight></codeline>
 <codeline lineno="246"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>can<sp/>be<sp/>null<sp/>if<sp/>the<sp/>reference<sp/>value<sp/>isn&apos;t<sp/>set,<sp/>or<sp/>something<sp/>else<sp/>is<sp/>wrong.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="247"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>can<sp/>match<sp/>whatever<sp/>is<sp/>set<sp/>via<sp/>`get/setComparisonReferenceValue()`,<sp/>but<sp/>not<sp/>necessarily.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="248"><highlight class="normal"></highlight><highlight class="comment">//<sp/>E.g.<sp/>for<sp/>point<sp/>coordinates,<sp/>those<sp/>functions<sp/>act<sp/>on<sp/>the<sp/>reference<sp/>coordinates<sp/>(three<sp/>optional<sp/>floats),<sp/>but<sp/>this<sp/>number<sp/>is<sp/>always<sp/>zero,</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="249"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>and<sp/>the<sp/>`value`<sp/>is<sp/>the<sp/>distance<sp/>to<sp/>those<sp/>coordinates.</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>and<sp/>the<sp/>`value`<sp/>is<sp/>the<sp/>distance<sp/>to<sp/>those<sp/>coordinates.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="254" refid="MRObjectComparableWithReference_8h_1a8ffcb5aa7ee33e9ac4d336a9766d8ff2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref><sp/>*<ref refid="MRObjectComparableWithReference_8h_1a8ffcb5aa7ee33e9ac4d336a9766d8ff2" kindref="member">MR_ObjectComparableWithReference_ComparableProperty_GetMutable_referenceValue</ref>(<ref refid="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" kindref="member">MR_ObjectComparableWithReference_ComparableProperty</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="255"><highlight class="normal"></highlight></codeline>
 <codeline lineno="258" refid="MRObjectComparableWithReference_8h_1aa129853311aa8d66e863f4f10c0f2d2a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" kindref="member">MR_ObjectComparableWithReference_ComparableProperty</ref><sp/>*<ref refid="MRObjectComparableWithReference_8h_1aa129853311aa8d66e863f4f10c0f2d2a" kindref="member">MR_ObjectComparableWithReference_ComparableProperty_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
@@ -1759,25 +1626,25 @@
 <codeline lineno="291"><highlight class="normal"></highlight></codeline>
 <codeline lineno="298" refid="MRObjectComparableWithReference_8h_1a485e70fadff3ca4be185d9897a6e2b4d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" kindref="member">MR_ObjectComparableWithReference_ComparableProperty</ref><sp/>*<ref refid="MRObjectComparableWithReference_8h_1a485e70fadff3ca4be185d9897a6e2b4d" kindref="member">MR_ObjectComparableWithReference_ComparableProperty_AssignFromAnother</ref>(<ref refid="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" kindref="member">MR_ObjectComparableWithReference_ComparableProperty</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectComparableWithReference_8h_1a53eac440a3dc231f96b5689e82522479" kindref="member">MR_ObjectComparableWithReference_ComparableProperty</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="299"><highlight class="normal"></highlight></codeline>
-<codeline lineno="300"><highlight class="normal"></highlight><highlight class="comment">//<sp/>How<sp/>much<sp/>larger<sp/>can<sp/>this<sp/>value<sp/>be<sp/>compared<sp/>to<sp/>the<sp/>reference?</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight><highlight class="comment">//<sp/>How<sp/>much<sp/>larger<sp/>can<sp/>this<sp/>value<sp/>be<sp/>compared<sp/>to<sp/>the<sp/>reference?</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="305" refid="MRObjectComparableWithReference_8h_1a2c1293447e96601bb1fc306ac35620c2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRObjectComparableWithReference_8h_1a2c1293447e96601bb1fc306ac35620c2" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance_Get_positive</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="306"><highlight class="normal"></highlight></codeline>
-<codeline lineno="307"><highlight class="normal"></highlight><highlight class="comment">//<sp/>How<sp/>much<sp/>larger<sp/>can<sp/>this<sp/>value<sp/>be<sp/>compared<sp/>to<sp/>the<sp/>reference?</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight><highlight class="comment">//<sp/>How<sp/>much<sp/>larger<sp/>can<sp/>this<sp/>value<sp/>be<sp/>compared<sp/>to<sp/>the<sp/>reference?</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="311" refid="MRObjectComparableWithReference_8h_1ab48594d2bf32c64c5713bf9be63ae140" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectComparableWithReference_8h_1ab48594d2bf32c64c5713bf9be63ae140" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance_Set_positive</ref>(<ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="312"><highlight class="normal"></highlight></codeline>
-<codeline lineno="313"><highlight class="normal"></highlight><highlight class="comment">//<sp/>How<sp/>much<sp/>larger<sp/>can<sp/>this<sp/>value<sp/>be<sp/>compared<sp/>to<sp/>the<sp/>reference?</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight><highlight class="comment">//<sp/>How<sp/>much<sp/>larger<sp/>can<sp/>this<sp/>value<sp/>be<sp/>compared<sp/>to<sp/>the<sp/>reference?</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="318" refid="MRObjectComparableWithReference_8h_1a4164b1c9a6e2fbe75ccb00658599ba33" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRObjectComparableWithReference_8h_1a4164b1c9a6e2fbe75ccb00658599ba33" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance_GetMutable_positive</ref>(<ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="319"><highlight class="normal"></highlight></codeline>
 <codeline lineno="320"><highlight class="normal"></highlight><highlight class="comment">//<sp/>How<sp/>much<sp/>smaller<sp/>can<sp/>this<sp/>value<sp/>be<sp/>compared<sp/>to<sp/>the<sp/>reference?</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="321"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>number<sp/>should<sp/>normally<sp/>be<sp/>zero<sp/>or<sp/>negative.</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>number<sp/>should<sp/>normally<sp/>be<sp/>zero<sp/>or<sp/>negative.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="326" refid="MRObjectComparableWithReference_8h_1a15d99f1eebc33787645cecb6e340be8f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRObjectComparableWithReference_8h_1a15d99f1eebc33787645cecb6e340be8f" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance_Get_negative</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="327"><highlight class="normal"></highlight></codeline>
 <codeline lineno="328"><highlight class="normal"></highlight><highlight class="comment">//<sp/>How<sp/>much<sp/>smaller<sp/>can<sp/>this<sp/>value<sp/>be<sp/>compared<sp/>to<sp/>the<sp/>reference?</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="329"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>number<sp/>should<sp/>normally<sp/>be<sp/>zero<sp/>or<sp/>negative.</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>number<sp/>should<sp/>normally<sp/>be<sp/>zero<sp/>or<sp/>negative.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="333" refid="MRObjectComparableWithReference_8h_1a483858697ab238145bde1e9788c526a1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectComparableWithReference_8h_1a483858697ab238145bde1e9788c526a1" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance_Set_negative</ref>(<ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="334"><highlight class="normal"></highlight></codeline>
 <codeline lineno="335"><highlight class="normal"></highlight><highlight class="comment">//<sp/>How<sp/>much<sp/>smaller<sp/>can<sp/>this<sp/>value<sp/>be<sp/>compared<sp/>to<sp/>the<sp/>reference?</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="336"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>number<sp/>should<sp/>normally<sp/>be<sp/>zero<sp/>or<sp/>negative.</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>number<sp/>should<sp/>normally<sp/>be<sp/>zero<sp/>or<sp/>negative.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="341" refid="MRObjectComparableWithReference_8h_1a371b8c6c5d21cd44fdf71819d7721557" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRObjectComparableWithReference_8h_1a371b8c6c5d21cd44fdf71819d7721557" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance_GetMutable_negative</ref>(<ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="342"><highlight class="normal"></highlight></codeline>
 <codeline lineno="345" refid="MRObjectComparableWithReference_8h_1afca481b4dd628ec49286a297897f9a1f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMeasurementObject_8h_1aadd5f2632221b9bf806db1fcddbf58fa" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance</ref><sp/>*<ref refid="MRObjectComparableWithReference_8h_1afca481b4dd628ec49286a297897f9a1f" kindref="member">MR_ObjectComparableWithReference_ComparisonTolerance_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
@@ -1804,13 +1671,13 @@
 <codeline lineno="395"><highlight class="normal"></highlight></codeline>
 <codeline lineno="400" refid="MRObjectComparableWithReference_8h_1ae79d57014b0d14ab1f2dceeb97f0eefe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRObjectComparableWithReference_8h_1ae79d57014b0d14ab1f2dceeb97f0eefe" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue_GetMutable_isSet</ref>(<ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="401"><highlight class="normal"></highlight></codeline>
-<codeline lineno="402"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>`isSet<sp/>==<sp/>false`,<sp/>this<sp/>will<sp/>hold<sp/>zeroes,<sp/>or<sp/>some<sp/>other<sp/>default<sp/>values.</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>`isSet<sp/>==<sp/>false`,<sp/>this<sp/>will<sp/>hold<sp/>zeroes,<sp/>or<sp/>some<sp/>other<sp/>default<sp/>values.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="407" refid="MRObjectComparableWithReference_8h_1ab2bba119efb0932b7403a1178ce82b08" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*<ref refid="MRObjectComparableWithReference_8h_1ab2bba119efb0932b7403a1178ce82b08" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue_Get_var</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="408"><highlight class="normal"></highlight></codeline>
-<codeline lineno="409"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>`isSet<sp/>==<sp/>false`,<sp/>this<sp/>will<sp/>hold<sp/>zeroes,<sp/>or<sp/>some<sp/>other<sp/>default<sp/>values.</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>`isSet<sp/>==<sp/>false`,<sp/>this<sp/>will<sp/>hold<sp/>zeroes,<sp/>or<sp/>some<sp/>other<sp/>default<sp/>values.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="415" refid="MRObjectComparableWithReference_8h_1a8b86730297727caa672096cae04ed3ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectComparableWithReference_8h_1a8b86730297727caa672096cae04ed3ff" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue_Set_var</ref>(<ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="416"><highlight class="normal"></highlight></codeline>
-<codeline lineno="417"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>`isSet<sp/>==<sp/>false`,<sp/>this<sp/>will<sp/>hold<sp/>zeroes,<sp/>or<sp/>some<sp/>other<sp/>default<sp/>values.</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>`isSet<sp/>==<sp/>false`,<sp/>this<sp/>will<sp/>hold<sp/>zeroes,<sp/>or<sp/>some<sp/>other<sp/>default<sp/>values.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="422" refid="MRObjectComparableWithReference_8h_1aed43871fe41fb752cbd13627950d5fbb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMeasurementObject_8h_1af3d91d0213ab95de48f9478fac0d21e0" kindref="member">MR_std_variant_float_MR_Vector3f</ref><sp/>*<ref refid="MRObjectComparableWithReference_8h_1aed43871fe41fb752cbd13627950d5fbb" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue_GetMutable_var</ref>(<ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="423"><highlight class="normal"></highlight></codeline>
 <codeline lineno="426" refid="MRObjectComparableWithReference_8h_1a00747da378e102736f760c36c44926e7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMeasurementObject_8h_1ab2078183aee736bfebb1bb874807d75d" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue</ref><sp/>*<ref refid="MRObjectComparableWithReference_8h_1a00747da378e102736f760c36c44926e7" kindref="member">MR_ObjectComparableWithReference_ComparisonReferenceValue_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1std__vector__unsigned__short" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::std_vector_unsigned_short</compoundname>
     <sectiondef kind="private-static-attrib">
@@ -712,18 +712,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.std_vector_unsigned_short</label>
-        <link refid="classmrmeshpy_1_1std__vector__unsigned__short"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>element_type_byte_size</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="96035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="96035" bodyend="96146"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1std__vector__unsigned__short_1a7d81e58010d588ea1833a8d4b900cdc8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_short</scope><name>__bool__</name></member>

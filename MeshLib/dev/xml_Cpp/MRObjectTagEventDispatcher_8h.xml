@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRObjectTagEventDispatcher_8h" kind="file" language="C++">
     <compoundname>MRObjectTagEventDispatcher.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -38,7 +38,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRObjectTagEventDispatcher.h</label>
+        <label>MRMesh/MRObjectTagEventDispatcher.h</label>
         <link refid="MRObjectTagEventDispatcher_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -97,24 +97,24 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="classMR_1_1ObjectTagEventDispatcher" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ObjectTagEventDispatcher" kindref="compound">ObjectTagEventDispatcher</ref></highlight></codeline>
+<codeline lineno="13" refid="classMR_1_1ObjectTagEventDispatcher" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ObjectTagEventDispatcher</highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="17" refid="group__GeneralGroup_1gae14906b90359ad1f7db1d1f5ad93901f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectTagEventDispatcher" kindref="compound">ObjectTagEventDispatcher</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gae14906b90359ad1f7db1d1f5ad93901f" kindref="member">instance</ref>();</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1gae14906b90359ad1f7db1d1f5ad93901f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>ObjectTagEventDispatcher&amp;<sp/><ref refid="group__GeneralGroup_1gae14906b90359ad1f7db1d1f5ad93901f" kindref="member">instance</ref>();</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="group__GeneralGroup_1ga33324ded1eb6bd24558e279fc84ce438" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Signal" kindref="compound">TagAddedSignal</ref><sp/>=<sp/><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt;void<sp/>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>tag<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="21" refid="group__GeneralGroup_1ga69a3fa9e48cb83bd9f076babcae87821" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Signal" kindref="compound">TagAddedSignal</ref><sp/><ref refid="group__GeneralGroup_1ga69a3fa9e48cb83bd9f076babcae87821" kindref="member">tagAddedSignal</ref>;</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1ga33324ded1eb6bd24558e279fc84ce438" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga33324ded1eb6bd24558e279fc84ce438" kindref="member">TagAddedSignal</ref><sp/>=<sp/><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt;void<sp/>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>tag<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga69a3fa9e48cb83bd9f076babcae87821" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga33324ded1eb6bd24558e279fc84ce438" kindref="member">TagAddedSignal</ref><sp/><ref refid="group__GeneralGroup_1ga69a3fa9e48cb83bd9f076babcae87821" kindref="member">tagAddedSignal</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="group__GeneralGroup_1gab42ea0ba5cd7a8edf1877755cab31ddc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Signal" kindref="compound">TagRemovedSignal</ref><sp/>=<sp/><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt;void<sp/>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>tag<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="25" refid="group__GeneralGroup_1ga28eae4596bea57f3a608867f6475f8bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Signal" kindref="compound">TagRemovedSignal</ref><sp/><ref refid="group__GeneralGroup_1ga28eae4596bea57f3a608867f6475f8bd" kindref="member">tagRemovedSignal</ref>;</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1gab42ea0ba5cd7a8edf1877755cab31ddc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gab42ea0ba5cd7a8edf1877755cab31ddc" kindref="member">TagRemovedSignal</ref><sp/>=<sp/><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt;void<sp/>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>tag<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ga28eae4596bea57f3a608867f6475f8bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab42ea0ba5cd7a8edf1877755cab31ddc" kindref="member">TagRemovedSignal</ref><sp/><ref refid="group__GeneralGroup_1ga28eae4596bea57f3a608867f6475f8bd" kindref="member">tagRemovedSignal</ref>;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">ProtectedTag<sp/>{};</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ObjectTagEventDispatcher" kindref="compound">ObjectTagEventDispatcher</ref>(<sp/>ProtectedTag<sp/>);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h"/>
+    <location file="MRMesh/MRObjectTagEventDispatcher.h"/>
   </compounddef>
 </doxygen>

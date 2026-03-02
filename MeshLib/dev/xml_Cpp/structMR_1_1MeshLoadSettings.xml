@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshLoadSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshLoadSettings</compoundname>
-    <includes refid="MRMeshLoadSettings_8h" local="no">MRMeshLoadSettings.h</includes>
+    <includes refid="MRMeshLoadSettings_8h" local="no">MRMesh/MRMeshLoadSettings.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga49a42dcc4e94c7c1824987b168d150b9" kind="variable"><name>edges</name></member>
       <member refid="group__GeneralGroup_1ga3d2dec2482a716804af51ed748ebcebc" kind="variable"><name>colors</name></member>
@@ -40,7 +40,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" bodystart="14" bodyend="26"/>
+    <location file="MRMesh/MRMeshLoadSettings.h" line="13" column="1" bodyfile="MRMesh/MRMeshLoadSettings.h" bodystart="14" bodyend="26"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga60b5f4bc63d35b0ef8261da4de65917d" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>callback</name></member>
       <member refid="group__GeneralGroup_1ga3d2dec2482a716804af51ed748ebcebc" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>colors</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::BasicUiRenderTask::InteractionMask</compoundname>
     <sectiondef kind="private-static-attrib">
@@ -467,19 +467,6 @@
   mouseScroll
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.BasicUiRenderTask.InteractionMask</label>
-        <link refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>mouseHover</edgelabel>
-          <edgelabel>mouseScroll</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2786" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2786" bodyend="2838"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a643d41e8a5410f17871ba4c85d4b09cf" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__and__</name></member>

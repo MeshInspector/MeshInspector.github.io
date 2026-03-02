@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1std__vector__SkyPatch" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::std_vector_SkyPatch</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -559,18 +559,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.std_vector_SkyPatch</label>
-        <link refid="classmrmeshpy_1_1std__vector__SkyPatch"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>element_type_byte_size</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87980" bodyend="88070"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1ae8f287dd40b7ef52bb01d28079a5c06f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>__bool__</name></member>

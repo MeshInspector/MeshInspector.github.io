@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ContoursMeshAlignParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::ContoursMeshAlignParams</compoundname>
-    <includes refid="MRAlignContoursToMesh_8h" local="no">MRAlignContoursToMesh.h</includes>
+    <includes refid="MRAlignContoursToMesh_8h" local="no">MRMesh/MRAlignContoursToMesh.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gae97d50b08fe054c5ef97702df2abed70" kind="variable"><name>meshPoint</name></member>
       <member refid="group__GeneralGroup_1gade3d72e16e489a276f9609dfb721672f" kind="variable"><name>pivotPoint</name></member>
@@ -29,7 +29,7 @@
         <link refid="structMR_1_1MeshTriPoint"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="18" bodyend="38"/>
+    <location file="MRMesh/MRAlignContoursToMesh.h" line="17" column="1" bodyfile="MRMesh/MRAlignContoursToMesh.h" bodystart="18" bodyend="38"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga9a03a3ee1588c3ef8f24a4dbfa6ec448" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>extrusion</name></member>
       <member refid="group__GeneralGroup_1gad9dad0b7c156df05b761c0ed08386885" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>maximumShift</name></member>

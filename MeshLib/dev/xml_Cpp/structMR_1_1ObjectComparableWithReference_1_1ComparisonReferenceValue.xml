@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kind="struct" language="C++" prot="public">
     <compoundname>MR::ObjectComparableWithReference::ComparisonReferenceValue</compoundname>
-    <includes refid="MRObjectComparableWithReference_8h" local="no">MRObjectComparableWithReference.h</includes>
+    <includes refid="MRObjectComparableWithReference_8h" local="no">MRMesh/MRObjectComparableWithReference.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gab6bd7006ecd86f31248360a557a17d09" kind="typedef"><name>Var</name></member>
     </sectiondef>
@@ -11,11 +11,11 @@
       <member refid="group__GeneralGroup_1gabd15c83314b1e4ade65944996e7f5026" kind="variable"><name>var</name></member>
     </sectiondef>
     <briefdescription>
-<para>This can&apos;t be <computeroutput>std::optional&lt;Var&gt;</computeroutput>, because we still need the variant to know the correct type. </para>
+<para>This can&apos;t be <computeroutput>std::optional&lt;<ref refid="group__GeneralGroup_1gab6bd7006ecd86f31248360a557a17d09" kindref="member">Var</ref>&gt;</computeroutput>, because we still need the variant to know the correct type. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="89" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="90" bodyend="97"/>
+    <location file="MRMesh/MRObjectComparableWithReference.h" line="89" column="5" bodyfile="MRMesh/MRObjectComparableWithReference.h" bodystart="90" bodyend="97"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8efb7f0e3b145e075d5c168695ee5698" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference::ComparisonReferenceValue</scope><name>isSet</name></member>
       <member refid="group__GeneralGroup_1gab6bd7006ecd86f31248360a557a17d09" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference::ComparisonReferenceValue</scope><name>Var</name></member>

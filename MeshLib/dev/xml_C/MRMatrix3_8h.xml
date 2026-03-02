@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMatrix3_8h" kind="file" language="C++">
     <compoundname>MRMatrix3.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
@@ -412,36 +412,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>three-dimensional vector Generated from class <computeroutput>MR::Vector3&lt;unsigned char&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMatrix3_8h_1aef22a11476e76208a3f9a5cf2eba4c98" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref></type>
-        <definition>typedef struct MR_std_istream MR_std_istream</definition>
-        <argsstring></argsstring>
-        <name>MR_std_istream</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" line="15" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRMatrix3_8h_1a933fad1748853c0c595a157b9f6527c6" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref></type>
-        <definition>typedef struct MR_std_ostream MR_std_ostream</definition>
-        <argsstring></argsstring>
-        <name>MR_std_ostream</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" line="16" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix3.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMatrix3_8h_1a62b5f44f18f0bf36ab2c786ad21107bf" prot="public" static="no">
         <type>struct <ref refid="MRMatrix3_8h_1a62b5f44f18f0bf36ab2c786ad21107bf" kindref="member">MR_Matrix3_bool_QR</ref></type>
@@ -1223,7 +1198,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Matrix3_bool_QR</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMatrix3_8h_1a62b5f44f18f0bf36ab2c786ad21107bf" kindref="member">MR_Matrix3_bool_QR</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1241,7 +1216,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Matrix3_bool_QR</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMatrix3_8h_1a62b5f44f18f0bf36ab2c786ad21107bf" kindref="member">MR_Matrix3_bool_QR</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2211,7 +2186,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Matrix3_int_QR</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMatrix3_8h_1adf6df88b69e9afdc65b4eb110df63694" kindref="member">MR_Matrix3_int_QR</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2229,7 +2204,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Matrix3_int_QR</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMatrix3_8h_1adf6df88b69e9afdc65b4eb110df63694" kindref="member">MR_Matrix3_int_QR</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3199,7 +3174,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Matrix3_int64_t_QR</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMatrix3_8h_1a445fb2aac041d500ad7fda6ffe4a8bdb" kindref="member">MR_Matrix3_int64_t_QR</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -3217,7 +3192,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Matrix3_int64_t_QR</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMatrix3_8h_1a445fb2aac041d500ad7fda6ffe4a8bdb" kindref="member">MR_Matrix3_int64_t_QR</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4339,7 +4314,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Matrix3_float_QR</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMatrix3_8h_1aae0a295e7f309641bf0e77e7b73af218" kindref="member">MR_Matrix3_float_QR</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -4357,7 +4332,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Matrix3_float_QR</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMatrix3_8h_1aae0a295e7f309641bf0e77e7b73af218" kindref="member">MR_Matrix3_float_QR</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5461,7 +5436,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Matrix3_double_QR</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMatrix3_8h_1a286c27fe7f8f7d1e1dcef6c81e3cc9ae" kindref="member">MR_Matrix3_double_QR</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5479,7 +5454,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Matrix3_double_QR</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMatrix3_8h_1a286c27fe7f8f7d1e1dcef6c81e3cc9ae" kindref="member">MR_Matrix3_double_QR</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6146,7 +6121,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Matrix3_unsigned_char</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6164,7 +6139,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Matrix3_unsigned_char</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6743,7 +6718,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Matrix3_unsigned_char_QR</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMatrix3_8h_1a26dc7d5c75ac631e1e08f18333c1c6c3" kindref="member">MR_Matrix3_unsigned_char_QR</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -6761,7 +6736,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Matrix3_unsigned_char_QR</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMatrix3_8h_1a26dc7d5c75ac631e1e08f18333c1c6c3" kindref="member">MR_Matrix3_unsigned_char_QR</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -7141,58 +7116,58 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="MRMatrix3_8h_1aaaed28db9b98fcce268e87e2dab74ff9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMatrix3_8h_1aaaed28db9b98fcce268e87e2dab74ff9" kindref="member">MR_Vector3_unsigned_char</ref><sp/><ref refid="MRMatrix3_8h_1aaaed28db9b98fcce268e87e2dab74ff9" kindref="member">MR_Vector3_unsigned_char</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRMatrix3_8h_1aef22a11476e76208a3f9a5cf2eba4c98" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRMatrix3_8h_1a933fad1748853c0c595a157b9f6527c6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRMatrix3_8h_1a62b5f44f18f0bf36ab2c786ad21107bf" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMatrix3_8h_1a62b5f44f18f0bf36ab2c786ad21107bf" kindref="member">MR_Matrix3_bool_QR</ref><sp/><ref refid="MRMatrix3_8h_1a62b5f44f18f0bf36ab2c786ad21107bf" kindref="member">MR_Matrix3_bool_QR</ref>;</highlight></codeline>
+<codeline lineno="21" refid="MRMatrix3_8h_1a62b5f44f18f0bf36ab2c786ad21107bf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMatrix3_8h_1a62b5f44f18f0bf36ab2c786ad21107bf" kindref="member">MR_Matrix3_bool_QR</ref><sp/><ref refid="MRMatrix3_8h_1a62b5f44f18f0bf36ab2c786ad21107bf" kindref="member">MR_Matrix3_bool_QR</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="structMR__Matrix3b" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3b" kindref="compound">MR_Matrix3b</ref></highlight></codeline>
+<codeline lineno="25" refid="structMR__Matrix3b" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3b" kindref="compound">MR_Matrix3b</ref></highlight></codeline>
 <codeline lineno="26"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="28" refid="structMR__Matrix3b_1a2c95eb3d6429708e594b2e1802decd80" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3b" kindref="compound">MR_Vector3b</ref><sp/><ref refid="structMR__Matrix3b_1a2c95eb3d6429708e594b2e1802decd80" kindref="member">x</ref>;</highlight></codeline>
 <codeline lineno="29" refid="structMR__Matrix3b_1a6e8e74ee1dc79f588253a457d4ed4d58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3b" kindref="compound">MR_Vector3b</ref><sp/><ref refid="structMR__Matrix3b_1a6e8e74ee1dc79f588253a457d4ed4d58" kindref="member">y</ref>;</highlight></codeline>
 <codeline lineno="30" refid="structMR__Matrix3b_1a5ebc154ed86a391ac515979b615d7dac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3b" kindref="compound">MR_Vector3b</ref><sp/><ref refid="structMR__Matrix3b_1a5ebc154ed86a391ac515979b615d7dac" kindref="member">z</ref>;</highlight></codeline>
-<codeline lineno="31" refid="MRMatrix3_8h_1a4100500bfb94b62479896ff53476807d" refkind="member"><highlight class="normal">}<sp/><ref refid="MRMatrix3_8h_1a4100500bfb94b62479896ff53476807d" kindref="member">MR_Matrix3b</ref>;</highlight></codeline>
+<codeline lineno="31" refid="MRMatrix3_8h_1a4100500bfb94b62479896ff53476807d" refkind="member"><highlight class="normal">}<sp/><ref refid="structMR__Matrix3b" kindref="compound">MR_Matrix3b</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRMatrix3_8h_1adf6df88b69e9afdc65b4eb110df63694" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMatrix3_8h_1adf6df88b69e9afdc65b4eb110df63694" kindref="member">MR_Matrix3_int_QR</ref><sp/><ref refid="MRMatrix3_8h_1adf6df88b69e9afdc65b4eb110df63694" kindref="member">MR_Matrix3_int_QR</ref>;</highlight></codeline>
+<codeline lineno="35" refid="MRMatrix3_8h_1adf6df88b69e9afdc65b4eb110df63694" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMatrix3_8h_1adf6df88b69e9afdc65b4eb110df63694" kindref="member">MR_Matrix3_int_QR</ref><sp/><ref refid="MRMatrix3_8h_1adf6df88b69e9afdc65b4eb110df63694" kindref="member">MR_Matrix3_int_QR</ref>;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="structMR__Matrix3i" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3i" kindref="compound">MR_Matrix3i</ref></highlight></codeline>
+<codeline lineno="39" refid="structMR__Matrix3i" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3i" kindref="compound">MR_Matrix3i</ref></highlight></codeline>
 <codeline lineno="40"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="42" refid="structMR__Matrix3i_1a049fd7bdea20d76c8f3c576d3d119097" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Matrix3i_1a049fd7bdea20d76c8f3c576d3d119097" kindref="member">x</ref>;</highlight></codeline>
 <codeline lineno="43" refid="structMR__Matrix3i_1a07d2890821529dbfa68c895107e8823a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Matrix3i_1a07d2890821529dbfa68c895107e8823a" kindref="member">y</ref>;</highlight></codeline>
 <codeline lineno="44" refid="structMR__Matrix3i_1aaaa994c53b254b6330da8176b765438d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Matrix3i_1aaaa994c53b254b6330da8176b765438d" kindref="member">z</ref>;</highlight></codeline>
-<codeline lineno="45" refid="MRMatrix3_8h_1a80cecc14d585d3bb506d6a8c70954d7a" refkind="member"><highlight class="normal">}<sp/><ref refid="MRMatrix3_8h_1a80cecc14d585d3bb506d6a8c70954d7a" kindref="member">MR_Matrix3i</ref>;</highlight></codeline>
+<codeline lineno="45" refid="MRMatrix3_8h_1a80cecc14d585d3bb506d6a8c70954d7a" refkind="member"><highlight class="normal">}<sp/><ref refid="structMR__Matrix3i" kindref="compound">MR_Matrix3i</ref>;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="MRMatrix3_8h_1a445fb2aac041d500ad7fda6ffe4a8bdb" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMatrix3_8h_1a445fb2aac041d500ad7fda6ffe4a8bdb" kindref="member">MR_Matrix3_int64_t_QR</ref><sp/><ref refid="MRMatrix3_8h_1a445fb2aac041d500ad7fda6ffe4a8bdb" kindref="member">MR_Matrix3_int64_t_QR</ref>;</highlight></codeline>
+<codeline lineno="49" refid="MRMatrix3_8h_1a445fb2aac041d500ad7fda6ffe4a8bdb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMatrix3_8h_1a445fb2aac041d500ad7fda6ffe4a8bdb" kindref="member">MR_Matrix3_int64_t_QR</ref><sp/><ref refid="MRMatrix3_8h_1a445fb2aac041d500ad7fda6ffe4a8bdb" kindref="member">MR_Matrix3_int64_t_QR</ref>;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="structMR__Matrix3i64" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref></highlight></codeline>
+<codeline lineno="53" refid="structMR__Matrix3i64" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref></highlight></codeline>
 <codeline lineno="54"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="56" refid="structMR__Matrix3i64_1a80d5fa8422f97c8078f3cef1aef1b6f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref><sp/><ref refid="structMR__Matrix3i64_1a80d5fa8422f97c8078f3cef1aef1b6f1" kindref="member">x</ref>;</highlight></codeline>
 <codeline lineno="57" refid="structMR__Matrix3i64_1acda23cf4996d5db525e584b51c3e7c99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref><sp/><ref refid="structMR__Matrix3i64_1acda23cf4996d5db525e584b51c3e7c99" kindref="member">y</ref>;</highlight></codeline>
 <codeline lineno="58" refid="structMR__Matrix3i64_1ad8cc37c9fc5ee3d20affbd56eebe3aa8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref><sp/><ref refid="structMR__Matrix3i64_1ad8cc37c9fc5ee3d20affbd56eebe3aa8" kindref="member">z</ref>;</highlight></codeline>
-<codeline lineno="59" refid="MRMatrix3_8h_1acc0a38c5c5d95fc26f9f9a26fee0c0ec" refkind="member"><highlight class="normal">}<sp/><ref refid="MRMatrix3_8h_1acc0a38c5c5d95fc26f9f9a26fee0c0ec" kindref="member">MR_Matrix3i64</ref>;</highlight></codeline>
+<codeline lineno="59" refid="MRMatrix3_8h_1acc0a38c5c5d95fc26f9f9a26fee0c0ec" refkind="member"><highlight class="normal">}<sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref>;</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="MRMatrix3_8h_1aae0a295e7f309641bf0e77e7b73af218" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMatrix3_8h_1aae0a295e7f309641bf0e77e7b73af218" kindref="member">MR_Matrix3_float_QR</ref><sp/><ref refid="MRMatrix3_8h_1aae0a295e7f309641bf0e77e7b73af218" kindref="member">MR_Matrix3_float_QR</ref>;</highlight></codeline>
+<codeline lineno="63" refid="MRMatrix3_8h_1aae0a295e7f309641bf0e77e7b73af218" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMatrix3_8h_1aae0a295e7f309641bf0e77e7b73af218" kindref="member">MR_Matrix3_float_QR</ref><sp/><ref refid="MRMatrix3_8h_1aae0a295e7f309641bf0e77e7b73af218" kindref="member">MR_Matrix3_float_QR</ref>;</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="structMR__Matrix3f" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref></highlight></codeline>
+<codeline lineno="67" refid="structMR__Matrix3f" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref></highlight></codeline>
 <codeline lineno="68"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="70" refid="structMR__Matrix3f_1ac198a606b5c85eae5e24fb6b08cc6733" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Matrix3f_1ac198a606b5c85eae5e24fb6b08cc6733" kindref="member">x</ref>;</highlight></codeline>
 <codeline lineno="71" refid="structMR__Matrix3f_1ac7f4c09c6a421f755d0bbbab80105221" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Matrix3f_1ac7f4c09c6a421f755d0bbbab80105221" kindref="member">y</ref>;</highlight></codeline>
 <codeline lineno="72" refid="structMR__Matrix3f_1a635431345b51ad630487265e5061fcca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Matrix3f_1a635431345b51ad630487265e5061fcca" kindref="member">z</ref>;</highlight></codeline>
-<codeline lineno="73" refid="MRMatrix3_8h_1a864a32707cffe3bd344334f0e4b292cf" refkind="member"><highlight class="normal">}<sp/><ref refid="MRMatrix3_8h_1a864a32707cffe3bd344334f0e4b292cf" kindref="member">MR_Matrix3f</ref>;</highlight></codeline>
+<codeline lineno="73" refid="MRMatrix3_8h_1a864a32707cffe3bd344334f0e4b292cf" refkind="member"><highlight class="normal">}<sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref>;</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="MRMatrix3_8h_1a286c27fe7f8f7d1e1dcef6c81e3cc9ae" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMatrix3_8h_1a286c27fe7f8f7d1e1dcef6c81e3cc9ae" kindref="member">MR_Matrix3_double_QR</ref><sp/><ref refid="MRMatrix3_8h_1a286c27fe7f8f7d1e1dcef6c81e3cc9ae" kindref="member">MR_Matrix3_double_QR</ref>;</highlight></codeline>
+<codeline lineno="77" refid="MRMatrix3_8h_1a286c27fe7f8f7d1e1dcef6c81e3cc9ae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMatrix3_8h_1a286c27fe7f8f7d1e1dcef6c81e3cc9ae" kindref="member">MR_Matrix3_double_QR</ref><sp/><ref refid="MRMatrix3_8h_1a286c27fe7f8f7d1e1dcef6c81e3cc9ae" kindref="member">MR_Matrix3_double_QR</ref>;</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="structMR__Matrix3d" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref></highlight></codeline>
+<codeline lineno="81" refid="structMR__Matrix3d" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref></highlight></codeline>
 <codeline lineno="82"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="84" refid="structMR__Matrix3d_1a48f867cbf16307cd450e080f3bee7a50" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="structMR__Matrix3d_1a48f867cbf16307cd450e080f3bee7a50" kindref="member">x</ref>;</highlight></codeline>
 <codeline lineno="85" refid="structMR__Matrix3d_1a52cf785d471d25757aba184954bd60e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="structMR__Matrix3d_1a52cf785d471d25757aba184954bd60e3" kindref="member">y</ref>;</highlight></codeline>
 <codeline lineno="86" refid="structMR__Matrix3d_1afc26a63b1a595ea7b8c66275f11e6b4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="structMR__Matrix3d_1afc26a63b1a595ea7b8c66275f11e6b4e" kindref="member">z</ref>;</highlight></codeline>
-<codeline lineno="87" refid="MRMatrix3_8h_1af75d5aee2f1ffaf5e022bf46adacedaa" refkind="member"><highlight class="normal">}<sp/><ref refid="MRMatrix3_8h_1af75d5aee2f1ffaf5e022bf46adacedaa" kindref="member">MR_Matrix3d</ref>;</highlight></codeline>
+<codeline lineno="87" refid="MRMatrix3_8h_1af75d5aee2f1ffaf5e022bf46adacedaa" refkind="member"><highlight class="normal">}<sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref>;</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91" refid="MRMatrix3_8h_1a26dc7d5c75ac631e1e08f18333c1c6c3" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMatrix3_8h_1a26dc7d5c75ac631e1e08f18333c1c6c3" kindref="member">MR_Matrix3_unsigned_char_QR</ref><sp/><ref refid="MRMatrix3_8h_1a26dc7d5c75ac631e1e08f18333c1c6c3" kindref="member">MR_Matrix3_unsigned_char_QR</ref>;</highlight></codeline>
+<codeline lineno="91" refid="MRMatrix3_8h_1a26dc7d5c75ac631e1e08f18333c1c6c3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMatrix3_8h_1a26dc7d5c75ac631e1e08f18333c1c6c3" kindref="member">MR_Matrix3_unsigned_char_QR</ref><sp/><ref refid="MRMatrix3_8h_1a26dc7d5c75ac631e1e08f18333c1c6c3" kindref="member">MR_Matrix3_unsigned_char_QR</ref>;</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref><sp/><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref>;</highlight></codeline>
+<codeline lineno="96" refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref><sp/><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref>;</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
 <codeline lineno="99" refid="MRMatrix3_8h_1a81aee4e797f72cbb614c5c029e51830c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix3b" kindref="compound">MR_Matrix3b</ref><sp/><ref refid="MRMatrix3_8h_1a81aee4e797f72cbb614c5c029e51830c" kindref="member">MR_Matrix3b_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
@@ -7264,7 +7239,7 @@
 <codeline lineno="273"><highlight class="normal"></highlight></codeline>
 <codeline lineno="277" refid="MRMatrix3_8h_1a9675642def7e6cc53bf421b2cbee4332" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1a9675642def7e6cc53bf421b2cbee4332" kindref="member">MR_not_equal_MR_Matrix3b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3b" kindref="compound">MR_Matrix3b</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3b" kindref="compound">MR_Matrix3b</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="278"><highlight class="normal"></highlight></codeline>
-<codeline lineno="279"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NOTE:<sp/>We<sp/>use<sp/>`std::declval()`<sp/>in<sp/>the<sp/>operators<sp/>below<sp/>because<sp/>libclang<sp/>18<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>is<sp/>bugged<sp/>and<sp/>chokes<sp/>on<sp/>decltyping<sp/>`a.x`<sp/>and<sp/>such.<sp/>TODO<sp/>fix<sp/>this<sp/>when<sp/>we<sp/>update<sp/>libclang.</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NOTE:<sp/>We<sp/>use<sp/>`std::declval()`<sp/>in<sp/>the<sp/>operators<sp/>below<sp/>because<sp/>libclang<sp/>18<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>is<sp/>bugged<sp/>and<sp/>chokes<sp/>on<sp/>decltyping<sp/>`a.x`<sp/>and<sp/>such.<sp/>TODO<sp/>fix<sp/>this<sp/>when<sp/>we<sp/>update<sp/>libclang.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="283" refid="MRMatrix3_8h_1a70683fc4cfa6f1699a41099ae3c3e853" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix3i" kindref="compound">MR_Matrix3i</ref><sp/><ref refid="MRMatrix3_8h_1a70683fc4cfa6f1699a41099ae3c3e853" kindref="member">MR_add_MR_Matrix3b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3b" kindref="compound">MR_Matrix3b</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3b" kindref="compound">MR_Matrix3b</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="284"><highlight class="normal"></highlight></codeline>
 <codeline lineno="288" refid="MRMatrix3_8h_1a9bdf237264c749eb899e16b29721099f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix3i" kindref="compound">MR_Matrix3i</ref><sp/><ref refid="MRMatrix3_8h_1a9bdf237264c749eb899e16b29721099f" kindref="member">MR_sub_MR_Matrix3b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3b" kindref="compound">MR_Matrix3b</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3b" kindref="compound">MR_Matrix3b</ref><sp/>*b);</highlight></codeline>
@@ -7361,7 +7336,7 @@
 <codeline lineno="522"><highlight class="normal"></highlight></codeline>
 <codeline lineno="526" refid="MRMatrix3_8h_1a3854ed632485de5ada4f08486a1740b2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1a3854ed632485de5ada4f08486a1740b2" kindref="member">MR_not_equal_MR_Matrix3i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i" kindref="compound">MR_Matrix3i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i" kindref="compound">MR_Matrix3i</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="527"><highlight class="normal"></highlight></codeline>
-<codeline lineno="528"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NOTE:<sp/>We<sp/>use<sp/>`std::declval()`<sp/>in<sp/>the<sp/>operators<sp/>below<sp/>because<sp/>libclang<sp/>18<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>is<sp/>bugged<sp/>and<sp/>chokes<sp/>on<sp/>decltyping<sp/>`a.x`<sp/>and<sp/>such.<sp/>TODO<sp/>fix<sp/>this<sp/>when<sp/>we<sp/>update<sp/>libclang.</highlight></codeline>
+<codeline lineno="528"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NOTE:<sp/>We<sp/>use<sp/>`std::declval()`<sp/>in<sp/>the<sp/>operators<sp/>below<sp/>because<sp/>libclang<sp/>18<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>is<sp/>bugged<sp/>and<sp/>chokes<sp/>on<sp/>decltyping<sp/>`a.x`<sp/>and<sp/>such.<sp/>TODO<sp/>fix<sp/>this<sp/>when<sp/>we<sp/>update<sp/>libclang.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="532" refid="MRMatrix3_8h_1ab91d7466e89bc3dd96bc44227fe5d282" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix3i" kindref="compound">MR_Matrix3i</ref><sp/><ref refid="MRMatrix3_8h_1ab91d7466e89bc3dd96bc44227fe5d282" kindref="member">MR_add_MR_Matrix3i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i" kindref="compound">MR_Matrix3i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i" kindref="compound">MR_Matrix3i</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="533"><highlight class="normal"></highlight></codeline>
 <codeline lineno="537" refid="MRMatrix3_8h_1a0386db14b277dffd993faefe1f31ef3a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix3i" kindref="compound">MR_Matrix3i</ref><sp/><ref refid="MRMatrix3_8h_1a0386db14b277dffd993faefe1f31ef3a" kindref="member">MR_sub_MR_Matrix3i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i" kindref="compound">MR_Matrix3i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i" kindref="compound">MR_Matrix3i</ref><sp/>*b);</highlight></codeline>
@@ -7458,7 +7433,7 @@
 <codeline lineno="771"><highlight class="normal"></highlight></codeline>
 <codeline lineno="775" refid="MRMatrix3_8h_1a37f3762c47e53501c35e01f84160350e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1a37f3762c47e53501c35e01f84160350e" kindref="member">MR_not_equal_MR_Matrix3i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="776"><highlight class="normal"></highlight></codeline>
-<codeline lineno="777"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NOTE:<sp/>We<sp/>use<sp/>`std::declval()`<sp/>in<sp/>the<sp/>operators<sp/>below<sp/>because<sp/>libclang<sp/>18<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>is<sp/>bugged<sp/>and<sp/>chokes<sp/>on<sp/>decltyping<sp/>`a.x`<sp/>and<sp/>such.<sp/>TODO<sp/>fix<sp/>this<sp/>when<sp/>we<sp/>update<sp/>libclang.</highlight></codeline>
+<codeline lineno="777"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NOTE:<sp/>We<sp/>use<sp/>`std::declval()`<sp/>in<sp/>the<sp/>operators<sp/>below<sp/>because<sp/>libclang<sp/>18<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>is<sp/>bugged<sp/>and<sp/>chokes<sp/>on<sp/>decltyping<sp/>`a.x`<sp/>and<sp/>such.<sp/>TODO<sp/>fix<sp/>this<sp/>when<sp/>we<sp/>update<sp/>libclang.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="781" refid="MRMatrix3_8h_1a0a848639dd281a54df5710e86de1eca8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/><ref refid="MRMatrix3_8h_1a0a848639dd281a54df5710e86de1eca8" kindref="member">MR_add_MR_Matrix3i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="782"><highlight class="normal"></highlight></codeline>
 <codeline lineno="786" refid="MRMatrix3_8h_1afe0e7bf0bba61d6baa1a1d2940efdc4f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/><ref refid="MRMatrix3_8h_1afe0e7bf0bba61d6baa1a1d2940efdc4f" kindref="member">MR_sub_MR_Matrix3i64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3i64" kindref="compound">MR_Matrix3i64</ref><sp/>*b);</highlight></codeline>
@@ -7492,7 +7467,7 @@
 <codeline lineno="861" refid="MRMatrix3_8h_1ac301601a81918dabaa7d83f3eb77f8f1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/><ref refid="MRMatrix3_8h_1ac301601a81918dabaa7d83f3eb77f8f1" kindref="member">MR_Matrix3f_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*z);</highlight></codeline>
 <codeline lineno="862"><highlight class="normal"></highlight></codeline>
 <codeline lineno="863"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Here<sp/>`T<sp/>==<sp/>U`<sp/>doesn&apos;t<sp/>seem<sp/>to<sp/>cause<sp/>any<sp/>issues<sp/>in<sp/>the<sp/>C++<sp/>code,<sp/>but<sp/>we&apos;re<sp/>still<sp/>disabling<sp/>it<sp/>because<sp/>it<sp/>somehow<sp/>gets<sp/>emitted</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="864"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>when<sp/>generating<sp/>the<sp/>bindings,<sp/>and<sp/>results<sp/>in<sp/>duplicate<sp/>functions<sp/>in<sp/>C#.</highlight></codeline>
+<codeline lineno="864"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>when<sp/>generating<sp/>the<sp/>bindings,<sp/>and<sp/>results<sp/>in<sp/>duplicate<sp/>functions<sp/>in<sp/>C#.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="868" refid="MRMatrix3_8h_1a8100c1307775235423c59d38bce6153e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/><ref refid="MRMatrix3_8h_1a8100c1307775235423c59d38bce6153e" kindref="member">MR_Matrix3f_Construct_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref><sp/>*m);</highlight></codeline>
 <codeline lineno="869"><highlight class="normal"></highlight></codeline>
 <codeline lineno="871" refid="MRMatrix3_8h_1aee0d97fddb97726f3c20086c5d495a7a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/><ref refid="MRMatrix3_8h_1aee0d97fddb97726f3c20086c5d495a7a" kindref="member">MR_Matrix3f_zero</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
@@ -7573,7 +7548,7 @@
 <codeline lineno="1065"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1069" refid="MRMatrix3_8h_1a9b55185234b19b301a39f9671d7df4d1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1a9b55185234b19b301a39f9671d7df4d1" kindref="member">MR_not_equal_MR_Matrix3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="1070"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1071"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NOTE:<sp/>We<sp/>use<sp/>`std::declval()`<sp/>in<sp/>the<sp/>operators<sp/>below<sp/>because<sp/>libclang<sp/>18<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>is<sp/>bugged<sp/>and<sp/>chokes<sp/>on<sp/>decltyping<sp/>`a.x`<sp/>and<sp/>such.<sp/>TODO<sp/>fix<sp/>this<sp/>when<sp/>we<sp/>update<sp/>libclang.</highlight></codeline>
+<codeline lineno="1071"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NOTE:<sp/>We<sp/>use<sp/>`std::declval()`<sp/>in<sp/>the<sp/>operators<sp/>below<sp/>because<sp/>libclang<sp/>18<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>is<sp/>bugged<sp/>and<sp/>chokes<sp/>on<sp/>decltyping<sp/>`a.x`<sp/>and<sp/>such.<sp/>TODO<sp/>fix<sp/>this<sp/>when<sp/>we<sp/>update<sp/>libclang.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1075" refid="MRMatrix3_8h_1a04fc566b07034b63cd2522ed823d497e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/><ref refid="MRMatrix3_8h_1a04fc566b07034b63cd2522ed823d497e" kindref="member">MR_add_MR_Matrix3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="1076"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1080" refid="MRMatrix3_8h_1a5c48e06ca2cfceb25b3d5a56c6ccea0a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/><ref refid="MRMatrix3_8h_1a5c48e06ca2cfceb25b3d5a56c6ccea0a" kindref="member">MR_sub_MR_Matrix3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/>*b);</highlight></codeline>
@@ -7684,7 +7659,7 @@
 <codeline lineno="1352"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1356" refid="MRMatrix3_8h_1a2fc6b38f995715d2a2a1651afada6e0c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1a2fc6b38f995715d2a2a1651afada6e0c" kindref="member">MR_not_equal_MR_Matrix3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="1357"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1358"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NOTE:<sp/>We<sp/>use<sp/>`std::declval()`<sp/>in<sp/>the<sp/>operators<sp/>below<sp/>because<sp/>libclang<sp/>18<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>is<sp/>bugged<sp/>and<sp/>chokes<sp/>on<sp/>decltyping<sp/>`a.x`<sp/>and<sp/>such.<sp/>TODO<sp/>fix<sp/>this<sp/>when<sp/>we<sp/>update<sp/>libclang.</highlight></codeline>
+<codeline lineno="1358"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NOTE:<sp/>We<sp/>use<sp/>`std::declval()`<sp/>in<sp/>the<sp/>operators<sp/>below<sp/>because<sp/>libclang<sp/>18<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>is<sp/>bugged<sp/>and<sp/>chokes<sp/>on<sp/>decltyping<sp/>`a.x`<sp/>and<sp/>such.<sp/>TODO<sp/>fix<sp/>this<sp/>when<sp/>we<sp/>update<sp/>libclang.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1362" refid="MRMatrix3_8h_1a3669b1ba182edaeb8bb74f6026a2caf1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref><sp/><ref refid="MRMatrix3_8h_1a3669b1ba182edaeb8bb74f6026a2caf1" kindref="member">MR_add_MR_Matrix3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="1363"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1367" refid="MRMatrix3_8h_1aa7e572e583e0608e7f9072e5146c9177" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref><sp/><ref refid="MRMatrix3_8h_1aa7e572e583e0608e7f9072e5146c9177" kindref="member">MR_sub_MR_Matrix3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref><sp/>*b);</highlight></codeline>
@@ -7811,7 +7786,7 @@
 <codeline lineno="1704"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1708" refid="MRMatrix3_8h_1afd919104becde0fb831290227727821b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1afd919104becde0fb831290227727821b" kindref="member">MR_not_equal_MR_Matrix3_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="1709"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1710"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NOTE:<sp/>We<sp/>use<sp/>`std::declval()`<sp/>in<sp/>the<sp/>operators<sp/>below<sp/>because<sp/>libclang<sp/>18<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>is<sp/>bugged<sp/>and<sp/>chokes<sp/>on<sp/>decltyping<sp/>`a.x`<sp/>and<sp/>such.<sp/>TODO<sp/>fix<sp/>this<sp/>when<sp/>we<sp/>update<sp/>libclang.</highlight></codeline>
+<codeline lineno="1710"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NOTE:<sp/>We<sp/>use<sp/>`std::declval()`<sp/>in<sp/>the<sp/>operators<sp/>below<sp/>because<sp/>libclang<sp/>18<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>is<sp/>bugged<sp/>and<sp/>chokes<sp/>on<sp/>decltyping<sp/>`a.x`<sp/>and<sp/>such.<sp/>TODO<sp/>fix<sp/>this<sp/>when<sp/>we<sp/>update<sp/>libclang.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1714" refid="MRMatrix3_8h_1a3572d874328aae456cbcbb945f35a8f0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix3i" kindref="compound">MR_Matrix3i</ref><sp/><ref refid="MRMatrix3_8h_1a3572d874328aae456cbcbb945f35a8f0" kindref="member">MR_add_MR_Matrix3_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="1715"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1719" refid="MRMatrix3_8h_1a41ac594d57154e02483d915d701a19bf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix3i" kindref="compound">MR_Matrix3i</ref><sp/><ref refid="MRMatrix3_8h_1a41ac594d57154e02483d915d701a19bf" kindref="member">MR_sub_MR_Matrix3_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref><sp/>*b);</highlight></codeline>

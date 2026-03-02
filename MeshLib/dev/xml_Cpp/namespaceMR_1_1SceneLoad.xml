@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1SceneLoad" kind="namespace" language="C++">
     <compoundname>MR::SceneLoad</compoundname>
     <innerclass refid="structMR_1_1SceneLoad_1_1Result" prot="public">MR::SceneLoad::Result</innerclass>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="348" bodyend="-1"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="348" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="348" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1_1SceneLoad_1ad9301168bfb0258833ac6729cfb138a9" prot="public" static="no">
         <type>std::function&lt; void(<ref refid="structMR_1_1SceneLoad_1_1Result" kindref="compound">Result</ref>)&gt;</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" line="48" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" bodystart="48" bodyend="-1"/>
+        <location file="MRMesh/MRSceneLoad.h" line="48" column="1" bodyfile="MRMesh/MRSceneLoad.h" bodystart="48" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" line="44" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" declline="44" declcolumn="9"/>
+        <location file="MRMesh/MRSceneLoad.h" line="44" column="9" declfile="MRMesh/MRSceneLoad.h" declline="44" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1SceneLoad_1a2a4af1d8739f0881fc254c4f1aa18df0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -85,14 +85,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" line="49" column="7" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" declline="49" declcolumn="7"/>
+        <location file="MRMesh/MRSceneLoad.h" line="49" column="7" declfile="MRMesh/MRSceneLoad.h" declline="49" declcolumn="7"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>namespace <ref refid="namespaceMR_1_1AsyncObjectLoad" kindref="compound">AsyncObjectLoad</ref> </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="345" column="1"/>
+    <location file="MRMesh/MRIOFormatsRegistry.h" line="345" column="1"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TwoLineSegmClosestPoints__Double" kind="class" language="C#" prot="public">
     <compoundname>MR::TwoLineSegmClosestPoints_Double</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_TwoLineSegmClosestPoints_Double</basecompoundref>
@@ -108,7 +108,7 @@
           <declname>dir</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR.TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -127,7 +127,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TwoLineSegmClosestPoints&lt;double&gt;::TwoLineSegmClosestPoints</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;::TwoLineSegmClosestPoints</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -146,7 +146,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.TwoLineSegmClosestPoints&lt;double&gt;::TwoLineSegmClosestPoints</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;::TwoLineSegmClosestPoints</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -165,7 +165,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.TwoLineSegmClosestPoints&lt;double&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -175,50 +175,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR.TwoLineSegmClosestPoints&lt;double&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::TwoLineSegmClosestPoints&lt;double&gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_TwoLineSegmClosestPoints_Double</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TwoLineSegmClosestPoints_Double</label>
         <link refid="classMR_1_1TwoLineSegmClosestPoints__Double"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_TwoLineSegmClosestPoints_Double</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TwoLineSegmClosestPoints_Double &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_TwoLineSegmClosestPoints_Double</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.TwoLineSegmClosestPoints_Double</label>
         <link refid="classMR_1_1TwoLineSegmClosestPoints__Double"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_TwoLineSegmClosestPoints_Double</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_TwoLineSegmClosestPoints_Double &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="339" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="340" bodyend="411"/>

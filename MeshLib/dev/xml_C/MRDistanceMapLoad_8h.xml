@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRDistanceMapLoad_8h" kind="file" language="C++">
     <compoundname>MRDistanceMapLoad.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -23,23 +23,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>settings for loading distance maps from external formats Generated from class <computeroutput>MR::DistanceMapLoadSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapLoad.h" line="9" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapLoad.h" bodystart="9" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRDistanceMapLoad_8h_1a52efa08117d1b3edf97d282ba7127323" prot="public" static="no">
-        <type>struct <ref refid="MRDistanceMap_8h_1a52efa08117d1b3edf97d282ba7127323" kindref="member">MR_expected_MR_DistanceMap_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_DistanceMap_std_string MR_expected_MR_DistanceMap_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_DistanceMap_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapLoad.h" line="10" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceMapLoad.h" bodystart="10" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -163,7 +151,7 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9" refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceMapParams.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="MRDistanceMapLoad_8h_1a52efa08117d1b3edf97d282ba7127323" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a52efa08117d1b3edf97d282ba7127323" kindref="member">MR_expected_MR_DistanceMap_std_string</ref><sp/><ref refid="MRDistanceMap_8h_1a52efa08117d1b3edf97d282ba7127323" kindref="member">MR_expected_MR_DistanceMap_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_DistanceMap_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a52efa08117d1b3edf97d282ba7127323" kindref="member">MR_expected_MR_DistanceMap_std_string</ref><sp/><ref refid="MRDistanceMap_8h_1a52efa08117d1b3edf97d282ba7127323" kindref="member">MR_expected_MR_DistanceMap_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_DistanceMap_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRDistanceMapLoad_8h_1a3964ef33d91884faea0cf5da72bd7002" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a52efa08117d1b3edf97d282ba7127323" kindref="member">MR_expected_MR_DistanceMap_std_string</ref><sp/>*<ref refid="MRDistanceMapLoad_8h_1a3964ef33d91884faea0cf5da72bd7002" kindref="member">MR_DistanceMapLoad_fromRaw</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*settings);</highlight></codeline>

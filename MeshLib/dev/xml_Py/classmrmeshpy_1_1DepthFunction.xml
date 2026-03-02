@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1DepthFunction" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::DepthFunction</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -586,26 +586,6 @@
   Default : usually &quot;Less&quot; but may differ for different object types
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.DepthFunction</label>
-        <link refid="classmrmeshpy_1_1DepthFunction"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>Always</edgelabel>
-          <edgelabel>Default</edgelabel>
-          <edgelabel>Equal</edgelabel>
-          <edgelabel>Greater</edgelabel>
-          <edgelabel>GreaterOrEqual</edgelabel>
-          <edgelabel>Less</edgelabel>
-          <edgelabel>LessOrEqual</edgelabel>
-          <edgelabel>Never</edgelabel>
-          <edgelabel>NotEqual</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12809" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12809" bodyend="12882"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1DepthFunction_1ad227d62addfecbd68d0c0c8c6c95d8a0" prot="public" virt="non-virtual"><scope>mrmeshpy::DepthFunction</scope><name>__and__</name></member>

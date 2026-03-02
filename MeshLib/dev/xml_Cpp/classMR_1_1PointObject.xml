@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointObject" kind="class" language="C++" prot="public">
     <compoundname>MR::PointObject</compoundname>
     <basecompoundref refid="classMR_1_1FeatureObject" prot="public" virt="non-virtual">MR::FeatureObject</basecompoundref>
-    <includes refid="MRPointObject_8h" local="no">MRPointObject.h</includes>
+    <includes refid="MRPointObject_8h" local="no">MRMesh/MRPointObject.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gad63d8f23fc91cc17ef699c247af4226f" kind="function"><name>PointObject</name></member>
       <member refid="group__GeneralGroup_1ga72ab2c9f1a8c0be87089a01a7d8315c4" kind="function"><name>PointObject</name></member>
@@ -174,7 +174,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointObject.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointObject.h" bodystart="17" bodyend="67"/>
+    <location file="MRMesh/MRPointObject.h" line="16" column="1" bodyfile="MRMesh/MRPointObject.h" bodystart="17" bodyend="67"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::PointObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::PointObject</scope><name>addChildBefore</name></member>

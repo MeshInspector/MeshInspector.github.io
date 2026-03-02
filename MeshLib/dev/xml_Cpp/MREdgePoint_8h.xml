@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MREdgePoint_8h" kind="file" language="C++">
     <compoundname>MREdgePoint.h</compoundname>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes refid="MRSegmPoint_8h" local="yes">MRSegmPoint.h</includes>
-    <includedby refid="MRMesh_8h" local="yes">MRMesh.h</includedby>
-    <includedby refid="MRMeshTriPoint_8h" local="yes">MRMeshTriPoint.h</includedby>
-    <includedby refid="MRPickHoleBorderElement_8h" local="yes">MRPickHoleBorderElement.h</includedby>
-    <includedby refid="MRPointOnObject_8h" local="yes">MRPointOnObject.h</includedby>
-    <includedby refid="MRPolyline_8h" local="yes">MRPolyline.h</includedby>
-    <includedby refid="MRPolyline2Intersect_8h" local="yes">MRPolyline2Intersect.h</includedby>
+    <includedby refid="MRMesh_8h" local="yes">MRMesh/MRMesh.h</includedby>
+    <includedby refid="MRMeshTriPoint_8h" local="yes">MRMesh/MRMeshTriPoint.h</includedby>
+    <includedby refid="MRPointOnObject_8h" local="yes">MRMesh/MRPointOnObject.h</includedby>
+    <includedby refid="MRPolyline_8h" local="yes">MRMesh/MRPolyline.h</includedby>
+    <includedby refid="MRPolyline2Intersect_8h" local="yes">MRMesh/MRPolyline2Intersect.h</includedby>
+    <includedby refid="MRPickHoleBorderElement_8h" local="yes">MRViewer/MRPickHoleBorderElement.h</includedby>
     <incdepgraph>
       <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -18,7 +18,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MREdgePoint.h</label>
+        <label>MRMesh/MREdgePoint.h</label>
         <link refid="MREdgePoint_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -114,130 +114,130 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="60">
-        <label>MROpenRawVoxelsPlugin.h</label>
+      <node id="59">
+        <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
-      <node id="56">
-        <label>MRCudaContoursDistanceMap.h</label>
+      <node id="55">
+        <label>MRCuda/MRCudaContoursDistanceMap.h</label>
         <link refid="MRCudaContoursDistanceMap_8h"/>
       </node>
-      <node id="6">
-        <label>MRCudaFastWindingNumber.h</label>
+      <node id="3">
+        <label>MRCuda/MRCudaFastWindingNumber.h</label>
         <link refid="MRCudaFastWindingNumber_8h"/>
       </node>
-      <node id="7">
-        <label>MRCudaMeshDistanceMap.h</label>
+      <node id="4">
+        <label>MRCuda/MRCudaMeshDistanceMap.h</label>
         <link refid="MRCudaMeshDistanceMap_8h"/>
       </node>
-      <node id="8">
-        <label>MRCudaSolarRadiation.h</label>
+      <node id="5">
+        <label>MRCuda/MRCudaSolarRadiation.h</label>
         <link refid="MRCudaSolarRadiation_8h"/>
       </node>
-      <node id="65">
-        <label>MRCudaSweptVolume.h</label>
+      <node id="63">
+        <label>MRCuda/MRCudaSweptVolume.h</label>
         <link refid="MRCudaSweptVolume_8h"/>
       </node>
-      <node id="3">
-        <label>MRAddNoise.h</label>
+      <node id="6">
+        <label>MRMesh/MRAddNoise.h</label>
         <link refid="MRAddNoise_8h"/>
       </node>
       <node id="28">
-        <label>MRAggregateFlow.h</label>
+        <label>MRMesh/MRAggregateFlow.h</label>
         <link refid="MRAggregateFlow_8h"/>
       </node>
       <node id="29">
-        <label>MRAlignContoursToMesh.h</label>
+        <label>MRMesh/MRAlignContoursToMesh.h</label>
         <link refid="MRAlignContoursToMesh_8h"/>
       </node>
-      <node id="52">
-        <label>MRBestFit.h</label>
+      <node id="51">
+        <label>MRMesh/MRBestFit.h</label>
         <link refid="MRBestFit_8h"/>
-        <childnode refid="53" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>MRChangeMeshAction.h</label>
+      <node id="7">
+        <label>MRMesh/MRChangeMeshAction.h</label>
         <link refid="MRChangeMeshAction_8h"/>
       </node>
-      <node id="54">
-        <label>MRChangePolylineAction.h</label>
+      <node id="53">
+        <label>MRMesh/MRChangePolylineAction.h</label>
         <link refid="MRChangePolylineAction_8h"/>
       </node>
-      <node id="31">
-        <label>MRClosestWeightedPoint.h</label>
+      <node id="30">
+        <label>MRMesh/MRClosestWeightedPoint.h</label>
         <link refid="MRClosestWeightedPoint_8h"/>
-        <childnode refid="32" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
       </node>
-      <node id="53">
-        <label>MRDenseBox.h</label>
+      <node id="52">
+        <label>MRMesh/MRDenseBox.h</label>
         <link refid="MRDenseBox_8h"/>
       </node>
-      <node id="55">
-        <label>MRDistanceMap.h</label>
+      <node id="54">
+        <label>MRMesh/MRDistanceMap.h</label>
         <link refid="MRDistanceMap_8h"/>
-        <childnode refid="56" relation="include">
+        <childnode refid="55" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
         </childnode>
         <childnode refid="57" relation="include">
         </childnode>
-        <childnode refid="58" relation="include">
-        </childnode>
       </node>
-      <node id="57">
-        <label>MRDistanceMapLoad.h</label>
+      <node id="56">
+        <label>MRMesh/MRDistanceMapLoad.h</label>
         <link refid="MRDistanceMapLoad_8h"/>
       </node>
-      <node id="37">
-        <label>MREdgeIterator.h</label>
+      <node id="36">
+        <label>MRMesh/MREdgeIterator.h</label>
         <link refid="MREdgeIterator_8h"/>
       </node>
-      <node id="38">
-        <label>MREdgeLengthMesh.h</label>
+      <node id="37">
+        <label>MRMesh/MREdgeLengthMesh.h</label>
         <link refid="MREdgeLengthMesh_8h"/>
       </node>
-      <node id="9">
-        <label>MREdgePathsBuilder.h</label>
+      <node id="8">
+        <label>MRMesh/MREdgePathsBuilder.h</label>
         <link refid="MREdgePathsBuilder_8h"/>
       </node>
       <node id="1">
-        <label>MREdgePoint.h</label>
+        <label>MRMesh/MREdgePoint.h</label>
         <link refid="MREdgePoint_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
         <childnode refid="50" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
-        </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="65" relation="include">
         </childnode>
         <childnode refid="66" relation="include">
         </childnode>
       </node>
-      <node id="10">
-        <label>MREmbedTerrainStructure.h</label>
+      <node id="9">
+        <label>MRMesh/MREmbedTerrainStructure.h</label>
         <link refid="MREmbedTerrainStructure_8h"/>
       </node>
-      <node id="58">
-        <label>MRIOFormatsRegistry.h</label>
+      <node id="57">
+        <label>MRMesh/MRIOFormatsRegistry.h</label>
         <link refid="MRIOFormatsRegistry_8h"/>
-        <childnode refid="59" relation="include">
+        <childnode refid="58" relation="include">
         </childnode>
-        <childnode refid="61" relation="include">
+        <childnode refid="60" relation="include">
         </childnode>
       </node>
-      <node id="11">
-        <label>MRMakeSphereMesh.h</label>
+      <node id="10">
+        <label>MRMesh/MRMakeSphereMesh.h</label>
         <link refid="MRMakeSphereMesh_8h"/>
-        <childnode refid="12" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRMesh.h</label>
+        <label>MRMesh/MRMesh.h</label>
         <link refid="MRMesh_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -255,7 +255,7 @@
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
@@ -286,88 +286,88 @@
         <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="13">
-        <label>MRMeshBoolean.h</label>
+      <node id="12">
+        <label>MRMesh/MRMeshBoolean.h</label>
         <link refid="MRMeshBoolean_8h"/>
       </node>
-      <node id="14">
-        <label>MRMeshBooleanFacade.h</label>
+      <node id="13">
+        <label>MRMesh/MRMeshBooleanFacade.h</label>
         <link refid="MRMeshBooleanFacade_8h"/>
       </node>
-      <node id="16">
-        <label>MRMeshBuilder.h</label>
+      <node id="14">
+        <label>MRMesh/MRMeshBuilder.h</label>
         <link refid="MRMeshBuilder_8h"/>
       </node>
-      <node id="17">
-        <label>MRMeshDecimateCallbacks.h</label>
+      <node id="15">
+        <label>MRMesh/MRMeshDecimateCallbacks.h</label>
         <link refid="MRMeshDecimateCallbacks_8h"/>
       </node>
-      <node id="41">
-        <label>MRMeshDiff.h</label>
+      <node id="40">
+        <label>MRMesh/MRMeshDiff.h</label>
         <link refid="MRMeshDiff_8h"/>
-        <childnode refid="21" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="33">
-        <label>MRMeshIntersect.h</label>
+      <node id="32">
+        <label>MRMesh/MRMeshIntersect.h</label>
         <link refid="MRMeshIntersect_8h"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="18">
-        <label>MRMeshLoadObj.h</label>
+      <node id="16">
+        <label>MRMesh/MRMeshLoadObj.h</label>
         <link refid="MRMeshLoadObj_8h"/>
       </node>
-      <node id="39">
-        <label>MRMeshMath.h</label>
+      <node id="38">
+        <label>MRMesh/MRMeshMath.h</label>
         <link refid="MRMeshMath_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="34">
-        <label>MRMeshProject.h</label>
+      <node id="33">
+        <label>MRMesh/MRMeshProject.h</label>
         <link refid="MRMeshProject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="19">
-        <label>MRMeshSaveObj.h</label>
+      <node id="17">
+        <label>MRMesh/MRMeshSaveObj.h</label>
         <link refid="MRMeshSaveObj_8h"/>
       </node>
-      <node id="20">
-        <label>MRMeshSubdivideCallbacks.h</label>
+      <node id="18">
+        <label>MRMesh/MRMeshSubdivideCallbacks.h</label>
         <link refid="MRMeshSubdivideCallbacks_8h"/>
       </node>
-      <node id="35">
-        <label>MRMeshThickness.h</label>
+      <node id="34">
+        <label>MRMesh/MRMeshThickness.h</label>
         <link refid="MRMeshThickness_8h"/>
       </node>
-      <node id="36">
-        <label>MRMeshTopology.h</label>
+      <node id="35">
+        <label>MRMesh/MRMeshTopology.h</label>
         <link refid="MRMeshTopology_8h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
         <childnode refid="37" relation="include">
         </childnode>
         <childnode refid="38" relation="include">
         </childnode>
         <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
-        </childnode>
-        <childnode refid="42" relation="include">
-        </childnode>
-      </node>
-      <node id="40">
-        <label>MRMeshTopologyDiff.h</label>
-        <link refid="MRMeshTopologyDiff_8h"/>
         <childnode refid="41" relation="include">
         </childnode>
       </node>
+      <node id="39">
+        <label>MRMesh/MRMeshTopologyDiff.h</label>
+        <link refid="MRMeshTopologyDiff_8h"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
       <node id="27">
-        <label>MRMeshTriPoint.h</label>
+        <label>MRMesh/MRMeshTriPoint.h</label>
         <link refid="MRMeshTriPoint_8h"/>
         <childnode refid="28" relation="include">
         </childnode>
@@ -375,165 +375,165 @@
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
         <childnode refid="49" relation="include">
         </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MRMesh/MRPartialChangeMeshAction.h</label>
+        <link refid="MRPartialChangeMeshAction_8h"/>
+      </node>
+      <node id="20">
+        <label>MRMesh/MRPointCloudTriangulation.h</label>
+        <link refid="MRPointCloudTriangulation_8h"/>
+      </node>
+      <node id="42">
+        <label>MRMesh/MRPointOnObject.h</label>
+        <link refid="MRPointOnObject_8h"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>MRMesh/MRPolyline.h</label>
+        <link refid="MRPolyline_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>MRMesh/MRPolyline2Collide.h</label>
+        <link refid="MRPolyline2Collide_8h"/>
+      </node>
+      <node id="65">
+        <label>MRMesh/MRPolyline2Intersect.h</label>
+        <link refid="MRPolyline2Intersect_8h"/>
+      </node>
+      <node id="21">
+        <label>MRMesh/MRProjectionMeshAttribute.h</label>
+        <link refid="MRProjectionMeshAttribute_8h"/>
+      </node>
+      <node id="41">
+        <label>MRMesh/MRRingIterator.h</label>
+        <link refid="MRRingIterator_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>MRMesh/MRSurfacePath.h</label>
+        <link refid="MRSurfacePath_8h"/>
+      </node>
+      <node id="22">
+        <label>MRMesh/MRTerrainTriangulation.h</label>
+        <link refid="MRTerrainTriangulation_8h"/>
+      </node>
+      <node id="11">
+        <label>MRMesh/MRUVSphere.h</label>
+        <link refid="MRUVSphere_8h"/>
+      </node>
+      <node id="23">
+        <label>MRMesh/MRUniteManyMeshes.h</label>
+        <link refid="MRUniteManyMeshes_8h"/>
+      </node>
+      <node id="49">
+        <label>MRSymbolMesh/MRAlignTextToMesh.h</label>
+        <link refid="MRAlignTextToMesh_8h"/>
+      </node>
+      <node id="64">
+        <label>MRViewer/MRCudaAccessor.h</label>
+        <link refid="MRCudaAccessor_8h"/>
+      </node>
+      <node id="24">
+        <label>MRViewer/MRMeshBoundarySelectionWidget.h</label>
+        <link refid="MRMeshBoundarySelectionWidget_8h"/>
+      </node>
+      <node id="66">
+        <label>MRViewer/MRPickHoleBorderElement.h</label>
+        <link refid="MRPickHoleBorderElement_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>MRViewer/MRPickPointManager.h</label>
+        <link refid="MRPickPointManager_8h"/>
+      </node>
+      <node id="43">
+        <label>MRViewer/MRSurfacePointPicker.h</label>
+        <link refid="MRSurfacePointPicker_8h"/>
         <childnode refid="44" relation="include">
         </childnode>
       </node>
-      <node id="21">
-        <label>MRPartialChangeMeshAction.h</label>
-        <link refid="MRPartialChangeMeshAction_8h"/>
+      <node id="46">
+        <label>MRViewer/MRTouchpadController.h</label>
+        <link refid="MRTouchpadController_8h"/>
       </node>
-      <node id="22">
-        <label>MRPointCloudTriangulation.h</label>
-        <link refid="MRPointCloudTriangulation_8h"/>
-      </node>
-      <node id="43">
-        <label>MRPointOnObject.h</label>
-        <link refid="MRPointOnObject_8h"/>
+      <node id="45">
+        <label>MRViewer/MRViewport.h</label>
+        <link refid="MRViewport_8h"/>
         <childnode refid="44" relation="include">
         </childnode>
         <childnode refid="46" relation="include">
         </childnode>
-      </node>
-      <node id="51">
-        <label>MRPolyline.h</label>
-        <link refid="MRPolyline_8h"/>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="52" relation="include">
-        </childnode>
-        <childnode refid="54" relation="include">
-        </childnode>
-        <childnode refid="55" relation="include">
-        </childnode>
-        <childnode refid="62" relation="include">
-        </childnode>
-        <childnode refid="63" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-      </node>
-      <node id="62">
-        <label>MRPolyline2Collide.h</label>
-        <link refid="MRPolyline2Collide_8h"/>
-      </node>
-      <node id="66">
-        <label>MRPolyline2Intersect.h</label>
-        <link refid="MRPolyline2Intersect_8h"/>
-      </node>
-      <node id="23">
-        <label>MRProjectionMeshAttribute.h</label>
-        <link refid="MRProjectionMeshAttribute_8h"/>
-      </node>
-      <node id="42">
-        <label>MRRingIterator.h</label>
-        <link refid="MRRingIterator_8h"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-      </node>
-      <node id="49">
-        <label>MRSurfacePath.h</label>
-        <link refid="MRSurfacePath_8h"/>
-      </node>
-      <node id="24">
-        <label>MRTerrainTriangulation.h</label>
-        <link refid="MRTerrainTriangulation_8h"/>
-      </node>
-      <node id="12">
-        <label>MRUVSphere.h</label>
-        <link refid="MRUVSphere_8h"/>
-      </node>
-      <node id="26">
-        <label>MRUniteManyMeshes.h</label>
-        <link refid="MRUniteManyMeshes_8h"/>
-      </node>
-      <node id="30">
-        <label>MRAlignTextToMesh.h</label>
-        <link refid="MRAlignTextToMesh_8h"/>
-      </node>
-      <node id="64">
-        <label>MRCudaAccessor.h</label>
-        <link refid="MRCudaAccessor_8h"/>
-      </node>
-      <node id="15">
-        <label>MRMeshBoundarySelectionWidget.h</label>
-        <link refid="MRMeshBoundarySelectionWidget_8h"/>
-      </node>
-      <node id="50">
-        <label>MRPickHoleBorderElement.h</label>
-        <link refid="MRPickHoleBorderElement_8h"/>
-        <childnode refid="15" relation="include">
-        </childnode>
-      </node>
-      <node id="45">
-        <label>MRPickPointManager.h</label>
-        <link refid="MRPickPointManager_8h"/>
-      </node>
-      <node id="44">
-        <label>MRSurfacePointPicker.h</label>
-        <link refid="MRSurfacePointPicker_8h"/>
-        <childnode refid="45" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
       </node>
       <node id="47">
-        <label>MRTouchpadController.h</label>
-        <link refid="MRTouchpadController_8h"/>
-      </node>
-      <node id="46">
-        <label>MRViewport.h</label>
-        <link refid="MRViewport_8h"/>
-        <childnode refid="45" relation="include">
-        </childnode>
-        <childnode refid="47" relation="include">
-        </childnode>
-        <childnode refid="48" relation="include">
-        </childnode>
-      </node>
-      <node id="48">
-        <label>MRViewportParametersAction.h</label>
+        <label>MRViewer/MRViewportParametersAction.h</label>
         <link refid="MRViewportParametersAction_8h"/>
       </node>
-      <node id="5">
-        <label>MRChangeVoxelsAction.h</label>
+      <node id="25">
+        <label>MRVoxels/MRChangeVoxelsAction.h</label>
         <link refid="MRChangeVoxelsAction_8h"/>
       </node>
-      <node id="63">
-        <label>MRSweptVolume.h</label>
+      <node id="62">
+        <label>MRVoxels/MRSweptVolume.h</label>
         <link refid="MRSweptVolume_8h"/>
+        <childnode refid="63" relation="include">
+        </childnode>
         <childnode refid="64" relation="include">
         </childnode>
-        <childnode refid="65" relation="include">
-        </childnode>
       </node>
-      <node id="25">
-        <label>MRToolPath.h</label>
+      <node id="26">
+        <label>MRVoxels/MRToolPath.h</label>
         <link refid="MRToolPath_8h"/>
       </node>
-      <node id="59">
-        <label>MRVoxelsLoad.h</label>
+      <node id="58">
+        <label>MRVoxels/MRVoxelsLoad.h</label>
         <link refid="MRVoxelsLoad_8h"/>
-        <childnode refid="60" relation="include">
+        <childnode refid="59" relation="include">
         </childnode>
       </node>
-      <node id="61">
-        <label>MRVoxelsSave.h</label>
+      <node id="60">
+        <label>MRVoxels/MRVoxelsSave.h</label>
         <link refid="MRVoxelsSave_8h"/>
       </node>
-      <node id="32">
-        <label>MRWeightedPointsShell.h</label>
+      <node id="31">
+        <label>MRVoxels/MRWeightedPointsShell.h</label>
         <link refid="MRWeightedPointsShell_8h"/>
       </node>
     </invincdepgraph>
@@ -555,7 +555,7 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="structMR_1_1EdgePoint" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref></highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1EdgePoint" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaad45e724729c2566d956c24d4b0f62ad" kindref="member">EdgePoint</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15" refid="group__GeneralGroup_1gaa0fb43077718779351b94f5a803498a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/><ref refid="group__GeneralGroup_1gaa0fb43077718779351b94f5a803498a6" kindref="member">e</ref>;</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gad43f4122edb9f01bedc63d1fc84a374e" kindref="member">SegmPointf</ref><sp/><ref refid="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" kindref="member">a</ref>;<sp/></highlight></codeline>
@@ -576,22 +576,22 @@
 <codeline lineno="39" refid="group__GeneralGroup_1gacea7869523473243ff95a916aa64a7d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacea7869523473243ff95a916aa64a7d6" kindref="member">valid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa0fb43077718779351b94f5a803498a6" kindref="member">e</ref>.valid();<sp/>}</highlight></codeline>
 <codeline lineno="40" refid="group__GeneralGroup_1ga544f2a00465ce861508927e122b12ee5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa0fb43077718779351b94f5a803498a6" kindref="member">e</ref>.valid();<sp/>}</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="group__GeneralGroup_1ga317789cb353e8dbe9c42661fe7c4f99f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref><sp/><ref refid="group__GeneralGroup_1ga317789cb353e8dbe9c42661fe7c4f99f" kindref="member">sym</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref>{<sp/><ref refid="group__GeneralGroup_1gaa0fb43077718779351b94f5a803498a6" kindref="member">e</ref>.<ref refid="group__GeneralGroup_1ga317789cb353e8dbe9c42661fe7c4f99f" kindref="member">sym</ref>(),<sp/>1<sp/>-<sp/><ref refid="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" kindref="member">a</ref><sp/>};<sp/>}</highlight></codeline>
-<codeline lineno="45" refid="group__GeneralGroup_1ga9348793c688230e4be403fff5ad98741" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9348793c688230e4be403fff5ad98741" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43" refid="group__GeneralGroup_1ga317789cb353e8dbe9c42661fe7c4f99f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1gaad45e724729c2566d956c24d4b0f62ad" kindref="member">EdgePoint</ref><sp/><ref refid="group__GeneralGroup_1ga317789cb353e8dbe9c42661fe7c4f99f" kindref="member">sym</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaad45e724729c2566d956c24d4b0f62ad" kindref="member">EdgePoint</ref>{<sp/><ref refid="group__GeneralGroup_1gaa0fb43077718779351b94f5a803498a6" kindref="member">e</ref>.sym(),<sp/>1<sp/>-<sp/><ref refid="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" kindref="member">a</ref><sp/>};<sp/>}</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1ga9348793c688230e4be403fff5ad98741" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9348793c688230e4be403fff5ad98741" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaad45e724729c2566d956c24d4b0f62ad" kindref="member">EdgePoint</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
 <codeline lineno="49" refid="group__GeneralGroup_1ga8e206529d8c003b0ea8ab3b6bb80f0f7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8e206529d8c003b0ea8ab3b6bb80f0f7" kindref="member">same</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref>&amp;<sp/>rhs<sp/>);</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="structMR_1_1EdgePointPair" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1EdgePointPair" kindref="compound">EdgePointPair</ref></highlight></codeline>
+<codeline lineno="52" refid="structMR_1_1EdgePointPair" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga879ee9c7d522b1687452299475e29842" kindref="member">EdgePointPair</ref></highlight></codeline>
 <codeline lineno="53"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="54" refid="group__GeneralGroup_1gaca69f5d63615624473f947bb8b68d739" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref><sp/><ref refid="group__GeneralGroup_1gaca69f5d63615624473f947bb8b68d739" kindref="member">a</ref>;</highlight></codeline>
 <codeline lineno="55" refid="group__GeneralGroup_1gaaf405ad228844bff2d377328b8c2f73c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref><sp/><ref refid="group__GeneralGroup_1gaaf405ad228844bff2d377328b8c2f73c" kindref="member">b</ref>;</highlight></codeline>
 <codeline lineno="56" refid="group__GeneralGroup_1ga879ee9c7d522b1687452299475e29842" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga879ee9c7d522b1687452299475e29842" kindref="member">EdgePointPair</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="57" refid="group__GeneralGroup_1ga19d5b7a6dad1c8e969b397a0afb33a52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga19d5b7a6dad1c8e969b397a0afb33a52" kindref="member">EdgePointPair</ref>(<sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref><sp/>ia,<sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref><sp/>ib<sp/>)<sp/>:<sp/><ref refid="group__GeneralGroup_1gaca69f5d63615624473f947bb8b68d739" kindref="member">a</ref>(<sp/>ia<sp/>),<sp/><ref refid="group__GeneralGroup_1gaaf405ad228844bff2d377328b8c2f73c" kindref="member">b</ref>(<sp/>ib<sp/>)<sp/>{}</highlight></codeline>
-<codeline lineno="59" refid="group__GeneralGroup_1ga28ddfe91a5b73fab28e8daeab44c260c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga28ddfe91a5b73fab28e8daeab44c260c" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgePointPair" kindref="compound">EdgePointPair</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59" refid="group__GeneralGroup_1ga28ddfe91a5b73fab28e8daeab44c260c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga28ddfe91a5b73fab28e8daeab44c260c" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga879ee9c7d522b1687452299475e29842" kindref="member">EdgePointPair</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="60"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="structMR_1_1EdgeSegment" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1EdgeSegment" kindref="compound">EdgeSegment</ref></highlight></codeline>
+<codeline lineno="63" refid="structMR_1_1EdgeSegment" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gadbe97beb7bc790ab2d46f0863a5bbacf" kindref="member">EdgeSegment</ref></highlight></codeline>
 <codeline lineno="64"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="66" refid="group__GeneralGroup_1gac984995bf16ae26205209c4da35c2f63" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>EdgeId<sp/><ref refid="group__GeneralGroup_1gac984995bf16ae26205209c4da35c2f63" kindref="member">e</ref>;</highlight></codeline>
 <codeline lineno="68" refid="group__GeneralGroup_1gaaa89099133adbadcd8e04016b7dfd5ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gad43f4122edb9f01bedc63d1fc84a374e" kindref="member">SegmPointf</ref><sp/><ref refid="group__GeneralGroup_1gaaa89099133adbadcd8e04016b7dfd5ef" kindref="member">a</ref>{<sp/>0.0f<sp/>};</highlight></codeline>
@@ -602,15 +602,15 @@
 <codeline lineno="76" refid="group__GeneralGroup_1gaea79b437b030390db5737ed448df376c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref><sp/><ref refid="group__GeneralGroup_1gaea79b437b030390db5737ed448df376c" kindref="member">edgePointB</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/><ref refid="group__GeneralGroup_1gac984995bf16ae26205209c4da35c2f63" kindref="member">e</ref>,<sp/><ref refid="group__GeneralGroup_1ga74fca78a4ea23f1e08811bcd012a03e1" kindref="member">b</ref><sp/>};<sp/>}</highlight></codeline>
 <codeline lineno="78" refid="group__GeneralGroup_1gaaed1cd16846104a721ea8ee3f83cb046" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaed1cd16846104a721ea8ee3f83cb046" kindref="member">valid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac984995bf16ae26205209c4da35c2f63" kindref="member">e</ref>.valid()<sp/>&amp;&amp;<sp/><ref refid="group__GeneralGroup_1gaaa89099133adbadcd8e04016b7dfd5ef" kindref="member">a</ref><sp/>&lt;=<sp/><ref refid="group__GeneralGroup_1ga74fca78a4ea23f1e08811bcd012a03e1" kindref="member">b</ref>;<sp/>}</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="group__GeneralGroup_1gab68223c4ba6ec2ad9ef572c8ef6c929b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab68223c4ba6ec2ad9ef572c8ef6c929b" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgeSegment" kindref="compound">EdgeSegment</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="82" refid="group__GeneralGroup_1ga58bb10eea905d9ba81c91be627dfad8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="structMR_1_1EdgeSegment" kindref="compound">EdgeSegment</ref><sp/><ref refid="group__GeneralGroup_1ga58bb10eea905d9ba81c91be627dfad8d" kindref="member">sym</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgeSegment" kindref="compound">EdgeSegment</ref>{<sp/><ref refid="group__GeneralGroup_1gac984995bf16ae26205209c4da35c2f63" kindref="member">e</ref>.<ref refid="group__GeneralGroup_1ga58bb10eea905d9ba81c91be627dfad8d" kindref="member">sym</ref>(),<sp/><ref refid="group__GeneralGroup_1ga74fca78a4ea23f1e08811bcd012a03e1" kindref="member">b</ref>.<ref refid="group__GeneralGroup_1ga58bb10eea905d9ba81c91be627dfad8d" kindref="member">sym</ref>(),<sp/><ref refid="group__GeneralGroup_1gaaa89099133adbadcd8e04016b7dfd5ef" kindref="member">a</ref>.<ref refid="group__GeneralGroup_1ga58bb10eea905d9ba81c91be627dfad8d" kindref="member">sym</ref>()<sp/>};<sp/>}</highlight></codeline>
+<codeline lineno="80" refid="group__GeneralGroup_1gab68223c4ba6ec2ad9ef572c8ef6c929b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab68223c4ba6ec2ad9ef572c8ef6c929b" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadbe97beb7bc790ab2d46f0863a5bbacf" kindref="member">EdgeSegment</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82" refid="group__GeneralGroup_1ga58bb10eea905d9ba81c91be627dfad8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1gadbe97beb7bc790ab2d46f0863a5bbacf" kindref="member">EdgeSegment</ref><sp/><ref refid="group__GeneralGroup_1ga58bb10eea905d9ba81c91be627dfad8d" kindref="member">sym</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadbe97beb7bc790ab2d46f0863a5bbacf" kindref="member">EdgeSegment</ref>{<sp/><ref refid="group__GeneralGroup_1gac984995bf16ae26205209c4da35c2f63" kindref="member">e</ref>.sym(),<sp/><ref refid="group__GeneralGroup_1ga74fca78a4ea23f1e08811bcd012a03e1" kindref="member">b</ref>.sym(),<sp/><ref refid="group__GeneralGroup_1gaaa89099133adbadcd8e04016b7dfd5ef" kindref="member">a</ref>.sym()<sp/>};<sp/>}</highlight></codeline>
 <codeline lineno="83"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="group__GeneralGroup_1gaa0bfe5c7c18c2a1dff71abfb4bd48404" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa0bfe5c7c18c2a1dff71abfb4bd48404" kindref="member">fromSameTriangle</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref><sp/>&amp;<sp/>a,<sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref><sp/>&amp;<sp/>b<sp/>);</highlight></codeline>
-<codeline lineno="92" refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" kindref="member">fromSameTriangle</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref><sp/>&amp;&amp;<sp/>a,<sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref><sp/>&amp;&amp;<sp/>b<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" kindref="member">fromSameTriangle</ref>(<sp/>topology,<sp/>a,<sp/>b<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="88" refid="group__GeneralGroup_1gaa0bfe5c7c18c2a1dff71abfb4bd48404" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa0bfe5c7c18c2a1dff71abfb4bd48404" kindref="member">fromSameTriangle</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/><ref refid="group__GeneralGroup_1gaad45e724729c2566d956c24d4b0f62ad" kindref="member">EdgePoint</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" kindref="member">a</ref>,<sp/><ref refid="group__GeneralGroup_1gaad45e724729c2566d956c24d4b0f62ad" kindref="member">EdgePoint</ref><sp/>&amp;<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="92" refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" kindref="member">fromSameTriangle</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref><sp/>&amp;<sp/>topology,<sp/><ref refid="group__GeneralGroup_1gaad45e724729c2566d956c24d4b0f62ad" kindref="member">EdgePoint</ref><sp/>&amp;&amp;<sp/><ref refid="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" kindref="member">a</ref>,<sp/><ref refid="group__GeneralGroup_1gaad45e724729c2566d956c24d4b0f62ad" kindref="member">EdgePoint</ref><sp/>&amp;&amp;<sp/>b<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" kindref="member">fromSameTriangle</ref>(<sp/>topology,<sp/><ref refid="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" kindref="member">a</ref>,<sp/>b<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h"/>
+    <location file="MRMesh/MREdgePoint.h"/>
   </compounddef>
 </doxygen>

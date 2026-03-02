@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangePolylinePointsAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ChangePolylinePointsAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRChangePolylineAction_8h" local="no">MRChangePolylineAction.h</includes>
+    <includes refid="MRChangePolylineAction_8h" local="no">MRMesh/MRChangePolylineAction.h</includes>
     <sectiondef kind="public-type">
       <memberdef kind="typedef" id="classMR_1_1ChangePolylinePointsAction_1a304a69e07ee11c1bf44b60b2c38a8f12" prot="public" static="no">
         <type><ref refid="classMR_1_1ObjectLines" kindref="compound">ObjectLines</ref></type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="76" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="76" bodyend="-1"/>
+        <location file="MRMesh/MRChangePolylineAction.h" line="76" column="5" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="76" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="118" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="118" bodyend="-1"/>
+        <location file="MRMesh/MRChangePolylineAction.h" line="118" column="21" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="118" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1ChangePolylinePointsAction_1a5852de95cae4970b48dd0a0083baa9df" prot="private" static="no" mutable="no">
         <type>VertCoords</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="119" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="119" bodyend="-1"/>
+        <location file="MRMesh/MRChangePolylineAction.h" line="119" column="16" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1ChangePolylinePointsAction_1a805fb1cf60c6071f9bf542f9111b8a41" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="121" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="121" bodyend="-1"/>
+        <location file="MRMesh/MRChangePolylineAction.h" line="121" column="17" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="121" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="79" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="79" bodyend="87"/>
+        <location file="MRMesh/MRChangePolylineAction.h" line="79" column="5" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="79" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePolylinePointsAction_1ae04072e7453616bbbf69ed34589627f2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="89" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="89" bodyend="92"/>
+        <location file="MRMesh/MRChangePolylineAction.h" line="89" column="25" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="89" bodyend="92"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePolylinePointsAction_1a4524618733bcefbd17c242f49c3112e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="94" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="94" bodyend="104"/>
+        <location file="MRMesh/MRChangePolylineAction.h" line="94" column="18" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="94" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePolylinePointsAction_1a63e6b7f8c45895a7781661ac76232a24" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="112" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="112" bodyend="115"/>
+        <location file="MRMesh/MRChangePolylineAction.h" line="112" column="21" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="112" bodyend="115"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="106" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="106" bodyend="110"/>
+        <location file="MRMesh/MRChangePolylineAction.h" line="106" column="17" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="106" bodyend="110"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -189,7 +189,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" line="73" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePolylineAction.h" bodystart="74" bodyend="122"/>
+    <location file="MRMesh/MRChangePolylineAction.h" line="73" column="1" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="74" bodyend="122"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangePolylinePointsAction_1a4524618733bcefbd17c242f49c3112e1" prot="public" virt="virtual"><scope>MR::ChangePolylinePointsAction</scope><name>action</name></member>
       <member refid="classMR_1_1ChangePolylinePointsAction_1a506a1c3421dec57c85ee978ba69a0591" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>ChangePolylinePointsAction</name></member>

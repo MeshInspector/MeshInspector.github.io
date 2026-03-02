@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="group__PointCloudComponentsGroup" kind="group">
     <compoundname>PointCloudComponentsGroup</compoundname>
     <title>PointCloudComponents</title>
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="19" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="19" declcolumn="12"/>
+        <location file="MRMesh/MRPointsComponents.h" line="19" column="12" declfile="MRMesh/MRPointsComponents.h" declline="19" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudComponentsGroup_1gaa6878f82b77658a2135dbb389319639c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; VertBitSet &gt;</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="24" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="24" declcolumn="12"/>
+        <location file="MRMesh/MRPointsComponents.h" line="24" column="12" declfile="MRMesh/MRPointsComponents.h" declline="24" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudComponentsGroup_1ga3fb225164d831bc24e3c3ab3a48516a2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::vector&lt; VertBitSet &gt; &gt;</type>
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="29" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="29" declcolumn="12"/>
+        <location file="MRMesh/MRPointsComponents.h" line="29" column="12" declfile="MRMesh/MRPointsComponents.h" declline="29" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudComponentsGroup_1ga6ade83c39e3ddd3af28280b0c0293e48" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::pair&lt; std::vector&lt; VertBitSet &gt;, int &gt; &gt;</type>
@@ -198,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="37" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="37" declcolumn="12"/>
+        <location file="MRMesh/MRPointsComponents.h" line="37" column="12" declfile="MRMesh/MRPointsComponents.h" declline="37" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudComponentsGroup_1ga2fd74d609a838e30b78f03e49da4737e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; UnionFind&lt; VertId &gt; &gt;</type>
@@ -249,7 +249,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" line="41" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsComponents.h" declline="41" declcolumn="12"/>
+        <location file="MRMesh/MRPointsComponents.h" line="41" column="12" declfile="MRMesh/MRPointsComponents.h" declline="41" declcolumn="12"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

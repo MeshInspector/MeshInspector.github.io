@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRRenderDefaultObjects_8h" kind="file" language="C++">
     <compoundname>MRRenderDefaultObjects.h</compoundname>
     <includes refid="MRRenderNameObject_8h" local="yes">MRViewer/MRRenderNameObject.h</includes>
-    <includedby refid="MRRenderFeatureObjects_8h" local="yes">MRRenderFeatureObjects.h</includedby>
-    <includedby refid="MRRenderImGuiLabelObject_8h" local="yes">MRRenderImGuiLabelObject.h</includedby>
-    <includedby refid="MRRenderMeasurementObjects_8h" local="yes">MRRenderMeasurementObjects.h</includedby>
+    <includedby refid="MRRenderFeatureObjects_8h" local="yes">MRViewer/MRRenderFeatureObjects.h</includedby>
+    <includedby refid="MRRenderImGuiLabelObject_8h" local="yes">MRViewer/MRRenderImGuiLabelObject.h</includedby>
+    <includedby refid="MRRenderMeasurementObjects_8h" local="yes">MRViewer/MRRenderMeasurementObjects.h</includedby>
     <incdepgraph>
       <node id="32">
         <label>MRAffineXf.h</label>
@@ -246,7 +246,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRRenderDefaultObjects.h</label>
+        <label>MRViewer/MRRenderDefaultObjects.h</label>
         <link refid="MRRenderDefaultObjects_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -360,7 +360,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRRenderDefaultObjects.h</label>
+        <label>MRViewer/MRRenderDefaultObjects.h</label>
         <link refid="MRRenderDefaultObjects_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -370,15 +370,15 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MRRenderFeatureObjects.h</label>
+        <label>MRViewer/MRRenderFeatureObjects.h</label>
         <link refid="MRRenderFeatureObjects_8h"/>
       </node>
       <node id="3">
-        <label>MRRenderImGuiLabelObject.h</label>
+        <label>MRViewer/MRRenderImGuiLabelObject.h</label>
         <link refid="MRRenderImGuiLabelObject_8h"/>
       </node>
       <node id="4">
-        <label>MRRenderMeasurementObjects.h</label>
+        <label>MRViewer/MRRenderMeasurementObjects.h</label>
         <link refid="MRRenderMeasurementObjects_8h"/>
       </node>
     </invincdepgraph>
@@ -396,11 +396,11 @@
 <codeline lineno="5"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">VisualObject;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>;</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="group__GeneralGroup_1gaa5d866485e96941a542d624ba6cc6f4b" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderDefaultUiObject</ref><sp/>=<sp/><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator&lt;RenderNameObject&gt;</ref>;</highlight></codeline>
+<codeline lineno="13" refid="group__GeneralGroup_1gaa5d866485e96941a542d624ba6cc6f4b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaa5d866485e96941a542d624ba6cc6f4b" kindref="member">RenderDefaultUiObject</ref><sp/>=<sp/><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator&lt;RenderNameObject&gt;</ref>;</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="classMR_1_1RenderResetDirtyComponent" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RenderResetDirtyComponent" kindref="compound">RenderResetDirtyComponent</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IRenderObject" kindref="compound">IRenderObject</ref></highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1RenderResetDirtyComponent" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga05e6b97f2fd070782b47969273d53fda" kindref="member">RenderResetDirtyComponent</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1IRenderObject" kindref="compound">IRenderObject</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga05e6b97f2fd070782b47969273d53fda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga05e6b97f2fd070782b47969273d53fda" kindref="member">RenderResetDirtyComponent</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>);</highlight></codeline>
@@ -415,6 +415,6 @@
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDefaultObjects.h"/>
+    <location file="MRViewer/MRRenderDefaultObjects.h"/>
   </compounddef>
 </doxygen>

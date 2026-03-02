@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangeXfAction_8h" kind="file" language="C++">
     <compoundname>MRChangeXfAction.h</compoundname>
     <includes refid="MRHistoryAction_8h" local="yes">MRHistoryAction.h</includes>
     <includes refid="MRObject_8h" local="yes">MRObject.h</includes>
     <includes refid="MRAffineXf3_8h" local="yes">MRAffineXf3.h</includes>
     <includes local="no">memory</includes>
-    <includedby refid="MRDirectionWidget_8h" local="yes">MRDirectionWidget.h</includedby>
+    <includedby refid="MRDirectionWidget_8h" local="yes">MRViewer/MRDirectionWidget.h</includedby>
     <incdepgraph>
       <node id="27">
         <label>MRAffineXf.h</label>
@@ -77,7 +77,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRChangeXfAction.h</label>
+        <label>MRMesh/MRChangeXfAction.h</label>
         <link refid="MRChangeXfAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -378,13 +378,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>MRChangeXfAction.h</label>
+        <label>MRMesh/MRChangeXfAction.h</label>
         <link refid="MRChangeXfAction_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>MRDirectionWidget.h</label>
+        <label>MRViewer/MRDirectionWidget.h</label>
         <link refid="MRDirectionWidget_8h"/>
       </node>
     </invincdepgraph>
@@ -405,7 +405,7 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="classMR_1_1ChangeXfAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeXfAction" kindref="compound">ChangeXfAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="15" refid="classMR_1_1ChangeXfAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gadc90b8207a85c52060b965692645d95b" kindref="member">ChangeXfAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1gadc90b8207a85c52060b965692645d95b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gadc90b8207a85c52060b965692645d95b" kindref="member">ChangeXfAction</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="group__GeneralGroup_1ga677bcbff928530a06249b4aa004556bc" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Object&gt;&amp;<sp/><ref refid="group__GeneralGroup_1ga7ca462bf6ff993310a54857dc66ba1ff" kindref="member">obj</ref><sp/>)<sp/>:</highlight></codeline>
@@ -454,8 +454,8 @@
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;</highlight></codeline>
 <codeline lineno="64"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h"/>
+    <location file="MRMesh/MRChangeXfAction.h"/>
   </compounddef>
 </doxygen>

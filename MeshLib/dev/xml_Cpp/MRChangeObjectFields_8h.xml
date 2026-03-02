@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRChangeObjectFields_8h" kind="file" language="C++">
     <compoundname>MRChangeObjectFields.h</compoundname>
     <includes refid="MRHistoryAction_8h" local="yes">MRHistoryAction.h</includes>
@@ -75,7 +75,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRChangeObjectFields.h</label>
+        <label>MRMesh/MRChangeObjectFields.h</label>
         <link refid="MRChangeObjectFields_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -547,10 +547,10 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="classMR_1_1ChangeVisualizePropertyAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeVisualizePropertyAction" kindref="compound">ChangeVisualizePropertyAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="14" refid="classMR_1_1ChangeVisualizePropertyAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga577d817010b8c025c743ede618924232" kindref="member">ChangeVisualizePropertyAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="17" refid="group__GeneralGroup_1gaddf5e30e5eb678a766bb9b02bbfd996b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1VisualObject" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>;</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1gaddf5e30e5eb678a766bb9b02bbfd996b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaddf5e30e5eb678a766bb9b02bbfd996b" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref>;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1ga577d817010b8c025c743ede618924232" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga577d817010b8c025c743ede618924232" kindref="member">ChangeVisualizePropertyAction</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="group__GeneralGroup_1gab47bdfa15ccc0341044bdf265413933d" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;VisualObject&gt;&amp;<sp/>obj,<sp/><ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref><sp/>visualizeMaskType<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obj_{<sp/>obj<sp/>},</highlight></codeline>
@@ -601,10 +601,10 @@
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;</highlight></codeline>
 <codeline lineno="68"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="classMR_1_1ChangeObjectSelectedAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeObjectSelectedAction" kindref="compound">ChangeObjectSelectedAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="72" refid="classMR_1_1ChangeObjectSelectedAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaa52b1585ac548e84db85dd7223403ca9" kindref="member">ChangeObjectSelectedAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="73"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="75" refid="group__GeneralGroup_1ga937d04b50120a0a1c237ab976bf7f0d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Object" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>;</highlight></codeline>
+<codeline lineno="75" refid="group__GeneralGroup_1ga937d04b50120a0a1c237ab976bf7f0d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga937d04b50120a0a1c237ab976bf7f0d7" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>;</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
 <codeline lineno="78" refid="group__GeneralGroup_1gaa52b1585ac548e84db85dd7223403ca9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaa52b1585ac548e84db85dd7223403ca9" kindref="member">ChangeObjectSelectedAction</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="group__GeneralGroup_1gae709358ae5d269b3ef15942ba7ccea30" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Object&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obj_{<sp/>obj<sp/>},</highlight></codeline>
@@ -653,10 +653,10 @@
 <codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>name_;</highlight></codeline>
 <codeline lineno="124"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="classMR_1_1ChangeObjectVisibilityAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ChangeObjectVisibilityAction" kindref="compound">ChangeObjectVisibilityAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="128" refid="classMR_1_1ChangeObjectVisibilityAction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga479356824a42fb710dc8fd412c4b34b7" kindref="member">ChangeObjectVisibilityAction</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
 <codeline lineno="129"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="131" refid="group__GeneralGroup_1gaa3f6bc9f32a9afa29f3f632c1c8a6e5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Object" kindref="compound">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>;</highlight></codeline>
+<codeline lineno="131" refid="group__GeneralGroup_1gaa3f6bc9f32a9afa29f3f632c1c8a6e5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaa3f6bc9f32a9afa29f3f632c1c8a6e5d" kindref="member">Obj</ref><sp/>=<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>;</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
 <codeline lineno="134" refid="group__GeneralGroup_1ga479356824a42fb710dc8fd412c4b34b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga479356824a42fb710dc8fd412c4b34b7" kindref="member">ChangeObjectVisibilityAction</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="group__GeneralGroup_1gaeb43acff9643bd750856214f6f50b39d" kindref="member">name</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Object&gt;&amp;<sp/>obj<sp/>)<sp/>:</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obj_{<sp/>obj<sp/>},</highlight></codeline>
@@ -707,6 +707,6 @@
 <codeline lineno="181"><highlight class="normal"></highlight></codeline>
 <codeline lineno="182"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h"/>
+    <location file="MRMesh/MRChangeObjectFields.h"/>
   </compounddef>
 </doxygen>

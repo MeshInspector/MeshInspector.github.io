@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FastWindingNumber" kind="class" language="C#" prot="public">
     <compoundname>MR::FastWindingNumber</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_FastWindingNumber</basecompoundref>
@@ -51,7 +51,7 @@
           <declname>mesh</declname>
         </param>
         <briefdescription>
-<para>constructs this from AABB tree of given mesh; this remains valid only if tree is valid Generated from constructor <computeroutput>MR.FastWindingNumber.FastWindingNumber</computeroutput>. </para>
+<para>constructs this from AABB tree of given mesh; this remains valid only if tree is valid Generated from constructor <computeroutput><ref refid="classMR_1_1FastWindingNumber_1a0fa361c5d2196e6f5999923fb70fd88a" kindref="member">MR.FastWindingNumber.FastWindingNumber</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -118,7 +118,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FastWindingNumber.FastWindingNumber</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FastWindingNumber_1a0fa361c5d2196e6f5999923fb70fd88a" kindref="member">MR.FastWindingNumber.FastWindingNumber</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -137,7 +137,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FastWindingNumber.FastWindingNumber</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FastWindingNumber_1a0fa361c5d2196e6f5999923fb70fd88a" kindref="member">MR.FastWindingNumber.FastWindingNumber</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -156,7 +156,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.FastWindingNumber.FastWindingNumber</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FastWindingNumber_1a0fa361c5d2196e6f5999923fb70fd88a" kindref="member">MR.FastWindingNumber.FastWindingNumber</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -175,7 +175,7 @@
           <declname>mesh</declname>
         </param>
         <briefdescription>
-<para>constructs this from AABB tree of given mesh; this remains valid only if tree is valid Generated from constructor <computeroutput>MR.FastWindingNumber.FastWindingNumber</computeroutput>. </para>
+<para>constructs this from AABB tree of given mesh; this remains valid only if tree is valid Generated from constructor <computeroutput><ref refid="classMR_1_1FastWindingNumber_1a0fa361c5d2196e6f5999923fb70fd88a" kindref="member">MR.FastWindingNumber.FastWindingNumber</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -340,50 +340,50 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>the class for fast approximate computation of winding number for a mesh (using its AABB tree) Note, this used to be <computeroutput>[[nodiscard]]</computeroutput>, but GCC 12 doesn&apos;t understand both <computeroutput>[[...]]</computeroutput> and <computeroutput>__attribute__(...)</computeroutput> on the same class. A possible fix is to change <computeroutput>MRMESH_CLASS</computeroutput> globally to <computeroutput>[[__gnu__.__visibility__(&quot;default&quot;)]]</computeroutput>. Generated from class <computeroutput><ref refid="classMR_1_1FastWindingNumber" kindref="compound">MR.FastWindingNumber</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1IFastWindingNumber" kindref="compound">MR.IFastWindingNumber</ref></computeroutput> This is the non-const half of the class. </para>
+<para>the class for fast approximate computation of winding number for a mesh (using its AABB tree) Note, this used to be <computeroutput>[[nodiscard]]</computeroutput>, but GCC 12 doesn&apos;t understand both <computeroutput>[[...]]</computeroutput> and <computeroutput>__attribute__(...)</computeroutput> on the same class. A possible fix is to change <computeroutput>MRMESH_CLASS</computeroutput> globally to <computeroutput>[[__gnu__::__visibility__(&quot;default&quot;)]]</computeroutput>. Generated from class <computeroutput><ref refid="classMR_1_1FastWindingNumber" kindref="compound">MR.FastWindingNumber</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1IFastWindingNumber" kindref="compound">MR.IFastWindingNumber</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_FastWindingNumber</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.FastWindingNumber</label>
         <link refid="classMR_1_1FastWindingNumber"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_FastWindingNumber</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_FastWindingNumber &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_FastWindingNumber</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.FastWindingNumber</label>
         <link refid="classMR_1_1FastWindingNumber"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_FastWindingNumber</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_FastWindingNumber &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="416" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="417" bodyend="554"/>

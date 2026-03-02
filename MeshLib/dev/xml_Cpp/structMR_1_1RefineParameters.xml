@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RefineParameters" kind="struct" language="C++" prot="public">
     <compoundname>MR::RefineParameters</compoundname>
-    <includes refid="MRFeatureRefine_8h" local="no">MRFeatureRefine.h</includes>
+    <includes refid="MRFeatureRefine_8h" local="no">MRMesh/MRFeatureRefine.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga486a6518c80e8dcbf53b70b8870eaa6f" kind="variable"><name>distanceLimit</name></member>
       <member refid="group__GeneralGroup_1ga0550c06323ac687236b8994cbdef837c" kind="variable"><name>normalTolerance</name></member>
@@ -16,7 +16,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" bodystart="13" bodyend="26"/>
+    <location file="MRMesh/MRFeatureRefine.h" line="12" column="1" bodyfile="MRMesh/MRFeatureRefine.h" bodystart="13" bodyend="26"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga40ca7824e8be55ed988710074a82c8ac" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>callback</name></member>
       <member refid="group__GeneralGroup_1ga486a6518c80e8dcbf53b70b8870eaa6f" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>distanceLimit</name></member>

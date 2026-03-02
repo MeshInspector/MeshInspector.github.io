@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PolylineTraits_3_01Vector3f_01_4" kind="struct" language="C++" prot="public">
     <compoundname>MR::PolylineTraits&lt; Vector3f &gt;</compoundname>
-    <includes refid="MRAABBTreePolyline_8h" local="no">MRAABBTreePolyline.h</includes>
+    <includes refid="MRAABBTreePolyline_8h" local="no">MRMesh/MRAABBTreePolyline.h</includes>
     <templateparamlist>
     </templateparamlist>
     <sectiondef kind="public-type">
@@ -18,14 +18,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" line="24" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" bodystart="24" bodyend="-1"/>
+        <location file="MRMesh/MRAABBTreePolyline.h" line="24" column="5" bodyfile="MRMesh/MRAABBTreePolyline.h" bodystart="24" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePolyline.h" bodystart="23" bodyend="25"/>
+    <location file="MRMesh/MRAABBTreePolyline.h" line="22" column="1" bodyfile="MRMesh/MRAABBTreePolyline.h" bodystart="23" bodyend="25"/>
     <listofallmembers>
       <member refid="structMR_1_1PolylineTraits_3_01Vector3f_01_4_1a84bad48f4d3dae8d75fb1280ea03b42b" prot="public" virt="non-virtual"><scope>MR::PolylineTraits&lt; Vector3f &gt;</scope><name>Polyline</name></member>
     </listofallmembers>

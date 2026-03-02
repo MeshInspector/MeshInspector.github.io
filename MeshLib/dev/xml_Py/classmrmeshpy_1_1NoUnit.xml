@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1NoUnit" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::NoUnit</compoundname>
     <sectiondef kind="private-static-attrib">
@@ -278,18 +278,6 @@
   _count
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.NoUnit</label>
-        <link refid="classmrmeshpy_1_1NoUnit"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_count</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37911" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37911" bodyend="37944"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1NoUnit_1a9668b149e5c1694ca3a21bf4cdca8f43" prot="public" virt="non-virtual"><scope>mrmeshpy::NoUnit</scope><name>__eq__</name></member>

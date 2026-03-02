@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.11.0" xml:lang="en-US">
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.14.0" xml:lang="en-US">
   <compound refid="classMR_1_1AABBTree" kind="class"><name>MR::AABBTree</name>
     <member refid="classMR_1_1AABBTree_1aed6e78485032d75bf97587de91224aaf" kind="friend"><name>UniqueThreadSafeOwner&lt; AABBTree &gt;</name></member>
     <member refid="classMR_1_1AABBTree_1a1c7a27ff83b86c0c4b27ab51c59cdedb" kind="friend"><name>SharedThreadSafeOwner&lt; AABBTree &gt;</name></member>
@@ -89,6 +89,7 @@
     <member refid="classMR_1_1AABBTreePolyline_1a82f5feeca891be31840c7bba4a85cb1a" kind="function"><name>operator=</name></member>
     <member refid="classMR_1_1AABBTreePolyline_1a4b7146193ebb8a7f37670fa18556059f" kind="function"><name>AABBTreePolyline</name></member>
     <member refid="classMR_1_1AABBTreePolyline_1ac3c8482c649a26c1285021b0cee3ddda" kind="function"><name>operator=</name></member>
+    <member refid="classMR_1_1AABBTreePolyline_1a326618ef00c66d8d0f0916fa5011aaef" kind="variable"><name>nodes_</name></member>
   </compound>
   <compound refid="structMR_1_1AABBTreeTraits" kind="struct"><name>MR::AABBTreeTraits</name>
     <member refid="structMR_1_1AABBTreeTraits_1a0a4c21a59ab274d8edaf4ecf3702bb7a" kind="typedef"><name>LeafTag</name></member>
@@ -8061,7 +8062,7 @@
     <member refid="group__GeneralGroup_1ga097965189767222c3d16454fef46570c" kind="variable"><name>face</name></member>
     <member refid="group__GeneralGroup_1gaff11e6354c0eb7e2e92d1ecdf69ddb18" kind="variable"><name>uedge</name></member>
     <member refid="group__GeneralGroup_1gaea864d6b3c02490b48f05814d5023357" kind="variable"><name>vert</name></member>
-    <member refid="group__GeneralGroup_1ga6a1ea405ed1586d1dc3766730bb3f1e4" kind="variable"><name></name></member>
+    <member refid="group__GeneralGroup_1ga5be4f664a8d698d0a631efea43bf7a42" kind="variable"><name></name></member>
     <member refid="group__GeneralGroup_1gae6ddf1f922426da0befb0c18020f6682" kind="function"><name>PointOnObject</name></member>
     <member refid="group__GeneralGroup_1ga2e7dcb184c3434e435a3b5cf16b66101" kind="function"><name>operator PointOnFace</name></member>
   </compound>
@@ -11652,6 +11653,8 @@
     <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4_1a75052a15d9676e842bbd866aa32fa037" kind="variable"><name>value</name></member>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4_1ae87e1750cabd4b10198e82ed353eb4f1" kind="variable"><name>allowedValues</name></member>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4_1a39c3a6f5e5ed4c98cd30335902726b92" kind="variable"><name>simulatedValue</name></member>
+    <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1ad03470ce1d0b8fc32529eae1388ddcdd" kind="variable"><name>min</name></member>
+    <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1aa7bef794128e145f7ef27bb57872e2de" kind="variable"><name>max</name></member>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4_1a0c53df5fe946d2f3a130df1ba36cc8dc" kind="function"><name>Value</name></member>
   </compound>
   <compound refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry" kind="struct"><name>MR::UI::TestEngine::ValueEntry</name>
@@ -11895,6 +11898,7 @@
     <member refid="group__GeneralGroup_1gaa6933497906e7baf8dd6f57ebded16c4" kind="typedef"><name>BaseType</name></member>
     <member refid="group__GeneralGroup_1ga2eddd5b493699059c72e5edaf944e3f5" kind="typedef"><name>ChangeBaseType</name></member>
     <member refid="group__GeneralGroup_1gadae0ba185fcf4a634cb16f52a215d748" kind="variable"><name>size</name></member>
+    <member refid="group__GeneralGroup_1gaa5e702680428edc0cf72ab5aef479db3" kind="variable"><name>supportNoInit</name></member>
     <member refid="group__GeneralGroup_1ga5c198ce08dac7a46ea85fdf9edd1c7b1" kind="function"><name>getElem</name></member>
     <member refid="group__GeneralGroup_1gaf5dfb9ea2bc4002ab08e62e3e2924967" kind="function"><name>diagonal</name></member>
   </compound>
@@ -11902,6 +11906,7 @@
     <member refid="group__GeneralGroup_1ga5d100100570da05384e44a635325aa79" kind="typedef"><name>BaseType</name></member>
     <member refid="group__GeneralGroup_1ga7a34fb83d68aa2fcc53694b08e464479" kind="typedef"><name>ChangeBaseType</name></member>
     <member refid="group__GeneralGroup_1ga7484396f1c808f2bbfaa197fdaddb7ab" kind="variable"><name>size</name></member>
+    <member refid="group__GeneralGroup_1gaa5e702680428edc0cf72ab5aef479db3" kind="variable"><name>supportNoInit</name></member>
     <member refid="group__GeneralGroup_1ga0839a20ba41ede82519909991540b836" kind="function"><name>getElem</name></member>
     <member refid="group__GeneralGroup_1gad2c8ef31c89b8f6ac98ea4468e6ca19d" kind="function"><name>diagonal</name></member>
   </compound>
@@ -12922,17 +12927,6 @@
     <member refid="group__GeneralGroup_1ga3df011766c40c1643253a7c4c1871135" kind="function"><name>minCoord</name></member>
     <member refid="group__GeneralGroup_1ga67dfdaf568c4844e1435a42bec259460" kind="function"><name>shift</name></member>
   </compound>
-  <compound refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4" kind="class"><name>MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</name>
-    <member refid="group__GeneralGroup_1gae1c5eb013533230efb01586bad5f3426" kind="typedef"><name>VolumeType</name></member>
-    <member refid="group__GeneralGroup_1gaadb5959316d4c15ab69ae78501aae575" kind="typedef"><name>ValueType</name></member>
-    <member refid="group__GeneralGroup_1ga747d0bd38e6171f9e0c664590abede4e" kind="variable"><name>cacheEffective</name></member>
-    <member refid="group__GeneralGroup_1ga58e1dcd813a7a385f142e0a2d16ece66" kind="variable"><name>data_</name></member>
-    <member refid="group__GeneralGroup_1ga1bf648daebee2beedb658abfd8774a9a" kind="variable"><name>indexer_</name></member>
-    <member refid="group__GeneralGroup_1ga2b5abd9becbd2d068651ba0afc5a49fe" kind="function"><name>VoxelsVolumeAccessor</name></member>
-    <member refid="group__GeneralGroup_1gae73fe3f829a36a4c416f494dd52d6a23" kind="function"><name>get</name></member>
-    <member refid="group__GeneralGroup_1gad5969e08db6cde585c897d89b6187f8e" kind="function"><name>get</name></member>
-    <member refid="group__GeneralGroup_1ga16cbb3f5602c06dae1c74f1432459b97" kind="function"><name>shift</name></member>
-  </compound>
   <compound refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4" kind="class"><name>MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;</name>
     <member refid="group__GeneralGroup_1gafa5d356ca19a2b095ffff01785c40ca7" kind="typedef"><name>VolumeType</name></member>
     <member refid="group__GeneralGroup_1gab406da39c22ff73d1e82a2ddfc0c7620" kind="typedef"><name>ValueType</name></member>
@@ -12947,7 +12941,6 @@
     <member refid="group__GeneralGroup_1ga175a7af9acffdb30b829a1a1720e9456" kind="typedef"><name>Base</name></member>
     <member refid="group__GeneralGroup_1ga70725f7f72857d3b45faf0a3de686eb0" kind="typedef"><name>VolumeType</name></member>
     <member refid="group__GeneralGroup_1gaa22d7ef42dfaaf6e48b28ab35f07eea9" kind="typedef"><name>ValueType</name></member>
-    <member refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4_1a747d0bd38e6171f9e0c664590abede4e" kind="variable"><name>cacheEffective</name></member>
   </compound>
   <compound refid="classMR_1_1VoxelsVolumeCachingAccessor" kind="class"><name>MR::VoxelsVolumeCachingAccessor</name>
     <member refid="group__GeneralGroup_1ga1f89107f2c482a6e0468ab1cceb602c0" kind="typedef"><name>VolumeType</name></member>
@@ -13089,6 +13082,8 @@
   <compound refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4" kind="class"><name>MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</name>
     <member refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4_1afde87d2a004196721e50b8504656988d" kind="function"><name>visibilityMask</name></member>
     <member refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4_1adc75741d30361c85719c78c121fc0e1e" kind="function"><name>getFrontColorsForAllViewports</name></member>
+    <member refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_1a9e508cc1c0b80f9d9127cedc7a67ddb5" kind="function"><name>getBackColorsForAllViewports</name></member>
+    <member refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_1a4f7e8040992675f602ced6970bfd58f9" kind="function"><name>getGlobalAlphaForAllViewports</name></member>
   </compound>
   <compound refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase" kind="class"><name>MR::RenderFeatures::detail::WrappedModelSubobjectBase</name>
     <member refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase_1a149210ca6db44ac261556f0531230df6" kind="function"><name>isSelected</name></member>
@@ -13179,7 +13174,7 @@
   </compound>
   <compound refid="conceptMR_1_1UnitEnum" kind="concept"><name>MR::UnitEnum</name>
   </compound>
-  <compound refid="namespace_0d564" kind="namespace"><name>@564</name>
+  <compound refid="namespace_0d316037266051216207235113216270130152146027115210" kind="namespace"><name>@316037266051216207235113216270130152146027115210</name>
   </compound>
   <compound refid="namespaceboost" kind="namespace"><name>boost</name>
   </compound>
@@ -13412,6 +13407,65 @@
     <member refid="group__TupleBindingsGroup_1ga4bc6e978265e037bdca77110eae89d64" kind="function"><name>get</name></member>
     <member refid="group__TupleBindingsGroup_1gac87e12b44af38ae6f625b3bc7749aec7" kind="function"><name>get</name></member>
     <member refid="group__TupleBindingsGroup_1gaae733878440cead52d3fc2fd6c4429b9" kind="function"><name>get</name></member>
+    <member refid="group__GeneralGroup_1gac37f58d4c89d15f57d79214d25d5bf27" kind="function"><name>transformed</name></member>
+    <member refid="group__GeneralGroup_1ga3a21629633bf0e4bedadc69121c907ed" kind="function"><name>dot</name></member>
+    <member refid="group__GeneralGroup_1ga2c4549e9880ef73fc3bed4a4aaeb3cba" kind="function"><name>outer</name></member>
+    <member refid="group__GeneralGroup_1gab19861b942182b9673b5ed98fdc17a6c" kind="function"><name>dot</name></member>
+    <member refid="group__GeneralGroup_1ga02a7e818581b6cd47f887b32c11edc5b" kind="function"><name>outer</name></member>
+    <member refid="group__GeneralGroup_1gab8d2624777be58e7e104a7bf446aee82" kind="function"><name>dot</name></member>
+    <member refid="group__GeneralGroup_1gaff9e2bc787d384454aed9377473bfdc3" kind="function"><name>outer</name></member>
+    <member refid="group__GeneralGroup_1ga4c5344758f4daed07c548746957f795d" kind="function"><name>same</name></member>
+    <member refid="group__GeneralGroup_1ga6421ee7a169962d806d9288a85019fff" kind="function"><name>fromSameTriangle</name></member>
+    <member refid="group__GeneralGroup_1ga5b4701e6cc60a8b3a60545055a0f0ad2" kind="function"><name>fromSameTriangle</name></member>
+    <member refid="group__GeneralGroup_1gaacaa9b179d37a2b7448d4174d9026d02" kind="function"><name>getVertexAsMeshTriPoint</name></member>
+    <member refid="group__GeneralGroup_1gab78bbcb21e57f07de12885121b3e2177" kind="function"><name>invTransformed</name></member>
+    <member refid="group__GeneralGroup_1ga38c8491b1563ae8fbbfe5666645cecc5" kind="function"><name>transformed</name></member>
+    <member refid="group__GeneralGroup_1gaa10debad27ce2b86f238db3d967a2c22" kind="function"><name>operator==</name></member>
+    <member refid="group__GeneralGroup_1ga24a478c9463275d440061899c3630a32" kind="function"><name>dot</name></member>
+    <member refid="group__GeneralGroup_1ga0267d5aee3f765c24fb3f40ad811f9b4" kind="function"><name>operator*</name></member>
+    <member refid="group__GeneralGroup_1ga7e3a85611c622741c25fb2e88d485908" kind="function"><name>getCanonicalQuaternions</name></member>
+    <member refid="group__GeneralGroup_1gab2b1ae64873308ff0f9efd8dbcffcde6" kind="function"><name>getClosestCanonicalQuaternion</name></member>
+    <member refid="group__GeneralGroup_1ga5b71c529c0724694aa58ca8f01246b4d" kind="function"><name>slerp</name></member>
+    <member refid="group__GeneralGroup_1gadb5df4281ceff5b0f0e031a7102a9a9e" kind="function"><name>slerp</name></member>
+    <member refid="group__GeneralGroup_1ga30209c5b86e5874a13aef73306c7c037" kind="function"><name>orthonormalized</name></member>
+    <member refid="group__GeneralGroup_1ga425f39c2e989a446889597e5692a0416" kind="function"><name>orthonormalized</name></member>
+    <member refid="group__GeneralGroup_1ga794820de02de93d89f45517747122e36" kind="function"><name>operator*</name></member>
+    <member refid="group__GeneralGroup_1ga7023f18d2ffbf60a3eb3b4cd2fe1ce18" kind="function"><name>outerSquare</name></member>
+    <member refid="group__GeneralGroup_1ga670c0b0b5468ad0685c66438e965bb2a" kind="function"><name>outerSquare</name></member>
+    <member refid="group__GeneralGroup_1gafc689ce07450f684b99051e555894ee7" kind="function"><name>operator*</name></member>
+    <member refid="group__GeneralGroup_1ga607435c965ee7d4fabb2f1a0c7b779f2" kind="function"><name>outerSquare</name></member>
+    <member refid="group__GeneralGroup_1gaf018697d9a39a22f02a3c3cbdfe3ba5c" kind="function"><name>outerSquare</name></member>
+    <member refid="group__GeneralGroup_1ga58d4310ad87b99b94d1bea2f1059484b" kind="function"><name>crossSquare</name></member>
+    <member refid="group__GeneralGroup_1gafc0a6af3d8944b99ae426026e296ef03" kind="function"><name>operator*</name></member>
+    <member refid="group__GeneralGroup_1ga27b6e7fc3e23fc7528ad7a37f8629668" kind="function"><name>outerSquare</name></member>
+    <member refid="group__GeneralGroup_1ga66114790de91e3bbd34e6ae1d04a97e5" kind="function"><name>outerSquare</name></member>
+    <member refid="structMR_1_1Vector2_1a7be48c5d4180d89d8038acede661911e" kind="function"><name>distanceSq</name></member>
+    <member refid="structMR_1_1Vector2_1a847fe803c44c19055d0a15eca838df52" kind="function"><name>distance</name></member>
+    <member refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kind="function"><name>cross</name></member>
+    <member refid="structMR_1_1Vector2_1aa7e0a1754fac4de39eb88fc3f1e2db46" kind="function"><name>dot</name></member>
+    <member refid="structMR_1_1Vector2_1a9d7aee9b382101cb77cc426a34791517" kind="function"><name>sqr</name></member>
+    <member refid="structMR_1_1Vector2_1aaf1c84a8ba1493b479c774db9477d5e6" kind="function"><name>mult</name></member>
+    <member refid="structMR_1_1Vector2_1a0704f4e80fa32a97a3c269ddbf09728d" kind="function"><name>div</name></member>
+    <member refid="structMR_1_1Vector2_1af97f888d41c35987fa2e24cfdf696621" kind="function"><name>angle</name></member>
+    <member refid="structMR_1_1Vector2_1a14144bf50dd7436a833a9ad74fab0fdb" kind="function"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1ga1b7a343939b1a92e61700fb5bd609b56" kind="function"><name>distanceSq</name></member>
+    <member refid="group__GeneralGroup_1gaa62b4ce06d0439125af427faabb987b1" kind="function"><name>distance</name></member>
+    <member refid="group__GeneralGroup_1gaf9065ae414e0307701366e479519540d" kind="function"><name>cross</name></member>
+    <member refid="group__GeneralGroup_1ga12ace0a073b6d056e20f50fabe0b9940" kind="function"><name>dot</name></member>
+    <member refid="group__GeneralGroup_1gac519c0badafc5dd614c0c6f8b8b28994" kind="function"><name>sqr</name></member>
+    <member refid="group__GeneralGroup_1gaa80c4d71ef5b56a6aaa251f91e636873" kind="function"><name>mixed</name></member>
+    <member refid="group__GeneralGroup_1gae2acb767e75d8fddbe60a26218e7635a" kind="function"><name>mult</name></member>
+    <member refid="group__GeneralGroup_1ga3032e40b08150686195023c67dd9b749" kind="function"><name>div</name></member>
+    <member refid="group__GeneralGroup_1gac91a0462b62bab22f973bb517dc805ca" kind="function"><name>angle</name></member>
+    <member refid="group__GeneralGroup_1ga14f7f0adb55e73e84d46a542b9b91186" kind="function"><name>unitVector3</name></member>
+    <member refid="group__GeneralGroup_1ga2a77f8e96a4d822dc5af3a747356496c" kind="function"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1ga664e7947c3eb5d229c9ceb1c728a6f9b" kind="function"><name>distanceSq</name></member>
+    <member refid="group__GeneralGroup_1gafa16e6f10fb59a666d01d58bb1737e85" kind="function"><name>distance</name></member>
+    <member refid="group__GeneralGroup_1ga6b70b6953f8b9ea980c0d5afcdf3b335" kind="function"><name>dot</name></member>
+    <member refid="group__GeneralGroup_1ga2925cc04ba84c72a45503f35a61c90e5" kind="function"><name>sqr</name></member>
+    <member refid="group__GeneralGroup_1ga792b605255e8f3f5d4fc544964d5bfed" kind="function"><name>mult</name></member>
+    <member refid="group__GeneralGroup_1ga5bb00471e4228b49442d8c7e717e31e7" kind="function"><name>div</name></member>
+    <member refid="group__GeneralGroup_1ga30fe17a2e179fabfc0cb0bf87ff40620" kind="function"><name>begin</name></member>
     <member refid="group__GeneralGroup_1ga23e900d0cb79ee7e0562507ab9e9f562" kind="enum"><name>PdfBuildinFont</name></member>
     <member refid="group__GeneralGroup_1ga05195fdcf0d1d90b73a5d24b11150005" kind="enum"><name>Axis</name></member>
     <member refid="group__BooleanGroup_1ga9e84a8cc429efdf5cc108ca1c6aaccbd" kind="enum"><name>BooleanOperation</name></member>
@@ -15356,6 +15410,10 @@
     <member refid="namespaceMR_1adc6c309b18d3d1c442591ea06f9cb26c" kind="function"><name>makeObjectFromVoxelsFile</name></member>
     <member refid="group__VoxelsSaveGroup_1ga2c95017a0cb0c854829b6223518168eb" kind="function"><name>saveObjectVoxelsToFile</name></member>
     <member refid="group__GeneralGroup_1ga98e1035b952283c216159688c04819fd" kind="function"><name>functionVolumeToSimpleVolume</name></member>
+    <member refid="group__GeneralGroup_1gaa0bfe5c7c18c2a1dff71abfb4bd48404" kind="function"><name>fromSameTriangle</name></member>
+    <member refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" kind="function"><name>fromSameTriangle</name></member>
+    <member refid="group__GeneralGroup_1ga9daf64aad4fef868e611ff192efae554" kind="function"><name>sum</name></member>
+    <member refid="group__GeneralGroup_1gaa13755aec0b01f413e7b38c41ef3c838" kind="function"><name>sumAt</name></member>
   </compound>
   <compound refid="namespaceMR_1_1AsyncObjectLoad" kind="namespace"><name>MR::AsyncObjectLoad</name>
     <member refid="namespaceMR_1_1AsyncObjectLoad_1a00566fda9bf4c9254ac5d2d9ffe7208d" kind="typedef"><name>PostLoadCallback</name></member>
@@ -16204,9 +16262,9 @@
   </compound>
   <compound refid="MRRibbonSceneButtons_8h" kind="file"><name>MRRibbonSceneButtons.h</name>
   </compound>
-  <compound refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" kind="file"><name>MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</name>
+  <compound refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
   </compound>
-  <compound refid="MRViewer_2MRSceneControlMenuItems_8h" kind="file"><name>MRViewer/MRSceneControlMenuItems.h</name>
+  <compound refid="MRViewer_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
   </compound>
   <compound refid="MRBinaryOperationsPlugin_8h" kind="file"><name>MRBinaryOperationsPlugin.h</name>
   </compound>
@@ -17279,15 +17337,15 @@
     <member refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kind="define"><name>MRSYMBOLMESH_API</name></member>
     <member refid="MRSymbolMeshFwd_8h_1acd35d2ca8d20c30530e2d38a9295f009" kind="define"><name>MRSYMBOLMESH_CLASS</name></member>
   </compound>
-  <compound refid="MRCuda_2config_8h" kind="file"><name>MRCuda/config.h</name>
+  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
   </compound>
-  <compound refid="MRIOExtras_2config_8h" kind="file"><name>MRIOExtras/config.h</name>
+  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
   </compound>
-  <compound refid="MRMesh_2config_8h" kind="file"><name>MRMesh/config.h</name>
+  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
   </compound>
-  <compound refid="MRViewer_2config_8h" kind="file"><name>MRViewer/config.h</name>
+  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
   </compound>
-  <compound refid="MRVoxels_2config_8h" kind="file"><name>MRVoxels/config.h</name>
+  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
   </compound>
   <compound refid="ImGuiHelpers_8h" kind="file"><name>ImGuiHelpers.h</name>
   </compound>
@@ -17607,9 +17665,9 @@
   </compound>
   <compound refid="MRUnitSettings_8h" kind="file"><name>MRUnitSettings.h</name>
   </compound>
-  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRMesh/MRVectorTraits.h</name>
+  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
   </compound>
-  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRViewer/MRVectorTraits.h</name>
+  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
   </compound>
   <compound refid="MRViewer_8h" kind="file"><name>MRViewer.h</name>
     <member refid="MRViewer_8h_1ab5148a6d21d216f28a3c1da0055472db" kind="define"><name>ENQUEUE_VIEWER_METHOD</name></member>
@@ -21772,14 +21830,14 @@
     <member refid="group__GeneralGroup_1gab99d125d3a34811d275a4d95aefe82f4" kind="variable"><name>point</name></member>
     <member refid="group__GeneralGroup_1gae7a40e7e5c90fdf33a56711b68896efb" kind="variable"><name>zBuffer</name></member>
     <member refid="group__GeneralGroup_1ga24573ab8d99e131aad6fa4b5b12e034f" kind="variable"><name>primId</name></member>
-    <member refid="group__GeneralGroup_1ga6c8b7d41f8ab72496cef8dfbe83420db" kind="variable"><name>primId</name></member>
+    <member refid="group__GeneralGroup_1gabdc8c5b35d482d47aeeaa476b6834821" kind="variable"><name>primId</name></member>
     <member refid="group__GeneralGroup_1ga097965189767222c3d16454fef46570c" kind="variable"><name>face</name></member>
-    <member refid="group__GeneralGroup_1ga15d029efcb7ca44901aae950bd538935" kind="variable"><name>face</name></member>
+    <member refid="group__GeneralGroup_1gadbd62fd33d95af9562f9840b661b493c" kind="variable"><name>face</name></member>
     <member refid="group__GeneralGroup_1gaff11e6354c0eb7e2e92d1ecdf69ddb18" kind="variable"><name>uedge</name></member>
-    <member refid="group__GeneralGroup_1gabd6b8b32c22f20801f4f1f3196a7b3ae" kind="variable"><name>uedge</name></member>
+    <member refid="group__GeneralGroup_1gafa9071cf774def640d8a72f9bc95be1d" kind="variable"><name>uedge</name></member>
     <member refid="group__GeneralGroup_1gaea864d6b3c02490b48f05814d5023357" kind="variable"><name>vert</name></member>
-    <member refid="group__GeneralGroup_1ga4eebac5fe2f05e63ab79f7885346d0e7" kind="variable"><name>vert</name></member>
-    <member refid="group__GeneralGroup_1ga6a1ea405ed1586d1dc3766730bb3f1e4" kind="variable"><name></name></member>
+    <member refid="group__GeneralGroup_1gad3b7fe6445d0f17096617bd789144fd0" kind="variable"><name>vert</name></member>
+    <member refid="group__GeneralGroup_1ga5be4f664a8d698d0a631efea43bf7a42" kind="variable"><name></name></member>
     <member refid="group__GeneralGroup_1ga3f2fb1f45d3a7811958bf75b4e75ed0c" kind="variable"><name>colors</name></member>
     <member refid="group__GeneralGroup_1ga5b5b7847b53c3638190037e6bdcbb97d" kind="variable"><name>outXf</name></member>
     <member refid="group__GeneralGroup_1ga5e37a095f995393cb75628848220a000" kind="variable"><name>callback</name></member>
@@ -29961,38 +30019,34 @@
   </compound>
   <compound refid="APICppPage" kind="page"><name>APICppPage</name>
   </compound>
-  <compound refid="dir_9ba5c3856ca6cf238d781183c6087ce8" kind="dir"><name>Basic</name>
+  <compound refid="dir_ac44010fd0c50cb00bed3e306e558be5" kind="dir"><name>MRCommonPlugins/Basic</name>
   </compound>
-  <compound refid="dir_962aa80361c9e62a441b8bc61ef6a9df" kind="dir"><name>doxygen</name>
+  <compound refid="dir_4e8d938e9ddb5a617c200d5739d1f41a" kind="dir"><name>/home/runner/work/MeshLib/MeshLib/MeshLib/doxygen</name>
   </compound>
-  <compound refid="dir_dde369ebb89469603743f5002eed69cd" kind="dir"><name>MeshLib</name>
+  <compound refid="dir_9d18c845e499e69c9a4e6cc71160759c" kind="dir"><name>MRCommonPlugins</name>
   </compound>
-  <compound refid="dir_2346133afcf87de1e7c9c1d97991d9ea" kind="dir"><name>MRCommonPlugins</name>
+  <compound refid="dir_607568da46d18211e7292c5adf00e794" kind="dir"><name>MRCuda</name>
   </compound>
-  <compound refid="dir_d34bb9a5fd921c2fff640fa4b54c045f" kind="dir"><name>MRCuda</name>
+  <compound refid="dir_1e46fd58d70d8ee979256a72e2e6760c" kind="dir"><name>MREmbeddedPython</name>
   </compound>
-  <compound refid="dir_dd84364f67fdf7083e42255e7947820b" kind="dir"><name>MREmbeddedPython</name>
+  <compound refid="dir_30f37b35737589035d1f84e9f207764c" kind="dir"><name>MRIOExtras</name>
   </compound>
-  <compound refid="dir_39c5de6d7d47f9beb73c4f3d8933caac" kind="dir"><name>MRIOExtras</name>
+  <compound refid="dir_0cc3bc4bf87f190d6580fb811ae42f71" kind="dir"><name>MRMesh</name>
   </compound>
-  <compound refid="dir_3b80d7f2783cad7ee402cf6b731f4ae2" kind="dir"><name>MRMesh</name>
+  <compound refid="dir_54d56130b2c27a27b433bc1127023947" kind="dir"><name>mrmeshnumpy</name>
   </compound>
-  <compound refid="dir_765869fc176298f15433e5412f6f8b10" kind="dir"><name>mrmeshnumpy</name>
+  <compound refid="dir_ca44b97f550f42eca9f43db8a22a2b9a" kind="dir"><name>MRPython</name>
   </compound>
-  <compound refid="dir_c97642f483605d674dddd451db5b5449" kind="dir"><name>MRPython</name>
+  <compound refid="dir_c4126fa9d9867e166f1a7e7ef3206f30" kind="dir"><name>MRSymbolMesh</name>
   </compound>
-  <compound refid="dir_ef0277a89d5fb9bebf121b9e6c2cecc9" kind="dir"><name>MRSymbolMesh</name>
+  <compound refid="dir_9f7f527b3d798641b224411d64f042be" kind="dir"><name>MRViewer</name>
   </compound>
-  <compound refid="dir_6e96927c85b5db1a870a672280c47921" kind="dir"><name>MRViewer</name>
+  <compound refid="dir_6afa1a38044d7bf79492c684c039cbe0" kind="dir"><name>MRVoxels</name>
   </compound>
-  <compound refid="dir_0548e20a3bcd59381bf0bdb32f67cd97" kind="dir"><name>MRVoxels</name>
+  <compound refid="dir_d52f251f9fd999d835036e19447115c1" kind="dir"><name>MRCommonPlugins/Selectors</name>
   </compound>
-  <compound refid="dir_5c692a7517a144e1810d7e99a6fa3071" kind="dir"><name>Selectors</name>
+  <compound refid="dir_8b67b68f182ffe674144c2b5188c331a" kind="dir"><name>MRCommonPlugins/ViewerButtons</name>
   </compound>
-  <compound refid="dir_4c7ccc9b91e63e9e00b4c1745f04306a" kind="dir"><name>source</name>
-  </compound>
-  <compound refid="dir_8dc71c282c726d7c0c07d59dea5ec67b" kind="dir"><name>ViewerButtons</name>
-  </compound>
-  <compound refid="dir_0bdaba6e8456798d85bbc67aaa90fe25" kind="dir"><name>Voxels</name>
+  <compound refid="dir_ac937342f7e80e9c34d7dae95bcf95ad" kind="dir"><name>MRCommonPlugins/Voxels</name>
   </compound>
 </doxygenindex>

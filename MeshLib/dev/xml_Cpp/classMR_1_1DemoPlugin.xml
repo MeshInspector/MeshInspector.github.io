@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DemoPlugin" kind="class" language="C++" prot="public">
     <compoundname>MR::DemoPlugin</compoundname>
     <basecompoundref refid="classMR_1_1ViewerPlugin" prot="public" virt="non-virtual">MR::ViewerPlugin</basecompoundref>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; PreDrawListener, DrawListener, InterruptCloseListener &gt;</basecompoundref>
-    <includes refid="MRDemoPlugin_8h" local="no">MRDemoPlugin.h</includes>
+    <includes refid="MRDemoPlugin_8h" local="no">MRViewer/MRDemoPlugin.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gace2c158a224cd44af075518041d25968" kind="variable"><name>demoSphere_</name></member>
       <member refid="group__GeneralGroup_1gae51fa4c57f1323a0d9060f5b84c85b75" kind="variable"><name>shouldClose_</name></member>
@@ -76,7 +76,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" bodystart="17" bodyend="32"/>
+    <location file="MRViewer/MRDemoPlugin.h" line="16" column="1" bodyfile="MRViewer/MRDemoPlugin.h" bodystart="17" bodyend="32"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1gace2c158a224cd44af075518041d25968" prot="private" virt="non-virtual"><scope>MR::DemoPlugin</scope><name>demoSphere_</name></member>

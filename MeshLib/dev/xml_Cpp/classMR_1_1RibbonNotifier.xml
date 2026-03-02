@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RibbonNotifier" kind="class" language="C++" prot="public">
     <compoundname>MR::RibbonNotifier</compoundname>
-    <includes refid="MRRibbonNotification_8h" local="no">MRRibbonNotification.h</includes>
+    <includes refid="MRRibbonNotification_8h" local="no">MRViewer/MRRibbonNotification.h</includes>
     <innerclass refid="structMR_1_1RibbonNotifier_1_1DrawNotificationSettings" prot="private">MR::RibbonNotifier::DrawNotificationSettings</innerclass>
     <innerclass refid="structMR_1_1RibbonNotifier_1_1NotificationWithTimer" prot="private">MR::RibbonNotifier::NotificationWithTimer</innerclass>
     <sectiondef kind="public-attrib">
@@ -41,7 +41,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="66" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="67" bodyend="130"/>
+    <location file="MRViewer/MRRibbonNotification.h" line="66" column="1" bodyfile="MRViewer/MRRibbonNotification.h" bodystart="67" bodyend="130"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga10f41c894f273d775094be49b9a5c340" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>addNotification_</name></member>
       <member refid="group__GeneralGroup_1ga548d212115b7460a9bf8f321f79d7029" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>allowedTagMask</name></member>

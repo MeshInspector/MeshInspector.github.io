@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PointsLoad::E57LoadSettings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -325,20 +325,6 @@
 <para><verbatim>Generated from:  MR::PointsLoad::E57LoadSettings
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.PointsLoad.E57LoadSettings</label>
-        <link refid="classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_combineAllObjects</edgelabel>
-          <edgelabel>_offsetof_identityXf</edgelabel>
-          <edgelabel>_offsetof_progress</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45322" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45322" bodyend="45377"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings_1accd6ce0769163a9e068f3676bd4bea01" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoad::E57LoadSettings</scope><name>__init__</name></member>

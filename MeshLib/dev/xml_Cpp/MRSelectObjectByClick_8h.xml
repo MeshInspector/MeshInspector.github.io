@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSelectObjectByClick_8h" kind="file" language="C++">
     <compoundname>MRSelectObjectByClick.h</compoundname>
     <includes refid="MRStatePlugin_8h" local="yes">MRViewer/MRStatePlugin.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>MRSelectObjectByClick.h</label>
+        <label>MRCommonPlugins/Selectors/MRSelectObjectByClick.h</label>
         <link refid="MRSelectObjectByClick_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -615,9 +615,9 @@
 <codeline lineno="5"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Object;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Object" kindref="compound">Object</ref>;</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="classMR_1_1SelectObjectByClick" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1SelectObjectByClick" kindref="compound">SelectObjectByClick</ref><sp/>:</highlight></codeline>
+<codeline lineno="12" refid="classMR_1_1SelectObjectByClick" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaf233d2ee48f41e6835cdf6896f6c9676" kindref="member">SelectObjectByClick</ref><sp/>:</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1StateListenerPlugin" kindref="compound">StateListenerPlugin</ref>&lt;</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MouseDownListener,</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MouseUpListener,</highlight></codeline>
@@ -644,6 +644,6 @@
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Selectors/MRSelectObjectByClick.h"/>
+    <location file="MRCommonPlugins/Selectors/MRSelectObjectByClick.h"/>
   </compounddef>
 </doxygen>

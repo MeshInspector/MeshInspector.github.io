@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FitSelectedObjectsMenuItem" kind="class" language="C++" prot="public">
     <compoundname>MR::FitSelectedObjectsMenuItem</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
-    <includes refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="no">MRSceneControlMenuItems.h</includes>
+    <includes refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="no">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga5470226ca310d0fb210e33a8034a66db" kind="function"><name>FitSelectedObjectsMenuItem</name></member>
       <member refid="group__GeneralGroup_1ga65ea98bf6c4002164f246e5d1d92f92d" kind="function"><name>action</name></member>
@@ -49,7 +49,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="35" bodyend="40"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="34" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="35" bodyend="40"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga65ea98bf6c4002164f246e5d1d92f92d" prot="public" virt="virtual"><scope>MR::FitSelectedObjectsMenuItem</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::FitSelectedObjectsMenuItem</scope><name>blocking</name></member>

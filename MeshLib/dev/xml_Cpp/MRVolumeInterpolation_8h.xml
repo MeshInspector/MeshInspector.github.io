@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVolumeInterpolation_8h" kind="file" language="C++">
     <compoundname>MRVolumeInterpolation.h</compoundname>
     <includes refid="MRVoxelsVolumeAccess_8h" local="yes">MRVoxelsVolumeAccess.h</includes>
-    <includedby refid="MRMoveMeshToVoxelMaxDeriv_8h" local="yes">MRMoveMeshToVoxelMaxDeriv.h</includedby>
+    <includedby refid="MRMoveMeshToVoxelMaxDeriv_8h" local="yes">MRVoxels/MRMoveMeshToVoxelMaxDeriv.h</includedby>
     <incdepgraph>
       <node id="32">
         <label>MRAffineXf.h</label>
@@ -304,7 +304,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRVolumeInterpolation.h</label>
+        <label>MRVoxels/MRVolumeInterpolation.h</label>
         <link refid="MRVolumeInterpolation_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -453,11 +453,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRMoveMeshToVoxelMaxDeriv.h</label>
+        <label>MRVoxels/MRMoveMeshToVoxelMaxDeriv.h</label>
         <link refid="MRMoveMeshToVoxelMaxDeriv_8h"/>
       </node>
       <node id="1">
-        <label>MRVolumeInterpolation.h</label>
+        <label>MRVoxels/MRVolumeInterpolation.h</label>
         <link refid="MRVolumeInterpolation_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -479,8 +479,8 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Accessor&gt;</highlight></codeline>
-<codeline lineno="20" refid="classMR_1_1VoxelsVolumeInterpolatedAccessor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1VoxelsVolumeInterpolatedAccessor" kindref="compound">VoxelsVolumeInterpolatedAccessor</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Accessor&gt;</highlight></codeline>
+<codeline lineno="20" refid="classMR_1_1VoxelsVolumeInterpolatedAccessor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga965961c945f7d3afefa9fb6cddbb33bf" kindref="member">VoxelsVolumeInterpolatedAccessor</ref></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="23" refid="group__GeneralGroup_1gab8d79139c35fd5b34335c70d5386092b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gab8d79139c35fd5b34335c70d5386092b" kindref="member">VolumeType</ref><sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Accessor::VolumeType;</highlight></codeline>
@@ -490,14 +490,14 @@
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>volume_(<sp/><ref refid="group__GeneralGroup_1ga20e9ae03dbf954625936ada6b2cbcf60" kindref="member">volume</ref><sp/>),<sp/>accessor_(<sp/>accessor<sp/>)</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{}</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="group__GeneralGroup_1ga7ea20698a29d677a3d786e93534d057e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7ea20698a29d677a3d786e93534d057e" kindref="member">VoxelsVolumeInterpolatedAccessor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VoxelsVolumeInterpolatedAccessor" kindref="compound">VoxelsVolumeInterpolatedAccessor</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="35" refid="group__GeneralGroup_1gadb692ad74a5bd93073dd795e695edf60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadb692ad74a5bd93073dd795e695edf60" kindref="member">VoxelsVolumeInterpolatedAccessor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VoxelsVolumeInterpolatedAccessor" kindref="compound">VoxelsVolumeInterpolatedAccessor</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Accessor&amp;<sp/>accessor<sp/>)</highlight></codeline>
+<codeline lineno="33" refid="group__GeneralGroup_1ga7ea20698a29d677a3d786e93534d057e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7ea20698a29d677a3d786e93534d057e" kindref="member">VoxelsVolumeInterpolatedAccessor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga965961c945f7d3afefa9fb6cddbb33bf" kindref="member">VoxelsVolumeInterpolatedAccessor</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1gadb692ad74a5bd93073dd795e695edf60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadb692ad74a5bd93073dd795e695edf60" kindref="member">VoxelsVolumeInterpolatedAccessor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga965961c945f7d3afefa9fb6cddbb33bf" kindref="member">VoxelsVolumeInterpolatedAccessor</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Accessor&amp;<sp/>accessor<sp/>)</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>volume_(<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>.volume_<sp/>),<sp/>accessor_(<sp/>accessor<sp/>)</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{}</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40" refid="group__GeneralGroup_1ga831f5621f04fe15b891a1d7a2dc755d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gacebd7576c606ef11e6aef5d6c22f32f2" kindref="member">ValueType</ref><sp/><ref refid="group__GeneralGroup_1ga831f5621f04fe15b891a1d7a2dc755d6" kindref="member">get</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pos<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="41"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IndexAndPos<sp/>index<sp/>=<sp/>getIndexAndPos(<sp/>pos<sp/>-<sp/>mult(<sp/>accessor_.shift(),<sp/>volume_.voxelSize<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IndexAndPos<sp/>index<sp/>=<sp/>getIndexAndPos(<sp/>pos<sp/>-<sp/><ref refid="structMR_1_1Vector2_1aaf1c84a8ba1493b479c774db9477d5e6" kindref="member">mult</ref>(<sp/>accessor_.shift(),<sp/>volume_.voxelSize<sp/>)<sp/>);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gacebd7576c606ef11e6aef5d6c22f32f2" kindref="member">ValueType</ref><sp/>value{};</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cx[2]<sp/>=<sp/>{<sp/>1.0f<sp/>-<sp/>index.<ref refid="group__GeneralGroup_1gab7f6394c8ea8c754ddd40ee5b1be5b5d" kindref="member">pos</ref>.x,<sp/>index.<ref refid="group__GeneralGroup_1gab7f6394c8ea8c754ddd40ee5b1be5b5d" kindref="member">pos</ref>.x<sp/>};</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cy[2]<sp/>=<sp/>{<sp/>1.0f<sp/>-<sp/>index.<ref refid="group__GeneralGroup_1gab7f6394c8ea8c754ddd40ee5b1be5b5d" kindref="member">pos</ref>.y,<sp/>index.<ref refid="group__GeneralGroup_1gab7f6394c8ea8c754ddd40ee5b1be5b5d" kindref="member">pos</ref>.y<sp/>};</highlight></codeline>
@@ -545,7 +545,7 @@
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="88"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Accessor&gt;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Accessor&gt;</highlight></codeline>
 <codeline lineno="92" refid="group__GeneralGroup_1gaca1f6e889fadd4d30603c3cffcf9a930" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1ga267a0a12925eb023cff1bca0f9b620b4" kindref="member">SimpleVolumeMinMax</ref><sp/><ref refid="group__GeneralGroup_1gaca1f6e889fadd4d30603c3cffcf9a930" kindref="member">resampleVolumeByInterpolation</ref>(</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Accessor::VolumeType<sp/>&amp;<ref refid="group__GeneralGroup_1ga20e9ae03dbf954625936ada6b2cbcf60" kindref="member">volume</ref>,</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Accessor<sp/>&amp;accessor,</highlight></codeline>
@@ -571,8 +571,8 @@
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
 <codeline lineno="115"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeInterpolation.h"/>
+    <location file="MRVoxels/MRVolumeInterpolation.h"/>
   </compounddef>
 </doxygen>

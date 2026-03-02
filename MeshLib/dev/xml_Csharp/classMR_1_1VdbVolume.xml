@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VdbVolume" kind="class" language="C#" prot="public">
     <compoundname>MR::VdbVolume</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_VdbVolume</basecompoundref>
@@ -164,7 +164,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.VdbVolume.VdbVolume</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VdbVolume_1a437a67b5b5c63277aa02b1154d7cce16" kindref="member">MR.VdbVolume.VdbVolume</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -183,7 +183,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.VdbVolume.VdbVolume</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VdbVolume_1a437a67b5b5c63277aa02b1154d7cce16" kindref="member">MR.VdbVolume.VdbVolume</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -202,7 +202,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.VdbVolume.VdbVolume</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VdbVolume_1a437a67b5b5c63277aa02b1154d7cce16" kindref="member">MR.VdbVolume.VdbVolume</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -221,7 +221,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.VdbVolume.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::VdbVolume::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -250,13 +250,19 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels Generated from class <computeroutput><ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR.VoxelsVolume&lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&gt;</computeroutput> <computeroutput><ref refid="structMR_1_1Box1f" kindref="compound">MR.Box1f</ref></computeroutput> This is the non-const half of the class. </para>
+<para>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels Generated from class <computeroutput><ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::VoxelsVolume&lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&gt;</computeroutput> <computeroutput><ref refid="structMR_1_1Box1f" kindref="compound">MR.Box1f</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.VdbVolume</label>
+        <link refid="classMR_1_1VdbVolume"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_VdbVolume</label>
+        <label>MR.Const_VdbVolume</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -264,25 +270,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.VdbVolume</label>
-        <link refid="classMR_1_1VdbVolume"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_VdbVolume &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Box1f &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.VdbVolume</label>
+        <link refid="classMR_1_1VdbVolume"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_VdbVolume</label>
+        <label>MR.Const_VdbVolume</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -290,20 +296,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.VdbVolume</label>
-        <link refid="classMR_1_1VdbVolume"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_VdbVolume &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Box1f &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1477" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1478" bodyend="1588"/>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::std_vector_Heap_float_Id_GraphVertTag_std_greater_float_Element</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -561,18 +561,6 @@
 <para><verbatim>Aliases:  std_vector_Heap_float_GraphVertId_std_greater_float_Element
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.std_vector_Heap_float_Id_GraphVertTag_std_greater_float_Element</label>
-        <link refid="classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>element_type_byte_size</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="83013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="83013" bodyend="83106"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element_1a34f9f665af33dba49bc0d46ef029eb24" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Heap_float_Id_GraphVertTag_std_greater_float_Element</scope><name>__bool__</name></member>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Cone3" kind="class" language="C++" prot="public">
     <compoundname>MR::Cone3</compoundname>
-    <includes refid="MRCone3_8h" local="no">MRCone3.h</includes>
+    <includes refid="MRCone3_8h" local="no">MRMesh/MRCone3.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -38,11 +38,11 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MR::Line&lt; T &gt;</label>
+        <label>MR::Line&lt; Vector3&lt; T &gt; &gt;&lt; T &gt;</label>
         <link refid="structMR_1_1Line"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" bodystart="14" bodyend="95"/>
+    <location file="MRMesh/MRCone3.h" line="13" column="1" bodyfile="MRMesh/MRCone3.h" bodystart="14" bodyend="95"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga17cbe4ac01d2a5bacfd1909eeccb9488" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>angle</name></member>
       <member refid="group__GeneralGroup_1ga8cae3c41514d0e93897e1565c8e41c84" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>apex</name></member>

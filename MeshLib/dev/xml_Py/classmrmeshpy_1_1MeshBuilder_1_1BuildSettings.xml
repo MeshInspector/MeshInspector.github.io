@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MeshBuilder::BuildSettings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -386,21 +386,6 @@
 <para><verbatim>Generated from:  MR::MeshBuilder::BuildSettings
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.MeshBuilder.BuildSettings</label>
-        <link refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_allowNonManifoldEdge</edgelabel>
-          <edgelabel>_offsetof_region</edgelabel>
-          <edgelabel>_offsetof_shiftFaceId</edgelabel>
-          <edgelabel>_offsetof_skippedFaceCount</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31400" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31400" bodyend="31464"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings_1afe500bbc5d63ff0c10046876d2b03816" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::BuildSettings</scope><name>__init__</name></member>

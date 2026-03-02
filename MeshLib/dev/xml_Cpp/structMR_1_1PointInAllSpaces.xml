@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1PointInAllSpaces" kind="struct" language="C++" prot="public">
     <compoundname>MR::PointInAllSpaces</compoundname>
-    <includes refid="MRPointInAllSpaces_8h" local="no">MRPointInAllSpaces.h</includes>
+    <includes refid="MRPointInAllSpaces_8h" local="no">MRViewer/MRPointInAllSpaces.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga0faf89a2289bed4bb23a92601e2a6cd9" kind="variable"><name>screenSpace</name></member>
       <member refid="group__GeneralGroup_1ga5512321f2684ad8e986186697b2ccc51" kind="variable"><name>viewportSpace</name></member>
@@ -37,7 +37,7 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPointInAllSpaces.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPointInAllSpaces.h" bodystart="16" bodyend="40"/>
+    <location file="MRViewer/MRPointInAllSpaces.h" line="15" column="1" bodyfile="MRViewer/MRPointInAllSpaces.h" bodystart="16" bodyend="40"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga1cba71d0b9b3f78aff8c080d214b074f" prot="public" virt="non-virtual"><scope>MR::PointInAllSpaces</scope><name>cameraSpace</name></member>
       <member refid="group__GeneralGroup_1gac84dc0bf9782f486b05a9e4a3a738973" prot="public" virt="non-virtual"><scope>MR::PointInAllSpaces</scope><name>clipSpace</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRDirectory_8h" kind="file" language="C++">
     <compoundname>MRDirectory.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -12,7 +12,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRDirectory.h</label>
+        <label>MRMesh/MRDirectory.h</label>
         <link refid="MRDirectory_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -93,19 +93,19 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="structMR_1_1Directory" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Directory" kindref="compound">Directory</ref></highlight></codeline>
+<codeline lineno="18" refid="structMR_1_1Directory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Directory" kindref="compound">Directory</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1ga65306e29fafdd199b5c607289be0a79c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga65306e29fafdd199b5c607289be0a79c" kindref="member">dir</ref>;</highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1gaa0c34b86b17fa7255361f1bb764e006d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::error_code<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gaa0c34b86b17fa7255361f1bb764e006d" kindref="member">ec</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="structMR_1_1DirectoryRecursive" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DirectoryRecursive" kindref="compound">DirectoryRecursive</ref></highlight></codeline>
+<codeline lineno="30" refid="structMR_1_1DirectoryRecursive" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DirectoryRecursive" kindref="compound">DirectoryRecursive</ref></highlight></codeline>
 <codeline lineno="31"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="32" refid="group__GeneralGroup_1ga0377432c17ff4de701e83f6c0ac198ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga0377432c17ff4de701e83f6c0ac198ae" kindref="member">dir</ref>;</highlight></codeline>
 <codeline lineno="33" refid="group__GeneralGroup_1ga2e941bde547838e6a74d34b9aed8d49e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::error_code<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga2e941bde547838e6a74d34b9aed8d49e" kindref="member">ec</ref>;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="structMR_1_1DirectoryIterator" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DirectoryIterator" kindref="compound">DirectoryIterator</ref></highlight></codeline>
+<codeline lineno="37" refid="structMR_1_1DirectoryIterator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DirectoryIterator" kindref="compound">DirectoryIterator</ref></highlight></codeline>
 <codeline lineno="38"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="39" refid="group__GeneralGroup_1ga43d198bfa65499a30571596ae9d9b943" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::filesystem::directory_iterator<sp/><ref refid="group__GeneralGroup_1ga43d198bfa65499a30571596ae9d9b943" kindref="member">it</ref>;</highlight></codeline>
 <codeline lineno="40" refid="group__GeneralGroup_1ga4d7767889be907087117c4ee9fd0789d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::error_code<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga4d7767889be907087117c4ee9fd0789d" kindref="member">ec</ref>;</highlight></codeline>
@@ -115,7 +115,7 @@
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46" refid="group__GeneralGroup_1gaf2e1ccdd324b3b749a67c4cb570b80a3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1gaf2e1ccdd324b3b749a67c4cb570b80a3" kindref="member">findPathWithExtension</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path<sp/>&amp;<sp/>pathWithoutExtension<sp/>);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="structMR_1_1DirectoryRecursiveIterator" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DirectoryRecursiveIterator" kindref="compound">DirectoryRecursiveIterator</ref></highlight></codeline>
+<codeline lineno="49" refid="structMR_1_1DirectoryRecursiveIterator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DirectoryRecursiveIterator" kindref="compound">DirectoryRecursiveIterator</ref></highlight></codeline>
 <codeline lineno="50"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="51" refid="group__GeneralGroup_1gaffefc79c1a274349122ac58b55d2db20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::filesystem::recursive_directory_iterator<sp/><ref refid="group__GeneralGroup_1gaffefc79c1a274349122ac58b55d2db20" kindref="member">it</ref>;</highlight></codeline>
 <codeline lineno="52" refid="group__GeneralGroup_1ga1d7ccfb4cee663b44ee8386962c7898d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::error_code<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga1d7ccfb4cee663b44ee8386962c7898d" kindref="member">ec</ref>;</highlight></codeline>
@@ -153,8 +153,8 @@
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!a.<ref refid="group__GeneralGroup_1ga1d7ccfb4cee663b44ee8386962c7898d" kindref="member">ec</ref><sp/>&amp;&amp;<sp/>a.<ref refid="group__GeneralGroup_1gaffefc79c1a274349122ac58b55d2db20" kindref="member">it</ref><sp/>!=<sp/>b;</highlight></codeline>
 <codeline lineno="85"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h"/>
+    <location file="MRMesh/MRDirectory.h"/>
   </compounddef>
 </doxygen>

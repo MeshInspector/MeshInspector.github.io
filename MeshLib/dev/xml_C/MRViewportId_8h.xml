@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRViewportId_8h" kind="file" language="C++">
     <compoundname>MRViewportId.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -252,20 +252,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRViewportId.h" line="19" column="15"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRViewportId_8h_1a85b2b5f875361920283d305645987092" prot="public" static="no">
-        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref></type>
-        <definition>typedef struct MR_ViewportMask MR_ViewportMask</definition>
-        <argsstring></argsstring>
-        <name>MR_ViewportMask</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>stores mask of viewport unique identifiers Generated from class <computeroutput>MR::ViewportMask</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRViewportId.h" line="24" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRViewportId.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRViewportId_8h_1a3b7f8b8de027e6c034c8ebd922c80f51" prot="public" static="no">
         <type>struct <ref refid="MRViewportId_8h_1a3b7f8b8de027e6c034c8ebd922c80f51" kindref="member">MR_ViewportIterator</ref></type>
@@ -693,7 +679,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ViewportMask</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -711,7 +697,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ViewportMask</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1200,7 +1186,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_ViewportIterator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRViewportId_8h_1a3b7f8b8de027e6c034c8ebd922c80f51" kindref="member">MR_ViewportIterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1218,7 +1204,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_ViewportIterator</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRViewportId_8h_1a3b7f8b8de027e6c034c8ebd922c80f51" kindref="member">MR_ViewportIterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1378,14 +1364,14 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="structMR__ViewportId" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__ViewportId" kindref="compound">MR_ViewportId</ref></highlight></codeline>
+<codeline lineno="16" refid="structMR__ViewportId" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__ViewportId" kindref="compound">MR_ViewportId</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18" refid="structMR__ViewportId_1a1121b5764f381703487ab5a6a8ddba0f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR__ViewportId_1a1121b5764f381703487ab5a6a8ddba0f" kindref="member">id_</ref>;</highlight></codeline>
-<codeline lineno="19" refid="MRViewportId_8h_1a65c52420639c3080b4ecbceeffbd70bc" refkind="member"><highlight class="normal">}<sp/><ref refid="MRViewportId_8h_1a65c52420639c3080b4ecbceeffbd70bc" kindref="member">MR_ViewportId</ref>;</highlight></codeline>
+<codeline lineno="19" refid="MRViewportId_8h_1a65c52420639c3080b4ecbceeffbd70bc" refkind="member"><highlight class="normal">}<sp/><ref refid="structMR__ViewportId" kindref="compound">MR_ViewportId</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRViewportId_8h_1a85b2b5f875361920283d305645987092" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRViewportId_8h_1a3b7f8b8de027e6c034c8ebd922c80f51" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRViewportId_8h_1a3b7f8b8de027e6c034c8ebd922c80f51" kindref="member">MR_ViewportIterator</ref><sp/><ref refid="MRViewportId_8h_1a3b7f8b8de027e6c034c8ebd922c80f51" kindref="member">MR_ViewportIterator</ref>;</highlight></codeline>
+<codeline lineno="29" refid="MRViewportId_8h_1a3b7f8b8de027e6c034c8ebd922c80f51" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRViewportId_8h_1a3b7f8b8de027e6c034c8ebd922c80f51" kindref="member">MR_ViewportIterator</ref><sp/><ref refid="MRViewportId_8h_1a3b7f8b8de027e6c034c8ebd922c80f51" kindref="member">MR_ViewportIterator</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="MRViewportId_8h_1a32db09c5a65ffa47c8f15ecbf563d3c2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__ViewportId" kindref="compound">MR_ViewportId</ref><sp/><ref refid="MRViewportId_8h_1a32db09c5a65ffa47c8f15ecbf563d3c2" kindref="member">MR_ViewportId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>

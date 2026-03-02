@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MROpenObjects_8h" kind="file" language="C++">
     <compoundname>MROpenObjects.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -90,7 +90,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MROpenObjects.h</label>
+        <label>MRViewer/MROpenObjects.h</label>
         <link refid="MROpenObjects_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -175,8 +175,8 @@
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="group__GeneralGroup_1gae65aa784516f490936d24988baa1ce22" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObject&gt;</ref><sp/><ref refid="group__GeneralGroup_1gae65aa784516f490936d24988baa1ce22" kindref="member">makeObjectTreeFromZip</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>zipPath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>callback<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MROpenObjects.h"/>
+    <location file="MRViewer/MROpenObjects.h"/>
   </compounddef>
 </doxygen>

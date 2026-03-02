@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MeshLoadSettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MeshLoadSettings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -815,28 +815,6 @@
 setting for mesh loading from external format, and locations of optional output data
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.MeshLoadSettings</label>
-        <link refid="classmrmeshpy_1_1MeshLoadSettings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_callback</edgelabel>
-          <edgelabel>_offsetof_colors</edgelabel>
-          <edgelabel>_offsetof_duplicatedVertexCount</edgelabel>
-          <edgelabel>_offsetof_edges</edgelabel>
-          <edgelabel>_offsetof_faceColors</edgelabel>
-          <edgelabel>_offsetof_normals</edgelabel>
-          <edgelabel>_offsetof_skippedFaceCount</edgelabel>
-          <edgelabel>_offsetof_telemetrySignal</edgelabel>
-          <edgelabel>_offsetof_texture</edgelabel>
-          <edgelabel>_offsetof_uvCoords</edgelabel>
-          <edgelabel>...</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32683" bodyend="32812"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshLoadSettings_1a429b1d39c411003c0294e7db07e6275e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoadSettings</scope><name>__init__</name></member>

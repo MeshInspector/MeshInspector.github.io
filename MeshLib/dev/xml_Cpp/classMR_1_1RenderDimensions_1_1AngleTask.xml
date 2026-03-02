@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderDimensions_1_1AngleTask" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderDimensions::AngleTask</compoundname>
     <basecompoundref refid="classMR_1_1BasicClickableRectUiRenderTask" prot="public" virt="non-virtual">MR::BasicClickableRectUiRenderTask</basecompoundref>
-    <includes refid="MRRenderDimensions_8h" local="no">MRRenderDimensions.h</includes>
+    <includes refid="MRRenderDimensions_8h" local="no">MRViewer/MRRenderDimensions.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga470fda72e3a7d752f8dd56f8612efac9" kind="variable"><name>viewport_</name></member>
       <member refid="group__GeneralGroup_1ga1afbc86d89a123e846aac8fdd0733d23" kind="variable"><name>color_</name></member>
@@ -55,7 +55,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="139" bodyend="151"/>
+    <location file="MRViewer/MRRenderDimensions.h" line="138" column="1" bodyfile="MRViewer/MRRenderDimensions.h" bodystart="139" bodyend="151"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3e9fcf7dd7831ccbfdf02ee161bae0da" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>AngleTask</name></member>
       <member refid="group__GeneralGroup_1ga0bc896cf6c132aea51f6e9c0ce0bba8e" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleTask</scope><name>AngleTask</name></member>

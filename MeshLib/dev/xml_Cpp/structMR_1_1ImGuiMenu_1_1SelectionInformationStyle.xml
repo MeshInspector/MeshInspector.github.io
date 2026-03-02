@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle" kind="struct" language="C++" prot="public">
     <compoundname>MR::ImGuiMenu::SelectionInformationStyle</compoundname>
-    <includes refid="ImGuiMenu_8h" local="no">ImGuiMenu.h</includes>
+    <includes refid="ImGuiMenu_8h" local="no">MRViewer/ImGuiMenu.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga14e060dc9ad54344946cd90b6ff34e8a" kind="variable"><name>textColor</name></member>
       <member refid="group__GeneralGroup_1ga0be879df50c239a2a8f15bd641a8a129" kind="variable"><name>labelColor</name></member>
@@ -31,7 +31,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="345" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="346" bodyend="359"/>
+    <location file="MRViewer/ImGuiMenu.h" line="345" column="5" bodyfile="MRViewer/ImGuiMenu.h" bodystart="346" bodyend="359"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga86eda72b36c0b4d40f716d958c6e6b8a" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::SelectionInformationStyle</scope><name>item2Width</name></member>
       <member refid="group__GeneralGroup_1gac30683adb4adc5ab45bf16c3ef84ec86" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::SelectionInformationStyle</scope><name>item3Width</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1PlyLoadParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::PlyLoadParams</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -815,28 +815,6 @@
 optional load artifacts and other setting for PLY file loading
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.PlyLoadParams</label>
-        <link refid="classmrmeshpy_1_1PlyLoadParams"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_callback</edgelabel>
-          <edgelabel>_offsetof_colors</edgelabel>
-          <edgelabel>_offsetof_dir</edgelabel>
-          <edgelabel>_offsetof_edges</edgelabel>
-          <edgelabel>_offsetof_faceColors</edgelabel>
-          <edgelabel>_offsetof_normals</edgelabel>
-          <edgelabel>_offsetof_telemetrySignal</edgelabel>
-          <edgelabel>_offsetof_texture</edgelabel>
-          <edgelabel>_offsetof_triCornerUvCoords</edgelabel>
-          <edgelabel>_offsetof_tris</edgelabel>
-          <edgelabel>...</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44238" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44238" bodyend="44367"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PlyLoadParams_1aeca7a899278d30324d33c43f426b233f" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>__init__</name></member>

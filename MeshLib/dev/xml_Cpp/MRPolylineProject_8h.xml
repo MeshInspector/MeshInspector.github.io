@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPolylineProject_8h" kind="file" language="C++">
     <compoundname>MRPolylineProject.h</compoundname>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
     <includes local="no">cfloat</includes>
     <includes local="no">functional</includes>
-    <includedby refid="MRPolyline2Project_8h" local="yes">MRPolyline2Project.h</includedby>
+    <includedby refid="MRPolyline2Project_8h" local="yes">MRMesh/MRPolyline2Project.h</includedby>
     <incdepgraph>
       <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -61,7 +61,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPolylineProject.h</label>
+        <label>MRMesh/MRPolylineProject.h</label>
         <link refid="MRPolylineProject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -156,11 +156,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRPolyline2Project.h</label>
+        <label>MRMesh/MRPolyline2Project.h</label>
         <link refid="MRPolyline2Project_8h"/>
       </node>
       <node id="1">
-        <label>MRPolylineProject.h</label>
+        <label>MRMesh/MRPolylineProject.h</label>
         <link refid="MRPolylineProject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -248,8 +248,8 @@
 <codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq<sp/>=<sp/>FLT_MAX,<sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq<sp/>=<sp/>0<sp/>);</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h"/>
+    <location file="MRMesh/MRPolylineProject.h"/>
   </compounddef>
 </doxygen>

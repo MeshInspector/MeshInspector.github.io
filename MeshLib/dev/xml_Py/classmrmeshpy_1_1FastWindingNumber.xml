@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1FastWindingNumber" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FastWindingNumber</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1IFastWindingNumber" prot="public" virt="non-virtual">mrmeshpy.IFastWindingNumber</basecompoundref>
@@ -319,6 +319,7 @@ A possible fix is to change `MRMESH_CLASS` globally to `[[__gnu__::__visibility_
       <member refid="classmrmeshpy_1_1FastWindingNumber_1a87c475e7b6d11e7db7a552e728557daf" prot="public" virt="non-virtual"><scope>mrmeshpy::FastWindingNumber</scope><name>calcFromVector</name></member>
       <member refid="classmrmeshpy_1_1FastWindingNumber_1a7985e3bad1020ca466fa56c9ba56ed87" prot="public" virt="non-virtual"><scope>mrmeshpy::FastWindingNumber</scope><name>calcSelfIntersections</name></member>
       <member refid="classmrmeshpy_1_1FastWindingNumber_1a4bf8776d4a5e0e605528916a0705d638" prot="public" virt="non-virtual"><scope>mrmeshpy::FastWindingNumber</scope><name>calcWithDistances</name></member>
+      <member refid="classmrmeshpy_1_1IFastWindingNumber_1aeea068b9e8432a868ecb99671d66ef14" prot="public" virt="non-virtual"><scope>mrmeshpy::FastWindingNumber</scope><name>operator</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

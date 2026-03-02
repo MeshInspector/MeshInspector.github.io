@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPly_8h" kind="file" language="C++">
     <compoundname>MRPly.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -54,7 +54,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRPly.h</label>
+        <label>MRMesh/MRPly.h</label>
         <link refid="MRPly_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -140,7 +140,7 @@
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="structMR_1_1PlyLoadParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PlyLoadParams" kindref="compound">PlyLoadParams</ref></highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1PlyLoadParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PlyLoadParams" kindref="compound">PlyLoadParams</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1gab60b055cffae98b1ce1a1a4466cfe633" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Triangulation&gt;*<sp/><ref refid="group__GeneralGroup_1gab60b055cffae98b1ce1a1a4466cfe633" kindref="member">tris</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1gae8303df7b41e4693e1bc02050bc121ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Edges&gt;*<sp/><ref refid="group__GeneralGroup_1gae8303df7b41e4693e1bc02050bc121ca" kindref="member">edges</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/></highlight></codeline>
@@ -158,8 +158,8 @@
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33" refid="group__GeneralGroup_1ga7ba16427d8162112c46bbda9267aeec3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertCoords&gt;</ref><sp/><ref refid="group__MeshLoadGroup_1gac969ce40799ae4283a46b06d658aa9d8" kindref="member">loadPly</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PlyLoadParams" kindref="compound">PlyLoadParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h"/>
+    <location file="MRMesh/MRPly.h"/>
   </compounddef>
 </doxygen>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UI_1_1Disabler" kind="class" language="C++" prot="public">
     <compoundname>MR::UI::Disabler</compoundname>
     <derivedcompoundref refid="classMR_1_1UI_1_1LineAntialiasingDisabler" prot="private" virt="non-virtual">MR::UI::LineAntialiasingDisabler</derivedcompoundref>
-    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <includes refid="MRUIStyle_8h" local="no">MRViewer/MRUIStyle.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga74e4f57e6fc1410903da7f02698918f0" kind="variable"><name>list</name></member>
       <member refid="group__GeneralGroup_1ga2606edde258451598e90076b3900b4dc" kind="variable"><name>oldFlags</name></member>
@@ -31,7 +31,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="574" bodyend="592"/>
+    <location file="MRViewer/MRUIStyle.h" line="573" column="1" bodyfile="MRViewer/MRUIStyle.h" bodystart="574" bodyend="592"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3bf945275917a83dc236e989d7496f33" prot="public" virt="non-virtual"><scope>MR::UI::Disabler</scope><name>Disabler</name></member>
       <member refid="group__GeneralGroup_1ga0cc0c3a1ab599cbdc2aecd9e4b1c3b17" prot="public" virt="non-virtual"><scope>MR::UI::Disabler</scope><name>Disabler</name></member>

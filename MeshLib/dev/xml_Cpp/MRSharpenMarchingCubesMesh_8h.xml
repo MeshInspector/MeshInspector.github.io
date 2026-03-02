@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSharpenMarchingCubesMesh_8h" kind="file" language="C++">
     <compoundname>MRSharpenMarchingCubesMesh.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -37,7 +37,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRSharpenMarchingCubesMesh.h</label>
+        <label>MRMesh/MRSharpenMarchingCubesMesh.h</label>
         <link refid="MRSharpenMarchingCubesMesh_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -97,8 +97,8 @@
 <codeline lineno="39" refid="group__GeneralGroup_1gaaeaa41bced595d7f7740a0be5c63f1ad" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaeaa41bced595d7f7740a0be5c63f1ad" kindref="member">sharpenMarchingCubesMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>ref,<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>vox,<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;VoxelId, FaceId&gt;</ref><sp/>&amp;<sp/>face2voxel,</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SharpenMarchingCubesMeshSettings" kindref="compound">SharpenMarchingCubesMeshSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSharpenMarchingCubesMesh.h"/>
+    <location file="MRMesh/MRSharpenMarchingCubesMesh.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::IteratorRange_RingIterator_NextEdgeSameOrigin</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -181,19 +181,6 @@ Aliases:  IteratorRange_OrgRingIterator
 \\brief simple alternative to boost/iterator_range
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.IteratorRange_RingIterator_NextEdgeSameOrigin</label>
-        <link refid="classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_begin_</edgelabel>
-          <edgelabel>_offsetof_end_</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25220" bodyend="25252"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin_1adc113de3050207090c46718bd75ef401" prot="public" virt="non-virtual"><scope>mrmeshpy::IteratorRange_RingIterator_NextEdgeSameOrigin</scope><name>__init__</name></member>

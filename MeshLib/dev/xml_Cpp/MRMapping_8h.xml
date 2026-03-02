@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMapping_8h" kind="file" language="C++">
     <compoundname>MRMapping.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -16,7 +16,7 @@
         <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
-        <label>MRMapping.h</label>
+        <label>MRMesh/MRMapping.h</label>
         <link refid="MRMapping_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -113,7 +113,7 @@
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ValueT,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>IndexT&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ValueT,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>IndexT&gt;</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1ga2d9d6989ed816203134c01906e95e865" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2d9d6989ed816203134c01906e95e865" kindref="member">mapNewToOldVector</ref>(</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt;ValueT,<sp/><ref refid="classMR_1_1Id" kindref="compound">Id&lt;IndexT&gt;</ref>&gt;&amp;<sp/>oldData,</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt;<ref refid="classMR_1_1Id" kindref="compound">Id&lt;IndexT&gt;</ref>,<sp/><ref refid="classMR_1_1Id" kindref="compound">Id&lt;IndexT&gt;</ref>&gt;&amp;<sp/>newToOld,</highlight></codeline>
@@ -124,7 +124,7 @@
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>newData.autoResizeSet(<sp/>newId,<sp/>oldData[oldId]<sp/>);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ValueT,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>IndexT&gt;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ValueT,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>IndexT&gt;</highlight></codeline>
 <codeline lineno="30" refid="group__GeneralGroup_1ga3e70f43d5b88c64b1d2c61b82c447889" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3e70f43d5b88c64b1d2c61b82c447889" kindref="member">mapOldToNewVector</ref>(</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt;ValueT,<sp/><ref refid="classMR_1_1Id" kindref="compound">Id&lt;IndexT&gt;</ref>&gt;&amp;<sp/>oldData,</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt;<ref refid="classMR_1_1Id" kindref="compound">Id&lt;IndexT&gt;</ref>,<sp/><ref refid="classMR_1_1Id" kindref="compound">Id&lt;IndexT&gt;</ref>&gt;&amp;<sp/>newToOld,</highlight></codeline>
@@ -137,6 +137,6 @@
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapping.h"/>
+    <location file="MRMesh/MRMapping.h"/>
   </compounddef>
 </doxygen>

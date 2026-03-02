@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRViewportGL_8h" kind="file" language="C++">
     <compoundname>MRViewportGL.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
@@ -11,7 +11,7 @@
     <includes refid="MRViewportId_8h" local="yes">MRMesh/MRViewportId.h</includes>
     <includes refid="MRIRenderObject_8h" local="yes">MRMesh/MRIRenderObject.h</includes>
     <includes local="no">span</includes>
-    <includedby refid="MRViewport_8h" local="yes">MRViewport.h</includedby>
+    <includedby refid="MRViewport_8h" local="yes">MRViewer/MRViewport.h</includedby>
     <incdepgraph>
       <node id="31">
         <label>MRAffineXf.h</label>
@@ -264,7 +264,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRViewportGL.h</label>
+        <label>MRViewer/MRViewportGL.h</label>
         <link refid="MRViewportGL_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -349,15 +349,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>MRPickPointManager.h</label>
+        <label>MRViewer/MRPickPointManager.h</label>
         <link refid="MRPickPointManager_8h"/>
       </node>
       <node id="4">
-        <label>MRTouchpadController.h</label>
+        <label>MRViewer/MRTouchpadController.h</label>
         <link refid="MRTouchpadController_8h"/>
       </node>
       <node id="2">
-        <label>MRViewport.h</label>
+        <label>MRViewer/MRViewport.h</label>
         <link refid="MRViewport_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -367,13 +367,13 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRViewportGL.h</label>
+        <label>MRViewer/MRViewportGL.h</label>
         <link refid="MRViewportGL_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRViewportParametersAction.h</label>
+        <label>MRViewer/MRViewportParametersAction.h</label>
         <link refid="MRViewportParametersAction_8h"/>
       </node>
     </invincdepgraph>
@@ -406,8 +406,8 @@
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="17"></codeline>
-<codeline lineno="19" refid="structMR_1_1SegmEndColors" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SegmEndColors" kindref="compound">SegmEndColors</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="structMR_1_1SegmEndColors" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SegmEndColors" kindref="compound">SegmEndColors</ref></highlight></codeline>
 <codeline lineno="20"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="21" refid="group__GeneralGroup_1ga074d144106e966fd84ea6ac76b9a172b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector4f<sp/><ref refid="group__GeneralGroup_1ga074d144106e966fd84ea6ac76b9a172b" kindref="member">a</ref>,<sp/><ref refid="group__GeneralGroup_1ga34ba656028d463bdd70196ca015bdeab" kindref="member">b</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">};</highlight></codeline>
@@ -417,7 +417,7 @@
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a.<ref refid="group__GeneralGroup_1ga074d144106e966fd84ea6ac76b9a172b" kindref="member">a</ref><sp/>==<sp/>b.<ref refid="group__GeneralGroup_1ga074d144106e966fd84ea6ac76b9a172b" kindref="member">a</ref><sp/>&amp;&amp;<sp/>a.<ref refid="group__GeneralGroup_1ga34ba656028d463bdd70196ca015bdeab" kindref="member">b</ref><sp/>==<sp/>b.<ref refid="group__GeneralGroup_1ga34ba656028d463bdd70196ca015bdeab" kindref="member">b</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="structMR_1_1ViewportPointsWithColors" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ViewportPointsWithColors" kindref="compound">ViewportPointsWithColors</ref></highlight></codeline>
+<codeline lineno="30" refid="structMR_1_1ViewportPointsWithColors" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ViewportPointsWithColors" kindref="compound">ViewportPointsWithColors</ref></highlight></codeline>
 <codeline lineno="31"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="32" refid="group__GeneralGroup_1gac82bf98c749b0bb821e259629bb70b84" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1gac82bf98c749b0bb821e259629bb70b84" kindref="member">points</ref>;</highlight></codeline>
 <codeline lineno="33" refid="group__GeneralGroup_1gaf0122c41ec3efb5901af84d7a442e268" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Vector4f&gt;<sp/><ref refid="group__GeneralGroup_1gaf0122c41ec3efb5901af84d7a442e268" kindref="member">colors</ref>;</highlight></codeline>
@@ -428,19 +428,19 @@
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a.<ref refid="group__GeneralGroup_1gac82bf98c749b0bb821e259629bb70b84" kindref="member">points</ref><sp/>==<sp/>b.<ref refid="group__GeneralGroup_1gac82bf98c749b0bb821e259629bb70b84" kindref="member">points</ref><sp/>&amp;&amp;<sp/>a.<ref refid="group__GeneralGroup_1gaf0122c41ec3efb5901af84d7a442e268" kindref="member">colors</ref><sp/>==<sp/>b.<ref refid="group__GeneralGroup_1gaf0122c41ec3efb5901af84d7a442e268" kindref="member">colors</ref>;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="classMR_1_1ViewportGL" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ViewportGL" kindref="compound">ViewportGL</ref></highlight></codeline>
+<codeline lineno="42" refid="classMR_1_1ViewportGL" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga97a437675447882da60c694f40cc9e56" kindref="member">ViewportGL</ref></highlight></codeline>
 <codeline lineno="43"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="45" refid="group__GeneralGroup_1ga2a8a6c6953f39b7763a83def4e9f8ba5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2a8a6c6953f39b7763a83def4e9f8ba5" kindref="member">GLuint</ref>;</highlight></codeline>
 <codeline lineno="46" refid="group__GeneralGroup_1ga4324daf005894093aab00d0738fbd422" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4324daf005894093aab00d0738fbd422" kindref="member">GLfloat</ref>;</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48" refid="group__GeneralGroup_1ga97a437675447882da60c694f40cc9e56" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga97a437675447882da60c694f40cc9e56" kindref="member">ViewportGL</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="50" refid="group__GeneralGroup_1ga376cf69e021d79c6a54e63168253e3c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga376cf69e021d79c6a54e63168253e3c0" kindref="member">ViewportGL</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ViewportGL" kindref="compound">ViewportGL</ref>&amp;<sp/>)<sp/>{}</highlight></codeline>
-<codeline lineno="51" refid="group__GeneralGroup_1gaf6d0b135cd7ea98a92eac23f1bac3642" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ViewportGL" kindref="compound">ViewportGL</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gaf6d0b135cd7ea98a92eac23f1bac3642" kindref="member">operator = </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ViewportGL" kindref="compound">ViewportGL</ref>&amp;<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1ga376cf69e021d79c6a54e63168253e3c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga376cf69e021d79c6a54e63168253e3c0" kindref="member">ViewportGL</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga97a437675447882da60c694f40cc9e56" kindref="member">ViewportGL</ref>&amp;<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1gaf6d0b135cd7ea98a92eac23f1bac3642" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga97a437675447882da60c694f40cc9e56" kindref="member">ViewportGL</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gaf6d0b135cd7ea98a92eac23f1bac3642" kindref="member">operator = </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga97a437675447882da60c694f40cc9e56" kindref="member">ViewportGL</ref>&amp;<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="group__GeneralGroup_1gac9e742349c94c9364e1bc78a4a453bdb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gac9e742349c94c9364e1bc78a4a453bdb" kindref="member">ViewportGL</ref>(<sp/><ref refid="classMR_1_1ViewportGL" kindref="compound">ViewportGL</ref>&amp;&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="54" refid="group__GeneralGroup_1ga1540ae57916ae7af3244396a8443ff87" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ViewportGL" kindref="compound">ViewportGL</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gaf6d0b135cd7ea98a92eac23f1bac3642" kindref="member">operator = </ref>(<sp/><ref refid="classMR_1_1ViewportGL" kindref="compound">ViewportGL</ref>&amp;&amp;<sp/>)<sp/>noexcept;</highlight></codeline>
-<codeline lineno="55" refid="group__GeneralGroup_1ga33a67bdad47aeacb17a644f0c65f53ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classMR_1_1ViewportGL" kindref="compound">ViewportGL</ref>();</highlight></codeline>
+<codeline lineno="53" refid="group__GeneralGroup_1gac9e742349c94c9364e1bc78a4a453bdb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gac9e742349c94c9364e1bc78a4a453bdb" kindref="member">ViewportGL</ref>(<sp/><ref refid="group__GeneralGroup_1ga97a437675447882da60c694f40cc9e56" kindref="member">ViewportGL</ref>&amp;&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54" refid="group__GeneralGroup_1ga1540ae57916ae7af3244396a8443ff87" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga97a437675447882da60c694f40cc9e56" kindref="member">ViewportGL</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gaf6d0b135cd7ea98a92eac23f1bac3642" kindref="member">operator = </ref>(<sp/><ref refid="group__GeneralGroup_1ga97a437675447882da60c694f40cc9e56" kindref="member">ViewportGL</ref>&amp;&amp;<sp/>)<sp/>noexcept;</highlight></codeline>
+<codeline lineno="55" refid="group__GeneralGroup_1ga33a67bdad47aeacb17a644f0c65f53ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="group__GeneralGroup_1ga97a437675447882da60c694f40cc9e56" kindref="member">ViewportGL</ref>();</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58" refid="group__GeneralGroup_1gac2b114c03f1a2659e1e2eba7421c5aad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac2b114c03f1a2659e1e2eba7421c5aad" kindref="member">init</ref>();</highlight></codeline>
 <codeline lineno="60" refid="group__GeneralGroup_1gaeb0e2182b6dc110fa0c6d0a45b199076" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaeb0e2182b6dc110fa0c6d0a45b199076" kindref="member">free</ref>();</highlight></codeline>
@@ -499,7 +499,7 @@
 <codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>PickTextureFrameBuffer<sp/>pickFBO_;</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;PickColor&gt;<sp/>pickObjectsInRect_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>PickParameters&amp;<sp/>params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box2i&amp;<sp/>rect<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;PickColor&gt;<sp/>pickObjectsInRect_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ViewportGL_1_1PickParameters" kindref="compound">PickParameters</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box2i&amp;<sp/>rect<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>inited_<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
@@ -517,6 +517,6 @@
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
 <codeline lineno="143"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h"/>
+    <location file="MRViewer/MRViewportGL.h"/>
   </compounddef>
 </doxygen>

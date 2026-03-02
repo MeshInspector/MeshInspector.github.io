@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TbbThreadMutex_1_1LockGuard" kind="class" language="C++" prot="public">
     <compoundname>MR::TbbThreadMutex::LockGuard</compoundname>
-    <includes refid="MRTbbThreadMutex_8h" local="no">MRTbbThreadMutex.h</includes>
+    <includes refid="MRTbbThreadMutex_8h" local="no">MRMesh/MRTbbThreadMutex.h</includes>
     <sectiondef kind="friend">
       <member refid="group__GeneralGroup_1ga8c6392ce214f3ae75940276985adb46a" kind="friend"><name>TbbThreadMutex</name></member>
     </sectiondef>
@@ -22,7 +22,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h" line="42" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h" bodystart="43" bodyend="54"/>
+    <location file="MRMesh/MRTbbThreadMutex.h" line="42" column="5" bodyfile="MRMesh/MRTbbThreadMutex.h" bodystart="43" bodyend="54"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gabfcd43a1d03afaa62efadd48d14ba484" prot="private" virt="non-virtual"><scope>MR::TbbThreadMutex::LockGuard</scope><name>LockGuard</name></member>
       <member refid="group__GeneralGroup_1ga88773482b1410e7fe4a3e0199337191c" prot="public" virt="non-virtual"><scope>MR::TbbThreadMutex::LockGuard</scope><name>LockGuard</name></member>

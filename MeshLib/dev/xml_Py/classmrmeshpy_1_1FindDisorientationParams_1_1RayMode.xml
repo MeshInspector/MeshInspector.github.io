@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FindDisorientationParams::RayMode</compoundname>
     <sectiondef kind="public-static-attrib">
@@ -312,20 +312,6 @@
   Both : both direction should have correct number of intersections (positive - even; negative - odd)
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.FindDisorientationParams.RayMode</label>
-        <link refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>Both</edgelabel>
-          <edgelabel>Positive</edgelabel>
-          <edgelabel>Shallowest</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20057" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20057" bodyend="20096"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1aa000a7e30b7ffe41ed9ef3d12db096f1" prot="public" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>__eq__</name></member>

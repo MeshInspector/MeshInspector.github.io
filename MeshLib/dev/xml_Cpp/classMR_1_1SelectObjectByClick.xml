@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SelectObjectByClick" kind="class" language="C++" prot="public">
     <compoundname>MR::SelectObjectByClick</compoundname>
     <basecompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;</basecompoundref>
     <basecompoundref refid="classMR_1_1PluginCloseOnEscPressed" prot="public" virt="non-virtual">MR::PluginCloseOnEscPressed</basecompoundref>
-    <includes refid="MRSelectObjectByClick_8h" local="no">MRSelectObjectByClick.h</includes>
+    <includes refid="MRSelectObjectByClick_8h" local="no">MRCommonPlugins/Selectors/MRSelectObjectByClick.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaa858c26f5550caccb96a4819c5356193" kind="variable"><name>picked_</name></member>
       <member refid="group__GeneralGroup_1ga4a075e327d2168c5fb6afe28a788e09f" kind="variable"><name>ctrl_</name></member>
@@ -165,7 +165,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Selectors/MRSelectObjectByClick.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Selectors/MRSelectObjectByClick.h" bodystart="19" bodyend="35"/>
+    <location file="MRCommonPlugins/Selectors/MRSelectObjectByClick.h" line="12" column="1" bodyfile="MRCommonPlugins/Selectors/MRSelectObjectByClick.h" bodystart="19" bodyend="35"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::SelectObjectByClick</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga4e224981a48ecad3ccd0f3644cfeecd5" prot="public" virt="virtual"><scope>MR::SelectObjectByClick</scope><name>blocking</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::RingIterator_NextEdgeSameOrigin</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1NextEdgeSameOrigin" prot="public" virt="non-virtual">mrmeshpy.NextEdgeSameOrigin</basecompoundref>
@@ -27,7 +27,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RingIterator_NextEdgeSameOrigin.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1NextEdgeSameOrigin_1a56714ca3e659c6b2cd32b05cef844cb9">__init__</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -120,7 +119,6 @@
         <argsstring>(self, MeshTopology topology, EdgeId edge, bool first)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RingIterator_NextEdgeSameOrigin.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1NextEdgeSameOrigin_1a56714ca3e659c6b2cd32b05cef844cb9">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -151,7 +149,6 @@
         <argsstring>(self, RingIterator_NextEdgeSameOrigin arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RingIterator_NextEdgeSameOrigin.__init__</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1NextEdgeSameOrigin_1a56714ca3e659c6b2cd32b05cef844cb9">__init__</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -290,6 +287,7 @@ The iterator to find all edges in a ring of edges (e.g. all edges with same orig
       <member refid="classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin_1a3bc4d5f4c89e589ec1e6bed98f169c79" prot="public" virt="non-virtual"><scope>mrmeshpy::RingIterator_NextEdgeSameOrigin</scope><name>__mul__</name></member>
       <member refid="classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin_1a1bccc9ddc0cc3c50f0f7448597ed0c7b" prot="public" virt="non-virtual"><scope>mrmeshpy::RingIterator_NextEdgeSameOrigin</scope><name>__ne__</name></member>
       <member refid="classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin_1a8e8edd45d68ec221ddbdb78ee2b766f3" prot="public" virt="non-virtual"><scope>mrmeshpy::RingIterator_NextEdgeSameOrigin</scope><name>first</name></member>
+      <member refid="classmrmeshpy_1_1NextEdgeSameOrigin_1a338212481ed8e42c36e1a1eed31e497b" prot="public" virt="non-virtual"><scope>mrmeshpy::RingIterator_NextEdgeSameOrigin</scope><name>next</name></member>
       <member refid="classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin_1ae562b9a34d5e61a15e49a1ddce091d32" prot="public" virt="non-virtual"><scope>mrmeshpy::RingIterator_NextEdgeSameOrigin</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin_1ae562b9a34d5e61a15e49a1ddce091d32" prot="public" virt="non-virtual"><scope>mrmeshpy::RingIterator_NextEdgeSameOrigin</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin_1a937f4d255cda6622d6be1aed35a41921" prot="public" virt="non-virtual"><scope>mrmeshpy::RingIterator_NextEdgeSameOrigin</scope><name>operator</name></member>

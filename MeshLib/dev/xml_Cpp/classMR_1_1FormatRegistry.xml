@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FormatRegistry" kind="class" language="C++" prot="public">
     <compoundname>MR::FormatRegistry</compoundname>
-    <includes refid="MRIOFormatsRegistry_8h" local="no">MRIOFormatsRegistry.h</includes>
+    <includes refid="MRIOFormatsRegistry_8h" local="no">MRMesh/MRIOFormatsRegistry.h</includes>
     <templateparamlist>
       <param>
         <type>typename Processor</type>
@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="126" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="126" bodyend="-1"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="126" column="14" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="126" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1FormatRegistry_1afc9cb47ecdb3770897ac461550e805ce" prot="private" static="no" mutable="no">
         <type>std::multimap&lt; int8_t, <ref refid="structMR_1_1IOFilter" kindref="compound">IOFilter</ref> &gt;</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="127" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="127" bodyend="-1"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="127" column="19" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="127" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1FormatRegistry_1ac3cbab7944074b6abdbfe79fbea0ed81" prot="private" static="no" mutable="no">
         <type>std::vector&lt; <ref refid="structMR_1_1IOFilter" kindref="compound">IOFilter</ref> &gt;</type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="128" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="128" bodyend="-1"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="128" column="17" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="128" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="57" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="57" bodyend="60"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="57" column="28" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="57" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FormatRegistry_1ab9c42820935e63cda9a431676c136280" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Processor</type>
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="63" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="63" bodyend="71"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="63" column="22" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="63" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FormatRegistry_1acb208068d64ed77ba4bbe8aa96275480" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Processor</type>
@@ -105,7 +105,7 @@
         <inbodydescription>
 <para>TODO: extension cache</para>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="74" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="74" bodyend="87"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="74" column="22" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="74" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FormatRegistry_1a7f04f8005ed2c45cb38fffb44ecee8c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -133,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="90" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="90" bodyend="106"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="90" column="17" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="90" bodyend="106"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="109" column="5"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="109" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FormatRegistry_1a7b985078b9f373c2966b9b298c220b88" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="110" column="5"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="110" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FormatRegistry_1a50d9ac3b8c325c0364f7125754b6f6f1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="118" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="118" bodyend="124"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="118" column="10" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="118" bodyend="124"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -193,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="112" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="112" bodyend="116"/>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="112" column="27" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="112" bodyend="116"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -201,7 +201,7 @@
     <detaileddescription>
 <para>format loader registry NOTE: this is a singleton class, do NOT access it from header files you might use MR_FORMAT_REGISTRY_DECL and MR_FORMAT_REGISTRY_IMPL macros to simplify the usage for most common cases </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="53" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="54" bodyend="129"/>
+    <location file="MRMesh/MRIOFormatsRegistry.h" line="53" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="54" bodyend="129"/>
     <listofallmembers>
       <member refid="classMR_1_1FormatRegistry_1afc9cb47ecdb3770897ac461550e805ce" prot="private" virt="non-virtual"><scope>MR::FormatRegistry</scope><name>filterPriorityQueue_</name></member>
       <member refid="classMR_1_1FormatRegistry_1ac3cbab7944074b6abdbfe79fbea0ed81" prot="private" virt="non-virtual"><scope>MR::FormatRegistry</scope><name>filters_</name></member>

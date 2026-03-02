@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BestFitParabola" kind="class" language="C++" prot="public">
     <compoundname>MR::BestFitParabola</compoundname>
-    <includes refid="MRBestFitParabola_8h" local="no">MRBestFitParabola.h</includes>
+    <includes refid="MRBestFitParabola_8h" local="no">MRMesh/MRBestFitParabola.h</includes>
     <templateparamlist>
       <param>
         <type>typename T</type>
@@ -22,7 +22,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitParabola.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitParabola.h" bodystart="15" bodyend="29"/>
+    <location file="MRMesh/MRBestFitParabola.h" line="14" column="1" bodyfile="MRMesh/MRBestFitParabola.h" bodystart="15" bodyend="29"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8b4c1d8441a656b128c01711395e395b" prot="public" virt="non-virtual"><scope>MR::BestFitParabola</scope><name>addPoint</name></member>
       <member refid="group__GeneralGroup_1ga35bb9336bb5fe0191c718e89261c9645" prot="public" virt="non-virtual"><scope>MR::BestFitParabola</scope><name>addPoint</name></member>

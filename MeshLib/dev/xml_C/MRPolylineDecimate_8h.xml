@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPolylineDecimate_8h" kind="file" language="C++">
     <compoundname>MRPolylineDecimate.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -33,70 +33,37 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPolylineDecimate_8h_1ac19d267fe4a2399b21a578c74213dfd2" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref></type>
-        <definition>typedef struct MR_Polyline2 MR_Polyline2</definition>
-        <argsstring></argsstring>
-        <name>MR_Polyline2</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" line="13" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolylineDecimate_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref></type>
-        <definition>typedef struct MR_Polyline3 MR_Polyline3</definition>
-        <argsstring></argsstring>
-        <name>MR_Polyline3</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" line="14" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRPolylineDecimate_8h_1a9f177a2dfee438db08a5310661f61785" prot="public" static="no">
         <type>struct <ref refid="MRPolylineDecimate_8h_1a9f177a2dfee438db08a5310661f61785" kindref="member">MR_Vector_MR_QuadraticForm2f_MR_VertId</ref></type>
         <definition>typedef struct MR_Vector_MR_QuadraticForm2f_MR_VertId MR_Vector_MR_QuadraticForm2f_MR_VertId</definition>
         <argsstring></argsstring>
         <name>MR_Vector_MR_QuadraticForm2f_MR_VertId</name>
         <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&lt;MR::QuadraticForm2f, MR::VertId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" line="15" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolylineDecimate_8h_1a4e8b64eda278d91e3e5819be7d109e71" prot="public" static="no">
-        <type>struct <ref refid="MRMeshDecimate_8h_1a4e8b64eda278d91e3e5819be7d109e71" kindref="member">MR_Vector_MR_QuadraticForm3f_MR_VertId</ref></type>
-        <definition>typedef struct MR_Vector_MR_QuadraticForm3f_MR_VertId MR_Vector_MR_QuadraticForm3f_MR_VertId</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector_MR_QuadraticForm3f_MR_VertId</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" line="16" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolylineDecimate_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
-        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
-        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
-        <argsstring></argsstring>
-        <name>MR_VertBitSet</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" line="17" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRPolylineDecimate_8h_1abf26775576c081a76617e471df1eff4c" prot="public" static="no">
         <type>struct <ref refid="MRPolylineDecimate_8h_1abf26775576c081a76617e471df1eff4c" kindref="member">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector2f_ref</ref></type>
@@ -111,19 +78,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" line="18" column="72" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" bodystart="18" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRPolylineDecimate_8h_1ab21e9d887739d4c46e4480f89c5565d3" prot="public" static="no">
-        <type>struct <ref refid="MRMeshDecimate_8h_1ab21e9d887739d4c46e4480f89c5565d3" kindref="member">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" line="19" column="72" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRPolylineDecimate_8h_1a017ca0c76d3e31b4298bbcc16468c4cd" prot="public" static="no">
         <type>struct <ref refid="MRPolylineDecimate_8h_1a017ca0c76d3e31b4298bbcc16468c4cd" kindref="member">MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector2f_ref</ref></type>
         <definition>typedef struct MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector2f_ref MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector2f_ref</definition>
@@ -136,45 +90,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" line="20" column="86" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolylineDecimate_8h_1a694819557dec9d9544052ae7aa406eff" prot="public" static="no">
-        <type>struct <ref refid="MRMeshDecimate_8h_1a694819557dec9d9544052ae7aa406eff" kindref="member">MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref</ref></type>
-        <definition>typedef struct MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" line="21" column="86" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolylineDecimate_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" prot="public" static="no">
-        <type>struct <ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref></type>
-        <definition>typedef struct MR_std_vector_MR_Vector2f MR_std_vector_MR_Vector2f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_Vector2f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" line="22" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPolylineDecimate_8h_1aefed148a09a0ae55edbd22814638b462" prot="public" static="no">
-        <type>struct <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref></type>
-        <definition>typedef struct MR_std_vector_MR_Vector3f MR_std_vector_MR_Vector3f</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_Vector3f</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" line="23" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineDecimate.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRPolylineDecimate_8h_1ac66cce5b0850ae9b355503447df887fd" prot="public" static="no">
         <type>struct <ref refid="MRPolylineDecimate_8h_1ac66cce5b0850ae9b355503447df887fd" kindref="member">MR_DecimatePolylineSettings_MR_Vector2f</ref></type>
@@ -990,7 +905,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_DecimatePolylineSettings_MR_Vector2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPolylineDecimate_8h_1ac66cce5b0850ae9b355503447df887fd" kindref="member">MR_DecimatePolylineSettings_MR_Vector2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1008,7 +923,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_DecimatePolylineSettings_MR_Vector2f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPolylineDecimate_8h_1ac66cce5b0850ae9b355503447df887fd" kindref="member">MR_DecimatePolylineSettings_MR_Vector2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1812,7 +1727,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_DecimatePolylineSettings_MR_Vector3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPolylineDecimate_8h_1a1c571952e7c630e4fecb8fe6ed2b8847" kindref="member">MR_DecimatePolylineSettings_MR_Vector3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1830,7 +1745,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_DecimatePolylineSettings_MR_Vector3f</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPolylineDecimate_8h_1a1c571952e7c630e4fecb8fe6ed2b8847" kindref="member">MR_DecimatePolylineSettings_MR_Vector3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2108,7 +2023,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_DecimatePolylineResult</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPolylineDecimate_8h_1a25dde4488561984da39e296deb944307" kindref="member">MR_DecimatePolylineResult</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2126,7 +2041,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_DecimatePolylineResult</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPolylineDecimate_8h_1a25dde4488561984da39e296deb944307" kindref="member">MR_DecimatePolylineResult</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2264,24 +2179,24 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRPolylineDecimate_8h_1ac19d267fe4a2399b21a578c74213dfd2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRPolylineDecimate_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="MRPolylineDecimate_8h_1a9f177a2dfee438db08a5310661f61785" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineDecimate_8h_1a9f177a2dfee438db08a5310661f61785" kindref="member">MR_Vector_MR_QuadraticForm2f_MR_VertId</ref><sp/><ref refid="MRPolylineDecimate_8h_1a9f177a2dfee438db08a5310661f61785" kindref="member">MR_Vector_MR_QuadraticForm2f_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRPolylineDecimate_8h_1a4e8b64eda278d91e3e5819be7d109e71" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDecimate_8h_1a4e8b64eda278d91e3e5819be7d109e71" kindref="member">MR_Vector_MR_QuadraticForm3f_MR_VertId</ref><sp/><ref refid="MRMeshDecimate_8h_1a4e8b64eda278d91e3e5819be7d109e71" kindref="member">MR_Vector_MR_QuadraticForm3f_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRPolylineDecimate_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDecimate_8h_1a4e8b64eda278d91e3e5819be7d109e71" kindref="member">MR_Vector_MR_QuadraticForm3f_MR_VertId</ref><sp/><ref refid="MRMeshDecimate_8h_1a4e8b64eda278d91e3e5819be7d109e71" kindref="member">MR_Vector_MR_QuadraticForm3f_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="MRPolylineDecimate_8h_1abf26775576c081a76617e471df1eff4c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineDecimate_8h_1abf26775576c081a76617e471df1eff4c" kindref="member">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector2f_ref</ref><sp/><ref refid="MRPolylineDecimate_8h_1abf26775576c081a76617e471df1eff4c" kindref="member">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector2f_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_MR_EdgeId_const_MR_Vector2f_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRPolylineDecimate_8h_1ab21e9d887739d4c46e4480f89c5565d3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDecimate_8h_1ab21e9d887739d4c46e4480f89c5565d3" kindref="member">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref</ref><sp/><ref refid="MRMeshDecimate_8h_1ab21e9d887739d4c46e4480f89c5565d3" kindref="member">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDecimate_8h_1ab21e9d887739d4c46e4480f89c5565d3" kindref="member">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref</ref><sp/><ref refid="MRMeshDecimate_8h_1ab21e9d887739d4c46e4480f89c5565d3" kindref="member">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="MRPolylineDecimate_8h_1a017ca0c76d3e31b4298bbcc16468c4cd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineDecimate_8h_1a017ca0c76d3e31b4298bbcc16468c4cd" kindref="member">MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector2f_ref</ref><sp/><ref refid="MRPolylineDecimate_8h_1a017ca0c76d3e31b4298bbcc16468c4cd" kindref="member">MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector2f_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector2f_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRPolylineDecimate_8h_1a694819557dec9d9544052ae7aa406eff" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDecimate_8h_1a694819557dec9d9544052ae7aa406eff" kindref="member">MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref</ref><sp/><ref refid="MRMeshDecimate_8h_1a694819557dec9d9544052ae7aa406eff" kindref="member">MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRPolylineDecimate_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRPolylineDecimate_8h_1aefed148a09a0ae55edbd22814638b462" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDecimate_8h_1a694819557dec9d9544052ae7aa406eff" kindref="member">MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref</ref><sp/><ref refid="MRMeshDecimate_8h_1a694819557dec9d9544052ae7aa406eff" kindref="member">MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRPolylineDecimate_8h_1ac66cce5b0850ae9b355503447df887fd" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineDecimate_8h_1ac66cce5b0850ae9b355503447df887fd" kindref="member">MR_DecimatePolylineSettings_MR_Vector2f</ref><sp/><ref refid="MRPolylineDecimate_8h_1ac66cce5b0850ae9b355503447df887fd" kindref="member">MR_DecimatePolylineSettings_MR_Vector2f</ref>;</highlight></codeline>
+<codeline lineno="35" refid="MRPolylineDecimate_8h_1ac66cce5b0850ae9b355503447df887fd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineDecimate_8h_1ac66cce5b0850ae9b355503447df887fd" kindref="member">MR_DecimatePolylineSettings_MR_Vector2f</ref><sp/><ref refid="MRPolylineDecimate_8h_1ac66cce5b0850ae9b355503447df887fd" kindref="member">MR_DecimatePolylineSettings_MR_Vector2f</ref>;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRPolylineDecimate_8h_1a1c571952e7c630e4fecb8fe6ed2b8847" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineDecimate_8h_1a1c571952e7c630e4fecb8fe6ed2b8847" kindref="member">MR_DecimatePolylineSettings_MR_Vector3f</ref><sp/><ref refid="MRPolylineDecimate_8h_1a1c571952e7c630e4fecb8fe6ed2b8847" kindref="member">MR_DecimatePolylineSettings_MR_Vector3f</ref>;</highlight></codeline>
+<codeline lineno="46" refid="MRPolylineDecimate_8h_1a1c571952e7c630e4fecb8fe6ed2b8847" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineDecimate_8h_1a1c571952e7c630e4fecb8fe6ed2b8847" kindref="member">MR_DecimatePolylineSettings_MR_Vector3f</ref><sp/><ref refid="MRPolylineDecimate_8h_1a1c571952e7c630e4fecb8fe6ed2b8847" kindref="member">MR_DecimatePolylineSettings_MR_Vector3f</ref>;</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRPolylineDecimate_8h_1a25dde4488561984da39e296deb944307" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineDecimate_8h_1a25dde4488561984da39e296deb944307" kindref="member">MR_DecimatePolylineResult</ref><sp/><ref refid="MRPolylineDecimate_8h_1a25dde4488561984da39e296deb944307" kindref="member">MR_DecimatePolylineResult</ref>;</highlight></codeline>
+<codeline lineno="54" refid="MRPolylineDecimate_8h_1a25dde4488561984da39e296deb944307" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineDecimate_8h_1a25dde4488561984da39e296deb944307" kindref="member">MR_DecimatePolylineResult</ref><sp/><ref refid="MRPolylineDecimate_8h_1a25dde4488561984da39e296deb944307" kindref="member">MR_DecimatePolylineResult</ref>;</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61" refid="MRPolylineDecimate_8h_1aaf6a03a1946ad225360d8640265bd9ef" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineDecimate_8h_1aaf6a03a1946ad225360d8640265bd9ef" kindref="member">MR_DecimatePolylineSettings_MR_Vector2f_Get_maxError</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineDecimate_8h_1ac66cce5b0850ae9b355503447df887fd" kindref="member">MR_DecimatePolylineSettings_MR_Vector2f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>

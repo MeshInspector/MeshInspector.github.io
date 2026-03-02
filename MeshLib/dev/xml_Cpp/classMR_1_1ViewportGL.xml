@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewportGL" kind="class" language="C++" prot="public">
     <compoundname>MR::ViewportGL</compoundname>
-    <includes refid="MRViewportGL_8h" local="no">MRViewportGL.h</includes>
+    <includes refid="MRViewportGL_8h" local="no">MRViewer/MRViewportGL.h</includes>
     <innerclass refid="structMR_1_1ViewportGL_1_1BasePickResult" prot="public">MR::ViewportGL::BasePickResult</innerclass>
     <innerclass refid="structMR_1_1ViewportGL_1_1PickColor" prot="private">MR::ViewportGL::PickColor</innerclass>
     <innerclass refid="structMR_1_1ViewportGL_1_1PickParameters" prot="public">MR::ViewportGL::PickParameters</innerclass>
@@ -51,7 +51,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="42" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="43" bodyend="141"/>
+    <location file="MRViewer/MRViewportGL.h" line="42" column="1" bodyfile="MRViewer/MRViewportGL.h" bodystart="43" bodyend="141"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga15363f05b327573c2bc93ddc96b46392" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_line_colors_vbo</name></member>
       <member refid="group__GeneralGroup_1ga29ef9c5ceb38273f6742c4e9e8b5c936" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_line_vao</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRVDBFloatGrid_8h" kind="file" language="C++">
     <compoundname>MRVDBFloatGrid.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -26,22 +26,6 @@
         <label>stddef.h</label>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRVDBFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" prot="public" static="no">
-        <type>struct <ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref></type>
-        <definition>typedef struct MR_OpenVdbFloatGrid MR_OpenVdbFloatGrid</definition>
-        <argsstring></argsstring>
-        <name>MR_OpenVdbFloatGrid</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>this class just hides very complex type of typedef openvdb::FloatGrid Generated from class <computeroutput>MR::OpenVdbFloatGrid</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVDBFloatGrid.h" line="16" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVDBFloatGrid.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRVDBFloatGrid_8h_1a7ca51fc2db8e0d7b97688a91667084bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref> *</type>
@@ -154,7 +138,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_OpenVdbFloatGrid</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -172,7 +156,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_OpenVdbFloatGrid</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -216,7 +200,7 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRVDBFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/><ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/><ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref>;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="MRVDBFloatGrid_8h_1a7ca51fc2db8e0d7b97688a91667084bd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="MRVDBFloatGrid_8h_1a7ca51fc2db8e0d7b97688a91667084bd" kindref="member">MR_OpenVdbFloatGrid_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>

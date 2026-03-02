@@ -1,8 +1,6 @@
 var MRPointToPlaneAligningTransform_8h =
 [
-    [ "MR_PointToPlaneAligningTransform", "MRPointToPlaneAligningTransform_8h.html#a688de095aadd73180efe43123477f63f", null ],
     [ "MR_RigidScaleXf3d", "MRPointToPlaneAligningTransform_8h.html#ad1591488603e4a7f9f1931786ba322b8", null ],
-    [ "MR_Vector3f", "MRPointToPlaneAligningTransform_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
     [ "MR_PointToPlaneAligningTransform_add_MR_Vector3d", "MRPointToPlaneAligningTransform_8h.html#a95996e9fd5267dc3cebc58806a52a4c0", null ],
     [ "MR_PointToPlaneAligningTransform_add_MR_Vector3f", "MRPointToPlaneAligningTransform_8h.html#a55688e6ef6ff89e68a6912d9feadfd2b", null ],
     [ "MR_PointToPlaneAligningTransform_AssignFromAnother", "MRPointToPlaneAligningTransform_8h.html#a2bbebc92dd085c8b65beeb79fa7e2620", null ],

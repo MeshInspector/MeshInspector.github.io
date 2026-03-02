@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CombinedHistoryAction" kind="class" language="C#" prot="public">
     <compoundname>MR::CombinedHistoryAction</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_CombinedHistoryAction</basecompoundref>
@@ -99,7 +99,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.CombinedHistoryAction.CombinedHistoryAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CombinedHistoryAction_1a700a0fa9718ca688df2b3ab52dae6824" kindref="member">MR.CombinedHistoryAction.CombinedHistoryAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -118,7 +118,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.CombinedHistoryAction.CombinedHistoryAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CombinedHistoryAction_1a700a0fa9718ca688df2b3ab52dae6824" kindref="member">MR.CombinedHistoryAction.CombinedHistoryAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -137,7 +137,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.CombinedHistoryAction.CombinedHistoryAction</computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CombinedHistoryAction_1a700a0fa9718ca688df2b3ab52dae6824" kindref="member">MR.CombinedHistoryAction.CombinedHistoryAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -160,7 +160,7 @@
           <declname>actions</declname>
         </param>
         <briefdescription>
-<para>Will call <ref refid="classMR_1_1CombinedHistoryAction_1ace723fe0552e381f472a4cafa459a886" kindref="member">action()</ref> for each actions in given order (undo in reverse, redo in forward) Generated from constructor <computeroutput>MR.CombinedHistoryAction.CombinedHistoryAction</computeroutput>. </para>
+<para>Will call <ref refid="classMR_1_1CombinedHistoryAction_1ace723fe0552e381f472a4cafa459a886" kindref="member">action()</ref> for each actions in given order (undo in reverse, redo in forward) Generated from constructor <computeroutput><ref refid="classMR_1_1CombinedHistoryAction_1a700a0fa9718ca688df2b3ab52dae6824" kindref="member">MR.CombinedHistoryAction.CombinedHistoryAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -179,7 +179,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.CombinedHistoryAction.operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::CombinedHistoryAction::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -247,45 +247,45 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Const_CombinedHistoryAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.CombinedHistoryAction</label>
         <link refid="classMR_1_1CombinedHistoryAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_CombinedHistoryAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_CombinedHistoryAction &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Const_CombinedHistoryAction</label>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>MR.CombinedHistoryAction</label>
         <link refid="classMR_1_1CombinedHistoryAction"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>MR.Const_CombinedHistoryAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
-        <label>MR::Misc::SharedObject&lt; Const_CombinedHistoryAction &gt;</label>
+        <label>MR.Misc.SharedObject</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="201" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" bodystart="202" bodyend="305"/>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRUniteManyMeshes_8h" kind="file" language="C++">
     <compoundname>MRUniteManyMeshes.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
@@ -274,7 +274,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRUniteManyMeshes.h</label>
+        <label>MRMesh/MRUniteManyMeshes.h</label>
         <link refid="MRUniteManyMeshes_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -424,15 +424,15 @@
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11"></codeline>
-<codeline lineno="13" refid="group__GeneralGroup_1ga58525252a9ee9abb57d352127584531f" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga58525252a9ee9abb57d352127584531f" kindref="member">NestedComponenetsMode</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="group__GeneralGroup_1ga58525252a9ee9abb57d352127584531f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga58525252a9ee9abb57d352127584531f" kindref="member">NestedComponenetsMode</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga58525252a9ee9abb57d352127584531fa1063e38cb53d94d386f21227fcd84717" kindref="member">Remove</ref>,<sp/></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga58525252a9ee9abb57d352127584531fa68be4837f6c739877233e527a996dd00" kindref="member">Merge</ref>,<sp/></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbdaaef12e903e606a4895a16b393bfdec8c" kindref="member">Union</ref><sp/></highlight></codeline>
+<codeline lineno="15" refid="group__GeneralGroup_1gga58525252a9ee9abb57d352127584531fa1063e38cb53d94d386f21227fcd84717" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga58525252a9ee9abb57d352127584531fa1063e38cb53d94d386f21227fcd84717" kindref="member">Remove</ref>,<sp/></highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1gga58525252a9ee9abb57d352127584531fa68be4837f6c739877233e527a996dd00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga58525252a9ee9abb57d352127584531fa68be4837f6c739877233e527a996dd00" kindref="member">Merge</ref>,<sp/></highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1gga58525252a9ee9abb57d352127584531faaef12e903e606a4895a16b393bfdec8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbdaaef12e903e606a4895a16b393bfdec8c" kindref="member">Union</ref><sp/></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="structMR_1_1UniteManyMeshesParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UniteManyMeshesParams" kindref="compound">UniteManyMeshesParams</ref></highlight></codeline>
+<codeline lineno="21" refid="structMR_1_1UniteManyMeshesParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UniteManyMeshesParams" kindref="compound">UniteManyMeshesParams</ref></highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="24" refid="group__GeneralGroup_1gad905aa665d2879e62cb41d03eb580eab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad905aa665d2879e62cb41d03eb580eab" kindref="member">useRandomShifts</ref>{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -458,6 +458,6 @@
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h"/>
+    <location file="MRMesh/MRUniteManyMeshes.h"/>
   </compounddef>
 </doxygen>

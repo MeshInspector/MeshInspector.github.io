@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1InSphereSearchSettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::InSphereSearchSettings</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -456,22 +456,6 @@ the increase of this value helps avoiding too small spheres on noisy surfaces
 controls the finding of maximal inscribed sphere in mesh
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.InSphereSearchSettings</label>
-        <link refid="classmrmeshpy_1_1InSphereSearchSettings"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_insideAndOutside</edgelabel>
-          <edgelabel>_offsetof_maxIters</edgelabel>
-          <edgelabel>_offsetof_maxRadius</edgelabel>
-          <edgelabel>_offsetof_minAngleCos</edgelabel>
-          <edgelabel>_offsetof_minShrinkage</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24214" bodyend="24296"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a37b724c5f3a16d2cb01ac88ab0ee5150" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>__init__</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRParabola_8h" kind="file" language="C++">
     <compoundname>MRParabola.h</compoundname>
     <includes local="no">MRCMisc/exports.h</includes>
@@ -20,36 +20,6 @@
         <label>stddef.h</label>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" prot="public" static="no">
-        <type>struct <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref></type>
-        <definition>typedef struct MR_Parabolaf MR_Parabolaf</definition>
-        <argsstring></argsstring>
-        <name>MR_Parabolaf</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Represents quadratic function f(x) = a*x*x + b*x + c Generated from class <computeroutput>MR::Parabolaf</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="15" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" prot="public" static="no">
-        <type>struct <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref></type>
-        <definition>typedef struct MR_Parabolad MR_Parabolad</definition>
-        <argsstring></argsstring>
-        <name>MR_Parabolad</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Represents quadratic function f(x) = a*x*x + b*x + c Generated from class <computeroutput>MR::Parabolad</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="20" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRParabola_8h_1a5ae3d7aec7979b1190a226ccc20f0acf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -358,7 +328,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Parabolaf</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -376,7 +346,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Parabolaf</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -771,7 +741,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_Parabolad</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -789,7 +759,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_Parabolad</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -894,9 +864,9 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref>;</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="MRParabola_8h_1a5ae3d7aec7979b1190a226ccc20f0acf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a5ae3d7aec7979b1190a226ccc20f0acf" kindref="member">MR_Parabolaf_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>

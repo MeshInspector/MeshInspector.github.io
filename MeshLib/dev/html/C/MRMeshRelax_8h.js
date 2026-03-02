@@ -1,16 +1,9 @@
 var MRMeshRelax_8h =
 [
-    [ "MR_FaceBitSet", "MRMeshRelax_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_Mesh", "MRMeshRelax_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_MeshApproxRelaxParams", "MRMeshRelax_8h.html#a0961ed14052ec630a4f9e367afe11da3", null ],
     [ "MR_MeshEqualizeTriAreasParams", "MRMeshRelax_8h.html#a1cb564fdc55d5745d0ef594a88b81646", null ],
     [ "MR_MeshRelaxParams", "MRMeshRelax_8h.html#adc5d88756b2c801276a68f81a54a22dc", null ],
-    [ "MR_MeshTopology", "MRMeshRelax_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
     [ "MR_RelaxParams", "MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f", null ],
-    [ "MR_std_function_bool_from_float", "MRMeshRelax_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_VertBitSet", "MRMeshRelax_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
-    [ "MR_VertCoords", "MRMeshRelax_8h.html#a249fd9254c0c3395567807936ad32641", null ],
-    [ "MR_VertScalars", "MRMeshRelax_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4", null ],
     [ "MR_equalizeTriAreas_3", "MRMeshRelax_8h.html#a978407207d021e5d2ce7cc273435e6e1", null ],
     [ "MR_equalizeTriAreas_4", "MRMeshRelax_8h.html#a9530aa26f267fea6ad4ff6f86bcab3da", null ],
     [ "MR_hardSmoothTetrahedrons_2", "MRMeshRelax_8h.html#a4437d25e27133b742ae0f2a735fab89c", null ],

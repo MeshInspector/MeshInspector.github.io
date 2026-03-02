@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ParallelProgressReporter_1_1PerTaskReporter" kind="struct" language="C++" prot="public">
     <compoundname>MR::ParallelProgressReporter::PerTaskReporter</compoundname>
-    <includes refid="MRParallelProgressReporter_8h" local="no">MRParallelProgressReporter.h</includes>
+    <includes refid="MRParallelProgressReporter_8h" local="no">MRMesh/MRParallelProgressReporter.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gaf7f58457a6816a15728067d8fb9ae549" kind="variable"><name>reporter_</name></member>
       <member refid="group__GeneralGroup_1ga8a3bbfef3276f1831b2a645909a93a94" kind="variable"><name>task_</name></member>
@@ -37,7 +37,7 @@
         <link refid="structMR_1_1ParallelProgressReporter_1_1TaskInfo"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="33" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="34" bodyend="38"/>
+    <location file="MRMesh/MRParallelProgressReporter.h" line="33" column="5" bodyfile="MRMesh/MRParallelProgressReporter.h" bodystart="34" bodyend="38"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga86ddf92193dd592a4f6b78b9df17f094" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter::PerTaskReporter</scope><name>operator()</name></member>
       <member refid="group__GeneralGroup_1gaf7f58457a6816a15728067d8fb9ae549" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter::PerTaskReporter</scope><name>reporter_</name></member>

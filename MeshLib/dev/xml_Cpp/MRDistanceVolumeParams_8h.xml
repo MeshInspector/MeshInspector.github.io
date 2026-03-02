@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRDistanceVolumeParams_8h" kind="file" language="C++">
     <compoundname>MRDistanceVolumeParams.h</compoundname>
     <includes refid="MRVector3_8h" local="yes">MRMesh/MRVector3.h</includes>
     <includes refid="MRProgressCallback_8h" local="yes">MRMesh/MRProgressCallback.h</includes>
-    <includedby refid="MRMeshToDistanceVolume_8h" local="yes">MRMeshToDistanceVolume.h</includedby>
-    <includedby refid="MRPointsToDistanceVolume_8h" local="yes">MRPointsToDistanceVolume.h</includedby>
-    <includedby refid="MRPolylineToVoxels_8h" local="yes">MRPolylineToVoxels.h</includedby>
-    <includedby refid="MRWeightedPointsShell_8h" local="yes">MRWeightedPointsShell.h</includedby>
+    <includedby refid="MRMeshToDistanceVolume_8h" local="yes">MRVoxels/MRMeshToDistanceVolume.h</includedby>
+    <includedby refid="MRPointsToDistanceVolume_8h" local="yes">MRVoxels/MRPointsToDistanceVolume.h</includedby>
+    <includedby refid="MRPolylineToVoxels_8h" local="yes">MRVoxels/MRPolylineToVoxels.h</includedby>
+    <includedby refid="MRWeightedPointsShell_8h" local="yes">MRVoxels/MRWeightedPointsShell.h</includedby>
     <incdepgraph>
       <node id="9">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -92,7 +92,7 @@
         <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
-        <label>MRDistanceVolumeParams.h</label>
+        <label>MRVoxels/MRDistanceVolumeParams.h</label>
         <link refid="MRDistanceVolumeParams_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -144,11 +144,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="4">
-        <label>MRCudaPointsToDistanceVolume.h</label>
+        <label>MRCuda/MRCudaPointsToDistanceVolume.h</label>
         <link refid="MRCudaPointsToDistanceVolume_8h"/>
       </node>
       <node id="1">
-        <label>MRDistanceVolumeParams.h</label>
+        <label>MRVoxels/MRDistanceVolumeParams.h</label>
         <link refid="MRDistanceVolumeParams_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -160,21 +160,21 @@
         </childnode>
       </node>
       <node id="2">
-        <label>MRMeshToDistanceVolume.h</label>
+        <label>MRVoxels/MRMeshToDistanceVolume.h</label>
         <link refid="MRMeshToDistanceVolume_8h"/>
       </node>
       <node id="3">
-        <label>MRPointsToDistanceVolume.h</label>
+        <label>MRVoxels/MRPointsToDistanceVolume.h</label>
         <link refid="MRPointsToDistanceVolume_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRPolylineToVoxels.h</label>
+        <label>MRVoxels/MRPolylineToVoxels.h</label>
         <link refid="MRPolylineToVoxels_8h"/>
       </node>
       <node id="6">
-        <label>MRWeightedPointsShell.h</label>
+        <label>MRVoxels/MRWeightedPointsShell.h</label>
         <link refid="MRWeightedPointsShell_8h"/>
       </node>
     </invincdepgraph>
@@ -205,8 +205,8 @@
 <codeline lineno="24" refid="group__GeneralGroup_1gade7c79fd5b25f3a928fa747f8e6d61d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3i<sp/><ref refid="group__GeneralGroup_1gade7c79fd5b25f3a928fa747f8e6d61d2" kindref="member">dimensions</ref>{<sp/>100,100,100<sp/>};</highlight></codeline>
 <codeline lineno="25"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDistanceVolumeParams.h"/>
+    <location file="MRVoxels/MRDistanceVolumeParams.h"/>
   </compounddef>
 </doxygen>

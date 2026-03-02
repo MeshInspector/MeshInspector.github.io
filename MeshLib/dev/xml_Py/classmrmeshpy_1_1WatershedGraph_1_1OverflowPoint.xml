@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1WatershedGraph_1_1OverflowPoint" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::WatershedGraph::OverflowPoint</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -285,20 +285,6 @@
 describes a point where a flow from one basin overflows into another basin
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.WatershedGraph.OverflowPoint</label>
-        <link refid="classmrmeshpy_1_1WatershedGraph_1_1OverflowPoint"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_fullBasin</edgelabel>
-          <edgelabel>_offsetof_overflowTo</edgelabel>
-          <edgelabel>_offsetof_v</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75056" bodyend="75106"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1WatershedGraph_1_1OverflowPoint_1a68a2de655ef31ec02e708cf23ee9e97d" prot="public" virt="non-virtual"><scope>mrmeshpy::WatershedGraph::OverflowPoint</scope><name>__init__</name></member>

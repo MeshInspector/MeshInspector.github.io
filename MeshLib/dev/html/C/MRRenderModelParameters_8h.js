@@ -1,7 +1,6 @@
 var MRRenderModelParameters_8h =
 [
     [ "MR_RenderModelPassMask", "MRRenderModelParameters_8h.html#aa877928cec2ad4499904dfd36eae46e7", null ],
-    [ "MR_TransparencyMode", "MRRenderModelParameters_8h.html#a58188cd06696742ff73ee9822c6c2e26", null ],
     [ "MR_RenderModelPassMask", "MRRenderModelParameters_8h.html#aa2b7e22402322d93271548d06907cc62", [
       [ "MR_RenderModelPassMask_Opaque", "MRRenderModelParameters_8h.html#aa2b7e22402322d93271548d06907cc62a49d680abcf3d3f77cda429406e9f23e3", null ],
       [ "MR_RenderModelPassMask_Transparent", "MRRenderModelParameters_8h.html#aa2b7e22402322d93271548d06907cc62a49774edc7f73482e346a007fc0610461", null ],

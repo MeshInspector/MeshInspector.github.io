@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderFeatures_1_1RenderPlaneFeatureObject" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderFeatures::RenderPlaneFeatureObject</compoundname>
     <basecompoundref refid="classMR_1_1RenderObjectCombinator" prot="public" virt="non-virtual">MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderFeatureMeshComponent&lt; true &gt;, RenderFeatureLinesComponent&lt; false &gt;, RenderFeaturePointsComponent&lt; false &gt;, RenderPlaneNormalComponent, RenderResetDirtyComponent &gt;</basecompoundref>
-    <includes refid="MRRenderFeatureObjects_8h" local="no">MRRenderFeatureObjects.h</includes>
+    <includes refid="MRRenderFeatureObjects_8h" local="no">MRViewer/MRRenderFeatureObjects.h</includes>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderPlaneFeatureObject_1a53d9a2621d840e2d85e5c588121acdeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="262" column="6"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="262" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderPlaneFeatureObject_1a8306918f4305b48e107da802222dd4ad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text" kindref="compound">ImGuiMeasurementIndicators::Text</ref></type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="264" column="39"/>
+        <location file="MRViewer/MRRenderFeatureObjects.h" line="264" column="39"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -84,7 +84,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="260" bodyend="265"/>
+    <location file="MRViewer/MRRenderFeatureObjects.h" line="249" column="1" bodyfile="MRViewer/MRRenderFeatureObjects.h" bodystart="260" bodyend="265"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneFeatureObject</scope><name>forceBindAll</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderPlaneFeatureObject_1a8306918f4305b48e107da802222dd4ad" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderPlaneFeatureObject</scope><name>getObjectNameText</name></member>

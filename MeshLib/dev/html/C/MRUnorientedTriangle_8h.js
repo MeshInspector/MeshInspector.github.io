@@ -1,7 +1,6 @@
 var MRUnorientedTriangle_8h =
 [
     [ "MR_UnorientedTriangle", "MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d", null ],
-    [ "MR_VertId", "MRUnorientedTriangle_8h.html#afbb808142b78943a45d860ed6aba54e5", null ],
     [ "MR_equal_MR_UnorientedTriangle", "MRUnorientedTriangle_8h.html#a71801f991d662d46273414e0551d92cf", null ],
     [ "MR_UnorientedTriangle_AssignFromAnother", "MRUnorientedTriangle_8h.html#a0f57b4982b8b12751754594bc79c3e83", null ],
     [ "MR_UnorientedTriangle_Construct", "MRUnorientedTriangle_8h.html#aa5ec7eb59f586f40bc5944e284379e1d", null ],

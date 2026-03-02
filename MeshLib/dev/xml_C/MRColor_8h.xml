@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRColor_8h" kind="file" language="C++">
     <compoundname>MRColor.h</compoundname>
     <includes refid="MRVector4_8h" local="no">MRCMesh/MRVector4.h</includes>
@@ -136,19 +136,6 @@
     </invincdepgraph>
     <innerclass refid="structMR__Color" prot="public">MR_Color</innerclass>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRColor_8h_1a14f0f26a43ddb92c3fa3c2192008224c" prot="public" static="no">
-        <type>struct <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref></type>
-        <definition>typedef struct MR_NoInit MR_NoInit</definition>
-        <argsstring></argsstring>
-        <name>MR_NoInit</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="13" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRColor_8h_1ab04f90c0c45a09f664d0bd8e652bc339" prot="public" static="no">
         <type>struct MR_Color</type>
         <definition>typedef struct MR_Color MR_Color</definition>
@@ -976,16 +963,16 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRColor_8h_1a14f0f26a43ddb92c3fa3c2192008224c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshFwd.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshFwd.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="structMR__Color" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Color" kindref="compound">MR_Color</ref></highlight></codeline>
+<codeline lineno="17" refid="structMR__Color" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Color" kindref="compound">MR_Color</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19" refid="structMR__Color_1aa42eb9bb577b955386e4f8b1cc7e1f25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structMR__Color_1aa42eb9bb577b955386e4f8b1cc7e1f25" kindref="member">r</ref>;</highlight></codeline>
 <codeline lineno="20" refid="structMR__Color_1a5dea71edd69bdc81ca83d36580a3677b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structMR__Color_1a5dea71edd69bdc81ca83d36580a3677b" kindref="member">g</ref>;</highlight></codeline>
 <codeline lineno="21" refid="structMR__Color_1aa750e2f6bf418c8ccc3000069caf5b0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structMR__Color_1aa750e2f6bf418c8ccc3000069caf5b0a" kindref="member">b</ref>;</highlight></codeline>
 <codeline lineno="22" refid="structMR__Color_1a04e09b02dd7c8077a3425ccfd38f3b07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structMR__Color_1a04e09b02dd7c8077a3425ccfd38f3b07" kindref="member">a</ref>;</highlight></codeline>
-<codeline lineno="23" refid="MRColor_8h_1ab04f90c0c45a09f664d0bd8e652bc339" refkind="member"><highlight class="normal">}<sp/><ref refid="MRColor_8h_1ab04f90c0c45a09f664d0bd8e652bc339" kindref="member">MR_Color</ref>;</highlight></codeline>
+<codeline lineno="23" refid="MRColor_8h_1ab04f90c0c45a09f664d0bd8e652bc339" refkind="member"><highlight class="normal">}<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="MRColor_8h_1a1f82a176047a9b9b59d3798af28e5493" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a1f82a176047a9b9b59d3798af28e5493" kindref="member">MR_Color_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>

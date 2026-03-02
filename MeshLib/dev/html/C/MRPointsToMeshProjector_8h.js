@@ -1,15 +1,9 @@
 var MRPointsToMeshProjector_8h =
 [
-    [ "MR_AffineXf3f", "MRPointsToMeshProjector_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
     [ "MR_IPointsToMeshProjector", "MRPointsToMeshProjector_8h.html#a13728835bad064fbe79769d853105e4c", null ],
-    [ "MR_Mesh", "MRPointsToMeshProjector_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_MeshProjectionParameters", "MRPointsToMeshProjector_8h.html#adfb5e8d830414785377108637ef2a030", null ],
     [ "MR_PointsToMeshProjector", "MRPointsToMeshProjector_8h.html#a3088c8efb7d025084121005502134519", null ],
     [ "MR_std_vector_MR_MeshProjectionResult", "MRPointsToMeshProjector_8h.html#a6948b441655a1b3976257e0a61a5a4ba", null ],
-    [ "MR_std_vector_MR_Vector3f", "MRPointsToMeshProjector_8h.html#aefed148a09a0ae55edbd22814638b462", null ],
-    [ "MR_VertBitSet", "MRPointsToMeshProjector_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
-    [ "MR_VertCoords", "MRPointsToMeshProjector_8h.html#a249fd9254c0c3395567807936ad32641", null ],
-    [ "MR_VertScalars", "MRPointsToMeshProjector_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4", null ],
     [ "MR_findSignedDistances_4", "MRPointsToMeshProjector_8h.html#a203c0e594df87a7126b147ad8b41ace0", null ],
     [ "MR_findSignedDistances_5", "MRPointsToMeshProjector_8h.html#a8a27d99822628b786222cce9dcfdd220", null ],
     [ "MR_IPointsToMeshProjector_Destroy", "MRPointsToMeshProjector_8h.html#a2a5088044848ec455716db598f152e25", null ],

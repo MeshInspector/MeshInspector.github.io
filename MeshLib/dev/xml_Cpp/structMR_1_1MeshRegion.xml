@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshRegion" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshRegion</compoundname>
-    <includes refid="MRMeshPart_8h" local="no">MRMeshPart.h</includes>
+    <includes refid="MRMeshPart_8h" local="no">MRMesh/MRMeshPart.h</includes>
     <templateparamlist>
       <param>
         <type>typename <ref refid="group__GeneralGroup_1gaf293d6c66d14a3940a1c5a5685a1b36f" kindref="member">RegionTag</ref></type>
@@ -23,10 +23,6 @@
 <para>stores reference on whole mesh (if region is nullptr) or on its part (if region pointer is valid) </para>
     </detaileddescription>
     <collaborationgraph>
-      <node id="5">
-        <label>MR::BitSet</label>
-        <link refid="classMR_1_1BitSet"/>
-      </node>
       <node id="2">
         <label>MR::Mesh</label>
         <link refid="structMR_1_1Mesh"/>
@@ -49,13 +45,11 @@
         <link refid="classMR_1_1MeshTopology"/>
       </node>
       <node id="4">
-        <label>MR::TypedBitSet&lt; RegionTag &gt;</label>
+        <label>MR::TypedBitSet&lt; Id&lt; T &gt; &gt;&lt; RegionTag &gt;</label>
         <link refid="classMR_1_1TypedBitSet"/>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshPart.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshPart.h" bodystart="15" bodyend="34"/>
+    <location file="MRMesh/MRMeshPart.h" line="14" column="1" bodyfile="MRMesh/MRMeshPart.h" bodystart="15" bodyend="34"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad1bf8f740e649b73d3a93bd0eba5e609" prot="public" virt="non-virtual"><scope>MR::MeshRegion</scope><name>mesh</name></member>
       <member refid="group__GeneralGroup_1ga35b39c1790f734aa2ed34e68281a8a04" prot="public" virt="non-virtual"><scope>MR::MeshRegion</scope><name>MeshRegion</name></member>

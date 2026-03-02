@@ -1,7 +1,6 @@
 var MRTriDist_8h =
 [
     [ "MR_std_array_MR_Vector3d_3", "MRTriDist_8h.html#ace0987ea77140eca8dd5c1d9e279129c", null ],
-    [ "MR_std_array_MR_Vector3f_3", "MRTriDist_8h.html#aaa28ccd81fc18dfe14395ff51c90b31e", null ],
     [ "MR_TriTriDistanceParams_double", "MRTriDist_8h.html#a0a0b6bc344cdd46da1d427c013bd9e86", null ],
     [ "MR_TriTriDistanceParams_float", "MRTriDist_8h.html#ae094c14d639c9cc0419f5cc37fb025c9", null ],
     [ "MR_TriTriDistanceResult_double", "MRTriDist_8h.html#abd40009ace399a46f36148ebf4a80630", null ],

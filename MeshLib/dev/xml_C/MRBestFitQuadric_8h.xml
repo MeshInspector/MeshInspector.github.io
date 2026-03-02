@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRBestFitQuadric_8h" kind="file" language="C++">
     <compoundname>MRBestFitQuadric.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -168,7 +168,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_QuadricApprox</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -186,7 +186,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_QuadricApprox</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -266,7 +266,7 @@
 <codeline lineno="12" refid="MRBestFitQuadric_8h_1aa6b35c703a4572c3ccc120ee82723a66" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref>;</highlight></codeline>
+<codeline lineno="19" refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="MRBestFitQuadric_8h_1abc78a92635b3c4032f97f976a35b451a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*<ref refid="MRBestFitQuadric_8h_1abc78a92635b3c4032f97f976a35b451a" kindref="member">MR_QuadricApprox_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>

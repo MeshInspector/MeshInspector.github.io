@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ToolPathParams" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ToolPathParams</compoundname>
     <derivedcompoundref refid="classmrmeshpy_1_1ConstantCuspParams" prot="public" virt="non-virtual">mrmeshpy.ConstantCuspParams</derivedcompoundref>
@@ -297,9 +297,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ToolPathParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1a070d85b1ea0e9abb546f78b4a1ecb8c7">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1ad9ec31ce3f7e8f21a871be44a61010f3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1af369e04250172ff9de58dc69d37e7e45">__init__</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -372,9 +369,6 @@
         <argsstring>(self)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ToolPathParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1a070d85b1ea0e9abb546f78b4a1ecb8c7">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1ad9ec31ce3f7e8f21a871be44a61010f3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1af369e04250172ff9de58dc69d37e7e45">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -393,9 +387,6 @@
         <argsstring>(self, ToolPathParams arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ToolPathParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1a070d85b1ea0e9abb546f78b4a1ecb8c7">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1ad9ec31ce3f7e8f21a871be44a61010f3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1af369e04250172ff9de58dc69d37e7e45">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -420,9 +411,6 @@
         <argsstring>(self, float millRadius, float voxelSize, float sectionStep, float critTransitionLength, float plungeLength, float retractLength, float plungeFeed, float retractFeed, float baseFeed, float safeZ, BypassDirection bypassDir, AffineXf3f xf, bool flatTool, func_bool_from_float cb, float toolpathExpansion, std_vector_std_vector_Vector3_float isolines, std_vector_std_vector_Vector3_float startContours, std_vector_Vector3_float startVertices, MeshPart offsetMesh)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ToolPathParams.__init__</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1a070d85b1ea0e9abb546f78b4a1ecb8c7">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1ad9ec31ce3f7e8f21a871be44a61010f3">__init__</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1af369e04250172ff9de58dc69d37e7e45">__init__</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -1292,28 +1280,6 @@ Lacing specific only.
         </childnode>
       </node>
     </inheritancegraph>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.ToolPathParams</label>
-        <link refid="classmrmeshpy_1_1ToolPathParams"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_baseFeed</edgelabel>
-          <edgelabel>_offsetof_bypassDir</edgelabel>
-          <edgelabel>_offsetof_cb</edgelabel>
-          <edgelabel>_offsetof_critTransitionLength</edgelabel>
-          <edgelabel>_offsetof_flatTool</edgelabel>
-          <edgelabel>_offsetof_isolines</edgelabel>
-          <edgelabel>_offsetof_millRadius</edgelabel>
-          <edgelabel>_offsetof_offsetMesh</edgelabel>
-          <edgelabel>_offsetof_plungeFeed</edgelabel>
-          <edgelabel>_offsetof_plungeLength</edgelabel>
-          <edgelabel>...</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57184" bodyend="57380"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ToolPathParams_1ac0c30feb67c3410c09dc2928492b1923" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>__init__</name></member>

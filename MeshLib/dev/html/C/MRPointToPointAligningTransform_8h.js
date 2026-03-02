@@ -1,7 +1,6 @@
 var MRPointToPointAligningTransform_8h =
 [
     [ "MR_PointToPointAligningTransform", "MRPointToPointAligningTransform_8h.html#ad84082678f26273d579061ef25bd3ffb", null ],
-    [ "MR_Vector3f", "MRPointToPointAligningTransform_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
     [ "MR_PointToPointAligningTransform_add_1", "MRPointToPointAligningTransform_8h.html#a946f112d149247946ba0f35b89c61abe", null ],
     [ "MR_PointToPointAligningTransform_add_3_MR_Vector3d", "MRPointToPointAligningTransform_8h.html#a96f3c0656f311dddeec211c57bfd5ff6", null ],
     [ "MR_PointToPointAligningTransform_add_3_MR_Vector3f", "MRPointToPointAligningTransform_8h.html#a02581e871fa7060df502791b89d9245c", null ],

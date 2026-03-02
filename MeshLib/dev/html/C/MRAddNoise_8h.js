@@ -1,11 +1,6 @@
 var MRAddNoise_8h =
 [
-    [ "MR_expected_void_std_string", "MRAddNoise_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
-    [ "MR_Mesh", "MRAddNoise_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_NoiseSettings", "MRAddNoise_8h.html#a75aa4d81b0df957fad37c7a2096b92c7", null ],
-    [ "MR_std_function_bool_from_float", "MRAddNoise_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
-    [ "MR_VertBitSet", "MRAddNoise_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
-    [ "MR_VertCoords", "MRAddNoise_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_addNoise_MR_Mesh", "MRAddNoise_8h.html#ae01649fe201c10e39954cef86fd68018", null ],
     [ "MR_addNoise_MR_VertCoords", "MRAddNoise_8h.html#af5b41d5112c2b52995d45963c3c13e79", null ],
     [ "MR_NoiseSettings_AssignFromAnother", "MRAddNoise_8h.html#a46558b999ba7fc867b52d0ddaaabfd59", null ],

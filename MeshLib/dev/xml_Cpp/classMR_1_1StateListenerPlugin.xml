@@ -1,16 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1StateListenerPlugin" kind="class" language="C++" prot="public">
     <compoundname>MR::StateListenerPlugin</compoundname>
     <basecompoundref refid="classMR_1_1StateBasePlugin" prot="public" virt="non-virtual">MR::StateBasePlugin</basecompoundref>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; Connectables... &gt;</basecompoundref>
-    <derivedcompoundref refid="classMR_1_1AddCustomThemePlugin" prot="public" virt="non-virtual">MR::AddCustomThemePlugin</derivedcompoundref>
-    <derivedcompoundref refid="classMR_1_1BinaryOperations" prot="public" virt="non-virtual">MR::BinaryOperations</derivedcompoundref>
-    <derivedcompoundref refid="classMR_1_1CameraOrientation" prot="public" virt="non-virtual">MR::CameraOrientation</derivedcompoundref>
-    <derivedcompoundref refid="classMR_1_1CaptureScreenshotMenuItem" prot="public" virt="non-virtual">MR::CaptureScreenshotMenuItem</derivedcompoundref>
-    <derivedcompoundref refid="classMR_1_1OpenRawVoxelsPlugin" prot="public" virt="non-virtual">MR::OpenRawVoxelsPlugin</derivedcompoundref>
-    <derivedcompoundref refid="classMR_1_1ViewerSettingsPlugin" prot="public" virt="non-virtual">MR::ViewerSettingsPlugin</derivedcompoundref>
-    <includes refid="MRStatePlugin_8h" local="no">MRStatePlugin.h</includes>
+    <includes refid="MRStatePlugin_8h" local="no">MRViewer/MRStatePlugin.h</includes>
     <templateparamlist>
       <param>
         <type>typename ...</type>
@@ -46,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="141" column="5"/>
+        <location file="MRViewer/MRStatePlugin.h" line="141" column="5"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -56,30 +50,6 @@
     <inheritancegraph>
       <node id="9">
         <label>Connectables...</label>
-      </node>
-      <node id="10">
-        <label>MR::AddCustomThemePlugin&lt;&gt;</label>
-        <link refid="classMR_1_1AddCustomThemePlugin"/>
-        <childnode refid="1" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>MR::BinaryOperations&lt;&gt;</label>
-        <link refid="classMR_1_1BinaryOperations"/>
-        <childnode refid="1" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MR::CameraOrientation&lt;&gt;</label>
-        <link refid="classMR_1_1CameraOrientation"/>
-        <childnode refid="1" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="13">
-        <label>MR::CaptureScreenshotMenuItem&lt;&gt;</label>
-        <link refid="classMR_1_1CaptureScreenshotMenuItem"/>
-        <childnode refid="1" relation="public-inheritance">
-        </childnode>
       </node>
       <node id="6">
         <label>MR::IPluginUpdate</label>
@@ -97,12 +67,6 @@
         <label>MR::MultiListener&lt; Connectables... &gt;</label>
         <link refid="structMR_1_1MultiListener"/>
         <childnode refid="9" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="14">
-        <label>MR::OpenRawVoxelsPlugin&lt;&gt;</label>
-        <link refid="classMR_1_1OpenRawVoxelsPlugin"/>
-        <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
       <node id="4">
@@ -134,12 +98,6 @@
       <node id="3">
         <label>MR::ViewerPlugin</label>
         <link refid="classMR_1_1ViewerPlugin"/>
-      </node>
-      <node id="15">
-        <label>MR::ViewerSettingsPlugin&lt;&gt;</label>
-        <link refid="classMR_1_1ViewerSettingsPlugin"/>
-        <childnode refid="1" relation="public-inheritance">
-        </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -202,7 +160,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerFwd.h" bodystart="74" bodyend="-1"/>
+    <location file="MRViewer/MRStatePlugin.h" line="138" column="1" bodyfile="MRViewer/MRStatePlugin.h" bodystart="139" bodyend="160"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gae7a96edadae63c78192e0f1f6b1f9db9" prot="public" virt="virtual"><scope>MR::StateListenerPlugin</scope><name>blocking</name></member>

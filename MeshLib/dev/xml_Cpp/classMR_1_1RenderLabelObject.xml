@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RenderLabelObject" kind="class" language="C++" prot="public">
     <compoundname>MR::RenderLabelObject</compoundname>
     <basecompoundref refid="classMR_1_1IRenderObject" prot="public" virt="virtual">MR::IRenderObject</basecompoundref>
-    <includes refid="MRRenderLabelObject_8h" local="no">MRRenderLabelObject.h</includes>
+    <includes refid="MRRenderLabelObject_8h" local="no">MRViewer/MRRenderLabelObject.h</includes>
     <sectiondef kind="private-type">
       <member refid="group__GeneralGroup_1ga21cdcd557c2e9af90d6972f8a1b5f783" kind="typedef"><name>GLuint</name></member>
     </sectiondef>
@@ -79,7 +79,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="14" bodyend="76"/>
+    <location file="MRViewer/MRRenderLabelObject.h" line="13" column="1" bodyfile="MRViewer/MRRenderLabelObject.h" bodystart="14" bodyend="76"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac18e8cb60f8fae22cb8c87366dc9051b" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>backgroundPaddingState_</name></member>
       <member refid="group__GeneralGroup_1ga8bf264bd49bec36c4791914ce5486a89" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>bgArrayObjId_</name></member>

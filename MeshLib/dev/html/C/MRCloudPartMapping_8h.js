@@ -1,7 +1,6 @@
 var MRCloudPartMapping_8h =
 [
     [ "MR_CloudPartMapping", "MRCloudPartMapping_8h.html#aaab4a354143c42cc0fd161d1c270cdf5", null ],
-    [ "MR_VertMap", "MRCloudPartMapping_8h.html#a0c1baad62a31685b2dfb5955f3fb8230", null ],
     [ "MR_CloudPartMapping_AssignFromAnother", "MRCloudPartMapping_8h.html#a2e6542ae0a1174eb415fd721bf459ffc", null ],
     [ "MR_CloudPartMapping_ConstructFrom", "MRCloudPartMapping_8h.html#a149e38231341929491f6342587c53234", null ],
     [ "MR_CloudPartMapping_ConstructFromAnother", "MRCloudPartMapping_8h.html#afea363b39c7bd1d770323a893de06bf3", null ],

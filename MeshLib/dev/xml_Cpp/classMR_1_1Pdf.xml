@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Pdf" kind="class" language="C++" prot="public">
     <compoundname>MR::Pdf</compoundname>
-    <includes refid="MRPdf_8h" local="no">MRPdf.h</includes>
+    <includes refid="MRPdf_8h" local="no">MRIOExtras/MRPdf.h</includes>
     <innerclass refid="structMR_1_1Pdf_1_1Cell" prot="public">MR::Pdf::Cell</innerclass>
     <innerclass refid="structMR_1_1Pdf_1_1CellCustomParams" prot="public">MR::Pdf::CellCustomParams</innerclass>
     <innerclass refid="structMR_1_1Pdf_1_1ColumnInfo" prot="private">MR::Pdf::ColumnInfo</innerclass>
@@ -72,7 +72,7 @@
     <detaileddescription>
 <para>Class for simple creation pdf. </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="70" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="71" bodyend="287"/>
+    <location file="MRIOExtras/MRPdf.h" line="70" column="1" bodyfile="MRIOExtras/MRPdf.h" bodystart="71" bodyend="287"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga9b68670f477fee6b3fbf360235f0359a" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addImage</name></member>
       <member refid="group__GeneralGroup_1gaa3b34fa71138ec809b069e67b98ea8fc" prot="private" virt="non-virtual"><scope>MR::Pdf</scope><name>addImage_</name></member>

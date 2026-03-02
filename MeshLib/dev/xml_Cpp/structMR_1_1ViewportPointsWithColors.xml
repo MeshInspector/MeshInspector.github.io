@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ViewportPointsWithColors" kind="struct" language="C++" prot="public">
     <compoundname>MR::ViewportPointsWithColors</compoundname>
-    <includes refid="MRViewportGL_8h" local="no">MRViewportGL.h</includes>
+    <includes refid="MRViewportGL_8h" local="no">MRViewer/MRViewportGL.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gac82bf98c749b0bb821e259629bb70b84" kind="variable"><name>points</name></member>
       <member refid="group__GeneralGroup_1gaf0122c41ec3efb5901af84d7a442e268" kind="variable"><name>colors</name></member>
@@ -12,7 +12,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="31" bodyend="34"/>
+    <location file="MRViewer/MRViewportGL.h" line="30" column="1" bodyfile="MRViewer/MRViewportGL.h" bodystart="31" bodyend="34"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaf0122c41ec3efb5901af84d7a442e268" prot="public" virt="non-virtual"><scope>MR::ViewportPointsWithColors</scope><name>colors</name></member>
       <member refid="group__GeneralGroup_1gac82bf98c749b0bb821e259629bb70b84" prot="public" virt="non-virtual"><scope>MR::ViewportPointsWithColors</scope><name>points</name></member>

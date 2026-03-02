@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1MeshIntersectionResult" kind="struct" language="C++" prot="public">
     <compoundname>MR::MeshIntersectionResult</compoundname>
     <derivedcompoundref refid="structMR_1_1MultiMeshIntersectionResult" prot="public" virt="non-virtual">MR::MultiMeshIntersectionResult</derivedcompoundref>
-    <includes refid="MRMeshIntersect_8h" local="no">MRMeshIntersect.h</includes>
+    <includes refid="MRMeshIntersect_8h" local="no">MRMesh/MRMeshIntersect.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1MeshIntersectionResult_1a59e06434bac0180ffaac80a2fb3041d1" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="20" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="20" bodyend="-1"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="20" column="17" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshIntersectionResult_1aa6767f8fee0dd3f9883b1657e2d9fcb2" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="23" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="23" bodyend="-1"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="23" column="18" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshIntersectionResult_1a701e1414a45534a29d2ad1f7074c3c61" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="26" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="26" bodyend="-1"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="26" column="11" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="26" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="29" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="29" bodyend="29"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="29" column="14" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="29" bodyend="29"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -105,7 +105,7 @@
         <link refid="structMR_1_1PointOnFace"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="18" bodyend="30"/>
+    <location file="MRMesh/MRMeshIntersect.h" line="17" column="1" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="18" bodyend="30"/>
     <listofallmembers>
       <member refid="structMR_1_1MeshIntersectionResult_1a701e1414a45534a29d2ad1f7074c3c61" prot="public" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>distanceAlongLine</name></member>
       <member refid="structMR_1_1MeshIntersectionResult_1aa6767f8fee0dd3f9883b1657e2d9fcb2" prot="public" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>mtp</name></member>

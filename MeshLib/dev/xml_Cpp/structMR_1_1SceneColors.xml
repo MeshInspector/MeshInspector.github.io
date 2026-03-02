@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SceneColors" kind="struct" language="C++" prot="public">
     <compoundname>MR::SceneColors</compoundname>
-    <includes refid="MRSceneColors_8h" local="no">MRSceneColors.h</includes>
+    <includes refid="MRSceneColors_8h" local="no">MRMesh/MRSceneColors.h</includes>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga1cacbfc4a30c305f1acb6b5c8d6b3a3a" kind="enum"><name>Type</name></member>
     </sectiondef>
@@ -28,7 +28,7 @@
     <detaileddescription>
 <para>This singleton struct contains default colors for scene objects </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneColors.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneColors.h" bodystart="16" bodyend="67"/>
+    <location file="MRMesh/MRSceneColors.h" line="15" column="1" bodyfile="MRMesh/MRSceneColors.h" bodystart="16" bodyend="67"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa9a1cde7d2aa80a2631f4925686757e53" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>BackFaces</name></member>
       <member refid="group__GeneralGroup_1ga8107de14813f5ecbb6e0435763200592" prot="private" virt="non-virtual"><scope>MR::SceneColors</scope><name>colors_</name></member>

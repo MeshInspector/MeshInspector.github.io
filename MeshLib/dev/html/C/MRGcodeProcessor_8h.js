@@ -1,17 +1,12 @@
 var MRGcodeProcessor_8h =
 [
-    [ "MR_CNCMachineSettings", "MRGcodeProcessor_8h.html#a325911971cee7957b63b98e5d38aedc4", null ],
     [ "MR_GcodeProcessor", "MRGcodeProcessor_8h.html#a9ac6289dc28b26197d3bce9b7a888ca2", null ],
     [ "MR_GcodeProcessor_BaseAction_MR_Vector2f", "MRGcodeProcessor_8h.html#a102198471a3767d59fe6d6a0c104da93", null ],
     [ "MR_GcodeProcessor_BaseAction_MR_Vector3f", "MRGcodeProcessor_8h.html#a0f3a04a880d4501d50aa6ffcf780d707", null ],
     [ "MR_GcodeProcessor_Command", "MRGcodeProcessor_8h.html#a2dfa7f50d06ba9cf366accd703febb8c", null ],
     [ "MR_GcodeProcessor_MoveAction", "MRGcodeProcessor_8h.html#a18a0e6711c9d545039e776ae8e7685b4", null ],
-    [ "MR_std_string", "MRGcodeProcessor_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_std_vector_MR_GcodeProcessor_Command", "MRGcodeProcessor_8h.html#a5bba1b4d4d65cea43177e79dcd45f502", null ],
     [ "MR_std_vector_MR_GcodeProcessor_MoveAction", "MRGcodeProcessor_8h.html#ac9be9ae97af22d55be76e6cf4df34f8a", null ],
-    [ "MR_std_vector_MR_Vector2f", "MRGcodeProcessor_8h.html#af3ae972f4acf6dd1ffc9c11061641f3f", null ],
-    [ "MR_std_vector_MR_Vector3f", "MRGcodeProcessor_8h.html#aefed148a09a0ae55edbd22814638b462", null ],
-    [ "MR_std_vector_std_string", "MRGcodeProcessor_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900", null ],
     [ "MR_GcodeProcessor_AssignFromAnother", "MRGcodeProcessor_8h.html#a8a42719ffb7857e490d0f217a5eef6bb", null ],
     [ "MR_GcodeProcessor_BaseAction_MR_Vector2f_AssignFromAnother", "MRGcodeProcessor_8h.html#ab77364382fa2d9a29426509879259e99", null ],
     [ "MR_GcodeProcessor_BaseAction_MR_Vector2f_ConstructFrom", "MRGcodeProcessor_8h.html#aa461dd73c892c5f5d1f477d5b716293f", null ],

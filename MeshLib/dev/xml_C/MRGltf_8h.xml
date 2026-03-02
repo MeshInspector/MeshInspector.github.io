@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRGltf_8h" kind="file" language="C++">
     <compoundname>MRGltf.h</compoundname>
     <includes local="no">MRCMisc/common.h</includes>
@@ -29,6 +29,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>named object in the data model Generated from class <computeroutput>MR::Object</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::ObjectChildrenHolder</computeroutput> Derived classes: Direct: (non-virtual) <computeroutput>MR::SceneRootObject</computeroutput> <computeroutput>MR::VisualObject</computeroutput> Indirect: (non-virtual) <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;</computeroutput> <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;</computeroutput> <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;</computeroutput> <computeroutput>MR::AngleMeasurementObject</computeroutput> <computeroutput>MR::CircleObject</computeroutput> <computeroutput>MR::ConeObject</computeroutput> <computeroutput>MR::CylinderObject</computeroutput> <computeroutput>MR::DistanceMeasurementObject</computeroutput> <computeroutput>MR::FeatureObject</computeroutput> <computeroutput>MR::LineObject</computeroutput> <computeroutput>MR::MeasurementObject</computeroutput> <computeroutput>MR::ObjectDistanceMap</computeroutput> <computeroutput>MR::ObjectGcode</computeroutput> <computeroutput>MR::ObjectLabel</computeroutput> <computeroutput>MR::ObjectLines</computeroutput> <computeroutput>MR::ObjectLinesHolder</computeroutput> <computeroutput>MR::ObjectMesh</computeroutput> <computeroutput>MR::ObjectMeshHolder</computeroutput> <computeroutput>MR::ObjectPoints</computeroutput> <computeroutput>MR::ObjectPointsHolder</computeroutput> <computeroutput>MR::ObjectVoxels</computeroutput> <computeroutput>MR::PlaneObject</computeroutput> <computeroutput>MR::PointMeasurementObject</computeroutput> <computeroutput>MR::PointObject</computeroutput> <computeroutput>MR::RadiusMeasurementObject</computeroutput> <computeroutput>MR::SphereObject</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -42,6 +43,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from class <computeroutput>MR::ObjectSave::Settings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -59,32 +61,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRGltf.h" line="12" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRGltf.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRGltf_8h_1a077b8debfae88f9cf2267ad2db95c006" prot="public" static="no">
-        <type>struct <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref></type>
-        <definition>typedef struct MR_expected_void_std_string MR_expected_void_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_void_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRGltf.h" line="13" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRGltf.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRGltf_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
-        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRGltf.h" line="14" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRGltf.h" bodystart="14" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -166,14 +142,14 @@
 <codeline lineno="10" refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11" refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectSaveSettings.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12" refid="MRGltf_8h_1a8376c5a9f4fe1df0fd35390100143238" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1a8376c5a9f4fe1df0fd35390100143238" kindref="member">MR_expected_std_shared_ptr_MR_Object_std_string</ref><sp/><ref refid="MRGltf_8h_1a8376c5a9f4fe1df0fd35390100143238" kindref="member">MR_expected_std_shared_ptr_MR_Object_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_shared_ptr_MR_Object_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRGltf_8h_1a077b8debfae88f9cf2267ad2db95c006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="MRGltf_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>loads<sp/>scene<sp/>from<sp/>glTF<sp/>file<sp/>in<sp/>a<sp/>new<sp/>container<sp/>object</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>loads<sp/>scene<sp/>from<sp/>glTF<sp/>file<sp/>in<sp/>a<sp/>new<sp/>container<sp/>object</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="MRGltf_8h_1afe013f6ac766c4832900b354fd05fd05" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGltf_8h_1a8376c5a9f4fe1df0fd35390100143238" kindref="member">MR_expected_std_shared_ptr_MR_Object_std_string</ref><sp/>*<ref refid="MRGltf_8h_1afe013f6ac766c4832900b354fd05fd05" kindref="member">MR_deserializeObjectTreeFromGltf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>saves<sp/>scene<sp/>to<sp/>a<sp/>glTF<sp/>file</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>saves<sp/>scene<sp/>to<sp/>a<sp/>glTF<sp/>file</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="MRGltf_8h_1a58904acc7324ca32910c90ff275bd034" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRGltf_8h_1a58904acc7324ca32910c90ff275bd034" kindref="member">MR_serializeObjectTreeToGltf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>

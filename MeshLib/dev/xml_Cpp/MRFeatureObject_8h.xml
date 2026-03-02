@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFeatureObject_8h" kind="file" language="C++">
     <compoundname>MRFeatureObject.h</compoundname>
     <includes refid="MRVisualObject_8h" local="yes">MRMesh/MRVisualObject.h</includes>
@@ -7,16 +7,16 @@
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
     <includes local="no">cassert</includes>
     <includes local="no">variant</includes>
-    <includedby refid="MRCircleObject_8h" local="yes">MRCircleObject.h</includedby>
-    <includedby refid="MRConeObject_8h" local="yes">MRConeObject.h</includedby>
-    <includedby refid="MRCylinderObject_8h" local="yes">MRCylinderObject.h</includedby>
-    <includedby refid="MRFeatureHelpers_8h" local="yes">MRFeatureHelpers.h</includedby>
-    <includedby refid="MRFeatureRefine_8h" local="yes">MRFeatureRefine.h</includedby>
-    <includedby refid="MRLineObject_8h" local="yes">MRLineObject.h</includedby>
-    <includedby refid="MRPlaneObject_8h" local="yes">MRPlaneObject.h</includedby>
-    <includedby refid="MRPointObject_8h" local="yes">MRPointObject.h</includedby>
-    <includedby refid="MRRenderFeatureObjects_8h" local="yes">MRRenderFeatureObjects.h</includedby>
-    <includedby refid="MRSphereObject_8h" local="yes">MRSphereObject.h</includedby>
+    <includedby refid="MRCircleObject_8h" local="yes">MRMesh/MRCircleObject.h</includedby>
+    <includedby refid="MRConeObject_8h" local="yes">MRMesh/MRConeObject.h</includedby>
+    <includedby refid="MRCylinderObject_8h" local="yes">MRMesh/MRCylinderObject.h</includedby>
+    <includedby refid="MRFeatureHelpers_8h" local="yes">MRMesh/MRFeatureHelpers.h</includedby>
+    <includedby refid="MRFeatureRefine_8h" local="yes">MRMesh/MRFeatureRefine.h</includedby>
+    <includedby refid="MRLineObject_8h" local="yes">MRMesh/MRLineObject.h</includedby>
+    <includedby refid="MRPlaneObject_8h" local="yes">MRMesh/MRPlaneObject.h</includedby>
+    <includedby refid="MRPointObject_8h" local="yes">MRMesh/MRPointObject.h</includedby>
+    <includedby refid="MRSphereObject_8h" local="yes">MRMesh/MRSphereObject.h</includedby>
+    <includedby refid="MRRenderFeatureObjects_8h" local="yes">MRViewer/MRRenderFeatureObjects.h</includedby>
     <incdepgraph>
       <node id="27">
         <label>MRAffineXf.h</label>
@@ -119,7 +119,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>MRFeatureObject.h</label>
+        <label>MRMesh/MRFeatureObject.h</label>
         <link refid="MRFeatureObject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -540,29 +540,29 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRCircleObject.h</label>
+        <label>MRMesh/MRCircleObject.h</label>
         <link refid="MRCircleObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>MRConeObject.h</label>
+        <label>MRMesh/MRConeObject.h</label>
         <link refid="MRConeObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRCylinderObject.h</label>
+        <label>MRMesh/MRCylinderObject.h</label>
         <link refid="MRCylinderObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>MRFeatureHelpers.h</label>
+        <label>MRMesh/MRFeatureHelpers.h</label>
         <link refid="MRFeatureHelpers_8h"/>
       </node>
       <node id="1">
-        <label>MRFeatureObject.h</label>
+        <label>MRMesh/MRFeatureObject.h</label>
         <link refid="MRFeatureObject_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -586,39 +586,39 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MRFeatureObjectImpls.h</label>
+        <label>MRMesh/MRFeatureObjectImpls.h</label>
         <link refid="MRFeatureObjectImpls_8h"/>
       </node>
       <node id="7">
-        <label>MRFeatureRefine.h</label>
+        <label>MRMesh/MRFeatureRefine.h</label>
         <link refid="MRFeatureRefine_8h"/>
       </node>
       <node id="8">
-        <label>MRLineObject.h</label>
+        <label>MRMesh/MRLineObject.h</label>
         <link refid="MRLineObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="9">
-        <label>MRPlaneObject.h</label>
+        <label>MRMesh/MRPlaneObject.h</label>
         <link refid="MRPlaneObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="10">
-        <label>MRPointObject.h</label>
+        <label>MRMesh/MRPointObject.h</label>
         <link refid="MRPointObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="12">
-        <label>MRSphereObject.h</label>
+      <node id="11">
+        <label>MRMesh/MRSphereObject.h</label>
         <link refid="MRSphereObject_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="11">
-        <label>MRRenderFeatureObjects.h</label>
+      <node id="12">
+        <label>MRViewer/MRRenderFeatureObjects.h</label>
         <link refid="MRRenderFeatureObjects_8h"/>
       </node>
     </invincdepgraph>
@@ -654,16 +654,16 @@
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1FeatureObject" kindref="compound">FeatureObject</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="group__GeneralGroup_1ga24a027691feb30cad77ca6a162d05c58" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga24a027691feb30cad77ca6a162d05c58" kindref="member">FeaturePropertyKind</ref></highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga24a027691feb30cad77ca6a162d05c58" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga24a027691feb30cad77ca6a162d05c58" kindref="member">FeaturePropertyKind</ref></highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a4757fe07fd492a8be0ea6a760d683d6e" kindref="member">position</ref>,<sp/></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a6be56f6e1e92a15d0b06a790a192ffc8" kindref="member">linearDimension</ref>,<sp/></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58aef72c37be9d1b9e6e5bbd6ef09448abe" kindref="member">direction</ref>,<sp/></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03" kindref="member">angle</ref>,<sp/></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>,</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a4757fe07fd492a8be0ea6a760d683d6e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga0ca61d3fae40bcd7a9e8ce848bf0362d" kindref="member">position</ref>,<sp/></highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a6be56f6e1e92a15d0b06a790a192ffc8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a6be56f6e1e92a15d0b06a790a192ffc8" kindref="member">linearDimension</ref>,<sp/></highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58aef72c37be9d1b9e6e5bbd6ef09448abe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58aef72c37be9d1b9e6e5bbd6ef09448abe" kindref="member">direction</ref>,<sp/></highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03" kindref="member">angle</ref>,<sp/></highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>,</highlight></codeline>
 <codeline lineno="28"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="structMR_1_1FeatureObjectSharedProperty" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FeatureObjectSharedProperty" kindref="compound">FeatureObjectSharedProperty</ref></highlight></codeline>
+<codeline lineno="38" refid="structMR_1_1FeatureObjectSharedProperty" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gabb260f1f2ce1cf3b86553e3b8c213840" kindref="member">FeatureObjectSharedProperty</ref></highlight></codeline>
 <codeline lineno="39"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="40" refid="group__GeneralGroup_1ga94077bfcbf22ce57417de8758cb67ac1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga94077bfcbf22ce57417de8758cb67ac1" kindref="member">propertyName</ref>;</highlight></codeline>
 <codeline lineno="41" refid="group__GeneralGroup_1gadd72ff1842f783bf1ceae521c7d614ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga24a027691feb30cad77ca6a162d05c58" kindref="member">FeaturePropertyKind</ref><sp/><ref refid="group__GeneralGroup_1gadd72ff1842f783bf1ceae521c7d614ec" kindref="member">kind</ref>;</highlight></codeline>
@@ -674,7 +674,7 @@
 <codeline lineno="49" refid="group__GeneralGroup_1gabb260f1f2ce1cf3b86553e3b8c213840" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gabb260f1f2ce1cf3b86553e3b8c213840" kindref="member">FeatureObjectSharedProperty</ref>(</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>name,</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga24a027691feb30cad77ca6a162d05c58" kindref="member">FeaturePropertyKind</ref><sp/><ref refid="group__GeneralGroup_1gadd72ff1842f783bf1ceae521c7d614ec" kindref="member">kind</ref>,</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>T(<sp/>C::*<sp/>m_getter<sp/>)(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>)<sp/>const,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>T(<sp/>C::*<sp/>m_getter<sp/>)(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">,</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetterFunc<sp/>m_setter</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>)</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="group__GeneralGroup_1ga94077bfcbf22ce57417de8758cb67ac1" kindref="member">propertyName</ref>(<sp/>std::move(<sp/>name<sp/>)<sp/>),</highlight></codeline>
@@ -684,8 +684,8 @@
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::invoke(<sp/>m_getter,<sp/></highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const<sp/></highlight><highlight class="normal">C*<sp/></highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<sp/>objectToInvoke<sp/>),<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>)</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>(<sp/>(<sp/>std::is_same_v&lt;SetterFunc,<sp/>void<sp/>(<sp/>C::*<sp/>)(<sp/>const<sp/>T&amp;,<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>)&gt;<sp/>)</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>(<sp/>std::is_same_v&lt;SetterFunc,<sp/>void<sp/>(<sp/>C::*<sp/>)(<sp/>T,<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>)&gt;<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>(<sp/>(<sp/>std::is_same_v&lt;SetterFunc,<sp/>void<sp/>(<sp/>C::*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T&amp;,<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>)&gt;<sp/>)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>(<sp/>std::is_same_v&lt;SetterFunc,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(<sp/>C::*<sp/>)(<sp/>T,<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>)&gt;<sp/>)<sp/>)</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga863b69e9cebfcc8c5f242a7b655083c9" kindref="member">setter</ref><sp/>=<sp/>[m_setter]<sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga45cb1332fad43a5a921294d643411ba0" kindref="member">FeaturesPropertyTypesVariant</ref>&amp;<sp/>v,<sp/><ref refid="classMR_1_1FeatureObject" kindref="compound">FeatureObject</ref>*<sp/>objectToInvoke,<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>id<sp/>)</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -712,21 +712,21 @@
 <codeline lineno="87"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="88" refid="group__GeneralGroup_1ga8c52a38cab104b53c714ff2ce176546f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8c52a38cab104b53c714ff2ce176546f" kindref="member">Subfeatures</ref>,</highlight></codeline>
 <codeline lineno="89" refid="group__GeneralGroup_1ga87d459767013d873936d1795e4869a42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga87d459767013d873936d1795e4869a42" kindref="member">DetailsOnNameTag</ref>,<sp/></highlight></codeline>
-<codeline lineno="90" refid="group__GeneralGroup_1ga69c4cff6b9a1cd95c71fc56b8dd9a983" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0dad69186af02738a9b3ced1bc5b652ba55" kindref="member">_count</ref><sp/>[[maybe_unused]],</highlight></codeline>
+<codeline lineno="90" refid="group__GeneralGroup_1ga69c4cff6b9a1cd95c71fc56b8dd9a983" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga69c4cff6b9a1cd95c71fc56b8dd9a983" kindref="member">_count</ref><sp/>[[maybe_unused]],</highlight></codeline>
 <codeline lineno="91"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="92" refid="structMR_1_1IsVisualizeMaskEnum_3_01FeatureVisualizePropertyType_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1IsVisualizeMaskEnum" kindref="compound">IsVisualizeMaskEnum</ref>&lt;FeatureVisualizePropertyType&gt;<sp/>:<sp/>std::true_type<sp/>{};</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="classMR_1_1FeatureObject" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="classMR_1_1FeatureObject" kindref="compound">FeatureObject</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref></highlight></codeline>
+<codeline lineno="95" refid="classMR_1_1FeatureObject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/><ref refid="group__GeneralGroup_1gabfd66b9f5aba9d7648cadf97ef7752b7" kindref="member">FeatureObject</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VisualObject_1afba4e36ba430b26b2a358fe7669c568b" kindref="member">VisualObject</ref></highlight></codeline>
 <codeline lineno="96"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="98" refid="group__GeneralGroup_1ga62768ed0a589fb3f6a1cf4f8f429b4b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="group__GeneralGroup_1ga62768ed0a589fb3f6a1cf4f8f429b4b8" kindref="member">StaticTypeName</ref>()<sp/>noexcept<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;FeatureObject&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
-<codeline lineno="99" refid="group__GeneralGroup_1ga45535da24d737a00a9262dd1fbe8525f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="group__GeneralGroup_1ga45535da24d737a00a9262dd1fbe8525f" kindref="member">typeName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>StaticTypeName();<sp/>}</highlight></codeline>
+<codeline lineno="99" refid="group__GeneralGroup_1ga45535da24d737a00a9262dd1fbe8525f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="group__GeneralGroup_1ga45535da24d737a00a9262dd1fbe8525f" kindref="member">typeName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62768ed0a589fb3f6a1cf4f8f429b4b8" kindref="member">StaticTypeName</ref>();<sp/>}</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
 <codeline lineno="101" refid="group__GeneralGroup_1gac2bd99e374a0de7542c00533e8b6c2a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="group__GeneralGroup_1gac2bd99e374a0de7542c00533e8b6c2a0" kindref="member">StaticClassName</ref>()<sp/>noexcept<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;Feature&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
-<codeline lineno="102" refid="group__GeneralGroup_1ga9d50ec94a6a058376bf8e02827f5121c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga9d50ec94a6a058376bf8e02827f5121c" kindref="member">className</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>StaticClassName();<sp/>}</highlight></codeline>
+<codeline lineno="102" refid="group__GeneralGroup_1ga9d50ec94a6a058376bf8e02827f5121c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga9d50ec94a6a058376bf8e02827f5121c" kindref="member">className</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac2bd99e374a0de7542c00533e8b6c2a0" kindref="member">StaticClassName</ref>();<sp/>}</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
 <codeline lineno="104" refid="group__GeneralGroup_1ga001841653b1a522e6fcf188a2d80d0f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="group__GeneralGroup_1ga001841653b1a522e6fcf188a2d80d0f8" kindref="member">StaticClassNameInPlural</ref>()<sp/>noexcept<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;Features&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
-<codeline lineno="105" refid="group__GeneralGroup_1ga873cf4c43be4dfcce9768ae68ad3ae44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga873cf4c43be4dfcce9768ae68ad3ae44" kindref="member">classNameInPlural</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>StaticClassNameInPlural();<sp/>}</highlight></codeline>
+<codeline lineno="105" refid="group__GeneralGroup_1ga873cf4c43be4dfcce9768ae68ad3ae44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga873cf4c43be4dfcce9768ae68ad3ae44" kindref="member">classNameInPlural</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga001841653b1a522e6fcf188a2d80d0f8" kindref="member">StaticClassNameInPlural</ref>();<sp/>}</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
 <codeline lineno="108" refid="group__GeneralGroup_1ga67f4c8131f16d91de68c6ac590d31fa4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;FeatureObjectSharedProperty&gt;&amp;<sp/><ref refid="group__GeneralGroup_1ga67f4c8131f16d91de68c6ac590d31fa4" kindref="member">getAllSharedProperties</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
@@ -741,15 +741,15 @@
 <codeline lineno="120" refid="group__GeneralGroup_1gad59d121c1a25c1218815462882d6bf8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref><sp/><ref refid="group__GeneralGroup_1gad59d121c1a25c1218815462882d6bf8b" kindref="member">projectPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>point,<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="121" refid="group__GeneralGroup_1ga1a85031062c76c0c103c94cf1c080d4a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga1a85031062c76c0c103c94cf1c080d4a" kindref="member">getNormal</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>point<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="group__GeneralGroup_1ga400a0d007a56111994e7f514ad861a2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga400a0d007a56111994e7f514ad861a2f" kindref="member">setXf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="123" refid="group__GeneralGroup_1ga400a0d007a56111994e7f514ad861a2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga400a0d007a56111994e7f514ad861a2f" kindref="member">setXf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/><ref refid="classMR_1_1Object_1a603c094ba75fe76c397b93e84d1cb129" kindref="member">xf</ref>,<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="124" refid="group__GeneralGroup_1gaa912ddb9fe7492d05e733f83bf83a572" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa912ddb9fe7492d05e733f83bf83a572" kindref="member">resetXf</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
 <codeline lineno="127" refid="group__GeneralGroup_1gaebf50f07456b528f102076216babcf3c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gaebf50f07456b528f102076216babcf3c" kindref="member">getBasePoint</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="group__GeneralGroup_1ga9b258943b501bd224607d6a5a8a5fc8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>Matrix3f<sp/><ref refid="group__GeneralGroup_1ga9b258943b501bd224607d6a5a8a5fc8a" kindref="member">getRotationMatrix</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>{},<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>isDef<sp/>=<sp/>nullptr<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r_.get(<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>isDef<sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="134" refid="group__GeneralGroup_1ga4812ae385ef5a66bbcc0779f54025502" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>Matrix3f<sp/><ref refid="group__GeneralGroup_1ga4812ae385ef5a66bbcc0779f54025502" kindref="member">getScaleShearMatrix</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>{},<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>isDef<sp/>=<sp/>nullptr<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>s_.get(<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>isDef<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="131" refid="group__GeneralGroup_1ga9b258943b501bd224607d6a5a8a5fc8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>Matrix3f<sp/><ref refid="group__GeneralGroup_1ga9b258943b501bd224607d6a5a8a5fc8a" kindref="member">getRotationMatrix</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>{},<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>isDef<sp/>=<sp/><ref refid="module__nullptr" kindref="compound">nullptr</ref><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r_.get(<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>isDef<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="134" refid="group__GeneralGroup_1ga4812ae385ef5a66bbcc0779f54025502" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>Matrix3f<sp/><ref refid="group__GeneralGroup_1ga4812ae385ef5a66bbcc0779f54025502" kindref="member">getScaleShearMatrix</ref>(<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>{},<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>isDef<sp/>=<sp/><ref refid="module__nullptr" kindref="compound">nullptr</ref><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>s_.get(<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>isDef<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="group__GeneralGroup_1ga245d7fafcbfbc044ce69f102f689b2be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga245d7fafcbfbc044ce69f102f689b2be" kindref="member">getDecorationsColor</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>selected,<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewportId<sp/>=<sp/>{},<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>isDef<sp/>=<sp/>nullptr<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="138" refid="group__GeneralGroup_1ga245d7fafcbfbc044ce69f102f689b2be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga245d7fafcbfbc044ce69f102f689b2be" kindref="member">getDecorationsColor</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>selected,<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewportId<sp/>=<sp/>{},<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>isDef<sp/>=<sp/><ref refid="module__nullptr" kindref="compound">nullptr</ref><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="139" refid="group__GeneralGroup_1ga973d7e4651d687dc0b0542643e12b76a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga973d7e4651d687dc0b0542643e12b76a" kindref="member">setDecorationsColor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>selected,<sp/><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref><sp/>viewportId<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="140" refid="group__GeneralGroup_1ga2373bc38d298abb91e4f1f961879965e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty&lt;Color&gt;</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga2373bc38d298abb91e4f1f961879965e" kindref="member">getDecorationsColorForAllViewports</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>selected<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="141" refid="group__GeneralGroup_1ga84051c024001eaafe93c9e0091a1a9a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga84051c024001eaafe93c9e0091a1a9a6" kindref="member">setDecorationsColorForAllViewports</ref>(<sp/><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty&lt;Color&gt;</ref><sp/>val,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>selected<sp/>);</highlight></codeline>
@@ -778,29 +778,29 @@
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
 <codeline lineno="169" refid="group__GeneralGroup_1ga8247d6d2276758227d57f94c83d9e783" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8247d6d2276758227d57f94c83d9e783" kindref="member">setAllVisualizeProperties_</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kindref="member">AllVisualizeProperties</ref>&amp;<sp/>properties,<sp/>std::size_t&amp;<sp/>pos<sp/>)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="group__GeneralGroup_1gabd213076dcde954e6f1f26d06fa6d2fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>subfeatureVisibility_<sp/>=<sp/>ViewportMask::all();</highlight></codeline>
-<codeline lineno="172" refid="group__GeneralGroup_1gac252edfceb31c314bc08c0ba5fac11b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/>detailsOnNameTag_<sp/>=<sp/>ViewportMask::all();</highlight></codeline>
+<codeline lineno="171" refid="group__GeneralGroup_1gabd213076dcde954e6f1f26d06fa6d2fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/><ref refid="group__GeneralGroup_1gabd213076dcde954e6f1f26d06fa6d2fa" kindref="member">subfeatureVisibility_</ref><sp/>=<sp/><ref refid="classMR_1_1ViewportMask_1a46b7527f0e3a3394b41be2515c171747" kindref="member">ViewportMask::all</ref>();</highlight></codeline>
+<codeline lineno="172" refid="group__GeneralGroup_1gac252edfceb31c314bc08c0ba5fac11b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref><sp/><ref refid="group__GeneralGroup_1gac252edfceb31c314bc08c0ba5fac11b3" kindref="member">detailsOnNameTag_</ref><sp/>=<sp/><ref refid="classMR_1_1ViewportMask_1a46b7527f0e3a3394b41be2515c171747" kindref="member">ViewportMask::all</ref>();</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight></codeline>
 <codeline lineno="176" refid="group__GeneralGroup_1gaced598f63c94fa32b11e140c3aec72fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty&lt;Matrix3f&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaced598f63c94fa32b11e140c3aec72fa" kindref="member">r_</ref>;<sp/></highlight></codeline>
 <codeline lineno="177" refid="group__GeneralGroup_1gab1290c5fd9953439f5f8416adcd4ab38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty&lt;Matrix3f&gt;</ref><sp/><ref refid="group__GeneralGroup_1gab1290c5fd9953439f5f8416adcd4ab38" kindref="member">s_</ref>;<sp/></highlight></codeline>
 <codeline lineno="178"><highlight class="normal"></highlight></codeline>
 <codeline lineno="180" refid="group__GeneralGroup_1ga1c8e2cd4e02b32ce6329d8a44ab727c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;ViewportProperty&lt;Color&gt;,<sp/>2&gt;<sp/><ref refid="group__GeneralGroup_1ga1c8e2cd4e02b32ce6329d8a44ab727c6" kindref="member">decorationsColor_</ref>;</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183"></codeline>
-<codeline lineno="185" refid="group__GeneralGroup_1gad870b3dc0af8af65bcaf74fb0fa84475" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pointSize_<sp/>=<sp/>10;</highlight></codeline>
-<codeline lineno="186" refid="group__GeneralGroup_1ga3b5a4031f824e124b74a89fe8c2e1a67" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>lineWidth_<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="group__GeneralGroup_1gad870b3dc0af8af65bcaf74fb0fa84475" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad870b3dc0af8af65bcaf74fb0fa84475" kindref="member">pointSize_</ref><sp/>=<sp/>10;</highlight></codeline>
+<codeline lineno="186" refid="group__GeneralGroup_1ga3b5a4031f824e124b74a89fe8c2e1a67" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3b5a4031f824e124b74a89fe8c2e1a67" kindref="member">lineWidth_</ref><sp/>=<sp/>2;</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"></highlight></codeline>
-<codeline lineno="189" refid="group__GeneralGroup_1ga361a7ce85014e2c6232445612aa34c60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>subPointSize_<sp/>=<sp/>6;</highlight></codeline>
-<codeline lineno="190" refid="group__GeneralGroup_1gac8ea614a47b17098054cd1859b24f70c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>subLineWidth_<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="189" refid="group__GeneralGroup_1ga361a7ce85014e2c6232445612aa34c60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga361a7ce85014e2c6232445612aa34c60" kindref="member">subPointSize_</ref><sp/>=<sp/>6;</highlight></codeline>
+<codeline lineno="190" refid="group__GeneralGroup_1gac8ea614a47b17098054cd1859b24f70c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac8ea614a47b17098054cd1859b24f70c" kindref="member">subLineWidth_</ref><sp/>=<sp/>1;</highlight></codeline>
 <codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193" refid="group__GeneralGroup_1ga51043725ded5e5baa3695f7a0b95f4ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>mainFeatureAlpha_<sp/>=<sp/>1;</highlight></codeline>
-<codeline lineno="194" refid="group__GeneralGroup_1gad7fbf06bb7ae7e9d6d048ae16629ccc3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>subAlphaPoints_<sp/>=<sp/>1;</highlight></codeline>
-<codeline lineno="195" refid="group__GeneralGroup_1gae9eae47d979450ea334ee34d89bd931e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>subAlphaLines_<sp/>=<sp/>1;</highlight></codeline>
-<codeline lineno="196" refid="group__GeneralGroup_1gaee2b783554996a1934193cd74d782dbf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>subAlphaMesh_<sp/>=<sp/>0.5f;</highlight></codeline>
+<codeline lineno="193" refid="group__GeneralGroup_1ga51043725ded5e5baa3695f7a0b95f4ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga51043725ded5e5baa3695f7a0b95f4ff" kindref="member">mainFeatureAlpha_</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="194" refid="group__GeneralGroup_1gad7fbf06bb7ae7e9d6d048ae16629ccc3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad7fbf06bb7ae7e9d6d048ae16629ccc3" kindref="member">subAlphaPoints_</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="195" refid="group__GeneralGroup_1gae9eae47d979450ea334ee34d89bd931e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae9eae47d979450ea334ee34d89bd931e" kindref="member">subAlphaLines_</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="196" refid="group__GeneralGroup_1gaee2b783554996a1934193cd74d782dbf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaee2b783554996a1934193cd74d782dbf" kindref="member">subAlphaMesh_</ref><sp/>=<sp/>0.5f;</highlight></codeline>
 <codeline lineno="197"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"></highlight></codeline>
 <codeline lineno="199"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureObject.h"/>
+    <location file="MRMesh/MRFeatureObject.h"/>
   </compounddef>
 </doxygen>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UI_1_1NonOverlappingLabelTask" kind="class" language="C++" prot="public">
     <compoundname>MR::UI::NonOverlappingLabelTask</compoundname>
     <basecompoundref refid="structMR_1_1BasicUiRenderTask" prot="public" virt="non-virtual">MR::BasicUiRenderTask</basecompoundref>
-    <includes refid="MRUINonOverlappingLabels_8h" local="no">MRUINonOverlappingLabels.h</includes>
+    <includes refid="MRUINonOverlappingLabels_8h" local="no">MRViewer/MRUINonOverlappingLabels.h</includes>
     <innerclass refid="structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params" prot="public">MR::UI::NonOverlappingLabelTask::Params</innerclass>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1UI_1_1NonOverlappingLabelTask_1ad7956cae913f5fb658112a2ac5b86342" prot="private" static="no" mutable="no">
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="30" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" bodystart="30" bodyend="-1"/>
+        <location file="MRViewer/MRUINonOverlappingLabels.h" line="30" column="12" bodyfile="MRViewer/MRUINonOverlappingLabels.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1UI_1_1NonOverlappingLabelTask_1a9df6f3435cab03196fc0c601e1fde19b" prot="private" static="no" mutable="no">
         <type>ImVec2</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="31" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" bodystart="31" bodyend="-1"/>
+        <location file="MRViewer/MRUINonOverlappingLabels.h" line="31" column="12" bodyfile="MRViewer/MRUINonOverlappingLabels.h" bodystart="31" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="34" column="6"/>
+        <location file="MRViewer/MRUINonOverlappingLabels.h" line="34" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UI_1_1NonOverlappingLabelTask_1accbb307da14eb8e5c83741984ccacf08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="35" column="6"/>
+        <location file="MRViewer/MRUINonOverlappingLabels.h" line="35" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UI_1_1NonOverlappingLabelTask_1ae4ebeb23c02238c20af603e5a85e5e68" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="37" column="11"/>
+        <location file="MRViewer/MRUINonOverlappingLabels.h" line="37" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UI_1_1NonOverlappingLabelTask_1a164e1c8a5a97cca9b58502d77f780996" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="38" column="11"/>
+        <location file="MRViewer/MRUINonOverlappingLabels.h" line="38" column="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -134,7 +134,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" bodystart="15" bodyend="39"/>
+    <location file="MRViewer/MRUINonOverlappingLabels.h" line="14" column="1" bodyfile="MRViewer/MRUINonOverlappingLabels.h" bodystart="15" bodyend="39"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga09fdc1e47a7a92974a945bfcc98be400" prot="public" virt="non-virtual"><scope>MR::UI::NonOverlappingLabelTask</scope><name>BasicUiRenderTask</name></member>
       <member refid="group__GeneralGroup_1ga25c71025ea06023cb9d2007b8d3908a3" prot="public" virt="non-virtual"><scope>MR::UI::NonOverlappingLabelTask</scope><name>BasicUiRenderTask</name></member>

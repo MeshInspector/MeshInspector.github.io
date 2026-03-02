@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ConstantCuspParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::ConstantCuspParams</compoundname>
     <basecompoundref refid="structMR_1_1ToolPathParams" prot="public" virt="non-virtual">MR::ToolPathParams</basecompoundref>
-    <includes refid="MRToolPath_8h" local="no">MRToolPath.h</includes>
+    <includes refid="MRToolPath_8h" local="no">MRVoxels/MRToolPath.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gae516e612489724b0fd33771eac4c5843" kind="variable"><name>fromCenterToBoundary</name></member>
     </sectiondef>
@@ -35,7 +35,7 @@
         <link refid="structMR_1_1ToolPathParams"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="70" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="71" bodyend="74"/>
+    <location file="MRVoxels/MRToolPath.h" line="70" column="1" bodyfile="MRVoxels/MRToolPath.h" bodystart="71" bodyend="74"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga369d0d2f955fa0ff8c3d1f01c5d78679" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>baseFeed</name></member>
       <member refid="group__GeneralGroup_1ga50c755eddaa84d57053b8b2ac05090c7" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>bypassDir</name></member>

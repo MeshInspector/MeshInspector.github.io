@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsLoad" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelsLoad</compoundname>
     <innerclass refid="classMR_1_1VoxelsLoad_1_1DicomStatus" prot="public">MR::VoxelsLoad::DicomStatus</innerclass>
@@ -777,7 +777,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="4" bodyend="786"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="4" bodyend="1093"/>
     <listofallmembers>
       <member refid="classMR_1_1VoxelsLoad_1a87a3969849849d41eb3345f131f66ce8" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>createObjectVoxels</name></member>
       <member refid="classMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>DicomStatusEnum</name></member>

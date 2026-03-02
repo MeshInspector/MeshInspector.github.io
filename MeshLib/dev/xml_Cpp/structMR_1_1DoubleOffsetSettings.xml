@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1DoubleOffsetSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::DoubleOffsetSettings</compoundname>
-    <includes refid="MRVDBConversions_8h" local="no">MRVDBConversions.h</includes>
+    <includes refid="MRVDBConversions_8h" local="no">MRVoxels/MRVDBConversions.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga2ea174fec10de72e248dbb0a5e1073d8" kind="variable"><name>voxelSize</name></member>
       <member refid="group__GeneralGroup_1gab41301545b4f7cbc6d8c531442b1965c" kind="variable"><name>offsetA</name></member>
@@ -17,7 +17,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="159" bodyend="184"/>
+    <location file="MRVoxels/MRVDBConversions.h" line="158" column="1" bodyfile="MRVoxels/MRVDBConversions.h" bodystart="159" bodyend="184"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa5cfa224b05a400e1911699259e1b549" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>adaptivity</name></member>
       <member refid="group__GeneralGroup_1ga1cadab99fc35f1301c687dea94206707" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>fwn</name></member>

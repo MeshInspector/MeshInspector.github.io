@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointsLoad" kind="class" language="C#" prot="public">
     <compoundname>MR::PointsLoad</compoundname>
     <innerclass refid="classMR_1_1PointsLoad_1_1E57LoadSettings" prot="public">MR::PointsLoad::E57LoadSettings</innerclass>
@@ -494,7 +494,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1295" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsLoad.cs" bodystart="4" bodyend="206"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1295" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1296" bodyend="1329"/>
     <listofallmembers>
       <member refid="classMR_1_1PointsLoad_1a807e0acdc6797b2e9278c2612d13be55" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromAnySupportedFormat</name></member>
       <member refid="classMR_1_1PointsLoad_1ad3f6f9aefe03d5c1313483f26d459790" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromAnySupportedFormat</name></member>

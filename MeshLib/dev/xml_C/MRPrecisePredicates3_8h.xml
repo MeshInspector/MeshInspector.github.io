@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPrecisePredicates3_8h" kind="file" language="C++">
     <compoundname>MRPrecisePredicates3.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
@@ -63,19 +63,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPrecisePredicates3_8h_1a6cf9a7d704c7c9de33ec858bf8a54856" prot="public" static="no">
-        <type>struct MR_Box3d</type>
-        <definition>typedef struct MR_Box3d MR_Box3d</definition>
-        <argsstring></argsstring>
-        <name>MR_Box3d</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates3.h" line="15" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates3.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" prot="public" static="no">
         <type>struct <ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref></type>
         <definition>typedef struct MR_std_array_MR_PreciseVertCoords_4 MR_std_array_MR_PreciseVertCoords_4</definition>
@@ -128,19 +115,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates3.h" line="19" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates3.h" bodystart="19" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRPrecisePredicates3_8h_1a5926f17bfcecf57ef54dbdaae762d53a" prot="public" static="no">
-        <type>struct <ref refid="MRMeshCollidePrecise_8h_1a5926f17bfcecf57ef54dbdaae762d53a" kindref="member">MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</ref></type>
-        <definition>typedef struct MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates3.h" line="20" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates3.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRPrecisePredicates3_8h_1a469fa520597b79e2e4f047cb3a6cb55a" prot="public" static="no">
         <type>struct <ref refid="MRPrecisePredicates3_8h_1a469fa520597b79e2e4f047cb3a6cb55a" kindref="member">MR_std_optional_MR_Vector3i</ref></type>
         <definition>typedef struct MR_std_optional_MR_Vector3i MR_std_optional_MR_Vector3i</definition>
@@ -181,20 +155,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates3.h" line="30" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates3.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPrecisePredicates3_8h_1a1d5f64a5e4478ee2148c84427aaaf552" prot="public" static="no">
-        <type>struct <ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref></type>
-        <definition>typedef struct MR_CoordinateConverters MR_CoordinateConverters</definition>
-        <argsstring></argsstring>
-        <name>MR_CoordinateConverters</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>this struct contains coordinate converters float-int-float Generated from class <computeroutput>MR::CoordinateConverters</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates3.h" line="35" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates3.h" bodystart="35" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -498,7 +458,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_PreciseVertCoords</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -516,7 +476,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_PreciseVertCoords</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -827,7 +787,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_TriangleSegmentIntersectResult</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPrecisePredicates3_8h_1a2fdac89a858155a824599baf2b62c690" kindref="member">MR_TriangleSegmentIntersectResult</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -845,7 +805,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_TriangleSegmentIntersectResult</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPrecisePredicates3_8h_1a2fdac89a858155a824599baf2b62c690" kindref="member">MR_TriangleSegmentIntersectResult</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1194,7 +1154,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput>MR_CoordinateConverters</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1212,7 +1172,7 @@
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput>MR_CoordinateConverters</computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1374,20 +1334,20 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRPrecisePredicates3_8h_1a6cf9a7d704c7c9de33ec858bf8a54856" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box3d" kindref="compound">MR_Box3d</ref><sp/><ref refid="structMR__Box3d" kindref="compound">MR_Box3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Box3d" kindref="compound">MR_Box3d</ref><sp/><ref refid="structMR__Box3d" kindref="compound">MR_Box3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref><sp/><ref refid="MRPrecisePredicates3_8h_1afbd71da17cb8b105d2507c528d7a841e" kindref="member">MR_std_array_MR_PreciseVertCoords_4</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_array_MR_PreciseVertCoords_4.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="MRPrecisePredicates3_8h_1a19d1c83619a5f85c59e93ca89af7b70f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecisePredicates3_8h_1a19d1c83619a5f85c59e93ca89af7b70f" kindref="member">MR_std_array_MR_PreciseVertCoords_5</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a19d1c83619a5f85c59e93ca89af7b70f" kindref="member">MR_std_array_MR_PreciseVertCoords_5</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_array_MR_PreciseVertCoords_5.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="MRPrecisePredicates3_8h_1a681fec384dfcea4b7158ec1b4edf50b0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecisePredicates3_8h_1a681fec384dfcea4b7158ec1b4edf50b0" kindref="member">MR_std_array_MR_PreciseVertCoords_8</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a681fec384dfcea4b7158ec1b4edf50b0" kindref="member">MR_std_array_MR_PreciseVertCoords_8</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_array_MR_PreciseVertCoords_8.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="MRPrecisePredicates3_8h_1af8e03eb68c4b919e1505cede068d6729" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecisePredicates3_8h_1af8e03eb68c4b919e1505cede068d6729" kindref="member">MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref</ref><sp/><ref refid="MRPrecisePredicates3_8h_1af8e03eb68c4b919e1505cede068d6729" kindref="member">MR_std_function_MR_Vector3f_from_const_MR_Vector3i_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_MR_Vector3f_from_const_MR_Vector3i_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRPrecisePredicates3_8h_1a5926f17bfcecf57ef54dbdaae762d53a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshCollidePrecise_8h_1a5926f17bfcecf57ef54dbdaae762d53a" kindref="member">MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</ref><sp/><ref refid="MRMeshCollidePrecise_8h_1a5926f17bfcecf57ef54dbdaae762d53a" kindref="member">MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_MR_Vector3i_from_const_MR_Vector3f_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshCollidePrecise_8h_1a5926f17bfcecf57ef54dbdaae762d53a" kindref="member">MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</ref><sp/><ref refid="MRMeshCollidePrecise_8h_1a5926f17bfcecf57ef54dbdaae762d53a" kindref="member">MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_MR_Vector3i_from_const_MR_Vector3f_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRPrecisePredicates3_8h_1a469fa520597b79e2e4f047cb3a6cb55a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecisePredicates3_8h_1a469fa520597b79e2e4f047cb3a6cb55a" kindref="member">MR_std_optional_MR_Vector3i</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a469fa520597b79e2e4f047cb3a6cb55a" kindref="member">MR_std_optional_MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Vector3i.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref>;</highlight></codeline>
+<codeline lineno="26" refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref><sp/><ref refid="MRPrecisePredicates3_8h_1acf8295b8fee8090e376d3d1c18eb3356" kindref="member">MR_PreciseVertCoords</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRPrecisePredicates3_8h_1a2fdac89a858155a824599baf2b62c690" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecisePredicates3_8h_1a2fdac89a858155a824599baf2b62c690" kindref="member">MR_TriangleSegmentIntersectResult</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a2fdac89a858155a824599baf2b62c690" kindref="member">MR_TriangleSegmentIntersectResult</ref>;</highlight></codeline>
+<codeline lineno="30" refid="MRPrecisePredicates3_8h_1a2fdac89a858155a824599baf2b62c690" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecisePredicates3_8h_1a2fdac89a858155a824599baf2b62c690" kindref="member">MR_TriangleSegmentIntersectResult</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a2fdac89a858155a824599baf2b62c690" kindref="member">MR_TriangleSegmentIntersectResult</ref>;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRPrecisePredicates3_8h_1a1d5f64a5e4478ee2148c84427aaaf552" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref>;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
 <codeline lineno="43" refid="MRPrecisePredicates3_8h_1aa0c64c064a72e9d6fac8d2ac537fcb42" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates3_8h_1aa0c64c064a72e9d6fac8d2ac537fcb42" kindref="member">MR_orient3d_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*c);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>

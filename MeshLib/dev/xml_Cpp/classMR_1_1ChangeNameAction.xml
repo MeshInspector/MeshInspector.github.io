@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeNameAction" kind="class" language="C++" prot="public">
     <compoundname>MR::ChangeNameAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRChangeNameAction_8h" local="no">MRChangeNameAction.h</includes>
+    <includes refid="MRChangeNameAction_8h" local="no">MRMesh/MRChangeNameAction.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gaf184503abf962f89b4a5ebc2773f6004" kind="variable"><name>obj_</name></member>
       <member refid="group__GeneralGroup_1ga90449ad7d1096a0ea0bdae7f9fea5a24" kind="variable"><name>objName_</name></member>
@@ -44,7 +44,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeNameAction.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeNameAction.h" bodystart="17" bodyend="52"/>
+    <location file="MRMesh/MRChangeNameAction.h" line="16" column="1" bodyfile="MRMesh/MRChangeNameAction.h" bodystart="17" bodyend="52"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga198059bf4924aae700a459e93da3d953" prot="public" virt="virtual"><scope>MR::ChangeNameAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga52d8a533de22d0df9cca6ac5c713d318" prot="private" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>actionName_</name></member>

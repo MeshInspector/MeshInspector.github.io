@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MultiwayAligningTransform::Stabilizer</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -267,19 +267,6 @@ small stabilizer allows one to convert the linear system from under-determined t
 large stabilizer results in suboptimal found transformations (huge stabilizier =&gt; zero transforamtions)
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.MultiwayAligningTransform.Stabilizer</label>
-        <link refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_rot</edgelabel>
-          <edgelabel>_offsetof_shift</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36498" bodyend="36547"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1ab82b9271f649bf4c2d478b2bbb0f1c77" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform::Stabilizer</scope><name>__init__</name></member>

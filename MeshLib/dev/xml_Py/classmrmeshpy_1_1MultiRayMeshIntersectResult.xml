@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MultiRayMeshIntersectResult" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MultiRayMeshIntersectResult</compoundname>
     <sectiondef kind="protected-static-attrib">
@@ -447,22 +447,6 @@
 <para><verbatim>Generated from:  MR::MultiRayMeshIntersectResult
 </verbatim> </para>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>mrmeshpy.MultiRayMeshIntersectResult</label>
-        <link refid="classmrmeshpy_1_1MultiRayMeshIntersectResult"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_intersectingRays</edgelabel>
-          <edgelabel>_offsetof_isectBary</edgelabel>
-          <edgelabel>_offsetof_isectFaces</edgelabel>
-          <edgelabel>_offsetof_isectPts</edgelabel>
-          <edgelabel>_offsetof_rayDistances</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>typing</label>
-      </node>
-    </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36416" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36416" bodyend="36489"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1ac69a3e55962baa92f0abe51ecfa97e9a" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>__init__</name></member>

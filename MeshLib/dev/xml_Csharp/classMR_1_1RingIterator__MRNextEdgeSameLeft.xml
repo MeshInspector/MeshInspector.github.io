@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RingIterator__MRNextEdgeSameLeft" kind="class" language="C#" prot="public">
     <compoundname>MR::RingIterator_MRNextEdgeSameLeft</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_RingIterator_MRNextEdgeSameLeft</basecompoundref>
@@ -59,7 +59,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;::RingIterator</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;::RingIterator</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -78,7 +78,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;::RingIterator</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;::RingIterator</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -105,7 +105,7 @@
           <declname>first</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;::RingIterator</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;::RingIterator</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -124,7 +124,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -139,7 +139,7 @@
         <name>incr</name>
         <qualifiedname>MR.RingIterator_MRNextEdgeSameLeft.incr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;::operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;::operator++</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -149,13 +149,19 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>MR.RingIterator_MRNextEdgeSameLeft</label>
+        <link refid="classMR_1_1RingIterator__MRNextEdgeSameLeft"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_RingIterator_MRNextEdgeSameLeft</label>
+        <label>MR.Const_RingIterator_MRNextEdgeSameLeft</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -163,25 +169,25 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.RingIterator_MRNextEdgeSameLeft</label>
-        <link refid="classMR_1_1RingIterator__MRNextEdgeSameLeft"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_RingIterator_MRNextEdgeSameLeft &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_RingIterator_MRNextEdgeSameLeft &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="1">
+        <label>MR.RingIterator_MRNextEdgeSameLeft</label>
+        <link refid="classMR_1_1RingIterator__MRNextEdgeSameLeft"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
-        <label>Const_RingIterator_MRNextEdgeSameLeft</label>
+        <label>MR.Const_RingIterator_MRNextEdgeSameLeft</label>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -189,20 +195,14 @@
         <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>MR.RingIterator_MRNextEdgeSameLeft</label>
-        <link refid="classMR_1_1RingIterator__MRNextEdgeSameLeft"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
-        <label>MR::Misc::Object&lt; Const_RingIterator_MRNextEdgeSameLeft &gt;</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
-        <label>System::IDisposable</label>
+        <label>System.IDisposable</label>
       </node>
       <node id="5">
-        <label>System::IEquatable&lt; MR.Const_RingIterator_MRNextEdgeSameLeft &gt;</label>
+        <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="399" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="400" bodyend="461"/>

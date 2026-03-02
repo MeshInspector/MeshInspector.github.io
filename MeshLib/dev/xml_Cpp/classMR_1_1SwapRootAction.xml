@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SwapRootAction" kind="class" language="C++" prot="public">
     <compoundname>MR::SwapRootAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
-    <includes refid="MRSwapRootAction_8h" local="no">MRSwapRootAction.h</includes>
+    <includes refid="MRSwapRootAction_8h" local="no">MRViewer/MRSwapRootAction.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga935fc35ae3bbdc39583240539fbaf761" kind="variable"><name>root_</name></member>
       <member refid="group__GeneralGroup_1ga4c44446f6f7eb259daa12f7c7bd5970a" kind="variable"><name>scenePath_</name></member>
@@ -43,7 +43,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSwapRootAction.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSwapRootAction.h" bodystart="16" bodyend="55"/>
+    <location file="MRViewer/MRSwapRootAction.h" line="15" column="1" bodyfile="MRViewer/MRSwapRootAction.h" bodystart="16" bodyend="55"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad4f29239d50c1ce54e67f398259ce4a8" prot="public" virt="virtual"><scope>MR::SwapRootAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gaec455a92bb7ddcf98151e8d92cf2111f" prot="public" virt="virtual"><scope>MR::SwapRootAction</scope><name>heapBytes</name></member>

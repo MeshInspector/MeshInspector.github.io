@@ -1,21 +1,14 @@
 var MRColorMapAggregator_8h =
 [
-    [ "MR_Color", "MRColorMapAggregator_8h.html#ab04f90c0c45a09f664d0bd8e652bc339", null ],
     [ "MR_ColorMapAggregator_MR_FaceTag_AggregateMode", "MRColorMapAggregator_8h.html#a967d434878151e003c9a4c6a5c4dbb8d", null ],
     [ "MR_ColorMapAggregator_MR_FaceTag_PartialColorMap", "MRColorMapAggregator_8h.html#acefcfd40cf1fc2e253b84740efb81363", null ],
     [ "MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode", "MRColorMapAggregator_8h.html#ad126a48ea420dbdb8f8408fbf55a392e", null ],
     [ "MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap", "MRColorMapAggregator_8h.html#a845fded56ba0794121f75691a3d7162a", null ],
     [ "MR_ColorMapAggregator_MR_VertTag_AggregateMode", "MRColorMapAggregator_8h.html#a981b7592a7ab68cfd181cb28452e3e8c", null ],
     [ "MR_ColorMapAggregator_MR_VertTag_PartialColorMap", "MRColorMapAggregator_8h.html#ad112967572c31509cc0fe1aa56fce9b5", null ],
-    [ "MR_FaceBitSet", "MRColorMapAggregator_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
     [ "MR_FaceColorMapAggregator", "MRColorMapAggregator_8h.html#a3201bc53016d10f34c140a762fd4b28c", null ],
-    [ "MR_FaceColors", "MRColorMapAggregator_8h.html#a88c7503c40b624a577fda0eab1faa5fa", null ],
-    [ "MR_UndirectedEdgeBitSet", "MRColorMapAggregator_8h.html#ac7f59a6736b29701d7e619412b6e2890", null ],
-    [ "MR_UndirectedEdgeColors", "MRColorMapAggregator_8h.html#a63019091c05b8b468f7f88db47cfb0ef", null ],
     [ "MR_UndirEdgeColorMapAggregator", "MRColorMapAggregator_8h.html#a0a86d71ed439c40b739e94b1de6c2fe0", null ],
-    [ "MR_VertBitSet", "MRColorMapAggregator_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_VertColorMapAggregator", "MRColorMapAggregator_8h.html#aa06542dda3b7a636d18636955399ece4", null ],
-    [ "MR_VertColors", "MRColorMapAggregator_8h.html#a20dc7d636220f61a60c7ae92b8caa768", null ],
     [ "MR_ColorMapAggregator_MR_FaceTag_AggregateMode", "MRColorMapAggregator_8h.html#aa54d15bb655971bdac300d124e524afe", [
       [ "MR_ColorMapAggregator_MR_FaceTag_AggregateMode_Overlay", "MRColorMapAggregator_8h.html#aa54d15bb655971bdac300d124e524afeaee76537019e6d542b02221ffff29ad7f", null ],
       [ "MR_ColorMapAggregator_MR_FaceTag_AggregateMode_Blending", "MRColorMapAggregator_8h.html#aa54d15bb655971bdac300d124e524afea3eb58c5162cfdf6cddd95d2c21bddd3d", null ]

@@ -7,13 +7,9 @@ var MRIRenderObject_8h =
     [ "MR_DepthFunction", "MRIRenderObject_8h.html#aaad52cde34b9facffa267c7b49bf72de", null ],
     [ "MR_IRenderObject", "MRIRenderObject_8h.html#a80ed9a7e0d9ea2def89249ad0d8e39dd", null ],
     [ "MR_Matrix4f", "MRIRenderObject_8h.html#a5e665a93bf62ee9279b5138e080a60b1", null ],
-    [ "MR_ModelBaseRenderParams", "MRIRenderObject_8h.html#a05411842860db9b06c2e1dd0a3b5cb32", null ],
-    [ "MR_ModelRenderParams", "MRIRenderObject_8h.html#ac57a9c205ddddd492539ac185431ba9e", null ],
-    [ "MR_Plane3f", "MRIRenderObject_8h.html#aa7548d3448b3b7da1ea96433fe902e9a", null ],
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask", "MRIRenderObject_8h.html#a320623fa0e63d3dc63342b8004f087e4", null ],
     [ "MR_TransparencyMode", "MRIRenderObject_8h.html#a58188cd06696742ff73ee9822c6c2e26", null ],
     [ "MR_UiRenderManager", "MRIRenderObject_8h.html#a2e9fd3ee0a8f19bd1a78a400e2a74287", null ],
-    [ "MR_UiRenderParams", "MRIRenderObject_8h.html#aca24c4fb6effc06349275fb8f7e111c0", null ],
     [ "MR_BasicUiRenderTask_InteractionMask", "MRIRenderObject_8h.html#a99af3304876399a1003b0daa233d6769", [
       [ "MR_BasicUiRenderTask_InteractionMask_mouseHover", "MRIRenderObject_8h.html#a99af3304876399a1003b0daa233d6769a11f026fd660920a7ea2a6e6ff97cceba", null ],
       [ "MR_BasicUiRenderTask_InteractionMask_mouseScroll", "MRIRenderObject_8h.html#a99af3304876399a1003b0daa233d6769a2f088ab79f838b9aa87fd47d60d54d33", null ]

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams" kind="struct" language="C++" prot="public">
     <compoundname>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams</compoundname>
-    <includes refid="MRMeshBoundarySelectionWidget_8h" local="no">MRMeshBoundarySelectionWidget.h</includes>
+    <includes refid="MRMeshBoundarySelectionWidget_8h" local="no">MRViewer/MRMeshBoundarySelectionWidget.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1ga7cc2969f192dc2c210907527c55accf7" kind="variable"><name>ordinaryColor</name></member>
       <member refid="group__GeneralGroup_1ga0ed51b795be6b13b452d9ac27d4409bb" kind="variable"><name>ordinaryLineWidth</name></member>
@@ -30,7 +30,7 @@
         <link refid="structMR_1_1Color"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="28" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="28" bodyend="39"/>
+    <location file="MRViewer/MRMeshBoundarySelectionWidget.h" line="28" column="5" bodyfile="MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="28" bodyend="39"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga381406ff0c17d87e6508cfcd62e20f05" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams</scope><name>hoveredColor</name></member>
       <member refid="group__GeneralGroup_1gaf1899a0952daad52f5218d45bf7d61a9" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams</scope><name>hoveredLineWidth</name></member>
