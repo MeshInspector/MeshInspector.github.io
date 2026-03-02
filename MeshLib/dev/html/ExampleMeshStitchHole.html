@@ -165,7 +165,7 @@ $(function(){initNavTree('ExampleMeshStitchHole.html','',''); });
 <div class="line">    <span class="comment">// Connect two holes</span></div>
 <div class="line">    MR::StitchHolesParams params;</div>
 <div class="line">    params.metric = MR::getUniversalMetric( mesh );</div>
-<div class="line">    MR::buildCylinderBetweenTwoHoles( mesh, edges.front(), edges.back(), params );</div>
+<div class="line">    MR::stitchHoles( mesh, edges.front(), edges.back(), params );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
 <div class="line">    <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( mesh, <span class="stringliteral">&quot;stitchedMesh.stl&quot;</span> );</div>
@@ -189,7 +189,7 @@ $(function(){initNavTree('ExampleMeshStitchHole.html','',''); });
 <div class="line"><span class="comment"># Connect two holes</span></div>
 <div class="line">params = mrmeshpy.StitchHolesParams()</div>
 <div class="line">params.metric = mrmeshpy.getUniversalMetric(mesh)</div>
-<div class="line">mrmeshpy.buildCylinderBetweenTwoHoles(mesh, edges[0], edges[1], params)</div>
+<div class="line">mrmeshpy.stitchHoles(mesh, edges[0], edges[1], params)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save result</span></div>
 <div class="line">mrmeshpy.saveMesh(mesh, <span class="stringliteral">&quot;stitchedMesh.stl&quot;</span>)</div>
@@ -251,9 +251,9 @@ $(function(){initNavTree('ExampleMeshStitchHole.html','',''); });
 <div class="line">    MR_StitchHolesParams_Set_metric( params, MR_PassBy_Move, metric );</div>
 <div class="line">    MR_FillHoleMetric_Destroy( metric );</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// We also have a version of this function (`MR_buildCylinderBetweenTwoHoles_2()`) that finds the two holes automatically.</span></div>
+<div class="line">    <span class="comment">// We also have a version of this function (`MR_stitchHoles_2()`) that finds the two holes automatically.</span></div>
 <div class="line">    <span class="comment">// Here we&#39;ve found them manually for demonstration purposes.</span></div>
-<div class="line">    MR_buildCylinderBetweenTwoHoles_4( mesh, *MR_std_vector_MR_EdgeId_at( edges, 0 ), *MR_std_vector_MR_EdgeId_at( edges, 1 ), params );</div>
+<div class="line">    MR_stitchHoles_4( mesh, *MR_std_vector_MR_EdgeId_at( edges, 0 ), *MR_std_vector_MR_EdgeId_at( edges, 1 ), params );</div>
 <div class="line">    MR_StitchHolesParams_Destroy( params );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
