@@ -1,5 +1,15 @@
 var NAVTREEINDEX59 =
 {
+"classMR_1_1TriTriDistanceParams__Double.html#a53a0ba50e31fe140a37f71f56b2383bb":[6,3,0,0,0,845,0],
+"classMR_1_1TriTriDistanceParams__Double.html#a5d13754ea9bf2cda981b82606468c349":[6,3,0,0,0,845,6],
+"classMR_1_1TriTriDistanceParams__Double.html#aaae9997fd16a4ef687103bd4990c43f8":[6,3,0,0,0,845,1],
+"classMR_1_1TriTriDistanceParams__Double.html#ab09171862e177bbe02bd92d953cab638":[6,3,0,0,0,845,5],
+"classMR_1_1TriTriDistanceParams__Double.html#ab4f8104c8bb9769f054bacd97bb90e17":[6,3,0,0,0,845,4],
+"classMR_1_1TriTriDistanceParams__Double.html#ab870d9f1ff386802a3d03d8ef4dc232c":[6,3,0,0,0,845,2],
+"classMR_1_1TriTriDistanceParams__Double.html#abe36fa34853ae6a9de4b4ddda5d01f12":[6,3,0,0,0,845,3],
+"classMR_1_1TriTriDistanceParams__Float.html":[6,3,0,0,0,846],
+"classMR_1_1TriTriDistanceParams__Float.html#a3ad99615ee201e2fd1954d3f16da271f":[6,3,0,0,0,846,5],
+"classMR_1_1TriTriDistanceParams__Float.html#a45e213d7152604ecd6f8ace39901e58b":[6,3,0,0,0,846,1],
 "classMR_1_1TriTriDistanceParams__Float.html#a7530acae70c14b70d6d1154eb8e45099":[6,3,0,0,0,846,2],
 "classMR_1_1TriTriDistanceParams__Float.html#a806577dc45003cde660f39e3f9cfcd76":[6,3,0,0,0,846,4],
 "classMR_1_1TriTriDistanceParams__Float.html#adf9d0ad674ae7758c71976b948ee065e":[6,3,0,0,0,846,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX59 =
 "classMR_1_1UndirEdgeColorMapAggregator.html#aecfad71bce8ab425f97c9b0302234db7":[6,3,0,0,0,865,12],
 "classMR_1_1UndirEdgeColorMapAggregator.html#aed707045b5a58c9c99c0084a70fa949f":[6,3,0,0,0,865,1],
 "classMR_1_1UndirEdgeColorMapAggregator.html#af7cf95f2867c4b33520ccef323cf62b2":[6,3,0,0,0,865,10],
-"classMR_1_1UndirEdgeColorMapAggregator.html#afa19e310517bd3061a14069301c39000":[6,3,0,0,0,865,11],
-"classMR_1_1UndirectedEdge2RegionMap.html":[6,3,0,0,0,855],
-"classMR_1_1UndirectedEdge2RegionMap.html#a00f5e0a4f435cdd9e369d846fc5ae758":[6,3,0,0,0,855,15],
-"classMR_1_1UndirectedEdge2RegionMap.html#a07ede41cf6460396fa3b7ad6e89295d1":[6,3,0,0,0,855,19],
-"classMR_1_1UndirectedEdge2RegionMap.html#a0cb85311f016255483b9e0d20fe0577b":[6,3,0,0,0,855,6],
-"classMR_1_1UndirectedEdge2RegionMap.html#a1d0d9fac7340fb50e74e50b0628532bc":[6,3,0,0,0,855,23],
-"classMR_1_1UndirectedEdge2RegionMap.html#a2d254f8550100a11476b0c8ab7bc569d":[6,3,0,0,0,855,17],
-"classMR_1_1UndirectedEdge2RegionMap.html#a326b34c5edc4b296d08b7cb04fec9a92":[6,3,0,0,0,855,18],
-"classMR_1_1UndirectedEdge2RegionMap.html#a3ac4748966b25f005748b4ef528cc2f0":[6,3,0,0,0,855,5],
-"classMR_1_1UndirectedEdge2RegionMap.html#a4d40a370128a5a94c81200edb43f60bc":[6,3,0,0,0,855,0],
-"classMR_1_1UndirectedEdge2RegionMap.html#a53d22a3844deca2fc8ac3505791ed5f1":[6,3,0,0,0,855,26]
+"classMR_1_1UndirEdgeColorMapAggregator.html#afa19e310517bd3061a14069301c39000":[6,3,0,0,0,865,11]
 };

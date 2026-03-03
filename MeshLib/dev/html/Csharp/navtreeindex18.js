@@ -1,5 +1,14 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1ChangeObjectColorAction.html#a4b06705d9701327dfc2a508e5fdd6991":[6,3,0,0,0,173,3],
+"classMR_1_1ChangeObjectColorAction.html#a4c7284fa4fbdf8ce9599f39791e4f038":[6,3,0,0,0,173,2],
+"classMR_1_1ChangeObjectColorAction.html#a52b89c279f623118bf4fc13e4f082af2":[6,3,0,0,0,173,0],
+"classMR_1_1ChangeObjectColorAction.html#a5bb10988283b81fba62af16fa217d5b2":[6,3,0,0,0,173,1],
+"classMR_1_1ChangeObjectColorAction.html#a79bb045fe70a850380905d3aa61ee4cc":[6,3,0,0,0,173,7],
+"classMR_1_1ChangeObjectColorAction.html#af20559ea8deddc2284c81b44426ef56c":[6,3,0,0,0,173,6],
+"classMR_1_1ChangeObjectSelectedAction.html":[6,3,0,0,0,174],
+"classMR_1_1ChangeObjectSelectedAction.html#a0336eb6acca1c5e62112603edabeb90b":[6,3,0,0,0,174,3],
+"classMR_1_1ChangeObjectSelectedAction.html#a159ba91cdb0be9c9992637b8221d964e":[6,3,0,0,0,174,8],
 "classMR_1_1ChangeObjectSelectedAction.html#a714f2af8d70c6f4e9a900d65eb167b6c":[6,3,0,0,0,174,2],
 "classMR_1_1ChangeObjectSelectedAction.html#a962cf2821b88d1c79c2616731f4195be":[6,3,0,0,0,174,5],
 "classMR_1_1ChangeObjectSelectedAction.html#a9fb56009f447f3a9a53f8468c97f8c7a":[6,3,0,0,0,174,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1CircleObject.html#a9fb6b111b4f70268b94cd9701fd197ff":[6,3,0,0,0,196,37],
 "classMR_1_1CircleObject.html#aa1fc496827af314c80cebe7165255d99":[6,3,0,0,0,196,36],
 "classMR_1_1CircleObject.html#aa29992fd90543ba9681f90c5023238ab":[6,3,0,0,0,196,41],
-"classMR_1_1CircleObject.html#aa5c011a752be3f83533bda3e0c308888":[6,3,0,0,0,196,54],
-"classMR_1_1CircleObject.html#aaa84300a48af6d64da25686164c96b72":[6,3,0,0,0,196,59],
-"classMR_1_1CircleObject.html#aac625f049a9e0bed787efcd454a3360d":[6,3,0,0,0,196,29],
-"classMR_1_1CircleObject.html#ab0c372a52e07ddcad3817d9774650d1e":[6,3,0,0,0,196,58],
-"classMR_1_1CircleObject.html#ab24a1827ee84b5b9e1557188d058b24a":[6,3,0,0,0,196,65],
-"classMR_1_1CircleObject.html#ab66c5615b72c7f76eec5378f19791fbb":[6,3,0,0,0,196,25],
-"classMR_1_1CircleObject.html#ac268ce915f0a663a58d4c24ad961bcc2":[6,3,0,0,0,196,60],
-"classMR_1_1CircleObject.html#ac3b5bc0ab8419da81405098448c9de4d":[6,3,0,0,0,196,14],
-"classMR_1_1CircleObject.html#ac5ae2541a38dd09a6f492da73848797b":[6,3,0,0,0,196,48],
-"classMR_1_1CircleObject.html#ac9b9913fa30a959d3f8d14e1f4bbd81b":[6,3,0,0,0,196,43]
+"classMR_1_1CircleObject.html#aa5c011a752be3f83533bda3e0c308888":[6,3,0,0,0,196,54]
 };

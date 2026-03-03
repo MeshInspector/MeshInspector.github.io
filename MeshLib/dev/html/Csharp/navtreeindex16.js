@@ -1,5 +1,14 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1Box__Vector4b.html#af42d773d218ff39b7eebdcb234694ef8":[6,3,0,0,0,127,13],
+"classMR_1_1Box__Vector4b.html#af91414a89abc162c7282a8a33b33d0c3":[6,3,0,0,0,127,12],
+"classMR_1_1Box__Vector4d.html":[6,3,0,0,0,128],
+"classMR_1_1Box__Vector4d.html#a025213c5023cf9de9e139ee3d3e2328b":[6,3,0,0,0,128,14],
+"classMR_1_1Box__Vector4d.html#a1a847244b71c3c5290b5c2068815d4b6":[6,3,0,0,0,128,0],
+"classMR_1_1Box__Vector4d.html#a37d3e988b08cf0c2e46288c0b996a04c":[6,3,0,0,0,128,6],
+"classMR_1_1Box__Vector4d.html#a57e0eaab21975556b0c7769b68f22871":[6,3,0,0,0,128,11],
+"classMR_1_1Box__Vector4d.html#a772b9a72e7d02dec8db1b6d3dfc1b930":[6,3,0,0,0,128,10],
+"classMR_1_1Box__Vector4d.html#a7ff229586f1a72b571045e9565400402":[6,3,0,0,0,128,12],
 "classMR_1_1Box__Vector4d.html#a824ba06600ad57a65ce52981fbd9b19c":[6,3,0,0,0,128,2],
 "classMR_1_1Box__Vector4d.html#a8e865c5de4d6d40d4763fb65a03e879c":[6,3,0,0,0,128,9],
 "classMR_1_1Box__Vector4d.html#a98f0ab9e255db61766cf9e574912881d":[6,3,0,0,0,128,13],
@@ -240,14 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1Buffer__MRUndirectedEdgeId__MRUndirectedEdgeId.html#ae2cec5f0f0e3e9681a38bfdcf0b68343":[6,3,0,0,0,149,8],
 "classMR_1_1Buffer__MRUndirectedEdgeId__MRUndirectedEdgeId.html#ae33228fe568e72b0af27293806040ee0":[6,3,0,0,0,149,5],
 "classMR_1_1Buffer__MRUndirectedEdgeId__MRUndirectedEdgeId.html#af17ee982dfc114da902826a131735956":[6,3,0,0,0,149,4],
-"classMR_1_1Buffer__MRVertId.html":[6,3,0,0,0,150],
-"classMR_1_1Buffer__MRVertId.html#a036aed454db30b068e6e925ebe236196":[6,3,0,0,0,150,1],
-"classMR_1_1Buffer__MRVertId.html#a1d1ccf6d45d6b8d3b7f0ac023679d7e9":[6,3,0,0,0,150,6],
-"classMR_1_1Buffer__MRVertId.html#a383ff10d2cf9590d3a20339c5bdc946e":[6,3,0,0,0,150,5],
-"classMR_1_1Buffer__MRVertId.html#a4c8c4e53ccfed424b76fa1cc011c4042":[6,3,0,0,0,150,4],
-"classMR_1_1Buffer__MRVertId.html#a6ce7af156f853722b639203fbc37043b":[6,3,0,0,0,150,7],
-"classMR_1_1Buffer__MRVertId.html#a779101573d52d340c27efa28c78dc552":[6,3,0,0,0,150,3],
-"classMR_1_1Buffer__MRVertId.html#a9d75f370d4174f8ebb35b2c0aee2a002":[6,3,0,0,0,150,0],
-"classMR_1_1Buffer__MRVertId.html#ab014948ebe0c2b817e190d5cd9af7dff":[6,3,0,0,0,150,8],
-"classMR_1_1Buffer__MRVertId.html#ae490b7c593820eec4526b4e58d85dbc5":[6,3,0,0,0,150,2]
+"classMR_1_1Buffer__MRVertId.html":[6,3,0,0,0,150]
 };

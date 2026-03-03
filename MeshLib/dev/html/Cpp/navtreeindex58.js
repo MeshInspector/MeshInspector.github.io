@@ -1,5 +1,14 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1Box.html#acc1e8e06848f35838481ee10e0308cda":[6,0,0,0,2,0,35],
+"structMR_1_1Box.html#acd003ee915daffe1dccdfe6bec573abc":[6,0,0,0,2,0,22],
+"structMR_1_1Box.html#ad11edd7dcd9aece9bebc0a2c388015b5":[6,0,0,0,2,0,33],
+"structMR_1_1Box.html#ad7f75d672fee1cd837085bd09be3c66e":[6,0,0,0,2,0,9],
+"structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598":[6,0,0,0,2,0,10],
+"structMR_1_1Box.html#adcbce4d705b1bf09dd04c5023fe58ec3":[6,0,0,0,2,0,21],
+"structMR_1_1Box.html#ae8181cac57d5ff92d32bfa86bdc5caf3":[6,0,0,0,2,0,30],
+"structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8":[6,0,0,0,2,0,6],
+"structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8":[6,0,0,0,2,0,7],
 "structMR_1_1Box.html#af93a3ccd5c9d9d678844e2578807089f":[6,0,0,0,2,0,26],
 "structMR_1_1BoxedLeaf.html":[6,0,0,1,2],
 "structMR_1_1BoxedLeaf.html#a0b4e56c5de1bf6b3fd5a6a6896e66d46":[6,0,0,1,2,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html":[6,0,0,20,220],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html":[6,0,0,20,221],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html":[6,0,0,20,219],
-"structMR_1_1FileDialogSignals.html":[6,0,0,20,537],
-"structMR_1_1FileDialog_1_1Parameters.html":[6,0,0,20,539],
-"structMR_1_1FileLoadOptions.html":[6,0,0,20,540],
-"structMR_1_1FileParameters.html":[6,0,0,20,538],
-"structMR_1_1FillHoleItem.html":[6,0,0,9,3,2],
-"structMR_1_1FillHoleItem.html#a56124e5a79e5cbe2b1b617d2e142aaa1":[6,0,0,9,3,2,1],
-"structMR_1_1FillHoleItem.html#a93e897d7d608458643fa5ba8a08d2ea2":[6,0,0,9,3,2,0],
-"structMR_1_1FillHoleMetric.html":[6,0,0,9,3,5],
-"structMR_1_1FillHoleMetric.html#a3048bcf785194be02ce20b5d6e6bfd61":[6,0,0,9,3,5,1],
-"structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c":[6,0,0,9,3,5,0]
+"structMR_1_1FileDialogSignals.html":[6,0,0,20,537]
 };

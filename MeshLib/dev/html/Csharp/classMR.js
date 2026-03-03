@@ -1194,6 +1194,14 @@ var classMR =
       [ "Dashed", "classMR.html#a532a14094566b6d3e7ddc8882ceddb70aeb656e41b6da91494775ecf47a51da91", null ],
       [ "Count", "classMR.html#a532a14094566b6d3e7ddc8882ceddb70ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
+    [ "MeshMeshCollisionStatus", "classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39", [
+      [ "BothOutside", "classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39a5bd109aa9c521d02a6d4842204e14e65", null ],
+      [ "BothInside", "classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39a367eb85a870827ec9e5a45dc47ce6240", null ],
+      [ "AInside", "classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39ae89920fda09f72cbdbda991bfd156be2", null ],
+      [ "BInside", "classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39a3190a32683de4e146f9e5ecab2bcbcf5", null ],
+      [ "Colliding", "classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39ae0f4d0dafbcf08dd28d80154056ad0d8", null ],
+      [ "Touching", "classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39a5b32faae4c7bae1011dc7ab43caa1529", null ]
+    ] ],
     [ "MeshVisualizePropertyType", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8", [
       [ "Faces", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8a4f93ea0836ba76b6f9b81e3eee53a3af", null ],
       [ "Texture", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8aa3e8ae43188ae76d38f414b2bdb0077b", null ],
@@ -2297,6 +2305,8 @@ var classMR =
     [ "findCollidingEdgeTrisPrecise", "classMR.html#ac57b6cf27226bb16b27d170b7369299b", null ],
     [ "findCollidingTriangleBitsets", "classMR.html#a1978d5611d354465f185c478e53a7427", null ],
     [ "findCollidingTriangles", "classMR.html#a2bc76946246b05ff9eb28007b1965e1d", null ],
+    [ "findCollisionStatus", "classMR.html#a365ddaac42ed576130e880a13d39a9d9", null ],
+    [ "findCollisionStatus", "classMR.html#a900d3953a566048b43bc60ce0b7aea41", null ],
     [ "findCreaseEdges", "classMR.html#a52092e06f802b6d68a888a9dded3b0d6", null ],
     [ "findDegenerateFaces", "classMR.html#a500b1cc3193a3597ea42beb4e46b3156", null ],
     [ "findDirMax", "classMR.html#ad9724cf4e3dd05a06cb7118a85eb2626", null ],

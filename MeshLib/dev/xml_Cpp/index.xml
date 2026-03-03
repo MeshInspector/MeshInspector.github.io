@@ -5371,6 +5371,7 @@
   <compound refid="structMR_1_1MeshMeshSignedDistanceResult" kind="struct"><name>MR::MeshMeshSignedDistanceResult</name>
     <member refid="structMR_1_1MeshMeshSignedDistanceResult_1a642ae2b2d6307510e4c0d80c5157ebbb" kind="variable"><name>a</name></member>
     <member refid="structMR_1_1MeshMeshSignedDistanceResult_1a23af96a4b4cd53382d78f9c0356b4c09" kind="variable"><name>b</name></member>
+    <member refid="structMR_1_1MeshMeshSignedDistanceResult_1a2dde76f179a4bcac69592b196d1b91ab" kind="variable"><name>status</name></member>
     <member refid="structMR_1_1MeshMeshSignedDistanceResult_1abe11291a5f4afd550ef7697c23ba7410" kind="variable"><name>signedDist</name></member>
   </compound>
   <compound refid="classMR_1_1MeshModifier" kind="class"><name>MR::MeshModifier</name>
@@ -13523,6 +13524,7 @@
     <member refid="group__DecimateGroup_1ga216960c15f7b00558ab28053967a9615" kind="enum"><name>DecimateStrategy</name></member>
     <member refid="group__MeshDeloneGroup_1gaa3ebc28a0c17a0a5fc0c9b90a97bfc95" kind="enum"><name>FlipEdge</name></member>
     <member refid="group__AABBTreeGroup_1ga3dd2fd9fcc06b6502d22a9ea3eb63e47" kind="enum"><name>ProcessOneResult</name></member>
+    <member refid="group__AABBTreeGroup_1ga5aa465c33f4b7d12b07ec82baf32654b" kind="enum"><name>MeshMeshCollisionStatus</name></member>
     <member refid="group__GeneralGroup_1gab8659c12eb8fa6618f154566efce6146" kind="enum"><name>OutlierTypeMask</name></member>
     <member refid="group__DistanceMapGroup_1gab7acb4543154d042c297e5823fb633b6" kind="enum"><name>OutEdge2</name></member>
     <member refid="group__GeneralGroup_1ga6ab288ae813e1aa688312e31c258df71" kind="enum"><name>RelaxApproxType</name></member>
@@ -14599,6 +14601,8 @@
     <member refid="group__GeneralGroup_1ga8584ba296269c36fb978e0c964c011bc" kind="function"><name>findCenterFromBBox</name></member>
     <member refid="group__AABBTreeGroup_1ga34f61c1aafa08f324c2dee292bf3f326" kind="function"><name>findDistance</name></member>
     <member refid="group__AABBTreeGroup_1gab642f8e551c4fcc0af6b2301e55e3a85" kind="function"><name>findSignedDistance</name></member>
+    <member refid="group__AABBTreeGroup_1ga38b71b662d44f03abb5df7e3d21dba69" kind="function"><name>findCollisionStatus</name></member>
+    <member refid="group__AABBTreeGroup_1ga31f767d0a19b8491ab1df673478ea044" kind="function"><name>findCollisionStatus</name></member>
     <member refid="group__AABBTreeGroup_1ga27ff8608a418f39b18f07f8db69d07d4" kind="function"><name>findMaxDistanceSqOneWay</name></member>
     <member refid="group__AABBTreeGroup_1ga45e61b0f865d15d2172777953f29b4b1" kind="function"><name>findMaxDistanceSq</name></member>
     <member refid="group__FillHoleGroup_1ga633f1395df33828b2f19fc042879aa29" kind="function"><name>calcCombinedFillMetric</name></member>
@@ -17874,6 +17878,13 @@
     <member refid="group__AABBTreeGroup_1ga3dd2fd9fcc06b6502d22a9ea3eb63e47" kind="enum"><name>ProcessOneResult</name></member>
     <member refid="group__AABBTreeGroup_1gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612" kind="enumvalue"><name>StopProcessing</name></member>
     <member refid="group__AABBTreeGroup_1gga3dd2fd9fcc06b6502d22a9ea3eb63e47aab6bb60f51b25ae0f7ec450173e3348e" kind="enumvalue"><name>ContinueProcessing</name></member>
+    <member refid="group__AABBTreeGroup_1ga5aa465c33f4b7d12b07ec82baf32654b" kind="enum"><name>MeshMeshCollisionStatus</name></member>
+    <member refid="group__AABBTreeGroup_1gga5aa465c33f4b7d12b07ec82baf32654ba5bd109aa9c521d02a6d4842204e14e65" kind="enumvalue"><name>BothOutside</name></member>
+    <member refid="group__AABBTreeGroup_1gga5aa465c33f4b7d12b07ec82baf32654ba367eb85a870827ec9e5a45dc47ce6240" kind="enumvalue"><name>BothInside</name></member>
+    <member refid="group__AABBTreeGroup_1gga5aa465c33f4b7d12b07ec82baf32654bae89920fda09f72cbdbda991bfd156be2" kind="enumvalue"><name>AInside</name></member>
+    <member refid="group__AABBTreeGroup_1gga5aa465c33f4b7d12b07ec82baf32654ba3190a32683de4e146f9e5ecab2bcbcf5" kind="enumvalue"><name>BInside</name></member>
+    <member refid="group__AABBTreeGroup_1gga5aa465c33f4b7d12b07ec82baf32654bae0f4d0dafbcf08dd28d80154056ad0d8" kind="enumvalue"><name>Colliding</name></member>
+    <member refid="group__AABBTreeGroup_1gga5aa465c33f4b7d12b07ec82baf32654ba5b32faae4c7bae1011dc7ab43caa1529" kind="enumvalue"><name>Touching</name></member>
     <member refid="group__AABBTreeGroup_1ga2d9f9e10f5365b971c9f7300264be632" kind="typedef"><name>FaceTreeTraits3</name></member>
     <member refid="group__AABBTreeGroup_1ga876e325460f0c5460c1e453324ca329c" kind="typedef"><name>LineTreeTraits</name></member>
     <member refid="group__AABBTreeGroup_1ga346d2e7774495e3e4ca05a2325f11aaf" kind="typedef"><name>LineTreeTraits2</name></member>
@@ -17942,6 +17953,8 @@
     <member refid="group__AABBTreeGroup_1gaaca7d2972259949e2583eb7ddb97d335" kind="function"><name>xyPlaneMeshIntersect</name></member>
     <member refid="group__AABBTreeGroup_1ga34f61c1aafa08f324c2dee292bf3f326" kind="function"><name>findDistance</name></member>
     <member refid="group__AABBTreeGroup_1gab642f8e551c4fcc0af6b2301e55e3a85" kind="function"><name>findSignedDistance</name></member>
+    <member refid="group__AABBTreeGroup_1ga38b71b662d44f03abb5df7e3d21dba69" kind="function"><name>findCollisionStatus</name></member>
+    <member refid="group__AABBTreeGroup_1ga31f767d0a19b8491ab1df673478ea044" kind="function"><name>findCollisionStatus</name></member>
     <member refid="group__AABBTreeGroup_1ga27ff8608a418f39b18f07f8db69d07d4" kind="function"><name>findMaxDistanceSqOneWay</name></member>
     <member refid="group__AABBTreeGroup_1ga45e61b0f865d15d2172777953f29b4b1" kind="function"><name>findMaxDistanceSq</name></member>
     <member refid="group__AABBTreeGroup_1gaae6b5143199ddd407f3703c52fb0d1a8" kind="function"><name>createProjectionTransforms</name></member>

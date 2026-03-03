@@ -1,5 +1,15 @@
 var NAVTREEINDEX69 =
 {
+"classMR_1_1VoxelBitSet.html#a0e7fc06df357b51d02d5b4599723ef9f":[6,3,0,0,0,971,9],
+"classMR_1_1VoxelBitSet.html#a0fd100d4a9c240e755699c34a4177e83":[6,3,0,0,0,971,22],
+"classMR_1_1VoxelBitSet.html#a12840dde980a3d21bff449fcab13815e":[6,3,0,0,0,971,17],
+"classMR_1_1VoxelBitSet.html#a17bcdd946c29440f8bfd93f835ffa18f":[6,3,0,0,0,971,18],
+"classMR_1_1VoxelBitSet.html#a2edd004846c84487e79ef3a670479ebb":[6,3,0,0,0,971,24],
+"classMR_1_1VoxelBitSet.html#a30bb3168a3fd49a53ebffb13d2fae585":[6,3,0,0,0,971,0],
+"classMR_1_1VoxelBitSet.html#a49f09f677ab328b1780cd49bd4f570b8":[6,3,0,0,0,971,10],
+"classMR_1_1VoxelBitSet.html#a51fded1494c9d75a8190d2af5edb42f5":[6,3,0,0,0,971,7],
+"classMR_1_1VoxelBitSet.html#a5afa082d80c9b8db0cdd09a3d047f15b":[6,3,0,0,0,971,26],
+"classMR_1_1VoxelBitSet.html#a5c8f81fbcb2acd92e00bcc7e8700a144":[6,3,0,0,0,971,13],
 "classMR_1_1VoxelBitSet.html#a602b2e76091b4b95cc3e05a1b427ad8c":[6,3,0,0,0,971,34],
 "classMR_1_1VoxelBitSet.html#a617e59aa3c5403cc768a86790e832ca0":[6,3,0,0,0,971,14],
 "classMR_1_1VoxelBitSet.html#a652c80cb5d3aa2cc71ffa89748b96f25":[6,3,0,0,0,971,33],
@@ -239,15 +249,5 @@ var NAVTREEINDEX69 =
 "classMR_1_1WatershedGraph.html#a23d6b3bc273652e246115fee49451b6a":[6,3,0,0,0,991,8],
 "classMR_1_1WatershedGraph.html#a5b2c2401848105a2680e58cd003d954c":[6,3,0,0,0,991,5],
 "classMR_1_1WatershedGraph.html#ab19b95643e86cffe573d2e090d07a208":[6,3,0,0,0,991,2],
-"classMR_1_1WatershedGraph.html#aba4bc53a0ef298617141d5668abd953c":[6,3,0,0,0,991,1],
-"classMR_1_1WatershedGraph.html#aba8155ec71a26aeb3390e5f25c3f4a6c":[6,3,0,0,0,991,6],
-"classMR_1_1WeightedShell.html":[6,3,0,0,0,992],
-"classMR_1_1WeightedShell.html#a06e94717e57a00157fcde0c34721f6dc":[6,3,0,0,0,992,6],
-"classMR_1_1WeightedShell.html#a763a6fe685b45f4558b004904cd284eb":[6,3,0,0,0,992,4],
-"classMR_1_1WeightedShell.html#a8760db9d0c498327bdb200da4b78de33":[6,3,0,0,0,992,5],
-"classMR_1_1WeightedShell.html#ab49f78a785d0670be3517d4052aff824":[6,3,0,0,0,992,10],
-"classMR_1_1WeightedShell.html#acea209e9f19afa7cdac2593429765dd3":[6,3,0,0,0,992,9],
-"classMR_1_1WeightedShell.html#ad8babcfcf4a060f9f9099d5063f06462":[6,3,0,0,0,992,8],
-"classMR_1_1WeightedShell.html#ae3595b4bcd950272f4aa52f03f698052":[6,3,0,0,0,992,7],
-"classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html":[6,3,0,0,0,992,0]
+"classMR_1_1WatershedGraph.html#aba4bc53a0ef298617141d5668abd953c":[6,3,0,0,0,991,1]
 };

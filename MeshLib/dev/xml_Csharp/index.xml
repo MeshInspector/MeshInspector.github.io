@@ -10132,10 +10132,11 @@
   <compound refid="classMR_1_1MeshMeshSignedDistanceResult" kind="class"><name>MR::MeshMeshSignedDistanceResult</name>
     <member refid="classMR_1_1MeshMeshSignedDistanceResult_1aa5664deb655e09cc7f6f60b3e2c682e6" kind="property"><name>a</name></member>
     <member refid="classMR_1_1MeshMeshSignedDistanceResult_1acc4007475fc7333ebb102fc7994128d3" kind="property"><name>b</name></member>
+    <member refid="classMR_1_1MeshMeshSignedDistanceResult_1aa56137be4f7cd124dff810f3f96f7d01" kind="property"><name>status</name></member>
     <member refid="classMR_1_1MeshMeshSignedDistanceResult_1a68365c09a13ab4f28a9999397a5e577e" kind="property"><name>signedDist</name></member>
     <member refid="classMR_1_1MeshMeshSignedDistanceResult_1aaa6948d549b95d3a8265643e0fd6ce80" kind="function"><name>MeshMeshSignedDistanceResult</name></member>
     <member refid="classMR_1_1MeshMeshSignedDistanceResult_1ae0289f3e7fed258e813ddd931298d42a" kind="function"><name>MeshMeshSignedDistanceResult</name></member>
-    <member refid="classMR_1_1MeshMeshSignedDistanceResult_1a5bbd24fbfbb8e73b8fc3d4bed6b2da19" kind="function"><name>MeshMeshSignedDistanceResult</name></member>
+    <member refid="classMR_1_1MeshMeshSignedDistanceResult_1a54996868ad7c7ac38e63b21057a5eb72" kind="function"><name>MeshMeshSignedDistanceResult</name></member>
     <member refid="classMR_1_1MeshMeshSignedDistanceResult_1a1fd38ab2fdaaa466e855987056373ee4" kind="function"><name>MeshMeshSignedDistanceResult</name></member>
     <member refid="classMR_1_1MeshMeshSignedDistanceResult_1acc7303e43d88f00e5e7635efdf69ea56" kind="function"><name>MeshMeshSignedDistanceResult</name></member>
     <member refid="classMR_1_1MeshMeshSignedDistanceResult_1a47ea2bb46009b834e6865fdf6d273702" kind="function"><name>assign</name></member>
@@ -10769,6 +10770,13 @@
     <member refid="classMR_1ae4a363c7703389ade0f30371b85db9b7" kind="enum"><name>ProcessOneResult</name></member>
     <member refid="classMR_1ae4a363c7703389ade0f30371b85db9b7a38e59feb928e37292c8ee0a50f447612" kind="enumvalue"><name>StopProcessing</name></member>
     <member refid="classMR_1ae4a363c7703389ade0f30371b85db9b7aab6bb60f51b25ae0f7ec450173e3348e" kind="enumvalue"><name>ContinueProcessing</name></member>
+    <member refid="classMR_1a1cf37cd7b222ba87173bfdd5deb9eb39" kind="enum"><name>MeshMeshCollisionStatus</name></member>
+    <member refid="classMR_1a1cf37cd7b222ba87173bfdd5deb9eb39a5bd109aa9c521d02a6d4842204e14e65" kind="enumvalue"><name>BothOutside</name></member>
+    <member refid="classMR_1a1cf37cd7b222ba87173bfdd5deb9eb39a367eb85a870827ec9e5a45dc47ce6240" kind="enumvalue"><name>BothInside</name></member>
+    <member refid="classMR_1a1cf37cd7b222ba87173bfdd5deb9eb39ae89920fda09f72cbdbda991bfd156be2" kind="enumvalue"><name>AInside</name></member>
+    <member refid="classMR_1a1cf37cd7b222ba87173bfdd5deb9eb39a3190a32683de4e146f9e5ecab2bcbcf5" kind="enumvalue"><name>BInside</name></member>
+    <member refid="classMR_1a1cf37cd7b222ba87173bfdd5deb9eb39ae0f4d0dafbcf08dd28d80154056ad0d8" kind="enumvalue"><name>Colliding</name></member>
+    <member refid="classMR_1a1cf37cd7b222ba87173bfdd5deb9eb39a5b32faae4c7bae1011dc7ab43caa1529" kind="enumvalue"><name>Touching</name></member>
     <member refid="classMR_1a62382e7777b8653845c52f97f4d1cef8" kind="enum"><name>DimensionsVisualizePropertyType</name></member>
     <member refid="classMR_1a62382e7777b8653845c52f97f4d1cef8ab5f694488326076ff200c7ab955c0455" kind="enumvalue"><name>Diameter</name></member>
     <member refid="classMR_1a62382e7777b8653845c52f97f4d1cef8a45f4ce6c3306644b1efe333f4f8d6929" kind="enumvalue"><name>Angle</name></member>
@@ -11669,6 +11677,8 @@
     <member refid="classMR_1a9cde2c980088832e708249c894e39cb6" kind="function"><name>findCenterFromBBox</name></member>
     <member refid="classMR_1a5deaa5a8ef44bf6685c067e96db46668" kind="function"><name>findDistance</name></member>
     <member refid="classMR_1af11021efa4a8fbedde739d07af5b8cc5" kind="function"><name>findSignedDistance</name></member>
+    <member refid="classMR_1a365ddaac42ed576130e880a13d39a9d9" kind="function"><name>findCollisionStatus</name></member>
+    <member refid="classMR_1a900d3953a566048b43bc60ce0b7aea41" kind="function"><name>findCollisionStatus</name></member>
     <member refid="classMR_1a3fd71ea2dd3e1993abb8233fd95ff43d" kind="function"><name>findMaxDistanceSqOneWay</name></member>
     <member refid="classMR_1a76dd6a520998891817cc60f00d838162" kind="function"><name>findMaxDistanceSq</name></member>
     <member refid="classMR_1a006681b59afe07a794e35d3e1e2b9139" kind="function"><name>calcCombinedFillMetric</name></member>

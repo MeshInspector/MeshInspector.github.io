@@ -656,6 +656,7 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.MeshLoad", "classmrmeshpy_1_1MeshLoad.html", null ],
     [ "mrmeshpy.MeshLoadSettings", "classmrmeshpy_1_1MeshLoadSettings.html", null ],
+    [ "mrmeshpy.MeshMeshCollisionStatus", "classmrmeshpy_1_1MeshMeshCollisionStatus.html", null ],
     [ "mrmeshpy.MeshMeshConverter", "classmrmeshpy_1_1MeshMeshConverter.html", null ],
     [ "mrmeshpy.MeshMeshDistanceResult", "classmrmeshpy_1_1MeshMeshDistanceResult.html", null ],
     [ "mrmeshpy.MeshMeshSignedDistanceResult", "classmrmeshpy_1_1MeshMeshSignedDistanceResult.html", null ],

@@ -1,5 +1,14 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1FileDialog_1_1Parameters.html":[6,0,0,20,539],
+"structMR_1_1FileLoadOptions.html":[6,0,0,20,540],
+"structMR_1_1FileParameters.html":[6,0,0,20,538],
+"structMR_1_1FillHoleItem.html":[6,0,0,9,3,2],
+"structMR_1_1FillHoleItem.html#a56124e5a79e5cbe2b1b617d2e142aaa1":[6,0,0,9,3,2,1],
+"structMR_1_1FillHoleItem.html#a93e897d7d608458643fa5ba8a08d2ea2":[6,0,0,9,3,2,0],
+"structMR_1_1FillHoleMetric.html":[6,0,0,9,3,5],
+"structMR_1_1FillHoleMetric.html#a3048bcf785194be02ce20b5d6e6bfd61":[6,0,0,9,3,5,1],
+"structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c":[6,0,0,9,3,5,0],
 "structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22":[6,0,0,9,3,5,2],
 "structMR_1_1FillHoleNicelySettings.html":[6,0,0,20,234],
 "structMR_1_1FillHoleParams.html":[6,0,0,9,3,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a07cda3bf338976041c1a33d4192edc2a":[6,0,2,0,2,7,7,11],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0a1278a05c920fa5388ad95ecba19945":[6,0,1,0,1,16,7,27],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0a1278a05c920fa5388ad95ecba19945":[6,0,2,0,2,7,7,27],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0bf2a98fd40dd55c53c03eff0ef22f9d":[6,0,1,0,1,16,7,19],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0bf2a98fd40dd55c53c03eff0ef22f9d":[6,0,2,0,2,7,7,19],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0ce71acf2dfa183f8f1ac48a132d2978":[6,0,1,0,1,16,7,20],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0ce71acf2dfa183f8f1ac48a132d2978":[6,0,2,0,2,7,7,20],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0eadf7819b37ebaad2aa7beed0b9899c":[6,0,1,0,1,16,7,26],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0eadf7819b37ebaad2aa7beed0b9899c":[6,0,2,0,2,7,7,26],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a1cf0d10de380a1426ddb2c0887c09fa8":[6,0,1,0,1,16,7,12],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a1cf0d10de380a1426ddb2c0887c09fa8":[6,0,2,0,2,7,7,12],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a1de83d675e9cc8f326bca68a76eb52c3":[6,0,1,0,1,16,7,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a1de83d675e9cc8f326bca68a76eb52c3":[6,0,2,0,2,7,7,1]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0bf2a98fd40dd55c53c03eff0ef22f9d":[6,0,1,0,1,16,7,19]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX12 =
 {
+"classMR_1_1Ball1d.html#a0e1475384932c4be7648654d0a9a9fdb":[6,3,0,0,0,27,6],
+"classMR_1_1Ball1d.html#a58f1070d4c4ccd95abe6d0d1343e381f":[6,3,0,0,0,27,4],
+"classMR_1_1Ball1d.html#a60d3f7e0a0c74b6af7b8c07ebf4d715b":[6,3,0,0,0,27,3],
+"classMR_1_1Ball1d.html#a7838bac2595b34a98e8f190d8fdef9b5":[6,3,0,0,0,27,5],
+"classMR_1_1Ball1d.html#a9b5ee976b101e1e8965780de822241b0":[6,3,0,0,0,27,0],
+"classMR_1_1Ball1d.html#aa80f413a99df3fc6c3e894ceecffbf85":[6,3,0,0,0,27,1],
+"classMR_1_1Ball1d.html#ae3b8ea5bcf082e919466f7513750b086":[6,3,0,0,0,27,2],
+"classMR_1_1Ball1f.html":[6,3,0,0,0,28],
+"classMR_1_1Ball1f.html#a23f9dbd641fcfe538280ab27ded7d3f5":[6,3,0,0,0,28,2],
 "classMR_1_1Ball1f.html#a3427787b062d070032a5710ae70d2f9e":[6,3,0,0,0,28,4],
 "classMR_1_1Ball1f.html#a43d1a69c50e781bb78b787e1b8b41df6":[6,3,0,0,0,28,1],
 "classMR_1_1Ball1f.html#a536d09726b5d2c7eaa4041e4f5e69c7c":[6,3,0,0,0,28,6],
@@ -240,14 +249,5 @@ var NAVTREEINDEX12 =
 "classMR_1_1Box__AffineXf3f.html#a30336d80c07f1b1624ca0fe36e83b2e3":[6,3,0,0,0,76,1],
 "classMR_1_1Box__AffineXf3f.html#a3c20aa3856a8b9d38c0e3f077a899281":[6,3,0,0,0,76,2],
 "classMR_1_1Box__AffineXf3f.html#a463a3340d735f7d822bbce972a0c9e8a":[6,3,0,0,0,76,6],
-"classMR_1_1Box__AffineXf3f.html#a499bac923377d23e904b1dbfeb829246":[6,3,0,0,0,76,4],
-"classMR_1_1Box__AffineXf3f.html#a4c5e44e68ef1268b77ab622fad9b7218":[6,3,0,0,0,76,7],
-"classMR_1_1Box__AffineXf3f.html#a4ff89a4c607321adeaa1c53f9def5715":[6,3,0,0,0,76,3],
-"classMR_1_1Box__AffineXf3f.html#ab93fbaf647f7cdda866510fc29cfeeef":[6,3,0,0,0,76,5],
-"classMR_1_1Box__AffineXf3f.html#ae2e8c0bdb01ca7d3c5d1d8b5a751a285":[6,3,0,0,0,76,0],
-"classMR_1_1Box__Box1d.html":[6,3,0,0,0,77],
-"classMR_1_1Box__Box1d.html#a28f7753ad9f10ef18855fc67e83f2c8d":[6,3,0,0,0,77,8],
-"classMR_1_1Box__Box1d.html#a5af6a18772ec4cd96e98730ddad625a9":[6,3,0,0,0,77,10],
-"classMR_1_1Box__Box1d.html#a645c4923cfd2832f35b3291717f1ba06":[6,3,0,0,0,77,9],
-"classMR_1_1Box__Box1d.html#a656abf9300c822b069412dd9c4d28c85":[6,3,0,0,0,77,7]
+"classMR_1_1Box__AffineXf3f.html#a499bac923377d23e904b1dbfeb829246":[6,3,0,0,0,76,4]
 };

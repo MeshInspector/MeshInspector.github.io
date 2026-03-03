@@ -1,5 +1,15 @@
 var NAVTREEINDEX70 =
 {
+"classMR_1_1WatershedGraph.html#aba8155ec71a26aeb3390e5f25c3f4a6c":[6,3,0,0,0,991,6],
+"classMR_1_1WeightedShell.html":[6,3,0,0,0,992],
+"classMR_1_1WeightedShell.html#a06e94717e57a00157fcde0c34721f6dc":[6,3,0,0,0,992,6],
+"classMR_1_1WeightedShell.html#a763a6fe685b45f4558b004904cd284eb":[6,3,0,0,0,992,4],
+"classMR_1_1WeightedShell.html#a8760db9d0c498327bdb200da4b78de33":[6,3,0,0,0,992,5],
+"classMR_1_1WeightedShell.html#ab49f78a785d0670be3517d4052aff824":[6,3,0,0,0,992,10],
+"classMR_1_1WeightedShell.html#acea209e9f19afa7cdac2593429765dd3":[6,3,0,0,0,992,9],
+"classMR_1_1WeightedShell.html#ad8babcfcf4a060f9f9099d5063f06462":[6,3,0,0,0,992,8],
+"classMR_1_1WeightedShell.html#ae3595b4bcd950272f4aa52f03f698052":[6,3,0,0,0,992,7],
+"classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html":[6,3,0,0,0,992,0],
 "classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a0c22f38220e879d0bcd2cb86ae4f849d":[6,3,0,0,0,992,0,0],
 "classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a2802283c32fa712993fa8288b1958dac":[6,3,0,0,0,992,0,4],
 "classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a3282a5d7767b91c2c2524ec5617845c2":[6,3,0,0,0,992,0,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1AffineXf2f.html#a406836753a6f25a37a5a874cce1fc638":[6,3,0,0,0,20,15],
 "structMR_1_1AffineXf2f.html#a5f7139de5e4d118fa3c927ff532f08d0":[6,3,0,0,0,20,5],
 "structMR_1_1AffineXf2f.html#a7bc2f975069f8af7e352088962a5a60e":[6,3,0,0,0,20,8],
-"structMR_1_1AffineXf2f.html#a9640aa0acc437568580b38a4acb08757":[6,3,0,0,0,20,12],
-"structMR_1_1AffineXf2f.html#a99bcaa8b0ea9be1d1962cf167766a3c4":[6,3,0,0,0,20,14],
-"structMR_1_1AffineXf2f.html#a9ee7a1d54c2cb17cbc7a4c5d04153a9b":[6,3,0,0,0,20,0],
-"structMR_1_1AffineXf2f.html#aac0a91e2425fbdefa13349382cb3c81f":[6,3,0,0,0,20,10],
-"structMR_1_1AffineXf2f.html#aac81b64dd24cc88984a44a18b7863b1a":[6,3,0,0,0,20,7],
-"structMR_1_1AffineXf2f.html#ab4e8e68b730d12f1738d167d515c3e6d":[6,3,0,0,0,20,11],
-"structMR_1_1AffineXf2f.html#ababcd902ada4a04a936021324d78ef0d":[6,3,0,0,0,20,16],
-"structMR_1_1AffineXf2f.html#ac45a936935b7edbd6604559e20077f2c":[6,3,0,0,0,20,9],
-"structMR_1_1AffineXf2f.html#ace4548b3b4dbe382235be5c3666c6883":[6,3,0,0,0,20,4],
-"structMR_1_1AffineXf2f.html#ad1abc8dcba032c2e4cfcf8b3831d252d":[6,3,0,0,0,20,1],
-"structMR_1_1AffineXf2f.html#ad7087522e0fae8e617c55df4f4e882c9":[6,3,0,0,0,20,6]
+"structMR_1_1AffineXf2f.html#a9640aa0acc437568580b38a4acb08757":[6,3,0,0,0,20,12]
 };

@@ -914,7 +914,7 @@ var searchData=
   ['startvertices_162',['startVertices',['../group__GeneralGroup.html#gadf1fc52d9134c621ba9630531ee2c99d',1,'MR::ToolPathParams']]],
   ['state_163',['state',['../group__GeneralGroup.html#ga739535ad2c8198dd5cdc5b804b4d20c2',1,'MR::CommandLoop::Command']]],
   ['staticrotationpivot_164',['staticRotationPivot',['../group__GeneralGroup.html#gaba40f3c99bf1294e53abdd88d21278e8',1,'MR::Viewport::Parameters']]],
-  ['status_165',['status',['../group__GeneralGroup.html#ga86193b4dbe9a464e56ff2fe272c46486',1,'MR::Features::MeasureResult::BasicPart::status'],['../group__GeneralGroup.html#ga69fabaf9380693815d99277fda43022f',1,'MR::VoxelsLoad::DicomStatus::status']]],
+  ['status_165',['status',['../group__GeneralGroup.html#ga86193b4dbe9a464e56ff2fe272c46486',1,'MR::Features::MeasureResult::BasicPart::status'],['../structMR_1_1MeshMeshSignedDistanceResult.html#a2dde76f179a4bcac69592b196d1b91ab',1,'MR::MeshMeshSignedDistanceResult::status'],['../group__GeneralGroup.html#ga69fabaf9380693815d99277fda43022f',1,'MR::VoxelsLoad::DicomStatus::status']]],
   ['stipple_166',['stipple',['../structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a4c52dc063bae4dcacd4b598c59cc3be2',1,'MR::ImGuiMeasurementIndicators::LineBodyParams']]],
   ['stippledashed_167',['stippleDashed',['../structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0ce71acf2dfa183f8f1ac48a132d2978',1,'MR::ImGuiMeasurementIndicators::Params']]],
   ['stop_168',['stop',['../structMR_1_1VoxelMetricParameters.html#ab2680e847f9d7f989c60b09700889278',1,'MR::VoxelMetricParameters']]],

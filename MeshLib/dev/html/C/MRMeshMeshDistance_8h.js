@@ -1,7 +1,18 @@
 var MRMeshMeshDistance_8h =
 [
+    [ "MR_MeshMeshCollisionStatus", "MRMeshMeshDistance_8h.html#a874c63df4bd4f8e56227d175e1ccc9f9", null ],
     [ "MR_MeshMeshDistanceResult", "MRMeshMeshDistance_8h.html#aaaef17266d43a3f23b258d9769d940f7", null ],
     [ "MR_MeshMeshSignedDistanceResult", "MRMeshMeshDistance_8h.html#a04beb5153370f051a06c0671724b799f", null ],
+    [ "MR_MeshMeshCollisionStatus", "MRMeshMeshDistance_8h.html#af5d6eaeae1f8126e28c3d65b47bbef83", [
+      [ "MR_MeshMeshCollisionStatus_BothOutside", "MRMeshMeshDistance_8h.html#af5d6eaeae1f8126e28c3d65b47bbef83a6221aa2ffd4a7d65c1d85cd445c9924f", null ],
+      [ "MR_MeshMeshCollisionStatus_BothInside", "MRMeshMeshDistance_8h.html#af5d6eaeae1f8126e28c3d65b47bbef83a012ddb52e8a15fea449daa516a0d3401", null ],
+      [ "MR_MeshMeshCollisionStatus_AInside", "MRMeshMeshDistance_8h.html#af5d6eaeae1f8126e28c3d65b47bbef83acaf00d12fe13afa3c1a7b6a0dce0ff8e", null ],
+      [ "MR_MeshMeshCollisionStatus_BInside", "MRMeshMeshDistance_8h.html#af5d6eaeae1f8126e28c3d65b47bbef83a704c72b2651d9cf6e42b89c8fb89c9a4", null ],
+      [ "MR_MeshMeshCollisionStatus_Colliding", "MRMeshMeshDistance_8h.html#af5d6eaeae1f8126e28c3d65b47bbef83a431b1febbaa4db72377a6c4c07acb2c0", null ],
+      [ "MR_MeshMeshCollisionStatus_Touching", "MRMeshMeshDistance_8h.html#af5d6eaeae1f8126e28c3d65b47bbef83aa6cf0947b83955fdcd448cebbabf4c00", null ]
+    ] ],
+    [ "MR_findCollisionStatus_3", "MRMeshMeshDistance_8h.html#a867cd37c7bd2ce7b00746d9f0143e890", null ],
+    [ "MR_findCollisionStatus_5", "MRMeshMeshDistance_8h.html#aa60c6f198d7cd7932aa76e42e38f3d8b", null ],
     [ "MR_findDistance", "MRMeshMeshDistance_8h.html#a0ddc3e091c81df61792f1be0d3efc9ac", null ],
     [ "MR_findMaxDistanceSq_MR_MeshPart", "MRMeshMeshDistance_8h.html#aca0a1e41eae8e5341359074904b1d5d8", null ],
     [ "MR_findMaxDistanceSqOneWay_MR_MeshPart", "MRMeshMeshDistance_8h.html#aa37f1c0b217c29426a2ec7de035b6d30", null ],
@@ -25,7 +36,7 @@ var MRMeshMeshDistance_8h =
     [ "MR_MeshMeshDistanceResult_Set_b", "MRMeshMeshDistance_8h.html#a042826741caa4022071cd068e8cfb0bd", null ],
     [ "MR_MeshMeshDistanceResult_Set_distSq", "MRMeshMeshDistance_8h.html#aef907d02539e2281c4ad5fe132e86bcc", null ],
     [ "MR_MeshMeshSignedDistanceResult_AssignFromAnother", "MRMeshMeshDistance_8h.html#a7d819d874cc53464fe15ecf507641ba0", null ],
-    [ "MR_MeshMeshSignedDistanceResult_ConstructFrom", "MRMeshMeshDistance_8h.html#a626bf20715d1c24acc3ed5cde9b450df", null ],
+    [ "MR_MeshMeshSignedDistanceResult_ConstructFrom", "MRMeshMeshDistance_8h.html#a6d6a7f97b5fd82528b0eb62965940f78", null ],
     [ "MR_MeshMeshSignedDistanceResult_ConstructFromAnother", "MRMeshMeshDistance_8h.html#a13bccd6e2698116d8ced1de6a54e9850", null ],
     [ "MR_MeshMeshSignedDistanceResult_DefaultConstruct", "MRMeshMeshDistance_8h.html#ace152260c3addd26489d6b820c02170e", null ],
     [ "MR_MeshMeshSignedDistanceResult_DefaultConstructArray", "MRMeshMeshDistance_8h.html#aed16edb553fbe329af51c09f56d3d2da", null ],
@@ -34,12 +45,15 @@ var MRMeshMeshDistance_8h =
     [ "MR_MeshMeshSignedDistanceResult_Get_a", "MRMeshMeshDistance_8h.html#aa799c50d6327a1a6fa4a152cd8ba57ec", null ],
     [ "MR_MeshMeshSignedDistanceResult_Get_b", "MRMeshMeshDistance_8h.html#aa98e84493be8ff71f49b5df5dda6c79c", null ],
     [ "MR_MeshMeshSignedDistanceResult_Get_signedDist", "MRMeshMeshDistance_8h.html#adbf43eaaf0b6523e733c5d03ac3c5a46", null ],
+    [ "MR_MeshMeshSignedDistanceResult_Get_status", "MRMeshMeshDistance_8h.html#a390c60d588766bda7363664fd1ab3caf", null ],
     [ "MR_MeshMeshSignedDistanceResult_GetMutable_a", "MRMeshMeshDistance_8h.html#a59ec7adf4e004801552ce2c62395b2c7", null ],
     [ "MR_MeshMeshSignedDistanceResult_GetMutable_b", "MRMeshMeshDistance_8h.html#a4598f714ce3defde54199c1babdacce3", null ],
     [ "MR_MeshMeshSignedDistanceResult_GetMutable_signedDist", "MRMeshMeshDistance_8h.html#ae13e9092c6a21819674a665274b1af88", null ],
+    [ "MR_MeshMeshSignedDistanceResult_GetMutable_status", "MRMeshMeshDistance_8h.html#ab701f778ccd9432400a1819a9bb194de", null ],
     [ "MR_MeshMeshSignedDistanceResult_OffsetMutablePtr", "MRMeshMeshDistance_8h.html#ad58388446945dd46a52d263cb8cf39f2", null ],
     [ "MR_MeshMeshSignedDistanceResult_OffsetPtr", "MRMeshMeshDistance_8h.html#a66ad59feb2eb1f5b6b97381b960d5b08", null ],
     [ "MR_MeshMeshSignedDistanceResult_Set_a", "MRMeshMeshDistance_8h.html#a2eaaa07698d67dcf4ed6f2491b4c375e", null ],
     [ "MR_MeshMeshSignedDistanceResult_Set_b", "MRMeshMeshDistance_8h.html#abc6507c7e90a39ace748a30ee2c530db", null ],
-    [ "MR_MeshMeshSignedDistanceResult_Set_signedDist", "MRMeshMeshDistance_8h.html#a80b70c579cd921f19cec5c9d3683fa31", null ]
+    [ "MR_MeshMeshSignedDistanceResult_Set_signedDist", "MRMeshMeshDistance_8h.html#a80b70c579cd921f19cec5c9d3683fa31", null ],
+    [ "MR_MeshMeshSignedDistanceResult_Set_status", "MRMeshMeshDistance_8h.html#a4d5cde757e9aa4a6c73d2108b69acc6f", null ]
 ];

@@ -70,6 +70,60 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshDistance.h" line="16" column="1" bodyfile="MRMesh/MRMeshDistance.h" bodystart="17" bodyend="20"/>
       </memberdef>
+      <memberdef kind="enum" id="group__AABBTreeGroup_1ga5aa465c33f4b7d12b07ec82baf32654b" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>MeshMeshCollisionStatus</name>
+        <qualifiedname>MR::MeshMeshCollisionStatus</qualifiedname>
+        <enumvalue id="group__AABBTreeGroup_1gga5aa465c33f4b7d12b07ec82baf32654ba5bd109aa9c521d02a6d4842204e14e65" prot="public">
+          <name>BothOutside</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__AABBTreeGroup_1gga5aa465c33f4b7d12b07ec82baf32654ba367eb85a870827ec9e5a45dc47ce6240" prot="public">
+          <name>BothInside</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__AABBTreeGroup_1gga5aa465c33f4b7d12b07ec82baf32654bae89920fda09f72cbdbda991bfd156be2" prot="public">
+          <name>AInside</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__AABBTreeGroup_1gga5aa465c33f4b7d12b07ec82baf32654ba3190a32683de4e146f9e5ecab2bcbcf5" prot="public">
+          <name>BInside</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__AABBTreeGroup_1gga5aa465c33f4b7d12b07ec82baf32654bae0f4d0dafbcf08dd28d80154056ad0d8" prot="public">
+          <name>Colliding</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__AABBTreeGroup_1gga5aa465c33f4b7d12b07ec82baf32654ba5b32faae4c7bae1011dc7ab43caa1529" prot="public">
+          <name>Touching</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="24" column="1" bodyfile="MRMesh/MRMeshMeshDistance.h" bodystart="25" bodyend="32"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="group__AABBTreeGroup_1ga2d9f9e10f5365b971c9f7300264be632" prot="public" static="no">
@@ -2068,7 +2122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMeshDistance.h" line="36" column="25" declfile="MRMesh/MRMeshMeshDistance.h" declline="36" declcolumn="25"/>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="51" column="25" declfile="MRMesh/MRMeshMeshDistance.h" declline="51" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gab642f8e551c4fcc0af6b2301e55e3a85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MeshMeshSignedDistanceResult</type>
@@ -2115,11 +2169,114 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="note"><para>if one mesh is fully inside the other one - closest points are returned </para>
+</simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMeshDistance.h" line="44" column="31" declfile="MRMesh/MRMeshMeshDistance.h" declline="44" declcolumn="31"/>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="60" column="31" declfile="MRMesh/MRMeshMeshDistance.h" declline="60" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga38b71b662d44f03abb5df7e3d21dba69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshMeshCollisionStatus</type>
+        <definition>MeshMeshCollisionStatus MR::findCollisionStatus</definition>
+        <argsstring>(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr)</argsstring>
+        <name>findCollisionStatus</name>
+        <qualifiedname>MR::findCollisionStatus</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>rigidB2A</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>finds if two meshes are touching, colliding or inside each other </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rigidB2A</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="67" column="26" declfile="MRMesh/MRMeshMeshDistance.h" declline="67" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga31f767d0a19b8491ab1df673478ea044" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshMeshCollisionStatus</type>
+        <definition>MeshMeshCollisionStatus MR::findCollisionStatus</definition>
+        <argsstring>(const MeshPart &amp;a, const MeshPart &amp;b, const MeshMeshDistanceResult &amp;distRes, const AffineXf3f *rigidB2A=nullptr, std::vector&lt; FaceFace &gt; *collisions=nullptr)</argsstring>
+        <name>findCollisionStatus</name>
+        <qualifiedname>MR::findCollisionStatus</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const MeshMeshDistanceResult &amp;</type>
+          <declname>distRes</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>rigidB2A</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>std::vector&lt; FaceFace &gt; *</type>
+          <declname>collisions</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>finds if two meshes are touching, colliding or inside each other </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>distRes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>result of findDistance on these input </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rigidB2A</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collisions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional output collisions among A and B </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="76" column="26" declfile="MRMesh/MRMeshMeshDistance.h" declline="76" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga27ff8608a418f39b18f07f8db69d07d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -2170,7 +2327,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMeshDistance.h" line="52" column="8" declfile="MRMesh/MRMeshMeshDistance.h" declline="52" declcolumn="8"/>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="84" column="8" declfile="MRMesh/MRMeshMeshDistance.h" declline="84" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga45e61b0f865d15d2172777953f29b4b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -2221,7 +2378,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMeshDistance.h" line="60" column="8" declfile="MRMesh/MRMeshMeshDistance.h" declline="60" declcolumn="8"/>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="92" column="8" declfile="MRMesh/MRMeshMeshDistance.h" declline="92" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gaae6b5143199ddd407f3703c52fb0d1a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MeshProjectionTransforms</type>

@@ -681,7 +681,7 @@ var searchData=
   ['startmeshfrombody_52',['startMeshFromBody',['../classMR_1_1MovementBuildBodyParams.html#a936b9e04b1ff02a72dc6acfbb86457df',1,'MR::MovementBuildBodyParams']]],
   ['startpoint_53',['startPoint',['../classMR_1_1TextMeshAlignParams.html#ad27be9c1cc613b7722f48874b77cc86d',1,'MR::TextMeshAlignParams']]],
   ['startvertices_54',['startVertices',['../classMR_1_1ToolPathParams.html#a0e51c97b4114992ebac39cc646b3f924',1,'MR.ToolPathParams.startVertices'],['../classMR_1_1ConstantCuspParams.html#aa3b56b3209ebf67a4d63361eede7674f',1,'MR.ConstantCuspParams.startVertices']]],
-  ['status_55',['status',['../classMR_1_1VoxelsLoad_1_1DicomStatus.html#abec8265585efe64c313234fb2b23e910',1,'MR::VoxelsLoad::DicomStatus']]],
+  ['status_55',['status',['../classMR_1_1MeshMeshSignedDistanceResult.html#aa56137be4f7cd124dff810f3f96f7d01',1,'MR.MeshMeshSignedDistanceResult.status'],['../classMR_1_1VoxelsLoad_1_1DicomStatus.html#abec8265585efe64c313234fb2b23e910',1,'MR.VoxelsLoad.DicomStatus.status']]],
   ['stop_56',['stop',['../classMR_1_1VoxelMetricParameters.html#a013f27dd734136065c748ce751630b90',1,'MR::VoxelMetricParameters']]],
   ['stopbeforebadtriangulation_57',['stopBeforeBadTriangulation',['../classMR_1_1FillHoleParams.html#a03c8aeac4c0ec38300b0f71fbf54ba59',1,'MR::FillHoleParams']]],
   ['strategy_58',['strategy',['../classMR_1_1DecimateSettings.html#a7d0f6cbf05458bab4e5eb3e750801de4',1,'MR::DecimateSettings']]],

@@ -1,5 +1,15 @@
 var NAVTREEINDEX68 =
 {
+"classMR_1_1VertMap.html#a8445a6c0b7c642d3cd12d291e9b5d9c9":[6,3,0,0,0,952,27],
+"classMR_1_1VertMap.html#a9186ff65c5428e478dc6079f884e0f77":[6,3,0,0,0,952,19],
+"classMR_1_1VertMap.html#a93296decc058479ee4a913e1f6c8ec97":[6,3,0,0,0,952,2],
+"classMR_1_1VertMap.html#a9550a7bd612175118be08a7ead441297":[6,3,0,0,0,952,15],
+"classMR_1_1VertMap.html#a9abf5c6631966c9044d3de0c774b4537":[6,3,0,0,0,952,9],
+"classMR_1_1VertMap.html#ab41261dace3e349869ac42d2bcde61ba":[6,3,0,0,0,952,1],
+"classMR_1_1VertMap.html#ad53c789e4db665e498ae93d31e205733":[6,3,0,0,0,952,20],
+"classMR_1_1VertMap.html#ae964660cb1aeca8843ae7f0bbf895949":[6,3,0,0,0,952,10],
+"classMR_1_1VertPathInfo.html":[6,3,0,0,0,953],
+"classMR_1_1VertPathInfo.html#a463666a9efad1dff3747430203b148e5":[6,3,0,0,0,953,5],
 "classMR_1_1VertPathInfo.html#a840312fb2466652448d24f4fe812e795":[6,3,0,0,0,953,4],
 "classMR_1_1VertPathInfo.html#a89b9c440de50f31f6e4fe0aa196e1226":[6,3,0,0,0,953,6],
 "classMR_1_1VertPathInfo.html#a94d80fe6367bb3a99586795a480e1bef":[6,3,0,0,0,953,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX68 =
 "classMR_1_1VolumeToMeshByPartsSettings.html#a929e3c17d8d3b7483359cf9259c83631":[6,3,0,0,0,970,0],
 "classMR_1_1VolumeToMeshByPartsSettings.html#a97b3bb73b46315798af949efaa63bfd8":[6,3,0,0,0,970,1],
 "classMR_1_1VoxelBitSet.html":[6,3,0,0,0,971],
-"classMR_1_1VoxelBitSet.html#a0e6d9e63fd820f011128ae68335a4bdb":[6,3,0,0,0,971,1],
-"classMR_1_1VoxelBitSet.html#a0e7fc06df357b51d02d5b4599723ef9f":[6,3,0,0,0,971,9],
-"classMR_1_1VoxelBitSet.html#a0fd100d4a9c240e755699c34a4177e83":[6,3,0,0,0,971,22],
-"classMR_1_1VoxelBitSet.html#a12840dde980a3d21bff449fcab13815e":[6,3,0,0,0,971,17],
-"classMR_1_1VoxelBitSet.html#a17bcdd946c29440f8bfd93f835ffa18f":[6,3,0,0,0,971,18],
-"classMR_1_1VoxelBitSet.html#a2edd004846c84487e79ef3a670479ebb":[6,3,0,0,0,971,24],
-"classMR_1_1VoxelBitSet.html#a30bb3168a3fd49a53ebffb13d2fae585":[6,3,0,0,0,971,0],
-"classMR_1_1VoxelBitSet.html#a49f09f677ab328b1780cd49bd4f570b8":[6,3,0,0,0,971,10],
-"classMR_1_1VoxelBitSet.html#a51fded1494c9d75a8190d2af5edb42f5":[6,3,0,0,0,971,7],
-"classMR_1_1VoxelBitSet.html#a5afa082d80c9b8db0cdd09a3d047f15b":[6,3,0,0,0,971,26],
-"classMR_1_1VoxelBitSet.html#a5c8f81fbcb2acd92e00bcc7e8700a144":[6,3,0,0,0,971,13]
+"classMR_1_1VoxelBitSet.html#a0e6d9e63fd820f011128ae68335a4bdb":[6,3,0,0,0,971,1]
 };

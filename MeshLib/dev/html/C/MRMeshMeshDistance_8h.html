@@ -139,6 +139,7 @@ $(function(){initNavTree('MRMeshMeshDistance_8h.html','',''); });
 <div class="header">
   <div class="summary">
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRMeshMeshDistance.h File Reference</div></div>
 </div><!--header-->
@@ -151,7 +152,21 @@ $(function(){initNavTree('MRMeshMeshDistance_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:aaaef17266d43a3f23b258d9769d940f7" id="r_aaaef17266d43a3f23b258d9769d940f7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aaaef17266d43a3f23b258d9769d940f7">MR_MeshMeshDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaef17266d43a3f23b258d9769d940f7">MR_MeshMeshDistanceResult</a></td></tr>
+<tr class="memitem:a874c63df4bd4f8e56227d175e1ccc9f9" id="r_a874c63df4bd4f8e56227d175e1ccc9f9"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a874c63df4bd4f8e56227d175e1ccc9f9">MR_MeshMeshCollisionStatus</a></td></tr>
 <tr class="memitem:a04beb5153370f051a06c0671724b799f" id="r_a04beb5153370f051a06c0671724b799f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:af5d6eaeae1f8126e28c3d65b47bbef83" id="r_af5d6eaeae1f8126e28c3d65b47bbef83"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a> { <br />
+&#160;&#160;<a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83a6221aa2ffd4a7d65c1d85cd445c9924f">MR_MeshMeshCollisionStatus_BothOutside</a> = 0
+, <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83a012ddb52e8a15fea449daa516a0d3401">MR_MeshMeshCollisionStatus_BothInside</a> = 1
+, <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83acaf00d12fe13afa3c1a7b6a0dce0ff8e">MR_MeshMeshCollisionStatus_AInside</a> = 2
+, <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83a704c72b2651d9cf6e42b89c8fb89c9a4">MR_MeshMeshCollisionStatus_BInside</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83a431b1febbaa4db72377a6c4c07acb2c0">MR_MeshMeshCollisionStatus_Colliding</a> = 4
+, <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83aa6cf0947b83955fdcd448cebbabf4c00">MR_MeshMeshCollisionStatus_Touching</a> = 5
+<br />
+ }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -181,12 +196,15 @@ Functions</h2></td></tr>
 <tr class="memitem:aa98e84493be8ff71f49b5df5dda6c79c" id="r_aa98e84493be8ff71f49b5df5dda6c79c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MREnumNeighbours_8h.html#a8329bba5dc9407bd75ca1a4909c9fe9a">MR_PointOnFace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa98e84493be8ff71f49b5df5dda6c79c">MR_MeshMeshSignedDistanceResult_Get_b</a> (const <a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *_this)</td></tr>
 <tr class="memitem:abc6507c7e90a39ace748a30ee2c530db" id="r_abc6507c7e90a39ace748a30ee2c530db"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc6507c7e90a39ace748a30ee2c530db">MR_MeshMeshSignedDistanceResult_Set_b</a> (<a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *_this, const <a class="el" href="MREnumNeighbours_8h.html#a8329bba5dc9407bd75ca1a4909c9fe9a">MR_PointOnFace</a> *value)</td></tr>
 <tr class="memitem:a4598f714ce3defde54199c1babdacce3" id="r_a4598f714ce3defde54199c1babdacce3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREnumNeighbours_8h.html#a8329bba5dc9407bd75ca1a4909c9fe9a">MR_PointOnFace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4598f714ce3defde54199c1babdacce3">MR_MeshMeshSignedDistanceResult_GetMutable_b</a> (<a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *_this)</td></tr>
+<tr class="memitem:a390c60d588766bda7363664fd1ab3caf" id="r_a390c60d588766bda7363664fd1ab3caf"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a390c60d588766bda7363664fd1ab3caf">MR_MeshMeshSignedDistanceResult_Get_status</a> (const <a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *_this)</td></tr>
+<tr class="memitem:a4d5cde757e9aa4a6c73d2108b69acc6f" id="r_a4d5cde757e9aa4a6c73d2108b69acc6f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d5cde757e9aa4a6c73d2108b69acc6f">MR_MeshMeshSignedDistanceResult_Set_status</a> (<a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *_this, <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a> value)</td></tr>
+<tr class="memitem:ab701f778ccd9432400a1819a9bb194de" id="r_ab701f778ccd9432400a1819a9bb194de"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab701f778ccd9432400a1819a9bb194de">MR_MeshMeshSignedDistanceResult_GetMutable_status</a> (<a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *_this)</td></tr>
 <tr class="memitem:adbf43eaaf0b6523e733c5d03ac3c5a46" id="r_adbf43eaaf0b6523e733c5d03ac3c5a46"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbf43eaaf0b6523e733c5d03ac3c5a46">MR_MeshMeshSignedDistanceResult_Get_signedDist</a> (const <a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *_this)</td></tr>
 <tr class="memitem:a80b70c579cd921f19cec5c9d3683fa31" id="r_a80b70c579cd921f19cec5c9d3683fa31"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80b70c579cd921f19cec5c9d3683fa31">MR_MeshMeshSignedDistanceResult_Set_signedDist</a> (<a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *_this, float value)</td></tr>
 <tr class="memitem:ae13e9092c6a21819674a665274b1af88" id="r_ae13e9092c6a21819674a665274b1af88"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae13e9092c6a21819674a665274b1af88">MR_MeshMeshSignedDistanceResult_GetMutable_signedDist</a> (<a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *_this)</td></tr>
 <tr class="memitem:ace152260c3addd26489d6b820c02170e" id="r_ace152260c3addd26489d6b820c02170e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace152260c3addd26489d6b820c02170e">MR_MeshMeshSignedDistanceResult_DefaultConstruct</a> (void)</td></tr>
 <tr class="memitem:aed16edb553fbe329af51c09f56d3d2da" id="r_aed16edb553fbe329af51c09f56d3d2da"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed16edb553fbe329af51c09f56d3d2da">MR_MeshMeshSignedDistanceResult_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:a626bf20715d1c24acc3ed5cde9b450df" id="r_a626bf20715d1c24acc3ed5cde9b450df"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a626bf20715d1c24acc3ed5cde9b450df">MR_MeshMeshSignedDistanceResult_ConstructFrom</a> (const <a class="el" href="MREnumNeighbours_8h.html#a8329bba5dc9407bd75ca1a4909c9fe9a">MR_PointOnFace</a> *a, const <a class="el" href="MREnumNeighbours_8h.html#a8329bba5dc9407bd75ca1a4909c9fe9a">MR_PointOnFace</a> *b, float signedDist)</td></tr>
+<tr class="memitem:a6d6a7f97b5fd82528b0eb62965940f78" id="r_a6d6a7f97b5fd82528b0eb62965940f78"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d6a7f97b5fd82528b0eb62965940f78">MR_MeshMeshSignedDistanceResult_ConstructFrom</a> (const <a class="el" href="MREnumNeighbours_8h.html#a8329bba5dc9407bd75ca1a4909c9fe9a">MR_PointOnFace</a> *a, const <a class="el" href="MREnumNeighbours_8h.html#a8329bba5dc9407bd75ca1a4909c9fe9a">MR_PointOnFace</a> *b, <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a> status, float signedDist)</td></tr>
 <tr class="memitem:a66ad59feb2eb1f5b6b97381b960d5b08" id="r_a66ad59feb2eb1f5b6b97381b960d5b08"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66ad59feb2eb1f5b6b97381b960d5b08">MR_MeshMeshSignedDistanceResult_OffsetPtr</a> (const <a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:ad58388446945dd46a52d263cb8cf39f2" id="r_ad58388446945dd46a52d263cb8cf39f2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad58388446945dd46a52d263cb8cf39f2">MR_MeshMeshSignedDistanceResult_OffsetMutablePtr</a> (<a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a13bccd6e2698116d8ced1de6a54e9850" id="r_a13bccd6e2698116d8ced1de6a54e9850"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13bccd6e2698116d8ced1de6a54e9850">MR_MeshMeshSignedDistanceResult_ConstructFromAnother</a> (const <a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *_other)</td></tr>
@@ -199,12 +217,30 @@ Functions</h2></td></tr>
 <tr class="memdesc:a0ddc3e091c81df61792f1be0d3efc9ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes minimal distance between two meshes or two mesh regions  <br /></td></tr>
 <tr class="memitem:a2389870ea62bbb0a29091d67087c63ca" id="r_a2389870ea62bbb0a29091d67087c63ca"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2389870ea62bbb0a29091d67087c63ca">MR_findSignedDistance_MR_MeshPart</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const float *upDistLimitSq)</td></tr>
 <tr class="memdesc:a2389870ea62bbb0a29091d67087c63ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes minimal distance between two meshes  <br /></td></tr>
+<tr class="memitem:a867cd37c7bd2ce7b00746d9f0143e890" id="r_a867cd37c7bd2ce7b00746d9f0143e890"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a867cd37c7bd2ce7b00746d9f0143e890">MR_findCollisionStatus_3</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
+<tr class="memdesc:a867cd37c7bd2ce7b00746d9f0143e890"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds if two meshes are touching, colliding or inside each other  <br /></td></tr>
+<tr class="memitem:aa60c6f198d7cd7932aa76e42e38f3d8b" id="r_aa60c6f198d7cd7932aa76e42e38f3d8b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa60c6f198d7cd7932aa76e42e38f3d8b">MR_findCollisionStatus_5</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="#aaaef17266d43a3f23b258d9769d940f7">MR_MeshMeshDistanceResult</a> *distRes, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, <a class="el" href="MRMeshCollide_8h.html#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a> *collisions)</td></tr>
+<tr class="memdesc:aa60c6f198d7cd7932aa76e42e38f3d8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds if two meshes are touching, colliding or inside each other  <br /></td></tr>
 <tr class="memitem:aa37f1c0b217c29426a2ec7de035b6d30" id="r_aa37f1c0b217c29426a2ec7de035b6d30"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa37f1c0b217c29426a2ec7de035b6d30">MR_findMaxDistanceSqOneWay_MR_MeshPart</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const float *maxDistanceSq)</td></tr>
 <tr class="memdesc:aa37f1c0b217c29426a2ec7de035b6d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of the squared distances from each B-mesh vertex to A-mesh  <br /></td></tr>
 <tr class="memitem:aca0a1e41eae8e5341359074904b1d5d8" id="r_aca0a1e41eae8e5341359074904b1d5d8"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca0a1e41eae8e5341359074904b1d5d8">MR_findMaxDistanceSq_MR_MeshPart</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const float *maxDistanceSq)</td></tr>
 <tr class="memdesc:aca0a1e41eae8e5341359074904b1d5d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the squared Hausdorff distance between two meshes, that is the maximum of squared distances from each mesh vertex to the other mesh (in both directions)  <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="a874c63df4bd4f8e56227d175e1ccc9f9" name="a874c63df4bd4f8e56227d175e1ccc9f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a874c63df4bd4f8e56227d175e1ccc9f9">&#9670;&#160;</a></span>MR_MeshMeshCollisionStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a> <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aaaef17266d43a3f23b258d9769d940f7" name="aaaef17266d43a3f23b258d9769d940f7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaaef17266d43a3f23b258d9769d940f7">&#9670;&#160;</a></span>MR_MeshMeshDistanceResult</h2>
 
@@ -235,7 +271,110 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="af5d6eaeae1f8126e28c3d65b47bbef83" name="af5d6eaeae1f8126e28c3d65b47bbef83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5d6eaeae1f8126e28c3d65b47bbef83">&#9670;&#160;</a></span>MR_MeshMeshCollisionStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af5d6eaeae1f8126e28c3d65b47bbef83a6221aa2ffd4a7d65c1d85cd445c9924f" name="af5d6eaeae1f8126e28c3d65b47bbef83a6221aa2ffd4a7d65c1d85cd445c9924f"></a>MR_MeshMeshCollisionStatus_BothOutside&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5d6eaeae1f8126e28c3d65b47bbef83a012ddb52e8a15fea449daa516a0d3401" name="af5d6eaeae1f8126e28c3d65b47bbef83a012ddb52e8a15fea449daa516a0d3401"></a>MR_MeshMeshCollisionStatus_BothInside&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5d6eaeae1f8126e28c3d65b47bbef83acaf00d12fe13afa3c1a7b6a0dce0ff8e" name="af5d6eaeae1f8126e28c3d65b47bbef83acaf00d12fe13afa3c1a7b6a0dce0ff8e"></a>MR_MeshMeshCollisionStatus_AInside&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5d6eaeae1f8126e28c3d65b47bbef83a704c72b2651d9cf6e42b89c8fb89c9a4" name="af5d6eaeae1f8126e28c3d65b47bbef83a704c72b2651d9cf6e42b89c8fb89c9a4"></a>MR_MeshMeshCollisionStatus_BInside&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5d6eaeae1f8126e28c3d65b47bbef83a431b1febbaa4db72377a6c4c07acb2c0" name="af5d6eaeae1f8126e28c3d65b47bbef83a431b1febbaa4db72377a6c4c07acb2c0"></a>MR_MeshMeshCollisionStatus_Colliding&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5d6eaeae1f8126e28c3d65b47bbef83aa6cf0947b83955fdcd448cebbabf4c00" name="af5d6eaeae1f8126e28c3d65b47bbef83aa6cf0947b83955fdcd448cebbabf4c00"></a>MR_MeshMeshCollisionStatus_Touching&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a867cd37c7bd2ce7b00746d9f0143e890" name="a867cd37c7bd2ce7b00746d9f0143e890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a867cd37c7bd2ce7b00746d9f0143e890">&#9670;&#160;</a></span>MR_findCollisionStatus_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a> MR_findCollisionStatus_3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds if two meshes are touching, colliding or inside each other </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation Generated from function <span class="tt">MR::findCollisionStatus</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa60c6f198d7cd7932aa76e42e38f3d8b" name="aa60c6f198d7cd7932aa76e42e38f3d8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa60c6f198d7cd7932aa76e42e38f3d8b">&#9670;&#160;</a></span>MR_findCollisionStatus_5()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a> MR_findCollisionStatus_5 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aaaef17266d43a3f23b258d9769d940f7">MR_MeshMeshDistanceResult</a> *</td>          <td class="paramname"><span class="paramname"><em>distRes</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMeshCollide_8h.html#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>collisions</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds if two meshes are touching, colliding or inside each other </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">distRes</td><td>result of findDistance on these input </td></tr>
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">collisions</td><td>optional output collisions among A and B Generated from function <span class="tt">MR::findCollisionStatus</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">distRes</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. Parameter <span class="tt">collisions</span> defaults to a null pointer in C++. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a0ddc3e091c81df61792f1be0d3efc9ac" name="a0ddc3e091c81df61792f1be0d3efc9ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ddc3e091c81df61792f1be0d3efc9ac">&#9670;&#160;</a></span>MR_findDistance()</h2>
 
@@ -389,10 +528,11 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the positive distance in question, if the real distance is larger then the function exists returning upDistLimitSq and no valid points Generated from function <span class="tt">MR::findSignedDistance</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. Parameter <span class="tt">upDistLimitSq</span> has a default argument: <span class="tt">3.40282347e38f</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#af2d9bf2e2e248d405bc03ab6dc2cb41a" title="Destroys a heap-allocated instance of MR_MeshMeshSignedDistanceResult. Does nothing if the pointer is...">MR_MeshMeshSignedDistanceResult_Destroy()</a></span> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the positive distance in question, if the real distance is larger then the function exists returning upDistLimitSq and no valid points </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>if one mesh is fully inside the other one - closest points are returned Generated from function <span class="tt">MR::findSignedDistance</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. Parameter <span class="tt">upDistLimitSq</span> has a default argument: <span class="tt">3.40282347e38f</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#af2d9bf2e2e248d405bc03ab6dc2cb41a" title="Destroys a heap-allocated instance of MR_MeshMeshSignedDistanceResult. Does nothing if the pointer is...">MR_MeshMeshSignedDistanceResult_Destroy()</a></span> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -777,8 +917,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a626bf20715d1c24acc3ed5cde9b450df" name="a626bf20715d1c24acc3ed5cde9b450df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a626bf20715d1c24acc3ed5cde9b450df">&#9670;&#160;</a></span>MR_MeshMeshSignedDistanceResult_ConstructFrom()</h2>
+<a id="a6d6a7f97b5fd82528b0eb62965940f78" name="a6d6a7f97b5fd82528b0eb62965940f78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d6a7f97b5fd82528b0eb62965940f78">&#9670;&#160;</a></span>MR_MeshMeshSignedDistanceResult_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -796,11 +936,16 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a></td>          <td class="paramname"><span class="paramname"><em>status</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>signedDist</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <span class="tt">MR::MeshMeshSignedDistanceResult</span> elementwise. Parameter <span class="tt">a</span> can not be null. It is a single object. The reference to the parameter <span class="tt">a</span> might be preserved in the constructed object. Parameter <span class="tt">b</span> can not be null. It is a single object. The reference to the parameter <span class="tt">b</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#af2d9bf2e2e248d405bc03ab6dc2cb41a" title="Destroys a heap-allocated instance of MR_MeshMeshSignedDistanceResult. Does nothing if the pointer is...">MR_MeshMeshSignedDistanceResult_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+<p>Constructs <span class="tt">MR::MeshMeshSignedDistanceResult</span> elementwise. Parameter <span class="tt">a</span> can not be null. It is a single object. The reference to the parameter <span class="tt">a</span> might be preserved in the constructed object. Parameter <span class="tt">b</span> can not be null. It is a single object. The reference to the parameter <span class="tt">b</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">status</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#af2d9bf2e2e248d405bc03ab6dc2cb41a" title="Destroys a heap-allocated instance of MR_MeshMeshSignedDistanceResult. Does nothing if the pointer is...">MR_MeshMeshSignedDistanceResult_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -950,6 +1095,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a390c60d588766bda7363664fd1ab3caf" name="a390c60d588766bda7363664fd1ab3caf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a390c60d588766bda7363664fd1ab3caf">&#9670;&#160;</a></span>MR_MeshMeshSignedDistanceResult_Get_status()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a> * MR_MeshMeshSignedDistanceResult_Get_status </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>mutual status of two meshes Returns a pointer to a member variable of class <span class="tt">MR::MeshMeshSignedDistanceResult</span> named <span class="tt">status</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a59ec7adf4e004801552ce2c62395b2c7" name="a59ec7adf4e004801552ce2c62395b2c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a59ec7adf4e004801552ce2c62395b2c7">&#9670;&#160;</a></span>MR_MeshMeshSignedDistanceResult_GetMutable_a()</h2>
 
@@ -1001,6 +1164,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>signed distance between a and b, positive if meshes do not collide Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshMeshSignedDistanceResult</span> named <span class="tt">signedDist</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ab701f778ccd9432400a1819a9bb194de" name="ab701f778ccd9432400a1819a9bb194de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab701f778ccd9432400a1819a9bb194de">&#9670;&#160;</a></span>MR_MeshMeshSignedDistanceResult_GetMutable_status()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a> * MR_MeshMeshSignedDistanceResult_GetMutable_status </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>mutual status of two meshes Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshMeshSignedDistanceResult</span> named <span class="tt">status</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1111,6 +1292,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>signed distance between a and b, positive if meshes do not collide Modifies a member variable of class <span class="tt">MR::MeshMeshSignedDistanceResult</span> named <span class="tt">signedDist</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">signedDist</span>. </p>
+
+</div>
+</div>
+<a id="a4d5cde757e9aa4a6c73d2108b69acc6f" name="a4d5cde757e9aa4a6c73d2108b69acc6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d5cde757e9aa4a6c73d2108b69acc6f">&#9670;&#160;</a></span>MR_MeshMeshSignedDistanceResult_Set_status()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshMeshSignedDistanceResult_Set_status </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a04beb5153370f051a06c0671724b799f">MR_MeshMeshSignedDistanceResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>mutual status of two meshes Modifies a member variable of class <span class="tt">MR::MeshMeshSignedDistanceResult</span> named <span class="tt">status</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">status</span>. When this function is called, this object will drop object references it held previously in <span class="tt">status</span>. </p>
 
 </div>
 </div>

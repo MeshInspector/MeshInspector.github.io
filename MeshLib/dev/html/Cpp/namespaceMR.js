@@ -1410,6 +1410,14 @@ var namespaceMR =
       [ "feet", "group__GeneralGroup.html#gga754d4eb0500be08374f5c611d33b5cabae03f9063484fb1967d1675c86a6094d7", null ],
       [ "_count", "group__GeneralGroup.html#gga754d4eb0500be08374f5c611d33b5cabad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
+    [ "MeshMeshCollisionStatus", "group__AABBTreeGroup.html#ga5aa465c33f4b7d12b07ec82baf32654b", [
+      [ "BothOutside", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba5bd109aa9c521d02a6d4842204e14e65", null ],
+      [ "BothInside", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba367eb85a870827ec9e5a45dc47ce6240", null ],
+      [ "AInside", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654bae89920fda09f72cbdbda991bfd156be2", null ],
+      [ "BInside", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba3190a32683de4e146f9e5ecab2bcbcf5", null ],
+      [ "Colliding", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654bae0f4d0dafbcf08dd28d80154056ad0d8", null ],
+      [ "Touching", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba5b32faae4c7bae1011dc7ab43caa1529", null ]
+    ] ],
     [ "MouseButton", "group__GeneralGroup.html#ga13f98b7840e7298925ef1770b7cdb62d", [
       [ "Left", "group__GeneralGroup.html#gga13f98b7840e7298925ef1770b7cdb62da945d5e233cf7d6240f6b783b36a374ff", null ],
       [ "Right", "group__GeneralGroup.html#gga13f98b7840e7298925ef1770b7cdb62da92b09c7c48c520c3c55e497875da437c", null ],
@@ -2209,6 +2217,8 @@ var namespaceMR =
     [ "findCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#ga7b104a00c60718368c988029510bf8ba", null ],
     [ "findCollidingTriangleBitsets", "group__AABBTreeGroup.html#ga8defd1b47b126123f3cf99c68e771ea0", null ],
     [ "findCollidingTriangles", "group__AABBTreeGroup.html#ga6e40cae7759017db4116172d739d174d", null ],
+    [ "findCollisionStatus", "group__AABBTreeGroup.html#ga38b71b662d44f03abb5df7e3d21dba69", null ],
+    [ "findCollisionStatus", "group__AABBTreeGroup.html#ga31f767d0a19b8491ab1df673478ea044", null ],
     [ "findComponentBitSet", "group__GeneralGroup.html#gac959a3b1b345a06498d42106baa9a7ec", null ],
     [ "findContourPointByLength", "group__ContourGroup.html#ga573d02bf11d96ed586e5911742bdb6cf", null ],
     [ "findCreaseEdges", "group__GeneralGroup.html#ga4474364c5ae6c6bf625ffa3068f8760c", null ],

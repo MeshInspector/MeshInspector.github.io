@@ -1586,6 +1586,7 @@
       <member refid="group__DecimateGroup_1ga216960c15f7b00558ab28053967a9615" kind="enum"><name>DecimateStrategy</name></member>
       <member refid="group__MeshDeloneGroup_1gaa3ebc28a0c17a0a5fc0c9b90a97bfc95" kind="enum"><name>FlipEdge</name></member>
       <member refid="group__AABBTreeGroup_1ga3dd2fd9fcc06b6502d22a9ea3eb63e47" kind="enum"><name>ProcessOneResult</name></member>
+      <member refid="group__AABBTreeGroup_1ga5aa465c33f4b7d12b07ec82baf32654b" kind="enum"><name>MeshMeshCollisionStatus</name></member>
       <member refid="group__GeneralGroup_1gab8659c12eb8fa6618f154566efce6146" kind="enum"><name>OutlierTypeMask</name></member>
       <member refid="group__DistanceMapGroup_1gab7acb4543154d042c297e5823fb633b6" kind="enum"><name>OutEdge2</name></member>
       <member refid="group__GeneralGroup_1ga6ab288ae813e1aa688312e31c258df71" kind="enum"><name>RelaxApproxType</name></member>
@@ -2681,6 +2682,8 @@
       <member refid="group__GeneralGroup_1ga8584ba296269c36fb978e0c964c011bc" kind="function"><name>findCenterFromBBox</name></member>
       <member refid="group__AABBTreeGroup_1ga34f61c1aafa08f324c2dee292bf3f326" kind="function"><name>findDistance</name></member>
       <member refid="group__AABBTreeGroup_1gab642f8e551c4fcc0af6b2301e55e3a85" kind="function"><name>findSignedDistance</name></member>
+      <member refid="group__AABBTreeGroup_1ga38b71b662d44f03abb5df7e3d21dba69" kind="function"><name>findCollisionStatus</name></member>
+      <member refid="group__AABBTreeGroup_1ga31f767d0a19b8491ab1df673478ea044" kind="function"><name>findCollisionStatus</name></member>
       <member refid="group__AABBTreeGroup_1ga27ff8608a418f39b18f07f8db69d07d4" kind="function"><name>findMaxDistanceSqOneWay</name></member>
       <member refid="group__AABBTreeGroup_1ga45e61b0f865d15d2172777953f29b4b1" kind="function"><name>findMaxDistanceSq</name></member>
       <member refid="group__FillHoleGroup_1ga633f1395df33828b2f19fc042879aa29" kind="function"><name>calcCombinedFillMetric</name></member>

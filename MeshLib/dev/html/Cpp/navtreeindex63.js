@@ -1,5 +1,15 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,1,0,1,31,1,0],
+"structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,2,0,2,19,1,0],
+"structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,1,0,1,31,1,1],
+"structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,2,0,2,19,1,1],
+"structMR_1_1PointsToDistanceVolumeParams.html":[6,0,0,20,815],
+"structMR_1_1PointsToMeshParameters.html":[6,0,0,20,816],
+"structMR_1_1Polyline.html":[6,0,0,14,0],
+"structMR_1_1Polyline.html#a0127bea8e352025d57d7b71fccf78b15":[6,0,0,14,0,18],
+"structMR_1_1Polyline.html#a02d7af7baeeefe1859077fcfaf778763":[6,0,0,14,0,10],
+"structMR_1_1Polyline.html#a09efa3e658e95b29f1dea8f362d18289":[6,0,0,14,0,19],
 "structMR_1_1Polyline.html#a119663899ffa7bc20f9b3ab77cc3b6db":[6,0,0,14,0,9],
 "structMR_1_1Polyline.html#a29635bdcaade26236bf38e9044e1605a":[6,0,0,14,0,14],
 "structMR_1_1Polyline.html#a2c547895888165d873db848b161cb5c0":[6,0,0,14,0,16],
@@ -239,15 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1StitchHolesParams.html":[6,0,0,9,3,1],
 "structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[6,0,0,9,3,1,1],
 "structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[6,0,0,9,3,1,0],
-"structMR_1_1StopOnTrueCombiner.html":[6,0,0,20,680],
-"structMR_1_1SubdivideFillingSettings.html":[6,0,0,20,231],
-"structMR_1_1SubdivideSettings.html":[6,0,0,9,7,0],
-"structMR_1_1SubdivideSettings.html#a33de3142a2aa3715df6e72e27478d3e1":[6,0,0,9,7,0,9],
-"structMR_1_1SubdivideSettings.html#a36d315cb2aaa92503d1a85c889074250":[6,0,0,9,7,0,6],
-"structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8":[6,0,0,9,7,0,0],
-"structMR_1_1SubdivideSettings.html#a52aa2a88771ab9ca39f096cae8256c7d":[6,0,0,9,7,0,16],
-"structMR_1_1SubdivideSettings.html#a55b830f7823b4a74b6891945bafa12a5":[6,0,0,9,7,0,10],
-"structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa":[6,0,0,9,7,0,17],
-"structMR_1_1SubdivideSettings.html#a757c0278a48bf06117256165bec538c0":[6,0,0,9,7,0,18],
-"structMR_1_1SubdivideSettings.html#a772aa28ef31f33140c7b3f6bfbc36d30":[6,0,0,9,7,0,1]
+"structMR_1_1StopOnTrueCombiner.html":[6,0,0,20,680]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX50 =
 {
+"classMR_1_1PointCloudComponents.html#acce167647e8f22c47577e45c89c7c891":[6,3,0,0,0,663,3],
+"classMR_1_1PointCloudPart.html":[6,3,0,0,0,664],
+"classMR_1_1PointCloudPart.html#a1863e0fbefdc817429523d69c60c14eb":[6,3,0,0,0,664,5],
+"classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932":[6,3,0,0,0,664,0],
+"classMR_1_1PointCloudPart.html#a23c6f150733f604dc938dd7aab4dff42":[6,3,0,0,0,664,2],
+"classMR_1_1PointCloudPart.html#a3fa746eb12430f18ee5d1938b6b66bdd":[6,3,0,0,0,664,4],
+"classMR_1_1PointCloudPart.html#a4ad6e5b4ea826b9771a67d3f887f2a3f":[6,3,0,0,0,664,3],
+"classMR_1_1PointCloudPart.html#a57d8c5f787ab40f3c8ebc4f4fa6c6977":[6,3,0,0,0,664,1],
+"classMR_1_1PointCloudRelaxParams.html":[6,3,0,0,0,665],
+"classMR_1_1PointCloudRelaxParams.html#a16f1be7dcfa33ab5cabcac9e580116a8":[6,3,0,0,0,665,10],
 "classMR_1_1PointCloudRelaxParams.html#a175501ac00160f3e4e57f5d365feed0e":[6,3,0,0,0,665,4],
 "classMR_1_1PointCloudRelaxParams.html#a3f8d8730b5e1552c1ef9600bb7f845b8":[6,3,0,0,0,665,7],
 "classMR_1_1PointCloudRelaxParams.html#a54b485c440d7a4e469fd1571a87c2887":[6,3,0,0,0,665,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX50 =
 "classMR_1_1PointsLoad_1_1E57LoadSettings.html#aa51c297a135d0f818bba7a1d6121386e":[6,3,0,0,0,672,0,5],
 "classMR_1_1PointsLoad_1_1E57LoadSettings.html#acba567a6102f19497bae5288ff8af181":[6,3,0,0,0,672,0,7],
 "classMR_1_1PointsLoad_1_1E57LoadSettings.html#accbe2616798eafeddd7f45a81f044326":[6,3,0,0,0,672,0,4],
-"classMR_1_1PointsLoad_1_1NamedCloud.html":[6,3,0,0,0,672,1],
-"classMR_1_1PointsLoad_1_1NamedCloud.html#a172e29bec38736290c642abfbe17786a":[6,3,0,0,0,672,1,9],
-"classMR_1_1PointsLoad_1_1NamedCloud.html#a190866600be21fb36ff2547ed61a092c":[6,3,0,0,0,672,1,8],
-"classMR_1_1PointsLoad_1_1NamedCloud.html#a2972fbd3dee3dff8c629f823f224d017":[6,3,0,0,0,672,1,4],
-"classMR_1_1PointsLoad_1_1NamedCloud.html#a7a050d49402551b7022c784bbf2eaacd":[6,3,0,0,0,672,1,7],
-"classMR_1_1PointsLoad_1_1NamedCloud.html#a99f70c9eef3536803b93d29a5a18987d":[6,3,0,0,0,672,1,1],
-"classMR_1_1PointsLoad_1_1NamedCloud.html#aa0c228139c2aa45b13e0be0f1079b847":[6,3,0,0,0,672,1,2],
-"classMR_1_1PointsLoad_1_1NamedCloud.html#abebc748c5a81d837b1ffc3cc7f6080b4":[6,3,0,0,0,672,1,3],
-"classMR_1_1PointsLoad_1_1NamedCloud.html#abf8e20334e7331d88813110061642fbc":[6,3,0,0,0,672,1,5],
-"classMR_1_1PointsLoad_1_1NamedCloud.html#ac0a331cd09c0692bc5cc95635b7f918e":[6,3,0,0,0,672,1,0],
-"classMR_1_1PointsLoad_1_1NamedCloud.html#af7e1be1be7727221f0dd22f52c2f27f7":[6,3,0,0,0,672,1,6]
+"classMR_1_1PointsLoad_1_1NamedCloud.html":[6,3,0,0,0,672,1]
 };

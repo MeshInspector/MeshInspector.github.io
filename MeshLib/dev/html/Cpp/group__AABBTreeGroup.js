@@ -197,7 +197,8 @@ var group__AABBTreeGroup =
     [ "MR::MeshMeshSignedDistanceResult", "structMR_1_1MeshMeshSignedDistanceResult.html", [
       [ "a", "structMR_1_1MeshMeshSignedDistanceResult.html#a642ae2b2d6307510e4c0d80c5157ebbb", null ],
       [ "b", "structMR_1_1MeshMeshSignedDistanceResult.html#a23af96a4b4cd53382d78f9c0356b4c09", null ],
-      [ "signedDist", "structMR_1_1MeshMeshSignedDistanceResult.html#abe11291a5f4afd550ef7697c23ba7410", null ]
+      [ "signedDist", "structMR_1_1MeshMeshSignedDistanceResult.html#abe11291a5f4afd550ef7697c23ba7410", null ],
+      [ "status", "structMR_1_1MeshMeshSignedDistanceResult.html#a2dde76f179a4bcac69592b196d1b91ab", null ]
     ] ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", [
       [ "operator bool", "structMR_1_1MeshProjectionResult.html#a460580792489509aafec2325c8b07a2e", null ],
@@ -303,6 +304,14 @@ var group__AABBTreeGroup =
     [ "MR::PolylineIntersectionCallback2f", "group__AABBTreeGroup.html#gae0b1767f78412a4100c7baa4ae2cb2de", null ],
     [ "MR::PreciseCollisionResult", "group__AABBTreeGroup.html#ga457b7bb3a129cf50a82586b670a93148", null ],
     [ "MR::TriangleCallback", "group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057", null ],
+    [ "MR::MeshMeshCollisionStatus", "group__AABBTreeGroup.html#ga5aa465c33f4b7d12b07ec82baf32654b", [
+      [ "MR::MeshMeshCollisionStatus::BothOutside", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba5bd109aa9c521d02a6d4842204e14e65", null ],
+      [ "MR::MeshMeshCollisionStatus::BothInside", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba367eb85a870827ec9e5a45dc47ce6240", null ],
+      [ "MR::MeshMeshCollisionStatus::AInside", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654bae89920fda09f72cbdbda991bfd156be2", null ],
+      [ "MR::MeshMeshCollisionStatus::BInside", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba3190a32683de4e146f9e5ecab2bcbcf5", null ],
+      [ "MR::MeshMeshCollisionStatus::Colliding", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654bae0f4d0dafbcf08dd28d80154056ad0d8", null ],
+      [ "MR::MeshMeshCollisionStatus::Touching", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba5b32faae4c7bae1011dc7ab43caa1529", null ]
+    ] ],
     [ "MR::ProcessOneResult", "group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47", [
       [ "MR::ProcessOneResult::StopProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612", null ],
       [ "MR::ProcessOneResult::ContinueProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47aab6bb60f51b25ae0f7ec450173e3348e", null ]
@@ -317,6 +326,8 @@ var group__AABBTreeGroup =
     [ "MR::findCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#ga7b104a00c60718368c988029510bf8ba", null ],
     [ "MR::findCollidingTriangleBitsets", "group__AABBTreeGroup.html#ga8defd1b47b126123f3cf99c68e771ea0", null ],
     [ "MR::findCollidingTriangles", "group__AABBTreeGroup.html#ga6e40cae7759017db4116172d739d174d", null ],
+    [ "MR::findCollisionStatus", "group__AABBTreeGroup.html#ga38b71b662d44f03abb5df7e3d21dba69", null ],
+    [ "MR::findCollisionStatus", "group__AABBTreeGroup.html#ga31f767d0a19b8491ab1df673478ea044", null ],
     [ "MR::findDirMax", "group__AABBTreeGroup.html#ga52a64810b7f16779f6057c6ea4dbea38", null ],
     [ "MR::findDirMax", "group__AABBTreeGroup.html#ga732261d700b4c525fd647dd0ce9d0cb7", null ],
     [ "MR::findDirMax", "group__AABBTreeGroup.html#ga27f3ab649f42f8c32266636ea1e4a672", null ],

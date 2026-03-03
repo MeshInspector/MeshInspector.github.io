@@ -1,5 +1,15 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1PixelBitSet.html#a36bf739fab816b5af19b28ff20329c0f":[6,3,0,0,0,651,20],
+"classMR_1_1PixelBitSet.html#a38129fdb09c36c96663e636312535a18":[6,3,0,0,0,651,9],
+"classMR_1_1PixelBitSet.html#a496e78f1246762eba8e64767b84d1282":[6,3,0,0,0,651,17],
+"classMR_1_1PixelBitSet.html#a53055a7810b228297c473a39619b5934":[6,3,0,0,0,651,0],
+"classMR_1_1PixelBitSet.html#a5c4a798089d46fa8852d0d92807bd120":[6,3,0,0,0,651,31],
+"classMR_1_1PixelBitSet.html#a6129c0ea0655e81c1b61786fc4d6841a":[6,3,0,0,0,651,15],
+"classMR_1_1PixelBitSet.html#a63edc132fe638793c9afef11d26b6320":[6,3,0,0,0,651,5],
+"classMR_1_1PixelBitSet.html#a66ef14ea274db64acd12ca6811a1bd63":[6,3,0,0,0,651,23],
+"classMR_1_1PixelBitSet.html#a6a69a90e29b80eab51335e1e8927692a":[6,3,0,0,0,651,10],
+"classMR_1_1PixelBitSet.html#a6df0c9bd6acf06ba2dc3d07aad9c916d":[6,3,0,0,0,651,27],
 "classMR_1_1PixelBitSet.html#a787c2b86b49d780a2de8b268f64e3541":[6,3,0,0,0,651,26],
 "classMR_1_1PixelBitSet.html#a7baae8e82d64ae0aaf4c20db293ce032":[6,3,0,0,0,651,30],
 "classMR_1_1PixelBitSet.html#a818a9e719c08547654d23e1148827056":[6,3,0,0,0,651,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX49 =
 "classMR_1_1PointCloudComponents.html#a3777364a988d0304ae7b464d8496527e":[6,3,0,0,0,663,2],
 "classMR_1_1PointCloudComponents.html#a4ded808e54099f11d1d645b9972c9294":[6,3,0,0,0,663,0],
 "classMR_1_1PointCloudComponents.html#a53439813313e29922fbedf093b114b4d":[6,3,0,0,0,663,4],
-"classMR_1_1PointCloudComponents.html#aa562711aa838de9aa0a78baaf8cabc84":[6,3,0,0,0,663,1],
-"classMR_1_1PointCloudComponents.html#acce167647e8f22c47577e45c89c7c891":[6,3,0,0,0,663,3],
-"classMR_1_1PointCloudPart.html":[6,3,0,0,0,664],
-"classMR_1_1PointCloudPart.html#a1863e0fbefdc817429523d69c60c14eb":[6,3,0,0,0,664,5],
-"classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932":[6,3,0,0,0,664,0],
-"classMR_1_1PointCloudPart.html#a23c6f150733f604dc938dd7aab4dff42":[6,3,0,0,0,664,2],
-"classMR_1_1PointCloudPart.html#a3fa746eb12430f18ee5d1938b6b66bdd":[6,3,0,0,0,664,4],
-"classMR_1_1PointCloudPart.html#a4ad6e5b4ea826b9771a67d3f887f2a3f":[6,3,0,0,0,664,3],
-"classMR_1_1PointCloudPart.html#a57d8c5f787ab40f3c8ebc4f4fa6c6977":[6,3,0,0,0,664,1],
-"classMR_1_1PointCloudRelaxParams.html":[6,3,0,0,0,665],
-"classMR_1_1PointCloudRelaxParams.html#a16f1be7dcfa33ab5cabcac9e580116a8":[6,3,0,0,0,665,10]
+"classMR_1_1PointCloudComponents.html#aa562711aa838de9aa0a78baaf8cabc84":[6,3,0,0,0,663,1]
 };

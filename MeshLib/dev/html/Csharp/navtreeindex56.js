@@ -1,5 +1,15 @@
 var NAVTREEINDEX56 =
 {
+"classMR_1_1Sphere2d.html#ae480050f605c2eb999fe20643bc6ea3a":[6,3,0,0,0,787,2],
+"classMR_1_1Sphere2f.html":[6,3,0,0,0,788],
+"classMR_1_1Sphere2f.html#a02cc7fc66dc4b144ed76398c30b63c2d":[6,3,0,0,0,788,0],
+"classMR_1_1Sphere2f.html#a696a6e98649e6fcedc18ec924e657b13":[6,3,0,0,0,788,2],
+"classMR_1_1Sphere2f.html#a697f085d0cfd615101c9aedb06dc6c92":[6,3,0,0,0,788,6],
+"classMR_1_1Sphere2f.html#a6c758f6085b22005fd59bee56c763083":[6,3,0,0,0,788,3],
+"classMR_1_1Sphere2f.html#a775219dd4036d6b52067a8332eae8d19":[6,3,0,0,0,788,5],
+"classMR_1_1Sphere2f.html#aaf6857c968bb60db79e9723f90ed6282":[6,3,0,0,0,788,4],
+"classMR_1_1Sphere2f.html#ad11950bcf5515f5843eb24b123395e00":[6,3,0,0,0,788,1],
+"classMR_1_1Sphere3d.html":[6,3,0,0,0,789],
 "classMR_1_1Sphere3d.html#a15e76a74cc21b8e2d338798d4c66f11b":[6,3,0,0,0,789,3],
 "classMR_1_1Sphere3d.html#a42064ec0fc825fc169d766d78dbfec74":[6,3,0,0,0,789,5],
 "classMR_1_1Sphere3d.html#a4ccbdcdadcd03f1128ca45e85743d091":[6,3,0,0,0,789,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX56 =
 "classMR_1_1SymMatrix2i64.html#a5a6bbd74a8926ce18ce2bf785d6653fe":[6,3,0,0,0,805,9],
 "classMR_1_1SymMatrix2i64.html#a69285f5b3553a869d2750d9bec2d58d0":[6,3,0,0,0,805,2],
 "classMR_1_1SymMatrix2i64.html#a98c2a299d6a50ffef29cc6ecea2d8ec0":[6,3,0,0,0,805,6],
-"classMR_1_1SymMatrix2i64.html#ac2897d7137d604c5deee70cf4516f6f6":[6,3,0,0,0,805,7],
-"classMR_1_1SymMatrix2i64.html#ad75e44c5ada473c9cee1226c81a5b208":[6,3,0,0,0,805,4],
-"classMR_1_1SymMatrix2i64.html#ad8ab98fe822e2a498f5cad7fc05a78dd":[6,3,0,0,0,805,0],
-"classMR_1_1SymMatrix2i64.html#ade7e216ddc90bd1e8c68e9f951fc8f99":[6,3,0,0,0,805,3],
-"classMR_1_1SymMatrix3__UnsignedChar.html":[6,3,0,0,0,806],
-"classMR_1_1SymMatrix3__UnsignedChar.html#a074e5540c11c987adee3326ed1c8e669":[6,3,0,0,0,806,6],
-"classMR_1_1SymMatrix3__UnsignedChar.html#a093ba20933b42a50080d7ec12917631c":[6,3,0,0,0,806,13],
-"classMR_1_1SymMatrix3__UnsignedChar.html#a13dbd14a737226e360861984de013268":[6,3,0,0,0,806,9],
-"classMR_1_1SymMatrix3__UnsignedChar.html#a1b4fd6db66a3698dcc2c7dae02d9d977":[6,3,0,0,0,806,7],
-"classMR_1_1SymMatrix3__UnsignedChar.html#a1e382fe3fff067b4086f96819395f5ee":[6,3,0,0,0,806,2],
-"classMR_1_1SymMatrix3__UnsignedChar.html#a308424c54b5aaeb07dd0920caa955f4c":[6,3,0,0,0,806,5]
+"classMR_1_1SymMatrix2i64.html#ac2897d7137d604c5deee70cf4516f6f6":[6,3,0,0,0,805,7]
 };

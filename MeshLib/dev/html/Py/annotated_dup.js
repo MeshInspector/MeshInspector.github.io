@@ -517,6 +517,7 @@ var annotated_dup =
       [ "MeshIntersectionResult", "classmrmeshpy_1_1MeshIntersectionResult.html", "classmrmeshpy_1_1MeshIntersectionResult" ],
       [ "MeshLoad", "classmrmeshpy_1_1MeshLoad.html", "classmrmeshpy_1_1MeshLoad" ],
       [ "MeshLoadSettings", "classmrmeshpy_1_1MeshLoadSettings.html", "classmrmeshpy_1_1MeshLoadSettings" ],
+      [ "MeshMeshCollisionStatus", "classmrmeshpy_1_1MeshMeshCollisionStatus.html", "classmrmeshpy_1_1MeshMeshCollisionStatus" ],
       [ "MeshMeshConverter", "classmrmeshpy_1_1MeshMeshConverter.html", "classmrmeshpy_1_1MeshMeshConverter" ],
       [ "MeshMeshDistanceResult", "classmrmeshpy_1_1MeshMeshDistanceResult.html", "classmrmeshpy_1_1MeshMeshDistanceResult" ],
       [ "MeshMeshSignedDistanceResult", "classmrmeshpy_1_1MeshMeshSignedDistanceResult.html", "classmrmeshpy_1_1MeshMeshSignedDistanceResult" ],

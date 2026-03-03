@@ -1,5 +1,14 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1MeshBuilder_1_1UniteCloseParams.html#af450b903e2ec0b09d9e542d571a747b6":[6,3,0,0,0,507,4,6],
+"classMR_1_1MeshBuilder_1_1VertDuplication.html":[6,3,0,0,0,507,5],
+"classMR_1_1MeshBuilder_1_1VertDuplication.html#a1f5c612a3f4c91738389e921df16541c":[6,3,0,0,0,507,5,0],
+"classMR_1_1MeshBuilder_1_1VertDuplication.html#a24285012d758c5d9f22fb638dffd3f01":[6,3,0,0,0,507,5,4],
+"classMR_1_1MeshBuilder_1_1VertDuplication.html#a30a09ee3b1ab07d852f581c8fbc29da5":[6,3,0,0,0,507,5,5],
+"classMR_1_1MeshBuilder_1_1VertDuplication.html#a32f38ad3842a777755d13d8a9616ed49":[6,3,0,0,0,507,5,2],
+"classMR_1_1MeshBuilder_1_1VertDuplication.html#a94e2937289e578a0434d2abac502e3a6":[6,3,0,0,0,507,5,3],
+"classMR_1_1MeshBuilder_1_1VertDuplication.html#aa00bbb6eee3fbbe14cbeb66a6db78d43":[6,3,0,0,0,507,5,6],
+"classMR_1_1MeshBuilder_1_1VertDuplication.html#afeef8e5a7fc5521ef04b4ec7618de3e9":[6,3,0,0,0,507,5,1],
 "classMR_1_1MeshBuilder_1_1VertSpan.html":[6,3,0,0,0,507,7],
 "classMR_1_1MeshBuilder_1_1VertSpan.html#a1e0299cfaf3a695544728660b1f6517a":[6,3,0,0,0,507,7,5],
 "classMR_1_1MeshBuilder_1_1VertSpan.html#a1efa618a004235d51a02d85c51746879":[6,3,0,0,0,507,7,1],
@@ -209,8 +218,9 @@ var NAVTREEINDEX40 =
 "classMR_1_1MeshMeshSignedDistanceResult.html":[6,3,0,0,0,516],
 "classMR_1_1MeshMeshSignedDistanceResult.html#a1fd38ab2fdaaa466e855987056373ee4":[6,3,0,0,0,516,2],
 "classMR_1_1MeshMeshSignedDistanceResult.html#a47ea2bb46009b834e6865fdf6d273702":[6,3,0,0,0,516,4],
-"classMR_1_1MeshMeshSignedDistanceResult.html#a5bbd24fbfbb8e73b8fc3d4bed6b2da19":[6,3,0,0,0,516,1],
+"classMR_1_1MeshMeshSignedDistanceResult.html#a54996868ad7c7ac38e63b21057a5eb72":[6,3,0,0,0,516,1],
 "classMR_1_1MeshMeshSignedDistanceResult.html#a68365c09a13ab4f28a9999397a5e577e":[6,3,0,0,0,516,7],
+"classMR_1_1MeshMeshSignedDistanceResult.html#aa56137be4f7cd124dff810f3f96f7d01":[6,3,0,0,0,516,8],
 "classMR_1_1MeshMeshSignedDistanceResult.html#aa5664deb655e09cc7f6f60b3e2c682e6":[6,3,0,0,0,516,5],
 "classMR_1_1MeshMeshSignedDistanceResult.html#acc4007475fc7333ebb102fc7994128d3":[6,3,0,0,0,516,6],
 "classMR_1_1MeshMeshSignedDistanceResult.html#acc7303e43d88f00e5e7635efdf69ea56":[6,3,0,0,0,516,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRVdbVolume.html#a507ead2c7b0ced4418c868650edc95de":[6,3,0,0,0,520,1],
 "classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRVdbVolume.html#ad6a7b7fb94f015c8ce71879b61a2cbfe":[6,3,0,0,0,520,0],
 "classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRVdbVolume.html#ae8e8ca0842ad92b6cdc188eeceab0be7":[6,3,0,0,0,520,2],
-"classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume.html":[6,3,0,0,0,521],
-"classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume.html#aa2c2e824ffbc27a834883057da7a9ca4":[6,3,0,0,0,521,2],
-"classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume.html#abaa562ae86a3d56f62900c6d20f8de5c":[6,3,0,0,0,521,0],
-"classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume.html#ac6b9ed07b527bd509511aca067c5fc54":[6,3,0,0,0,521,3],
-"classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume.html#af6c799af3a749418a3cb760261b0dd9a":[6,3,0,0,0,521,1],
-"classMR_1_1MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html":[6,3,0,0,0,522],
-"classMR_1_1MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#a2395122aae64a5bb596c17cfb79816f3":[6,3,0,0,0,522,2],
-"classMR_1_1MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#a2644cc087e27f48893c48fbf18c9f6a6":[6,3,0,0,0,522,0],
-"classMR_1_1MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#ad79f22a3392d0ca4b78a5a7ec49ab44d":[6,3,0,0,0,522,1],
-"classMR_1_1MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#af8f4874aebcecff10b724e5ac12a8cb9":[6,3,0,0,0,522,3],
-"classMR_1_1MeshOnVoxelsT__MRMesh__MRVdbVolume.html":[6,3,0,0,0,523]
+"classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume.html":[6,3,0,0,0,521]
 };

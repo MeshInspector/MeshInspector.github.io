@@ -1,5 +1,15 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1SubdivideFillingSettings.html":[6,0,0,20,231],
+"structMR_1_1SubdivideSettings.html":[6,0,0,9,7,0],
+"structMR_1_1SubdivideSettings.html#a33de3142a2aa3715df6e72e27478d3e1":[6,0,0,9,7,0,9],
+"structMR_1_1SubdivideSettings.html#a36d315cb2aaa92503d1a85c889074250":[6,0,0,9,7,0,6],
+"structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8":[6,0,0,9,7,0,0],
+"structMR_1_1SubdivideSettings.html#a52aa2a88771ab9ca39f096cae8256c7d":[6,0,0,9,7,0,16],
+"structMR_1_1SubdivideSettings.html#a55b830f7823b4a74b6891945bafa12a5":[6,0,0,9,7,0,10],
+"structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa":[6,0,0,9,7,0,17],
+"structMR_1_1SubdivideSettings.html#a757c0278a48bf06117256165bec538c0":[6,0,0,9,7,0,18],
+"structMR_1_1SubdivideSettings.html#a772aa28ef31f33140c7b3f6bfbc36d30":[6,0,0,9,7,0,1],
 "structMR_1_1SubdivideSettings.html#a9288f9c5670484c0f76b53be1311b3cc":[6,0,0,9,7,0,19],
 "structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111":[6,0,0,9,7,0,14],
 "structMR_1_1SubdivideSettings.html#ac22dd26860cd94e68e46004cd88fc7ce":[6,0,0,9,7,0,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1UniteManyMeshesParams.html":[6,0,0,20,483],
 "structMR_1_1UnorientedTriangle.html":[6,0,0,20,485],
 "structMR_1_1VarEdgeTri.html":[6,0,0,1,18],
-"structMR_1_1VarEdgeTri.html#a0b24a1fdcebee2cef32bf0884f9625fc":[6,0,0,1,18,6],
-"structMR_1_1VarEdgeTri.html#a2845a94e12c71150e5cc22e2c03a027d":[6,0,0,1,18,4],
-"structMR_1_1VarEdgeTri.html#a33184180e0f7658211800f7ad3720833":[6,0,0,1,18,5],
-"structMR_1_1VarEdgeTri.html#a40285e5911c3efc0fdba9474bce8129a":[6,0,0,1,18,10],
-"structMR_1_1VarEdgeTri.html#a5f818bf5f96cbe4b5c899d56e9185ce6":[6,0,0,1,18,7],
-"structMR_1_1VarEdgeTri.html#a8e7c3895e3226b4e74de73d21cd4c4ad":[6,0,0,1,18,9],
-"structMR_1_1VarEdgeTri.html#a959f88d5011716b91abacd8e5b6d357c":[6,0,0,1,18,3],
-"structMR_1_1VarEdgeTri.html#a9823b1d64efd1d93070b51f01ffa10c6":[6,0,0,1,18,1],
-"structMR_1_1VarEdgeTri.html#a9ff04d23bee5568116250292fe986af6":[6,0,0,1,18,11],
-"structMR_1_1VarEdgeTri.html#ab11feb222ecdf219d714ed2b9b058ec6":[6,0,0,1,18,2],
-"structMR_1_1VarEdgeTri.html#adf3bb4f9a10426c166bd866f89ddf797":[6,0,0,1,18,8]
+"structMR_1_1VarEdgeTri.html#a0b24a1fdcebee2cef32bf0884f9625fc":[6,0,0,1,18,6]
 };

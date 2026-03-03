@@ -5,6 +5,7 @@
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes local="no">compare</includes>
     <includedby refid="MRMeshCollide_8h" local="yes">MRMesh/MRMeshCollide.h</includedby>
+    <includedby refid="MRMeshMeshDistance_8h" local="yes">MRMesh/MRMeshMeshDistance.h</includedby>
     <includedby refid="MRPolyline2Collide_8h" local="yes">MRMesh/MRPolyline2Collide.h</includedby>
     <incdepgraph>
       <node id="5">
@@ -109,12 +110,18 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>MRMesh/MRMeshCollide.h</label>
         <link refid="MRMeshCollide_8h"/>
       </node>
       <node id="3">
+        <label>MRMesh/MRMeshMeshDistance.h</label>
+        <link refid="MRMeshMeshDistance_8h"/>
+      </node>
+      <node id="4">
         <label>MRMesh/MRPolyline2Collide.h</label>
         <link refid="MRPolyline2Collide_8h"/>
       </node>
