@@ -118,7 +118,7 @@
           <declname>settings</declname>
         </param>
         <briefdescription>
-<para>returns requested number of largest by length connected components in descending by length order Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1af2132aa8545ff1dca82d24706b64f11d" kindref="member">MR.PolylineComponents.getNLargeByLengthComponents</ref>&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;</computeroutput>. </para>
+<para>returns requested number of largest by length connected components in descending by length order Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1af2132aa8545ff1dca82d24706b64f11d" kindref="member">MR.PolylineComponents.getNLargeByLengthComponents</ref>&amp;lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -141,7 +141,7 @@
           <declname>settings</declname>
         </param>
         <briefdescription>
-<para>returns requested number of largest by length connected components in descending by length order Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1af2132aa8545ff1dca82d24706b64f11d" kindref="member">MR.PolylineComponents.getNLargeByLengthComponents</ref>&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;</computeroutput>. </para>
+<para>returns requested number of largest by length connected components in descending by length order Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1af2132aa8545ff1dca82d24706b64f11d" kindref="member">MR.PolylineComponents.getNLargeByLengthComponents</ref>&amp;lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -189,7 +189,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>returns largest by length component Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1a9da51d55fa09d7e80f9b80bfc83fdcaa" kindref="member">MR.PolylineComponents.getLargestComponent</ref>&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;</computeroutput>. Parameter <computeroutput>minLength</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+<para>returns largest by length component Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1a9da51d55fa09d7e80f9b80bfc83fdcaa" kindref="member">MR.PolylineComponents.getLargestComponent</ref>&amp;lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>minLength</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -218,7 +218,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>returns largest by length component Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1a9da51d55fa09d7e80f9b80bfc83fdcaa" kindref="member">MR.PolylineComponents.getLargestComponent</ref>&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;</computeroutput>. Parameter <computeroutput>minLength</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+<para>returns largest by length component Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1a9da51d55fa09d7e80f9b80bfc83fdcaa" kindref="member">MR.PolylineComponents.getLargestComponent</ref>&amp;lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>minLength</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

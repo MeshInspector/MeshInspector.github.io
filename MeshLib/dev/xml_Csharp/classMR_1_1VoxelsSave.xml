@@ -57,7 +57,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Saves object to a single 3d DICOM file. <computeroutput>sourceScale</computeroutput> specifies the true scale of the voxel data which will be saved with &quot;slope&quot; and &quot;intercept&quot; parameters of the output dicom. Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a6c6921e445751acc40c054ff9d25dfe2" kindref="member">MR.VoxelsSave.toDicom</ref>&lt;unsigned short&gt;</computeroutput>. Parameter <computeroutput>sourceScale</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Saves object to a single 3d DICOM file. <computeroutput>sourceScale</computeroutput> specifies the true scale of the voxel data which will be saved with &quot;slope&quot; and &quot;intercept&quot; parameters of the output dicom. Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a6c6921e445751acc40c054ff9d25dfe2" kindref="member">MR.VoxelsSave.toDicom</ref>&amp;lt;unsigned short&amp;gt;</computeroutput>. Parameter <computeroutput>sourceScale</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

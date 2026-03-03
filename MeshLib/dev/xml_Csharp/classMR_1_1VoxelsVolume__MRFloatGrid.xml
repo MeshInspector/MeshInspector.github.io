@@ -106,7 +106,7 @@
           <declname>voxelSize</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR::VoxelsVolume&lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::VoxelsVolume&amp;lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -125,7 +125,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelsVolume&lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&gt;::VoxelsVolume</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolume&amp;lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&amp;gt;::VoxelsVolume</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -144,7 +144,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelsVolume&lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&gt;::VoxelsVolume</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolume&amp;lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&amp;gt;::VoxelsVolume</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -163,7 +163,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelsVolume&lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&gt;::VoxelsVolume</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolume&amp;lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&amp;gt;::VoxelsVolume</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -182,7 +182,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::VoxelsVolume&lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::VoxelsVolume&amp;lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -192,7 +192,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>represents a box in 3D space subdivided on voxels stored in T Generated from class <computeroutput>MR::VoxelsVolume&lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&gt;</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></computeroutput> This is the non-const half of the class. </para>
+<para>represents a box in 3D space subdivided on voxels stored in T Generated from class <computeroutput>MR::VoxelsVolume&amp;lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&amp;gt;</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

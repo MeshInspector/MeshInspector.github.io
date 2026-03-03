@@ -252,7 +252,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>the class is responsible for finding shortest edge paths on a mesh in Euclidean metric using A* heuristics Generated from class <computeroutput><ref refid="classMR_1_1EdgePathsAStarBuilder" kindref="compound">MR.EdgePathsAStarBuilder</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::EdgePathsBuilderT&lt;<ref refid="classMR_1_1MetricToAStarPenalty" kindref="compound">MR.MetricToAStarPenalty</ref>&gt;</computeroutput> This is the non-const half of the class. </para>
+<para>the class is responsible for finding shortest edge paths on a mesh in Euclidean metric using A* heuristics Generated from class <computeroutput><ref refid="classMR_1_1EdgePathsAStarBuilder" kindref="compound">MR.EdgePathsAStarBuilder</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::EdgePathsBuilderT&amp;lt;<ref refid="classMR_1_1MetricToAStarPenalty" kindref="compound">MR.MetricToAStarPenalty</ref>&amp;gt;</computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

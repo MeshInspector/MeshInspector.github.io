@@ -68,7 +68,7 @@
         <name>this[int row]</name>
         <qualifiedname>MR.Matrix4_UnsignedChar.this[int row]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix4&lt;unsigned char&gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix4&amp;lt;unsigned char&amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -128,7 +128,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Matrix4&lt;unsigned char&gt;::Matrix4</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix4&amp;lt;unsigned char&amp;gt;::Matrix4</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -147,7 +147,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Matrix4&lt;unsigned char&gt;::Matrix4</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix4&amp;lt;unsigned char&amp;gt;::Matrix4</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -178,7 +178,7 @@
           <declname>w</declname>
         </param>
         <briefdescription>
-<para>initializes matrix from 4 row-vectors Generated from constructor <computeroutput>MR::Matrix4&lt;unsigned char&gt;::Matrix4</computeroutput>. </para>
+<para>initializes matrix from 4 row-vectors Generated from constructor <computeroutput>MR::Matrix4&amp;lt;unsigned char&amp;gt;::Matrix4</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -201,7 +201,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>construct from rotation matrix and translation vector Generated from constructor <computeroutput>MR::Matrix4&lt;unsigned char&gt;::Matrix4</computeroutput>. </para>
+<para>construct from rotation matrix and translation vector Generated from constructor <computeroutput>MR::Matrix4&amp;lt;unsigned char&amp;gt;::Matrix4</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -220,7 +220,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix4&lt;unsigned char&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix4&amp;lt;unsigned char&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -243,7 +243,7 @@
           <declname>col</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix4&lt;unsigned char&gt;::operator()</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix4&amp;lt;unsigned char&amp;gt;::operator()</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -262,7 +262,7 @@
           <declname>rot</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix4&lt;unsigned char&gt;::setRotation</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix4&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Matrix4__UnsignedChar_1ad5aa739a120f8c8c075d32c1379a7097" kindref="member">setRotation</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -281,7 +281,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix4&lt;unsigned char&gt;::setTranslation</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix4&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Matrix4__UnsignedChar_1ac76d8e70444b508ad30d50bcc24b0d17" kindref="member">setTranslation</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -296,7 +296,7 @@
         <name>data</name>
         <qualifiedname>MR.Matrix4_UnsignedChar.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix4&lt;unsigned char&gt;::data</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix4&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Matrix4__UnsignedChar_1a08e8d3a92cfb84cdac0bb729e9723b96" kindref="member">data</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -382,7 +382,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>arbitrary 4x4 matrix Generated from class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>arbitrary 4x4 matrix Generated from class <computeroutput>MR::Matrix4&amp;lt;unsigned char&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

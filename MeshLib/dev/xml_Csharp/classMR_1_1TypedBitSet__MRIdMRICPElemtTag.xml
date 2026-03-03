@@ -74,7 +74,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::TypedBitSet</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::TypedBitSet</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -93,7 +93,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::TypedBitSet</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::TypedBitSet</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -112,7 +112,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::TypedBitSet</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::TypedBitSet</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -136,7 +136,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>creates bitset of given size filled with given value Generated from constructor <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::TypedBitSet</computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>creates bitset of given size filled with given value Generated from constructor <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::TypedBitSet</computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -155,7 +155,7 @@
           <declname>src</declname>
         </param>
         <briefdescription>
-<para>copies all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet<underline>) Generated from constructor <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::TypedBitSet</computeroutput>. </underline></para>
+<para>copies all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet&lt;U&gt;) Generated from constructor <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::TypedBitSet</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -174,7 +174,7 @@
           <declname>src</declname>
         </param>
         <briefdescription>
-<para>moves all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet<underline>) Generated from constructor <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::TypedBitSet</computeroutput>. </underline></para>
+<para>moves all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet&lt;U&gt;) Generated from constructor <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::TypedBitSet</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -193,7 +193,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -220,7 +220,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::set</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a352de87e15116e5f26888ed65388f47a" kindref="member">set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -243,7 +243,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::set</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a352de87e15116e5f26888ed65388f47a" kindref="member">set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -262,7 +262,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::set</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a352de87e15116e5f26888ed65388f47a" kindref="member">set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -277,7 +277,7 @@
         <name>set</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.set</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::set</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a352de87e15116e5f26888ed65388f47a" kindref="member">set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -300,7 +300,7 @@
           <declname>len</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::reset</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a25b82993495bdfa4314e182ec10e3c08" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -319,7 +319,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::reset</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a25b82993495bdfa4314e182ec10e3c08" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -334,7 +334,7 @@
         <name>reset</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.reset</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::reset</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a25b82993495bdfa4314e182ec10e3c08" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -357,7 +357,7 @@
           <declname>len</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::flip</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a3214b3770fd8fc261fa94960db5f158f" kindref="member">flip</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -376,7 +376,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::flip</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a3214b3770fd8fc261fa94960db5f158f" kindref="member">flip</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -391,7 +391,7 @@
         <name>flip</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.flip</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::flip</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a3214b3770fd8fc261fa94960db5f158f" kindref="member">flip</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -415,7 +415,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::test_set</computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::test_set</computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -434,7 +434,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::operator&amp;=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::operator&amp;=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -453,7 +453,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::operator|=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::operator|=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -472,7 +472,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::operator^=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::operator^=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -491,7 +491,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -514,7 +514,7 @@
           <declname>bShiftInBlocks</declname>
         </param>
         <briefdescription>
-<para>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::subtract</computeroutput>. </para>
+<para>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a8f5cf7d2c5947493bac1bb998a4255f2" kindref="member">subtract</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -542,7 +542,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::autoResizeSet</computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a3a4b72d44340a69f59a386f25aa1d4b2" kindref="member">autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -566,7 +566,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::autoResizeSet</computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a3a4b72d44340a69f59a386f25aa1d4b2" kindref="member">autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -590,7 +590,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::autoResizeTestSet</computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a341567d4fca7b4d9d81a0e689fa3fc46" kindref="member">autoResizeTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -609,7 +609,7 @@
           <declname>numBits</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::reserve</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1aa52ad31ec2395f696ffcca7386971b23" kindref="member">reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -633,7 +633,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::resize</computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1af4d56a4295ee006f46fff0c6cd165401" kindref="member">resize</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -648,7 +648,7 @@
         <name>clear</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::clear</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a52bb38f7f524156c235c9bedd19b083c" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -663,7 +663,7 @@
         <name>shrinkToFit</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.shrinkToFit</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::shrink_to_fit</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::shrink_to_fit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -687,7 +687,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::uncheckedTestSet</computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1aac6d242435f78ffc930d221d295b8733" kindref="member">uncheckedTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -702,7 +702,7 @@
         <name>reverse</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.reverse</qualifiedname>
         <briefdescription>
-<para>changes the order of bits on the opposite Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::reverse</computeroutput>. </para>
+<para>changes the order of bits on the opposite Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a8f14d3ca32aa8ef10bf0d794202aa4fa" kindref="member">reverse</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -721,7 +721,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>adds one more bit with the given value in the container, increasing its size on 1 Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::push_back</computeroutput>. </para>
+<para>adds one more bit with the given value in the container, increasing its size on 1 Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -736,7 +736,7 @@
         <name>popBack</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.popBack</qualifiedname>
         <briefdescription>
-<para>removes last bit from the container, decreasing its size on 1 Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::pop_back</computeroutput>. </para>
+<para>removes last bit from the container, decreasing its size on 1 Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -755,7 +755,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;::resizeWithReserve</computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a068847131e0b43dc245730c44827a267" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -765,7 +765,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after size() considered off during testing Generated from class <computeroutput>MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after size() considered off during testing Generated from class <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

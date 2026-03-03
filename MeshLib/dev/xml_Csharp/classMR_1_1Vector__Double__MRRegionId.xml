@@ -27,7 +27,7 @@
         <name>this[MR.RegionId i]</name>
         <qualifiedname>MR.Vector_Double_MRRegionId.this[MR.RegionId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -77,7 +77,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -96,7 +96,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -115,7 +115,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -134,7 +134,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -157,7 +157,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -176,7 +176,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -195,7 +195,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -210,7 +210,7 @@
         <name>clear</name>
         <qualifiedname>MR.Vector_Double_MRRegionId.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::clear</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Double__MRRegionId_1a9a9e7d9026f2e48925b87e783b654c63" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -229,7 +229,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::resize</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Double__MRRegionId_1a0292a82e1e173c2b6c5fb944d51e4a18" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -252,7 +252,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::resize</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Double__MRRegionId_1a0292a82e1e173c2b6c5fb944d51e4a18" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -271,7 +271,7 @@
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::reserve</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Double__MRRegionId_1a1c416656f961a5f93f85fe097a8999a6" kindref="member">reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -290,7 +290,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Double__MRRegionId_1ac5f676acc367fc6914758d3813ff3208" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -313,7 +313,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::resizeWithReserve</computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Double__MRRegionId_1ac5f676acc367fc6914758d3813ff3208" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -340,7 +340,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::autoResizeSet</computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Double__MRRegionId_1a6b60faf44dd85275503377863bbac1d6" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -363,7 +363,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::autoResizeSet</computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Double__MRRegionId_1a6b60faf44dd85275503377863bbac1d6" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -382,7 +382,7 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::autoResizeAt</computeroutput>. </para>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Double__MRRegionId_1a0ac7dba4c524ea87f6d45a51307dc8f7" kindref="member">autoResizeAt</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -401,7 +401,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -424,7 +424,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -439,7 +439,7 @@
         <name>popBack</name>
         <qualifiedname>MR.Vector_Double_MRRegionId.popBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::pop_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -454,7 +454,7 @@
         <name>emplaceBack</name>
         <qualifiedname>MR.Vector_Double_MRRegionId.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::emplace_back&lt;&gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::emplace_back&amp;lt;&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -469,7 +469,7 @@
         <name>front</name>
         <qualifiedname>MR.Vector_Double_MRRegionId.front</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::front</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Double__MRRegionId_1a205172a0bf422958f5483205f9ad7139" kindref="member">front</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -484,7 +484,7 @@
         <name>back</name>
         <qualifiedname>MR.Vector_Double_MRRegionId.back</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Double__MRRegionId_1a985a1a369eed229a3e3908e4a09dea84" kindref="member">back</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -499,7 +499,7 @@
         <name>data</name>
         <qualifiedname>MR.Vector_Double_MRRegionId.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::data</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Double__MRRegionId_1a735e1d9c78cc9a431296cf2dace5dae6" kindref="member">data</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -518,7 +518,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::swap</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Double__MRRegionId_1a0639f3c05e01acd73604e8db7578f26d" kindref="member">swap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -579,7 +579,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -605,7 +605,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;double, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>

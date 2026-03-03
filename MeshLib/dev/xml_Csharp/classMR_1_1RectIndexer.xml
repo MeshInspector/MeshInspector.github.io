@@ -183,7 +183,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>a class for converting 2D integer coordinates into 1D linear coordinates and backward Generated from class <computeroutput><ref refid="classMR_1_1RectIndexer" kindref="compound">MR.RectIndexer</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1DistanceMap" kindref="compound">MR.DistanceMap</ref></computeroutput> <computeroutput>MR::Matrix&lt;float&gt;</computeroutput> This is the non-const half of the class. </para>
+<para>a class for converting 2D integer coordinates into 1D linear coordinates and backward Generated from class <computeroutput><ref refid="classMR_1_1RectIndexer" kindref="compound">MR.RectIndexer</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1DistanceMap" kindref="compound">MR.DistanceMap</ref></computeroutput> <computeroutput>MR::Matrix&amp;lt;float&amp;gt;</computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
