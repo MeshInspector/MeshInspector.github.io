@@ -914,7 +914,7 @@ for points outside the box this is equivalent to getBoxClosestPointTo
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::Box2f
-Aliases:  AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f.BoxT, AABBTreeTraits_UndirectedEdgeTag_Box2f.BoxT, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.BoxT
+Aliases:  AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.BoxT, AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f.BoxT, AABBTreeTraits_UndirectedEdgeTag_Box2f.BoxT
 
 Box given by its min- and max- corners
 </verbatim> </para>

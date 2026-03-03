@@ -441,6 +441,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.LoadedObjectT_ObjectPoints", "classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html", "classmrmeshpy_1_1LoadedObjectT__ObjectPoints" ],
     [ "mrmeshpy.LoadedObjectT_ObjectVoxels", "classmrmeshpy_1_1LoadedObjectT__ObjectVoxels.html", "classmrmeshpy_1_1LoadedObjectT__ObjectVoxels" ],
     [ "mrmeshpy.LoadedObjects", "classmrmeshpy_1_1LoadedObjects.html", "classmrmeshpy_1_1LoadedObjects" ],
+    [ "mrmeshpy.Locale", "classmrmeshpy_1_1Locale.html", null ],
     [ "mrmeshpy.MakeBridgeResult", "classmrmeshpy_1_1MakeBridgeResult.html", "classmrmeshpy_1_1MakeBridgeResult" ],
     [ "mrmeshpy.MakeDegenerateBandAroundRegionParams", "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html", "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams" ],
     [ "mrmeshpy.MakeSignedByWindingNumberSettings", "classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html", "classmrmeshpy_1_1MakeSignedByWindingNumberSettings" ],

@@ -12283,6 +12283,7 @@
     <member refid="group__GeneralGroup_1ga8b0d0e857bc86e82e9aafaa8c2fb3a9b" kind="variable"><name>gpuOverridesMSAA_</name></member>
     <member refid="group__GeneralGroup_1ga7804450cb17708be19bec3d0981128cd" kind="variable"><name>tempUserScaling_</name></member>
     <member refid="group__GeneralGroup_1gad8e0bf4467ab87e19a5146de2385bebf" kind="variable"><name>backgroundColor_</name></member>
+    <member refid="group__GeneralGroup_1gad0e0d1cc8fce8e794694d3f6d877d794" kind="variable"><name>selectedLanguage_</name></member>
     <member refid="group__GeneralGroup_1ga3144773dd6c0dfbccac2fd853c86bb33" kind="variable"><name>selectedUserPreset_</name></member>
     <member refid="group__GeneralGroup_1gad4388798318e29736315d5a9cb21ebb0" kind="variable"><name>userThemesPresets_</name></member>
     <member refid="group__GeneralGroup_1ga0f3ad2977cefa7607eb755063d711774" kind="variable"><name>shadowGl_</name></member>
@@ -12309,6 +12310,7 @@
     <member refid="group__GeneralGroup_1ga16cf2c5207d54ec49bcec97a70927cab" kind="function"><name>drawViewportTab_</name></member>
     <member refid="group__GeneralGroup_1gae73ebe4fc5fbaacc509b057b6b37f706" kind="function"><name>drawMeasurementUnitsTab_</name></member>
     <member refid="group__GeneralGroup_1gac0b210ec574cb25b96da4341d73ca739" kind="function"><name>drawFeaturesTab_</name></member>
+    <member refid="group__GeneralGroup_1gaecf9bc528b5c54d5f96e86ef1528228d" kind="function"><name>drawLanguageSelector_</name></member>
     <member refid="group__GeneralGroup_1ga178fbd197fcc5841a9b7f49cbb636c26" kind="function"><name>drawThemeSelector_</name></member>
     <member refid="group__GeneralGroup_1gaa94c7740d8768bea22b1114c584883ca" kind="function"><name>drawResetDialog_</name></member>
     <member refid="group__GeneralGroup_1ga80dda1a25e5eddabe65d33ba1bed73b6" kind="function"><name>drawShadingModeCombo_</name></member>
@@ -15711,6 +15713,24 @@
     <member refid="group__LinesSaveGroup_1ga949f34442cb0887f15b53b74d3db3bc8" kind="function"><name>toAnySupportedFormat</name></member>
     <member refid="group__LinesSaveGroup_1ga898bea8515e1d001f42894ee4fb6c304" kind="function"><name>toAnySupportedFormat</name></member>
   </compound>
+  <compound refid="namespaceMR_1_1Locale" kind="namespace"><name>MR::Locale</name>
+    <member refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kind="function"><name>translate_noop</name></member>
+    <member refid="group__GeneralGroup_1ga022f7ba55e1f7b995ca4ec47fe14bbbd" kind="function"><name>translate_noop</name></member>
+    <member refid="group__GeneralGroup_1ga8be55266cda239241bd21a99bd3641b4" kind="function"><name>translate_noop</name></member>
+    <member refid="group__GeneralGroup_1ga7b75b4f9890aac168b93a980c7caa7e0" kind="function"><name>translate_noop</name></member>
+    <member refid="namespaceMR_1_1Locale_1ac59a56d895488411e12e18eda9077a20" kind="function"><name>get</name></member>
+    <member refid="namespaceMR_1_1Locale_1a3fde71105ef842bfaaf870498be9222d" kind="function"><name>getName</name></member>
+    <member refid="namespaceMR_1_1Locale_1aa3caed4adf5ab7e7489b6c3cc97040a4" kind="function"><name>set</name></member>
+    <member refid="namespaceMR_1_1Locale_1a56715982039eac569ef53b82b086b1e3" kind="function"><name>getAvailableLocales</name></member>
+    <member refid="namespaceMR_1_1Locale_1a2b32ebd2b8467813962ef412cc56a1f3" kind="function"><name>addCatalogPath</name></member>
+    <member refid="namespaceMR_1_1Locale_1a2e81b598eb5d6aeb48f551d370244c6e" kind="function"><name>addDomain</name></member>
+    <member refid="namespaceMR_1_1Locale_1a8d1947c7d967dbc42a857466e79550e7" kind="function"><name>getDisplayName</name></member>
+    <member refid="namespaceMR_1_1Locale_1a1a90862fe2d6cda7d213d3683715e1cc" kind="function"><name>setDisplayName</name></member>
+    <member refid="namespaceMR_1_1Locale_1ad107934ee7a79c06562767bbd0febdf5" kind="function"><name>translate</name></member>
+    <member refid="namespaceMR_1_1Locale_1ae500dd863fc501d756968174206e9076" kind="function"><name>translate</name></member>
+    <member refid="namespaceMR_1_1Locale_1a135a714215bdfafe98ba07654d565c34" kind="function"><name>translate</name></member>
+    <member refid="namespaceMR_1_1Locale_1aef611924629d0042096b70abcde22d15" kind="function"><name>translate</name></member>
+  </compound>
   <compound refid="namespaceMR_1_1MeshBuilder" kind="namespace"><name>MR::MeshBuilder</name>
     <member refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kind="function"><name>fromTriangles</name></member>
     <member refid="group__GeneralGroup_1gae702434806379331a4d7a6e4bf12a859" kind="function"><name>duplicateNonManifoldVertices</name></member>
@@ -16836,6 +16856,7 @@
     <member refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kind="define"><name>MRMESH_CLASS</name></member>
     <member refid="MRMeshFwd_8h_1aaa2c9e5a899e212852b81dbb084d081c" kind="define"><name>MR_UNREACHABLE</name></member>
     <member refid="MRMeshFwd_8h_1adf3c82902530739f161963e298ca8dc0" kind="define"><name>MR_UNREACHABLE_NO_RETURN</name></member>
+    <member refid="MRMeshFwd_8h_1a9ffd0813b79cbb98d3f71fa5adb2a408" kind="define"><name>_t</name></member>
   </compound>
   <compound refid="MRMeshIntersect_8h" kind="file"><name>MRMeshIntersect.h</name>
   </compound>
@@ -17460,6 +17481,10 @@
   <compound refid="MRLambdaRibbonItem_8h" kind="file"><name>MRLambdaRibbonItem.h</name>
   </compound>
   <compound refid="MRLinesShader_8h" kind="file"><name>MRLinesShader.h</name>
+  </compound>
+  <compound refid="MRLocale_8h" kind="file"><name>MRLocale.h</name>
+    <member refid="MRLocale_8h_1adc6632164911ac0de8387a9b13de000e" kind="define"><name>_tr</name></member>
+    <member refid="MRLocale_8h_1a33873d54d36dc3bf7a6a77bf40461701" kind="define"><name>f_tr</name></member>
   </compound>
   <compound refid="MRMacOSOpenDocumentsHandler_8h" kind="file"><name>MRMacOSOpenDocumentsHandler.h</name>
   </compound>
@@ -23417,6 +23442,7 @@
     <member refid="group__GeneralGroup_1ga8b0d0e857bc86e82e9aafaa8c2fb3a9b" kind="variable"><name>gpuOverridesMSAA_</name></member>
     <member refid="group__GeneralGroup_1ga7804450cb17708be19bec3d0981128cd" kind="variable"><name>tempUserScaling_</name></member>
     <member refid="group__GeneralGroup_1gad8e0bf4467ab87e19a5146de2385bebf" kind="variable"><name>backgroundColor_</name></member>
+    <member refid="group__GeneralGroup_1gad0e0d1cc8fce8e794694d3f6d877d794" kind="variable"><name>selectedLanguage_</name></member>
     <member refid="group__GeneralGroup_1ga3144773dd6c0dfbccac2fd853c86bb33" kind="variable"><name>selectedUserPreset_</name></member>
     <member refid="group__GeneralGroup_1gad4388798318e29736315d5a9cb21ebb0" kind="variable"><name>userThemesPresets_</name></member>
     <member refid="group__GeneralGroup_1ga0f3ad2977cefa7607eb755063d711774" kind="variable"><name>shadowGl_</name></member>
@@ -25695,6 +25721,10 @@
     <member refid="group__GeneralGroup_1ga6378c438e076ed530da1f0c964249855" kind="function"><name>distanceSq</name></member>
     <member refid="group__GeneralGroup_1gabedf6d080f6840c8f336d5bce0c9f87a" kind="function"><name>lerp</name></member>
     <member refid="group__GeneralGroup_1ga80e6b953fc44378e5898ba71b21f216a" kind="function"><name>overloaded</name></member>
+    <member refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kind="function"><name>translate_noop</name></member>
+    <member refid="group__GeneralGroup_1ga022f7ba55e1f7b995ca4ec47fe14bbbd" kind="function"><name>translate_noop</name></member>
+    <member refid="group__GeneralGroup_1ga8be55266cda239241bd21a99bd3641b4" kind="function"><name>translate_noop</name></member>
+    <member refid="group__GeneralGroup_1ga7b75b4f9890aac168b93a980c7caa7e0" kind="function"><name>translate_noop</name></member>
     <member refid="group__GeneralGroup_1gaa2a7fba3a600699de880615c69671718" kind="function"><name>orgPnt</name></member>
     <member refid="group__GeneralGroup_1ga5cdd8fe5835da1eaf2a4f623c04f00a9" kind="function"><name>destPnt</name></member>
     <member refid="group__GeneralGroup_1ga2ecd5552b4907aa1e0a475427a4cef98" kind="function"><name>edgeVector</name></member>
@@ -29489,6 +29519,7 @@
     <member refid="group__GeneralGroup_1ga16cf2c5207d54ec49bcec97a70927cab" kind="function"><name>drawViewportTab_</name></member>
     <member refid="group__GeneralGroup_1gae73ebe4fc5fbaacc509b057b6b37f706" kind="function"><name>drawMeasurementUnitsTab_</name></member>
     <member refid="group__GeneralGroup_1gac0b210ec574cb25b96da4341d73ca739" kind="function"><name>drawFeaturesTab_</name></member>
+    <member refid="group__GeneralGroup_1gaecf9bc528b5c54d5f96e86ef1528228d" kind="function"><name>drawLanguageSelector_</name></member>
     <member refid="group__GeneralGroup_1ga178fbd197fcc5841a9b7f49cbb636c26" kind="function"><name>drawThemeSelector_</name></member>
     <member refid="group__GeneralGroup_1gaa94c7740d8768bea22b1114c584883ca" kind="function"><name>drawResetDialog_</name></member>
     <member refid="group__GeneralGroup_1ga80dda1a25e5eddabe65d33ba1bed73b6" kind="function"><name>drawShadingModeCombo_</name></member>

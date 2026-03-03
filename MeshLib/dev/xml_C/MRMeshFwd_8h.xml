@@ -176,6 +176,46 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFwd.h" line="51" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFwd.h" declline="51" declcolumn="19"/>
       </memberdef>
+      <memberdef kind="function" id="MRMeshFwd_8h_1a8b5515509022588dbce8acbe7f66f4ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const char *</type>
+        <definition>MRC_API const char * MR_Locale_translate_noop_1</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>MR_Locale_translate_noop_1</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>special no-op inline functions to mark string literal as translatable Generated from function <computeroutput>MR::Locale::translate_noop</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFwd.h" line="55" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFwd.h" declline="55" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshFwd_8h_1a1362e7187c8aab340f7b4343cc7f0086" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const char *</type>
+        <definition>MRC_API const char * MR_Locale_translate_noop_2</definition>
+        <argsstring>(const char *ctx, const char *str)</argsstring>
+        <name>MR_Locale_translate_noop_2</name>
+        <param>
+          <type>const char *</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::Locale::translate_noop</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFwd.h" line="58" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFwd.h" declline="58" declcolumn="20"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -211,9 +251,13 @@
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51" refid="MRMeshFwd_8h_1aeb3fe7be619b42ca3c0ec3ab42eaa3a0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*<ref refid="MRMeshFwd_8h_1aeb3fe7be619b42ca3c0ec3ab42eaa3a0" kindref="member">MR_NoInit_AssignFromAnother</ref>(<ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="55" refid="MRMeshFwd_8h_1a8b5515509022588dbce8acbe7f66f4ec" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshFwd_8h_1a8b5515509022588dbce8acbe7f66f4ec" kindref="member">MR_Locale_translate_noop_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="MRMeshFwd_8h_1a1362e7187c8aab340f7b4343cc7f0086" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshFwd_8h_1a1362e7187c8aab340f7b4343cc7f0086" kindref="member">MR_Locale_translate_noop_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*ctx,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshFwd.h"/>
   </compounddef>
