@@ -468,7 +468,6 @@ var classMR =
     [ "LoadedObjectT_MRObjectMesh", "classMR_1_1LoadedObjectT__MRObjectMesh.html", "classMR_1_1LoadedObjectT__MRObjectMesh" ],
     [ "LoadedObjectT_MRObjectPoints", "classMR_1_1LoadedObjectT__MRObjectPoints.html", "classMR_1_1LoadedObjectT__MRObjectPoints" ],
     [ "LoadedObjectT_MRObjectVoxels", "classMR_1_1LoadedObjectT__MRObjectVoxels.html", "classMR_1_1LoadedObjectT__MRObjectVoxels" ],
-    [ "Locale", "classMR_1_1Locale.html", "classMR_1_1Locale" ],
     [ "MakeBridgeResult", "classMR_1_1MakeBridgeResult.html", "classMR_1_1MakeBridgeResult" ],
     [ "MakeDegenerateBandAroundRegionParams", "classMR_1_1MakeDegenerateBandAroundRegionParams.html", "classMR_1_1MakeDegenerateBandAroundRegionParams" ],
     [ "MakeSignedByWindingNumberSettings", "classMR_1_1MakeSignedByWindingNumberSettings.html", "classMR_1_1MakeSignedByWindingNumberSettings" ],

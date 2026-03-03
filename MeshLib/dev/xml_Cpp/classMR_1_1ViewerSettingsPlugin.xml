@@ -14,7 +14,6 @@
       <member refid="group__GeneralGroup_1ga8b0d0e857bc86e82e9aafaa8c2fb3a9b" kind="variable"><name>gpuOverridesMSAA_</name></member>
       <member refid="group__GeneralGroup_1ga7804450cb17708be19bec3d0981128cd" kind="variable"><name>tempUserScaling_</name></member>
       <member refid="group__GeneralGroup_1gad8e0bf4467ab87e19a5146de2385bebf" kind="variable"><name>backgroundColor_</name></member>
-      <member refid="group__GeneralGroup_1gad0e0d1cc8fce8e794694d3f6d877d794" kind="variable"><name>selectedLanguage_</name></member>
       <member refid="group__GeneralGroup_1ga3144773dd6c0dfbccac2fd853c86bb33" kind="variable"><name>selectedUserPreset_</name></member>
       <member refid="group__GeneralGroup_1gad4388798318e29736315d5a9cb21ebb0" kind="variable"><name>userThemesPresets_</name></member>
       <member refid="group__GeneralGroup_1ga0f3ad2977cefa7607eb755063d711774" kind="variable"><name>shadowGl_</name></member>
@@ -47,7 +46,6 @@
       <member refid="group__GeneralGroup_1ga16cf2c5207d54ec49bcec97a70927cab" kind="function"><name>drawViewportTab_</name></member>
       <member refid="group__GeneralGroup_1gae73ebe4fc5fbaacc509b057b6b37f706" kind="function"><name>drawMeasurementUnitsTab_</name></member>
       <member refid="group__GeneralGroup_1gac0b210ec574cb25b96da4341d73ca739" kind="function"><name>drawFeaturesTab_</name></member>
-      <member refid="group__GeneralGroup_1gaecf9bc528b5c54d5f96e86ef1528228d" kind="function"><name>drawLanguageSelector_</name></member>
       <member refid="group__GeneralGroup_1ga178fbd197fcc5841a9b7f49cbb636c26" kind="function"><name>drawThemeSelector_</name></member>
       <member refid="group__GeneralGroup_1gaa94c7740d8768bea22b1114c584883ca" kind="function"><name>drawResetDialog_</name></member>
       <member refid="group__GeneralGroup_1ga80dda1a25e5eddabe65d33ba1bed73b6" kind="function"><name>drawShadingModeCombo_</name></member>
@@ -195,7 +193,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRViewerSettingsPlugin.h" line="18" column="1" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="19" bodyend="132"/>
+    <location file="MRViewer/MRViewerSettingsPlugin.h" line="18" column="1" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="19" bodyend="129"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gaca69b2de3f466e977b398c0155b02cca" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>activeTab_</name></member>
@@ -217,7 +215,6 @@
       <member refid="group__GeneralGroup_1ga119e03f41d8f3bdf0c9ee522b8ad623b" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawDialog</name></member>
       <member refid="group__GeneralGroup_1gac0b210ec574cb25b96da4341d73ca739" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawFeaturesTab_</name></member>
       <member refid="group__GeneralGroup_1ga7412713a4282acc0801fa920257f186b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawGlobalSettings_</name></member>
-      <member refid="group__GeneralGroup_1gaecf9bc528b5c54d5f96e86ef1528228d" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawLanguageSelector_</name></member>
       <member refid="group__GeneralGroup_1gae73ebe4fc5fbaacc509b057b6b37f706" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMeasurementUnitsTab_</name></member>
       <member refid="group__GeneralGroup_1ga0240b21d67858fb8936910ca704e1696" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMouseSceneControlsSettings_</name></member>
       <member refid="group__GeneralGroup_1gafe777332677939f6435d570ff8e55576" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMruInnerFormats_</name></member>
@@ -265,7 +262,6 @@
       <member refid="group__GeneralGroup_1ga6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>preDrawUpdate</name></member>
       <member refid="group__GeneralGroup_1gab62082b112c1ef416c167b16137cc397" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>resetSettings_</name></member>
       <member refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>RibbonMenuItem</name></member>
-      <member refid="group__GeneralGroup_1gad0e0d1cc8fce8e794694d3f6d877d794" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>selectedLanguage_</name></member>
       <member refid="group__GeneralGroup_1ga3144773dd6c0dfbccac2fd853c86bb33" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>selectedUserPreset_</name></member>
       <member refid="group__GeneralGroup_1gacc58c168370abe4d53898a41e80cfc51" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>setActiveTab</name></member>
       <member refid="group__GeneralGroup_1ga8e7e2dc213b0d280a1c4c3dcde52aa9e" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>setDropItemsFromItemList</name></member>

@@ -607,7 +607,6 @@ var hierarchy =
     [ "mrmeshpy.LoadedObjectT_ObjectPoints", "classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html", null ],
     [ "mrmeshpy.LoadedObjectT_ObjectVoxels", "classmrmeshpy_1_1LoadedObjectT__ObjectVoxels.html", null ],
     [ "mrmeshpy.VoxelsLoad.LoadingTiffSettings", "classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ],
-    [ "mrmeshpy.Locale", "classmrmeshpy_1_1Locale.html", null ],
     [ "mrmeshpy.ObjectVoxels.VolumeRenderingParams.LutType", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html", null ],
     [ "mrmeshpy.MakeBridgeResult", "classmrmeshpy_1_1MakeBridgeResult.html", null ],
     [ "mrmeshpy.MakeDegenerateBandAroundRegionParams", "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html", null ],

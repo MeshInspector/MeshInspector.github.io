@@ -1,7 +1,5 @@
 var NAVTREEINDEX173 =
 {
-"classmrviewerpy_1_1ViewportFitDataParams.html":[6,1,0,0,3,13],
-"classmrviewerpy_1_1ViewportFitDataParams.html":[6,1,1,0,2,13],
 "classmrviewerpy_1_1ViewportFitDataParams.html#a2c024f7a221e5d5ed46c2311282f399d":[6,1,0,0,3,13,4],
 "classmrviewerpy_1_1ViewportFitDataParams.html#a2c024f7a221e5d5ed46c2311282f399d":[6,1,1,0,2,13,4],
 "classmrviewerpy_1_1ViewportFitDataParams.html#a2e4caf0ac4c8c6422d0d727a200926a2":[6,1,0,0,3,13,2],
@@ -246,8 +244,10 @@ var NAVTREEINDEX173 =
 "namespacemrmeshnumpy.html#ac6224bbc57901b29cec13de697c190f3":[6,1,0,0,1,14],
 "namespacemrmeshnumpy.html#ad12b61da2fba2209c9f70ec5a2e44911":[6,1,0,0,1,13],
 "namespacemrmeshpy.html":[6,1,0,0,2],
-"namespacemrmeshpy.html#a000a2f211a0277534439953a5842fa2e":[6,1,0,0,2,1357],
-"namespacemrmeshpy.html#a001b5f1c258693d979f58f40e02baa37":[6,1,0,0,2,3059],
-"namespacemrmeshpy.html#a002b55474debfe1e124119b5d9000e32":[6,1,0,0,2,2825],
-"namespacemrmeshpy.html#a0036880b0bd876c6ebcd61f605569eff":[6,1,0,0,2,2372]
+"namespacemrmeshpy.html#a000a2f211a0277534439953a5842fa2e":[6,1,0,0,2,1356],
+"namespacemrmeshpy.html#a001b5f1c258693d979f58f40e02baa37":[6,1,0,0,2,3058],
+"namespacemrmeshpy.html#a002b55474debfe1e124119b5d9000e32":[6,1,0,0,2,2824],
+"namespacemrmeshpy.html#a0036880b0bd876c6ebcd61f605569eff":[6,1,0,0,2,2371],
+"namespacemrmeshpy.html#a008bb85e9956f6ab8fa06fd534068009":[6,1,0,0,2,1682],
+"namespacemrmeshpy.html#a0098e8d38de1f8d171c97c15baf05c44":[6,1,0,0,2,1510]
 };

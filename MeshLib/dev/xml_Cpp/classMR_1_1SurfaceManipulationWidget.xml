@@ -86,7 +86,7 @@
       <member refid="group__GeneralGroup_1gabf2e20a55a28b2f567d2c8197674fd9d" kind="function"><name>updateRegion_</name></member>
       <member refid="group__GeneralGroup_1ga405e5904bb2f5f323394b020acdb5b67" kind="function"><name>invalidateMetricsCache_</name></member>
       <member refid="group__GeneralGroup_1gadd0ddfdc3b43ddc99dec3be877b7a919" kind="function"><name>abortEdit_</name></member>
-      <member refid="group__GeneralGroup_1ga3b3b4f21af3868efc2586ae20093938a" kind="function"><name>initLaplacian_</name></member>
+      <member refid="group__GeneralGroup_1ga365040ea11094054ee08f4ddc7ee4ac1" kind="function"><name>initLaplacian_</name></member>
       <member refid="group__GeneralGroup_1gad41aeaafb3e4c8632a313f4d729c3561" kind="function"><name>laplacianPickVert_</name></member>
       <member refid="group__GeneralGroup_1ga297618816e83dce980de3f9075d4657a" kind="function"><name>laplacianMoveVert_</name></member>
       <member refid="group__GeneralGroup_1gafd37fd93e8c51f4037dda6a9b72ee3d7" kind="function"><name>updateVizualizeSelection_</name></member>
@@ -146,7 +146,7 @@
         <link refid="structMR_1_1SurfaceManipulationWidget_1_1Settings"/>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRSurfaceManipulationWidget.h" line="20" column="1" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="23" bodyend="202"/>
+    <location file="MRViewer/MRSurfaceManipulationWidget.h" line="20" column="1" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="23" bodyend="203"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gadd0ddfdc3b43ddc99dec3be877b7a919" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>abortEdit_</name></member>
       <member refid="group__GeneralGroup_1ga09c56116fa4c39bcc7554e4142816027" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>appendHistoryAction_</name></member>
@@ -178,7 +178,7 @@
       <member refid="group__GeneralGroup_1ga8c958ed29a4e3f960ce7aab676126adb" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>ignoreOcclusion_</name></member>
       <member refid="group__GeneralGroup_1ga42056e56380a989d42601b9611494613" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>init</name></member>
       <member refid="group__GeneralGroup_1ga959fcbd7bbe023bb87adc1de1a8dda45" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>initConnections_</name></member>
-      <member refid="group__GeneralGroup_1ga3b3b4f21af3868efc2586ae20093938a" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>initLaplacian_</name></member>
+      <member refid="group__GeneralGroup_1ga365040ea11094054ee08f4ddc7ee4ac1" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>initLaplacian_</name></member>
       <member refid="group__GeneralGroup_1ga405e5904bb2f5f323394b020acdb5b67" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>invalidateMetricsCache_</name></member>
       <member refid="group__GeneralGroup_1gad2b38b4c5264c1e038e71ddbea2b4e19" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>isEditOnlyCodirectedSurface</name></member>
       <member refid="group__GeneralGroup_1ga45c714522ca37331bf7eef51f07139fd" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>laplacian_</name></member>

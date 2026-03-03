@@ -6058,7 +6058,6 @@
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <innernamespace refid="namespaceMR_1_1ObjectSave">MR::ObjectSave</innernamespace>
     <innernamespace refid="namespaceMR_1_1MeshBuilder">MR::MeshBuilder</innernamespace>
-    <innernamespace refid="namespaceMR_1_1Locale">MR::Locale</innernamespace>
     <sectiondef kind="define">
       <memberdef kind="define" id="MRMeshFwd_8h_1ac70adc417c063d57d9044e15ce4f4b20" prot="public" static="no">
         <name>MR_CPP_STANDARD_DATE</name>
@@ -6108,7 +6107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="821" column="29" bodyfile="MRMesh/MRMeshFwd.h" bodystart="821" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="808" column="29" bodyfile="MRMesh/MRMeshFwd.h" bodystart="808" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRMeshFwd_8h_1adf3c82902530739f161963e298ca8dc0" prot="public" static="no">
         <name>MR_UNREACHABLE_NO_RETURN</name>
@@ -6119,19 +6118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="822" column="16" bodyfile="MRMesh/MRMeshFwd.h" bodystart="822" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="define" id="MRMeshFwd_8h_1a9ffd0813b79cbb98d3f71fa5adb2a408" prot="public" static="no">
-        <name>_t</name>
-        <param><defname>...</defname></param>
-        <initializer><ref refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kindref="member">MR::Locale::translate_noop</ref>( __VA_ARGS__ )</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="827" column="9" bodyfile="MRMesh/MRMeshFwd.h" bodystart="827" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="809" column="16" bodyfile="MRMesh/MRMeshFwd.h" bodystart="809" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -6864,37 +6851,21 @@
 <codeline lineno="794"><highlight class="normal"></highlight></codeline>
 <codeline lineno="795"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="796"><highlight class="normal"></highlight></codeline>
-<codeline lineno="797" refid="namespaceMR_1_1Locale" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Locale" kindref="compound">Locale</ref></highlight></codeline>
-<codeline lineno="798"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="799"><highlight class="normal"></highlight></codeline>
-<codeline lineno="801" refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kindref="member">translate_noop</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str;<sp/>}</highlight></codeline>
-<codeline lineno="802" refid="group__GeneralGroup_1ga022f7ba55e1f7b995ca4ec47fe14bbbd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kindref="member">translate_noop</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>ctx,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/>(void)ctx;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str;<sp/>}</highlight></codeline>
-<codeline lineno="803"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__CUDACC__</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="804" refid="group__GeneralGroup_1ga8be55266cda239241bd21a99bd3641b4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kindref="member">translate_noop</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>p,<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>n<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>n<sp/>==<sp/></highlight><highlight class="keyword">decltype</highlight><highlight class="normal">(<sp/>n<sp/>)(<sp/>1<sp/>)<sp/>?<sp/>s<sp/>:<sp/>p;<sp/>}</highlight></codeline>
-<codeline lineno="805" refid="group__GeneralGroup_1ga7b75b4f9890aac168b93a980c7caa7e0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kindref="member">translate_noop</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>ctx,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>p,<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>n<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/>(void)ctx;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>n<sp/>==<sp/></highlight><highlight class="keyword">decltype</highlight><highlight class="normal">(<sp/>n<sp/>)(<sp/>1<sp/>)<sp/>?<sp/>s<sp/>:<sp/>p;<sp/>}</highlight></codeline>
-<codeline lineno="806"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="807"><highlight class="normal"></highlight></codeline>
-<codeline lineno="808"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="809"><highlight class="normal"></highlight></codeline>
-<codeline lineno="810"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="811"><highlight class="normal"></highlight></codeline>
-<codeline lineno="812"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cpp_lib_unreachable</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="813"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>MR_UNREACHABLE<sp/>std::unreachable();</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="814"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>MR_UNREACHABLE_NO_RETURN<sp/>std::unreachable();</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="815"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="816"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>ifdef<sp/>__GNUC__</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="817"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MR_UNREACHABLE<sp/>__builtin_unreachable();</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="818"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MR_UNREACHABLE_NO_RETURN<sp/>__builtin_unreachable();</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="819"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="820"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>include<sp/>&lt;cassert&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="821" refid="MRMeshFwd_8h_1aaa2c9e5a899e212852b81dbb084d081c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MR_UNREACHABLE<sp/>{<sp/>assert(<sp/>false<sp/>);<sp/>return<sp/>{};<sp/>}</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="822" refid="MRMeshFwd_8h_1adf3c82902530739f161963e298ca8dc0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MR_UNREACHABLE_NO_RETURN<sp/>assert(<sp/>false<sp/>);</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="823"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="824"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="825"><highlight class="normal"></highlight></codeline>
-<codeline lineno="826"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MR_NO_I18N_MACROS</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="827" refid="MRMeshFwd_8h_1a9ffd0813b79cbb98d3f71fa5adb2a408" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_t(<sp/>...<sp/>)<sp/>MR::Locale::translate_noop(<sp/>__VA_ARGS__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="828"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="797"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="798"><highlight class="normal"></highlight></codeline>
+<codeline lineno="799"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cpp_lib_unreachable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="800"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>MR_UNREACHABLE<sp/>std::unreachable();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="801"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>MR_UNREACHABLE_NO_RETURN<sp/>std::unreachable();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="802"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="803"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>ifdef<sp/>__GNUC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="804"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MR_UNREACHABLE<sp/>__builtin_unreachable();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="805"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MR_UNREACHABLE_NO_RETURN<sp/>__builtin_unreachable();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="806"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="807"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>include<sp/>&lt;cassert&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="808" refid="MRMeshFwd_8h_1aaa2c9e5a899e212852b81dbb084d081c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MR_UNREACHABLE<sp/>{<sp/>assert(<sp/>false<sp/>);<sp/>return<sp/>{};<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="809" refid="MRMeshFwd_8h_1adf3c82902530739f161963e298ca8dc0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MR_UNREACHABLE_NO_RETURN<sp/>assert(<sp/>false<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="810"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="811"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRMeshFwd.h"/>
   </compounddef>

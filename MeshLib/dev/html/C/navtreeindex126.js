@@ -1,7 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"MRWeightedPointsShell_8h.html#a32859a298a156b0666f8788301be8377":[6,2,1,0,0,0,3,39,118],
-"MRWeightedPointsShell_8h.html#a345f74dd290c2d389b06378190d850c8":[6,2,1,0,0,0,3,39,22],
 "MRWeightedPointsShell_8h.html#a3633e5fb92b8e404a4649865b6a9c536":[6,2,1,0,0,0,3,39,106],
 "MRWeightedPointsShell_8h.html#a3639b3a5598341a599b078478e29def4":[6,2,1,0,0,0,3,39,95],
 "MRWeightedPointsShell_8h.html#a379d77af8a6be7e366f8eace340a102a":[6,2,1,0,0,0,3,39,23],
@@ -249,5 +247,7 @@ var NAVTREEINDEX126 =
 "structMR__Matrix3b.html#a2c95eb3d6429708e594b2e1802decd80":[6,2,0,0,26,0],
 "structMR__Matrix3b.html#a5ebc154ed86a391ac515979b615d7dac":[6,2,0,0,26,2],
 "structMR__Matrix3b.html#a6e8e74ee1dc79f588253a457d4ed4d58":[6,2,0,0,26,1],
-"structMR__Matrix3d.html":[6,2,0,0,27]
+"structMR__Matrix3d.html":[6,2,0,0,27],
+"structMR__Matrix3d.html#a48f867cbf16307cd450e080f3bee7a50":[6,2,0,0,27,0],
+"structMR__Matrix3d.html#a52cf785d471d25757aba184954bd60e3":[6,2,0,0,27,1]
 };

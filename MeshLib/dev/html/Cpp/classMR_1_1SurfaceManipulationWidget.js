@@ -29,7 +29,7 @@ var classMR_1_1SurfaceManipulationWidget =
     [ "ignoreOcclusion", "group__GeneralGroup.html#gaf2026eeba0e30566834023085a3b9aac", null ],
     [ "init", "group__GeneralGroup.html#ga42056e56380a989d42601b9611494613", null ],
     [ "initConnections_", "group__GeneralGroup.html#ga959fcbd7bbe023bb87adc1de1a8dda45", null ],
-    [ "initLaplacian_", "group__GeneralGroup.html#ga3b3b4f21af3868efc2586ae20093938a", null ],
+    [ "initLaplacian_", "group__GeneralGroup.html#ga365040ea11094054ee08f4ddc7ee4ac1", null ],
     [ "invalidateMetricsCache_", "group__GeneralGroup.html#ga405e5904bb2f5f323394b020acdb5b67", null ],
     [ "isEditOnlyCodirectedSurface", "group__GeneralGroup.html#gad2b38b4c5264c1e038e71ddbea2b4e19", null ],
     [ "laplacianMoveVert_", "group__GeneralGroup.html#ga297618816e83dce980de3f9075d4657a", null ],

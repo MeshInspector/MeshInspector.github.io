@@ -3214,7 +3214,6 @@ var hierarchy =
     [ "MR.ImageTransform", "classMR_1_1ImageTransform.html", null ],
     [ "MR.LinesLoad", "classMR_1_1LinesLoad.html", null ],
     [ "MR.LinesSave", "classMR_1_1LinesSave.html", null ],
-    [ "MR.Locale", "classMR_1_1Locale.html", null ],
     [ "MR.Matrix3_Bool", "classMR_1_1Matrix3__Bool.html", null ],
     [ "MR.Matrix3_Double", "classMR_1_1Matrix3__Double.html", null ],
     [ "MR.Matrix3_Float", "classMR_1_1Matrix3__Float.html", null ],
