@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html":[6,0,0,20,217],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[6,0,0,20,214],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html":[6,0,0,20,213],
 "structMR_1_1Features_1_1SubfeatureInfo.html":[6,0,1,0,1,6,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#ac337c328d1e23a188ffa5660266acf20":[6,0,1,0,1,16,4,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#ac337c328d1e23a188ffa5660266acf20":[6,0,2,0,2,7,4,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#aea63e8c86e90a9f540bdce73fd2def7a":[6,0,1,0,1,16,4,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#aea63e8c86e90a9f540bdce73fd2def7a":[6,0,2,0,2,7,4,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html":[6,0,1,0,1,16,5]
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#aea63e8c86e90a9f540bdce73fd2def7a":[6,0,2,0,2,7,4,1]
 };

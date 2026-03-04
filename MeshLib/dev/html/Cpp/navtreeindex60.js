@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html":[6,0,1,0,1,16,5],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html":[6,0,2,0,2,7,5],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a13bf25d17b0cd12e3c276a80d170fa5b":[6,0,1,0,1,16,5,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a13bf25d17b0cd12e3c276a80d170fa5b":[6,0,2,0,2,7,5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1IntersectionPrecomputes2.html#aa9162110be6b5840cd870eb551a292fd":[6,0,0,1,16,3],
 "structMR_1_1IntersectionPrecomputes2.html#aa9162110be6b5840cd870eb551a292fd":[6,0,0,20,325,3],
 "structMR_1_1IntrinsicDeloneSettings.html":[6,0,0,9,1,0],
-"structMR_1_1IntrinsicDeloneSettings.html#a5985046a04f74cccc9f62e82968a5671":[6,0,0,9,1,0,2],
-"structMR_1_1IntrinsicDeloneSettings.html#a5fe9566d6f97f752f0d434d75a04ea53":[6,0,0,9,1,0,1]
+"structMR_1_1IntrinsicDeloneSettings.html#a5985046a04f74cccc9f62e82968a5671":[6,0,0,9,1,0,2]
 };

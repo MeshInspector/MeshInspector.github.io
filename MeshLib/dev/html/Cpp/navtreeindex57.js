@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1WeightedShell.html#ad1ffa222355f35085c885b87e8d27df8":[6,0,1,0,1,50,13],
 "namespaceMR_1_1WeightedShell.html#ad2ba4e4f0e0175fc0608e172a0619984":[6,0,1,0,1,50,4],
 "namespaceMR_1_1detail.html":[6,0,0,20,17],
 "namespaceMR_1_1detail.html#a1a02e764be7c54f9177025ee42b915d0":[6,0,1,0,1,3,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1Box.html":[6,0,0,0,2,0],
 "structMR_1_1Box.html#a047eb0e28cab517e74255789df872504":[6,0,0,0,2,0,32],
 "structMR_1_1Box.html#a0b1e0b6b95e8b735eda8de2bb06fd987":[6,0,0,0,2,0,5],
-"structMR_1_1Box.html#a1425948e6f0f9ef6de04c45be07f81fd":[6,0,0,0,2,0,0],
-"structMR_1_1Box.html#a14ec2de1def8e99ce267fe830e9caa51":[6,0,0,0,2,0,19]
+"structMR_1_1Box.html#a1425948e6f0f9ef6de04c45be07f81fd":[6,0,0,0,2,0,0]
 };

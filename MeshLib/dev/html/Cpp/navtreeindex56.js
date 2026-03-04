@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"namespaceMR_1_1ImGuiMath.html#a5dd8586dafaa70c20f2e723116368027":[6,0,1,0,1,15,19],
 "namespaceMR_1_1ImGuiMath.html#a688fbf496bac1ba949b29be3ec9a96c4":[6,0,1,0,1,15,6],
 "namespaceMR_1_1ImGuiMath.html#a6d0e200395e627b407b89164f6c4b13e":[6,0,1,0,1,15,11],
 "namespaceMR_1_1ImGuiMath.html#a7a4714344a7e4547c8fd858658c8a54a":[6,0,1,0,1,15,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "namespaceMR_1_1WeightedShell.html#a521af3e40765a04b00069fa14da9a3fa":[6,0,1,0,1,50,5],
 "namespaceMR_1_1WeightedShell.html#a6c11500f809bc486096500b727e6cbbe":[6,0,1,0,1,50,6],
 "namespaceMR_1_1WeightedShell.html#a8154f94a6793c43fd049a5bf549bf75f":[6,0,1,0,1,50,8],
-"namespaceMR_1_1WeightedShell.html#aa73cc71df322e6863d94e7f237875475":[6,0,1,0,1,50,9],
-"namespaceMR_1_1WeightedShell.html#ad1ffa222355f35085c885b87e8d27df8":[6,0,1,0,1,50,13]
+"namespaceMR_1_1WeightedShell.html#aa73cc71df322e6863d94e7f237875475":[6,0,1,0,1,50,9]
 };

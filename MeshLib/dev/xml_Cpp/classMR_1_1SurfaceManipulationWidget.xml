@@ -39,6 +39,7 @@
       <member refid="group__GeneralGroup_1ga90ca984430afc6677edfa65a39a5d5bb" kind="variable"><name>touchVertIniPos_</name></member>
       <member refid="group__GeneralGroup_1ga07b29d80acee8bb71f3b36cf6f3c61d3" kind="variable"><name>storedDown_</name></member>
       <member refid="group__GeneralGroup_1ga45c714522ca37331bf7eef51f07139fd" kind="variable"><name>laplacian_</name></member>
+      <member refid="group__GeneralGroup_1ga8fc55e576b16eb9f3a7ebc6d3aed8b86" kind="variable"><name>fixedPickedVerts_</name></member>
       <member refid="group__GeneralGroup_1ga646602a8d3e1d1781c7aa8ed9b2050e3" kind="variable"><name>historyAction_</name></member>
       <member refid="group__GeneralGroup_1ga09c56116fa4c39bcc7554e4142816027" kind="variable"><name>appendHistoryAction_</name></member>
       <member refid="group__GeneralGroup_1ga3853225f96fef25c2dbce20227c54c7d" kind="variable"><name>palette_</name></member>
@@ -146,7 +147,7 @@
         <link refid="structMR_1_1SurfaceManipulationWidget_1_1Settings"/>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRSurfaceManipulationWidget.h" line="20" column="1" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="23" bodyend="203"/>
+    <location file="MRViewer/MRSurfaceManipulationWidget.h" line="20" column="1" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="23" bodyend="207"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gadd0ddfdc3b43ddc99dec3be877b7a919" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>abortEdit_</name></member>
       <member refid="group__GeneralGroup_1ga09c56116fa4c39bcc7554e4142816027" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>appendHistoryAction_</name></member>
@@ -169,6 +170,7 @@
       <member refid="group__GeneralGroup_1ga08839c74598549c345ed5f06ffaa769f" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>enableDeviationTexture_</name></member>
       <member refid="group__GeneralGroup_1ga181dd74e48211e1559bf51c95ea04b5d" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>enableDeviationVisualization</name></member>
       <member refid="group__GeneralGroup_1ga76be206635ab7abc679ccdad3f0ab7e8" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>firstInit_</name></member>
+      <member refid="group__GeneralGroup_1ga8fc55e576b16eb9f3a7ebc6d3aed8b86" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>fixedPickedVerts_</name></member>
       <member refid="group__GeneralGroup_1gacc7693d8223133cb63b0540ec58107aa" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>generalEditingRegion_</name></member>
       <member refid="group__GeneralGroup_1gaf5a9e8b4fd61a438f8ba559e9743b5ac" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>getMinMax</name></member>
       <member refid="group__GeneralGroup_1ga90391f79a0502c885245e9778e248a48" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>getMinRadius</name></member>
