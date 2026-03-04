@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="265" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="265" bodyend="270"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="201" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="201" bodyend="208"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -44,29 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="272" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="272" bodyend="272"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Matrix__Float_1af6d35fcf227c73e423aa91cae37be387" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Matrix_Float.Matrix_Float</definition>
-        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
-        <name>Matrix_Float</name>
-        <qualifiedname>MR.Matrix_Float.Matrix_Float</qualifiedname>
-        <param>
-          <type>_UnderlyingShared *</type>
-          <declname>shared_ptr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>is_owning</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="274" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="274" bodyend="274"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="210" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="210" bodyend="210"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -83,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="279" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="279" bodyend="284"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="215" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="215" bodyend="220"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix__Float_1a68a94450c96cb6bcf28e0de631c687f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -96,13 +74,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Matrix&amp;lt;float&amp;gt;::Matrix</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;::Matrix</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="289" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="289" bodyend="295"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="225" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="225" bodyend="231"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix__Float_1ac63111c37e952966f2717cff300d1859" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -115,13 +93,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Matrix&amp;lt;float&amp;gt;::Matrix</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;::Matrix</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="300" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="300" bodyend="300"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="236" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="236" bodyend="236"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix__Float_1af24f695a86b711a5e132a6ecf822e041" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -134,13 +112,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Matrix&amp;lt;float&amp;gt;::Matrix</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;::Matrix</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="305" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="305" bodyend="305"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="241" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="241" bodyend="241"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix__Float_1a7ddb089b594cf4115e7069c298b2e3a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -157,13 +135,13 @@
           <declname>numCols</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Matrix&amp;lt;float&amp;gt;::Matrix</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;::Matrix</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="310" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="310" bodyend="315"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="246" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="246" bodyend="251"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix__Float_1adb66939998416ccf4aa91ffe72c65797" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Matrix__Float" kindref="compound">MR.Matrix_Float</ref></type>
@@ -176,13 +154,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="320" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="320" bodyend="327"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="256" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="256" bodyend="263"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix__Float_1aa37ba191114d7b7f6099e4e3c82d4759" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new ref float</type>
@@ -199,13 +177,13 @@
           <declname>col</declname>
         </param>
         <briefdescription>
-<para>main access method Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;::operator()</computeroutput>. </para>
+<para>main access method Generated from method <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;::operator()</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="333" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="333" bodyend="338"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="269" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="269" bodyend="274"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix__Float_1a5ce27ec18d315a983369856bccb7d4df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new ref float</type>
@@ -218,13 +196,13 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;::operator()</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;::operator()</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="343" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="343" bodyend="348"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="279" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="279" bodyend="284"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix__Float_1aef8cec6914e2e63f8fc5a0e52ac8761c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Matrix__Float" kindref="compound">MR.Matrix_Float</ref></type>
@@ -249,13 +227,13 @@
           <declname>nCol</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;<ref refid="classMR_1_1Matrix__Float_1aef8cec6914e2e63f8fc5a0e52ac8761c" kindref="member">getSubMatrix</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;<ref refid="classMR_1_1Matrix__Float_1aef8cec6914e2e63f8fc5a0e52ac8761c" kindref="member">getSubMatrix</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="353" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="353" bodyend="358"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="289" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="289" bodyend="294"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix__Float_1a5aba45abfe9f8d13e4a2a9b56a9dbcda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -268,13 +246,13 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;<ref refid="classMR_1_1Matrix__Float_1a5aba45abfe9f8d13e4a2a9b56a9dbcda" kindref="member">fill</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;<ref refid="classMR_1_1Matrix__Float_1a5aba45abfe9f8d13e4a2a9b56a9dbcda" kindref="member">fill</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="363" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="363" bodyend="368"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="299" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="299" bodyend="304"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix__Float_1abc4530de7958af42202ad7bd6711a252" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -283,13 +261,13 @@
         <name>clear</name>
         <qualifiedname>MR.Matrix_Float.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;<ref refid="classMR_1_1Matrix__Float_1abc4530de7958af42202ad7bd6711a252" kindref="member">clear</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;<ref refid="classMR_1_1Matrix__Float_1abc4530de7958af42202ad7bd6711a252" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="373" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="373" bodyend="378"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="309" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="309" bodyend="314"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix__Float_1ac9434ecc79f9e07850b4b12c97109640" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -302,17 +280,17 @@
           <declname>dims</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;<ref refid="classMR_1_1Matrix__Float_1ac9434ecc79f9e07850b4b12c97109640" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;<ref refid="classMR_1_1Matrix__Float_1ac9434ecc79f9e07850b4b12c97109640" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="383" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="383" bodyend="391"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="319" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="319" bodyend="327"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Row-major matrix with T values Generated from class <computeroutput>MR::Matrix&amp;lt;float&amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1RectIndexer" kindref="compound">MR.RectIndexer</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Row-major matrix with T values Generated from class <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1RectIndexer" kindref="compound">MR.RectIndexer</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -331,7 +309,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR.Misc.SharedObject</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
         <label>System.IDisposable</label>
@@ -352,13 +330,13 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR.Misc.SharedObject</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="262" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="263" bodyend="392"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" line="198" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix.cs" bodystart="199" bodyend="328"/>
     <listofallmembers>
       <member refid="classMR_1_1Matrix__Float_1adb66939998416ccf4aa91ffe72c65797" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>assign</name></member>
       <member refid="classMR_1_1Matrix__Float_1aa37ba191114d7b7f6099e4e3c82d4759" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>call</name></member>
@@ -367,7 +345,6 @@
       <member refid="classMR_1_1Matrix__Float_1a5aba45abfe9f8d13e4a2a9b56a9dbcda" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>fill</name></member>
       <member refid="classMR_1_1Matrix__Float_1aef8cec6914e2e63f8fc5a0e52ac8761c" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>getSubMatrix</name></member>
       <member refid="classMR_1_1Matrix__Float_1a812afd0fddcb8c0ba0e469a6693ad75f" prot="package" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>Matrix_Float</name></member>
-      <member refid="classMR_1_1Matrix__Float_1af6d35fcf227c73e423aa91cae37be387" prot="package" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>Matrix_Float</name></member>
       <member refid="classMR_1_1Matrix__Float_1a324cc5aaec3c3595858fa0b9cd70cdb6" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>Matrix_Float</name></member>
       <member refid="classMR_1_1Matrix__Float_1a68a94450c96cb6bcf28e0de631c687f0" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>Matrix_Float</name></member>
       <member refid="classMR_1_1Matrix__Float_1ac63111c37e952966f2717cff300d1859" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>Matrix_Float</name></member>

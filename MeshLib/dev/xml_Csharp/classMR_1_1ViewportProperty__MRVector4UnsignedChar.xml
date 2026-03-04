@@ -11,7 +11,7 @@
         <name>this[MR.ViewportId id]</name>
         <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.this[MR.ViewportId id]</qualifiedname>
         <briefdescription>
-<para>returns direct access to value associated with given viewport (or default value if !id) Generated from method <computeroutput>MR::ViewportProperty&amp;lt;MR::Vector4&amp;lt;unsigned char&amp;gt;&amp;gt;::operator[]</computeroutput>. </para>
+<para>returns direct access to value associated with given viewport (or default value if !id) Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::Vector4&amp;amp;lt;unsigned char&amp;amp;gt;&amp;amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -71,7 +71,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;lt;MR::Vector4&amp;lt;unsigned char&amp;gt;&amp;gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::Vector4&amp;amp;lt;unsigned char&amp;amp;gt;&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -90,7 +90,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;lt;MR::Vector4&amp;lt;unsigned char&amp;gt;&amp;gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::Vector4&amp;amp;lt;unsigned char&amp;amp;gt;&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -109,7 +109,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;lt;MR::Vector4&amp;lt;unsigned char&amp;gt;&amp;gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::Vector4&amp;amp;lt;unsigned char&amp;amp;gt;&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -128,7 +128,7 @@
           <declname>def</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;lt;MR::Vector4&amp;lt;unsigned char&amp;gt;&amp;gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::Vector4&amp;amp;lt;unsigned char&amp;amp;gt;&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -147,7 +147,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::ViewportProperty&amp;lt;MR::Vector4&amp;lt;unsigned char&amp;gt;&amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::Vector4&amp;amp;lt;unsigned char&amp;amp;gt;&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -166,7 +166,7 @@
           <declname>def</declname>
         </param>
         <briefdescription>
-<para>sets default property value Generated from method <computeroutput>MR::ViewportProperty&amp;lt;MR::Vector4&amp;lt;unsigned char&amp;gt;&amp;gt;<ref refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a58d7b672fdb78d4a67dd946de034a6d3" kindref="member">set</ref></computeroutput>. </para>
+<para>sets default property value Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::Vector4&amp;amp;lt;unsigned char&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a58d7b672fdb78d4a67dd946de034a6d3" kindref="member">set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -181,7 +181,7 @@
         <name>get</name>
         <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.get</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::ViewportProperty&amp;lt;MR::Vector4&amp;lt;unsigned char&amp;gt;&amp;gt;<ref refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1af8a714c8ea679555937920699b2a1e1e" kindref="member">get</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::Vector4&amp;amp;lt;unsigned char&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1af8a714c8ea679555937920699b2a1e1e" kindref="member">get</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -204,7 +204,7 @@
           <declname>id</declname>
         </param>
         <briefdescription>
-<para>sets specific property value for given viewport (or default value if !id) Generated from method <computeroutput>MR::ViewportProperty&amp;lt;MR::Vector4&amp;lt;unsigned char&amp;gt;&amp;gt;<ref refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a58d7b672fdb78d4a67dd946de034a6d3" kindref="member">set</ref></computeroutput>. </para>
+<para>sets specific property value for given viewport (or default value if !id) Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::Vector4&amp;amp;lt;unsigned char&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a58d7b672fdb78d4a67dd946de034a6d3" kindref="member">set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -223,7 +223,7 @@
           <declname>id</declname>
         </param>
         <briefdescription>
-<para>forgets specific property value for given viewport (or all viewports if !id); returns true if any specific value was removed Generated from method <computeroutput>MR::ViewportProperty&amp;lt;MR::Vector4&amp;lt;unsigned char&amp;gt;&amp;gt;<ref refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a478fc0230ca35d6d379ce89aa758efc9" kindref="member">reset</ref></computeroutput>. </para>
+<para>forgets specific property value for given viewport (or all viewports if !id); returns true if any specific value was removed Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::Vector4&amp;amp;lt;unsigned char&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a478fc0230ca35d6d379ce89aa758efc9" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -238,7 +238,7 @@
         <name>reset</name>
         <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.reset</qualifiedname>
         <briefdescription>
-<para>forgets specific property value for all viewports; returns true if any specific value was removed Generated from method <computeroutput>MR::ViewportProperty&amp;lt;MR::Vector4&amp;lt;unsigned char&amp;gt;&amp;gt;<ref refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a478fc0230ca35d6d379ce89aa758efc9" kindref="member">reset</ref></computeroutput>. </para>
+<para>forgets specific property value for all viewports; returns true if any specific value was removed Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::Vector4&amp;amp;lt;unsigned char&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a478fc0230ca35d6d379ce89aa758efc9" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -259,7 +259,7 @@
           <declname>def</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;lt;MR::Vector4&amp;lt;unsigned char&amp;gt;&amp;gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::Vector4&amp;amp;lt;unsigned char&amp;amp;gt;&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -269,7 +269,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>storage of some viewport-dependent property, which has some default value for all viewports and special values for some specific viewports Generated from class <computeroutput>MR::ViewportProperty&amp;lt;MR::Vector4&amp;lt;unsigned char&amp;gt;&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>storage of some viewport-dependent property, which has some default value for all viewports and special values for some specific viewports Generated from class <computeroutput>MR::ViewportProperty&amp;amp;lt;MR::Vector4&amp;amp;lt;unsigned char&amp;amp;gt;&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

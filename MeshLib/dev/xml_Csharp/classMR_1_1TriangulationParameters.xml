@@ -15,21 +15,15 @@
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="note"><para>Too small value can make not optimal triangulation and additional holes<linebreak/>
- Too big value increases difficulty of optimization and decreases performance</para>
+Too big value increases difficulty of optimization and decreases performance &amp;lt;table border=0&amp;gt; &amp;lt;caption id="TriangulationParameters::numNeighbours_examples"&amp;gt;&amp;lt;/caption&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;<image type="html" name="triangulate_3.png">"Good" width = 350cm &amp;lt;/td&amp;gt;</image>
+ &amp;lt;td&amp;gt;<image type="html" name="triangulate_2.png">"Too small value" width = 350cm &amp;lt;/td&amp;gt;</image>
+ &amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt; </para>
 </simplesect>
-<table rows="1" cols="2"><caption id="classMR_1_1TriangulationParameters_1TriangulationParameters::numNeighbours_examples"></caption>
-<row>
-<entry thead="no"><para><image type="html" name="triangulate_3.png" width="350cm">Good</image>
-</para>
-</entry><entry thead="no"><para><image type="html" name="triangulate_2.png" width="350cm">Too small value</image>
-</para>
-</entry></row>
-</table>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="216" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="216" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="219" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="219" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TriangulationParameters_1a83f8217df6b4a52de2394e5c35e69ac8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -38,13 +32,13 @@
         <name>radius</name>
         <qualifiedname>MR.TriangulationParameters.radius</qualifiedname>
         <briefdescription>
+<para>Radius of neighborhood around each point to consider for building local triangulation. This is an alternative to numNeighbours parameter. Please set to positive value only one of them. </para>
         </briefdescription>
         <detaileddescription>
-<para>Radius of neighborhood around each point to consider for building local triangulation. This is an alternative to numNeighbours parameter. Please set to positive value only one of them. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="223" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="223" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="226" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="226" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TriangulationParameters_1af8d0577d5c65b2890534c89923773124" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -53,22 +47,16 @@
         <name>critAngle</name>
         <qualifiedname>MR.TriangulationParameters.critAngle</qualifiedname>
         <briefdescription>
-<para>Critical angle of triangles in local triangulation (angle between triangles in fan should be less then this value) </para>
+<para>Critical angle of triangles in local triangulation (angle between triangles in fan should be less then this value) &amp;lt;table border=0&amp;gt; &amp;lt;caption id="TriangulationParameters::critAngle_examples"&amp;gt;&amp;lt;/caption&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;. </para>
         </briefdescription>
         <detaileddescription>
-<para><table rows="1" cols="2"><caption id="classMR_1_1TriangulationParameters_1TriangulationParameters::critAngle_examples"></caption>
-<row>
-<entry thead="no"><para><image type="html" name="triangulate_3.png" width="350cm">Good</image>
-</para>
-</entry><entry thead="no"><para><image type="html" name="triangulate_4.png" width="350cm">Too small value</image>
-</para>
-</entry></row>
-</table>
-</para>
+<para><image type="html" name="triangulate_3.png">"Good" width = 350cm &amp;lt;/td&amp;gt;</image>
+ &amp;lt;td&amp;gt;<image type="html" name="triangulate_4.png">"Too small value" width = 350cm &amp;lt;/td&amp;gt;</image>
+ &amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt; </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="236" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="236" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="238" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="238" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TriangulationParameters_1ae90e00f10fb269fa23df83335568d939" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -83,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="239" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="239" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="243" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="243" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TriangulationParameters_1ac1e7b272843722118f9a5fde65872993" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -99,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="245" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="245" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="249" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="249" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TriangulationParameters_1a070f3cf1633e3f00920a74ea54fbcfda" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -114,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="248" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="248" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="254" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="254" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TriangulationParameters_1a7b985aed6c6f5b8290b793179aec89ff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? Const_PointCloud</type>
@@ -129,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="251" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="252" bodyend="261"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="259" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="260" bodyend="269"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -153,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="265" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="265" bodyend="269"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="273" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="273" bodyend="277"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -170,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="275" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="275" bodyend="281"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="283" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="283" bodyend="289"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriangulationParameters_1a41346e916c018f04bb449ba27440fc2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -213,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="286" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="286" bodyend="293"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="294" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="294" bodyend="301"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriangulationParameters_1a0b0f989f82ed227a926f1c687c11b0cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -232,7 +220,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="298" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="298" bodyend="305"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="306" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="306" bodyend="313"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriangulationParameters_1af586774143eab94d9defcffbe238ed4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -251,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="310" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="310" bodyend="310"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="318" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="318" bodyend="318"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriangulationParameters_1a8b69c08d56886775ef13262aeba06920" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1TriangulationParameters" kindref="compound">MR.TriangulationParameters</ref></type>
@@ -270,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="315" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="315" bodyend="322"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="323" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="323" bodyend="330"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -323,7 +311,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="201" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="202" bodyend="323"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="205" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="206" bodyend="331"/>
     <listofallmembers>
       <member refid="classMR_1_1TriangulationParameters_1a8b69c08d56886775ef13262aeba06920" prot="public" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1TriangulationParameters_1a070f3cf1633e3f00920a74ea54fbcfda" prot="public" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>automaticRadiusIncrease</name></member>

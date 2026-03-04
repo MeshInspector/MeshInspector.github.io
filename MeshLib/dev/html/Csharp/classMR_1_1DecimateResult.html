@@ -171,9 +171,11 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:ade919f12c7cec4bf8a5d694bb01349a4" id="r_ade919f12c7cec4bf8a5d694bb01349a4"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade919f12c7cec4bf8a5d694bb01349a4">vertsDeleted</a><code> [get]</code></td></tr>
-<tr class="memdesc:ade919f12c7cec4bf8a5d694bb01349a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; Number deleted verts. Same as the number of performed collapses  <br /></td></tr>
+<tr class="memdesc:ade919f12c7cec4bf8a5d694bb01349a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number deleted verts. Same as the number of performed collapses.  <br /></td></tr>
 <tr class="memitem:aced91d188a3ac295b24ea646bc1b209c" id="r_aced91d188a3ac295b24ea646bc1b209c"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aced91d188a3ac295b24ea646bc1b209c">facesDeleted</a><code> [get]</code></td></tr>
+<tr class="memdesc:aced91d188a3ac295b24ea646bc1b209c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number deleted faces.  <br /></td></tr>
 <tr class="memitem:a9c657ab91f569e655fccca5e33e67b2e" id="r_a9c657ab91f569e655fccca5e33e67b2e"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c657ab91f569e655fccca5e33e67b2e">errorIntroduced</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9c657ab91f569e655fccca5e33e67b2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">for <a class="el" href="classMR.html#add28113e16217d08b03c89236a144146a67b5bfba24e72d549786f512b318c243" title="the next edge to collapse will be the one that introduced minimal error to the surface">DecimateStrategy.MinimizeError</a>: estimated distance deviation of decimated mesh from the original mesh for <a class="el" href="classMR.html#add28113e16217d08b03c89236a144146afcd194b53ddb9ce57f34ac17a11dff8b" title="the next edge to collapse will be the shortest one">DecimateStrategy.ShortestEdgeFirst</a>: the shortest remaining edge in the mesh  <br /></td></tr>
 <tr class="memitem:a527166116e334bc77c78ef5ce736cda5" id="r_a527166116e334bc77c78ef5ce736cda5"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a527166116e334bc77c78ef5ce736cda5">cancelled</a><code> [get]</code></td></tr>
 <tr class="memdesc:a527166116e334bc77c78ef5ce736cda5"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the algorithm was cancelled by the callback  <br /></td></tr>
 </table>
@@ -385,7 +387,8 @@ decimateParallelMesh </dd>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>for <a class="el" href="classMR.html#add28113e16217d08b03c89236a144146a67b5bfba24e72d549786f512b318c243" title="the next edge to collapse will be the one that introduced minimal error to the surface">DecimateStrategy.MinimizeError</a>: estimated distance deviation of decimated mesh from the original mesh for <a class="el" href="classMR.html#add28113e16217d08b03c89236a144146afcd194b53ddb9ce57f34ac17a11dff8b">DecimateStrategy.ShortestEdgeFirst</a>: the shortest remaining edge in the mesh </p>
+
+<p>for <a class="el" href="classMR.html#add28113e16217d08b03c89236a144146a67b5bfba24e72d549786f512b318c243" title="the next edge to collapse will be the one that introduced minimal error to the surface">DecimateStrategy.MinimizeError</a>: estimated distance deviation of decimated mesh from the original mesh for <a class="el" href="classMR.html#add28113e16217d08b03c89236a144146afcd194b53ddb9ce57f34ac17a11dff8b" title="the next edge to collapse will be the shortest one">DecimateStrategy.ShortestEdgeFirst</a>: the shortest remaining edge in the mesh </p>
 
 </div>
 </div>
@@ -409,6 +412,8 @@ decimateParallelMesh </dd>
 </table>
 </div><div class="memdoc">
 
+<p>Number deleted faces. </p>
+
 </div>
 </div>
 <a id="ade919f12c7cec4bf8a5d694bb01349a4" name="ade919f12c7cec4bf8a5d694bb01349a4"></a>
@@ -431,8 +436,7 @@ decimateParallelMesh </dd>
 </table>
 </div><div class="memdoc">
 
-<p>&lt; Number deleted verts. Same as the number of performed collapses </p>
-<p>Number deleted faces </p>
+<p>Number deleted verts. Same as the number of performed collapses. </p>
 
 </div>
 </div>

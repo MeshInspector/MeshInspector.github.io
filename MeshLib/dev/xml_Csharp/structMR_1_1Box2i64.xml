@@ -104,7 +104,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box&apos;s corner for which d is minimal Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1a294caa0485940e5c657bbca34407a490" kindref="member">MR.Box2i64.getMinBoxCorner</ref></computeroutput>. </para>
+<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box's corner for which d is minimal Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1a294caa0485940e5c657bbca34407a490" kindref="member">MR.Box2i64.getMinBoxCorner</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -123,7 +123,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box&apos;s corner for which d is maximal Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1a4734fc707e1f736ff40624665aaf3eea" kindref="member">MR.Box2i64.getMaxBoxCorner</ref></computeroutput>. </para>
+<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box's corner for which d is maximal Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1a4734fc707e1f736ff40624665aaf3eea" kindref="member">MR.Box2i64.getMaxBoxCorner</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -314,7 +314,7 @@
           <declname>c</declname>
         </param>
         <briefdescription>
-<para>returns the corner of this box as specified by given bool-vector: 0 element in (c) means take min&apos;s coordinate, 1 element in (c) means take max&apos;s coordinate Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1ac204d52dfcfd61576870d93f1706a695" kindref="member">MR.Box2i64.corner</ref></computeroutput>. </para>
+<para>returns the corner of this box as specified by given bool-vector: 0 element in (c) means take min's coordinate, 1 element in (c) means take max's coordinate Generated from method <computeroutput><ref refid="structMR_1_1Box2i64_1ac204d52dfcfd61576870d93f1706a695" kindref="member">MR.Box2i64.corner</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

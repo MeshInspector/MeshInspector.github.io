@@ -3,8 +3,8 @@ var classMR_1_1ObjectPoints =
     [ "ObjectPoints", "classMR_1_1ObjectPoints.html#a2b413054c12867e04d326ba8ad50549d", null ],
     [ "ObjectPoints", "classMR_1_1ObjectPoints.html#a6f091b4fa2eeaa92bbeb7a6f0c08737d", null ],
     [ "ObjectPoints", "classMR_1_1ObjectPoints.html#a18650d21d71e643383ceef38d5f77903", null ],
-    [ "addChild", "classMR_1_1ObjectPoints.html#a2b93523a17363e361b1dab7d2d16c0b8", null ],
-    [ "addChildBefore", "classMR_1_1ObjectPoints.html#a7ddb584686363e60270f2924cd0c9a26", null ],
+    [ "addChild", "classMR_1_1ObjectPoints.html#abb113afee60be9135f2946ea21ac50a7", null ],
+    [ "addChildBefore", "classMR_1_1ObjectPoints.html#a134607002675fe42aaf5fc96d0a306b4", null ],
     [ "addTag", "classMR_1_1ObjectPoints.html#a0a8ec99266cd9781d58cb8e4900d32eb", null ],
     [ "applyScale", "classMR_1_1ObjectPoints.html#ac86ac0249ac592420f49220ee9b211c0", null ],
     [ "assign", "classMR_1_1ObjectPoints.html#a56dac0dab5698dcb731b16bf7d3387e3", null ],
@@ -43,7 +43,7 @@ var classMR_1_1ObjectPoints =
     [ "setName", "classMR_1_1ObjectPoints.html#a9abd7f4b61cd4275dc0518dd5958c6fd", null ],
     [ "setParentLocked", "classMR_1_1ObjectPoints.html#a5c56de4173cd19d5c88fb50e079bc501", null ],
     [ "setPickable", "classMR_1_1ObjectPoints.html#a611e4b5689b4c0653b156919a7853b88", null ],
-    [ "setPointCloud", "classMR_1_1ObjectPoints.html#a0a5ec4c687a672ec14c9483c737dfa96", null ],
+    [ "setPointCloud", "classMR_1_1ObjectPoints.html#af9c27d9accbeda280597034655fb66fe", null ],
     [ "setPointSize", "classMR_1_1ObjectPoints.html#ae16e4e9114afa36d3dec50aa20e0916f", null ],
     [ "setSelectedVerticesColor", "classMR_1_1ObjectPoints.html#aab0205dd7c8bf708264654bf93efcb76", null ],
     [ "setSelectedVerticesColorsForAllViewports", "classMR_1_1ObjectPoints.html#a8a5dc5de99049ee5ccaf24904cc6bded", null ],
@@ -61,9 +61,9 @@ var classMR_1_1ObjectPoints =
     [ "setXfsForAllViewports", "classMR_1_1ObjectPoints.html#ae1dec67e892d7ccdfbc28e97f4759ef1", null ],
     [ "sortChildren", "classMR_1_1ObjectPoints.html#ad0f6f606fb59a841a1a5be8878d26d7c", null ],
     [ "swap", "classMR_1_1ObjectPoints.html#a1f00172552a5a2808e061206cdd48ec7", null ],
-    [ "swapPointCloud", "classMR_1_1ObjectPoints.html#a2ff5abfa5fc187086b1ce34b9d3c2f3f", null ],
+    [ "swapPointCloud", "classMR_1_1ObjectPoints.html#ad3ebe0f2a207354d481eb8f7e22bb478", null ],
     [ "toggleVisualizeProperty", "classMR_1_1ObjectPoints.html#a8cce509a3d9de40a6c685b8919c35805", null ],
     [ "updateSelectedPoints", "classMR_1_1ObjectPoints.html#a09a7bd540e183df9258e8961d288ee59", null ],
     [ "updateVertsColorMap", "classMR_1_1ObjectPoints.html#a5e7e1323b3a2ea009503da07c53ccd3d", null ],
-    [ "varPointCloud", "classMR_1_1ObjectPoints.html#aca289a6761993cb02eea8ba07560239f", null ]
+    [ "varPointCloud", "classMR_1_1ObjectPoints.html#a4daaf98c8ebfd08175a25b80f7f7bfd4", null ]
 ];

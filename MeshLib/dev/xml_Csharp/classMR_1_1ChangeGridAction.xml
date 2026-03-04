@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1618" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1618" bodyend="1623"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1228" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1228" bodyend="1235"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeGridAction_1a7fdde77db4b81edbfc9bdc64bfa408a1" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1626" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1626" bodyend="1633"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1238" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1238" bodyend="1247"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -62,29 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1635" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1635" bodyend="1635"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeGridAction_1a05cdf5517382ba54b124a1a8f99fca8c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.ChangeGridAction.ChangeGridAction</definition>
-        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
-        <name>ChangeGridAction</name>
-        <qualifiedname>MR.ChangeGridAction.ChangeGridAction</qualifiedname>
-        <param>
-          <type>_UnderlyingShared *</type>
-          <declname>shared_ptr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>is_owning</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1637" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1637" bodyend="1637"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1249" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1249" bodyend="1249"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -105,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1642" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1642" bodyend="1648"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1254" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1254" bodyend="1260"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeGridAction_1a22c11892a15e1a1e40612520376b3ec2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -124,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1653" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1653" bodyend="1653"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1265" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1265" bodyend="1265"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeGridAction_1a13c90781d6a04d5f167c6cbd763933cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -143,12 +121,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1658" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1658" bodyend="1658"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1270" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1270" bodyend="1270"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeGridAction_1afc8f136abd2318ff4919399cd6e07e40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ChangeGridAction_1abbbdafb6df2f96b7d4e9833c84d6a6ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ChangeGridAction.ChangeGridAction</definition>
-        <argsstring>(string name, MR.Const_ObjectVoxels obj)</argsstring>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectVoxels obj)</argsstring>
         <name>ChangeGridAction</name>
         <qualifiedname>MR.ChangeGridAction.ChangeGridAction</qualifiedname>
         <param>
@@ -156,17 +134,17 @@
           <declname>name</declname>
         </param>
         <param>
-          <type>MR.Const_ObjectVoxels</type>
+          <type>MR.Std.Const_SharedPtr_MRObjectVoxels</type>
           <declname>obj</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s data before making any changes in it Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeGridAction_1a04d96001c2ddfed783078a533276f3df" kindref="member">MR.ChangeGridAction.ChangeGridAction</ref></computeroutput>. </para>
+<para>use this constructor to remember object's data before making any changes in it Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeGridAction_1a04d96001c2ddfed783078a533276f3df" kindref="member">MR.ChangeGridAction.ChangeGridAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1664" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1664" bodyend="1674"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1276" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1276" bodyend="1286"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeGridAction_1a18af0eb3d350566f157779cefc3dde76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ChangeGridAction" kindref="compound">MR.ChangeGridAction</ref></type>
@@ -185,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1679" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1679" bodyend="1686"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1291" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1291" bodyend="1298"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeGridAction_1ad3847e7fef1aa9074696750b82fb8041" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -204,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1691" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1691" bodyend="1696"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1303" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1303" bodyend="1308"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -227,7 +205,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR.Misc.SharedObject</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
         <label>System.IDisposable</label>
@@ -248,22 +226,21 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR.Misc.SharedObject</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1615" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1616" bodyend="1697"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="1225" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="1226" bodyend="1309"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeGridAction_1ad3847e7fef1aa9074696750b82fb8041" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>action</name></member>
       <member refid="classMR_1_1ChangeGridAction_1a18af0eb3d350566f157779cefc3dde76" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangeGridAction_1a8004504ed71e9a0998b6a3a269a1466e" prot="package" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>ChangeGridAction</name></member>
-      <member refid="classMR_1_1ChangeGridAction_1a05cdf5517382ba54b124a1a8f99fca8c" prot="package" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>ChangeGridAction</name></member>
       <member refid="classMR_1_1ChangeGridAction_1a04d96001c2ddfed783078a533276f3df" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>ChangeGridAction</name></member>
       <member refid="classMR_1_1ChangeGridAction_1a22c11892a15e1a1e40612520376b3ec2" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>ChangeGridAction</name></member>
       <member refid="classMR_1_1ChangeGridAction_1a13c90781d6a04d5f167c6cbd763933cf" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>ChangeGridAction</name></member>
-      <member refid="classMR_1_1ChangeGridAction_1afc8f136abd2318ff4919399cd6e07e40" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>ChangeGridAction</name></member>
+      <member refid="classMR_1_1ChangeGridAction_1abbbdafb6df2f96b7d4e9833c84d6a6ad" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>ChangeGridAction</name></member>
       <member refid="classMR_1_1ChangeGridAction_1a7fdde77db4b81edbfc9bdc64bfa408a1" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>operator ChangeGridAction?</name></member>
       <member refid="classMR_1_1ChangeGridAction_1a33d5d7862a38697e6cd575cc17373e64" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>operator MR.HistoryAction</name></member>
     </listofallmembers>

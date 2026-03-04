@@ -2,8 +2,8 @@ var classMR_1_1RadiusMeasurementObject =
 [
     [ "RadiusMeasurementObject", "classMR_1_1RadiusMeasurementObject.html#a887d94d14dc2586d0673052d3560776b", null ],
     [ "RadiusMeasurementObject", "classMR_1_1RadiusMeasurementObject.html#a94c686b06751d88199e8bcb5bb0dd1a9", null ],
-    [ "addChild", "classMR_1_1RadiusMeasurementObject.html#a7a6c90397742f35026998ce6ed9a60f3", null ],
-    [ "addChildBefore", "classMR_1_1RadiusMeasurementObject.html#a51b204156b3dc7db95e9a7112dd73d45", null ],
+    [ "addChild", "classMR_1_1RadiusMeasurementObject.html#aa45924913163c09941d2f6adc93306c9", null ],
+    [ "addChildBefore", "classMR_1_1RadiusMeasurementObject.html#a2127a174fe72630268c664f7b6e39c29", null ],
     [ "addTag", "classMR_1_1RadiusMeasurementObject.html#a75c2da9e05795083ae90e4fde0f023b0", null ],
     [ "applyScale", "classMR_1_1RadiusMeasurementObject.html#aa45b6c4abf42e8a9d3774d10a161a7d6", null ],
     [ "assign", "classMR_1_1RadiusMeasurementObject.html#a3b7c978e894eb723c8b14df8617c3289", null ],

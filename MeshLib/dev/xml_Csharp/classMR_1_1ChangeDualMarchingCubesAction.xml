@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="558" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="558" bodyend="563"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="414" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="414" bodyend="421"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeDualMarchingCubesAction_1ab375dcfa8f7bdde60122b387ab336ec4" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="566" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="566" bodyend="573"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="424" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="424" bodyend="433"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -62,29 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="575" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="575" bodyend="575"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeDualMarchingCubesAction_1a39b1a5fd22254dd841cbfaa502dcbca3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</definition>
-        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
-        <name>ChangeDualMarchingCubesAction</name>
-        <qualifiedname>MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</qualifiedname>
-        <param>
-          <type>_UnderlyingShared *</type>
-          <declname>shared_ptr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>is_owning</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="577" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="577" bodyend="577"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="435" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="435" bodyend="435"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -105,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="582" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="582" bodyend="588"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="440" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="440" bodyend="446"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeDualMarchingCubesAction_1a630f9ea7c6b5f5f5fd9a89460594cb10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -124,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="593" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="593" bodyend="593"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="451" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="451" bodyend="451"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeDualMarchingCubesAction_1ae93684965fbccaaaaf217d2665e1dd88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -143,12 +121,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="598" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="598" bodyend="598"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="456" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="456" bodyend="456"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeDualMarchingCubesAction_1a91f16ec799ecbf072ede681a7f7a9122" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ChangeDualMarchingCubesAction_1a213051978bda869c0e3f9ae38df41003" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</definition>
-        <argsstring>(string name, MR.Const_ObjectVoxels obj)</argsstring>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectVoxels obj)</argsstring>
         <name>ChangeDualMarchingCubesAction</name>
         <qualifiedname>MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</qualifiedname>
         <param>
@@ -156,22 +134,22 @@
           <declname>name</declname>
         </param>
         <param>
-          <type>MR.Const_ObjectVoxels</type>
+          <type>MR.Std.Const_SharedPtr_MRObjectVoxels</type>
           <declname>obj</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s dual-value before making any changes in it Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1aba246c956e4a86c2125b1617ba03ca39" kindref="member">MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</ref></computeroutput>. </para>
+<para>use this constructor to remember object's dual-value before making any changes in it Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeDualMarchingCubesAction_1aba246c956e4a86c2125b1617ba03ca39" kindref="member">MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="604" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="604" bodyend="614"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="462" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="462" bodyend="472"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeDualMarchingCubesAction_1a538fdd76c6ac25ab39a76a2e3ad015d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ChangeDualMarchingCubesAction_1a34e811eb37b658a0a8b956a5f9281b66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</definition>
-        <argsstring>(string name, MR.Const_ObjectVoxels obj, bool storeDual)</argsstring>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectVoxels obj, bool storeDual)</argsstring>
         <name>ChangeDualMarchingCubesAction</name>
         <qualifiedname>MR.ChangeDualMarchingCubesAction.ChangeDualMarchingCubesAction</qualifiedname>
         <param>
@@ -179,7 +157,7 @@
           <declname>name</declname>
         </param>
         <param>
-          <type>MR.Const_ObjectVoxels</type>
+          <type>MR.Std.Const_SharedPtr_MRObjectVoxels</type>
           <declname>obj</declname>
         </param>
         <param>
@@ -193,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="620" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="620" bodyend="630"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="478" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="478" bodyend="488"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeDualMarchingCubesAction_1af8df905fde72b278b3c4ab314696c6fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ChangeDualMarchingCubesAction" kindref="compound">MR.ChangeDualMarchingCubesAction</ref></type>
@@ -212,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="635" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="635" bodyend="642"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="493" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="493" bodyend="500"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeDualMarchingCubesAction_1ac75375da5fbd1e7c9fcfbc6190db272d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -231,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="647" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="647" bodyend="652"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="505" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="505" bodyend="510"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -254,7 +232,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR.Misc.SharedObject</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
         <label>System.IDisposable</label>
@@ -275,23 +253,22 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR.Misc.SharedObject</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="555" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="556" bodyend="653"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="411" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="412" bodyend="511"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeDualMarchingCubesAction_1ac75375da5fbd1e7c9fcfbc6190db272d" prot="public" virt="non-virtual"><scope>MR::ChangeDualMarchingCubesAction</scope><name>action</name></member>
       <member refid="classMR_1_1ChangeDualMarchingCubesAction_1af8df905fde72b278b3c4ab314696c6fc" prot="public" virt="non-virtual"><scope>MR::ChangeDualMarchingCubesAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangeDualMarchingCubesAction_1a0577d5dd6bb1d67d74b87a2dc3a6bd4b" prot="package" virt="non-virtual"><scope>MR::ChangeDualMarchingCubesAction</scope><name>ChangeDualMarchingCubesAction</name></member>
-      <member refid="classMR_1_1ChangeDualMarchingCubesAction_1a39b1a5fd22254dd841cbfaa502dcbca3" prot="package" virt="non-virtual"><scope>MR::ChangeDualMarchingCubesAction</scope><name>ChangeDualMarchingCubesAction</name></member>
       <member refid="classMR_1_1ChangeDualMarchingCubesAction_1aba246c956e4a86c2125b1617ba03ca39" prot="public" virt="non-virtual"><scope>MR::ChangeDualMarchingCubesAction</scope><name>ChangeDualMarchingCubesAction</name></member>
       <member refid="classMR_1_1ChangeDualMarchingCubesAction_1a630f9ea7c6b5f5f5fd9a89460594cb10" prot="public" virt="non-virtual"><scope>MR::ChangeDualMarchingCubesAction</scope><name>ChangeDualMarchingCubesAction</name></member>
       <member refid="classMR_1_1ChangeDualMarchingCubesAction_1ae93684965fbccaaaaf217d2665e1dd88" prot="public" virt="non-virtual"><scope>MR::ChangeDualMarchingCubesAction</scope><name>ChangeDualMarchingCubesAction</name></member>
-      <member refid="classMR_1_1ChangeDualMarchingCubesAction_1a91f16ec799ecbf072ede681a7f7a9122" prot="public" virt="non-virtual"><scope>MR::ChangeDualMarchingCubesAction</scope><name>ChangeDualMarchingCubesAction</name></member>
-      <member refid="classMR_1_1ChangeDualMarchingCubesAction_1a538fdd76c6ac25ab39a76a2e3ad015d8" prot="public" virt="non-virtual"><scope>MR::ChangeDualMarchingCubesAction</scope><name>ChangeDualMarchingCubesAction</name></member>
+      <member refid="classMR_1_1ChangeDualMarchingCubesAction_1a213051978bda869c0e3f9ae38df41003" prot="public" virt="non-virtual"><scope>MR::ChangeDualMarchingCubesAction</scope><name>ChangeDualMarchingCubesAction</name></member>
+      <member refid="classMR_1_1ChangeDualMarchingCubesAction_1a34e811eb37b658a0a8b956a5f9281b66" prot="public" virt="non-virtual"><scope>MR::ChangeDualMarchingCubesAction</scope><name>ChangeDualMarchingCubesAction</name></member>
       <member refid="classMR_1_1ChangeDualMarchingCubesAction_1ab375dcfa8f7bdde60122b387ab336ec4" prot="public" virt="non-virtual"><scope>MR::ChangeDualMarchingCubesAction</scope><name>operator ChangeDualMarchingCubesAction?</name></member>
       <member refid="classMR_1_1ChangeDualMarchingCubesAction_1a9102b0632faab78ca5303b8f2e191b70" prot="public" virt="non-virtual"><scope>MR::ChangeDualMarchingCubesAction</scope><name>operator MR.HistoryAction</name></member>
     </listofallmembers>

@@ -11,13 +11,13 @@
         <name>upDistLimitSq</name>
         <qualifiedname>MR.TriTriDistanceParams_Float.upDistLimitSq</qualifiedname>
         <briefdescription>
+<para>upper limit on the distance in question, if the real distance is larger (or equal depending on upLimitCheck) then findTriTriDistance exits earlier returning lower bound on distSq &amp;gt;= upDistLimitSq and the points a and b can be arbitrary </para>
         </briefdescription>
         <detaileddescription>
-<para>upper limit on the distance in question, if the real distance is larger (or equal depending on upLimitCheck) then findTriTriDistance exits earlier returning lower bound on distSq &gt;= upDistLimitSq and the points a and b can be arbitrary </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="649" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="649" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="689" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="689" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TriTriDistanceParams__Float_1afb301eba4b4bcff07ba07ef85b8d77ee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1a47fb0156f6ea44cf64bb6335199b0e17" kindref="member">MR.UpLimitCheck</ref></type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="651" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="651" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="691" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="691" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="655" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="655" bodyend="659"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="695" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="695" bodyend="699"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="665" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="665" bodyend="671"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="705" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="705" bodyend="711"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriTriDistanceParams__Float_1a45e213d7152604ecd6f8ace39901e58b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -89,13 +89,13 @@
           <declname>upLimitCheck</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR::TriTriDistanceParams&amp;lt;float&amp;gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::TriTriDistanceParams&amp;amp;lt;float&amp;amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="676" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="676" bodyend="683"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="716" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="716" bodyend="723"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriTriDistanceParams__Float_1a7530acae70c14b70d6d1154eb8e45099" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -108,13 +108,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::TriTriDistanceParams&amp;lt;float&amp;gt;::TriTriDistanceParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TriTriDistanceParams&amp;amp;lt;float&amp;amp;gt;::TriTriDistanceParams</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="688" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="688" bodyend="695"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="728" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="728" bodyend="735"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriTriDistanceParams__Float_1aea81af60550e409797ae8f65881c6257" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -127,13 +127,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::TriTriDistanceParams&amp;lt;float&amp;gt;::TriTriDistanceParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TriTriDistanceParams&amp;amp;lt;float&amp;amp;gt;::TriTriDistanceParams</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="700" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="700" bodyend="700"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="740" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="740" bodyend="740"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriTriDistanceParams__Float_1a806577dc45003cde660f39e3f9cfcd76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1TriTriDistanceParams__Float" kindref="compound">MR.TriTriDistanceParams_Float</ref></type>
@@ -146,17 +146,17 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TriTriDistanceParams&amp;lt;float&amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TriTriDistanceParams&amp;amp;lt;float&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="705" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="705" bodyend="712"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="745" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="745" bodyend="752"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::TriTriDistanceParams&amp;lt;float&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::TriTriDistanceParams&amp;amp;lt;float&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -202,7 +202,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="644" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="645" bodyend="713"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="682" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="683" bodyend="753"/>
     <listofallmembers>
       <member refid="classMR_1_1TriTriDistanceParams__Float_1a806577dc45003cde660f39e3f9cfcd76" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>assign</name></member>
       <member refid="classMR_1_1TriTriDistanceParams__Float_1ae917b7bea50caa536c891b12c369de88" prot="package" virt="non-virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>TriTriDistanceParams_Float</name></member>

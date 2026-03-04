@@ -181,9 +181,13 @@ Properties</h2></td></tr>
 <tr class="memitem:a50f91e19700795af23a70f942255b2e3" id="r_a50f91e19700795af23a70f942255b2e3"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Float_From_MRVertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50f91e19700795af23a70f942255b2e3">pointWeight</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a50f91e19700795af23a70f942255b2e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">function returning the weight of each point, must be set by the user  <br /></td></tr>
 <tr class="memitem:a60321ae15ba2bca670f8ff81a5235c5f" id="r_a60321ae15ba2bca670f8ff81a5235c5f"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60321ae15ba2bca670f8ff81a5235c5f">minWeight</a><code> [get]</code></td></tr>
+<tr class="memdesc:a60321ae15ba2bca670f8ff81a5235c5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm  <br /></td></tr>
 <tr class="memitem:a2f10160edd11c6a30d80901c8d6b923d" id="r_a2f10160edd11c6a30d80901c8d6b923d"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f10160edd11c6a30d80901c8d6b923d">maxWeight</a><code> [get]</code></td></tr>
+<tr class="memdesc:a2f10160edd11c6a30d80901c8d6b923d"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm  <br /></td></tr>
 <tr class="memitem:aed9ab1f063e12f2a39d30514e77f19ae" id="r_aed9ab1f063e12f2a39d30514e77f19ae"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed9ab1f063e12f2a39d30514e77f19ae">maxWeightGrad</a><code> [get]</code></td></tr>
+<tr class="memdesc:aed9ab1f063e12f2a39d30514e77f19ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximal magnitude of gradient of points' weight in the cloud, &amp;gt;=0; if maxWeightGrad &amp;lt; 1 then more search optimizations can be done  <br /></td></tr>
 <tr class="memitem:abf0c11080cdbd4354bc22a565faf0128" id="r_abf0c11080cdbd4354bc22a565faf0128"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf0c11080cdbd4354bc22a565faf0128">bidirectionalMode</a><code> [get]</code></td></tr>
+<tr class="memdesc:abf0c11080cdbd4354bc22a565faf0128"><td class="mdescLeft">&#160;</td><td class="mdescRight">for points, it must always true; for triangles: if true the distances grow in both directions from each triangle, reaching minimum in the triangle; if false the distances grow to infinity in the direction of triangle's normals, and decrease to minus infinity in the opposite direction  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <span class="tt"><a class="el" href="classMR_1_1DistanceFromWeightedPointsComputeParams.html" title="Generated from class MR.DistanceFromWeightedPointsComputeParams. Base classes: Direct: (non-virtual) ...">MR.DistanceFromWeightedPointsComputeParams</a></span>. Base classes: Direct: (non-virtual) <span class="tt"><a class="el" href="classMR_1_1DistanceFromWeightedPointsParams.html" title="Generated from class MR.DistanceFromWeightedPointsParams. Derived classes: Direct: (non-virtual) MR....">MR.DistanceFromWeightedPointsParams</a></span> This is the non-const half of the class. </p>
@@ -369,6 +373,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>for points, it must always true; for triangles: if true the distances grow in both directions from each triangle, reaching minimum in the triangle; if false the distances grow to infinity in the direction of triangle's normals, and decrease to minus infinity in the opposite direction </p>
 
 </div>
@@ -416,6 +421,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>maximal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm </p>
 
 </div>
@@ -439,7 +445,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>maximal magnitude of gradient of points' weight in the cloud, &gt;=0; if maxWeightGrad &lt; 1 then more search optimizations can be done </p>
+
+<p>maximal magnitude of gradient of points' weight in the cloud, &amp;gt;=0; if maxWeightGrad &amp;lt; 1 then more search optimizations can be done </p>
 
 </div>
 </div>
@@ -484,6 +491,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>minimal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm </p>
 
 </div>

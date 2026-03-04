@@ -177,13 +177,15 @@ Properties</h2></td></tr>
 <tr class="memitem:a30786f743f4d38f16a5566df8e3595bd" id="r_a30786f743f4d38f16a5566df8e3595bd"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30786f743f4d38f16a5566df8e3595bd">maxEdgeSplits</a><code> [get]</code></td></tr>
 <tr class="memdesc:a30786f743f4d38f16a5566df8e3595bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of edge splits allowed.  <br /></td></tr>
 <tr class="memitem:ae4df253b46c53e0b39d79de30333fad0" id="r_ae4df253b46c53e0b39d79de30333fad0"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4df253b46c53e0b39d79de30333fad0">region</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ae4df253b46c53e0b39d79de30333fad0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on polyline to be subdivided: both edge vertices must be there to allow spitting, it is updated during the operation.  <br /></td></tr>
 <tr class="memitem:a90181caf76b486252e075a52bf81b567" id="r_a90181caf76b486252e075a52bf81b567"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90181caf76b486252e075a52bf81b567">newVerts</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a90181caf76b486252e075a52bf81b567"><td class="mdescLeft">&#160;</td><td class="mdescRight">New vertices appeared during subdivision will be added here.  <br /></td></tr>
 <tr class="memitem:ae5954a531e884eb32fe4f89eeb979bee" id="r_ae5954a531e884eb32fe4f89eeb979bee"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5954a531e884eb32fe4f89eeb979bee">useCurvature</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae5954a531e884eb32fe4f89eeb979bee"><td class="mdescLeft">&#160;</td><td class="mdescRight">This option works best for natural lines, where all segments have similar size, and no sharp angles in between.  <br /></td></tr>
 <tr class="memitem:a424395adb75ae28f558b47069a29ac5b" id="r_a424395adb75ae28f558b47069a29ac5b"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Void_From_MRVertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a424395adb75ae28f558b47069a29ac5b">onVertCreated</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a424395adb75ae28f558b47069a29ac5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time a new vertex has been created  <br /></td></tr>
 <tr class="memitem:a979554dc52c15d488b0f627072aaddda" id="r_a979554dc52c15d488b0f627072aaddda"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a979554dc52c15d488b0f627072aaddda">onEdgeSplit</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a979554dc52c15d488b0f627072aaddda"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is split into (e1-&gt;e)  <br /></td></tr>
+<tr class="memdesc:a979554dc52c15d488b0f627072aaddda"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is split into (e1-&amp;gt;e)  <br /></td></tr>
 <tr class="memitem:ac5836b56bb1dfbcabdfb97915f5144e2" id="r_ac5836b56bb1dfbcabdfb97915f5144e2"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Bool_From_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5836b56bb1dfbcabdfb97915f5144e2">progressCallback</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:ac5836b56bb1dfbcabdfb97915f5144e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to report algorithm progress and cancel it by user request  <br /></td></tr>
 </table>
@@ -480,7 +482,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>this function is called each time edge (e) is split into (e1-&gt;e) </p>
+<p>this function is called each time edge (e) is split into (e1-&amp;gt;e) </p>
 
 </div>
 </div>
@@ -551,7 +553,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Region on polyline to be subdivided: both edge vertices must be there to allow spitting, it is updated during the operation </p>
+
+<p>Region on polyline to be subdivided: both edge vertices must be there to allow spitting, it is updated during the operation. </p>
 
 </div>
 </div>
@@ -574,7 +577,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This option works best for natural lines, where all segments have similar size, and no sharp angles in between </p>
+
+<p>This option works best for natural lines, where all segments have similar size, and no sharp angles in between. </p>
 
 </div>
 </div>

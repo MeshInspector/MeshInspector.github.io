@@ -175,15 +175,19 @@ Properties</h2></td></tr>
 <tr class="memitem:aece2e697af868b81cee3b3b010c74b73" id="r_aece2e697af868b81cee3b3b010c74b73"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aece2e697af868b81cee3b3b010c74b73">useRandomShifts</a><code> [get]</code></td></tr>
 <tr class="memdesc:aece2e697af868b81cee3b3b010c74b73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply random shift to each mesh, to prevent degenerations on coincident surfaces.  <br /></td></tr>
 <tr class="memitem:af536d5a538ee8d6e0ad91c38723e40ac" id="r_af536d5a538ee8d6e0ad91c38723e40ac"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af536d5a538ee8d6e0ad91c38723e40ac">fixDegenerations</a><code> [get]</code></td></tr>
+<tr class="memdesc:af536d5a538ee8d6e0ad91c38723e40ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try fix degenerations after each boolean step, to prevent boolean failure due to high amount of degenerated faces useful on meshes with many coincident surfaces (useRandomShifts used for same issue)  <br /></td></tr>
 <tr class="memitem:a8a91c6fcf487572f2193c3c107618ec6" id="r_a8a91c6fcf487572f2193c3c107618ec6"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a91c6fcf487572f2193c3c107618ec6">maxAllowedError</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8a91c6fcf487572f2193c3c107618ec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max allowed random shifts in each direction, and max allowed deviation after degeneration fixing not used if both flags (useRandomShifts,fixDegenerations) are false.  <br /></td></tr>
 <tr class="memitem:a668909b2d53ed0fad4957214adb83e45" id="r_a668909b2d53ed0fad4957214adb83e45"><td class="memItemLeft" align="right" valign="top">new unsafe ref uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a668909b2d53ed0fad4957214adb83e45">randomShiftsSeed</a><code> [get]</code></td></tr>
 <tr class="memdesc:a668909b2d53ed0fad4957214adb83e45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seed that is used for random shifts.  <br /></td></tr>
 <tr class="memitem:a61c647b6c2129970cc1cda7c7aae6c60" id="r_a61c647b6c2129970cc1cda7c7aae6c60"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61c647b6c2129970cc1cda7c7aae6c60">newFaces</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a61c647b6c2129970cc1cda7c7aae6c60"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set, the bitset will store new faces created by boolean operations.  <br /></td></tr>
 <tr class="memitem:a2014be6b9bf8e2fbe8b405a0d483379f" id="r_a2014be6b9bf8e2fbe8b405a0d483379f"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="classMR.html#a22adb75ebaff91cdb5159f104b26ea5e">MR.NestedComponenetsMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2014be6b9bf8e2fbe8b405a0d483379f">nestedComponentsMode</a><code> [get]</code></td></tr>
+<tr class="memdesc:a2014be6b9bf8e2fbe8b405a0d483379f"><td class="mdescLeft">&#160;</td><td class="mdescRight">By default function separate nested meshes and remove them, just like union operation should do read comment of <a class="el" href="classMR.html#a22adb75ebaff91cdb5159f104b26ea5e" title="Mode of processing components.">NestedComponenetsMode</a> enum for more information.  <br /></td></tr>
 <tr class="memitem:ae93092130f5b30c67d6c629d540f154c" id="r_ae93092130f5b30c67d6c629d540f154c"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae93092130f5b30c67d6c629d540f154c">mergeOnFail</a><code> [get]</code></td></tr>
 <tr class="memdesc:ae93092130f5b30c67d6c629d540f154c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set - merges meshes instead of booleaning it if boolean operation fails.  <br /></td></tr>
 <tr class="memitem:ab85360fc04e5214a35a95f729e284611" id="r_ab85360fc04e5214a35a95f729e284611"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab85360fc04e5214a35a95f729e284611">forceCut</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab85360fc04e5214a35a95f729e284611"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way.  <br /></td></tr>
 <tr class="memitem:a889b5c11505f7b0c1df647f60880b9f9" id="r_a889b5c11505f7b0c1df647f60880b9f9"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Bool_From_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a889b5c11505f7b0c1df647f60880b9f9">progressCb</a><code> [get, protected set]</code></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
@@ -411,6 +415,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Try fix degenerations after each boolean step, to prevent boolean failure due to high amount of degenerated faces useful on meshes with many coincident surfaces (useRandomShifts used for same issue) </p>
 
 </div>
@@ -434,7 +439,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases </dd></dl>
+
+<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way. </p>
+<dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases </dd></dl>
 
 </div>
 </div>
@@ -457,7 +464,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Max allowed random shifts in each direction, and max allowed deviation after degeneration fixing not used if both flags (useRandomShifts,fixDegenerations) are false </p>
+
+<p>Max allowed random shifts in each direction, and max allowed deviation after degeneration fixing not used if both flags (useRandomShifts,fixDegenerations) are false. </p>
 
 </div>
 </div>
@@ -504,7 +512,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>By default function separate nested meshes and remove them, just like union operation should do read comment of <a class="el" href="classMR.html#a22adb75ebaff91cdb5159f104b26ea5e" title="Mode of processing components.">NestedComponenetsMode</a> enum for more information </p>
+
+<p>By default function separate nested meshes and remove them, just like union operation should do read comment of <a class="el" href="classMR.html#a22adb75ebaff91cdb5159f104b26ea5e" title="Mode of processing components.">NestedComponenetsMode</a> enum for more information. </p>
 
 </div>
 </div>

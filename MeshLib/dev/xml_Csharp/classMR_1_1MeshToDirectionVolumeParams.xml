@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="693" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="693" bodyend="693"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="705" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="705" bodyend="705"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshToDirectionVolumeParams_1ab9c750d592a82ea8f9e4f47daa8535bd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1DistanceToMeshOptions" kindref="compound">MR.DistanceToMeshOptions</ref></type>
@@ -30,11 +30,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="696" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="696" bodyend="696"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="708" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="708" bodyend="708"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1MeshToDirectionVolumeParams_1abb7646c4e8499fc1f586b55f4d466acd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe <ref refid="classMR_1_1IPointsToMeshProjector" kindref="compound">MR.IPointsToMeshProjector</ref></type>
-        <definition>new unsafe MR.IPointsToMeshProjector MR.MeshToDirectionVolumeParams.projector</definition>
+      <memberdef kind="property" id="classMR_1_1MeshToDirectionVolumeParams_1a91b79182e85d7c44d31924117823687f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.SharedPtr_MRIPointsToMeshProjector</type>
+        <definition>new unsafe MR.Std.SharedPtr_MRIPointsToMeshProjector MR.MeshToDirectionVolumeParams.projector</definition>
         <argsstring></argsstring>
         <name>projector</name>
         <qualifiedname>MR.MeshToDirectionVolumeParams.projector</qualifiedname>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="698" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="698" bodyend="698"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="710" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="710" bodyend="710"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="731" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="731" bodyend="735"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="743" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="743" bodyend="747"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -85,12 +85,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="741" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="741" bodyend="747"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="753" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="753" bodyend="759"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshToDirectionVolumeParams_1afa6e584b09f80200bf1f415da5d5df8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshToDirectionVolumeParams_1af4b1b23c9b839d5f52665ad2bc59b92c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.MeshToDirectionVolumeParams.MeshToDirectionVolumeParams</definition>
-        <argsstring>(MR._ByValue_DistanceVolumeParams vol, MR.Const_DistanceToMeshOptions dist, MR._ByValueShared_IPointsToMeshProjector projector)</argsstring>
+        <argsstring>(MR._ByValue_DistanceVolumeParams vol, MR.Const_DistanceToMeshOptions dist, MR.Std._ByValue_SharedPtr_MRIPointsToMeshProjector projector)</argsstring>
         <name>MeshToDirectionVolumeParams</name>
         <qualifiedname>MR.MeshToDirectionVolumeParams.MeshToDirectionVolumeParams</qualifiedname>
         <param>
@@ -102,7 +102,7 @@
           <declname>dist</declname>
         </param>
         <param>
-          <type>MR._ByValueShared_IPointsToMeshProjector</type>
+          <type>MR.Std._ByValue_SharedPtr_MRIPointsToMeshProjector</type>
           <declname>projector</declname>
         </param>
         <briefdescription>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="752" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="752" bodyend="761"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="764" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="764" bodyend="773"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshToDirectionVolumeParams_1afac6eec4115cbeca850ba001868b4b33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="766" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="766" bodyend="773"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="778" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="778" bodyend="785"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshToDirectionVolumeParams_1a6eb0579b83fb455b1ad64dbbda6fb9dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="778" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="778" bodyend="778"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="790" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="790" bodyend="790"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshToDirectionVolumeParams_1a52b3d5f925791650efe33dbfd750a4b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -169,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="783" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="783" bodyend="783"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="795" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="795" bodyend="795"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshToDirectionVolumeParams_1ac1046bba8f69f0b1a5a9452d9714b819" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshToDirectionVolumeParams" kindref="compound">MR.MeshToDirectionVolumeParams</ref></type>
@@ -188,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="788" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="788" bodyend="795"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="800" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="800" bodyend="807"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -238,17 +238,17 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="691" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="692" bodyend="796"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="703" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="704" bodyend="808"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshToDirectionVolumeParams_1ac1046bba8f69f0b1a5a9452d9714b819" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>assign</name></member>
       <member refid="classMR_1_1MeshToDirectionVolumeParams_1ab9c750d592a82ea8f9e4f47daa8535bd" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>dist</name></member>
       <member refid="classMR_1_1MeshToDirectionVolumeParams_1a3a3934dbb896a57bf0cdee63fb868bbe" prot="package" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>MeshToDirectionVolumeParams</name></member>
       <member refid="classMR_1_1MeshToDirectionVolumeParams_1a276365cea822a1e4cc22ad06d13758b9" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>MeshToDirectionVolumeParams</name></member>
-      <member refid="classMR_1_1MeshToDirectionVolumeParams_1afa6e584b09f80200bf1f415da5d5df8a" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>MeshToDirectionVolumeParams</name></member>
+      <member refid="classMR_1_1MeshToDirectionVolumeParams_1af4b1b23c9b839d5f52665ad2bc59b92c" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>MeshToDirectionVolumeParams</name></member>
       <member refid="classMR_1_1MeshToDirectionVolumeParams_1afac6eec4115cbeca850ba001868b4b33" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>MeshToDirectionVolumeParams</name></member>
       <member refid="classMR_1_1MeshToDirectionVolumeParams_1a6eb0579b83fb455b1ad64dbbda6fb9dd" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>MeshToDirectionVolumeParams</name></member>
       <member refid="classMR_1_1MeshToDirectionVolumeParams_1a52b3d5f925791650efe33dbfd750a4b4" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>MeshToDirectionVolumeParams</name></member>
-      <member refid="classMR_1_1MeshToDirectionVolumeParams_1abb7646c4e8499fc1f586b55f4d466acd" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>projector</name></member>
+      <member refid="classMR_1_1MeshToDirectionVolumeParams_1a91b79182e85d7c44d31924117823687f" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>projector</name></member>
       <member refid="classMR_1_1MeshToDirectionVolumeParams_1a534460c00f89b9d779836977e877931c" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>vol</name></member>
     </listofallmembers>
   </compounddef>

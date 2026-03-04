@@ -185,15 +185,21 @@ Properties</h2></td></tr>
 <tr class="memitem:afc7db89ef82a2be9ad11aa25ec15d1d9" id="r_afc7db89ef82a2be9ad11aa25ec15d1d9"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc7db89ef82a2be9ad11aa25ec15d1d9">maxNewRank3VertDev</a><code> [get]</code></td></tr>
 <tr class="memdesc:afc7db89ef82a2be9ad11aa25ec15d1d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes), measured in voxelSize  <br /></td></tr>
 <tr class="memitem:a41f7ad08b15de0a456665023581eb5a9" id="r_a41f7ad08b15de0a456665023581eb5a9"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41f7ad08b15de0a456665023581eb5a9">maxOldVertPosCorrection</a><code> [get]</code></td></tr>
+<tr class="memdesc:a41f7ad08b15de0a456665023581eb5a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">correct positions of the input vertices using reference mesh by not more than this distance, measured in voxelSize; big correction can be wrong and result from self-intersections in the reference mesh  <br /></td></tr>
 <tr class="memitem:a777bc65492700feda300f5a920fdc9fd" id="r_a777bc65492700feda300f5a920fdc9fd"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70fed">MR.SignDetectionMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a777bc65492700feda300f5a920fdc9fd">signDetectionMode</a><code> [get]</code></td></tr>
 <tr class="memdesc:a777bc65492700feda300f5a920fdc9fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines the method to compute distance sign  <br /></td></tr>
 <tr class="memitem:ac8017187e900733a342357312cc2abac" id="r_ac8017187e900733a342357312cc2abac"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8017187e900733a342357312cc2abac">closeHolesInHoleWindingNumber</a><code> [get]</code></td></tr>
-<tr class="memdesc:ac8017187e900733a342357312cc2abac"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to construct closed mesh in signMode = <a class="el" href="classMR.html#aacd4e54997154b3fd8baece917df2044a748273fc30eaf6ab0c262df0bfb86f68" title="detects sign from the pseudonormal in closest mesh point, which is fast but unsafe in the presence of...">SignDetectionModeShort.HoleWindingNumber</a>  <br /></td></tr>
+<tr class="memdesc:ac8017187e900733a342357312cc2abac"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to construct closed mesh in signMode = <a class="el" href="classMR.html#aacd4e54997154b3fd8baece917df2044a748273fc30eaf6ab0c262df0bfb86f68" title="detects sign from the winding number generalization with support for holes and self-intersections in ...">SignDetectionModeShort.HoleWindingNumber</a>  <br /></td></tr>
 <tr class="memitem:ab4b2650b40eb73be2dd1d14958fd685f" id="r_ab4b2650b40eb73be2dd1d14958fd685f"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4b2650b40eb73be2dd1d14958fd685f">windingNumberThreshold</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab4b2650b40eb73be2dd1d14958fd685f"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" title="computes robust winding number generalization with support of holes and self-intersections in mesh,...">SignDetectionMode.HoleWindingRule</a>: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes  <br /></td></tr>
 <tr class="memitem:a214dfd965d9a8c4c939603bcd41d5ee0" id="r_a214dfd965d9a8c4c939603bcd41d5ee0"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a214dfd965d9a8c4c939603bcd41d5ee0">windingNumberBeta</a><code> [get]</code></td></tr>
-<tr class="memitem:aecaa96a59b469252bb81e6c35f76fb19" id="r_aecaa96a59b469252bb81e6c35f76fb19"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1IFastWindingNumber.html">MR.IFastWindingNumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecaa96a59b469252bb81e6c35f76fb19">fwn</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a214dfd965d9a8c4c939603bcd41d5ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" title="computes robust winding number generalization with support of holes and self-intersections in mesh,...">SignDetectionMode.HoleWindingRule</a>: determines the precision of fast approximation: the more the better, minimum value is 1  <br /></td></tr>
+<tr class="memitem:a53eebbde54ee27d7e5f56d40767870b6" id="r_a53eebbde54ee27d7e5f56d40767870b6"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.SharedPtr_MRIFastWindingNumber&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53eebbde54ee27d7e5f56d40767870b6">fwn</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a53eebbde54ee27d7e5f56d40767870b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">defines particular implementation of <a class="el" href="classMR_1_1IFastWindingNumber.html" title="Abstract class for fast approximate computation of generalized winding number for a mesh (using its A...">IFastWindingNumber</a> interface that will compute windings. If it is not specified, default <a class="el" href="classMR_1_1FastWindingNumber.html" title="the class for fast approximate computation of winding number for a mesh (using its AABB tree) Note,...">FastWindingNumber</a> is used this only used if signDetectionMode == <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" title="computes robust winding number generalization with support of holes and self-intersections in mesh,...">SignDetectionMode.HoleWindingRule</a>, otherwise it is ignored providing this will disable memoryEfficient (as if memoryEfficient == false)  <br /></td></tr>
 <tr class="memitem:a98314489db4694af07d406928e72997a" id="r_a98314489db4694af07d406928e72997a"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98314489db4694af07d406928e72997a">memoryEfficient</a><code> [get]</code></td></tr>
+<tr class="memdesc:a98314489db4694af07d406928e72997a"><td class="mdescLeft">&#160;</td><td class="mdescRight">use <a class="el" href="classMR_1_1FunctionVolume.html" title="represents a box in 3D space subdivided on voxels stored in T Generated from class MR....">FunctionVolume</a> for voxel grid representation:  <br /></td></tr>
 <tr class="memitem:ada0afc5423e1393491f000809eeb277d" id="r_ada0afc5423e1393491f000809eeb277d"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada0afc5423e1393491f000809eeb277d">voxelSize</a><code> [get]</code></td></tr>
+<tr class="memdesc:ada0afc5423e1393491f000809eeb277d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of voxel in grid conversions; The user is responsible for setting some positive value here.  <br /></td></tr>
 <tr class="memitem:a1cde748ed14c0f964c26bd7e2eabfefe" id="r_a1cde748ed14c0f964c26bd7e2eabfefe"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Bool_From_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cde748ed14c0f964c26bd7e2eabfefe">callBack</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a1cde748ed14c0f964c26bd7e2eabfefe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress callback.  <br /></td></tr>
 </table>
@@ -431,12 +437,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>whether to construct closed mesh in signMode = <a class="el" href="classMR.html#aacd4e54997154b3fd8baece917df2044a748273fc30eaf6ab0c262df0bfb86f68" title="detects sign from the pseudonormal in closest mesh point, which is fast but unsafe in the presence of...">SignDetectionModeShort.HoleWindingNumber</a> </p>
+<p>whether to construct closed mesh in signMode = <a class="el" href="classMR.html#aacd4e54997154b3fd8baece917df2044a748273fc30eaf6ab0c262df0bfb86f68" title="detects sign from the winding number generalization with support for holes and self-intersections in ...">SignDetectionModeShort.HoleWindingNumber</a> </p>
 
 </div>
 </div>
-<a id="aecaa96a59b469252bb81e6c35f76fb19" name="aecaa96a59b469252bb81e6c35f76fb19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecaa96a59b469252bb81e6c35f76fb19">&#9670;&#160;</a></span>fwn</h2>
+<a id="a53eebbde54ee27d7e5f56d40767870b6" name="a53eebbde54ee27d7e5f56d40767870b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53eebbde54ee27d7e5f56d40767870b6">&#9670;&#160;</a></span>fwn</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -445,7 +451,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">new unsafe <a class="el" href="classMR_1_1IFastWindingNumber.html">MR.IFastWindingNumber</a> MR.SharpOffsetParameters.fwn</td>
+          <td class="memname">new unsafe MR.Std.SharedPtr_MRIFastWindingNumber MR.SharpOffsetParameters.fwn</td>
         </tr>
       </table>
   </td>
@@ -454,7 +460,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>defines particular implementation of <a class="el" href="classMR_1_1IFastWindingNumber.html" title="Abstract class for fast approximate computation of generalized winding number for a mesh (using its A...">IFastWindingNumber</a> interface that will compute windings. If it is not specified, default <a class="el" href="classMR_1_1FastWindingNumber.html" title="the class for fast approximate computation of winding number for a mesh (using its AABB tree) Note,...">FastWindingNumber</a> is used this only used if signDetectionMode == <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4">SignDetectionMode.HoleWindingRule</a>, otherwise it is ignored providing this will disable memoryEfficient (as if memoryEfficient == false) </p>
+
+<p>defines particular implementation of <a class="el" href="classMR_1_1IFastWindingNumber.html" title="Abstract class for fast approximate computation of generalized winding number for a mesh (using its A...">IFastWindingNumber</a> interface that will compute windings. If it is not specified, default <a class="el" href="classMR_1_1FastWindingNumber.html" title="the class for fast approximate computation of winding number for a mesh (using its AABB tree) Note,...">FastWindingNumber</a> is used this only used if signDetectionMode == <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" title="computes robust winding number generalization with support of holes and self-intersections in mesh,...">SignDetectionMode.HoleWindingRule</a>, otherwise it is ignored providing this will disable memoryEfficient (as if memoryEfficient == false) </p>
 
 </div>
 </div>
@@ -525,6 +532,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>correct positions of the input vertices using reference mesh by not more than this distance, measured in voxelSize; big correction can be wrong and result from self-intersections in the reference mesh </p>
 
 </div>
@@ -548,9 +556,11 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>use <a class="el" href="classMR_1_1FunctionVolume.html" title="represents a box in 3D space subdivided on voxels stored in T Generated from class MR....">FunctionVolume</a> for voxel grid representation:</p><ul>
+
+<p>use <a class="el" href="classMR_1_1FunctionVolume.html" title="represents a box in 3D space subdivided on voxels stored in T Generated from class MR....">FunctionVolume</a> for voxel grid representation: </p>
+<ul>
 <li>memory consumption for voxel storage is approx. (dims.z / (2 * thread_count)) lesser</li>
-<li>computations are about 15% slower (because some z-layers are computed twice) this setting is ignored (as if memoryEfficient == false) if a) signDetectionMode = <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda011b949ced7ed48dafe7b08ae740dae9" title="sign detection from OpenVDB library, which is good and fast if input geometry is closed">SignDetectionMode.OpenVDB</a>, or b) <a class="el" href="#aecaa96a59b469252bb81e6c35f76fb19">fwn</a> is provided (CUDA computations require full memory storage) used only by <a class="el" href="classMR.html#ae72f1f0048d06bd678b000a3c48b3e67">mcOffsetMesh</a> and <a class="el" href="classMR.html#a38ffb830955994b7e6a635b6aae21b26">sharpOffsetMesh</a> methods </li>
+<li>computations are about 15% slower (because some z-layers are computed twice) this setting is ignored (as if memoryEfficient == false) if a) signDetectionMode = <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda011b949ced7ed48dafe7b08ae740dae9" title="sign detection from OpenVDB library, which is good and fast if input geometry is closed">SignDetectionMode.OpenVDB</a>, or b) <a class="el" href="#a53eebbde54ee27d7e5f56d40767870b6">fwn</a> is provided (CUDA computations require full memory storage) used only by <a class="el" href="classMR.html#ae72f1f0048d06bd678b000a3c48b3e67">mcOffsetMesh</a> and <a class="el" href="classMR.html#a38ffb830955994b7e6a635b6aae21b26">sharpOffsetMesh</a> methods </li>
 </ul>
 
 </div>
@@ -646,7 +656,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here </p>
+
+<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here. </p>
 
 </div>
 </div>
@@ -669,7 +680,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>only for <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4">SignDetectionMode.HoleWindingRule</a>: determines the precision of fast approximation: the more the better, minimum value is 1 </p>
+
+<p>only for <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" title="computes robust winding number generalization with support of holes and self-intersections in mesh,...">SignDetectionMode.HoleWindingRule</a>: determines the precision of fast approximation: the more the better, minimum value is 1 </p>
 
 </div>
 </div>
@@ -692,7 +704,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>only for <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4">SignDetectionMode.HoleWindingRule</a>: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </p>
+
+<p>only for <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" title="computes robust winding number generalization with support of holes and self-intersections in mesh,...">SignDetectionMode.HoleWindingRule</a>: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </p>
 
 </div>
 </div>

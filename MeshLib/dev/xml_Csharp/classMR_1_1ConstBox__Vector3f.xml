@@ -353,7 +353,7 @@
           <declname>xf</declname>
         </param>
         <briefdescription>
-<para>returns this vector transformed by xf if it is Generated from method <computeroutput><ref refid="structMR_1_1Vector3f_1a411800c154bd06560941c0a20cb2a83c" kindref="member">MR.Vector3f.transformed</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+<para>returns this vector transformed by xf if it is Generated from method <computeroutput><ref refid="structMR_1_1Vector3f_1a411800c154bd06560941c0a20cb2a83c" kindref="member">MR.Vector3f.transformed</ref>&amp;amp;lt;float&amp;amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -457,7 +457,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__Vector3f" kindref="compound">ConstBox_Vector3f</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__Vector3f" kindref="compound">Box_Vector3f</ref></computeroutput> intentionally doesn&apos;t. </para>
+<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__Vector3f" kindref="compound">ConstBox_Vector3f</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__Vector3f" kindref="compound">Box_Vector3f</ref></computeroutput> intentionally doesn't. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

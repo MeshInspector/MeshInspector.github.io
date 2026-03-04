@@ -24,29 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="863" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="863" bodyend="863"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1a5045efa50c6389e282fc2bf859b7b389" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.ObjectComparableWithReference.ObjectComparableWithReference</definition>
-        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
-        <name>ObjectComparableWithReference</name>
-        <qualifiedname>MR.ObjectComparableWithReference.ObjectComparableWithReference</qualifiedname>
-        <param>
-          <type>_UnderlyingShared *</type>
-          <declname>shared_ptr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>is_owning</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="865" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="865" bodyend="865"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="797" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="797" bodyend="797"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -71,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="872" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="872" bodyend="877"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="804" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="804" bodyend="809"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1adae4a238832b6a3602da40cfdc9068df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -94,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="886" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="886" bodyend="891"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="818" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="818" bodyend="823"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1a1dca124dd78a343860a1589adba8838a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -117,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="896" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="896" bodyend="901"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="828" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="828" bodyend="833"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -140,7 +118,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR.Misc.SharedObject</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
         <label>System.IDisposable</label>
@@ -161,16 +139,15 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR.Misc.SharedObject</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="861" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="862" bodyend="902"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="795" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="796" bodyend="834"/>
     <listofallmembers>
       <member refid="classMR_1_1ObjectComparableWithReference_1a4afd26c2488c77d6c724d6da6c99bcce" prot="package" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>ObjectComparableWithReference</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a5045efa50c6389e282fc2bf859b7b389" prot="package" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>ObjectComparableWithReference</name></member>
       <member refid="classMR_1_1ObjectComparableWithReference_1a1dca124dd78a343860a1589adba8838a" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>setComparisonReferenceVal</name></member>
       <member refid="classMR_1_1ObjectComparableWithReference_1adae4a238832b6a3602da40cfdc9068df" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>setComparisonReferenceValue</name></member>
       <member refid="classMR_1_1ObjectComparableWithReference_1abaa91c8bb970f5caadfd11d0d60efd32" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>setComparisonTolerance</name></member>

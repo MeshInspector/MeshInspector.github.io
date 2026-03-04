@@ -173,9 +173,11 @@ Properties</h2></td></tr>
 <tr class="memitem:aee214e60b86574cce42ea6082cb275fa" id="r_aee214e60b86574cce42ea6082cb275fa"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee214e60b86574cce42ea6082cb275fa">iters</a><code> [get]</code></td></tr>
 <tr class="memdesc:aee214e60b86574cce42ea6082cb275fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of iterations. Each iteration moves vertex only slightly and smooths the vector field of shifts.  <br /></td></tr>
 <tr class="memitem:a89348c31fa624e3cedf2f4f574ee187c" id="r_a89348c31fa624e3cedf2f4f574ee187c"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89348c31fa624e3cedf2f4f574ee187c">samplePoints</a><code> [get]</code></td></tr>
+<tr class="memdesc:a89348c31fa624e3cedf2f4f574ee187c"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of points to sample for each vertex. Samples are used to get the picewice-linear function of density and estimate the derivative based on it  <br /></td></tr>
 <tr class="memitem:acede1e05b9e7280577a5ff654bdcc96d" id="r_acede1e05b9e7280577a5ff654bdcc96d"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acede1e05b9e7280577a5ff654bdcc96d">degree</a><code> [get]</code></td></tr>
 <tr class="memdesc:acede1e05b9e7280577a5ff654bdcc96d"><td class="mdescLeft">&#160;</td><td class="mdescRight">degree of the polynomial used to fit sampled points. Must be in range [3; 6]  <br /></td></tr>
 <tr class="memitem:a07c9604db9f6e3c9d8b66431525b0843" id="r_a07c9604db9f6e3c9d8b66431525b0843"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07c9604db9f6e3c9d8b66431525b0843">outlierThreshold</a><code> [get]</code></td></tr>
+<tr class="memdesc:a07c9604db9f6e3c9d8b66431525b0843"><td class="mdescLeft">&#160;</td><td class="mdescRight">for each iteration, if target position of the vertex is greater than this threshold, it is disregarded. For small degrees, this value should be small, for large degrees it may be larger. Measured in number of voxels.  <br /></td></tr>
 <tr class="memitem:a60b22f506d394ae8c557011b43705da1" id="r_a60b22f506d394ae8c557011b43705da1"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60b22f506d394ae8c557011b43705da1">intermediateSmoothForce</a><code> [get]</code></td></tr>
 <tr class="memdesc:a60b22f506d394ae8c557011b43705da1"><td class="mdescLeft">&#160;</td><td class="mdescRight">force of the smoothing (relaxation) of vector field of shifts on each iteration  <br /></td></tr>
 <tr class="memitem:a7778c8ab579ddc4ada1701b734946b14" id="r_a7778c8ab579ddc4ada1701b734946b14"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7778c8ab579ddc4ada1701b734946b14">preparationSmoothForce</a><code> [get]</code></td></tr>
@@ -436,6 +438,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>for each iteration, if target position of the vertex is greater than this threshold, it is disregarded. For small degrees, this value should be small, for large degrees it may be larger. Measured in number of voxels. </p>
 
 </div>
@@ -483,6 +486,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>number of points to sample for each vertex. Samples are used to get the picewice-linear function of density and estimate the derivative based on it </p>
 
 </div>

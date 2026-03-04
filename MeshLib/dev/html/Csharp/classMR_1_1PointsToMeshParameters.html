@@ -171,11 +171,15 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a58a4f83b2417d6c88131a6d0c43b1f57" id="r_a58a4f83b2417d6c88131a6d0c43b1f57"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58a4f83b2417d6c88131a6d0c43b1f57">sigma</a><code> [get]</code></td></tr>
+<tr class="memdesc:a58a4f83b2417d6c88131a6d0c43b1f57"><td class="mdescLeft">&#160;</td><td class="mdescRight">it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero  <br /></td></tr>
 <tr class="memitem:a5ff8455f44ce9ed6c9b7fd3496d854d3" id="r_a5ff8455f44ce9ed6c9b7fd3496d854d3"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ff8455f44ce9ed6c9b7fd3496d854d3">minWeight</a><code> [get]</code></td></tr>
 <tr class="memdesc:a5ff8455f44ce9ed6c9b7fd3496d854d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum sum of influence weights from surrounding points for a triangle to appear, meaning that there shall be at least this number of points in close proximity  <br /></td></tr>
 <tr class="memitem:aa61a7dd4cb2710f70845c9b3795b9e8d" id="r_aa61a7dd4cb2710f70845c9b3795b9e8d"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa61a7dd4cb2710f70845c9b3795b9e8d">invSigmaModifier</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa61a7dd4cb2710f70845c9b3795b9e8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf)  <br /></td></tr>
 <tr class="memitem:a10bb4252fcde94c4eb0b5cff47961e4f" id="r_a10bb4252fcde94c4eb0b5cff47961e4f"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10bb4252fcde94c4eb0b5cff47961e4f">sqrtAngleWeight</a><code> [get]</code></td></tr>
+<tr class="memdesc:a10bb4252fcde94c4eb0b5cff47961e4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign)  <br /></td></tr>
 <tr class="memitem:a1f898069b35d15056dcb8fbd26242357" id="r_a1f898069b35d15056dcb8fbd26242357"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f898069b35d15056dcb8fbd26242357">voxelSize</a><code> [get]</code></td></tr>
+<tr class="memdesc:a1f898069b35d15056dcb8fbd26242357"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of voxel in grid conversions; The user is responsible for setting some positive value here.  <br /></td></tr>
 <tr class="memitem:affb338bbb532625c6377d3a5c08059b8" id="r_affb338bbb532625c6377d3a5c08059b8"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? Const_VertColors&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affb338bbb532625c6377d3a5c08059b8">ptColors</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:affb338bbb532625c6377d3a5c08059b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional input: colors of input points  <br /></td></tr>
 <tr class="memitem:af0f8c78fe86d196cb36164132d7ea88e" id="r_af0f8c78fe86d196cb36164132d7ea88e"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1VertColors.html">VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0f8c78fe86d196cb36164132d7ea88e">vColors</a><code> [get, set]</code></td></tr>
@@ -342,6 +346,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) </p>
 
 </div>
@@ -437,6 +442,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero </p>
 
 </div>
@@ -460,6 +466,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) </p>
 
 </div>
@@ -507,7 +514,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here </p>
+
+<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here. </p>
 
 </div>
 </div>

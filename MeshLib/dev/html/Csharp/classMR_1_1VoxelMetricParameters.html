@@ -171,14 +171,15 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a319d35a08b2da31a6788f8c2b428be31" id="r_a319d35a08b2da31a6788f8c2b428be31"><td class="memItemLeft" align="right" valign="top">new unsafe ref ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a319d35a08b2da31a6788f8c2b428be31">start</a><code> [get]</code></td></tr>
-<tr class="memdesc:a319d35a08b2da31a6788f8c2b428be31"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; start voxel index  <br /></td></tr>
+<tr class="memdesc:a319d35a08b2da31a6788f8c2b428be31"><td class="mdescLeft">&#160;</td><td class="mdescRight">start voxel index  <br /></td></tr>
 <tr class="memitem:a013f27dd734136065c748ce751630b90" id="r_a013f27dd734136065c748ce751630b90"><td class="memItemLeft" align="right" valign="top">new unsafe ref ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a013f27dd734136065c748ce751630b90">stop</a><code> [get]</code></td></tr>
-<tr class="memdesc:a013f27dd734136065c748ce751630b90"><td class="mdescLeft">&#160;</td><td class="mdescRight">max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed  <br /></td></tr>
+<tr class="memdesc:a013f27dd734136065c748ce751630b90"><td class="mdescLeft">&#160;</td><td class="mdescRight">stop voxel index  <br /></td></tr>
 <tr class="memitem:aaf7981485a2688b63b0e34b345637060" id="r_aaf7981485a2688b63b0e34b345637060"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf7981485a2688b63b0e34b345637060">maxDistRatio</a><code> [get]</code></td></tr>
-<tr class="memdesc:aaf7981485a2688b63b0e34b345637060"><td class="mdescLeft">&#160;</td><td class="mdescRight">if not None - builds path in one slice of voxels (make sure start and stop has same main axis coordinate)  <br /></td></tr>
+<tr class="memdesc:aaf7981485a2688b63b0e34b345637060"><td class="mdescLeft">&#160;</td><td class="mdescRight">max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &amp;gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed  <br /></td></tr>
 <tr class="memitem:a9cae0d5c1d0dc11ee35e8c152b8987dd" id="r_a9cae0d5c1d0dc11ee35e8c152b8987dd"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="classMR.html#a2f6d997fab8518c579b67d420b8dea94">MR.SlicePlane</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cae0d5c1d0dc11ee35e8c152b8987dd">plane</a><code> [get]</code></td></tr>
-<tr class="memdesc:a9cae0d5c1d0dc11ee35e8c152b8987dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">quarter of building path, if plane is selected, it should be (LeftLeft | LeftRigth) or (RigthLeft | RightRight) or All  <br /></td></tr>
+<tr class="memdesc:a9cae0d5c1d0dc11ee35e8c152b8987dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">if not None - builds path in one slice of voxels (make sure start and stop has same main axis coordinate)  <br /></td></tr>
 <tr class="memitem:a4291965aee52e1768148f13542bafc88" id="r_a4291965aee52e1768148f13542bafc88"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="classMR.html#ab7b877f1fa2b50085aa247d41bbfed19">MR.QuarterBit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4291965aee52e1768148f13542bafc88">quatersMask</a><code> [get]</code></td></tr>
+<tr class="memdesc:a4291965aee52e1768148f13542bafc88"><td class="mdescLeft">&#160;</td><td class="mdescRight">quarter of building path, if plane is selected, it should be (LeftLeft | LeftRigth) or (RigthLeft | RightRight) or All  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parameters for building metric function Generated from class <span class="tt"><a class="el" href="classMR_1_1VoxelMetricParameters.html" title="Parameters for building metric function Generated from class MR.VoxelMetricParameters....">MR.VoxelMetricParameters</a></span>. This is the non-const half of the class. </p>
@@ -359,7 +360,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>if not None - builds path in one slice of voxels (make sure start and stop has same main axis coordinate) </p>
+<p>max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &amp;gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed </p>
 
 </div>
 </div>
@@ -383,7 +384,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>quarter of building path, if plane is selected, it should be (LeftLeft | LeftRigth) or (RigthLeft | RightRight) or All </p>
+<p>if not None - builds path in one slice of voxels (make sure start and stop has same main axis coordinate) </p>
 
 </div>
 </div>
@@ -407,6 +408,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>quarter of building path, if plane is selected, it should be (LeftLeft | LeftRigth) or (RigthLeft | RightRight) or All </p>
+
 </div>
 </div>
 <a id="a319d35a08b2da31a6788f8c2b428be31" name="a319d35a08b2da31a6788f8c2b428be31"></a>
@@ -429,8 +432,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>&lt; start voxel index </p>
-<p>stop voxel index </p>
+<p>start voxel index </p>
 
 </div>
 </div>
@@ -454,7 +456,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed </p>
+<p>stop voxel index </p>
 
 </div>
 </div>

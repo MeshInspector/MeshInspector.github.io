@@ -251,10 +251,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9ac76bf7cb541953f9c1b1f1869389f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a9ac76bf7cb541953f9c1b1f1869389f0" title="Generated from method MR.ObjectLabel.setParentLocked.">MR.ObjectLabel.setParentLocked</a></span>.  <br /></td></tr>
 <tr class="memitem:ad161d3314956ac2ed44eea13f3fe714c" id="r_ad161d3314956ac2ed44eea13f3fe714c"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad161d3314956ac2ed44eea13f3fe714c">detachFromParent</a> ()</td></tr>
 <tr class="memdesc:ad161d3314956ac2ed44eea13f3fe714c"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes this from its parent children list returns false if it was already orphan Generated from method <span class="tt"><a class="el" href="#ad161d3314956ac2ed44eea13f3fe714c" title="removes this from its parent children list returns false if it was already orphan Generated from meth...">MR.ObjectLabel.detachFromParent</a></span>.  <br /></td></tr>
-<tr class="memitem:a3fce27eed82a9641a3d4e07d7322651e" id="r_a3fce27eed82a9641a3d4e07d7322651e"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fce27eed82a9641a3d4e07d7322651e">addChild</a> (MR._ByValueShared_Object child, bool? recognizedChild=null)</td></tr>
-<tr class="memdesc:a3fce27eed82a9641a3d4e07d7322651e"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call;  <br /></td></tr>
-<tr class="memitem:ace6fc16c4b52e077c63dcc0c7b0c0488" id="r_ace6fc16c4b52e077c63dcc0c7b0c0488"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace6fc16c4b52e077c63dcc0c7b0c0488">addChildBefore</a> (MR._ByValueShared_Object newChild, MR.Const_Object existingChild)</td></tr>
-<tr class="memdesc:ace6fc16c4b52e077c63dcc0c7b0c0488"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <span class="tt"><a class="el" href="#ace6fc16c4b52e077c63dcc0c7b0c0488" title="adds given object in the recognized children before existingChild; if newChild was already among this...">MR.ObjectLabel.addChildBefore</a></span>.  <br /></td></tr>
+<tr class="memitem:a4ba720a7b906d6256ee41e9622d514dd" id="r_a4ba720a7b906d6256ee41e9622d514dd"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ba720a7b906d6256ee41e9622d514dd">addChild</a> (MR.Std._ByValue_SharedPtr_MRObject child, bool? recognizedChild=null)</td></tr>
+<tr class="memdesc:a4ba720a7b906d6256ee41e9622d514dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call;  <br /></td></tr>
+<tr class="memitem:a60011bbe7215ec00ce8a9bd6316dcbdf" id="r_a60011bbe7215ec00ce8a9bd6316dcbdf"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60011bbe7215ec00ce8a9bd6316dcbdf">addChildBefore</a> (MR.Std._ByValue_SharedPtr_MRObject newChild, MR.Std.Const_SharedPtr_MRObject existingChild)</td></tr>
+<tr class="memdesc:a60011bbe7215ec00ce8a9bd6316dcbdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <span class="tt"><a class="el" href="#a60011bbe7215ec00ce8a9bd6316dcbdf" title="adds given object in the recognized children before existingChild; if newChild was already among this...">MR.ObjectLabel.addChildBefore</a></span>.  <br /></td></tr>
 <tr class="memitem:ab339dfb0a960844b8a625a9e08dc3425" id="r_ab339dfb0a960844b8a625a9e08dc3425"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab339dfb0a960844b8a625a9e08dc3425">removeAllChildren</a> ()</td></tr>
 <tr class="memdesc:ab339dfb0a960844b8a625a9e08dc3425"><td class="mdescLeft">&#160;</td><td class="mdescRight">detaches all recognized children from this, keeping all unrecognized ones Generated from method <span class="tt"><a class="el" href="#ab339dfb0a960844b8a625a9e08dc3425" title="detaches all recognized children from this, keeping all unrecognized ones Generated from method MR....">MR.ObjectLabel.removeAllChildren</a></span>.  <br /></td></tr>
 <tr class="memitem:a303bfb725ddf04bfa57be49861ad1f6b" id="r_a303bfb725ddf04bfa57be49861ad1f6b"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a303bfb725ddf04bfa57be49861ad1f6b">sortChildren</a> ()</td></tr>
@@ -341,8 +341,8 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a3fce27eed82a9641a3d4e07d7322651e" name="a3fce27eed82a9641a3d4e07d7322651e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fce27eed82a9641a3d4e07d7322651e">&#9670;&#160;</a></span>addChild()</h2>
+<a id="a4ba720a7b906d6256ee41e9622d514dd" name="a4ba720a7b906d6256ee41e9622d514dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ba720a7b906d6256ee41e9622d514dd">&#9670;&#160;</a></span>addChild()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -353,7 +353,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">unsafe bool MR.ObjectLabel.addChild </td>
           <td>(</td>
-          <td class="paramtype">MR._ByValueShared_Object</td>          <td class="paramname"><span class="paramname"><em>child</em></span>, </td>
+          <td class="paramtype">MR.Std._ByValue_SharedPtr_MRObject</td>          <td class="paramname"><span class="paramname"><em>child</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -371,15 +371,15 @@ Static Public Member Functions</h2></td></tr>
 <p>adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call; </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">recognizedChild</td><td>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <span class="tt"><a class="el" href="#a3fce27eed82a9641a3d4e07d7322651e" title="adds given object at the end of children (recognized or not); returns false if it was already child o...">MR.ObjectLabel.addChild</a></span>. Parameter <span class="tt">recognizedChild</span> defaults to <span class="tt">true</span>. </td></tr>
+    <tr><td class="paramname">recognizedChild</td><td>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <span class="tt"><a class="el" href="#a4ba720a7b906d6256ee41e9622d514dd" title="adds given object at the end of children (recognized or not); returns false if it was already child o...">MR.ObjectLabel.addChild</a></span>. Parameter <span class="tt">recognizedChild</span> defaults to <span class="tt">true</span>. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ace6fc16c4b52e077c63dcc0c7b0c0488" name="ace6fc16c4b52e077c63dcc0c7b0c0488"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace6fc16c4b52e077c63dcc0c7b0c0488">&#9670;&#160;</a></span>addChildBefore()</h2>
+<a id="a60011bbe7215ec00ce8a9bd6316dcbdf" name="a60011bbe7215ec00ce8a9bd6316dcbdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60011bbe7215ec00ce8a9bd6316dcbdf">&#9670;&#160;</a></span>addChildBefore()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -390,12 +390,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">unsafe bool MR.ObjectLabel.addChildBefore </td>
           <td>(</td>
-          <td class="paramtype">MR._ByValueShared_Object</td>          <td class="paramname"><span class="paramname"><em>newChild</em></span>, </td>
+          <td class="paramtype">MR.Std._ByValue_SharedPtr_MRObject</td>          <td class="paramname"><span class="paramname"><em>newChild</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Const_Object</td>          <td class="paramname"><span class="paramname"><em>existingChild</em></span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_SharedPtr_MRObject</td>          <td class="paramname"><span class="paramname"><em>existingChild</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -405,7 +405,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <span class="tt"><a class="el" href="#ace6fc16c4b52e077c63dcc0c7b0c0488" title="adds given object in the recognized children before existingChild; if newChild was already among this...">MR.ObjectLabel.addChildBefore</a></span>. </p>
+<p>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <span class="tt"><a class="el" href="#a60011bbe7215ec00ce8a9bd6316dcbdf" title="adds given object in the recognized children before existingChild; if newChild was already among this...">MR.ObjectLabel.addChildBefore</a></span>. </p>
 
 </div>
 </div>

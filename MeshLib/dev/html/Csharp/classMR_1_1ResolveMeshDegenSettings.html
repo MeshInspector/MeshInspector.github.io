@@ -177,7 +177,9 @@ Properties</h2></td></tr>
 <tr class="memitem:a06bcbcd82ce77eb4819b61e7f008dfa3" id="r_a06bcbcd82ce77eb4819b61e7f008dfa3"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06bcbcd82ce77eb4819b61e7f008dfa3">maxAngleChange</a><code> [get]</code></td></tr>
 <tr class="memdesc:a06bcbcd82ce77eb4819b61e7f008dfa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permit edge flips if it does not change dihedral angle more than on this value.  <br /></td></tr>
 <tr class="memitem:a46e311b17df1c61ae8974f0e071a45cc" id="r_a46e311b17df1c61ae8974f0e071a45cc"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46e311b17df1c61ae8974f0e071a45cc">criticalAspectRatio</a><code> [get]</code></td></tr>
+<tr class="memdesc:a46e311b17df1c61ae8974f0e071a45cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio  <br /></td></tr>
 <tr class="memitem:a0294368c24611a2c006efd98b1a85faf" id="r_a0294368c24611a2c006efd98b1a85faf"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0294368c24611a2c006efd98b1a85faf">stabilizer</a><code> [get]</code></td></tr>
+<tr class="memdesc:a0294368c24611a2c006efd98b1a85faf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero.  <br /></td></tr>
 <tr class="memitem:ac8e14d0db4b48dc9f60289f1413d1fde" id="r_ac8e14d0db4b48dc9f60289f1413d1fde"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8e14d0db4b48dc9f60289f1413d1fde">region</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ac8e14d0db4b48dc9f60289f1413d1fde"><td class="mdescLeft">&#160;</td><td class="mdescRight">degenerations will be fixed only in given region, which is updated during the processing  <br /></td></tr>
 </table>
@@ -364,6 +366,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio </p>
 
 </div>
@@ -459,7 +462,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero </p>
+
+<p>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero. </p>
 
 </div>
 </div>

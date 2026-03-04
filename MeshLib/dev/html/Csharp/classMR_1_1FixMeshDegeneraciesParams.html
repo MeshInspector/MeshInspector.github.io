@@ -177,9 +177,11 @@ Properties</h2></td></tr>
 <tr class="memitem:a66475ab23c1441b769d1c6b2f502b4ea" id="r_a66475ab23c1441b769d1c6b2f502b4ea"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66475ab23c1441b769d1c6b2f502b4ea">tinyEdgeLength</a><code> [get]</code></td></tr>
 <tr class="memdesc:a66475ab23c1441b769d1c6b2f502b4ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">edges not longer than this value will be collapsed ignoring normals and aspect ratio checks  <br /></td></tr>
 <tr class="memitem:ae34824faf9d7160cc8698775f5060672" id="r_ae34824faf9d7160cc8698775f5060672"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae34824faf9d7160cc8698775f5060672">criticalTriAspectRatio</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae34824faf9d7160cc8698775f5060672"><td class="mdescLeft">&#160;</td><td class="mdescRight">the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio  <br /></td></tr>
 <tr class="memitem:a99d770ee3259c6f1bc5ba163f3910971" id="r_a99d770ee3259c6f1bc5ba163f3910971"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99d770ee3259c6f1bc5ba163f3910971">maxAngleChange</a><code> [get]</code></td></tr>
 <tr class="memdesc:a99d770ee3259c6f1bc5ba163f3910971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permit edge flips if it does not change dihedral angle more than on this value.  <br /></td></tr>
 <tr class="memitem:aa23e1ba06c41baafef0c214a06ca2adc" id="r_aa23e1ba06c41baafef0c214a06ca2adc"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa23e1ba06c41baafef0c214a06ca2adc">stabilizer</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa23e1ba06c41baafef0c214a06ca2adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero.  <br /></td></tr>
 <tr class="memitem:a90621e659cd5be3a26daa4cfbd577895" id="r_a90621e659cd5be3a26daa4cfbd577895"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90621e659cd5be3a26daa4cfbd577895">region</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a90621e659cd5be3a26daa4cfbd577895"><td class="mdescLeft">&#160;</td><td class="mdescRight">degenerations will be fixed only in given region, it is updated during the operation  <br /></td></tr>
 <tr class="memitem:a25aacc89ccb14968d6cd430e6548dd96" id="r_a25aacc89ccb14968d6cd430e6548dd96"><td class="memItemLeft" align="right" valign="top">new unsafe ref MR.FixMeshDegeneraciesParams.Mode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25aacc89ccb14968d6cd430e6548dd96">mode</a><code> [get]</code></td></tr>
@@ -427,6 +429,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio </p>
 
 </div>
@@ -544,7 +547,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero </p>
+
+<p>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero. </p>
 
 </div>
 </div>

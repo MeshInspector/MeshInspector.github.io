@@ -252,7 +252,7 @@
           <declname>c</declname>
         </param>
         <briefdescription>
-<para>returns the corner of this box as specified by given bool-vector: 0 element in (c) means take min&apos;s coordinate, 1 element in (c) means take max&apos;s coordinate Generated from method <computeroutput><ref refid="structMR_1_1Box1i64_1ad11d641db67e60fd59d3af970971919b" kindref="member">MR.Box1i64.corner</ref></computeroutput>. </para>
+<para>returns the corner of this box as specified by given bool-vector: 0 element in (c) means take min's coordinate, 1 element in (c) means take max's coordinate Generated from method <computeroutput><ref refid="structMR_1_1Box1i64_1ad11d641db67e60fd59d3af970971919b" kindref="member">MR.Box1i64.corner</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -572,7 +572,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__Box1i64" kindref="compound">ConstBox_Box1i64</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__Box1i64" kindref="compound">Box_Box1i64</ref></computeroutput> intentionally doesn&apos;t. </para>
+<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__Box1i64" kindref="compound">ConstBox_Box1i64</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__Box1i64" kindref="compound">Box_Box1i64</ref></computeroutput> intentionally doesn't. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -614,7 +614,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box&apos;s corner for which d is minimal Generated from method <computeroutput><ref refid="structMR_1_1Box1i64_1aec3ac159a5cdd45e57d7fb61bdaf80c9" kindref="member">MR.Box1i64.getMinBoxCorner</ref></computeroutput>. </para>
+<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box's corner for which d is minimal Generated from method <computeroutput><ref refid="structMR_1_1Box1i64_1aec3ac159a5cdd45e57d7fb61bdaf80c9" kindref="member">MR.Box1i64.getMinBoxCorner</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -633,7 +633,7 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box&apos;s corner for which d is maximal Generated from method <computeroutput><ref refid="structMR_1_1Box1i64_1a1131fcec554c59321b6434b45bd4ef6f" kindref="member">MR.Box1i64.getMaxBoxCorner</ref></computeroutput>. </para>
+<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box's corner for which d is maximal Generated from method <computeroutput><ref refid="structMR_1_1Box1i64_1a1131fcec554c59321b6434b45bd4ef6f" kindref="member">MR.Box1i64.getMaxBoxCorner</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

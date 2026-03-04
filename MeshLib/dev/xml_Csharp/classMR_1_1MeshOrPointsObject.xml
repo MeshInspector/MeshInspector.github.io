@@ -100,14 +100,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="240" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="240" bodyend="240"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1a0879bb5048fcc6d1801b4ea72c1ca200" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1ae9c92f2cb30d119a7fe05a95e335a072" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.MeshOrPointsObject.MeshOrPointsObject</definition>
-        <argsstring>(MR._ByValueShared_VisualObject vo)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRVisualObject vo)</argsstring>
         <name>MeshOrPointsObject</name>
         <qualifiedname>MR.MeshOrPointsObject.MeshOrPointsObject</qualifiedname>
         <param>
-          <type>MR._ByValueShared_VisualObject</type>
+          <type>MR.Std._ByValue_SharedPtr_MRVisualObject</type>
           <declname>vo</declname>
         </param>
         <briefdescription>
@@ -119,14 +119,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="247" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="247" bodyend="253"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1a36e05fb879e93d25e47edbdecc0abd9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1a23470a3f9a4f9a24c51e18202836e552" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.MeshOrPointsObject.MeshOrPointsObject</definition>
-        <argsstring>(MR._ByValueShared_ObjectMesh om)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObjectMesh om)</argsstring>
         <name>MeshOrPointsObject</name>
         <qualifiedname>MR.MeshOrPointsObject.MeshOrPointsObject</qualifiedname>
         <param>
-          <type>MR._ByValueShared_ObjectMesh</type>
+          <type>MR.Std._ByValue_SharedPtr_MRObjectMesh</type>
           <declname>om</declname>
         </param>
         <briefdescription>
@@ -138,14 +138,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="265" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="265" bodyend="271"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1a7053ae16c6a505e6f11bad8b3b59e995" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1a0891ad8de7f716e8bf3c29b835658e2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.MeshOrPointsObject.MeshOrPointsObject</definition>
-        <argsstring>(MR._ByValueShared_ObjectPoints op)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObjectPoints op)</argsstring>
         <name>MeshOrPointsObject</name>
         <qualifiedname>MR.MeshOrPointsObject.MeshOrPointsObject</qualifiedname>
         <param>
-          <type>MR._ByValueShared_ObjectPoints</type>
+          <type>MR.Std._ByValue_SharedPtr_MRObjectPoints</type>
           <declname>op</declname>
         </param>
         <briefdescription>
@@ -176,18 +176,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="297" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="297" bodyend="304"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1abf37c85a2e0ff7029e0f1bd6c08671ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1abe3fb04159bb5610a4a113213b2f626f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.MeshOrPointsObject.set</definition>
-        <argsstring>(MR._ByValueShared_ObjectMesh om)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObjectMesh om)</argsstring>
         <name>set</name>
         <qualifiedname>MR.MeshOrPointsObject.set</qualifiedname>
         <param>
-          <type>MR._ByValueShared_ObjectMesh</type>
+          <type>MR.Std._ByValue_SharedPtr_MRObjectMesh</type>
           <declname>om</declname>
         </param>
         <briefdescription>
-<para>set to hold <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> Generated from method <computeroutput><ref refid="classMR_1_1MeshOrPointsObject_1abf37c85a2e0ff7029e0f1bd6c08671ca" kindref="member">MR.MeshOrPointsObject.set</ref></computeroutput>. </para>
+<para>set to hold <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> Generated from method <computeroutput><ref refid="classMR_1_1MeshOrPointsObject_1abe3fb04159bb5610a4a113213b2f626f" kindref="member">MR.MeshOrPointsObject.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -195,18 +195,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="310" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="310" bodyend="315"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1aeb2cb68cb8219f0f7aca694097fcd13c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1ac132887b0b8535328e5838b8c41c429e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.MeshOrPointsObject.set</definition>
-        <argsstring>(MR._ByValueShared_ObjectPoints op)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObjectPoints op)</argsstring>
         <name>set</name>
         <qualifiedname>MR.MeshOrPointsObject.set</qualifiedname>
         <param>
-          <type>MR._ByValueShared_ObjectPoints</type>
+          <type>MR.Std._ByValue_SharedPtr_MRObjectPoints</type>
           <declname>op</declname>
         </param>
         <briefdescription>
-<para>set to hold <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> Generated from method <computeroutput><ref refid="classMR_1_1MeshOrPointsObject_1abf37c85a2e0ff7029e0f1bd6c08671ca" kindref="member">MR.MeshOrPointsObject.set</ref></computeroutput>. </para>
+<para>set to hold <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> Generated from method <computeroutput><ref refid="classMR_1_1MeshOrPointsObject_1abe3fb04159bb5610a4a113213b2f626f" kindref="member">MR.MeshOrPointsObject.set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -231,14 +231,14 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1a6f6e6c98b6e242b9277054db0d2451e9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1ac8d88f2c57a22de3f01794c3ac6a2ce2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.MeshOrPointsObject.operator MeshOrPointsObject</definition>
-        <argsstring>(MR._ByValueShared_VisualObject vo)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRVisualObject vo)</argsstring>
         <name>operator MeshOrPointsObject</name>
         <qualifiedname>MR.MeshOrPointsObject.operator MeshOrPointsObject</qualifiedname>
         <param>
-          <type>MR._ByValueShared_VisualObject</type>
+          <type>MR.Std._ByValue_SharedPtr_MRVisualObject</type>
           <declname>vo</declname>
         </param>
         <briefdescription>
@@ -250,14 +250,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="260" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="260" bodyend="260"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1afcfa185f1bdfa681a8c5e845113a02dc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1abc09cafd8d390df20a227459ceb4b3a3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.MeshOrPointsObject.operator MeshOrPointsObject</definition>
-        <argsstring>(MR._ByValueShared_ObjectMesh om)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObjectMesh om)</argsstring>
         <name>operator MeshOrPointsObject</name>
         <qualifiedname>MR.MeshOrPointsObject.operator MeshOrPointsObject</qualifiedname>
         <param>
-          <type>MR._ByValueShared_ObjectMesh</type>
+          <type>MR.Std._ByValue_SharedPtr_MRObjectMesh</type>
           <declname>om</declname>
         </param>
         <briefdescription>
@@ -269,14 +269,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="276" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="276" bodyend="276"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1af477b7c20d904328b44d75910c3ed80d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1aaf4720930502c08a26d9e15cddd268c4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.MeshOrPointsObject.operator MeshOrPointsObject</definition>
-        <argsstring>(MR._ByValueShared_ObjectPoints op)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObjectPoints op)</argsstring>
         <name>operator MeshOrPointsObject</name>
         <qualifiedname>MR.MeshOrPointsObject.operator MeshOrPointsObject</qualifiedname>
         <param>
-          <type>MR._ByValueShared_ObjectPoints</type>
+          <type>MR.Std._ByValue_SharedPtr_MRObjectPoints</type>
           <declname>op</declname>
         </param>
         <briefdescription>
@@ -354,15 +354,15 @@
       <member refid="classMR_1_1MeshOrPointsObject_1a581fe35f1da2142116491bda1deba7a3" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
       <member refid="classMR_1_1MeshOrPointsObject_1aaf1ff2d47d59bb0c4b7371e1ab1ed286" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
       <member refid="classMR_1_1MeshOrPointsObject_1a9fe009d2eb35cb96502b9d321abbfbd1" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
-      <member refid="classMR_1_1MeshOrPointsObject_1a0879bb5048fcc6d1801b4ea72c1ca200" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
-      <member refid="classMR_1_1MeshOrPointsObject_1a36e05fb879e93d25e47edbdecc0abd9b" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
-      <member refid="classMR_1_1MeshOrPointsObject_1a7053ae16c6a505e6f11bad8b3b59e995" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
-      <member refid="classMR_1_1MeshOrPointsObject_1a6f6e6c98b6e242b9277054db0d2451e9" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>operator MeshOrPointsObject</name></member>
-      <member refid="classMR_1_1MeshOrPointsObject_1afcfa185f1bdfa681a8c5e845113a02dc" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>operator MeshOrPointsObject</name></member>
-      <member refid="classMR_1_1MeshOrPointsObject_1af477b7c20d904328b44d75910c3ed80d" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>operator MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1MeshOrPointsObject_1ae9c92f2cb30d119a7fe05a95e335a072" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1MeshOrPointsObject_1a23470a3f9a4f9a24c51e18202836e552" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1MeshOrPointsObject_1a0891ad8de7f716e8bf3c29b835658e2d" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1MeshOrPointsObject_1ac8d88f2c57a22de3f01794c3ac6a2ce2" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>operator MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1MeshOrPointsObject_1abc09cafd8d390df20a227459ceb4b3a3" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>operator MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1MeshOrPointsObject_1aaf4720930502c08a26d9e15cddd268c4" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>operator MeshOrPointsObject</name></member>
       <member refid="classMR_1_1MeshOrPointsObject_1ae934c991645373a2f9a5eec77cf33d3e" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>reset</name></member>
-      <member refid="classMR_1_1MeshOrPointsObject_1abf37c85a2e0ff7029e0f1bd6c08671ca" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>set</name></member>
-      <member refid="classMR_1_1MeshOrPointsObject_1aeb2cb68cb8219f0f7aca694097fcd13c" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>set</name></member>
+      <member refid="classMR_1_1MeshOrPointsObject_1abe3fb04159bb5610a4a113213b2f626f" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>set</name></member>
+      <member refid="classMR_1_1MeshOrPointsObject_1ac132887b0b8535328e5838b8c41c429e" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>set</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

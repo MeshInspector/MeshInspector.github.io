@@ -154,7 +154,7 @@
           <declname>leafMap</declname>
         </param>
         <briefdescription>
-<para>fills map: LeafId -&gt; leaf#, then resets leaf order to 0,1,2,...; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput><ref refid="classMR_1_1AABBTreePolyline3_1a4b42668c388abf6af08da29fb322a85f" kindref="member">MR.AABBTreePolyline3.getLeafOrderAndReset</ref></computeroutput>. </para>
+<para>fills map: LeafId -&amp;gt; leaf#, then resets leaf order to 0,1,2,...; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput><ref refid="classMR_1_1AABBTreePolyline3_1a4b42668c388abf6af08da29fb322a85f" kindref="member">MR.AABBTreePolyline3.getLeafOrderAndReset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -164,7 +164,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>bounding volume hierarchy for line segments Generated from class <computeroutput><ref refid="classMR_1_1AABBTreePolyline3" kindref="compound">MR.AABBTreePolyline3</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;</computeroutput> This is the non-const half of the class. </para>
+<para>bounding volume hierarchy for line segments Generated from class <computeroutput><ref refid="classMR_1_1AABBTreePolyline3" kindref="compound">MR.AABBTreePolyline3</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::AABBTreeBase&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;</computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

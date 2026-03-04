@@ -215,7 +215,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>This class and its main method can be used to solve the problem of 3D shape alignment. This algorithm uses a point-to-plane error metric in which the object of minimization is the sum of the squared distance between a point and the tangent plane at its correspondence point. To use this technique it&apos;s need to have small rotation angles. So there is an approximate solution. The result of this algorithm is the transformation of first points (p1) which aligns it to the second ones (p2). Generated from class <computeroutput><ref refid="classMR_1_1PointToPlaneAligningTransform" kindref="compound">MR.PointToPlaneAligningTransform</ref></computeroutput>. This is the non-const half of the class. </para>
+<para>This class and its main method can be used to solve the problem of 3D shape alignment. This algorithm uses a point-to-plane error metric in which the object of minimization is the sum of the squared distance between a point and the tangent plane at its correspondence point. To use this technique it's need to have small rotation angles. So there is an approximate solution. The result of this algorithm is the transformation of first points (p1) which aligns it to the second ones (p2). Generated from class <computeroutput><ref refid="classMR_1_1PointToPlaneAligningTransform" kindref="compound">MR.PointToPlaneAligningTransform</ref></computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

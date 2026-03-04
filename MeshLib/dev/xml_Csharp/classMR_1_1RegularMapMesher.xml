@@ -119,18 +119,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" line="125" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" bodystart="125" bodyend="132"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1aee5cb36a7a745a1f815f287448400f4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1abdb092f1ec19fca5e860a2f42181ba7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.RegularMapMesher.setSurfacePC</definition>
-        <argsstring>(MR.Const_PointCloud surfacePC)</argsstring>
+        <argsstring>(MR.Std.Const_SharedPtr_MRPointCloud surfacePC)</argsstring>
         <name>setSurfacePC</name>
         <qualifiedname>MR.RegularMapMesher.setSurfacePC</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type>MR.Std.Const_SharedPtr_MRPointCloud</type>
           <declname>surfacePC</declname>
         </param>
         <briefdescription>
-<para>Sets surface Point Cloud Generated from method <computeroutput><ref refid="classMR_1_1RegularMapMesher_1aee5cb36a7a745a1f815f287448400f4e" kindref="member">MR.RegularMapMesher.setSurfacePC</ref></computeroutput>. </para>
+<para>Sets surface Point Cloud Generated from method <computeroutput><ref refid="classMR_1_1RegularMapMesher_1abdb092f1ec19fca5e860a2f42181ba7f" kindref="member">MR.RegularMapMesher.setSurfacePC</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -138,18 +138,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" line="138" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" bodystart="138" bodyend="143"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1a2e612b2b042306bfeba0e406f88da1b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1a3068f95ebadfc88cbed90676b8ca1f13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.RegularMapMesher.setDirectionsPC</definition>
-        <argsstring>(MR.Const_PointCloud directionsPC)</argsstring>
+        <argsstring>(MR.Std.Const_SharedPtr_MRPointCloud directionsPC)</argsstring>
         <name>setDirectionsPC</name>
         <qualifiedname>MR.RegularMapMesher.setDirectionsPC</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type>MR.Std.Const_SharedPtr_MRPointCloud</type>
           <declname>directionsPC</declname>
         </param>
         <briefdescription>
-<para>Sets directions Point Cloud Generated from method <computeroutput><ref refid="classMR_1_1RegularMapMesher_1a2e612b2b042306bfeba0e406f88da1b5" kindref="member">MR.RegularMapMesher.setDirectionsPC</ref></computeroutput>. </para>
+<para>Sets directions Point Cloud Generated from method <computeroutput><ref refid="classMR_1_1RegularMapMesher_1a3068f95ebadfc88cbed90676b8ca1f13" kindref="member">MR.RegularMapMesher.setDirectionsPC</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -269,9 +269,9 @@
       <member refid="classMR_1_1RegularMapMesher_1adb23c6068fce1fd48aa72d3f572758f8" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>RegularMapMesher</name></member>
       <member refid="classMR_1_1RegularMapMesher_1ade81f5e74f7af98ac60e83b11ef6da38" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>RegularMapMesher</name></member>
       <member refid="classMR_1_1RegularMapMesher_1a6b9b1a239520752175ea710c5f3585b3" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>RegularMapMesher</name></member>
-      <member refid="classMR_1_1RegularMapMesher_1a2e612b2b042306bfeba0e406f88da1b5" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setDirectionsPC</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1a3068f95ebadfc88cbed90676b8ca1f13" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setDirectionsPC</name></member>
       <member refid="classMR_1_1RegularMapMesher_1a81f29537e2f2c967ee20c2a44783b038" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setDistances</name></member>
-      <member refid="classMR_1_1RegularMapMesher_1aee5cb36a7a745a1f815f287448400f4e" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setSurfacePC</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1abdb092f1ec19fca5e860a2f42181ba7f" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setSurfacePC</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

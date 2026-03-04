@@ -2,8 +2,8 @@ var classMR_1_1ObjectMeshHolder =
 [
     [ "ObjectMeshHolder", "classMR_1_1ObjectMeshHolder.html#abfc942737d8ce471b5a6349f01b7086f", null ],
     [ "ObjectMeshHolder", "classMR_1_1ObjectMeshHolder.html#acc3f910a7c7374e5b17352a18277b1bc", null ],
-    [ "addChild", "classMR_1_1ObjectMeshHolder.html#ab01ba9e785a1def7c9ece0299aec2b8e", null ],
-    [ "addChildBefore", "classMR_1_1ObjectMeshHolder.html#ae674eb028c6de10c6290e02fbdcabb7d", null ],
+    [ "addChild", "classMR_1_1ObjectMeshHolder.html#a7fc1276029e66b9daaee9fd909b4a7dd", null ],
+    [ "addChildBefore", "classMR_1_1ObjectMeshHolder.html#aceee8c6b0d84ae938b9c5fa6d1b501bb", null ],
     [ "addTag", "classMR_1_1ObjectMeshHolder.html#a7f370f2e75483df37e9ae2181dc92672", null ],
     [ "addTexture", "classMR_1_1ObjectMeshHolder.html#a9a8bfac5dc6e1db3c6eab77f221bef84", null ],
     [ "applyScale", "classMR_1_1ObjectMeshHolder.html#aa7df0afc461871049abd8e1e8e8b7d8e", null ],

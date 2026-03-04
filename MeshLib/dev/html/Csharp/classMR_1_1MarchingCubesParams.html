@@ -181,8 +181,9 @@ Properties</h2></td></tr>
 <tr class="memitem:a5acb82da0e16db53e25fdffc90595f03" id="r_a5acb82da0e16db53e25fdffc90595f03"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5acb82da0e16db53e25fdffc90595f03">lessInside</a><code> [get]</code></td></tr>
 <tr class="memdesc:a5acb82da0e16db53e25fdffc90595f03"><td class="mdescLeft">&#160;</td><td class="mdescRight">should be false for dense volumes, and true for distance volume  <br /></td></tr>
 <tr class="memitem:ab70a53c123978b49b73f2a024a1f6811" id="r_ab70a53c123978b49b73f2a024a1f6811"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1Vector__MRVoxelId__MRFaceId.html">Vector_MRVoxelId_MRFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab70a53c123978b49b73f2a024a1f6811">outVoxelPerFaceMap</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:ab70a53c123978b49b73f2a024a1f6811"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output map FaceId-&gt;<a class="el" href="structMR_1_1VoxelId.html" title="Generated from class MR.VoxelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">VoxelId</a>  <br /></td></tr>
+<tr class="memdesc:ab70a53c123978b49b73f2a024a1f6811"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output map FaceId-&amp;gt;<a class="el" href="structMR_1_1VoxelId.html" title="Generated from class MR.VoxelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&amp;lt;MR....">VoxelId</a>  <br /></td></tr>
 <tr class="memitem:a01f6d274d5f74943b287e9ac3621b438" id="r_a01f6d274d5f74943b287e9ac3621b438"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_MRVector3f_From_ConstMRVector3fRef_ConstMRVector3fRef_Float_Float_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01f6d274d5f74943b287e9ac3621b438">positioner</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a01f6d274d5f74943b287e9ac3621b438"><td class="mdescLeft">&#160;</td><td class="mdescRight">function to calculate position of result mesh points if the function isn't set, a linear positioner will be used note: this function is called in parallel from different threads  <br /></td></tr>
 <tr class="memitem:aa4c30046ae0305235443c5eb6c6dee6c" id="r_aa4c30046ae0305235443c5eb6c6dee6c"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4c30046ae0305235443c5eb6c6dee6c">maxVertices</a><code> [get]</code></td></tr>
 <tr class="memdesc:aa4c30046ae0305235443c5eb6c6dee6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">if the mesh exceeds this number of vertices, an error returns  <br /></td></tr>
 <tr class="memitem:a852de63ff0aa233c9cdedcadc75e534e" id="r_a852de63ff0aa233c9cdedcadc75e534e"><td class="memItemLeft" align="right" valign="top">new unsafe ref MR.MarchingCubesParams.CachingMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a852de63ff0aa233c9cdedcadc75e534e">cachingMode</a><code> [get]</code></td></tr>
@@ -581,7 +582,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>optional output map FaceId-&gt;<a class="el" href="structMR_1_1VoxelId.html" title="Generated from class MR.VoxelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">VoxelId</a> </p>
+<p>optional output map FaceId-&amp;gt;<a class="el" href="structMR_1_1VoxelId.html" title="Generated from class MR.VoxelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&amp;lt;MR....">VoxelId</a> </p>
 
 </div>
 </div>
@@ -604,6 +605,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>function to calculate position of result mesh points if the function isn't set, a linear positioner will be used note: this function is called in parallel from different threads </p>
 
 </div>

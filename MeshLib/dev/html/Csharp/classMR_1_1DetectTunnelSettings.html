@@ -175,9 +175,13 @@ Properties</h2></td></tr>
 <tr class="memitem:a98dbdacb703cc7a992cbe17953669c9e" id="r_a98dbdacb703cc7a992cbe17953669c9e"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98dbdacb703cc7a992cbe17953669c9e">maxTunnelLength</a><code> [get]</code></td></tr>
 <tr class="memdesc:a98dbdacb703cc7a992cbe17953669c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximal euclidean length of tunnel loops to detect  <br /></td></tr>
 <tr class="memitem:adc555b54ed2e8763296a62b1572e7a81" id="r_adc555b54ed2e8763296a62b1572e7a81"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc555b54ed2e8763296a62b1572e7a81">maxIters</a><code> [get]</code></td></tr>
+<tr class="memdesc:adc555b54ed2e8763296a62b1572e7a81"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while  <br /></td></tr>
 <tr class="memitem:ab75976ae55daff384a370f30b59a8499" id="r_ab75976ae55daff384a370f30b59a8499"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Float_From_MREdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab75976ae55daff384a370f30b59a8499">metric</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ab75976ae55daff384a370f30b59a8499"><td class="mdescLeft">&#160;</td><td class="mdescRight">edge metric that will be used in optimizations, if co-loops are enabled then this metric must be not-negative, if no metric is given then either discreteMinusAbsMeanCurvatureMetric (if buildCoLoops = false) or edgeLengthMetric (if buildCoLoops = true) will be used, using caching via edgeTableSymMetric function can improve the performance, especially in buildCoLoops = true mode  <br /></td></tr>
 <tr class="memitem:ab53170b70a40416d5373a5b135d2febe" id="r_ab53170b70a40416d5373a5b135d2febe"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab53170b70a40416d5373a5b135d2febe">buildCoLoops</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab53170b70a40416d5373a5b135d2febe"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then for every basis loop, findSmallestMetricCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels  <br /></td></tr>
 <tr class="memitem:a68b007c4eb80865d90ec5a5cdc284098" id="r_a68b007c4eb80865d90ec5a5cdc284098"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68b007c4eb80865d90ec5a5cdc284098">filterEquivalentCoLoops</a><code> [get]</code></td></tr>
+<tr class="memdesc:a68b007c4eb80865d90ec5a5cdc284098"><td class="mdescLeft">&#160;</td><td class="mdescRight">if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow  <br /></td></tr>
 <tr class="memitem:a89a2ae6df6229c7107ba7d3f23342ac3" id="r_a89a2ae6df6229c7107ba7d3f23342ac3"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Bool_From_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89a2ae6df6229c7107ba7d3f23342ac3">progress</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a89a2ae6df6229c7107ba7d3f23342ac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">to report algorithm progress and cancel from outside  <br /></td></tr>
 </table>
@@ -391,6 +395,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>if true then for every basis loop, findSmallestMetricCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels </p>
 
 </div>
@@ -414,6 +419,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow </p>
 
 </div>
@@ -437,6 +443,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while </p>
 
 </div>
@@ -484,6 +491,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>edge metric that will be used in optimizations, if co-loops are enabled then this metric must be not-negative, if no metric is given then either discreteMinusAbsMeanCurvatureMetric (if buildCoLoops = false) or edgeLengthMetric (if buildCoLoops = true) will be used, using caching via edgeTableSymMetric function can improve the performance, especially in buildCoLoops = true mode </p>
 
 </div>

@@ -54,7 +54,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::UnionFind</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::UnionFind</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::UnionFind</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::UnionFind</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,7 +92,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::UnionFind</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::UnionFind</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -111,7 +111,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates union-find with given number of elements, each element is the only one in its disjoint set Generated from constructor <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::UnionFind</computeroutput>. </para>
+<para>creates union-find with given number of elements, each element is the only one in its disjoint set Generated from constructor <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::UnionFind</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -130,7 +130,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -149,7 +149,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a4c4fe504d14bde892d544717afb330ba" kindref="member">reset</ref></computeroutput>. </para>
+<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a4c4fe504d14bde892d544717afb330ba" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -175,7 +175,7 @@
 <para>unite two elements, </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>first: new common root, second: true = union was done, false = first and second were already united Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a113b9ad6867f881b1309ff7adcaad1fc" kindref="member">unite</ref></computeroutput>. </para>
+<para><simplesect kind="return"><para>first: new common root, second: true = union was done, false = first and second were already united Generated from method <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a113b9ad6867f881b1309ff7adcaad1fc" kindref="member">unite</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -198,7 +198,7 @@
           <declname>second</declname>
         </param>
         <briefdescription>
-<para>returns true if given two elements are from one set Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a86e7404b5383e17d9880a9a1dae843f5" kindref="member">united</ref></computeroutput>. </para>
+<para>returns true if given two elements are from one set Generated from method <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a86e7404b5383e17d9880a9a1dae843f5" kindref="member">united</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -217,7 +217,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>finds the root of the set containing given element with optimizing data structure updates Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a6820615cc51262526e5f784e730a0f70" kindref="member">find</ref></computeroutput>. </para>
+<para>finds the root of the set containing given element with optimizing data structure updates Generated from method <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a6820615cc51262526e5f784e730a0f70" kindref="member">find</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -244,7 +244,7 @@
           <declname>end</declname>
         </param>
         <briefdescription>
-<para>finds the root of the set containing given element with optimizing data structure in the range [begin, end) Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a0eeee2fbaeaedea8faaadf6703cb52d9" kindref="member">findUpdateRange</ref></computeroutput>. </para>
+<para>finds the root of the set containing given element with optimizing data structure in the range [begin, end) Generated from method <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a0eeee2fbaeaedea8faaadf6703cb52d9" kindref="member">findUpdateRange</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -259,7 +259,7 @@
         <name>roots</name>
         <qualifiedname>MR.UnionFind_MRFaceId.roots</qualifiedname>
         <briefdescription>
-<para>sets the root of corresponding set as the parent of each element, then returns the vector Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a3d7068137d10204cdac1179dfeaf96d2" kindref="member">roots</ref></computeroutput>. </para>
+<para>sets the root of corresponding set as the parent of each element, then returns the vector Generated from method <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a3d7068137d10204cdac1179dfeaf96d2" kindref="member">roots</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -278,7 +278,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>returns the number of elements in the set containing given element Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a4c58aa667831be9341c1534e493a585e" kindref="member">sizeOfComp</ref></computeroutput>. </para>
+<para>returns the number of elements in the set containing given element Generated from method <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a4c58aa667831be9341c1534e493a585e" kindref="member">sizeOfComp</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -288,7 +288,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set&apos;s element. </para>
+<para>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element. </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -296,7 +296,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>is the identifier of a set&apos;s element, e.g. <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> Generated from class <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>is the identifier of a set's element, e.g. <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> Generated from class <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>

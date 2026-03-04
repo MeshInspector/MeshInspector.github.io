@@ -171,9 +171,11 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a03e86f0d2ec33fb064a00f94d2449de0" id="r_a03e86f0d2ec33fb064a00f94d2449de0"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Vector_MRVertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03e86f0d2ec33fb064a00f94d2449de0">neighbors</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a03e86f0d2ec33fb064a00f94d2449de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">clockwise points around center point in (optimized) triangle fan, each pair of points (as well as back()-front() pair) together with the center form a fan triangle  <br /></td></tr>
 <tr class="memitem:a68e81ce6baf35ada71a5d069b4fb964a" id="r_a68e81ce6baf35ada71a5d069b4fb964a"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Vector_StdPairDoubleInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68e81ce6baf35ada71a5d069b4fb964a">cacheAngleOrder</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a68e81ce6baf35ada71a5d069b4fb964a"><td class="mdescLeft">&#160;</td><td class="mdescRight">temporary reusable storage to avoid allocations for each point  <br /></td></tr>
 <tr class="memitem:ade0f1881fcd4c1bc6a863d8315be7605" id="r_ade0f1881fcd4c1bc6a863d8315be7605"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="structMR_1_1VertId.html">MR.VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade0f1881fcd4c1bc6a863d8315be7605">border</a><code> [get]</code></td></tr>
+<tr class="memdesc:ade0f1881fcd4c1bc6a863d8315be7605"><td class="mdescLeft">&#160;</td><td class="mdescRight">first border edge (invalid if the center point is not on the boundary) triangle associated with this point is absent  <br /></td></tr>
 <tr class="memitem:af5a2a2d498aa2cfabb2d4503c741d2af" id="r_af5a2a2d498aa2cfabb2d4503c741d2af"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1FewSmallest__MRPointsProjectionResult.html">MR.FewSmallest_MRPointsProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5a2a2d498aa2cfabb2d4503c741d2af">nearesetPoints</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:af5a2a2d498aa2cfabb2d4503c741d2af"><td class="mdescLeft">&#160;</td><td class="mdescRight">the storage to collect n-nearest neighbours, here to avoid allocations for each point  <br /></td></tr>
 </table>
@@ -336,6 +338,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>first border edge (invalid if the center point is not on the boundary) triangle associated with this point is absent </p>
 
 </div>
@@ -407,6 +410,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>clockwise points around center point in (optimized) triangle fan, each pair of points (as well as back()-front() pair) together with the center form a fan triangle </p>
 
 </div>

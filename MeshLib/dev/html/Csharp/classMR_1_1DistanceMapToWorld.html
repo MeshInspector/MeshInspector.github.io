@@ -187,8 +187,11 @@ Properties</h2></td></tr>
 <tr class="memitem:ae01bf1c69ad598b8964fc54af973e051" id="r_ae01bf1c69ad598b8964fc54af973e051"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae01bf1c69ad598b8964fc54af973e051">orgPoint</a><code> [get]</code></td></tr>
 <tr class="memdesc:ae01bf1c69ad598b8964fc54af973e051"><td class="mdescLeft">&#160;</td><td class="mdescRight">world coordinates of distance map origin corner  <br /></td></tr>
 <tr class="memitem:a6f8ee7b73a16f41db4f310ef9c50bdac" id="r_a6f8ee7b73a16f41db4f310ef9c50bdac"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f8ee7b73a16f41db4f310ef9c50bdac">pixelXVec</a><code> [get]</code></td></tr>
+<tr class="memdesc:a6f8ee7b73a16f41db4f310ef9c50bdac"><td class="mdescLeft">&#160;</td><td class="mdescRight">vector in world space of pixel x positive direction length is equal to pixel size  <br /></td></tr>
 <tr class="memitem:aa3abd2a558c2e1064c518788b02f13d5" id="r_aa3abd2a558c2e1064c518788b02f13d5"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3abd2a558c2e1064c518788b02f13d5">pixelYVec</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa3abd2a558c2e1064c518788b02f13d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">vector in world space of pixel y positive direction length is equal to pixel size  <br /></td></tr>
 <tr class="memitem:a5738206ef6e1203005535f1c21288fa2" id="r_a5738206ef6e1203005535f1c21288fa2"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5738206ef6e1203005535f1c21288fa2">direction</a><code> [get]</code></td></tr>
+<tr class="memdesc:a5738206ef6e1203005535f1c21288fa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">vector of depth direction  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This structure store data to transform distance map to world coordinates Generated from class <span class="tt"><a class="el" href="classMR_1_1DistanceMapToWorld.html" title="This structure store data to transform distance map to world coordinates Generated from class MR....">MR.DistanceMapToWorld</a></span>. This is the non-const half of the class. </p>
@@ -484,7 +487,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>vector of depth direction </p><dl class="section note"><dt>Note</dt><dd>typically it should be normalized and orthogonal to <span class="tt">pixelXVec</span> <span class="tt">pixelYVec</span> plane </dd></dl>
+
+<p>vector of depth direction </p>
+<dl class="section note"><dt>Note</dt><dd>typically it should be normalized and orthogonal to <span class="tt">pixelXVec</span> <span class="tt">pixelYVec</span> plane </dd></dl>
 
 </div>
 </div>
@@ -531,7 +536,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>vector in world space of pixel x positive direction length is equal to pixel size </p><dl class="section note"><dt>Note</dt><dd>typically it should be orthogonal to <span class="tt">pixelYVec</span> </dd></dl>
+
+<p>vector in world space of pixel x positive direction length is equal to pixel size </p>
+<dl class="section note"><dt>Note</dt><dd>typically it should be orthogonal to <span class="tt">pixelYVec</span> </dd></dl>
 
 </div>
 </div>
@@ -554,7 +561,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>vector in world space of pixel y positive direction length is equal to pixel size </p><dl class="section note"><dt>Note</dt><dd>typically it should be orthogonal to <span class="tt">pixelXVec</span> </dd></dl>
+
+<p>vector in world space of pixel y positive direction length is equal to pixel size </p>
+<dl class="section note"><dt>Note</dt><dd>typically it should be orthogonal to <span class="tt">pixelXVec</span> </dd></dl>
 
 </div>
 </div>

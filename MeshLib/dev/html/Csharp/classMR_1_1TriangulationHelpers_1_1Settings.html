@@ -171,12 +171,15 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:ad06dc459a2e13fb0b20045c18d06d019" id="r_ad06dc459a2e13fb0b20045c18d06d019"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad06dc459a2e13fb0b20045c18d06d019">radius</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad06dc459a2e13fb0b20045c18d06d019"><td class="mdescLeft">&#160;</td><td class="mdescRight">initial radius of search for neighbours, it can be increased automatically; if radius is positive then numNeis must be zero  <br /></td></tr>
 <tr class="memitem:a861338a3bc1c70dab69ad83127222cc0" id="r_a861338a3bc1c70dab69ad83127222cc0"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a861338a3bc1c70dab69ad83127222cc0">numNeis</a><code> [get]</code></td></tr>
+<tr class="memdesc:a861338a3bc1c70dab69ad83127222cc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">initially selects given number of nearest neighbours; if numNeis is positive then radius must be zero  <br /></td></tr>
 <tr class="memitem:a9c91fa93640b65ccc8f87d254f523094" id="r_a9c91fa93640b65ccc8f87d254f523094"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c91fa93640b65ccc8f87d254f523094">critAngle</a><code> [get]</code></td></tr>
 <tr class="memdesc:a9c91fa93640b65ccc8f87d254f523094"><td class="mdescLeft">&#160;</td><td class="mdescRight">max allowed angle for triangles in fan  <br /></td></tr>
 <tr class="memitem:aefd5a4ef2b60184ad54d49e43b1557a4" id="r_aefd5a4ef2b60184ad54d49e43b1557a4"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefd5a4ef2b60184ad54d49e43b1557a4">boundaryAngle</a><code> [get]</code></td></tr>
 <tr class="memdesc:aefd5a4ef2b60184ad54d49e43b1557a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vertex is considered as boundary if its neighbor ring has angle more than this value  <br /></td></tr>
 <tr class="memitem:a4a28c13edd719230af4d3fbd1c6b94a6" id="r_a4a28c13edd719230af4d3fbd1c6b94a6"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? Const_VertCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a28c13edd719230af4d3fbd1c6b94a6">orientedNormals</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a4a28c13edd719230af4d3fbd1c6b94a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">if oriented normals are known, they will be used for neighbor points selection except for the ones indicated by untrustedNormals  <br /></td></tr>
 <tr class="memitem:a905444d0026391ea3dc367108f4120ba" id="r_a905444d0026391ea3dc367108f4120ba"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? Const_VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a905444d0026391ea3dc367108f4120ba">untrustedNormals</a><code> [get, set]</code></td></tr>
 <tr class="memitem:a2d94eeb30192add30f608bb2bb7cfe0d" id="r_a2d94eeb30192add30f608bb2bb7cfe0d"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d94eeb30192add30f608bb2bb7cfe0d">automaticRadiusIncrease</a><code> [get]</code></td></tr>
 <tr class="memdesc:a2d94eeb30192add30f608bb2bb7cfe0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">automatic increase of the radius if points outside can make triangles from original radius not-Delone  <br /></td></tr>
@@ -541,6 +544,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>initially selects given number of nearest neighbours; if numNeis is positive then radius must be zero </p>
 
 </div>
@@ -564,6 +568,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>if oriented normals are known, they will be used for neighbor points selection except for the ones indicated by untrustedNormals </p>
 
 </div>
@@ -587,6 +592,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>initial radius of search for neighbours, it can be increased automatically; if radius is positive then numNeis must be zero </p>
 
 </div>

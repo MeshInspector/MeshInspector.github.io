@@ -169,9 +169,13 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a7ed0fe2ab1ac607fa7e60d4e98a5944c" id="r_a7ed0fe2ab1ac607fa7e60d4e98a5944c"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="structMR_1_1Vector2i.html">MR.Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ed0fe2ab1ac607fa7e60d4e98a5944c">dim</a><code> [get]</code></td></tr>
+<tr class="memdesc:a7ed0fe2ab1ac607fa7e60d4e98a5944c"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of cells in X and Y dimensions; the number of vertices will be at most (X+1)*(Y+1)  <br /></td></tr>
 <tr class="memitem:a7816038624f48b1f2241327f296a7def" id="r_a7816038624f48b1f2241327f296a7def"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1BMap__MRVertId__MRUint64T.html">MR.BMap_MRVertId_MRUint64T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7816038624f48b1f2241327f296a7def">vertIds</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a7816038624f48b1f2241327f296a7def"><td class="mdescLeft">&#160;</td><td class="mdescRight">grid coordinates to vertex Id; invalid vertex Id means that this vertex is missing in grid; index is x + y * ( settings.dim.x + 1 )  <br /></td></tr>
 <tr class="memitem:aaf3aca14078c7bb490f00e05368a0e7b" id="r_aaf3aca14078c7bb490f00e05368a0e7b"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1BMap__MRUndirectedEdgeId__MRUint64T.html">MR.BMap_MRUndirectedEdgeId_MRUint64T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf3aca14078c7bb490f00e05368a0e7b">uedgeIds</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:aaf3aca14078c7bb490f00e05368a0e7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">grid coordinates of lower-left vertex and edge-type to edgeId with the origin in this vertex; both vertices of valid edge must be valid as well; index is 4 * ( x + y * ( settings.dim.x + 1 ) ) + edgeType  <br /></td></tr>
 <tr class="memitem:ab9edc42ddf5c6bc26286e0f61060a90e" id="r_ab9edc42ddf5c6bc26286e0f61060a90e"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1BMap__MRFaceId__MRUint64T.html">MR.BMap_MRFaceId_MRUint64T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9edc42ddf5c6bc26286e0f61060a90e">faceIds</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ab9edc42ddf5c6bc26286e0f61060a90e"><td class="mdescLeft">&#160;</td><td class="mdescRight">grid coordinates of lower-left vertex and triangle-type to faceId; all 3 vertices and all 3 edges of valid face must be valid as well; index is 2 * ( x + y * settings.dim.x ) + triType  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>settings defining regular grid, where each quadrangular cell is split on two triangles in one of two ways Generated from class <span class="tt"><a class="el" href="classMR_1_1GridSettings.html" title="settings defining regular grid, where each quadrangular cell is split on two triangles in one of two ...">MR.GridSettings</a></span>. This is the non-const half of the class. </p>
@@ -319,6 +323,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>the number of cells in X and Y dimensions; the number of vertices will be at most (X+1)*(Y+1) </p>
 
 </div>
@@ -342,6 +347,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>grid coordinates of lower-left vertex and triangle-type to faceId; all 3 vertices and all 3 edges of valid face must be valid as well; index is 2 * ( x + y * settings.dim.x ) + triType </p>
 
 </div>
@@ -365,6 +371,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>grid coordinates of lower-left vertex and edge-type to edgeId with the origin in this vertex; both vertices of valid edge must be valid as well; index is 4 * ( x + y * ( settings.dim.x + 1 ) ) + edgeType </p>
 
 </div>
@@ -388,6 +395,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>grid coordinates to vertex Id; invalid vertex Id means that this vertex is missing in grid; index is x + y * ( settings.dim.x + 1 ) </p>
 
 </div>

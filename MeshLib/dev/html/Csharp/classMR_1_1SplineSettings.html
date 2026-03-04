@@ -171,9 +171,11 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a6fc0337aa9c76397dc44f9b33728f7b2" id="r_a6fc0337aa9c76397dc44f9b33728f7b2"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fc0337aa9c76397dc44f9b33728f7b2">samplingStep</a><code> [get]</code></td></tr>
+<tr class="memdesc:a6fc0337aa9c76397dc44f9b33728f7b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">additional points will be added between each pair of control points, until the distance between neighbor points becomes less than this distance  <br /></td></tr>
 <tr class="memitem:ac7b67b2b0ad9abf82296eac7ebc2dc01" id="r_ac7b67b2b0ad9abf82296eac7ebc2dc01"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7b67b2b0ad9abf82296eac7ebc2dc01">controlStability</a><code> [get]</code></td></tr>
 <tr class="memdesc:ac7b67b2b0ad9abf82296eac7ebc2dc01"><td class="mdescLeft">&#160;</td><td class="mdescRight">a positive value, the more the value the closer resulting spline will be to given control points  <br /></td></tr>
 <tr class="memitem:a1db69d1c397c5f5d0ea6a9657d00342b" id="r_a1db69d1c397c5f5d0ea6a9657d00342b"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1db69d1c397c5f5d0ea6a9657d00342b">iterations</a><code> [get]</code></td></tr>
+<tr class="memdesc:a1db69d1c397c5f5d0ea6a9657d00342b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the shape of resulting spline depends on the total number of points in the contour, which in turn depends on the length of input contour being sampled; setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm  <br /></td></tr>
 <tr class="memitem:acd47e5981765d598bc1df9f48ff40424" id="r_acd47e5981765d598bc1df9f48ff40424"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.? Vector_MRVector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd47e5981765d598bc1df9f48ff40424">normals</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:acd47e5981765d598bc1df9f48ff40424"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional parameter with the normals of input points that will be resampled to become normals of output points  <br /></td></tr>
 <tr class="memitem:af4ce04eeca57df7b3d750330b95de7f7" id="r_af4ce04eeca57df7b3d750330b95de7f7"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4ce04eeca57df7b3d750330b95de7f7">normalsAffectShape</a><code> [get]</code></td></tr>
@@ -381,6 +383,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>the shape of resulting spline depends on the total number of points in the contour, which in turn depends on the length of input contour being sampled; setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm </p>
 
 </div>
@@ -452,6 +455,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>additional points will be added between each pair of control points, until the distance between neighbor points becomes less than this distance </p>
 
 </div>

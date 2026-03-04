@@ -171,7 +171,9 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a5ecfd6ff957b6009e02ea2d46b094a45" id="r_a5ecfd6ff957b6009e02ea2d46b094a45"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ecfd6ff957b6009e02ea2d46b094a45">loDistLimitSq</a><code> [get]</code></td></tr>
+<tr class="memdesc:a5ecfd6ff957b6009e02ea2d46b094a45"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum squared distance from a test point to mesh to be computed precisely, if a mesh point is found within this distance then it is immediately returned without searching for a closer one  <br /></td></tr>
 <tr class="memitem:a5c2f8886f3e6786c409301351bf17593" id="r_a5c2f8886f3e6786c409301351bf17593"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c2f8886f3e6786c409301351bf17593">upDistLimitSq</a><code> [get]</code></td></tr>
+<tr class="memdesc:a5c2f8886f3e6786c409301351bf17593"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum squared distance from a test point to mesh to be computed precisely, if actual distance is larger than upDistLimit will be returned with not-trusted sign  <br /></td></tr>
 <tr class="memitem:a69f39a6ab48b321c2a7c338bcb467508" id="r_a69f39a6ab48b321c2a7c338bcb467508"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1ConstBox__AffineXf3f.html">ConstBox_AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69f39a6ab48b321c2a7c338bcb467508">refXf</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a69f39a6ab48b321c2a7c338bcb467508"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional reference mesh to world transformation  <br /></td></tr>
 <tr class="memitem:a86ad5025a7f4a66a09eb4feabb3d4e57" id="r_a86ad5025a7f4a66a09eb4feabb3d4e57"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1ConstBox__AffineXf3f.html">ConstBox_AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86ad5025a7f4a66a09eb4feabb3d4e57">xf</a><code> [get, set]</code></td></tr>
@@ -350,6 +352,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>minimum squared distance from a test point to mesh to be computed precisely, if a mesh point is found within this distance then it is immediately returned without searching for a closer one </p>
 
 </div>
@@ -397,6 +400,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>maximum squared distance from a test point to mesh to be computed precisely, if actual distance is larger than upDistLimit will be returned with not-trusted sign </p>
 
 </div>

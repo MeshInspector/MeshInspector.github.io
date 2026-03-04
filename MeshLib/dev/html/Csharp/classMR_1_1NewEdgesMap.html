@@ -173,7 +173,9 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a0ade3d587a06a3ab61ee67b30cfb2929" id="r_a0ade3d587a06a3ab61ee67b30cfb2929"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ade3d587a06a3ab61ee67b30cfb2929">splitEdges</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a0ade3d587a06a3ab61ee67b30cfb2929"><td class="mdescLeft">&#160;</td><td class="mdescRight">true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles  <br /></td></tr>
 <tr class="memitem:ab7172e3d43dfedf26185e4da95d335d6" id="r_ab7172e3d43dfedf26185e4da95d335d6"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Phmap.FlatHashMap_MRUndirectedEdgeId_Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7172e3d43dfedf26185e4da95d335d6">map</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ab7172e3d43dfedf26185e4da95d335d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Map structure to find primitives of old topology by edges introduced in cutMesh Generated from class <span class="tt"><a class="el" href="classMR_1_1NewEdgesMap.html" title="Map structure to find primitives of old topology by edges introduced in cutMesh Generated from class ...">MR.NewEdgesMap</a></span>. This is the non-const half of the class. </p>
@@ -365,6 +367,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle </p>
 
 </div>
@@ -388,6 +391,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles </p>
 
 </div>

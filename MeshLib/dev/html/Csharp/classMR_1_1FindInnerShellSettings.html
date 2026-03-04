@@ -177,7 +177,9 @@ Properties</h2></td></tr>
 <tr class="memitem:a91aa049ee710841d7404984e2a55a72d" id="r_a91aa049ee710841d7404984e2a55a72d"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91aa049ee710841d7404984e2a55a72d">useWindingNumber</a><code> [get]</code></td></tr>
 <tr class="memdesc:a91aa049ee710841d7404984e2a55a72d"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh  <br /></td></tr>
 <tr class="memitem:a07ef823825c6c4eca9db5b4d818150e3" id="r_a07ef823825c6c4eca9db5b4d818150e3"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07ef823825c6c4eca9db5b4d818150e3">windingNumberThreshold</a><code> [get]</code></td></tr>
+<tr class="memdesc:a07ef823825c6c4eca9db5b4d818150e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes  <br /></td></tr>
 <tr class="memitem:a3052b97372e1317ee5929314d62052fa" id="r_a3052b97372e1317ee5929314d62052fa"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3052b97372e1317ee5929314d62052fa">minVertsInComp</a><code> [get]</code></td></tr>
+<tr class="memdesc:a3052b97372e1317ee5929314d62052fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <span class="tt"><a class="el" href="classMR_1_1FindInnerShellSettings.html" title="Generated from class MR.FindInnerShellSettings. This is the non-const half of the class.">MR.FindInnerShellSettings</a></span>. This is the non-const half of the class. </p>
@@ -381,6 +383,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result </p>
 
 </div>
@@ -452,6 +455,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </p>
 
 </div>

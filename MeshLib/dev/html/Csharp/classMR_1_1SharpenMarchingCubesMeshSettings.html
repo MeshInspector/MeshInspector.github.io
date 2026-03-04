@@ -171,12 +171,17 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a5d77928abed2b4c0ffd870a270f4db87" id="r_a5d77928abed2b4c0ffd870a270f4db87"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d77928abed2b4c0ffd870a270f4db87">minNewVertDev</a><code> [get]</code></td></tr>
+<tr class="memdesc:a5d77928abed2b4c0ffd870a270f4db87"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 )  <br /></td></tr>
 <tr class="memitem:ad0648650b83a3ff84202b68d5ce33075" id="r_ad0648650b83a3ff84202b68d5ce33075"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0648650b83a3ff84202b68d5ce33075">maxNewRank2VertDev</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad0648650b83a3ff84202b68d5ce33075"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size )  <br /></td></tr>
 <tr class="memitem:ade80eace0be2085eb67b36177b7aac5f" id="r_ade80eace0be2085eb67b36177b7aac5f"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade80eace0be2085eb67b36177b7aac5f">maxNewRank3VertDev</a><code> [get]</code></td></tr>
+<tr class="memdesc:ade80eace0be2085eb67b36177b7aac5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size )  <br /></td></tr>
 <tr class="memitem:ad941b6f913307e14cc6a6e87508cad6b" id="r_ad941b6f913307e14cc6a6e87508cad6b"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad941b6f913307e14cc6a6e87508cad6b">offset</a><code> [get]</code></td></tr>
 <tr class="memdesc:ad941b6f913307e14cc6a6e87508cad6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">relative to reference mesh  <br /></td></tr>
 <tr class="memitem:a6651aa9240abb2ac3287f60f53800ef7" id="r_a6651aa9240abb2ac3287f60f53800ef7"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6651aa9240abb2ac3287f60f53800ef7">maxOldVertPosCorrection</a><code> [get]</code></td></tr>
+<tr class="memdesc:a6651aa9240abb2ac3287f60f53800ef7"><td class="mdescLeft">&#160;</td><td class="mdescRight">correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 )  <br /></td></tr>
 <tr class="memitem:a9566e2a0b45eaf74c2a51a44284f576a" id="r_a9566e2a0b45eaf74c2a51a44284f576a"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9566e2a0b45eaf74c2a51a44284f576a">posSelIters</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9566e2a0b45eaf74c2a51a44284f576a"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0  <br /></td></tr>
 <tr class="memitem:ab47a9a20f983abd29a761117d01f6042" id="r_ab47a9a20f983abd29a761117d01f6042"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab47a9a20f983abd29a761117d01f6042">outSharpEdges</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ab47a9a20f983abd29a761117d01f6042"><td class="mdescLeft">&#160;</td><td class="mdescRight">if non-null then created sharp edges will be saved here  <br /></td></tr>
 </table>
@@ -368,6 +373,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) </p>
 
 </div>
@@ -391,6 +397,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) </p>
 
 </div>
@@ -414,6 +421,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) </p>
 
 </div>
@@ -437,6 +445,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) </p>
 
 </div>
@@ -508,6 +517,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 </p>
 
 </div>

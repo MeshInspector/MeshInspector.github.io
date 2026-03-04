@@ -173,9 +173,11 @@ Properties</h2></td></tr>
 <tr class="memitem:ac2ee922ad3b0d1f10d91d830665a1656" id="r_ac2ee922ad3b0d1f10d91d830665a1656"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1MeshTriPoint.html">MR.MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2ee922ad3b0d1f10d91d830665a1656">meshPoint</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:ac2ee922ad3b0d1f10d91d830665a1656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Point coordinate on mesh, represent position of contours box 'pivotPoint' on mesh.  <br /></td></tr>
 <tr class="memitem:af59dceb3e5380bf41a96a39ea5bb75b0" id="r_af59dceb3e5380bf41a96a39ea5bb75b0"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="structMR_1_1Vector2f.html">MR.Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af59dceb3e5380bf41a96a39ea5bb75b0">pivotPoint</a><code> [get]</code></td></tr>
+<tr class="memdesc:af59dceb3e5380bf41a96a39ea5bb75b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Relative position of 'meshPoint' in contours bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right.  <br /></td></tr>
 <tr class="memitem:a5cf002e9b78560c6028e0f90fa44d935" id="r_a5cf002e9b78560c6028e0f90fa44d935"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cf002e9b78560c6028e0f90fa44d935">xDirection</a><code> [get]</code></td></tr>
 <tr class="memdesc:a5cf002e9b78560c6028e0f90fa44d935"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents 2d contours xDirection in mesh space.  <br /></td></tr>
 <tr class="memitem:a25e6a3882e53dda749b1f14441581f55" id="r_a25e6a3882e53dda749b1f14441581f55"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1ConstBox__Vector3f.html">ConstBox_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25e6a3882e53dda749b1f14441581f55">zDirection</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a25e6a3882e53dda749b1f14441581f55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents contours normal in mesh space if nullptr - use mesh normal at 'meshPoint'.  <br /></td></tr>
 <tr class="memitem:a24937b42a98be7d74cb2fa3fafce3148" id="r_a24937b42a98be7d74cb2fa3fafce3148"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24937b42a98be7d74cb2fa3fafce3148">extrusion</a><code> [get]</code></td></tr>
 <tr class="memdesc:a24937b42a98be7d74cb2fa3fafce3148"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contours extrusion in +z and -z direction.  <br /></td></tr>
 <tr class="memitem:a654238bf7eb0b6c9060c2cfa798fd7bc" id="r_a654238bf7eb0b6c9060c2cfa798fd7bc"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a654238bf7eb0b6c9060c2cfa798fd7bc">maximumShift</a><code> [get]</code></td></tr>
@@ -436,7 +438,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Relative position of 'meshPoint' in contours bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right </p>
+
+<p>Relative position of 'meshPoint' in contours bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right. </p>
 
 </div>
 </div>
@@ -483,7 +486,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Represents contours normal in mesh space if nullptr - use mesh normal at 'meshPoint' </p>
+
+<p>Represents contours normal in mesh space if nullptr - use mesh normal at 'meshPoint'. </p>
 
 </div>
 </div>

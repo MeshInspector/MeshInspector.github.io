@@ -105,7 +105,7 @@
 <parametername>guideWeight</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>how much resulting points must be attracted to initial points, must be &gt; 0 Generated from method <computeroutput><ref refid="classMR_1_1NormalsToPoints_1a2252a88b408173cde8706722bef1e87a" kindref="member">MR.NormalsToPoints.prepare</ref></computeroutput>. Parameter <computeroutput>guideWeight</computeroutput> defaults to <computeroutput>1</computeroutput>. </para>
+<para>how much resulting points must be attracted to initial points, must be &amp;gt; 0 Generated from method <computeroutput><ref refid="classMR_1_1NormalsToPoints_1a2252a88b408173cde8706722bef1e87a" kindref="member">MR.NormalsToPoints.prepare</ref></computeroutput>. Parameter <computeroutput>guideWeight</computeroutput> defaults to <computeroutput>1</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -209,7 +209,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>The purpose of this class is to update vertex positions given target triangle normals; see the article &quot;Static/Dynamic Filtering for Mesh Geometry&quot; Generated from class <computeroutput><ref refid="classMR_1_1NormalsToPoints" kindref="compound">MR.NormalsToPoints</ref></computeroutput>. This is the non-const half of the class. </para>
+<para>The purpose of this class is to update vertex positions given target triangle normals; see the article "Static/Dynamic Filtering for <ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref> Geometry" Generated from class <computeroutput><ref refid="classMR_1_1NormalsToPoints" kindref="compound">MR.NormalsToPoints</ref></computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

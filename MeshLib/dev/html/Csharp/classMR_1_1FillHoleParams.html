@@ -174,13 +174,20 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a238b95687d6651d2f4714aa4d7abb636" id="r_a238b95687d6651d2f4714aa4d7abb636"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1FillHoleMetric.html">MR.FillHoleMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a238b95687d6651d2f4714aa4d7abb636">metric</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a238b95687d6651d2f4714aa4d7abb636"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies triangulation metric<br  />
+default for <a class="el" href="classMR.html#a62bc429ce182f953c2f0db902be80f4d" title="Fills hole in mesh Fills given hole represented by one of its edges (having no valid left face),...">MR.fillHole</a>: getCircumscribedFillMetric<br  />
+.  <br /></td></tr>
 <tr class="memitem:aa210a2ddcc147781549d86a306b6a56b" id="r_aa210a2ddcc147781549d86a306b6a56b"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa210a2ddcc147781549d86a306b6a56b">smoothBd</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa210a2ddcc147781549d86a306b6a56b"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, hole filling will minimize the sum of metrics including boundary edges, where one triangle was present before hole filling, and another is added during hole filling. This makes boundary edges same smooth as inner edges of the patch. If false, edge metric will not be applied to boundary edges, and the patch tends to make a sharper turn there.  <br /></td></tr>
 <tr class="memitem:a1772afb629afe7982250629b28329952" id="r_a1772afb629afe7982250629b28329952"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1772afb629afe7982250629b28329952">outNewFaces</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a1772afb629afe7982250629b28329952"><td class="mdescLeft">&#160;</td><td class="mdescRight">If not nullptr accumulate new faces.  <br /></td></tr>
 <tr class="memitem:a15717d3256161f0c69e468709f5c8a2b" id="r_a15717d3256161f0c69e468709f5c8a2b"><td class="memItemLeft" align="right" valign="top">new unsafe ref MR.FillHoleParams.MultipleEdgesResolveMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15717d3256161f0c69e468709f5c8a2b">multipleEdgesResolveMode</a><code> [get]</code></td></tr>
 <tr class="memitem:a9d0f4d7c8a3642008f2b21651929fa75" id="r_a9d0f4d7c8a3642008f2b21651929fa75"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d0f4d7c8a3642008f2b21651929fa75">makeDegenerateBand</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9d0f4d7c8a3642008f2b21651929fa75"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true creates degenerate faces band around hole to have sharp angle visualization.  <br /></td></tr>
 <tr class="memitem:ac51dc8a6227d48485ba26359354505ab" id="r_ac51dc8a6227d48485ba26359354505ab"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac51dc8a6227d48485ba26359354505ab">maxPolygonSubdivisions</a><code> [get]</code></td></tr>
+<tr class="memdesc:ac51dc8a6227d48485ba26359354505ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum number of polygon subdivisions on a triangle and two smaller polygons, must be 2 or larger.  <br /></td></tr>
 <tr class="memitem:a03c8aeac4c0ec38300b0f71fbf54ba59" id="r_a03c8aeac4c0ec38300b0f71fbf54ba59"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Misc.? Box&lt; byte &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03c8aeac4c0ec38300b0f71fbf54ba59">stopBeforeBadTriangulation</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a03c8aeac4c0ec38300b0f71fbf54ba59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input/output value, if it is present: returns true if triangulation was bad and do not actually fill hole, if triangulation is ok returns false; if it is not present fill hole trivially in case of bad triangulation, (or leaves bad triangulation, depending on metric)  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parameters structure for <a class="el" href="classMR.html#a62bc429ce182f953c2f0db902be80f4d" title="Fills hole in mesh Fills given hole represented by one of its edges (having no valid left face),...">MR.fillHole</a><br  />
@@ -405,7 +412,9 @@ Structure has some options to control <a class="el" href="classMR.html#a62bc429c
   </tr>
 </table>
 </div><div class="memdoc">
-<p>If true creates degenerate faces band around hole to have sharp angle visualization </p><dl class="section warning"><dt>Warning</dt><dd>This flag bad for result topology, most likely you do not need it </dd></dl>
+
+<p>If true creates degenerate faces band around hole to have sharp angle visualization. </p>
+<dl class="section warning"><dt>Warning</dt><dd>This flag bad for result topology, most likely you do not need it </dd></dl>
 
 </div>
 </div>
@@ -428,7 +437,8 @@ Structure has some options to control <a class="el" href="classMR.html#a62bc429c
   </tr>
 </table>
 </div><div class="memdoc">
-<p>The maximum number of polygon subdivisions on a triangle and two smaller polygons, must be 2 or larger </p>
+
+<p>The maximum number of polygon subdivisions on a triangle and two smaller polygons, must be 2 or larger. </p>
 
 </div>
 </div>
@@ -451,9 +461,11 @@ Structure has some options to control <a class="el" href="classMR.html#a62bc429c
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Specifies triangulation metric<br  />
 default for <a class="el" href="classMR.html#a62bc429ce182f953c2f0db902be80f4d" title="Fills hole in mesh Fills given hole represented by one of its edges (having no valid left face),...">MR.fillHole</a>: getCircumscribedFillMetric<br  />
-</p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classMR_1_1FillHoleMetric.html">FillHoleMetric</a> </dd></dl>
+. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classMR_1_1FillHoleMetric.html">FillHoleMetric</a> </dd></dl>
 
 </div>
 </div>
@@ -522,6 +534,7 @@ default for <a class="el" href="classMR.html#a62bc429ce182f953c2f0db902be80f4d" 
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>If true, hole filling will minimize the sum of metrics including boundary edges, where one triangle was present before hole filling, and another is added during hole filling. This makes boundary edges same smooth as inner edges of the patch. If false, edge metric will not be applied to boundary edges, and the patch tends to make a sharper turn there. </p>
 
 </div>
@@ -545,6 +558,7 @@ default for <a class="el" href="classMR.html#a62bc429ce182f953c2f0db902be80f4d" 
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Input/output value, if it is present: returns true if triangulation was bad and do not actually fill hole, if triangulation is ok returns false; if it is not present fill hole trivially in case of bad triangulation, (or leaves bad triangulation, depending on metric) </p>
 
 </div>

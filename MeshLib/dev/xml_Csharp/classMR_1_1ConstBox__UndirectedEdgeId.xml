@@ -194,7 +194,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::UndirectedEdgeId::operator&amp;lt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UndirectedEdgeId::operator&amp;amp;lt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -267,7 +267,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__UndirectedEdgeId" kindref="compound">ConstBox_UndirectedEdgeId</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__UndirectedEdgeId" kindref="compound">Box_UndirectedEdgeId</ref></computeroutput> intentionally doesn&apos;t. </para>
+<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__UndirectedEdgeId" kindref="compound">ConstBox_UndirectedEdgeId</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__UndirectedEdgeId" kindref="compound">Box_UndirectedEdgeId</ref></computeroutput> intentionally doesn't. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -422,7 +422,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;</computeroutput> This is the const reference to the struct. </para>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;amp;gt;</computeroutput> This is the const reference to the struct. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

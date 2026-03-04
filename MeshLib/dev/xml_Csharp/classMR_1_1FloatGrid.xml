@@ -100,14 +100,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" line="215" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFloatGrid.cs" bodystart="215" bodyend="215"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FloatGrid_1a63ba7d46dbcf004a899dc1d2d300ecf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a6e309de1b4996f01cf1462bf91a353b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.FloatGrid.FloatGrid</definition>
-        <argsstring>(MR._ByValueShared_OpenVdbFloatGrid ptr)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MROpenVdbFloatGrid ptr)</argsstring>
         <name>FloatGrid</name>
         <qualifiedname>MR.FloatGrid.FloatGrid</qualifiedname>
         <param>
-          <type>MR._ByValueShared_OpenVdbFloatGrid</type>
+          <type>MR.Std._ByValue_SharedPtr_MROpenVdbFloatGrid</type>
           <declname>ptr</declname>
         </param>
         <briefdescription>
@@ -240,14 +240,14 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1FloatGrid_1afd515bcfb924ca061734103b0d43d6b6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FloatGrid_1a2c07f68326379451da8685382eebb1a3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.FloatGrid.operator FloatGrid</definition>
-        <argsstring>(MR._ByValueShared_OpenVdbFloatGrid ptr)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MROpenVdbFloatGrid ptr)</argsstring>
         <name>operator FloatGrid</name>
         <qualifiedname>MR.FloatGrid.operator FloatGrid</qualifiedname>
         <param>
-          <type>MR._ByValueShared_OpenVdbFloatGrid</type>
+          <type>MR.Std._ByValue_SharedPtr_MROpenVdbFloatGrid</type>
           <declname>ptr</declname>
         </param>
         <briefdescription>
@@ -316,9 +316,9 @@
       <member refid="classMR_1_1FloatGrid_1a77dfab6de00024daaba84e96ef355982" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>FloatGrid</name></member>
       <member refid="classMR_1_1FloatGrid_1a0e39a5b3430356ccc17c9a305c13d523" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>FloatGrid</name></member>
       <member refid="classMR_1_1FloatGrid_1a3b9fcac59566358e4146b23c43957b0c" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>FloatGrid</name></member>
-      <member refid="classMR_1_1FloatGrid_1a63ba7d46dbcf004a899dc1d2d300ecf1" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>FloatGrid</name></member>
+      <member refid="classMR_1_1FloatGrid_1a6e309de1b4996f01cf1462bf91a353b9" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>FloatGrid</name></member>
       <member refid="classMR_1_1FloatGrid_1ad2bbb1dd9b3c6ac190abbe0b96a04c6f" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>mulAssign</name></member>
-      <member refid="classMR_1_1FloatGrid_1afd515bcfb924ca061734103b0d43d6b6" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>operator FloatGrid</name></member>
+      <member refid="classMR_1_1FloatGrid_1a2c07f68326379451da8685382eebb1a3" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>operator FloatGrid</name></member>
       <member refid="classMR_1_1FloatGrid_1a7792860df16a379bf4400549bafa32f0" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>reset</name></member>
       <member refid="classMR_1_1FloatGrid_1ab48ead6333a12571fa0431bf2de462d9" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>subAssign</name></member>
       <member refid="classMR_1_1FloatGrid_1a257924363d792111ac7310ae12feced0" prot="public" virt="non-virtual"><scope>MR::FloatGrid</scope><name>swap</name></member>

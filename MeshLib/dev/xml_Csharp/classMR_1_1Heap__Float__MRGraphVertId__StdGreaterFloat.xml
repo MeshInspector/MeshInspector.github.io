@@ -39,7 +39,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Heap&amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;lt;float&amp;gt;&amp;gt;::Heap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Heap&amp;amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;amp;lt;float&amp;amp;gt;&amp;amp;gt;::Heap</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -58,7 +58,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Heap&amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;lt;float&amp;gt;&amp;gt;::Heap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Heap&amp;amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;amp;lt;float&amp;amp;gt;&amp;amp;gt;::Heap</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -77,7 +77,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Heap&amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;lt;float&amp;gt;&amp;gt;::Heap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Heap&amp;amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;amp;lt;float&amp;amp;gt;&amp;amp;gt;::Heap</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -106,7 +106,7 @@
           <defval>default</defval>
         </param>
         <briefdescription>
-<para>constructs heap for given number of elements, assigning given default value to each element Generated from constructor <computeroutput>MR::Heap&amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;lt;float&amp;gt;&amp;gt;::Heap</computeroutput>. Parameter <computeroutput>def</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>constructs heap for given number of elements, assigning given default value to each element Generated from constructor <computeroutput>MR::Heap&amp;amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;amp;lt;float&amp;amp;gt;&amp;amp;gt;::Heap</computeroutput>. Parameter <computeroutput>def</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -130,7 +130,7 @@
           <defval>default</defval>
         </param>
         <briefdescription>
-<para>constructs heap from given elements (id&apos;s shall not repeat and have spaces, but can be arbitrary shuffled) Generated from constructor <computeroutput>MR::Heap&amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;lt;float&amp;gt;&amp;gt;::Heap</computeroutput>. </para>
+<para>constructs heap from given elements (id's shall not repeat and have spaces, but can be arbitrary shuffled) Generated from constructor <computeroutput>MR::Heap&amp;amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;amp;lt;float&amp;amp;gt;&amp;amp;gt;::Heap</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -149,7 +149,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Heap&amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;lt;float&amp;gt;&amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Heap&amp;amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;amp;lt;float&amp;amp;gt;&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -173,7 +173,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>increases the size of the heap by adding elements at the end Generated from method <computeroutput>MR::Heap&amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;lt;float&amp;gt;&amp;gt;<ref refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ae0aad12bc2fc461ffd72e0616fc3d1c1" kindref="member">resize</ref></computeroutput>. Parameter <computeroutput>def</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>increases the size of the heap by adding elements at the end Generated from method <computeroutput>MR::Heap&amp;amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;amp;lt;float&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ae0aad12bc2fc461ffd72e0616fc3d1c1" kindref="member">resize</ref></computeroutput>. Parameter <computeroutput>def</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -196,7 +196,7 @@
           <declname>newVal</declname>
         </param>
         <briefdescription>
-<para>sets new value to given element Generated from method <computeroutput>MR::Heap&amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;lt;float&amp;gt;&amp;gt;<ref refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a2f15fddffebfcabd5d14d0365bbf70f4" kindref="member">setValue</ref></computeroutput>. </para>
+<para>sets new value to given element Generated from method <computeroutput>MR::Heap&amp;amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;amp;lt;float&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a2f15fddffebfcabd5d14d0365bbf70f4" kindref="member">setValue</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -219,7 +219,7 @@
           <declname>newVal</declname>
         </param>
         <briefdescription>
-<para>sets new value to given element, which shall be larger/smaller than the current value Generated from method <computeroutput>MR::Heap&amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;lt;float&amp;gt;&amp;gt;<ref refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a008d083ebc2a143e0de24d0270059851" kindref="member">setLargerValue</ref></computeroutput>. </para>
+<para>sets new value to given element, which shall be larger/smaller than the current value Generated from method <computeroutput>MR::Heap&amp;amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;amp;lt;float&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a008d083ebc2a143e0de24d0270059851" kindref="member">setLargerValue</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -242,7 +242,7 @@
           <declname>newVal</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Heap&amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;lt;float&amp;gt;&amp;gt;<ref refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a8fd04c9800747aca8fcfc44e649bb837" kindref="member">setSmallerValue</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Heap&amp;amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;amp;lt;float&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a8fd04c9800747aca8fcfc44e649bb837" kindref="member">setSmallerValue</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -261,7 +261,7 @@
           <declname>newVal</declname>
         </param>
         <briefdescription>
-<para>sets new value to the current top element, returning its previous value Generated from method <computeroutput>MR::Heap&amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;lt;float&amp;gt;&amp;gt;<ref refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ac7f401c8f7877773be0370c1062b0278" kindref="member">setTopValue</ref></computeroutput>. </para>
+<para>sets new value to the current top element, returning its previous value Generated from method <computeroutput>MR::Heap&amp;amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;amp;lt;float&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ac7f401c8f7877773be0370c1062b0278" kindref="member">setTopValue</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -274,7 +274,7 @@
 <para>stores map from element id in[0, size) to T; </para>
     </briefdescription>
     <detaileddescription>
-<para>provides two operations: 1) change the value of any element; 2) find the element with the largest value Generated from class <computeroutput>MR::Heap&amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;lt;float&amp;gt;&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>provides two operations: 1) change the value of any element; 2) find the element with the largest value Generated from class <computeroutput>MR::Heap&amp;amp;lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std::greater&amp;amp;lt;float&amp;amp;gt;&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">

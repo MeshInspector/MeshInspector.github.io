@@ -180,7 +180,9 @@ Properties</h2></td></tr>
 <tr class="memitem:a51800ccc18cba1b48dc2018b8bc445b4" id="r_a51800ccc18cba1b48dc2018b8bc445b4"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.? Vector_StdVectorMREdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51800ccc18cba1b48dc2018b8bc445b4">outCutEdges</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a51800ccc18cba1b48dc2018b8bc445b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional output cut edges of booleaned meshes.  <br /></td></tr>
 <tr class="memitem:ae2205ffc85fa428c127fc66756977e1d" id="r_ae2205ffc85fa428c127fc66756977e1d"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2205ffc85fa428c127fc66756977e1d">mergeAllNonIntersectingComponents</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae2205ffc85fa428c127fc66756977e1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">By default produce valid operation on disconnected components if set merge all non-intersecting components.  <br /></td></tr>
 <tr class="memitem:a225aab981cc3810283cd4a45f67ce333" id="r_a225aab981cc3810283cd4a45f67ce333"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a225aab981cc3810283cd4a45f67ce333">forceCut</a><code> [get]</code></td></tr>
+<tr class="memdesc:a225aab981cc3810283cd4a45f67ce333"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way.  <br /></td></tr>
 <tr class="memitem:ad9cbad0b57e02b14bfdc1531250d8366" id="r_ad9cbad0b57e02b14bfdc1531250d8366"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Bool_From_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9cbad0b57e02b14bfdc1531250d8366">cb</a><code> [get, protected set]</code></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -423,7 +425,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases </dd></dl>
+
+<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way. </p>
+<dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases </dd></dl>
 
 </div>
 </div>
@@ -470,7 +474,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>By default produce valid operation on disconnected components if set merge all non-intersecting components </p>
+
+<p>By default produce valid operation on disconnected components if set merge all non-intersecting components. </p>
 
 </div>
 </div>

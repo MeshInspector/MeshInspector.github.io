@@ -171,7 +171,9 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a3c824b7075345ef3df51e74aab610548" id="r_a3c824b7075345ef3df51e74aab610548"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c824b7075345ef3df51e74aab610548">pivotCurveTime</a><code> [get]</code></td></tr>
+<tr class="memdesc:a3c824b7075345ef3df51e74aab610548"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position on the curve, where bounding box's pivot point is mapped (0) - start of the curve, (1) - end of the curve.  <br /></td></tr>
 <tr class="memitem:ad158268a17977448f902d6dd7db9da15" id="r_ad158268a17977448f902d6dd7db9da15"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="structMR_1_1Vector2f.html">MR.Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad158268a17977448f902d6dd7db9da15">pivotBoxPoint</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad158268a17977448f902d6dd7db9da15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position of the curve(pivotCurveTime) in the contours' bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right.  <br /></td></tr>
 <tr class="memitem:aa4fbe8fa584d2180028d99300bc2ca16" id="r_aa4fbe8fa584d2180028d99300bc2ca16"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4fbe8fa584d2180028d99300bc2ca16">periodicCurve</a><code> [get]</code></td></tr>
 <tr class="memdesc:aa4fbe8fa584d2180028d99300bc2ca16"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, curve parameter will be always within [0,curve.totalLength) with repetition: xr := mod( x, curve.totalLength )  <br /></td></tr>
 <tr class="memitem:a7cfd499af47b95fbc8e17c1adced4bfe" id="r_a7cfd499af47b95fbc8e17c1adced4bfe"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cfd499af47b95fbc8e17c1adced4bfe">stretch</a><code> [get]</code></td></tr>
@@ -405,7 +407,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Position of the curve(pivotCurveTime) in the contours' bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right </p>
+
+<p>Position of the curve(pivotCurveTime) in the contours' bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right. </p>
 
 </div>
 </div>
@@ -428,7 +431,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Position on the curve, where bounding box's pivot point is mapped (0) - start of the curve, (1) - end of the curve </p>
+
+<p>Position on the curve, where bounding box's pivot point is mapped (0) - start of the curve, (1) - end of the curve. </p>
 
 </div>
 </div>

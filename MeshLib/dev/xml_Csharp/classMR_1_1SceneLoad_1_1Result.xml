@@ -4,9 +4,9 @@
     <compoundname>MR::SceneLoad::Result</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.SceneLoad.Const_Result</basecompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1SceneLoad_1_1Result_1a88473e41c007d0e3a954dc80ef84f88c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe <ref refid="classMR_1_1SceneRootObject" kindref="compound">MR.SceneRootObject</ref></type>
-        <definition>new unsafe MR.SceneRootObject MR.SceneLoad.Result.scene</definition>
+      <memberdef kind="property" id="classMR_1_1SceneLoad_1_1Result_1ab0fa023ff7d38892dd872057805ff02b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.SharedPtr_MRSceneRootObject</type>
+        <definition>new unsafe MR.Std.SharedPtr_MRSceneRootObject MR.SceneLoad.Result.scene</definition>
         <argsstring></argsstring>
         <name>scene</name>
         <qualifiedname>MR.SceneLoad.Result.scene</qualifiedname>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="444" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="444" bodyend="444"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="464" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="464" bodyend="464"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SceneLoad_1_1Result_1a855c297979c605f02cc8728d452bb54e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="447" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="447" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="469" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="469" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SceneLoad_1_1Result_1a9c97791eb0999c3e657a6b1720c7f2e0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_StdFilesystemPath</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="450" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="450" bodyend="450"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="474" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="474" bodyend="474"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SceneLoad_1_1Result_1a024360c5cd099114d615e6132fc38417" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.String</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="454" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="454" bodyend="454"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="480" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="480" bodyend="480"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SceneLoad_1_1Result_1a0b26cf9f0252c7681fb7b061a2906d1c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.String</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="458" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="458" bodyend="458"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="486" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="486" bodyend="486"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="498" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="498" bodyend="502"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="526" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="526" bodyend="530"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -118,16 +118,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="508" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="508" bodyend="514"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="536" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="536" bodyend="542"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneLoad_1_1Result_1a220c57bf5798175c282fe3b4680c2aca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1SceneLoad_1_1Result_1a5c38a8722f96aa00a3534df8b92f2e8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.SceneLoad.Result.Result</definition>
-        <argsstring>(MR._ByValueShared_SceneRootObject scene, bool isSceneConstructed, MR.Std._ByValue_Vector_StdFilesystemPath loadedFiles, string errorSummary, string warningSummary)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRSceneRootObject scene, bool isSceneConstructed, MR.Std._ByValue_Vector_StdFilesystemPath loadedFiles, string errorSummary, string warningSummary)</argsstring>
         <name>Result</name>
         <qualifiedname>MR.SceneLoad.Result.Result</qualifiedname>
         <param>
-          <type>MR._ByValueShared_SceneRootObject</type>
+          <type>MR.Std._ByValue_SharedPtr_MRSceneRootObject</type>
           <declname>scene</declname>
         </param>
         <param>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="519" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="519" bodyend="535"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="547" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="547" bodyend="563"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SceneLoad_1_1Result_1a195d709f0483e8cede6dbdc493278f7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="540" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="540" bodyend="547"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="568" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="568" bodyend="575"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SceneLoad_1_1Result_1a32191d5271f243e2d8d4c92dd4df9406" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="552" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="552" bodyend="552"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="580" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="580" bodyend="580"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SceneLoad_1_1Result_1a5879070fd2d8ec0c30ae5525b6e6f2d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="557" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="557" bodyend="557"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="585" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="585" bodyend="585"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SceneLoad_1_1Result_1ac440617123485880c564f995d823c3db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1SceneLoad_1_1Result" kindref="compound">MR.SceneLoad.Result</ref></type>
@@ -229,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="562" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="562" bodyend="569"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="590" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="590" bodyend="597"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -279,7 +279,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="441" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="442" bodyend="570"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="459" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="460" bodyend="598"/>
     <listofallmembers>
       <member refid="classMR_1_1SceneLoad_1_1Result_1ac440617123485880c564f995d823c3db" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>assign</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Result_1a024360c5cd099114d615e6132fc38417" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>errorSummary</name></member>
@@ -287,11 +287,11 @@
       <member refid="classMR_1_1SceneLoad_1_1Result_1a9c97791eb0999c3e657a6b1720c7f2e0" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>loadedFiles</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Result_1a675badb0f5e977a86b8ed533d72cc35c" prot="package" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>Result</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Result_1a9f769c3f29e0ff9dc6601be32927db3c" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>Result</name></member>
-      <member refid="classMR_1_1SceneLoad_1_1Result_1a220c57bf5798175c282fe3b4680c2aca" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>Result</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Result_1a5c38a8722f96aa00a3534df8b92f2e8f" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>Result</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Result_1a195d709f0483e8cede6dbdc493278f7f" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>Result</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Result_1a32191d5271f243e2d8d4c92dd4df9406" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>Result</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Result_1a5879070fd2d8ec0c30ae5525b6e6f2d5" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>Result</name></member>
-      <member refid="classMR_1_1SceneLoad_1_1Result_1a88473e41c007d0e3a954dc80ef84f88c" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>scene</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Result_1ab0fa023ff7d38892dd872057805ff02b" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>scene</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Result_1a0b26cf9f0252c7681fb7b061a2906d1c" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>warningSummary</name></member>
     </listofallmembers>
   </compounddef>

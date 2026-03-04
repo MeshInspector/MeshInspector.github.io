@@ -832,7 +832,7 @@
 <parametername>outEmap</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if given returns mappings: old.id -&gt; new.id; </para>
+<para>if given returns mappings: old.id -&amp;gt; new.id; </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -861,7 +861,7 @@
           <declname>map</declname>
         </param>
         <briefdescription>
-<para>tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1af6fdc6f07c1bde76bfed4031e833fb09" kindref="member">MR.MeshTopology.pack</ref></computeroutput>. </para>
+<para>tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&amp;gt; new id mapping Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1af6fdc6f07c1bde76bfed4031e833fb09" kindref="member">MR.MeshTopology.pack</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -880,7 +880,7 @@
           <declname>map</declname>
         </param>
         <briefdescription>
-<para>tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping; unlike <ref refid="classMR_1_1MeshTopology_1af6fdc6f07c1bde76bfed4031e833fb09" kindref="member">pack</ref> method, this method allocates minimal amount of memory for its operation but works much slower Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a2278217cc29c59228fc5af61b3a37436" kindref="member">MR.MeshTopology.packMinMem</ref></computeroutput>. </para>
+<para>tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&amp;gt; new id mapping; unlike <ref refid="classMR_1_1MeshTopology_1af6fdc6f07c1bde76bfed4031e833fb09" kindref="member">pack</ref> method, this method allocates minimal amount of memory for its operation but works much slower Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a2278217cc29c59228fc5af61b3a37436" kindref="member">MR.MeshTopology.packMinMem</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -974,7 +974,7 @@
 <parametername>from</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>edges must be tightly packes without any lone edges, and they are mapped [0, from.edges.size()) -&gt; [toEdgeId, toEdgeId + from.edges.size()); </para>
+<para>edges must be tightly packes without any lone edges, and they are mapped [0, from.edges.size()) -&amp;gt; [toEdgeId, toEdgeId + from.edges.size()); </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -983,7 +983,7 @@
 <parametername>vmap</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>mapping of vertices and faces if it is given ( from.id -&gt; this.id ) Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1acf3e6e7cbd2868023ae9b09c3e15d381" kindref="member">MR.MeshTopology.addPackedPart</ref></computeroutput>. </para>
+<para>mapping of vertices and faces if it is given ( from.id -&amp;gt; this.id ) Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1acf3e6e7cbd2868023ae9b09c3e15d381" kindref="member">MR.MeshTopology.addPackedPart</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>

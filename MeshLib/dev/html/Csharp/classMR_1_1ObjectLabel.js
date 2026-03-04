@@ -2,8 +2,8 @@ var classMR_1_1ObjectLabel =
 [
     [ "ObjectLabel", "classMR_1_1ObjectLabel.html#a5897f00376207e24607387f9cf3d8645", null ],
     [ "ObjectLabel", "classMR_1_1ObjectLabel.html#a211deed76909ce2712706922d5364db0", null ],
-    [ "addChild", "classMR_1_1ObjectLabel.html#a3fce27eed82a9641a3d4e07d7322651e", null ],
-    [ "addChildBefore", "classMR_1_1ObjectLabel.html#ace6fc16c4b52e077c63dcc0c7b0c0488", null ],
+    [ "addChild", "classMR_1_1ObjectLabel.html#a4ba720a7b906d6256ee41e9622d514dd", null ],
+    [ "addChildBefore", "classMR_1_1ObjectLabel.html#a60011bbe7215ec00ce8a9bd6316dcbdf", null ],
     [ "addTag", "classMR_1_1ObjectLabel.html#abe6c488d077d162361fa89fed9d76c1a", null ],
     [ "applyScale", "classMR_1_1ObjectLabel.html#a68c35f69a2ce722ef2741e075cdd6816", null ],
     [ "assign", "classMR_1_1ObjectLabel.html#a54ad7daebe6e226ede4e3ee0dd0da04b", null ],

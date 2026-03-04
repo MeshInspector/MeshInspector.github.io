@@ -173,7 +173,9 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a035062075a5d478d4550b55b8488db94" id="r_a035062075a5d478d4550b55b8488db94"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a035062075a5d478d4550b55b8488db94">onlyValidPoints</a><code> [get]</code></td></tr>
+<tr class="memdesc:a035062075a5d478d4550b55b8488db94"><td class="mdescLeft">&#160;</td><td class="mdescRight">true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices  <br /></td></tr>
 <tr class="memitem:aeb80d4ac925f2e4a6956484b77b526bc" id="r_aeb80d4ac925f2e4a6956484b77b526bc"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb80d4ac925f2e4a6956484b77b526bc">packPrimitives</a><code> [get]</code></td></tr>
+<tr class="memdesc:aeb80d4ac925f2e4a6956484b77b526bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only  <br /></td></tr>
 <tr class="memitem:aaa4a6f1418f0d390c8e9fa5207cc4c41" id="r_aaa4a6f1418f0d390c8e9fa5207cc4c41"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? Const_VertColors&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa4a6f1418f0d390c8e9fa5207cc4c41">colors</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:aaa4a6f1418f0d390c8e9fa5207cc4c41"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional per-vertex color to save with the geometry  <br /></td></tr>
 <tr class="memitem:a3e17691d8cd4c8ed81002b0da79672c4" id="r_a3e17691d8cd4c8ed81002b0da79672c4"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.? Const_Vector_MRColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e17691d8cd4c8ed81002b0da79672c4">primitiveColors</a><code> [get, set]</code></td></tr>
@@ -181,6 +183,7 @@ Properties</h2></td></tr>
 <tr class="memitem:a603cb9e64ff00f546275d30d0514c1c7" id="r_a603cb9e64ff00f546275d30d0514c1c7"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? Const_VertCoords2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a603cb9e64ff00f546275d30d0514c1c7">uvMap</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a603cb9e64ff00f546275d30d0514c1c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional per-vertex uv coordinate to save with the geometry  <br /></td></tr>
 <tr class="memitem:aa29226c15a161c3a56ac2778d007f8af" id="r_aa29226c15a161c3a56ac2778d007f8af"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa29226c15a161c3a56ac2778d007f8af">saveTriCornerUVCoords</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa29226c15a161c3a56ac2778d007f8af"><td class="mdescLeft">&#160;</td><td class="mdescRight">if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software)  <br /></td></tr>
 <tr class="memitem:aa6cdc0dc8aba8a853203ec4d7358bd25" id="r_aa6cdc0dc8aba8a853203ec4d7358bd25"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? Const_MeshTexture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6cdc0dc8aba8a853203ec4d7358bd25">texture</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:aa6cdc0dc8aba8a853203ec4d7358bd25"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional texture to save with the geometry  <br /></td></tr>
 <tr class="memitem:ab4a8f94855513131d90009abf7dfcc2c" id="r_ab4a8f94855513131d90009abf7dfcc2c"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4a8f94855513131d90009abf7dfcc2c">materialName</a><code> [get, protected set]</code></td></tr>
@@ -506,6 +509,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices </p>
 
 </div>
@@ -529,6 +533,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only </p>
 
 </div>
@@ -600,6 +605,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) </p>
 
 </div>

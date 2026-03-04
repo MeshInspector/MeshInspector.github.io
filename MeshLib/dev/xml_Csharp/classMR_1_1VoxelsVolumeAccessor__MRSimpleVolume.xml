@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="290" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="290" bodyend="290"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="294" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="294" bodyend="294"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -39,13 +39,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="295" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="295" bodyend="301"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="299" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="299" bodyend="305"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolume_1ae3001198c610a1c5bf3699241890d4b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -58,13 +58,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="306" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="306" bodyend="306"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="310" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="310" bodyend="310"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolume_1a457be91403f3fc7802747f7b83b8a568" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -77,17 +77,17 @@
           <declname>volume</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="311" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="311" bodyend="317"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="315" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="315" bodyend="321"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>VoxelsVolumeAccessor specialization for simple volumes Generated from class <computeroutput>MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;gt;</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;gt;</computeroutput> This is the non-const half of the class. </para>
+<para>VoxelsVolumeAccessor specialization for simple volumes Generated from class <computeroutput>MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;amp;gt;</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;amp;gt;</computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -133,7 +133,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="288" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="289" bodyend="318"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="292" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="293" bodyend="322"/>
     <listofallmembers>
       <member refid="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolume_1a3b47d6c4a2790b12406b5cdff5fd2b9a" prot="package" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolume</scope><name>VoxelsVolumeAccessor_MRSimpleVolume</name></member>
       <member refid="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolume_1ad6b7ea4402a146f94d5316d72a02c079" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolume</scope><name>VoxelsVolumeAccessor_MRSimpleVolume</name></member>

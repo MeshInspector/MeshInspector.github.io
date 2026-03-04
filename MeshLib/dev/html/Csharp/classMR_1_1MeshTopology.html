@@ -221,9 +221,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af6fdc6f07c1bde76bfed4031e833fb09" id="r_af6fdc6f07c1bde76bfed4031e833fb09"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6fdc6f07c1bde76bfed4031e833fb09">pack</a> (<a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>? outFmap=null, <a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a>? outVmap=null, <a class="el" href="classMR_1_1WholeEdgeMap.html">MR.WholeEdgeMap</a>? outEmap=null, bool? rearrangeTriangles=null)</td></tr>
 <tr class="memdesc:af6fdc6f07c1bde76bfed4031e833fb09"><td class="mdescLeft">&#160;</td><td class="mdescRight">tightly packs all arrays eliminating lone edges and invalid faces and vertices  <br /></td></tr>
 <tr class="memitem:a4f699f3cc25b460fdd41052ac17d14a8" id="r_a4f699f3cc25b460fdd41052ac17d14a8"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f699f3cc25b460fdd41052ac17d14a8">pack</a> (MR.Const_PackMapping map)</td></tr>
-<tr class="memdesc:a4f699f3cc25b460fdd41052ac17d14a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping Generated from method <span class="tt"><a class="el" href="#af6fdc6f07c1bde76bfed4031e833fb09" title="tightly packs all arrays eliminating lone edges and invalid faces and vertices">MR.MeshTopology.pack</a></span>.  <br /></td></tr>
+<tr class="memdesc:a4f699f3cc25b460fdd41052ac17d14a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&amp;gt; new id mapping Generated from method <span class="tt"><a class="el" href="#af6fdc6f07c1bde76bfed4031e833fb09" title="tightly packs all arrays eliminating lone edges and invalid faces and vertices">MR.MeshTopology.pack</a></span>.  <br /></td></tr>
 <tr class="memitem:a2278217cc29c59228fc5af61b3a37436" id="r_a2278217cc29c59228fc5af61b3a37436"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2278217cc29c59228fc5af61b3a37436">packMinMem</a> (MR.Const_PackMapping map)</td></tr>
-<tr class="memdesc:a2278217cc29c59228fc5af61b3a37436"><td class="mdescLeft">&#160;</td><td class="mdescRight">tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping; unlike <a class="el" href="#af6fdc6f07c1bde76bfed4031e833fb09">pack</a> method, this method allocates minimal amount of memory for its operation but works much slower Generated from method <span class="tt"><a class="el" href="#a2278217cc29c59228fc5af61b3a37436" title="tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces,...">MR.MeshTopology.packMinMem</a></span>.  <br /></td></tr>
+<tr class="memdesc:a2278217cc29c59228fc5af61b3a37436"><td class="mdescLeft">&#160;</td><td class="mdescRight">tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&amp;gt; new id mapping; unlike <a class="el" href="#af6fdc6f07c1bde76bfed4031e833fb09">pack</a> method, this method allocates minimal amount of memory for its operation but works much slower Generated from method <span class="tt"><a class="el" href="#a2278217cc29c59228fc5af61b3a37436" title="tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces,...">MR.MeshTopology.packMinMem</a></span>.  <br /></td></tr>
 <tr class="memitem:ab96835197fe18ee21eb0617bf12dc86c" id="r_ab96835197fe18ee21eb0617bf12dc86c"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab96835197fe18ee21eb0617bf12dc86c">read</a> (MR.Std.Istream s, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
 <tr class="memdesc:ab96835197fe18ee21eb0617bf12dc86c"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from binary stream  <br /></td></tr>
 <tr class="memitem:a3e4ac990a63ba5b7431d1c8143f008c0" id="r_a3e4ac990a63ba5b7431d1c8143f008c0"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e4ac990a63ba5b7431d1c8143f008c0">resizeBeforeParallelAdd</a> (ulong edgeSize, ulong vertSize, ulong faceSize)</td></tr>
@@ -418,8 +418,8 @@ Public Member Functions</h2></td></tr>
 <p>copies topology (from) into this; </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">from</td><td>edges must be tightly packes without any lone edges, and they are mapped [0, from.edges.size()) -&gt; [toEdgeId, toEdgeId + from.edges.size()); </td></tr>
-    <tr><td class="paramname">fmap,vmap</td><td>mapping of vertices and faces if it is given ( from.id -&gt; this.id ) Generated from method <span class="tt"><a class="el" href="#acf3e6e7cbd2868023ae9b09c3e15d381" title="copies topology (from) into this;">MR.MeshTopology.addPackedPart</a></span>. </td></tr>
+    <tr><td class="paramname">from</td><td>edges must be tightly packes without any lone edges, and they are mapped [0, from.edges.size()) -&amp;gt; [toEdgeId, toEdgeId + from.edges.size()); </td></tr>
+    <tr><td class="paramname">fmap,vmap</td><td>mapping of vertices and faces if it is given ( from.id -&amp;gt; this.id ) Generated from method <span class="tt"><a class="el" href="#acf3e6e7cbd2868023ae9b09c3e15d381" title="copies topology (from) into this;">MR.MeshTopology.addPackedPart</a></span>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1049,7 +1049,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping Generated from method <span class="tt"><a class="el" href="#af6fdc6f07c1bde76bfed4031e833fb09" title="tightly packs all arrays eliminating lone edges and invalid faces and vertices">MR.MeshTopology.pack</a></span>. </p>
+<p>tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&amp;gt; new id mapping Generated from method <span class="tt"><a class="el" href="#af6fdc6f07c1bde76bfed4031e833fb09" title="tightly packs all arrays eliminating lone edges and invalid faces and vertices">MR.MeshTopology.pack</a></span>. </p>
 
 </div>
 </div>
@@ -1093,7 +1093,7 @@ Public Member Functions</h2></td></tr>
 <p>tightly packs all arrays eliminating lone edges and invalid faces and vertices </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">outFmap,outVmap,outEmap</td><td>if given returns mappings: old.id -&gt; new.id; </td></tr>
+    <tr><td class="paramname">outFmap,outVmap,outEmap</td><td>if given returns mappings: old.id -&amp;gt; new.id; </td></tr>
     <tr><td class="paramname">rearrangeTriangles</td><td>if true then calls <a class="el" href="#a3003427f4a7585b1541d6859faf20424" title="for each triangle selects edgeWithLeft with minimal origin vertex Generated from method MR....">rotateTriangles()</a> and selects the order of triangles according to the order of their vertices Generated from method <span class="tt"><a class="el" href="#af6fdc6f07c1bde76bfed4031e833fb09" title="tightly packs all arrays eliminating lone edges and invalid faces and vertices">MR.MeshTopology.pack</a></span>. Parameter <span class="tt">rearrangeTriangles</span> defaults to <span class="tt">false</span>. </td></tr>
   </table>
   </dd>
@@ -1124,7 +1124,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping; unlike <a class="el" href="#af6fdc6f07c1bde76bfed4031e833fb09">pack</a> method, this method allocates minimal amount of memory for its operation but works much slower Generated from method <span class="tt"><a class="el" href="#a2278217cc29c59228fc5af61b3a37436" title="tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces,...">MR.MeshTopology.packMinMem</a></span>. </p>
+<p>tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&amp;gt; new id mapping; unlike <a class="el" href="#af6fdc6f07c1bde76bfed4031e833fb09">pack</a> method, this method allocates minimal amount of memory for its operation but works much slower Generated from method <span class="tt"><a class="el" href="#a2278217cc29c59228fc5af61b3a37436" title="tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces,...">MR.MeshTopology.packMinMem</a></span>. </p>
 
 </div>
 </div>

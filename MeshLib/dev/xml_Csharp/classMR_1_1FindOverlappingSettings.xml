@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="145" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="145" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="153" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="153" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FindOverlappingSettings_1a93d814c7bdfe57492d70b69bbd1d8e01" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="148" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="148" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="158" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="158" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FindOverlappingSettings_1a2b84340410951db4fad0d1f57914da4d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -40,13 +40,13 @@
         <name>minAreaFraction</name>
         <qualifiedname>MR.FindOverlappingSettings.minAreaFraction</qualifiedname>
         <briefdescription>
-<para>consider triangle as overlapping only if the area of the oppositely oriented triangle is at least given fraction of the triangle&apos;s area </para>
+<para>consider triangle as overlapping only if the area of the oppositely oriented triangle is at least given fraction of the triangle's area </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="151" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="151" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="163" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="163" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FindOverlappingSettings_1a6123a9b01aff87f055b4cdf520415327" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Bool_From_MRFaceId_MRFaceId</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="154" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="154" bodyend="154"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="168" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="168" bodyend="168"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FindOverlappingSettings_1a3d5f0e2f904e8b8f1bcc65752219ff94" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Bool_From_Float</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="157" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="157" bodyend="157"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="173" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="173" bodyend="173"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="183" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="183" bodyend="187"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="199" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="199" bodyend="203"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="193" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="193" bodyend="199"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="209" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="209" bodyend="215"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FindOverlappingSettings_1a7d3b936d6df29134589b6c79cd07e2aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="204" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="204" bodyend="212"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="220" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="220" bodyend="228"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FindOverlappingSettings_1a1c275f2be1c66defff5566910641bccd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -171,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="217" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="217" bodyend="224"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="233" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="233" bodyend="240"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FindOverlappingSettings_1a076185b3212448d6951e8f04f3d7800f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="229" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="229" bodyend="229"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="245" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="245" bodyend="245"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FindOverlappingSettings_1a76c37e6e5b96ffb1d0dabe5ae527e111" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -209,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="234" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="234" bodyend="234"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="250" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="250" bodyend="250"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FindOverlappingSettings_1aa45d8b84680522000e4c77532d5efe8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FindOverlappingSettings" kindref="compound">MR.FindOverlappingSettings</ref></type>
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="239" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="239" bodyend="246"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="255" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="255" bodyend="262"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -278,7 +278,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="142" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="143" bodyend="247"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="150" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="151" bodyend="263"/>
     <listofallmembers>
       <member refid="classMR_1_1FindOverlappingSettings_1aa45d8b84680522000e4c77532d5efe8f" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1FindOverlappingSettings_1a3d5f0e2f904e8b8f1bcc65752219ff94" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>cb</name></member>

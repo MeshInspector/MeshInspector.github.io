@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2571" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2571" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2583" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2583" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Matrix3__MRInt64T_1_1QR_1adde96eac4e54287e6fdd3ff5bb31b7aa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2573" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2573" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2585" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2585" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2577" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2577" bodyend="2581"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2589" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2589" bodyend="2593"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2587" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2587" bodyend="2593"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2599" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2599" bodyend="2605"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix3__MRInt64T_1_1QR_1ab79871b889999e3a5988e58f1afa5b33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -88,13 +88,13 @@
           <declname>r</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR::Matrix3&amp;lt;MR_int64_t&amp;gt;<ref refid="classMR_1_1Matrix3__MRInt64T_1_1QR_1a36ab39fa8687f7c306233f964db28d48" kindref="member">QR</ref></computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::Matrix3&amp;amp;lt;MR_int64_t&amp;amp;gt;<ref refid="classMR_1_1Matrix3__MRInt64T_1_1QR_1a36ab39fa8687f7c306233f964db28d48" kindref="member">QR</ref></computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2598" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2598" bodyend="2604"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2610" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2610" bodyend="2616"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix3__MRInt64T_1_1QR_1ab5bae95e1fd59f08d78f8848f1ac82dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -107,13 +107,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Matrix3&amp;lt;MR_int64_t&amp;gt;<ref refid="classMR_1_1Matrix3__MRInt64T_1_1QR_1a36ab39fa8687f7c306233f964db28d48" kindref="member">QR.QR</ref></computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix3&amp;amp;lt;MR_int64_t&amp;amp;gt;<ref refid="classMR_1_1Matrix3__MRInt64T_1_1QR_1a36ab39fa8687f7c306233f964db28d48" kindref="member">QR.QR</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2609" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2609" bodyend="2616"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2621" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2621" bodyend="2628"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix3__MRInt64T_1_1QR_1a2084ad97d9d25b097bc6bbe1cfd555dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -126,13 +126,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Matrix3&amp;lt;MR_int64_t&amp;gt;<ref refid="classMR_1_1Matrix3__MRInt64T_1_1QR_1a36ab39fa8687f7c306233f964db28d48" kindref="member">QR.QR</ref></computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix3&amp;amp;lt;MR_int64_t&amp;amp;gt;<ref refid="classMR_1_1Matrix3__MRInt64T_1_1QR_1a36ab39fa8687f7c306233f964db28d48" kindref="member">QR.QR</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2621" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2621" bodyend="2621"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2633" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2633" bodyend="2633"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Matrix3__MRInt64T_1_1QR_1a46000c5956c47e096aff6abf5dd602d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Matrix3__MRInt64T_1_1QR" kindref="compound">MR.Matrix3_MRInt64T.QR</ref></type>
@@ -145,17 +145,17 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix3&amp;lt;MR_int64_t&amp;gt;::QR::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix3&amp;amp;lt;MR_int64_t&amp;amp;gt;::QR::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2626" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2626" bodyend="2633"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2638" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2638" bodyend="2645"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::Matrix3&amp;lt;MR_int64_t&amp;gt;<ref refid="classMR_1_1Matrix3__MRInt64T_1_1QR_1a36ab39fa8687f7c306233f964db28d48" kindref="member">QR</ref></computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::Matrix3&amp;amp;lt;MR_int64_t&amp;amp;gt;<ref refid="classMR_1_1Matrix3__MRInt64T_1_1QR_1a36ab39fa8687f7c306233f964db28d48" kindref="member">QR</ref></computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -201,7 +201,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2569" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2570" bodyend="2634"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="2581" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="2582" bodyend="2646"/>
     <listofallmembers>
       <member refid="classMR_1_1Matrix3__MRInt64T_1_1QR_1a46000c5956c47e096aff6abf5dd602d3" prot="public" virt="non-virtual"><scope>MR::Matrix3_MRInt64T::QR</scope><name>assign</name></member>
       <member refid="classMR_1_1Matrix3__MRInt64T_1_1QR_1a8da6a4c8fc99ff96f56f9fb08392b0b4" prot="public" virt="non-virtual"><scope>MR::Matrix3_MRInt64T::QR</scope><name>q</name></member>

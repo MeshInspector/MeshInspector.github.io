@@ -173,8 +173,9 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a48bd9dd98342105b5d0d51738cb27e80" id="r_a48bd9dd98342105b5d0d51738cb27e80"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48bd9dd98342105b5d0d51738cb27e80">samplingVoxelSize</a><code> [get]</code></td></tr>
-<tr class="memdesc:a48bd9dd98342105b5d0d51738cb27e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">sampling size of each object, 0 has special meaning "take all valid points"  <br /></td></tr>
+<tr class="memdesc:a48bd9dd98342105b5d0d51738cb27e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">sampling size of each object, 0 has special meaning &quot;take all valid points&quot;  <br /></td></tr>
 <tr class="memitem:ad54766e983baa153a76d2e66ce965ed5" id="r_ad54766e983baa153a76d2e66ce965ed5"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad54766e983baa153a76d2e66ce965ed5">maxGroupSize</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad54766e983baa153a76d2e66ce965ed5"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of maximum icp group to work with; if the number of objects exceeds this value, icp is applied in cascade mode; maxGroupSize = 1 means that every object is moved independently on half distance to the previous position of all other objects; maxGroupSize = 0 means that a big system of equations for all objects is solved (force no cascading)  <br /></td></tr>
 <tr class="memitem:ab63c7f7a5e0e6569a14f1d5d2087cce1" id="r_ab63c7f7a5e0e6569a14f1d5d2087cce1"><td class="memItemLeft" align="right" valign="top">new unsafe ref MR.MultiwayICPSamplingParameters.CascadeMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab63c7f7a5e0e6569a14f1d5d2087cce1">cascadeMode</a><code> [get]</code></td></tr>
 <tr class="memitem:afee9493023ac9b8ef5f20c608251dfc4" id="r_afee9493023ac9b8ef5f20c608251dfc4"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Bool_From_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afee9493023ac9b8ef5f20c608251dfc4">cb</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:afee9493023ac9b8ef5f20c608251dfc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback for progress reports  <br /></td></tr>
@@ -425,6 +426,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>size of maximum icp group to work with; if the number of objects exceeds this value, icp is applied in cascade mode; maxGroupSize = 1 means that every object is moved independently on half distance to the previous position of all other objects; maxGroupSize = 0 means that a big system of equations for all objects is solved (force no cascading) </p>
 
 </div>
@@ -449,7 +451,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>sampling size of each object, 0 has special meaning "take all valid points" </p>
+<p>sampling size of each object, 0 has special meaning &quot;take all valid points&quot; </p>
 
 </div>
 </div>

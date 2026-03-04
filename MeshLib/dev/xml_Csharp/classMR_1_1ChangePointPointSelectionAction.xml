@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1384" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1384" bodyend="1389"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1076" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1076" bodyend="1083"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePointPointSelectionAction_1a711b782118478924073acdeb5c5b5ee8" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1392" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1392" bodyend="1399"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1086" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1086" bodyend="1095"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -62,29 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1401" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1401" bodyend="1401"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangePointPointSelectionAction_1a2804f905f9648386c66ee528ae5b6e80" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.ChangePointPointSelectionAction.ChangePointPointSelectionAction</definition>
-        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
-        <name>ChangePointPointSelectionAction</name>
-        <qualifiedname>MR.ChangePointPointSelectionAction.ChangePointPointSelectionAction</qualifiedname>
-        <param>
-          <type>_UnderlyingShared *</type>
-          <declname>shared_ptr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>is_owning</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1403" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1403" bodyend="1403"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1097" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1097" bodyend="1097"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -105,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1408" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1408" bodyend="1414"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1102" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1102" bodyend="1108"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePointPointSelectionAction_1a6e1eb090c89cc58c840ff36bf2d5990f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -124,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1419" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1419" bodyend="1419"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1113" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1113" bodyend="1113"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePointPointSelectionAction_1a0718ce9f5b94d452261563703efc9bf9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -143,12 +121,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1424" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1424" bodyend="1424"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1118" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1118" bodyend="1118"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangePointPointSelectionAction_1af012712edbf7e66018ef32c511a51cae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ChangePointPointSelectionAction_1ac6213cfb91c60db7500639c5c77ca344" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ChangePointPointSelectionAction.ChangePointPointSelectionAction</definition>
-        <argsstring>(string name, MR.Const_ObjectPoints objPoints)</argsstring>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectPoints objPoints)</argsstring>
         <name>ChangePointPointSelectionAction</name>
         <qualifiedname>MR.ChangePointPointSelectionAction.ChangePointPointSelectionAction</qualifiedname>
         <param>
@@ -156,17 +134,17 @@
           <declname>name</declname>
         </param>
         <param>
-          <type>MR.Const_ObjectPoints</type>
+          <type>MR.Std.Const_SharedPtr_MRObjectPoints</type>
           <declname>objPoints</declname>
         </param>
         <briefdescription>
-<para>use this constructor to remember object&apos;s vertex selection before making any changes in it Generated from constructor <computeroutput><ref refid="classMR_1_1ChangePointPointSelectionAction_1abae9fe805d3d68140d0d9ebafaf49573" kindref="member">MR.ChangePointPointSelectionAction.ChangePointPointSelectionAction</ref></computeroutput>. </para>
+<para>use this constructor to remember object's vertex selection before making any changes in it Generated from constructor <computeroutput><ref refid="classMR_1_1ChangePointPointSelectionAction_1abae9fe805d3d68140d0d9ebafaf49573" kindref="member">MR.ChangePointPointSelectionAction.ChangePointPointSelectionAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1430" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1430" bodyend="1440"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1124" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1124" bodyend="1134"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePointPointSelectionAction_1af6b4fe68af3c08fe32f3236fc14b92eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ChangePointPointSelectionAction" kindref="compound">MR.ChangePointPointSelectionAction</ref></type>
@@ -185,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1445" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1445" bodyend="1452"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1139" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1139" bodyend="1146"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePointPointSelectionAction_1a84d4c8a2f8d3878fcd88ce280badc358" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -204,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1457" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1457" bodyend="1462"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1151" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1151" bodyend="1156"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -227,7 +205,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR.Misc.SharedObject</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
         <label>System.IDisposable</label>
@@ -248,22 +226,21 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR.Misc.SharedObject</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1381" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1382" bodyend="1463"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="1073" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="1074" bodyend="1157"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangePointPointSelectionAction_1a84d4c8a2f8d3878fcd88ce280badc358" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>action</name></member>
       <member refid="classMR_1_1ChangePointPointSelectionAction_1af6b4fe68af3c08fe32f3236fc14b92eb" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangePointPointSelectionAction_1a4033b6c918044868005cea44158dbdb4" prot="package" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>ChangePointPointSelectionAction</name></member>
-      <member refid="classMR_1_1ChangePointPointSelectionAction_1a2804f905f9648386c66ee528ae5b6e80" prot="package" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>ChangePointPointSelectionAction</name></member>
       <member refid="classMR_1_1ChangePointPointSelectionAction_1abae9fe805d3d68140d0d9ebafaf49573" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>ChangePointPointSelectionAction</name></member>
       <member refid="classMR_1_1ChangePointPointSelectionAction_1a6e1eb090c89cc58c840ff36bf2d5990f" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>ChangePointPointSelectionAction</name></member>
       <member refid="classMR_1_1ChangePointPointSelectionAction_1a0718ce9f5b94d452261563703efc9bf9" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>ChangePointPointSelectionAction</name></member>
-      <member refid="classMR_1_1ChangePointPointSelectionAction_1af012712edbf7e66018ef32c511a51cae" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>ChangePointPointSelectionAction</name></member>
+      <member refid="classMR_1_1ChangePointPointSelectionAction_1ac6213cfb91c60db7500639c5c77ca344" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>ChangePointPointSelectionAction</name></member>
       <member refid="classMR_1_1ChangePointPointSelectionAction_1a711b782118478924073acdeb5c5b5ee8" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>operator ChangePointPointSelectionAction?</name></member>
       <member refid="classMR_1_1ChangePointPointSelectionAction_1a2fd167b7cb0dddf2c9b8fe2ccea8e720" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>operator MR.HistoryAction</name></member>
     </listofallmembers>

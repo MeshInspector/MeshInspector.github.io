@@ -2,8 +2,8 @@ var classMR_1_1AngleMeasurementObject =
 [
     [ "AngleMeasurementObject", "classMR_1_1AngleMeasurementObject.html#acfa9bb846d637f4e32411dc1e4302035", null ],
     [ "AngleMeasurementObject", "classMR_1_1AngleMeasurementObject.html#a8f983407082c41ce38f66c858bb6582a", null ],
-    [ "addChild", "classMR_1_1AngleMeasurementObject.html#af0bdcca841a989fb1d2f86c39710466b", null ],
-    [ "addChildBefore", "classMR_1_1AngleMeasurementObject.html#ab315d7aa01230e98a01c8a2e34a245d2", null ],
+    [ "addChild", "classMR_1_1AngleMeasurementObject.html#a79e9e3e149b41098e3322495405fbcf7", null ],
+    [ "addChildBefore", "classMR_1_1AngleMeasurementObject.html#a1d81b041b61a42258deffc0410abc69d", null ],
     [ "addTag", "classMR_1_1AngleMeasurementObject.html#af1cd93c852b3368447dcb347887c144b", null ],
     [ "applyScale", "classMR_1_1AngleMeasurementObject.html#a63999afe893007dbf06fd12fd4f55bc2", null ],
     [ "assign", "classMR_1_1AngleMeasurementObject.html#a4274fd70736f6ad8fddabc96bf5df518", null ],

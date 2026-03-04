@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="161" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="161" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="173" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="173" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1UniformSamplingSettings_1a5c1e6f8646dc6d75c051fe27fb0cea69" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -26,13 +26,13 @@
         <name>minNormalDot</name>
         <qualifiedname>MR.UniformSamplingSettings.minNormalDot</qualifiedname>
         <briefdescription>
+<para>if point cloud has normals then automatically decreases local distance to make sure that all points inside have absolute normal dot product not less than this value; this is to make sampling denser in the regions of high curvature; value &amp;lt;=0 means ignore normals; value &amp;gt;=1 means select all points (practically useless) </para>
         </briefdescription>
         <detaileddescription>
-<para>if point cloud has normals then automatically decreases local distance to make sure that all points inside have absolute normal dot product not less than this value; this is to make sampling denser in the regions of high curvature; value &lt;=0 means ignore normals; value &gt;=1 means select all points (practically useless) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="167" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="167" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="181" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="181" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1UniformSamplingSettings_1a00fbf05d8d09fc77a57c9700609f5be0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -41,13 +41,13 @@
         <name>lexicographicalOrder</name>
         <qualifiedname>MR.UniformSamplingSettings.lexicographicalOrder</qualifiedname>
         <briefdescription>
+<para>if true process the points in lexicographical order, which gives tighter and more uniform samples; if false process the points according to their ids, which is faster </para>
         </briefdescription>
         <detaileddescription>
-<para>if true process the points in lexicographical order, which gives tighter and more uniform samples; if false process the points according to their ids, which is faster </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="171" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="171" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="187" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="187" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1UniformSamplingSettings_1aa68380082bc7ff41e43932b27b7a0186" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? Const_VertCoords</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="174" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="175" bodyend="184"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="192" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="193" bodyend="202"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1UniformSamplingSettings_1a1d6d33be1f4e3d2c57b68c6798093559" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Bool_From_Float</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="187" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="187" bodyend="187"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="207" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="207" bodyend="207"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="206" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="206" bodyend="210"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="226" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="226" bodyend="230"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="216" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="216" bodyend="222"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="236" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="236" bodyend="242"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniformSamplingSettings_1a7ea098a4ad321de43a48932fa31910df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="227" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="227" bodyend="235"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="247" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="247" bodyend="255"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniformSamplingSettings_1a46e36c9d4563b436a5fc0be098341235" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="240" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="240" bodyend="247"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="260" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="260" bodyend="267"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniformSamplingSettings_1ad42a137be78f767cdf663bbf2a85554c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="252" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="252" bodyend="252"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="272" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="272" bodyend="272"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniformSamplingSettings_1aa0c0eda46a317c18cb9ab86933962358" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="257" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="257" bodyend="257"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="277" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="277" bodyend="277"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniformSamplingSettings_1a494a476a45c72142b38920f499c41edb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UniformSamplingSettings" kindref="compound">MR.UniformSamplingSettings</ref></type>
@@ -229,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="262" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="262" bodyend="269"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="282" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="282" bodyend="289"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -279,7 +279,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="158" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="159" bodyend="270"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="168" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="169" bodyend="290"/>
     <listofallmembers>
       <member refid="classMR_1_1UniformSamplingSettings_1a494a476a45c72142b38920f499c41edb" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1UniformSamplingSettings_1a82a25e7af5b92c41b0ca6eb708eb6662" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>distance</name></member>

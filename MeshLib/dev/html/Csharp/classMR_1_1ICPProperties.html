@@ -174,16 +174,21 @@ Properties</h2></td></tr>
 <tr class="memdesc:ac2c4713ca7d53632503c5da094439dfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">The method how to update transformation from point pairs, see description of each option in <a class="el" href="classMR.html#a90fcd9e2a74e2161a52251e979ed957d" title="The method how to update transformation from point pairs.">ICPMethod</a>.  <br /></td></tr>
 <tr class="memitem:a1fa0ac7e07ebbbfc075dbe3653dbde8c" id="r_a1fa0ac7e07ebbbfc075dbe3653dbde8c"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fa0ac7e07ebbbfc075dbe3653dbde8c">p2plAngleLimit</a><code> [get]</code></td></tr>
 <tr class="memitem:a34a875a78ce31db5fb191a3fc68716ef" id="r_a34a875a78ce31db5fb191a3fc68716ef"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34a875a78ce31db5fb191a3fc68716ef">p2plScaleLimit</a><code> [get]</code></td></tr>
+<tr class="memdesc:a34a875a78ce31db5fb191a3fc68716ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scaling during one iteration of <a class="el" href="classMR.html#a90fcd9e2a74e2161a52251e979ed957da621eeaff7db1283a0db27b4e7233a8ed" title="select transformation that minimizes mean squared distance between a point and a plane via the other ...">ICPMethod.PointToPlane</a> will be limited by this value. This is to reduce possible instability.  <br /></td></tr>
 <tr class="memitem:adeb24a43c5d72fa51e756a3c51969593" id="r_adeb24a43c5d72fa51e756a3c51969593"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adeb24a43c5d72fa51e756a3c51969593">cosThreshold</a><code> [get]</code></td></tr>
 <tr class="memitem:a202f310c6ccfb786ab56a0d4dc31389f" id="r_a202f310c6ccfb786ab56a0d4dc31389f"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a202f310c6ccfb786ab56a0d4dc31389f">distThresholdSq</a><code> [get]</code></td></tr>
 <tr class="memitem:a814efc2a3ee28aecd6bea2e17460be8b" id="r_a814efc2a3ee28aecd6bea2e17460be8b"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a814efc2a3ee28aecd6bea2e17460be8b">farDistFactor</a><code> [get]</code></td></tr>
 <tr class="memitem:a37553de95f81e2eb69d20b6e23339557" id="r_a37553de95f81e2eb69d20b6e23339557"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="classMR.html#a8d81aa456e2777ec7823ebb5a61662d5">MR.ICPMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37553de95f81e2eb69d20b6e23339557">icpMode</a><code> [get]</code></td></tr>
+<tr class="memdesc:a37553de95f81e2eb69d20b6e23339557"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects the group of transformations, where to find a solution (e.g. with scaling or without, with rotation or without, ...). See the description of each option in <a class="el" href="classMR.html#a8d81aa456e2777ec7823ebb5a61662d5" title="The group of transformations, each with its own degrees of freedom.">ICPMode</a>.  <br /></td></tr>
 <tr class="memitem:a80ae018573a665e36c2fbc8b3d96c73e" id="r_a80ae018573a665e36c2fbc8b3d96c73e"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80ae018573a665e36c2fbc8b3d96c73e">fixedRotationAxis</a><code> [get]</code></td></tr>
-<tr class="memdesc:a80ae018573a665e36c2fbc8b3d96c73e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional parameter for <a class="el" href="classMR.html#a8d81aa456e2777ec7823ebb5a61662d5a9dc639d68610e7c72efff69db6d60b18" title="rigid body transformation with rotation around given axis only (4 degrees of freedom)">ICPMode.OrthogonalAxis</a> and <a class="el" href="classMR.html#a8d81aa456e2777ec7823ebb5a61662d5aeaff0b601f0c9235c1d2d08500449fae" title="only translation (3 degrees of freedom)">ICPMode.FixedAxis</a> transformation groups.  <br /></td></tr>
+<tr class="memdesc:a80ae018573a665e36c2fbc8b3d96c73e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional parameter for <a class="el" href="classMR.html#a8d81aa456e2777ec7823ebb5a61662d5a9dc639d68610e7c72efff69db6d60b18" title="rigid body transformation with rotation except argument axis (5 degrees of freedom)">ICPMode.OrthogonalAxis</a> and <a class="el" href="classMR.html#a8d81aa456e2777ec7823ebb5a61662d5aeaff0b601f0c9235c1d2d08500449fae" title="rigid body transformation with rotation around given axis only (4 degrees of freedom)">ICPMode.FixedAxis</a> transformation groups.  <br /></td></tr>
 <tr class="memitem:ae726178debb57089866915bc1f93dc27" id="r_ae726178debb57089866915bc1f93dc27"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae726178debb57089866915bc1f93dc27">iterLimit</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae726178debb57089866915bc1f93dc27"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum number of iterations that the algorithm can perform. Increase this parameter if you need a higher precision or if initial approximation is not very precise.  <br /></td></tr>
 <tr class="memitem:a85f42cecfad0e7d683171add941638a7" id="r_a85f42cecfad0e7d683171add941638a7"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85f42cecfad0e7d683171add941638a7">badIterStopCount</a><code> [get]</code></td></tr>
+<tr class="memdesc:a85f42cecfad0e7d683171add941638a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The algorithm will stop before making all (iterLimit) iterations, if there were consecutive (badIterStopCount) iterations, during which the average distance between points in active pairs did not diminish.  <br /></td></tr>
 <tr class="memitem:a7f0c8a8f8082516197c8d82c6031d9b5" id="r_a7f0c8a8f8082516197c8d82c6031d9b5"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f0c8a8f8082516197c8d82c6031d9b5">exitVal</a><code> [get]</code></td></tr>
 <tr class="memitem:af63c2738a5d70b7d24bd14df5364c528" id="r_af63c2738a5d70b7d24bd14df5364c528"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af63c2738a5d70b7d24bd14df5364c528">mutualClosest</a><code> [get]</code></td></tr>
+<tr class="memdesc:af63c2738a5d70b7d24bd14df5364c528"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pair of points is activated only if both points in the pair are mutually closest (reciprocity test passed), some papers recommend this mode for filtering out wrong pairs, but it can be too aggressive and deactivate (almost) all pairs.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>parameters of <a class="el" href="classMR_1_1ICP.html" title="This class allows you to register two object with similar shape using Iterative Closest Points (ICP) ...">ICP</a> algorithm Generated from class <span class="tt"><a class="el" href="classMR_1_1ICPProperties.html" title="parameters of ICP algorithm Generated from class MR.ICPProperties. This is the non-const half of the ...">MR.ICPProperties</a></span>. This is the non-const half of the class. </p>
@@ -398,6 +403,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>The algorithm will stop before making all (iterLimit) iterations, if there were consecutive (badIterStopCount) iterations, during which the average distance between points in active pairs did not diminish. </p>
 
 </div>
@@ -510,7 +516,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Additional parameter for <a class="el" href="classMR.html#a8d81aa456e2777ec7823ebb5a61662d5a9dc639d68610e7c72efff69db6d60b18" title="rigid body transformation with rotation around given axis only (4 degrees of freedom)">ICPMode.OrthogonalAxis</a> and <a class="el" href="classMR.html#a8d81aa456e2777ec7823ebb5a61662d5aeaff0b601f0c9235c1d2d08500449fae" title="only translation (3 degrees of freedom)">ICPMode.FixedAxis</a> transformation groups. </p>
+<p>Additional parameter for <a class="el" href="classMR.html#a8d81aa456e2777ec7823ebb5a61662d5a9dc639d68610e7c72efff69db6d60b18" title="rigid body transformation with rotation except argument axis (5 degrees of freedom)">ICPMode.OrthogonalAxis</a> and <a class="el" href="classMR.html#a8d81aa456e2777ec7823ebb5a61662d5aeaff0b601f0c9235c1d2d08500449fae" title="rigid body transformation with rotation around given axis only (4 degrees of freedom)">ICPMode.FixedAxis</a> transformation groups. </p>
 
 </div>
 </div>
@@ -533,6 +539,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Selects the group of transformations, where to find a solution (e.g. with scaling or without, with rotation or without, ...). See the description of each option in <a class="el" href="classMR.html#a8d81aa456e2777ec7823ebb5a61662d5" title="The group of transformations, each with its own degrees of freedom.">ICPMode</a>. </p>
 
 </div>
@@ -556,6 +563,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>The maximum number of iterations that the algorithm can perform. Increase this parameter if you need a higher precision or if initial approximation is not very precise. </p>
 
 </div>
@@ -603,6 +611,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>A pair of points is activated only if both points in the pair are mutually closest (reciprocity test passed), some papers recommend this mode for filtering out wrong pairs, but it can be too aggressive and deactivate (almost) all pairs. </p>
 
 </div>
@@ -648,7 +657,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Scaling during one iteration of <a class="el" href="classMR.html#a90fcd9e2a74e2161a52251e979ed957da621eeaff7db1283a0db27b4e7233a8ed">ICPMethod.PointToPlane</a> will be limited by this value. This is to reduce possible instability. </p>
+
+<p>Scaling during one iteration of <a class="el" href="classMR.html#a90fcd9e2a74e2161a52251e979ed957da621eeaff7db1283a0db27b4e7233a8ed" title="select transformation that minimizes mean squared distance between a point and a plane via the other ...">ICPMethod.PointToPlane</a> will be limited by this value. This is to reduce possible instability. </p>
 
 </div>
 </div>

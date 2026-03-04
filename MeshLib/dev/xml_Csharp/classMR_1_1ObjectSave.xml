@@ -52,7 +52,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>save a scene object to a given file if the file format is scene-capable, saves all the object&apos;s entities otherwise, saves only merged entities of the corresponding type (mesh, polyline, point cloud, etc.) Generated from function <computeroutput><ref refid="classMR_1_1ObjectSave_1ac2eff38293664a74185b3ba0781db0bb" kindref="member">MR.ObjectSave.toAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>save a scene object to a given file if the file format is scene-capable, saves all the object's entities otherwise, saves only merged entities of the corresponding type (mesh, polyline, point cloud, etc.) Generated from function <computeroutput><ref refid="classMR_1_1ObjectSave_1ac2eff38293664a74185b3ba0781db0bb" kindref="member">MR.ObjectSave.toAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

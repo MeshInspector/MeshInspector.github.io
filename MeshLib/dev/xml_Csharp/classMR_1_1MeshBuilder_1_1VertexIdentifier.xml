@@ -189,7 +189,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>this class is responsible for giving a unique id to each vertex with distinct coordinates NOTE: the points are considered non-identical if they have the same values but have zero values with different signs (e.g. (0; 0; 1) and (-0; 0; 1)) use <computeroutput>Vector3::unsignZeroValues</computeroutput> method to get rid of signed zero values if you&apos;re unsure of their absence Generated from class <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1VertexIdentifier" kindref="compound">MR.MeshBuilder.VertexIdentifier</ref></computeroutput>. This is the non-const half of the class. </para>
+<para>this class is responsible for giving a unique id to each vertex with distinct coordinates NOTE: the points are considered non-identical if they have the same values but have zero values with different signs (e.g. (0; 0; 1) and (-0; 0; 1)) use <computeroutput>Vector3::unsignZeroValues</computeroutput> method to get rid of signed zero values if you're unsure of their absence Generated from class <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1VertexIdentifier" kindref="compound">MR.MeshBuilder.VertexIdentifier</ref></computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

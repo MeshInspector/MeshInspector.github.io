@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="887" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="887" bodyend="892"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="831" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="831" bodyend="838"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a0abcd829fb08ddcd2c6fae743f212d99" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="893" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="893" bodyend="898"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="839" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="839" bodyend="846"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a93f8e9c583b569c169b0c22d6f1e57b6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="899" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="899" bodyend="904"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="847" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="847" bodyend="854"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1ae129e9b1efa9f24594d3ba31681d9d70" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="907" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="907" bodyend="914"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="857" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="857" bodyend="866"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1ab4de9a48d9fec90c7e3d5dcd73935006" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="915" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="915" bodyend="922"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="867" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="867" bodyend="876"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -116,29 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="924" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="924" bodyend="924"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeasurementObject_1a7fbee4ef0d52fa8ce23e1da38e2d1eeb" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.MeasurementObject.MeasurementObject</definition>
-        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
-        <name>MeasurementObject</name>
-        <qualifiedname>MR.MeasurementObject.MeasurementObject</qualifiedname>
-        <param>
-          <type>_UnderlyingShared *</type>
-          <declname>shared_ptr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>is_owning</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="926" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="926" bodyend="926"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="878" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="878" bodyend="878"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -159,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="931" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="931" bodyend="937"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="883" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="883" bodyend="889"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a5be1f1070da8294a4e5155cdc0002d59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -178,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="942" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="942" bodyend="942"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="894" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="894" bodyend="894"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a62beb3699cc14947cb9945e0c0a4f33f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -197,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="947" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="947" bodyend="947"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="899" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="899" bodyend="899"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a5b3fc8f3b543716b621e009ed9b121c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeasurementObject" kindref="compound">MR.MeasurementObject</ref></type>
@@ -216,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="952" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="952" bodyend="959"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="904" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="904" bodyend="911"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1adbafb8b4c00e3658770dafaf2ba40195" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -243,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="965" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="965" bodyend="970"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="917" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="917" bodyend="922"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a3ee6d436688219f68010519bff8be5fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -266,7 +244,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="976" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="976" bodyend="981"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="928" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="928" bodyend="933"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1ae5ccc8ac619dee9deeb361c79460c4c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -289,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="987" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="987" bodyend="992"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="939" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="939" bodyend="944"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1ae95e3ba5e7c87257dedb70e8de219504" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -308,7 +286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="998" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="998" bodyend="1003"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="950" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="950" bodyend="955"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a268bfff8afdcb8a8862692c7533d577e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -327,7 +305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1009" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1009" bodyend="1014"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="961" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="961" bodyend="966"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1ad2d552c93f9218a542dd3a232a2b48cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -351,7 +329,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1021" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1021" bodyend="1026"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="973" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="973" bodyend="978"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1af8fa0ab66f40e3d415b691aa4d3dc462" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -379,7 +357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1033" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1033" bodyend="1041"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="985" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="985" bodyend="993"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1aacf310f90f29058832334aef95b5d293" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -403,7 +381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1048" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1048" bodyend="1054"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1000" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1000" bodyend="1006"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a424aa9f889de3ebd0677e316e464f239" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -422,7 +400,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1060" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1060" bodyend="1065"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1012" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1012" bodyend="1017"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1aa4f9cab7d94a41bd144fe4c14b803df7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -446,7 +424,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1072" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1072" bodyend="1080"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1024" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1024" bodyend="1032"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a04c028efcbeb8c51beaa2d539d05469a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -470,7 +448,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1087" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1087" bodyend="1092"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1039" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1039" bodyend="1044"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a7bffbf10c05bc0243fa54362cca13dce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -489,7 +467,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1098" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1098" bodyend="1103"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1050" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1050" bodyend="1055"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a3421979a5031fca32d03d2472427cf11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -531,7 +509,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1112" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1112" bodyend="1118"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1064" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1064" bodyend="1070"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a4f3afb26f335edd3890f6d179fd637ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -555,7 +533,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1125" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1125" bodyend="1130"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1077" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1077" bodyend="1082"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1ae28550276082fab16bd5c1b4ff37fde1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -574,7 +552,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1136" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1136" bodyend="1141"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1088" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1088" bodyend="1093"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a8833877c20b9b5344fe57269cbcf1acf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -593,7 +571,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1147" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1147" bodyend="1152"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1099" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1099" bodyend="1104"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a50395c18185e90266e651b9745d106cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -612,7 +590,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1158" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1158" bodyend="1163"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1110" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1110" bodyend="1115"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a5ed5d2849ff6d79bb53ddfb3950b80ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -631,7 +609,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1169" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1169" bodyend="1174"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1121" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1121" bodyend="1126"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a356d6f7c5f414f2eef97d1dcfbdf8985" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -650,7 +628,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1181" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1181" bodyend="1186"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1133" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1133" bodyend="1138"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1ae0d8da4e754edc0dd43dc074315267ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -665,7 +643,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1192" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1192" bodyend="1197"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1144" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1144" bodyend="1149"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a88cb595227494133236de60e637d518f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -680,7 +658,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1203" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1203" bodyend="1208"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1155" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1155" bodyend="1160"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a94fb059fabd8bb6dcf2d2f68e18374ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -699,7 +677,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1213" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1213" bodyend="1222"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1165" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1165" bodyend="1174"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a930419338c05dc28296eaaa98b31c97a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -723,7 +701,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1228" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1228" bodyend="1236"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1180" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1180" bodyend="1188"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a7d53a11e7790c6f4c46ce83f76a881cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -743,7 +721,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1243" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1243" bodyend="1248"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1195" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1195" bodyend="1200"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1adb5376d65b3beb84004555713f005dea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -762,7 +740,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1254" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1254" bodyend="1259"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1206" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1206" bodyend="1211"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a0d44b622aeb761764df6bd4f08250fd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -786,7 +764,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1265" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1265" bodyend="1273"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1217" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1217" bodyend="1225"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1abe8e80e9a16cd3f5af398258745ae7fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -805,7 +783,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1279" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1279" bodyend="1284"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1231" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1231" bodyend="1236"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a9c98f8b757b29ceffd31c24616a6af8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -829,7 +807,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1291" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1291" bodyend="1296"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1243" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1243" bodyend="1248"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a992dafb294818b338251d50cbbb319de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -848,7 +826,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1301" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1301" bodyend="1306"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1253" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1253" bodyend="1258"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1aa34514611ddc45adc3253ee3240db6a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -867,7 +845,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1311" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1311" bodyend="1316"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1263" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1263" bodyend="1268"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1ae69982c677ebe409ce1a4a6e85dfc05f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -882,16 +860,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1323" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1323" bodyend="1328"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1275" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1275" bodyend="1280"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeasurementObject_1ae97e0d92b7530ce4612f15ee8b3c71ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeasurementObject_1a1c70d187b6acc3da2853d8e8abec72a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.MeasurementObject.addChild</definition>
-        <argsstring>(MR._ByValueShared_Object child, bool? recognizedChild=null)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObject child, bool? recognizedChild=null)</argsstring>
         <name>addChild</name>
         <qualifiedname>MR.MeasurementObject.addChild</qualifiedname>
         <param>
-          <type>MR._ByValueShared_Object</type>
+          <type>MR.Std._ByValue_SharedPtr_MRObject</type>
           <declname>child</declname>
         </param>
         <param>
@@ -908,7 +886,7 @@
 <parametername>recognizedChild</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput><ref refid="classMR_1_1MeasurementObject_1ae97e0d92b7530ce4612f15ee8b3c71ce" kindref="member">MR.MeasurementObject.addChild</ref></computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput><ref refid="classMR_1_1MeasurementObject_1a1c70d187b6acc3da2853d8e8abec72a0" kindref="member">MR.MeasurementObject.addChild</ref></computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -916,30 +894,30 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1338" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1338" bodyend="1344"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1290" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1290" bodyend="1296"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeasurementObject_1a6f6f34f94b995f294803b8541b3eeb79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeasurementObject_1ab2b9d39e88dd0a5afdd7d4b8fa49f3f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.MeasurementObject.addChildBefore</definition>
-        <argsstring>(MR._ByValueShared_Object newChild, MR.Const_Object existingChild)</argsstring>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObject newChild, MR.Std.Const_SharedPtr_MRObject existingChild)</argsstring>
         <name>addChildBefore</name>
         <qualifiedname>MR.MeasurementObject.addChildBefore</qualifiedname>
         <param>
-          <type>MR._ByValueShared_Object</type>
+          <type>MR.Std._ByValue_SharedPtr_MRObject</type>
           <declname>newChild</declname>
         </param>
         <param>
-          <type>MR.Const_Object</type>
+          <type>MR.Std.Const_SharedPtr_MRObject</type>
           <declname>existingChild</declname>
         </param>
         <briefdescription>
-<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput><ref refid="classMR_1_1MeasurementObject_1a6f6f34f94b995f294803b8541b3eeb79" kindref="member">MR.MeasurementObject.addChildBefore</ref></computeroutput>. </para>
+<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput><ref refid="classMR_1_1MeasurementObject_1ab2b9d39e88dd0a5afdd7d4b8fa49f3f8" kindref="member">MR.MeasurementObject.addChildBefore</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1352" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1352" bodyend="1357"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1304" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1304" bodyend="1309"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1aff0a705f92aee08bb0bfd211df47d353" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -954,7 +932,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1363" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1363" bodyend="1368"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1315" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1315" bodyend="1320"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1ab500a62b4ac96423eeff2a1acf20951c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -969,7 +947,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1374" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1374" bodyend="1379"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1326" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1326" bodyend="1331"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a7d3aeef2a19c03de9559bed5b25c5ffd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -988,7 +966,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1385" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1385" bodyend="1390"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1337" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1337" bodyend="1342"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a257509f0c1010d132cb020d2640d8c67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1007,7 +985,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1397" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1397" bodyend="1402"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1349" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1349" bodyend="1354"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a18e476dfa29f1e698f322f4498a630cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1031,7 +1009,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1409" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1409" bodyend="1414"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1361" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1361" bodyend="1366"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1aa717be3b4a445909793ad1b487c422b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1050,7 +1028,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1420" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1420" bodyend="1425"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1372" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1372" bodyend="1377"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a05833ceec5fc21589deaf876de6e24da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1069,7 +1047,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1433" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1433" bodyend="1438"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1385" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1385" bodyend="1390"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a9fdad3d28edb73a5d26091f433776464" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1082,13 +1060,13 @@
           <declname>tag</declname>
         </param>
         <briefdescription>
-<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager::tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1MeasurementObject_1a9fdad3d28edb73a5d26091f433776464" kindref="member">MR.MeasurementObject.addTag</ref></computeroutput>. </para>
+<para>adds tag to the object's tag storage additionally calls ObjectTagManager::tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1MeasurementObject_1a9fdad3d28edb73a5d26091f433776464" kindref="member">MR.MeasurementObject.addTag</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1446" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1446" bodyend="1455"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1398" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1398" bodyend="1407"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeasurementObject_1a3de28339ca800ebf0c5db54d8a3c26b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1101,13 +1079,13 @@
           <declname>tag</declname>
         </param>
         <briefdescription>
-<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager::tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1MeasurementObject_1a3de28339ca800ebf0c5db54d8a3c26b2" kindref="member">MR.MeasurementObject.removeTag</ref></computeroutput>. </para>
+<para>removes tag from the object's tag storage additionally calls ObjectTagManager::tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1MeasurementObject_1a3de28339ca800ebf0c5db54d8a3c26b2" kindref="member">MR.MeasurementObject.removeTag</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1462" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1462" bodyend="1471"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="1414" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="1414" bodyend="1423"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1130,7 +1108,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR.Misc.SharedObject</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
         <label>System.IDisposable</label>
@@ -1151,23 +1129,22 @@
         </childnode>
       </node>
       <node id="3">
-        <label>MR.Misc.SharedObject</label>
+        <label>MR.Misc.Object</label>
       </node>
       <node id="4">
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="884" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="885" bodyend="1472"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="828" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="829" bodyend="1424"/>
     <listofallmembers>
-      <member refid="classMR_1_1MeasurementObject_1ae97e0d92b7530ce4612f15ee8b3c71ce" prot="public" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>addChild</name></member>
-      <member refid="classMR_1_1MeasurementObject_1a6f6f34f94b995f294803b8541b3eeb79" prot="public" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1MeasurementObject_1a1c70d187b6acc3da2853d8e8abec72a0" prot="public" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>addChild</name></member>
+      <member refid="classMR_1_1MeasurementObject_1ab2b9d39e88dd0a5afdd7d4b8fa49f3f8" prot="public" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>addChildBefore</name></member>
       <member refid="classMR_1_1MeasurementObject_1a9fdad3d28edb73a5d26091f433776464" prot="public" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>addTag</name></member>
       <member refid="classMR_1_1MeasurementObject_1abe8e80e9a16cd3f5af398258745ae7fa" prot="public" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>applyScale</name></member>
       <member refid="classMR_1_1MeasurementObject_1a5b3fc8f3b543716b621e009ed9b121c9" prot="public" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>assign</name></member>
       <member refid="classMR_1_1MeasurementObject_1a268bfff8afdcb8a8862692c7533d577e" prot="public" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1MeasurementObject_1ae69982c677ebe409ce1a4a6e85dfc05f" prot="public" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>detachFromParent</name></member>
       <member refid="classMR_1_1MeasurementObject_1a6384818e9d8ec75171e899507572f158" prot="package" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>MeasurementObject</name></member>
-      <member refid="classMR_1_1MeasurementObject_1a7fbee4ef0d52fa8ce23e1da38e2d1eeb" prot="package" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>MeasurementObject</name></member>
       <member refid="classMR_1_1MeasurementObject_1a4daca720f6c5b3a25a32539f8cc72e3a" prot="public" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>MeasurementObject</name></member>
       <member refid="classMR_1_1MeasurementObject_1a5be1f1070da8294a4e5155cdc0002d59" prot="public" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>MeasurementObject</name></member>
       <member refid="classMR_1_1MeasurementObject_1a62beb3699cc14947cb9945e0c0a4f33f" prot="public" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>MeasurementObject</name></member>

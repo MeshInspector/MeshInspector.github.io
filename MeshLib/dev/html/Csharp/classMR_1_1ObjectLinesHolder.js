@@ -2,8 +2,8 @@ var classMR_1_1ObjectLinesHolder =
 [
     [ "ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html#af4367445e06741ec00ddb1f018f49707", null ],
     [ "ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html#a781ff8a03817eb3a6a9ee4bdaa8b0863", null ],
-    [ "addChild", "classMR_1_1ObjectLinesHolder.html#a34cbec462268c5b5fa06a5e6a9dfdfb8", null ],
-    [ "addChildBefore", "classMR_1_1ObjectLinesHolder.html#a88164208272f1ce752cdde00977c8732", null ],
+    [ "addChild", "classMR_1_1ObjectLinesHolder.html#ab6608d4ca2d877d453960697ff80b83f", null ],
+    [ "addChildBefore", "classMR_1_1ObjectLinesHolder.html#aed0b204b1223e25e9d88ab45378eb20c", null ],
     [ "addTag", "classMR_1_1ObjectLinesHolder.html#a95796a688a3cecb939a7e472e449c182", null ],
     [ "applyScale", "classMR_1_1ObjectLinesHolder.html#acafd009ea598f84d8c3707d061e17856", null ],
     [ "assign", "classMR_1_1ObjectLinesHolder.html#ada3b4d2e2d5930cefd12eaeb18d4a183", null ],

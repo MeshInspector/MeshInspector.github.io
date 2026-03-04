@@ -170,7 +170,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::ViewportId::operator&amp;lt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ViewportId::operator&amp;amp;lt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -273,7 +273,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__ViewportId" kindref="compound">ConstBox_ViewportId</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__ViewportId" kindref="compound">Box_ViewportId</ref></computeroutput> intentionally doesn&apos;t. </para>
+<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__ViewportId" kindref="compound">ConstBox_ViewportId</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__ViewportId" kindref="compound">Box_ViewportId</ref></computeroutput> intentionally doesn't. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

@@ -11,14 +11,13 @@
         <name>start</name>
         <qualifiedname>MR.VoxelMetricParameters.start</qualifiedname>
         <briefdescription>
-<para>&lt; start voxel index </para>
+<para>start voxel index </para>
         </briefdescription>
         <detaileddescription>
-<para>stop voxel index </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="164" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="164" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="184" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="184" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1VoxelMetricParameters_1a013f27dd734136065c748ce751630b90" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref ulong</type>
@@ -27,13 +26,13 @@
         <name>stop</name>
         <qualifiedname>MR.VoxelMetricParameters.stop</qualifiedname>
         <briefdescription>
-<para>max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed </para>
+<para>stop voxel index </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="167" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="167" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="189" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="189" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1VoxelMetricParameters_1aaf7981485a2688b63b0e34b345637060" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -42,13 +41,13 @@
         <name>maxDistRatio</name>
         <qualifiedname>MR.VoxelMetricParameters.maxDistRatio</qualifiedname>
         <briefdescription>
-<para>if not None - builds path in one slice of voxels (make sure start and stop has same main axis coordinate) </para>
+<para>max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &amp;gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="170" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="170" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="194" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="194" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1VoxelMetricParameters_1a9cae0d5c1d0dc11ee35e8c152b8987dd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1a2f6d997fab8518c579b67d420b8dea94" kindref="member">MR.SlicePlane</ref></type>
@@ -57,13 +56,13 @@
         <name>plane</name>
         <qualifiedname>MR.VoxelMetricParameters.plane</qualifiedname>
         <briefdescription>
-<para>quarter of building path, if plane is selected, it should be (LeftLeft | LeftRigth) or (RigthLeft | RightRight) or All </para>
+<para>if not None - builds path in one slice of voxels (make sure start and stop has same main axis coordinate) </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="173" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="173" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="199" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="199" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1VoxelMetricParameters_1a4291965aee52e1768148f13542bafc88" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1ab7b877f1fa2b50085aa247d41bbfed19" kindref="member">MR.QuarterBit</ref></type>
@@ -72,12 +71,13 @@
         <name>quatersMask</name>
         <qualifiedname>MR.VoxelMetricParameters.quatersMask</qualifiedname>
         <briefdescription>
+<para>quarter of building path, if plane is selected, it should be (LeftLeft | LeftRigth) or (RigthLeft | RightRight) or All </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="176" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="176" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="204" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="204" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="180" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="180" bodyend="184"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="208" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="208" bodyend="212"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="190" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="190" bodyend="196"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="218" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="218" bodyend="224"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelMetricParameters_1aac91cbbd4d6d7c537c601774cd456d41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="201" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="201" bodyend="207"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="229" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="229" bodyend="235"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelMetricParameters_1ac5d6f12e9fef00f04b63dd55daab1187" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="212" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="212" bodyend="219"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="240" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="240" bodyend="247"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelMetricParameters_1a48e010382668ad8037696c2c5869864d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="224" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="224" bodyend="224"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="252" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="252" bodyend="252"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelMetricParameters_1a240cdee4d23eea612d6c1b00907afcd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VoxelMetricParameters" kindref="compound">MR.VoxelMetricParameters</ref></type>
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="229" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="229" bodyend="236"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="257" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="257" bodyend="264"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -260,7 +260,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="161" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="162" bodyend="237"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="179" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="180" bodyend="265"/>
     <listofallmembers>
       <member refid="classMR_1_1VoxelMetricParameters_1a240cdee4d23eea612d6c1b00907afcd4" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1VoxelMetricParameters_1aaf7981485a2688b63b0e34b345637060" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>maxDistRatio</name></member>

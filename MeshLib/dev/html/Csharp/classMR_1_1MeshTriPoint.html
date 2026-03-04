@@ -185,8 +185,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a19c95799b626586eaf51e597210086ab" id="r_a19c95799b626586eaf51e597210086ab"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19c95799b626586eaf51e597210086ab">e</a><code> [get]</code></td></tr>
-<tr class="memdesc:a19c95799b626586eaf51e597210086ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; left face of this edge is considered  <br /></td></tr>
+<tr class="memdesc:a19c95799b626586eaf51e597210086ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">left face of this edge is considered  <br /></td></tr>
 <tr class="memitem:a2619c838f16c04709d2c6fc8f036dedf" id="r_a2619c838f16c04709d2c6fc8f036dedf"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1TriPointf.html">MR.TriPointf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2619c838f16c04709d2c6fc8f036dedf">bary</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a2619c838f16c04709d2c6fc8f036dedf"><td class="mdescLeft">&#160;</td><td class="mdescRight">barycentric coordinates  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>encodes a point inside a triangular mesh face using barycentric coordinates </p>
@@ -494,8 +495,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>barycentric coordinates</p>
-<p>a in [0,1], a=0 =&gt; point is on next( e ) edge, a=1 =&gt; point is in dest( e ) b in [0,1], b=0 =&gt; point is on e edge, b=1 =&gt; point is in dest( next( e ) ) a+b in [0,1], a+b=0 =&gt; point is in org( e ), a+b=1 =&gt; point is on prev( e.sym() ) edge </p>
+
+<p>barycentric coordinates </p>
+<p>a in [0,1], a=0 =&amp;gt; point is on next( e ) edge, a=1 =&amp;gt; point is in dest( e ) b in [0,1], b=0 =&amp;gt; point is on e edge, b=1 =&amp;gt; point is in dest( next( e ) ) a+b in [0,1], a+b=0 =&amp;gt; point is in org( e ), a+b=1 =&amp;gt; point is on prev( e.sym() ) edge </p>
 
 </div>
 </div>
@@ -519,7 +521,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>&lt; left face of this edge is considered </p>
+<p>left face of this edge is considered </p>
 
 </div>
 </div>

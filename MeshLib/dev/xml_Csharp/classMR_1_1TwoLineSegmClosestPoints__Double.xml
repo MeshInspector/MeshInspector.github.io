@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="342" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="342" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="356" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="356" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TwoLineSegmClosestPoints__Double_1ac05dffa16c04a7683497276496e5c223" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="345" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="345" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="361" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="361" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TwoLineSegmClosestPoints__Double_1a76e4a6599941c162133d1960558a5eca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="350" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="350" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="366" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="366" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="354" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="354" bodyend="358"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="370" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="370" bodyend="374"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="364" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="364" bodyend="370"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="380" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="380" bodyend="386"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TwoLineSegmClosestPoints__Double_1a5094deef402e32037fa85c34de4bf3e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -108,13 +108,13 @@
           <declname>dir</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR::TwoLineSegmClosestPoints&amp;lt;double&amp;gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::TwoLineSegmClosestPoints&amp;amp;lt;double&amp;amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="375" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="375" bodyend="381"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="391" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="391" bodyend="397"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TwoLineSegmClosestPoints__Double_1aa06a05859852a3978516bc6bcb6fe5d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -127,13 +127,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::TwoLineSegmClosestPoints&amp;lt;double&amp;gt;::TwoLineSegmClosestPoints</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TwoLineSegmClosestPoints&amp;amp;lt;double&amp;amp;gt;::TwoLineSegmClosestPoints</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="386" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="386" bodyend="393"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="402" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="402" bodyend="409"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TwoLineSegmClosestPoints__Double_1ac1cf2aa3b5319fb9476310a394c3a4db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -146,13 +146,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::TwoLineSegmClosestPoints&amp;lt;double&amp;gt;::TwoLineSegmClosestPoints</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TwoLineSegmClosestPoints&amp;amp;lt;double&amp;amp;gt;::TwoLineSegmClosestPoints</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="398" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="398" bodyend="398"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="414" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="414" bodyend="414"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TwoLineSegmClosestPoints__Double_1a91f214652184bac1abbcaf941974609e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1TwoLineSegmClosestPoints__Double" kindref="compound">MR.TwoLineSegmClosestPoints_Double</ref></type>
@@ -165,17 +165,17 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TwoLineSegmClosestPoints&amp;lt;double&amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TwoLineSegmClosestPoints&amp;amp;lt;double&amp;amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="403" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="403" bodyend="410"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="419" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="419" bodyend="426"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::TwoLineSegmClosestPoints&amp;lt;double&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::TwoLineSegmClosestPoints&amp;amp;lt;double&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -221,7 +221,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="339" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="340" bodyend="411"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="351" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="352" bodyend="427"/>
     <listofallmembers>
       <member refid="classMR_1_1TwoLineSegmClosestPoints__Double_1a6bda8d70bf05aa7965dc750481915f8a" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Double</scope><name>a</name></member>
       <member refid="classMR_1_1TwoLineSegmClosestPoints__Double_1a91f214652184bac1abbcaf941974609e" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Double</scope><name>assign</name></member>

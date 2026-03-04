@@ -11,16 +11,17 @@
         <name>metric</name>
         <qualifiedname>MR.StitchHolesParams.metric</qualifiedname>
         <briefdescription>
+<para>Specifies triangulation metric<linebreak/>
+default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="member">MR.stitchHoles</ref>: getComplexStitchMetric. </para>
         </briefdescription>
         <detaileddescription>
-<para>Specifies triangulation metric<linebreak/>
-default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="member">MR.stitchHoles</ref>: getComplexStitchMetric <simplesect kind="see"><para><ref refid="classMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref> </para>
+<para><simplesect kind="see"><para><ref refid="classMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref> </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="564" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="564" bodyend="564"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="582" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="582" bodyend="582"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1StitchHolesParams_1af1b91d94e597fe8ee14c178e094e718c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -35,7 +36,7 @@ default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="mem
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="567" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="568" bodyend="577"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="587" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="588" bodyend="597"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -59,7 +60,7 @@ default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="mem
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="596" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="596" bodyend="600"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="616" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="616" bodyend="620"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -76,7 +77,7 @@ default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="mem
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="606" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="606" bodyend="612"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="626" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="626" bodyend="632"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1StitchHolesParams_1ab0de2c800261b87f7ea4435f0fe117c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -99,7 +100,7 @@ default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="mem
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="617" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="617" bodyend="625"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="637" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="637" bodyend="645"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1StitchHolesParams_1a864057f59341c6c201d82b91b4d9c482" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -118,7 +119,7 @@ default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="mem
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="630" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="630" bodyend="637"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="650" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="650" bodyend="657"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1StitchHolesParams_1ad228199df1b8233da99a3f3b9318e5ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -137,7 +138,7 @@ default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="mem
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="642" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="642" bodyend="642"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="662" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="662" bodyend="662"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1StitchHolesParams_1a960ec243807f948040f26d5a634e5dc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -156,7 +157,7 @@ default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="mem
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="647" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="647" bodyend="647"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="667" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="667" bodyend="667"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1StitchHolesParams_1af856cd6e44234f201f8737a7090fc796" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1StitchHolesParams" kindref="compound">MR.StitchHolesParams</ref></type>
@@ -175,7 +176,7 @@ default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="mem
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="652" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="652" bodyend="659"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="672" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="672" bodyend="679"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -235,7 +236,7 @@ Structure has some options to control <ref refid="classMR_1a4d6b7ee98d4541f1ce78
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="558" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="559" bodyend="660"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="575" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="576" bodyend="680"/>
     <listofallmembers>
       <member refid="classMR_1_1StitchHolesParams_1af856cd6e44234f201f8737a7090fc796" prot="public" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>assign</name></member>
       <member refid="classMR_1_1StitchHolesParams_1a97509e6b095df58502fc3e0c700cc625" prot="public" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>metric</name></member>

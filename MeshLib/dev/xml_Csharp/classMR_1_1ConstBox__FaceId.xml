@@ -212,7 +212,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::FaceId::operator&amp;lt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FaceId::operator&amp;amp;lt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -285,7 +285,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__FaceId" kindref="compound">ConstBox_FaceId</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__FaceId" kindref="compound">Box_FaceId</ref></computeroutput> intentionally doesn&apos;t. </para>
+<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__FaceId" kindref="compound">ConstBox_FaceId</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__FaceId" kindref="compound">Box_FaceId</ref></computeroutput> intentionally doesn't. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -440,7 +440,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;</computeroutput> This is the const reference to the struct. </para>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;</computeroutput> This is the const reference to the struct. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

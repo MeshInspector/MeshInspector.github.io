@@ -175,6 +175,7 @@ Properties</h2></td></tr>
 <tr class="memitem:a802975ae8408f88d0732cf26e73c144f" id="r_a802975ae8408f88d0732cf26e73c144f"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a802975ae8408f88d0732cf26e73c144f">maxEdgeLen</a><code> [get]</code></td></tr>
 <tr class="memdesc:a802975ae8408f88d0732cf26e73c144f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value.  <br /></td></tr>
 <tr class="memitem:a8d99f49dc37c6498272faa11636cf423" id="r_a8d99f49dc37c6498272faa11636cf423"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d99f49dc37c6498272faa11636cf423">curvaturePriority</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8d99f49dc37c6498272faa11636cf423"><td class="mdescLeft">&#160;</td><td class="mdescRight">edge length will be magnified by the squared difference of normals at edge's ends times this factor, thus subdivision will be finer in the regions of high curvature compared to planar regions  <br /></td></tr>
 <tr class="memitem:a8c9bdb32da4b1d224055d8ff62842e32" id="r_a8c9bdb32da4b1d224055d8ff62842e32"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c9bdb32da4b1d224055d8ff62842e32">maxEdgeSplits</a><code> [get]</code></td></tr>
 <tr class="memdesc:a8c9bdb32da4b1d224055d8ff62842e32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of edge splits allowed.  <br /></td></tr>
 <tr class="memitem:a52c5c6b56c332b0fe279fcdb4b2bfeb8" id="r_a52c5c6b56c332b0fe279fcdb4b2bfeb8"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52c5c6b56c332b0fe279fcdb4b2bfeb8">maxDeviationAfterFlip</a><code> [get]</code></td></tr>
@@ -182,18 +183,24 @@ Properties</h2></td></tr>
 <tr class="memitem:a578ede60bcf4fe7f86f15abbb22ae89d" id="r_a578ede60bcf4fe7f86f15abbb22ae89d"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a578ede60bcf4fe7f86f15abbb22ae89d">maxAngleChangeAfterFlip</a><code> [get]</code></td></tr>
 <tr class="memdesc:a578ede60bcf4fe7f86f15abbb22ae89d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians)  <br /></td></tr>
 <tr class="memitem:a092d79fdac95176ce7e847dbddcad5d6" id="r_a092d79fdac95176ce7e847dbddcad5d6"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a092d79fdac95176ce7e847dbddcad5d6">criticalAspectRatioFlip</a><code> [get]</code></td></tr>
+<tr class="memdesc:a092d79fdac95176ce7e847dbddcad5d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this value is less than FLT_MAX then edge flips will ignore dihedral angle check if one of triangles has aspect ratio more than this value Unit: rad.  <br /></td></tr>
 <tr class="memitem:a7679fba5e7715c7052d5c7a097898dc3" id="r_a7679fba5e7715c7052d5c7a097898dc3"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7679fba5e7715c7052d5c7a097898dc3">region</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a7679fba5e7715c7052d5c7a097898dc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be subdivided, it is updated during the operation.  <br /></td></tr>
 <tr class="memitem:aef7b0f16597505fa1847a9a38cb3164c" id="r_aef7b0f16597505fa1847a9a38cb3164c"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef7b0f16597505fa1847a9a38cb3164c">maintainRegion</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aef7b0f16597505fa1847a9a38cb3164c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional region to update during subdivision: if a face from here is split, it is replaced with new sub-faces; note that Subdivide can split faces even outside of main <code class="param">region</code>, so it might be necessary to update another region.  <br /></td></tr>
 <tr class="memitem:a0495785f822f1b829565b004006de39c" id="r_a0495785f822f1b829565b004006de39c"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0495785f822f1b829565b004006de39c">notFlippable</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a0495785f822f1b829565b004006de39c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR_1_1Edges.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type,">Edges</a> specified by this bit-set will never be flipped, but they can be split so it is updated during the operation.  <br /></td></tr>
 <tr class="memitem:a108c3d36d349b49603585bfe72c890a3" id="r_a108c3d36d349b49603585bfe72c890a3"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a108c3d36d349b49603585bfe72c890a3">newVerts</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a108c3d36d349b49603585bfe72c890a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">New vertices appeared during subdivision will be added here.  <br /></td></tr>
 <tr class="memitem:aad4ac8496e56009514d91ed76ed5f65a" id="r_aad4ac8496e56009514d91ed76ed5f65a"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad4ac8496e56009514d91ed76ed5f65a">subdivideBorder</a><code> [get]</code></td></tr>
+<tr class="memdesc:aad4ac8496e56009514d91ed76ed5f65a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If false do not touch border edges (cannot subdivide lone faces)<br  />
+use <a class="el" href="classMR.html#a3e05831f9b45095b91e0481c0955ed4d">MR.findRegionOuterFaces</a> to find boundary faces.  <br /></td></tr>
 <tr class="memitem:a9cf86e36b3e6f9a951e3b6295ac62b33" id="r_a9cf86e36b3e6f9a951e3b6295ac62b33"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cf86e36b3e6f9a951e3b6295ac62b33">maxTriAspectRatio</a><code> [get]</code></td></tr>
 <tr class="memdesc:a9cf86e36b3e6f9a951e3b6295ac62b33"><td class="mdescLeft">&#160;</td><td class="mdescRight">The subdivision stops as soon as all triangles (in the region) have aspect ratio below or equal to this value.  <br /></td></tr>
 <tr class="memitem:acd71f5be2f9bd3b9345e3afe51716ffb" id="r_acd71f5be2f9bd3b9345e3afe51716ffb"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd71f5be2f9bd3b9345e3afe51716ffb">maxSplittableTriAspectRatio</a><code> [get]</code></td></tr>
+<tr class="memdesc:acd71f5be2f9bd3b9345e3afe51716ffb"><td class="mdescLeft">&#160;</td><td class="mdescRight">An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border.  <br /></td></tr>
 <tr class="memitem:adf1fd23f089137943f51e4a5b6c897da" id="r_adf1fd23f089137943f51e4a5b6c897da"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf1fd23f089137943f51e4a5b6c897da">smoothMode</a><code> [get]</code></td></tr>
+<tr class="memdesc:adf1fd23f089137943f51e4a5b6c897da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts new vertices so that they form a smooth surface together with existing vertices. This option works best for natural surfaces without sharp edges in between triangles.  <br /></td></tr>
 <tr class="memitem:a41fd6b7c3ed3b70c09f142305456da44" id="r_a41fd6b7c3ed3b70c09f142305456da44"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41fd6b7c3ed3b70c09f142305456da44">minSharpDihedralAngle</a><code> [get]</code></td></tr>
 <tr class="memitem:a274ef1ce22ba407fe9a21296ca6bd856" id="r_a274ef1ce22ba407fe9a21296ca6bd856"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a274ef1ce22ba407fe9a21296ca6bd856">projectOnOriginalMesh</a><code> [get]</code></td></tr>
 <tr class="memdesc:a274ef1ce22ba407fe9a21296ca6bd856"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, then every new vertex will be projected on the original mesh (before smoothing)  <br /></td></tr>
@@ -202,7 +209,7 @@ Properties</h2></td></tr>
 <tr class="memitem:a6ba97724b1aedb3e238b362961af1575" id="r_a6ba97724b1aedb3e238b362961af1575"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Void_From_MRVertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ba97724b1aedb3e238b362961af1575">onVertCreated</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a6ba97724b1aedb3e238b362961af1575"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time a new vertex has been created, but before the ring is made Delone  <br /></td></tr>
 <tr class="memitem:a9c75413018666bf1b5424c3a3f32b36e" id="r_a9c75413018666bf1b5424c3a3f32b36e"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c75413018666bf1b5424c3a3f32b36e">onEdgeSplit</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a9c75413018666bf1b5424c3a3f32b36e"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone  <br /></td></tr>
+<tr class="memdesc:a9c75413018666bf1b5424c3a3f32b36e"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is split into (e1-&amp;gt;e), but before the ring is made Delone  <br /></td></tr>
 <tr class="memitem:a51fdaba9b5394dd86567d88d04f9c88e" id="r_a51fdaba9b5394dd86567d88d04f9c88e"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Bool_From_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51fdaba9b5394dd86567d88d04f9c88e">progressCallback</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a51fdaba9b5394dd86567d88d04f9c88e"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to report algorithm progress and cancel it by user request  <br /></td></tr>
 </table>
@@ -510,7 +517,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>If this value is less than FLT_MAX then edge flips will ignore dihedral angle check if one of triangles has aspect ratio more than this value Unit: rad </p>
+
+<p>If this value is less than FLT_MAX then edge flips will ignore dihedral angle check if one of triangles has aspect ratio more than this value Unit: rad. </p>
 
 </div>
 </div>
@@ -533,6 +541,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>edge length will be magnified by the squared difference of normals at edge's ends times this factor, thus subdivision will be finer in the regions of high curvature compared to planar regions </p>
 
 </div>
@@ -556,7 +565,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Additional region to update during subdivision: if a face from here is split, it is replaced with new sub-faces; note that Subdivide can split faces even outside of main <code class="param">region</code>, so it might be necessary to update another region </p>
+
+<p>Additional region to update during subdivision: if a face from here is split, it is replaced with new sub-faces; note that Subdivide can split faces even outside of main <code class="param">region</code>, so it might be necessary to update another region. </p>
 
 </div>
 </div>
@@ -675,7 +685,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border </p>
+
+<p>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border. </p>
 
 </div>
 </div>
@@ -793,7 +804,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone </p>
+<p>this function is called each time edge (e) is split into (e1-&amp;gt;e), but before the ring is made Delone </p>
 
 </div>
 </div>
@@ -912,7 +923,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Puts new vertices so that they form a smooth surface together with existing vertices. This option works best for natural surfaces without sharp edges in between triangles </p>
+
+<p>Puts new vertices so that they form a smooth surface together with existing vertices. This option works best for natural surfaces without sharp edges in between triangles. </p>
 
 </div>
 </div>
@@ -935,8 +947,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>If false do not touch border edges (cannot subdivide lone faces)<br  />
-use <a class="el" href="classMR.html#a3e05831f9b45095b91e0481c0955ed4d">MR.findRegionOuterFaces</a> to find boundary faces </p>
+use <a class="el" href="classMR.html#a3e05831f9b45095b91e0481c0955ed4d">MR.findRegionOuterFaces</a> to find boundary faces. </p>
 
 </div>
 </div>

@@ -11,14 +11,13 @@
         <name>tris</name>
         <qualifiedname>MR.PlyLoadParams.tris</qualifiedname>
         <briefdescription>
-<para>&lt; optional load artifact: mesh triangles </para>
+<para>optional load artifact: mesh triangles </para>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: polyline edges </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="314" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="315" bodyend="324"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="338" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="339" bodyend="348"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a1a318846683333d6452da8b24eae414a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Optional_MREdges</type>
@@ -27,13 +26,13 @@
         <name>edges</name>
         <qualifiedname>MR.PlyLoadParams.edges</qualifiedname>
         <briefdescription>
-<para>optional load artifact: per-vertex color map </para>
+<para>optional load artifact: polyline edges </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="327" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="328" bodyend="337"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="353" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="354" bodyend="363"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a805e4f12f41cb08430a66ab6b059278f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1VertColors" kindref="compound">VertColors</ref></type>
@@ -42,13 +41,13 @@
         <name>colors</name>
         <qualifiedname>MR.PlyLoadParams.colors</qualifiedname>
         <briefdescription>
-<para>optional load artifact: per-face color map </para>
+<para>optional load artifact: per-vertex color map </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="340" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="341" bodyend="350"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="368" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="369" bodyend="378"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a49ec369871d46c65982217bf03878e75" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1FaceColors" kindref="compound">FaceColors</ref></type>
@@ -57,13 +56,13 @@
         <name>faceColors</name>
         <qualifiedname>MR.PlyLoadParams.faceColors</qualifiedname>
         <briefdescription>
-<para>optional load artifact: per-vertex uv-coordinates </para>
+<para>optional load artifact: per-face color map </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="353" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="354" bodyend="363"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="383" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="384" bodyend="393"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a776422082d0e0bcb6a90a3a2490ae88c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
@@ -72,13 +71,13 @@
         <name>uvCoords</name>
         <qualifiedname>MR.PlyLoadParams.uvCoords</qualifiedname>
         <briefdescription>
-<para>optional load artifact: per-corner uv-coordinates for each triangle </para>
+<para>optional load artifact: per-vertex uv-coordinates </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="366" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="367" bodyend="376"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="398" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="399" bodyend="408"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a2a9908883dd810581fc95cd5df632359" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1TriCornerUVCoords" kindref="compound">TriCornerUVCoords</ref></type>
@@ -87,13 +86,13 @@
         <name>triCornerUvCoords</name>
         <qualifiedname>MR.PlyLoadParams.triCornerUvCoords</qualifiedname>
         <briefdescription>
-<para>optional load artifact: per-vertex normals </para>
+<para>optional load artifact: per-corner uv-coordinates for each triangle </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="379" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="380" bodyend="389"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="413" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="414" bodyend="423"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a804504cf8bd835c33150c3e30893d7ff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1VertCoords" kindref="compound">VertCoords</ref></type>
@@ -102,13 +101,13 @@
         <name>normals</name>
         <qualifiedname>MR.PlyLoadParams.normals</qualifiedname>
         <briefdescription>
-<para>optional load artifact: texture image </para>
+<para>optional load artifact: per-vertex normals </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="392" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="393" bodyend="402"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="428" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="429" bodyend="438"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a217010b6ffe6a5a2d4b93f4e9999272d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1MeshTexture" kindref="compound">MeshTexture</ref></type>
@@ -117,13 +116,13 @@
         <name>texture</name>
         <qualifiedname>MR.PlyLoadParams.texture</qualifiedname>
         <briefdescription>
-<para>directory to load texture files from </para>
+<para>optional load artifact: texture image </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="405" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="406" bodyend="415"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="443" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="444" bodyend="453"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PlyLoadParams_1aed2575a087d605888acfeaea623485e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Filesystem.Path</type>
@@ -132,13 +131,13 @@
         <name>dir</name>
         <qualifiedname>MR.PlyLoadParams.dir</qualifiedname>
         <briefdescription>
-<para>callback for set progress and stop process </para>
+<para>directory to load texture files from </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="418" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="418" bodyend="418"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="458" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="458" bodyend="458"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a07909c3f5f9adfd0f6c7a83128b23aeb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Bool_From_Float</type>
@@ -147,13 +146,13 @@
         <name>callback</name>
         <qualifiedname>MR.PlyLoadParams.callback</qualifiedname>
         <briefdescription>
-<para>permit telemetry signal about loading </para>
+<para>callback for set progress and stop process </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="421" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="421" bodyend="421"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="463" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="463" bodyend="463"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PlyLoadParams_1afb7d527d754c3e240238e7a0c9d3bf1c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -162,12 +161,13 @@
         <name>telemetrySignal</name>
         <qualifiedname>MR.PlyLoadParams.telemetrySignal</qualifiedname>
         <briefdescription>
+<para>permit telemetry signal about loading </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="424" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="424" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="468" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="468" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="450" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="450" bodyend="454"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="494" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="494" bodyend="498"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="460" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="460" bodyend="466"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="504" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="504" bodyend="510"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlyLoadParams_1ab8b43c6dcc4eb59f2cca159f40193ff3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -267,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="471" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="471" bodyend="490"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="515" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="515" bodyend="534"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlyLoadParams_1a2db581dbc04d57735301ebf7d941b12a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -286,7 +286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="495" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="495" bodyend="502"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="539" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="539" bodyend="546"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlyLoadParams_1a70d681fd17e7210e83c4ed60de0b926a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -305,7 +305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="507" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="507" bodyend="507"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="551" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="551" bodyend="551"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlyLoadParams_1a2e7fb64b1a53bbae49c9a5d516c8150a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -324,7 +324,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="512" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="512" bodyend="512"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="556" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="556" bodyend="556"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlyLoadParams_1a634e8184f0d3e832a49a9262532a0b93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PlyLoadParams" kindref="compound">MR.PlyLoadParams</ref></type>
@@ -343,7 +343,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="517" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="517" bodyend="524"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="561" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="561" bodyend="568"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -393,7 +393,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="311" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="312" bodyend="525"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="333" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="334" bodyend="569"/>
     <listofallmembers>
       <member refid="classMR_1_1PlyLoadParams_1a634e8184f0d3e832a49a9262532a0b93" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>assign</name></member>
       <member refid="classMR_1_1PlyLoadParams_1a07909c3f5f9adfd0f6c7a83128b23aeb" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>callback</name></member>

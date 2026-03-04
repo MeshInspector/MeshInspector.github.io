@@ -179,12 +179,13 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:ac1183185d61e4ea0a39694bc917f080c" id="r_ac1183185d61e4ea0a39694bc917f080c"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="structMR_1_1Vector2f.html">MR.Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1183185d61e4ea0a39694bc917f080c">pixelSize</a><code> [get]</code></td></tr>
-<tr class="memdesc:ac1183185d61e4ea0a39694bc917f080c"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; pixel size  <br /></td></tr>
+<tr class="memdesc:ac1183185d61e4ea0a39694bc917f080c"><td class="mdescLeft">&#160;</td><td class="mdescRight">pixel size  <br /></td></tr>
 <tr class="memitem:a4af2acf3c570e39c3ddc9fccf9e7c009" id="r_a4af2acf3c570e39c3ddc9fccf9e7c009"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="structMR_1_1Vector2i.html">MR.Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4af2acf3c570e39c3ddc9fccf9e7c009">resolution</a><code> [get]</code></td></tr>
-<tr class="memdesc:a4af2acf3c570e39c3ddc9fccf9e7c009"><td class="mdescLeft">&#160;</td><td class="mdescRight">coordinates of origin area corner  <br /></td></tr>
+<tr class="memdesc:a4af2acf3c570e39c3ddc9fccf9e7c009"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance map size  <br /></td></tr>
 <tr class="memitem:a0e8fbf52ca697a54037361f5ad6f6a06" id="r_a0e8fbf52ca697a54037361f5ad6f6a06"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="structMR_1_1Vector2f.html">MR.Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e8fbf52ca697a54037361f5ad6f6a06">orgPoint</a><code> [get]</code></td></tr>
-<tr class="memdesc:a0e8fbf52ca697a54037361f5ad6f6a06"><td class="mdescLeft">&#160;</td><td class="mdescRight">allows calculate negative values of distance (inside closed and correctly oriented (CW) contours)  <br /></td></tr>
+<tr class="memdesc:a0e8fbf52ca697a54037361f5ad6f6a06"><td class="mdescLeft">&#160;</td><td class="mdescRight">coordinates of origin area corner  <br /></td></tr>
 <tr class="memitem:a4565543d30c56bde822dc6f34d9fb521" id="r_a4565543d30c56bde822dc6f34d9fb521"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4565543d30c56bde822dc6f34d9fb521">withSign</a><code> [get]</code></td></tr>
+<tr class="memdesc:a4565543d30c56bde822dc6f34d9fb521"><td class="mdescLeft">&#160;</td><td class="mdescRight">allows calculate negative values of distance (inside closed and correctly oriented (CW) contours)  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Structure with parameters to generate <a class="el" href="classMR_1_1DistanceMap.html" title="this class allows to store distances from the plane in particular pixels validVerts keeps only pixels...">DistanceMap</a> by Contours Generated from class <span class="tt"><a class="el" href="classMR_1_1ContourToDistanceMapParams.html" title="Structure with parameters to generate DistanceMap by Contours Generated from class MR....">MR.ContourToDistanceMapParams</a></span>. This is the non-const half of the class. </p>
@@ -505,7 +506,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>allows calculate negative values of distance (inside closed and correctly oriented (CW) contours) </p>
+<p>coordinates of origin area corner </p>
 
 </div>
 </div>
@@ -529,8 +530,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>&lt; pixel size </p>
-<p>distance map size </p>
+<p>pixel size </p>
 
 </div>
 </div>
@@ -554,7 +554,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>coordinates of origin area corner </p>
+<p>distance map size </p>
 
 </div>
 </div>
@@ -577,6 +577,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>allows calculate negative values of distance (inside closed and correctly oriented (CW) contours) </p>
 
 </div>
 </div>

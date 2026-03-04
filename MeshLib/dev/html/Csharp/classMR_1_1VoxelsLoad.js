@@ -14,7 +14,7 @@ var classMR_1_1VoxelsLoad =
       [ "DenseGrid", "classMR_1_1VoxelsLoad.html#af64deb00cdf3c350831376933237e335add8e62e5509837aab18087d15bd5b8c7", null ],
       [ "LevelSet", "classMR_1_1VoxelsLoad.html#af64deb00cdf3c350831376933237e335af75f97f8f1058acd62c93bf29de9f49e", null ]
     ] ],
-    [ "createObjectVoxels", "classMR_1_1VoxelsLoad.html#a87a3969849849d41eb3345f131f66ce8", null ],
+    [ "createObjectVoxels", "classMR_1_1VoxelsLoad.html#ae854629967cfff9f8d40ce8efd58a11b", null ],
     [ "findDicomFoldersRecursively", "classMR_1_1VoxelsLoad.html#a4712b0e40fa9832c74bff26290225549", null ],
     [ "findRawParameters", "classMR_1_1VoxelsLoad.html#a73061b630e4a1d31327cc2fe1b42f7bd", null ],
     [ "fromAnySupportedFormat", "classMR_1_1VoxelsLoad.html#a67fa635f15742a7398b6fe4540753b58", null ],

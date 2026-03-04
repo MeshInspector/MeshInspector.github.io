@@ -171,10 +171,15 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:adde4e447b1e087c9399181fa4b83129b" id="r_adde4e447b1e087c9399181fa4b83129b"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adde4e447b1e087c9399181fa4b83129b">allowRotation</a><code> [get]</code></td></tr>
+<tr class="memdesc:adde4e447b1e087c9399181fa4b83129b"><td class="mdescLeft">&#160;</td><td class="mdescRight">if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation  <br /></td></tr>
 <tr class="memitem:a608b8b34c96f9a1e54029127b3653e1e" id="r_a608b8b34c96f9a1e54029127b3653e1e"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Optional_MRVector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a608b8b34c96f9a1e54029127b3653e1e">center</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a608b8b34c96f9a1e54029127b3653e1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">point in body space that follows trajectory if not set body bounding box center is used  <br /></td></tr>
 <tr class="memitem:a7f934cd194c3c5a9a730771a0c901eb1" id="r_a7f934cd194c3c5a9a730771a0c901eb1"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Optional_MRVector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f934cd194c3c5a9a730771a0c901eb1">bodyNormal</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a7f934cd194c3c5a9a730771a0c901eb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used  <br /></td></tr>
 <tr class="memitem:aa2dcaeb81645f7b34d1399f5c5fdb2cd" id="r_aa2dcaeb81645f7b34d1399f5c5fdb2cd"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Optional_MRVector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2dcaeb81645f7b34d1399f5c5fdb2cd">bodyUpDir</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:aa2dcaeb81645f7b34d1399f5c5fdb2cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">up direction of body contours corresponds with <span class="tt">trajectoryNormals</span> if both are present and <span class="tt">allowRotation</span> is set  <br /></td></tr>
 <tr class="memitem:a06fdb6b2bc4c85c04aa0e4fe05a1c72d" id="r_a06fdb6b2bc4c85c04aa0e4fe05a1c72d"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.? Const_Vector_StdVectorMRVector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06fdb6b2bc4c85c04aa0e4fe05a1c72d">trajectoryNormals</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a06fdb6b2bc4c85c04aa0e4fe05a1c72d"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional normal directions in each trajectory point bodyUpDir corresponds to it if both are present and <span class="tt">allowRotation</span> is set  <br /></td></tr>
 <tr class="memitem:a843ac77e475ec454e15fb4b52a694aa7" id="r_a843ac77e475ec454e15fb4b52a694aa7"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1ConstBox__AffineXf3f.html">ConstBox_AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a843ac77e475ec454e15fb4b52a694aa7">b2tXf</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a843ac77e475ec454e15fb4b52a694aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional transform body space to trajectory space  <br /></td></tr>
 <tr class="memitem:a936b9e04b1ff02a72dc6acfbb86457df" id="r_a936b9e04b1ff02a72dc6acfbb86457df"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a936b9e04b1ff02a72dc6acfbb86457df">startMeshFromBody</a><code> [get]</code></td></tr>
@@ -368,6 +373,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation </p>
 
 </div>
@@ -415,6 +421,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used </p>
 
 </div>
@@ -438,6 +445,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>up direction of body contours corresponds with <span class="tt">trajectoryNormals</span> if both are present and <span class="tt">allowRotation</span> is set </p>
 
 </div>
@@ -461,6 +469,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>point in body space that follows trajectory if not set body bounding box center is used </p>
 
 </div>
@@ -508,6 +517,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>optional normal directions in each trajectory point bodyUpDir corresponds to it if both are present and <span class="tt">allowRotation</span> is set </p>
 
 </div>

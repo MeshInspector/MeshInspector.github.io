@@ -175,8 +175,11 @@ Properties</h2></td></tr>
 <tr class="memitem:a2564d0316126d2665acb3bff9c285ce0" id="r_a2564d0316126d2665acb3bff9c285ce0"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2564d0316126d2665acb3bff9c285ce0">maxDistSq</a><code> [get]</code></td></tr>
 <tr class="memdesc:a2564d0316126d2665acb3bff9c285ce0"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum squared distance from a point to mesh to be computed precisely  <br /></td></tr>
 <tr class="memitem:af4c45321804f7661c5bf87538c01d80c" id="r_af4c45321804f7661c5bf87538c01d80c"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4c45321804f7661c5bf87538c01d80c">nullOutsideMinMax</a><code> [get]</code></td></tr>
+<tr class="memdesc:af4c45321804f7661c5bf87538c01d80c"><td class="mdescLeft">&#160;</td><td class="mdescRight">what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&amp;lt;float&amp;gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" title="computes robust winding number generalization with support of holes and self-intersections in mesh,...">SignDetectionMode.HoleWindingRule</a>); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here  <br /></td></tr>
 <tr class="memitem:aa63f6d6e4cefd4dc75885be4d4c244ce" id="r_aa63f6d6e4cefd4dc75885be4d4c244ce"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa63f6d6e4cefd4dc75885be4d4c244ce">windingNumberThreshold</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa63f6d6e4cefd4dc75885be4d4c244ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" title="computes robust winding number generalization with support of holes and self-intersections in mesh,...">SignDetectionMode.HoleWindingRule</a>: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes  <br /></td></tr>
 <tr class="memitem:a25ae60a5350b7b96e037e1bfce91821e" id="r_a25ae60a5350b7b96e037e1bfce91821e"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25ae60a5350b7b96e037e1bfce91821e">windingNumberBeta</a><code> [get]</code></td></tr>
+<tr class="memdesc:a25ae60a5350b7b96e037e1bfce91821e"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" title="computes robust winding number generalization with support of holes and self-intersections in mesh,...">SignDetectionMode.HoleWindingRule</a>: determines the precision of fast approximation: the more the better, minimum value is 1  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>options determining computation of distance from a point to a mesh Generated from class <span class="tt"><a class="el" href="classMR_1_1DistanceToMeshOptions.html" title="options determining computation of distance from a point to a mesh Generated from class MR....">MR.DistanceToMeshOptions</a></span>. Derived classes: Direct: (non-virtual) <span class="tt"><a class="el" href="classMR_1_1SignedDistanceToMeshOptions.html" title="options determining computation of signed distance from a point to a mesh Generated from class MR....">MR.SignedDistanceToMeshOptions</a></span> This is the non-const half of the class. </p>
@@ -404,7 +407,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4">SignDetectionMode.HoleWindingRule</a>); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here </p>
+
+<p>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&amp;lt;float&amp;gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" title="computes robust winding number generalization with support of holes and self-intersections in mesh,...">SignDetectionMode.HoleWindingRule</a>); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here </p>
 
 </div>
 </div>
@@ -427,7 +431,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>only for <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4">SignDetectionMode.HoleWindingRule</a>: determines the precision of fast approximation: the more the better, minimum value is 1 </p>
+
+<p>only for <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" title="computes robust winding number generalization with support of holes and self-intersections in mesh,...">SignDetectionMode.HoleWindingRule</a>: determines the precision of fast approximation: the more the better, minimum value is 1 </p>
 
 </div>
 </div>
@@ -450,7 +455,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>only for <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4">SignDetectionMode.HoleWindingRule</a>: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </p>
+
+<p>only for <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" title="computes robust winding number generalization with support of holes and self-intersections in mesh,...">SignDetectionMode.HoleWindingRule</a>: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </p>
 
 </div>
 </div>

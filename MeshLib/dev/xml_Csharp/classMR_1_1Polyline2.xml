@@ -276,7 +276,7 @@
 <para>adds connected line in this, passing progressively via points *[vs, vs+num) </para>
         </briefdescription>
         <detaileddescription>
-<para>if num &gt; 2 &amp;&amp; vs[0] == vs[num-1] then a closed line is created <simplesect kind="return"><para>the edge from first new to second new vertex Generated from method <computeroutput><ref refid="classMR_1_1Polyline2_1a2812f7d28c0073a60e69b464336d83ba" kindref="member">MR.Polyline2.addFromPoints</ref></computeroutput>. </para>
+<para>if num &amp;gt; 2 &amp;&amp; vs[0] == vs[num-1] then a closed line is created <simplesect kind="return"><para>the edge from first new to second new vertex Generated from method <computeroutput><ref refid="classMR_1_1Polyline2_1a2812f7d28c0073a60e69b464336d83ba" kindref="member">MR.Polyline2.addFromPoints</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -314,7 +314,7 @@
 <parametername>outEmap</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>(optionally) returns mappings: from.id -&gt; this.id Generated from method <computeroutput><ref refid="classMR_1_1Polyline2_1af177a1d423bc1ab0e96db95c60e141da" kindref="member">MR.Polyline2.addPart</ref></computeroutput>. </para>
+<para>(optionally) returns mappings: from.id -&amp;gt; this.id Generated from method <computeroutput><ref refid="classMR_1_1Polyline2_1af177a1d423bc1ab0e96db95c60e141da" kindref="member">MR.Polyline2.addPart</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -374,7 +374,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>tightly packs all arrays eliminating lone edges and invalid verts and points, optionally returns mappings: old.id -&gt; new.id Generated from method <computeroutput><ref refid="classMR_1_1Polyline2_1a31388521b351a304f6e9fa9b584564fd" kindref="member">MR.Polyline2.pack</ref></computeroutput>. </para>
+<para>tightly packs all arrays eliminating lone edges and invalid verts and points, optionally returns mappings: old.id -&amp;gt; new.id Generated from method <computeroutput><ref refid="classMR_1_1Polyline2_1a31388521b351a304f6e9fa9b584564fd" kindref="member">MR.Polyline2.pack</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

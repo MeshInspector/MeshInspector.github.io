@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="164" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="164" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="176" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="176" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DivideMeshWithPlaneParams_1a5773ed631c2594193ea43fd9ff288fe8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -26,13 +26,13 @@
         <name>fillCut</name>
         <qualifiedname>MR.DivideMeshWithPlaneParams.fillCut</qualifiedname>
         <briefdescription>
-<para>if set - function tries to fill cut after dividing (this operation might fail leading to &quot;params.errors&quot;) </para>
+<para>if set - function tries to fill cut after dividing (this operation might fail leading to "params.errors") </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="167" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="167" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="181" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="181" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DivideMeshWithPlaneParams_1a6bd9d2c0b8d6f3bfbeb71b3314bc1ff7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="170" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="170" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="186" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="186" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DivideMeshWithPlaneParams_1a9d78fb68e4fd8f88b46c1e193f3c8404" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="173" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="174" bodyend="183"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="191" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="192" bodyend="201"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DivideMeshWithPlaneParams_1ad5607262dc92d5c5407a93bc5e4e8638" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Vector_StdString</type>
@@ -71,13 +71,13 @@
         <name>errors</name>
         <qualifiedname>MR.DivideMeshWithPlaneParams.errors</qualifiedname>
         <briefdescription>
-<para>optional output list of errors that could possibly happen during &apos;divideMeshWithPlane&apos; function call </para>
+<para>optional output list of errors that could possibly happen during 'divideMeshWithPlane' function call </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="186" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="187" bodyend="196"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="206" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="207" bodyend="216"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="200" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="200" bodyend="204"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="220" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="220" bodyend="224"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="210" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="210" bodyend="216"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="230" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="230" bodyend="236"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DivideMeshWithPlaneParams_1a9aa87ef5d5b5b4a02dc4d4b09776ad62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="221" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="221" bodyend="229"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="241" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="241" bodyend="249"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DivideMeshWithPlaneParams_1aaa5d11c1b4f9161c24ba393e0af05b9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="234" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="234" bodyend="241"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="254" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="254" bodyend="261"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DivideMeshWithPlaneParams_1abab69223f14caa98e2763039b255ed5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="246" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="246" bodyend="246"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="266" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="266" bodyend="266"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DivideMeshWithPlaneParams_1a342b28d94ecfab96ca2c518df91eb054" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1DivideMeshWithPlaneParams" kindref="compound">MR.DivideMeshWithPlaneParams</ref></type>
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="251" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="251" bodyend="258"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="271" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="271" bodyend="278"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -260,7 +260,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="161" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="162" bodyend="259"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="171" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="172" bodyend="279"/>
     <listofallmembers>
       <member refid="classMR_1_1DivideMeshWithPlaneParams_1a342b28d94ecfab96ca2c518df91eb054" prot="public" virt="non-virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>assign</name></member>
       <member refid="classMR_1_1DivideMeshWithPlaneParams_1a3bbec929349e67b49a7115f6723f9fe4" prot="package" virt="non-virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>DivideMeshWithPlaneParams</name></member>

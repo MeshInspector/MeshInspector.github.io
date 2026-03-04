@@ -233,10 +233,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:adbda6f308a3310319174b3314620583c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#adbda6f308a3310319174b3314620583c" title="Generated from method MR.PointMeasurementObject.setParentLocked.">MR.PointMeasurementObject.setParentLocked</a></span>.  <br /></td></tr>
 <tr class="memitem:aa1e773aec36a51592b97f13da62fe267" id="r_aa1e773aec36a51592b97f13da62fe267"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1e773aec36a51592b97f13da62fe267">detachFromParent</a> ()</td></tr>
 <tr class="memdesc:aa1e773aec36a51592b97f13da62fe267"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes this from its parent children list returns false if it was already orphan Generated from method <span class="tt"><a class="el" href="#aa1e773aec36a51592b97f13da62fe267" title="removes this from its parent children list returns false if it was already orphan Generated from meth...">MR.PointMeasurementObject.detachFromParent</a></span>.  <br /></td></tr>
-<tr class="memitem:a4e03a12a3ead8617f8d8e965260b8d81" id="r_a4e03a12a3ead8617f8d8e965260b8d81"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e03a12a3ead8617f8d8e965260b8d81">addChild</a> (MR._ByValueShared_Object child, bool? recognizedChild=null)</td></tr>
-<tr class="memdesc:a4e03a12a3ead8617f8d8e965260b8d81"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call;  <br /></td></tr>
-<tr class="memitem:a022fa6be56bf5478b8cb3617016e509f" id="r_a022fa6be56bf5478b8cb3617016e509f"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a022fa6be56bf5478b8cb3617016e509f">addChildBefore</a> (MR._ByValueShared_Object newChild, MR.Const_Object existingChild)</td></tr>
-<tr class="memdesc:a022fa6be56bf5478b8cb3617016e509f"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <span class="tt"><a class="el" href="#a022fa6be56bf5478b8cb3617016e509f" title="adds given object in the recognized children before existingChild; if newChild was already among this...">MR.PointMeasurementObject.addChildBefore</a></span>.  <br /></td></tr>
+<tr class="memitem:a4c7441c1bcd7073b168cde02a2cebbd2" id="r_a4c7441c1bcd7073b168cde02a2cebbd2"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c7441c1bcd7073b168cde02a2cebbd2">addChild</a> (MR.Std._ByValue_SharedPtr_MRObject child, bool? recognizedChild=null)</td></tr>
+<tr class="memdesc:a4c7441c1bcd7073b168cde02a2cebbd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call;  <br /></td></tr>
+<tr class="memitem:ac741c4ae15cee1831e77f34817d54135" id="r_ac741c4ae15cee1831e77f34817d54135"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac741c4ae15cee1831e77f34817d54135">addChildBefore</a> (MR.Std._ByValue_SharedPtr_MRObject newChild, MR.Std.Const_SharedPtr_MRObject existingChild)</td></tr>
+<tr class="memdesc:ac741c4ae15cee1831e77f34817d54135"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <span class="tt"><a class="el" href="#ac741c4ae15cee1831e77f34817d54135" title="adds given object in the recognized children before existingChild; if newChild was already among this...">MR.PointMeasurementObject.addChildBefore</a></span>.  <br /></td></tr>
 <tr class="memitem:a6e2100bee82267f293638a4292356a0f" id="r_a6e2100bee82267f293638a4292356a0f"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e2100bee82267f293638a4292356a0f">removeAllChildren</a> ()</td></tr>
 <tr class="memdesc:a6e2100bee82267f293638a4292356a0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">detaches all recognized children from this, keeping all unrecognized ones Generated from method <span class="tt"><a class="el" href="#a6e2100bee82267f293638a4292356a0f" title="detaches all recognized children from this, keeping all unrecognized ones Generated from method MR....">MR.PointMeasurementObject.removeAllChildren</a></span>.  <br /></td></tr>
 <tr class="memitem:ab945d4a829047e50f3ed07c105fc75e3" id="r_ab945d4a829047e50f3ed07c105fc75e3"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab945d4a829047e50f3ed07c105fc75e3">sortChildren</a> ()</td></tr>
@@ -328,8 +328,8 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a4e03a12a3ead8617f8d8e965260b8d81" name="a4e03a12a3ead8617f8d8e965260b8d81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e03a12a3ead8617f8d8e965260b8d81">&#9670;&#160;</a></span>addChild()</h2>
+<a id="a4c7441c1bcd7073b168cde02a2cebbd2" name="a4c7441c1bcd7073b168cde02a2cebbd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c7441c1bcd7073b168cde02a2cebbd2">&#9670;&#160;</a></span>addChild()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,7 +340,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">unsafe bool MR.PointMeasurementObject.addChild </td>
           <td>(</td>
-          <td class="paramtype">MR._ByValueShared_Object</td>          <td class="paramname"><span class="paramname"><em>child</em></span>, </td>
+          <td class="paramtype">MR.Std._ByValue_SharedPtr_MRObject</td>          <td class="paramname"><span class="paramname"><em>child</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -358,15 +358,15 @@ Static Public Member Functions</h2></td></tr>
 <p>adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call; </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">recognizedChild</td><td>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <span class="tt"><a class="el" href="#a4e03a12a3ead8617f8d8e965260b8d81" title="adds given object at the end of children (recognized or not); returns false if it was already child o...">MR.PointMeasurementObject.addChild</a></span>. Parameter <span class="tt">recognizedChild</span> defaults to <span class="tt">true</span>. </td></tr>
+    <tr><td class="paramname">recognizedChild</td><td>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <span class="tt"><a class="el" href="#a4c7441c1bcd7073b168cde02a2cebbd2" title="adds given object at the end of children (recognized or not); returns false if it was already child o...">MR.PointMeasurementObject.addChild</a></span>. Parameter <span class="tt">recognizedChild</span> defaults to <span class="tt">true</span>. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a022fa6be56bf5478b8cb3617016e509f" name="a022fa6be56bf5478b8cb3617016e509f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a022fa6be56bf5478b8cb3617016e509f">&#9670;&#160;</a></span>addChildBefore()</h2>
+<a id="ac741c4ae15cee1831e77f34817d54135" name="ac741c4ae15cee1831e77f34817d54135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac741c4ae15cee1831e77f34817d54135">&#9670;&#160;</a></span>addChildBefore()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -377,12 +377,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">unsafe bool MR.PointMeasurementObject.addChildBefore </td>
           <td>(</td>
-          <td class="paramtype">MR._ByValueShared_Object</td>          <td class="paramname"><span class="paramname"><em>newChild</em></span>, </td>
+          <td class="paramtype">MR.Std._ByValue_SharedPtr_MRObject</td>          <td class="paramname"><span class="paramname"><em>newChild</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Const_Object</td>          <td class="paramname"><span class="paramname"><em>existingChild</em></span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_SharedPtr_MRObject</td>          <td class="paramname"><span class="paramname"><em>existingChild</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -392,7 +392,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <span class="tt"><a class="el" href="#a022fa6be56bf5478b8cb3617016e509f" title="adds given object in the recognized children before existingChild; if newChild was already among this...">MR.PointMeasurementObject.addChildBefore</a></span>. </p>
+<p>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <span class="tt"><a class="el" href="#ac741c4ae15cee1831e77f34817d54135" title="adds given object in the recognized children before existingChild; if newChild was already among this...">MR.PointMeasurementObject.addChildBefore</a></span>. </p>
 
 </div>
 </div>

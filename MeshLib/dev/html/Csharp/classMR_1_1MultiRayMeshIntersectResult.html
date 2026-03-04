@@ -171,14 +171,15 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a697c4e6e62007458abb67c319d787edc" id="r_a697c4e6e62007458abb67c319d787edc"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a697c4e6e62007458abb67c319d787edc">intersectingRays</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a697c4e6e62007458abb67c319d787edc"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; true if the ray has intersection with mesh part, false otherwise  <br /></td></tr>
+<tr class="memdesc:a697c4e6e62007458abb67c319d787edc"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the ray has intersection with mesh part, false otherwise  <br /></td></tr>
 <tr class="memitem:acc8d1677b570543589d2fe42e4eaf6da" id="r_acc8d1677b570543589d2fe42e4eaf6da"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.? Vector_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc8d1677b570543589d2fe42e4eaf6da">rayDistances</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:acc8d1677b570543589d2fe42e4eaf6da"><td class="mdescLeft">&#160;</td><td class="mdescRight">intersected triangles from mesh  <br /></td></tr>
+<tr class="memdesc:acc8d1677b570543589d2fe42e4eaf6da"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance along each ray till the intersection point or NaN if no intersection  <br /></td></tr>
 <tr class="memitem:a7cb70fc3acd1f293810ea45c04c2255d" id="r_a7cb70fc3acd1f293810ea45c04c2255d"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.? Vector_MRFaceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cb70fc3acd1f293810ea45c04c2255d">isectFaces</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a7cb70fc3acd1f293810ea45c04c2255d"><td class="mdescLeft">&#160;</td><td class="mdescRight">barycentric coordinates of the intersection point within intersected triangle or NaNs if no intersection  <br /></td></tr>
+<tr class="memdesc:a7cb70fc3acd1f293810ea45c04c2255d"><td class="mdescLeft">&#160;</td><td class="mdescRight">intersected triangles from mesh  <br /></td></tr>
 <tr class="memitem:a22c3fe6969e21ca25cc06d6d59b2942b" id="r_a22c3fe6969e21ca25cc06d6d59b2942b"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.? Vector_MRTriPointf&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22c3fe6969e21ca25cc06d6d59b2942b">isectBary</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a22c3fe6969e21ca25cc06d6d59b2942b"><td class="mdescLeft">&#160;</td><td class="mdescRight">intersection points or NaNs if no intersection  <br /></td></tr>
+<tr class="memdesc:a22c3fe6969e21ca25cc06d6d59b2942b"><td class="mdescLeft">&#160;</td><td class="mdescRight">barycentric coordinates of the intersection point within intersected triangle or NaNs if no intersection  <br /></td></tr>
 <tr class="memitem:ab74456b7ba6c7165dd02995473d7e05b" id="r_ab74456b7ba6c7165dd02995473d7e05b"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.? Vector_MRVector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab74456b7ba6c7165dd02995473d7e05b">isectPts</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ab74456b7ba6c7165dd02995473d7e05b"><td class="mdescLeft">&#160;</td><td class="mdescRight">intersection points or NaNs if no intersection  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <span class="tt"><a class="el" href="classMR_1_1MultiRayMeshIntersectResult.html" title="Generated from class MR.MultiRayMeshIntersectResult. This is the non-const half of the class.">MR.MultiRayMeshIntersectResult</a></span>. This is the non-const half of the class. </p>
@@ -359,8 +360,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>&lt; true if the ray has intersection with mesh part, false otherwise </p>
-<p>distance along each ray till the intersection point or NaN if no intersection </p>
+<p>true if the ray has intersection with mesh part, false otherwise </p>
 
 </div>
 </div>
@@ -384,7 +384,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>intersection points or NaNs if no intersection </p>
+<p>barycentric coordinates of the intersection point within intersected triangle or NaNs if no intersection </p>
 
 </div>
 </div>
@@ -408,7 +408,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>barycentric coordinates of the intersection point within intersected triangle or NaNs if no intersection </p>
+<p>intersected triangles from mesh </p>
 
 </div>
 </div>
@@ -432,6 +432,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>intersection points or NaNs if no intersection </p>
+
 </div>
 </div>
 <a id="acc8d1677b570543589d2fe42e4eaf6da" name="acc8d1677b570543589d2fe42e4eaf6da"></a>
@@ -454,7 +456,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>intersected triangles from mesh </p>
+<p>distance along each ray till the intersection point or NaN if no intersection </p>
 
 </div>
 </div>

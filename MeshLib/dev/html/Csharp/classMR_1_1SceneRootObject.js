@@ -2,8 +2,8 @@ var classMR_1_1SceneRootObject =
 [
     [ "SceneRootObject", "classMR_1_1SceneRootObject.html#af6325fcb40947679c120f316dc644a67", null ],
     [ "SceneRootObject", "classMR_1_1SceneRootObject.html#a891be9b99880ed59bca7f1568cd17112", null ],
-    [ "addChild", "classMR_1_1SceneRootObject.html#a6c7cbcca8d0dc5abf2a5c75d94bf9630", null ],
-    [ "addChildBefore", "classMR_1_1SceneRootObject.html#a566a8ff80f6f832faef663a68e8574e8", null ],
+    [ "addChild", "classMR_1_1SceneRootObject.html#a43d7210c5519f98c30d9eae83707566a", null ],
+    [ "addChildBefore", "classMR_1_1SceneRootObject.html#a4f943ae5a97a450b3982f17f06a048da", null ],
     [ "addTag", "classMR_1_1SceneRootObject.html#acac7c9d4acd755d40779d07561b12e8e", null ],
     [ "applyScale", "classMR_1_1SceneRootObject.html#adc67ede704e8949ccdbd5c546ecd871b", null ],
     [ "assign", "classMR_1_1SceneRootObject.html#a66e26600c68d8a1a26b90ec827bdabf3", null ],

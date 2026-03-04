@@ -12,7 +12,7 @@ var classMR_1_1Features =
     [ "primitiveCylinder", "classMR_1_1Features.html#a8dc3040ce1b6ac32579dd81134683d7d", null ],
     [ "primitiveFromObject", "classMR_1_1Features.html#a4548b09b86b70da76215165ced7db3ec", null ],
     [ "primitiveFromObjectWithWorldXf", "classMR_1_1Features.html#a5eb72cbbc9a7bab12776295b90f9cf54", null ],
-    [ "primitiveToObject", "classMR_1_1Features.html#a802430d1abc8b74d1c9ac02b7456f45f", null ],
+    [ "primitiveToObject", "classMR_1_1Features.html#a1c5f932dd15cda81055c653726a8f370", null ],
     [ "toPrimitive", "classMR_1_1Features.html#a67ea8f5df4957a7e21b4b5a7379a2c30", null ],
     [ "toPrimitive", "classMR_1_1Features.html#a2fbfe92bf6603af591b19b72be9057dc", null ],
     [ "toPrimitive", "classMR_1_1Features.html#ac06224376bb2a03c01c7c45829eec78b", null ],
