@@ -171,6 +171,8 @@ Namespaces</h2></td></tr>
 <tr class="memitem:MR_3A_3AObjectSave" id="r_MR_3A_3AObjectSave"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ObjectSave.html">MR::ObjectSave</a></td></tr>
 <tr class="memitem:MR_3A_3AMeshBuilder" id="r_MR_3A_3AMeshBuilder"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html">MR::MeshBuilder</a></td></tr>
 <tr class="memdesc:namespaceMR_1_1MeshBuilder"><td class="mdescLeft">&#160;</td><td class="mdescRight">Building topologies by triangles. <br /></td></tr>
+<tr class="memitem:MR_3A_3ALocale" id="r_MR_3A_3ALocale"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Locale.html">MR::Locale</a></td></tr>
+<tr class="memdesc:namespaceMR_1_1Locale"><td class="mdescLeft">&#160;</td><td class="mdescRight">#pragma warning: there is no warning number 'N' <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
@@ -180,6 +182,7 @@ Macros</h2></td></tr>
 <tr class="memitem:a45ed33a118705bfd4aac6d294495276a" id="r_a45ed33a118705bfd4aac6d294495276a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;&#160;&#160;__attribute__((visibility(&quot;default&quot;)))</td></tr>
 <tr class="memitem:aaa2c9e5a899e212852b81dbb084d081c" id="r_aaa2c9e5a899e212852b81dbb084d081c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa2c9e5a899e212852b81dbb084d081c">MR_UNREACHABLE</a>&#160;&#160;&#160;{ assert( false ); return {}; }</td></tr>
 <tr class="memitem:adf3c82902530739f161963e298ca8dc0" id="r_adf3c82902530739f161963e298ca8dc0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf3c82902530739f161963e298ca8dc0">MR_UNREACHABLE_NO_RETURN</a>&#160;&#160;&#160;assert( false );</td></tr>
+<tr class="memitem:a9ffd0813b79cbb98d3f71fa5adb2a408" id="r_a9ffd0813b79cbb98d3f71fa5adb2a408"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ffd0813b79cbb98d3f71fa5adb2a408">_t</a>(...)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -420,6 +423,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ga80e6b953fc44378e5898ba71b21f216a" id="r_ga80e6b953fc44378e5898ba71b21f216a"><td class="memTemplParams" colspan="2">template&lt;class... Ts&gt; </td></tr>
 <tr class="memitem:ga80e6b953fc44378e5898ba71b21f216a template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga80e6b953fc44378e5898ba71b21f216a">MR::overloaded</a> (Ts...) -&gt; overloaded&lt; Ts... &gt;</td></tr>
 <tr class="memdesc:ga80e6b953fc44378e5898ba71b21f216a"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicit deduction guide (not needed as of C++20, but still needed in Clang)  <br /></td></tr>
+<tr class="memitem:gac7ce006afd832c88e2d6e538a89162fe" id="r_gac7ce006afd832c88e2d6e538a89162fe"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac7ce006afd832c88e2d6e538a89162fe">MR::Locale::translate_noop</a> (const char *str) noexcept</td></tr>
+<tr class="memdesc:gac7ce006afd832c88e2d6e538a89162fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">special no-op inline functions to mark string literal as translatable  <br /></td></tr>
+<tr class="memitem:ga022f7ba55e1f7b995ca4ec47fe14bbbd" id="r_ga022f7ba55e1f7b995ca4ec47fe14bbbd"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga022f7ba55e1f7b995ca4ec47fe14bbbd">MR::Locale::translate_noop</a> (const char *ctx, const char *str) noexcept</td></tr>
+<tr class="memitem:gaf18c487e1793e1813abf88762fc2440f" id="r_gaf18c487e1793e1813abf88762fc2440f"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf18c487e1793e1813abf88762fc2440f">MR::Locale::translate_noop</a> (const char *single, const char *plural, auto n) noexcept</td></tr>
+<tr class="memitem:ga702adcf0c18d25b2b75eace23b6aa032" id="r_ga702adcf0c18d25b2b75eace23b6aa032"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga702adcf0c18d25b2b75eace23b6aa032">MR::Locale::translate_noop</a> (const char *ctx, const char *single, const char *plural, auto n) noexcept</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -521,6 +529,25 @@ Variables</h2></td></tr>
 <tr class="memitem:gac090ec24cc989c66ab1dbc182cb43c87 template"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac090ec24cc989c66ab1dbc182cb43c87">MR::dependent_false</a> = false</td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
+<a id="a9ffd0813b79cbb98d3f71fa5adb2a408" name="a9ffd0813b79cbb98d3f71fa5adb2a408"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ffd0813b79cbb98d3f71fa5adb2a408">&#9670;&#160;</a></span>_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _t</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="group__GeneralGroup.html#gac7ce006afd832c88e2d6e538a89162fe">MR::Locale::translate_noop</a>( __VA_ARGS__ )</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gac7ce006afd832c88e2d6e538a89162fe"><div class="ttname"><a href="group__GeneralGroup.html#gac7ce006afd832c88e2d6e538a89162fe">MR::Locale::translate_noop</a></div><div class="ttdeci">constexpr auto translate_noop(const char *str) noexcept</div><div class="ttdoc">special no-op inline functions to mark string literal as translatable</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:801</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="ac70adc417c063d57d9044e15ce4f4b20" name="ac70adc417c063d57d9044e15ce4f4b20"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac70adc417c063d57d9044e15ce4f4b20">&#9670;&#160;</a></span>MR_CPP_STANDARD_DATE</h2>
 

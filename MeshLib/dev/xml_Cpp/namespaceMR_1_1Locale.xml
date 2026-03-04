@@ -5,8 +5,8 @@
     <sectiondef kind="func">
       <member refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kind="function"><name>translate_noop</name></member>
       <member refid="group__GeneralGroup_1ga022f7ba55e1f7b995ca4ec47fe14bbbd" kind="function"><name>translate_noop</name></member>
-      <member refid="group__GeneralGroup_1ga8be55266cda239241bd21a99bd3641b4" kind="function"><name>translate_noop</name></member>
-      <member refid="group__GeneralGroup_1ga7b75b4f9890aac168b93a980c7caa7e0" kind="function"><name>translate_noop</name></member>
+      <member refid="group__GeneralGroup_1gaf18c487e1793e1813abf88762fc2440f" kind="function"><name>translate_noop</name></member>
+      <member refid="group__GeneralGroup_1ga702adcf0c18d25b2b75eace23b6aa032" kind="function"><name>translate_noop</name></member>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1ac59a56d895488411e12e18eda9077a20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const std::locale &amp;</type>
         <definition>const std::locale &amp; MR::Locale::get</definition>
@@ -51,7 +51,7 @@
           <declname>localeName</declname>
         </param>
         <briefdescription>
-<para>Sets the active locale by its name. UTF-8 is always used as an encoding. </para>
+<para>Loads and sets the active locale by its name. UTF-8 is always used as an encoding. </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="return"><para>Reference to the new locale. </para>
@@ -88,7 +88,7 @@
           <declname>path</declname>
         </param>
         <briefdescription>
-<para>Adds a path to .mo files. The path is expected to have the following directory structure: &lt;locale name&gt;/LC_MESSAGES/&lt;domain name&gt;.mo The active locale is regenerated on every call. </para>
+<para>Adds a path to .mo files. The path is expected to have the following directory structure: &lt;locale name&gt;/LC_MESSAGES/&lt;domain name&gt;.mo The active locale is reloaded on every call. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -107,7 +107,7 @@
           <declname>domainName</declname>
         </param>
         <briefdescription>
-<para>Adds a new domain. The active locale is regenerated on every call. </para>
+<para>Adds a new domain. The active locale is reloaded on every call. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

@@ -420,6 +420,7 @@ var searchData=
   ['loadedobjectt_5fmrobjectpoints_22',['LoadedObjectT_MRObjectPoints',['../classMR_1_1LoadedObjectT__MRObjectPoints.html',1,'MR']]],
   ['loadedobjectt_5fmrobjectvoxels_23',['LoadedObjectT_MRObjectVoxels',['../classMR_1_1LoadedObjectT__MRObjectVoxels.html',1,'MR']]],
   ['loadingtiffsettings_24',['LoadingTiffSettings',['../classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html',1,'MR::VoxelsLoad']]],
+  ['locale_25',['Locale',['../classMR_1_1Locale.html',1,'MR']]],
   ['uirendermanager_0',['UiRenderManager',['../classMR_1_1UiRenderManager.html',1,'MR']]],
   ['uirenderparams_1',['UiRenderParams',['../classMR_1_1UiRenderParams.html',1,'MR']]],
   ['unary_5fmrfeaturesprimitivesconesegment_2',['Unary_MRFeaturesPrimitivesConeSegment',['../classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html',1,'MR::Features::Traits']]],

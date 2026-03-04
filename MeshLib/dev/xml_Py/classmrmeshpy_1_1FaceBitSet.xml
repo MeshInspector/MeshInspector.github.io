@@ -1230,7 +1230,7 @@
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::FaceBitSet
-Aliases:  Vector_FaceBitSet_GraphVertId.value_type, ColorMapAggregator_FaceTag_ElementBitSet, AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.LeafBitSet, Vector_FaceBitSet_GraphVertId.reference, Vector_FaceBitSet_GraphVertId.const_reference
+Aliases:  Vector_FaceBitSet_GraphVertId.value_type, ColorMapAggregator_FaceTag_ElementBitSet, AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.LeafBitSet, Vector_FaceBitSet_GraphVertId.const_reference, Vector_FaceBitSet_GraphVertId.reference
 
 Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type)
 with all bits after size() considered off during testing

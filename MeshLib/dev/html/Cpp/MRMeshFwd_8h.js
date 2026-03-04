@@ -1,5 +1,6 @@
 var MRMeshFwd_8h =
 [
+    [ "_t", "MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408", null ],
     [ "MR_CPP_STANDARD_DATE", "MRMeshFwd_8h.html#ac70adc417c063d57d9044e15ce4f4b20", null ],
     [ "MR_UNREACHABLE", "MRMeshFwd_8h.html#aaa2c9e5a899e212852b81dbb084d081c", null ],
     [ "MR_UNREACHABLE_NO_RETURN", "MRMeshFwd_8h.html#adf3c82902530739f161963e298ca8dc0", null ],
@@ -155,6 +156,10 @@ var MRMeshFwd_8h =
     [ "MR::SymMatrix3< Int64 >", "group__GeneralGroup.html#ga019b24bdc11f8bcdd9997a4a3011141e", null ],
     [ "MR::SymMatrix4< bool >", "group__GeneralGroup.html#ga56d3bdeba5c4fb5bc0d9db6b8d370920", null ],
     [ "MR::SymMatrix4< Int64 >", "group__GeneralGroup.html#gabdd959f5e1e1667771d3d7fde2f83531", null ],
+    [ "MR::Locale::translate_noop", "group__GeneralGroup.html#ga702adcf0c18d25b2b75eace23b6aa032", null ],
+    [ "MR::Locale::translate_noop", "group__GeneralGroup.html#ga022f7ba55e1f7b995ca4ec47fe14bbbd", null ],
+    [ "MR::Locale::translate_noop", "group__GeneralGroup.html#gaf18c487e1793e1813abf88762fc2440f", null ],
+    [ "MR::Locale::translate_noop", "group__GeneralGroup.html#gac7ce006afd832c88e2d6e538a89162fe", null ],
     [ "MR::TriPoint< float >", "group__GeneralGroup.html#gab119da1bda1a0c995cae0268b4519e41", null ],
     [ "MR::TypedBitSet", "group__GeneralGroup.html#gae67a16ed6e3c5f9cdb00642abdeb19cc", null ],
     [ "MR::TypedBitSet< NodeId >", "group__GeneralGroup.html#gacb9fd1f47a0a027e98702e9082980f59", null ],

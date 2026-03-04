@@ -1,5 +1,7 @@
 var MRMeshFwd_8h =
 [
+    [ "MR_Locale_translate_noop_1", "MRMeshFwd_8h.html#a8b5515509022588dbce8acbe7f66f4ec", null ],
+    [ "MR_Locale_translate_noop_2", "MRMeshFwd_8h.html#a1362e7187c8aab340f7b4343cc7f0086", null ],
     [ "MR_NoInit_AssignFromAnother", "MRMeshFwd_8h.html#aeb3fe7be619b42ca3c0ec3ab42eaa3a0", null ],
     [ "MR_NoInit_ConstructFromAnother", "MRMeshFwd_8h.html#aea5bdb2608b58bbc81eae71021a4ed74", null ],
     [ "MR_NoInit_DefaultConstruct", "MRMeshFwd_8h.html#a7c9f902ec66a86db5e7c70d6fd5e1cd6", null ],

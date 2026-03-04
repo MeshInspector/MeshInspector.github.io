@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"MRMoveMeshToVoxelMaxDeriv_8h.html#a6dbccbe2803d536dae00d4b474fc2cec":[6,2,1,0,0,0,3,13,42],
+"MRMoveMeshToVoxelMaxDeriv_8h.html#a72a60df78326bdf4189b4736305bb38b":[6,2,1,0,0,0,3,13,147],
 "MRMoveMeshToVoxelMaxDeriv_8h.html#a7376df6c474cdaa2199889f5c551bd23":[6,2,1,0,0,0,3,13,36],
 "MRMoveMeshToVoxelMaxDeriv_8h.html#a74ee735aa300327928e35efc1d096535":[6,2,1,0,0,0,3,13,91],
 "MRMoveMeshToVoxelMaxDeriv_8h.html#a7570292f3132c727a5f6d77026b38d74":[6,2,1,0,0,0,3,13,67],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "MRMultiwayICP_8h.html#a8c948794cbd5a570233ec1342ed65790":[6,2,1,0,0,0,1,206,10],
 "MRMultiwayICP_8h.html#a8f96d7127f2223cd639dd230aac34b96":[6,2,1,0,0,0,1,206,3],
 "MRMultiwayICP_8h.html#a92ff7c0b02fea53456faab4a1829096c":[6,2,1,0,0,0,1,206,91],
-"MRMultiwayICP_8h.html#a969067417d763b0dcfcf9d647f4462c1":[6,2,1,0,0,0,1,206,27],
-"MRMultiwayICP_8h.html#a98effa514f7508ab62cceebb8b8e9573":[6,2,1,0,0,0,1,206,24],
-"MRMultiwayICP_8h.html#a9ac28d1bea4cd1d927ca80facfc1a8a4":[6,2,1,0,0,0,1,206,11]
+"MRMultiwayICP_8h.html#a969067417d763b0dcfcf9d647f4462c1":[6,2,1,0,0,0,1,206,27]
 };

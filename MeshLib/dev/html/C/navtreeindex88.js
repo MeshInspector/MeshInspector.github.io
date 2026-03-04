@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"MRPrecisePredicates3_8h.html#af8e03eb68c4b919e1505cede068d6729":[6,2,1,0,0,0,1,280,4],
+"MRPrecisePredicates3_8h.html#afbd71da17cb8b105d2507c528d7a841e":[6,2,1,0,0,0,1,280,1],
 "MRPrecisePredicates3_8h.html#afd12aa71fc4b93df21f3354992018d3f":[6,2,1,0,0,0,1,280,24],
 "MRPrecisePredicates3_8h_source.html":[6,2,1,0,0,0,1,280],
 "MRPrimitiveMapsComposition_8h.html":[6,2,1,0,0,0,1,281],
@@ -247,7 +249,5 @@ var NAVTREEINDEX88 =
 "MRRadiusCompensation_8h.html#a79c052bf278ccdcaf8fd465e5b856414":[6,2,1,0,0,0,1,288,29],
 "MRRadiusCompensation_8h.html#a8149671bd031d7224850fb71d7163aee":[6,2,1,0,0,0,1,288,15],
 "MRRadiusCompensation_8h.html#a84d36d28c8524b5b56d77dee626dc287":[6,2,1,0,0,0,1,288,18],
-"MRRadiusCompensation_8h.html#a864aa0c07b10dbea166fceef5314e13c":[6,2,1,0,0,0,1,288,11],
-"MRRadiusCompensation_8h.html#a8cb7a197abd6c34c5cb5a75b4e988b6a":[6,2,1,0,0,0,1,288,30],
-"MRRadiusCompensation_8h.html#a9bda45c6401321692836dd31bd72f413":[6,2,1,0,0,0,1,288,0]
+"MRRadiusCompensation_8h.html#a864aa0c07b10dbea166fceef5314e13c":[6,2,1,0,0,0,1,288,11]
 };
