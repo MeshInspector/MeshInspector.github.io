@@ -8145,7 +8145,7 @@
     <member refid="group__GeneralGroup_1ga6253a7998223b8c2a5fffd0092b5883b" kind="variable"><name>ptNormals</name></member>
   </compound>
   <compound refid="structMR_1_1PointsToMeshParameters" kind="struct"><name>MR::PointsToMeshParameters</name>
-    <member refid="group__GeneralGroup_1ga3b8a586729f91eac7c41aea0f4e22e06" kind="variable"><name>sigma</name></member>
+    <member refid="group__GeneralGroup_1ga8fb48f274f70639a9be5fdadbbf8224e" kind="variable"><name>sigma</name></member>
     <member refid="group__GeneralGroup_1ga3bdeb5a4cdd00fc36ce6089cede17c0b" kind="variable"><name>minWeight</name></member>
     <member refid="group__GeneralGroup_1ga233f40339195db2ce32c5bd0ff6fcba3" kind="variable"><name>invSigmaModifier</name></member>
     <member refid="group__GeneralGroup_1gafd4ee185f46d54c4c9a9c62b2e2c6376" kind="variable"><name>sqrtAngleWeight</name></member>
@@ -8153,9 +8153,9 @@
     <member refid="group__GeneralGroup_1gad30c0a7b27c4a1b5818cb7fc981403c3" kind="variable"><name>ptColors</name></member>
     <member refid="group__GeneralGroup_1ga72818af22d20fbdc8695061a8dd48c85" kind="variable"><name>vColors</name></member>
     <member refid="group__GeneralGroup_1ga1f8072d5242c289b8aa4c442285102e2" kind="variable"><name>progress</name></member>
-    <member refid="group__GeneralGroup_1gaf3662f6cb85200f4c4cda226fbccd906" kind="variable"><name>createVolumeCallbackByParts</name></member>
-    <member refid="group__GeneralGroup_1ga8b138263fc573979abd2164776d90cf1" kind="variable"><name>createVolumeCallback</name></member>
-    <member refid="group__GeneralGroup_1ga822cdf3f2f86316327a0960f8057a642" kind="variable"><name>canCreateVolume</name></member>
+    <member refid="group__GeneralGroup_1gab87c2a1f3fa531fdd137e32dd33c1267" kind="variable"><name>createVolumeCallbackByParts</name></member>
+    <member refid="group__GeneralGroup_1ga79ea998979bc61c402e801d6a82b292d" kind="variable"><name>createVolumeCallback</name></member>
+    <member refid="group__GeneralGroup_1gac61d0ecf32889b1131e50a2bbe6e852c" kind="variable"><name>canCreateVolume</name></member>
   </compound>
   <compound refid="classMR_1_1Cuda_1_1PointsToMeshProjector" kind="class"><name>MR::Cuda::PointsToMeshProjector</name>
     <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a2a52d4ebf64fb6db0fe6ecb8381c42f9" kind="variable"><name>meshData_</name></member>
@@ -23746,7 +23746,7 @@
     <member refid="group__GeneralGroup_1ga92d4aead46ac278be1c9152c417996d2" kind="variable"><name>invSigmaModifier</name></member>
     <member refid="group__GeneralGroup_1ga274559a52cc5261e0889ea85b133b605" kind="variable"><name>sqrtAngleWeight</name></member>
     <member refid="group__GeneralGroup_1ga6253a7998223b8c2a5fffd0092b5883b" kind="variable"><name>ptNormals</name></member>
-    <member refid="group__GeneralGroup_1ga3b8a586729f91eac7c41aea0f4e22e06" kind="variable"><name>sigma</name></member>
+    <member refid="group__GeneralGroup_1ga8fb48f274f70639a9be5fdadbbf8224e" kind="variable"><name>sigma</name></member>
     <member refid="group__GeneralGroup_1ga3bdeb5a4cdd00fc36ce6089cede17c0b" kind="variable"><name>minWeight</name></member>
     <member refid="group__GeneralGroup_1ga233f40339195db2ce32c5bd0ff6fcba3" kind="variable"><name>invSigmaModifier</name></member>
     <member refid="group__GeneralGroup_1gafd4ee185f46d54c4c9a9c62b2e2c6376" kind="variable"><name>sqrtAngleWeight</name></member>
@@ -23754,9 +23754,9 @@
     <member refid="group__GeneralGroup_1gad30c0a7b27c4a1b5818cb7fc981403c3" kind="variable"><name>ptColors</name></member>
     <member refid="group__GeneralGroup_1ga72818af22d20fbdc8695061a8dd48c85" kind="variable"><name>vColors</name></member>
     <member refid="group__GeneralGroup_1ga1f8072d5242c289b8aa4c442285102e2" kind="variable"><name>progress</name></member>
-    <member refid="group__GeneralGroup_1gaf3662f6cb85200f4c4cda226fbccd906" kind="variable"><name>createVolumeCallbackByParts</name></member>
-    <member refid="group__GeneralGroup_1ga8b138263fc573979abd2164776d90cf1" kind="variable"><name>createVolumeCallback</name></member>
-    <member refid="group__GeneralGroup_1ga822cdf3f2f86316327a0960f8057a642" kind="variable"><name>canCreateVolume</name></member>
+    <member refid="group__GeneralGroup_1gab87c2a1f3fa531fdd137e32dd33c1267" kind="variable"><name>createVolumeCallbackByParts</name></member>
+    <member refid="group__GeneralGroup_1ga79ea998979bc61c402e801d6a82b292d" kind="variable"><name>createVolumeCallback</name></member>
+    <member refid="group__GeneralGroup_1gac61d0ecf32889b1131e50a2bbe6e852c" kind="variable"><name>canCreateVolume</name></member>
     <member refid="group__GeneralGroup_1ga6960b88843f2b683f6dbca4f21e82e86" kind="variable"><name>voxelSize</name></member>
     <member refid="group__GeneralGroup_1gab8af98052b328483ec0a8dbdb0cedee6" kind="variable"><name>offsetCount</name></member>
     <member refid="group__GeneralGroup_1ga76602992e23d6f79b59d711bca173a3f" kind="variable"><name>worldXf</name></member>

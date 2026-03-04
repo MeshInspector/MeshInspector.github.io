@@ -4,7 +4,7 @@
     <compoundname>MR::PointsToMeshParameters</compoundname>
     <includes refid="MRPointsToMeshFusion_8h" local="no">MRVoxels/MRPointsToMeshFusion.h</includes>
     <sectiondef kind="public-attrib">
-      <member refid="group__GeneralGroup_1ga3b8a586729f91eac7c41aea0f4e22e06" kind="variable"><name>sigma</name></member>
+      <member refid="group__GeneralGroup_1ga8fb48f274f70639a9be5fdadbbf8224e" kind="variable"><name>sigma</name></member>
       <member refid="group__GeneralGroup_1ga3bdeb5a4cdd00fc36ce6089cede17c0b" kind="variable"><name>minWeight</name></member>
       <member refid="group__GeneralGroup_1ga233f40339195db2ce32c5bd0ff6fcba3" kind="variable"><name>invSigmaModifier</name></member>
       <member refid="group__GeneralGroup_1gafd4ee185f46d54c4c9a9c62b2e2c6376" kind="variable"><name>sqrtAngleWeight</name></member>
@@ -12,24 +12,24 @@
       <member refid="group__GeneralGroup_1gad30c0a7b27c4a1b5818cb7fc981403c3" kind="variable"><name>ptColors</name></member>
       <member refid="group__GeneralGroup_1ga72818af22d20fbdc8695061a8dd48c85" kind="variable"><name>vColors</name></member>
       <member refid="group__GeneralGroup_1ga1f8072d5242c289b8aa4c442285102e2" kind="variable"><name>progress</name></member>
-      <member refid="group__GeneralGroup_1gaf3662f6cb85200f4c4cda226fbccd906" kind="variable"><name>createVolumeCallbackByParts</name></member>
-      <member refid="group__GeneralGroup_1ga8b138263fc573979abd2164776d90cf1" kind="variable"><name>createVolumeCallback</name></member>
-      <member refid="group__GeneralGroup_1ga822cdf3f2f86316327a0960f8057a642" kind="variable"><name>canCreateVolume</name></member>
+      <member refid="group__GeneralGroup_1gab87c2a1f3fa531fdd137e32dd33c1267" kind="variable"><name>createVolumeCallbackByParts</name></member>
+      <member refid="group__GeneralGroup_1ga79ea998979bc61c402e801d6a82b292d" kind="variable"><name>createVolumeCallback</name></member>
+      <member refid="group__GeneralGroup_1gac61d0ecf32889b1131e50a2bbe6e852c" kind="variable"><name>canCreateVolume</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRVoxels/MRPointsToMeshFusion.h" line="16" column="1" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="17" bodyend="55"/>
+    <location file="MRVoxels/MRPointsToMeshFusion.h" line="17" column="1" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="18" bodyend="58"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga822cdf3f2f86316327a0960f8057a642" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>canCreateVolume</name></member>
-      <member refid="group__GeneralGroup_1ga8b138263fc573979abd2164776d90cf1" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>createVolumeCallback</name></member>
-      <member refid="group__GeneralGroup_1gaf3662f6cb85200f4c4cda226fbccd906" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>createVolumeCallbackByParts</name></member>
+      <member refid="group__GeneralGroup_1gac61d0ecf32889b1131e50a2bbe6e852c" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>canCreateVolume</name></member>
+      <member refid="group__GeneralGroup_1ga79ea998979bc61c402e801d6a82b292d" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>createVolumeCallback</name></member>
+      <member refid="group__GeneralGroup_1gab87c2a1f3fa531fdd137e32dd33c1267" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>createVolumeCallbackByParts</name></member>
       <member refid="group__GeneralGroup_1ga233f40339195db2ce32c5bd0ff6fcba3" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>invSigmaModifier</name></member>
       <member refid="group__GeneralGroup_1ga3bdeb5a4cdd00fc36ce6089cede17c0b" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>minWeight</name></member>
       <member refid="group__GeneralGroup_1ga1f8072d5242c289b8aa4c442285102e2" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>progress</name></member>
       <member refid="group__GeneralGroup_1gad30c0a7b27c4a1b5818cb7fc981403c3" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>ptColors</name></member>
-      <member refid="group__GeneralGroup_1ga3b8a586729f91eac7c41aea0f4e22e06" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>sigma</name></member>
+      <member refid="group__GeneralGroup_1ga8fb48f274f70639a9be5fdadbbf8224e" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>sigma</name></member>
       <member refid="group__GeneralGroup_1gafd4ee185f46d54c4c9a9c62b2e2c6376" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>sqrtAngleWeight</name></member>
       <member refid="group__GeneralGroup_1ga72818af22d20fbdc8695061a8dd48c85" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>vColors</name></member>
       <member refid="group__GeneralGroup_1ga00eeb792ec36e21c8cc51989d1052210" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>voxelSize</name></member>

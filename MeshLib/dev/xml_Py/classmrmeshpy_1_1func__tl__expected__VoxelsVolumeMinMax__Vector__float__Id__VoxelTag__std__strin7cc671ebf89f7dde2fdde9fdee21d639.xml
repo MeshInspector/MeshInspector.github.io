@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1aaa1d4a0fae9a8d677a9f109da9bf851a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77567" bodyend="77568"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1aaf3ae5a19187c822ce63a7c409673115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref></type>
+        <definition> SimpleVolumeMinMax mrmeshpy.func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams.__call__</definition>
+        <argsstring>(self, PointCloud arg0, PointsToDistanceVolumeParams arg1)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77569" bodyend="77570"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1a9b788f15793cf86d1b3ea7adefb0199c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77572" bodyend="77573"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1aa172b46e157b6a914313e09979096971" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77575" bodyend="77576"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1ad056fd20d932221ea1f4b772a81fcc03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams.__init__</definition>
+        <argsstring>(self, func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639" kindref="compound">func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77578" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77578" bodyend="77579"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1a15d8b80d28f382bd6bfa500c61f1c420" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77580" bodyend="77583"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1a7511ca64367cb8f85ee3435850f074e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77584" bodyend="77587"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77566" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77566" bodyend="77587"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1aaa1d4a0fae9a8d677a9f109da9bf851a" prot="public" virt="non-virtual"><scope>mrmeshpy::func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1aaf3ae5a19187c822ce63a7c409673115" prot="public" virt="non-virtual"><scope>mrmeshpy::func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1a9b788f15793cf86d1b3ea7adefb0199c" prot="public" virt="non-virtual"><scope>mrmeshpy::func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1aa172b46e157b6a914313e09979096971" prot="public" virt="non-virtual"><scope>mrmeshpy::func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1ad056fd20d932221ea1f4b772a81fcc03" prot="public" virt="non-virtual"><scope>mrmeshpy::func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1a15d8b80d28f382bd6bfa500c61f1c420" prot="public" virt="non-virtual"><scope>mrmeshpy::func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1a7511ca64367cb8f85ee3435850f074e3" prot="public" virt="non-virtual"><scope>mrmeshpy::func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -159,6 +159,8 @@ $(function(){initNavTree('classMR_1_1PointsToMeshParameters.html','','classMR_1_
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a769a4608cfe2ade7419accaac40ea706" id="r_a769a4608cfe2ade7419accaac40ea706"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a769a4608cfe2ade7419accaac40ea706">PointsToMeshParameters</a> ()</td></tr>
 <tr class="memdesc:a769a4608cfe2ade7419accaac40ea706"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="memitem:a65d2ff0f0281d693fd3adaad535fc179" id="r_a65d2ff0f0281d693fd3adaad535fc179"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65d2ff0f0281d693fd3adaad535fc179">PointsToMeshParameters</a> (float <a class="el" href="#a58a4f83b2417d6c88131a6d0c43b1f57">sigma</a>, float <a class="el" href="#a5ff8455f44ce9ed6c9b7fd3496d854d3">minWeight</a>, float <a class="el" href="#aa61a7dd4cb2710f70845c9b3795b9e8d">invSigmaModifier</a>, bool <a class="el" href="#a10bb4252fcde94c4eb0b5cff47961e4f">sqrtAngleWeight</a>, float <a class="el" href="#a1f898069b35d15056dcb8fbd26242357">voxelSize</a>, MR.Const_VertColors? <a class="el" href="#affb338bbb532625c6377d3a5c08059b8">ptColors</a>, <a class="el" href="classMR_1_1VertColors.html">MR.VertColors</a>? <a class="el" href="#af0f8c78fe86d196cb36164132d7ea88e">vColors</a>, MR.Std._ByValue_Function_BoolFuncFromFloat <a class="el" href="#a03c758b506378397697042f5b387acca">progress</a>, MR.Std._ByValue_Function_ExpectedVoidStdStringFuncFromConstMRPointCloudRefConstMRPointsToDistanceVolumeParamsRefStdFunctionExpectedVoidStdStringFromConstMRSimpleVolumeMinMaxRefIntInt <a class="el" href="#a081e4ad7b5f579686c89f9bb17205a3a">createVolumeCallbackByParts</a>, MR.Std._ByValue_Function_ExpectedMRSimpleVolumeMinMaxStdStringFuncFromConstMRPointCloudRefConstMRPointsToDistanceVolumeParamsRef <a class="el" href="#a82c735965e0ca84f8007880ffdd0380f">createVolumeCallback</a>, MR.Std._ByValue_Function_BoolFuncFromConstMRPointCloudRefConstMRPointsToDistanceVolumeParamsRef <a class="el" href="#a036116cce88bb039b99660e9b90083ef">canCreateVolume</a>)</td></tr>
+<tr class="memdesc:a65d2ff0f0281d693fd3adaad535fc179"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <span class="tt"><a class="el" href="classMR_1_1PointsToMeshParameters.html" title="Generated from class MR.PointsToMeshParameters. This is the non-const half of the class.">MR.PointsToMeshParameters</a></span> elementwise.  <br /></td></tr>
 <tr class="memitem:a73f41c25251a4a618deaf9bcd9e78619" id="r_a73f41c25251a4a618deaf9bcd9e78619"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73f41c25251a4a618deaf9bcd9e78619">PointsToMeshParameters</a> (MR._ByValue_PointsToMeshParameters _other)</td></tr>
 <tr class="memdesc:a73f41c25251a4a618deaf9bcd9e78619"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a769a4608cfe2ade7419accaac40ea706" title="Constructs an empty (default-constructed) instance.">MR.PointsToMeshParameters.PointsToMeshParameters</a></span>.  <br /></td></tr>
 <tr class="memitem:aad07539810301017bebf8d996fc64bd9" id="r_aad07539810301017bebf8d996fc64bd9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad07539810301017bebf8d996fc64bd9">PointsToMeshParameters</a> (Const_PointsToMeshParameters _other)</td></tr>
@@ -186,12 +188,18 @@ Properties</h2></td></tr>
 <tr class="memdesc:af0f8c78fe86d196cb36164132d7ea88e"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: averaged colors of mesh vertices  <br /></td></tr>
 <tr class="memitem:a03c758b506378397697042f5b387acca" id="r_a03c758b506378397697042f5b387acca"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Bool_From_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03c758b506378397697042f5b387acca">progress</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a03c758b506378397697042f5b387acca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress callback.  <br /></td></tr>
+<tr class="memitem:a081e4ad7b5f579686c89f9bb17205a3a" id="r_a081e4ad7b5f579686c89f9bb17205a3a"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_ExpectedVoidStdString_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef_StdFunctionExpectedVoidStdStringFromConstMRSimpleVolumeMinMaxRefInt_Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a081e4ad7b5f579686c89f9bb17205a3a">createVolumeCallbackByParts</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a081e4ad7b5f579686c89f9bb17205a3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for volume creation by parts. If both volume creation functions are null - volume will be created with memory efficient pointsToDistanceFunctionVolume function This callback takes precedence over createVolumeCallback.  <br /></td></tr>
+<tr class="memitem:a82c735965e0ca84f8007880ffdd0380f" id="r_a82c735965e0ca84f8007880ffdd0380f"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_ExpectedMRSimpleVolumeMinMaxStdString_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82c735965e0ca84f8007880ffdd0380f">createVolumeCallback</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a82c735965e0ca84f8007880ffdd0380f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for volume creation. If both volume creation functions are null - volume will be created with memory efficient pointsToDistanceFunctionVolume function.  <br /></td></tr>
+<tr class="memitem:a036116cce88bb039b99660e9b90083ef" id="r_a036116cce88bb039b99660e9b90083ef"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Bool_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a036116cce88bb039b99660e9b90083ef">canCreateVolume</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a036116cce88bb039b99660e9b90083ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for checking whether it's possible to use the volume creation function.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generated from class <span class="tt"><a class="el" href="classMR_1_1PointsToMeshParameters.html" title="Generated from class MR.PointsToMeshParameters. This is the non-const half of the class.">MR.PointsToMeshParameters</a></span>. This is the non-const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a769a4608cfe2ade7419accaac40ea706" name="a769a4608cfe2ade7419accaac40ea706"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a769a4608cfe2ade7419accaac40ea706">&#9670;&#160;</a></span>PointsToMeshParameters() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a769a4608cfe2ade7419accaac40ea706">&#9670;&#160;</a></span>PointsToMeshParameters() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -217,8 +225,84 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a65d2ff0f0281d693fd3adaad535fc179" name="a65d2ff0f0281d693fd3adaad535fc179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65d2ff0f0281d693fd3adaad535fc179">&#9670;&#160;</a></span>PointsToMeshParameters() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.PointsToMeshParameters.PointsToMeshParameters </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>sigma</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minWeight</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>invSigmaModifier</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>sqrtAngleWeight</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>voxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_VertColors?</td>          <td class="paramname"><span class="paramname"><em>ptColors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1VertColors.html">MR.VertColors</a>?</td>          <td class="paramname"><span class="paramname"><em>vColors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat</td>          <td class="paramname"><span class="paramname"><em>progress</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_ExpectedVoidStdStringFuncFromConstMRPointCloudRefConstMRPointsToDistanceVolumeParamsRefStdFunctionExpectedVoidStdStringFromConstMRSimpleVolumeMinMaxRefIntInt</td>          <td class="paramname"><span class="paramname"><em>createVolumeCallbackByParts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_ExpectedMRSimpleVolumeMinMaxStdStringFuncFromConstMRPointCloudRefConstMRPointsToDistanceVolumeParamsRef</td>          <td class="paramname"><span class="paramname"><em>createVolumeCallback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromConstMRPointCloudRefConstMRPointsToDistanceVolumeParamsRef</td>          <td class="paramname"><span class="paramname"><em>canCreateVolume</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs <span class="tt"><a class="el" href="classMR_1_1PointsToMeshParameters.html" title="Generated from class MR.PointsToMeshParameters. This is the non-const half of the class.">MR.PointsToMeshParameters</a></span> elementwise. </p>
+
+</div>
+</div>
 <a id="a73f41c25251a4a618deaf9bcd9e78619" name="a73f41c25251a4a618deaf9bcd9e78619"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73f41c25251a4a618deaf9bcd9e78619">&#9670;&#160;</a></span>PointsToMeshParameters() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a73f41c25251a4a618deaf9bcd9e78619">&#9670;&#160;</a></span>PointsToMeshParameters() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -245,7 +329,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="aad07539810301017bebf8d996fc64bd9" name="aad07539810301017bebf8d996fc64bd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad07539810301017bebf8d996fc64bd9">&#9670;&#160;</a></span>PointsToMeshParameters() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aad07539810301017bebf8d996fc64bd9">&#9670;&#160;</a></span>PointsToMeshParameters() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,7 +356,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a07b589e8cfa103343619e5b987c26f41" name="a07b589e8cfa103343619e5b987c26f41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07b589e8cfa103343619e5b987c26f41">&#9670;&#160;</a></span>PointsToMeshParameters() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a07b589e8cfa103343619e5b987c26f41">&#9670;&#160;</a></span>PointsToMeshParameters() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -327,6 +411,78 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">Property Documentation</h2>
+<a id="a036116cce88bb039b99660e9b90083ef" name="a036116cce88bb039b99660e9b90083ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a036116cce88bb039b99660e9b90083ef">&#9670;&#160;</a></span>canCreateVolume</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">new unsafe MR.Std.Function_Bool_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef MR.PointsToMeshParameters.canCreateVolume</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel protected-set">protected set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Callback for checking whether it's possible to use the volume creation function. </p>
+
+</div>
+</div>
+<a id="a82c735965e0ca84f8007880ffdd0380f" name="a82c735965e0ca84f8007880ffdd0380f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82c735965e0ca84f8007880ffdd0380f">&#9670;&#160;</a></span>createVolumeCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">new unsafe MR.Std.Function_ExpectedMRSimpleVolumeMinMaxStdString_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef MR.PointsToMeshParameters.createVolumeCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel protected-set">protected set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Callback for volume creation. If both volume creation functions are null - volume will be created with memory efficient pointsToDistanceFunctionVolume function. </p>
+
+</div>
+</div>
+<a id="a081e4ad7b5f579686c89f9bb17205a3a" name="a081e4ad7b5f579686c89f9bb17205a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a081e4ad7b5f579686c89f9bb17205a3a">&#9670;&#160;</a></span>createVolumeCallbackByParts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">new unsafe MR.Std.Function_ExpectedVoidStdString_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef_StdFunctionExpectedVoidStdStringFromConstMRSimpleVolumeMinMaxRefInt_Int MR.PointsToMeshParameters.createVolumeCallbackByParts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel protected-set">protected set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Callback for volume creation by parts. If both volume creation functions are null - volume will be created with memory efficient pointsToDistanceFunctionVolume function This callback takes precedence over createVolumeCallback. </p>
+
+</div>
+</div>
 <a id="aa61a7dd4cb2710f70845c9b3795b9e8d" name="aa61a7dd4cb2710f70845c9b3795b9e8d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa61a7dd4cb2710f70845c9b3795b9e8d">&#9670;&#160;</a></span>invSigmaModifier</h2>
 
