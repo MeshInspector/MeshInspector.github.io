@@ -164,16 +164,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aca102c7cdc39358341ad9213620270a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a11962dd32eeeb55c9aa2dbb3ea05db65" title="Generated from constructor MR.Laplacian.Laplacian.">MR.Laplacian.Laplacian</a></span>.  <br /></td></tr>
 <tr class="memitem:a465de937f70863f60a48bdc752533568" id="r_a465de937f70863f60a48bdc752533568"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a465de937f70863f60a48bdc752533568">init</a> (MR.Const_VertBitSet freeVerts, <a class="el" href="classMR.html#a886c75fb9652aa7838a87d63c33a5f9e">MR.EdgeWeights</a> weights, <a class="el" href="classMR.html#ad5aa38a574d0ed7054d3cfbda73f5ca8">MR.VertexMass</a>? vmass=null, <a class="el" href="classMR.html#ada4b8bfa685e52d58d9a257d93a6d15d">MR.RememberShape</a>? rem=null)</td></tr>
 <tr class="memdesc:a465de937f70863f60a48bdc752533568"><td class="mdescLeft">&#160;</td><td class="mdescRight">(re)initialize <a class="el" href="classMR_1_1Laplacian.html" title="Laplacian to smoothly deform a region preserving mesh fine details. How to use:">Laplacian</a> for the region being deformed, here region properties are remembered and precomputed;  <br /></td></tr>
+<tr class="memitem:a95b7b062050fc6505a5a7b7f01bb0cf6" id="r_a95b7b062050fc6505a5a7b7f01bb0cf6"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95b7b062050fc6505a5a7b7f01bb0cf6">initFromPoints</a> (MR.Const_VertCoords points, MR.Const_VertBitSet freeVerts, <a class="el" href="classMR.html#a886c75fb9652aa7838a87d63c33a5f9e">MR.EdgeWeights</a> weights, <a class="el" href="classMR.html#ad5aa38a574d0ed7054d3cfbda73f5ca8">MR.VertexMass</a>? vmass=null, <a class="el" href="classMR.html#ada4b8bfa685e52d58d9a257d93a6d15d">MR.RememberShape</a>? rem=null)</td></tr>
+<tr class="memdesc:a95b7b062050fc6505a5a7b7f01bb0cf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as <a class="el" href="#a465de937f70863f60a48bdc752533568" title="(re)initialize Laplacian for the region being deformed, here region properties are remembered and pre...">init()</a> but uses the given points instead of ones passed to a constructor for weights computation and shape memory Generated from method <span class="tt"><a class="el" href="#a95b7b062050fc6505a5a7b7f01bb0cf6" title="same as init() but uses the given points instead of ones passed to a constructor for weights computat...">MR.Laplacian.initFromPoints</a></span>. Parameter <span class="tt">vmass</span> defaults to <span class="tt"><a class="el" href="classMR.html#ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" title="all vertices have same mass=1">VertexMass.Unit</a></span>. Parameter <span class="tt">rem</span> defaults to <span class="tt"><a class="el" href="classMR.html#ada4b8bfa685e52d58d9a257d93a6d15da93cba07454f06a4a960172bbd6e2a435" title="true Laplacian mode when initial mesh shape is remembered and copied in apply">RememberShape.Yes</a></span>.  <br /></td></tr>
 <tr class="memitem:a479045a960528acf02d857b5d88a13e5" id="r_a479045a960528acf02d857b5d88a13e5"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a479045a960528acf02d857b5d88a13e5">fixVertex</a> (<a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v, bool? smooth=null)</td></tr>
 <tr class="memdesc:a479045a960528acf02d857b5d88a13e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">notify <a class="el" href="classMR_1_1Laplacian.html" title="Laplacian to smoothly deform a region preserving mesh fine details. How to use:">Laplacian</a> that given vertex has changed after init and must be fixed during apply;  <br /></td></tr>
 <tr class="memitem:af57ef04dfe76e47096b1075975ceb84d" id="r_af57ef04dfe76e47096b1075975ceb84d"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af57ef04dfe76e47096b1075975ceb84d">fixVertex</a> (<a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> fixedPos, bool? smooth=null)</td></tr>
 <tr class="memdesc:af57ef04dfe76e47096b1075975ceb84d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets position of given vertex after init and it must be fixed during apply (THIS METHOD CHANGES THE MESH);  <br /></td></tr>
 <tr class="memitem:a6ab6466ee01c85f49d6bfd5955ba7de0" id="r_a6ab6466ee01c85f49d6bfd5955ba7de0"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ab6466ee01c85f49d6bfd5955ba7de0">updateSolver</a> ()</td></tr>
 <tr class="memdesc:a6ab6466ee01c85f49d6bfd5955ba7de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">if you manually call this method after initialization and fixing vertices then next apply call will be much faster Generated from method <span class="tt"><a class="el" href="#a6ab6466ee01c85f49d6bfd5955ba7de0" title="if you manually call this method after initialization and fixing vertices then next apply call will b...">MR.Laplacian.updateSolver</a></span>.  <br /></td></tr>
+<tr class="memitem:a91507160fd4cef218a0745c4e96692db" id="r_a91507160fd4cef218a0745c4e96692db"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91507160fd4cef218a0745c4e96692db">applyToVector</a> (<a class="el" href="classMR_1_1VertCoords.html">MR.VertCoords</a> points)</td></tr>
+<tr class="memdesc:a91507160fd4cef218a0745c4e96692db"><td class="mdescLeft">&#160;</td><td class="mdescRight">takes fixed vertex positions from the given points vector, computes and writes free vertex positions in the given points vector as well Generated from method <span class="tt"><a class="el" href="#a91507160fd4cef218a0745c4e96692db" title="takes fixed vertex positions from the given points vector, computes and writes free vertex positions ...">MR.Laplacian.applyToVector</a></span>.  <br /></td></tr>
 <tr class="memitem:adec94b8812ff2f12bbe9e564894393f4" id="r_adec94b8812ff2f12bbe9e564894393f4"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adec94b8812ff2f12bbe9e564894393f4">apply</a> ()</td></tr>
-<tr class="memdesc:adec94b8812ff2f12bbe9e564894393f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">given fixed vertices, computes positions of remaining region vertices Generated from method <span class="tt"><a class="el" href="#adec94b8812ff2f12bbe9e564894393f4" title="given fixed vertices, computes positions of remaining region vertices Generated from method MR....">MR.Laplacian.apply</a></span>.  <br /></td></tr>
+<tr class="memdesc:adec94b8812ff2f12bbe9e564894393f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">takes fixed vertex positions from the points vector passed to a constructor, computes and writes free vertex positions in the points vector passed to a constructor as well Generated from method <span class="tt"><a class="el" href="#adec94b8812ff2f12bbe9e564894393f4" title="takes fixed vertex positions from the points vector passed to a constructor, computes and writes free...">MR.Laplacian.apply</a></span>.  <br /></td></tr>
 <tr class="memitem:ad42cac80dba53264cee7888c3f137692" id="r_ad42cac80dba53264cee7888c3f137692"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad42cac80dba53264cee7888c3f137692">applyToScalar</a> (<a class="el" href="classMR_1_1VertScalars.html">MR.VertScalars</a> scalarField)</td></tr>
-<tr class="memdesc:ad42cac80dba53264cee7888c3f137692"><td class="mdescLeft">&#160;</td><td class="mdescRight">given a pre-resized scalar field with set values in fixed vertices, computes the values in free vertices Generated from method <span class="tt"><a class="el" href="#ad42cac80dba53264cee7888c3f137692" title="given a pre-resized scalar field with set values in fixed vertices, computes the values in free verti...">MR.Laplacian.applyToScalar</a></span>.  <br /></td></tr>
+<tr class="memdesc:ad42cac80dba53264cee7888c3f137692"><td class="mdescLeft">&#160;</td><td class="mdescRight">takes fixed vertex scalars from the given field, computes and writes free vertex scalars in the given field as well Generated from method <span class="tt"><a class="el" href="#ad42cac80dba53264cee7888c3f137692" title="takes fixed vertex scalars from the given field, computes and writes free vertex scalars in the given...">MR.Laplacian.applyToScalar</a></span>.  <br /></td></tr>
 <tr class="memitem:ae9c5b3e5929d54897288eb716c3f9b94" id="r_ae9c5b3e5929d54897288eb716c3f9b94"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9c5b3e5929d54897288eb716c3f9b94">addAttractor</a> (MR.Laplacian.Const_Attractor a)</td></tr>
 <tr class="memdesc:ae9c5b3e5929d54897288eb716c3f9b94"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds one more attractor to the stored list Generated from method <span class="tt"><a class="el" href="#ae9c5b3e5929d54897288eb716c3f9b94" title="adds one more attractor to the stored list Generated from method MR.Laplacian.addAttractor.">MR.Laplacian.addAttractor</a></span>.  <br /></td></tr>
 <tr class="memitem:acaa475d8642e7687fdf8d220796796cc" id="r_acaa475d8642e7687fdf8d220796796cc"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acaa475d8642e7687fdf8d220796796cc">removeAllAttractors</a> ()</td></tr>
@@ -185,7 +189,7 @@ Public Member Functions</h2></td></tr>
 <li>Initialize <a class="el" href="classMR_1_1Laplacian.html" title="Laplacian to smoothly deform a region preserving mesh fine details. How to use:">Laplacian</a> for the region being deformed, here region properties are remembered.</li>
 <li>Change positions of some vertices within the region and call fixVertex for them.</li>
 <li>Optionally call <a class="el" href="#a6ab6466ee01c85f49d6bfd5955ba7de0" title="if you manually call this method after initialization and fixing vertices then next apply call will b...">updateSolver()</a></li>
-<li>Call <a class="el" href="#adec94b8812ff2f12bbe9e564894393f4" title="given fixed vertices, computes positions of remaining region vertices Generated from method MR....">apply()</a> to change the remaining vertices within the region Then steps 1-4 or 2-4 can be repeated. <div class="fragment"></div><!-- fragment --> Generated from class <span class="tt"><a class="el" href="classMR_1_1Laplacian.html" title="Laplacian to smoothly deform a region preserving mesh fine details. How to use:">MR.Laplacian</a></span>. This is the non-const half of the class. </li>
+<li>Call <a class="el" href="#adec94b8812ff2f12bbe9e564894393f4" title="takes fixed vertex positions from the points vector passed to a constructor, computes and writes free...">apply()</a> to change the remaining vertices within the region Then steps 1-4 or 2-4 can be repeated. <div class="fragment"></div><!-- fragment --> Generated from class <span class="tt"><a class="el" href="classMR_1_1Laplacian.html" title="Laplacian to smoothly deform a region preserving mesh fine details. How to use:">MR.Laplacian</a></span>. This is the non-const half of the class. </li>
 </ol>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a11962dd32eeeb55c9aa2dbb3ea05db65" name="a11962dd32eeeb55c9aa2dbb3ea05db65"></a>
@@ -324,7 +328,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>given fixed vertices, computes positions of remaining region vertices Generated from method <span class="tt"><a class="el" href="#adec94b8812ff2f12bbe9e564894393f4" title="given fixed vertices, computes positions of remaining region vertices Generated from method MR....">MR.Laplacian.apply</a></span>. </p>
+<p>takes fixed vertex positions from the points vector passed to a constructor, computes and writes free vertex positions in the points vector passed to a constructor as well Generated from method <span class="tt"><a class="el" href="#adec94b8812ff2f12bbe9e564894393f4" title="takes fixed vertex positions from the points vector passed to a constructor, computes and writes free...">MR.Laplacian.apply</a></span>. </p>
 
 </div>
 </div>
@@ -351,7 +355,34 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>given a pre-resized scalar field with set values in fixed vertices, computes the values in free vertices Generated from method <span class="tt"><a class="el" href="#ad42cac80dba53264cee7888c3f137692" title="given a pre-resized scalar field with set values in fixed vertices, computes the values in free verti...">MR.Laplacian.applyToScalar</a></span>. </p>
+<p>takes fixed vertex scalars from the given field, computes and writes free vertex scalars in the given field as well Generated from method <span class="tt"><a class="el" href="#ad42cac80dba53264cee7888c3f137692" title="takes fixed vertex scalars from the given field, computes and writes free vertex scalars in the given...">MR.Laplacian.applyToScalar</a></span>. </p>
+
+</div>
+</div>
+<a id="a91507160fd4cef218a0745c4e96692db" name="a91507160fd4cef218a0745c4e96692db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91507160fd4cef218a0745c4e96692db">&#9670;&#160;</a></span>applyToVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.Laplacian.applyToVector </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1VertCoords.html">MR.VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>takes fixed vertex positions from the given points vector, computes and writes free vertex positions in the given points vector as well Generated from method <span class="tt"><a class="el" href="#a91507160fd4cef218a0745c4e96692db" title="takes fixed vertex positions from the given points vector, computes and writes free vertex positions ...">MR.Laplacian.applyToVector</a></span>. </p>
 
 </div>
 </div>
@@ -474,10 +505,57 @@ Public Member Functions</h2></td></tr>
 <p>(re)initialize <a class="el" href="classMR_1_1Laplacian.html" title="Laplacian to smoothly deform a region preserving mesh fine details. How to use:">Laplacian</a> for the region being deformed, here region properties are remembered and precomputed; </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">freeVerts</td><td>must not include all vertices of a mesh connected component Generated from method <span class="tt"><a class="el" href="#a465de937f70863f60a48bdc752533568" title="(re)initialize Laplacian for the region being deformed, here region properties are remembered and pre...">MR.Laplacian.init</a></span>. Parameter <span class="tt">vmass</span> defaults to <span class="tt"><a class="el" href="classMR.html#ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" title="all vertices have same mass=1">VertexMass.Unit</a></span>. Parameter <span class="tt">rem</span> defaults to <span class="tt"><a class="el" href="classMR.html#ada4b8bfa685e52d58d9a257d93a6d15da93cba07454f06a4a960172bbd6e2a435" title="true Laplacian mode when initial mesh shape is remembered and copied in apply">RememberShape.Yes</a></span>. </td></tr>
+    <tr><td class="paramname">freeVerts</td><td>must not include all vertices of a mesh connected component; </td></tr>
+    <tr><td class="paramname">usePoints</td><td>is not nullptr, then these points will be used instead of passed to a constructor for weights computation and shape memory Generated from method <span class="tt"><a class="el" href="#a465de937f70863f60a48bdc752533568" title="(re)initialize Laplacian for the region being deformed, here region properties are remembered and pre...">MR.Laplacian.init</a></span>. Parameter <span class="tt">vmass</span> defaults to <span class="tt"><a class="el" href="classMR.html#ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" title="all vertices have same mass=1">VertexMass.Unit</a></span>. Parameter <span class="tt">rem</span> defaults to <span class="tt"><a class="el" href="classMR.html#ada4b8bfa685e52d58d9a257d93a6d15da93cba07454f06a4a960172bbd6e2a435" title="true Laplacian mode when initial mesh shape is remembered and copied in apply">RememberShape.Yes</a></span>. </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a95b7b062050fc6505a5a7b7f01bb0cf6" name="a95b7b062050fc6505a5a7b7f01bb0cf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95b7b062050fc6505a5a7b7f01bb0cf6">&#9670;&#160;</a></span>initFromPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.Laplacian.initFromPoints </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_VertCoords</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_VertBitSet</td>          <td class="paramname"><span class="paramname"><em>freeVerts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR.html#a886c75fb9652aa7838a87d63c33a5f9e">MR.EdgeWeights</a></td>          <td class="paramname"><span class="paramname"><em>weights</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR.html#ad5aa38a574d0ed7054d3cfbda73f5ca8">MR.VertexMass</a>?</td>          <td class="paramname"><span class="paramname"><em>vmass</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR.html#ada4b8bfa685e52d58d9a257d93a6d15d">MR.RememberShape</a>?</td>          <td class="paramname"><span class="paramname"><em>rem</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>same as <a class="el" href="#a465de937f70863f60a48bdc752533568" title="(re)initialize Laplacian for the region being deformed, here region properties are remembered and pre...">init()</a> but uses the given points instead of ones passed to a constructor for weights computation and shape memory Generated from method <span class="tt"><a class="el" href="#a95b7b062050fc6505a5a7b7f01bb0cf6" title="same as init() but uses the given points instead of ones passed to a constructor for weights computat...">MR.Laplacian.initFromPoints</a></span>. Parameter <span class="tt">vmass</span> defaults to <span class="tt"><a class="el" href="classMR.html#ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" title="all vertices have same mass=1">VertexMass.Unit</a></span>. Parameter <span class="tt">rem</span> defaults to <span class="tt"><a class="el" href="classMR.html#ada4b8bfa685e52d58d9a257d93a6d15da93cba07454f06a4a960172bbd6e2a435" title="true Laplacian mode when initial mesh shape is remembered and copied in apply">RememberShape.Yes</a></span>. </p>
 
 </div>
 </div>

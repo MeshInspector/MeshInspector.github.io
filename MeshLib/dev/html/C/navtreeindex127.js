@@ -1,5 +1,7 @@
 var NAVTREEINDEX127 =
 {
+"structMR__EdgeId.html":[6,2,0,0,17],
+"structMR__EdgeId.html#a15e0dc8bb877ee01d7cbaf634fd3acff":[6,2,0,0,17,0],
 "structMR__FaceId.html":[6,2,0,0,18],
 "structMR__FaceId.html#a7ae93aa9bc5bb188c24ad26df75f2069":[6,2,0,0,18,0],
 "structMR__GraphEdgeId.html":[6,2,0,0,19],

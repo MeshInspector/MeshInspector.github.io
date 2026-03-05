@@ -4626,14 +4626,14 @@
     <member refid="group__GeneralGroup_1gabc07a09dfcc8f49d9f1a0c2b985c1e66" kind="variable"><name>M_</name></member>
     <member refid="group__GeneralGroup_1ga1c5b2e08decdb2a6e4685ceea29cae61" kind="variable"><name>solverValid_</name></member>
     <member refid="group__GeneralGroup_1gade04ad69951c0a7fea994dd296614113" kind="variable"><name>solver_</name></member>
-    <member refid="group__GeneralGroup_1ga6d44777bdfa7499069c9d45cce1d557c" kind="variable"><name>rhsValid_</name></member>
-    <member refid="group__GeneralGroup_1gadb64b7ef76faa31ee82d787ea107dc93" kind="variable"><name>rhs_</name></member>
     <member refid="group__GeneralGroup_1ga701e06f6b7ebb3c08d691ca34ffeab37" kind="function"><name>Laplacian</name></member>
     <member refid="group__GeneralGroup_1ga76c6a49784d646ffed8a834c10e927df" kind="function"><name>Laplacian</name></member>
     <member refid="group__GeneralGroup_1ga4a5fd158281d7c2d11d4c1bfc6f0d42f" kind="function"><name>init</name></member>
+    <member refid="group__GeneralGroup_1gaf8c807b6eac743eb543a4d3f65c759e2" kind="function"><name>initFromPoints</name></member>
     <member refid="group__GeneralGroup_1ga85bd09ce8356a9b467ee3ede1c5aa296" kind="function"><name>fixVertex</name></member>
     <member refid="group__GeneralGroup_1gae0ad8bbfe008f8d2ad98d0f7e6e2a1cd" kind="function"><name>fixVertex</name></member>
     <member refid="group__GeneralGroup_1gaed49a7865f3de5ad169b768e09d8d91a" kind="function"><name>updateSolver</name></member>
+    <member refid="group__GeneralGroup_1ga6d897482a207ddf21fab0274e22a7133" kind="function"><name>applyToVector</name></member>
     <member refid="group__GeneralGroup_1ga13fee62f9942597d173e9f43fe75c60e" kind="function"><name>apply</name></member>
     <member refid="group__GeneralGroup_1ga175ea45bb3617c292306378d0ae533a0" kind="function"><name>applyToScalar</name></member>
     <member refid="group__GeneralGroup_1ga9ad9ba866f86e02979c7ad6b6af3331c" kind="function"><name>region</name></member>
@@ -4643,9 +4643,8 @@
     <member refid="group__GeneralGroup_1gadea5e520fb681e438a8ea02cc7ef2c2c" kind="function"><name>points</name></member>
     <member refid="group__GeneralGroup_1ga0568cc66101d05347d62733b8e9e6e1a" kind="function"><name>addAttractor</name></member>
     <member refid="group__GeneralGroup_1gac82a9081ff051fecccad5bd85d17e14b" kind="function"><name>removeAllAttractors</name></member>
-    <member refid="group__GeneralGroup_1gaa6b38e190238d2d7f20ec837ffecfb89" kind="function"><name>updateSolver_</name></member>
-    <member refid="group__GeneralGroup_1ga78041bf17776f7649162fdf85075ce35" kind="function"><name>updateRhs_</name></member>
-    <member refid="group__GeneralGroup_1gaed1eef6f6d9104e419065a9846ab33bb" kind="function"><name>prepareRhs_</name></member>
+    <member refid="group__GeneralGroup_1ga697c3e05cd9de41d9cdcf8c8faa16a12" kind="function"><name>findRhs_</name></member>
+    <member refid="group__GeneralGroup_1ga08aa4b53ab6af85b345b6cb5b2224629" kind="function"><name>prepareRhs_</name></member>
   </compound>
   <compound refid="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" kind="struct"><name>MR::MeshComponents::LargeByAreaComponentsSettings</name>
     <member refid="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a37b0bf2cf4c042ffe4a78515e1678539" kind="variable"><name>maxLargeComponents</name></member>
@@ -21347,8 +21346,6 @@
     <member refid="group__GeneralGroup_1gabc07a09dfcc8f49d9f1a0c2b985c1e66" kind="variable"><name>M_</name></member>
     <member refid="group__GeneralGroup_1ga1c5b2e08decdb2a6e4685ceea29cae61" kind="variable"><name>solverValid_</name></member>
     <member refid="group__GeneralGroup_1gade04ad69951c0a7fea994dd296614113" kind="variable"><name>solver_</name></member>
-    <member refid="group__GeneralGroup_1ga6d44777bdfa7499069c9d45cce1d557c" kind="variable"><name>rhsValid_</name></member>
-    <member refid="group__GeneralGroup_1gadb64b7ef76faa31ee82d787ea107dc93" kind="variable"><name>rhs_</name></member>
     <member refid="group__GeneralGroup_1gaca04c91be84f9b11da19a3e455b5a28a" kind="variable"><name>p</name></member>
     <member refid="group__GeneralGroup_1ga8b3c7d000e9148d5f14f3c7d0325c95b" kind="variable"><name>d</name></member>
     <member refid="group__GeneralGroup_1ga5a416b6364f2ec163ab839380998b247" kind="variable"><name>a</name></member>
@@ -25427,9 +25424,11 @@
     <member refid="group__GeneralGroup_1ga701e06f6b7ebb3c08d691ca34ffeab37" kind="function"><name>Laplacian</name></member>
     <member refid="group__GeneralGroup_1ga76c6a49784d646ffed8a834c10e927df" kind="function"><name>Laplacian</name></member>
     <member refid="group__GeneralGroup_1ga4a5fd158281d7c2d11d4c1bfc6f0d42f" kind="function"><name>init</name></member>
+    <member refid="group__GeneralGroup_1gaf8c807b6eac743eb543a4d3f65c759e2" kind="function"><name>initFromPoints</name></member>
     <member refid="group__GeneralGroup_1ga85bd09ce8356a9b467ee3ede1c5aa296" kind="function"><name>fixVertex</name></member>
     <member refid="group__GeneralGroup_1gae0ad8bbfe008f8d2ad98d0f7e6e2a1cd" kind="function"><name>fixVertex</name></member>
     <member refid="group__GeneralGroup_1gaed49a7865f3de5ad169b768e09d8d91a" kind="function"><name>updateSolver</name></member>
+    <member refid="group__GeneralGroup_1ga6d897482a207ddf21fab0274e22a7133" kind="function"><name>applyToVector</name></member>
     <member refid="group__GeneralGroup_1ga13fee62f9942597d173e9f43fe75c60e" kind="function"><name>apply</name></member>
     <member refid="group__GeneralGroup_1ga175ea45bb3617c292306378d0ae533a0" kind="function"><name>applyToScalar</name></member>
     <member refid="group__GeneralGroup_1ga9ad9ba866f86e02979c7ad6b6af3331c" kind="function"><name>region</name></member>
@@ -25439,9 +25438,8 @@
     <member refid="group__GeneralGroup_1gadea5e520fb681e438a8ea02cc7ef2c2c" kind="function"><name>points</name></member>
     <member refid="group__GeneralGroup_1ga0568cc66101d05347d62733b8e9e6e1a" kind="function"><name>addAttractor</name></member>
     <member refid="group__GeneralGroup_1gac82a9081ff051fecccad5bd85d17e14b" kind="function"><name>removeAllAttractors</name></member>
-    <member refid="group__GeneralGroup_1gaa6b38e190238d2d7f20ec837ffecfb89" kind="function"><name>updateSolver_</name></member>
-    <member refid="group__GeneralGroup_1ga78041bf17776f7649162fdf85075ce35" kind="function"><name>updateRhs_</name></member>
-    <member refid="group__GeneralGroup_1gaed1eef6f6d9104e419065a9846ab33bb" kind="function"><name>prepareRhs_</name></member>
+    <member refid="group__GeneralGroup_1ga697c3e05cd9de41d9cdcf8c8faa16a12" kind="function"><name>findRhs_</name></member>
+    <member refid="group__GeneralGroup_1ga08aa4b53ab6af85b345b6cb5b2224629" kind="function"><name>prepareRhs_</name></member>
     <member refid="group__GeneralGroup_1ga763eccd90d676a04208c718e89afbf18" kind="function"><name>~Solver</name></member>
     <member refid="group__GeneralGroup_1ga32171f867c3530ef5b8dbbe13cacd86a" kind="function"><name>compute</name></member>
     <member refid="group__GeneralGroup_1ga45582af69f6c747bd0d8dab89d918663" kind="function"><name>solve</name></member>

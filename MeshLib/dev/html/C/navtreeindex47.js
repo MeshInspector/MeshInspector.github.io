@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"MRLinesLoadSettings_8h.html#ae8f8153df8c6c14c6ad2a9ee3a40a76c":[6,2,1,0,0,0,1,138,7],
+"MRLinesLoadSettings_8h_source.html":[6,2,1,0,0,0,1,138],
 "MRLinesLoad_8h.html":[6,2,1,0,0,0,1,137],
 "MRLinesLoad_8h.html#a0b9dd44e384f50087be2efa5f099bb56":[6,2,1,0,0,0,1,137,0],
 "MRLinesLoad_8h.html#a7add80154a6684501460c767fb94ed1d":[6,2,1,0,0,0,1,137,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "MRMakeSphereMesh_8h.html#a54a4a1f9bd2cbeed7c70102c90a9ea1a":[6,2,1,0,0,0,1,144,12],
 "MRMakeSphereMesh_8h.html#a6c5f2bf0f96c5af33b70861d07004099":[6,2,1,0,0,0,1,144,10],
 "MRMakeSphereMesh_8h.html#a6f0617c3a0813ca86aa99f6725e9081d":[6,2,1,0,0,0,1,144,1],
-"MRMakeSphereMesh_8h.html#a7803160da2330a898b053fe1a4d12159":[6,2,1,0,0,0,1,144,17],
-"MRMakeSphereMesh_8h.html#a9affb74910b7c20082b0e6264308beed":[6,2,1,0,0,0,1,144,16],
-"MRMakeSphereMesh_8h.html#ac948a41d14b22e26571d1f27195861ae":[6,2,1,0,0,0,1,144,4]
+"MRMakeSphereMesh_8h.html#a7803160da2330a898b053fe1a4d12159":[6,2,1,0,0,0,1,144,17]
 };

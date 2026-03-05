@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html#ae394bef3a4ed47c0fe3ce1dbd6d1252d":[6,0,1,0,1,31,0,1],
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html#ae394bef3a4ed47c0fe3ce1dbd6d1252d":[6,0,2,0,2,18,0,1],
 "structMR_1_1PointsLoad_1_1NamedCloud.html":[6,0,1,0,1,31,1],
 "structMR_1_1PointsLoad_1_1NamedCloud.html":[6,0,2,0,2,18,1],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[6,0,1,0,1,31,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1SpaceMouseUpListener.html":[6,0,0,20,752],
 "structMR_1_1SpaceMouse_1_1Action.html":[6,0,1,0,1,42,0],
 "structMR_1_1SpaceMouse_1_1Action.html":[6,0,2,0,2,26,0],
-"structMR_1_1SpaceMouse_1_1Action.html#a1e0813c3c0900b8ea40740c8eadf381a":[6,0,1,0,1,42,0,1],
-"structMR_1_1SpaceMouse_1_1Action.html#a1e0813c3c0900b8ea40740c8eadf381a":[6,0,2,0,2,26,0,1],
-"structMR_1_1SpaceMouse_1_1Action.html#a7b51eab6ff82e23fface5fb492999ba3":[6,0,1,0,1,42,0,3]
+"structMR_1_1SpaceMouse_1_1Action.html#a1e0813c3c0900b8ea40740c8eadf381a":[6,0,1,0,1,42,0,1]
 };

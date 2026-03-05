@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"classMR_1_1PointsLoad_1_1NamedCloud.html#ac0a331cd09c0692bc5cc95635b7f918e":[6,3,0,0,0,672,1,0],
+"classMR_1_1PointsLoad_1_1NamedCloud.html#af7e1be1be7727221f0dd22f52c2f27f7":[6,3,0,0,0,672,1,6],
 "classMR_1_1PointsProjectionResult.html":[6,3,0,0,0,674],
 "classMR_1_1PointsProjectionResult.html#a0dd71e736b7a309a51c5d08b1cd332e3":[6,3,0,0,0,674,2],
 "classMR_1_1PointsProjectionResult.html#a50f3422a1882789078a53b61760fff99":[6,3,0,0,0,674,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "classMR_1_1PolylineSubdivideSettings.html#aef0e2b462d5e96efa9e91879401a1533":[6,3,0,0,0,692,6],
 "classMR_1_1PolylineToDistanceVolumeParams.html":[6,3,0,0,0,693],
 "classMR_1_1PolylineToDistanceVolumeParams.html#a0642f195bcfe6b6c4002546ec9183ae2":[6,3,0,0,0,693,5],
-"classMR_1_1PolylineToDistanceVolumeParams.html#a35d765f5d91360073e9a9b36c7e91548":[6,3,0,0,0,693,8],
-"classMR_1_1PolylineToDistanceVolumeParams.html#a384203b6ac878104e88a466f53360a49":[6,3,0,0,0,693,3],
-"classMR_1_1PolylineToDistanceVolumeParams.html#a3c1b6915cf1ea6dbfddca7f15a55269a":[6,3,0,0,0,693,0]
+"classMR_1_1PolylineToDistanceVolumeParams.html#a35d765f5d91360073e9a9b36c7e91548":[6,3,0,0,0,693,8]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1NoiseSettings.html#a08280435649fa38ec5b537310df39ab3":[6,3,0,0,0,594,0],
+"classMR_1_1NoiseSettings.html#a14a62b8c0c72d2b3433b3ad7ade7a1be":[6,3,0,0,0,594,7],
 "classMR_1_1NoiseSettings.html#a1ce686973d916ff084d0fde18d81b786":[6,3,0,0,0,594,5],
 "classMR_1_1NoiseSettings.html#a6dc72fb6a22a91c6e0c5427c19542399":[6,3,0,0,0,594,6],
 "classMR_1_1NoiseSettings.html#a888e1d3b5312b4a41b5d3cf0c8d502f0":[6,3,0,0,0,594,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1ObjectDistanceMap.html#ad163748bbe8875f3e2b31b7ebb4950d4":[6,3,0,0,0,601,36],
 "classMR_1_1ObjectDistanceMap.html#ad4fb7a4cae96348b76098130c3611854":[6,3,0,0,0,601,50],
 "classMR_1_1ObjectDistanceMap.html#ad717812d1c5c559206061de0ae6a8911":[6,3,0,0,0,601,49],
-"classMR_1_1ObjectDistanceMap.html#ad74ea2badb8ee58c5dafbcd463777d48":[6,3,0,0,0,601,87],
-"classMR_1_1ObjectDistanceMap.html#adc5a126cf94576a0810f56e7b8807431":[6,3,0,0,0,601,24],
-"classMR_1_1ObjectDistanceMap.html#adf95205409da41e8ba58428c8a1e9c74":[6,3,0,0,0,601,90]
+"classMR_1_1ObjectDistanceMap.html#ad74ea2badb8ee58c5dafbcd463777d48":[6,3,0,0,0,601,87]
 };

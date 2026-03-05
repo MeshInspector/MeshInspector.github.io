@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"classMR_1_1TextureBitSet.html":[6,3,0,0,0,822],
+"classMR_1_1TextureBitSet.html#a0e5709216b6ab0513661f60699b06c27":[6,3,0,0,0,822,19],
 "classMR_1_1TextureBitSet.html#a15950a3ac89a1aa73a0fc66d99d58450":[6,3,0,0,0,822,26],
 "classMR_1_1TextureBitSet.html#a190bad78c5dd3877938250a33ccbcd28":[6,3,0,0,0,822,23],
 "classMR_1_1TextureBitSet.html#a21a16455ee372d56d9a04a9454eaf03f":[6,3,0,0,0,822,30],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "classMR_1_1TriTriDistanceParams__Float.html#aea81af60550e409797ae8f65881c6257":[6,3,0,0,0,845,3],
 "classMR_1_1TriTriDistanceParams__Float.html#afb301eba4b4bcff07ba07ef85b8d77ee":[6,3,0,0,0,845,6],
 "classMR_1_1TriTriDistanceResult__Double.html":[6,3,0,0,0,846],
-"classMR_1_1TriTriDistanceResult__Double.html#a19d3ae959a3b5521cc5c8e45898eb313":[6,3,0,0,0,846,0],
-"classMR_1_1TriTriDistanceResult__Double.html#a1f110790d0d0ea0fac71e6491bd27be0":[6,3,0,0,0,846,6],
-"classMR_1_1TriTriDistanceResult__Double.html#a34a85c84abeb100f5a652696cadfbaa5":[6,3,0,0,0,846,8]
+"classMR_1_1TriTriDistanceResult__Double.html#a19d3ae959a3b5521cc5c8e45898eb313":[6,3,0,0,0,846,0]
 };

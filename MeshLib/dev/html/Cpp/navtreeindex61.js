@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1IntrinsicDeloneSettings.html":[6,0,0,9,1,0],
+"structMR_1_1IntrinsicDeloneSettings.html#a5985046a04f74cccc9f62e82968a5671":[6,0,0,9,1,0,2],
 "structMR_1_1IntrinsicDeloneSettings.html#a5fe9566d6f97f752f0d434d75a04ea53":[6,0,0,9,1,0,1],
 "structMR_1_1IntrinsicDeloneSettings.html#a826d54dbfadee964e4e8d815e3aeda22":[6,0,0,9,1,0,0],
 "structMR_1_1IntrinsicDeloneSettings.html#a8fed3ef49b5eeb2b4c7df0c84bbfad79":[6,0,0,9,1,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1MeshIntersectionResult.html#a59e06434bac0180ffaac80a2fb3041d1":[6,0,0,1,19,3],
 "structMR_1_1MeshIntersectionResult.html#a701e1414a45534a29d2ad1f7074c3c61":[6,0,0,1,19,1],
 "structMR_1_1MeshIntersectionResult.html#aa6767f8fee0dd3f9883b1657e2d9fcb2":[6,0,0,1,19,2],
-"structMR_1_1MeshLoadSettings.html":[6,0,0,20,327],
-"structMR_1_1MeshLoad_1_1MeshLoader.html":[6,0,0,2,7,0],
-"structMR_1_1MeshLoad_1_1MeshLoader.html#a40a2dbad196aed53280103d84b6fd429":[6,0,0,2,7,0,0]
+"structMR_1_1MeshLoadSettings.html":[6,0,0,20,327]
 };

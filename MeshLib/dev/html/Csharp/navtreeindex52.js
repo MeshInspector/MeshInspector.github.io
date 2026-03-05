@@ -1,5 +1,7 @@
 var NAVTREEINDEX52 =
 {
+"classMR_1_1PolylineToDistanceVolumeParams.html#a384203b6ac878104e88a466f53360a49":[6,3,0,0,0,693,3],
+"classMR_1_1PolylineToDistanceVolumeParams.html#a3c1b6915cf1ea6dbfddca7f15a55269a":[6,3,0,0,0,693,0],
 "classMR_1_1PolylineToDistanceVolumeParams.html#a4501e00ac1d4cb29b189eed01374d0bd":[6,3,0,0,0,693,4],
 "classMR_1_1PolylineToDistanceVolumeParams.html#a4b0abe134aa33e8dfd97d9469e8b2222":[6,3,0,0,0,693,10],
 "classMR_1_1PolylineToDistanceVolumeParams.html#a88c4fc4ce54fc06fd0a02030d58eabec":[6,3,0,0,0,693,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX52 =
 "classMR_1_1QuadraticForm3d.html":[6,3,0,0,0,724],
 "classMR_1_1QuadraticForm3d.html#a0ca708e1f7e13db6bf01d6db3ef69e74":[6,3,0,0,0,724,9],
 "classMR_1_1QuadraticForm3d.html#a16cdf5a954add21050a8aeb6f5374226":[6,3,0,0,0,724,3],
-"classMR_1_1QuadraticForm3d.html#a217f3cf2e38c1a4f3f9eaac6192db519":[6,3,0,0,0,724,6],
-"classMR_1_1QuadraticForm3d.html#a323c6657e8d4ff4fec78dd3ffd3f6a0a":[6,3,0,0,0,724,2],
-"classMR_1_1QuadraticForm3d.html#a4aa28ca58ce539cc2dcaf5bea8a5e877":[6,3,0,0,0,724,8]
+"classMR_1_1QuadraticForm3d.html#a217f3cf2e38c1a4f3f9eaac6192db519":[6,3,0,0,0,724,6]
 };

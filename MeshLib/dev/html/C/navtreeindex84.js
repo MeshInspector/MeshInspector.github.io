@@ -1,5 +1,7 @@
 var NAVTREEINDEX84 =
 {
+"MRPointsToDistanceVolume_8h.html#af04a80befe81c8788a73be80ba3fa732":[6,2,1,0,0,0,3,17,18],
+"MRPointsToDistanceVolume_8h.html#afa557db0e8bd14e1c871f1c1a586e95b":[6,2,1,0,0,0,3,17,29],
 "MRPointsToDistanceVolume_8h_source.html":[6,2,1,0,0,0,3,17],
 "MRPointsToMeshFusion_8h.html":[6,2,1,0,0,0,3,18],
 "MRPointsToMeshFusion_8h.html#a034f78c5cba6357e5b738b6ab38598de":[6,2,1,0,0,0,3,18,39],
@@ -247,7 +249,5 @@ var NAVTREEINDEX84 =
 "MRPolylineDecimate_8h.html#aab9d3f270c13976dc01833ae069fdaae":[6,2,1,0,0,0,1,270,42],
 "MRPolylineDecimate_8h.html#aac0ba54084752953c8f7d0b1ef0c07b4":[6,2,1,0,0,0,1,270,90],
 "MRPolylineDecimate_8h.html#aaf6a03a1946ad225360d8640265bd9ef":[6,2,1,0,0,0,1,270,35],
-"MRPolylineDecimate_8h.html#ab0c09da753f26615b077ee3019cc4345":[6,2,1,0,0,0,1,270,38],
-"MRPolylineDecimate_8h.html#ab65f7614f8880f1f34f5349cf72bf85c":[6,2,1,0,0,0,1,270,25],
-"MRPolylineDecimate_8h.html#ab944c44beae8325560abec789ef33728":[6,2,1,0,0,0,1,270,44]
+"MRPolylineDecimate_8h.html#ab0c09da753f26615b077ee3019cc4345":[6,2,1,0,0,0,1,270,38]
 };

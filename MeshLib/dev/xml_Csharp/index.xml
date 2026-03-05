@@ -8533,9 +8533,11 @@
     <member refid="classMR_1_1Laplacian_1ae08c9a839ac527f7563e515a61a0b70b" kind="function"><name>Laplacian</name></member>
     <member refid="classMR_1_1Laplacian_1aca102c7cdc39358341ad9213620270a6" kind="function"><name>Laplacian</name></member>
     <member refid="classMR_1_1Laplacian_1a465de937f70863f60a48bdc752533568" kind="function"><name>init</name></member>
+    <member refid="classMR_1_1Laplacian_1a95b7b062050fc6505a5a7b7f01bb0cf6" kind="function"><name>initFromPoints</name></member>
     <member refid="classMR_1_1Laplacian_1a479045a960528acf02d857b5d88a13e5" kind="function"><name>fixVertex</name></member>
     <member refid="classMR_1_1Laplacian_1af57ef04dfe76e47096b1075975ceb84d" kind="function"><name>fixVertex</name></member>
     <member refid="classMR_1_1Laplacian_1a6ab6466ee01c85f49d6bfd5955ba7de0" kind="function"><name>updateSolver</name></member>
+    <member refid="classMR_1_1Laplacian_1a91507160fd4cef218a0745c4e96692db" kind="function"><name>applyToVector</name></member>
     <member refid="classMR_1_1Laplacian_1adec94b8812ff2f12bbe9e564894393f4" kind="function"><name>apply</name></member>
     <member refid="classMR_1_1Laplacian_1ad42cac80dba53264cee7888c3f137692" kind="function"><name>applyToScalar</name></member>
     <member refid="classMR_1_1Laplacian_1ae9c5b3e5929d54897288eb716c3f9b94" kind="function"><name>addAttractor</name></member>
