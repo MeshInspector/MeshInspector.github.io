@@ -69,7 +69,7 @@ var classMR_1_1SurfaceManipulationWidget =
     [ "editOnlyCodirectedSurface_", "group__GeneralGroup.html#ga03c8e502f4a92fa8e57e0d50ed97524a", null ],
     [ "enableDeviationTexture_", "group__GeneralGroup.html#ga08839c74598549c345ed5f06ffaa769f", null ],
     [ "firstInit_", "group__GeneralGroup.html#ga76be206635ab7abc679ccdad3f0ab7e8", null ],
-    [ "fixedPickedVerts_", "group__GeneralGroup.html#ga8fc55e576b16eb9f3a7ebc6d3aed8b86", null ],
+    [ "fixedPickedVertsToDistSq_", "group__GeneralGroup.html#gae9349ed78305ee5063f2bf0f5c564d0c", null ],
     [ "generalEditingRegion_", "group__GeneralGroup.html#gacc7693d8223133cb63b0540ec58107aa", null ],
     [ "historyAction_", "group__GeneralGroup.html#ga646602a8d3e1d1781c7aa8ed9b2050e3", null ],
     [ "ignoreOcclusion_", "group__GeneralGroup.html#ga8c958ed29a4e3f960ce7aab676126adb", null ],

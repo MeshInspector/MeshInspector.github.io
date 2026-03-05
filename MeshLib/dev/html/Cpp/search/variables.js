@@ -1344,7 +1344,7 @@ var searchData=
   ['firstnei_44',['firstNei',['../group__GeneralGroup.html#gade977d48f2f1f79c9a84ad421a2d5069',1,'MR::FanRecord']]],
   ['firstvertex_45',['firstVertex',['../group__GeneralGroup.html#gaf483f48c26d9bb2d28b92af0b477712b',1,'MR::MeshBuilder::VertSpan']]],
   ['fixdegenerations_46',['fixDegenerations',['../group__GeneralGroup.html#ga28505f79efacbde9b70d5d98148c26e4',1,'MR::UniteManyMeshesParams']]],
-  ['fixedpickedverts_5f_47',['fixedPickedVerts_',['../group__GeneralGroup.html#ga8fc55e576b16eb9f3a7ebc6d3aed8b86',1,'MR::SurfaceManipulationWidget']]],
+  ['fixedpickedvertstodistsq_5f_47',['fixedPickedVertsToDistSq_',['../group__GeneralGroup.html#gae9349ed78305ee5063f2bf0f5c564d0c',1,'MR::SurfaceManipulationWidget']]],
   ['fixedrotationaxis_48',['fixedRotationAxis',['../group__GeneralGroup.html#ga1fe34b378f38697c828575c8204e7b57',1,'MR::ICPProperties']]],
   ['flaggedtri_49',['flaggedTri',['../structMR_1_1VarEdgeTri.html#a9ff04d23bee5568116250292fe986af6',1,'MR::VarEdgeTri']]],
   ['flags_50',['flags',['../structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4',1,'ImGui::CustomStatePluginWindowParameters::flags'],['../structImGui_1_1SavedWindowPosParams.html#ae153555ca0fe067806fd161a5eafe2f6',1,'ImGui::SavedWindowPosParams::flags'],['../structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a64963bd2f3582a91eab34d7a28323d5f',1,'MR::ImGuiMeasurementIndicators::LineBodyParams::flags'],['../group__GeneralGroup.html#ga4f1e3048ba6230a8535ee31a43944921',1,'MR::UI::ButtonCustomizationParams::flags']]],
