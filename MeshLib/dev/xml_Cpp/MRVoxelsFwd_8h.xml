@@ -31,6 +31,7 @@
     <includedby refid="MRScanHelpers_8h" local="yes">MRVoxels/MRScanHelpers.h</includedby>
     <includedby refid="MRSweptVolume_8h" local="yes">MRVoxels/MRSweptVolume.h</includedby>
     <includedby refid="MRTeethMaskToDirectionVolume_8h" local="yes">MRVoxels/MRTeethMaskToDirectionVolume.h</includedby>
+    <includedby refid="MRTetrisNesting_8h" local="yes">MRVoxels/MRTetrisNesting.h</includedby>
     <includedby refid="MRToolPath_8h" local="yes">MRVoxels/MRToolPath.h</includedby>
     <includedby refid="MRVDBConversions_8h" local="yes">MRVoxels/MRVDBConversions.h</includedby>
     <includedby refid="MRVDBFloatGrid_8h" local="yes">MRVoxels/MRVDBFloatGrid.h</includedby>
@@ -268,6 +269,10 @@
         <label>MRVoxels/MRScanHelpers.h</label>
         <link refid="MRScanHelpers_8h"/>
       </node>
+      <node id="46">
+        <label>MRVoxels/MRSequentialNester.h</label>
+        <link refid="MRSequentialNester_8h"/>
+      </node>
       <node id="43">
         <label>MRVoxels/MRSweptVolume.h</label>
         <link refid="MRSweptVolume_8h"/>
@@ -281,10 +286,16 @@
         <link refid="MRTeethMaskToDirectionVolume_8h"/>
       </node>
       <node id="45">
+        <label>MRVoxels/MRTetrisNesting.h</label>
+        <link refid="MRTetrisNesting_8h"/>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
         <label>MRVoxels/MRToolPath.h</label>
         <link refid="MRToolPath_8h"/>
       </node>
-      <node id="46">
+      <node id="48">
         <label>MRVoxels/MRVDBConversions.h</label>
         <link refid="MRVDBConversions_8h"/>
         <childnode refid="5" relation="include">
@@ -298,7 +309,7 @@
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="49">
         <label>MRVoxels/MRVDBProgressInterrupter.h</label>
         <link refid="MRVDBProgressInterrupter_8h"/>
       </node>
@@ -312,15 +323,15 @@
         <label>MRVoxels/MRVolumeSegment.h</label>
         <link refid="MRVolumeSegment_8h"/>
       </node>
-      <node id="48">
+      <node id="50">
         <label>MRVoxels/MRVoxelFilter.h</label>
         <link refid="MRVoxelFilter_8h"/>
       </node>
-      <node id="49">
+      <node id="51">
         <label>MRVoxels/MRVoxelGraphCut.h</label>
         <link refid="MRVoxelGraphCut_8h"/>
       </node>
-      <node id="50">
+      <node id="52">
         <label>MRVoxels/MRVoxelPath.h</label>
         <link refid="MRVoxelPath_8h"/>
         <childnode refid="14" relation="include">
@@ -332,7 +343,7 @@
         <label>MRVoxels/MRVoxelsApplyTransform.h</label>
         <link refid="MRVoxelsApplyTransform_8h"/>
       </node>
-      <node id="51">
+      <node id="53">
         <label>MRVoxels/MRVoxelsConversionsByParts.h</label>
         <link refid="MRVoxelsConversionsByParts_8h"/>
       </node>
@@ -395,23 +406,25 @@
         </childnode>
         <childnode refid="45" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
         <childnode refid="47" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
         </childnode>
         <childnode refid="48" relation="include">
         </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
         <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
         </childnode>
         <childnode refid="50" relation="include">
         </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
         <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>

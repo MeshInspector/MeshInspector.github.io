@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Nesting_1_1BoxNestingParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Nesting::BoxNestingParams</compoundname>
+    <includes refid="MRBoxNesting_8h" local="no">MRMesh/MRBoxNesting.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gad122019275fa58103f0a4c6c374ce6c4" kind="variable"><name>baseParams</name></member>
+      <member refid="group__GeneralGroup_1ga042471c183280fb8a554f6440fa46388" kind="variable"><name>options</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::Nesting::BoxNestingOptions</label>
+        <link refid="structMR_1_1Nesting_1_1BoxNestingOptions"/>
+      </node>
+      <node id="1">
+        <label>MR::Nesting::BoxNestingParams</label>
+        <link refid="structMR_1_1Nesting_1_1BoxNestingParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>baseParams</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>options</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Nesting::NestingBaseParams</label>
+        <link refid="structMR_1_1Nesting_1_1NestingBaseParams"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRBoxNesting.h" line="84" column="1" bodyfile="MRMesh/MRBoxNesting.h" bodystart="85" bodyend="88"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad122019275fa58103f0a4c6c374ce6c4" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>baseParams</name></member>
+      <member refid="group__GeneralGroup_1ga042471c183280fb8a554f6440fa46388" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>options</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -8,6 +8,7 @@
     <includedby refid="MRGltf_8h" local="yes">MRIOExtras/MRGltf.h</includedby>
     <includedby refid="MRJpeg_8h" local="yes">MRIOExtras/MRJpeg.h</includedby>
     <includedby refid="MRLas_8h" local="yes">MRIOExtras/MRLas.h</includedby>
+    <includedby refid="MRNesting3mfExport_8h" local="yes">MRIOExtras/MRNesting3mfExport.h</includedby>
     <includedby refid="MRPdf_8h" local="yes">MRIOExtras/MRPdf.h</includedby>
     <includedby refid="MRPng_8h" local="yes">MRIOExtras/MRPng.h</includedby>
     <includedby refid="MRStep_8h" local="yes">MRIOExtras/MRStep.h</includedby>
@@ -40,26 +41,30 @@
         <link refid="MRLas_8h"/>
       </node>
       <node id="8">
+        <label>MRIOExtras/MRNesting3mfExport.h</label>
+        <link refid="MRNesting3mfExport_8h"/>
+      </node>
+      <node id="9">
         <label>MRIOExtras/MRPdf.h</label>
         <link refid="MRPdf_8h"/>
       </node>
-      <node id="9">
+      <node id="10">
         <label>MRIOExtras/MRPng.h</label>
         <link refid="MRPng_8h"/>
       </node>
-      <node id="10">
+      <node id="11">
         <label>MRIOExtras/MRStep.h</label>
         <link refid="MRStep_8h"/>
       </node>
-      <node id="11">
+      <node id="12">
         <label>MRIOExtras/MRSvg.h</label>
         <link refid="MRSvg_8h"/>
       </node>
-      <node id="12">
+      <node id="13">
         <label>MRIOExtras/MRTiff.h</label>
         <link refid="MRTiff_8h"/>
       </node>
-      <node id="13">
+      <node id="14">
         <label>MRIOExtras/MRZlib.h</label>
         <link refid="MRZlib_8h"/>
       </node>
@@ -89,6 +94,8 @@
         <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

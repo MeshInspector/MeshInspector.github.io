@@ -22,7 +22,6 @@ var MRPdf_8h =
     [ "MR_std_vector_MR_Pdf_Cell", "MRPdf_8h.html#aef8d990bfea0998dac0c1348fef4b81e", null ],
     [ "MR_std_vector_MR_Pdf_PaletteRowStats", "MRPdf_8h.html#a3a02eff57619c7f1f4ebe81a9aca0c4a", null ],
     [ "MR_std_vector_std_pair_std_string_float", "MRPdf_8h.html#af7b77ccae07737ff0cd656471d9e777e", null ],
-    [ "MR_std_vector_std_string", "MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900", null ],
     [ "MR_Pdf_AlignmentHorizontal", "MRPdf_8h.html#a60d6bc5e019e4dc263c69c242dab35ba", [
       [ "MR_Pdf_AlignmentHorizontal_Left", "MRPdf_8h.html#a60d6bc5e019e4dc263c69c242dab35baaacd0df14637cb347ea34eed319ed1d57", null ],
       [ "MR_Pdf_AlignmentHorizontal_Center", "MRPdf_8h.html#a60d6bc5e019e4dc263c69c242dab35baaa42dae9a157a0bd3aef2628bf6ecdde2", null ],

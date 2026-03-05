@@ -132,7 +132,7 @@
         </childnode>
         <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
         <childnode refid="35" relation="include">
         </childnode>
@@ -170,7 +170,9 @@
         </childnode>
         <childnode refid="52" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -240,15 +242,15 @@
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
       </node>
       <node id="18">
@@ -276,100 +278,104 @@
         <link refid="MRMeshSaveObj_8h"/>
       </node>
       <node id="25">
+        <label>MRNestingStructures.h</label>
+        <link refid="MRNestingStructures_8h"/>
+      </node>
+      <node id="26">
         <label>MRObject.h</label>
         <link refid="MRObject_8h"/>
       </node>
-      <node id="26">
+      <node id="27">
         <label>MRObjectDistanceMap.h</label>
         <link refid="MRObjectDistanceMap_8h"/>
       </node>
-      <node id="27">
+      <node id="28">
         <label>MRObjectGcode.h</label>
         <link refid="MRObjectGcode_8h"/>
       </node>
-      <node id="29">
+      <node id="30">
         <label>MRObjectLines.h</label>
         <link refid="MRObjectLines_8h"/>
       </node>
-      <node id="30">
+      <node id="31">
         <label>MRObjectLinesHolder.h</label>
         <link refid="MRObjectLinesHolder_8h"/>
       </node>
-      <node id="31">
+      <node id="32">
         <label>MRObjectMesh.h</label>
         <link refid="MRObjectMesh_8h"/>
       </node>
-      <node id="32">
+      <node id="33">
         <label>MRObjectMeshHolder.h</label>
         <link refid="MRObjectMeshHolder_8h"/>
-        <childnode refid="33" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
       </node>
-      <node id="34">
+      <node id="35">
         <label>MRObjectPoints.h</label>
         <link refid="MRObjectPoints_8h"/>
       </node>
-      <node id="35">
+      <node id="36">
         <label>MRObjectPointsHolder.h</label>
         <link refid="MRObjectPointsHolder_8h"/>
       </node>
-      <node id="37">
+      <node id="38">
         <label>MRPlaneObject.h</label>
         <link refid="MRPlaneObject_8h"/>
       </node>
-      <node id="38">
+      <node id="39">
         <label>MRPointMeasurementObject.h</label>
         <link refid="MRPointMeasurementObject_8h"/>
       </node>
-      <node id="39">
+      <node id="40">
         <label>MRPointObject.h</label>
         <link refid="MRPointObject_8h"/>
       </node>
-      <node id="40">
+      <node id="41">
         <label>MRPointToPlaneAligningTransform.h</label>
         <link refid="MRPointToPlaneAligningTransform_8h"/>
       </node>
-      <node id="41">
+      <node id="42">
         <label>MRPointToPointAligningTransform.h</label>
         <link refid="MRPointToPointAligningTransform_8h"/>
       </node>
-      <node id="43">
+      <node id="44">
         <label>MRQuaternion.h</label>
         <link refid="MRQuaternion_8h"/>
       </node>
-      <node id="44">
+      <node id="45">
         <label>MRRadiusMeasurementObject.h</label>
         <link refid="MRRadiusMeasurementObject_8h"/>
       </node>
-      <node id="45">
+      <node id="46">
         <label>MRRigidScaleXf3.h</label>
         <link refid="MRRigidScaleXf3_8h"/>
       </node>
-      <node id="46">
+      <node id="47">
         <label>MRRigidXf3.h</label>
         <link refid="MRRigidXf3_8h"/>
       </node>
-      <node id="47">
+      <node id="48">
         <label>MRSceneRoot.h</label>
         <link refid="MRSceneRoot_8h"/>
       </node>
-      <node id="48">
+      <node id="49">
         <label>MRSphereObject.h</label>
         <link refid="MRSphereObject_8h"/>
       </node>
-      <node id="51">
+      <node id="52">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
       </node>
-      <node id="52">
+      <node id="53">
         <label>MRViewportProperty.h</label>
         <link refid="MRViewportProperty_8h"/>
       </node>
-      <node id="33">
+      <node id="34">
         <label>MRVisualObject.h</label>
         <link refid="MRVisualObject_8h"/>
       </node>
-      <node id="28">
+      <node id="29">
         <label>MRObjectLabel.h</label>
         <link refid="MRObjectLabel_8h"/>
       </node>
@@ -381,19 +387,19 @@
         <label>MRMoveMeshToVoxelMaxDeriv.h</label>
         <link refid="MRMoveMeshToVoxelMaxDeriv_8h"/>
       </node>
-      <node id="36">
+      <node id="37">
         <label>MRObjectVoxels.h</label>
         <link refid="MRObjectVoxels_8h"/>
       </node>
-      <node id="42">
+      <node id="43">
         <label>MRPolylineToVoxels.h</label>
         <link refid="MRPolylineToVoxels_8h"/>
       </node>
-      <node id="49">
+      <node id="50">
         <label>MRTeethMaskToDirectionVolume.h</label>
         <link refid="MRTeethMaskToDirectionVolume_8h"/>
       </node>
-      <node id="50">
+      <node id="51">
         <label>MRVDBConversions.h</label>
         <link refid="MRVDBConversions_8h"/>
       </node>

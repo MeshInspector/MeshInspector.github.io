@@ -1,0 +1,26 @@
+var classmrmeshpy_1_1Nesting_1_1BoxNestingOptions =
+[
+    [ "__init__", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a1af470bb121b63d26eda8bc3086ee1b4", null ],
+    [ "__init__", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#aa896fcbc5486e679c9fca1ef572cb5ad", null ],
+    [ "__init__", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a2f0329d7fcffcbbdb2b75eaeef9dad69", null ],
+    [ "additinalSocketCorners", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a18fc7b69e738f223f9d353dc9d22ad4c", null ],
+    [ "additinalSocketCorners", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a885c48c0ed25831ccda6e4d83d6c1902", null ],
+    [ "allow3dNesting", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#ab0cbafe6c4adb79d45c13222682de91b", null ],
+    [ "allow3dNesting", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a55652080e2a672c48b162872504fba59", null ],
+    [ "allowRotation", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a3a9f986c65535d00ef28323aeb766b0e", null ],
+    [ "allowRotation", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a5da387645c2d880c8845abd257bfed1f", null ],
+    [ "cb", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a88218a33cbbfeb236b9d874cbb639101", null ],
+    [ "cb", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a2849617f5d3284233e93cbfc7d190611", null ],
+    [ "checkLessCombinations", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#ae5ce7fb3a374f088654a2a25ef507f71", null ],
+    [ "checkLessCombinations", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#aee39663443f58d42c77bfe828aeb6090", null ],
+    [ "expansionFactor", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#aab32724a32e94e16bcddde7d85b4e2a3", null ],
+    [ "expansionFactor", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#ac7659016e999ca4e028a80fb0207443e", null ],
+    [ "iterationLimit", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#afe1ecda453d1d6aecf03d9a5e7607054", null ],
+    [ "iterationLimit", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a9f69a70b70f518cc8eddceb83d2f435c", null ],
+    [ "preNestedVolumes", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a369e7d28449a21af38003b5bceb0ad3e", null ],
+    [ "preNestedVolumes", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#af28968c30145d5092f5598b99830b074", null ],
+    [ "priorityMetric", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a55f25ef6f6834596070a5940b27e0320", null ],
+    [ "priorityMetric", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#abdd01d64d171dae9150f934ca822402f", null ],
+    [ "volumeBasedOrder", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a3186f279a94e57296eca954de5d21d36", null ],
+    [ "volumeBasedOrder", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#aa7c40fbe2be3f42aeb480a13c25b46af", null ]
+];

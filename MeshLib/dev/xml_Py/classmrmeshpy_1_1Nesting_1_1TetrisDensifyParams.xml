@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Nesting::TetrisDensifyParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1a7132e48be9dfc6a1a2690ddad1aebdd9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Nesting.TetrisDensifyParams::_offsetof_baseParams</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_baseParams</name>
+        <qualifiedname>mrmeshpy.Nesting.TetrisDensifyParams._offsetof_baseParams</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37565" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37565" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1a7218aaaeaddb23b2cba59d7e8855de10" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Nesting.TetrisDensifyParams::_offsetof_options</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_options</name>
+        <qualifiedname>mrmeshpy.Nesting.TetrisDensifyParams._offsetof_options</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37566" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37566" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1acb872bb58168605c1a290403de24d06c" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1Nesting" kindref="compound">Nesting</ref></type>
+        <definition>Nesting mrmeshpy.Nesting.TetrisDensifyParams::baseParams</definition>
+        <argsstring></argsstring>
+        <name>baseParams</name>
+        <qualifiedname>mrmeshpy.Nesting.TetrisDensifyParams.baseParams</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1Nesting_1_1NestingBaseParams" kindref="compound">NestingBaseParams</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37567" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1a18a744ac033ecbd96dfd32f96eeabef8" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1Nesting" kindref="compound">Nesting</ref></type>
+        <definition>Nesting mrmeshpy.Nesting.TetrisDensifyParams::options</definition>
+        <argsstring></argsstring>
+        <name>options</name>
+        <qualifiedname>mrmeshpy.Nesting.TetrisDensifyParams.options</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions" kindref="compound">TetrisDensifyOptions</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37568" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1aa872b617959ffc4ebe3dcced1f000a62" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.TetrisDensifyParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Nesting.TetrisDensifyParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37571" bodyend="37572"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1a6c97ef15fcca13444f347ba70093dcb3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams" kindref="compound">Nesting.TetrisDensifyParams</ref></type>
+        <definition> Nesting.TetrisDensifyParams mrmeshpy.Nesting.TetrisDensifyParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Nesting.TetrisDensifyParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37575" bodyend="37576"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1a6c97ef15fcca13444f347ba70093dcb3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams" kindref="compound">Nesting.TetrisDensifyParams</ref></type>
+        <definition> Nesting.TetrisDensifyParams mrmeshpy.Nesting.TetrisDensifyParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Nesting.TetrisDensifyParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37579" bodyend="37580"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1a3ddd59b640a80e274848be415125ae1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.TetrisDensifyParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Nesting.TetrisDensifyParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37582" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37582" bodyend="37583"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1a512f53d8858577f0ddca42853be20326" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.TetrisDensifyParams.__init__</definition>
+        <argsstring>(self, Nesting.TetrisDensifyParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Nesting.TetrisDensifyParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams" kindref="compound">Nesting.TetrisDensifyParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37585" bodyend="37588"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1ad7661ca4f9553f2d26bd609ddc035368" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.TetrisDensifyParams.__init__</definition>
+        <argsstring>(self, Nesting.NestingBaseParams baseParams, Nesting.TetrisDensifyOptions options)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Nesting.TetrisDensifyParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Nesting_1_1NestingBaseParams" kindref="compound">Nesting.NestingBaseParams</ref></type>
+          <declname>baseParams</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions" kindref="compound">Nesting.TetrisDensifyOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37590" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37590" bodyend="37594"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Nesting::TetrisDensifyParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Nesting.TetrisDensifyParams</label>
+        <link refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>baseParams</edgelabel>
+          <edgelabel>options</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.Nesting</label>
+        <link refid="classmrmeshpy_1_1Nesting"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37561" bodyend="37593"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1aa872b617959ffc4ebe3dcced1f000a62" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::TetrisDensifyParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1a3ddd59b640a80e274848be415125ae1e" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::TetrisDensifyParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1a512f53d8858577f0ddca42853be20326" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::TetrisDensifyParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1ad7661ca4f9553f2d26bd609ddc035368" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::TetrisDensifyParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1a7132e48be9dfc6a1a2690ddad1aebdd9" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::TetrisDensifyParams</scope><name>_offsetof_baseParams</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1a7218aaaeaddb23b2cba59d7e8855de10" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::TetrisDensifyParams</scope><name>_offsetof_options</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1acb872bb58168605c1a290403de24d06c" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::TetrisDensifyParams</scope><name>baseParams</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1a6c97ef15fcca13444f347ba70093dcb3" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::TetrisDensifyParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1a6c97ef15fcca13444f347ba70093dcb3" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::TetrisDensifyParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams_1a18a744ac033ecbd96dfd32f96eeabef8" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::TetrisDensifyParams</scope><name>options</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

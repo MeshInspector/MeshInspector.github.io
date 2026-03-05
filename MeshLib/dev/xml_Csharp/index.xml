@@ -2403,6 +2403,46 @@
     <member refid="classMR_1_1Box__VoxelId_1ad263dcb82cf8ed7d8d778955504cf31c" kind="function"><name>addAssign</name></member>
     <member refid="classMR_1_1Box__VoxelId_1a8f603dd8647eb26927d606a4a71e38c0" kind="function"><name>Box_VoxelId</name></member>
   </compound>
+  <compound refid="classMR_1_1Nesting_1_1BoxNestingCorner" kind="class"><name>MR::Nesting::BoxNestingCorner</name>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingCorner_1aaa5728ff16e6211b779cb49402aa3adf" kind="property"><name>pos</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingCorner_1a24dab426f593bf9d62e4260622bb8fe8" kind="property"><name>bitMask</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingCorner_1a3d6397aac7cc55ab2955bdf33a40c8d8" kind="function"><name>BoxNestingCorner</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingCorner_1a0519e5b2e2245020a0cf47036b59b4f0" kind="function"><name>BoxNestingCorner</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingCorner_1a3299d7e048fdce2c78a1310cee73674b" kind="function"><name>BoxNestingCorner</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingCorner_1ad993a6c128584595c058da644fec51a5" kind="function"><name>BoxNestingCorner</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingCorner_1ade789d7c67b5ade73b4b6304320606e6" kind="function"><name>BoxNestingCorner</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingCorner_1adbdea8bc3f64a0a6727db9b4e85a491c" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1Nesting_1_1BoxNestingOptions" kind="class"><name>MR::Nesting::BoxNestingOptions</name>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a5d53886ff20ba37616b8cee174fb4dbc" kind="property"><name>allow3dNesting</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1aac2683af8a9a5ba1ead064a877bf69c2" kind="property"><name>allowRotation</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a464671fca1f070b05893646ab4ff21a1" kind="property"><name>volumeBasedOrder</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a3c0402a8f3297fdd8b70bf1a24066ac8" kind="property"><name>checkLessCombinations</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a88ffd14ac154e53db99df2352e8a9f9f" kind="property"><name>iterationLimit</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1afdc85076be7ef6a47d6f291e7e9dff5c" kind="property"><name>priorityMetric</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1af7820fb38d9bc4fea91a796f86f033f0" kind="property"><name>expansionFactor</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a9b17fec7f71dfdf6f443029172f4f895" kind="property"><name>preNestedVolumes</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a074f1b241e8162317257aabf288696f2" kind="property"><name>additinalSocketCorners</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a6548f3763236112a9e82c1917152023d" kind="property"><name>cb</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a91afeb0bbf222e9310025cde89407fe4" kind="function"><name>BoxNestingOptions</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a5464d05635829d36ec7fac300c7e4079" kind="function"><name>BoxNestingOptions</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1afba6a6f77b83a1f6e98f8ac7fa206d9a" kind="function"><name>BoxNestingOptions</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a6f76ff18661c3e111968f2ce9d126b41" kind="function"><name>BoxNestingOptions</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a591095f4d7d50a20aba411218da0bd3e" kind="function"><name>BoxNestingOptions</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a1552832b08071314ffbfaaa175095384" kind="function"><name>BoxNestingOptions</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a72382f41b83b7fd3cde31f6984f65c8e" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1Nesting_1_1BoxNestingParams" kind="class"><name>MR::Nesting::BoxNestingParams</name>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a3d2731aacad3be2d48c54feb8cd03a38" kind="property"><name>baseParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a623eb4fb95ae0cae3514889fa242155a" kind="property"><name>options</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1add64ea44b6f17c0fedbc4bac7385d695" kind="function"><name>BoxNestingParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a926e10ae67da282b9dc6ec8c95c1515f" kind="function"><name>BoxNestingParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a605769392a8470b99a06fd5d41537c62" kind="function"><name>BoxNestingParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a0cac6bf9b5103619d12661c36f30a588" kind="function"><name>BoxNestingParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a33e29acd5e882ee07a3d6a40a57f1d75" kind="function"><name>BoxNestingParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a27f5af093b663612b3f3cf5dae91ed98" kind="function"><name>BoxNestingParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a6900960b744ba0789b1203a1e6084069" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1Buffer__Char" kind="class"><name>MR::Buffer_Char</name>
     <member refid="classMR_1_1Buffer__Char_1abce5e0ed73377f1b3ce2db81ae94e3f9" kind="property"><name>this[ulong i]</name></member>
     <member refid="classMR_1_1Buffer__Char_1aef506893d521c6f7cea4aec70b8f9619" kind="function"><name>GetEnumerator</name></member>
@@ -8057,6 +8097,11 @@
     <member refid="classMR_1_1HoleFillPlan_1adc894486478a94dc76b7ec095dbf7763" kind="function"><name>HoleFillPlan</name></member>
     <member refid="classMR_1_1HoleFillPlan_1a635d6b9767b9151f3b8fb7ad79d1c7b6" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1Nesting_1_1IBoxNestingPriority" kind="class"><name>MR::Nesting::IBoxNestingPriority</name>
+    <member refid="classMR_1_1Nesting_1_1IBoxNestingPriority_1a068c4f7fc83665ff53501b800e605949" kind="function"><name>IBoxNestingPriority</name></member>
+    <member refid="classMR_1_1Nesting_1_1IBoxNestingPriority_1acee614b9493a599773ad6d6852865fb0" kind="function"><name>init</name></member>
+    <member refid="classMR_1_1Nesting_1_1IBoxNestingPriority_1a5940ea5ba997290be39ced5023287815" kind="function"><name>addNested</name></member>
+  </compound>
   <compound refid="classMR_1_1IComputeToolDistance" kind="class"><name>MR::IComputeToolDistance</name>
     <member refid="classMR_1_1IComputeToolDistance_1a85e3cd31534e0aa15c453d579dbba905" kind="function"><name>IComputeToolDistance</name></member>
     <member refid="classMR_1_1IComputeToolDistance_1a23000218763df7aafdd1ddd42749966b" kind="function"><name>prepare</name></member>
@@ -10470,6 +10515,16 @@
     <member refid="classMR_1_1MeshVoxelsConverter_1ada051c275f99fa4c60f4fefab09390c4" kind="function"><name>MeshVoxelsConverter</name></member>
     <member refid="classMR_1_1MeshVoxelsConverter_1ab7b104d6874a0dc5fe1a831be3af41f8" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1Nesting_1_1MeshXf" kind="class"><name>MR::Nesting::MeshXf</name>
+    <member refid="classMR_1_1Nesting_1_1MeshXf_1aac398ed1112a39eb96b781c049ceec50" kind="property"><name>mesh</name></member>
+    <member refid="classMR_1_1Nesting_1_1MeshXf_1ac934bb26fc1c451a8e7a8da4ec987a88" kind="property"><name>xf</name></member>
+    <member refid="classMR_1_1Nesting_1_1MeshXf_1a6e146d4c64f857262263975a75698d15" kind="function"><name>MeshXf</name></member>
+    <member refid="classMR_1_1Nesting_1_1MeshXf_1a6dec959af8b3673b5175821c99ca4535" kind="function"><name>MeshXf</name></member>
+    <member refid="classMR_1_1Nesting_1_1MeshXf_1ac81c1dadae3855cbd7a7a1701a93bbb3" kind="function"><name>MeshXf</name></member>
+    <member refid="classMR_1_1Nesting_1_1MeshXf_1ae722640863bcbc224b966ace1ab7f9dd" kind="function"><name>MeshXf</name></member>
+    <member refid="classMR_1_1Nesting_1_1MeshXf_1adfb906b08e4cfac28a1504233b27f176" kind="function"><name>MeshXf</name></member>
+    <member refid="classMR_1_1Nesting_1_1MeshXf_1ab0597415fb36afe59ff4281344fd2bcd" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1MetricToAStarPenalty" kind="class"><name>MR::MetricToAStarPenalty</name>
     <member refid="classMR_1_1MetricToAStarPenalty_1a6c00066f5fe1a710fbd2c0eb964871c8" kind="property"><name>points</name></member>
     <member refid="classMR_1_1MetricToAStarPenalty_1a12dd03698156e39ad014bbf7098ff0a4" kind="property"><name>target</name></member>
@@ -12256,6 +12311,14 @@
     <member refid="classMR_1a0c518099827048f910f178bddec563f0" kind="function"><name>begin</name></member>
     <member refid="classMR_1a7cf98472714f0e4ebacd97772914eb92" kind="function"><name>end</name></member>
     <member refid="classMR_1a2ed39c62a9ef446b511d71857884dfba" kind="function"><name>end</name></member>
+    <member refid="classMR_1aa4ede630f0bffb4500682bbf141ce6d9" kind="function"><name>begin</name></member>
+    <member refid="classMR_1a480f12138c1ee714ebfc8341ec4fcc80" kind="function"><name>begin</name></member>
+    <member refid="classMR_1a05dce1d39dca21a28deea8f69ee750fe" kind="function"><name>end</name></member>
+    <member refid="classMR_1a93163c66230af1498907b7c05d99e12e" kind="function"><name>end</name></member>
+    <member refid="classMR_1a56d7a8c0346c6289a08b0c4672c1f8a3" kind="function"><name>begin</name></member>
+    <member refid="classMR_1a28dc947de61c2f51d53d034e659706c8" kind="function"><name>begin</name></member>
+    <member refid="classMR_1ab9d4caa74b3d3bff65039936470befe8" kind="function"><name>end</name></member>
+    <member refid="classMR_1a9a2aa464421b1ee1888d284e9eba2c32" kind="function"><name>end</name></member>
     <member refid="classMR_1a2a7a6dfea39d35d2c3c85547a4d0988d" kind="function"><name>begin</name></member>
     <member refid="classMR_1a8d6dc1786dff68322fc8cf47c9bd37d0" kind="function"><name>begin</name></member>
     <member refid="classMR_1ac40cb69f8d7a383339b7174644338b41" kind="function"><name>end</name></member>
@@ -12372,6 +12435,10 @@
     <member refid="classMR_1a30b45adad20efd03f93ced87e640f46e" kind="function"><name>begin</name></member>
     <member refid="classMR_1a4dd597a2ecbb1327e70438a8ecf35807" kind="function"><name>end</name></member>
     <member refid="classMR_1ab39b53a166557e1d4685628c6cb9fa7d" kind="function"><name>end</name></member>
+    <member refid="classMR_1afd99ecb3283815a9b068d7ca3d54ba8c" kind="function"><name>begin</name></member>
+    <member refid="classMR_1ac7b216de1e87a0eb50ecd6983a50fdac" kind="function"><name>begin</name></member>
+    <member refid="classMR_1ae922682c88daa9bc6c6cc0cc894984e3" kind="function"><name>end</name></member>
+    <member refid="classMR_1aa4e45ba8230ecdb1c3a0a056ed36ae26" kind="function"><name>end</name></member>
     <member refid="classMR_1a232296db3813a1552d0e2fa299dca92f" kind="function"><name>begin</name></member>
     <member refid="classMR_1af983fdd0632720a6150283b12ce24dd9" kind="function"><name>begin</name></member>
     <member refid="classMR_1a9acacf0653ac39a43e39e34be136e461" kind="function"><name>end</name></member>
@@ -12712,6 +12779,50 @@
     <member refid="classMR_1_1MeshSave_1_1NamedXfMesh_1aba9eadb9e88944f38b47642fd3f5b7c1" kind="function"><name>NamedXfMesh</name></member>
     <member refid="classMR_1_1MeshSave_1_1NamedXfMesh_1a2b0e73f88d7bcfad3039c176a2ce44e1" kind="function"><name>NamedXfMesh</name></member>
     <member refid="classMR_1_1MeshSave_1_1NamedXfMesh_1a03cafaa84edcb9f6e25ec2402cebcd2e" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1Nesting" kind="class"><name>MR::Nesting</name>
+    <member refid="classMR_1_1Nesting_1a93a9b953fc41aa721a7ae5b223a6e792" kind="function"><name>exportNesting3mf</name></member>
+    <member refid="classMR_1_1Nesting_1ae31981d41639cc9f5939233a69505d16" kind="function"><name>getNestPostionMinPriorityMetric</name></member>
+    <member refid="classMR_1_1Nesting_1ad88457c04fd0e0b4e59f8b19acdce1ec" kind="function"><name>getNeighborigDensityPriorityMetric</name></member>
+    <member refid="classMR_1_1Nesting_1ab07dbfa905bd4b259fdbf9a6750015fa" kind="function"><name>fillNestingSocketCorneres</name></member>
+    <member refid="classMR_1_1Nesting_1ac31011f69dee1f2d75c110bd843faa2c" kind="function"><name>boxNesting</name></member>
+    <member refid="classMR_1_1Nesting_1a3298e33a9599d43e0c1db734cbef4207" kind="function"><name>tetrisNestingDensify</name></member>
+  </compound>
+  <compound refid="classMR_1_1Nesting_1_1Nesting3mfParams" kind="class"><name>MR::Nesting::Nesting3mfParams</name>
+    <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1ae46bbe4eaaf4ea6ac76cd1795a0c7ea8" kind="property"><name>meshes</name></member>
+    <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a7009639e59a121cef67ca6cd16df287d" kind="property"><name>zStep</name></member>
+    <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1ac577813e6af4e221341dee8b12b997ce" kind="property"><name>decimateSlices</name></member>
+    <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1aaab5b03dce25cf22d415f94630c23a12" kind="property"><name>image</name></member>
+    <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1aef9b626dfaa27d204bae7d89119e4dda" kind="property"><name>meshImages</name></member>
+    <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a8ee01cbf443d3fd3b226bbbe7310c13b" kind="property"><name>meshNames</name></member>
+    <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a4183eabc7f2a98670d797cff39f63e09" kind="property"><name>cb</name></member>
+    <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a8a982cb62cac653adb9481272f6d835d" kind="function"><name>Nesting3mfParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1ad0ac7e2e5304078811b990bafd6c7796" kind="function"><name>Nesting3mfParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a5986717370853c9394f1e3ea76777ae1" kind="function"><name>Nesting3mfParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1ab8d8b2134a7a5e36ff599cfc9f193068" kind="function"><name>Nesting3mfParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a17d7884dd2ba1cceb93370035efd8082" kind="function"><name>Nesting3mfParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a45627d19aee17d50a504eee70c941058" kind="function"><name>Nesting3mfParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a691c03a3cbc5d3bdec7806ff0bd250f9" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1Nesting_1_1NestingBaseParams" kind="class"><name>MR::Nesting::NestingBaseParams</name>
+    <member refid="classMR_1_1Nesting_1_1NestingBaseParams_1aef4d496bf5f05539586e9f7af35d7c50" kind="property"><name>nest</name></member>
+    <member refid="classMR_1_1Nesting_1_1NestingBaseParams_1a6a7d232b904fbbbcb6dc3af28008bf91" kind="property"><name>minInterval</name></member>
+    <member refid="classMR_1_1Nesting_1_1NestingBaseParams_1a37d25d48ca8dfa436bf6d21b3028088a" kind="function"><name>NestingBaseParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1NestingBaseParams_1aa43bf2ce6063f1d62fa9f8fee09d3e52" kind="function"><name>NestingBaseParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1NestingBaseParams_1aee27700e2808487d2e5734284c7e6a33" kind="function"><name>NestingBaseParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1NestingBaseParams_1a75c2b7f2ad8bf325491ed1b750ab762d" kind="function"><name>NestingBaseParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1NestingBaseParams_1a17cc71d047255e07d4ce32fd0d5807bc" kind="function"><name>NestingBaseParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1NestingBaseParams_1a875bb951b385c890a7b978ed68660d85" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1Nesting_1_1NestingResult" kind="class"><name>MR::Nesting::NestingResult</name>
+    <member refid="classMR_1_1Nesting_1_1NestingResult_1a7673c85a64735aa47d22368153ad04c1" kind="property"><name>xf</name></member>
+    <member refid="classMR_1_1Nesting_1_1NestingResult_1ac6381aae81876ec649d6ec9e9908a594" kind="property"><name>nested</name></member>
+    <member refid="classMR_1_1Nesting_1_1NestingResult_1a1e0fd01f224599c04f3ba45738153112" kind="function"><name>NestingResult</name></member>
+    <member refid="classMR_1_1Nesting_1_1NestingResult_1af62d63b0f715538bf2cf01a2cc9ec3c9" kind="function"><name>NestingResult</name></member>
+    <member refid="classMR_1_1Nesting_1_1NestingResult_1a0060523189d5bab435abd5af41fbf65f" kind="function"><name>NestingResult</name></member>
+    <member refid="classMR_1_1Nesting_1_1NestingResult_1a53c17327956f1f5068918aeb66cb409d" kind="function"><name>NestingResult</name></member>
+    <member refid="classMR_1_1Nesting_1_1NestingResult_1a489e25c487e8c4803142f8a0c6961bc5" kind="function"><name>NestingResult</name></member>
+    <member refid="classMR_1_1Nesting_1_1NestingResult_1aab415925fb88e6c73885655c2d65e20d" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1NewEdgesMap" kind="class"><name>MR::NewEdgesMap</name>
     <member refid="classMR_1_1NewEdgesMap_1a0ade3d587a06a3ab61ee67b30cfb2929" kind="property"><name>splitEdges</name></member>
@@ -16284,6 +16395,16 @@
     <member refid="classMR_1_1SeparationPointStorage_1ac338f3b3c7c17b27d6f91cce454e9bfb" kind="function"><name>getBlock</name></member>
     <member refid="classMR_1_1SeparationPointStorage_1a83d1740cec435b2798f112a04a429862" kind="function"><name>makeUniqueVids</name></member>
   </compound>
+  <compound refid="classMR_1_1Nesting_1_1SequentialNester" kind="class"><name>MR::Nesting::SequentialNester</name>
+    <member refid="classMR_1_1Nesting_1_1SequentialNester_1a574c52d565224c1ba7245c66da5db40d" kind="function"><name>SequentialNester</name></member>
+    <member refid="classMR_1_1Nesting_1_1SequentialNester_1a909f8efbd34b4c2abc3827161b7bd3c0" kind="function"><name>SequentialNester</name></member>
+    <member refid="classMR_1_1Nesting_1_1SequentialNester_1af915b6877e7c0cbc86a65d6ed438d93f" kind="function"><name>SequentialNester</name></member>
+    <member refid="classMR_1_1Nesting_1_1SequentialNester_1a3281fa29dd194d4b3a87ff64f7b0b23f" kind="function"><name>SequentialNester</name></member>
+    <member refid="classMR_1_1Nesting_1_1SequentialNester_1abd24e42945b9278b28890d80f14704d6" kind="function"><name>SequentialNester</name></member>
+    <member refid="classMR_1_1Nesting_1_1SequentialNester_1a1ba7b004ea03b4be884e59a38b9a656f" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Nesting_1_1SequentialNester_1a9a341c418a8991b706217ca8ccb11cb9" kind="function"><name>nestMesh</name></member>
+    <member refid="classMR_1_1Nesting_1_1SequentialNester_1a49f2aa6e4c4977599963651ed1bf9730" kind="function"><name>nestMeshes</name></member>
+  </compound>
   <compound refid="classMR_1_1SetBitIterator" kind="class"><name>MR::SetBitIterator</name>
     <member refid="classMR_1_1SetBitIterator_1ae5266ff0709948a3ce455ca80a38e1b0" kind="function"><name>SetBitIterator</name></member>
     <member refid="classMR_1_1SetBitIterator_1af1e8ce1bf82c151c5145f3e74029139a" kind="function"><name>SetBitIterator</name></member>
@@ -17241,6 +17362,32 @@
     <member refid="classMR_1_1TerminalVertex_1a053e038990da79f48a141051eb5de393" kind="function"><name>TerminalVertex</name></member>
     <member refid="classMR_1_1TerminalVertex_1abcd603269ac4508509b61cde18b0d582" kind="function"><name>TerminalVertex</name></member>
     <member refid="classMR_1_1TerminalVertex_1ace20d92284c3b50713cd1a6d360df74c" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1Nesting_1_1TetrisDensifyOptions" kind="class"><name>MR::Nesting::TetrisDensifyOptions</name>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1ab07e3569b2c7b7a7c1ef3f15f59c503b" kind="property"><name>voxelSize</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a8fa101ec2beb7dab2951fa11d0d50db2" kind="property"><name>densificationSequence</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1ae58f6e394ef7a71f9537b7405ad467fd" kind="property"><name>cb</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1aa9d38b0bec85df7ee31ea80586273cb4" kind="property"><name>nestVoxelsCache</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a25a9e17a2ee233926e30b0049397a201" kind="property"><name>nestDimensionsCache</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a6b4588887d6fe86b61183fbf92b9c79d" kind="property"><name>occupiedVoxelsCache</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a0e8e229474c051e1f4578c0606eb41e9" kind="function"><name>TetrisDensifyOptions</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a8b10a963bcbe82686806e7f0e2e62438" kind="function"><name>TetrisDensifyOptions</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1aa083fc7f11b13f1c64bf40fcf37895ca" kind="function"><name>TetrisDensifyOptions</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a4c8f0a086d0290c5a3cc96c944309056" kind="function"><name>TetrisDensifyOptions</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1ac6661725b6bee4d0f9c1cb590d406b48" kind="function"><name>TetrisDensifyOptions</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a8284d9b5def6c026987ea26eb0169c81" kind="function"><name>TetrisDensifyOptions</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a880dbe2e2cd0828c52327f6b5c7fa5ed" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1Nesting_1_1TetrisDensifyParams" kind="class"><name>MR::Nesting::TetrisDensifyParams</name>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1af50a5326b81065d257a03ababfa2b83e" kind="property"><name>baseParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1a681ed82a6123a927423ad06e5fe39561" kind="property"><name>options</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1ad4f7198b586c41ac83aac79ac49b53f1" kind="function"><name>TetrisDensifyParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1a3800bb9a04399416f5b017d043c53f20" kind="function"><name>TetrisDensifyParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1ae27932baf039d8b992a10dc606bfa0d8" kind="function"><name>TetrisDensifyParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1a5e633b417a300363687e3485474ca13d" kind="function"><name>TetrisDensifyParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1a75db5da2ab2547dab4f7b76001fddfbb" kind="function"><name>TetrisDensifyParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1a734065cdbd17766d5ce33f26b262c1de" kind="function"><name>TetrisDensifyParams</name></member>
+    <member refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1a085e979da48d157f56ae9daecc8ac464" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1TextMeshAlignParams" kind="class"><name>MR::TextMeshAlignParams</name>
     <member refid="classMR_1_1TextMeshAlignParams_1ad27be9c1cc613b7722f48874b77cc86d" kind="property"><name>startPoint</name></member>
@@ -19678,6 +19825,72 @@
     <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1ae7d770871399269c96654c8192f3b9aa" kind="function"><name>Vector_MRModelPointsData_MRObjId</name></member>
     <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1ab2cce8a5f273ab55febc591c40024d61" kind="function"><name>operator Vector_MRModelPointsData_MRObjId</name></member>
   </compound>
+  <compound refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId" kind="class"><name>MR::Vector_MRNestingMeshXf_MRObjId</name>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ab817ca3ee0073ca2e0bfafc773fdd398" kind="property"><name>vec</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ab8480733f43f8cc9bb0cb96c88713ec6" kind="property"><name>this[MR.ObjId i]</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ad4974d4bc3e3024d7d6771b045bc66ae" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1abe93188563253cc1faaaff2b1e29773c" kind="function"><name>Vector_MRNestingMeshXf_MRObjId</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a0dfc914da37daf61a3c074ae0b7ec73a" kind="function"><name>Vector_MRNestingMeshXf_MRObjId</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a97ada7b000105833d0c7d11ca97e0432" kind="function"><name>Vector_MRNestingMeshXf_MRObjId</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a7dbf565a8717c1aeb1719464eb2cbe39" kind="function"><name>Vector_MRNestingMeshXf_MRObjId</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a6e7fe030ac1b8f1210498b53393f1be9" kind="function"><name>Vector_MRNestingMeshXf_MRObjId</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a2309c528b0dc962a1621e69aafc037c9" kind="function"><name>Vector_MRNestingMeshXf_MRObjId</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a1ab94c341409e65c13285088b478dc70" kind="function"><name>Vector_MRNestingMeshXf_MRObjId</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a66a344c64f6bf5569371b1031e619115" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1abf81f934c9be05cbd25c2b4a0624a30a" kind="function"><name>clear</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1aa4e0931e649195524e4f1f9f7d4f0feb" kind="function"><name>resize</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a07caf12cd8e88f0e8b3f17a5359a0935" kind="function"><name>resize</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a788e676921a9170b251ac6684976db94" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ac8dd317b45c61095a749dc310aff12ac" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a1465849280c79a6af0b550ce83e1a71e" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ac32d9d91287efd91109e7319dbc50914" kind="function"><name>autoResizeSet</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a32b1b578c361c35ed65c498112e5a2b3" kind="function"><name>autoResizeSet</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a10326edf5d76128aa76244a2d7cc3451" kind="function"><name>autoResizeAt</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ade1881719a310fbdba32234a854e0810" kind="function"><name>pushBack</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a8e59ee1f5a251aa934d1bf3b4b1834d9" kind="function"><name>pushBack</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a9e07deab3fe136d81f39f228327ad44e" kind="function"><name>popBack</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1af520804f25e52ead2532b0957aedc5c4" kind="function"><name>emplaceBack</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ae4a4da2e49b09f8eee63880e0b041c14" kind="function"><name>front</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a74d712db697864edb7ebc67468b4735a" kind="function"><name>back</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a7f3c359703ec85ea1351e210c121b673" kind="function"><name>data</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ac603107a23af85770ae85eabf43e192b" kind="function"><name>swap</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ae9c385ffe9791527a96bc2d74e883dfa" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a53f09dcdf9d43b9ac52c1f3a989d9537" kind="function"><name>Vector_MRNestingMeshXf_MRObjId</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1aef866b92b2becc5fa130c4449ee16d81" kind="function"><name>operator Vector_MRNestingMeshXf_MRObjId</name></member>
+  </compound>
+  <compound refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId" kind="class"><name>MR::Vector_MRNestingNestingResult_MRObjId</name>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1ae7299df9512b0dc73e8791df1088e2f3" kind="property"><name>vec</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a7e0715985952e01ef443e6936b3ed1d8" kind="property"><name>this[MR.ObjId i]</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a50eb2eb94818987b32da3379aff49b0c" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a64ffd61c40b252424f8eca36534ebcb5" kind="function"><name>Vector_MRNestingNestingResult_MRObjId</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a07f8bb86d2959f83eb6b3794a8a725d2" kind="function"><name>Vector_MRNestingNestingResult_MRObjId</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1ab55018c4adac8ba57bcb0923e05d2b53" kind="function"><name>Vector_MRNestingNestingResult_MRObjId</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a9b8e2c7c6e23d2bef81cb737758151de" kind="function"><name>Vector_MRNestingNestingResult_MRObjId</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a565917d7031e579466ce7f55c3bee4ad" kind="function"><name>Vector_MRNestingNestingResult_MRObjId</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1acf1dd7be0c06ca257f438ac8019fc3c8" kind="function"><name>Vector_MRNestingNestingResult_MRObjId</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a9c378da5d937df0aec70e2ae8bf375e1" kind="function"><name>Vector_MRNestingNestingResult_MRObjId</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1affc947456e477098fac1155209a6944e" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a1b7128e2176921f242d56d7b40e9b10f" kind="function"><name>clear</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a3ecd06ce1e96801f259df4e7927de6e9" kind="function"><name>resize</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1aa80a033be36ca7dc14deac7e4a114373" kind="function"><name>resize</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a48cb1697bcc98459f518b1a353bd29b9" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a14628f0cda6d22db4f61fddb732b863d" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1ab7d7cbbb322e53d17e40adc9418cd0dc" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a5fbbcf9a2fc9fbcfa3bf5218cbd12eb3" kind="function"><name>autoResizeSet</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a77f98d22fd1474f0000a9a11b4404d5b" kind="function"><name>autoResizeSet</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a046c118e829a56ad14efe93226cd9356" kind="function"><name>autoResizeAt</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1ac2e348e4da22f03a5af8f7caa2d09840" kind="function"><name>pushBack</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a556980178509542081a4273942259546" kind="function"><name>pushBack</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a2047f4ff909455ba1ec1d5ea1db61bf7" kind="function"><name>popBack</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1ac40ee83dee12093fb8a76c376393c474" kind="function"><name>emplaceBack</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a7cbf231a5e2c8a571fce121846a6d552" kind="function"><name>front</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a66e043367658ef4fac99fa55ff6de2f9" kind="function"><name>back</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1ac9501517cfad4866fbecee58b791aa17" kind="function"><name>data</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a93db6371b67b4283ad1617d9a29120ac" kind="function"><name>swap</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a69100284d7b4fa30c3a794f189eb2618" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a216ce08c4917bfe95afd5187454eaf11" kind="function"><name>Vector_MRNestingNestingResult_MRObjId</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1abd54718f2651ee93d8a65bda6c7d0c40" kind="function"><name>operator Vector_MRNestingNestingResult_MRObjId</name></member>
+  </compound>
   <compound refid="classMR_1_1Vector__MRNodeId__MRNodeId" kind="class"><name>MR::Vector_MRNodeId_MRNodeId</name>
     <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a7cd47abdc648e06e6eaba627e5279a57" kind="property"><name>vec</name></member>
     <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a405ca400bfc9a3ae53477cf80152df87" kind="property"><name>this[MR.NodeId i]</name></member>
@@ -19711,6 +19924,40 @@
     <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a7ace7a8347870791aeb025a5929b9b82" kind="function"><name>GetEnumerator</name></member>
     <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a04f63a899728591dca12d95db14d5071" kind="function"><name>Vector_MRNodeId_MRNodeId</name></member>
     <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a851a9c4a0dd1428eca25892cd771a6b1" kind="function"><name>operator Vector_MRNodeId_MRNodeId</name></member>
+  </compound>
+  <compound refid="classMR_1_1Vector__MRObjId__MRVoxelId" kind="class"><name>MR::Vector_MRObjId_MRVoxelId</name>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a2c47292df85665ce2d3dab96e5e7c22f" kind="property"><name>vec</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a598e2c5db10feaa136a55086d259de06" kind="property"><name>this[MR.VoxelId i]</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a153336476deb090bab51eaa71670a617" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a037e2e61a3f150dde597f8354815c467" kind="function"><name>Vector_MRObjId_MRVoxelId</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1ae36835f44c5e9bef75e31e3810cd3ac6" kind="function"><name>Vector_MRObjId_MRVoxelId</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1ac2a79ea03a0db9840204920480e1edbe" kind="function"><name>Vector_MRObjId_MRVoxelId</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1aff1899c9db1220decaf2015f2e2328b1" kind="function"><name>Vector_MRObjId_MRVoxelId</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1ad3f7f2128d2a0507eb34cceac31de017" kind="function"><name>Vector_MRObjId_MRVoxelId</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1ab2b798088282f6a344ea9484451141b9" kind="function"><name>Vector_MRObjId_MRVoxelId</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1ae3139c8c0456d6195fe4e0dddc3db9c6" kind="function"><name>Vector_MRObjId_MRVoxelId</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1aa53f43b8cbe1fed99c9b4e8b442c0e26" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a4129c45c53133b4639e1ccd7afec95b5" kind="function"><name>clear</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a81d93e14c09a2c97fc1597a16bf3bb2e" kind="function"><name>resize</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1af53749cec7acdb21b278d33e2bff7f72" kind="function"><name>resize</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1aef0cf52952fa668965b4e45911308a2f" kind="function"><name>resizeNoInit</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a12f60168600da9bd210e3ad34478da4c" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1ac2e403a04ff1685012a2ff63e47830e0" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1ade0be8cea80f6694000c5b196adab870" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a3323870b1b906e721f4a418ce011ec65" kind="function"><name>autoResizeSet</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a69fc05dceb589de2f81230022b17ee16" kind="function"><name>autoResizeSet</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a4e6c928f2ce03e4be86ee417d4c24caa" kind="function"><name>autoResizeAt</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a47826091af33a29ac604a15f9e8e5848" kind="function"><name>pushBack</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a451e39029007d230142b097453485464" kind="function"><name>pushBack</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1aa21cbbba9a7b8421fde45b6830b4a31c" kind="function"><name>popBack</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a061c7ee0455f78b1a4b7b836578e0f13" kind="function"><name>emplaceBack</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a375a6c864cb2a154fabb2344b1521c3d" kind="function"><name>front</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1acf1c3b5449e64d7e83466f3d338d35fd" kind="function"><name>back</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a425dafcb0604ae3d04a9174755712770" kind="function"><name>data</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1af8bc9550d8085351fa17a27fed2ff74c" kind="function"><name>swap</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a64302810076b52ef23d98c590b4f2a8b" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a9b4e8f67300a88294389062535dd93f0" kind="function"><name>Vector_MRObjId_MRVoxelId</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1aea278867167509064e787a327e0bdc04" kind="function"><name>operator Vector_MRObjId_MRVoxelId</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRPixelId__MRPixelId" kind="class"><name>MR::Vector_MRPixelId_MRPixelId</name>
     <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1adb198b03ce6d9d1a45a585fc6b971b58" kind="property"><name>vec</name></member>
@@ -21405,6 +21652,8 @@
   </compound>
   <compound refid="MRLas_8cs" kind="file"><name>MRLas.cs</name>
   </compound>
+  <compound refid="MRNesting3mfExport_8cs" kind="file"><name>MRNesting3mfExport.cs</name>
+  </compound>
   <compound refid="MRPdf_8cs" kind="file"><name>MRPdf.cs</name>
   </compound>
   <compound refid="MRPng_8cs" kind="file"><name>MRPng.cs</name>
@@ -21470,6 +21719,8 @@
   <compound refid="MRBooleanOperation_8cs" kind="file"><name>MRBooleanOperation.cs</name>
   </compound>
   <compound refid="MRBox_8cs" kind="file"><name>MRBox.cs</name>
+  </compound>
+  <compound refid="MRBoxNesting_8cs" kind="file"><name>MRBoxNesting.cs</name>
   </compound>
   <compound refid="MRBuffer_8cs" kind="file"><name>MRBuffer.cs</name>
   </compound>
@@ -21833,6 +22084,8 @@
   </compound>
   <compound refid="MRMutexOwner_8cs" kind="file"><name>MRMutexOwner.cs</name>
   </compound>
+  <compound refid="MRNestingStructures_8cs" kind="file"><name>MRNestingStructures.cs</name>
+  </compound>
   <compound refid="MRNoDefInit_8cs" kind="file"><name>MRNoDefInit.cs</name>
   </compound>
   <compound refid="MRNormalDenoising_8cs" kind="file"><name>MRNormalDenoising.cs</name>
@@ -22195,9 +22448,13 @@
   </compound>
   <compound refid="MRScanHelpers_8cs" kind="file"><name>MRScanHelpers.cs</name>
   </compound>
+  <compound refid="MRSequentialNester_8cs" kind="file"><name>MRSequentialNester.cs</name>
+  </compound>
   <compound refid="MRSweptVolume_8cs" kind="file"><name>MRSweptVolume.cs</name>
   </compound>
   <compound refid="MRTeethMaskToDirectionVolume_8cs" kind="file"><name>MRTeethMaskToDirectionVolume.cs</name>
+  </compound>
+  <compound refid="MRTetrisNesting_8cs" kind="file"><name>MRTetrisNesting.cs</name>
   </compound>
   <compound refid="MRToolPath_8cs" kind="file"><name>MRToolPath.cs</name>
   </compound>

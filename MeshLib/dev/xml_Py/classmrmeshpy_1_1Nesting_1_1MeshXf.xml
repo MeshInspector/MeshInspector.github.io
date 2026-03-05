@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Nesting_1_1MeshXf" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Nesting::MeshXf</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1MeshXf_1a02847f606ef1f2694ca1c089f2655c90" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Nesting.MeshXf::_offsetof_mesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_mesh</name>
+        <qualifiedname>mrmeshpy.Nesting.MeshXf._offsetof_mesh</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1MeshXf_1a8e7a1c26be10c805fc0121fd547dd633" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Nesting.MeshXf::_offsetof_xf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xf</name>
+        <qualifiedname>mrmeshpy.Nesting.MeshXf._offsetof_xf</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37225" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1MeshXf_1ae2ed0804d6e8961d5cb83e280b8b938d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.MeshXf.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Nesting.MeshXf.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37228" bodyend="37229"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1MeshXf_1a99357d245c07a5ee27d8abf752d33d6a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Nesting_1_1MeshXf" kindref="compound">Nesting.MeshXf</ref></type>
+        <definition> Nesting.MeshXf mrmeshpy.Nesting.MeshXf.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Nesting.MeshXf.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37232" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37232" bodyend="37233"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1MeshXf_1a99357d245c07a5ee27d8abf752d33d6a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Nesting_1_1MeshXf" kindref="compound">Nesting.MeshXf</ref></type>
+        <definition> Nesting.MeshXf mrmeshpy.Nesting.MeshXf.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Nesting.MeshXf.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37236" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37236" bodyend="37237"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1MeshXf_1ad535fc2a0dd5ae8541c159a7cda350f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.MeshXf.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Nesting.MeshXf.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37239" bodyend="37240"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1MeshXf_1a0d729510b8264433ca2faad9985d43fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.MeshXf.__init__</definition>
+        <argsstring>(self, Nesting.MeshXf arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Nesting.MeshXf.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Nesting_1_1MeshXf" kindref="compound">Nesting.MeshXf</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37242" bodyend="37245"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1MeshXf_1ac2a7615d6677e5da8442928cd08a687f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.MeshXf.__init__</definition>
+        <argsstring>(self, Mesh mesh, AffineXf3f xf)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Nesting.MeshXf.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37247" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37247" bodyend="37250"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1MeshXf_1a4d6f75e208cabc447691b78df0772e00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.Nesting.MeshXf.mesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>mesh</name>
+        <qualifiedname>mrmeshpy.Nesting.MeshXf.mesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>input mesh - should not be nullptr
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37252" bodyend="37255"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1MeshXf_1a4093d7c0b0f619d375dcfbc04a414a9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.MeshXf.mesh</definition>
+        <argsstring>(self, Mesh arg1)</argsstring>
+        <name>mesh</name>
+        <qualifiedname>mrmeshpy.Nesting.MeshXf.mesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37257" bodyend="37258"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1MeshXf_1aae94c0a0b12cec8d0f0016c6c8ce12e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.Nesting.MeshXf.xf</definition>
+        <argsstring>(self)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.Nesting.MeshXf.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>input mesh world transformation before nesting
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37260" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37260" bodyend="37263"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1MeshXf_1a05516a3ef1e1ad236f2b4e568abe0d28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Nesting.MeshXf.xf</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.Nesting.MeshXf.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37265" bodyend="37267"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Nesting::MeshXf
+Aliases:  std_vector_Nesting_MeshXf_reference, Vector_Nesting_MeshXf_ObjId.reference, std_vector_Nesting_MeshXf_value_type, std_vector_Nesting_MeshXf_const_reference, Vector_Nesting_MeshXf_ObjId.value_type, Vector_Nesting_MeshXf_ObjId.const_reference
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37219" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37219" bodyend="37266"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Nesting_1_1MeshXf_1ae2ed0804d6e8961d5cb83e280b8b938d" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::MeshXf</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1MeshXf_1ad535fc2a0dd5ae8541c159a7cda350f1" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::MeshXf</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1MeshXf_1a0d729510b8264433ca2faad9985d43fc" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::MeshXf</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1MeshXf_1ac2a7615d6677e5da8442928cd08a687f" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::MeshXf</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1MeshXf_1a02847f606ef1f2694ca1c089f2655c90" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::MeshXf</scope><name>_offsetof_mesh</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1MeshXf_1a8e7a1c26be10c805fc0121fd547dd633" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::MeshXf</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1MeshXf_1a4d6f75e208cabc447691b78df0772e00" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::MeshXf</scope><name>mesh</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1MeshXf_1a4093d7c0b0f619d375dcfbc04a414a9e" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::MeshXf</scope><name>mesh</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1MeshXf_1a99357d245c07a5ee27d8abf752d33d6a" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::MeshXf</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1MeshXf_1a99357d245c07a5ee27d8abf752d33d6a" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::MeshXf</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1MeshXf_1aae94c0a0b12cec8d0f0016c6c8ce12e7" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::MeshXf</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1MeshXf_1a05516a3ef1e1ad236f2b4e568abe0d28" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::MeshXf</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

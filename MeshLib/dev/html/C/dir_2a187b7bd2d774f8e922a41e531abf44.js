@@ -7,6 +7,7 @@ var dir_2a187b7bd2d774f8e922a41e531abf44 =
     [ "MRIOExtras.h", "MRIOExtras_8h.html", "MRIOExtras_8h" ],
     [ "MRJpeg.h", "MRJpeg_8h.html", "MRJpeg_8h" ],
     [ "MRLas.h", "MRLas_8h.html", "MRLas_8h" ],
+    [ "MRNesting3mfExport.h", "MRNesting3mfExport_8h.html", "MRNesting3mfExport_8h" ],
     [ "MRPdf.h", "MRPdf_8h.html", "MRPdf_8h" ],
     [ "MRPng.h", "MRPng_8h.html", "MRPng_8h" ],
     [ "MRStep.h", "MRStep_8h.html", "MRStep_8h" ],

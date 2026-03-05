@@ -111,6 +111,7 @@ var namespaceMR =
     [ "MeshLoad", "namespaceMR_1_1MeshLoad.html", "namespaceMR_1_1MeshLoad" ],
     [ "MeshSave", "namespaceMR_1_1MeshSave.html", "namespaceMR_1_1MeshSave" ],
     [ "Meta", "namespaceMR_1_1Meta.html", "namespaceMR_1_1Meta" ],
+    [ "Nesting", "namespaceMR_1_1Nesting.html", "namespaceMR_1_1Nesting" ],
     [ "ObjectLoad", "namespaceMR_1_1ObjectLoad.html", [
       [ "ObjectLoader", "namespaceMR_1_1ObjectLoad.html#a19c3bb2545005ca4c70a6243f3fd7a21", null ]
     ] ],

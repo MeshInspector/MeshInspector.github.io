@@ -1,0 +1,1091 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRTetrisNesting_8h" kind="file" language="C++">
+    <compoundname>MRTetrisNesting.h</compoundname>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRTetrisNesting.h</label>
+        <link refid="MRTetrisNesting_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRTetrisNesting_8h_1aef42a50c6c47e790ccfdc266949db2bb" prot="public" static="no">
+        <type>struct <ref refid="MRTetrisNesting_8h_1aef42a50c6c47e790ccfdc266949db2bb" kindref="member">MR_expected_MR_Vector_MR_AffineXf3f_MR_ObjId_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_Vector_MR_AffineXf3f_MR_ObjId_std_string MR_expected_MR_Vector_MR_AffineXf3f_MR_ObjId_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_Vector_MR_AffineXf3f_MR_ObjId_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="17" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" prot="public" static="no">
+        <type>struct <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref></type>
+        <definition>typedef struct MR_Nesting_TetrisDensifyOptions MR_Nesting_TetrisDensifyOptions</definition>
+        <argsstring></argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="24" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" prot="public" static="no">
+        <type>struct <ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref></type>
+        <definition>typedef struct MR_Nesting_TetrisDensifyParams MR_Nesting_TetrisDensifyParams</definition>
+        <argsstring></argsstring>
+        <name>MR_Nesting_TetrisDensifyParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::Nesting::TetrisDensifyParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="28" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a79fe022ff744a08e5d17b79c52757d78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_Nesting_TetrisDensifyOptions_Get_voxelSize</definition>
+        <argsstring>(const MR_Nesting_TetrisDensifyOptions *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_Get_voxelSize</name>
+        <param>
+          <type>const <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>size of block for tetris box Returns a pointer to a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="35" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="35" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a51d5e16b85a2a1ddbb6633c7c0d09d49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Nesting_TetrisDensifyOptions_Set_voxelSize</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyOptions *_this, float value)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_Set_voxelSize</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>size of block for tetris box Modifies a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>voxelSize</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a4cd87d8ebc5e98d3fa880db049729a11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_Nesting_TetrisDensifyOptions_GetMutable_voxelSize</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyOptions *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_GetMutable_voxelSize</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>size of block for tetris box Returns a mutable pointer to a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="48" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="48" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1ae7f77838f6aa757a0f18086fa72c47d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_OutEdge * MR_Nesting_TetrisDensifyOptions_Get_densificationSequence</definition>
+        <argsstring>(const MR_Nesting_TetrisDensifyOptions *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_Get_densificationSequence</name>
+        <param>
+          <type>const <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>tetris box will be densify in these directions one by one Returns a pointer to a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>densificationSequence</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="55" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="55" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a1dff512978308f99e72c318e08b786c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Nesting_TetrisDensifyOptions_Set_densificationSequence</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyOptions *_this, MR_PassBy value_pass_by, MR_std_vector_MR_OutEdge *value)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_Set_densificationSequence</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>tetris box will be densify in these directions one by one Modifies a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>densificationSequence</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>densificationSequence</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>densificationSequence</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="62" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="62" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a0db45fc853af7e39d70640ab2d90cc75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OutEdge * MR_Nesting_TetrisDensifyOptions_GetMutable_densificationSequence</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyOptions *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_GetMutable_densificationSequence</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>tetris box will be densify in these directions one by one Returns a mutable pointer to a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>densificationSequence</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="69" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="69" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1aee30c6cb49945f0969cc4b30f4f67064" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_bool_from_float * MR_Nesting_TetrisDensifyOptions_Get_cb</definition>
+        <argsstring>(const MR_Nesting_TetrisDensifyOptions *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_Get_cb</name>
+        <param>
+          <type>const <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="75" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="75" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1ac168ed70cc75910a1abddba2d35552a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Nesting_TetrisDensifyOptions_Set_cb</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyOptions *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_Set_cb</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="81" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a837350ea47d9fd817089406572b86635" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API MR_std_function_bool_from_float * MR_Nesting_TetrisDensifyOptions_GetMutable_cb</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyOptions *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_GetMutable_cb</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. [in/out] pre-allocated voxels vector (to speedup allocation) Returns a pointer to a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>nestVoxelsCache</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="87" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="87" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1af702066a222029b35efd372ba74cafb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVector_8h_1a3f2ca9b23a05907fee73663dedb02ecb" kindref="member">MR_Vector_MR_ObjId_MR_VoxelId</ref> *const *</type>
+        <definition>MRC_API MR_Vector_MR_ObjId_MR_VoxelId *const  * MR_Nesting_TetrisDensifyOptions_Get_nestVoxelsCache</definition>
+        <argsstring>(const MR_Nesting_TetrisDensifyOptions *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_Get_nestVoxelsCache</name>
+        <param>
+          <type>const <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[in/out] pre-allocated voxels vector (to speedup allocation) Modifies a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>nestVoxelsCache</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>nestVoxelsCache</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>nestVoxelsCache</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="94" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="94" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1adb5f9cc96676ee5eabe90b4892c7324d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Nesting_TetrisDensifyOptions_Set_nestVoxelsCache</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyOptions *_this, MR_Vector_MR_ObjId_MR_VoxelId *value)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_Set_nestVoxelsCache</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVector_8h_1a3f2ca9b23a05907fee73663dedb02ecb" kindref="member">MR_Vector_MR_ObjId_MR_VoxelId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[in/out] pre-allocated voxels vector (to speedup allocation) Returns a mutable pointer to a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>nestVoxelsCache</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="101" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a896098e8829c932d9109ba16ef97e3b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVector_8h_1a3f2ca9b23a05907fee73663dedb02ecb" kindref="member">MR_Vector_MR_ObjId_MR_VoxelId</ref> **</type>
+        <definition>MRC_API MR_Vector_MR_ObjId_MR_VoxelId ** MR_Nesting_TetrisDensifyOptions_GetMutable_nestVoxelsCache</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyOptions *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_GetMutable_nestVoxelsCache</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[in/out] dimensions of the nest (complimentary to voxels data) Returns a pointer to a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>nestDimensionsCache</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="108" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="108" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1aa6fa3a4214edb3c8cee91d80744441ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *const *</type>
+        <definition>MRC_API MR_Vector3i *const  * MR_Nesting_TetrisDensifyOptions_Get_nestDimensionsCache</definition>
+        <argsstring>(const MR_Nesting_TetrisDensifyOptions *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_Get_nestDimensionsCache</name>
+        <param>
+          <type>const <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[in/out] dimensions of the nest (complimentary to voxels data) Modifies a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>nestDimensionsCache</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>nestDimensionsCache</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>nestDimensionsCache</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="115" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="115" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a4f47612e5756a2fb4da37e7d98d4be44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Nesting_TetrisDensifyOptions_Set_nestDimensionsCache</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyOptions *_this, MR_Vector3i *value)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_Set_nestDimensionsCache</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[in/out] dimensions of the nest (complimentary to voxels data) Returns a mutable pointer to a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>nestDimensionsCache</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="122" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a29bc944703a2a9bd04843701496a8ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> **</type>
+        <definition>MRC_API MR_Vector3i ** MR_Nesting_TetrisDensifyOptions_GetMutable_nestDimensionsCache</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyOptions *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_GetMutable_nestDimensionsCache</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[in/out] voxels that blocks movement of floating (input) meshes (to provide input and output occupancy status) Returns a pointer to a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>occupiedVoxelsCache</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="129" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="129" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a3d640a39eddc3a00e3b10d1a29cd2ab9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref> *const *</type>
+        <definition>MRC_API MR_VoxelBitSet *const  * MR_Nesting_TetrisDensifyOptions_Get_occupiedVoxelsCache</definition>
+        <argsstring>(const MR_Nesting_TetrisDensifyOptions *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_Get_occupiedVoxelsCache</name>
+        <param>
+          <type>const <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[in/out] voxels that blocks movement of floating (input) meshes (to provide input and output occupancy status) Modifies a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>occupiedVoxelsCache</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>occupiedVoxelsCache</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>occupiedVoxelsCache</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="136" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="136" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a2a7d2af7689129186514eff9cfaf5df6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Nesting_TetrisDensifyOptions_Set_occupiedVoxelsCache</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyOptions *_this, MR_VoxelBitSet *value)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_Set_occupiedVoxelsCache</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[in/out] voxels that blocks movement of floating (input) meshes (to provide input and output occupancy status) Returns a mutable pointer to a member variable of class <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> named <computeroutput>occupiedVoxelsCache</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1ade29d0543bc4c408cc86195843b6bd0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref> **</type>
+        <definition>MRC_API MR_VoxelBitSet ** MR_Nesting_TetrisDensifyOptions_GetMutable_occupiedVoxelsCache</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyOptions *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_GetMutable_occupiedVoxelsCache</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="150" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="150" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a2690c4a75a62f723461a2909370463ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+        <definition>MRC_API MR_Nesting_TetrisDensifyOptions * MR_Nesting_TetrisDensifyOptions_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTetrisNesting_8h_1a2651bcad60b85dd6c5ee3d49bf879efe" kindref="member">MR_Nesting_TetrisDensifyOptions_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="154" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="154" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1ad87aeac7ddd64362a6e3248e9384d802" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+        <definition>MRC_API MR_Nesting_TetrisDensifyOptions * MR_Nesting_TetrisDensifyOptions_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRTetrisNesting_8h_1af147e778a460af11731b8482a08044a2" kindref="member">MR_Nesting_TetrisDensifyOptions_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRTetrisNesting_8h_1acdc2207bcb0938e946183e58af7dfd21" kindref="member">MR_Nesting_TetrisDensifyOptions_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRTetrisNesting_8h_1a02d3cf90f94123436b49dc1ebffa1c49" kindref="member">MR_Nesting_TetrisDensifyOptions_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="159" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="159" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1af81d5e8b6c0af02b7e0b7f58d79d5282" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+        <definition>MRC_API MR_Nesting_TetrisDensifyOptions * MR_Nesting_TetrisDensifyOptions_ConstructFrom</definition>
+        <argsstring>(float voxelSize, MR_PassBy densificationSequence_pass_by, MR_std_vector_MR_OutEdge *densificationSequence, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb, MR_Vector_MR_ObjId_MR_VoxelId *nestVoxelsCache, MR_Vector3i *nestDimensionsCache, MR_VoxelBitSet *occupiedVoxelsCache)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_ConstructFrom</name>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>densificationSequence_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref> *</type>
+          <declname>densificationSequence</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>cb_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVector_8h_1a3f2ca9b23a05907fee73663dedb02ecb" kindref="member">MR_Vector_MR_ObjId_MR_VoxelId</ref> *</type>
+          <declname>nestVoxelsCache</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>nestDimensionsCache</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref> *</type>
+          <declname>occupiedVoxelsCache</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::Nesting::TetrisDensifyOptions</computeroutput> elementwise. The reference to the parameter <computeroutput>densificationSequence</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>nestVoxelsCache</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>nestDimensionsCache</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>occupiedVoxelsCache</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTetrisNesting_8h_1a2651bcad60b85dd6c5ee3d49bf879efe" kindref="member">MR_Nesting_TetrisDensifyOptions_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="169" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="169" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a02d3cf90f94123436b49dc1ebffa1c49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+        <definition>MRC_API const MR_Nesting_TetrisDensifyOptions * MR_Nesting_TetrisDensifyOptions_OffsetPtr</definition>
+        <argsstring>(const MR_Nesting_TetrisDensifyOptions *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="173" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="173" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1acdc2207bcb0938e946183e58af7dfd21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+        <definition>MRC_API MR_Nesting_TetrisDensifyOptions * MR_Nesting_TetrisDensifyOptions_OffsetMutablePtr</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyOptions *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="177" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="177" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a2191b9e1b77f1fbd5cab1229a9893c35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+        <definition>MRC_API MR_Nesting_TetrisDensifyOptions * MR_Nesting_TetrisDensifyOptions_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_Nesting_TetrisDensifyOptions *_other)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Nesting::TetrisDensifyOptions::TetrisDensifyOptions</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTetrisNesting_8h_1a2651bcad60b85dd6c5ee3d49bf879efe" kindref="member">MR_Nesting_TetrisDensifyOptions_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="182" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="182" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a2651bcad60b85dd6c5ee3d49bf879efe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Nesting_TetrisDensifyOptions_Destroy</definition>
+        <argsstring>(const MR_Nesting_TetrisDensifyOptions *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_Destroy</name>
+        <param>
+          <type>const <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="185" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="185" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1af147e778a460af11731b8482a08044a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Nesting_TetrisDensifyOptions_DestroyArray</definition>
+        <argsstring>(const MR_Nesting_TetrisDensifyOptions *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="188" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="188" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1ae26d9774272cf91bca1688986ef6194c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+        <definition>MRC_API MR_Nesting_TetrisDensifyOptions * MR_Nesting_TetrisDensifyOptions_AssignFromAnother</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyOptions *_this, MR_PassBy _other_pass_by, MR_Nesting_TetrisDensifyOptions *_other)</argsstring>
+        <name>MR_Nesting_TetrisDensifyOptions_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Nesting::TetrisDensifyOptions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="195" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="195" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1aadbf94fabfcb278aac83a4c1272e5820" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+        <definition>MRC_API const MR_Nesting_NestingBaseParams * MR_Nesting_TetrisDensifyParams_Get_baseParams</definition>
+        <argsstring>(const MR_Nesting_TetrisDensifyParams *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyParams_Get_baseParams</name>
+        <param>
+          <type>const <ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Nesting::TetrisDensifyParams</computeroutput> named <computeroutput>baseParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="201" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="201" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a827fbf7b3ec6f74d5b2f30ff986128f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Nesting_TetrisDensifyParams_Set_baseParams</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyParams *_this, const MR_Nesting_NestingBaseParams *value)</argsstring>
+        <name>MR_Nesting_TetrisDensifyParams_Set_baseParams</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Nesting::TetrisDensifyParams</computeroutput> named <computeroutput>baseParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>baseParams</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>baseParams</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="208" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="208" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a767a279e96e2616b76c7f714a7e953cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+        <definition>MRC_API MR_Nesting_NestingBaseParams * MR_Nesting_TetrisDensifyParams_GetMutable_baseParams</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyParams *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyParams_GetMutable_baseParams</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Nesting::TetrisDensifyParams</computeroutput> named <computeroutput>baseParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="214" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="214" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a1fa53fe611ef1d33594c22d1544bb924" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+        <definition>MRC_API const MR_Nesting_TetrisDensifyOptions * MR_Nesting_TetrisDensifyParams_Get_options</definition>
+        <argsstring>(const MR_Nesting_TetrisDensifyParams *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyParams_Get_options</name>
+        <param>
+          <type>const <ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Nesting::TetrisDensifyParams</computeroutput> named <computeroutput>options</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="220" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="220" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1af54ac444114243853fd8bcb5a5775066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Nesting_TetrisDensifyParams_Set_options</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyParams *_this, MR_PassBy value_pass_by, MR_Nesting_TetrisDensifyOptions *value)</argsstring>
+        <name>MR_Nesting_TetrisDensifyParams_Set_options</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Nesting::TetrisDensifyParams</computeroutput> named <computeroutput>options</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>options</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>options</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="226" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="226" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1af904990a0b9b9537f5018bfda5e9fc12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+        <definition>MRC_API MR_Nesting_TetrisDensifyOptions * MR_Nesting_TetrisDensifyParams_GetMutable_options</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyParams *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyParams_GetMutable_options</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Nesting::TetrisDensifyParams</computeroutput> named <computeroutput>options</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="232" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="232" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a4bd54d7a558a52558c9be988816cd656" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+        <definition>MRC_API MR_Nesting_TetrisDensifyParams * MR_Nesting_TetrisDensifyParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Nesting_TetrisDensifyParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTetrisNesting_8h_1a8495d6c4984806bc84f86a18532e331f" kindref="member">MR_Nesting_TetrisDensifyParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="236" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="236" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1acd02ffd233bfc21d304ab714e78e4d96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+        <definition>MRC_API MR_Nesting_TetrisDensifyParams * MR_Nesting_TetrisDensifyParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Nesting_TetrisDensifyParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRTetrisNesting_8h_1ace92e67afa3e58901b16da5ab46b6a99" kindref="member">MR_Nesting_TetrisDensifyParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRTetrisNesting_8h_1aa3af6d9b0240d08166154075e2ba8248" kindref="member">MR_Nesting_TetrisDensifyParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRTetrisNesting_8h_1a943db9c6a614bb042fcb9354d880462a" kindref="member">MR_Nesting_TetrisDensifyParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="241" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="241" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a8388892dea0ac0e90c07decce06ce11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+        <definition>MRC_API MR_Nesting_TetrisDensifyParams * MR_Nesting_TetrisDensifyParams_ConstructFrom</definition>
+        <argsstring>(const MR_Nesting_NestingBaseParams *baseParams, MR_PassBy options_pass_by, MR_Nesting_TetrisDensifyOptions *options)</argsstring>
+        <name>MR_Nesting_TetrisDensifyParams_ConstructFrom</name>
+        <param>
+          <type>const <ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref> *</type>
+          <declname>baseParams</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>options_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref> *</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::Nesting::TetrisDensifyParams</computeroutput> elementwise. Parameter <computeroutput>baseParams</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>baseParams</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>options</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTetrisNesting_8h_1a8495d6c4984806bc84f86a18532e331f" kindref="member">MR_Nesting_TetrisDensifyParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="249" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="249" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a943db9c6a614bb042fcb9354d880462a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+        <definition>MRC_API const MR_Nesting_TetrisDensifyParams * MR_Nesting_TetrisDensifyParams_OffsetPtr</definition>
+        <argsstring>(const MR_Nesting_TetrisDensifyParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Nesting_TetrisDensifyParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="253" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="253" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1aa3af6d9b0240d08166154075e2ba8248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+        <definition>MRC_API MR_Nesting_TetrisDensifyParams * MR_Nesting_TetrisDensifyParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Nesting_TetrisDensifyParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="257" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="257" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a1fdc07bb00363bbfc431b758867a078e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+        <definition>MRC_API MR_Nesting_TetrisDensifyParams * MR_Nesting_TetrisDensifyParams_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_Nesting_TetrisDensifyParams *_other)</argsstring>
+        <name>MR_Nesting_TetrisDensifyParams_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Nesting::TetrisDensifyParams::TetrisDensifyParams</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTetrisNesting_8h_1a8495d6c4984806bc84f86a18532e331f" kindref="member">MR_Nesting_TetrisDensifyParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="262" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="262" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a8495d6c4984806bc84f86a18532e331f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Nesting_TetrisDensifyParams_Destroy</definition>
+        <argsstring>(const MR_Nesting_TetrisDensifyParams *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="265" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="265" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1ace92e67afa3e58901b16da5ab46b6a99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Nesting_TetrisDensifyParams_DestroyArray</definition>
+        <argsstring>(const MR_Nesting_TetrisDensifyParams *_this)</argsstring>
+        <name>MR_Nesting_TetrisDensifyParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="268" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="268" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1aa12b152f8148dec79b2994b0c22cab39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+        <definition>MRC_API MR_Nesting_TetrisDensifyParams * MR_Nesting_TetrisDensifyParams_AssignFromAnother</definition>
+        <argsstring>(MR_Nesting_TetrisDensifyParams *_this, MR_PassBy _other_pass_by, MR_Nesting_TetrisDensifyParams *_other)</argsstring>
+        <name>MR_Nesting_TetrisDensifyParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Nesting::TetrisDensifyParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="275" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="275" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTetrisNesting_8h_1a1c3acb327d91a4af5d531aa40f055526" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTetrisNesting_8h_1aef42a50c6c47e790ccfdc266949db2bb" kindref="member">MR_expected_MR_Vector_MR_AffineXf3f_MR_ObjId_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_Vector_MR_AffineXf3f_MR_ObjId_std_string * MR_Nesting_tetrisNestingDensify</definition>
+        <argsstring>(const MR_Vector_MR_Nesting_MeshXf_MR_ObjId *meshes, const MR_Nesting_TetrisDensifyParams *params)</argsstring>
+        <name>MR_Nesting_tetrisNestingDensify</name>
+        <param>
+          <type>const <ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref> *</type>
+          <declname>meshes</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>make nested meshes more compact by representing them via voxels and pushing to nest zero Generated from function <computeroutput>MR::Nesting::tetrisNestingDensify</computeroutput>. Parameter <computeroutput>meshes</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Vector_MR_AffineXf3f_MR_ObjId_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" line="282" column="65" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h" declline="282" declcolumn="65"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRNestingStructures.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref><sp/><ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a3f2ca9b23a05907fee73663dedb02ecb" kindref="member">MR_Vector_MR_ObjId_MR_VoxelId</ref><sp/><ref refid="MRVector_8h_1a3f2ca9b23a05907fee73663dedb02ecb" kindref="member">MR_Vector_MR_ObjId_MR_VoxelId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRTetrisNesting_8h_1aef42a50c6c47e790ccfdc266949db2bb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTetrisNesting_8h_1aef42a50c6c47e790ccfdc266949db2bb" kindref="member">MR_expected_MR_Vector_MR_AffineXf3f_MR_ObjId_std_string</ref><sp/><ref refid="MRTetrisNesting_8h_1aef42a50c6c47e790ccfdc266949db2bb" kindref="member">MR_expected_MR_Vector_MR_AffineXf3f_MR_ObjId_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Vector_MR_AffineXf3f_MR_ObjId_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref><sp/><ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_OutEdge.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRTetrisNesting_8h_1a79fe022ff744a08e5d17b79c52757d78" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRTetrisNesting_8h_1a79fe022ff744a08e5d17b79c52757d78" kindref="member">MR_Nesting_TetrisDensifyOptions_Get_voxelSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRTetrisNesting_8h_1a51d5e16b85a2a1ddbb6633c7c0d09d49" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a51d5e16b85a2a1ddbb6633c7c0d09d49" kindref="member">MR_Nesting_TetrisDensifyOptions_Set_voxelSize</ref>(<ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRTetrisNesting_8h_1a4cd87d8ebc5e98d3fa880db049729a11" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRTetrisNesting_8h_1a4cd87d8ebc5e98d3fa880db049729a11" kindref="member">MR_Nesting_TetrisDensifyOptions_GetMutable_voxelSize</ref>(<ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRTetrisNesting_8h_1ae7f77838f6aa757a0f18086fa72c47d1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref><sp/>*<ref refid="MRTetrisNesting_8h_1ae7f77838f6aa757a0f18086fa72c47d1" kindref="member">MR_Nesting_TetrisDensifyOptions_Get_densificationSequence</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MRTetrisNesting_8h_1a1dff512978308f99e72c318e08b786c3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a1dff512978308f99e72c318e08b786c3" kindref="member">MR_Nesting_TetrisDensifyOptions_Set_densificationSequence</ref>(<ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="MRTetrisNesting_8h_1a0db45fc853af7e39d70640ab2d90cc75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref><sp/>*<ref refid="MRTetrisNesting_8h_1a0db45fc853af7e39d70640ab2d90cc75" kindref="member">MR_Nesting_TetrisDensifyOptions_GetMutable_densificationSequence</ref>(<ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRTetrisNesting_8h_1aee30c6cb49945f0969cc4b30f4f67064" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRTetrisNesting_8h_1aee30c6cb49945f0969cc4b30f4f67064" kindref="member">MR_Nesting_TetrisDensifyOptions_Get_cb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRTetrisNesting_8h_1ac168ed70cc75910a1abddba2d35552a7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1ac168ed70cc75910a1abddba2d35552a7" kindref="member">MR_Nesting_TetrisDensifyOptions_Set_cb</ref>(<ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="MRTetrisNesting_8h_1a837350ea47d9fd817089406572b86635" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRTetrisNesting_8h_1a837350ea47d9fd817089406572b86635" kindref="member">MR_Nesting_TetrisDensifyOptions_GetMutable_cb</ref>(<ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRTetrisNesting_8h_1af702066a222029b35efd372ba74cafb4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a3f2ca9b23a05907fee73663dedb02ecb" kindref="member">MR_Vector_MR_ObjId_MR_VoxelId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRTetrisNesting_8h_1af702066a222029b35efd372ba74cafb4" kindref="member">MR_Nesting_TetrisDensifyOptions_Get_nestVoxelsCache</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRTetrisNesting_8h_1adb5f9cc96676ee5eabe90b4892c7324d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1adb5f9cc96676ee5eabe90b4892c7324d" kindref="member">MR_Nesting_TetrisDensifyOptions_Set_nestVoxelsCache</ref>(<ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this,<sp/><ref refid="MRVector_8h_1a3f2ca9b23a05907fee73663dedb02ecb" kindref="member">MR_Vector_MR_ObjId_MR_VoxelId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRTetrisNesting_8h_1a896098e8829c932d9109ba16ef97e3b1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a3f2ca9b23a05907fee73663dedb02ecb" kindref="member">MR_Vector_MR_ObjId_MR_VoxelId</ref><sp/>**<ref refid="MRTetrisNesting_8h_1a896098e8829c932d9109ba16ef97e3b1" kindref="member">MR_Nesting_TetrisDensifyOptions_GetMutable_nestVoxelsCache</ref>(<ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRTetrisNesting_8h_1aa6fa3a4214edb3c8cee91d80744441ef" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRTetrisNesting_8h_1aa6fa3a4214edb3c8cee91d80744441ef" kindref="member">MR_Nesting_TetrisDensifyOptions_Get_nestDimensionsCache</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRTetrisNesting_8h_1a4f47612e5756a2fb4da37e7d98d4be44" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a4f47612e5756a2fb4da37e7d98d4be44" kindref="member">MR_Nesting_TetrisDensifyOptions_Set_nestDimensionsCache</ref>(<ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="MRTetrisNesting_8h_1a29bc944703a2a9bd04843701496a8ead" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>**<ref refid="MRTetrisNesting_8h_1a29bc944703a2a9bd04843701496a8ead" kindref="member">MR_Nesting_TetrisDensifyOptions_GetMutable_nestDimensionsCache</ref>(<ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRTetrisNesting_8h_1a3d640a39eddc3a00e3b10d1a29cd2ab9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRTetrisNesting_8h_1a3d640a39eddc3a00e3b10d1a29cd2ab9" kindref="member">MR_Nesting_TetrisDensifyOptions_Get_occupiedVoxelsCache</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRTetrisNesting_8h_1a2a7d2af7689129186514eff9cfaf5df6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a2a7d2af7689129186514eff9cfaf5df6" kindref="member">MR_Nesting_TetrisDensifyOptions_Set_occupiedVoxelsCache</ref>(<ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRTetrisNesting_8h_1ade29d0543bc4c408cc86195843b6bd0e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>**<ref refid="MRTetrisNesting_8h_1ade29d0543bc4c408cc86195843b6bd0e" kindref="member">MR_Nesting_TetrisDensifyOptions_GetMutable_occupiedVoxelsCache</ref>(<ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRTetrisNesting_8h_1a2690c4a75a62f723461a2909370463ba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*<ref refid="MRTetrisNesting_8h_1a2690c4a75a62f723461a2909370463ba" kindref="member">MR_Nesting_TetrisDensifyOptions_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRTetrisNesting_8h_1ad87aeac7ddd64362a6e3248e9384d802" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*<ref refid="MRTetrisNesting_8h_1ad87aeac7ddd64362a6e3248e9384d802" kindref="member">MR_Nesting_TetrisDensifyOptions_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="MRTetrisNesting_8h_1af81d5e8b6c0af02b7e0b7f58d79d5282" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*<ref refid="MRTetrisNesting_8h_1af81d5e8b6c0af02b7e0b7f58d79d5282" kindref="member">MR_Nesting_TetrisDensifyOptions_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/>MR_PassBy<sp/>densificationSequence_pass_by,<sp/><ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref><sp/>*densificationSequence,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb,<sp/><ref refid="MRVector_8h_1a3f2ca9b23a05907fee73663dedb02ecb" kindref="member">MR_Vector_MR_ObjId_MR_VoxelId</ref><sp/>*nestVoxelsCache,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*nestDimensionsCache,<sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>*occupiedVoxelsCache);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRTetrisNesting_8h_1a02d3cf90f94123436b49dc1ebffa1c49" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*<ref refid="MRTetrisNesting_8h_1a02d3cf90f94123436b49dc1ebffa1c49" kindref="member">MR_Nesting_TetrisDensifyOptions_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRTetrisNesting_8h_1acdc2207bcb0938e946183e58af7dfd21" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*<ref refid="MRTetrisNesting_8h_1acdc2207bcb0938e946183e58af7dfd21" kindref="member">MR_Nesting_TetrisDensifyOptions_OffsetMutablePtr</ref>(<ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRTetrisNesting_8h_1a2191b9e1b77f1fbd5cab1229a9893c35" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*<ref refid="MRTetrisNesting_8h_1a2191b9e1b77f1fbd5cab1229a9893c35" kindref="member">MR_Nesting_TetrisDensifyOptions_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="MRTetrisNesting_8h_1a2651bcad60b85dd6c5ee3d49bf879efe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a2651bcad60b85dd6c5ee3d49bf879efe" kindref="member">MR_Nesting_TetrisDensifyOptions_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRTetrisNesting_8h_1af147e778a460af11731b8482a08044a2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1af147e778a460af11731b8482a08044a2" kindref="member">MR_Nesting_TetrisDensifyOptions_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="MRTetrisNesting_8h_1ae26d9774272cf91bca1688986ef6194c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*<ref refid="MRTetrisNesting_8h_1ae26d9774272cf91bca1688986ef6194c" kindref="member">MR_Nesting_TetrisDensifyOptions_AssignFromAnother</ref>(<ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="MRTetrisNesting_8h_1aadbf94fabfcb278aac83a4c1272e5820" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*<ref refid="MRTetrisNesting_8h_1aadbf94fabfcb278aac83a4c1272e5820" kindref="member">MR_Nesting_TetrisDensifyParams_Get_baseParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="MRTetrisNesting_8h_1a827fbf7b3ec6f74d5b2f30ff986128f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a827fbf7b3ec6f74d5b2f30ff986128f1" kindref="member">MR_Nesting_TetrisDensifyParams_Set_baseParams</ref>(<ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="MRTetrisNesting_8h_1a767a279e96e2616b76c7f714a7e953cb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*<ref refid="MRTetrisNesting_8h_1a767a279e96e2616b76c7f714a7e953cb" kindref="member">MR_Nesting_TetrisDensifyParams_GetMutable_baseParams</ref>(<ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="MRTetrisNesting_8h_1a1fa53fe611ef1d33594c22d1544bb924" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*<ref refid="MRTetrisNesting_8h_1a1fa53fe611ef1d33594c22d1544bb924" kindref="member">MR_Nesting_TetrisDensifyParams_Get_options</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="MRTetrisNesting_8h_1af54ac444114243853fd8bcb5a5775066" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1af54ac444114243853fd8bcb5a5775066" kindref="member">MR_Nesting_TetrisDensifyParams_Set_options</ref>(<ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="MRTetrisNesting_8h_1af904990a0b9b9537f5018bfda5e9fc12" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*<ref refid="MRTetrisNesting_8h_1af904990a0b9b9537f5018bfda5e9fc12" kindref="member">MR_Nesting_TetrisDensifyParams_GetMutable_options</ref>(<ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="MRTetrisNesting_8h_1a4bd54d7a558a52558c9be988816cd656" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*<ref refid="MRTetrisNesting_8h_1a4bd54d7a558a52558c9be988816cd656" kindref="member">MR_Nesting_TetrisDensifyParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="MRTetrisNesting_8h_1acd02ffd233bfc21d304ab714e78e4d96" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*<ref refid="MRTetrisNesting_8h_1acd02ffd233bfc21d304ab714e78e4d96" kindref="member">MR_Nesting_TetrisDensifyParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="MRTetrisNesting_8h_1a8388892dea0ac0e90c07decce06ce11d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*<ref refid="MRTetrisNesting_8h_1a8388892dea0ac0e90c07decce06ce11d" kindref="member">MR_Nesting_TetrisDensifyParams_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*baseParams,<sp/>MR_PassBy<sp/>options_pass_by,<sp/><ref refid="MRTetrisNesting_8h_1a4e4a34e2a763e8eae789ffcbe9274456" kindref="member">MR_Nesting_TetrisDensifyOptions</ref><sp/>*options);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="MRTetrisNesting_8h_1a943db9c6a614bb042fcb9354d880462a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*<ref refid="MRTetrisNesting_8h_1a943db9c6a614bb042fcb9354d880462a" kindref="member">MR_Nesting_TetrisDensifyParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="MRTetrisNesting_8h_1aa3af6d9b0240d08166154075e2ba8248" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*<ref refid="MRTetrisNesting_8h_1aa3af6d9b0240d08166154075e2ba8248" kindref="member">MR_Nesting_TetrisDensifyParams_OffsetMutablePtr</ref>(<ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="MRTetrisNesting_8h_1a1fdc07bb00363bbfc431b758867a078e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*<ref refid="MRTetrisNesting_8h_1a1fdc07bb00363bbfc431b758867a078e" kindref="member">MR_Nesting_TetrisDensifyParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="MRTetrisNesting_8h_1a8495d6c4984806bc84f86a18532e331f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1a8495d6c4984806bc84f86a18532e331f" kindref="member">MR_Nesting_TetrisDensifyParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268" refid="MRTetrisNesting_8h_1ace92e67afa3e58901b16da5ab46b6a99" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1ace92e67afa3e58901b16da5ab46b6a99" kindref="member">MR_Nesting_TetrisDensifyParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="MRTetrisNesting_8h_1aa12b152f8148dec79b2994b0c22cab39" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*<ref refid="MRTetrisNesting_8h_1aa12b152f8148dec79b2994b0c22cab39" kindref="member">MR_Nesting_TetrisDensifyParams_AssignFromAnother</ref>(<ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282" refid="MRTetrisNesting_8h_1a1c3acb327d91a4af5d531aa40f055526" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTetrisNesting_8h_1aef42a50c6c47e790ccfdc266949db2bb" kindref="member">MR_expected_MR_Vector_MR_AffineXf3f_MR_ObjId_std_string</ref><sp/>*<ref refid="MRTetrisNesting_8h_1a1c3acb327d91a4af5d531aa40f055526" kindref="member">MR_Nesting_tetrisNestingDensify</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref><sp/>*meshes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTetrisNesting_8h_1ac7f0ce1d53c3b93e1182e5bb5a391df4" kindref="member">MR_Nesting_TetrisDensifyParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTetrisNesting.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Nesting_1_1MeshXf" kind="class" language="C#" prot="public">
+    <compoundname>MR::Nesting::MeshXf</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Nesting.Const_MeshXf</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Nesting_1_1MeshXf_1aac398ed1112a39eb96b781c049ceec50" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? Const_Mesh</type>
+        <definition>new unsafe MR.? Const_Mesh MR.Nesting.MeshXf.mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <qualifiedname>MR.Nesting.MeshXf.mesh</qualifiedname>
+        <briefdescription>
+<para>input mesh - should not be nullptr </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" line="342" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" bodystart="343" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Nesting_1_1MeshXf_1ac934bb26fc1c451a8e7a8da4ec987a88" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>new unsafe ref MR.AffineXf3f MR.Nesting.MeshXf.xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Nesting.MeshXf.xf</qualifiedname>
+        <briefdescription>
+<para>input mesh world transformation before nesting </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" line="357" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" bodystart="357" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1MeshXf_1a6e146d4c64f857262263975a75698d15" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Nesting.MeshXf.MeshXf</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MeshXf</name>
+        <qualifiedname>MR.Nesting.MeshXf.MeshXf</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" line="361" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" bodystart="361" bodyend="365"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1MeshXf_1a6dec959af8b3673b5175821c99ca4535" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Nesting.MeshXf.MeshXf</definition>
+        <argsstring>()</argsstring>
+        <name>MeshXf</name>
+        <qualifiedname>MR.Nesting.MeshXf.MeshXf</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" line="371" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" bodystart="371" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1MeshXf_1ac81c1dadae3855cbd7a7a1701a93bbb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Nesting.MeshXf.MeshXf</definition>
+        <argsstring>(MR.Const_Mesh? mesh, MR.AffineXf3f xf)</argsstring>
+        <name>MeshXf</name>
+        <qualifiedname>MR.Nesting.MeshXf.MeshXf</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh?</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Nesting_1_1MeshXf" kindref="compound">MR.Nesting.MeshXf</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" line="382" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" bodystart="382" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1MeshXf_1ae722640863bcbc224b966ace1ab7f9dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Nesting.MeshXf.MeshXf</definition>
+        <argsstring>(MR.Nesting.Const_MeshXf _other)</argsstring>
+        <name>MeshXf</name>
+        <qualifiedname>MR.Nesting.MeshXf.MeshXf</qualifiedname>
+        <param>
+          <type>MR.Nesting.Const_MeshXf</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Nesting_1_1MeshXf_1a6dec959af8b3673b5175821c99ca4535" kindref="member">MR.Nesting.MeshXf.MeshXf</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" line="394" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" bodystart="394" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1MeshXf_1adfb906b08e4cfac28a1504233b27f176" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Nesting.MeshXf.MeshXf</definition>
+        <argsstring>(MeshXf _other)</argsstring>
+        <name>MeshXf</name>
+        <qualifiedname>MR.Nesting.MeshXf.MeshXf</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Nesting_1_1MeshXf" kindref="compound">MeshXf</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Nesting_1_1MeshXf_1a6dec959af8b3673b5175821c99ca4535" kindref="member">MR.Nesting.MeshXf.MeshXf</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" line="406" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" bodystart="406" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1MeshXf_1ab0597415fb36afe59ff4281344fd2bcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Nesting_1_1MeshXf" kindref="compound">MR.Nesting.MeshXf</ref></type>
+        <definition>unsafe MR.Nesting.MeshXf MR.Nesting.MeshXf.assign</definition>
+        <argsstring>(MR.Nesting.Const_MeshXf _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Nesting.MeshXf.assign</qualifiedname>
+        <param>
+          <type>MR.Nesting.Const_MeshXf</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Nesting::MeshXf::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" line="411" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" bodystart="411" bodyend="418"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Nesting_1_1MeshXf" kindref="compound">MR.Nesting.MeshXf</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Nesting.MeshXf</label>
+        <link refid="classMR_1_1Nesting_1_1MeshXf"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.Nesting.Const_MeshXf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Nesting.MeshXf</label>
+        <link refid="classMR_1_1Nesting_1_1MeshXf"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.Nesting.Const_MeshXf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" line="337" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" bodystart="338" bodyend="419"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Nesting_1_1MeshXf_1ab0597415fb36afe59ff4281344fd2bcd" prot="public" virt="non-virtual"><scope>MR::Nesting::MeshXf</scope><name>assign</name></member>
+      <member refid="classMR_1_1Nesting_1_1MeshXf_1aac398ed1112a39eb96b781c049ceec50" prot="public" virt="non-virtual"><scope>MR::Nesting::MeshXf</scope><name>mesh</name></member>
+      <member refid="classMR_1_1Nesting_1_1MeshXf_1a6e146d4c64f857262263975a75698d15" prot="package" virt="non-virtual"><scope>MR::Nesting::MeshXf</scope><name>MeshXf</name></member>
+      <member refid="classMR_1_1Nesting_1_1MeshXf_1a6dec959af8b3673b5175821c99ca4535" prot="public" virt="non-virtual"><scope>MR::Nesting::MeshXf</scope><name>MeshXf</name></member>
+      <member refid="classMR_1_1Nesting_1_1MeshXf_1ac81c1dadae3855cbd7a7a1701a93bbb3" prot="public" virt="non-virtual"><scope>MR::Nesting::MeshXf</scope><name>MeshXf</name></member>
+      <member refid="classMR_1_1Nesting_1_1MeshXf_1ae722640863bcbc224b966ace1ab7f9dd" prot="public" virt="non-virtual"><scope>MR::Nesting::MeshXf</scope><name>MeshXf</name></member>
+      <member refid="classMR_1_1Nesting_1_1MeshXf_1adfb906b08e4cfac28a1504233b27f176" prot="public" virt="non-virtual"><scope>MR::Nesting::MeshXf</scope><name>MeshXf</name></member>
+      <member refid="classMR_1_1Nesting_1_1MeshXf_1ac934bb26fc1c451a8e7a8da4ec987a88" prot="public" virt="non-virtual"><scope>MR::Nesting::MeshXf</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -165,7 +165,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a3a02eff57619c7f1f4ebe81a9aca0c4a" id="r_a3a02eff57619c7f1f4ebe81a9aca0c4a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3a02eff57619c7f1f4ebe81a9aca0c4a">MR_std_vector_MR_Pdf_PaletteRowStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a02eff57619c7f1f4ebe81a9aca0c4a">MR_std_vector_MR_Pdf_PaletteRowStats</a></td></tr>
 <tr class="memitem:aba323e6d596956f5a589a525c6f6adbc" id="r_aba323e6d596956f5a589a525c6f6adbc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a></td></tr>
 <tr class="memitem:af7b77ccae07737ff0cd656471d9e777e" id="r_af7b77ccae07737ff0cd656471d9e777e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af7b77ccae07737ff0cd656471d9e777e">MR_std_vector_std_pair_std_string_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7b77ccae07737ff0cd656471d9e777e">MR_std_vector_std_pair_std_string_float</a></td></tr>
-<tr class="memitem:ab26d333cd7549e6f3f49cc80e3ba5900" id="r_ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td></tr>
 <tr class="memitem:a16164c4894145f134efc161af759e682" id="r_a16164c4894145f134efc161af759e682"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#aa7c069422f6e320404bcee4c8930fde9">MR_PdfBuildinFont</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16164c4894145f134efc161af759e682">MR_PdfBuildinFont</a></td></tr>
 <tr class="memitem:a8b6be769cbbdb6045fd66a4b0b9102e7" id="r_a8b6be769cbbdb6045fd66a4b0b9102e7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a></td></tr>
 <tr class="memdesc:a8b6be769cbbdb6045fd66a4b0b9102e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters of document style.  <br /></td></tr>
@@ -284,8 +283,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a56718e253b9e0063bb02d60909effebb" id="r_a56718e253b9e0063bb02d60909effebb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Box2f.html">MR_Box2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56718e253b9e0063bb02d60909effebb">MR_Pdf_getPageWorkArea</a> (const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this)</td></tr>
 <tr class="memitem:aaec0427ca1096b263e3c98dbbff11129" id="r_aaec0427ca1096b263e3c98dbbff11129"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaec0427ca1096b263e3c98dbbff11129">MR_Pdf_newTable</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, int columnCount)</td></tr>
 <tr class="memitem:a0660e28273fa4ee45d2f85abde0a001f" id="r_a0660e28273fa4ee45d2f85abde0a001f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0660e28273fa4ee45d2f85abde0a001f">MR_Pdf_setTableColumnWidths</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, const <a class="el" href="#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a> *widths)</td></tr>
-<tr class="memitem:ac731aac5ae598c436d60f27ade44fa6d" id="r_ac731aac5ae598c436d60f27ade44fa6d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac731aac5ae598c436d60f27ade44fa6d">MR_Pdf_addTableTitles</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, const <a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *titles)</td></tr>
-<tr class="memitem:a3dfc85eea8522fdf2e5fab9e35012c5b" id="r_a3dfc85eea8522fdf2e5fab9e35012c5b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dfc85eea8522fdf2e5fab9e35012c5b">MR_Pdf_setColumnValuesFormat</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, const <a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *formats)</td></tr>
+<tr class="memitem:ac731aac5ae598c436d60f27ade44fa6d" id="r_ac731aac5ae598c436d60f27ade44fa6d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac731aac5ae598c436d60f27ade44fa6d">MR_Pdf_addTableTitles</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, const <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *titles)</td></tr>
+<tr class="memitem:a3dfc85eea8522fdf2e5fab9e35012c5b" id="r_a3dfc85eea8522fdf2e5fab9e35012c5b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dfc85eea8522fdf2e5fab9e35012c5b">MR_Pdf_setColumnValuesFormat</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, const <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *formats)</td></tr>
 <tr class="memitem:afee686009d134aab72f760046ea3e75d" id="r_afee686009d134aab72f760046ea3e75d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afee686009d134aab72f760046ea3e75d">MR_Pdf_addRow</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, const <a class="el" href="#aef8d990bfea0998dac0c1348fef4b81e">MR_std_vector_MR_Pdf_Cell</a> *cells)</td></tr>
 <tr class="memitem:a759c0842fcea6cfaa1bef6a7938d0d64" id="r_a759c0842fcea6cfaa1bef6a7938d0d64"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a759c0842fcea6cfaa1bef6a7938d0d64">MR_Pdf_getTableTextWidth</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, const char *text, const char *text_end)</td></tr>
 <tr class="memitem:a63aec59ded9a7f6e8edca5f9d4ee0ed7" id="r_a63aec59ded9a7f6e8edca5f9d4ee0ed7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63aec59ded9a7f6e8edca5f9d4ee0ed7">MR_Pdf_setTableCustomRule</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, MR_PassBy rule_pass_by, <a class="el" href="#a47238309c07fca30562fc48b02387c36">MR_std_function_MR_Pdf_CellCustomParams_from_int_int_const_std_string_ref</a> *rule)</td></tr>
@@ -761,20 +760,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab26d333cd7549e6f3f49cc80e3ba5900" name="ab26d333cd7549e6f3f49cc80e3ba5900"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab26d333cd7549e6f3f49cc80e3ba5900">&#9670;&#160;</a></span>MR_std_vector_std_string</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> <a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
 <a id="a60d6bc5e019e4dc263c69c242dab35ba" name="a60d6bc5e019e4dc263c69c242dab35ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a60d6bc5e019e4dc263c69c242dab35ba">&#9670;&#160;</a></span>MR_Pdf_AlignmentHorizontal</h2>
@@ -1010,7 +995,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>titles</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>titles</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3401,7 +3386,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>formats</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>formats</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

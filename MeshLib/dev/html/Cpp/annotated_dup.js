@@ -140,6 +140,19 @@ var annotated_dup =
       [ "Meta", "namespaceMR_1_1Meta.html", [
         [ "SharedPtrTraits", "structMR_1_1Meta_1_1SharedPtrTraits.html", "structMR_1_1Meta_1_1SharedPtrTraits" ]
       ] ],
+      [ "Nesting", "namespaceMR_1_1Nesting.html", [
+        [ "BoxNestingCorner", "structMR_1_1Nesting_1_1BoxNestingCorner.html", "structMR_1_1Nesting_1_1BoxNestingCorner" ],
+        [ "BoxNestingOptions", "structMR_1_1Nesting_1_1BoxNestingOptions.html", "structMR_1_1Nesting_1_1BoxNestingOptions" ],
+        [ "BoxNestingParams", "structMR_1_1Nesting_1_1BoxNestingParams.html", "structMR_1_1Nesting_1_1BoxNestingParams" ],
+        [ "IBoxNestingPriority", "classMR_1_1Nesting_1_1IBoxNestingPriority.html", "classMR_1_1Nesting_1_1IBoxNestingPriority" ],
+        [ "MeshXf", "structMR_1_1Nesting_1_1MeshXf.html", "structMR_1_1Nesting_1_1MeshXf" ],
+        [ "Nesting3mfParams", "structMR_1_1Nesting_1_1Nesting3mfParams.html", "structMR_1_1Nesting_1_1Nesting3mfParams" ],
+        [ "NestingBaseParams", "structMR_1_1Nesting_1_1NestingBaseParams.html", "structMR_1_1Nesting_1_1NestingBaseParams" ],
+        [ "NestingResult", "structMR_1_1Nesting_1_1NestingResult.html", "structMR_1_1Nesting_1_1NestingResult" ],
+        [ "SequentialNester", "classMR_1_1Nesting_1_1SequentialNester.html", "classMR_1_1Nesting_1_1SequentialNester" ],
+        [ "TetrisDensifyOptions", "structMR_1_1Nesting_1_1TetrisDensifyOptions.html", "structMR_1_1Nesting_1_1TetrisDensifyOptions" ],
+        [ "TetrisDensifyParams", "structMR_1_1Nesting_1_1TetrisDensifyParams.html", "structMR_1_1Nesting_1_1TetrisDensifyParams" ]
+      ] ],
       [ "ObjectSave", "namespaceMR_1_1ObjectSave.html", [
         [ "Settings", "structMR_1_1ObjectSave_1_1Settings.html", "structMR_1_1ObjectSave_1_1Settings" ]
       ] ],

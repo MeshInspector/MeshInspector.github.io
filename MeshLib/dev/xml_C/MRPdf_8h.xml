@@ -473,19 +473,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRPdf.h" line="28" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRPdf.h" bodystart="28" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" prot="public" static="no">
-        <type>struct <ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref></type>
-        <definition>typedef struct MR_std_vector_std_string MR_std_vector_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRPdf.h" line="29" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRPdf.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRPdf_8h_1a16164c4894145f134efc161af759e682" prot="public" static="no">
         <type>enum <ref refid="MRPdf_8h_1aa7c069422f6e320404bcee4c8930fde9" kindref="member">MR_PdfBuildinFont</ref></type>
         <definition>typedef enum MR_PdfBuildinFont MR_PdfBuildinFont</definition>
@@ -1866,7 +1853,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> *</type>
+          <type>const <ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> *</type>
           <declname>titles</declname>
         </param>
         <briefdescription>
@@ -1888,7 +1875,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> *</type>
+          <type>const <ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> *</type>
           <declname>formats</declname>
         </param>
         <briefdescription>
@@ -4813,7 +4800,7 @@
 <codeline lineno="26" refid="MRPdf_8h_1a3a02eff57619c7f1f4ebe81a9aca0c4a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1a3a02eff57619c7f1f4ebe81a9aca0c4a" kindref="member">MR_std_vector_MR_Pdf_PaletteRowStats</ref><sp/><ref refid="MRPdf_8h_1a3a02eff57619c7f1f4ebe81a9aca0c4a" kindref="member">MR_std_vector_MR_Pdf_PaletteRowStats</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Pdf_PaletteRowStats.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27" refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28" refid="MRPdf_8h_1af7b77ccae07737ff0cd656471d9e777e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1af7b77ccae07737ff0cd656471d9e777e" kindref="member">MR_std_vector_std_pair_std_string_float</ref><sp/><ref refid="MRPdf_8h_1af7b77ccae07737ff0cd656471d9e777e" kindref="member">MR_std_vector_std_pair_std_string_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_pair_std_string_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34" refid="MRPdf_8h_1aa7c069422f6e320404bcee4c8930fde9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aa7c069422f6e320404bcee4c8930fde9" kindref="member">MR_PdfBuildinFont</ref></highlight></codeline>
@@ -4989,10 +4976,10 @@
 <codeline lineno="448" refid="MRPdf_8h_1a0660e28273fa4ee45d2f85abde0a001f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRPdf_8h_1a0660e28273fa4ee45d2f85abde0a001f" kindref="member">MR_Pdf_setTableColumnWidths</ref>(<ref refid="MRPdf_8h_1a0c39d182e0489d71e7a28dd6358004c2" kindref="member">MR_Pdf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*widths);</highlight></codeline>
 <codeline lineno="449"><highlight class="normal"></highlight></codeline>
 <codeline lineno="450"><highlight class="normal"></highlight><highlight class="comment">//<sp/>add<sp/>in<sp/>pdf<sp/>table<sp/>row<sp/>with<sp/>titles</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="455" refid="MRPdf_8h_1ac731aac5ae598c436d60f27ade44fa6d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRPdf_8h_1ac731aac5ae598c436d60f27ade44fa6d" kindref="member">MR_Pdf_addTableTitles</ref>(<ref refid="MRPdf_8h_1a0c39d182e0489d71e7a28dd6358004c2" kindref="member">MR_Pdf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*titles);</highlight></codeline>
+<codeline lineno="455" refid="MRPdf_8h_1ac731aac5ae598c436d60f27ade44fa6d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRPdf_8h_1ac731aac5ae598c436d60f27ade44fa6d" kindref="member">MR_Pdf_addTableTitles</ref>(<ref refid="MRPdf_8h_1a0c39d182e0489d71e7a28dd6358004c2" kindref="member">MR_Pdf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*titles);</highlight></codeline>
 <codeline lineno="456"><highlight class="normal"></highlight></codeline>
 <codeline lineno="457"><highlight class="normal"></highlight><highlight class="comment">//<sp/>set<sp/>format<sp/>for<sp/>conversion<sp/>values<sp/>to<sp/>string<sp/>for<sp/>each<sp/>column</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="462" refid="MRPdf_8h_1a3dfc85eea8522fdf2e5fab9e35012c5b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRPdf_8h_1a3dfc85eea8522fdf2e5fab9e35012c5b" kindref="member">MR_Pdf_setColumnValuesFormat</ref>(<ref refid="MRPdf_8h_1a0c39d182e0489d71e7a28dd6358004c2" kindref="member">MR_Pdf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*formats);</highlight></codeline>
+<codeline lineno="462" refid="MRPdf_8h_1a3dfc85eea8522fdf2e5fab9e35012c5b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRPdf_8h_1a3dfc85eea8522fdf2e5fab9e35012c5b" kindref="member">MR_Pdf_setColumnValuesFormat</ref>(<ref refid="MRPdf_8h_1a0c39d182e0489d71e7a28dd6358004c2" kindref="member">MR_Pdf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*formats);</highlight></codeline>
 <codeline lineno="463"><highlight class="normal"></highlight></codeline>
 <codeline lineno="464"><highlight class="normal"></highlight><highlight class="comment">//<sp/>add<sp/>in<sp/>pdf<sp/>table<sp/>row<sp/>with<sp/>values</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="469" refid="MRPdf_8h_1afee686009d134aab72f760046ea3e75d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRPdf_8h_1afee686009d134aab72f760046ea3e75d" kindref="member">MR_Pdf_addRow</ref>(<ref refid="MRPdf_8h_1a0c39d182e0489d71e7a28dd6358004c2" kindref="member">MR_Pdf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aef8d990bfea0998dac0c1348fef4b81e" kindref="member">MR_std_vector_MR_Pdf_Cell</ref><sp/>*cells);</highlight></codeline>

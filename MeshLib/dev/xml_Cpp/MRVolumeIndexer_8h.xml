@@ -7,6 +7,7 @@
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes local="no">array</includes>
     <includedby refid="MRObjectVoxels_8h" local="yes">MRVoxels/MRObjectVoxels.h</includedby>
+    <includedby refid="MRTetrisNesting_8h" local="yes">MRVoxels/MRTetrisNesting.h</includedby>
     <includedby refid="MRVoxelsVolumeAccess_8h" local="yes">MRVoxels/MRVoxelsVolumeAccess.h</includedby>
     <incdepgraph>
       <node id="4">
@@ -164,6 +165,8 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
       <node id="4">
         <label>MRVoxels/MRChangeVoxelSelectionAction.h</label>
@@ -173,7 +176,7 @@
         <label>MRVoxels/MRChangeVoxelsAction.h</label>
         <link refid="MRChangeVoxelsAction_8h"/>
       </node>
-      <node id="7">
+      <node id="9">
         <label>MRVoxels/MRMoveMeshToVoxelMaxDeriv.h</label>
         <link refid="MRMoveMeshToVoxelMaxDeriv_8h"/>
       </node>
@@ -187,23 +190,33 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="8">
-        <label>MRVoxels/MRVolumeInterpolation.h</label>
-        <link refid="MRVolumeInterpolation_8h"/>
+      <node id="7">
+        <label>MRVoxels/MRSequentialNester.h</label>
+        <link refid="MRSequentialNester_8h"/>
+      </node>
+      <node id="6">
+        <label>MRVoxels/MRTetrisNesting.h</label>
+        <link refid="MRTetrisNesting_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>MRVoxels/MRVoxelsVolumeAccess.h</label>
-        <link refid="MRVoxelsVolumeAccess_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
+      <node id="10">
+        <label>MRVoxels/MRVolumeInterpolation.h</label>
+        <link refid="MRVolumeInterpolation_8h"/>
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="9">
+      <node id="8">
+        <label>MRVoxels/MRVoxelsVolumeAccess.h</label>
+        <link refid="MRVoxelsVolumeAccess_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
         <label>MRVoxels/MRVoxelsVolumeCachingAccessor.h</label>
         <link refid="MRVoxelsVolumeCachingAccessor_8h"/>
       </node>

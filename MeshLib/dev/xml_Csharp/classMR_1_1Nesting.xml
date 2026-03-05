@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Nesting" kind="class" language="C#" prot="public">
+    <compoundname>MR::Nesting</compoundname>
+    <innerclass refid="classMR_1_1Nesting_1_1BoxNestingCorner" prot="public">MR::Nesting::BoxNestingCorner</innerclass>
+    <innerclass refid="classMR_1_1Nesting_1_1BoxNestingOptions" prot="public">MR::Nesting::BoxNestingOptions</innerclass>
+    <innerclass refid="classMR_1_1Nesting_1_1BoxNestingParams" prot="public">MR::Nesting::BoxNestingParams</innerclass>
+    <innerclass refid="classMR_1_1Nesting_1_1IBoxNestingPriority" prot="public">MR::Nesting::IBoxNestingPriority</innerclass>
+    <innerclass refid="classMR_1_1Nesting_1_1MeshXf" prot="public">MR::Nesting::MeshXf</innerclass>
+    <innerclass refid="classMR_1_1Nesting_1_1Nesting3mfParams" prot="public">MR::Nesting::Nesting3mfParams</innerclass>
+    <innerclass refid="classMR_1_1Nesting_1_1NestingBaseParams" prot="public">MR::Nesting::NestingBaseParams</innerclass>
+    <innerclass refid="classMR_1_1Nesting_1_1NestingResult" prot="public">MR::Nesting::NestingResult</innerclass>
+    <innerclass refid="classMR_1_1Nesting_1_1SequentialNester" prot="public">MR::Nesting::SequentialNester</innerclass>
+    <innerclass refid="classMR_1_1Nesting_1_1TetrisDensifyOptions" prot="public">MR::Nesting::TetrisDensifyOptions</innerclass>
+    <innerclass refid="classMR_1_1Nesting_1_1TetrisDensifyParams" prot="public">MR::Nesting::TetrisDensifyParams</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Nesting_1a93a9b953fc41aa721a7ae5b223a6e792" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Nesting.exportNesting3mf</definition>
+        <argsstring>(string path, MR.Nesting.Const_Nesting3mfParams params_)</argsstring>
+        <name>exportNesting3mf</name>
+        <qualifiedname>MR.Nesting.exportNesting3mf</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>MR.Nesting.Const_Nesting3mfParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>exports slicestack 3mf file based on placed meshes Generated from function <computeroutput><ref refid="classMR_1_1Nesting_1a93a9b953fc41aa721a7ae5b223a6e792" kindref="member">MR.Nesting.exportNesting3mf</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="431" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="431" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1ae31981d41639cc9f5939233a69505d16" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRNestingIBoxNestingPriority</type>
+        <definition>static unsafe MR.Std.SharedPtr_MRNestingIBoxNestingPriority MR.Nesting.getNestPostionMinPriorityMetric</definition>
+        <argsstring>(in MR.Box3f nest)</argsstring>
+        <name>getNestPostionMinPriorityMetric</name>
+        <qualifiedname>MR.Nesting.getNestPostionMinPriorityMetric</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+          <declname>nest</declname>
+        </param>
+        <briefdescription>
+<para>priority metric that minimizes position of new object by Z-&amp;gt;Y-&amp;gt;X coordinate in nest Generated from function <computeroutput><ref refid="classMR_1_1Nesting_1ae31981d41639cc9f5939233a69505d16" kindref="member">MR.Nesting.getNestPostionMinPriorityMetric</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="1071" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="1071" bodyend="1079"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1ad88457c04fd0e0b4e59f8b19acdce1ec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRNestingIBoxNestingPriority</type>
+        <definition>static unsafe MR.Std.SharedPtr_MRNestingIBoxNestingPriority MR.Nesting.getNeighborigDensityPriorityMetric</definition>
+        <argsstring>(in MR.Box3f nest, float neighborhood)</argsstring>
+        <name>getNeighborigDensityPriorityMetric</name>
+        <qualifiedname>MR.Nesting.getNeighborigDensityPriorityMetric</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+          <declname>nest</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>neighborhood</declname>
+        </param>
+        <briefdescription>
+<para>priority metric that maximizes density of placement in local neighborhood Generated from function <computeroutput><ref refid="classMR_1_1Nesting_1ad88457c04fd0e0b4e59f8b19acdce1ec" kindref="member">MR.Nesting.getNeighborigDensityPriorityMetric</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="1085" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="1085" bodyend="1093"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1ab07dbfa905bd4b259fdbf9a6750015fa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Nesting.fillNestingSocketCorneres</definition>
+        <argsstring>(MR.Std.Const_Vector_MRBox3f nestedBoxes, MR.Std.Vector_MRNestingBoxNestingCorner outCorners, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
+        <name>fillNestingSocketCorneres</name>
+        <qualifiedname>MR.Nesting.fillNestingSocketCorneres</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRBox3f</type>
+          <declname>nestedBoxes</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MRNestingBoxNestingCorner</type>
+          <declname>outCorners</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>fills <computeroutput>outCorners</computeroutput> based on <computeroutput>nestedBoxes</computeroutput> corners <linebreak/>
+also adding corners in intersections of <computeroutput>nestedBoxes</computeroutput> Generated from function <computeroutput><ref refid="classMR_1_1Nesting_1ab07dbfa905bd4b259fdbf9a6750015fa" kindref="member">MR.Nesting.fillNestingSocketCorneres</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="1101" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="1101" bodyend="1108"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1ac31011f69dee1f2d75c110bd843faa2c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId" kindref="compound">MR.Vector_MRNestingNestingResult_MRObjId</ref></type>
+        <definition>static unsafe MR.Vector_MRNestingNestingResult_MRObjId MR.Nesting.boxNesting</definition>
+        <argsstring>(MR.Const_Vector_MRNestingMeshXf_MRObjId meshes, MR.Nesting.Const_BoxNestingParams params_)</argsstring>
+        <name>boxNesting</name>
+        <qualifiedname>MR.Nesting.boxNesting</qualifiedname>
+        <param>
+          <type>MR.Const_Vector_MRNestingMeshXf_MRObjId</type>
+          <declname>meshes</declname>
+        </param>
+        <param>
+          <type>MR.Nesting.Const_BoxNestingParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>finds best positions of input meshes to fit the nest (checks them by contacting box corners) Generated from function <computeroutput><ref refid="classMR_1_1Nesting_1ac31011f69dee1f2d75c110bd843faa2c" kindref="member">MR.Nesting.boxNesting</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="1114" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="1114" bodyend="1122"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1a3298e33a9599d43e0c1db734cbef4207" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__MRAffineXf3f__MRObjId" kindref="compound">MR.Vector_MRAffineXf3f_MRObjId</ref></type>
+        <definition>static unsafe MR.Vector_MRAffineXf3f_MRObjId MR.Nesting.tetrisNestingDensify</definition>
+        <argsstring>(MR.Const_Vector_MRNestingMeshXf_MRObjId meshes, MR.Nesting.Const_TetrisDensifyParams params_)</argsstring>
+        <name>tetrisNestingDensify</name>
+        <qualifiedname>MR.Nesting.tetrisNestingDensify</qualifiedname>
+        <param>
+          <type>MR.Const_Vector_MRNestingMeshXf_MRObjId</type>
+          <declname>meshes</declname>
+        </param>
+        <param>
+          <type>MR.Nesting.Const_TetrisDensifyParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>make nested meshes more compact by representing them via voxels and pushing to nest zero Generated from function <computeroutput><ref refid="classMR_1_1Nesting_1a3298e33a9599d43e0c1db734cbef4207" kindref="member">MR.Nesting.tetrisNestingDensify</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" line="675" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" bodystart="675" bodyend="683"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="4" bodyend="443"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Nesting_1ac31011f69dee1f2d75c110bd843faa2c" prot="public" virt="non-virtual"><scope>MR::Nesting</scope><name>boxNesting</name></member>
+      <member refid="classMR_1_1Nesting_1a93a9b953fc41aa721a7ae5b223a6e792" prot="public" virt="non-virtual"><scope>MR::Nesting</scope><name>exportNesting3mf</name></member>
+      <member refid="classMR_1_1Nesting_1ab07dbfa905bd4b259fdbf9a6750015fa" prot="public" virt="non-virtual"><scope>MR::Nesting</scope><name>fillNestingSocketCorneres</name></member>
+      <member refid="classMR_1_1Nesting_1ad88457c04fd0e0b4e59f8b19acdce1ec" prot="public" virt="non-virtual"><scope>MR::Nesting</scope><name>getNeighborigDensityPriorityMetric</name></member>
+      <member refid="classMR_1_1Nesting_1ae31981d41639cc9f5939233a69505d16" prot="public" virt="non-virtual"><scope>MR::Nesting</scope><name>getNestPostionMinPriorityMetric</name></member>
+      <member refid="classMR_1_1Nesting_1a3298e33a9599d43e0c1db734cbef4207" prot="public" virt="non-virtual"><scope>MR::Nesting</scope><name>tetrisNestingDensify</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2312,8 +2312,17 @@ var hierarchy =
       [ "MR.Const_Vector_MRModelPointsData_MRObjId", null, [
         [ "MR.Vector_MRModelPointsData_MRObjId", "classMR_1_1Vector__MRModelPointsData__MRObjId.html", null ]
       ] ],
+      [ "MR.Const_Vector_MRNestingMeshXf_MRObjId", null, [
+        [ "MR.Vector_MRNestingMeshXf_MRObjId", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html", null ]
+      ] ],
+      [ "MR.Const_Vector_MRNestingNestingResult_MRObjId", null, [
+        [ "MR.Vector_MRNestingNestingResult_MRObjId", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html", null ]
+      ] ],
       [ "MR.Const_Vector_MRNodeId_MRNodeId", null, [
         [ "MR.Vector_MRNodeId_MRNodeId", "classMR_1_1Vector__MRNodeId__MRNodeId.html", null ]
+      ] ],
+      [ "MR.Const_Vector_MRObjId_MRVoxelId", null, [
+        [ "MR.Vector_MRObjId_MRVoxelId", "classMR_1_1Vector__MRObjId__MRVoxelId.html", null ]
       ] ],
       [ "MR.Const_Vector_MRPixelId_MRPixelId", null, [
         [ "MR.Vector_MRPixelId_MRPixelId", "classMR_1_1Vector__MRPixelId__MRPixelId.html", null ]
@@ -2654,6 +2663,39 @@ var hierarchy =
       [ "MR.MeshSave.Const_NamedXfMesh", null, [
         [ "MR.MeshSave.NamedXfMesh", "classMR_1_1MeshSave_1_1NamedXfMesh.html", null ]
       ] ],
+      [ "MR.Nesting.Const_BoxNestingCorner", null, [
+        [ "MR.Nesting.BoxNestingCorner", "classMR_1_1Nesting_1_1BoxNestingCorner.html", null ]
+      ] ],
+      [ "MR.Nesting.Const_BoxNestingOptions", null, [
+        [ "MR.Nesting.BoxNestingOptions", "classMR_1_1Nesting_1_1BoxNestingOptions.html", null ]
+      ] ],
+      [ "MR.Nesting.Const_BoxNestingParams", null, [
+        [ "MR.Nesting.BoxNestingParams", "classMR_1_1Nesting_1_1BoxNestingParams.html", null ]
+      ] ],
+      [ "MR.Nesting.Const_IBoxNestingPriority", null, [
+        [ "MR.Nesting.IBoxNestingPriority", "classMR_1_1Nesting_1_1IBoxNestingPriority.html", null ]
+      ] ],
+      [ "MR.Nesting.Const_MeshXf", null, [
+        [ "MR.Nesting.MeshXf", "classMR_1_1Nesting_1_1MeshXf.html", null ]
+      ] ],
+      [ "MR.Nesting.Const_Nesting3mfParams", null, [
+        [ "MR.Nesting.Nesting3mfParams", "classMR_1_1Nesting_1_1Nesting3mfParams.html", null ]
+      ] ],
+      [ "MR.Nesting.Const_NestingBaseParams", null, [
+        [ "MR.Nesting.NestingBaseParams", "classMR_1_1Nesting_1_1NestingBaseParams.html", null ]
+      ] ],
+      [ "MR.Nesting.Const_NestingResult", null, [
+        [ "MR.Nesting.NestingResult", "classMR_1_1Nesting_1_1NestingResult.html", null ]
+      ] ],
+      [ "MR.Nesting.Const_SequentialNester", null, [
+        [ "MR.Nesting.SequentialNester", "classMR_1_1Nesting_1_1SequentialNester.html", null ]
+      ] ],
+      [ "MR.Nesting.Const_TetrisDensifyOptions", null, [
+        [ "MR.Nesting.TetrisDensifyOptions", "classMR_1_1Nesting_1_1TetrisDensifyOptions.html", null ]
+      ] ],
+      [ "MR.Nesting.Const_TetrisDensifyParams", null, [
+        [ "MR.Nesting.TetrisDensifyParams", "classMR_1_1Nesting_1_1TetrisDensifyParams.html", null ]
+      ] ],
       [ "MR.ObjectSave.Const_Settings", null, [
         [ "MR.ObjectSave.Settings", "classMR_1_1ObjectSave_1_1Settings.html", null ]
       ] ],
@@ -2835,7 +2877,10 @@ var hierarchy =
       [ "MR.Const_Vector_MRMeshOrPointsXf_MRObjId", null, null ],
       [ "MR.Const_Vector_MRMeshTexture_MRTextureId", null, null ],
       [ "MR.Const_Vector_MRModelPointsData_MRObjId", null, null ],
+      [ "MR.Const_Vector_MRNestingMeshXf_MRObjId", null, null ],
+      [ "MR.Const_Vector_MRNestingNestingResult_MRObjId", null, null ],
       [ "MR.Const_Vector_MRNodeId_MRNodeId", null, null ],
+      [ "MR.Const_Vector_MRObjId_MRVoxelId", null, null ],
       [ "MR.Const_Vector_MRPixelId_MRPixelId", null, null ],
       [ "MR.Const_Vector_MRQuadraticForm2f_MRVertId", null, null ],
       [ "MR.Const_Vector_MRQuadraticForm3f_MRVertId", null, null ],
@@ -2910,7 +2955,10 @@ var hierarchy =
       [ "MR.Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html", null ],
       [ "MR.Vector_MRMeshTexture_MRTextureId", "classMR_1_1Vector__MRMeshTexture__MRTextureId.html", null ],
       [ "MR.Vector_MRModelPointsData_MRObjId", "classMR_1_1Vector__MRModelPointsData__MRObjId.html", null ],
+      [ "MR.Vector_MRNestingMeshXf_MRObjId", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html", null ],
+      [ "MR.Vector_MRNestingNestingResult_MRObjId", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html", null ],
       [ "MR.Vector_MRNodeId_MRNodeId", "classMR_1_1Vector__MRNodeId__MRNodeId.html", null ],
+      [ "MR.Vector_MRObjId_MRVoxelId", "classMR_1_1Vector__MRObjId__MRVoxelId.html", null ],
       [ "MR.Vector_MRPixelId_MRPixelId", "classMR_1_1Vector__MRPixelId__MRPixelId.html", null ],
       [ "MR.Vector_MRQuadraticForm2f_MRVertId", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html", null ],
       [ "MR.Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Vector__MRQuadraticForm3f__MRVertId.html", null ],
@@ -3127,6 +3175,7 @@ var hierarchy =
       [ "MR.Const_Vector_MRGraphVertId_MRGraphVertId", null, null ],
       [ "MR.Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag", null, null ],
       [ "MR.Const_Vector_MRNodeId_MRNodeId", null, null ],
+      [ "MR.Const_Vector_MRObjId_MRVoxelId", null, null ],
       [ "MR.Const_Vector_MRPixelId_MRPixelId", null, null ],
       [ "MR.Const_Vector_MRRegionId_MRRegionId", null, null ],
       [ "MR.Const_Vector_MRTextureId_MRTextureId", null, null ],
@@ -3219,6 +3268,7 @@ var hierarchy =
     [ "MR.MeshLoad", "classMR_1_1MeshLoad.html", null ],
     [ "MR.MeshSave", "classMR_1_1MeshSave.html", null ],
     [ "MR", "classMR.html", null ],
+    [ "MR.Nesting", "classMR_1_1Nesting.html", null ],
     [ "MR.Misc.Object", null, [
       [ "MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap", null, null ],
       [ "MR.ColorMapAggregator_MRUndirectedEdgeTag.Const_PartialColorMap", null, null ],
@@ -3992,7 +4042,10 @@ var hierarchy =
       [ "MR.Const_Vector_MRMeshOrPointsXf_MRObjId", null, null ],
       [ "MR.Const_Vector_MRMeshTexture_MRTextureId", null, null ],
       [ "MR.Const_Vector_MRModelPointsData_MRObjId", null, null ],
+      [ "MR.Const_Vector_MRNestingMeshXf_MRObjId", null, null ],
+      [ "MR.Const_Vector_MRNestingNestingResult_MRObjId", null, null ],
       [ "MR.Const_Vector_MRNodeId_MRNodeId", null, null ],
+      [ "MR.Const_Vector_MRObjId_MRVoxelId", null, null ],
       [ "MR.Const_Vector_MRPixelId_MRPixelId", null, null ],
       [ "MR.Const_Vector_MRQuadraticForm2f_MRVertId", null, null ],
       [ "MR.Const_Vector_MRQuadraticForm3f_MRVertId", null, null ],
@@ -4106,6 +4159,17 @@ var hierarchy =
       [ "MR.MeshSave.Const_BinaryStlSaver", null, null ],
       [ "MR.MeshSave.Const_CtmSaveOptions", null, null ],
       [ "MR.MeshSave.Const_NamedXfMesh", null, null ],
+      [ "MR.Nesting.Const_BoxNestingCorner", null, null ],
+      [ "MR.Nesting.Const_BoxNestingOptions", null, null ],
+      [ "MR.Nesting.Const_BoxNestingParams", null, null ],
+      [ "MR.Nesting.Const_IBoxNestingPriority", null, null ],
+      [ "MR.Nesting.Const_MeshXf", null, null ],
+      [ "MR.Nesting.Const_Nesting3mfParams", null, null ],
+      [ "MR.Nesting.Const_NestingBaseParams", null, null ],
+      [ "MR.Nesting.Const_NestingResult", null, null ],
+      [ "MR.Nesting.Const_SequentialNester", null, null ],
+      [ "MR.Nesting.Const_TetrisDensifyOptions", null, null ],
+      [ "MR.Nesting.Const_TetrisDensifyParams", null, null ],
       [ "MR.ObjectSave.Const_Settings", null, null ],
       [ "MR.Parallel.Const_CallSimply", null, null ],
       [ "MR.Parallel.Const_CallSimplyMaker", null, null ],

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Nesting_1_1Nesting3mfParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Nesting::Nesting3mfParams</compoundname>
+    <includes refid="MRNesting3mfExport_8h" local="no">MRIOExtras/MRNesting3mfExport.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga9a2234e0b12e4618ece1508effa2cec6" kind="variable"><name>meshes</name></member>
+      <member refid="group__GeneralGroup_1gab78cb7930d69ef6f6248ec6771a773a1" kind="variable"><name>zStep</name></member>
+      <member refid="group__GeneralGroup_1ga5b52bac38e502e055d9723aeb71e00dc" kind="variable"><name>decimateSlices</name></member>
+      <member refid="group__GeneralGroup_1ga179f55d3f02d33ecd0972fef9d8bad3b" kind="variable"><name>image</name></member>
+      <member refid="group__GeneralGroup_1ga036d39a1112ad2e6876d17be6e55e04b" kind="variable"><name>meshImages</name></member>
+      <member refid="group__GeneralGroup_1gaa9d1ae0ea02654bfeb879241c14d7faf" kind="variable"><name>meshNames</name></member>
+      <member refid="group__GeneralGroup_1ga2808d219eb445397b22f5950659e0561" kind="variable"><name>cb</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::Image</label>
+        <link refid="structMR_1_1Image"/>
+      </node>
+      <node id="1">
+        <label>MR::Nesting::Nesting3mfParams</label>
+        <link refid="structMR_1_1Nesting_1_1Nesting3mfParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>meshes</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>image</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Vector&lt; MR::Nesting::MeshXf, ObjId &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRIOExtras/MRNesting3mfExport.h" line="22" column="1" bodyfile="MRIOExtras/MRNesting3mfExport.h" bodystart="23" bodyend="43"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2808d219eb445397b22f5950659e0561" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1ga5b52bac38e502e055d9723aeb71e00dc" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>decimateSlices</name></member>
+      <member refid="group__GeneralGroup_1ga179f55d3f02d33ecd0972fef9d8bad3b" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>image</name></member>
+      <member refid="group__GeneralGroup_1ga9a2234e0b12e4618ece1508effa2cec6" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>meshes</name></member>
+      <member refid="group__GeneralGroup_1ga036d39a1112ad2e6876d17be6e55e04b" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>meshImages</name></member>
+      <member refid="group__GeneralGroup_1gaa9d1ae0ea02654bfeb879241c14d7faf" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>meshNames</name></member>
+      <member refid="group__GeneralGroup_1gab78cb7930d69ef6f6248ec6771a773a1" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>zStep</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

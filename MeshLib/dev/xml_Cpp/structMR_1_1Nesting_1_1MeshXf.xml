@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Nesting_1_1MeshXf" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Nesting::MeshXf</compoundname>
+    <includes refid="MRNestingStructures_8h" local="no">MRMesh/MRNestingStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gac5cd01cdb303cbff8a43671466703190" kind="variable"><name>mesh</name></member>
+      <member refid="group__GeneralGroup_1ga81c988c2fc329f7b750cd3754d482934" kind="variable"><name>xf</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Mesh</label>
+        <link refid="structMR_1_1Mesh"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+      </node>
+      <node id="1">
+        <label>MR::Nesting::MeshXf</label>
+        <link refid="structMR_1_1Nesting_1_1MeshXf"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mesh</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRNestingStructures.h" line="24" column="1" bodyfile="MRMesh/MRNestingStructures.h" bodystart="25" bodyend="30"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac5cd01cdb303cbff8a43671466703190" prot="public" virt="non-virtual"><scope>MR::Nesting::MeshXf</scope><name>mesh</name></member>
+      <member refid="group__GeneralGroup_1ga81c988c2fc329f7b750cd3754d482934" prot="public" virt="non-virtual"><scope>MR::Nesting::MeshXf</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

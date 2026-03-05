@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Nesting_1_1IBoxNestingPriority" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::Nesting::IBoxNestingPriority</compoundname>
+    <includes refid="MRBoxNesting_8h" local="no">MRMesh/MRBoxNesting.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa8ec2c72b6d4a3d088cc140e2771dbe1" kind="function"><name>~IBoxNestingPriority</name></member>
+      <member refid="group__GeneralGroup_1ga8850f5538a39af635ba8bcae3a4cae75" kind="function"><name>init</name></member>
+      <member refid="group__GeneralGroup_1gade02b304d212d0b796e804a9ebe361c7" kind="function"><name>addNested</name></member>
+      <member refid="group__GeneralGroup_1ga302822ce62771b9b4bf02730bf280cf0" kind="function"><name>complete</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>class to override box nesting metrics </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRBoxNesting.h" line="25" column="1" bodyfile="MRMesh/MRBoxNesting.h" bodystart="26" bodyend="38"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gade02b304d212d0b796e804a9ebe361c7" prot="public" virt="pure-virtual"><scope>MR::Nesting::IBoxNestingPriority</scope><name>addNested</name></member>
+      <member refid="group__GeneralGroup_1ga302822ce62771b9b4bf02730bf280cf0" prot="public" virt="pure-virtual"><scope>MR::Nesting::IBoxNestingPriority</scope><name>complete</name></member>
+      <member refid="group__GeneralGroup_1ga8850f5538a39af635ba8bcae3a4cae75" prot="public" virt="pure-virtual"><scope>MR::Nesting::IBoxNestingPriority</scope><name>init</name></member>
+      <member refid="group__GeneralGroup_1gaa8ec2c72b6d4a3d088cc140e2771dbe1" prot="public" virt="virtual"><scope>MR::Nesting::IBoxNestingPriority</scope><name>~IBoxNestingPriority</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

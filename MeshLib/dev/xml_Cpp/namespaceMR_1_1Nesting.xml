@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1Nesting" kind="namespace" language="C++">
+    <compoundname>MR::Nesting</compoundname>
+    <innerclass refid="structMR_1_1Nesting_1_1BoxNestingCorner" prot="public">MR::Nesting::BoxNestingCorner</innerclass>
+    <innerclass refid="structMR_1_1Nesting_1_1BoxNestingOptions" prot="public">MR::Nesting::BoxNestingOptions</innerclass>
+    <innerclass refid="structMR_1_1Nesting_1_1BoxNestingParams" prot="public">MR::Nesting::BoxNestingParams</innerclass>
+    <innerclass refid="classMR_1_1Nesting_1_1IBoxNestingPriority" prot="public">MR::Nesting::IBoxNestingPriority</innerclass>
+    <innerclass refid="structMR_1_1Nesting_1_1MeshXf" prot="public">MR::Nesting::MeshXf</innerclass>
+    <innerclass refid="structMR_1_1Nesting_1_1Nesting3mfParams" prot="public">MR::Nesting::Nesting3mfParams</innerclass>
+    <innerclass refid="structMR_1_1Nesting_1_1NestingBaseParams" prot="public">MR::Nesting::NestingBaseParams</innerclass>
+    <innerclass refid="structMR_1_1Nesting_1_1NestingResult" prot="public">MR::Nesting::NestingResult</innerclass>
+    <innerclass refid="classMR_1_1Nesting_1_1SequentialNester" prot="public">MR::Nesting::SequentialNester</innerclass>
+    <innerclass refid="structMR_1_1Nesting_1_1TetrisDensifyOptions" prot="public">MR::Nesting::TetrisDensifyOptions</innerclass>
+    <innerclass refid="structMR_1_1Nesting_1_1TetrisDensifyParams" prot="public">MR::Nesting::TetrisDensifyParams</innerclass>
+    <sectiondef kind="func">
+      <member refid="group__GeneralGroup_1ga31c71dd46b0d5cd53545f862b1a2a41d" kind="function"><name>exportNesting3mf</name></member>
+      <member refid="group__GeneralGroup_1ga92f309e13800b4666cc5f1b7335fa3bc" kind="function"><name>getNestPostionMinPriorityMetric</name></member>
+      <member refid="group__GeneralGroup_1ga4b3dd5f6886fbb404008c354dbbd7f74" kind="function"><name>getNeighborigDensityPriorityMetric</name></member>
+      <member refid="group__GeneralGroup_1ga8f860a129bbe1a4488d5582755393292" kind="function"><name>fillNestingSocketCorneres</name></member>
+      <member refid="group__GeneralGroup_1ga1c60cc7888bc27a43856b1dfc9abaefd" kind="function"><name>boxNesting</name></member>
+      <member refid="group__GeneralGroup_1ga2cbe87a23074d994591bf8ff7998359a" kind="function"><name>tetrisNestingDensify</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRIOExtras/MRNesting3mfExport.h" line="19" column="1"/>
+  </compounddef>
+</doxygen>

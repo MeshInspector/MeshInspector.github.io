@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Nesting_1_1BoxNestingCorner" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Nesting::BoxNestingCorner</compoundname>
+    <includes refid="MRBoxNesting_8h" local="no">MRMesh/MRBoxNesting.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga2eaf352d0f10b7eee9a555f815a7325e" kind="variable"><name>pos</name></member>
+      <member refid="group__GeneralGroup_1ga5a82c3caebad0861adb7f402eaa02163" kind="variable"><name>bitMask</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRBoxNesting.h" line="16" column="1" bodyfile="MRMesh/MRBoxNesting.h" bodystart="17" bodyend="22"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga5a82c3caebad0861adb7f402eaa02163" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingCorner</scope><name>bitMask</name></member>
+      <member refid="group__GeneralGroup_1ga2eaf352d0f10b7eee9a555f815a7325e" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingCorner</scope><name>pos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

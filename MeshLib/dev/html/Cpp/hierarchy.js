@@ -168,6 +168,9 @@ var hierarchy =
       [ "MR::VoxelsVolumeMinMax< T >", "structMR_1_1VoxelsVolumeMinMax.html", null ]
     ] ],
     [ "MR::BoxedLeaf< T >", "structMR_1_1BoxedLeaf.html", null ],
+    [ "MR::Nesting::BoxNestingCorner", "structMR_1_1Nesting_1_1BoxNestingCorner.html", null ],
+    [ "MR::Nesting::BoxNestingOptions", "structMR_1_1Nesting_1_1BoxNestingOptions.html", null ],
+    [ "MR::Nesting::BoxNestingParams", "structMR_1_1Nesting_1_1BoxNestingParams.html", null ],
     [ "MR::Buffer< V, I >", "classMR_1_1Buffer.html", null ],
     [ "MR::MeshBuilder::BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", null ],
     [ "MR::UI::ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", null ],
@@ -529,6 +532,7 @@ var hierarchy =
     [ "MR::HistoryStore", "classMR_1_1HistoryStore.html", null ],
     [ "MR::HoleEdgePoint", "structMR_1_1HoleEdgePoint.html", null ],
     [ "MR::HoleFillPlan", "structMR_1_1HoleFillPlan.html", null ],
+    [ "MR::Nesting::IBoxNestingPriority", "classMR_1_1Nesting_1_1IBoxNestingPriority.html", null ],
     [ "MR::IComputeToolDistance", "classMR_1_1IComputeToolDistance.html", [
       [ "MR::Cuda::ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", null ]
     ] ],
@@ -820,6 +824,7 @@ var hierarchy =
     [ "MR::MeshToVolumeParams", "structMR_1_1MeshToVolumeParams.html", null ],
     [ "MR::MeshTriPoint", "structMR_1_1MeshTriPoint.html", null ],
     [ "MR::MeshVoxelsConverter", "structMR_1_1MeshVoxelsConverter.html", null ],
+    [ "MR::Nesting::MeshXf", "structMR_1_1Nesting_1_1MeshXf.html", null ],
     [ "MR::MetricToAStarPenalty", "structMR_1_1MetricToAStarPenalty.html", null ],
     [ "MR::MinArg< T, I >", "structMR_1_1MinArg.html", null ],
     [ "MR::MinMaxArg< T, I >", "structMR_1_1MinMaxArg.html", null ],
@@ -846,6 +851,9 @@ var hierarchy =
     [ "MR::PointsLoad::NamedCloud", "structMR_1_1PointsLoad_1_1NamedCloud.html", null ],
     [ "MR::MeshLoad::NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", null ],
     [ "MR::MeshSave::NamedXfMesh", "structMR_1_1MeshSave_1_1NamedXfMesh.html", null ],
+    [ "MR::Nesting::Nesting3mfParams", "structMR_1_1Nesting_1_1Nesting3mfParams.html", null ],
+    [ "MR::Nesting::NestingBaseParams", "structMR_1_1Nesting_1_1NestingBaseParams.html", null ],
+    [ "MR::Nesting::NestingResult", "structMR_1_1Nesting_1_1NestingResult.html", null ],
     [ "MR::NewEdgesMap", "structMR_1_1NewEdgesMap.html", null ],
     [ "MR::NextEdgeSameLeft", "classMR_1_1NextEdgeSameLeft.html", [
       [ "MR::RingIterator< NextEdgeSameLeft >", "classMR_1_1RingIterator.html", null ]
@@ -1154,6 +1162,7 @@ var hierarchy =
     [ "MR::ImGuiMenu::SelectionInformationStyle", "structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html", null ],
     [ "MR::SeparationPointStorage", "classMR_1_1SeparationPointStorage.html", null ],
     [ "MR::UI::SeparatorParams", "structMR_1_1UI_1_1SeparatorParams.html", null ],
+    [ "MR::Nesting::SequentialNester", "classMR_1_1Nesting_1_1SequentialNester.html", null ],
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::SetNew", "structMR_1_1SetNew.html", null ],
     [ "MR::GlTexture::Settings", "structMR_1_1GlTexture_1_1Settings.html", null ],
@@ -1232,6 +1241,8 @@ var hierarchy =
     [ "MR::TbbThreadMutex", "classMR_1_1TbbThreadMutex.html", null ],
     [ "MR::TeethMaskToDirectionVolumeConvertor", "classMR_1_1TeethMaskToDirectionVolumeConvertor.html", null ],
     [ "MR::TerminalVertex", "structMR_1_1TerminalVertex.html", null ],
+    [ "MR::Nesting::TetrisDensifyOptions", "structMR_1_1Nesting_1_1TetrisDensifyOptions.html", null ],
+    [ "MR::Nesting::TetrisDensifyParams", "structMR_1_1Nesting_1_1TetrisDensifyParams.html", null ],
     [ "MR::ImGuiMeasurementIndicators::Text", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html", null ],
     [ "MR::Pdf::TextCellParams", "structMR_1_1Pdf_1_1TextCellParams.html", null ],
     [ "MR::ImGuiMeasurementIndicators::TextColor", "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html", null ],

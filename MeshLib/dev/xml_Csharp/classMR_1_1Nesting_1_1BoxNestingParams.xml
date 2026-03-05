@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Nesting_1_1BoxNestingParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Nesting::BoxNestingParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Nesting.Const_BoxNestingParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Nesting_1_1BoxNestingParams_1a3d2731aacad3be2d48c54feb8cd03a38" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1Nesting_1_1NestingBaseParams" kindref="compound">MR.Nesting.NestingBaseParams</ref></type>
+        <definition>new unsafe MR.Nesting.NestingBaseParams MR.Nesting.BoxNestingParams.baseParams</definition>
+        <argsstring></argsstring>
+        <name>baseParams</name>
+        <qualifiedname>MR.Nesting.BoxNestingParams.baseParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="917" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="917" bodyend="917"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Nesting_1_1BoxNestingParams_1a623eb4fb95ae0cae3514889fa242155a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1Nesting_1_1BoxNestingOptions" kindref="compound">MR.Nesting.BoxNestingOptions</ref></type>
+        <definition>new unsafe MR.Nesting.BoxNestingOptions MR.Nesting.BoxNestingParams.options</definition>
+        <argsstring></argsstring>
+        <name>options</name>
+        <qualifiedname>MR.Nesting.BoxNestingParams.options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="919" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="919" bodyend="919"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1BoxNestingParams_1add64ea44b6f17c0fedbc4bac7385d695" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Nesting.BoxNestingParams.BoxNestingParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>BoxNestingParams</name>
+        <qualifiedname>MR.Nesting.BoxNestingParams.BoxNestingParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="945" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="945" bodyend="949"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1BoxNestingParams_1a926e10ae67da282b9dc6ec8c95c1515f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Nesting.BoxNestingParams.BoxNestingParams</definition>
+        <argsstring>()</argsstring>
+        <name>BoxNestingParams</name>
+        <qualifiedname>MR.Nesting.BoxNestingParams.BoxNestingParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="955" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="955" bodyend="961"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1BoxNestingParams_1a605769392a8470b99a06fd5d41537c62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Nesting.BoxNestingParams.BoxNestingParams</definition>
+        <argsstring>(MR.Nesting.Const_NestingBaseParams baseParams, MR.Nesting._ByValue_BoxNestingOptions options)</argsstring>
+        <name>BoxNestingParams</name>
+        <qualifiedname>MR.Nesting.BoxNestingParams.BoxNestingParams</qualifiedname>
+        <param>
+          <type>MR.Nesting.Const_NestingBaseParams</type>
+          <declname>baseParams</declname>
+        </param>
+        <param>
+          <type>MR.Nesting._ByValue_BoxNestingOptions</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Nesting_1_1BoxNestingParams" kindref="compound">MR.Nesting.BoxNestingParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="966" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="966" bodyend="974"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1BoxNestingParams_1a0cac6bf9b5103619d12661c36f30a588" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Nesting.BoxNestingParams.BoxNestingParams</definition>
+        <argsstring>(MR.Nesting._ByValue_BoxNestingParams _other)</argsstring>
+        <name>BoxNestingParams</name>
+        <qualifiedname>MR.Nesting.BoxNestingParams.BoxNestingParams</qualifiedname>
+        <param>
+          <type>MR.Nesting._ByValue_BoxNestingParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Nesting_1_1BoxNestingParams_1a926e10ae67da282b9dc6ec8c95c1515f" kindref="member">MR.Nesting.BoxNestingParams.BoxNestingParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="979" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="979" bodyend="986"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1BoxNestingParams_1a33e29acd5e882ee07a3d6a40a57f1d75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Nesting.BoxNestingParams.BoxNestingParams</definition>
+        <argsstring>(Const_BoxNestingParams _other)</argsstring>
+        <name>BoxNestingParams</name>
+        <qualifiedname>MR.Nesting.BoxNestingParams.BoxNestingParams</qualifiedname>
+        <param>
+          <type>Const_BoxNestingParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Nesting_1_1BoxNestingParams_1a926e10ae67da282b9dc6ec8c95c1515f" kindref="member">MR.Nesting.BoxNestingParams.BoxNestingParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="991" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="991" bodyend="991"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1BoxNestingParams_1a27f5af093b663612b3f3cf5dae91ed98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Nesting.BoxNestingParams.BoxNestingParams</definition>
+        <argsstring>(BoxNestingParams _other)</argsstring>
+        <name>BoxNestingParams</name>
+        <qualifiedname>MR.Nesting.BoxNestingParams.BoxNestingParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Nesting_1_1BoxNestingParams" kindref="compound">BoxNestingParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Nesting_1_1BoxNestingParams_1a926e10ae67da282b9dc6ec8c95c1515f" kindref="member">MR.Nesting.BoxNestingParams.BoxNestingParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="996" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="996" bodyend="996"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1BoxNestingParams_1a6900960b744ba0789b1203a1e6084069" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Nesting_1_1BoxNestingParams" kindref="compound">MR.Nesting.BoxNestingParams</ref></type>
+        <definition>unsafe MR.Nesting.BoxNestingParams MR.Nesting.BoxNestingParams.assign</definition>
+        <argsstring>(MR.Nesting._ByValue_BoxNestingParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Nesting.BoxNestingParams.assign</qualifiedname>
+        <param>
+          <type>MR.Nesting._ByValue_BoxNestingParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Nesting::BoxNestingParams::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="1001" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="1001" bodyend="1008"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Nesting_1_1BoxNestingParams" kindref="compound">MR.Nesting.BoxNestingParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Nesting.BoxNestingParams</label>
+        <link refid="classMR_1_1Nesting_1_1BoxNestingParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.Nesting.Const_BoxNestingParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Nesting.BoxNestingParams</label>
+        <link refid="classMR_1_1Nesting_1_1BoxNestingParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.Nesting.Const_BoxNestingParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="915" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="916" bodyend="1009"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a6900960b744ba0789b1203a1e6084069" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a3d2731aacad3be2d48c54feb8cd03a38" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>baseParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1add64ea44b6f17c0fedbc4bac7385d695" prot="package" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>BoxNestingParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a926e10ae67da282b9dc6ec8c95c1515f" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>BoxNestingParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a605769392a8470b99a06fd5d41537c62" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>BoxNestingParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a0cac6bf9b5103619d12661c36f30a588" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>BoxNestingParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a33e29acd5e882ee07a3d6a40a57f1d75" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>BoxNestingParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a27f5af093b663612b3f3cf5dae91ed98" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>BoxNestingParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a623eb4fb95ae0cae3514889fa242155a" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>options</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

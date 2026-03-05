@@ -845,6 +845,26 @@
     <member refid="structMR_1_1BoxedLeaf_1a0b4e56c5de1bf6b3fd5a6a6896e66d46" kind="function"><name>BoxedLeaf</name></member>
     <member refid="structMR_1_1BoxedLeaf_1a20f98852bf25f7268e73b993bd26a8d7" kind="function"><name>BoxedLeaf</name></member>
   </compound>
+  <compound refid="structMR_1_1Nesting_1_1BoxNestingCorner" kind="struct"><name>MR::Nesting::BoxNestingCorner</name>
+    <member refid="group__GeneralGroup_1ga2eaf352d0f10b7eee9a555f815a7325e" kind="variable"><name>pos</name></member>
+    <member refid="group__GeneralGroup_1ga5a82c3caebad0861adb7f402eaa02163" kind="variable"><name>bitMask</name></member>
+  </compound>
+  <compound refid="structMR_1_1Nesting_1_1BoxNestingOptions" kind="struct"><name>MR::Nesting::BoxNestingOptions</name>
+    <member refid="group__GeneralGroup_1ga691133ebda649347f26c5c327efb80a6" kind="variable"><name>allow3dNesting</name></member>
+    <member refid="group__GeneralGroup_1ga15826c82baad35c27a5ddbfd2c3b2efa" kind="variable"><name>allowRotation</name></member>
+    <member refid="group__GeneralGroup_1ga7007f9dc72990e7a1bc19d3f816ef219" kind="variable"><name>volumeBasedOrder</name></member>
+    <member refid="group__GeneralGroup_1gac2f4c3f3eb102e30ca5df5dd8663b8d8" kind="variable"><name>checkLessCombinations</name></member>
+    <member refid="group__GeneralGroup_1ga92109a12168f838e72127d3bea2507c5" kind="variable"><name>iterationLimit</name></member>
+    <member refid="group__GeneralGroup_1ga6822fcd0d96d05596dca1d378abe6438" kind="variable"><name>priorityMetric</name></member>
+    <member refid="group__GeneralGroup_1gaab258724c07b4cbcfa72c80c7768cd99" kind="variable"><name>expansionFactor</name></member>
+    <member refid="group__GeneralGroup_1ga00cd343669bfe8e618733e46034c7ec9" kind="variable"><name>preNestedVolumes</name></member>
+    <member refid="group__GeneralGroup_1ga364cf257616b60cc01ef922a2059fc58" kind="variable"><name>additinalSocketCorners</name></member>
+    <member refid="group__GeneralGroup_1gaa90701ba9a9b2cab452c35a74ff6cc02" kind="variable"><name>cb</name></member>
+  </compound>
+  <compound refid="structMR_1_1Nesting_1_1BoxNestingParams" kind="struct"><name>MR::Nesting::BoxNestingParams</name>
+    <member refid="group__GeneralGroup_1gad122019275fa58103f0a4c6c374ce6c4" kind="variable"><name>baseParams</name></member>
+    <member refid="group__GeneralGroup_1ga042471c183280fb8a554f6440fa46388" kind="variable"><name>options</name></member>
+  </compound>
   <compound refid="classMR_1_1Buffer" kind="class"><name>MR::Buffer</name>
     <member refid="group__GeneralGroup_1ga5b6a0d86e31b5f12076c72778352a6a8" kind="typedef"><name>T</name></member>
     <member refid="group__GeneralGroup_1gaa0e2029752634265e64418bec35cd18e" kind="typedef"><name>reference</name></member>
@@ -3938,6 +3958,12 @@
     <member refid="structMR_1_1HoleFillPlan_1a7c843d95baaaeb4979c70aecb08e6370" kind="variable"><name>items</name></member>
     <member refid="structMR_1_1HoleFillPlan_1a2817520d11bf0f37cbab7e6ef56b38b9" kind="variable"><name>numTris</name></member>
   </compound>
+  <compound refid="classMR_1_1Nesting_1_1IBoxNestingPriority" kind="class"><name>MR::Nesting::IBoxNestingPriority</name>
+    <member refid="group__GeneralGroup_1gaa8ec2c72b6d4a3d088cc140e2771dbe1" kind="function"><name>~IBoxNestingPriority</name></member>
+    <member refid="group__GeneralGroup_1ga8850f5538a39af635ba8bcae3a4cae75" kind="function"><name>init</name></member>
+    <member refid="group__GeneralGroup_1gade02b304d212d0b796e804a9ebe361c7" kind="function"><name>addNested</name></member>
+    <member refid="group__GeneralGroup_1ga302822ce62771b9b4bf02730bf280cf0" kind="function"><name>complete</name></member>
+  </compound>
   <compound refid="classMR_1_1IComputeToolDistance" kind="class"><name>MR::IComputeToolDistance</name>
     <member refid="group__GeneralGroup_1ga2bb611f9d72c80f0aa38d68e6a008ad0" kind="function"><name>~IComputeToolDistance</name></member>
     <member refid="group__GeneralGroup_1ga8ea4d968e93876e24b36709e9324f596" kind="function"><name>prepare</name></member>
@@ -4610,8 +4636,6 @@
     <member refid="group__GeneralGroup_1ga596df9f6e3335a7b93dbefdeffcf7b72" kind="function"><name>action</name></member>
   </compound>
   <compound refid="classMR_1_1Laplacian" kind="class"><name>MR::Laplacian</name>
-    <member refid="group__GeneralGroup_1ga1e93a879eaadfec3d0015f118fa5fc4a" kind="typedef"><name>SparseMatrix</name></member>
-    <member refid="group__GeneralGroup_1ga167fefaf482de016d077cd7d54066c53" kind="typedef"><name>SparseMatrixColMajor</name></member>
     <member refid="group__GeneralGroup_1ga112a32afcf865c5075765fe27e01b5db" kind="variable"><name>topology_</name></member>
     <member refid="group__GeneralGroup_1ga44e84123023bc3e972f021bc5bacff9a" kind="variable"><name>points_</name></member>
     <member refid="group__GeneralGroup_1ga89275c83411511907eadafbab493bc78" kind="variable"><name>region_</name></member>
@@ -4623,11 +4647,11 @@
     <member refid="group__GeneralGroup_1gab6ccb98d1f89ee8ada71df4f50a55371" kind="variable"><name>nonZeroElements_</name></member>
     <member refid="group__GeneralGroup_1ga370d50bcaff0164140181254769159d3" kind="variable"><name>regionVert2id_</name></member>
     <member refid="group__GeneralGroup_1ga0b3def1240423bd62f55b011b88532b3" kind="variable"><name>freeVert2id_</name></member>
-    <member refid="group__GeneralGroup_1gabc07a09dfcc8f49d9f1a0c2b985c1e66" kind="variable"><name>M_</name></member>
-    <member refid="group__GeneralGroup_1ga1c5b2e08decdb2a6e4685ceea29cae61" kind="variable"><name>solverValid_</name></member>
     <member refid="group__GeneralGroup_1gade04ad69951c0a7fea994dd296614113" kind="variable"><name>solver_</name></member>
     <member refid="group__GeneralGroup_1ga701e06f6b7ebb3c08d691ca34ffeab37" kind="function"><name>Laplacian</name></member>
     <member refid="group__GeneralGroup_1ga76c6a49784d646ffed8a834c10e927df" kind="function"><name>Laplacian</name></member>
+    <member refid="group__GeneralGroup_1ga61c764e507de86f90b4a8763fdae00fd" kind="function"><name>Laplacian</name></member>
+    <member refid="group__GeneralGroup_1gaddaaf769ca00b17d64d71fe8f4b3a60d" kind="function"><name>~Laplacian</name></member>
     <member refid="group__GeneralGroup_1ga4a5fd158281d7c2d11d4c1bfc6f0d42f" kind="function"><name>init</name></member>
     <member refid="group__GeneralGroup_1gaf8c807b6eac743eb543a4d3f65c759e2" kind="function"><name>initFromPoints</name></member>
     <member refid="group__GeneralGroup_1ga85bd09ce8356a9b467ee3ede1c5aa296" kind="function"><name>fixVertex</name></member>
@@ -4643,7 +4667,6 @@
     <member refid="group__GeneralGroup_1gadea5e520fb681e438a8ea02cc7ef2c2c" kind="function"><name>points</name></member>
     <member refid="group__GeneralGroup_1ga0568cc66101d05347d62733b8e9e6e1a" kind="function"><name>addAttractor</name></member>
     <member refid="group__GeneralGroup_1gac82a9081ff051fecccad5bd85d17e14b" kind="function"><name>removeAllAttractors</name></member>
-    <member refid="group__GeneralGroup_1ga697c3e05cd9de41d9cdcf8c8faa16a12" kind="function"><name>findRhs_</name></member>
     <member refid="group__GeneralGroup_1ga08aa4b53ab6af85b345b6cb5b2224629" kind="function"><name>prepareRhs_</name></member>
   </compound>
   <compound refid="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" kind="struct"><name>MR::MeshComponents::LargeByAreaComponentsSettings</name>
@@ -5781,6 +5804,10 @@
     <member refid="group__GeneralGroup_1ga8cdbb299f455b9d61db9dd2742781758" kind="function"><name>operator()</name></member>
     <member refid="group__GeneralGroup_1ga1fec7954ca12a18f84497f9f0553585d" kind="function"><name>operator()</name></member>
   </compound>
+  <compound refid="structMR_1_1Nesting_1_1MeshXf" kind="struct"><name>MR::Nesting::MeshXf</name>
+    <member refid="group__GeneralGroup_1gac5cd01cdb303cbff8a43671466703190" kind="variable"><name>mesh</name></member>
+    <member refid="group__GeneralGroup_1ga81c988c2fc329f7b750cd3754d482934" kind="variable"><name>xf</name></member>
+  </compound>
   <compound refid="structMR_1_1MetricToAStarPenalty" kind="struct"><name>MR::MetricToAStarPenalty</name>
     <member refid="group__GeneralGroup_1gae78d929b06e35477653b8824ffed2383" kind="variable"><name>points</name></member>
     <member refid="group__GeneralGroup_1ga1abb85a715d1e270fa171a12e30b3b33" kind="variable"><name>target</name></member>
@@ -6171,6 +6198,23 @@
     <member refid="group__GeneralGroup_1ga4a8c57e5f08a369097b9f8d66a0cb097" kind="function"><name>~NameTagClickListener</name></member>
     <member refid="group__GeneralGroup_1ga4b0aa87058e8c0aa11ea16c7cea26e0f" kind="function"><name>connect</name></member>
     <member refid="group__GeneralGroup_1ga241455464a68ef410af14f445c6dad6b" kind="function"><name>onNameTagClicked_</name></member>
+  </compound>
+  <compound refid="structMR_1_1Nesting_1_1Nesting3mfParams" kind="struct"><name>MR::Nesting::Nesting3mfParams</name>
+    <member refid="group__GeneralGroup_1ga9a2234e0b12e4618ece1508effa2cec6" kind="variable"><name>meshes</name></member>
+    <member refid="group__GeneralGroup_1gab78cb7930d69ef6f6248ec6771a773a1" kind="variable"><name>zStep</name></member>
+    <member refid="group__GeneralGroup_1ga5b52bac38e502e055d9723aeb71e00dc" kind="variable"><name>decimateSlices</name></member>
+    <member refid="group__GeneralGroup_1ga179f55d3f02d33ecd0972fef9d8bad3b" kind="variable"><name>image</name></member>
+    <member refid="group__GeneralGroup_1ga036d39a1112ad2e6876d17be6e55e04b" kind="variable"><name>meshImages</name></member>
+    <member refid="group__GeneralGroup_1gaa9d1ae0ea02654bfeb879241c14d7faf" kind="variable"><name>meshNames</name></member>
+    <member refid="group__GeneralGroup_1ga2808d219eb445397b22f5950659e0561" kind="variable"><name>cb</name></member>
+  </compound>
+  <compound refid="structMR_1_1Nesting_1_1NestingBaseParams" kind="struct"><name>MR::Nesting::NestingBaseParams</name>
+    <member refid="group__GeneralGroup_1ga343f864ad277ea93a7c5353ddafcfa36" kind="variable"><name>nest</name></member>
+    <member refid="group__GeneralGroup_1gae7d143b7c4539b2e2dcf4673296df520" kind="variable"><name>minInterval</name></member>
+  </compound>
+  <compound refid="structMR_1_1Nesting_1_1NestingResult" kind="struct"><name>MR::Nesting::NestingResult</name>
+    <member refid="group__GeneralGroup_1ga7137a970db478b455991a3a8419cbfd3" kind="variable"><name>xf</name></member>
+    <member refid="group__GeneralGroup_1gad2ca6cbc05de79bee8739cc5d9c30c29" kind="variable"><name>nested</name></member>
   </compound>
   <compound refid="structMR_1_1NewEdgesMap" kind="struct"><name>MR::NewEdgesMap</name>
     <member refid="group__GeneralGroup_1ga3af4a8bfbe6579dc273d0b9f368f77aa" kind="variable"><name>splitEdges</name></member>
@@ -10142,6 +10186,18 @@
     <member refid="group__GeneralGroup_1ga9b20fca071888883ff3bf93187e13e24" kind="variable"><name>forceImGuiSpacing</name></member>
     <member refid="group__GeneralGroup_1gab945af46c214f477d623971dd83880f9" kind="variable"><name>extraScale</name></member>
   </compound>
+  <compound refid="classMR_1_1Nesting_1_1SequentialNester" kind="class"><name>MR::Nesting::SequentialNester</name>
+    <member refid="group__GeneralGroup_1ga8bfd7e8c8917f1001565362c2ec79a7f" kind="variable"><name>baseParams_</name></member>
+    <member refid="group__GeneralGroup_1ga149223a4ecc98ce837dfce8ee330ab9a" kind="variable"><name>tetrisOptions_</name></member>
+    <member refid="group__GeneralGroup_1ga18ebd8b38cb82fe07a0992dcc6ec3b61" kind="variable"><name>voxelsCache_</name></member>
+    <member refid="group__GeneralGroup_1ga46652ae9d9d3313e0b54ee5f5361af80" kind="variable"><name>dimensionsCache_</name></member>
+    <member refid="group__GeneralGroup_1ga7f946bed1fcbf379a2752f4489ddd7f7" kind="variable"><name>occupiedVoxelsCache_</name></member>
+    <member refid="group__GeneralGroup_1ga4ff630b767f64c9de51eb6e5a0819c78" kind="variable"><name>nestedBoxesCache_</name></member>
+    <member refid="group__GeneralGroup_1gaa3d07152725cd212be0764fb70959eb9" kind="variable"><name>addBoxCornersCache_</name></member>
+    <member refid="group__GeneralGroup_1gaaf169bf48bf09a3aa9257ab2fa20a7f3" kind="function"><name>SequentialNester</name></member>
+    <member refid="group__GeneralGroup_1gadd6d11f91cd7c2f23476723ec6d9bccf" kind="function"><name>nestMesh</name></member>
+    <member refid="group__GeneralGroup_1ga956a20ce168470b2508f2e52ec9fcf2b" kind="function"><name>nestMeshes</name></member>
+  </compound>
   <compound refid="classMR_1_1SetBitIteratorT" kind="class"><name>MR::SetBitIteratorT</name>
     <member refid="classMR_1_1SetBitIteratorT_1a819b9dc59c1187b38e0a0793779bb8b0" kind="typedef"><name>IndexType</name></member>
     <member refid="classMR_1_1SetBitIteratorT_1a3ead9e2691fedc1c67d1212721d3a157" kind="typedef"><name>iterator_category</name></member>
@@ -10400,11 +10456,6 @@
     <member refid="group__GeneralGroup_1ga41d283fb6e36ac60be019b2f195c14e0" kind="variable"><name>naturalSmooth</name></member>
     <member refid="group__GeneralGroup_1ga34a7a4b9c69f0c826cb30f38a9e10250" kind="variable"><name>edgeWeights</name></member>
     <member refid="group__GeneralGroup_1ga527a7a95f06fcee7ca081ed3dbec23b6" kind="variable"><name>vmass</name></member>
-  </compound>
-  <compound refid="classMR_1_1Laplacian_1_1Solver" kind="class"><name>MR::Laplacian::Solver</name>
-    <member refid="group__GeneralGroup_1ga763eccd90d676a04208c718e89afbf18" kind="function"><name>~Solver</name></member>
-    <member refid="group__GeneralGroup_1ga32171f867c3530ef5b8dbbe13cacd86a" kind="function"><name>compute</name></member>
-    <member refid="group__GeneralGroup_1ga45582af69f6c747bd0d8dab89d918663" kind="function"><name>solve</name></member>
   </compound>
   <compound refid="structMR_1_1SomeLocalTriangulations" kind="struct"><name>MR::SomeLocalTriangulations</name>
     <member refid="group__GeneralGroup_1gae08afdcb5e02b6301d401046bf588b12" kind="variable"><name>neighbors</name></member>
@@ -10980,6 +11031,18 @@
   <compound refid="structMR_1_1TerminalVertex" kind="struct"><name>MR::TerminalVertex</name>
     <member refid="group__GeneralGroup_1gae7c419aebb40aa7937984ceba3489254" kind="variable"><name>v</name></member>
     <member refid="group__GeneralGroup_1gab851f9e73d6568c7bda22cae8c669238" kind="variable"><name>metric</name></member>
+  </compound>
+  <compound refid="structMR_1_1Nesting_1_1TetrisDensifyOptions" kind="struct"><name>MR::Nesting::TetrisDensifyOptions</name>
+    <member refid="group__GeneralGroup_1gafcba40b2766ddb0e65f0cd8b0fff1c33" kind="variable"><name>voxelSize</name></member>
+    <member refid="group__GeneralGroup_1ga2f011ee43797dfd41b3cf45ef8f73cd3" kind="variable"><name>densificationSequence</name></member>
+    <member refid="group__GeneralGroup_1gafa3d3ce9f1a239b0433ea41d932df07f" kind="variable"><name>cb</name></member>
+    <member refid="group__GeneralGroup_1ga9aa9eca3f4fabca2c8ac7cfa9bdfe5e8" kind="variable"><name>nestVoxelsCache</name></member>
+    <member refid="group__GeneralGroup_1gab94ca03ddd7606a0f2410eae5ef15632" kind="variable"><name>nestDimensionsCache</name></member>
+    <member refid="group__GeneralGroup_1gae37674fe33f509e39ddb625df76e3da1" kind="variable"><name>occupiedVoxelsCache</name></member>
+  </compound>
+  <compound refid="structMR_1_1Nesting_1_1TetrisDensifyParams" kind="struct"><name>MR::Nesting::TetrisDensifyParams</name>
+    <member refid="group__GeneralGroup_1gabe169f4acb2c0d3499f4789ad4d63e6b" kind="variable"><name>baseParams</name></member>
+    <member refid="group__GeneralGroup_1ga558380f5544f18c8eef21feef0149630" kind="variable"><name>options</name></member>
   </compound>
   <compound refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text" kind="struct"><name>MR::ImGuiMeasurementIndicators::Text</name>
     <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae831e755d5fa4e114cf8d2eaef532bdc" kind="typedef"><name>ElemVar</name></member>
@@ -15856,6 +15919,14 @@
   </compound>
   <compound refid="namespaceMR_1_1Meta" kind="namespace"><name>MR::Meta</name>
   </compound>
+  <compound refid="namespaceMR_1_1Nesting" kind="namespace"><name>MR::Nesting</name>
+    <member refid="group__GeneralGroup_1ga31c71dd46b0d5cd53545f862b1a2a41d" kind="function"><name>exportNesting3mf</name></member>
+    <member refid="group__GeneralGroup_1ga92f309e13800b4666cc5f1b7335fa3bc" kind="function"><name>getNestPostionMinPriorityMetric</name></member>
+    <member refid="group__GeneralGroup_1ga4b3dd5f6886fbb404008c354dbbd7f74" kind="function"><name>getNeighborigDensityPriorityMetric</name></member>
+    <member refid="group__GeneralGroup_1ga8f860a129bbe1a4488d5582755393292" kind="function"><name>fillNestingSocketCorneres</name></member>
+    <member refid="group__GeneralGroup_1ga1c60cc7888bc27a43856b1dfc9abaefd" kind="function"><name>boxNesting</name></member>
+    <member refid="group__GeneralGroup_1ga2cbe87a23074d994591bf8ff7998359a" kind="function"><name>tetrisNestingDensify</name></member>
+  </compound>
   <compound refid="namespaceMR_1_1ObjectLoad" kind="namespace"><name>MR::ObjectLoad</name>
     <member refid="namespaceMR_1_1ObjectLoad_1a19c3bb2545005ca4c70a6243f3fd7a21" kind="typedef"><name>ObjectLoader</name></member>
   </compound>
@@ -16353,6 +16424,8 @@
   </compound>
   <compound refid="MRLas_8h" kind="file"><name>MRLas.h</name>
   </compound>
+  <compound refid="MRNesting3mfExport_8h" kind="file"><name>MRNesting3mfExport.h</name>
+  </compound>
   <compound refid="MRPdf_8h" kind="file"><name>MRPdf.h</name>
   </compound>
   <compound refid="MRPng_8h" kind="file"><name>MRPng.h</name>
@@ -16428,6 +16501,8 @@
   <compound refid="MRBooleanOperation_8h" kind="file"><name>MRBooleanOperation.h</name>
   </compound>
   <compound refid="MRBox_8h" kind="file"><name>MRBox.h</name>
+  </compound>
+  <compound refid="MRBoxNesting_8h" kind="file"><name>MRBoxNesting.h</name>
   </compound>
   <compound refid="MRBuffer_8h" kind="file"><name>MRBuffer.h</name>
   </compound>
@@ -16930,6 +17005,8 @@
   <compound refid="MRMultiwayICP_8h" kind="file"><name>MRMultiwayICP.h</name>
   </compound>
   <compound refid="MRMutexOwner_8h" kind="file"><name>MRMutexOwner.h</name>
+  </compound>
+  <compound refid="MRNestingStructures_8h" kind="file"><name>MRNestingStructures.h</name>
   </compound>
   <compound refid="MRNoDefInit_8h" kind="file"><name>MRNoDefInit.h</name>
   </compound>
@@ -17816,9 +17893,13 @@
   </compound>
   <compound refid="MRScanHelpers_8h" kind="file"><name>MRScanHelpers.h</name>
   </compound>
+  <compound refid="MRSequentialNester_8h" kind="file"><name>MRSequentialNester.h</name>
+  </compound>
   <compound refid="MRSweptVolume_8h" kind="file"><name>MRSweptVolume.h</name>
   </compound>
   <compound refid="MRTeethMaskToDirectionVolume_8h" kind="file"><name>MRTeethMaskToDirectionVolume.h</name>
+  </compound>
+  <compound refid="MRTetrisNesting_8h" kind="file"><name>MRTetrisNesting.h</name>
   </compound>
   <compound refid="MRToolPath_8h" kind="file"><name>MRToolPath.h</name>
   </compound>
@@ -20303,8 +20384,6 @@
     <member refid="group__GeneralGroup_1ga9f26ad2470dbd62255be7fc1cab2b503" kind="typedef"><name>ContinuousContours</name></member>
     <member refid="group__GeneralGroup_1ga7db0595bba979c4028be5875ef3e067d" kind="typedef"><name>UiTaskList</name></member>
     <member refid="group__GeneralGroup_1ga801810876bff73403d8afdb3cb7a4731" kind="typedef"><name>IRenderObjectConstructorLambda</name></member>
-    <member refid="group__GeneralGroup_1ga1e93a879eaadfec3d0015f118fa5fc4a" kind="typedef"><name>SparseMatrix</name></member>
-    <member refid="group__GeneralGroup_1ga167fefaf482de016d077cd7d54066c53" kind="typedef"><name>SparseMatrixColMajor</name></member>
     <member refid="group__GeneralGroup_1ga1fe712212ce4ea1421578c647f2fe8be" kind="typedef"><name>T</name></member>
     <member refid="group__GeneralGroup_1ga3257b02c520c257af06a8750951851e6" kind="typedef"><name>T</name></member>
     <member refid="group__GeneralGroup_1ga9dc1331c485c74f9cb1a85cdd31ae071" kind="typedef"><name>ObjectPtr</name></member>
@@ -20732,6 +20811,13 @@
     <member refid="group__GeneralGroup_1ga19694f1e7c36428c2d0e206560be24a3" kind="variable"><name>comment</name></member>
     <member refid="group__GeneralGroup_1ga93bcbf8ddd9c5a89210bf3cf9f8acbef" kind="variable"><name>compressionLevel</name></member>
     <member refid="group__GeneralGroup_1ga5f613f44fae6b6a33f13f57fc0161a01" kind="variable"><name>comment</name></member>
+    <member refid="group__GeneralGroup_1ga9a2234e0b12e4618ece1508effa2cec6" kind="variable"><name>meshes</name></member>
+    <member refid="group__GeneralGroup_1gab78cb7930d69ef6f6248ec6771a773a1" kind="variable"><name>zStep</name></member>
+    <member refid="group__GeneralGroup_1ga5b52bac38e502e055d9723aeb71e00dc" kind="variable"><name>decimateSlices</name></member>
+    <member refid="group__GeneralGroup_1ga179f55d3f02d33ecd0972fef9d8bad3b" kind="variable"><name>image</name></member>
+    <member refid="group__GeneralGroup_1ga036d39a1112ad2e6876d17be6e55e04b" kind="variable"><name>meshImages</name></member>
+    <member refid="group__GeneralGroup_1gaa9d1ae0ea02654bfeb879241c14d7faf" kind="variable"><name>meshNames</name></member>
+    <member refid="group__GeneralGroup_1ga2808d219eb445397b22f5950659e0561" kind="variable"><name>cb</name></member>
     <member refid="group__GeneralGroup_1ga5bbd653c0d1a0fb7db070974d90a791e" kind="variable"><name>titleSize</name></member>
     <member refid="group__GeneralGroup_1ga7e22b490f619a059c622635844a59e4b" kind="variable"><name>textSize</name></member>
     <member refid="group__GeneralGroup_1ga7fb7f545bd61a5042cdee1e61f97db3b" kind="variable"><name>defaultFont</name></member>
@@ -20845,6 +20931,20 @@
     <member refid="group__GeneralGroup_1gac6a49098dda65bfc0257dad801d5c49e" kind="variable"><name>accumB_</name></member>
     <member refid="group__GeneralGroup_1gac89e37ab87d7a669e55d9c9ca0f3eb66" kind="variable"><name>elements</name></member>
     <member refid="group__GeneralGroup_1ga253c4a44671e701720f11bb8c0078f06" kind="variable"><name>p</name></member>
+    <member refid="group__GeneralGroup_1ga2eaf352d0f10b7eee9a555f815a7325e" kind="variable"><name>pos</name></member>
+    <member refid="group__GeneralGroup_1ga5a82c3caebad0861adb7f402eaa02163" kind="variable"><name>bitMask</name></member>
+    <member refid="group__GeneralGroup_1ga691133ebda649347f26c5c327efb80a6" kind="variable"><name>allow3dNesting</name></member>
+    <member refid="group__GeneralGroup_1ga15826c82baad35c27a5ddbfd2c3b2efa" kind="variable"><name>allowRotation</name></member>
+    <member refid="group__GeneralGroup_1ga7007f9dc72990e7a1bc19d3f816ef219" kind="variable"><name>volumeBasedOrder</name></member>
+    <member refid="group__GeneralGroup_1gac2f4c3f3eb102e30ca5df5dd8663b8d8" kind="variable"><name>checkLessCombinations</name></member>
+    <member refid="group__GeneralGroup_1ga92109a12168f838e72127d3bea2507c5" kind="variable"><name>iterationLimit</name></member>
+    <member refid="group__GeneralGroup_1ga6822fcd0d96d05596dca1d378abe6438" kind="variable"><name>priorityMetric</name></member>
+    <member refid="group__GeneralGroup_1gaab258724c07b4cbcfa72c80c7768cd99" kind="variable"><name>expansionFactor</name></member>
+    <member refid="group__GeneralGroup_1ga00cd343669bfe8e618733e46034c7ec9" kind="variable"><name>preNestedVolumes</name></member>
+    <member refid="group__GeneralGroup_1ga364cf257616b60cc01ef922a2059fc58" kind="variable"><name>additinalSocketCorners</name></member>
+    <member refid="group__GeneralGroup_1gaa90701ba9a9b2cab452c35a74ff6cc02" kind="variable"><name>cb</name></member>
+    <member refid="group__GeneralGroup_1gad122019275fa58103f0a4c6c374ce6c4" kind="variable"><name>baseParams</name></member>
+    <member refid="group__GeneralGroup_1ga042471c183280fb8a554f6440fa46388" kind="variable"><name>options</name></member>
     <member refid="group__GeneralGroup_1ga2a13927970e03bd552e6ba6241206a15" kind="variable"><name>val</name></member>
     <member refid="group__GeneralGroup_1gaf3dd7266985652a7f3921940ff6393d9" kind="variable"><name>data_</name></member>
     <member refid="group__GeneralGroup_1gaaa255e96d5ff2d93a0712ca3ae1c224d" kind="variable"><name>capacity_</name></member>
@@ -21343,8 +21443,6 @@
     <member refid="group__GeneralGroup_1gab6ccb98d1f89ee8ada71df4f50a55371" kind="variable"><name>nonZeroElements_</name></member>
     <member refid="group__GeneralGroup_1ga370d50bcaff0164140181254769159d3" kind="variable"><name>regionVert2id_</name></member>
     <member refid="group__GeneralGroup_1ga0b3def1240423bd62f55b011b88532b3" kind="variable"><name>freeVert2id_</name></member>
-    <member refid="group__GeneralGroup_1gabc07a09dfcc8f49d9f1a0c2b985c1e66" kind="variable"><name>M_</name></member>
-    <member refid="group__GeneralGroup_1ga1c5b2e08decdb2a6e4685ceea29cae61" kind="variable"><name>solverValid_</name></member>
     <member refid="group__GeneralGroup_1gade04ad69951c0a7fea994dd296614113" kind="variable"><name>solver_</name></member>
     <member refid="group__GeneralGroup_1gaca04c91be84f9b11da19a3e455b5a28a" kind="variable"><name>p</name></member>
     <member refid="group__GeneralGroup_1ga8b3c7d000e9148d5f14f3c7d0325c95b" kind="variable"><name>d</name></member>
@@ -21618,6 +21716,12 @@
     <member refid="group__GeneralGroup_1ga8a6bea316cbe5135619267fc08711fb2" kind="variable"><name>maxGroupSize_</name></member>
     <member refid="group__GeneralGroup_1ga40bccf930578d259a3f3417df82131c8" kind="variable"><name>iter_</name></member>
     <member refid="group__GeneralGroup_1ga14db8ca7d0c17638612e3c103c8418a9" kind="variable"><name>m</name></member>
+    <member refid="group__GeneralGroup_1ga7137a970db478b455991a3a8419cbfd3" kind="variable"><name>xf</name></member>
+    <member refid="group__GeneralGroup_1gad2ca6cbc05de79bee8739cc5d9c30c29" kind="variable"><name>nested</name></member>
+    <member refid="group__GeneralGroup_1gac5cd01cdb303cbff8a43671466703190" kind="variable"><name>mesh</name></member>
+    <member refid="group__GeneralGroup_1ga81c988c2fc329f7b750cd3754d482934" kind="variable"><name>xf</name></member>
+    <member refid="group__GeneralGroup_1ga343f864ad277ea93a7c5353ddafcfa36" kind="variable"><name>nest</name></member>
+    <member refid="group__GeneralGroup_1gae7d143b7c4539b2e2dcf4673296df520" kind="variable"><name>minInterval</name></member>
     <member refid="group__GeneralGroup_1gad6004983564c77dbe469d819de9b1100" kind="variable"><name>fastIndicatorComputation</name></member>
     <member refid="group__GeneralGroup_1gaa7cab391c3f837a22f2d158c7647315a" kind="variable"><name>beta</name></member>
     <member refid="group__GeneralGroup_1gad5c55319dff328b55475f07390acd505" kind="variable"><name>gamma</name></member>
@@ -23778,6 +23882,13 @@
     <member refid="group__GeneralGroup_1ga1c860dd386f07581661cc74f394a1470" kind="variable"><name>z</name></member>
     <member refid="group__GeneralGroup_1ga0f4b29a9c38aac83de066f74ddc95c4d" kind="variable"><name>fileNum</name></member>
     <member refid="group__GeneralGroup_1ga44785160df691c40ebdf392f66282315" kind="variable"><name>imagePos</name></member>
+    <member refid="group__GeneralGroup_1ga8bfd7e8c8917f1001565362c2ec79a7f" kind="variable"><name>baseParams_</name></member>
+    <member refid="group__GeneralGroup_1ga149223a4ecc98ce837dfce8ee330ab9a" kind="variable"><name>tetrisOptions_</name></member>
+    <member refid="group__GeneralGroup_1ga18ebd8b38cb82fe07a0992dcc6ec3b61" kind="variable"><name>voxelsCache_</name></member>
+    <member refid="group__GeneralGroup_1ga46652ae9d9d3313e0b54ee5f5361af80" kind="variable"><name>dimensionsCache_</name></member>
+    <member refid="group__GeneralGroup_1ga7f946bed1fcbf379a2752f4489ddd7f7" kind="variable"><name>occupiedVoxelsCache_</name></member>
+    <member refid="group__GeneralGroup_1ga4ff630b767f64c9de51eb6e5a0819c78" kind="variable"><name>nestedBoxesCache_</name></member>
+    <member refid="group__GeneralGroup_1gaa3d07152725cd212be0764fb70959eb9" kind="variable"><name>addBoxCornersCache_</name></member>
     <member refid="group__GeneralGroup_1ga30734a48ed1db5decfd6bc50b5e5a9c6" kind="variable"><name>path</name></member>
     <member refid="group__GeneralGroup_1gaa31ab5fc3b9d49a142a4879771d70f71" kind="variable"><name>toolMesh</name></member>
     <member refid="group__GeneralGroup_1ga1dd7253af2235866a183bfa91f3aca3e" kind="variable"><name>toolSpec</name></member>
@@ -23789,6 +23900,14 @@
     <member refid="group__GeneralGroup_1gad47933a9cf1030b769dce59bc9a3d1ab" kind="variable"><name>xf</name></member>
     <member refid="group__GeneralGroup_1gaacad268e9bf8e8ba39c90b3c5bc3abc8" kind="variable"><name>presentObjects_</name></member>
     <member refid="group__GeneralGroup_1ga76056b4faced31578233512b4c392ad2" kind="variable"><name>mask_</name></member>
+    <member refid="group__GeneralGroup_1gafcba40b2766ddb0e65f0cd8b0fff1c33" kind="variable"><name>voxelSize</name></member>
+    <member refid="group__GeneralGroup_1ga2f011ee43797dfd41b3cf45ef8f73cd3" kind="variable"><name>densificationSequence</name></member>
+    <member refid="group__GeneralGroup_1gafa3d3ce9f1a239b0433ea41d932df07f" kind="variable"><name>cb</name></member>
+    <member refid="group__GeneralGroup_1ga9aa9eca3f4fabca2c8ac7cfa9bdfe5e8" kind="variable"><name>nestVoxelsCache</name></member>
+    <member refid="group__GeneralGroup_1gab94ca03ddd7606a0f2410eae5ef15632" kind="variable"><name>nestDimensionsCache</name></member>
+    <member refid="group__GeneralGroup_1gae37674fe33f509e39ddb625df76e3da1" kind="variable"><name>occupiedVoxelsCache</name></member>
+    <member refid="group__GeneralGroup_1gabe169f4acb2c0d3499f4789ad4d63e6b" kind="variable"><name>baseParams</name></member>
+    <member refid="group__GeneralGroup_1ga558380f5544f18c8eef21feef0149630" kind="variable"><name>options</name></member>
     <member refid="group__GeneralGroup_1gab01ce27f18a97921bbeb33127a0412a5" kind="variable"><name>millRadius</name></member>
     <member refid="group__GeneralGroup_1ga785fe1445fcc56a97f20cf9daf8356e9" kind="variable"><name>voxelSize</name></member>
     <member refid="group__GeneralGroup_1ga26778592370a3e672866fb0486b2d7c9" kind="variable"><name>sectionStep</name></member>
@@ -24214,6 +24333,7 @@
     <member refid="group__GeneralGroup_1ga8b4de55088f080dd7c6aeb2549545767" kind="function"><name>toJpeg</name></member>
     <member refid="group__GeneralGroup_1ga53e10905b0b0c7883ff7e24d2a59385d" kind="function"><name>fromLas</name></member>
     <member refid="group__GeneralGroup_1gac78490328f89a7922ecb887a7373da8c" kind="function"><name>fromLas</name></member>
+    <member refid="group__GeneralGroup_1ga31c71dd46b0d5cd53545f862b1a2a41d" kind="function"><name>exportNesting3mf</name></member>
     <member refid="group__GeneralGroup_1ga592bad758219343d640e203f33e9b74c" kind="function"><name>Pdf</name></member>
     <member refid="group__GeneralGroup_1gadeee7f3bd750790173a58e2a5cd00d33" kind="function"><name>Pdf</name></member>
     <member refid="group__GeneralGroup_1ga4f6e5b9408dbe06b4b1b129238cc298e" kind="function"><name>operator=</name></member>
@@ -24384,6 +24504,14 @@
     <member refid="group__GeneralGroup_1ga03fe60ea7e0abbe26829708ba3bc971c" kind="function"><name>findZeroProjection</name></member>
     <member refid="group__GeneralGroup_1ga808273a91fc951f1b82faa9424e6451e" kind="function"><name>getPoint</name></member>
     <member refid="group__GeneralGroup_1ga56b8e90a46bbc02fd586b6fc293831a6" kind="function"><name>getWeights</name></member>
+    <member refid="group__GeneralGroup_1gaa8ec2c72b6d4a3d088cc140e2771dbe1" kind="function"><name>~IBoxNestingPriority</name></member>
+    <member refid="group__GeneralGroup_1ga8850f5538a39af635ba8bcae3a4cae75" kind="function"><name>init</name></member>
+    <member refid="group__GeneralGroup_1gade02b304d212d0b796e804a9ebe361c7" kind="function"><name>addNested</name></member>
+    <member refid="group__GeneralGroup_1ga302822ce62771b9b4bf02730bf280cf0" kind="function"><name>complete</name></member>
+    <member refid="group__GeneralGroup_1ga92f309e13800b4666cc5f1b7335fa3bc" kind="function"><name>getNestPostionMinPriorityMetric</name></member>
+    <member refid="group__GeneralGroup_1ga4b3dd5f6886fbb404008c354dbbd7f74" kind="function"><name>getNeighborigDensityPriorityMetric</name></member>
+    <member refid="group__GeneralGroup_1ga8f860a129bbe1a4488d5582755393292" kind="function"><name>fillNestingSocketCorneres</name></member>
+    <member refid="group__GeneralGroup_1ga1c60cc7888bc27a43856b1dfc9abaefd" kind="function"><name>boxNesting</name></member>
     <member refid="group__GeneralGroup_1gaf504ba39107aabf4c055c1a1f651c586" kind="function"><name>ZeroOnMove</name></member>
     <member refid="group__GeneralGroup_1ga6c54d017113955a26465a32443707c9f" kind="function"><name>ZeroOnMove</name></member>
     <member refid="group__GeneralGroup_1ga1eb512d1aea6742b0d8392f71ce425a2" kind="function"><name>ZeroOnMove</name></member>
@@ -25423,6 +25551,8 @@
     <member refid="group__GeneralGroup_1gab1ebfd99de734fb5a427394dcc38d2d5" kind="function"><name>pointIterativeSampling</name></member>
     <member refid="group__GeneralGroup_1ga701e06f6b7ebb3c08d691ca34ffeab37" kind="function"><name>Laplacian</name></member>
     <member refid="group__GeneralGroup_1ga76c6a49784d646ffed8a834c10e927df" kind="function"><name>Laplacian</name></member>
+    <member refid="group__GeneralGroup_1ga61c764e507de86f90b4a8763fdae00fd" kind="function"><name>Laplacian</name></member>
+    <member refid="group__GeneralGroup_1gaddaaf769ca00b17d64d71fe8f4b3a60d" kind="function"><name>~Laplacian</name></member>
     <member refid="group__GeneralGroup_1ga4a5fd158281d7c2d11d4c1bfc6f0d42f" kind="function"><name>init</name></member>
     <member refid="group__GeneralGroup_1gaf8c807b6eac743eb543a4d3f65c759e2" kind="function"><name>initFromPoints</name></member>
     <member refid="group__GeneralGroup_1ga85bd09ce8356a9b467ee3ede1c5aa296" kind="function"><name>fixVertex</name></member>
@@ -25438,11 +25568,7 @@
     <member refid="group__GeneralGroup_1gadea5e520fb681e438a8ea02cc7ef2c2c" kind="function"><name>points</name></member>
     <member refid="group__GeneralGroup_1ga0568cc66101d05347d62733b8e9e6e1a" kind="function"><name>addAttractor</name></member>
     <member refid="group__GeneralGroup_1gac82a9081ff051fecccad5bd85d17e14b" kind="function"><name>removeAllAttractors</name></member>
-    <member refid="group__GeneralGroup_1ga697c3e05cd9de41d9cdcf8c8faa16a12" kind="function"><name>findRhs_</name></member>
     <member refid="group__GeneralGroup_1ga08aa4b53ab6af85b345b6cb5b2224629" kind="function"><name>prepareRhs_</name></member>
-    <member refid="group__GeneralGroup_1ga763eccd90d676a04208c718e89afbf18" kind="function"><name>~Solver</name></member>
-    <member refid="group__GeneralGroup_1ga32171f867c3530ef5b8dbbe13cacd86a" kind="function"><name>compute</name></member>
-    <member refid="group__GeneralGroup_1ga45582af69f6c747bd0d8dab89d918663" kind="function"><name>solve</name></member>
     <member refid="group__GeneralGroup_1ga642d8f58bfaf2bf579e6da003fcdc164" kind="function"><name>makeLevelOfDetails</name></member>
     <member refid="group__GeneralGroup_1ga46b55b474c21ce6047ee165c8543e568" kind="function"><name>Line</name></member>
     <member refid="group__GeneralGroup_1ga47dd14270d81a152f0ddafb8db8c67a9" kind="function"><name>Line</name></member>
@@ -29973,6 +30099,9 @@
     <member refid="group__GeneralGroup_1gaff91c68f41381e746ca7f806ee6e6fc8" kind="function"><name>sortScansByOrder</name></member>
     <member refid="group__GeneralGroup_1gad32e4b25d65d4972f9223a5261cbd1b9" kind="function"><name>putScanFileNameInZ</name></member>
     <member refid="group__GeneralGroup_1ga5e508caef59590753520653304096fa8" kind="function"><name>sortScanFilesByName</name></member>
+    <member refid="group__GeneralGroup_1gaaf169bf48bf09a3aa9257ab2fa20a7f3" kind="function"><name>SequentialNester</name></member>
+    <member refid="group__GeneralGroup_1gadd6d11f91cd7c2f23476723ec6d9bccf" kind="function"><name>nestMesh</name></member>
+    <member refid="group__GeneralGroup_1ga956a20ce168470b2508f2e52ec9fcf2b" kind="function"><name>nestMeshes</name></member>
     <member refid="group__GeneralGroup_1ga1df5256f57ba20b4fa8abc68edfd2021" kind="function"><name>computeWorkArea</name></member>
     <member refid="group__GeneralGroup_1gad430aa6bda176d93601f5ae0e30b39a2" kind="function"><name>computeGridBox</name></member>
     <member refid="group__GeneralGroup_1gac72b9b05041cc9229cb46ef3216d254f" kind="function"><name>computeSweptVolumeWithMeshMovement</name></member>
@@ -29993,6 +30122,7 @@
     <member refid="group__GeneralGroup_1ga85945152e834903417843fd459a86ba0" kind="function"><name>convertAll</name></member>
     <member refid="group__GeneralGroup_1ga153e4d6bc37f9ab7f62e627b56567c54" kind="function"><name>TeethMaskToDirectionVolumeConvertor</name></member>
     <member refid="group__GeneralGroup_1ga9f9eaf1e1eb9ace45e067a74d20e017a" kind="function"><name>teethMaskToDirectionVolume</name></member>
+    <member refid="group__GeneralGroup_1ga2cbe87a23074d994591bf8ff7998359a" kind="function"><name>tetrisNestingDensify</name></member>
     <member refid="group__GeneralGroup_1ga8c5016c58c1f50556f6983b8c64e9513" kind="function"><name>constantZToolPath</name></member>
     <member refid="group__GeneralGroup_1ga4ace8f8e8e272418344b22a43ceb26e8" kind="function"><name>lacingToolPath</name></member>
     <member refid="group__GeneralGroup_1ga0a71dd1e4625f6e6061b4825cdeb774c" kind="function"><name>constantCuspToolPath</name></member>
