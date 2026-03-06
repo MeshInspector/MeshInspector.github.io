@@ -10254,7 +10254,7 @@
     <member refid="group__GeneralGroup_1gab3d9e28df35121c177e6e2eead86a43a" kind="variable"><name>relaxForceAfterEdit</name></member>
     <member refid="group__GeneralGroup_1ga2bf410c025634089f22b3341825cd20b" kind="variable"><name>edgeWeights</name></member>
     <member refid="group__GeneralGroup_1gaab506cf4d0c39bc59ac2ac941047014b" kind="variable"><name>vmass</name></member>
-    <member refid="group__GeneralGroup_1ga85a36f3e76609b4c85759a1e84f534bb" kind="variable"><name>laplacianBasedAddRemove</name></member>
+    <member refid="group__GeneralGroup_1ga33962d16d47d1608ace44030dde693bc" kind="variable"><name>idealGrooves</name></member>
   </compound>
   <compound refid="structMR_1_1TriangulationHelpers_1_1Settings" kind="struct"><name>MR::TriangulationHelpers::Settings</name>
     <member refid="structMR_1_1TriangulationHelpers_1_1Settings_1aeadcc460fdb58725f5fd22d6457ea9b2" kind="variable"><name>radius</name></member>
@@ -10729,7 +10729,6 @@
     <member refid="group__GeneralGroup_1ga36f9a86b24ef8363fa101445a7131338" kind="variable"><name>pointsShift_</name></member>
     <member refid="group__GeneralGroup_1gaefb48658b014a85090a083256f594b26" kind="variable"><name>editingDistanceMap_</name></member>
     <member refid="group__GeneralGroup_1gaf47cba96ac32e05d6105943185dc431b" kind="variable"><name>visualizationDistanceMap_</name></member>
-    <member refid="group__GeneralGroup_1gacea1c4613933b5524111e4ac139eb1c9" kind="variable"><name>changedRegion_</name></member>
     <member refid="group__GeneralGroup_1ga448684abe0f6d4ad9d419eed84251565" kind="variable"><name>valueChanges_</name></member>
     <member refid="group__GeneralGroup_1ga4636a687b93fa094ea26c634950fee2a" kind="variable"><name>lastStableValueChanges_</name></member>
     <member refid="group__GeneralGroup_1gac6d7a49981ff378d5f791c4ec36bc73b" kind="variable"><name>originalMesh_</name></member>
@@ -10746,7 +10745,9 @@
     <member refid="group__GeneralGroup_1ga90ca984430afc6677edfa65a39a5d5bb" kind="variable"><name>touchVertIniPos_</name></member>
     <member refid="group__GeneralGroup_1ga07b29d80acee8bb71f3b36cf6f3c61d3" kind="variable"><name>storedDown_</name></member>
     <member refid="group__GeneralGroup_1ga45c714522ca37331bf7eef51f07139fd" kind="variable"><name>laplacian_</name></member>
+    <member refid="group__GeneralGroup_1ga8fc55e576b16eb9f3a7ebc6d3aed8b86" kind="variable"><name>fixedPickedVerts_</name></member>
     <member refid="group__GeneralGroup_1gae9349ed78305ee5063f2bf0f5c564d0c" kind="variable"><name>fixedPickedVertsToDistSq_</name></member>
+    <member refid="group__GeneralGroup_1ga9fa8768693a4a00ed01b3cc1af06228d" kind="variable"><name>relaxRegionHeights_</name></member>
     <member refid="group__GeneralGroup_1ga646602a8d3e1d1781c7aa8ed9b2050e3" kind="variable"><name>historyAction_</name></member>
     <member refid="group__GeneralGroup_1ga09c56116fa4c39bcc7554e4142816027" kind="variable"><name>appendHistoryAction_</name></member>
     <member refid="group__GeneralGroup_1ga3853225f96fef25c2dbce20227c54c7d" kind="variable"><name>palette_</name></member>
@@ -23296,7 +23297,7 @@
     <member refid="group__GeneralGroup_1gab3d9e28df35121c177e6e2eead86a43a" kind="variable"><name>relaxForceAfterEdit</name></member>
     <member refid="group__GeneralGroup_1ga2bf410c025634089f22b3341825cd20b" kind="variable"><name>edgeWeights</name></member>
     <member refid="group__GeneralGroup_1gaab506cf4d0c39bc59ac2ac941047014b" kind="variable"><name>vmass</name></member>
-    <member refid="group__GeneralGroup_1ga85a36f3e76609b4c85759a1e84f534bb" kind="variable"><name>laplacianBasedAddRemove</name></member>
+    <member refid="group__GeneralGroup_1ga33962d16d47d1608ace44030dde693bc" kind="variable"><name>idealGrooves</name></member>
     <member refid="group__GeneralGroup_1ga1470ce9a66bc6a7554b36d69c81102e1" kind="variable"><name>settings_</name></member>
     <member refid="group__GeneralGroup_1ga83f58ee4ef74ddd5127a9de59ad0658e" kind="variable"><name>obj_</name></member>
     <member refid="group__GeneralGroup_1gaa0fd16498ab8c5a8415556c1e670724b" kind="variable"><name>unchangeableVerts_</name></member>
@@ -23309,7 +23310,6 @@
     <member refid="group__GeneralGroup_1ga36f9a86b24ef8363fa101445a7131338" kind="variable"><name>pointsShift_</name></member>
     <member refid="group__GeneralGroup_1gaefb48658b014a85090a083256f594b26" kind="variable"><name>editingDistanceMap_</name></member>
     <member refid="group__GeneralGroup_1gaf47cba96ac32e05d6105943185dc431b" kind="variable"><name>visualizationDistanceMap_</name></member>
-    <member refid="group__GeneralGroup_1gacea1c4613933b5524111e4ac139eb1c9" kind="variable"><name>changedRegion_</name></member>
     <member refid="group__GeneralGroup_1ga448684abe0f6d4ad9d419eed84251565" kind="variable"><name>valueChanges_</name></member>
     <member refid="group__GeneralGroup_1ga4636a687b93fa094ea26c634950fee2a" kind="variable"><name>lastStableValueChanges_</name></member>
     <member refid="group__GeneralGroup_1gac6d7a49981ff378d5f791c4ec36bc73b" kind="variable"><name>originalMesh_</name></member>
@@ -23326,7 +23326,9 @@
     <member refid="group__GeneralGroup_1ga90ca984430afc6677edfa65a39a5d5bb" kind="variable"><name>touchVertIniPos_</name></member>
     <member refid="group__GeneralGroup_1ga07b29d80acee8bb71f3b36cf6f3c61d3" kind="variable"><name>storedDown_</name></member>
     <member refid="group__GeneralGroup_1ga45c714522ca37331bf7eef51f07139fd" kind="variable"><name>laplacian_</name></member>
+    <member refid="group__GeneralGroup_1ga8fc55e576b16eb9f3a7ebc6d3aed8b86" kind="variable"><name>fixedPickedVerts_</name></member>
     <member refid="group__GeneralGroup_1gae9349ed78305ee5063f2bf0f5c564d0c" kind="variable"><name>fixedPickedVertsToDistSq_</name></member>
+    <member refid="group__GeneralGroup_1ga9fa8768693a4a00ed01b3cc1af06228d" kind="variable"><name>relaxRegionHeights_</name></member>
     <member refid="group__GeneralGroup_1ga646602a8d3e1d1781c7aa8ed9b2050e3" kind="variable"><name>historyAction_</name></member>
     <member refid="group__GeneralGroup_1ga09c56116fa4c39bcc7554e4142816027" kind="variable"><name>appendHistoryAction_</name></member>
     <member refid="group__GeneralGroup_1ga3853225f96fef25c2dbce20227c54c7d" kind="variable"><name>palette_</name></member>

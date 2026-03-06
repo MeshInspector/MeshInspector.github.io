@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1OutputFlows.html":[6,0,0,20,105],
 "structMR_1_1PackMapping.html":[6,0,0,20,128],
 "structMR_1_1Palette_1_1Label.html":[6,0,0,20,586],
 "structMR_1_1Palette_1_1Parameters.html":[6,0,0,20,587],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html":[6,0,0,20,633],
 "structMR_1_1RibbonConfig.html":[6,0,0,20,637],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,0,20,643],
-"structMR_1_1RibbonMenuUIConfig.html":[6,0,0,20,644],
-"structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,0,20,640]
+"structMR_1_1RibbonMenuUIConfig.html":[6,0,0,20,644]
 };

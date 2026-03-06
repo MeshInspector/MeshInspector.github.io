@@ -12,7 +12,7 @@
       <member refid="group__GeneralGroup_1gab3d9e28df35121c177e6e2eead86a43a" kind="variable"><name>relaxForceAfterEdit</name></member>
       <member refid="group__GeneralGroup_1ga2bf410c025634089f22b3341825cd20b" kind="variable"><name>edgeWeights</name></member>
       <member refid="group__GeneralGroup_1gaab506cf4d0c39bc59ac2ac941047014b" kind="variable"><name>vmass</name></member>
-      <member refid="group__GeneralGroup_1ga85a36f3e76609b4c85759a1e84f534bb" kind="variable"><name>laplacianBasedAddRemove</name></member>
+      <member refid="group__GeneralGroup_1ga33962d16d47d1608ace44030dde693bc" kind="variable"><name>idealGrooves</name></member>
     </sectiondef>
     <briefdescription>
 <para><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> change settings. </para>
@@ -23,7 +23,7 @@
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2bf410c025634089f22b3341825cd20b" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>edgeWeights</name></member>
       <member refid="group__GeneralGroup_1gab14405334e68a28589b518f7764d2176" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>editForce</name></member>
-      <member refid="group__GeneralGroup_1ga85a36f3e76609b4c85759a1e84f534bb" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>laplacianBasedAddRemove</name></member>
+      <member refid="group__GeneralGroup_1ga33962d16d47d1608ace44030dde693bc" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>idealGrooves</name></member>
       <member refid="group__GeneralGroup_1ga39181874053a773d7db01166de8a0c7b" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>radius</name></member>
       <member refid="group__GeneralGroup_1ga2d31568cac0bf19969e4cc51dc854a14" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>relaxForce</name></member>
       <member refid="group__GeneralGroup_1gab3d9e28df35121c177e6e2eead86a43a" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>relaxForceAfterEdit</name></member>

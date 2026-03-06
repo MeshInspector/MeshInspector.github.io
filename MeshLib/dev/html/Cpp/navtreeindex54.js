@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"group__PointCloudTriangulationGroup.html#ga667297e36f7837828ecea717d5be86ce":[6,0,0,13,3],
 "group__PointCloudTriangulationGroup.html#gad8757f0b892706f56491e2b0a5a016d8":[6,0,0,13,4],
 "group__PointsLoadGroup.html":[6,0,0,21],
 "group__PointsSaveGroup.html":[6,0,0,2,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "group__TriangleIntersectionGroup.html#gae2d884d3111355ff558c2b7f34c314d0":[6,0,0,0,10,6],
 "group__TriangleIntersectionGroup.html#gaeed5ed30fa651d9e8908b1c86b1a77b9":[6,0,0,0,10,10],
 "group__TriangleIntersectionGroup.html#gaf5c17228b0533759ec08bc5a2c3e45ae":[6,0,0,0,10,17],
-"group__TriangleIntersectionGroup.html#gaffaaca67b2b029641abd64350b3c1959":[6,0,0,0,10,13],
-"group__TriangulationHelpersGroup.html":[6,0,0,13,0]
+"group__TriangleIntersectionGroup.html#gaffaaca67b2b029641abd64350b3c1959":[6,0,0,0,10,13]
 };

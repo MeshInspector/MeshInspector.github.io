@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1WeightedShell_1_1ParametersMetric.html#a3c8f8973ae2690971d98f123da0edade":[6,0,1,0,1,51,2,0],
 "structMR_1_1WeightedShell_1_1ParametersMetric.html#a3c8f8973ae2690971d98f123da0edade":[6,0,2,0,2,32,2,0],
 "structMR_1_1WeightedShell_1_1ParametersRegions.html":[6,0,1,0,1,51,3],
 "structMR_1_1WeightedShell_1_1ParametersRegions.html":[6,0,2,0,2,32,3],

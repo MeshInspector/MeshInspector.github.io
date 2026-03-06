@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,0,20,640],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,0,20,639],
 "structMR_1_1RibbonNotification.html":[6,0,0,20,646],
 "structMR_1_1RibbonSchema.html":[6,0,0,20,655],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[6,0,1,0,1,46,11,0],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[6,0,2,0,2,29,9,0],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a1c7efed40362c244fe3448ccb9b4f5b8":[6,0,1,0,1,46,11,0,1],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a1c7efed40362c244fe3448ccb9b4f5b8":[6,0,2,0,2,29,9,0,1],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a3294cc10df7525536273d925395bb8f4":[6,0,1,0,1,46,11,0,2]
+"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a1c7efed40362c244fe3448ccb9b4f5b8":[6,0,2,0,2,29,9,0,1]
 };

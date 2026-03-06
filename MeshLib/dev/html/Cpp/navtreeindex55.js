@@ -1,5 +1,6 @@
 var NAVTREEINDEX55 =
 {
+"group__TriangulationHelpersGroup.html":[6,0,0,13,0],
 "group__TriangulationHelpersGroup.html#ga379ef6cfbe1df486c3b9baf10d186c0b":[6,0,0,13,0,4],
 "group__TriangulationHelpersGroup.html#ga8a151252bffbc3c9b6cf56c1a45292f0":[6,0,0,13,0,1],
 "group__TriangulationHelpersGroup.html#ga9f026bf1ef8ed09a14cc5012fe92d8fc":[6,0,0,13,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX55 =
 "namespaceMR_1_1DistanceMapLoad.html":[6,0,1,0,1,4],
 "namespaceMR_1_1DistanceMapLoad.html#af1f62813f68011847bea88c8d3bfe7bb":[6,0,1,0,1,4,0],
 "namespaceMR_1_1DistanceMapSave.html":[6,0,0,20,8],
-"namespaceMR_1_1DistanceMapSave.html#aac7825149eb9a0b19702af74fa42f45e":[6,0,1,0,1,5,0],
-"namespaceMR_1_1Features.html":[6,0,1,0,1,6]
+"namespaceMR_1_1DistanceMapSave.html#aac7825149eb9a0b19702af74fa42f45e":[6,0,1,0,1,5,0]
 };
