@@ -45,15 +45,75 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="153" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="153" bodyend="161"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Locale_1acfab57f5bc1bb5b953a2f4d42ddbd7b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Locale.translateNoop</definition>
+        <argsstring>(byte? single, byte? plural, long n)</argsstring>
+        <name>translateNoop</name>
+        <qualifiedname>MR.Locale.translateNoop</qualifiedname>
+        <param>
+          <type>byte?</type>
+          <declname>single</declname>
+        </param>
+        <param>
+          <type>byte?</type>
+          <declname>plural</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::Locale::translate_noop</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="166" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="166" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Locale_1a718460254723cf216265271cb8b85d90" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Locale.translateNoop</definition>
+        <argsstring>(byte? ctx, byte? single, byte? plural, long n)</argsstring>
+        <name>translateNoop</name>
+        <qualifiedname>MR.Locale.translateNoop</qualifiedname>
+        <param>
+          <type>byte?</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>byte?</type>
+          <declname>single</declname>
+        </param>
+        <param>
+          <type>byte?</type>
+          <declname>plural</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::Locale::translate_noop</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="179" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="179" bodyend="188"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="135" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="136" bodyend="162"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="135" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="136" bodyend="189"/>
     <listofallmembers>
       <member refid="classMR_1_1Locale_1aec99b30291d099d1b2defc3c5f5ebc03" prot="public" virt="non-virtual"><scope>MR::Locale</scope><name>translateNoop</name></member>
       <member refid="classMR_1_1Locale_1ae0fbe9f0bf9015df54267a2baf25407e" prot="public" virt="non-virtual"><scope>MR::Locale</scope><name>translateNoop</name></member>
+      <member refid="classMR_1_1Locale_1acfab57f5bc1bb5b953a2f4d42ddbd7b7" prot="public" virt="non-virtual"><scope>MR::Locale</scope><name>translateNoop</name></member>
+      <member refid="classMR_1_1Locale_1a718460254723cf216265271cb8b85d90" prot="public" virt="non-virtual"><scope>MR::Locale</scope><name>translateNoop</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

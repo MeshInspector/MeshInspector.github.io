@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"classMR_1_1VertScalars.html#ac5023921ca8c39fa3e91e02bf5f38ad7":[6,3,0,0,0,958,18],
+"classMR_1_1VertScalars.html#aceef2a2984b297a28254186e794070e2":[6,3,0,0,0,958,24],
 "classMR_1_1VertScalars.html#ad1174708accfef93ca1c22c719fff5f6":[6,3,0,0,0,958,19],
 "classMR_1_1VertScalars.html#adf3c71211bfd852a69f0d0d67d9b5592":[6,3,0,0,0,958,11],
 "classMR_1_1VertScalars.html#af5a6fe7b288baca4c619f3301eb5c6cd":[6,3,0,0,0,958,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "classMR_1_1VoxelLocation.html#adc88eb2d2ffddb79bf7a6ff1e48cc3af":[6,3,0,0,0,976,3],
 "classMR_1_1VoxelLocation.html#af95e910678fb350530bfef2df17a9d6d":[6,3,0,0,0,976,1],
 "classMR_1_1VoxelLocation.html#affb2b57503ac3e10c48ed5f6fd912b1f":[6,3,0,0,0,976,6],
-"classMR_1_1VoxelMetricParameters.html":[6,3,0,0,0,977],
-"classMR_1_1VoxelMetricParameters.html#a013f27dd734136065c748ce751630b90":[6,3,0,0,0,977,9],
-"classMR_1_1VoxelMetricParameters.html#a240cdee4d23eea612d6c1b00907afcd4":[6,3,0,0,0,977,4]
+"classMR_1_1VoxelMetricParameters.html":[6,3,0,0,0,977]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a3294cc10df7525536273d925395bb8f4":[6,0,2,0,2,29,9,0,2],
+"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a669ea51c367ab807beb54423bc2717f6":[6,0,1,0,1,46,11,0,4],
+"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a669ea51c367ab807beb54423bc2717f6":[6,0,2,0,2,29,9,0,4],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a8f0e17801627126920b79b9159e927bc":[6,0,1,0,1,46,11,0,3],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a8f0e17801627126920b79b9159e927bc":[6,0,2,0,2,29,9,0,3],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#ab1d43c463dad455d38df62802e67d941":[6,0,1,0,1,46,11,0,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1WeightedShell_1_1ParametersBase.html#af8d85417b99b631e7f2c01ba2d039443":[6,0,2,0,2,32,1,3],
 "structMR_1_1WeightedShell_1_1ParametersMetric.html":[6,0,1,0,1,51,2],
 "structMR_1_1WeightedShell_1_1ParametersMetric.html":[6,0,2,0,2,32,2],
-"structMR_1_1WeightedShell_1_1ParametersMetric.html#a3c8f8973ae2690971d98f123da0edade":[6,0,1,0,1,51,2,0],
-"structMR_1_1WeightedShell_1_1ParametersMetric.html#a3c8f8973ae2690971d98f123da0edade":[6,0,2,0,2,32,2,0],
-"structMR_1_1WeightedShell_1_1ParametersRegions.html":[6,0,1,0,1,51,3],
-"structMR_1_1WeightedShell_1_1ParametersRegions.html":[6,0,2,0,2,32,3]
+"structMR_1_1WeightedShell_1_1ParametersMetric.html#a3c8f8973ae2690971d98f123da0edade":[6,0,1,0,1,51,2,0]
 };

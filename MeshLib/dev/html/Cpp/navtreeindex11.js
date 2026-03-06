@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"classMR_1_1ShiftTransformer.html":[6,0,0,20,820],
+"classMR_1_1ShortcutManager.html":[6,0,0,20,688],
 "classMR_1_1SpaceMouse_1_1Controller.html":[6,0,1,0,1,43,1],
 "classMR_1_1SpaceMouse_1_1Controller.html":[6,0,2,0,2,27,1],
 "classMR_1_1SpaceMouse_1_1Controller.html#a0e27e79e9975613b8ab23632f131dde1":[6,0,1,0,1,43,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "classMR_1_1ViewportMask.html#ae1fc607d938397dac12f6acafd1de9e7":[6,0,0,11,1,1,13],
 "classMR_1_1ViewportParametersAction.html":[6,0,0,4,44],
 "classMR_1_1ViewportProperty.html":[6,0,0,11,1,3],
-"classMR_1_1ViewportProperty.html#a08a3a7775fba5eb3fce855a27cf8d586":[6,0,0,11,1,3,0],
-"classMR_1_1ViewportProperty.html#a2586f5567b0637427c76e0c13b0bfa95":[6,0,0,11,1,3,1],
-"classMR_1_1ViewportProperty.html#a2bd23f5da1c45f3e3883a09d930aa408":[6,0,0,11,1,3,2]
+"classMR_1_1ViewportProperty.html#a08a3a7775fba5eb3fce855a27cf8d586":[6,0,0,11,1,3,0]
 };

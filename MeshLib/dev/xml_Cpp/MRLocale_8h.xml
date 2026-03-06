@@ -4,7 +4,6 @@
     <compoundname>MRLocale.h</compoundname>
     <includes refid="MRViewer_2config_8h" local="yes">config.h</includes>
     <includes local="yes">exports.h</includes>
-    <includes local="no">boost/locale/message.hpp</includes>
     <includes local="no">filesystem</includes>
     <includes local="no">vector</includes>
     <incdepgraph>
@@ -19,54 +18,23 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
       </node>
       <node id="2">
         <label>config.h</label>
         <link refid="MRViewer_2config_8h"/>
       </node>
-      <node id="4">
-        <label>boost/locale/message.hpp</label>
-      </node>
       <node id="3">
         <label>exports.h</label>
       </node>
-      <node id="5">
+      <node id="4">
         <label>filesystem</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <innernamespace refid="namespaceMR_1_1Locale">MR::Locale</innernamespace>
-    <sectiondef kind="define">
-      <memberdef kind="define" id="MRLocale_8h_1adc6632164911ac0de8387a9b13de000e" prot="public" static="no">
-        <name>_tr</name>
-        <param><defname>...</defname></param>
-        <initializer><ref refid="namespaceMR_1_1Locale_1ad107934ee7a79c06562767bbd0febdf5" kindref="member">MR::Locale::translate</ref>( __VA_ARGS__ ).c_str()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="74" column="9" bodyfile="MRViewer/MRLocale.h" bodystart="74" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="define" id="MRLocale_8h_1a33873d54d36dc3bf7a6a77bf40461701" prot="public" static="no">
-        <name>f_tr</name>
-        <param><defname>...</defname></param>
-        <initializer>fmt::runtime( <ref refid="namespaceMR_1_1Locale_1ad107934ee7a79c06562767bbd0febdf5" kindref="member">MR::Locale::translate</ref>( __VA_ARGS__ ) )</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="75" column="9" bodyfile="MRViewer/MRLocale.h" bodystart="75" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -78,61 +46,27 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MRVIEWER_NO_LOCALE</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning(<sp/>push<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning(<sp/>disable:<sp/>4619<sp/>)<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/locale/message.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning(<sp/>pop<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Locale" kindref="compound">MR::Locale</ref></highlight></codeline>
-<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="namespaceMR_1_1Locale_1ac59a56d895488411e12e18eda9077a20" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::locale&amp;<sp/><ref refid="namespaceMR_1_1Locale_1ac59a56d895488411e12e18eda9077a20" kindref="member">get</ref>();</highlight></codeline>
-<codeline lineno="22" refid="namespaceMR_1_1Locale_1a3fde71105ef842bfaaf870498be9222d" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="namespaceMR_1_1Locale_1a3fde71105ef842bfaaf870498be9222d" kindref="member">getName</ref>();</highlight></codeline>
-<codeline lineno="25" refid="namespaceMR_1_1Locale_1aa3caed4adf5ab7e7489b6c3cc97040a4" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::locale&amp;<sp/><ref refid="namespaceMR_1_1Locale_1aa3caed4adf5ab7e7489b6c3cc97040a4" kindref="member">set</ref>(<sp/>std::string<sp/>localeName<sp/>);</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="namespaceMR_1_1Locale_1a56715982039eac569ef53b82b086b1e3" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::vector&lt;std::string&gt;<sp/><ref refid="namespaceMR_1_1Locale_1a56715982039eac569ef53b82b086b1e3" kindref="member">getAvailableLocales</ref>();</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="namespaceMR_1_1Locale_1a2b32ebd2b8467813962ef412cc56a1f3" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Locale_1a2b32ebd2b8467813962ef412cc56a1f3" kindref="member">addCatalogPath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
-<codeline lineno="38" refid="namespaceMR_1_1Locale_1a2e81b598eb5d6aeb48f551d370244c6e" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Locale_1a2e81b598eb5d6aeb48f551d370244c6e" kindref="member">addDomain</ref>(<sp/>std::string<sp/>domainName<sp/>);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Locale" kindref="compound">MR::Locale</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="namespaceMR_1_1Locale_1ac59a56d895488411e12e18eda9077a20" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::locale&amp;<sp/><ref refid="namespaceMR_1_1Locale_1ac59a56d895488411e12e18eda9077a20" kindref="member">get</ref>();</highlight></codeline>
+<codeline lineno="17" refid="namespaceMR_1_1Locale_1a3fde71105ef842bfaaf870498be9222d" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="namespaceMR_1_1Locale_1a3fde71105ef842bfaaf870498be9222d" kindref="member">getName</ref>();</highlight></codeline>
+<codeline lineno="20" refid="namespaceMR_1_1Locale_1aa3caed4adf5ab7e7489b6c3cc97040a4" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::locale&amp;<sp/><ref refid="namespaceMR_1_1Locale_1aa3caed4adf5ab7e7489b6c3cc97040a4" kindref="member">set</ref>(<sp/>std::string<sp/>localeName<sp/>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="namespaceMR_1_1Locale_1a56715982039eac569ef53b82b086b1e3" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::vector&lt;std::string&gt;<sp/><ref refid="namespaceMR_1_1Locale_1a56715982039eac569ef53b82b086b1e3" kindref="member">getAvailableLocales</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="namespaceMR_1_1Locale_1a2b32ebd2b8467813962ef412cc56a1f3" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Locale_1a2b32ebd2b8467813962ef412cc56a1f3" kindref="member">addCatalogPath</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
+<codeline lineno="34" refid="namespaceMR_1_1Locale_1a2874347c63d49c868fb6c5e8e86fd07f" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Locale_1a2874347c63d49c868fb6c5e8e86fd07f" kindref="member">addDomain</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>domainName<sp/>);</highlight></codeline>
+<codeline lineno="38" refid="namespaceMR_1_1Locale_1a74cb3cfc68c30759be2deee569d04b69" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Locale_1a74cb3cfc68c30759be2deee569d04b69" kindref="member">findDomain</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>domainName<sp/>);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46" refid="namespaceMR_1_1Locale_1a8d1947c7d967dbc42a857466e79550e7" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1_1Locale_1a8d1947c7d967dbc42a857466e79550e7" kindref="member">getDisplayName</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>localeName<sp/>);</highlight></codeline>
 <codeline lineno="48" refid="namespaceMR_1_1Locale_1a1a90862fe2d6cda7d213d3683715e1cc" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Locale_1a1a90862fe2d6cda7d213d3683715e1cc" kindref="member">setDisplayName</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>localeName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>displayName<sp/>);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="namespaceMR_1_1Locale_1ad107934ee7a79c06562767bbd0febdf5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Locale_1ad107934ee7a79c06562767bbd0febdf5" kindref="member">translate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>msg<sp/>)</highlight></codeline>
-<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>boost::locale::translate(<sp/>msg<sp/>).str(<sp/><ref refid="namespaceMR_1_1Locale_1ac59a56d895488411e12e18eda9077a20" kindref="member">get</ref>()<sp/>);</highlight></codeline>
-<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="56" refid="namespaceMR_1_1Locale_1ae500dd863fc501d756968174206e9076" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Locale_1ad107934ee7a79c06562767bbd0febdf5" kindref="member">translate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>context,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>msg<sp/>)</highlight></codeline>
-<codeline lineno="57"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>boost::locale::translate(<sp/>context,<sp/>msg<sp/>).str(<sp/><ref refid="namespaceMR_1_1Locale_1ac59a56d895488411e12e18eda9077a20" kindref="member">get</ref>()<sp/>);</highlight></codeline>
-<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="61" refid="namespaceMR_1_1Locale_1a135a714215bdfafe98ba07654d565c34" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Locale_1ad107934ee7a79c06562767bbd0febdf5" kindref="member">translate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>single,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>plural,<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>n<sp/>)</highlight></codeline>
-<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>boost::locale::translate(<sp/>single,<sp/>plural,<sp/>n<sp/>).str(<sp/><ref refid="namespaceMR_1_1Locale_1ac59a56d895488411e12e18eda9077a20" kindref="member">get</ref>()<sp/>);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="66" refid="namespaceMR_1_1Locale_1aef611924629d0042096b70abcde22d15" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1Locale_1ad107934ee7a79c06562767bbd0febdf5" kindref="member">translate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>context,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>single,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>plural,<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>n<sp/>)</highlight></codeline>
-<codeline lineno="67"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>boost::locale::translate(<sp/>context,<sp/>single,<sp/>plural,<sp/>n<sp/>).str(<sp/><ref refid="namespaceMR_1_1Locale_1ac59a56d895488411e12e18eda9077a20" kindref="member">get</ref>()<sp/>);</highlight></codeline>
-<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MR_NO_I18N_MACROS</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRLocale_8h_1adc6632164911ac0de8387a9b13de000e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_tr(<sp/>...<sp/>)<sp/>MR::Locale::translate(<sp/>__VA_ARGS__<sp/>).c_str()</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="MRLocale_8h_1a33873d54d36dc3bf7a6a77bf40461701" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>f_tr(<sp/>...<sp/>)<sp/>fmt::runtime(<sp/>MR::Locale::translate(<sp/>__VA_ARGS__<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MR_NO_I18N_MACROS</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_tr(<sp/>...<sp/>)<sp/>MR::Locale::translate_noop(<sp/>__VA_ARGS__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>f_tr(<sp/>...<sp/>)<sp/>fmt::runtime(<sp/>MR::Locale::translate_noop(<sp/>__VA_ARGS__<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="MRViewer/MRLocale.h"/>
   </compounddef>

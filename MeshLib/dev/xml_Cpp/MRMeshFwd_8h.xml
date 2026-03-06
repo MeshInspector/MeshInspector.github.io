@@ -243,6 +243,7 @@
     <includedby refid="MRAncillaryPoints_8h" local="yes">MRViewer/MRAncillaryPoints.h</includedby>
     <includedby refid="MRDirectionWidget_8h" local="yes">MRViewer/MRDirectionWidget.h</includedby>
     <includedby refid="MRGLTexture_8h" local="yes">MRViewer/MRGLTexture.h</includedby>
+    <includedby refid="MRI18n_8h" local="no">MRViewer/MRI18n.h</includedby>
     <includedby refid="MRISceneStateCheck_8h" local="yes">MRViewer/MRISceneStateCheck.h</includedby>
     <includedby refid="MRImGuiImage_8h" local="no">MRViewer/MRImGuiImage.h</includedby>
     <includedby refid="MRImGuiMultiViewport_8h" local="yes">MRViewer/MRImGuiMultiViewport.h</includedby>
@@ -2885,15 +2886,17 @@
         </childnode>
         <childnode refid="585" relation="include">
         </childnode>
+        <childnode refid="586" relation="include">
+        </childnode>
         <childnode refid="168" relation="include">
-        </childnode>
-        <childnode refid="589" relation="include">
-        </childnode>
-        <childnode refid="102" relation="include">
         </childnode>
         <childnode refid="590" relation="include">
         </childnode>
+        <childnode refid="102" relation="include">
+        </childnode>
         <childnode refid="591" relation="include">
+        </childnode>
+        <childnode refid="592" relation="include">
         </childnode>
         <childnode refid="116" relation="include">
         </childnode>
@@ -2909,29 +2912,29 @@
         </childnode>
         <childnode refid="289" relation="include">
         </childnode>
-        <childnode refid="592" relation="include">
+        <childnode refid="593" relation="include">
         </childnode>
         <childnode refid="533" relation="include">
         </childnode>
         <childnode refid="61" relation="include">
         </childnode>
-        <childnode refid="593" relation="include">
+        <childnode refid="594" relation="include">
         </childnode>
         <childnode refid="564" relation="include">
         </childnode>
-        <childnode refid="594" relation="include">
+        <childnode refid="595" relation="include">
         </childnode>
         <childnode refid="291" relation="include">
         </childnode>
         <childnode refid="292" relation="include">
         </childnode>
-        <childnode refid="595" relation="include">
+        <childnode refid="596" relation="include">
         </childnode>
         <childnode refid="175" relation="include">
         </childnode>
-        <childnode refid="596" relation="include">
-        </childnode>
         <childnode refid="597" relation="include">
+        </childnode>
+        <childnode refid="598" relation="include">
         </childnode>
         <childnode refid="377" relation="include">
         </childnode>
@@ -2939,7 +2942,7 @@
         </childnode>
         <childnode refid="142" relation="include">
         </childnode>
-        <childnode refid="620" relation="include">
+        <childnode refid="621" relation="include">
         </childnode>
       </node>
       <node id="208">
@@ -4918,7 +4921,7 @@
         <label>MRViewer/MRDirectionWidget.h</label>
         <link refid="MRDirectionWidget_8h"/>
       </node>
-      <node id="598">
+      <node id="599">
         <label>MRViewer/MRDragDropHandler.h</label>
         <link refid="MRDragDropHandler_8h"/>
       </node>
@@ -4938,7 +4941,7 @@
         <label>MRViewer/MRFileDialogPortal.h</label>
         <link refid="MRFileDialogPortal_8h"/>
       </node>
-      <node id="599">
+      <node id="600">
         <label>MRViewer/MRFileLoadOptions.h</label>
         <link refid="MRFileLoadOptions_8h"/>
       </node>
@@ -4948,7 +4951,7 @@
         <childnode refid="130" relation="include">
         </childnode>
       </node>
-      <node id="600">
+      <node id="601">
         <label>MRViewer/MRFrameCounter.h</label>
         <link refid="MRFrameCounter_8h"/>
       </node>
@@ -4968,7 +4971,7 @@
         <childnode refid="166" relation="include">
         </childnode>
       </node>
-      <node id="601">
+      <node id="602">
         <label>MRViewer/MRGetSystemInfoJson.h</label>
         <link refid="MRGetSystemInfoJson_8h"/>
       </node>
@@ -4987,9 +4990,13 @@
         </childnode>
       </node>
       <node id="585">
+        <label>MRViewer/MRI18n.h</label>
+        <link refid="MRI18n_8h"/>
+      </node>
+      <node id="586">
         <label>MRViewer/MRISceneStateCheck.h</label>
         <link refid="MRISceneStateCheck_8h"/>
-        <childnode refid="586" relation="include">
+        <childnode refid="587" relation="include">
         </childnode>
         <childnode refid="117" relation="include">
         </childnode>
@@ -5000,7 +5007,7 @@
         <childnode refid="133" relation="include">
         </childnode>
       </node>
-      <node id="602">
+      <node id="603">
         <label>MRViewer/MRImGuiMeasurementIndicators.h</label>
         <link refid="MRImGuiMeasurementIndicators_8h"/>
         <childnode refid="544" relation="include">
@@ -5016,7 +5023,7 @@
         <childnode refid="127" relation="include">
         </childnode>
       </node>
-      <node id="589">
+      <node id="590">
         <label>MRViewer/MRImGuiMultiViewport.h</label>
         <link refid="MRImGuiMultiViewport_8h"/>
       </node>
@@ -5024,7 +5031,7 @@
         <label>MRViewer/MRItemEnabledPerViewport.h</label>
         <link refid="MRItemEnabledPerViewport_8h"/>
       </node>
-      <node id="587">
+      <node id="588">
         <label>MRViewer/MRLambdaRibbonItem.h</label>
         <link refid="MRLambdaRibbonItem_8h"/>
       </node>
@@ -5054,11 +5061,11 @@
         <label>MRViewer/MRObjectImGuiLabel.h</label>
         <link refid="MRObjectImGuiLabel_8h"/>
       </node>
-      <node id="590">
+      <node id="591">
         <label>MRViewer/MRObjectMeshHistory.h</label>
         <link refid="MRObjectMeshHistory_8h"/>
       </node>
-      <node id="591">
+      <node id="592">
         <label>MRViewer/MRObjectPointsHistory.h</label>
         <link refid="MRObjectPointsHistory_8h"/>
       </node>
@@ -5092,7 +5099,7 @@
         <label>MRViewer/MRPointInAllSpaces.h</label>
         <link refid="MRPointInAllSpaces_8h"/>
       </node>
-      <node id="603">
+      <node id="604">
         <label>MRViewer/MRRecentFilesStore.h</label>
         <link refid="MRRecentFilesStore_8h"/>
       </node>
@@ -5164,7 +5171,7 @@
         <childnode refid="172" relation="include">
         </childnode>
       </node>
-      <node id="604">
+      <node id="605">
         <label>MRViewer/MRRenderImGui.h</label>
         <link refid="MRRenderImGui_8h"/>
       </node>
@@ -5204,7 +5211,7 @@
         <childnode refid="83" relation="include">
         </childnode>
       </node>
-      <node id="605">
+      <node id="606">
         <label>MRViewer/MRRenderToImage.h</label>
         <link refid="MRRenderToImage_8h"/>
       </node>
@@ -5218,7 +5225,7 @@
         <childnode refid="83" relation="include">
         </childnode>
       </node>
-      <node id="588">
+      <node id="589">
         <label>MRViewer/MRRibbonButtonDrawer.h</label>
         <link refid="MRRibbonButtonDrawer_8h"/>
         <childnode refid="128" relation="include">
@@ -5228,22 +5235,22 @@
         <label>MRViewer/MRRibbonConstants.h</label>
         <link refid="MRRibbonConstants_8h"/>
       </node>
-      <node id="607">
+      <node id="608">
         <label>MRViewer/MRRibbonFontHolder.h</label>
         <link refid="MRRibbonFontHolder_8h"/>
       </node>
-      <node id="606">
+      <node id="607">
         <label>MRViewer/MRRibbonFontManager.h</label>
         <link refid="MRRibbonFontManager_8h"/>
-        <childnode refid="607" relation="include">
+        <childnode refid="608" relation="include">
         </childnode>
         <childnode refid="128" relation="include">
         </childnode>
       </node>
-      <node id="608">
+      <node id="609">
         <label>MRViewer/MRRibbonIcons.h</label>
         <link refid="MRRibbonIcons_8h"/>
-        <childnode refid="588" relation="include">
+        <childnode refid="589" relation="include">
         </childnode>
       </node>
       <node id="290">
@@ -5254,7 +5261,7 @@
         <label>MRViewer/MRRibbonMenu.h</label>
         <link refid="MRRibbonMenu_8h"/>
       </node>
-      <node id="586">
+      <node id="587">
         <label>MRViewer/MRRibbonMenuItem.h</label>
         <link refid="MRRibbonMenuItem_8h"/>
         <childnode refid="576" relation="include">
@@ -5265,9 +5272,9 @@
         </childnode>
         <childnode refid="396" relation="include">
         </childnode>
-        <childnode refid="587" relation="include">
-        </childnode>
         <childnode refid="588" relation="include">
+        </childnode>
+        <childnode refid="589" relation="include">
         </childnode>
         <childnode refid="128" relation="include">
         </childnode>
@@ -5296,7 +5303,7 @@
         <childnode refid="533" relation="include">
         </childnode>
       </node>
-      <node id="592">
+      <node id="593">
         <label>MRViewer/MRRibbonSceneObjectsListDrawer.h</label>
         <link refid="MRRibbonSceneObjectsListDrawer_8h"/>
       </node>
@@ -5324,23 +5331,23 @@
         <label>MRViewer/MRSceneControlMenuItems.h</label>
         <link refid="MRViewer_2MRSceneControlMenuItems_8h"/>
       </node>
-      <node id="611">
+      <node id="612">
         <label>MRViewer/MRSceneObjectsListDrawer.h</label>
         <link refid="MRSceneObjectsListDrawer_8h"/>
-        <childnode refid="592" relation="include">
+        <childnode refid="593" relation="include">
         </childnode>
       </node>
-      <node id="609">
+      <node id="610">
         <label>MRViewer/MRSceneOperations.h</label>
         <link refid="MRSceneOperations_8h"/>
       </node>
-      <node id="610">
+      <node id="611">
         <label>MRViewer/MRSceneReorder.h</label>
         <link refid="MRSceneReorder_8h"/>
-        <childnode refid="611" relation="include">
+        <childnode refid="612" relation="include">
         </childnode>
       </node>
-      <node id="593">
+      <node id="594">
         <label>MRViewer/MRSceneSelectionChange.h</label>
         <link refid="MRSceneSelectionChange_8h"/>
         <childnode refid="118" relation="include">
@@ -5364,7 +5371,7 @@
         <label>MRViewer/MRSelectScreenLasso.h</label>
         <link refid="MRSelectScreenLasso_8h"/>
       </node>
-      <node id="612">
+      <node id="613">
         <label>MRViewer/MRSetupViewer.h</label>
         <link refid="MRSetupViewer_8h"/>
       </node>
@@ -5378,7 +5385,7 @@
         <label>MRViewer/MRShortcutManager.h</label>
         <link refid="MRShortcutManager_8h"/>
       </node>
-      <node id="613">
+      <node id="614">
         <label>MRViewer/MRShowModal.h</label>
         <link refid="MRShowModal_8h"/>
         <childnode refid="125" relation="include">
@@ -5394,7 +5401,7 @@
         <childnode refid="512" relation="include">
         </childnode>
       </node>
-      <node id="594">
+      <node id="595">
         <label>MRViewer/MRSpaceMouseHandler.h</label>
         <link refid="MRSpaceMouseHandler_8h"/>
         <childnode refid="512" relation="include">
@@ -5412,7 +5419,7 @@
         <childnode refid="121" relation="include">
         </childnode>
       </node>
-      <node id="614">
+      <node id="615">
         <label>MRViewer/MRSplashWindow.h</label>
         <link refid="MRSplashWindow_8h"/>
       </node>
@@ -5438,7 +5445,7 @@
         <childnode refid="121" relation="include">
         </childnode>
       </node>
-      <node id="615">
+      <node id="616">
         <label>MRViewer/MRStatePluginUpdate.h</label>
         <link refid="MRStatePluginUpdate_8h"/>
         <childnode refid="4" relation="include">
@@ -5464,7 +5471,7 @@
         <label>MRViewer/MRToolbar.h</label>
         <link refid="MRToolbar_8h"/>
       </node>
-      <node id="595">
+      <node id="596">
         <label>MRViewer/MRToolsLibrary.h</label>
         <link refid="MRToolsLibrary_8h"/>
       </node>
@@ -5476,7 +5483,7 @@
         <label>MRViewer/MRTouchpadController.h</label>
         <link refid="MRTouchpadController_8h"/>
       </node>
-      <node id="616">
+      <node id="617">
         <label>MRViewer/MRTouchpadParameters.h</label>
         <link refid="MRTouchpadParameters_8h"/>
         <childnode refid="131" relation="include">
@@ -5538,7 +5545,7 @@
         <childnode refid="132" relation="include">
         </childnode>
       </node>
-      <node id="596">
+      <node id="597">
         <label>MRViewer/MRViewerEventQueue.h</label>
         <link refid="MRViewerEventQueue_8h"/>
       </node>
@@ -5584,7 +5591,7 @@
         <childnode refid="131" relation="include">
         </childnode>
       </node>
-      <node id="597">
+      <node id="598">
         <label>MRViewer/MRViewerFwd.h</label>
         <link refid="MRViewerFwd_8h"/>
         <childnode refid="287" relation="include">
@@ -5593,21 +5600,21 @@
         </childnode>
         <childnode refid="167" relation="include">
         </childnode>
-        <childnode refid="598" relation="include">
-        </childnode>
         <childnode refid="599" relation="include">
-        </childnode>
-        <childnode refid="129" relation="include">
         </childnode>
         <childnode refid="600" relation="include">
         </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
         <childnode refid="601" relation="include">
+        </childnode>
+        <childnode refid="602" relation="include">
         </childnode>
         <childnode refid="395" relation="include">
         </childnode>
-        <childnode refid="585" relation="include">
+        <childnode refid="586" relation="include">
         </childnode>
-        <childnode refid="602" relation="include">
+        <childnode refid="603" relation="include">
         </childnode>
         <childnode refid="133" relation="include">
         </childnode>
@@ -5621,17 +5628,17 @@
         </childnode>
         <childnode refid="424" relation="include">
         </childnode>
-        <childnode refid="603" relation="include">
-        </childnode>
         <childnode refid="604" relation="include">
         </childnode>
         <childnode refid="605" relation="include">
         </childnode>
-        <childnode refid="172" relation="include">
-        </childnode>
         <childnode refid="606" relation="include">
         </childnode>
-        <childnode refid="608" relation="include">
+        <childnode refid="172" relation="include">
+        </childnode>
+        <childnode refid="607" relation="include">
+        </childnode>
+        <childnode refid="609" relation="include">
         </childnode>
         <childnode refid="534" relation="include">
         </childnode>
@@ -5639,43 +5646,43 @@
         </childnode>
         <childnode refid="533" relation="include">
         </childnode>
-        <childnode refid="609" relation="include">
-        </childnode>
         <childnode refid="610" relation="include">
+        </childnode>
+        <childnode refid="611" relation="include">
         </childnode>
         <childnode refid="545" relation="include">
         </childnode>
-        <childnode refid="612" relation="include">
+        <childnode refid="613" relation="include">
         </childnode>
         <childnode refid="174" relation="include">
         </childnode>
         <childnode refid="567" relation="include">
         </childnode>
-        <childnode refid="613" relation="include">
+        <childnode refid="614" relation="include">
         </childnode>
         <childnode refid="563" relation="include">
         </childnode>
-        <childnode refid="614" relation="include">
-        </childnode>
         <childnode refid="615" relation="include">
+        </childnode>
+        <childnode refid="616" relation="include">
         </childnode>
         <childnode refid="266" relation="include">
         </childnode>
         <childnode refid="200" relation="include">
         </childnode>
-        <childnode refid="616" relation="include">
+        <childnode refid="617" relation="include">
         </childnode>
-        <childnode refid="596" relation="include">
+        <childnode refid="597" relation="include">
         </childnode>
         <childnode refid="565" relation="include">
         </childnode>
         <childnode refid="579" relation="include">
         </childnode>
-        <childnode refid="617" relation="include">
+        <childnode refid="618" relation="include">
         </childnode>
         <childnode refid="121" relation="include">
         </childnode>
-        <childnode refid="618" relation="include">
+        <childnode refid="619" relation="include">
         </childnode>
         <childnode refid="437" relation="include">
         </childnode>
@@ -5683,7 +5690,7 @@
         </childnode>
         <childnode refid="95" relation="include">
         </childnode>
-        <childnode refid="619" relation="include">
+        <childnode refid="620" relation="include">
         </childnode>
       </node>
       <node id="579">
@@ -5706,7 +5713,7 @@
         <childnode refid="118" relation="include">
         </childnode>
       </node>
-      <node id="617">
+      <node id="618">
         <label>MRViewer/MRViewerSettingsManager.h</label>
         <link refid="MRViewerSettingsManager_8h"/>
       </node>
@@ -5714,7 +5721,7 @@
         <label>MRViewer/MRViewerSettingsPlugin.h</label>
         <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
-      <node id="618">
+      <node id="619">
         <label>MRViewer/MRViewerTitle.h</label>
         <link refid="MRViewerTitle_8h"/>
       </node>
@@ -5758,7 +5765,7 @@
         <label>MRViewer/MRWebRequest.h</label>
         <link refid="MRWebRequest_8h"/>
       </node>
-      <node id="619">
+      <node id="620">
         <label>MRViewer/MRWebResponseCallback.h</label>
         <link refid="MRWebResponseCallback_8h"/>
         <childnode refid="377" relation="include">
@@ -5780,7 +5787,7 @@
         <label>MRVoxels/MRChangeVoxelsAction.h</label>
         <link refid="MRChangeVoxelsAction_8h"/>
       </node>
-      <node id="621">
+      <node id="622">
         <label>MRVoxels/MRComputeVolume.h</label>
         <link refid="MRComputeVolume_8h"/>
       </node>
@@ -5822,7 +5829,7 @@
         <childnode refid="149" relation="include">
         </childnode>
       </node>
-      <node id="622">
+      <node id="623">
         <label>MRVoxels/MRFloatGridComponents.h</label>
         <link refid="MRFloatGridComponents_8h"/>
       </node>
@@ -5884,7 +5891,7 @@
         <label>MRVoxels/MRRebuildMesh.h</label>
         <link refid="MRRebuildMesh_8h"/>
       </node>
-      <node id="623">
+      <node id="624">
         <label>MRVoxels/MRScalarConvert.h</label>
         <link refid="MRScalarConvert_8h"/>
         <childnode refid="39" relation="include">
@@ -5948,7 +5955,7 @@
         <label>MRVoxels/MRVolumeSegment.h</label>
         <link refid="MRVolumeSegment_8h"/>
       </node>
-      <node id="624">
+      <node id="625">
         <label>MRVoxels/MRVoxelFilter.h</label>
         <link refid="MRVoxelFilter_8h"/>
       </node>
@@ -5972,7 +5979,7 @@
         <label>MRVoxels/MRVoxelsConversionsByParts.h</label>
         <link refid="MRVoxelsConversionsByParts_8h"/>
       </node>
-      <node id="620">
+      <node id="621">
         <label>MRVoxels/MRVoxelsFwd.h</label>
         <link refid="MRVoxelsFwd_8h"/>
         <childnode refid="3" relation="include">
@@ -5989,7 +5996,7 @@
         </childnode>
         <childnode refid="106" relation="include">
         </childnode>
-        <childnode refid="621" relation="include">
+        <childnode refid="622" relation="include">
         </childnode>
         <childnode refid="151" relation="include">
         </childnode>
@@ -5999,7 +6006,7 @@
         </childnode>
         <childnode refid="501" relation="include">
         </childnode>
-        <childnode refid="622" relation="include">
+        <childnode refid="623" relation="include">
         </childnode>
         <childnode refid="152" relation="include">
         </childnode>
@@ -6021,7 +6028,7 @@
         </childnode>
         <childnode refid="328" relation="include">
         </childnode>
-        <childnode refid="623" relation="include">
+        <childnode refid="624" relation="include">
         </childnode>
         <childnode refid="568" relation="include">
         </childnode>
@@ -6041,7 +6048,7 @@
         </childnode>
         <childnode refid="156" relation="include">
         </childnode>
-        <childnode refid="624" relation="include">
+        <childnode refid="625" relation="include">
         </childnode>
         <childnode refid="381" relation="include">
         </childnode>
@@ -6172,7 +6179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="821" column="29" bodyfile="MRMesh/MRMeshFwd.h" bodystart="821" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="819" column="29" bodyfile="MRMesh/MRMeshFwd.h" bodystart="819" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRMeshFwd_8h_1adf3c82902530739f161963e298ca8dc0" prot="public" static="no">
         <name>MR_UNREACHABLE_NO_RETURN</name>
@@ -6183,7 +6190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="822" column="16" bodyfile="MRMesh/MRMeshFwd.h" bodystart="822" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="820" column="16" bodyfile="MRMesh/MRMeshFwd.h" bodystart="820" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRMeshFwd_8h_1a9ffd0813b79cbb98d3f71fa5adb2a408" prot="public" static="no">
         <name>_t</name>
@@ -6195,7 +6202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="827" column="9" bodyfile="MRMesh/MRMeshFwd.h" bodystart="827" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="825" column="9" bodyfile="MRMesh/MRMeshFwd.h" bodystart="825" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -6933,32 +6940,30 @@
 <codeline lineno="799"><highlight class="normal"></highlight></codeline>
 <codeline lineno="801" refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kindref="member">translate_noop</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str;<sp/>}</highlight></codeline>
 <codeline lineno="802" refid="group__GeneralGroup_1ga022f7ba55e1f7b995ca4ec47fe14bbbd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kindref="member">translate_noop</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>ctx,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/>(void)ctx;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str;<sp/>}</highlight></codeline>
-<codeline lineno="803"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__CUDACC__</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="804" refid="group__GeneralGroup_1gaf18c487e1793e1813abf88762fc2440f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kindref="member">translate_noop</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>single,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>plural,<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>n<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>n<sp/>==<sp/></highlight><highlight class="keyword">decltype</highlight><highlight class="normal">(<sp/>n<sp/>)(<sp/>1<sp/>)<sp/>?<sp/>single<sp/>:<sp/>plural;<sp/>}</highlight></codeline>
-<codeline lineno="805" refid="group__GeneralGroup_1ga702adcf0c18d25b2b75eace23b6aa032" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kindref="member">translate_noop</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>ctx,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>single,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>plural,<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>n<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/>(void)ctx;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>n<sp/>==<sp/></highlight><highlight class="keyword">decltype</highlight><highlight class="normal">(<sp/>n<sp/>)(<sp/>1<sp/>)<sp/>?<sp/>single<sp/>:<sp/>plural;<sp/>}</highlight></codeline>
-<codeline lineno="806"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="803" refid="group__GeneralGroup_1ga58d357faefc457685d44349ecf1db539" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kindref="member">translate_noop</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>single,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>plural,<sp/><ref refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kindref="member">Int64</ref><sp/>n<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>n<sp/>==<sp/>1<sp/>?<sp/>single<sp/>:<sp/>plural;<sp/>}</highlight></codeline>
+<codeline lineno="804" refid="group__GeneralGroup_1ga08fd05e62fb11a0f42dd91e5095d72e2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kindref="member">translate_noop</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>ctx,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>single,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>plural,<sp/><ref refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kindref="member">Int64</ref><sp/>n<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/>(void)ctx;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>n<sp/>==<sp/>1<sp/>?<sp/>single<sp/>:<sp/>plural;<sp/>}</highlight></codeline>
+<codeline lineno="805"><highlight class="normal"></highlight></codeline>
+<codeline lineno="806"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="807"><highlight class="normal"></highlight></codeline>
 <codeline lineno="808"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="809"><highlight class="normal"></highlight></codeline>
-<codeline lineno="810"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="811"><highlight class="normal"></highlight></codeline>
-<codeline lineno="812"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cpp_lib_unreachable</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="813"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>MR_UNREACHABLE<sp/>std::unreachable();</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="814"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>MR_UNREACHABLE_NO_RETURN<sp/>std::unreachable();</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="815"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="816"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>ifdef<sp/>__GNUC__</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="817"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MR_UNREACHABLE<sp/>__builtin_unreachable();</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="818"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MR_UNREACHABLE_NO_RETURN<sp/>__builtin_unreachable();</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="819"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="820"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>include<sp/>&lt;cassert&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="821" refid="MRMeshFwd_8h_1aaa2c9e5a899e212852b81dbb084d081c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MR_UNREACHABLE<sp/>{<sp/>assert(<sp/>false<sp/>);<sp/>return<sp/>{};<sp/>}</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="822" refid="MRMeshFwd_8h_1adf3c82902530739f161963e298ca8dc0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MR_UNREACHABLE_NO_RETURN<sp/>assert(<sp/>false<sp/>);</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="823"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="824"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="825"><highlight class="normal"></highlight></codeline>
-<codeline lineno="826"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MR_NO_I18N_MACROS</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="827" refid="MRMeshFwd_8h_1a9ffd0813b79cbb98d3f71fa5adb2a408" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_t(<sp/>...<sp/>)<sp/>MR::Locale::translate_noop(<sp/>__VA_ARGS__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="828"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="810"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cpp_lib_unreachable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="811"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>MR_UNREACHABLE<sp/>std::unreachable();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="812"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>MR_UNREACHABLE_NO_RETURN<sp/>std::unreachable();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="813"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="814"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>ifdef<sp/>__GNUC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="815"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MR_UNREACHABLE<sp/>__builtin_unreachable();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="816"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MR_UNREACHABLE_NO_RETURN<sp/>__builtin_unreachable();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="817"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="818"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>include<sp/>&lt;cassert&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="819" refid="MRMeshFwd_8h_1aaa2c9e5a899e212852b81dbb084d081c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MR_UNREACHABLE<sp/>{<sp/>assert(<sp/>false<sp/>);<sp/>return<sp/>{};<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="820" refid="MRMeshFwd_8h_1adf3c82902530739f161963e298ca8dc0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MR_UNREACHABLE_NO_RETURN<sp/>assert(<sp/>false<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="821"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="822"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="823"><highlight class="normal"></highlight></codeline>
+<codeline lineno="824"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MR_NO_I18N_MACROS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="825" refid="MRMeshFwd_8h_1a9ffd0813b79cbb98d3f71fa5adb2a408" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_t(<sp/>...<sp/>)<sp/>MR::Locale::translate_noop(<sp/>__VA_ARGS__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="826"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRMeshFwd.h"/>
   </compounddef>

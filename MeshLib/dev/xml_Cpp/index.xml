@@ -15784,20 +15784,21 @@
   <compound refid="namespaceMR_1_1Locale" kind="namespace"><name>MR::Locale</name>
     <member refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kind="function"><name>translate_noop</name></member>
     <member refid="group__GeneralGroup_1ga022f7ba55e1f7b995ca4ec47fe14bbbd" kind="function"><name>translate_noop</name></member>
-    <member refid="group__GeneralGroup_1gaf18c487e1793e1813abf88762fc2440f" kind="function"><name>translate_noop</name></member>
-    <member refid="group__GeneralGroup_1ga702adcf0c18d25b2b75eace23b6aa032" kind="function"><name>translate_noop</name></member>
+    <member refid="group__GeneralGroup_1ga58d357faefc457685d44349ecf1db539" kind="function"><name>translate_noop</name></member>
+    <member refid="group__GeneralGroup_1ga08fd05e62fb11a0f42dd91e5095d72e2" kind="function"><name>translate_noop</name></member>
+    <member refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kind="function"><name>translate</name></member>
+    <member refid="namespaceMR_1_1Locale_1a807b4f903a9a114f9115a41e14d45f61" kind="function"><name>translate</name></member>
+    <member refid="namespaceMR_1_1Locale_1a16cad98007443a93cf1be4f3b53bddeb" kind="function"><name>translate</name></member>
+    <member refid="namespaceMR_1_1Locale_1a2ef721b59151f775fafc0b7bc3e58124" kind="function"><name>translate</name></member>
     <member refid="namespaceMR_1_1Locale_1ac59a56d895488411e12e18eda9077a20" kind="function"><name>get</name></member>
     <member refid="namespaceMR_1_1Locale_1a3fde71105ef842bfaaf870498be9222d" kind="function"><name>getName</name></member>
     <member refid="namespaceMR_1_1Locale_1aa3caed4adf5ab7e7489b6c3cc97040a4" kind="function"><name>set</name></member>
     <member refid="namespaceMR_1_1Locale_1a56715982039eac569ef53b82b086b1e3" kind="function"><name>getAvailableLocales</name></member>
     <member refid="namespaceMR_1_1Locale_1a2b32ebd2b8467813962ef412cc56a1f3" kind="function"><name>addCatalogPath</name></member>
-    <member refid="namespaceMR_1_1Locale_1a2e81b598eb5d6aeb48f551d370244c6e" kind="function"><name>addDomain</name></member>
+    <member refid="namespaceMR_1_1Locale_1a2874347c63d49c868fb6c5e8e86fd07f" kind="function"><name>addDomain</name></member>
+    <member refid="namespaceMR_1_1Locale_1a74cb3cfc68c30759be2deee569d04b69" kind="function"><name>findDomain</name></member>
     <member refid="namespaceMR_1_1Locale_1a8d1947c7d967dbc42a857466e79550e7" kind="function"><name>getDisplayName</name></member>
     <member refid="namespaceMR_1_1Locale_1a1a90862fe2d6cda7d213d3683715e1cc" kind="function"><name>setDisplayName</name></member>
-    <member refid="namespaceMR_1_1Locale_1ad107934ee7a79c06562767bbd0febdf5" kind="function"><name>translate</name></member>
-    <member refid="namespaceMR_1_1Locale_1ae500dd863fc501d756968174206e9076" kind="function"><name>translate</name></member>
-    <member refid="namespaceMR_1_1Locale_1a135a714215bdfafe98ba07654d565c34" kind="function"><name>translate</name></member>
-    <member refid="namespaceMR_1_1Locale_1aef611924629d0042096b70abcde22d15" kind="function"><name>translate</name></member>
   </compound>
   <compound refid="namespaceMR_1_1MeshBuilder" kind="namespace"><name>MR::MeshBuilder</name>
     <member refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kind="function"><name>fromTriangles</name></member>
@@ -17532,6 +17533,10 @@
   </compound>
   <compound refid="MRHistoryStore_8h" kind="file"><name>MRHistoryStore.h</name>
   </compound>
+  <compound refid="MRI18n_8h" kind="file"><name>MRI18n.h</name>
+    <member refid="MRI18n_8h_1adc6632164911ac0de8387a9b13de000e" kind="define"><name>_tr</name></member>
+    <member refid="MRI18n_8h_1a33873d54d36dc3bf7a6a77bf40461701" kind="define"><name>f_tr</name></member>
+  </compound>
   <compound refid="MRImGui_8h" kind="file"><name>MRImGui.h</name>
   </compound>
   <compound refid="MRImGuiImage_8h" kind="file"><name>MRImGuiImage.h</name>
@@ -17565,8 +17570,6 @@
   <compound refid="MRLinesShader_8h" kind="file"><name>MRLinesShader.h</name>
   </compound>
   <compound refid="MRLocale_8h" kind="file"><name>MRLocale.h</name>
-    <member refid="MRLocale_8h_1adc6632164911ac0de8387a9b13de000e" kind="define"><name>_tr</name></member>
-    <member refid="MRLocale_8h_1a33873d54d36dc3bf7a6a77bf40461701" kind="define"><name>f_tr</name></member>
   </compound>
   <compound refid="MRMacOSOpenDocumentsHandler_8h" kind="file"><name>MRMacOSOpenDocumentsHandler.h</name>
   </compound>
@@ -25864,8 +25867,8 @@
     <member refid="group__GeneralGroup_1ga80e6b953fc44378e5898ba71b21f216a" kind="function"><name>overloaded</name></member>
     <member refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kind="function"><name>translate_noop</name></member>
     <member refid="group__GeneralGroup_1ga022f7ba55e1f7b995ca4ec47fe14bbbd" kind="function"><name>translate_noop</name></member>
-    <member refid="group__GeneralGroup_1gaf18c487e1793e1813abf88762fc2440f" kind="function"><name>translate_noop</name></member>
-    <member refid="group__GeneralGroup_1ga702adcf0c18d25b2b75eace23b6aa032" kind="function"><name>translate_noop</name></member>
+    <member refid="group__GeneralGroup_1ga58d357faefc457685d44349ecf1db539" kind="function"><name>translate_noop</name></member>
+    <member refid="group__GeneralGroup_1ga08fd05e62fb11a0f42dd91e5095d72e2" kind="function"><name>translate_noop</name></member>
     <member refid="group__GeneralGroup_1gaa2a7fba3a600699de880615c69671718" kind="function"><name>orgPnt</name></member>
     <member refid="group__GeneralGroup_1ga5cdd8fe5835da1eaf2a4f623c04f00a9" kind="function"><name>destPnt</name></member>
     <member refid="group__GeneralGroup_1ga2ecd5552b4907aa1e0a475427a4cef98" kind="function"><name>edgeVector</name></member>

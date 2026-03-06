@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"classMR_1_1RegisterRenderObjectConstructor.html":[6,0,0,20,287],
+"classMR_1_1RegularMapMesher.html":[6,0,0,12,3],
 "classMR_1_1RegularMapMesher.html":[6,0,0,20,449],
 "classMR_1_1RenderAngleObject.html":[6,0,0,20,625],
 "classMR_1_1RenderBufferRef.html":[6,0,0,20,617],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "classMR_1_1SharedThreadSafeOwner.html#af781cea7ad567dc1ea28536e7fe7e8c4":[6,0,0,1,36,5],
 "classMR_1_1SharedThreadSafeOwner.html#af781cea7ad567dc1ea28536e7fe7e8c4":[6,0,0,20,330,5],
 "classMR_1_1SharedThreadSafeOwner.html#afb6703f5f77fcaa4a5e4e9711b6a8da3":[6,0,0,1,36,8],
-"classMR_1_1SharedThreadSafeOwner.html#afb6703f5f77fcaa4a5e4e9711b6a8da3":[6,0,0,20,330,8],
-"classMR_1_1ShiftTransformer.html":[6,0,0,20,820],
-"classMR_1_1ShortcutManager.html":[6,0,0,20,688]
+"classMR_1_1SharedThreadSafeOwner.html#afb6703f5f77fcaa4a5e4e9711b6a8da3":[6,0,0,20,330,8]
 };

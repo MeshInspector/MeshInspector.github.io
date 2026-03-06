@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1Nesting_1_1BoxNestingOptions.html#a5d53886ff20ba37616b8cee174fb4dbc":[6,3,0,0,0,558,1,7],
+"classMR_1_1Nesting_1_1BoxNestingOptions.html#a6548f3763236112a9e82c1917152023d":[6,3,0,0,0,558,1,9],
 "classMR_1_1Nesting_1_1BoxNestingOptions.html#a6f76ff18661c3e111968f2ce9d126b41":[6,3,0,0,0,558,1,2],
 "classMR_1_1Nesting_1_1BoxNestingOptions.html#a72382f41b83b7fd3cde31f6984f65c8e":[6,3,0,0,0,558,1,5],
 "classMR_1_1Nesting_1_1BoxNestingOptions.html#a88ffd14ac154e53db99df2352e8a9f9f":[6,3,0,0,0,558,1,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1NoDefInit__MRObjId.html":[6,3,0,0,0,584],
 "classMR_1_1NoDefInit__MRObjId.html#a0626ec9090eb1e70f54716e37c439077":[6,3,0,0,0,584,0],
 "classMR_1_1NoDefInit__MRObjId.html#a15d9e904e5a2708977e35f94cf2c1423":[6,3,0,0,0,584,2],
-"classMR_1_1NoDefInit__MRObjId.html#a492264678cede4f5960475df49c860c8":[6,3,0,0,0,584,8],
-"classMR_1_1NoDefInit__MRObjId.html#a604bd78af69d47856bbab303568439ce":[6,3,0,0,0,584,5],
-"classMR_1_1NoDefInit__MRObjId.html#a63d0e38d442e6e5e39a5a678a1fc54c9":[6,3,0,0,0,584,6]
+"classMR_1_1NoDefInit__MRObjId.html#a492264678cede4f5960475df49c860c8":[6,3,0,0,0,584,8]
 };

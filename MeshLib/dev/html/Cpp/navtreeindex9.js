@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"classMR_1_1Object.html#a379568377624da7413adaabeac8222d2":[6,0,0,11,4,81],
+"classMR_1_1Object.html#a3a68f754bb677c34f6275a6fcbc332ee":[6,0,0,11,4,10],
 "classMR_1_1Object.html#a3d0d34710d4460c82c6e1a0b641b49ca":[6,0,0,11,4,17],
 "classMR_1_1Object.html#a3d6d27065a13a0a262df4b74ff82e538":[6,0,0,11,4,90],
 "classMR_1_1Object.html#a3dcf68a5faec85e8e753e34ab77eb1b9":[6,0,0,11,4,42],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "classMR_1_1RectIndexer.html#ab4a6c53f72e0260996768505672d9052":[6,0,0,5,8,13],
 "classMR_1_1RectIndexer.html#abd5035619b34370c067840c03ffb5b82":[6,0,0,5,8,8],
 "classMR_1_1RectIndexer.html#af3cae594fa09e2f9517846460b7ab08a":[6,0,0,5,8,14],
-"classMR_1_1RedoMenuItem.html":[6,0,0,20,666],
-"classMR_1_1RegisterRenderObjectConstructor.html":[6,0,0,20,287],
-"classMR_1_1RegularMapMesher.html":[6,0,0,12,3]
+"classMR_1_1RedoMenuItem.html":[6,0,0,20,666]
 };

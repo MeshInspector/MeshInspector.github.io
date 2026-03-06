@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['f_5ftr_0',['f_tr',['../MRLocale_8h.html#a33873d54d36dc3bf7a6a77bf40461701',1,'MRLocale.h']]],
+  ['f_5ftr_0',['f_tr',['../MRI18n_8h.html#a33873d54d36dc3bf7a6a77bf40461701',1,'MRI18n.h']]],
   ['enqueue_5fviewer_5fmethod_0',['ENQUEUE_VIEWER_METHOD',['../MRViewer_8h.html#ab5148a6d21d216f28a3c1da0055472db',1,'MRViewer.h']]],
   ['enqueue_5fviewer_5fmethod_5fargs_1',['ENQUEUE_VIEWER_METHOD_ARGS',['../MRViewer_8h.html#a1a1151cfe48505fed9bdf9d94af7cbde',1,'MRViewer.h']]],
   ['enqueue_5fviewer_5fmethod_5fargs_5fskipable_2',['ENQUEUE_VIEWER_METHOD_ARGS_SKIPABLE',['../MRViewer_8h.html#a47bc3da84c367214966eb167e5d2a70d',1,'MRViewer.h']]],
   ['_5fmr_5fpython_5fcustom_5fclass_5fholder_5fname_0',['_MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME',['../MRPython_8h.html#a0a63eac4962f01ac9d1067840d25fe13',1,'MRPython.h']]],
   ['_5ft_1',['_t',['../MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408',1,'MRMeshFwd.h']]],
-  ['_5ftr_2',['_tr',['../MRLocale_8h.html#adc6632164911ac0de8387a9b13de000e',1,'MRLocale.h']]],
+  ['_5ftr_2',['_tr',['../MRI18n_8h.html#adc6632164911ac0de8387a9b13de000e',1,'MRI18n.h']]],
   ['imath_5fhalf_5fno_5flookup_5ftable_0',['IMATH_HALF_NO_LOOKUP_TABLE',['../MROpenVDB_8h.html#a78e9d88a54bcf343ebdece9711e6bf70',1,'MROpenVDB.h']]],
   ['gl_5fexec_0',['GL_EXEC',['../MRGLMacro_8h.html#ab4347896d8853c18f862de0996dd70e7',1,'MRGLMacro.h']]],
   ['m_0',['M',['../MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9',1,'MRScalarConvert.h']]],

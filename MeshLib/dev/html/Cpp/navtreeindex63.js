@@ -1,5 +1,8 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1PackMapping.html":[6,0,0,20,128],
+"structMR_1_1Palette_1_1Label.html":[6,0,0,20,586],
+"structMR_1_1Palette_1_1Parameters.html":[6,0,0,20,587],
 "structMR_1_1Parabola.html":[6,0,0,20,398],
 "structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html":[6,0,0,20,405],
 "structMR_1_1ParallelProgressReporter_1_1TaskInfo.html":[6,0,0,20,404],
@@ -246,8 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1RibbonConfig.html":[6,0,0,20,637],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,0,20,643],
 "structMR_1_1RibbonMenuUIConfig.html":[6,0,0,20,644],
-"structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,0,20,640],
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,0,20,639],
-"structMR_1_1RibbonNotification.html":[6,0,0,20,646],
-"structMR_1_1RibbonSchema.html":[6,0,0,20,655]
+"structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,0,20,640]
 };
