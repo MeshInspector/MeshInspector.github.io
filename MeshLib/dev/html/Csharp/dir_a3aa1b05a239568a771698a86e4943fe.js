@@ -356,6 +356,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRVector2.cs", "MRVector2_8cs.html", "MRVector2_8cs" ],
     [ "MRVector3.cs", "MRVector3_8cs.html", "MRVector3_8cs" ],
     [ "MRVector4.cs", "MRVector4_8cs.html", "MRVector4_8cs" ],
+    [ "MRVersatileChangeMeshAction.cs", "MRVersatileChangeMeshAction_8cs.html", "MRVersatileChangeMeshAction_8cs" ],
     [ "MRVertCoordsDiff.cs", "MRVertCoordsDiff_8cs.html", "MRVertCoordsDiff_8cs" ],
     [ "MRViewportId.cs", "MRViewportId_8cs.html", "MRViewportId_8cs" ],
     [ "MRViewportProperty.cs", "MRViewportProperty_8cs.html", "MRViewportProperty_8cs" ],

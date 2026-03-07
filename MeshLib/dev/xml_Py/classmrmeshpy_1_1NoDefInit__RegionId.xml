@@ -139,7 +139,7 @@
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::NoDefInit&lt;MR::RegionId&gt;
-Aliases:  Buffer_RegionId_RegionId.iterator, Buffer_RegionId_RegionId.const_reference, Buffer_RegionId_RegionId.const_iterator, Buffer_RegionId_RegionId.reference, NoCtor_RegionId.type, Buffer_RegionId_RegionId.T
+Aliases:  Buffer_RegionId_RegionId.iterator, Buffer_RegionId_RegionId.T, Buffer_RegionId_RegionId.const_reference, Buffer_RegionId_RegionId.const_iterator, Buffer_RegionId_RegionId.reference, NoCtor_RegionId.type
 
 this class is similar to T, but does not make default initialization of the fields for best performance
 </verbatim> </para>

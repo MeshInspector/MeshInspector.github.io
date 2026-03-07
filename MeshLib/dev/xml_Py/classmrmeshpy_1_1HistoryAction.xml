@@ -47,6 +47,7 @@
     <derivedcompoundref refid="classmrmeshpy_1_1PartialChangeMeshDataAction" prot="public" virt="non-virtual">mrmeshpy.PartialChangeMeshDataAction</derivedcompoundref>
     <derivedcompoundref refid="classmrmeshpy_1_1PartialChangeMeshPointsAction" prot="public" virt="non-virtual">mrmeshpy.PartialChangeMeshPointsAction</derivedcompoundref>
     <derivedcompoundref refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction" prot="public" virt="non-virtual">mrmeshpy.PartialChangeMeshTopologyAction</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction" prot="public" virt="non-virtual">mrmeshpy.VersatileChangeMeshPointsAction</derivedcompoundref>
     <innerclass refid="classmrmeshpy_1_1HistoryAction_1_1Type" prot="public">mrmeshpy::HistoryAction::Type</innerclass>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -212,6 +213,7 @@
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshDataAction_1a96a9c87af286f280df260484be753562">action</reimplementedby>
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshPointsAction_1ab2af275f0bae3f91a9c44e5bda514e92">action</reimplementedby>
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a03611df60e306bfee439e1a599ad5b74">action</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1afa6b1acd832a65a255b788333794629e">action</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -281,6 +283,7 @@
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshDataAction_1a7cc32cb545443063b619a3745d3f1457">heapBytes</reimplementedby>
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshPointsAction_1a08e812dd11f4f67f1e7a492eeb6d3b97">heapBytes</reimplementedby>
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a5ca8f2dc6b797886452a9cf2aa18efd7">heapBytes</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1adccae973b664ae2bf9c81a167969a4dc">heapBytes</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -346,6 +349,7 @@
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshDataAction_1a6922013aca4dd8eeb7f162ea00e40829">name</reimplementedby>
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshPointsAction_1ae32cd6cc0f2fde9760c71e45ddfd0ef9">name</reimplementedby>
         <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a3e846d4d4cd0540d260d8c5577dee9ab">name</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1abfe1b14bb1956027f118479435698966">name</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -639,6 +643,12 @@ Abstract class for history actions
       <node id="46">
         <label>mrmeshpy.PartialChangeMeshTopologyAction</label>
         <link refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>mrmeshpy.VersatileChangeMeshPointsAction</label>
+        <link refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>

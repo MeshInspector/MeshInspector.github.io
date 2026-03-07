@@ -229,8 +229,10 @@ var NAVTREEINDEX5 =
 "MRVector4_8h_source.html":[6,0,3,0,5,417],
 "MRVector_8h.html":[6,0,3,0,5,414],
 "MRVector_8h_source.html":[6,0,3,0,5,414],
-"MRVertCoordsDiff_8h.html":[6,0,3,0,5,419],
-"MRVertCoordsDiff_8h_source.html":[6,0,3,0,5,419],
+"MRVersatileChangeMeshAction_8h.html":[6,0,3,0,5,419],
+"MRVersatileChangeMeshAction_8h_source.html":[6,0,3,0,5,419],
+"MRVertCoordsDiff_8h.html":[6,0,3,0,5,420],
+"MRVertCoordsDiff_8h_source.html":[6,0,3,0,5,420],
 "MRViewerConfigConstants_8h.html":[6,0,3,0,9,151],
 "MRViewerConfigConstants_8h_source.html":[6,0,3,0,9,151],
 "MRViewerEventQueue_8h.html":[6,0,3,0,9,152],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "MRViewerSettingsManager_8h_source.html":[6,0,3,0,9,157],
 "MRViewerSettingsPlugin_8h.html":[6,0,3,0,9,158],
 "MRViewerSettingsPlugin_8h_source.html":[6,0,3,0,9,158],
-"MRViewerSignals_8h.html":[6,0,3,0,9,159],
-"MRViewerSignals_8h_source.html":[6,0,3,0,9,159],
-"MRViewerTitle_8h.html":[6,0,3,0,9,160]
+"MRViewerSignals_8h.html":[6,0,3,0,9,159]
 };

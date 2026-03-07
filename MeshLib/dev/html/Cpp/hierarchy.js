@@ -527,6 +527,7 @@ var hierarchy =
       [ "MR::PartialChangeMeshTopologyAction", "classMR_1_1PartialChangeMeshTopologyAction.html", null ],
       [ "MR::PickPointManager::WidgetHistoryAction", "structMR_1_1PickPointManager_1_1WidgetHistoryAction.html", null ],
       [ "MR::SwapRootAction", "classMR_1_1SwapRootAction.html", null ],
+      [ "MR::VersatileChangeMeshPointsAction", "classMR_1_1VersatileChangeMeshPointsAction.html", null ],
       [ "MR::ViewportParametersAction", "classMR_1_1ViewportParametersAction.html", null ]
     ] ],
     [ "MR::HistoryStore", "classMR_1_1HistoryStore.html", null ],

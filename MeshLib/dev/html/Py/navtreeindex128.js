@@ -1,5 +1,17 @@
 var NAVTREEINDEX128 =
 {
+"classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double.html#adc695f76290a93303daef173ac3010f3":[6,1,0,0,2,326,7],
+"classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double.html#adc695f76290a93303daef173ac3010f3":[6,1,1,0,1,326,7],
+"classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double.html#ae7e336430fc9e6765a998fc60cac5680":[6,1,0,0,2,326,3],
+"classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double.html#ae7e336430fc9e6765a998fc60cac5680":[6,1,1,0,1,326,3],
+"classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double.html#afe3c7472f7b5674dd2e3a11310618246":[6,1,0,0,2,326,6],
+"classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double.html#afe3c7472f7b5674dd2e3a11310618246":[6,1,1,0,1,326,6],
+"classmrmeshpy_1_1func__Processing__from__EdgePoint__float__float__float.html":[6,1,0,0,2,327],
+"classmrmeshpy_1_1func__Processing__from__EdgePoint__float__float__float.html":[6,1,1,0,1,327],
+"classmrmeshpy_1_1func__Processing__from__EdgePoint__float__float__float.html#a13a2d8faac039d119363784c97271d8f":[6,1,0,0,2,327,2],
+"classmrmeshpy_1_1func__Processing__from__EdgePoint__float__float__float.html#a13a2d8faac039d119363784c97271d8f":[6,1,1,0,1,327,2],
+"classmrmeshpy_1_1func__Processing__from__EdgePoint__float__float__float.html#a20df56afa658e2beb15df28665cfd39f":[6,1,0,0,2,327,0],
+"classmrmeshpy_1_1func__Processing__from__EdgePoint__float__float__float.html#a20df56afa658e2beb15df28665cfd39f":[6,1,1,0,1,327,0],
 "classmrmeshpy_1_1func__Processing__from__EdgePoint__float__float__float.html#a3ff991b6e04823fb9e8a6a6f7a86b182":[6,1,0,0,2,327,3],
 "classmrmeshpy_1_1func__Processing__from__EdgePoint__float__float__float.html#a3ff991b6e04823fb9e8a6a6f7a86b182":[6,1,1,0,1,327,3],
 "classmrmeshpy_1_1func__Processing__from__EdgePoint__float__float__float.html#a721568ee139c5d91a32150026c326c52":[6,1,0,0,2,327,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX128 =
 "classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#a476ee599718402cd6110a0d0f2f887e6":[6,1,0,0,2,374,1],
 "classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#a476ee599718402cd6110a0d0f2f887e6":[6,1,1,0,1,374,1],
 "classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#a9da04879c065da2fb60d5d7a622f4a96":[6,1,0,0,2,374,4],
-"classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#a9da04879c065da2fb60d5d7a622f4a96":[6,1,1,0,1,374,4],
-"classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#aa26bb1964760db397e5d134d895ef0e2":[6,1,0,0,2,374,7],
-"classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#aa26bb1964760db397e5d134d895ef0e2":[6,1,1,0,1,374,7],
-"classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#ac09af0a372c7bc335b5f742c1622ea03":[6,1,0,0,2,374,6],
-"classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#ac09af0a372c7bc335b5f742c1622ea03":[6,1,1,0,1,374,6],
-"classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#ac9f00cf89ada9d5b18532f04319c4c64":[6,1,0,0,2,374,2],
-"classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#ac9f00cf89ada9d5b18532f04319c4c64":[6,1,1,0,1,374,2],
-"classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#ae47436ab2c9955cc2df7af8048412f61":[6,1,0,0,2,374,5],
-"classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#ae47436ab2c9955cc2df7af8048412f61":[6,1,1,0,1,374,5],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html":[6,1,0,0,2,294],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html":[6,1,1,0,1,294],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#a0fa87c3d17ad9d88574f74bb07ac8033":[6,1,0,0,2,294,7],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#a0fa87c3d17ad9d88574f74bb07ac8033":[6,1,1,0,1,294,7]
+"classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#a9da04879c065da2fb60d5d7a622f4a96":[6,1,1,0,1,374,4]
 };

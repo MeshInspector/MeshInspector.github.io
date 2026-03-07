@@ -2387,6 +2387,9 @@ var hierarchy =
       [ "MR.Const_Vector_UnsignedShort_MRVoxelId", null, [
         [ "MR.Vector_UnsignedShort_MRVoxelId", "classMR_1_1Vector__UnsignedShort__MRVoxelId.html", null ]
       ] ],
+      [ "MR.Const_VersatileChangeMeshPointsAction", null, [
+        [ "MR.VersatileChangeMeshPointsAction", "classMR_1_1VersatileChangeMeshPointsAction.html", null ]
+      ] ],
       [ "MR.Const_Vert2RegionMap", null, [
         [ "MR.Vert2RegionMap", "classMR_1_1Vert2RegionMap.html", null ]
       ] ],
@@ -4067,6 +4070,7 @@ var hierarchy =
       [ "MR.Const_Vector_StdVectorMRGraphEdgeId_MRGraphVertId", null, null ],
       [ "MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag", null, null ],
       [ "MR.Const_Vector_UnsignedShort_MRVoxelId", null, null ],
+      [ "MR.Const_VersatileChangeMeshPointsAction", null, null ],
       [ "MR.Const_Vert2RegionMap", null, null ],
       [ "MR.Const_VertBMap", null, null ],
       [ "MR.Const_VertBitSet", null, null ],

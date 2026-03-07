@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"classMR_1_1ConstantCuspParams.html#a49149680f75c85e851510c4447b43dfe":[6,3,0,0,0,214,6],
 "classMR_1_1ConstantCuspParams.html#a547d403e56749ed5e32c84a8f3c478f7":[6,3,0,0,0,214,25],
 "classMR_1_1ConstantCuspParams.html#a7dc5fb04c060b38a82b62e2b3fe659fb":[6,3,0,0,0,214,5],
 "classMR_1_1ConstantCuspParams.html#a82e5680e15cbe8caba145f99b13dfc71":[6,3,0,0,0,214,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "classMR_1_1DecimatePolylineResult.html#a47c127e3e1326913eebaa2e6618b30cb":[6,3,0,0,0,294,6],
 "classMR_1_1DecimatePolylineResult.html#a50e67e81fbb504005bd3f9785748835d":[6,3,0,0,0,294,4],
 "classMR_1_1DecimatePolylineResult.html#a7b610e6ff6bb17c3fe5917060054e0c9":[6,3,0,0,0,294,0],
-"classMR_1_1DecimatePolylineResult.html#a85ef9dca091b8bcdcd68043324e5019c":[6,3,0,0,0,294,3],
-"classMR_1_1DecimatePolylineResult.html#addfe4e10968d02c38ccd2a83b77afccb":[6,3,0,0,0,294,1]
+"classMR_1_1DecimatePolylineResult.html#a85ef9dca091b8bcdcd68043324e5019c":[6,3,0,0,0,294,3]
 };

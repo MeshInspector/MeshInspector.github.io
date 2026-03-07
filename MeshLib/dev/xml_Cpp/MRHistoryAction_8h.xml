@@ -23,6 +23,7 @@
     <includedby refid="MRChangeXfAction_8h" local="yes">MRMesh/MRChangeXfAction.h</includedby>
     <includedby refid="MRCombinedHistoryAction_8h" local="yes">MRMesh/MRCombinedHistoryAction.h</includedby>
     <includedby refid="MRPartialChangeMeshAction_8h" local="yes">MRMesh/MRPartialChangeMeshAction.h</includedby>
+    <includedby refid="MRVersatileChangeMeshAction_8h" local="yes">MRMesh/MRVersatileChangeMeshAction.h</includedby>
     <includedby refid="MRChangeLabelAction_8h" local="yes">MRSymbolMesh/MRChangeLabelAction.h</includedby>
     <includedby refid="MRAppendHistory_8h" local="no">MRViewer/MRAppendHistory.h</includedby>
     <includedby refid="MRHistoryStore_8h" local="yes">MRViewer/MRHistoryStore.h</includedby>
@@ -101,7 +102,7 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="25">
+      <node id="26">
         <label>MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</label>
         <link refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h"/>
       </node>
@@ -228,7 +229,7 @@
         </childnode>
         <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
@@ -238,16 +239,22 @@
         </childnode>
         <childnode refid="33" relation="include">
         </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
       </node>
       <node id="21">
         <label>MRMesh/MRPartialChangeMeshAction.h</label>
         <link refid="MRPartialChangeMeshAction_8h"/>
       </node>
       <node id="22">
+        <label>MRMesh/MRVersatileChangeMeshAction.h</label>
+        <link refid="MRVersatileChangeMeshAction_8h"/>
+      </node>
+      <node id="23">
         <label>MRSymbolMesh/MRChangeLabelAction.h</label>
         <link refid="MRChangeLabelAction_8h"/>
       </node>
-      <node id="23">
+      <node id="24">
         <label>MRViewer/MRAppendHistory.h</label>
         <link refid="MRAppendHistory_8h"/>
       </node>
@@ -255,49 +262,49 @@
         <label>MRViewer/MRDirectionWidget.h</label>
         <link refid="MRDirectionWidget_8h"/>
       </node>
-      <node id="24">
+      <node id="25">
         <label>MRViewer/MRHistoryStore.h</label>
         <link refid="MRHistoryStore_8h"/>
-        <childnode refid="25" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
         <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
       </node>
-      <node id="26">
+      <node id="27">
         <label>MRViewer/MRMeshBoundarySelectionWidget.h</label>
         <link refid="MRMeshBoundarySelectionWidget_8h"/>
       </node>
-      <node id="29">
+      <node id="30">
         <label>MRViewer/MRObjectTransformWidget.h</label>
         <link refid="MRObjectTransformWidget_8h"/>
       </node>
-      <node id="27">
+      <node id="28">
         <label>MRViewer/MRPickPointManager.h</label>
         <link refid="MRPickPointManager_8h"/>
       </node>
-      <node id="28">
+      <node id="29">
         <label>MRViewer/MRSceneControlMenuItems.h</label>
         <link refid="MRViewer_2MRSceneControlMenuItems_8h"/>
       </node>
-      <node id="30">
+      <node id="31">
         <label>MRViewer/MRSwapRootAction.h</label>
         <link refid="MRSwapRootAction_8h"/>
       </node>
-      <node id="31">
+      <node id="32">
         <label>MRViewer/MRViewportParametersAction.h</label>
         <link refid="MRViewportParametersAction_8h"/>
       </node>
-      <node id="32">
+      <node id="33">
         <label>MRVoxels/MRChangeVoxelSelectionAction.h</label>
         <link refid="MRChangeVoxelSelectionAction_8h"/>
       </node>
-      <node id="33">
+      <node id="34">
         <label>MRVoxels/MRChangeVoxelsAction.h</label>
         <link refid="MRChangeVoxelsAction_8h"/>
       </node>

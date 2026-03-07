@@ -1210,6 +1210,7 @@ var annotated_dup =
       [ "Vector_VoxelId_VoxelId", "classmrmeshpy_1_1Vector__VoxelId__VoxelId.html", "classmrmeshpy_1_1Vector__VoxelId__VoxelId" ],
       [ "Vector_WatershedGraph_BasinInfo_GraphVertId", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId" ],
       [ "Vector_WatershedGraph_BdInfo_GraphEdgeId", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId" ],
+      [ "VersatileChangeMeshPointsAction", "classmrmeshpy_1_1VersatileChangeMeshPointsAction.html", "classmrmeshpy_1_1VersatileChangeMeshPointsAction" ],
       [ "Vert2RegionMap", "classmrmeshpy_1_1Vert2RegionMap.html", "classmrmeshpy_1_1Vert2RegionMap" ],
       [ "VertBitSet", "classmrmeshpy_1_1VertBitSet.html", "classmrmeshpy_1_1VertBitSet" ],
       [ "VertBMap", "classmrmeshpy_1_1VertBMap.html", "classmrmeshpy_1_1VertBMap" ],

@@ -55,6 +55,7 @@
     <derivedcompoundref refid="classMR_1_1PartialChangeMeshTopologyAction" prot="public" virt="non-virtual">MR::PartialChangeMeshTopologyAction</derivedcompoundref>
     <derivedcompoundref refid="structMR_1_1PickPointManager_1_1WidgetHistoryAction" prot="public" virt="non-virtual">MR::PickPointManager::WidgetHistoryAction</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1SwapRootAction" prot="public" virt="non-virtual">MR::SwapRootAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1VersatileChangeMeshPointsAction" prot="public" virt="non-virtual">MR::VersatileChangeMeshPointsAction</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1ViewportParametersAction" prot="public" virt="non-virtual">MR::ViewportParametersAction</derivedcompoundref>
     <includes refid="MRHistoryAction_8h" local="no">MRMesh/MRHistoryAction.h</includes>
     <sectiondef kind="public-type">
@@ -401,6 +402,12 @@
         </childnode>
       </node>
       <node id="56">
+        <label>MR::VersatileChangeMeshPointsAction</label>
+        <link refid="classMR_1_1VersatileChangeMeshPointsAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="57">
         <label>MR::ViewportParametersAction</label>
         <link refid="classMR_1_1ViewportParametersAction"/>
         <childnode refid="1" relation="public-inheritance">

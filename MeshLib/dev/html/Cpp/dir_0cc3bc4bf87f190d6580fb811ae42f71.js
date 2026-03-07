@@ -419,6 +419,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRVector3.h", "MRVector3_8h.html", null ],
     [ "MRVector4.h", "MRVector4_8h.html", null ],
     [ "MRVectorTraits.h", "MRMesh_2MRVectorTraits_8h.html", null ],
+    [ "MRVersatileChangeMeshAction.h", "MRVersatileChangeMeshAction_8h.html", null ],
     [ "MRVertCoordsDiff.h", "MRVertCoordsDiff_8h.html", null ],
     [ "MRViewportId.h", "MRViewportId_8h.html", "MRViewportId_8h" ],
     [ "MRViewportProperty.h", "MRViewportProperty_8h.html", null ],

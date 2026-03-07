@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VersatileChangeMeshPointsAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VersatileChangeMeshPointsAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1a787248f1479d89b1770e538ee39f52d0" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.VersatileChangeMeshPointsAction::Obj</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>mrmeshpy.VersatileChangeMeshPointsAction.Obj</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1ObjectMesh" kindref="compound">ObjectMesh</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71952" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1a40362b7d26df49a0c41e614b4dfad203" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VersatileChangeMeshPointsAction.setObjectDirty</definition>
+        <argsstring>(ObjectMesh obj)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>mrmeshpy.VersatileChangeMeshPointsAction.setObjectDirty</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectMesh" kindref="compound">ObjectMesh</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71954" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71954" bodyend="71955"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1a175bda103b39d7bbd504ba84e6fc8079" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VersatileChangeMeshPointsAction.__init__</definition>
+        <argsstring>(self, str name, ObjectMesh obj)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VersatileChangeMeshPointsAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectMesh" kindref="compound">ObjectMesh</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s mesh points in uncompressed format before making any changes in it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71956" bodyend="71959"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1afa6b1acd832a65a255b788333794629e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VersatileChangeMeshPointsAction.action</definition>
+        <argsstring>(self, HistoryAction.Type t)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.VersatileChangeMeshPointsAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1HistoryAction_1_1Type" kindref="compound">HistoryAction.Type</ref></type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71960" bodyend="71961"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1a4ba86a6ac7a97edb9a4e79c3ad95362b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VersatileChangeMeshPointsAction.compress</definition>
+        <argsstring>(self)</argsstring>
+        <name>compress</name>
+        <qualifiedname>mrmeshpy.VersatileChangeMeshPointsAction.compress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>switch from uncompressed to compressed format to occupy less amount of memory
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71962" bodyend="71965"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1adccae973b664ae2bf9c81a167969a4dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VersatileChangeMeshPointsAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.VersatileChangeMeshPointsAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71966" bodyend="71967"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1abfe1b14bb1956027f118479435698966" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VersatileChangeMeshPointsAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.VersatileChangeMeshPointsAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71968" bodyend="71969"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VersatileChangeMeshPointsAction
+
+Undo action for ObjectMesh points only (not topology) change;
+It starts its life storing all points (uncompressed format),
+but can be switched to store only modified points (compressed format)
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.VersatileChangeMeshPointsAction</label>
+        <link refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VersatileChangeMeshPointsAction</label>
+        <link refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71944" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71944" bodyend="71969"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1a175bda103b39d7bbd504ba84e6fc8079" prot="public" virt="non-virtual"><scope>mrmeshpy::VersatileChangeMeshPointsAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1afa6b1acd832a65a255b788333794629e" prot="public" virt="non-virtual"><scope>mrmeshpy::VersatileChangeMeshPointsAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1a4ba86a6ac7a97edb9a4e79c3ad95362b" prot="public" virt="non-virtual"><scope>mrmeshpy::VersatileChangeMeshPointsAction</scope><name>compress</name></member>
+      <member refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1adccae973b664ae2bf9c81a167969a4dc" prot="public" virt="non-virtual"><scope>mrmeshpy::VersatileChangeMeshPointsAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1abfe1b14bb1956027f118479435698966" prot="public" virt="non-virtual"><scope>mrmeshpy::VersatileChangeMeshPointsAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1a787248f1479d89b1770e538ee39f52d0" prot="public" virt="non-virtual"><scope>mrmeshpy::VersatileChangeMeshPointsAction</scope><name>Obj</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da" prot="public" virt="non-virtual"><scope>mrmeshpy::VersatileChangeMeshPointsAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction_1a40362b7d26df49a0c41e614b4dfad203" prot="public" virt="non-virtual"><scope>mrmeshpy::VersatileChangeMeshPointsAction</scope><name>setObjectDirty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

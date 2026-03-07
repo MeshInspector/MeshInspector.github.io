@@ -71,7 +71,7 @@ var classMR_1_1SurfaceManipulationWidget =
     [ "fixedPickedVerts_", "group__GeneralGroup.html#ga8fc55e576b16eb9f3a7ebc6d3aed8b86", null ],
     [ "fixedPickedVertsToDistSq_", "group__GeneralGroup.html#gae9349ed78305ee5063f2bf0f5c564d0c", null ],
     [ "generalEditingRegion_", "group__GeneralGroup.html#gacc7693d8223133cb63b0540ec58107aa", null ],
-    [ "historyAction_", "group__GeneralGroup.html#ga646602a8d3e1d1781c7aa8ed9b2050e3", null ],
+    [ "historyAction_", "group__GeneralGroup.html#ga8bb8e8fac1549f326e6cba81c77c7a15", null ],
     [ "ignoreOcclusion_", "group__GeneralGroup.html#ga8c958ed29a4e3f960ce7aab676126adb", null ],
     [ "laplacian_", "group__GeneralGroup.html#ga45c714522ca37331bf7eef51f07139fd", null ],
     [ "lastStableObjMesh_", "group__GeneralGroup.html#gaa4fd8214477b4cb504db49be1146ed47", null ],

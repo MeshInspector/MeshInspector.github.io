@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"classMR_1_1RadiusMeasurementObject.html#ae0b8392c581c228708b6f4438b389cb3":[6,3,0,0,0,730,51],
 "classMR_1_1RadiusMeasurementObject.html#ae825f0b041d1699de4c43f3114c32184":[6,3,0,0,0,730,50],
 "classMR_1_1RadiusMeasurementObject.html#aedfe34be1e6d2f647a149754b5068934":[6,3,0,0,0,730,38],
 "classMR_1_1RadiusMeasurementObject.html#af4c40a50201f9f81d05dbc82a63bf1f2":[6,3,0,0,0,730,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "classMR_1_1SceneLoad_1_1Settings.html#a18c8a5c17549e5cf3e812f20530ca255":[6,3,0,0,0,750,1,1],
 "classMR_1_1SceneLoad_1_1Settings.html#a2c1bfc7f4068995138b8bd6fad728953":[6,3,0,0,0,750,1,7],
 "classMR_1_1SceneLoad_1_1Settings.html#a8504c186ad858ebc3bbd41eb0decdfed":[6,3,0,0,0,750,1,6],
-"classMR_1_1SceneLoad_1_1Settings.html#aa01bde15ff72db69df54ea78fed1e74c":[6,3,0,0,0,750,1,5],
-"classMR_1_1SceneLoad_1_1Settings.html#ab645bde17dfeeaa045d69ebe647d01f8":[6,3,0,0,0,750,1,0]
+"classMR_1_1SceneLoad_1_1Settings.html#aa01bde15ff72db69df54ea78fed1e74c":[6,3,0,0,0,750,1,5]
 };

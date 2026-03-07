@@ -1981,7 +1981,7 @@ var searchData=
   ['hidpi_5fscaling_5f_13',['hidpi_scaling_',['../group__GeneralGroup.html#ga56862fe69e7b443b52c3ec99d13981a0',1,'MR::ImGuiMenu']]],
   ['highres_14',['highRes',['../structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html#ade37230975e903a0e87eb93638890fba',1,'MR::FillingSurface::CellularSurface::Params']]],
   ['hintdirection_15',['hintDirection',['../group__GeneralGroup.html#gab5009f894a6360e076076d4379d340f2',1,'MR::FixUndercuts::ImproveDirectionParameters']]],
-  ['historyaction_5f_16',['historyAction_',['../group__GeneralGroup.html#ga646602a8d3e1d1781c7aa8ed9b2050e3',1,'MR::SurfaceManipulationWidget']]],
+  ['historyaction_5f_16',['historyAction_',['../group__GeneralGroup.html#ga8bb8e8fac1549f326e6cba81c77c7a15',1,'MR::SurfaceManipulationWidget']]],
   ['historymode_17',['historyMode',['../group__GeneralGroup.html#ga5ae772bef108f292b67ab9808e1f5f7b',1,'MR::RibbonNotifier::DrawNotificationSettings']]],
   ['historyname_18',['historyName',['../group__GeneralGroup.html#ga1c8fd0f37268e8e1bf9729aff0c21300',1,'MR::SceneReorder']]],
   ['historynamesuffix_19',['historyNameSuffix',['../group__GeneralGroup.html#gafe6cd509f46b4a6314633f8438729160',1,'MR::PickPointManager::Params']]],

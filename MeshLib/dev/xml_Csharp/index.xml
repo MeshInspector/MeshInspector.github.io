@@ -20658,6 +20658,14 @@
     <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a0ba53251faf227ddbb4ff8188a866c07" kind="function"><name>Vector_UnsignedShort_MRVoxelId</name></member>
     <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a9478e81dd0c0c1a3c330a1d2fff38fe2" kind="function"><name>operator Vector_UnsignedShort_MRVoxelId</name></member>
   </compound>
+  <compound refid="classMR_1_1VersatileChangeMeshPointsAction" kind="class"><name>MR::VersatileChangeMeshPointsAction</name>
+    <member refid="classMR_1_1VersatileChangeMeshPointsAction_1a812edd62366011c2e2fb3f0f1261ed74" kind="function"><name>operator MR.HistoryAction</name></member>
+    <member refid="classMR_1_1VersatileChangeMeshPointsAction_1a9624b67ccb258c6419a58884647df29f" kind="function"><name>operator VersatileChangeMeshPointsAction?</name></member>
+    <member refid="classMR_1_1VersatileChangeMeshPointsAction_1a30887717168f4fee92d1f248c42f07d9" kind="function"><name>VersatileChangeMeshPointsAction</name></member>
+    <member refid="classMR_1_1VersatileChangeMeshPointsAction_1af9be8a7fb78dd8f9ccd3c0747d904962" kind="function"><name>VersatileChangeMeshPointsAction</name></member>
+    <member refid="classMR_1_1VersatileChangeMeshPointsAction_1a3bd00672e3fbb2371459062896bbe8c6" kind="function"><name>action</name></member>
+    <member refid="classMR_1_1VersatileChangeMeshPointsAction_1a31e058e6d8e9478b1c72815b7efb8ee4" kind="function"><name>compress</name></member>
+  </compound>
   <compound refid="classMR_1_1Vert2RegionMap" kind="class"><name>MR::Vert2RegionMap</name>
     <member refid="classMR_1_1Vert2RegionMap_1a440a5fb152ebc63347e56eb3cfa5c828" kind="property"><name>vec</name></member>
     <member refid="classMR_1_1Vert2RegionMap_1a98db06ae61d585180adaa5fd679bd9e1" kind="property"><name>this[MR.VertId i]</name></member>
@@ -22379,6 +22387,8 @@
   <compound refid="MRVector3_8cs" kind="file"><name>MRVector3.cs</name>
   </compound>
   <compound refid="MRVector4_8cs" kind="file"><name>MRVector4.cs</name>
+  </compound>
+  <compound refid="MRVersatileChangeMeshAction_8cs" kind="file"><name>MRVersatileChangeMeshAction.cs</name>
   </compound>
   <compound refid="MRVertCoordsDiff_8cs" kind="file"><name>MRVertCoordsDiff.cs</name>
   </compound>

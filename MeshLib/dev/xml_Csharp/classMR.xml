@@ -947,6 +947,7 @@
     <innerclass refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId" prot="public">MR::Vector_StdVectorMRGraphEdgeId_MRGraphVertId</innerclass>
     <innerclass refid="classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag" prot="public">MR::Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</innerclass>
     <innerclass refid="classMR_1_1Vector__UnsignedShort__MRVoxelId" prot="public">MR::Vector_UnsignedShort_MRVoxelId</innerclass>
+    <innerclass refid="classMR_1_1VersatileChangeMeshPointsAction" prot="public">MR::VersatileChangeMeshPointsAction</innerclass>
     <innerclass refid="classMR_1_1Vert2RegionMap" prot="public">MR::Vert2RegionMap</innerclass>
     <innerclass refid="classMR_1_1VertBitSet" prot="public">MR::VertBitSet</innerclass>
     <innerclass refid="classMR_1_1VertBMap" prot="public">MR::VertBMap</innerclass>
@@ -14470,7 +14471,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" line="214" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" bodystart="214" bodyend="221"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" line="216" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" bodystart="216" bodyend="223"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1abd24ec0954d7a79cf35c61aa19edde95" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ulong</type>

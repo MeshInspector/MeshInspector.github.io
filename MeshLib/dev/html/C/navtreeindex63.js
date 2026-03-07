@@ -1,5 +1,12 @@
 var NAVTREEINDEX63 =
 {
+"MRMeshTopology_8h.html#aff4e2eb451fb94a8c817d52a369d6275":[6,2,1,0,0,0,1,199,110],
+"MRMeshTopology_8h_source.html":[6,2,1,0,0,0,1,199],
+"MRMeshTriPoint_8h.html":[6,2,1,0,0,0,1,202],
+"MRMeshTriPoint_8h.html#a03121144e10a7224b395344ceee1b2f6":[6,2,1,0,0,0,1,202,46],
+"MRMeshTriPoint_8h.html#a03cc4bc4e9a81898b5367ea685880fd4":[6,2,1,0,0,0,1,202,14],
+"MRMeshTriPoint_8h.html#a0ace8a573947bacbc22be17fb2c77a2c":[6,2,1,0,0,0,1,202,12],
+"MRMeshTriPoint_8h.html#a169855c36247e8ece026fe5e0b1b8585":[6,2,1,0,0,0,1,202,17],
 "MRMeshTriPoint_8h.html#a16b76dd59298f8223ced597df94d0264":[6,2,1,0,0,0,1,202,47],
 "MRMeshTriPoint_8h.html#a18c0df2f227b6ead51a97d6728a93b32":[6,2,1,0,0,0,1,202,43],
 "MRMeshTriPoint_8h.html#a256831db7eb9a7491ecc65cffe042ae7":[6,2,1,0,0,0,1,202,49],
@@ -242,12 +249,5 @@ var NAVTREEINDEX63 =
 "MRMesh_8h.html#af6e3e5aa2040a1e5dd7e1fbd9fdd8369":[6,2,1,0,0,0,1,154,99],
 "MRMesh_8h.html#af7b49a506a7211d41becbe13f2782fbd":[6,2,1,0,0,0,1,154,101],
 "MRMesh_8h.html#afd9a5a04df354435d727caa9fb9bccf3":[6,2,1,0,0,0,1,154,136],
-"MRMesh_8h_source.html":[6,2,1,0,0,0,1,154],
-"MRMinMaxArg_8h.html":[6,2,1,0,0,0,1,203],
-"MRMinMaxArg_8h.html#a0929ae3d497b3fdb0168f951ba003b80":[6,2,1,0,0,0,1,203,8],
-"MRMinMaxArg_8h.html#a0bd8b3a261a5dfec35cb397f78ff0197":[6,2,1,0,0,0,1,203,6],
-"MRMinMaxArg_8h.html#a20cba3cd2365ac883f74faee6d8f8d59":[6,2,1,0,0,0,1,203,5],
-"MRMinMaxArg_8h.html#a311870aae1f4a1fce6a4e45ff3d47d61":[6,2,1,0,0,0,1,203,22],
-"MRMinMaxArg_8h.html#a38cd19576b254c46b64c61a71df823a8":[6,2,1,0,0,0,1,203,26],
-"MRMinMaxArg_8h.html#a47e4327f47e0a2ff9736f11d158bd7f8":[6,2,1,0,0,0,1,203,24]
+"MRMesh_8h_source.html":[6,2,1,0,0,0,1,154]
 };

@@ -41,7 +41,7 @@
       <member refid="group__GeneralGroup_1ga8fc55e576b16eb9f3a7ebc6d3aed8b86" kind="variable"><name>fixedPickedVerts_</name></member>
       <member refid="group__GeneralGroup_1gae9349ed78305ee5063f2bf0f5c564d0c" kind="variable"><name>fixedPickedVertsToDistSq_</name></member>
       <member refid="group__GeneralGroup_1ga9fa8768693a4a00ed01b3cc1af06228d" kind="variable"><name>relaxRegionHeights_</name></member>
-      <member refid="group__GeneralGroup_1ga646602a8d3e1d1781c7aa8ed9b2050e3" kind="variable"><name>historyAction_</name></member>
+      <member refid="group__GeneralGroup_1ga8bb8e8fac1549f326e6cba81c77c7a15" kind="variable"><name>historyAction_</name></member>
       <member refid="group__GeneralGroup_1ga09c56116fa4c39bcc7554e4142816027" kind="variable"><name>appendHistoryAction_</name></member>
       <member refid="group__GeneralGroup_1ga3853225f96fef25c2dbce20227c54c7d" kind="variable"><name>palette_</name></member>
       <member refid="group__GeneralGroup_1ga08839c74598549c345ed5f06ffaa769f" kind="variable"><name>enableDeviationTexture_</name></member>
@@ -176,7 +176,7 @@
       <member refid="group__GeneralGroup_1gaf5a9e8b4fd61a438f8ba559e9743b5ac" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>getMinMax</name></member>
       <member refid="group__GeneralGroup_1ga90391f79a0502c885245e9778e248a48" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>getMinRadius</name></member>
       <member refid="group__GeneralGroup_1ga5c92a01b46aaaed4c495dbe938af36b1" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>getSettings</name></member>
-      <member refid="group__GeneralGroup_1ga646602a8d3e1d1781c7aa8ed9b2050e3" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>historyAction_</name></member>
+      <member refid="group__GeneralGroup_1ga8bb8e8fac1549f326e6cba81c77c7a15" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>historyAction_</name></member>
       <member refid="group__GeneralGroup_1gaf2026eeba0e30566834023085a3b9aac" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>ignoreOcclusion</name></member>
       <member refid="group__GeneralGroup_1ga8c958ed29a4e3f960ce7aab676126adb" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>ignoreOcclusion_</name></member>
       <member refid="group__GeneralGroup_1ga42056e56380a989d42601b9611494613" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>init</name></member>

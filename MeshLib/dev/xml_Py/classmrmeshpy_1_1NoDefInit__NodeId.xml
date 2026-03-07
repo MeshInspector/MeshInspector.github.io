@@ -139,7 +139,7 @@
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::NoDefInit&lt;MR::NodeId&gt;
-Aliases:  NoCtor_NodeId.type, Buffer_NodeId_NodeId.T, Buffer_NodeId_NodeId.const_reference, Buffer_NodeId_NodeId.const_iterator, Buffer_NodeId_NodeId.iterator, Buffer_NodeId_NodeId.reference
+Aliases:  Buffer_NodeId_NodeId.iterator, Buffer_NodeId_NodeId.reference, Buffer_NodeId_NodeId.T, Buffer_NodeId_NodeId.const_reference, NoCtor_NodeId.type, Buffer_NodeId_NodeId.const_iterator
 
 this class is similar to T, but does not make default initialization of the fields for best performance
 </verbatim> </para>

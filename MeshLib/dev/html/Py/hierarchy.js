@@ -496,7 +496,8 @@ var hierarchy =
       [ "mrmeshpy.PartialChangeMeshAction", "classmrmeshpy_1_1PartialChangeMeshAction.html", null ],
       [ "mrmeshpy.PartialChangeMeshDataAction", "classmrmeshpy_1_1PartialChangeMeshDataAction.html", null ],
       [ "mrmeshpy.PartialChangeMeshPointsAction", "classmrmeshpy_1_1PartialChangeMeshPointsAction.html", null ],
-      [ "mrmeshpy.PartialChangeMeshTopologyAction", "classmrmeshpy_1_1PartialChangeMeshTopologyAction.html", null ]
+      [ "mrmeshpy.PartialChangeMeshTopologyAction", "classmrmeshpy_1_1PartialChangeMeshTopologyAction.html", null ],
+      [ "mrmeshpy.VersatileChangeMeshPointsAction", "classmrmeshpy_1_1VersatileChangeMeshPointsAction.html", null ]
     ] ],
     [ "mrmeshpy.HoleFillPlan", "classmrmeshpy_1_1HoleFillPlan.html", null ],
     [ "mrmeshpy.Nesting.IBoxNestingPriority", "classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority.html", null ],

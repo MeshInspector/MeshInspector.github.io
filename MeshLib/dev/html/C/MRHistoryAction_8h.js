@@ -12,6 +12,7 @@ var MRHistoryAction_8h =
     [ "MR_PartialChangeMeshPointsAction", "MRHistoryAction_8h.html#ab22704b3df03315a3c89a759b652cbdc", null ],
     [ "MR_PartialChangeMeshTopologyAction", "MRHistoryAction_8h.html#adc5ac8e6f23fe577afaf4687a65d4696", null ],
     [ "MR_std_pair_bool_int", "MRHistoryAction_8h.html#adaf3c02e21cb0b0f3f57f79e214ef692", null ],
+    [ "MR_VersatileChangeMeshPointsAction", "MRHistoryAction_8h.html#ab3d341fe93ca383a16218905ec421555", null ],
     [ "MR_HistoryAction_Type", "MRHistoryAction_8h.html#a1412f92a5edcca34d4a7f907dd216741", [
       [ "MR_HistoryAction_Type_Undo", "MRHistoryAction_8h.html#a1412f92a5edcca34d4a7f907dd216741a1829c27ebc71603d4ba0499efeaba6f5", null ],
       [ "MR_HistoryAction_Type_Redo", "MRHistoryAction_8h.html#a1412f92a5edcca34d4a7f907dd216741a616a73dbffa3f6f1e71dc4d50435103f", null ]
@@ -65,6 +66,7 @@ var MRHistoryAction_8h =
     [ "MR_HistoryAction_DynamicDowncastTo_MR_PartialChangeMeshDataAction", "MRHistoryAction_8h.html#a368b9eb0c2a230c71b5ef61fb89f1d1c", null ],
     [ "MR_HistoryAction_DynamicDowncastTo_MR_PartialChangeMeshPointsAction", "MRHistoryAction_8h.html#ae136972bdd102c566e179de161e4a779", null ],
     [ "MR_HistoryAction_DynamicDowncastTo_MR_PartialChangeMeshTopologyAction", "MRHistoryAction_8h.html#aff0fbbeaf83d06ed7e7c5553a330d028", null ],
+    [ "MR_HistoryAction_DynamicDowncastTo_MR_VersatileChangeMeshPointsAction", "MRHistoryAction_8h.html#af6551fc9b5f0ea3446b09a100d193bc4", null ],
     [ "MR_HistoryAction_DynamicDowncastToOrFail_MR_ChangeActiveBoxAction", "MRHistoryAction_8h.html#aea13f891a168634c927af066a400c877", null ],
     [ "MR_HistoryAction_DynamicDowncastToOrFail_MR_ChangeColoringType", "MRHistoryAction_8h.html#a45c20852fe2943a61c5d946a03cc7af0", null ],
     [ "MR_HistoryAction_DynamicDowncastToOrFail_MR_ChangeDualMarchingCubesAction", "MRHistoryAction_8h.html#aa1bec9f5a0c14fee1eeeb47159a46e23", null ],
@@ -110,6 +112,7 @@ var MRHistoryAction_8h =
     [ "MR_HistoryAction_DynamicDowncastToOrFail_MR_PartialChangeMeshDataAction", "MRHistoryAction_8h.html#a8af97c4970a56e814bd376afedbd5a0e", null ],
     [ "MR_HistoryAction_DynamicDowncastToOrFail_MR_PartialChangeMeshPointsAction", "MRHistoryAction_8h.html#ad4f57b1bcdea707e9736094d27d408e9", null ],
     [ "MR_HistoryAction_DynamicDowncastToOrFail_MR_PartialChangeMeshTopologyAction", "MRHistoryAction_8h.html#a817dcebf746b19045663a50a3f65c038", null ],
+    [ "MR_HistoryAction_DynamicDowncastToOrFail_MR_VersatileChangeMeshPointsAction", "MRHistoryAction_8h.html#a0c20bd69f5e850a7b0eec7d50769ff35", null ],
     [ "MR_HistoryAction_heapBytes", "MRHistoryAction_8h.html#ab9b1cc7de139ead1417396bbedf14415", null ],
     [ "MR_HistoryAction_MutableDynamicDowncastTo_MR_ChangeActiveBoxAction", "MRHistoryAction_8h.html#a20b72f9cd95720d779037b811792a82b", null ],
     [ "MR_HistoryAction_MutableDynamicDowncastTo_MR_ChangeColoringType", "MRHistoryAction_8h.html#a3cbe34a020c3a49e7e6a97a30950eb18", null ],
@@ -156,6 +159,7 @@ var MRHistoryAction_8h =
     [ "MR_HistoryAction_MutableDynamicDowncastTo_MR_PartialChangeMeshDataAction", "MRHistoryAction_8h.html#a7312e2c7ac28518d0071a000522d5bca", null ],
     [ "MR_HistoryAction_MutableDynamicDowncastTo_MR_PartialChangeMeshPointsAction", "MRHistoryAction_8h.html#a3b0403c8b5040f0685b17e73465963da", null ],
     [ "MR_HistoryAction_MutableDynamicDowncastTo_MR_PartialChangeMeshTopologyAction", "MRHistoryAction_8h.html#a0362cfd1948c30e21b8ab09bfae3be0f", null ],
+    [ "MR_HistoryAction_MutableDynamicDowncastTo_MR_VersatileChangeMeshPointsAction", "MRHistoryAction_8h.html#a1f54789876cc0a6050cb1850dce3817a", null ],
     [ "MR_HistoryAction_MutableDynamicDowncastToOrFail_MR_ChangeActiveBoxAction", "MRHistoryAction_8h.html#a5d77cab981d5afcd30ace44833da3044", null ],
     [ "MR_HistoryAction_MutableDynamicDowncastToOrFail_MR_ChangeColoringType", "MRHistoryAction_8h.html#a25442f7e8ce780c2f1c5c9b3ef0004b8", null ],
     [ "MR_HistoryAction_MutableDynamicDowncastToOrFail_MR_ChangeDualMarchingCubesAction", "MRHistoryAction_8h.html#a35f255c9c2b4e47e454009522cd24788", null ],
@@ -201,6 +205,7 @@ var MRHistoryAction_8h =
     [ "MR_HistoryAction_MutableDynamicDowncastToOrFail_MR_PartialChangeMeshDataAction", "MRHistoryAction_8h.html#ad4a0a7026007108af7eab56784b131d7", null ],
     [ "MR_HistoryAction_MutableDynamicDowncastToOrFail_MR_PartialChangeMeshPointsAction", "MRHistoryAction_8h.html#afac11e407d5fd8f885352223e98e6a66", null ],
     [ "MR_HistoryAction_MutableDynamicDowncastToOrFail_MR_PartialChangeMeshTopologyAction", "MRHistoryAction_8h.html#a5b72d134c792ae2cc964dd4ff795794c", null ],
+    [ "MR_HistoryAction_MutableDynamicDowncastToOrFail_MR_VersatileChangeMeshPointsAction", "MRHistoryAction_8h.html#aafc5d9b28abec1e16940c6c5106e0d06", null ],
     [ "MR_HistoryAction_MutableStaticDowncastTo_MR_ChangeActiveBoxAction", "MRHistoryAction_8h.html#ab7a5af0309dfda6042591c6917da9166", null ],
     [ "MR_HistoryAction_MutableStaticDowncastTo_MR_ChangeColoringType", "MRHistoryAction_8h.html#ac3701ff1c9180b13556440924f09c279", null ],
     [ "MR_HistoryAction_MutableStaticDowncastTo_MR_ChangeDualMarchingCubesAction", "MRHistoryAction_8h.html#a33ef5ea116d7417d6b70b00c951e7403", null ],
@@ -246,6 +251,7 @@ var MRHistoryAction_8h =
     [ "MR_HistoryAction_MutableStaticDowncastTo_MR_PartialChangeMeshDataAction", "MRHistoryAction_8h.html#a7bc05358e8c1715dfdd99a0fbe85f981", null ],
     [ "MR_HistoryAction_MutableStaticDowncastTo_MR_PartialChangeMeshPointsAction", "MRHistoryAction_8h.html#a1ca7843a2360f4fc761bd378e2c7b1c7", null ],
     [ "MR_HistoryAction_MutableStaticDowncastTo_MR_PartialChangeMeshTopologyAction", "MRHistoryAction_8h.html#a34ca9cba6a067af438824083d879d44b", null ],
+    [ "MR_HistoryAction_MutableStaticDowncastTo_MR_VersatileChangeMeshPointsAction", "MRHistoryAction_8h.html#ad0600e5094c22961ec221e826dfaecf1", null ],
     [ "MR_HistoryAction_name", "MRHistoryAction_8h.html#aff1447eb957a848b894710aeab37e7cd", null ],
     [ "MR_HistoryAction_OffsetMutablePtr", "MRHistoryAction_8h.html#ac35192037a1be5f2ebbd2b980ca128a5", null ],
     [ "MR_HistoryAction_OffsetPtr", "MRHistoryAction_8h.html#aa7959a5ccd0a205b786bd2851a00336f", null ],
@@ -293,5 +299,6 @@ var MRHistoryAction_8h =
     [ "MR_HistoryAction_StaticDowncastTo_MR_PartialChangeMeshAction", "MRHistoryAction_8h.html#aad2a76f58e7df8c78481465c070ce49f", null ],
     [ "MR_HistoryAction_StaticDowncastTo_MR_PartialChangeMeshDataAction", "MRHistoryAction_8h.html#ae667eba8d85526ffa476543da34830e2", null ],
     [ "MR_HistoryAction_StaticDowncastTo_MR_PartialChangeMeshPointsAction", "MRHistoryAction_8h.html#a3c4ca289e3e705824ce195ffae5c6def", null ],
-    [ "MR_HistoryAction_StaticDowncastTo_MR_PartialChangeMeshTopologyAction", "MRHistoryAction_8h.html#a353dd073dc7f0888a763dad8004674a6", null ]
+    [ "MR_HistoryAction_StaticDowncastTo_MR_PartialChangeMeshTopologyAction", "MRHistoryAction_8h.html#a353dd073dc7f0888a763dad8004674a6", null ],
+    [ "MR_HistoryAction_StaticDowncastTo_MR_VersatileChangeMeshPointsAction", "MRHistoryAction_8h.html#abf0f774f7305d3df44b4f071bfd3607f", null ]
 ];

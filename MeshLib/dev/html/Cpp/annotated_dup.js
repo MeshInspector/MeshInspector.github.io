@@ -1054,6 +1054,7 @@ var annotated_dup =
       [ "VectorTraits< Vector2< T > >", "structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html", "structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4" ],
       [ "VectorTraits< Vector3< T > >", "structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4.html", "structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4" ],
       [ "VectorTraits< Vector4< T > >", "structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html", "structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4" ],
+      [ "VersatileChangeMeshPointsAction", "classMR_1_1VersatileChangeMeshPointsAction.html", "classMR_1_1VersatileChangeMeshPointsAction" ],
       [ "VertCoordsDiff", "classMR_1_1VertCoordsDiff.html", "classMR_1_1VertCoordsDiff" ],
       [ "VertDistance", "structMR_1_1VertDistance.html", "structMR_1_1VertDistance" ],
       [ "VertPathInfo", "structMR_1_1VertPathInfo.html", "structMR_1_1VertPathInfo" ],

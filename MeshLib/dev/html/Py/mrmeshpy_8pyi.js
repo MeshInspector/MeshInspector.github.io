@@ -1029,6 +1029,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.Vector_std_vector_ObjVertId_Id_ICPElemtTag", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag" ],
     [ "mrmeshpy.Vector_unsigned_long_GraphVertId", "classmrmeshpy_1_1Vector__unsigned__long__GraphVertId.html", "classmrmeshpy_1_1Vector__unsigned__long__GraphVertId" ],
     [ "mrmeshpy.Vector_unsigned_short_VoxelId", "classmrmeshpy_1_1Vector__unsigned__short__VoxelId.html", "classmrmeshpy_1_1Vector__unsigned__short__VoxelId" ],
+    [ "mrmeshpy.VersatileChangeMeshPointsAction", "classmrmeshpy_1_1VersatileChangeMeshPointsAction.html", "classmrmeshpy_1_1VersatileChangeMeshPointsAction" ],
     [ "mrmeshpy.Vert2RegionMap", "classmrmeshpy_1_1Vert2RegionMap.html", "classmrmeshpy_1_1Vert2RegionMap" ],
     [ "mrmeshpy.VertBMap", "classmrmeshpy_1_1VertBMap.html", "classmrmeshpy_1_1VertBMap" ],
     [ "mrmeshpy.VertBitSet", "classmrmeshpy_1_1VertBitSet.html", "classmrmeshpy_1_1VertBitSet" ],

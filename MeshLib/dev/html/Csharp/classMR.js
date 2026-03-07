@@ -945,6 +945,7 @@ var classMR =
     [ "Vector_StdVectorMRGraphEdgeId_MRGraphVertId", "classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html", "classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId" ],
     [ "Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag", "classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag.html", "classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag" ],
     [ "Vector_UnsignedShort_MRVoxelId", "classMR_1_1Vector__UnsignedShort__MRVoxelId.html", "classMR_1_1Vector__UnsignedShort__MRVoxelId" ],
+    [ "VersatileChangeMeshPointsAction", "classMR_1_1VersatileChangeMeshPointsAction.html", "classMR_1_1VersatileChangeMeshPointsAction" ],
     [ "Vert2RegionMap", "classMR_1_1Vert2RegionMap.html", "classMR_1_1Vert2RegionMap" ],
     [ "VertBitSet", "classMR_1_1VertBitSet.html", "classMR_1_1VertBitSet" ],
     [ "VertBMap", "classMR_1_1VertBMap.html", "classMR_1_1VertBMap" ],
