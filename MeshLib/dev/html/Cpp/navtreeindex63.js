@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1OffsetContoursOrigins.html":[6,0,0,20,385],
+"structMR_1_1OffsetContoursParams.html":[6,0,0,20,386],
 "structMR_1_1OffsetContoursRestoreZParams.html":[6,0,0,20,387],
 "structMR_1_1OffsetParameters.html":[6,0,0,20,817],
 "structMR_1_1OneMeshContour.html":[6,0,0,20,392],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1RenderDimensions_1_1RadiusParams.html":[6,0,0,20,604],
 "structMR_1_1RenderDimensions_1_1Tolerance.html":[6,0,0,20,600],
 "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html":[6,0,1,0,1,39,0,1],
-"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html":[6,0,2,0,2,24,0,1],
-"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[6,0,1,0,1,39,0,1,0],
-"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[6,0,2,0,2,24,0,1,0]
+"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html":[6,0,2,0,2,24,0,1]
 };

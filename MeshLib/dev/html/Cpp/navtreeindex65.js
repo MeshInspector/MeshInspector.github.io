@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1TrimWithPlaneParams.html":[6,0,0,20,345],
+"structMR_1_1TrivialMetricToPenalty.html":[6,0,0,20,191],
 "structMR_1_1TwoLineSegmClosestPoints.html":[6,0,0,20,489],
 "structMR_1_1TypedFlatTree.html":[6,0,0,20,670],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html":[6,0,0,20,715],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html":[6,0,2,0,2,32,0],
 "structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a29acc2ff0fb3ba09c6eecaf68f3a5f65":[6,0,1,0,1,51,0,1],
 "structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a29acc2ff0fb3ba09c6eecaf68f3a5f65":[6,0,2,0,2,32,0,1],
-"structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a767746c507a11feeea1dcaf6e35cb2e3":[6,0,1,0,1,51,0,0],
-"structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a767746c507a11feeea1dcaf6e35cb2e3":[6,0,2,0,2,32,0,0],
-"structMR_1_1WeightedShell_1_1ParametersBase.html":[6,0,1,0,1,51,1]
+"structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a767746c507a11feeea1dcaf6e35cb2e3":[6,0,1,0,1,51,0,0]
 };

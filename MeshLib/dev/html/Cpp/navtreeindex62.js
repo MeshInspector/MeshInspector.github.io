@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1Mesh.html#a9c3fed969fd69fc13302e22b2d6fd4ad":[6,0,0,7,1,118],
+"structMR_1_1Mesh.html#a9c8ead50efe2f8a111848b488f0a6aca":[6,0,0,7,1,122],
 "structMR_1_1Mesh.html#a9f365e654b9b4a4584293c3add2fdb05":[6,0,0,7,1,107],
 "structMR_1_1Mesh.html#aa011de9d0180060e3b1dbcc27917c54b":[6,0,0,7,1,61],
 "structMR_1_1Mesh.html#aa04078e21e25882482b068987fbc6add":[6,0,0,7,1,99],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html":[6,0,0,20,815],
 "structMR_1_1Object_1_1ProtectedStruct.html":[6,0,0,11,4,0],
 "structMR_1_1Object_1_1ProtectedStruct.html#a7e4c38fcb6a60dc4c3126d35a637080e":[6,0,0,11,4,0,0],
-"structMR_1_1OffsetContourIndex.html":[6,0,0,20,384],
-"structMR_1_1OffsetContoursOrigins.html":[6,0,0,20,385],
-"structMR_1_1OffsetContoursParams.html":[6,0,0,20,386]
+"structMR_1_1OffsetContourIndex.html":[6,0,0,20,384]
 };

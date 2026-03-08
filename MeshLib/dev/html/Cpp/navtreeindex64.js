@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[6,0,1,0,1,39,0,1,0],
+"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[6,0,2,0,2,24,0,1,0],
 "structMR_1_1ResolveMeshDegenSettings.html":[6,0,0,10,2],
 "structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[6,0,0,10,2,1],
 "structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[6,0,0,10,2,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1TriangulationParameters.html#ad996c79c53b722337bb916669996e58a":[6,0,0,13,1,0],
 "structMR_1_1TriangulationParameters.html#aebe6d2d03a26dccb4842f001e3506202":[6,0,0,13,1,2],
 "structMR_1_1TriangulationParameters.html#af9e046f71d9cf4b908279bd24f0a1707":[6,0,0,13,1,4],
-"structMR_1_1TrimOptionalOutput.html":[6,0,0,20,346],
-"structMR_1_1TrimWithPlaneParams.html":[6,0,0,20,345],
-"structMR_1_1TrivialMetricToPenalty.html":[6,0,0,20,191]
+"structMR_1_1TrimOptionalOutput.html":[6,0,0,20,346]
 };

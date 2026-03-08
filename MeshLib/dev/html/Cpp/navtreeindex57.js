@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1TriangulationHelpers.html":[6,0,1,0,1,45],
+"namespaceMR_1_1TriangulationHelpers.html#a1d49af7a8eeeab7c3559be658f3f7abf":[6,0,1,0,1,45,3],
 "namespaceMR_1_1TriangulationHelpers.html#a411db16d5e4c2dbe23cd32a475579e0a":[6,0,1,0,1,45,7],
 "namespaceMR_1_1TriangulationHelpers.html#a7c0d563c2b38463627552396d1943390":[6,0,1,0,1,45,4],
 "namespaceMR_1_1TriangulationHelpers.html#ab287ce821d48fe623f355150ce7ccda3":[6,0,1,0,1,45,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1BMap.html":[6,0,0,20,127],
 "structMR_1_1Ball.html":[6,0,0,20,111],
 "structMR_1_1BaseFitParams.html":[6,0,0,20,552],
-"structMR_1_1BaseRenderParams.html":[6,0,0,20,278],
-"structMR_1_1BaseShellParameters.html":[6,0,0,20,816],
-"structMR_1_1BaseTiffParameters.html":[6,0,0,20,480]
+"structMR_1_1BaseRenderParams.html":[6,0,0,20,278]
 };

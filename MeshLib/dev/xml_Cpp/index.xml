@@ -10255,6 +10255,7 @@
     <member refid="group__GeneralGroup_1ga2bf410c025634089f22b3341825cd20b" kind="variable"><name>edgeWeights</name></member>
     <member refid="group__GeneralGroup_1gaab506cf4d0c39bc59ac2ac941047014b" kind="variable"><name>vmass</name></member>
     <member refid="group__GeneralGroup_1ga33962d16d47d1608ace44030dde693bc" kind="variable"><name>idealGrooves</name></member>
+    <member refid="group__GeneralGroup_1ga3ef41c990eabe59d5dbc874d00accf52" kind="variable"><name>subdivideGrooves</name></member>
   </compound>
   <compound refid="structMR_1_1TriangulationHelpers_1_1Settings" kind="struct"><name>MR::TriangulationHelpers::Settings</name>
     <member refid="structMR_1_1TriangulationHelpers_1_1Settings_1aeadcc460fdb58725f5fd22d6457ea9b2" kind="variable"><name>radius</name></member>
@@ -10753,7 +10754,7 @@
     <member refid="group__GeneralGroup_1ga3853225f96fef25c2dbce20227c54c7d" kind="variable"><name>palette_</name></member>
     <member refid="group__GeneralGroup_1ga08839c74598549c345ed5f06ffaa769f" kind="variable"><name>enableDeviationTexture_</name></member>
     <member refid="group__GeneralGroup_1ga4f7ed13fa0a8080d470fade319e360f7" kind="variable"><name>deviationCalculationMethod_</name></member>
-    <member refid="group__GeneralGroup_1ga93cf79c946234166435c0c26b7334a74" kind="variable"><name>sameValidVerticesAsInOriginMesh_</name></member>
+    <member refid="group__GeneralGroup_1ga32f9a2a3b8c9d57623374cb94a70f8b6" kind="variable"><name>sameOriginalMeshTopology_</name></member>
     <member refid="group__GeneralGroup_1ga8c958ed29a4e3f960ce7aab676126adb" kind="variable"><name>ignoreOcclusion_</name></member>
     <member refid="group__GeneralGroup_1ga03c8e502f4a92fa8e57e0d50ed97524a" kind="variable"><name>editOnlyCodirectedSurface_</name></member>
     <member refid="group__GeneralGroup_1gad0cfe05cc1cf5086455eac521a734b64" kind="function"><name>SurfaceManipulationWidget</name></member>
@@ -10770,7 +10771,7 @@
     <member refid="group__GeneralGroup_1ga181dd74e48211e1559bf51c95ea04b5d" kind="function"><name>enableDeviationVisualization</name></member>
     <member refid="group__GeneralGroup_1ga56a5628a874646dfb5089e6639a1d01c" kind="function"><name>setDeviationCalculationMethod</name></member>
     <member refid="group__GeneralGroup_1ga76aa039e8ae336abe7f7ed7b9cfa2022" kind="function"><name>deviationCalculationMethod</name></member>
-    <member refid="group__GeneralGroup_1gaaa22323f482177b79175cc494da659dc" kind="function"><name>sameValidVerticesAsInOriginMesh</name></member>
+    <member refid="group__GeneralGroup_1ga998ed9f5a542e8c57a1949c38c3a9802" kind="function"><name>sameOriginalMeshTopology</name></member>
     <member refid="group__GeneralGroup_1gaf5a9e8b4fd61a438f8ba559e9743b5ac" kind="function"><name>getMinMax</name></member>
     <member refid="group__GeneralGroup_1ga3bc89f53e9455e469e85b68524cbc035" kind="function"><name>setIgnoreOcclusion</name></member>
     <member refid="group__GeneralGroup_1gaf2026eeba0e30566834023085a3b9aac" kind="function"><name>ignoreOcclusion</name></member>
@@ -10803,6 +10804,7 @@
     <member refid="group__GeneralGroup_1ga1ec79535e6a70009906b9e2f0008cb22" kind="function"><name>createLastStableObjMesh_</name></member>
     <member refid="group__GeneralGroup_1ga8b49dc6133efe789f4fa17bb75f3641c" kind="function"><name>removeLastStableObjMesh_</name></member>
     <member refid="group__GeneralGroup_1gad1d907cbe938c1010826d617b7b662e8" kind="function"><name>compressChangePointsAction_</name></member>
+    <member refid="group__GeneralGroup_1ga9480cf2e836bdd55ef97b31078472b78" kind="function"><name>subdivideAfterAddRemove_</name></member>
     <member refid="group__GeneralGroup_1gadf5109d449597873be4c158a237ce02f" kind="function"><name>updateDistancesAndRegion_</name></member>
   </compound>
   <compound refid="classMR_1_1SurfacePointWidget" kind="class"><name>MR::SurfacePointWidget</name>
@@ -23315,6 +23317,7 @@
     <member refid="group__GeneralGroup_1ga2bf410c025634089f22b3341825cd20b" kind="variable"><name>edgeWeights</name></member>
     <member refid="group__GeneralGroup_1gaab506cf4d0c39bc59ac2ac941047014b" kind="variable"><name>vmass</name></member>
     <member refid="group__GeneralGroup_1ga33962d16d47d1608ace44030dde693bc" kind="variable"><name>idealGrooves</name></member>
+    <member refid="group__GeneralGroup_1ga3ef41c990eabe59d5dbc874d00accf52" kind="variable"><name>subdivideGrooves</name></member>
     <member refid="group__GeneralGroup_1ga1470ce9a66bc6a7554b36d69c81102e1" kind="variable"><name>settings_</name></member>
     <member refid="group__GeneralGroup_1ga83f58ee4ef74ddd5127a9de59ad0658e" kind="variable"><name>obj_</name></member>
     <member refid="group__GeneralGroup_1gaa0fd16498ab8c5a8415556c1e670724b" kind="variable"><name>unchangeableVerts_</name></member>
@@ -23351,7 +23354,7 @@
     <member refid="group__GeneralGroup_1ga3853225f96fef25c2dbce20227c54c7d" kind="variable"><name>palette_</name></member>
     <member refid="group__GeneralGroup_1ga08839c74598549c345ed5f06ffaa769f" kind="variable"><name>enableDeviationTexture_</name></member>
     <member refid="group__GeneralGroup_1ga4f7ed13fa0a8080d470fade319e360f7" kind="variable"><name>deviationCalculationMethod_</name></member>
-    <member refid="group__GeneralGroup_1ga93cf79c946234166435c0c26b7334a74" kind="variable"><name>sameValidVerticesAsInOriginMesh_</name></member>
+    <member refid="group__GeneralGroup_1ga32f9a2a3b8c9d57623374cb94a70f8b6" kind="variable"><name>sameOriginalMeshTopology_</name></member>
     <member refid="group__GeneralGroup_1ga8c958ed29a4e3f960ce7aab676126adb" kind="variable"><name>ignoreOcclusion_</name></member>
     <member refid="group__GeneralGroup_1ga03c8e502f4a92fa8e57e0d50ed97524a" kind="variable"><name>editOnlyCodirectedSurface_</name></member>
     <member refid="group__GeneralGroup_1gaef0e9963d176c1ff1684083ddecd4fbe" kind="variable"><name>positionType</name></member>
@@ -29061,7 +29064,7 @@
     <member refid="group__GeneralGroup_1ga181dd74e48211e1559bf51c95ea04b5d" kind="function"><name>enableDeviationVisualization</name></member>
     <member refid="group__GeneralGroup_1ga56a5628a874646dfb5089e6639a1d01c" kind="function"><name>setDeviationCalculationMethod</name></member>
     <member refid="group__GeneralGroup_1ga76aa039e8ae336abe7f7ed7b9cfa2022" kind="function"><name>deviationCalculationMethod</name></member>
-    <member refid="group__GeneralGroup_1gaaa22323f482177b79175cc494da659dc" kind="function"><name>sameValidVerticesAsInOriginMesh</name></member>
+    <member refid="group__GeneralGroup_1ga998ed9f5a542e8c57a1949c38c3a9802" kind="function"><name>sameOriginalMeshTopology</name></member>
     <member refid="group__GeneralGroup_1gaf5a9e8b4fd61a438f8ba559e9743b5ac" kind="function"><name>getMinMax</name></member>
     <member refid="group__GeneralGroup_1ga3bc89f53e9455e469e85b68524cbc035" kind="function"><name>setIgnoreOcclusion</name></member>
     <member refid="group__GeneralGroup_1gaf2026eeba0e30566834023085a3b9aac" kind="function"><name>ignoreOcclusion</name></member>
@@ -29094,6 +29097,7 @@
     <member refid="group__GeneralGroup_1ga1ec79535e6a70009906b9e2f0008cb22" kind="function"><name>createLastStableObjMesh_</name></member>
     <member refid="group__GeneralGroup_1ga8b49dc6133efe789f4fa17bb75f3641c" kind="function"><name>removeLastStableObjMesh_</name></member>
     <member refid="group__GeneralGroup_1gad1d907cbe938c1010826d617b7b662e8" kind="function"><name>compressChangePointsAction_</name></member>
+    <member refid="group__GeneralGroup_1ga9480cf2e836bdd55ef97b31078472b78" kind="function"><name>subdivideAfterAddRemove_</name></member>
     <member refid="group__GeneralGroup_1gadf5109d449597873be4c158a237ce02f" kind="function"><name>updateDistancesAndRegion_</name></member>
     <member refid="group__GeneralGroup_1ga0e9391f8516c7ce8bfa47457eac393de" kind="function"><name>~SurfacePointWidget</name></member>
     <member refid="group__GeneralGroup_1gaadc0a7d57266cccc5ac9edfc261e5671" kind="function"><name>create</name></member>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1BaseShellParameters.html":[6,0,0,20,816],
+"structMR_1_1BaseTiffParameters.html":[6,0,0,20,480],
 "structMR_1_1BasicUiRenderTask.html":[6,0,0,20,281],
 "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[6,0,0,20,282],
 "structMR_1_1BendContoursAlongCurveParams.html":[6,0,0,20,109],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[6,0,0,16,4,0,3],
 "structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[6,0,0,16,4,0,5],
 "structMR_1_1Dipole.html":[6,0,0,20,177],
-"structMR_1_1DirectionWidget_1_1Arrow.html":[6,0,0,20,546],
-"structMR_1_1Directory.html":[6,0,0,20,179],
-"structMR_1_1DirectoryIterator.html":[6,0,0,20,178]
+"structMR_1_1DirectionWidget_1_1Arrow.html":[6,0,0,20,546]
 };
