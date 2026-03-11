@@ -1,7 +1,5 @@
 var NAVTREEINDEX40 =
 {
-"classmrmeshpy_1_1IntersectionPrecomputes2__float.html#a3fcea794b088455c961b27acc845b9e0":[6,1,0,0,2,417,3],
-"classmrmeshpy_1_1IntersectionPrecomputes2__float.html#a3fcea794b088455c961b27acc845b9e0":[6,1,1,0,1,417,3],
 "classmrmeshpy_1_1IntersectionPrecomputes2__float.html#a49f76a9ee20d424edc2f738b700bd018":[6,1,0,0,2,417,9],
 "classmrmeshpy_1_1IntersectionPrecomputes2__float.html#a49f76a9ee20d424edc2f738b700bd018":[6,1,1,0,1,417,9],
 "classmrmeshpy_1_1IntersectionPrecomputes2__float.html#a63d6e7bb767463285ce3c6559612444c":[6,1,0,0,2,417,10],
@@ -249,5 +247,7 @@ var NAVTREEINDEX40 =
 "classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft.html#a6495474ff4d5ccc82a33ce50c61485b0":[6,1,0,0,2,439,0],
 "classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft.html#a6495474ff4d5ccc82a33ce50c61485b0":[6,1,1,0,1,439,0],
 "classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft.html#ae08bf085fb820385ff5621152af839bc":[6,1,0,0,2,439,2],
-"classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft.html#ae08bf085fb820385ff5621152af839bc":[6,1,1,0,1,439,2]
+"classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft.html#ae08bf085fb820385ff5621152af839bc":[6,1,1,0,1,439,2],
+"classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft.html#afe2f953921b314f3d3bacad5a8f6c8a7":[6,1,0,0,2,439,1],
+"classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft.html#afe2f953921b314f3d3bacad5a8f6c8a7":[6,1,1,0,1,439,1]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"classmrmeshpy_1_1TexturePerFace.html#a69552e9cd55c9fdb2205d421882c9873":[6,1,0,0,2,1079,6],
-"classmrmeshpy_1_1TexturePerFace.html#a69552e9cd55c9fdb2205d421882c9873":[6,1,0,0,2,1079,7],
 "classmrmeshpy_1_1TexturePerFace.html#a69552e9cd55c9fdb2205d421882c9873":[6,1,1,0,1,1079,6],
 "classmrmeshpy_1_1TexturePerFace.html#a69552e9cd55c9fdb2205d421882c9873":[6,1,1,0,1,1079,7],
 "classmrmeshpy_1_1TexturePerFace.html#a6a353b2389e211a223477f5bc0c7b961":[6,1,0,0,2,1079,28],
@@ -249,5 +247,7 @@ var NAVTREEINDEX91 =
 "classmrmeshpy_1_1TransformedMesh.html#ad3cda368b9d0f2d6cca41b102b55a0b5":[6,1,0,0,2,1086,2],
 "classmrmeshpy_1_1TransformedMesh.html#ad3cda368b9d0f2d6cca41b102b55a0b5":[6,1,1,0,1,1086,2],
 "classmrmeshpy_1_1TransparencyMode.html":[6,1,0,0,2,1088],
-"classmrmeshpy_1_1TransparencyMode.html":[6,1,1,0,1,1088]
+"classmrmeshpy_1_1TransparencyMode.html":[6,1,1,0,1,1088],
+"classmrmeshpy_1_1TransparencyMode.html#a134f02d944d482aefb155af0ffb4a99f":[6,1,0,0,2,1088,3],
+"classmrmeshpy_1_1TransparencyMode.html#a134f02d944d482aefb155af0ffb4a99f":[6,1,1,0,1,1088,3]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX34 =
 {
-"classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a75ee8102258be97086e96f5fb3031ae4":[6,1,0,0,2,281,7],
-"classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a75ee8102258be97086e96f5fb3031ae4":[6,1,1,0,1,281,7],
 "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#ad541d9f4dee2a4c7a2b11ac5f4ea2c8a":[6,1,0,0,2,281,5],
 "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#ad541d9f4dee2a4c7a2b11ac5f4ea2c8a":[6,1,1,0,1,281,5],
 "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#ae036722e0a7d4e1a66c11d1da87a314d":[6,1,0,0,2,281,14],
@@ -249,5 +247,7 @@ var NAVTREEINDEX34 =
 "classmrmeshpy_1_1FreeFormDeformer.html#a095654e018a2e18b9eed357c89cf1ee4":[6,1,0,0,2,290,4],
 "classmrmeshpy_1_1FreeFormDeformer.html#a095654e018a2e18b9eed357c89cf1ee4":[6,1,1,0,1,290,4],
 "classmrmeshpy_1_1FreeFormDeformer.html#a37a4ea9d4ce199528ebe1acaa189c3d5":[6,1,0,0,2,290,9],
-"classmrmeshpy_1_1FreeFormDeformer.html#a37a4ea9d4ce199528ebe1acaa189c3d5":[6,1,1,0,1,290,9]
+"classmrmeshpy_1_1FreeFormDeformer.html#a37a4ea9d4ce199528ebe1acaa189c3d5":[6,1,1,0,1,290,9],
+"classmrmeshpy_1_1FreeFormDeformer.html#a477f5a81a52f43818d38528017fee548":[6,1,0,0,2,290,8],
+"classmrmeshpy_1_1FreeFormDeformer.html#a477f5a81a52f43818d38528017fee548":[6,1,1,0,1,290,8]
 };

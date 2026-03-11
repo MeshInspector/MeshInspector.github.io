@@ -1,7 +1,5 @@
 var NAVTREEINDEX154 =
 {
-"classmrmeshpy_1_1std__vector__Nesting__BoxNestingCorner.html#add54482812ac25849063e7f88b64e183":[6,1,0,0,2,959,7],
-"classmrmeshpy_1_1std__vector__Nesting__BoxNestingCorner.html#add54482812ac25849063e7f88b64e183":[6,1,1,0,1,959,7],
 "classmrmeshpy_1_1std__vector__Nesting__BoxNestingCorner.html#add8cbe31f0416301b27cbaf6cca1c7e2":[6,1,0,0,2,959,16],
 "classmrmeshpy_1_1std__vector__Nesting__BoxNestingCorner.html#add8cbe31f0416301b27cbaf6cca1c7e2":[6,1,1,0,1,959,16],
 "classmrmeshpy_1_1std__vector__Nesting__BoxNestingCorner.html#af0275636f065b6e95a225bef624ed80f":[6,1,0,0,2,959,12],
@@ -249,5 +247,7 @@ var NAVTREEINDEX154 =
 "classmrmeshpy_1_1std__vector__OneMeshContour.html#a68c3aef94a84bfa289e107ff281bc7fa":[6,1,0,0,2,964,16],
 "classmrmeshpy_1_1std__vector__OneMeshContour.html#a68c3aef94a84bfa289e107ff281bc7fa":[6,1,1,0,1,964,16],
 "classmrmeshpy_1_1std__vector__OneMeshContour.html#a7e7635874cf91313d23f1bd5f5a095ba":[6,1,0,0,2,964,17],
-"classmrmeshpy_1_1std__vector__OneMeshContour.html#a7e7635874cf91313d23f1bd5f5a095ba":[6,1,1,0,1,964,17]
+"classmrmeshpy_1_1std__vector__OneMeshContour.html#a7e7635874cf91313d23f1bd5f5a095ba":[6,1,1,0,1,964,17],
+"classmrmeshpy_1_1std__vector__OneMeshContour.html#a83ca413aa23598c9b0c48cff7a9283b8":[6,1,0,0,2,964,12],
+"classmrmeshpy_1_1std__vector__OneMeshContour.html#a83ca413aa23598c9b0c48cff7a9283b8":[6,1,1,0,1,964,12]
 };

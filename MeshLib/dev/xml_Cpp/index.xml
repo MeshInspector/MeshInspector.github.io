@@ -735,7 +735,8 @@
     <member refid="structMR_1_1BooleanResultMapper_1a3c9521a76c9f0ff1327150e75980e48f" kind="function"><name>map</name></member>
     <member refid="structMR_1_1BooleanResultMapper_1a4025520e93584d2b0b95e661d513df2b" kind="function"><name>map</name></member>
     <member refid="structMR_1_1BooleanResultMapper_1a49d9476b91391ce052bbd2b26db33be5" kind="function"><name>newFaces</name></member>
-    <member refid="structMR_1_1BooleanResultMapper_1a654dd05e055cf50b5ed29987e8838ac1" kind="function"><name>filteredOldFaceBitSet</name></member>
+    <member refid="structMR_1_1BooleanResultMapper_1aaf90aec00a5988f4230c6f10a48a275f" kind="function"><name>filteredOldFaceBitSet</name></member>
+    <member refid="structMR_1_1BooleanResultMapper_1a2afc6594c031077012caba95a2ba2672" kind="function"><name>getNew2OldFaceMap</name></member>
     <member refid="structMR_1_1BooleanResultMapper_1a90a7bf08cca602701e835565e3d516e7" kind="function"><name>getMaps</name></member>
   </compound>
   <compound refid="structMR_1_1BooleanResultPoints" kind="struct"><name>MR::BooleanResultPoints</name>
@@ -4941,7 +4942,6 @@
     <member refid="structMR_1_1BooleanResultMapper_1_1Maps_1a759f148ae9dcef7ecb6908d19f726e7c" kind="variable"><name>cut2newFaces</name></member>
     <member refid="structMR_1_1BooleanResultMapper_1_1Maps_1a70a6c9015f66d50b0889a5cfbdc6b9a9" kind="variable"><name>old2newEdges</name></member>
     <member refid="structMR_1_1BooleanResultMapper_1_1Maps_1accfdff73b6e9b6265313ff04878b8973" kind="variable"><name>old2newVerts</name></member>
-    <member refid="structMR_1_1BooleanResultMapper_1_1Maps_1abb0760c2ba75ba32b9fcf2d5e36fe803" kind="variable"><name>identity</name></member>
   </compound>
   <compound refid="classMR_1_1MarchingCubesByParts" kind="class"><name>MR::MarchingCubesByParts</name>
     <member refid="group__GeneralGroup_1ga731e24a7648d6e8021c2b5173ecd0277" kind="variable"><name>impl_</name></member>

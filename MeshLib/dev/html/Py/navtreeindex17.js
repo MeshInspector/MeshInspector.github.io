@@ -1,7 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"classmrmeshpy_1_1ComputeSweptVolumeParameters.html#a00e15194effa2d3668650dc6bb3e2df0":[6,1,0,0,2,162,1],
-"classmrmeshpy_1_1ComputeSweptVolumeParameters.html#a00e15194effa2d3668650dc6bb3e2df0":[6,1,1,0,1,162,1],
 "classmrmeshpy_1_1ComputeSweptVolumeParameters.html#a1c712740e51ae96b7ee16005b8c05ce4":[6,1,0,0,2,162,9],
 "classmrmeshpy_1_1ComputeSweptVolumeParameters.html#a1c712740e51ae96b7ee16005b8c05ce4":[6,1,1,0,1,162,9],
 "classmrmeshpy_1_1ComputeSweptVolumeParameters.html#a31c4358da40f008a38efa95d3ec84de3":[6,1,0,0,2,162,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX17 =
 "classmrmeshpy_1_1ContoursDistanceMapOffset_1_1OffsetType.html#aaa9bf279dae1e20ae3087593cf703d0b":[6,1,0,0,2,169,0,8],
 "classmrmeshpy_1_1ContoursDistanceMapOffset_1_1OffsetType.html#aaa9bf279dae1e20ae3087593cf703d0b":[6,1,1,0,1,169,0,8],
 "classmrmeshpy_1_1ContoursDistanceMapOffset_1_1OffsetType.html#abf55fc606a45d9952d11a11d0d060123":[6,1,0,0,2,169,0,6],
-"classmrmeshpy_1_1ContoursDistanceMapOffset_1_1OffsetType.html#abf55fc606a45d9952d11a11d0d060123":[6,1,1,0,1,169,0,6]
+"classmrmeshpy_1_1ContoursDistanceMapOffset_1_1OffsetType.html#abf55fc606a45d9952d11a11d0d060123":[6,1,1,0,1,169,0,6],
+"classmrmeshpy_1_1ContoursDistanceMapOptions.html":[6,1,0,0,2,170],
+"classmrmeshpy_1_1ContoursDistanceMapOptions.html":[6,1,1,0,1,170]
 };

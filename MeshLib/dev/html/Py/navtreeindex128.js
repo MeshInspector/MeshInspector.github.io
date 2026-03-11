@@ -1,7 +1,5 @@
 var NAVTREEINDEX128 =
 {
-"classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double.html#adc695f76290a93303daef173ac3010f3":[6,1,0,0,2,326,7],
-"classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double.html#adc695f76290a93303daef173ac3010f3":[6,1,1,0,1,326,7],
 "classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double.html#ae7e336430fc9e6765a998fc60cac5680":[6,1,0,0,2,326,3],
 "classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double.html#ae7e336430fc9e6765a998fc60cac5680":[6,1,1,0,1,326,3],
 "classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double.html#afe3c7472f7b5674dd2e3a11310618246":[6,1,0,0,2,326,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX128 =
 "classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#a476ee599718402cd6110a0d0f2f887e6":[6,1,0,0,2,374,1],
 "classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#a476ee599718402cd6110a0d0f2f887e6":[6,1,1,0,1,374,1],
 "classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#a9da04879c065da2fb60d5d7a622f4a96":[6,1,0,0,2,374,4],
-"classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#a9da04879c065da2fb60d5d7a622f4a96":[6,1,1,0,1,374,4]
+"classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#a9da04879c065da2fb60d5d7a622f4a96":[6,1,1,0,1,374,4],
+"classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#aa26bb1964760db397e5d134d895ef0e2":[6,1,0,0,2,374,7],
+"classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html#aa26bb1964760db397e5d134d895ef0e2":[6,1,1,0,1,374,7]
 };

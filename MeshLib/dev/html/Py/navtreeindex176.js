@@ -1,7 +1,5 @@
 var NAVTREEINDEX176 =
 {
-"classmrviewerpy_1_1UiEntryType.html#ad2bbf1ff4c15c5cfb15f764c46d27667":[6,1,0,0,3,3,3],
-"classmrviewerpy_1_1UiEntryType.html#ad2bbf1ff4c15c5cfb15f764c46d27667":[6,1,1,0,2,3,3],
 "classmrviewerpy_1_1UiEntryType.html#add09a76ca6b411fbff00ae6af6dcdd7f":[6,1,0,0,3,3,1],
 "classmrviewerpy_1_1UiEntryType.html#add09a76ca6b411fbff00ae6af6dcdd7f":[6,1,1,0,2,3,1],
 "classmrviewerpy_1_1UiEntryType.html#ae8adb397239444d35a63faab27792b0f":[6,1,0,0,3,3,8],
@@ -249,5 +247,7 @@ var NAVTREEINDEX176 =
 "functions_vars_t.html":[6,1,1,3,2,18],
 "functions_vars_u.html":[6,1,1,3,2,19],
 "functions_vars_v.html":[6,1,1,3,2,20],
-"functions_vars_w.html":[6,1,1,3,2,21]
+"functions_vars_w.html":[6,1,1,3,2,21],
+"functions_vars_x.html":[6,1,1,3,2,22],
+"functions_vars_y.html":[6,1,1,3,2,23]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"classMR_1_1SimpleBinaryVolume.html#ab0f4aecf27abefe9f88a5040cba5ca36":[6,3,0,0,0,776,3],
 "classMR_1_1SimpleBinaryVolume.html#ac0cb4fb8e1d1cadf0abed66e9f7c8112":[6,3,0,0,0,776,5],
 "classMR_1_1SimpleBinaryVolume.html#ad8da19ed4dc59475b012cdc7e05f2da1":[6,3,0,0,0,776,2],
 "classMR_1_1SimpleBinaryVolume.html#ad9e31731391fdffd65fc94baa6316897":[6,3,0,0,0,776,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX56 =
 "classMR_1_1Src2TgtMaps.html#afeb4501454205c739291ad3a5d68bf76":[6,3,0,0,0,795,2],
 "classMR_1_1StitchHolesParams.html":[6,3,0,0,0,796],
 "classMR_1_1StitchHolesParams.html#a36ad238a8454e764bbf01e954eb5e176":[6,3,0,0,0,796,0],
-"classMR_1_1StitchHolesParams.html#a864057f59341c6c201d82b91b4d9c482":[6,3,0,0,0,796,2]
+"classMR_1_1StitchHolesParams.html#a864057f59341c6c201d82b91b4d9c482":[6,3,0,0,0,796,2],
+"classMR_1_1StitchHolesParams.html#a960ec243807f948040f26d5a634e5dc8":[6,3,0,0,0,796,4]
 };

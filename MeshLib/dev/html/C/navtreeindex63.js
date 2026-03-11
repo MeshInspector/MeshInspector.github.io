@@ -1,7 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"MRMeshTopology_8h.html#aff4e2eb451fb94a8c817d52a369d6275":[6,2,1,0,0,0,1,199,110],
-"MRMeshTopology_8h_source.html":[6,2,1,0,0,0,1,199],
 "MRMeshTriPoint_8h.html":[6,2,1,0,0,0,1,202],
 "MRMeshTriPoint_8h.html#a03121144e10a7224b395344ceee1b2f6":[6,2,1,0,0,0,1,202,46],
 "MRMeshTriPoint_8h.html#a03cc4bc4e9a81898b5367ea685880fd4":[6,2,1,0,0,0,1,202,14],
@@ -249,5 +247,7 @@ var NAVTREEINDEX63 =
 "MRMesh_8h.html#af6e3e5aa2040a1e5dd7e1fbd9fdd8369":[6,2,1,0,0,0,1,154,99],
 "MRMesh_8h.html#af7b49a506a7211d41becbe13f2782fbd":[6,2,1,0,0,0,1,154,101],
 "MRMesh_8h.html#afd9a5a04df354435d727caa9fb9bccf3":[6,2,1,0,0,0,1,154,136],
-"MRMesh_8h_source.html":[6,2,1,0,0,0,1,154]
+"MRMesh_8h_source.html":[6,2,1,0,0,0,1,154],
+"MRMinMaxArg_8h.html":[6,2,1,0,0,0,1,203],
+"MRMinMaxArg_8h.html#a0929ae3d497b3fdb0168f951ba003b80":[6,2,1,0,0,0,1,203,8]
 };

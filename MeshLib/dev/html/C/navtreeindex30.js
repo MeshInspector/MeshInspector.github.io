@@ -1,7 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"MRDistanceMap_8h.html#a6bc4b794591e4db46fed93e99d1866ab":[6,2,1,0,0,0,1,70,53],
-"MRDistanceMap_8h.html#a6bf74eec059a4bab2c7f9c65e03eec58":[6,2,1,0,0,0,1,70,38],
 "MRDistanceMap_8h.html#a6d8e3f5ae2f7106a225e8ad9263fa70f":[6,2,1,0,0,0,1,70,43],
 "MRDistanceMap_8h.html#a717ce00c87b4ed4c8f5ebce2d2eaec3f":[6,2,1,0,0,0,1,70,59],
 "MRDistanceMap_8h.html#a718eb05444279bf25d0c1f743b065b01":[6,2,1,0,0,0,1,70,64],
@@ -249,5 +247,7 @@ var NAVTREEINDEX30 =
 "MRDistanceToMeshOptions_8h.html#a1f8b808a6a0957c45856d8fe3dae25bf":[6,2,1,0,0,0,1,75,34],
 "MRDistanceToMeshOptions_8h.html#a22a261d911dd00217ff8232e453ea502":[6,2,1,0,0,0,1,75,46],
 "MRDistanceToMeshOptions_8h.html#a27357dc4532fc11fcb9e7d60e37a0424":[6,2,1,0,0,0,1,75,50],
-"MRDistanceToMeshOptions_8h.html#a284b42296c6e31503d536280b00d0e0c":[6,2,1,0,0,0,1,75,28]
+"MRDistanceToMeshOptions_8h.html#a284b42296c6e31503d536280b00d0e0c":[6,2,1,0,0,0,1,75,28],
+"MRDistanceToMeshOptions_8h.html#a29c9a6863d3ec1e73e80d0732704ee75":[6,2,1,0,0,0,1,75,19],
+"MRDistanceToMeshOptions_8h.html#a31e87ccf76572b3372e8283c7cb775ea":[6,2,1,0,0,0,1,75,6]
 };

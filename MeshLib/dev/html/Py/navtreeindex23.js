@@ -1,7 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"classmrmeshpy_1_1DistanceToMeshOptions.html#a6599e39abe3fb35f92b2bad44faebb84":[6,1,0,0,2,213,4],
-"classmrmeshpy_1_1DistanceToMeshOptions.html#a6599e39abe3fb35f92b2bad44faebb84":[6,1,1,0,1,213,4],
 "classmrmeshpy_1_1DistanceToMeshOptions.html#aa5a71155931c1d066d5a1e26f45424a5":[6,1,0,0,2,213,0],
 "classmrmeshpy_1_1DistanceToMeshOptions.html#aa5a71155931c1d066d5a1e26f45424a5":[6,1,1,0,1,213,0],
 "classmrmeshpy_1_1DistanceToMeshOptions.html#ac2a9eda1a9655941090c176d8729bc27":[6,1,0,0,2,213,9],
@@ -249,5 +247,7 @@ var NAVTREEINDEX23 =
 "classmrmeshpy_1_1EdgeBitSet.html#ac461c21b7ff8ca492e862444617d86a1":[6,1,0,0,2,220,25],
 "classmrmeshpy_1_1EdgeBitSet.html#ac461c21b7ff8ca492e862444617d86a1":[6,1,1,0,1,220,25],
 "classmrmeshpy_1_1EdgeBitSet.html#aca47e274fa08bb2e989f9f2feaa8fc8a":[6,1,0,0,2,220,0],
-"classmrmeshpy_1_1EdgeBitSet.html#aca47e274fa08bb2e989f9f2feaa8fc8a":[6,1,1,0,1,220,0]
+"classmrmeshpy_1_1EdgeBitSet.html#aca47e274fa08bb2e989f9f2feaa8fc8a":[6,1,1,0,1,220,0],
+"classmrmeshpy_1_1EdgeBitSet.html#ad3b5039089dbdf9883c257ed93fcbddd":[6,1,0,0,2,220,16],
+"classmrmeshpy_1_1EdgeBitSet.html#ad3b5039089dbdf9883c257ed93fcbddd":[6,1,1,0,1,220,16]
 };

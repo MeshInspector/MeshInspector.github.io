@@ -1,7 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"classmrmeshpy_1_1ObjectPoints.html":[6,1,0,0,2,619],
-"classmrmeshpy_1_1ObjectPoints.html":[6,1,1,0,1,619],
 "classmrmeshpy_1_1ObjectPoints.html#a1b8a3423ebe5c2c2bfe68309b0180d64":[6,1,0,0,2,619,1],
 "classmrmeshpy_1_1ObjectPoints.html#a1b8a3423ebe5c2c2bfe68309b0180d64":[6,1,1,0,1,619,1],
 "classmrmeshpy_1_1ObjectPoints.html#a415f54e82942029e197c986b7602a5d3":[6,1,0,0,2,619,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX65 =
 "classmrmeshpy_1_1ObjectVoxels.html#ac2ceba763c7b2f76a0a16199f6158d12":[6,1,0,0,2,624,20],
 "classmrmeshpy_1_1ObjectVoxels.html#ac2ceba763c7b2f76a0a16199f6158d12":[6,1,1,0,1,624,20],
 "classmrmeshpy_1_1ObjectVoxels.html#ac7b4bfe6d1b1aa1851433bc0869a2f63":[6,1,0,0,2,624,35],
-"classmrmeshpy_1_1ObjectVoxels.html#ac7b4bfe6d1b1aa1851433bc0869a2f63":[6,1,1,0,1,624,35]
+"classmrmeshpy_1_1ObjectVoxels.html#ac7b4bfe6d1b1aa1851433bc0869a2f63":[6,1,1,0,1,624,35],
+"classmrmeshpy_1_1ObjectVoxels.html#ad138a3220012614e3d5d68bbb90c48d9":[6,1,0,0,2,624,54],
+"classmrmeshpy_1_1ObjectVoxels.html#ad138a3220012614e3d5d68bbb90c48d9":[6,1,1,0,1,624,54]
 };

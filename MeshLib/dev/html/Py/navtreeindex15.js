@@ -1,7 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"classmrmeshpy_1_1ChangeSceneAction.html#ac520e382f4f52e8d1e6bf1190a621dd3":[6,1,0,0,2,135,4],
-"classmrmeshpy_1_1ChangeSceneAction.html#ac520e382f4f52e8d1e6bf1190a621dd3":[6,1,1,0,1,135,4],
 "classmrmeshpy_1_1ChangeSceneAction.html#addbbe748e02ae2257925309281bfc996":[6,1,0,0,2,135,1],
 "classmrmeshpy_1_1ChangeSceneAction.html#addbbe748e02ae2257925309281bfc996":[6,1,1,0,1,135,1],
 "classmrmeshpy_1_1ChangeSceneAction_1_1Type.html":[6,1,0,0,2,135,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX15 =
 "classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html":[6,1,0,0,2,152],
 "classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html":[6,1,1,0,1,152],
 "classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#a0e0598f4890fbfb362b605f74f9a63d6":[6,1,0,0,2,152,6],
-"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#a0e0598f4890fbfb362b605f74f9a63d6":[6,1,1,0,1,152,6]
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#a0e0598f4890fbfb362b605f74f9a63d6":[6,1,1,0,1,152,6],
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#a12aff3a68e7c390b284765c989c5f167":[6,1,0,0,2,152,3],
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#a12aff3a68e7c390b284765c989c5f167":[6,1,1,0,1,152,3]
 };

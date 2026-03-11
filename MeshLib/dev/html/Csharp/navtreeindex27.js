@@ -1,6 +1,5 @@
 var NAVTREEINDEX27 =
 {
-"classMR_1_1ConstBox__Vector3i64.html#a999e24a8601d97ed2d1122fc3dd1b126":[6,3,0,0,0,267,2],
 "classMR_1_1ConstBox__Vector3i64.html#a9d25949ec6a3b81ef4ee689eb7ba9eb3":[6,3,0,0,0,267,13],
 "classMR_1_1ConstBox__Vector3i64.html#aa2b3b84debe730f592e97ea8e44821bb":[6,3,0,0,0,267,6],
 "classMR_1_1ConstBox__Vector3i64.html#aa2d71e173b82b85a2739add4ef429e5f":[6,3,0,0,0,267,18],
@@ -249,5 +248,6 @@ var NAVTREEINDEX27 =
 "classMR_1_1ConstantCuspParams.html#a27c4e60afa84b6944668c323ccdc19c0":[6,3,0,0,0,214,19],
 "classMR_1_1ConstantCuspParams.html#a28397b7bf0c6302bd83d093a2c3dbb54":[6,3,0,0,0,214,7],
 "classMR_1_1ConstantCuspParams.html#a3ab5c924813db110a7a7ba75c976d6e5":[6,3,0,0,0,214,9],
-"classMR_1_1ConstantCuspParams.html#a449a2fd9d26026c2f131f156d68b3585":[6,3,0,0,0,214,24]
+"classMR_1_1ConstantCuspParams.html#a449a2fd9d26026c2f131f156d68b3585":[6,3,0,0,0,214,24],
+"classMR_1_1ConstantCuspParams.html#a49149680f75c85e851510c4447b43dfe":[6,3,0,0,0,214,6]
 };

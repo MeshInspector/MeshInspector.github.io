@@ -1,7 +1,5 @@
 var NAVTREEINDEX141 =
 {
-"classmrmeshpy_1_1std__vector__AffineXf__Vector3__float.html#a746077275258682cc3904d7b872989f2":[6,1,0,0,2,897,13],
-"classmrmeshpy_1_1std__vector__AffineXf__Vector3__float.html#a746077275258682cc3904d7b872989f2":[6,1,1,0,1,897,13],
 "classmrmeshpy_1_1std__vector__AffineXf__Vector3__float.html#a75323c70c48d221775e84e8cef51e611":[6,1,0,0,2,897,8],
 "classmrmeshpy_1_1std__vector__AffineXf__Vector3__float.html#a75323c70c48d221775e84e8cef51e611":[6,1,1,0,1,897,8],
 "classmrmeshpy_1_1std__vector__AffineXf__Vector3__float.html#a7b9f0f63d4d3ee2fcd7675c184df795b":[6,1,0,0,2,897,15],
@@ -249,5 +247,7 @@ var NAVTREEINDEX141 =
 "classmrmeshpy_1_1std__vector__CurvePoint.html#a6591413a954032072ac9092e8fc24bda":[6,1,0,0,2,902,8],
 "classmrmeshpy_1_1std__vector__CurvePoint.html#a6591413a954032072ac9092e8fc24bda":[6,1,1,0,1,902,8],
 "classmrmeshpy_1_1std__vector__CurvePoint.html#a7a43001f0ec01fade691a97c846e10c0":[6,1,0,0,2,902,18],
-"classmrmeshpy_1_1std__vector__CurvePoint.html#a7a43001f0ec01fade691a97c846e10c0":[6,1,1,0,1,902,18]
+"classmrmeshpy_1_1std__vector__CurvePoint.html#a7a43001f0ec01fade691a97c846e10c0":[6,1,1,0,1,902,18],
+"classmrmeshpy_1_1std__vector__CurvePoint.html#a807d36ac7cff52f62b7d46b8d3d9661c":[6,1,0,0,2,902,23],
+"classmrmeshpy_1_1std__vector__CurvePoint.html#a807d36ac7cff52f62b7d46b8d3d9661c":[6,1,1,0,1,902,23]
 };

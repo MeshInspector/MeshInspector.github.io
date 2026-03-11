@@ -1,7 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"classmrmeshpy_1_1ChangeMeshPointsAction.html#afc74325a7079c2993bc40cfdccc7715b":[6,1,0,0,2,115,4],
-"classmrmeshpy_1_1ChangeMeshPointsAction.html#afc74325a7079c2993bc40cfdccc7715b":[6,1,1,0,1,115,4],
 "classmrmeshpy_1_1ChangeMeshTexturePerFaceAction.html":[6,1,0,0,2,116],
 "classmrmeshpy_1_1ChangeMeshTexturePerFaceAction.html":[6,1,1,0,1,116],
 "classmrmeshpy_1_1ChangeMeshTexturePerFaceAction.html#a4c2780dfa69668eb782b01cdab5431e6":[6,1,0,0,2,116,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX14 =
 "classmrmeshpy_1_1ChangeSceneAction.html#a232e82671c8b4ec80c0d3b401c352ddc":[6,1,0,0,2,135,5],
 "classmrmeshpy_1_1ChangeSceneAction.html#a232e82671c8b4ec80c0d3b401c352ddc":[6,1,1,0,1,135,5],
 "classmrmeshpy_1_1ChangeSceneAction.html#a93077eba908a224c9c36da64dab857ce":[6,1,0,0,2,135,3],
-"classmrmeshpy_1_1ChangeSceneAction.html#a93077eba908a224c9c36da64dab857ce":[6,1,1,0,1,135,3]
+"classmrmeshpy_1_1ChangeSceneAction.html#a93077eba908a224c9c36da64dab857ce":[6,1,1,0,1,135,3],
+"classmrmeshpy_1_1ChangeSceneAction.html#ac520e382f4f52e8d1e6bf1190a621dd3":[6,1,0,0,2,135,4],
+"classmrmeshpy_1_1ChangeSceneAction.html#ac520e382f4f52e8d1e6bf1190a621dd3":[6,1,1,0,1,135,4]
 };

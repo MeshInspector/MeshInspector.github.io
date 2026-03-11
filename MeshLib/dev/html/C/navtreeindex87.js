@@ -1,7 +1,5 @@
 var NAVTREEINDEX87 =
 {
-"MRPolylineTopology_8h.html#ad5aa5f4be0026a62e2db2225a13fc6c0":[6,2,1,0,0,0,1,276,69],
-"MRPolylineTopology_8h.html#ad9003d7da232ae85ef64d0505e4dce28":[6,2,1,0,0,0,1,276,14],
 "MRPolylineTopology_8h.html#ae27cca064b04fb751056934a1ed74a27":[6,2,1,0,0,0,1,276,3],
 "MRPolylineTopology_8h.html#ae4e2203c1410ccb76d12cfb6689afebd":[6,2,1,0,0,0,1,276,12],
 "MRPolylineTopology_8h.html#ae5c8140b802ae23cd117c6b366d61cc2":[6,2,1,0,0,0,1,276,21],
@@ -249,5 +247,7 @@ var NAVTREEINDEX87 =
 "MRPositionedText_8h.html":[6,2,1,0,0,0,1,278],
 "MRPositionedText_8h.html#a08c45ff754383f634f66f92b5497f5b1":[6,2,1,0,0,0,1,278,2],
 "MRPositionedText_8h.html#a12d5e8863b0d1274c5ab608ed244fd68":[6,2,1,0,0,0,1,278,6],
-"MRPositionedText_8h.html#a1df432f7e48de44cd2c2cf908393ad82":[6,2,1,0,0,0,1,278,15]
+"MRPositionedText_8h.html#a1df432f7e48de44cd2c2cf908393ad82":[6,2,1,0,0,0,1,278,15],
+"MRPositionedText_8h.html#a417aa0ad789c81256b27f90f56c74bef":[6,2,1,0,0,0,1,278,13],
+"MRPositionedText_8h.html#a41b330e5de25aa0ff8e399244eb9767d":[6,2,1,0,0,0,1,278,5]
 };

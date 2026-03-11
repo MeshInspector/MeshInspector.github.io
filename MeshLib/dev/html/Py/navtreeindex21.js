@@ -1,7 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"classmrmeshpy_1_1DepthFunction.html#aa7aa77494fe64daa71f6ea3377200622":[6,1,0,0,2,197,11],
-"classmrmeshpy_1_1DepthFunction.html#aa7aa77494fe64daa71f6ea3377200622":[6,1,1,0,1,197,11],
 "classmrmeshpy_1_1DepthFunction.html#aaef97926e9f5278828ea4a6929d1de14":[6,1,0,0,2,197,18],
 "classmrmeshpy_1_1DepthFunction.html#aaef97926e9f5278828ea4a6929d1de14":[6,1,1,0,1,197,18],
 "classmrmeshpy_1_1DepthFunction.html#ad227d62addfecbd68d0c0c8c6c95d8a0":[6,1,0,0,2,197,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX21 =
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#af11ba51d74b0430cf3f82e00a2d1a57d":[6,1,0,0,2,205,0],
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#af11ba51d74b0430cf3f82e00a2d1a57d":[6,1,1,0,1,205,0],
 "classmrmeshpy_1_1DistanceMap.html":[6,1,0,0,2,206],
-"classmrmeshpy_1_1DistanceMap.html":[6,1,1,0,1,206]
+"classmrmeshpy_1_1DistanceMap.html":[6,1,1,0,1,206],
+"classmrmeshpy_1_1DistanceMap.html#a05d1eba8ff76490bd9172494d4f74180":[6,1,0,0,2,206,23],
+"classmrmeshpy_1_1DistanceMap.html#a05d1eba8ff76490bd9172494d4f74180":[6,1,1,0,1,206,23]
 };

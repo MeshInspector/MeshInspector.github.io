@@ -177,8 +177,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4025520e93584d2b0b95e661d513df2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns undirected edges bitset of result mesh corresponding input one.  <br /></td></tr>
 <tr class="memitem:a49d9476b91391ce052bbd2b26db33be5" id="r_a49d9476b91391ce052bbd2b26db33be5"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49d9476b91391ce052bbd2b26db33be5">newFaces</a> () const</td></tr>
 <tr class="memdesc:a49d9476b91391ce052bbd2b26db33be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns only new faces that are created during boolean operation.  <br /></td></tr>
-<tr class="memitem:a654dd05e055cf50b5ed29987e8838ac1" id="r_a654dd05e055cf50b5ed29987e8838ac1"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a654dd05e055cf50b5ed29987e8838ac1">filteredOldFaceBitSet</a> (const FaceBitSet &amp;oldBS, <a class="el" href="#ad0b1836dae4789a5640522e69a889587">MapObject</a> obj)</td></tr>
-<tr class="memdesc:a654dd05e055cf50b5ed29987e8838ac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns updated oldBS leaving only faces that has corresponding ones in result mesh  <br /></td></tr>
+<tr class="memitem:aaf90aec00a5988f4230c6f10a48a275f" id="r_aaf90aec00a5988f4230c6f10a48a275f"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf90aec00a5988f4230c6f10a48a275f">filteredOldFaceBitSet</a> (const FaceBitSet &amp;oldBS, <a class="el" href="#ad0b1836dae4789a5640522e69a889587">MapObject</a> obj) const</td></tr>
+<tr class="memdesc:aaf90aec00a5988f4230c6f10a48a275f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns updated oldBS leaving only faces that has corresponding ones in result mesh  <br /></td></tr>
+<tr class="memitem:a2afc6594c031077012caba95a2ba2672" id="r_a2afc6594c031077012caba95a2ba2672"><td class="memItemLeft" align="right" valign="top">FaceMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2afc6594c031077012caba95a2ba2672">getNew2OldFaceMap</a> (<a class="el" href="#ad0b1836dae4789a5640522e69a889587">MapObject</a> obj) const</td></tr>
+<tr class="memdesc:a2afc6594c031077012caba95a2ba2672"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns map: new_face_id-&gt;old_obj_face_id for faces from  <br /></td></tr>
 <tr class="memitem:a90a7bf08cca602701e835565e3d516e7" id="r_a90a7bf08cca602701e835565e3d516e7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1BooleanResultMapper_1_1Maps.html">Maps</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90a7bf08cca602701e835565e3d516e7">getMaps</a> (<a class="el" href="#ad0b1836dae4789a5640522e69a889587">MapObject</a> index) const</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -246,8 +248,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a654dd05e055cf50b5ed29987e8838ac1" name="a654dd05e055cf50b5ed29987e8838ac1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a654dd05e055cf50b5ed29987e8838ac1">&#9670;&#160;</a></span>filteredOldFaceBitSet()</h2>
+<a id="aaf90aec00a5988f4230c6f10a48a275f" name="aaf90aec00a5988f4230c6f10a48a275f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf90aec00a5988f4230c6f10a48a275f">&#9670;&#160;</a></span>filteredOldFaceBitSet()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -260,7 +262,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#ad0b1836dae4789a5640522e69a889587">MapObject</a></td>          <td class="paramname"><span class="paramname"><em>obj</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#ad0b1836dae4789a5640522e69a889587">MapObject</a></td>          <td class="paramname"><span class="paramname"><em>obj</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -291,6 +293,39 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2afc6594c031077012caba95a2ba2672" name="a2afc6594c031077012caba95a2ba2672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2afc6594c031077012caba95a2ba2672">&#9670;&#160;</a></span>getNew2OldFaceMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FaceMap MR::BooleanResultMapper::getNew2OldFaceMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad0b1836dae4789a5640522e69a889587">MapObject</a></td>          <td class="paramname"><span class="paramname"><em>obj</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns map: new_face_id-&gt;old_obj_face_id for faces from </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">obj</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
